@@ -59,23 +59,43 @@ def slugify(url: str) -> str:
     return f"{name or 'img'}-{digest}"
 
 
-# Wikimedia 只接受固定几档缩略图宽度，其它宽度会返回 400
+# Wikimedia 只接受固定几档缩略图宽度，其它宽度会返回 400。
+# 1280px 对网页报告足够，且比原图小一到两个数量级（原图常有 6000–15000px 宽）。
 WM_THUMB_SIZES = (1280, 1024, 800, 640)
 
 
 def url_variants(url: str) -> list[str]:
-    """为 Wikimedia 缩略图链接生成候选：先试合法尺寸，再退回原图。"""
+    """生成候选下载地址：优先缩略图，最后才退回原图。
+
+    data.js 里写的多是 Commons 原图地址，例如
+        …/commons/c/c7/Foo.jpg
+    对应的缩略图地址是
+        …/commons/thumb/c/c7/Foo.jpg/1280px-Foo.jpg
+    直接下原图会拖到几十 MB 一张，所以这里统一先转缩略图。
+    """
+    # 已经是 thumb 链接
     m = re.match(r"(.*/thumb/)(.+?)/(\d+)px-(.+)$", url)
-    if not m:
-        return [url]
-    prefix, filepath, width, tail = m.groups()
-    out = [url] if int(width) in WM_THUMB_SIZES else []
-    for w in WM_THUMB_SIZES:
-        cand = f"{prefix}{filepath}/{w}px-{tail}"
-        if cand not in out:
-            out.append(cand)
-    out.append(prefix.replace("/thumb/", "/") + filepath)  # 原始全尺寸
-    return out
+    if m:
+        prefix, filepath, width, tail = m.groups()
+        out = [url] if int(width) in WM_THUMB_SIZES else []
+        for w in WM_THUMB_SIZES:
+            cand = f"{prefix}{filepath}/{w}px-{tail}"
+            if cand not in out:
+                out.append(cand)
+        out.append(prefix.replace("/thumb/", "/") + filepath)
+        return out
+
+    # Commons 原图链接 → 先转成缩略图
+    m = re.match(r"(https://upload\.wikimedia\.org/wikipedia/commons/)([0-9a-f]/[0-9a-f]{2}/)(.+)$", url)
+    if m:
+        base, shard, fname = m.groups()
+        # SVG 的缩略图后缀是 .png，其余保持原扩展名
+        tail = fname + ".png" if fname.lower().endswith(".svg") else fname
+        out = [f"{base}thumb/{shard}{fname}/{w}px-{tail}" for w in WM_THUMB_SIZES]
+        out.append(url)  # 全部缩略图都失败才退回原图
+        return out
+
+    return [url]
 
 
 def download(url: str, retries: int = 4) -> tuple[bytes, str]:
