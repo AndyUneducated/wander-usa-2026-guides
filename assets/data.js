@@ -12,8 +12,9 @@ var REGIONS = [
     name: '① San Jose → Santa Barbara 沿途',
     navName: '中央海岸',
     color: '#4da3ff',
-    lead: '因 Plaskett Fire，1 号公路南段封闭，这一段必须走 US-101 经 Paso Robles 再转 CA-46 West 下到 Cambria。' +
-      '好消息是 Green Valley 观景点和 DAOU 酒庄本来就在这条绕行路上，从「绕远」变成了「顺路」。',
+    lead: '因 Plaskett Fire，1 号公路南段（SLO/Monterey 县界至 Kirk Creek 一带）仍然封闭，南下主干必须走 US-101 经 Paso Robles 再转 CA-46 West 下到 Cambria。' +
+      '好消息是 Green Valley 观景点和 DAOU 酒庄本来就在这条绕行路上，从「绕远」变成了「顺路」。' +
+      '<strong>9 月 3 日起北段已解封至 PM45，Pfeiffer Beach 恢复可达</strong>，但只能从 Carmel/Monterey 方向进出后原路折返，不能南北贯通。',
     callouts: [
       {
         type: 'warn',
@@ -25,9 +26,14 @@ var REGIONS = [
       },
       {
         type: 'warn',
-        title: '封闭区内这些点这次完全去不了',
-        html: '<p>Sand Dollar Beach、Jade Cove、Willow Creek Vista Point、Plaskett Creek、Gorda，' +
-          '以及 Pfeiffer Big Sur、Julia Pfeiffer Burns（<strong>McWay Falls</strong>）、Andrew Molera、Limekiln、Point Sur 等州立公园。</p>'
+        title: '哪些点去不了、哪个点在 9/3 又回来了',
+        html: '<p><strong>仍然去不了：</strong>Sand Dollar Beach、Jade Cove、Willow Creek Vista Point、Plaskett Creek、Gorda——' +
+          '它们既在 Hwy 1 南段封闭区内，又被 Los Padres 森林封闭令逐条点名，双重封锁，且封闭令要到两场火「declared out」才解除。</p>' +
+          '<p>Pfeiffer Big Sur、Julia Pfeiffer Burns（<strong>McWay Falls</strong>）、Andrew Molera、Limekiln、Point Sur 等州立公园' +
+          '<strong>现在车能开到门口，但公园自己仍关闭至另行通知</strong>（California State Parks 8 月 28 日公告）。' +
+          'McWay Falls 还有一层：观景用的 Overlook Trail 早在 2024 年 11 月就已长期封闭，即便公园重开也未必能拍。</p>' +
+          '<p><strong>唯一的好消息：Pfeiffer Beach 恢复可达。</strong>森林封闭令标题明文写着「EXCEPT PFEIFFER BEACH AND SYCAMORE CANYON ROAD」，' +
+          '加上北段 9/3 解封，从北侧南下即可抵达——但 9 月拍不到 Keyhole Arch 的穿孔日落，那是冬至前后的现象。</p>'
       },
       {
         type: 'info',
@@ -363,8 +369,8 @@ var REGIONS = [
         name: '瓜达卢佩沙丘（含沙丘中心）',
         en: 'Rancho Guadalupe Dunes Preserve · Dunes Center',
         score: 4,
-        tldr: '西海岸最高沙丘（550 英尺），但 9 月正处雪鸻繁殖季封闭期，核心沙丘进不去，只能拍打折版。',
-        tags: [{ t: '沙丘免费', c: 'free' }, { t: '中心 $7/人', c: 'paid' }, { t: '繁殖季封闭', c: 'risk' }, { t: '周日周一闭馆', c: 'risk' }],
+        tldr: '西海岸最高沙丘（550 英尺）。9 月仍在雪鸻繁殖季封闭期，内陆沙丘与河口进不去，但海滩本身开放，远景轮廓照常可拍。',
+        tags: [{ t: '海滩开放', c: 'free' }, { t: '中心 $7/人', c: 'paid' }, { t: '内陆沙丘封闭', c: 'risk' }, { t: '9/7 上午闸门关', c: 'risk' }],
         highlights: [
           '<strong>西海岸最高的沙丘，高达 550 英尺</strong>，加上 Santa Maria River 河口湿地，构成生态学上极重要的复合体',
           '这里<strong>没有既成步道系统</strong>——官方原文「doesn\u2019t have a system of established trails」。主要徒步是沿海滩南行至 Mussel Rock',
@@ -491,13 +497,14 @@ var REGIONS = [
         name: 'McWay 瀑布',
         en: 'McWay Falls, Julia Pfeiffer Burns SP',
         score: 5,
-        tldr: '公园因 Plaskett Fire 关闭，且 Hwy 1 南段封闭无法从 San Simeon 方向北上抵达。这次拍不到。',
-        tags: [{ t: '公园关闭', c: 'risk' }, { t: 'Hwy 1 封闭', c: 'risk' }, { t: '无解封时间表', c: 'risk' }],
+        tldr: '9/3 起道路已能开到公园门口，但公园本身仍关闭至另行通知；且观景步道自 2024 年 11 月起就已长期封闭。',
+        tags: [{ t: '公园关闭', c: 'risk' }, { t: '步道长期封闭', c: 'risk' }, { t: '无解封时间表', c: 'risk' }],
         highlights: [
           '80 英尺高的瀑布直落海滩，是加州仅有的几条「潮汐瀑布」之一，也是整条 Big Sur 海岸最著名的单一画面',
-          '<strong>Julia Pfeiffer Burns State Park 已因 Plaskett Fire 全园关闭</strong>，观景步道不可进入'
+          '<strong>不可达的理由在 9/3 变了：现在不是路的问题，是公园自己关着。</strong>Hwy 1 北段已于 9 月 3 日 6:00 解封至 PM45，车能开到公园门口；但 California State Parks 于 <strong>8 月 28 日发布的「CLOSURE OF BIG SUR STATE PARKS」公告仍然有效</strong>，Julia Pfeiffer Burns 与另外四座州立公园一并关闭至另行通知',
+          '<strong>即便公园突然重开，经典机位也未必能拍到</strong>：通往观景点的 Overlook Trail 在火灾之前就已长期关闭（自 2024 年 11 月起即无 McWay Falls 通道）。围栏之外的悬崖、沙滩、Saddle Rock 与瀑布区域一律禁入，违规可被引用甚至逮捕'
         ],
-        photo: '正常年份是 5/5 的顶级风光题材。<strong>但本次行程为 0 —— 到不了。</strong>',
+        photo: '正常年份是 5/5 的顶级风光题材。<strong>但本次行程为 0——公园关闭，且观景步道本身已封闭近两年。</strong>',
         shots: [
           {
             name: 'Overlook Trail（当前关闭）',
@@ -527,35 +534,45 @@ var REGIONS = [
       {
         id: 'pfeiffer-beach',
         n: 9,
-        gone: '本次无法抵达',
         name: 'Pfeiffer 海滩（钥匙孔石拱）',
         en: 'Pfeiffer Beach · Keyhole Arch',
-        score: 5,
-        tldr: '冬季穿孔日落的名场面，但 9 月本就对不上光轴，且现在整个 Big Sur 段封闭。双重不可行。',
-        tags: [{ t: '区域封闭', c: 'risk' }, { t: '9 月光轴对不上', c: 'risk' }],
+        score: 4,
+        tldr: '9/3 起重新可达：森林封闭令把这里明文列为例外，Hwy 1 北段也已解封。但 9 月拍不到让它出名的穿孔日落。',
+        tags: [{ t: '9/3 起可达', c: 'free' }, { t: '需从北侧进出', c: 'risk' }, { t: '9 月无穿孔日落', c: 'risk' }, { t: '$15/车', c: 'paid' }],
         highlights: [
-          '紫色沙滩加海蚀拱门，<strong>Keyhole Arch 的穿孔日落</strong>是 Big Sur 最著名的摄影题材之一',
-          '但穿孔现象只在<strong>每年 12 月至次年 1 月</strong>前后出现，9 月太阳方位角偏北，光线不会穿过拱洞'
+          '紫色沙滩配海蚀拱门，<strong>Keyhole Arch 的穿孔日落</strong>是 Big Sur 最著名的摄影题材之一——但那个现象只在<strong>每年 12 月至次年 1 月</strong>前后出现，9 月太阳方位角偏北，光线不会穿过拱洞',
+          '<strong>这里的紫色沙是真的</strong>：上游锰榴石（manganese garnet）风化后沉积在滩面，雨后与浪线附近颜色最明显，是加州少有的地质题材',
+          '即便没有穿孔光，礁岩群本身的形态、退浪拉丝与逆光水雾仍然成立，是一处扎实的海岸长曝光机位',
+          '<strong>2026 年 9 月的特殊状态</strong>：Los Padres 国家森林的紧急封闭令 <strong>Forest Order 05-07-51-26-10</strong> 标题即写明「EXCEPT PFEIFFER BEACH AND SYCAMORE CANYON ROAD」，把这里明文排除在封闭之外；配合 Hwy 1 北段于 <strong>9 月 3 日 6:00 解封至 PM45</strong>，从 Carmel / Monterey 方向南下可以正常抵达'
         ],
-        photo: '<strong>本次为 0。</strong>即便道路开放，9 月也拍不到让这里出名的那张照片——那是冬至前后的现象。',
+        photo: '风光 <strong>4/5</strong>，人像 <strong>3/5</strong>，人文 <strong>1.5/5</strong>。扣分不在于景观，而在于时令——让这里封神的那张照片是冬至前后的现象，9 月只能拍常规海景与礁石。',
         shots: [
           {
-            name: 'Keyhole Arch 正对沙滩（当前不可达）',
+            name: 'Keyhole Arch 正对沙滩（主机位）',
+            park: [36.238100, -121.815500],
             view: [36.239371, -121.818018],
-            desc: '正常情况下从 Sycamore Canyon Road（狭窄单车道）下到海滩。<strong>目前区域封闭。</strong>',
-            at: [36.23770, -121.81400]
+            desc: '沿 Sycamore Canyon Road 开到尽头停车场后步行下滩。<strong>日落前 40 分钟至日落（约 18:35–19:20）</strong>光线最好。16–35mm 拍拱门与礁岩群全景，70–200mm 单独压缩拱洞。<strong>建议带 ND 与偏振镜，1–4 秒慢门拍退浪拉丝</strong>，让水流从画面下缘的礁石间抽走形成引导线。9 月太阳落点偏拱洞北侧，别等穿孔。'
+          },
+          {
+            name: '滩北端紫沙带',
+            view: [36.240100, -121.817200],
+            desc: '退潮后沿滩向北走，注意脚下颜色偏紫红的细沙层。<strong>35–50mm 或 100mm 微距</strong>贴地拍紫沙与常规石英砂的分界，或把紫沙作为前景、拱门虚化在后。阴天与雨后颜色最饱和，正午顶光下反而看不出来。'
           }
         ],
         access: {
-          book: '—',
-          ticket: '正常年份 $15/车',
-          hours: '<strong>Big Sur 区域封闭中</strong>',
-          parking: '不可进入',
-          walk: '不可进入',
+          book: '不需预约',
+          ticket: '<strong>$15/车</strong>（Los Padres National Forest 日间使用费）',
+          hours: '日间使用区通常 09:00 至日落，<strong>日落后闸门上锁</strong>——拍完日落要立刻走，别拖到蓝调',
+          parking: '尽头的日间使用区停车场，<strong>车位极少且不接受大车与拖挂</strong>。Sycamore Canyon Road 为狭窄单车道，会车困难',
+          walk: '停车场到沙滩约 <strong>200 米 / 3 分钟</strong>，短且平缓'
         },
         notes: [
-          '即使未来单独重访，也请安排在 <strong>12 月中至 1 月中</strong>，且需要低潮加晴朗天空同时满足',
-          'Sycamore Canyon Road 常年限制大车，停车场车位极少'
+          '<strong>2026 年 9 月的通行前提：只能从北侧（Carmel / Monterey 方向）南下抵达，不能南北贯通。</strong>Hwy 1 南段（县界 PM0 至 Kirk Creek 一带）因 Plaskett Fire 仍然封闭，无 pilot car、无限时通行、无预计重开时间',
+          '<strong>Forest Order 5-07-51-25-02 规定：Sycamore Canyon Road 从 Hwy 1 路口起向西约 2.5 英里必须待在机动车内，禁止步行。</strong>也就是不能把车停在 Hwy 1 路边走进去，必须开车进入',
+          '<strong>Plaskett Fire 至今控制率仅 1%</strong>，面积在 8/30 至 9/2 两天内从 15,479 英亩涨到 28,968 英亩。这条封闭令在两场火「declared out」之前不会解除，而封闭范围随时可能再变——<strong>出发当天务必复查 Caltrans 实时路况与 Los Padres 森林封闭令</strong>',
+          '北段解封本身也不是永久保证：这条路在 8 月就有过解封后又因火势重新封闭的先例',
+          '若从 Carmel 南下，注意 <strong>Rocky Creek Bridge（Monterey 以南 15.7 英里）24 小时单向交通管制，持续到 2026 年 11 月 30 日</strong>，会产生等待，日落时段的时间预算要留余量',
+          '如果将来专程为穿孔日落再访，请安排在 <strong>12 月中至 1 月中</strong>，且需要低潮加晴朗天空同时满足'
         ],
         images: [
           { url: 'assets/img/pfeiffer-beach-ii-19295487233-11703d13.jpg', cap: 'Pfeiffer 海滩礁岩与浪 · Wikimedia Commons / CC BY-SA 2.0' },
@@ -570,8 +587,8 @@ var REGIONS = [
         name: '沙钱海滩 / 翡翠湾 / 柳溪观景点',
         en: 'Sand Dollar Beach · Jade Cove · Willow Creek Vista',
         score: 4,
-        tldr: '三处相邻点位全部落在 Hwy 1 封闭段（MM16 以北）内，并紧邻 Plaskett Fire 火场核心。',
-        tags: [{ t: 'Hwy 1 封闭段内', c: 'risk' }, { t: '紧邻火场', c: 'risk' }],
+        tldr: '双重封锁：既在 Hwy 1 仍封闭的南段内，又被森林封闭令逐条点名。可以确定地排除，无需再抱期望。',
+        tags: [{ t: 'Hwy 1 封闭段内', c: 'risk' }, { t: '森林封闭令点名', c: 'risk' }, { t: '无到期日', c: 'risk' }],
         highlights: [
           '<strong>Sand Dollar Beach</strong> 是 Big Sur 最长的沙滩；<strong>Jade Cove</strong> 以海滩上可捡到的蛇纹石玉著称；<strong>Willow Creek Vista</strong> 是俯瞰河口的路边观景台',
           '三处沿 Hwy 1 相邻分布，正常情况下可一次串联，<strong>已合并为一条</strong>',
@@ -639,11 +656,15 @@ var REGIONS = [
       },
       {
         type: 'warn',
-        title: 'Point Dume 下层停车场无限期关闭',
-        html: '<p>2026 年 8 月 1–2 日高潮位与涌浪造成严重侵蚀，崖缘不稳、局部落差近 8 英尺。' +
+        title: 'Point Dume 主通道无限期关闭——但崖顶可能另有入口',
+        html: '<p>2026 年 8 月 1–2 日高潮位与涌浪造成严重侵蚀，崖缘不稳、局部落差近 8 英尺，路基部分塌陷。' +
+          '<strong>成因是海岸侵蚀，不是山火修复工程</strong>（Palisades Fire 只是间接背景：烧毁的滨海住宅连带失去了原有海堤）。' +
           '<strong>Westward Beach Road 与 373 车位的下层停车场已关闭，无预计重开日期</strong>；' +
-          '8 月 6 日起进一步升级，<strong>Birdview Avenue 入口在每日 05:00–15:00 对行人和自行车也关闭</strong>。' +
-          '详见该条目，我给了 Zuma Beach 的替代方案。</p>'
+          '8 月 6 日起进一步升级，<strong>Birdview Avenue 入口在每日 05:00–15:00 对行人和自行车也关闭</strong>。</p>' +
+          '<p><strong>但县方公告点名关闭的是 Westward Beach Road 入口，并未提及崖顶保护区在 Cliffside Drive 29188 号的独立入口</strong>' +
+          '（约 10 个车位、限时 2 小时、不经施工闸门）。这一条无法从官方渠道确认，<strong>出发当天请致电 LA County Beaches &amp; Harbors 询问</strong>——' +
+          '这是唯一可能保住整个 Point Dume 拍摄点的信息。详见该条目，另有 Zuma Beach 替代方案。</p>' +
+          '<p>另需留意：飓风 Marie 的外围涌浪（9/4 起 6–8 英尺、持续到 9/8）正是造成 8 月 1 日崩塌的同一类组合，<strong>封闭范围在行程期内可能再变</strong>。</p>'
       },
       {
         type: 'tip',
@@ -960,7 +981,7 @@ var REGIONS = [
         access: {
           book: '不需要',
           ticket: '上桥免费',
-          hours: '日出至日落，全年 365 天',
+          hours: '<strong>日出至日落，全年 365 天开放</strong>（官网首页原文为 OPEN SUNRISE TO SUNSET, 365 DAYS）',
           parking: '桥前收费场约 96 车位 <strong>$10–20</strong>；隔壁 Surfrider Beach 县属场夏季周末 06:00–16:00 约 $15、16:00 后 $3；<strong>劳工节 9/7 按节假日费率 06:00–16:00 $20</strong>',
           walk: '到桥面约 150 米、2 分钟；<strong>到 Surfrider 沙滩最佳机位约 430 米、6–7 分钟</strong>',
         },
@@ -982,7 +1003,7 @@ var REGIONS = [
         name: '杜姆角',
         en: 'Point Dume State Beach',
         score: 2.5,
-        tldr: '本该是这一段最强的风光机位，但下层停车场无限期关闭、入口每日 05:00–15:00 连行人都禁行。已给出 Zuma Beach 替代方案。',
+        tldr: '主通道因 8/1 海岸侵蚀无限期关闭。但崖顶保护区另有一个 Cliffside Drive 入口不经施工闸门，值得当天打电话确认。',
         tags: [{ t: '免费', c: 'free' }, { t: '下层停车场关闭', c: 'risk' }, { t: '入口 05:00–15:00 禁行', c: 'risk' }, { t: '崖缘不稳', c: 'risk' }],
         highlights: [
           '凸入太平洋的圆丘状火山岬角，是 Santa Monica Bay 的西北端点。崖顶木栈道通向观景平台，' +
@@ -1016,12 +1037,16 @@ var REGIONS = [
           walk: '崖顶停车场到岬顶约 <strong>330 米、爬升 60 米、10–12 分钟</strong>',
         },
         notes: [
-          '<strong>唯一稳妥的窗口是 15:00 之后</strong>（施工时段结束），且必须做好扑空准备。崖顶 Preserve 停车场与关闭的入口共用 Birdview Avenue 通道，15:00 后能否步行进入保护区步道<strong>未能从官方渠道确认</strong>',
+          '<strong>关闭的真正原因是海岸侵蚀，不是山火修复工程。</strong>2026 年 8 月 1 日夜间的高潮位加大浪造成崖缘局部近 8 英尺落差、路基部分塌陷并损坏路面下的水管。山火只是间接背景——2025 年 1 月 Palisades Fire 烧毁的海滨住宅连带失去原有海堤，这段海岸从此没有了缓冲',
+          '<strong>这条路的状态在一年里已经反复变过：</strong>它曾因另一项排水工程封闭，并于 2026 年 6 月 11 日恢复通行，8 月 1 日才因侵蚀再次关闭。<strong>任何超过几周的旧攻略都不可靠，出发当天必须重查</strong>',
+          '<strong>可能保住这个点的一条线索：崖顶保护区另有一个独立入口，在 Cliffside Drive 29188 号</strong>（约 10 个车位、其中 2 个无障碍、限时 2 小时），<strong>不经过 Birdview Avenue 的施工闸门</strong>。县方公告点名关闭的是 Westward Beach Road 入口，并未提及 Cliffside Drive 一侧，因此「连行人都禁行」对崖顶步道未必适用。<strong>但这一条无法从官方渠道确认，请当天致电 LA County Beaches &amp; Harbors 询问该入口是否开放</strong>——这是唯一可能保住整个 Point Dume 拍摄点的信息',
           '<strong>崖缘不稳、局部落差近 8 英尺，绝对不要越过警戒锥、警示带或围栏</strong>，越界可致重伤且属违规',
           '这处火烧区岸段因原有海堤随房屋损毁而失去保护，<strong>侵蚀仍在持续</strong>',
           '1、2、3 号卫生间因水管被侵蚀损坏关闭，仅有临时化学厕所',
           '下到 Big Dume 沙滩的长阶梯受潮汐控制，<strong>高潮时通道会被完全切断</strong>',
-          '出发当天务必查 malibucity.org 的 Alert Center 与 parks.ca.gov 公告栏。保护区内禁止携犬'
+          '出发当天务必查 malibucity.org 的 Alert Center 与 parks.ca.gov 公告栏。保护区内禁止携犬',
+          '<strong>行程期内这里有再次变化的现实可能</strong>：飓风 Marie 的外围涌浪（9/4 起 6–8 英尺、持续到 9/8）与高潮位，正是 8 月 1 日造成崩塌的同一类组合。封闭范围可能扩大，也可能因施工阶段结束而取消时段限制',
+          '若改去 Zuma Beach，注意 Westward Beach Road 与 Zuma 主入口之间的 <strong>Zuma Creek 涌水路口曾于 2026 年 6 月 11 日因高浪漫溢而封闭</strong>，出发前可致电 City of Malibu（310-456-2489）确认已恢复'
         ],
         images: [
           { url: 'assets/img/point-dume-from-zuma-beach-932994ed.jpg', cap: '从 Zuma Beach 远眺 Point Dume，即推荐的替代机位 · OMCV / 公有领域' },
@@ -2095,7 +2120,9 @@ var REGIONS = [
         },
         notes: [
           '崖壁陡直无护栏处极危险，勿靠近边缘或翻越围栏。<strong>海风强劲，三脚架需压重</strong>',
-          '前往此处需经 Palos Verdes Drive；<strong>该路穿越 Portuguese Bend 滑坡区的路段仍在持续沥青修补</strong>，轿车可通行但请减速、留意路面高差与横向裂缝，行前查 rpvca.gov/landmovement',
+          '前往此处需经 Palos Verdes Drive South；<strong>该路对汽车正常开放</strong>，穿越 Portuguese Bend 滑坡区的路段仍在持续沥青修补，请减速、留意路面高差与横向裂缝。' +
+            '好消息是<strong>滑动已显著减速</strong>：峰值曾达每周 12 英寸，2026 年 8 月最新读数为每周约 1.1 英寸。行前仍建议查 rpvca.gov/landmovement',
+          '<strong>注意两轮车禁令仍然有效</strong>：出于安全考虑，Palos Verdes Drive South 的滑坡路段禁止摩托车、电动自行车与自行车通行——这只影响两轮出行，自驾不受限',
           '<strong>其他替代机位</strong>：Abalone Cove Shoreline Park（距 Wayfarers 原址仅约 350 米，有崖顶海景与潮池，但位于滑坡活跃区边缘，2026 年开放状态未能确认）；Terranea Resort 崖顶公共步道（California Coastal Trail 段，非住客停车通常收费）；Trump National Golf Club 崖顶眺望（公众通行范围未能确认）'
         ],
         images: [
@@ -2525,7 +2552,7 @@ var REGIONS = [
         name: '斯克里普斯海洋研究所纪念栈桥',
         en: 'Ellen Browning Scripps Memorial Pier (UCSD)',
         score: 4,
-        tldr: '栈桥本身对公众关闭（科研设施）。9 月拍不到穿柱日落，但换个构图反而更耐看。停车免费。',
+        tldr: '栈桥对公众关闭，但 Birch Aquarium 的日落导览是唯一合法登桥途径，9 月起有场次，热门时段常售罄——想上桥请立刻订票。',
         tags: [{ t: '沙滩免费', c: 'free' }, { t: '停车免费', c: 'free' }, { t: '栈桥不可上', c: 'risk' }, { t: '9 月无穿柱日落', c: 'risk' }],
         highlights: [
           '<strong>1,084 英尺（330 米）长的全混凝土研究栈桥</strong>，1988 年建成，是全球最大的在用海洋研究栈桥之一',
@@ -2552,7 +2579,7 @@ var REGIONS = [
           }
         ],
         access: {
-          book: '不需要（上桥需 $40 导览）',
+          book: '沙滩拍摄不需预约。<strong>唯一合法登桥途径是 Birch Aquarium 的 Sunset Scripps Pier Walk</strong>：90 分钟导览，会员 $30、公众 $40，9 岁以上可参加，须提前在 aquarium.ucsd.edu 在线订票，集合点在栈桥入口闸门（8650 Kennel Way）。该项目为季节性，通常 9 月至次年 4 月运行，当前列为「部分周六与周日，持续至 2026 年 12 月」——<strong>请立刻去查 9/5、9/6、9/8、9/9 是否有场次</strong>',
           ticket: '免费（沙滩公共）',
           hours: '沙滩全天；Kellogg Park 停车场<strong>全年 22:00–04:00 禁停</strong>',
           parking: '<strong>La Jolla Shores Drive 沿线有免费路边位</strong>（最省时，距沙滩约 250 米）；Kellogg Park 停车场车位更多但离栈桥远。<strong>两者均免费</strong>',
@@ -2560,7 +2587,8 @@ var REGIONS = [
         },
         notes: [
           '<strong>9 月圣地亚哥沿岸清晨与傍晚常有海雾，会直接吞掉落日</strong>，建议当天下午查一下海岸能见度再决定是否前往',
-          '请勿试图攀爬栈桥或使用科研潜水楼梯——这是 UCSD 设施，有安保',
+          '请勿试图攀爬栈桥或使用科研潜水楼梯——这是 UCSD 设施，有安保。桥面通行严格限于 UCSD 授权人员、科研潜水队伍与官方导览团',
+          '从沙滩向栈桥拍摄<strong>没有任何新增限制</strong>：2026 年 5 月与 8 月的两次 Scrippshenge（落日恰好穿过桥墩）都有大批摄影者聚集在沙滩上，秩序正常',
           '桥墩区域涨潮时浪大且有回卷，注意脚下与器材',
           '这一带是 Matlahuayl 州立海洋保护区，<strong>禁止采集任何生物</strong>'
         ],
@@ -2767,17 +2795,19 @@ var REGIONS = [
       },
       {
         type: 'info',
-        title: '2026 年 9 月 5–9 日实际预报',
-        html: '<p>高温 <strong>35–41°C</strong>，低于 9 月常态（月均高温 39°C），但伴随西南季风水汽入侵，' +
-          '<strong>湿度显著偏高</strong>，每天有 10–30% 雷暴概率。' +
-          '研究显示湿度会放大硫化氢臭味体感——今年这几天会是一个「没那么热、但明显更臭」的 Salton Sea。' +
-          '雷暴还带来暴洪（土路瞬间不可通行）与沙尘暴（毁能见度和镜头）两个风险。</p>'
+        title: '2026 年 9 月 5–9 日实际预报（9/3 更新）',
+        html: '<p>比原先预计的<strong>凉快不少</strong>：9/5、9/6 高温约 <strong>32°C</strong>，9/7 起升至 <strong>38°C</strong> 左右，全程不到 40°C，' +
+          '且<strong>当前没有任何高温预警</strong>（上一次极端高温预警已于 8 月 29 日到期）。清晨仍是最佳拍摄时段，但已不再是安全上的硬性约束。</p>' +
+          '<p>代价是湿度：飓风 Marie 的水汽自 9/5 起移入，<strong>湿度显著偏高、每天有雷暴机会</strong>。' +
+          '研究显示湿度会放大硫化氢臭味体感——这几天会是一个「没那么热、但明显更臭」的 Salton Sea。' +
+          '雷暴还带来暴洪（土路瞬间不可通行，Slab City 之后尤其要谨慎）与沙尘暴（毁能见度和镜头）两个风险。' +
+          '反过来，<strong>雷暴云层对沙漠段的光线其实是加分项</strong>。</p>'
       },
       {
         type: 'good',
         title: '更好的时机',
         html: '<p>若改为独立专程安排在 <strong>11 月至次年 3 月</strong>：白天 21–26°C（官方推荐季），' +
-          '硫化氢排放全年最低，Sonny Bono 保护区正值观鸟旺季（10 万+ 候鸟），黄砖路也更可能因志愿者充足而开放。' +
+          '硫化氢排放全年最低，Sonny Bono 保护区正值观鸟旺季（10 万+ 候鸟），且该保护区的游客中心夏季（5/6 月至 10 月）闭馆、冬季才开放。' +
           '同样两个点，冬季的摄影回报明显高于 9 月。</p>'
       }
     ],
@@ -2788,10 +2818,10 @@ var REGIONS = [
         name: '救赎山',
         en: 'Salvation Mountain, Niland',
         score: 4.5,
-        tldr: '全免费、停车即到的民间艺术地标；人像与人文性价比极高，但必须清晨去，黄砖路已大部分关闭。',
+        tldr: '全免费、日出到日落全年开放的民间艺术地标；人像与人文性价比极高。黄砖路是唯一指定通行路径，务必踩着它走。',
         tags: [
           { t: '完全免费', c: 'free' }, { t: '无需预约', c: 'free' },
-          { t: '黄砖路多已关闭', c: 'risk' }, { t: '高温风险', c: 'risk' }
+          { t: '全年日出至日落', c: 'free' }, { t: '9/7 起 38°C', c: 'risk' }
         ],
         highlights: [
           '<strong>Leonard Knight 用 28 年、约 10 万加仑废弃乳胶漆</strong>，混合 adobe 黏土与麦秸，一个人堆出的民间艺术纪念碑。' +
@@ -2827,7 +2857,7 @@ var REGIONS = [
           {
             name: 'Slab City 入口牌坊',
             view: [33.257951, -115.462841],
-            desc: '距救赎山约 1.2 公里。白天沿主路行车观光问题不大，但不要擅入营地、不要拍摄居民，日落后不建议逗留。',
+            desc: '距救赎山约 1.2 公里。Beal Road 铺装路面延伸至救赎山，之后转为土石路，低底盘车辆需谨慎。白天沿主路行车观光问题不大，但不要擅入营地、不要拍摄居民，日落后不建议逗留。附近的 <strong>East Jesus 装置艺术园区 10:00–17:00 开放</strong>，免费、接受现金捐赠。<strong>区内无自来水、无电力、无垃圾清运</strong>，请自备每人每天至少 5 加仑水，最近加油站在约 4 英里外的 Niland。',
             at: [33.25750, -115.46250]
           }
         ],
@@ -2839,12 +2869,12 @@ var REGIONS = [
           walk: '停车到机位 <strong>不到 1 分钟</strong>；建议停留 30–45 分钟',
         },
         notes: [
-          '<strong>黄砖路（Yellow Brick Road）现已大部分关闭</strong>：因游客屡次踩踏艺术表面且缺乏志愿者看护，仅在有人手带团时开放。请按「到场可能不能上山」预期',
+          '<strong>黄砖路（Yellow Brick Road）是志愿者指定的唯一通行路径，不是封闭区</strong>：官方明确要求参观者严格沿着地面画出的黄砖路行走，以免踩坏脆弱的黏土结构。<strong>请踩着它走，不要走在它之外的任何山体表面</strong>',
           '<strong>Museum 结构已坍塌，禁止进入</strong>，官方说明只能从外部拍摄',
           '除黄砖路外，山体所有其他部分严禁攀爬',
           '捐款鼓励但非强制，<strong>只投现场捐款箱或线上捐，不要把现金交给现场任何人</strong>',
           '此处没有加油站、餐饮与可靠手机信号，<strong>最后一次加油请在 Niland 或 Calipatria 完成</strong>，并离线下载地图',
-          '带每人至少 4L 水、宽檐帽与高倍防晒。场地限速 5 mph',
+          '<strong>气温：9/5、9/6 约 32°C，9/7 起升到 38°C 左右，全程无高温预警</strong>（上一次极端高温预警已于 8/29 到期）。清晨仍是最佳拍摄时段，但不再是安全上的硬性约束。带每人至少 4L 水、宽檐帽与高倍防晒。场地限速 5 mph',
           '土地所有权存在风险：机构正募集 50 万美元购地基金以防被工业开发拆除，年运营预算仅约 6.5 万美元'
         ],
         images: [
@@ -2890,7 +2920,7 @@ var REGIONS = [
             name: 'Salton Sea State Recreation Area（Varner Harbor）',
             park: [33.502653, -115.915200],
             view: [33.502653, -115.915200],
-            desc: '湖西北岸游客中心一带。需缴州立公园日间停车费（2026 年具体金额未能确认）。',
+            desc: '湖西北岸游客中心一带。<strong>州立游憩区本身开放</strong>，日间使用区与营地 24 小时开放，需缴州立公园日间停车费（2026 年具体金额未能确认）。<strong>注意 Varner Harbor 对船只无限期封闭</strong>，因水位下降已无任何机动船下水点，且园区内任何时候都禁止车辆驶上沙滩——但这不影响岸上取景。',
             at: [33.47417, -115.88900]
           },
           {
@@ -2898,7 +2928,9 @@ var REGIONS = [
             park: [33.176795, -115.619322],
             view: [33.183651, -115.623324],
             desc: '从 906 W Sinclair Rd, Calipatria 出发，2 英里往返，登顶可俯瞰湖景。' +
-              '<strong>日出后是 9 月唯一可行的徒步窗口。</strong>注意 9 月并非观鸟季，主力候鸟群在 10 月至次年 5 月。',
+              '<strong>步道全年日出至日落开放，但游客中心 5/6 月至 10 月夏季闭馆，9 月上旬前往时会关门</strong>（总部区的抽水马桶与饮水机全年可用）。' +
+              '日出后是 9 月最舒适的徒步窗口。注意 9 月并非观鸟季，主力候鸟群在 10 月至次年 5 月。' +
+              'Unit 1（Bannister Rd 与 Vendel Rd 路口）另有 Hardenberger Trail 与两个新翻修的摄影掩体及观景平台。',
             at: [33.15000, -115.73333]
           }
         ],
