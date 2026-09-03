@@ -6,4 +6,4 @@
 
 | 本地文件 | 原始地址 |
 | --- | --- |
-| `salvation-mountain-flickr-gregthebusker-d31bfdc3.jpg` | <https://upload.wikimedia.org/wikipedia/commons/7/7a/Salvation_Mountain_-_Flickr_-_GregTheBusker.jpg> |
+| `willow-creek-road-big-sur-25785902100-5d230abd.jpg` | <https://upload.wikimedia.org/wikipedia/commons/f/f4/Willow_Creek_road%2C_Big_Sur_%2825785902100%29.jpg> |
