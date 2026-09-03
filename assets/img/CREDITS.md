@@ -6,4 +6,6 @@
 
 | 本地文件 | 原始地址 |
 | --- | --- |
-| `willow-creek-road-big-sur-25785902100-5d230abd.jpg` | <https://upload.wikimedia.org/wikipedia/commons/f/f4/Willow_Creek_road%2C_Big_Sur_%2825785902100%29.jpg> |
+| `beautiful-scenes-along-route-46-in-california-lccn2013632166-10394e50.jpg` | <https://upload.wikimedia.org/wikipedia/commons/a/a5/Beautiful_scenes_along_Route_46_in_California_LCCN2013632166.tif> |
+| `beautiful-scenes-along-route-46-in-california-lccn2013632565-52c3c1fd.jpg` | <https://upload.wikimedia.org/wikipedia/commons/7/7c/Beautiful_scenes_along_Route_46_in_California_LCCN2013632565.tif> |
+| `cameo-cove-laguna-beach-ca-by-don-ramey-logan-5f777115.jpg` | <https://upload.wikimedia.org/wikipedia/commons/c/c3/Cameo_Cove_Laguna_Beach_CA_by_Don_Ramey_Logan.jpg> |

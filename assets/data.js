@@ -188,6 +188,8 @@ var REGIONS = [
         shots: [
           {
             name: '西侧土台（主点）',
+            park: [35.545474, -120.918648],
+            view: [35.545474, -120.918648],
             desc: '<strong>70–200mm 是这里的主力镜头</strong>——压缩丘陵层次、把远处 Morro Rock 拉近，100–400mm 更佳。' +
               '16–35mm 拍全景效果一般（丘陵会被压扁）。最佳时段日落前 1 小时至日落。' +
               '<strong>拍摄前提是能见度，这是受烟雾影响最严重的点位，烟大时基本报废。</strong>',
@@ -195,12 +197,16 @@ var REGIONS = [
           },
           {
             name: '西侧土台之二（多份游记称视野最佳）',
+            park: [35.545685, -120.916466],
+            view: [35.545685, -120.916466],
             desc: '紧邻主点，位置稍高。三处土台都停一下实际取景对比即可，停车位置就是机位。',
             at: [35.54570, -120.91650]
           },
           {
             name: '东侧土台',
-            desc: '距 Hwy 1/CA-46 路口约 8.5 英里，视角略有不同，可作对比机位。东段景观转为葡萄园。',
+            park: [35.542553, -120.902518],
+            view: [35.542553, -120.902518],
+            desc: '距 Hwy 1/CA-46 路口约 11.4 英里，视角略有不同，可作对比机位。东段景观转为葡萄园。',
             at: [35.54260, -120.90250]
           }
         ],
@@ -218,7 +224,10 @@ var REGIONS = [
           '白天有农业机械上路，弯道盲区多',
           'Wikimedia Commons 上没有这个地点的照片。搜到的同名图片是印度 Tamil Nadu 的 Kodaikanal 同名景点，与此无关'
         ],
-        images: []
+        images: [
+          { url: 'assets/img/beautiful-scenes-along-route-46-in-california-lccn2013632166-10394e50.jpg', cap: 'CA-46 沿线金色丘陵与海雾 · Carol M. Highsmith / 公有领域' },
+          { url: 'assets/img/beautiful-scenes-along-route-46-in-california-lccn2013632565-52c3c1fd.jpg', cap: '海雾翻越山脊，丘陵层次分明 · Carol M. Highsmith / 公有领域' }
+        ]
       },
       {
         id: 'montana-de-oro',
@@ -287,7 +296,6 @@ var REGIONS = [
         images: [
           { url: 'assets/img/spooners-cove-mdosp-e85eed66.jpg', cap: 'Spooner\u2019s Cove 南望全景 · Eric Polk / CC BY-SA 4.0' },
           { url: 'assets/img/cliffs-at-montana-de-oro-state-park-panoramio-35f330ab.jpg', cap: '崖顶机位实景 · hakkun / CC BY-SA 3.0' },
-          { url: 'assets/img/monta-a-de-oro-state-park-united-states-unsplash-67df99f4.jpg', cap: 'Montaña de Oro 海岸 · John Konrad / CC0' },
           { url: 'assets/img/montana-de-oro-state-park-bluff-trail-4-142c2d5a.jpg', cap: 'Bluff Trail 俯瞰 Spooner\u2019s Cove · Stilfehler / CC BY-SA 4.0' }
         ]
       },
@@ -410,8 +418,7 @@ var REGIONS = [
         images: [
           { url: 'assets/img/guadalupe-nipomo-dunes-nwr-sunset-11519903986-7521feb1.jpg', cap: '沙丘日落（本题材标杆之作）· Ian Shive / USFWS / 公有领域' },
           { url: 'assets/img/guadalupe-dunes-county-park-beach-c782aa27.jpg', cap: 'Rancho Guadalupe 沙滩，即主机位 · Adbar / CC BY-SA 3.0' },
-          { url: 'assets/img/us-ca-mussel-rock-guadalupe-beach-b8338eb4.jpg', cap: '南端 Mussel Rock 回望视角 · Kevin P. Rice / CC BY-SA 3.0' },
-          { url: 'assets/img/dunes-in-guadalupe-nipomo-complex-ce821a65.jpg', cap: 'Guadalupe-Nipomo 沙丘复合体 · Jerrye & Roy Klotz / CC BY-SA 3.0' }
+          { url: 'assets/img/us-ca-mussel-rock-guadalupe-beach-b8338eb4.jpg', cap: '南端 Mussel Rock 回望视角 · Kevin P. Rice / CC BY-SA 3.0' }
         ]
       },
       {
@@ -442,12 +449,15 @@ var REGIONS = [
           },
           {
             name: 'Pismo Beach Pier（日落备案）',
+            park: [35.138974, -120.642746],
+            view: [35.138331, -120.644608],
             desc: '北侧约 3 英里，车程 8–10 分钟。<strong>栈桥桩柱剪影加落日是经典构图。</strong>' +
               '时段日落至暮光（19:20–19:45）。24–70mm；慢门 1–4 秒配 ND 拍桩柱周围的水流雾化。',
             at: [35.13980, -120.64370]
           },
           {
             name: '访客中心室内展示',
+            view: [35.106700, -120.626800],
             desc: '仅在开放时段（周二至周六 12:00–16:00）。光线弱，需大光圈。',
             at: [35.10670, -120.62680]
           }
@@ -491,6 +501,7 @@ var REGIONS = [
         shots: [
           {
             name: 'Overlook Trail（当前关闭）',
+            view: [36.157821, -121.672396],
             desc: '正常情况下从 Hwy 1 路边停车场穿隧道即到，往返约 0.6 英里。<strong>目前全园关闭。</strong>',
             at: [36.15780, -121.67080]
           }
@@ -530,6 +541,7 @@ var REGIONS = [
         shots: [
           {
             name: 'Keyhole Arch 正对沙滩（当前不可达）',
+            view: [36.239371, -121.818018],
             desc: '正常情况下从 Sycamore Canyon Road（狭窄单车道）下到海滩。<strong>目前区域封闭。</strong>',
             at: [36.23770, -121.81400]
           }
@@ -569,11 +581,13 @@ var REGIONS = [
         shots: [
           {
             name: 'Sand Dollar Beach（当前不可达）',
+            view: [35.923925, -121.469841],
             desc: 'Hwy 1 西侧停车场下切至沙滩。<strong>位于封闭段内。</strong>',
             at: [35.92180, -121.46400]
           },
           {
             name: 'Jade Cove（当前不可达）',
+            view: [35.913777, -121.470412],
             desc: '路边停车后翻栅栏下陡坡。<strong>位于封闭段内。</strong>',
             at: [35.91470, -121.46000]
           }
@@ -819,11 +833,15 @@ var REGIONS = [
           },
           {
             name: '北侧高位 turnout',
+            park: [34.091672, -119.065669],
+            view: [34.091409, -119.060098],
             desc: '俯拍 PCH 绕岩弯道，<strong>长焦 70–200mm 压缩公路曲线，拍行驶中的车辆最有故事感</strong>。',
             at: [34.08802, -119.06297]
           },
           {
             name: '贴近岩基的海滩',
+            park: [34.088022, -119.062975],
+            view: [34.086122, -119.060526],
             desc: '广角仰拍岩体，用涌浪做慢门前景。',
             at: [34.08541, -119.06099]
           }
@@ -2193,6 +2211,7 @@ var REGIONS = [
           },
           {
             name: 'Heisler Park 凉亭（人像常用）',
+            view: [33.542882, -117.789012],
             desc: '公园东南端，环境干净。',
             at: [33.54289, -117.78901]
           }
@@ -2290,11 +2309,15 @@ var REGIONS = [
           },
           {
             name: '公共阶梯入口（2713 Victoria Drive 旁）',
+            park: [33.521808, -117.763391],
+            view: [33.521808, -117.763391],
             desc: '长而陡的公共通道，返程是上坡。阶梯顶到阶梯底约 190 米陡阶，阶梯底到塔约 105 米岩石地形。',
             at: [33.52149, -117.76205]
           },
           {
             name: 'Dumond Drive 通道（携带器材推荐走这条）',
+            park: [33.519777, -117.762649],
+            view: [33.519777, -117.762649],
             desc: '应急车辆坡道加公共步道，<strong>坡度比 Victoria Drive 阶梯缓</strong>。',
             at: [33.51978, -117.76265]
           }
@@ -2318,7 +2341,8 @@ var REGIONS = [
           'Wikimedia Commons 上仅有一张该地点的可用图片，已全库检索多组关键词，不足 2–3 张'
         ],
         images: [
-          { url: 'assets/img/victoria-beach-pirate-tower-nov-2019-0458a0a7.jpg', cap: 'Victoria Beach 海盗塔 · Carl Glover / CC BY 2.0' }
+          { url: 'assets/img/victoria-beach-pirate-tower-nov-2019-0458a0a7.jpg', cap: 'Victoria Beach 海盗塔 · Carl Glover / CC BY 2.0' },
+          { url: 'assets/img/cameo-cove-laguna-beach-ca-by-don-ramey-logan-5f777115.jpg', cap: '紧邻的 Cameo Cove 海岸地形 · Don Ramey Logan / CC BY-SA 4.0' }
         ]
       }
     ]
@@ -2409,13 +2433,13 @@ var REGIONS = [
           },
           {
             name: 'The Arch 海蚀拱门',
-            desc: '位于 Sunset Cliffs Boulevard 中段。低潮时可靠近细看，高潮时只能从崖顶俯拍。24–70mm 或 70–200mm 压缩。',
+            desc: '位于 Sunset Cliffs Boulevard 中段。低潮时可靠近细看，高潮时只能从崖顶俯拍。24–70mm 或 70–200mm 压缩。<strong>OpenStreetMap 无此地物，精确坐标未能确认，故地图上不设标记</strong>——请沿崖顶步道边走边找，从主机位向南步行数分钟即可看到。',
             at: [32.71957, -117.25688]
           },
           {
             name: '开顶海蚀洞（建议只远观）',
             desc: '位于 Sunset Cliffs Blvd 与 Monaco Street 路口附近，需从 Luscomb Point 一条陡而常打滑的小径下切。' +
-              '<strong>需要负潮才安全，而本次行程的负潮全在凌晨，白天最低只有 9/9 的 1.27 ft，属「可看不可深入」。建议只从崖顶远观，不要下切。</strong>精确坐标未能确认。',
+              '<strong>需要负潮才安全，而本次行程的负潮全在凌晨，白天最低只有 9/9 的 1.27 ft，属「可看不可深入」。建议只从崖顶远观，不要下切。</strong>OpenStreetMap 无此地物，精确坐标未能确认，故地图上不设标记；大致位于 Sunset Cliffs Blvd 与 Monaco Street 路口西侧崖沿。',
             at: [32.72446, -117.25753]
           }
         ],
@@ -2468,6 +2492,8 @@ var REGIONS = [
           },
           {
             name: '南侧 / 北侧土场（备用停车）',
+            park: [32.889940, -117.247084],
+            view: [32.889940, -117.247084],
             desc: '沙土面，公共开放免费。周末主场很快满位。',
             at: [32.89109, -117.25014]
           }
@@ -2800,6 +2826,7 @@ var REGIONS = [
           },
           {
             name: 'Slab City 入口牌坊',
+            view: [33.257951, -115.462841],
             desc: '距救赎山约 1.2 公里。白天沿主路行车观光问题不大，但不要擅入营地、不要拍摄居民，日落后不建议逗留。',
             at: [33.25750, -115.46250]
           }
@@ -2861,11 +2888,15 @@ var REGIONS = [
           },
           {
             name: 'Salton Sea State Recreation Area（Varner Harbor）',
+            park: [33.502653, -115.915200],
+            view: [33.502653, -115.915200],
             desc: '湖西北岸游客中心一带。需缴州立公园日间停车费（2026 年具体金额未能确认）。',
             at: [33.47417, -115.88900]
           },
           {
             name: 'Sonny Bono NWR · Rock Hill Trail',
+            park: [33.176795, -115.619322],
+            view: [33.183651, -115.623324],
             desc: '从 906 W Sinclair Rd, Calipatria 出发，2 英里往返，登顶可俯瞰湖景。' +
               '<strong>日出后是 9 月唯一可行的徒步窗口。</strong>注意 9 月并非观鸟季，主力候鸟群在 10 月至次年 5 月。',
             at: [33.15000, -115.73333]
@@ -2891,7 +2922,6 @@ var REGIONS = [
         images: [
           { url: 'assets/img/the-swing-at-bombay-beach-856e72f6.jpg', cap: 'Bombay Beach 的秋千装置 · Wikimedia Commons' },
           { url: 'assets/img/bombay-beach-at-sunset-flickr-ruggybearla-cf09824f.jpg', cap: 'Bombay Beach 日落 · RuggyBearLA via Flickr / Wikimedia Commons' },
-          { url: 'assets/img/bombay-beach-art-pieces-e0072050.jpg', cap: 'Bombay Beach 装置艺术 · Wikimedia Commons' },
           { url: 'assets/img/old-salton-sea-beach-marina-2013-d55de5c5.jpg', cap: 'Salton Sea 湖岸废墟 · Wikimedia Commons' }
         ]
       }
