@@ -6,3 +6,4 @@
 
 | 本地文件 | 原始地址 |
 | --- | --- |
+| `salvation-mountain-flickr-gregthebusker-d31bfdc3.jpg` | <https://upload.wikimedia.org/wikipedia/commons/7/7a/Salvation_Mountain_-_Flickr_-_GregTheBusker.jpg> |
