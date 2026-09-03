@@ -216,7 +216,7 @@
       });
       if (blocks.length) {
         var wrap = document.createElement('div');
-        wrap.innerHTML = '<h3 class="apx-h">E. 分区提醒与关键约束</h3>' +
+        wrap.innerHTML = '<h3 class="apx-h">F. 分区提醒与关键约束</h3>' +
           '<p class="section-lead">正文里每个分区直接从景点卡片开始，这些前置提醒集中放在这里。' +
           '每块标题右侧可跳回对应分区。</p>' + blocks.join('');
         apxBody.appendChild(wrap);
