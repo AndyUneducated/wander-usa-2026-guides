@@ -89,16 +89,20 @@
 
   function renderCard(s) {
     /* details/summary：默认收起，点标题展开。打印时 CSS 会强制全部展开 */
-    var h = '<details class="card" id="' + esc(s.id) + '">';
+    var h = '<details class="card' + (s.gone ? ' gone' : '') + '" id="' + esc(s.id) + '">';
     h += '<summary class="card-head">' +
-      '<div class="card-num">' + s.n + '</div>' +
-      '<div class="card-title"><h3>' + esc(s.name) + '</h3>' +
-      '<div class="en">' + esc(s.en) + '</div>' +
+      '<div class="card-num">' + (s.gone ? '✕' : s.n) + '</div>' +
+        '<div class="card-title"><h3>' + esc(s.en) +
+        (s.name ? ' <span class="zh">' + esc(s.name) + '</span>' : '') + '</h3>' +
+      (s.gone ? '<span class="gone-flag">' + esc(s.gone) + '</span>' : '') +
       (s.tldr ? '<div class="tldr">' + s.tldr + '</div>' : '') +
       renderTags(s.tags) + '</div>' +
-      '<div class="card-score"><div class="stars" title="摄影价值 ' + s.score + '/5">' +
-      stars(s.score) + '</div><span class="score-label">摄影价值 ' + s.score + '/5</span></div>' +
-      '<span class="caret" aria-hidden="true">▾</span>' +
+      (s.gone ? '' :
+        '<div class="card-score"><div class="stars" title="摄影价值 ' + s.score + '/5">' +
+        stars(s.score) + '</div><span class="score-label">摄影价值 ' + s.score + '/5</span></div>') +
+      '<span class="expand" aria-hidden="true">' +
+      '<span class="lbl-shut">展开详情</span><span class="lbl-open">收起</span>' +
+      '<span class="chev">▾</span></span>' +
       '</summary>';
 
     h += '<div class="card-body">';
@@ -130,13 +134,15 @@
       bounds.push(c);
       var icon = L.divIcon({
         className: '',
-        html: '<div class="pin" style="background:' + (region.color || '#ff8a3d') + '">' + s.n + '</div>',
+        html: '<div class="pin" style="background:' + (s.gone ? '#ff6b6b' : (region.color || '#ff8a3d')) + '">' +
+          (s.gone ? '✕' : s.n) + '</div>',
         iconSize: [26, 26], iconAnchor: [13, 13]
       });
       L.marker(c, { icon: icon }).addTo(map).bindPopup(
-        '<b>' + esc(s.name) + '</b><br>' +
-        '<span style="color:#a0a6b3">' + esc(s.en) + '</span><br>' +
-        '<span style="color:#ffd24d">' + stars(s.score) + '</span> ' + s.score + '/5<br>' +
+        '<b>' + esc(s.en) + '</b>' + (s.name ? ' <span style="color:#a0a6b3">' + esc(s.name) + '</span>' : '') + '<br>' +
+        (s.gone
+          ? '<span style="color:#ff6b6b;font-weight:700">' + esc(s.gone) + '</span><br>'
+          : '<span style="color:#ffd24d">' + stars(s.score) + '</span> ' + s.score + '/5<br>') +
         '<a href="#' + esc(s.id) + '">↓ 跳到详情</a> · ' +
         '<a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=' +
         c[0] + ',' + c[1] + '">导航</a>'
@@ -162,11 +168,14 @@
     REGIONS.forEach(function (r) {
       var sec = document.createElement('section');
       sec.id = r.id;
+      /* 前置提醒统一移到附录，分区正文直接进入地图 + 卡片 */
+      var hasNotes = (r.callouts && r.callouts.length) || r.lead;
       sec.innerHTML =
         '<div class="wrap">' +
         '<h2>' + esc(r.name) + '<span class="count">' + r.spots.length + ' 个条目</span></h2>' +
-        (r.lead ? '<p class="section-lead">' + r.lead + '</p>' : '') +
-        renderCallouts(r.callouts) +
+        (hasNotes
+          ? '<p class="section-lead"><a class="apx-link" href="#apx-' + r.id + '">↓ 本区提醒与关键约束见附录</a></p>'
+          : '') +
         '<div class="map" id="map-' + r.id + '"></div>' +
         '<p class="map-hint">地图中数字对应下方卡片编号；点击图钉可跳转详情或直接导航。地图需先点击一次才能用滚轮缩放。</p>' +
         '<div class="card-toolbar">' +
@@ -184,6 +193,35 @@
         nav.appendChild(a);
       }
     });
+
+    /* 附录链接排在所有分区之后 */
+    if (nav) {
+      var ap = document.createElement('a');
+      ap.href = '#appendix';
+      ap.textContent = '附录';
+      nav.appendChild(ap);
+    }
+
+    /* 把各分区的前置提醒汇总到附录（intro.js 已先填好 A–D 节） */
+    var apxBody = document.getElementById('appendix-body');
+    if (apxBody) {
+      var blocks = REGIONS.filter(function (r) {
+        return (r.callouts && r.callouts.length) || r.lead;
+      }).map(function (r) {
+        return '<div id="apx-' + r.id + '">' +
+          '<h4 class="apx-sub">' + esc(r.name) +
+          ' <a class="apx-back" href="#' + r.id + '">↑ 回到该区卡片</a></h4>' +
+          (r.lead ? '<p class="section-lead">' + r.lead + '</p>' : '') +
+          renderCallouts(r.callouts) + '</div>';
+      });
+      if (blocks.length) {
+        var wrap = document.createElement('div');
+        wrap.innerHTML = '<h3 class="apx-h">E. 分区提醒与关键约束</h3>' +
+          '<p class="section-lead">正文里每个分区直接从景点卡片开始，这些前置提醒集中放在这里。' +
+          '每块标题右侧可跳回对应分区。</p>' + blocks.join('');
+        apxBody.appendChild(wrap);
+      }
+    }
 
     REGIONS.forEach(function (r) {
       var el = document.getElementById('map-' + r.id);
@@ -217,7 +255,7 @@
     var printRestore = [];
     window.addEventListener('beforeprint', function () {
       printRestore = [];
-      document.querySelectorAll('details.card').forEach(function (d) {
+      document.querySelectorAll('details.card, details.callout').forEach(function (d) {
         printRestore.push([d, d.open]);
         d.open = true;
       });
