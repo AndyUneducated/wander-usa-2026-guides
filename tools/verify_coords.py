@@ -44,8 +44,8 @@ def summarize(d):
 def main():
     # 坐标清单由 node 从 data.js 导出，确保不遗漏
     coords = [
-        (c["spot"], c["shot"], c["kind"], c["lat"], c["lng"])
-        for c in json.loads(pathlib.Path("/tmp/coords.json").read_text())
+        (c["spot"], c["shot"], c["kind"], c["lat"], c["lon"])
+        for c in json.loads(pathlib.Path("/tmp/la_coords.json").read_text())
     ]
 
     print(f"待核对坐标 {len(coords)} 个\n")

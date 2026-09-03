@@ -11,6 +11,7 @@
 """
 
 import hashlib
+import json
 import re
 import ssl
 import sys
@@ -64,6 +65,37 @@ def slugify(url: str) -> str:
 WM_THUMB_SIZES = (1280, 1024, 800, 640)
 
 
+def commons_filename(url: str) -> str | None:
+    """从 Commons 直链里取出文件名，例如 …/commons/0/02/Foo.jpg → Foo.jpg"""
+    m = re.match(r"https://upload\.wikimedia\.org/wikipedia/commons/(?:thumb/)?[0-9a-f]/[0-9a-f]{2}/([^/]+)", url)
+    return urllib.parse.unquote(m.group(1)) if m else None
+
+
+def api_thumb_url(filename: str, width: int = 1280) -> str | None:
+    """用 Commons API 换取缩略图地址。
+
+    直接向 upload.wikimedia.org 请求「尚未生成过」的缩略图会触发源站限流（429），
+    而 API 会在服务端完成缩略图生成，并返回 thumb.wikimedia.org 上已就绪的地址，
+    该主机不受同一套限流约束。这是绕开 429 的关键。
+    """
+    q = urllib.parse.urlencode({
+        "action": "query", "format": "json", "prop": "imageinfo",
+        "iiprop": "url|size|mime", "iiurlwidth": width,
+        "titles": "File:" + filename,
+    })
+    req = urllib.request.Request(
+        "https://commons.wikimedia.org/w/api.php?" + q, headers={"User-Agent": UA}
+    )
+    with urllib.request.urlopen(req, timeout=30, context=SSL_CTX) as resp:
+        data = json.load(resp)
+    pages = list(data.get("query", {}).get("pages", {}).values())
+    if not pages or "imageinfo" not in pages[0]:
+        return None
+    info = pages[0]["imageinfo"][0]
+    thumb = info.get("thumburl") or info.get("url")
+    return thumb.split("?")[0] if thumb else None  # 去掉 API 附加的 utm 参数
+
+
 def url_variants(url: str) -> list[str]:
     """生成候选下载地址：优先缩略图，最后才退回原图。
 
@@ -98,28 +130,45 @@ def url_variants(url: str) -> list[str]:
     return [url]
 
 
-def download(url: str, retries: int = 4) -> tuple[bytes, str]:
-    """下载图片，遇到 429/5xx 做指数退避重试。返回 (内容, content-type)。"""
-    delay = 3.0
+# Wikimedia 的限流是突发敏感的：短时间内连打几个请求就会整段吃 429，
+# 之后连本来正常的地址也会被拒。所以这里用一个全局节流器，保证**任何两次**
+# HTTP 请求之间都隔开足够时间——包括尺寸回退和重试在内。
+MIN_GAP = 2.0  # 秒
+_last_request_at = 0.0
+
+
+def _throttle() -> None:
+    global _last_request_at
+    wait = MIN_GAP - (time.monotonic() - _last_request_at)
+    if wait > 0:
+        time.sleep(wait)
+    _last_request_at = time.monotonic()
+
+
+def download(url: str, retries: int = 3) -> tuple[bytes, str]:
+    """下载图片。遇到 429 长时间退避（限流按分钟计，秒级重试没有意义）。"""
     last = None
     for attempt in range(retries):
+        _throttle()
         req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "image/*"})
         try:
             with urllib.request.urlopen(req, timeout=45, context=SSL_CTX) as resp:
                 return resp.read(), resp.headers.get("Content-Type", "").split(";")[0].strip()
         except urllib.error.HTTPError as e:
             last = e
-            if e.code in (429, 500, 502, 503, 504) and attempt < retries - 1:
-                print(f"    HTTP {e.code}，{delay:.0f}s 后重试…")
-                time.sleep(delay)
-                delay *= 2
+            if e.code == 429 and attempt < retries - 1:
+                cool = 45 * (attempt + 1)
+                print(f"    HTTP 429 限流，冷却 {cool}s…")
+                time.sleep(cool)
+                continue
+            if e.code in (500, 502, 503, 504) and attempt < retries - 1:
+                time.sleep(5)
                 continue
             raise
         except Exception as e:  # 网络抖动
             last = e
             if attempt < retries - 1:
-                time.sleep(delay)
-                delay *= 2
+                time.sleep(5)
                 continue
             raise
     raise last  # pragma: no cover
@@ -160,7 +209,21 @@ def main() -> int:
         print(f"[{i}/{len(urls)}] 下载  {url[:88]}")
         body = ctype = None
         last_err = None
-        for cand in url_variants(url):
+
+        # 优先走 API 换取的 thumb.wikimedia.org 地址，避开 upload 主机的源站限流
+        candidates = []
+        fname = commons_filename(url)
+        if fname:
+            try:
+                _throttle()
+                thumb = api_thumb_url(fname)
+                if thumb:
+                    candidates.append(thumb)
+            except Exception as e:
+                print(f"    API 查询失败，改用直链：{e}")
+        candidates += [u for u in url_variants(url) if u not in candidates]
+
+        for cand in candidates:
             try:
                 body, ctype = download(cand)
                 if cand != url:
@@ -182,7 +245,6 @@ def main() -> int:
         path.write_bytes(body)
         mapping[url] = f"assets/img/{path.name}"
         print(f"    → {path.name}  ({len(body) / 1024:.0f} KB)")
-        time.sleep(1.0)  # 对 Wikimedia 友好一点，避免再次触发限流
 
     # 改写 data.js
     out = source
