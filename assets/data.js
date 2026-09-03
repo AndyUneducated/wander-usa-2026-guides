@@ -22,6 +22,7 @@ var REGIONS = [
         n: 1,
         name: 'Bixby Creek 大桥',
         en: 'Bixby Creek Bridge, Big Sur',
+        tldr: '公路边停车即拍的地标拱桥，下午到日落光线最好，停车位少。',
         score: 4.5,
         tags: [{ t: '免费', c: 'free' }, { t: '无需预约', c: 'free' }, { t: '停车位少', c: 'risk' }],
         highlights: [
@@ -75,6 +76,7 @@ var REGIONS = [
         n: 1,
         name: '格里菲斯天文台',
         en: 'Griffith Observatory',
+        tldr: '建筑 + 城市全景双主题，日落前一小时到位；周一闭馆，停车收费且极堵。',
         score: 5,
         tags: [{ t: '入场免费', c: 'free' }, { t: '停车收费', c: 'paid' }, { t: '周一闭馆', c: 'risk' }],
         highlights: [
@@ -105,7 +107,7 @@ var REGIONS = [
         notes: ['日落时段上山单行道会严重堵塞，务必提前 90 分钟到'],
         images: [
           {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Griffith_observatory_2006.jpg',
+            url: 'assets/img/griffith-observatory-2006-3793f49e.jpg',
             cap: 'Griffith Observatory 建筑全貌 · Wikimedia Commons'
           }
         ]
@@ -115,6 +117,7 @@ var REGIONS = [
         n: 2,
         name: '圣莫尼卡栈桥（含 Pacific Park、West Coaster、圣莫尼卡海滩）',
         en: 'Santa Monica Pier · Pacific Park · West Coaster · Santa Monica Beach',
+        tldr: '摩天轮 + 栈桥的南加符号，价值集中在日落后蓝调时刻；白天较平淡。',
         score: 4,
         tags: [{ t: '入场免费', c: 'free' }, { t: '游乐设施单独收费', c: 'paid' }, { t: '停车贵', c: 'paid' }],
         highlights: [
@@ -141,7 +144,7 @@ var REGIONS = [
         notes: ['劳工节长周末人流极大，停车场可能提前满位'],
         images: [
           {
-            url: 'https://upload.wikimedia.org/wikipedia/commons/3/36/Santa_monica_pier_entrance_evening.jpg',
+            url: 'assets/img/santa-monica-pier-entrance-evening-11993ea2.jpg',
             cap: 'Santa Monica Pier 入口夜景 · Wikimedia Commons'
           }
         ]

@@ -130,12 +130,32 @@ section > .wrap > h2 .count {
 /* ---------- 景点卡片 ---------- */
 .card {
   background: var(--bg-card); border: 1px solid var(--line);
-  border-radius: var(--radius); margin-bottom: 22px; overflow: hidden;
+  border-radius: var(--radius); margin-bottom: 12px; overflow: hidden;
 }
+.card[open] { margin-bottom: 22px; }
 .card-head {
-  padding: 20px 24px 16px; border-bottom: 1px solid var(--line);
-  display: flex; align-items: flex-start; gap: 16px; flex-wrap: wrap;
+  padding: 15px 20px; cursor: pointer; list-style: none;
+  display: flex; align-items: center; gap: 15px; flex-wrap: wrap;
+  transition: background .15s;
 }
+.card-head::-webkit-details-marker { display: none; }
+.card-head:hover { background: rgba(255, 255, 255, .03); }
+.card[open] .card-head { border-bottom: 1px solid var(--line); align-items: flex-start; }
+.card .caret {
+  flex: 0 0 auto; color: var(--text-faint); font-size: 13px;
+  transition: transform .2s; margin-left: auto;
+}
+.card[open] .caret { transform: rotate(180deg); }
+.tldr { color: var(--text-dim); font-size: 13.5px; margin-top: 4px; }
+.card[open] .tldr { display: none; }
+
+.card-toolbar { display: flex; gap: 8px; margin-bottom: 14px; }
+.card-toolbar button {
+  background: var(--bg-card); border: 1px solid var(--line); color: var(--text-dim);
+  border-radius: 999px; padding: 5px 14px; font-size: 12.5px; cursor: pointer;
+  font-family: inherit; transition: background .15s, color .15s;
+}
+.card-toolbar button:hover { background: var(--bg-soft); color: var(--text); }
 .card-num {
   flex: 0 0 auto; width: 34px; height: 34px; border-radius: 9px;
   background: var(--accent-soft); color: var(--accent);
@@ -230,6 +250,9 @@ footer p { margin: 5px 0; }
 
 @media print {
   body { background: #fff; color: #111; }
-  .topbar, .map-hint { display: none; }
+  .topbar, .map-hint, .card-toolbar, .caret { display: none; }
+  /* 打印时强制展开所有卡片 */
+  .card > .card-body { display: block !important; }
+  .card .tldr { display: none !important; }
   .card, .callout, .map { break-inside: avoid; page-break-inside: avoid; }
 }

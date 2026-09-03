@@ -88,14 +88,18 @@
   }
 
   function renderCard(s) {
-    var h = '<article class="card" id="' + esc(s.id) + '">';
-    h += '<div class="card-head">' +
+    /* details/summary：默认收起，点标题展开。打印时 CSS 会强制全部展开 */
+    var h = '<details class="card" id="' + esc(s.id) + '">';
+    h += '<summary class="card-head">' +
       '<div class="card-num">' + s.n + '</div>' +
       '<div class="card-title"><h3>' + esc(s.name) + '</h3>' +
-      '<div class="en">' + esc(s.en) + '</div>' + renderTags(s.tags) + '</div>' +
+      '<div class="en">' + esc(s.en) + '</div>' +
+      (s.tldr ? '<div class="tldr">' + s.tldr + '</div>' : '') +
+      renderTags(s.tags) + '</div>' +
       '<div class="card-score"><div class="stars" title="摄影价值 ' + s.score + '/5">' +
       stars(s.score) + '</div><span class="score-label">摄影价值 ' + s.score + '/5</span></div>' +
-      '</div>';
+      '<span class="caret" aria-hidden="true">▾</span>' +
+      '</summary>';
 
     h += '<div class="card-body">';
     if (s.highlights) h += '<div class="row"><div class="k">核心看点</div>' + renderList(s.highlights) + '</div>';
@@ -107,7 +111,7 @@
     if (s.access) h += '<div class="row"><div class="k">可达性</div>' + renderAccess(s.access) + '</div>';
     if (s.notes) h += '<div class="row"><div class="k">注意事项</div>' + renderList(s.notes) + '</div>';
     if (s.images) h += '<div class="row"><div class="k">参考图</div>' + renderImages(s.images) + '</div>';
-    h += '</div></article>';
+    h += '</div></details>';
     return h;
   }
 
@@ -165,6 +169,10 @@
         renderCallouts(r.callouts) +
         '<div class="map" id="map-' + r.id + '"></div>' +
         '<p class="map-hint">地图中数字对应下方卡片编号；点击图钉可跳转详情或直接导航。地图需先点击一次才能用滚轮缩放。</p>' +
+        '<div class="card-toolbar">' +
+        '<button type="button" data-act="open" data-region="' + r.id + '">展开全部</button>' +
+        '<button type="button" data-act="close" data-region="' + r.id + '">收起全部</button>' +
+        '</div>' +
         r.spots.map(renderCard).join('') +
         '</div>';
       root.appendChild(sec);
@@ -180,6 +188,42 @@
     REGIONS.forEach(function (r) {
       var el = document.getElementById('map-' + r.id);
       if (el) buildMap(el, r);
+    });
+
+    /* 展开 / 收起全部 */
+    root.addEventListener('click', function (e) {
+      var btn = e.target.closest && e.target.closest('.card-toolbar button');
+      if (!btn) return;
+      var sec = document.getElementById(btn.dataset.region);
+      if (!sec) return;
+      var open = btn.dataset.act === 'open';
+      sec.querySelectorAll('details.card').forEach(function (d) { d.open = open; });
+    });
+
+    /* 从地图图钉或目录跳过来时，自动展开目标卡片 */
+    function openFromHash() {
+      var id = decodeURIComponent(location.hash.slice(1));
+      if (!id) return;
+      var el = document.getElementById(id);
+      if (el && el.tagName === 'DETAILS') {
+        el.open = true;
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+    window.addEventListener('hashchange', openFromHash);
+    openFromHash();
+
+    /* 打印/导出 PDF 前展开全部（浏览器默认会隐藏收起的 details，CSS 覆盖不了） */
+    var printRestore = [];
+    window.addEventListener('beforeprint', function () {
+      printRestore = [];
+      document.querySelectorAll('details.card').forEach(function (d) {
+        printRestore.push([d, d.open]);
+        d.open = true;
+      });
+    });
+    window.addEventListener('afterprint', function () {
+      printRestore.forEach(function (p) { p[0].open = p[1]; });
     });
   }
 
