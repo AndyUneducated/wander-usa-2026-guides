@@ -93,7 +93,6 @@ var REGIONS = [
           hours: '崖上全天；餐厅周一至周六早餐 8–11、午餐 12–16、晚餐 17–20',
           parking: 'Ragged Point Inn 私有停车场，<strong>免费</strong>，位置充足，直接从 Hwy 1 拐入',
           walk: '停车到崖上机位 <strong>2–3 分钟</strong>、约 100–150 米平坦草坪；下切到沙滩单程 0.4–0.5 英里、落差 330 英尺',
-          drone: '<strong>禁止</strong>（SLO Coast District 全域禁飞令，另有火场临时飞行限制）'
         },
         notes: [
           '<strong>位于 SLO 县 SLC-001 疏散警告区内</strong>，出发当天必查 readyslo.org',
@@ -156,7 +155,6 @@ var REGIONS = [
           hours: '全天',
           parking: '<strong>完全免费</strong>。Moonstone Beach Drive 全线路肩可停，两端另有两个正式停车场。<strong>日落前会迅速停满</strong>',
           walk: '<strong>1–3 分钟、50–200 米</strong>，栈道紧邻马路，是这条线上最省力的机位',
-          drone: '<strong>禁止</strong>（SLO Coast District 禁飞令）'
         },
         notes: [
           '<strong>烟雾是最大变量</strong>：Cambria 距 Plaskett Fire 仅数十英里，烟正南飘。两种预案都准备',
@@ -212,7 +210,6 @@ var REGIONS = [
           hours: '全天',
           parking: '路边土质 turnout，免费。<strong>转入方式相当惊险</strong>，一份游记原文形容为「hair-raising」，减速要早并注意后车',
           walk: '<strong>0 分钟</strong>，停车位置即机位',
-          drone: '非公园土地无特定禁令，但当前火场空域有临时飞行限制'
         },
         notes: [
           '<strong>CA-46 West 单向交替放行施工至 9 月 25 日</strong>，观景点很可能就在或紧邻施工段内，施工车辆与临时锥桶会影响取景和停车',
@@ -277,7 +274,6 @@ var REGIONS = [
           hours: '日用区 <strong>06:00–22:00</strong>，可以拍完蓝调再走',
           parking: '园内多处 turnout，主停车场在 Spooner Ranch House 附近。<strong>周末与假日热门 trailhead 车位很快满，务必早到</strong>',
           walk: '首个观景点 3–5 分钟／250 米；沙滩 1–2 分钟／100 米；南段 Grotto Rock 20–45 分钟／0.7–1.7 英里',
-          drone: '<strong>禁止</strong>（SLO Coast District 禁飞令辖区）'
         },
         notes: [
           '<strong>Corallina Cove 下切通道无限期关闭</strong>（风暴侵蚀导致不安全）。Bluff Trail 主线不受影响；替代方案是往南多走到 Quarry Cove，潮池同样丰富',
@@ -338,7 +334,6 @@ var REGIONS = [
           hours: '<strong>每日 10:00–17:00，仅接受预约</strong>',
           parking: '山上停车位有限，<strong>仅供已确认预约的客人</strong>。入口 Kiosk 有工作人员核验后分配上下层停车场——<strong>不要越过 Kiosk 自行开进去</strong>',
           walk: '<strong>1–3 分钟</strong>，建筑群内步行',
-          drone: '私有产业，需酒庄许可'
         },
         notes: [
           '<strong>17:00 关门，而 9 月 Paso Robles 日落约 19:20——你无法在正常预约中拍到日落</strong>，甚至拍不到完整暮金光。旧游记说这里日落极佳，那是营业时间更晚的时期',
@@ -401,7 +396,6 @@ var REGIONS = [
           hours: '沙丘保护区<strong>每日 07:00 至黄昏</strong>（9 月黄昏约 19:45，<strong>可以拍到日落</strong>）；Dunes Center <strong>周二至周六 10:00–15:00</strong>',
           parking: '沙丘：路尽头铺装停车场<strong>免费</strong>，假日与周末会很早满，大门会关闭并采用「出一辆进一辆」。<strong>入口道路沿线禁止停车或停留</strong>。Dunes Center：街边免费，小镇车少非常好停',
           walk: '沙丘：<strong>1–3 分钟</strong>到沙滩与前沙丘；到 Mussel Rock 约 60–75 分钟单程。Dunes Center：0–2 分钟',
-          drone: '<strong>禁止</strong>（野生动物保护区，雪鸻保护）'
         },
         notes: [
           '<strong>雪鸻／燕鸥繁殖季封闭：3 月 1 日至 9 月 30 日，你的行程完全落在封闭期内。</strong>内陆沙丘与河口被绳索围起禁止进入；仅海滩本身与入口道路沿线开放',
@@ -427,7 +421,7 @@ var REGIONS = [
         en: 'Oceano Dunes Visitor Center · Pismo Beach Pier',
         score: 3,
         tldr: '步行进沙滩完全免费不需通行证；Edward Weston 1936 年就在这片沙丘拍出摄影史经典。Pismo 栈桥是可靠的日落备案。',
-        tags: [{ t: '步行免费', c: 'free' }, { t: '中心周日周一闭馆', c: 'risk' }, { t: '9/30 前禁飞', c: 'risk' }, { t: '烟雾影响最小', c: 'free' }],
+        tags: [{ t: '步行免费', c: 'free' }, { t: '中心周日周一闭馆', c: 'risk' }, { t: '烟雾影响最小', c: 'free' }],
         highlights: [
           '访客中心只是个小型解说站，真正价值在周边沙丘与海滩。' +
             '<strong>Edward Weston 1936 年就在这片沙丘拍出了 20 世纪现代主义摄影的里程碑之作</strong>——' +
@@ -464,7 +458,6 @@ var REGIONS = [
           hours: '访客中心 <strong>周二至周六 12:00–16:00</strong>，周日与周一关闭；车辆上沙滩 07:00–22:00',
           parking: '访客中心与 Pier Avenue 沿线有街边停车，铺装车位免费',
           walk: '访客中心 <strong>0 分钟</strong>；到沙滩机位步行 <strong>5–8 分钟</strong>、约 400 米',
-          drone: '<strong>禁止。</strong>命令 554-022-2025：3 月 1 日至 9 月 30 日禁飞；Pismo Dunes Natural Preserve 全年禁飞'
         },
         notes: [
           '<strong>访客中心 9/6 周日、9/7 劳工节关闭</strong>，即使开放也只有四小时',
@@ -508,7 +501,6 @@ var REGIONS = [
           hours: '<strong>因山火全园关闭，无解封时间表</strong>',
           parking: '不可进入',
           walk: '不可进入',
-          drone: '禁止'
         },
         notes: [
           '<strong>双重阻断</strong>：一是公园本身因火关闭，二是 Hwy 1 在 Pacific Valley（MM16）至县界（MM0.09）封闭，即便公园开放，从 San Simeon 方向也上不去',
@@ -516,6 +508,9 @@ var REGIONS = [
           '出发当天可复查 <a href="https://roads.dot.ca.gov/" target="_blank" rel="noopener">Caltrans 路况</a>，但按目前控制率（1%）预期解封的可能性很低'
         ],
         images: [
+          { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9b/McWay_Falls_1_%28Unsplash%29.jpg', cap: 'McWay 瀑布与海湾全景 · Unsplash / CC0' },
+          { url: 'https://upload.wikimedia.org/wikipedia/commons/6/68/McWay_Falls_Big_Sur_May_2011_001.jpg', cap: 'McWay Falls 竖构图 · Wikimedia Commons / CC BY-SA 3.0' },
+
           { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e6/McWay_Falls%2C_Julia_Pfeiffer_Burns_State_Park.jpg', cap: 'McWay Falls · Wikimedia Commons' }
         ]
       },
@@ -546,13 +541,16 @@ var REGIONS = [
           hours: '<strong>Big Sur 区域封闭中</strong>',
           parking: '不可进入',
           walk: '不可进入',
-          drone: '禁止'
         },
         notes: [
           '即使未来单独重访，也请安排在 <strong>12 月中至 1 月中</strong>，且需要低潮加晴朗天空同时满足',
           'Sycamore Canyon Road 常年限制大车，停车场车位极少'
         ],
-        images: []
+        images: [
+          { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Pfeiffer_Beach_II_%2819295487233%29.jpg', cap: 'Pfeiffer 海滩礁岩与浪 · Wikimedia Commons / CC BY-SA 2.0' },
+          { url: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Pfeiffer_Beach_-_Keyhole_Arch_-_panoramio.jpg', cap: 'Keyhole Arch 钥匙孔石拱 · panoramio / CC BY 3.0' },
+          { url: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Pfeiffer_Beach_at_Dusk_%28Unsplash%29.jpg', cap: 'Pfeiffer Beach 暮色 · Unsplash / CC0' }
+        ]
       },
       {
         id: 'sand-dollar-jade',
@@ -587,13 +585,15 @@ var REGIONS = [
           hours: '<strong>Hwy 1 封闭：Pacific Valley（MM16）至 Monterey/SLO 县界（MM0.09），无解封时间表</strong>',
           parking: '不可进入',
           walk: '不可进入',
-          drone: '禁止（另有火场临时飞行限制）'
         },
         notes: [
           '<strong>Plaskett Fire 已烧 29,123 英亩、控制率仅 1%</strong>，这一段短期内不具备开放条件',
           '这三处的替代方案：<strong>Montaña de Oro</strong> 的岩石海岸与潮池题材最接近，且完全免费、烟雾影响小'
         ],
         images: [
+          { url: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/Jade_Cove_BIg_Sur_California.jpg', cap: 'Jade Cove 翡翠湾 · Wikimedia Commons / CC BY 2.0' },
+          { url: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Route_1_-_Big_Sur_Coast_Highway_-_Sand_Dollar_Picnic_Area_and_Beach_-_NARA_-_7721426.jpg', cap: 'Sand Dollar 海滩与 Hwy 1 · NARA / Public domain' },
+
           { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Sand_Dollar_Beach%2C_Big_Sur.jpg', cap: 'Sand Dollar Beach · Wikimedia Commons' }
         ]
       }
@@ -684,7 +684,6 @@ var REGIONS = [
           hours: '周一至周五 08:00–17:00，周末及法定休庭日 10:00–17:00，<strong>16:30 后不再放行访客</strong>，观景台闭馆前 30 分钟关闭。<strong>9/7 劳工节按 10:00–17:00 执行</strong>',
           parking: 'City Lot #7（法院正对面）前 75 分钟免费，之后 $3/小时；路边车位限 75 分钟',
           walk: '<strong>约 120 米、2 分钟</strong>；加安检与电梯，从下车到站上观景台预留 <strong>12–15 分钟</strong>',
-          drone: '禁止'
         },
         notes: [
           '<strong>最大的时间陷阱是 16:30 门禁</strong>，它比 9 月的日落（19:20）早近三小时，所以法院和日落机位必须排在同一天的不同时段，不能指望在塔上拍日落',
@@ -742,7 +741,6 @@ var REGIONS = [
           hours: '周一至周六 09:30–17:00，周日 12:30–17:00，<strong>均为 16:00 停止售票</strong>。周日上午 09:30–12:30 因弥撒不对游客开放教堂',
           parking: '教堂<strong>免费停车场</strong>，Los Olivos Street 侧',
           walk: '<strong>约 100 米、2 分钟</strong>',
-          drone: '禁止'
         },
         notes: ['建议停留 1–2 小时'],
         images: [
@@ -792,7 +790,6 @@ var REGIONS = [
           hours: 'Stearns Wharf 停车运营 08:00–22:00',
           parking: 'Stearns Wharf 上桥<strong>前 90 分钟免费</strong>，之后 <strong>$4.00/小时</strong>，单日封顶 $40（栈桥网站 FAQ 仍写 $3/小时属未更新，以市政费率表为准）。Butterfly Beach 仅 Channel Drive 免费路边位，<strong>无正式停车场</strong>',
           walk: 'Stearns Wharf <strong>0–2 分钟</strong>；Butterfly Beach 下沙滩需走一段台阶，1–3 分钟，无无障碍坡道',
-          drone: '禁止'
         },
         notes: ['Butterfly Beach 无救生员、禁篝火、禁犬'],
         images: [
@@ -839,7 +836,6 @@ var REGIONS = [
           hours: '全天',
           parking: 'PCH 路边 turnout <strong>免费</strong>。若开进 Point Mugu State Park 正式停车场则收费：全日 $12、3 小时 $9、1 小时 $3',
           walk: '<strong>不足 1 分钟</strong>',
-          drone: '州立公园禁飞'
         },
         notes: [
           '<strong>多处禁止左转标志</strong>，进出 turnout 要提前规划方向——南下（由 Oxnard 往 Malibu）方向停车最顺',
@@ -898,7 +894,6 @@ var REGIONS = [
           hours: '<strong>08:00 至日落</strong>',
           parking: '约 30–45 车位，<strong>常在上午就满</strong>。PCH 路肩可停但标牌需逐块看清，巡逻员开罚频繁',
           walk: '约 120 米，但含一段<strong>陡峭砾石小径与阶梯</strong>：下行 5–8 分钟、<strong>上行 8–12 分钟</strong>。穿抓地鞋，别背太重器材',
-          drone: '<strong>禁止</strong>（加州州立海滩禁飞令）'
         },
         notes: [
           '<strong>潮汐是成败关键</strong>：涨潮时礁柱通道与海蚀洞会被淹没甚至困人。理想是日落时段恰逢落潮，出发前查 NOAA Santa Monica 或 Malibu 潮汐表',
@@ -933,7 +928,7 @@ var REGIONS = [
             desc: '把栈桥整体放进画面，前景是冲浪者与浪花。<strong>日落前 45 分钟至日落</strong>（18:30–19:17）。' +
               '24–70mm 拍全景，<strong>70–200mm 或 100–400mm 压缩冲浪者与桥柱是这里最出片的打法</strong>。',
             park: [34.03771, -118.67569],
-            view: [34.03550, -118.67900]
+            view: [34.03380, -118.67952]
           },
           {
             name: '栈桥桥面向岸回望',
@@ -952,7 +947,6 @@ var REGIONS = [
           hours: '日出至日落，全年 365 天',
           parking: '桥前收费场约 96 车位 <strong>$10–20</strong>；隔壁 Surfrider Beach 县属场夏季周末 06:00–16:00 约 $15、16:00 后 $3；<strong>劳工节 9/7 按节假日费率 06:00–16:00 $20</strong>',
           walk: '到桥面约 150 米、2 分钟；<strong>到 Surfrider 沙滩最佳机位约 430 米、6–7 分钟</strong>',
-          drone: '<strong>禁止</strong>（LA County Code 17.04.510，属轻罪）'
         },
         notes: [
           'Malibu Pier 位于 Carbon Beach Terrace 以西，<strong>不在 PCH 施工限制段内</strong>，通行正常。但从 Getty Villa 往西开必然要穿过 25 mph 施工段',
@@ -1004,7 +998,6 @@ var REGIONS = [
           hours: '<strong>Birdview Avenue 入口每日 05:00–15:00 对行人和自行车也关闭</strong>（施工作业区，有承包商与警长副手驻场）',
           parking: '<strong>Westward Beach Road 收费闸口以外路段与 373 车位的下层停车场自 2026 年 8 月起无限期关闭</strong>。崖顶 Preserve 免费小场约 2 小时限时、车位极少，周边住宅区严禁停车',
           walk: '崖顶停车场到岬顶约 <strong>330 米、爬升 60 米、10–12 分钟</strong>',
-          drone: '<strong>禁止</strong>'
         },
         notes: [
           '<strong>唯一稳妥的窗口是 15:00 之后</strong>（施工时段结束），且必须做好扑空准备。崖顶 Preserve 停车场与关闭的入口共用 Birdview Avenue 通道，15:00 后能否步行进入保护区步道<strong>未能从官方渠道确认</strong>',
@@ -1071,10 +1064,9 @@ var REGIONS = [
           hours: '<strong>每日 10:00–17:00，周二闭馆</strong>。劳工节正常开放。<strong>9/5、9/6、9/7、9/9 可去；9/8 闭馆</strong>',
           parking: '<strong>$25/辆；15:00 后 $15；晚间活动 18:00 后 $10。仅刷卡不收现金。</strong>步行、骑行或乘公交进入无需付停车费',
           walk: 'South Parking Garage 到博物馆入口约 <strong>255 米，含电梯与上坡阶梯 8–10 分钟</strong>；再到 Outer Peristyle 约 2–3 分钟。从停车到站上主机位预留 15 分钟',
-          drone: '<strong>明文禁止</strong>'
         },
         notes: [
-          '<strong>摄影规则</strong>：室外与常设展厅允许手持设备加现场光；<strong>三脚架、独脚架、无人机一律禁止</strong>；自拍杆仅限室外；' +
+          '<strong>摄影规则</strong>：室外与常设展厅允许手持设备加现场光；<strong>三脚架与独脚架一律禁止</strong>；自拍杆仅限室外；' +
             '<strong>禁止专业拍摄，包括婚纱、模特与摆拍的订婚照</strong>。有访客报告在展厅内被保安以「看起来像专业拍摄」为由制止，<strong>器材尽量低调</strong>',
           '<strong>火灾后园林变化</strong>：约 44% 的树木被移除，遮荫与绿量明显少于 2025 年前的网图。好的一面是柱廊与建筑线条更加干净通透，对建筑摄影反而有利；坏的一面是正午缺乏遮荫、光比更大',
           '从这里沿 PCH 向西进入 Malibu 会立即进入 25 mph 施工限速段，<strong>该段禁止停车与路边停留，不要试图在烧毁区路边下车拍摄</strong>',
@@ -1135,7 +1127,6 @@ var REGIONS = [
           hours: '<strong>周一闭馆</strong>；其余日通常至 22:00',
           parking: '园区路边与停车场均已改为收费；日落前后一位难求',
           walk: '停车场到建筑 2–10 分钟，视停到多远',
-          drone: '市政公园范围内<strong>禁飞</strong>'
         },
         notes: ['日落时段上山单行道会严重堵塞，务必提前 90 分钟到'],
         images: [
@@ -1169,7 +1160,6 @@ var REGIONS = [
           hours: '栈桥全天；游乐园按季节',
           parking: 'Pier Deck 与 1550 PCH 停车场，节假日封顶价偏高',
           walk: '停车后 3–8 分钟到主要机位',
-          drone: '<strong>禁飞</strong>'
         },
         notes: ['劳工节长周末人流极大，停车场可能提前满位'],
         images: [
@@ -1205,7 +1195,7 @@ var REGIONS = [
         title: '专业摄影许可',
         html: '<p>Laguna Beach 市政法典第 5.66 章规定，市属公园与海滩上的「专业静态摄影」须持证，' +
           '<strong>判定标准是是否有金钱交易——自用旅拍不需要</strong>。实操中的执法触发点是：落地灯架、沙袋、反光板推车，或阻挡步道与阶梯。' +
-          '全区<strong>严禁无人机</strong>。海滩开放 05:00–01:00。</p>'
+          '海滩开放 05:00–01:00。</p>'
       },
       {
         type: 'tip',
@@ -1259,7 +1249,6 @@ var REGIONS = [
           hours: '海滩开放 05:00–01:00',
           parking: 'Cliff Drive 路边计时表 <strong>$2.50/小时</strong>，多为 3–4 小时上限，<strong>不可续投</strong>。执法市中心 08:00–21:00、以外至 19:00。备选：Glenneyre 停车楼步行 5 分钟；<strong>Act V 免费大场加免费接驳车</strong>（周六日 09:00–19:00）',
           walk: '<strong>185 米 / 3 分钟</strong>，全程铺装平路',
-          drone: '<strong>禁止</strong>'
         },
         notes: ['阶梯石面在晨雾后湿滑', '夏季狗禁入沙滩，看现场标示'],
         images: [
@@ -1304,7 +1293,6 @@ var REGIONS = [
           hours: '海滩 05:00–01:00',
           parking: 'City Lot 7（地面）/ Lot 8（车库），位于 30799–30801 Coast Highway。<strong>具体费率未能确认</strong>，建议用 Laguna Beach Parking App 现场查实时空位与价格',
           walk: '到崖顶观景点约 <strong>240 米 / 4 分钟</strong>；到沙滩石阶约 190 米 / 3 分钟，之后一段中等坡度石阶',
-          drone: '<strong>禁止</strong>'
         },
         notes: [
           '度假村范围内（泳池、露台、餐厅）属私产，<strong>请勿架设器材</strong>',
@@ -1343,7 +1331,7 @@ var REGIONS = [
             desc: '可同时收塔身、崖壁与水池。<strong>唯一可行窗口：9/9 12:30–16:30</strong>（次选 9/8 11:45–15:45）。' +
               '正午前后光线偏硬：用崖壁阴影做塔身侧光，或反过来利用高反差拍剪影质感。' +
               '塔身竖构图用 24–35mm 贴近崖壁仰拍；塔加海湾环境用 16–24mm 从水池位置回望；塔顶角楼细节用 70–200mm 从沙滩远端压缩。',
-            park: [33.52220, -117.76050],
+            park: [33.52138, -117.76217],
             view: [33.52055, -117.76435]
           },
           {
@@ -1363,7 +1351,6 @@ var REGIONS = [
           hours: '海滩 05:00–01:00',
           parking: '<strong>这里最大的难题。</strong>Victoria Drive / Dumond Drive 属狭窄住宅街道，合法公共车位极少且执法严格。主流做法是<strong>停在 Coast Highway 内侧</strong>再步行 5–10 分钟',
           walk: '合计约 <strong>700 米、15–25 分钟</strong>（视潮位与攀爬速度）',
-          drone: '<strong>禁止</strong>'
         },
         notes: [
           '<strong>潮汐是生死问题，不只是构图问题</strong>：涌浪拍打岩角时严禁通过，被困在岩角内侧是这里最常见的事故。' +
@@ -1484,7 +1471,6 @@ var REGIONS = [
           hours: '公园全天；注意车辆宵禁',
           parking: '<strong>全部免费。</strong>Ladera Street 土场是园区南端主场，<strong>最热门、最先满</strong>；Sunset Cliffs Blvd 沿线有免费路边位',
           walk: 'Ladera St 土场到崖顶观景点约 <strong>75 米 / 1 分钟</strong>；到下海石阶约 100 米 / 2 分钟。崖顶步道几乎全程平坦，是本行程无障碍性最好的海岸步道之一',
-          drone: '<strong>禁止</strong>。紧邻的 Cabrillo National Monument 由国家公园管理局全面禁飞，不要搞混'
         },
         notes: [
           '<strong>车辆宵禁</strong>：Ladera Street 场全年 23:00–04:00 禁停；其余 4 个场全年 02:00–04:00 禁停。这是车辆限制而非公园关闭，但超时会被开罚单',
@@ -1538,7 +1524,6 @@ var REGIONS = [
           hours: '官方 tandem 运营 <strong>09:00–17:00</strong>（看风况）。但飞行社说明更精确：秋冬 11:00–16:00 风况最佳，<strong>春夏 09:00 到 19:00 甚至更晚都常可飞</strong>——9 月初属夏季尾，日落时段大概率仍有伞在天上',
           parking: '<strong>完全免费</strong>，土质大场，但周末很快满位',
           walk: '<strong>150 米 / 2 分钟</strong>，平坦土路',
-          drone: '<strong>禁止</strong>——这是活跃的载人飞行空域，风险与违规性质都远高于普通公园'
         },
         notes: [
           '<strong>这是运行中的飞行场</strong>：起飞区与降落区严禁进入，站位听从现场人员指挥，伞索与翼尖扫过范围很大',
@@ -1592,7 +1577,6 @@ var REGIONS = [
           hours: '沙滩全天；Kellogg Park 停车场<strong>全年 22:00–04:00 禁停</strong>',
           parking: '<strong>La Jolla Shores Drive 沿线有免费路边位</strong>（最省时，距沙滩约 250 米）；Kellogg Park 停车场车位更多但离栈桥远。<strong>两者均免费</strong>',
           walk: '<strong>建议走 La Jolla Shores Drive 路边方案</strong>：约 450 米 / 9 分钟。从 Kellogg Park 走要 1.0 公里 / 13–15 分钟全程软沙，带三脚架会明显吃力，<strong>能省约 20 分钟往返沙地步行</strong>',
-          drone: '<strong>禁止</strong>。La Jolla 海岸有野生动物保护封闭区（海豹、海狮、鸟类），低空飞行属骚扰野生动物'
         },
         notes: [
           '<strong>9 月圣地亚哥沿岸清晨与傍晚常有海雾，会直接吞掉落日</strong>，建议当天下午查一下海岸能见度再决定是否前往',
@@ -1651,11 +1635,10 @@ var REGIONS = [
           hours: '<strong>周末、节假日、私人活动期间全部闭园。</strong>本次行程<strong>只有 9/9（周三）可行</strong>',
           parking: '<strong>校园内无公共访客停车。</strong>最近的免费公共停车是 Torrey Pines Gliderport 土场',
           walk: 'Gliderport 到研究所直线约 450 米，<strong>实际步行绕行 600–700 米 / 8–10 分钟</strong>，但官方建议按 15–20 分钟预留',
-          drone: '<strong>禁止</strong>'
         },
         notes: [
           '<strong>摄影政策严格。允许</strong>：仅导览团期间的休闲个人拍摄，<strong>限一台手持相机或手机</strong>，不得使用任何附加器材',
-          '<strong>明令禁止</strong>：三脚架、自拍杆、灯光设备（含离机闪光灯）、无人机、道具、服装、' +
+          '<strong>明令禁止</strong>：三脚架、自拍杆、灯光设备（含离机闪光灯）、道具、服装、' +
             '<strong>正式或摆拍或受委托的摄影摄像</strong>（婚纱、订婚、毕业、家庭写真、模特作品集、学生作业均在内）、' +
             '作品集摄影、实验室内部拍摄。不得为了拍照而拖延或打断团队行进',
           '<strong>专业与商业摄影一律禁止</strong>，除非事先获批并由 Salk 传播团队全程陪同，申请邮箱 press@salk.edu',
@@ -1704,7 +1687,6 @@ var REGIONS = [
           hours: '<strong>每日 07:00–22:00，大门 22:00 准时上锁</strong>，切勿把车留在场内',
           parking: '<strong>免费。</strong>纪念碑周边零散车位数个；下方五分钟步行处有一个大停车场；满位时可停 La Jolla Scenic Drive South 路边（免费）',
           walk: '近处车位到十字架基座约 <strong>40 米 / 1 分钟</strong>；大停车场约 5 分钟上坡',
-          drone: '<strong>禁止</strong>'
         },
         notes: [
           '这是<strong>现役纪念场所</strong>，常有家属祭扫与仪式，架设器材请避让',
@@ -1725,7 +1707,7 @@ var REGIONS = [
         en: 'USS Midway Museum',
         score: 4,
         tldr: '巨型工业结构 + 军事史，甲板机群质感极强。17:00 关门拍不到日落，但馆外 Tuna Harbor Park 可以。',
-        tags: [{ t: '$39 线上', c: 'paid' }, { t: '停车 $20/6hr', c: 'paid' }, { t: '17:00 关门', c: 'risk' }, { t: '严禁无人机', c: 'risk' }],
+        tags: [{ t: '$39 线上', c: 'paid' }, { t: '停车 $20/6hr', c: 'paid' }, { t: '17:00 关门', c: 'risk' }],
         highlights: [
           '<strong>服役 47 年（1945–1992），是 20 世纪服役时间最长的美国航母</strong>。' +
             '下水时是全球最大的军舰，且大到无法通过巴拿马运河——这在当时是个新问题',
@@ -1763,12 +1745,8 @@ var REGIONS = [
           hours: '<strong>每日 10:00–17:00，最后入场 16:00</strong>。建议游览 3–5 小时，<strong>可当日再入场</strong>',
           parking: 'Navy Pier 场（入口前）<strong>4–9 月 $20 / 6 小时内</strong>，超 6 小时 $25。约 300 车位，<strong>夏季与周末上午 11 点前即满</strong>。更省：Tuna Harbor 场步行 5 分钟约 $5/2 小时；<strong>最省</strong>：停免费换乘中心加有轨电车 $2.50 到 Santa Fe Depot 再步行 10–15 分钟',
           walk: '停车场到入口 <strong>80 米 / 1 分钟</strong>；博物馆到 Tuna Harbor Park 约 190 米 / 3 分钟，全程平坦铺装',
-          drone: '<strong>🚫 全行程限制最严的一站</strong>'
         },
         notes: [
-          '<strong>无人机</strong>：位于 San Diego International（Lindbergh Field）的 B 类管制空域内且处于跑道进近路径下方，' +
-            '该网格限高常为 <strong>0 英尺</strong>——即便申请 LAANC 也可能拿不到任何高度授权。' +
-            '未经授权起飞 FAA 民事罚款起步约 $1,100/次，鲁莽操作可升级刑事指控。<strong>此处不要带无人机出包</strong>',
           '<strong>Navy Pier 正在进行桥墩加固施工</strong>，博物馆周边有围挡区域',
           '甲板全程无遮阳，9 月正午晒；舰内温差大',
           '甲板金属地面对三脚架不友好（易滑且人流密集），建议小型独脚架或手持。部分舰内区域禁用闪光灯',
@@ -1878,7 +1856,6 @@ var REGIONS = [
           hours: '日出至日落，全年 365 天',
           parking: '免费土地面，普通轿车可到（Beal Rd 末段非铺装，注意松沙，<strong>不需要四驱</strong>）。官方要求距彩绘与展示区至少 10 英尺',
           walk: '停车到机位 <strong>不到 1 分钟</strong>；建议停留 30–45 分钟',
-          drone: '允许，但每段限 5 分钟、须保持在艺术表面上方 30 英尺以上、不得飞越看护人住所'
         },
         notes: [
           '<strong>黄砖路（Yellow Brick Road）现已大部分关闭</strong>：因游客屡次踩踏艺术表面且缺乏志愿者看护，仅在有人手带团时开放。请按「到场可能不能上山」预期',
@@ -1946,7 +1923,6 @@ var REGIONS = [
           hours: 'Bombay Beach 无门禁；Ski Inn 营业时间不定，建议先电话',
           parking: 'Bombay Beach 停镇内公共街道免费，<strong>务必合法停放、勿堵民宅车道</strong>。镇内为破损铺装与土路，普通轿车慢行可进',
           walk: '镇中心停车翻堤到装置区约 <strong>5–15 分钟</strong>；Rock Hill Trail 2 英里往返。建议停留 45 分钟至 2 小时',
-          drone: 'Sonny Bono NWR 与 Salton Sea SRA 均<strong>严禁</strong>；Bombay Beach 镇域无特定禁令'
         },
         notes: [
           '<strong>不要下水、不要碰湖水。</strong>高盐、高硒、农业径流富集，岸边常有大面积死鱼与鱼骨堆积',

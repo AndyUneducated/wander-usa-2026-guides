@@ -63,7 +63,7 @@
     if (!a) return '';
     var rows = [
       ['预约', a.book], ['门票', a.ticket], ['开放时间', a.hours],
-      ['停车', a.parking], ['步行距离', a.walk], ['无人机', a.drone]
+      ['停车', a.parking], ['步行距离', a.walk]
     ].filter(function (r) { return r[1]; });
     return '<table class="access"><tbody>' + rows.map(function (r) {
       return '<tr><td>' + r[0] + '</td><td>' + r[1] + '</td></tr>';
