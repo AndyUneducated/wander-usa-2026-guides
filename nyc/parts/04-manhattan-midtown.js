@@ -267,7 +267,7 @@ module.exports = {
       name: '洛克菲勒中心与第五大道',
       en: 'Rockefeller Center and Fifth Avenue',
       score: 4,
-      tldr: 'Channel Gardens 中轴线与 Prometheus、Atlas 免费 24 小时；冰场 10/10 开、树 11/7 到。',
+      tldr: 'Channel Gardens 中轴线与 Prometheus 全天免费；冰场 10/10 开、树 11/7 到。',
       tags: [
         { t: '完全免费', c: 'free' },
         { t: '24 小时可拍', c: 'free' },

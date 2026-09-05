@@ -4,6 +4,7 @@
 地图针脚的坐标取自 shots[0].view || shots[0].park || shots[0].at || spot.at
 （与 app.js 的 buildMap 一致），因此按同一坐标排序可保证卡片序号与地图序号一致。
 """
+import argparse
 import json
 import pathlib
 import re
@@ -11,12 +12,10 @@ import subprocess
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-DATA = ROOT / 'assets' / 'data.js'
 
-# 没有任何机位坐标的景点，用其真实位置纬度参与排序（不会产生地图针脚）
-FALLBACK_LAT = {
-    'wayfarers-chapel': 33.7395,  # 原址 Palos Verdes，已拆解入库
-}
+# 由 main() 按 --region 设置。socal 的 data.js 是手工维护的，
+# 其余地域由 tools/assemble.py 生成（那个脚本自己会排序，无需本脚本）。
+DATA = None
 
 
 def spot_latitudes():
@@ -48,6 +47,16 @@ def split_spots(block):
 
 
 def main():
+    global DATA
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--region', default='socal',
+                    help='地域目录名，默认 socal（其余地域由 assemble.py 负责排序）')
+    args = ap.parse_args()
+
+    DATA = ROOT / args.region / 'data.js'
+    if not DATA.exists():
+        sys.exit(f'找不到 {DATA}')
+
     regions = spot_latitudes()
     src = DATA.read_text(encoding='utf-8')
 
@@ -77,12 +86,11 @@ def main():
             sid = re.search(r"id: '([^']+)'", ch).group(1)
             by_id[sid] = ch
 
-        def sort_lat(sp):
-            if sp['lat'] is not None:
-                return sp['lat']
-            return FALLBACK_LAT.get(sp['id'], -90.0)
-
-        ordered = sorted(region['spots'], key=sort_lat, reverse=True)
+        # 无针脚坐标的景点排到分区末尾。正常情况下不该有——
+        # tools/check_all.py 会把这种情况报为「针脚」问题。
+        ordered = sorted(region['spots'],
+                         key=lambda sp: sp['lat'] if sp['lat'] is not None else -90.0,
+                         reverse=True)
 
         new_chunks = []
         lines = []
