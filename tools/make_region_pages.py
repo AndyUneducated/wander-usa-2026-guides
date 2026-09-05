@@ -16,7 +16,7 @@ TEMPLATE = '''<!DOCTYPE html>
 <title>{title}</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="../assets/style.css">
+<link rel="stylesheet" href="../assets/style.css?v=20260905b">
 </head>
 <body>
 
@@ -57,16 +57,16 @@ TEMPLATE = '''<!DOCTYPE html>
 <footer>
   <div class="wrap">
     <p>本手册由实时联网查证生成，信息截至页面生成日期。开放时间、票价、预约规则与道路封闭状态可能随时变动，<b>出发当天请再次核对官方页面</b>，见附录的复查清单。</p>
-    <p>地图底图 © OpenStreetMap contributors / CARTO。参考图片来自 Wikimedia Commons，版权归原作者，仅作取景参考。</p>
+    <p>地图底图 © Esri（Dark Gray Canvas）。参考图片来自 Wikimedia Commons，版权归原作者，仅作取景参考。</p>
     <p><a href="../" style="color:var(--text-faint)">← 回到四本手册的总入口</a></p>
   </div>
 </footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="data.js"></script>
-<script src="../assets/app.js"></script>
-<script src="intro.js"></script>
+<script src="data.js?v=20260905b"></script>
+<script src="../assets/app.js?v=20260905b"></script>
+<script src="intro.js?v=20260905b"></script>
 </body>
 </html>
 '''

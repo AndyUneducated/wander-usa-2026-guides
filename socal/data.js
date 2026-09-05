@@ -2017,8 +2017,46 @@ var REGIONS = [
         ]
       },
       {
-        id: 'point-vicente',
+        id: 'wayfarers-chapel',
         n: 16,
+        gone: '本次无法抵达',
+        name: '玻璃教堂',
+        en: 'Wayfarers Chapel',
+        score: 0,
+        tldr: '2024 年因滑坡拆解入库，原址与庭园全部封闭，重建希望 2027 年秋开工。请从行程中删除。',
+        tags: [{ t: '已拆解', c: 'risk' }, { t: '原址封闭', c: 'risk' }],
+        highlights: [
+          'Lloyd Wright（Frank Lloyd Wright 之子）设计的「玻璃教堂」，1951 年落成，以玻璃墙与红杉林交融的中世纪现代主义杰作闻名，<strong>2023 年 12 月刚被指定为 National Historic Landmark</strong>',
+          '<strong>2024 年 2 月因 Portuguese Bend 滑坡复活而关闭</strong>——教堂地基出现大面积裂缝、结构失稳；<strong>2024 年 5 月起专业拆解，7 月拆解完成</strong>，绝大部分材料（含 Walk of Honor 刻名纪念砖）已编号入库',
+          '<strong>官方已判定原址不可能重建。</strong>新址选在 City Hall 旁的 Battery Barnes（一处约 4 英亩、现属 U.S. Coast Guard 的二战海防用地，距原址西约 1 英里）',
+          '<strong>卡点在于该地块转让需国会立法</strong>：Rep. Ted Lieu 于 2026 年 1 月表示将提案，但 RPV 市长明确表示「目前尚无任何承诺或协议」；截至 2026 年 2 月最新项目更新，Battery Barnes 仍被教会自己的材料描述为「拟定」地点',
+          '官网 FAQ 称<strong>希望第一期重建于 2027 年秋季开工</strong>——即本次行程期间既无教堂，也无工地可拍'
+        ],
+        photo: '<strong>本次无法拍摄。</strong>请勿驱车前往原址——该处封闭，且位于滑坡活跃区。替代机位见上一条 Point Vicente。',
+        shots: [],
+        /* 无机位，但保留原址坐标以便地图上出现 17 号红色针脚，
+           与卡片编号对应。坐标为 OSM way/873354664 实体。 */
+        at: [33.743735, -118.377480],
+        access: {
+          book: '—',
+          ticket: '—',
+          hours: '<strong>原址与周边庭园全部封闭</strong>',
+          parking: '—',
+          walk: '—'
+        },
+        notes: [
+          '<strong>请将此点从行程中删除。</strong>教会活动未中断：主日聚会以视频进行，并在 Palos Verdes Estates 的 St. Francis Chapel 提供线下选项',
+          '首选替代是 <strong>Point Vicente Lighthouse 与 Interpretive Center</strong>（见上一条），崖顶正西无遮挡、日落方位正对、停车免费',
+          '其次可考虑 Abalone Cove Shoreline Park（最接近原计划位置）、Terranea Resort 崖顶公共步道、Trump National Golf Club 崖顶眺望'
+        ],
+        images: [
+          { url: 'img/wayfarers-chapel-2018-2-19-ca513868.jpg', cap: '拆解前的玻璃教堂（历史影像）· Sitao Xiang / CC BY-SA 4.0' },
+          { url: 'img/wayfarer-s-chapel-plaza-67d09927.jpg', cap: '教堂庭园（历史影像）· Prashila Amatya / CC BY-SA 4.0' }
+        ]
+      },
+      {
+        id: 'point-vicente',
+        n: 17,
         name: '文森特角灯塔',
         en: 'Point Vicente Lighthouse · Interpretive Center',
         score: 4.5,
@@ -2067,44 +2105,6 @@ var REGIONS = [
           { url: 'img/point-vicente-lighthouse-44623086120-4b329d3c.jpg', cap: 'Point Vicente 灯塔与崖线 · Ron Reiring / CC BY-SA 2.0' },
           { url: 'img/parlos-verdes-light-house-aug-2012-1a9287d1.jpg', cap: '灯塔全景 · Mike Quach / CC BY-SA 3.0' },
           { url: 'img/point-vicente-lighthouse-on-cliff-b159e179.jpg', cap: '崖顶白塔 · Nhostetler / CC BY-SA 3.0' }
-        ]
-      },
-      {
-        id: 'wayfarers-chapel',
-        n: 17,
-        gone: '本次无法抵达',
-        name: '玻璃教堂',
-        en: 'Wayfarers Chapel',
-        score: 0,
-        tldr: '2024 年因滑坡拆解入库，原址与庭园全部封闭，重建希望 2027 年秋开工。请从行程中删除。',
-        tags: [{ t: '已拆解', c: 'risk' }, { t: '原址封闭', c: 'risk' }],
-        highlights: [
-          'Lloyd Wright（Frank Lloyd Wright 之子）设计的「玻璃教堂」，1951 年落成，以玻璃墙与红杉林交融的中世纪现代主义杰作闻名，<strong>2023 年 12 月刚被指定为 National Historic Landmark</strong>',
-          '<strong>2024 年 2 月因 Portuguese Bend 滑坡复活而关闭</strong>——教堂地基出现大面积裂缝、结构失稳；<strong>2024 年 5 月起专业拆解，7 月拆解完成</strong>，绝大部分材料（含 Walk of Honor 刻名纪念砖）已编号入库',
-          '<strong>官方已判定原址不可能重建。</strong>新址选在 City Hall 旁的 Battery Barnes（一处约 4 英亩、现属 U.S. Coast Guard 的二战海防用地，距原址西约 1 英里）',
-          '<strong>卡点在于该地块转让需国会立法</strong>：Rep. Ted Lieu 于 2026 年 1 月表示将提案，但 RPV 市长明确表示「目前尚无任何承诺或协议」；截至 2026 年 2 月最新项目更新，Battery Barnes 仍被教会自己的材料描述为「拟定」地点',
-          '官网 FAQ 称<strong>希望第一期重建于 2027 年秋季开工</strong>——即本次行程期间既无教堂，也无工地可拍'
-        ],
-        photo: '<strong>本次无法拍摄。</strong>请勿驱车前往原址——该处封闭，且位于滑坡活跃区。替代机位见上一条 Point Vicente。',
-        shots: [],
-        /* 无机位，但保留原址坐标以便地图上出现 17 号红色针脚，
-           与卡片编号对应。坐标为 OSM way/873354664 实体。 */
-        at: [33.743735, -118.377480],
-        access: {
-          book: '—',
-          ticket: '—',
-          hours: '<strong>原址与周边庭园全部封闭</strong>',
-          parking: '—',
-          walk: '—'
-        },
-        notes: [
-          '<strong>请将此点从行程中删除。</strong>教会活动未中断：主日聚会以视频进行，并在 Palos Verdes Estates 的 St. Francis Chapel 提供线下选项',
-          '首选替代是 <strong>Point Vicente Lighthouse 与 Interpretive Center</strong>（见上一条），崖顶正西无遮挡、日落方位正对、停车免费',
-          '其次可考虑 Abalone Cove Shoreline Park（最接近原计划位置）、Terranea Resort 崖顶公共步道、Trump National Golf Club 崖顶眺望'
-        ],
-        images: [
-          { url: 'img/wayfarers-chapel-2018-2-19-ca513868.jpg', cap: '拆解前的玻璃教堂（历史影像）· Sitao Xiang / CC BY-SA 4.0' },
-          { url: 'img/wayfarer-s-chapel-plaza-67d09927.jpg', cap: '教堂庭园（历史影像）· Prashila Amatya / CC BY-SA 4.0' }
         ]
       },
       {
