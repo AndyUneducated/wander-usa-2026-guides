@@ -1,15 +1,15 @@
 {
  "region": "nyc",
- "pid": 24396,
- "total": 116,
- "done": 116,
- "ok": 116,
+ "pid": 6836,
+ "total": 24,
+ "done": 24,
+ "ok": 24,
  "skipped": 0,
  "failed": 0,
  "current": null,
  "phase": "done",
- "started_at": 1788601773.419638,
- "updated_at": 1788602710.241385,
+ "started_at": 1788607414.1762822,
+ "updated_at": 1788607556.0645041,
  "finished": true,
  "recent_failures": []
 }

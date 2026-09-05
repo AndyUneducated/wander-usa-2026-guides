@@ -678,11 +678,11 @@ module.exports = {
           '而且每日开放、雨天可拍，是全区最可靠的备份目标'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Boston_Public_Library%2C_McKim_Building_%28Bates_Hall_02%29.jpg',
+        { url: 'img/boston-public-library-mckim-building-bates-hall-02-7cfcd42c.jpg',
           cap: 'Bates Hall 的桶形拱顶与绿罩台灯 · Lëa-Kim Châteauneuf / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Boston_Public_Library%2C_McKim_Building_%28staircase_01%29.jpg',
+        { url: 'img/boston-public-library-mckim-building-staircase-01-011e2a51.jpg',
           cap: '大楼梯与两侧石狮 · Lëa-Kim Châteauneuf / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/Boston_Public_Library_Courtyard_%2826087613060%29.jpg',
+        { url: 'img/boston-public-library-courtyard-26087613060-0b90912c.jpg',
           cap: '内院回廊与中央水池 · Tony Webster / CC BY-SA 2.0' }
       ]
     },
@@ -887,11 +887,11 @@ module.exports = {
           '<strong>拍那张倒影时可以想想这件事——它让照片有了内容而不只是构图</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Copley_Square_with_Trinity_Church_and_Hancock_Tower.jpg',
+        { url: 'img/copley-square-with-trinity-church-and-hancock-tower-a8cc8f91.jpg',
           cap: '教堂与 Hancock 玻璃幕墙的倒影关系 · Gregg Squeglia / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Boston_Trinity_Church_Copley_Square_04.jpg',
+        { url: 'img/boston-trinity-church-copley-square-04-4896bca4.jpg',
           cap: 'Richardson 罗曼式的西立面与中央塔 · Miguel Hermoso Cuesta / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Outside_Trinity_Church_in_Copley_Square%2C_Boston.jpg',
+        { url: 'img/outside-trinity-church-in-copley-square-boston-1fd66b96.jpg',
           cap: 'Copley Square 广场一侧的横幅视角 · Swativ28 / CC BY-SA 4.0' }
       ]
     },
@@ -1076,11 +1076,11 @@ module.exports = {
           '是全区最灵活的填空目标'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Lagoon_bridge_in_the_Boston_Public_Garden%2C_Boston%2C_Massachusetts.jpg',
+        { url: 'img/lagoon-bridge-in-the-boston-public-garden-boston-massachuset-a311bee2.jpg',
           cap: 'Lagoon Bridge 与湖面倒影 · Christian David / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Boston_Public_Garden_Foot_Bridge_%2836007%29.jpg',
+        { url: 'img/boston-public-garden-foot-bridge-36007-0c0a35ed.jpg',
           cap: '秋末的公共花园小桥与落叶 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/01/Boston_Common_in_fall.jpg',
+        { url: 'img/boston-common-in-fall-0f7e3344.jpg',
           cap: 'Boston Common 的秋色与步道 · Chase Elliott Clark / CC BY 2.0' }
       ]
     },
@@ -1272,11 +1272,11 @@ module.exports = {
           '而且雨天也能拍（湿人行道反射店面灯光）'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/USA-Boston-Commonwealth_Avenue_Mall2.JPG',
+        { url: 'img/usa-boston-commonwealth-avenue-mall2-bfeeb936.jpg',
           cap: 'Commonwealth Avenue Mall 的林荫轴线与两侧褐石 · Ingfbruno / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Commonwealth_Avenue%2C_Boston_%2853828816356%29.jpg',
+        { url: 'img/commonwealth-avenue-boston-53828816356-af687eb5.jpg',
           cap: '十月的 Commonwealth Avenue 与秋叶 · Ethan Long / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Newbury_Street_Boston_May_2018.jpg',
+        { url: 'img/newbury-street-boston-may-2018-6a0d5179.jpg',
           cap: 'Newbury Street 的沿街立面与店面层 · King of Hearts / CC BY-SA 4.0' }
       ]
     },
@@ -1485,11 +1485,11 @@ module.exports = {
           '想安静拍 Yard 请避开这三天'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Harvard_Yard_in_autumn%2C_Boston%2C_Massachusetts%2C_2015.jpg',
+        { url: 'img/harvard-yard-in-autumn-boston-massachusetts-2015-efcf1bbf.jpg',
           cap: '秋季的 Harvard Yard 草坪与红砖楼 · Nina R / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Widener_Memorial_Library_-_Harvard_University_%2854941110519%29.jpg',
+        { url: 'img/widener-memorial-library-harvard-university-54941110519-91e7a0c5.jpg',
           cap: 'Widener Library 的柱廊与大阶梯 · Ajay Suresh / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/81/Statue_of_John_Harvard_%28left_foot_being_rubbed%29.JPG',
+        { url: 'img/statue-of-john-harvard-left-foot-being-rubbed-ece1a022.jpg',
           cap: 'John Harvard 像与被摸亮的左脚 · Vegasjon / CC BY-SA 4.0' }
       ]
     },
@@ -1722,11 +1722,11 @@ module.exports = {
           '但那三天整条河沿岸人流都会明显增加'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/94/MIT_Killian_Court.jpg',
+        { url: 'img/mit-killian-court-8bc28dab.jpg',
           cap: 'Killian Court 草坪与正对的 Great Dome · Madcoverboy / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/72/MIT%2C_Great_Dome.jpg',
+        { url: 'img/mit-great-dome-c78a9245.jpg',
           cap: '十月光线下的 Great Dome 与柱廊 · R Boed / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/MIT_Chapel_Interior.jpg',
+        { url: 'img/mit-chapel-interior-1aa2a6d4.jpg',
           cap: 'MIT Chapel 室内的天光与 Bertoia 金属幕 · Madcoverboy / CC BY-SA 3.0' }
       ]
     },
@@ -1955,11 +1955,11 @@ module.exports = {
           '带三脚架与长焦独行时建议蓝调一结束就撤，不要在 Esplanade 深处久留'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Downtown_Boston_skyline_and_the_Charles_River_%2851534558117%29.jpg',
+        { url: 'img/downtown-boston-skyline-and-the-charles-river-51534558117-12857f4f.jpg',
           cap: '九月末从 Cambridge 岸望 downtown 天际线 · Chris Rycroft / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Longfellow_Bridge_Boston_November_2016.jpg',
+        { url: 'img/longfellow-bridge-boston-november-2016-a48900af.jpg',
           cap: 'Longfellow Bridge 与「盐罐胡椒罐」桥塔 · King of Hearts / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Charles_River_Esplanade_Boston_November_2016_001.jpg',
+        { url: 'img/charles-river-esplanade-boston-november-2016-001-80c88966.jpg',
           cap: 'Boston 侧的 Esplanade 河岸公园 · King of Hearts / CC BY-SA 4.0' }
       ]
     },
@@ -2208,11 +2208,11 @@ module.exports = {
           '均未能从官方渠道确认</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Fenway_Park_exterior%2C_April_12%2C_2018_%2839613672440%29.jpg',
+        { url: 'img/fenway-park-exterior-april-12-2018-39613672440-393cc2ba.jpg',
           cap: 'Jersey Street 一侧的 Fenway Park 砖立面 · Daniel Hartwig / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Boston_downtown_view_from_the_Long_Wharf_%284766291104%29.jpg',
+        { url: 'img/boston-downtown-view-from-the-long-wharf-4766291104-8f4b6fe1.jpg',
           cap: '从 Long Wharf 尽头正面望 downtown 天际线 · Emmanuel Huybrechts / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9c/Long_Wharf%2C_Central_Wharf%2C_and_New_England_Aquarium%2C_Boston%2C_P1000075.JPG',
+        { url: 'img/long-wharf-central-wharf-and-new-england-aquarium-boston-p10-2a2f6de6.jpg',
           cap: 'Long Wharf 与 Harborwalk 的滨水步道段 · NewtonCourt / CC BY-SA 4.0' }
       ]
     }
