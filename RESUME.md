@@ -34,14 +34,23 @@
 | `yellowstone/parts/05-canyon-hayden.js` | ✅ 完成 |
 | `yellowstone/parts/06-geyser-basins.js` | ✅ 完成 |
 | `yellowstone/parts/08-grand-teton.js` | ✅ 完成 |
-| `nyc/parts/05-manhattan-downtown.js` | ⚠️ 断网时正在做，已落盘的部分在 `d759402` |
-| `yellowstone/parts/02-butte-paradise.js` | ⚠️ 断网时正在做，已落盘的部分在 `d759402` |
-| `yellowstone/parts/04-beartooth-chief-joseph.js` | ⚠️ 断网时正在做，已落盘的部分在 `d759402` |
+| `yellowstone/parts/01-bitterroot.js` | ✅ 完成 |
+| `yellowstone/parts/02-butte-paradise.js` | ✅ 完成 |
+| `yellowstone/parts/04-beartooth-chief-joseph.js` | ✅ 完成 |
+| `nyc/parts/05-manhattan-downtown.js` | ⚠️ 断网时正在做，已落盘的部分在 `ed21eb2` |
 | `nyc/parts/06-brooklyn.js` | ❌ 待做 |
-| `yellowstone/parts/01-bitterroot.js` | ❌ 待做 |
 
-三个标 ⚠️ 的片段是断网打断的，写进去的修正有效（语法与 `check_all.py` 都过了），
-但没做完。恢复时重派这三个加上两个 ❌，一共五个片段。
+**黄石七个片段的复核已全部完成。** 只剩纽约的两个：`05-manhattan-downtown.js`
+被断网打断（写进去的修正有效，语法与 `check_all.py` 都过了，但没做完），
+`06-brooklyn.js` 完全没开始。恢复时派一位做这两个即可。
+
+`05-manhattan-downtown.js` 交给下一位时要说明的待查项：High Line 的
+Western Rail Yards 临时步道是否重开、Whitney 周五免费夜场政策是否延续到
+2026 年 10 月（10/16 是周五，在真实日期内）、One World Observatory 的官方票价
+（动态定价，第三方报价 $31–53 差距过大）、Washington Square 喷泉十月下旬是否停水。
+`06-brooklyn.js` 的关键待查项是 Coney Island：劳动节后两个园区都只开周末，
+Deno's 记录的季末是 10/25，需确认 10/16–18（周五至周日）究竟有没有营业日，
+这决定这个景点在真实日期上是否可用。
 
 黄石园内那四个片段的复核留下两个还没定论的问题，恢复后若想继续追：
 Old Faithful Inn 的关门日 Xanterra 说 10/12、NPS 说 10/18 而两页都是当前的
