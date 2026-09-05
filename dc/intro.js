@@ -6,7 +6,7 @@
   var VERIFIED = '2026-09-05';
 
   var META = [
-    ['出行窗口', '9 月下旬 – 10 月下旬'],
+    ['实际日期', 'Philadelphia 10/19–20 · DC 10/21–25'],
     ['子地区', '7'],
     ['景点', '48'],
     ['核实日期', VERIFIED]
@@ -102,6 +102,53 @@
 
   /* ---------- 总览 ---------- */
   var OVERVIEW = [
+    /* 按实际行程日期收窄后的结论。原先按笼统的「9 月下旬–10 月下旬」写，
+       收窄后有大量条目直接失效或反转，这张卡片就是差异清单。 */
+    '<details class="callout tip" open><summary class="title">📅 按你的实际日期收窄：Philadelphia 10/19–20，Washington DC 10/21–25</summary>',
+    '<p>下面这几条是把笼统窗口换成实际日期后<strong>结论发生变化</strong>的部分，' +
+    '优先看这里，再看其余卡片里的通用内容。星期已换算好：' +
+    '<strong>10/19 周一、10/20 周二、10/21 周三、10/22 周四、10/23 周五、10/24 周六、10/25 周日</strong>。</p>',
+
+    '<p><strong>1. 10/20 周二是 Philadelphia 的死日，必须靠排序绕开。</strong>' +
+    'Philadelphia Museum of Art、Barnes Foundation、Rodin Museum <strong>周二全部闭馆</strong>——' +
+    '这三个就是 Parkway 子地区的全部主力。你在 Philadelphia 只有两天，所以顺序是被锁死的：' +
+    '<strong>Parkway 博物馆群必须放 10/19 周一，Old City 那批（Independence Hall、Liberty Bell 全年无休）放 10/20 周二。</strong>' +
+    '10/19 周一还要注意 Eastern State 的导览团工作日全天只有 12:00 一场。</p>',
+
+    '<p><strong>2. 10/25 周日 Capitol Hill 全军覆没。</strong>' +
+    'US Capitol、Library of Congress、Supreme Court 三个同时关门，' +
+    '而 10/25 是你在 DC 的最后一天。<strong>Capitol Hill 必须排在 10/21–10/23 这三天（周三至周五）之内。</strong>' +
+    '10/24 周六也不行：Supreme Court 周六关，且 Library of Congress 主阅览室的地面走廊只在周二至周五开放，' +
+    '周六你只能从二层 Overlook 往下拍。</p>',
+
+    '<p><strong>3. 秋色反而是好消息。</strong>DC 低地的近峰期是 <strong>10/20–10/27</strong>，' +
+    '你的 DC 段 10/21–25 <strong>整段落在近峰窗口内</strong>。' +
+    '这和笼统窗口下「九月下旬完全没有颜色」的结论正好相反——按你的实际日期，' +
+    'Rock Creek 一带的林地、Great Falls 的峡谷两岸、Dumbarton Oaks 的园景都成立，值得排进去。' +
+    'Philadelphia 略早于 DC，10/19–20 也已进入转色期。</p>',
+
+    '<p><strong>4. 这几条原本的警告可以直接划掉，都在你抵达之前：</strong>' +
+    'Washington Monument 的 <strong>10/5 全天维护关闭</strong>、' +
+    '<strong>Columbus Day 10/12 周一</strong>的联邦假日安排、' +
+    'Dumbarton Oaks 的 <strong>10/8–10 闭园</strong>。' +
+    'Dumbarton Oaks 平时周一周二闭园，但你在 DC 的日子是周三到周日，不受影响。</p>',
+
+    '<p><strong>5. 两条被日期锁死的坏消息。</strong>' +
+    '<strong>Smithsonian Castle</strong> 在 9 月 7 日后重新关闭，你以一个多月之差确定错过（Haupt Garden 仍开）。' +
+    '<strong>国会两院 10 月整月休会</strong>，旁听席即便开放也只能看空场，' +
+    '而且两院议席区<strong>禁止携带任何电子设备</strong>，相机手机都要寄存——这个点位在你的日期下没有摄影价值。</p>',
+
+    '<p><strong>6. Arlington 换岗频率已切换。</strong>10 月 1 日起改为<strong>每小时整点一次</strong>' +
+    '（4–9 月是每半小时）。配合 8:00–17:00 的开放时间，10/25 那天只有八场可看，' +
+    '想拍就得对着整点安排。</p>',
+
+    '<p><strong>7. The People\'s House 的票现在就得订。</strong>' +
+    '它的放票规则是每月第一个工作日 17:00 ET 前放出次月全月票，' +
+    '所以<strong>10 月的票已于 9 月 1 日放出</strong>。详见<a href="#appendix">附录 C</a>。</p>',
+
+    '<p class="muted">其余卡片保留了整个 9 月下旬至 10 月下旬的通用信息，' +
+    '万一行程调整仍然可用。</p></details>',
+
     '<details class="callout warn" open><summary class="title">⚠️ 两处「按月续期」的封闭令，是本区唯一真正的变数</summary>',
     '<p>这一区绝大多数点位都稳定得像博物馆时刻表，但有两处例外，' +
     '它们的共同特点是<strong>封闭命令按月签发、恰好在你出行窗口开始前到期</strong>，所以现在无法给你确定答案。</p>',
@@ -138,15 +185,17 @@
     '<p><strong>周六还有一个隐藏陷阱</strong>：Library of Congress 主阅览室的地面走廊只在周二至周五开放' +
     '（加周四晚场），周六你只能从二层 Overlook 往下拍。完整交叉表见<a href="#appendix">附录 B</a>。</p></details>',
 
-    '<details class="callout tip"><summary class="title">💡 秋色：九月下旬完全没有颜色，十月下旬才刚够用</summary>',
-    '<p>这条决定了本区好几个点位值不值得去，而且结论可能和你的预期相反。</p>',
+    '<details class="callout tip"><summary class="title">💡 秋色：你的 10/21–25 正好落在近峰窗口内</summary>',
+    '<p>这条决定了本区好几个点位值不值得去。</p>',
     '<p><strong>DC 低地的秋色峰值在 10 月 25 日至 11 月 8 日</strong>，近峰期 10 月 20–27 日。' +
     'Blue Ridge 与 Shenandoah 早得多，约 10 月 10–20 日。Philadelphia 与 DC 大致同步，略早几天。' +
     '2026 年的季度展望是大西洋走廊比常年略冷略干，据此可以把上述日期<strong>再往前挪 3–5 天</strong>。</p>',
-    '<p><strong>实际后果：如果你在九月下旬来，把秋色完全排除在计划外。</strong>' +
-    'Theodore Roosevelt Island 这类纯林地点位在九月几乎没有价值，可以直接跳过；' +
-    'Prospect 式的大片林冠、Great Falls 的峡谷两岸、Dumbarton Oaks 的园景，都要等到 10 月 20 日以后才开始成立。' +
-    '10 月 22 日只踩到近峰的边缘。</p>',
+    '<p><strong>按你的实际日期，秋色是成立的。</strong>DC 段 10/21–25 整段在近峰期内，' +
+    'Theodore Roosevelt Island 这类纯林地点位、Great Falls 的峡谷两岸、Dumbarton Oaks 的园景都值得排；' +
+    '若展望里的偏冷偏干成立，10/21 就可能已经接近峰值。Philadelphia 的 10/19–20 略早于 DC，' +
+    '处在转色期，Parkway 沿线与 Boathouse Row 的河岸坡地已有颜色但未到最浓。</p>',
+    '<p class="muted">若行程改到九月下旬，结论完全反转：那时低地没有任何颜色，' +
+    '上述几个纯林地点位应直接跳过。</p>',
     '<p>反过来说，<strong>十月下旬有一个九月没有的好处</strong>：日落提前到 18:20，而各馆闭馆时间不变，' +
     '所以你走出博物馆时正好撞上黄金时段；九月下旬日落 19:00，出馆后要空等一个多小时。' +
     '这两个月需要完全不同的日程编排。</p></details>',
