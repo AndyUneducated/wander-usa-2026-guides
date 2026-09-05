@@ -320,7 +320,7 @@ module.exports = {
       name: 'Dumbarton Oaks 花园',
       en: 'Dumbarton Oaks Gardens',
       score: 4,
-      tldr: 'Beatrix Farrand 三十年打磨的台地园，$15 网购限时票；每天只开 14:00–18:00、周一闭园、10/8–10 停开、禁三脚架。',
+      tldr: 'Beatrix Farrand 的台地园；只开下午 14:00–18:00、周一闭园、10/8–10 停开、$15 须网购、禁三脚架。',
       tags: [
         { t: '$15/人', c: 'paid' },
         { t: '仅 Eventbrite 预购', c: 'risk' },

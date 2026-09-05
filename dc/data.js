@@ -840,10 +840,10 @@ var REGIONS = [
           },
           {
             "name": "Three Servicemen 铜像（西南侧林中）",
-            "desc": "<strong>日落前 40 分钟</strong>（9/25 约 18:20，10/22 约 17:40）。这组 1984 年加建的铜像位于墙体西南方约 40 米的树丛边缘，<strong>三人的视线朝向墙</strong>——用 70–200mm 从铜像后方越过肩膀拍，让墙作为虚化背景，是唯一能把「妥协产物」重新讲成一句完整叙事的角度。傍晚低角度侧光能勾出铜像表面的绿锈质感。<strong>版权提示：Three Servicemen 的影像版权由 Associated Press 持有，个人游客记录性拍摄无碍，任何商业用途需另行取得授权。</strong>坐标为 OSM 雕塑节点。",
+            "desc": "<strong>日落前 40 分钟</strong>（9/25 约 18:20，10/22 约 17:40）。这组 1984 年加建的铜像位于 Apex 南偏西约 50 米的树丛边缘（旗杆旁），<strong>三人的视线朝向墙</strong>——用 70–200mm 从铜像后方越过肩膀拍，让墙作为虚化背景，是唯一能把「妥协产物」重新讲成一句完整叙事的角度。傍晚低角度侧光能勾出铜像表面的绿锈质感。<strong>版权提示：Three Servicemen 的影像版权由 Associated Press 持有，个人游客记录性拍摄无碍，任何商业用途需另行取得授权。</strong>坐标取自 OSM 雕塑本体（way 895985388 / wikidata Q1456408）；<strong>注意 OSM 里另有一个同名的陈旧节点被错标在 200 米外的 23rd St 附近，导航时别用错。</strong>",
             "view": [
-              38.892613,
-              -77.049783
+              38.890539,
+              -77.048168
             ]
           }
         ],
@@ -1540,6 +1540,545 @@ var REGIONS = [
           {
             "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Jefferson_Memorial_At_Dusk_1.jpg",
             "cap": "蓝调时分的纪念堂 · Joe Ravi / CC BY-SA 3.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dc-capitol-hill",
+    "name": "Washington DC · Capitol Hill 立法与司法建筑群",
+    "navName": "Capitol Hill",
+    "color": "#4da3ff",
+    "lead": "这一区和 National Mall 的露天纪念碑是两种完全不同的游戏。National Mall 24 小时免费无门槛，Capitol Hill 的五个点<strong>全部是要过安检的联邦建筑，全部有闭馆日，两个要抢定时票，而且全部会在联邦政府停摆时关闭</strong>。好消息是停摆风险这次基本被拆掉了——2026 年 9 月 2 日签署的 Public Law 119-103 把联邦拨款延到 <strong>2026 年 12 月 11 日</strong>，覆盖整个 9 月底至 10 月底窗口。坏消息是另一件事：<strong>国会大厦 East Front 从 2026 年夏天起被脚手架和防尘罩包住，要到 2028 年秋天才拆</strong>，所以东立面这次基本报废，全部重心要压到 West Front 的日落。摄影上真正的两个硬目标是 <strong>Library of Congress 的 Main Reading Room</strong>（全美最美室内空间之一，需 30 天前放的定时票，且禁三脚架）与 <strong>West Front 的日落加蓝调穹顶</strong>；Supreme Court 与 Union Station 是稳定的补充；Botanic Garden Conservatory 是本区唯一像样的雨天备案。",
+    "callouts": [
+      {
+        "type": "good",
+        "title": "联邦政府停摆：本次窗口内风险已解除（拨款已延续至 12/11）",
+        "html": "<p>这五个点<strong>全部依赖联邦拨款</strong>（Capitol、Library of Congress、Botanic Garden 属立法机构，Supreme Court 属司法机构，Union Station 的联邦部分由 USRC/FRA 管），和露天的 Lincoln、Jefferson 纪念堂不一样——<strong>一旦拨款中断，这五个点全部关闭或大幅缩减</strong>：Capitol 停止全部导览、Library of Congress 关闭 Thomas Jefferson Building、Supreme Court 通常仅维持法庭开庭而关闭参观项目、Botanic Garden 直接关门。</p><p><strong>当前状态（截至 2026 年 9 月 5 日）：风险已基本解除。</strong>H.R.6500《Continuing Appropriations and Extensions Act, 2027》已于 <strong>2026 年 9 月 2 日签署成为 Public Law 119-103</strong>，按 FY2026 水平延续拨款，<strong>有效期至 2026 年 12 月 11 日</strong>。参议院 8 月 8 日以 90–6 通过、众议院 9 月 1 日以 370–48 通过，两党票数悬殊，这是近年来罕见的提前一个月完成 CR。原本 FY2026 拨款将于 <strong>9 月 30 日</strong>到期、10 月 1 日进入 FY2027，那才是本区的高危日；现在这个断点已被跨过。</p><p>→ <strong>结论：9 月下旬至 10 月下旬的任何日期，停摆导致关门的概率很低。</strong>真正的下一个断点是 <strong>12 月 11 日</strong>，与本次行程无关。需要注意的是 FY2027 的 12 部拨款法案至今众议院只通过 3 部、参议院 0 部，众议院拨款委员会主席 Tom Cole 已公开表示 12 月「要么全年 CR，要么停摆」——如果你的行程有任何可能推到 12 月中之后，请重新评估。</p><p>出发前一周自查：<a href=\"https://www.congress.gov/bill/119th-congress/house-bill/6500\">congress.gov H.R.6500 法案状态页</a>、<a href=\"https://www.visitthecapitol.gov/\">visitthecapitol.gov</a> 与 <a href=\"https://www.loc.gov/visit/\">loc.gov/visit</a> 的首页公告条。</p>"
+      },
+      {
+        "type": "warn",
+        "title": "East Front 被脚手架包住，到 2028 年秋——东立面这次放弃",
+        "html": "<p>AOC 的 <strong>Capitol Exterior Preservation – Stone and Metal</strong> 项目第 4 期针对 <strong>East Front</strong>，官方口径：<strong>「Phase 4 has begun and is anticipated to be completed fall 2028」，2026 年夏季开工</strong>。AOC 自己的 FAQ 写明「The project will require scaffolding to execute the work… <strong>A scrim will cover the scaffolding</strong> to control dust and water spray」，并且<strong>夜间会给脚手架与建筑打工作照明</strong>（多数施工安排在周一至周六夜间）。</p><p>→ 实际后果：<strong>East Front Plaza 的东立面、山花雕塑、以及从东侧拍穹顶的机位这次基本不可用</strong>，穹顶本体虽不在施工范围，但下方立面会有防尘罩与钢管入镜，夜景还会有非常难看的施工射灯。<strong>Capitol Visitor Center 的入口仍在东侧地下，进出不受影响</strong>（AOC：「Most doors will remain open」）。</p><p>好消息：<strong>Phase 3 – West Front 已于 2024 年完工</strong>，西立面是干净的。所以本区所有外景重心请全部压到 West Front / Union Square 一侧。</p><p>另外南侧同期在建 <strong>Capitol South Screening Facility</strong>（新的众议院侧安检设施，2026 年刚发包，工期约两年），Capitol 南面也会有围挡。</p>"
+      },
+      {
+        "type": "warn",
+        "title": "闭馆日陷阱：周日这一区几乎全军覆没",
+        "html": "<p>五个点的闭馆规律完全不一致，排错一天就是白跑。官方口径：</p><ul><li><strong>Capitol Visitor Center：周一至周六 8:30–16:30，周日闭馆。</strong>最后一场导览 15:20 开始（tour 时段 8:40–15:20）。</li><li><strong>Library of Congress（Thomas Jefferson Building）：周二至周六 10:00–17:00，周四延长至 20:00；<u>周日与周一闭馆</u></strong>，最后入场 16:30。</li><li><strong>Supreme Court：周一至周五 9:00–15:00，<u>周六、周日及全部联邦假日闭馆</u></strong>。</li><li><strong>Botanic Garden Conservatory：每天 10:00–17:00</strong>（仅 12/25 闭馆），是本区唯一全周开放的室内点。</li><li><strong>Union Station：每天 5:00–23:00 对公众开放</strong>（23:00–5:00 仅持票乘客），零售周一至周六 10:00–21:00、周日 12:00–18:00。</li></ul><p>→ <strong>周日：Capitol、Library of Congress、Supreme Court 三个全关，只剩 Union Station 与 Botanic Garden。</strong><br>→ <strong>周一：Library of Congress 关（Capitol 与 Supreme Court 开）。</strong><br>→ <strong>周六：Supreme Court 关，而且 Library of Congress 的 Main Reading Room 地面 walkthrough 周六不办</strong>（只有周二至周五与周四晚间）——周六只能从二层 Overlook 隔玻璃看。<br>→ <strong>唯一能一次吃下全部五个点的是周二至周五。</strong>10 月 12 日是 Columbus Day 联邦假日，Supreme Court 与 Library of Congress 会关，请避开。</p>"
+      },
+      {
+        "type": "info",
+        "title": "两张必须提前抢的免费票：Capitol 提前 90 天，Library of Congress 提前 30 天",
+        "html": "<p><strong>U.S. Capitol 导览票：免费，滚动提前 90 天放。</strong>在 <a href=\"https://www.visitthecapitol.gov/visit/book-a-tour\">visitthecapitol.gov/visit/book-a-tour</a> 注册账号后自助预订（或通过参议员／众议员办公室，公众申请窗口为 7–90 天）。单账号一天最多 10 张。<strong>注意：官方要求「每位参观者的姓名必须在参观前至少 2 天填入预订」</strong>，别订完就不管。</p><p><strong>没抢到怎么办：官方口径是「Reservations are recommended, not required」，当天票（same-day passes）在 Emancipation Hall 的 Information Desk 发放，数量有限。</strong>官方建议无预约者「尽早到，最迟不晚于 14:30」。9 月下旬至 10 月下旬不是旺季（旺季是 3–7 月），当天票拿到的概率不低，但会消耗排队时间。</p><p><strong>Library of Congress 定时票：免费，滚动提前 30 天放，用 Etix 系统。</strong>入口在 <a href=\"https://www.loc.gov/visit/\">loc.gov/visit</a>。单次最多订 20 人。<strong>另有当天票，每个开放日 9:00 ET 在线释放</strong>——这是最可靠的补救路径，定好闹钟。20 人以上团体走另一套表单，可提前 60 天。票不可转让、不可改期，只能发信到 visit@loc.gov 取消。</p><p><strong>没有任何票会怎样：Library of Congress 会被拒于门外</strong>（「Every Library of Congress visitor, regardless of age, must reserve timed-entry passes」，无票不得进楼）；<strong>Capitol 只是要排队等当天票，不会完全进不去</strong>；Supreme Court、Union Station、Botanic Garden <strong>完全不需要预约</strong>。</p><p>顺便：<strong>Capitol Visitor Center 上层、House Appointment Desk 附近有一条通往 Library of Congress 的地下隧道</strong>，两栋楼之间不必出到地面（但 LOC 侧仍要独立安检并验票）。</p>"
+      },
+      {
+        "type": "tip",
+        "title": "三脚架：本区五个点没有一个可以随便架",
+        "html": "<ul><li><strong>U.S. Capitol Grounds（含 West Lawn、Union Square、Capitol Reflecting Pool、Grant Memorial）：架三脚架需 U.S. Capitol Police 许可。</strong>这不是道听途说——AOC 摄影主管 Michael Dunn 在官方博客里的原话是「please be aware that <strong>use of a tripod requires a special permit from the United States Capitol Police</strong>」。注意 <strong>Union Square 自 2011 年 12 月 Public Law 112-74 起已从 NPS 转归 AOC</strong>，所以反射池那一带算 Capitol Grounds，不是 National Mall。<strong>要合法架脚架拍穹顶，请退到 3rd Street 以西</strong>——那边才是 NPS 管的 National Mall，非商业用途的三脚架不受限制，用 200mm 以上长焦压缩反而效果更好。</li><li><strong>Library of Congress：明确禁止。</strong>2026 年 3 月 19 日生效的联邦法规（36 C.F.R. 702.4，见 Federal Register 2026-05430）把「informal photography for personal use」定义为「不使用任何 supplemental equipment」的手持拍摄，并把 <strong>tripods 明确列入 supplemental equipment</strong>。要用脚架只能申请 formal photography 许可，而<strong>许可时段只在周一——也就是大楼对公众关闭的那天</strong>，45 分钟一场，需提前至少一周申请（PhotoSessions@loc.gov）。</li><li><strong>Supreme Court：楼内与正前方 plaza 禁止三脚架</strong>；界桩（bollards）以外的临街人行道可以用。</li><li><strong>Botanic Garden：可以用，但需许可。</strong>官方政策：手持随便拍，<strong>三脚架或画架需 permit</strong>，提前至少一周写信给 Visitor Services Coordinator（victoria.gesell@aoc.gov），或到 Conservatory 服务台现场申请（<strong>不保证当天批</strong>），且高峰时段不得使用。</li><li><strong>Union Station：未能从官方渠道找到明文的三脚架规定。</strong>这是私营管理的商业物业加交通枢纽，实务上大堂里架脚架通常会被保安劝阻。请按「手持」准备。</li></ul>"
+      }
+    ],
+    "spots": [
+      {
+        "id": "union-station-dc",
+        "n": 1,
+        "name": "联合车站",
+        "en": "Union Station",
+        "score": 4,
+        "tldr": "Beaux-Arts 金箔藻井拱顶，免费且每天开到 23:00；南向高窗光柱 11:00–14:00 最好。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "不需预约",
+            "c": "free"
+          },
+          {
+            "t": "每天 5:00–23:00",
+            "c": "free"
+          },
+          {
+            "t": "大堂已修复无脚手架",
+            "c": "good"
+          }
+        ],
+        "highlights": [
+          "Daniel Burnham 设计、1907 年启用，是 McMillan Plan 之下 City Beautiful 运动在华盛顿最完整的实现。<strong>启用时它是全世界最大的火车站</strong>，正立面的白色 Vermont granite 拱廊直接照搬罗马 Arch of Constantine 的三拱构成，Main Hall 的桶形拱顶抄的是 Baths of Diocletian",
+          "Main Hall 的<strong>格状藻井拱顶高 96 英尺</strong>，是本站唯一真正的摄影目标。<strong>2011 年 8 月那场 5.8 级地震把这块历史石灰泥拱顶震裂</strong>，随后是一场长达数年的修复：五个 bay 逐个做石膏修补、重新上漆并<strong>重铺 23 克拉金箔（超过 12 万张）</strong>，同时在拱顶上方加装了一整套钢支撑系统做抗震加固。<strong>五个 bay 全部于 2016 年春完工，脚手架已全部拆除</strong>",
+          "<strong>关于当前施工状态，这次的核实结果是好消息：Main Hall 现在是干净的、没有脚手架。</strong>2016 年修复完成时同步拆掉了 Main Hall 中央的 Center Café 与两个圆形花池，<strong>把拱顶下方的空间恢复成 1907 年原始设计的无遮挡状态、这是近 50 年来第一次</strong>。至于那个长期悬着的重建计划：<strong>USDOT 已于 2026 年 7 月 24 日正式作废那个已获联邦批准的 88 亿美元扩建方案</strong>，改为投 2,400 万美元研究公私合营的新方案，另有 4.66 亿美元用于结构维修、concourse 改造与安保升级。<strong>新方案至今没有设计、造价与工期，所以短期内不会有影响 Main Hall 的大工程</strong>",
+          "需要清楚的期待管理：<strong>这里首先是一个运营中的车站加商场</strong>（Amtrak、MARC、VRE、Metro Red 线、长途巴士总站，年客流四千余万）。Main Hall 与 East Hall 很美，但<strong>其余部分是彻底的普通商场</strong>；本条目的价值集中在一个空间、一个题材上，40 分钟足够"
+        ],
+        "photo": "建筑 <strong>4/5</strong>，人像 <strong>4/5</strong>，风光 <strong>1/5</strong>。拱顶与拱廊是干净的对称几何、又免费又开得晚，人像用大堂做背景非常出片；扣分是可拍范围只有一两个厅、且人流永不间断。",
+        "shots": [
+          {
+            "name": "Main Hall 中轴（拱顶与光柱主机位）",
+            "park": [
+              38.899133,
+              -77.006345
+            ],
+            "view": [
+              38.897406,
+              -77.00624
+            ],
+            "desc": "坐标取自 OSM 中标注为「Main Hall」的建筑实体（way/478697188），即大堂本体。<strong>正立面朝南</strong>（站体到南侧 Columbus Fountain 的实测方位约正南），<strong>因此高处采光来自南向</strong>——<strong>最佳时段是 11:00–14:00</strong>，此时太阳方位 146–200 度、正好穿过南侧高窗。<strong>而且 10 月下旬明显优于 9 月下旬：solar noon 太阳高度从 9/25 的 50 度降到 10/22 的 40 度，光线入射角更平、光柱在大堂里推得更深、更容易在地面拉出成形的光斑</strong>（9 月的 50 度接近顶光，光柱短而陡）。晴天为必要条件，阴天这里只剩一片均匀的平光。<strong>14–24mm 超广站大堂正中垂直上仰</strong>，让藻井格与两端半圆窗形成对称；<strong>24–35mm 平视拍纵深，把光柱与人流剪影一起收进来</strong>；<strong>70–200mm 抽藻井局部的金箔与阴影韵律</strong>做纯抽象。<strong>光比通常超过 7 EV（窗内到藻井阴影），建议拍 3–5 张包围曝光做 HDR</strong>；手持时 ISO 400–1600 足够，光柱段可以压到 ISO 200。"
+          },
+          {
+            "name": "East Hall 拱廊（更安静的替代空间）",
+            "view": [
+              38.897593,
+              -77.006159
+            ],
+            "desc": "坐标为 OSM 的 Washington Union Station 站体实体点，East Hall 在 Main Hall 东侧、无独立 OSM 节点，<strong>针脚为站体级精度</strong>。这里原是候车厅，现为柱廊环绕的零售与餐饮空间，<strong>彩绘天花与柱头细节比 Main Hall 更密</strong>，而且<strong>人少得多、允许慢慢构图</strong>。光源是天窗与人工照明的混合，<strong>不依赖具体钟点；但 10:00 商店开门前与 20:00 之后人最少</strong>。<strong>24–35mm 沿柱廊中轴拍透视</strong>，<strong>50–85mm 抽彩绘天花与柱头</strong>。这里也是本站最好的人像空间：柱廊侧光柔而有方向，把人放在两根柱子之间的暗区、让侧光勾轮廓。"
+          },
+          {
+            "name": "Columbus Fountain 与南立面（日落与蓝调）",
+            "view": [
+              38.896388,
+              -77.006599
+            ],
+            "desc": "坐标为 OSM 的 Columbus Fountain 实体点，在站前 Columbus Circle 上。<strong>正立面朝南，而日落方位 269 度（9/25）到 256 度（10/22）——即落日几乎从正西沿立面掠过，形成很强的横向擦射光</strong>，白色花岗岩的拱廊与柱头会被拉出长阴影，这是本立面唯一有立体感的时段：<strong>9/25 的 18:15–19:00、10/22 的 17:30–18:19</strong>。日落后立面泛光照明加深蓝天，<strong>19:05–19:30（10 月 18:25–18:50）</strong>是蓝调版本。Lorado Taft 1912 年的这座喷泉中央是 Columbus 立像，两侧有代表新旧大陆的卧像。<strong>24–35mm 用喷泉做前景、三拱门做背景</strong>。<strong>额外的构图：站体到 Capitol 穹顶实测方位 196 度、距离约 900 米</strong>，从 Columbus Circle 沿 Delaware Avenue 向南南西方向<strong>可以把穹顶收进画面，用 135–200mm 压缩</strong>，是「车站＋国会」的双主体构图。<strong>广场属公共道路空间，三脚架限制远小于 Capitol Grounds，但车流密集请紧贴环岛内侧</strong>。"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约</strong>",
+          "ticket": "<strong>免费</strong>",
+          "hours": "官方原文：<strong>「Washington Union Station is open 7 days a week」，「Union Station is closed to the public daily from 11PM to 5AM. During that time, the station will only be accessible to ticketed passengers.」</strong>→ <strong>公众每天 5:00–23:00，全年无闭馆日</strong>，是本区时间上最宽松的点。零售店铺周一至周六 10:00–21:00、周日 12:00–18:00；美食广场周一至周六 7:00–21:00、周日 7:00–18:00；正餐厅各自不同。<strong>Main Hall 与 East Hall 的建筑空间在 5:00–23:00 全程可进，不受店铺营业时间限制</strong>",
+          "parking": "<strong>本区唯一有正规大型停车场的点</strong>：Union Station Parking Garage（站体北侧，4 层，入口在 1st Street NE / H Street NE 一侧）。<strong>具体费率未能从官方渠道核实</strong>，请现场看牌。也因此这里是「开车来 Capitol Hill」最现实的落脚点——停这里再步行或坐一站 Metro 去 Capitol",
+          "walk": "Metro <strong>Union Station</strong> 站（Red 线）出站到 Main Hall 约 <strong>140 米 / 2 分钟</strong>，是本区最省力的点。停车楼到 Main Hall 约 200 米 / 3 分钟。步行去 Capitol 约 900 米 / 12 分钟，去 Supreme Court 约 850 米 / 11 分钟"
+        },
+        "notes": [
+          "<strong>三脚架政策未能从官方渠道确认。</strong>这是私营管理的商业物业加交通枢纽，官网未见明文摄影规定；实务上大堂内架三脚架通常会被保安劝阻，<strong>请按纯手持准备</strong>。若要拍商业内容，需联系 Union Station 物业方申请",
+          "<strong>人流是这里最大的构图障碍，而且没有任何时段是空的。</strong>最好的应对不是等空场，而是<strong>反向利用</strong>：用 1/8–1/15 秒让人流拖成虚影、拱顶保持清晰（手持配合机身防抖可行），或干脆把人做剪影放进光柱里。真要接近空场，只有<strong>清晨 5:00–6:30</strong>（但那时没有光柱）与<strong>21:30–23:00</strong>",
+          "<strong>金箔藻井对白平衡很敏感</strong>：23 克拉金箔反射会把整个拱顶推向强黄，自动白平衡容易过度校正、把金子拉成灰。<strong>建议手动锁白平衡在 4500–5200K（晴天光柱时段）</strong>，拍 RAW 后期再调",
+          "本站是运营中的车站，<strong>站台区与 Amtrak 候车区需车票才能进</strong>，不要试图进去拍列车。Main Hall、East Hall 与商业区不需车票",
+          "<strong>站前 Columbus Circle 东侧的 Thurgood Marshall Federal Judiciary Building 目前有 AOC 的立面加固工程在进行</strong>（「Thurgood Marshall Façade Stabilization」，状态为 On Going），拍站前广场大场景时注意避开那一侧的围挡",
+          "夜间站前广场与周边（尤其 H Street 与 Massachusetts Avenue 一带）人流复杂，<strong>21:00 后带显眼器材独行请提高警惕</strong>；站内有警力，站外无",
+          "这里是本区唯一有大量餐饮与卫生间、且可以坐下来的地方，<strong>适合放在 Capitol Hill 一天行程的中段或收尾</strong>"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Great_Hall%2C_Washington_Union_Station_%282024%29-L1005585.jpg",
+            "cap": "Main Hall 藻井拱顶 · Frank Schulenburg / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Washington_Union_Station_panoramic.jpg",
+            "cap": "Main Hall 旋转镜头全景 · Antony-22 / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/East_Hall%2C_Washington_Union_Station_%282024%29-L1005594.jpg",
+            "cap": "East Hall 拱廊与彩绘天花 · Frank Schulenburg / CC BY-SA 4.0"
+          }
+        ]
+      },
+      {
+        "id": "supreme-court",
+        "n": 2,
+        "name": "美国最高法院",
+        "en": "Supreme Court of the United States",
+        "score": 4,
+        "tldr": "免费不预约，西立面铭文与 Great Hall 可拍；周末全关、15:00 关门，法庭内禁拍。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "不需预约",
+            "c": "free"
+          },
+          {
+            "t": "周末与假日闭馆",
+            "c": "risk"
+          },
+          {
+            "t": "15:00 就关门",
+            "c": "risk"
+          },
+          {
+            "t": "法庭内禁拍",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "Cass Gilbert 设计、1929–1935 年建成。在此之前<strong>最高法院成立后的 146 年里一直没有自己的房子</strong>，长期借用国会大厦里的房间（包括现在的 Old Supreme Court Chamber）。外墙用<strong>佛蒙特 Imperial Danby 白色大理石</strong>，四个内庭院用乔治亚白色大理石，室内走廊用阿拉巴马乳白大理石",
+          "西立面山花下的檐部刻着 <strong>「EQUAL JUSTICE UNDER LAW」</strong>——这句话<strong>不是引自宪法或任何法律文本，而是 Cass Gilbert 的事务所为了填满这块石头而拟的</strong>，四个词恰好排满檐部的长度。它后来反倒成了美国司法体系被引用最多的标语之一",
+          "大台阶两侧是 James Earle Fraser 1935 年的两座坐像：北侧 <strong>Contemplation of Justice</strong>（女性像，手托一尊小型正义女神），南侧 <strong>Authority of Law</strong>（男性像，手持法典与剑）。这两座像是西立面构图里最好用的前景元素，且都有可核对的 OSM 坐标",
+          "<strong>Courtroom Lecture 是普通游客进入法庭的唯一方式</strong>（官方原文：「Other than attending a Court session, Courtroom Lectures are the only way visitors may enter the Courtroom」）。25 分钟，全程在法庭内进行，由志愿讲解员带。<strong>时段为周一至周五 10:30、11:30、12:30、13:30、14:30；但联邦假日与「法院开庭日」不办。</strong>→ 已核实 <strong>October Term 2026 的 10 月庭期为 10 月 5、6、7 日与 10 月 13、14 日</strong>（10 月 12 日 Columbus Day 为假日）。<strong>所以：9 月下旬本届庭期尚未开始、10 月 19 日之后 10 月已无排庭，这两段时间讲座应正常运行；10 月 5–14 那一周半是空档区</strong>",
+          "<strong>摄影规则很干净：公共区域可以拍，法庭内任何时候都不行。</strong>官方原文「Visitors may take non-flash photographs and videos for personal use in the public portions of the ground and first floors. Photography and audio/video recording is not permitted inside the Courtroom at any time.」→ <strong>Courtroom Lecture 你能进去听、但一张都不能拍</strong>；能拍的是 Great Hall、大台阶、以及一层与地下层的公共走廊与展览"
+        ],
+        "photo": "建筑 <strong>4.5/5</strong>，人像 <strong>3/5</strong>，风光 <strong>1/5</strong>。西立面是纯正的古典主义正面构图、且日落顺光；Great Hall 的柱廊纵深很强。扣分是开放时间短、周末全关、法庭这个最强空间完全不能拍。",
+        "shots": [
+          {
+            "name": "西侧 plaza 正对立面（Contemplation of Justice 侧）",
+            "view": [
+              38.890742,
+              -77.005225
+            ],
+            "desc": "坐标为 OSM 的 Contemplation of Justice 雕像实体点，在大台阶北侧。<strong>西立面朝西（法线约 270 度），与 Capitol West Front 同一个道理：日落是顺光而非逆光</strong>。<strong>9/25 黄金光 17:45–19:00（日落 19:00）、10/22 黄金光 17:00–18:19（日落 18:19）</strong>；白色大理石在低角度暖光下会转成奶油金，这是本立面最好的状态。<strong>建筑本身 15:00 就关门，但外景在公共人行道上不受时间限制</strong>——<strong>所以正确的安排是：白天进楼拍内部，日落再回来拍外立面</strong>。<strong>16–24mm 超广贴着雕像基座上仰</strong>，让雕像做近前景、16 根科林斯柱与山花做背景；<strong>24–35mm 平视拍完整正立面</strong>，注意保持相机水平否则柱子会外八。日落后 <strong>19:05–19:30（10 月为 18:25–18:50）</strong>大理石会被立面射灯打成暖白配深蓝天，是另一个成立的版本。<strong>plaza 上禁三脚架，界桩以外的临街人行道可以架</strong>。"
+          },
+          {
+            "name": "「Equal Justice Under Law」檐部长焦特写",
+            "view": [
+              38.890494,
+              -77.005221
+            ],
+            "desc": "坐标为 OSM 的 Authority of Law 雕像实体点，在大台阶南侧。<strong>70–200mm，200mm 端最好</strong>，从 plaza 后退到 1st Street NE 人行道上向上抽檐部。<strong>时段与上一机位一致（日落前 1 小时到日落）</strong>：斜射光能在浮雕字母的凿痕里留下阴影，字才立得起来；<strong>正午顶光会把字打平、几乎读不出来</strong>。构图两种：一是只留檐部铭文加上方 Robert Aitken 的山花群像做满幅，二是把 Authority of Law 的头肩剪影放在画面下缘、铭文在其上方，形成「法典—铭文」的双层呼应。<strong>注意 2025 年 1 月起法院在西立面做过一轮工程</strong>（加装照明、West Portico 防鸟系统、大理石清洗，官方公告称约八个月），<strong>本次未能确认脚手架是否已完全拆除</strong>——出发前请刷一眼近期照片。"
+          },
+          {
+            "name": "Great Hall 内部柱廊",
+            "park": [
+              38.890742,
+              -77.005225
+            ],
+            "view": [
+              38.890593,
+              -77.004439
+            ],
+            "desc": "坐标为 OSM 的 Supreme Court 建筑实体点，室内房间无独立 OSM 节点。<strong>Great Hall 在一层、法庭正前方</strong>，双排巨型大理石柱夹着一条纵深走廊，两侧壁龛里是历任首席大法官的胸像。<strong>光源是两端的高窗与柱间的间接照明，属稳定的低照度混合光，不依赖钟点</strong>——但<strong>建筑 9:00 开门、15:00 关门，所以你只有这 6 小时</strong>，且 <strong>Courtroom Lecture 的排队队伍就在 Great Hall 里形成</strong>（讲座前 15 分钟开始聚集），<strong>要拍空旷的走廊请在 9:00–10:15 之间来，或者错开每个整点半的讲座前 15 分钟</strong>。<strong>24–35mm 沿走廊中轴向法庭方向拍柱列的透视递退</strong>；<strong>85mm 抽单个首席大法官胸像</strong>，用后方柱子的虚化做背景。<strong>禁闭光灯、禁三脚架，ISO 1600–4000、f/2–f/2.8 手持</strong>。地下层还有 Cass Gilbert 设计的螺旋大理石楼梯与常设展览，同样可拍。"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约。</strong>Courtroom Lecture 也不预约，<strong>队伍在一层 Great Hall、法庭门外现场排</strong>，官方建议提前至少 15 分钟到（春夏更早）。若想旁听庭辩（10 月 5、6、7、13、14 日 10:00 开庭），目前是「在线抽签＋当日先到先坐」的试点并行：当日队伍在 East Capitol Street 一侧人行道排，约 9:30 开始放人入座",
+          "ticket": "<strong>免费</strong>",
+          "hours": "官方原文：<strong>「The Supreme Court Building is open Monday to Friday from 9 a.m. to 3 p.m. It is closed on weekends and all federal holidays.」</strong><strong>Courtroom Lecture：周一至周五 10:30、11:30、12:30、13:30、14:30，联邦假日与法院开庭日不办</strong>，且「subject to cancellation due to Court business and… volunteer docent availability」。<strong>2026 年 10 月开庭日为 10/5、10/6、10/7、10/13、10/14；10/12 Columbus Day 全馆闭馆。</strong>官方另有一句必须照做的话：<strong>「the business of the Court may affect public access to the building and visitor programs. Please check Today at the Court on the homepage」</strong>——出发当天刷 supremecourt.gov 首页的 Today at the Court",
+          "parking": "<strong>无游客停车场</strong>，周边为 Capitol Hill 居民区限时表位。Metro <strong>Capitol South</strong>（Blue／Orange／Silver 线）或 <strong>Union Station</strong>（Red 线）",
+          "walk": "Metro Capitol South 站步行约 <strong>620 米 / 8 分钟</strong>；Union Station 站约 <strong>850 米 / 11 分钟</strong>。<strong>入口不在正面大台阶上</strong>，而在 plaza 层大台阶左右两侧的门（Northwest Door 与 Southwest Door），无障碍入口在 Maryland Avenue 一侧。开庭日 7:30 起对公务与旁听者开门"
+        },
+        "notes": [
+          "<strong>法庭内任何时候都禁止摄影与录音录像</strong>，这是本条目最硬的一条。开庭期间法庭内另禁一切电子设备（含相机、手机、平板、智能手表）、食品饮料、包袋、帽子、外套、墨镜、书刊（笔记本可以）",
+          "<strong>三脚架：楼内与正前方 plaza 都不允许，界桩（bollards）以外的临街人行道可以用。</strong>商业拍摄与影视拍摄需另行申请许可",
+          "<strong>楼内完全禁止带入食品与饮料，连瓶装水都不行</strong>（官方原文「including bottled water」），只能在地下层的 Café 与自动售货机凹间内饮食。包尺寸上限同样是 18\" × 14\" × 8.5\"",
+          "<strong>建筑 15:00 关门，比本区其他任何点都早</strong>。而日落在 9 月下旬是 19:00、10 月下旬是 18:19——<strong>内外景在同一天必须分两趟，中间隔三到四个小时</strong>。合理的接法是：下午 13:30–15:00 拍内部，然后走 400 米去 Library of Congress 或 Capitol，日落前再回来拍西立面",
+          "<strong>未能核实的一项：2025 年 1 月 29 日法院公告的 West Façade Project</strong>（加装建筑与场地照明、West Portico 防鸟系统、外墙大理石清洗，需在西侧搭脚手架，工期约八个月、夜间施工）<strong>是否已完全收尾、脚手架是否已拆</strong>。AOC 官员在 2026 年 2 月的公开访谈中把最高法院的立面工程列为「2026 年内完工」的项目，但法院自 2025 年 1 月后未再发布相关公告，官网也无施工提示。<strong>出发前请搜一次近期实地照片确认西立面是否干净</strong>",
+          "春夏（3–6 月）安检排队明显更长，<strong>9 月下旬至 10 月下旬是这栋楼一年里人最少、最好拍的时段之一</strong>",
+          "一层与地下层有常设展览、Café 与礼品店；官方建议参观时长 1–1.5 小时（讲座 30 分钟＋展览与公共空间 30–60 分钟）"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Panorama_of_United_States_Supreme_Court_Building_at_Dusk.jpg",
+            "cap": "西立面黄昏全景 · Joe Ravi / CC BY-SA 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/CourtEqualJustice.JPG",
+            "cap": "檐部「Equal Justice Under Law」铭文 · MattWade / CC BY-SA 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/USA_-_Supreme_Court.JPG",
+            "cap": "大台阶与科林斯柱廊 · Ingfbruno / CC BY-SA 3.0"
+          }
+        ]
+      },
+      {
+        "id": "us-capitol",
+        "n": 3,
+        "name": "美国国会大厦",
+        "en": "United States Capitol",
+        "score": 5,
+        "tldr": "West Front 日落是本区第一机位；East Front 脚手架报废至 2028；导览免费但建议提前 90 天订。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "建议提前 90 天订票",
+            "c": "risk"
+          },
+          {
+            "t": "East Front 施工中",
+            "c": "risk"
+          },
+          {
+            "t": "三脚架需警方许可",
+            "c": "risk"
+          },
+          {
+            "t": "周日闭馆",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "穹顶是 1855–1866 年在南北战争期间建成的<strong>铸铁</strong>结构，8,909,200 磅、由 Thomas U. Walter 设计，用来替换 Charles Bulfinch 那个矮而扁的木石穹顶。<strong>林肯坚持在战争最激烈的时候继续施工</strong>，理由是「如果人们看到穹顶继续建下去，就会知道联邦会继续存在下去」——顶端的 Statue of Freedom 最后一块在 1863 年 12 月 2 日安装完成",
+          "Rotunda 直径 96 英尺、地面到穹顶内壁 180 英尺，顶部是 Constantino Brumidi 1865 年完成的《The Apotheosis of Washington》壁画，<strong>面积 4,664 平方英尺，画在距地面 180 英尺的凹面上；Brumidi 当年 65 岁，吊在脚手架上画了 11 个月</strong>。这块壁画是全楼唯一值得带广角来的目标",
+          "National Statuary Hall 是 1807–1857 年的旧众议院议场，半圆形加希腊复兴式穹顶。<strong>它有一个著名的声学缺陷：穹顶把声音聚焦到特定几个点上，站在某些位置能听清房间对面的私下交谈</strong>——据说当年 John Quincy Adams 就是靠这一点在自己座位上偷听政敌。现在 50 个州各出两座雕像的收藏散布全楼，Statuary Hall 内只放 38 座",
+          "<strong>本次最关键的坏消息：East Front 从 2026 年夏起进入 AOC 石材保护工程第 4 期，脚手架加防尘罩，官方预计 2028 年秋完工。</strong>而 West Front（Phase 3）已于 2024 年完工、立面干净。→ <strong>把全部外景预算压到西侧，东侧只当作走进 Visitor Center 的通道</strong>",
+          "<strong>国会是否开会，对拍照几乎没有意义。</strong>官方禁止在 House／Senate Gallery 携带 <strong>「battery operated electronic devices」</strong>——相机与手机全部要在旁听席门口的寄存台交出。所以旁听席只是「看」的价值，不是机位。参考数据：<strong>众议院 2026 年会期在 9 月是一段三周连续会期、会前休会的最后一个开会日是 10 月 1 日，之后休会五周多、11 月 9 日复会</strong>（11 月 3 日中期选举）；<strong>参议院 10 月 5 日至 11 月 6 日为 State Work Period</strong>，9 月 21 日（Yom Kippur）为非立法日。→ <strong>9 月下旬两院基本都在开会；10 月下旬两院都不在。</strong>但旁听席在休会期的平日仍开放（House 平日 9:00–16:00；Senate 在一周以上的休会期内平日 9:00 至 16:00–16:15），只是里面是空的"
+        ],
+        "photo": "建筑 <strong>5/5</strong>，风光 <strong>3.5/5</strong>，人像 <strong>3/5</strong>。西立面加反射池是华盛顿最经典的建筑构图之一，且日落方位几乎正对轴线；扣分是东立面施工、三脚架要许可、以及室内只能跟团走。",
+        "shots": [
+          {
+            "name": "Capitol Reflecting Pool 东岸（西立面日落主机位）",
+            "park": [
+              38.888805,
+              -77.017739
+            ],
+            "view": [
+              38.889831,
+              -77.013688
+            ],
+            "desc": "<strong>这是本区第一机位。</strong>从反射池到穹顶的方位角实测 <strong>90.3 度</strong>，即西立面法线约 270 度；而 <strong>9 月 25 日日落方位 269 度、10 月 22 日日落方位 256 度</strong>——<strong>意味着西立面在日落时是被正面照亮的顺光，不是逆光</strong>，9 月下旬几乎是分秒不差地正对轴线，10 月下旬偏南 13 度、变成很好看的斜射侧光。<strong>9/25：黄金光 17:45–19:00（日落 19:00），蓝调 19:05–19:30（民用暮光 19:26 结束）；10/22：黄金光 17:00–18:19（日落 18:19），蓝调 18:25–18:50。</strong>穹顶常年夜间泛光照明，所以蓝调段「暖穹顶＋深蓝天」是这里的招牌版本。<strong>24–70mm 主力</strong>，35mm 拍池面倒影加完整立面，70mm 抽穹顶＋列柱。池水无风时倒影完整，注意 10 月清晨常有的风会把倒影打散。<strong>三脚架在这里属 Capitol Grounds、需 USCP 许可</strong>，手持请把 ISO 拉到 1600–6400 并靠池边石栏稳定。"
+          },
+          {
+            "name": "Grant Memorial 骑马像前景（长焦压缩）",
+            "view": [
+              38.889764,
+              -77.012899
+            ],
+            "desc": "<strong>16:30 至日落</strong>。Grant Memorial 到穹顶实测方位 <strong>89.1 度、距离 328 米</strong>，是本区少见的「近前景＋压缩背景」位置。<strong>70–200mm 是首选</strong>：把 Grant 的青铜骑马像与两侧的骑兵、炮兵群像压到与穹顶同一量级，让青铜的冷黑与大理石的暖白对撞。135mm 左右能把骑马像正好框在穹顶正下方。也可以往北 100 米用 Peace Monument（38.8906, -77.0123，到穹顶方位 108 度）换一个偏斜的对位关系。<strong>青铜在正午顶光下会死黑，必须等到侧光时段</strong>。"
+          },
+          {
+            "name": "National Mall（3rd Street 以西，唯一可合法架脚架的位置）",
+            "park": [
+              38.888805,
+              -77.017739
+            ],
+            "view": [
+              38.888805,
+              -77.017739
+            ],
+            "desc": "坐标取自 OSM 的 Jefferson Drive SW 路段节点，位置在 <strong>3rd Street 以西——这里已属 NPS 管辖的 National Mall，非商业用途的三脚架不受限制</strong>，是本区唯一不用申请许可就能长曝的穹顶机位。距穹顶约 <strong>900 米</strong>，<strong>必须用 200–400mm</strong>，短于 200mm 穹顶会小得没有意义。长焦压缩把穹顶、Grant Memorial、行道树叠成层次，是本机位存在的全部理由。<strong>另一个只在这个窗口成立的题材：National Mall 的东西轴线实测方位 89.1 度（华盛顿纪念碑→穹顶），而 9 月 22 日秋分的日出方位正好是 89.1 度、9 月 25 日为 90.6 度</strong>——即<strong>秋分前后数日太阳几乎沿轴线从穹顶后方升起</strong>。9/25 日出 06:58，考虑穹顶本身的仰角（约 3 度），太阳越过穹顶时方位已偏南到 93–94 度，落在穹顶右侧一点；<strong>请在 06:45 到位，06:55–07:20 密集拍摄</strong>。到 10 月 22 日日出方位已跑到 103.7 度、偏南十几度，这个对位关系不再成立。日出方向是<strong>纯逆光</strong>，请按剪影拍，或用 -1.5 到 -2 EV 保住太阳周围的层次。"
+          },
+          {
+            "name": "Rotunda 与 National Statuary Hall（跟团，唯一的室内机位）",
+            "park": [
+              38.889804,
+              -77.007458
+            ],
+            "view": [
+              38.889813,
+              -77.009021
+            ],
+            "desc": "坐标为 OSM 的 Capitol 建筑实体点，室内房间无独立 OSM 节点。<strong>导览全程约 45–60 分钟，含 Crypt、Rotunda、National Statuary Hall，路线随时可能改</strong>。Rotunda 内是<strong>纯人工照明加穹顶采光的混合光，色温混杂且非常暗</strong>，光比集中在《Apotheosis》壁画与下方阴影之间。<strong>14–20mm 超广是必需的</strong>：站 Rotunda 正中垂直上仰，让穹顶壁画与 frieze 形成同心圆构图；24mm 已经吃不下。<strong>禁三脚架、要跟着队伍走、通常只停留 8–12 分钟</strong>——所以必须预设参数：<strong>ISO 3200–6400、f/2.8、1/40–1/60，开机身防抖，直接连拍三张挑最稳的一张</strong>。Statuary Hall 换 24–35mm 拍雕像的密集排列与半圆穹顶，85mm 抽单座雕像。<strong>建议选 8:40 或 9:00 的第一批场次</strong>，Rotunda 里人最少。相机在 Visitor Center 与导览全程都允许使用，<strong>只有 Exhibition Hall 展出历史文件的那一段禁拍</strong>。"
+          }
+        ],
+        "access": {
+          "book": "<strong>强烈建议预约，但不是强制。</strong>免费定时导览票<strong>滚动提前 90 天</strong>在 <a href=\"https://www.visitthecapitol.gov/visit/book-a-tour\">visitthecapitol.gov/visit/book-a-tour</a> 自助预订，或通过参众议员办公室（公众申请窗口 7–90 天）；也可电话 202.226.8000。<strong>官方要求参观前至少 2 天补齐每位参观者姓名。</strong>没预约照样能进：Emancipation Hall 的 Information Desk 每天发放限量当天票，<strong>官方建议最迟 14:30 前到场</strong>。<strong>House／Senate Gallery 不含在导览内，需另领通行证</strong>——外国访客<strong>持本国有效身份证件（护照）到 Visitor Center 上层的 House 与 Senate Appointment Desk 现场索取</strong>，无需事先申请。中文导览每日 8:40 一场，需提前预约",
+          "ticket": "<strong>完全免费</strong>，进 Visitor Center 与参加导览都不收费",
+          "hours": "官方原文：<strong>「The Capitol Visitor Center is open Monday-Saturday from 8:30 a.m.-4:30 p.m.」，周日闭馆</strong>，另于 Thanksgiving、Christmas Day、New Year's Day、Inauguration Day 闭馆。<strong>导览场次 8:40–15:20，最后一场 15:20 开始</strong>。Exhibition Hall 8:30–16:30，Capitol Cafe 8:30–16:00，礼品店 9:00–16:30。旁听席：<strong>House Gallery 在众议院不开会时平日 9:00–16:00 开放</strong>、周末与假日闭馆（除非在开会），且「subject to unplanned, temporary closures」；<strong>Senate Gallery 仅在一周以上的休会期内平日 9:00–16:15 开放</strong>，不足一周的休会期不开。<strong>官方另有一句必须记住的话：「The U.S. Capitol is subject to the unscheduled suspension of tours」</strong>——临时停团随时可能，出发当天再刷一次首页",
+          "parking": "<strong>Capitol Grounds 内没有游客停车场，不要开车来。</strong>周边 Capitol Hill 街边为居民区限时表位，执法很严。若必须开车，Union Station 停车楼（50 Massachusetts Ave NE）是最近的大型车库，步行约 15 分钟。<strong>公共交通是唯一合理方案</strong>：Metro <strong>Capitol South</strong> 站（Blue／Orange／Silver 线）最近；反射池一侧用 Federal Center SW 或 Smithsonian 站更近",
+          "walk": "Metro Capitol South 站到 Visitor Center 东侧入口约 <strong>530 米 / 7 分钟</strong>；到 Capitol Reflecting Pool 约 <strong>830 米 / 11 分钟</strong>（绕行 Capitol Grounds，实际更远，建议改走 Federal Center SW）。<strong>安检队伍在旺季可排 30–45 分钟，9–10 月通常 10–20 分钟，请在场次前 45–60 分钟到场</strong>"
+        },
+        "notes": [
+          "<strong>安检与禁带物品（2025 年 7 月更新版）：包的尺寸上限是 18\" 宽 × 14\" 高 × 8.5\" 深</strong>——普通摄影背包在这个尺寸内是允许的，但<strong>楼内没有寄存柜</strong>，超尺寸的包只能拿回车上或酒店。相机、镜头、电池均可带入，<strong>Capitol 与 Visitor Center 内明确禁止「Food, beverages」</strong>（连未开封的都不行，餐厅买的食物也不许带出餐厅），空的水瓶可以带、进去再灌",
+          "<strong>三脚架在整个 Capitol Grounds 上需要 U.S. Capitol Police 许可</strong>（AOC 官方博客明文），申请走 USCP Special Events Section，需提前至少 10 天。<strong>Union Square 与 Capitol Reflecting Pool 自 2011 年 Public Law 112-74 起已归 AOC，同样受此约束</strong>；退到 3rd Street 以西的 National Mall 则不受限。自拍杆可以带入但<strong>禁止使用</strong>",
+          "<strong>旁听席（Gallery）另有一层更严的规定：「battery operated electronic devices」全面禁止</strong>，相机、手机、平板、智能手表都要在门口的寄存台交出；瓶罐、食品饮料、婴儿车、包袋也全部禁止。<strong>把旁听席当成一次纯观看的行程，不要带任何拍摄期待</strong>。旁听席入口在 Visitor Center 上层，需二次安检，Joint Session 期间不对公众开放",
+          "<strong>East Front 施工的连带影响：夜间施工照明会污染东侧全部夜景。</strong>AOC 明确「At night the scaffold and building will be lighted」，施工时段为周一至周六夜间。如果你想拍穹顶夜景，<strong>只能从西侧拍</strong>",
+          "<strong>穹顶内部（Dome Tour，可以爬到穹顶内壁走廊）只能由参众议员办公室安排</strong>，公众无法自行预约；外国访客基本没有渠道。不要指望能上穹顶",
+          "<strong>Capitol Visitor Center 上层、House Appointment Desk 附近有直通 Library of Congress 的地下隧道</strong>，天气不好时是这两个点之间最舒服的连接方式，但 LOC 一侧仍需独立安检并出示定时票",
+          "9 月下旬至 10 月下旬是 Capitol Grounds 秋色期：AOC 的说法是<strong>「从 10 月初到 11 月，秋色是一株一株、一簇一簇陆续爆的，从来不会同时到位」</strong>（园内树种极杂，多为纪念树，来自各州）。想拍秋叶加穹顶，<strong>东北象限（Capitol Square 东北角）有一株银杏是 AOC 摄影师自己点名的最佳目标</strong>——但那一侧现在有 East Front 脚手架，构图要小心避开"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/West_Front_of_United_States_Capitol_in_December_2017.jpg",
+            "cap": "West Front 全景 · Mys 721tx / CC BY-SA 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Capitol_Dome_at_Dusk_With_the_Tholos_Illuminated_%2845170379825%29.jpg",
+            "cap": "蓝调时段的泛光穹顶 · John Brighenti / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Capitol_rotunda_20240601.jpg",
+            "cap": "Rotunda 与 Apotheosis 壁画 · 颐园居 / CC BY 4.0"
+          }
+        ]
+      },
+      {
+        "id": "library-of-congress-jefferson",
+        "n": 4,
+        "name": "国会图书馆 · 杰斐逊大楼",
+        "en": "Library of Congress · Thomas Jefferson Building",
+        "score": 5,
+        "tldr": "全美最美室内空间之一；免费但需 30 天前抢定时票，周日周一闭馆，法规明文禁三脚架。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "必须有定时票",
+            "c": "risk"
+          },
+          {
+            "t": "周日周一闭馆",
+            "c": "risk"
+          },
+          {
+            "t": "法规禁三脚架",
+            "c": "risk"
+          },
+          {
+            "t": "阅览室仅二至五开放",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "1897 年落成，是<strong>美国第一座专门为图书馆建造的意大利文艺复兴式建筑</strong>，也是当时全世界最大、造价最高的图书馆。国会给的预算是 650 万美元，最后<strong>实际花了 626 万、提前完工并有结余</strong>——这在 19 世纪末的联邦工程里是罕见的。楼内动用了 <strong>50 余位美国画家与雕塑家</strong>，是美国境内单一建筑内最大规模的本土艺术委托",
+          "Main Reading Room 是一个八角形空间，<strong>直径 100 英尺、地面到穹顶顶端 160 英尺</strong>，八根巨柱之上是 8 座象征文明的女性雕像与 16 座历史人物青铜像，中央环形出纳台外放射出 250 个阅览座位。<strong>它由顶部的 lantern（采光亭）从正上方采光</strong>——这一点决定了这里的全部曝光策略",
+          "Great Hall 是入口大厅：<strong>双层柱廊、彩色大理石地面上镶嵌黄铜的黄道十二宫，天花是彩色玻璃加金箔的格状藻井</strong>，二层回廊能俯视整个大厅。这里没有 Main Reading Room 的时段限制，是本楼<strong>唯一可以慢慢磨构图的空间</strong>",
+          "<strong>Main Reading Room 有两种看法，规则完全不同：</strong>（1）<strong>二层 Overlook</strong>——从 Great Hall 二层进入，隔玻璃俯拍整个阅览室，随定时票开放；（2）<strong>地面 5 分钟 walkthrough</strong>——官方原文「short, 5-minute walkthroughs around the center desk」，绕中央出纳台走一圈，<strong>仅周二至周五 10:30–11:30 与 14:00–15:00，加周四晚 17:00–19:00；周六不办</strong>。免费票在 Great Hall 现场发，<strong>每场开始前 10 分钟起、先到先得</strong>",
+          "<strong>关于「限制摄影日」：没有查到任何针对特定日期的摄影禁令，但有一条 2026 年新生效的联邦法规必须知道。</strong>2026 年 3 月 19 日生效的 36 C.F.R. 702.4 把参观者的手持拍摄定义为「informal photography for personal use」并明确允许，但<strong>把 tripods 与任何「rest on surfaces」的支撑装置、外置补光、外接麦克风、道具、背景布全部归为禁用的 supplemental equipment</strong>。要用这些只能申请 formal photography 许可，而<strong>许可只在周一发放——也就是大楼对公众关闭的日子</strong>"
+        ],
+        "photo": "建筑 <strong>5/5</strong>，人像 <strong>3.5/5</strong>（法规禁止摆拍与「directing subjects」），风光 <strong>0.5/5</strong>。本区乃至全华盛顿最强的室内建筑摄影目标；扣分全部来自规则：定时票、闭馆日、5 分钟限时、禁三脚架。",
+        "shots": [
+          {
+            "name": "Main Reading Room 二层 Overlook（隔玻璃俯拍）",
+            "park": [
+              38.888689,
+              -77.005777
+            ],
+            "view": [
+              38.888683,
+              -77.004646
+            ],
+            "desc": "坐标为 OSM 的 Thomas Jefferson Building 实体中心点（Main Reading Room 正是这栋楼的中央穹顶空间），<strong>房间本身无独立 OSM 节点，针脚为建筑级精度</strong>。<strong>光线：阅览室由顶部 lantern 从正上方采光，加高处半圆窗补光，穹顶内壁与柱头因此常年处于「上亮下暗」的垂直光梯度</strong>，地面出纳台一带比穹顶暗 3–4 EV。<strong>晴天正午（solar noon 12:52–13:00，9 月下旬太阳高度 50 度、10 月下旬 40 度）lantern 直射最强，穹顶会过曝而地面仍暗；反而薄云或阴天的均匀天光是这里最好的条件</strong>。<strong>16–24mm 超广是必需的</strong>，从 Overlook 的窗口向下俯拍，让放射状的书桌形成同心圆图案。<strong>务必拍 3–5 张包围曝光做 HDR</strong>。<strong>器材注意：Overlook 是封闭玻璃</strong>，请带一块橡胶遮光罩或用手掌贴住镜头前缘压在玻璃上消除反光，偏振镜在这里帮助有限（反光来自身后的室内灯）。<strong>官方明说 10:00–12:00 是全馆客流高峰、Overlook 会排长队</strong>——请安排 <strong>14:00–16:00</strong>，或直接选<strong>周四 17:00–19:30</strong>（延长开放到 20:00，人最少）。"
+          },
+          {
+            "name": "Main Reading Room 地面 walkthrough（每场 5 分钟）",
+            "view": [
+              38.888683,
+              -77.004646
+            ],
+            "desc": "同上坐标，建筑级精度。<strong>仅周二至周五 10:30–11:30、14:00–15:00，与周四 17:00–19:00；周六与周一无此项目。</strong>票在 Great Hall 现场领，<strong>开场前 10 分钟起发、先到先得</strong>，请提前 20 分钟去排。<strong>只有 5 分钟，而且是跟着走、不能停留</strong>——所以必须在进门前把参数定死：<strong>f/1.8–f/2.8、ISO 3200–6400、1/50–1/80，机身防抖全开，白平衡手动锁在 3200–3800K</strong>（室内是钨丝灯加天光的混合光，自动白平衡会在两个色温之间跳）。<strong>一支 20mm 或 24mm f/1.4–f/1.8 定焦在这里的价值远高于变焦</strong>：从地面仰拍穹顶，用中央出纳台的环形做前景。不要试图在 5 分钟里换镜头。<strong>三脚架、独脚架、把相机搁在栏杆或桌面上都在法规的 supplemental equipment 定义内</strong>，请纯手持。"
+          },
+          {
+            "name": "Great Hall 大理石楼梯与彩玻璃藻井",
+            "view": [
+              38.888683,
+              -77.004646
+            ],
+            "desc": "同上坐标，建筑级精度。<strong>没有时段限制，全开放时间可拍，是本楼唯一能慢慢磨的空间。</strong>光源是拱顶天窗与彩色玻璃藻井，属常年柔散射光，<strong>不依赖具体钟点</strong>；但入口一侧的大门在下午会有西斜光打进来，<strong>9 月下旬 17:00–18:30、10 月下旬 16:00–17:00</strong> 会在大理石地面上拉出长条光斑，这是唯一有「方向」的时段。<strong>14–24mm 超广贴楼梯扶手上仰</strong>，把双层柱廊与藻井压成对称框；<strong>85mm 或 100mm 微距拍楼梯栏柱上的小天使雕像（cherubs）与地面黄道十二宫的黄铜镶嵌</strong>。二层回廊是俯拍大厅地面图案的唯一位置。<strong>ISO 800–2000、f/2.8–f/4 足够</strong>，比 Main Reading Room 宽裕得多。"
+          },
+          {
+            "name": "Court of Neptune Fountain 与西立面外景",
+            "view": [
+              38.888689,
+              -77.005777
+            ],
+            "desc": "坐标为 OSM 的 Court of Neptune Fountain 实体点，在 1st Street SE 上、正对大楼西入口。<strong>西立面朝西（法线约 270 度），因此和 Capitol West Front 同理，日落是顺光</strong>：<strong>9/25 黄金光 17:45–19:00、10/22 黄金光 17:00–18:19</strong>。Roland Hinton Perry 1898 年的这组青铜喷泉里，海神 Neptune 坐像高 12 英尺，两侧有骑海马的 Tritons 与骑海龟的水中仙女。<strong>24–35mm 把喷泉做前景、立面与穹顶做背景</strong>；<strong>70–200mm 单拍 Neptune 的青铜肌理</strong>，侧光时段最能勾出细节。青铜在顶光下会死黑，正午不要来。<strong>这里属 Library Buildings and Grounds、同受 USCP 管辖，三脚架政策与 Capitol Grounds 一致（需许可），但未能从官方渠道找到针对本喷泉位置的明文规定</strong>，请按需许可准备。"
+          }
+        ],
+        "access": {
+          "book": "<strong>必须有免费定时票（timed-entry ticket）才能进楼，无票不得入内</strong>，官方原文：「Every Library of Congress visitor, regardless of age, must reserve timed-entry passes」。放票规则：<strong>滚动提前 30 天</strong>在 <a href=\"https://www.loc.gov/visit/\">loc.gov/visit</a> 经 Etix 系统预订，单次最多 20 人；<strong>另有当天票，每个开放日 9:00 ET 在线释放</strong>，这是最可靠的补救路径。票不可转让、不可改期，取消需发信 visit@loc.gov。20 人以上团体走 group registration form，可提前 60 天、需约 3 个工作日审核。<strong>周四晚 17:00 起的「Live! at the Library」需另一张专用票，白天的定时票在周四 16:30 后失效</strong>。Main Reading Room 地面 walkthrough 不预约，现场先到先得",
+          "ticket": "<strong>免费</strong>（定时票也免费）",
+          "hours": "官方原文：<strong>「The Thomas Jefferson Building is open to visitors Tuesday through Saturday from 10 a.m. to 5 p.m.」，「Closed: Sundays, Mondays, and select federal holidays」，周四延长至 20:00</strong>。<strong>最后入场 16:30</strong>（周四晚场另计）。<strong>Main Reading Room 地面 walkthrough：周二至周五 10:30–11:30 与 14:00–15:00，周四另有 17:00–19:00；周六不办。</strong>Library Store 周二至周三、周五至周六 10:00–17:00，周四 10:00–20:00。<strong>注意：阅览室对持证研究者是另一套时间表（含周一开放），与游客时段无关</strong>。10 月 12 日 Columbus Day 属联邦假日，预计闭馆，请以官网首页公告为准",
+          "parking": "<strong>无游客停车场。</strong>周边 Capitol Hill 为居民区限时表位，执法严格，不建议开车。Metro <strong>Capitol South</strong> 站（Blue／Orange／Silver 线）最近；也可从 Union Station（Red 线）步行约 1.1 公里",
+          "walk": "Metro Capitol South 站到大楼西侧游客入口约 <strong>410 米 / 5–6 分钟</strong>。<strong>入口在 1st Street SE、Independence Ave 与 East Capitol Street 之间的大台阶下方</strong>（不是正面大台阶上的门），定时票在这里扫码，出入同一个口。安检为「airport-like」，9–10 月通常 5–15 分钟（旺季 3–7 月会明显更久）。<strong>也可从 Capitol Visitor Center 上层走地下隧道过来</strong>"
+        },
+        "notes": [
+          "<strong>三脚架、独脚架、外置补光、外接麦克风、道具与背景布全部禁止</strong>，法规依据是 2026 年 3 月 19 日生效的 36 C.F.R. 702.4：只有「不使用任何 supplemental equipment」的单机手持拍摄属于免许可的 informal photography。<strong>法规还明确把「rest on surfaces」或「permit separation between the photographer and the equipment」的装置归入禁用范围</strong>——所以把相机搁在栏杆上做长曝在字面上也是越界的（实务中鲜有人被拦，但请自行判断）。<strong>另外「非商业内容创作」（non-commercial content creation）也被划入需要许可的 formal photography</strong>，如果你在拍系统性的 vlog 或专题，法规上是需要报批的",
+          "<strong>要合法用脚架只有一条路：申请 formal photography 许可，而许可只在周一发放</strong>（大楼对公众关闭日），45 分钟一场，需提前至少一周申请、3–5 个工作日审核，联系 PhotoSessions@loc.gov。<strong>这对认真拍室内建筑的人其实是本区最值得花时间的一件事</strong>——空场加脚架的 Main Reading Room 与开放日的手持完全不是一个量级",
+          "<strong>禁带物品与包尺寸上限和 Capitol 一致（18\" × 14\" × 8.5\"），但有一个关键差异：LOC 允许带食品饮料（原包装）</strong>，而 Capitol 完全禁止。<strong>楼内 Ground Floor 有免费寄存（coat check），背包、外套、婴儿车都可以免费寄放</strong>——拍室内时把大包寄掉会舒服很多",
+          "<strong>楼内没有餐饮</strong>，官方直接建议「进楼前吃饱喝足」。走完全部公共空间约需 90 分钟、步行约 0.8 公里",
+          "定时票有 15 分钟粒度的入场窗口，<strong>官方要求「不要早于票面时间到场」</strong>；票扫码位置在大台阶下方，别走错到正面大台阶",
+          "<strong>「Main Reading Room Overlook 是否开放」这一项已核实为开放</strong>：官方 Know Before You Go 页面在讨论客流时明确写「During this timeframe, there may be long lines to access the Main Reading Room Overlook」，即 Overlook 在正常运营。但官方同时留了一句「Some exhibitions, interactives, and indoor spaces may be closed or operate at limited capacity」，<strong>临时关闭的可能始终存在</strong>",
+          "目前不提供团体导览，<strong>但有少量小团 guided tours 通过同一个 Etix 票务系统发放</strong>，值得在订定时票时顺手看一眼有没有余位；馆内有巡场志愿者可问路与讲解"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/LOC_Main_Reading_Room_Highsmith.jpg",
+            "cap": "Main Reading Room 全景 · Carol M. Highsmith / Public domain"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Main_reading_room_of_the_Library_of_Congress_-_5.jpg",
+            "cap": "自 Overlook 俯视阅览室 · APK / CC BY 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Library_Congress_October_2016-2a.jpg",
+            "cap": "Great Hall 柱廊与藻井 · Alvesgaspar / CC BY-SA 4.0"
+          }
+        ]
+      },
+      {
+        "id": "us-botanic-garden",
+        "n": 5,
+        "name": "美国植物园温室",
+        "en": "United States Botanic Garden Conservatory",
+        "score": 3.5,
+        "tldr": "本区唯一雨天备案：免费不预约、每天 10:00–17:00；三脚架需提前一周申请许可。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "不需预约",
+            "c": "free"
+          },
+          {
+            "t": "每天开放",
+            "c": "good"
+          },
+          {
+            "t": "三脚架需许可",
+            "c": "risk"
+          },
+          {
+            "t": "17:00 关门",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>1820 年设立，是北美持续运营时间最长的植物园</strong>，构想直接来自 George Washington、Thomas Jefferson 与 James Madison。现在的玻璃温室（Conservatory）建于 1933 年、2001 年完成大修，馆藏超过 <strong>9,500 个登录号、44,000 余株植物</strong>，从沙漠到热带雨林到兰花分区展示。它由 Architect of the Capitol 管理，行政上属立法机构",
+          "<strong>本条目在这一区的真正价值不是植物，而是三件事：它是唯一每天开放的点（仅 12 月 25 日闭馆）、唯一完全不需要票或预约的室内空间、以及唯一像样的雨天与阴天备案。</strong>Capitol 周日关、Library of Congress 周日周一关、Supreme Court 周末关——这里永远开着",
+          "选点说明：<strong>任务里给的备选是 Bartholdi Fountain 或 Capitol Reflecting Pool，我选择保留 Botanic Garden Conservatory 为主条目，并把 Bartholdi Fountain 收进本条目做一个机位</strong>（两者相距仅 240 米、同属 USBG 管辖、Bartholdi 独立成条太单薄）；Capitol Reflecting Pool 则已作为 U.S. Capitol 条目的第一机位处理。<strong>Bartholdi Fountain 是 Frédéric Auguste Bartholdi 为 1876 年费城百年博览会所作，同一位作者八年后完成了自由女神像</strong>，这座「Fountain of Light and Water」1877 年由联邦买下移来华盛顿"
+        ],
+        "photo": "建筑 <strong>3.5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>2.5/5</strong>。温室的钢骨玻璃结构加高架步道能出不错的室内建筑构图，热带区的柔散射光对人像非常友好；扣分是空间不大、玻璃结构本身不如本区其他四栋建筑有分量。",
+        "shots": [
+          {
+            "name": "Tropics 中庭高架步道（雨天主机位）",
+            "view": [
+              38.887963,
+              -77.012912
+            ],
+            "desc": "坐标为 OSM 的 Conservatory 实体（relation/1029372），温室内房间无独立节点。中央的 Tropics 房间是全馆最高的空间，<strong>有一条环绕上层的高架步道，是唯一能俯拍棕榈冠层并同时纳入上方玻璃屋顶钢骨的位置</strong>。<strong>光线是玻璃漫射后的柔光，全天均匀、不依赖钟点——这正是它作为雨天／阴天备案的全部理由</strong>；反过来说<strong>晴天正午（solar noon 12:52–13:00）会有强烈的顶光光斑加钢骨影子打在叶面上</strong>，那是另一种题材，喜欢就挑晴天中午来。<strong>16–24mm 超广在步道上仰拍钢骨与玻璃的网格</strong>；<strong>50mm 或 85mm 拍叶片的透光肌理</strong>；<strong>100mm 微距拍兰花区</strong>。<strong>器材注意：温室内湿度极高，从室外进来镜头会立刻起雾</strong>——请<strong>提前 10 分钟把相机放在包里适应温度</strong>，并带两三块超细纤维布。<strong>官方建议平日 10:00–11:00 到（避开学生团）</strong>。"
+          },
+          {
+            "name": "Bartholdi Fountain（自由女神作者的另一件作品）",
+            "view": [
+              38.887131,
+              -77.012666
+            ],
+            "desc": "坐标为 OSM 的 Bartholdi Fountain 实体点，在 Independence Avenue 南侧、温室对面，属 Bartholdi Park。<strong>开放时间是 dawn to dusk——比温室的 10:00–17:00 宽得多，所以这里是本条目唯一能拍日出与日落的机位</strong>。<strong>喷泉到 Capitol 穹顶的实测方位是 46.6 度、距离 434 米</strong>，即穹顶在东北方向；<strong>日落方位 269 度（9/25）／256 度（10/22）意味着落日在你背后偏西，正面顺光照亮喷泉、同时穹顶也在受光面</strong>——<strong>可以用 35–50mm 把喷泉做前景、穹顶放在画面右上，一张收下两个主体</strong>。<strong>最佳时段：9/25 的 18:15–19:00、10/22 的 17:30–18:19</strong>，之后蓝调段喷泉本身有夜间照明。<strong>这里游客极少</strong>，是本区最安静的一个机位。<strong>注意穹顶方向有 East Front 脚手架的风险</strong>：从西南方向看过去主要是西立面与南立面，受影响有限，但长焦压缩时请检查画面里有没有钢管。"
+          },
+          {
+            "name": "National Garden 户外花园（穹顶背景）",
+            "view": [
+              38.888102,
+              -77.014182
+            ],
+            "desc": "坐标为 OSM 的 National Garden 实体（relation/12300247），在温室西侧。<strong>开放时间 7:30–17:00</strong>——注意<strong>4 月 1 日至 9 月 15 日才延长到 19:00，本次窗口（9 月下旬起）已恢复 17:00 关门</strong>，也就是说<strong>整个 9 月下旬至 10 月下旬，这个户外花园都赶不上日落</strong>（日落 19:00 / 18:19），请不要按黄金时段规划。<strong>可用的最佳时段是 15:30–17:00</strong>，斜射光加 Rose Garden 与 Regional Garden 的植栽、背景是 Capitol 穹顶。<strong>35–85mm</strong>，用花做前景虚化、穹顶压在背景。园内的 Amphitheater（38.8879, -77.0147）是一个下沉式圆形石阶空间，可作封闭式人像背景。<strong>10 月下旬 DC 的多年生植栽已过盛期</strong>，别期待花墙。"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约。</strong>官方原文：「Admission to the U.S. Botanic Garden is free. No tickets required.」<strong>唯一需要提前申请的是三脚架许可</strong>：提前至少一周写信给 Visitor Services Coordinator Victoria Gesell（victoria.gesell@aoc.gov），或到 Conservatory 服务台现场申请，<strong>官方明说「same-day permit requests are not guaranteed」</strong>",
+          "ticket": "<strong>完全免费</strong>",
+          "hours": "官方原文：<strong>Conservatory「10 a.m. to 5 p.m. daily (closed Dec. 25)」</strong>；<strong>Bartholdi Fountain and Gardens「Dawn to dusk」</strong>；<strong>National Garden（gated outdoor gardens）7:30–17:00，仅 4/1–9/15 延长至 19:00</strong>——本次窗口内按 17:00 关门计。2026 年的四个夏季延长开放日（6/18、7/16、8/20 或 8/27、9/17，开到 20:00）<strong>全部早于 9 月下旬，本次窗口内没有延长开放日</strong>。礼品店在 West Gallery，随温室时间",
+          "parking": "<strong>无游客停车场</strong>（官方 FAQ 明确「Can I park at the Garden?」为否）。周边 Independence Avenue 与 Washington Avenue SW 有少量街边表位。Metro <strong>Federal Center SW</strong>（Blue／Orange／Silver 线）最近，<strong>Capitol South</strong> 次近，L'Enfant Plaza 也可用",
+          "walk": "Metro Federal Center SW 站到 Conservatory 约 <strong>430 米 / 6 分钟</strong>；Capitol South 站约 <strong>660 米 / 9 分钟</strong>。<strong>温室到 Bartholdi Fountain 约 240 米 / 3 分钟</strong>（穿过 Independence Avenue）；温室到 Capitol Reflecting Pool 约 <strong>300 米 / 4 分钟</strong>，到 Capitol Visitor Center 约 <strong>800 米 / 11 分钟</strong>。<strong>安检比本区其他点轻得多</strong>"
+        },
+        "notes": [
+          "<strong>三脚架与画架必须有许可</strong>，官方原文：「the use of a tripod or easel requires a permit」，且<strong>「organized classes and the use of tripods, art equipment, or easels are not allowed during periods of peak visitation」</strong>——高峰时段即便有许可也不能用。使用时需<strong>随身出示许可</strong>。手持相机与手持摄像机全时段自由使用",
+          "<strong>「摆拍」被明确禁止</strong>：官方原文「We do not allow visitors to do photoshoots or video shoots at the Garden」，并点名婚纱、时装、孕妇、毕业、订婚与全家福。<strong>带模特来这里拍人像组图是违规的</strong>，随手抓拍同行者不受影响。专业或收费摄影一律不允许，照片不得商用",
+          "<strong>湿度是本条目最实际的技术障碍。</strong>Tropics 与 Jungle 房间常年高湿高温，<strong>从室外直接进去镜头必然起雾，且需 5–15 分钟才能恢复</strong>。对策：进门前把相机装包内静置、先逛干燥的 Desert 区过渡、随身两三块超细纤维布。<strong>玻璃与叶面反光很强，一片偏振镜会明显有用</strong>",
+          "<strong>无人机明确禁止</strong>（在禁带清单上），闪光灯类的「external flash equipment or bulky accessory equipment」同样不允许",
+          "<strong>本园与 Capitol、Library of Congress 一样属立法机构拨款范围，联邦停摆时会直接关门</strong>。本次窗口内因 Public Law 119-103 已覆盖至 12 月 11 日，风险很低",
+          "<strong>可以带食品饮料进园</strong>，户外有桌椅（但垃圾桶少，官方要求自行带走）；<strong>园内没有正式餐厅</strong>，仅夏季周末有第三方饮品摊，本次窗口内可能已停。有饮水机与灌瓶点",
+          "园内当前特展是「America's State Flowers: An America250 Celebration」（各州与属地的官方州花，活体植栽加植物插画加标本），<strong>是 2026 年独有的题材，值得顺手拍</strong>"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/U.S._Botanic_Garden_Conservatory_%2823696022410%29.jpg",
+            "cap": "温室内部与钢骨玻璃屋顶 · DC Gardens / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/United_States_Botanic_Garden_by_Matt_Bisanz.JPG",
+            "cap": "Conservatory 外观 · MBisanz / CC BY-SA 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Bartholdi_Fountain.jpg",
+            "cap": "Bartholdi Fountain · EP313 / CC BY-SA 4.0"
           }
         ]
       }
@@ -2310,6 +2849,1327 @@ var REGIONS = [
           {
             "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Enid_Haupt_Garden_%286965483747%29.jpg",
             "cap": "Haupt 花园刺绣式花坛 · Payton Chung / CC BY 2.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "northern-virginia",
+    "name": "Northern Virginia · Arlington 与 Potomac 西岸",
+    "navName": "N. Virginia",
+    "color": "#4bd18a",
+    "lead": "Potomac 西岸这一片是整个 DC 都会区<strong>唯一能在同一天里拍到「军礼仪式 + 城市天际线 + 十八世纪庄园 + 卵石老街 + 大瀑布」的组合</strong>，而且它的行政归属极为分散——Army、NPS、私营基金会、市政府各占一块，这意味着<strong>它同时也是全 DC 抗联邦停摆能力最强的一个子地区</strong>。摄影上最关键的一条几何事实是：<strong>Iwo Jima Memorial 与 Netherlands Carillon 都在 Arlington Ridge 上向东俯瞰 DC</strong>，所以它们是<strong>日出拍天际线、日落拍纪念碑本体</strong>的双重机位，而不是一般攻略里含糊说的「傍晚去」。Arlington National Cemetery 8:00–17:00 的硬性作息把它彻底排除在金色时段之外，Mount Vernon 9:00–17:00 同理——<strong>这一区的黄金光线只能给免费、无门禁的那三处</strong>。",
+    "callouts": [
+      {
+        "type": "good",
+        "title": "本区是全 DC 最强的「停摆免疫」备胎；而且这次窗口内根本不会停摆",
+        "html": "<p><strong>先说结论：2026 年 9 月 2 日，H.R. 6500《Continuing Appropriations and Extensions Act, 2027》已签署成法</strong>，按 FY2026 水平为各联邦机构提供拨款至 <strong>2026 年 12 月 11 日</strong>（或相应正式拨款法案通过之日，以较早者为准）。也就是说<strong>九月下旬到十月下旬的整个行程窗口都被覆盖，本次不存在联邦停摆风险</strong>；下一个悬崖是 12 月 11 日。</p><p>但这一区的抗停摆结构本身值得记住，因为它是全 DC 最好的备胎池。七个点位的归属与停摆后果分别是：</p><ul><li><strong>Mount Vernon —— 完全免疫。</strong>由 Mount Vernon Ladies’ Association（1853 年成立的私营组织）运营，<strong>历史上从未接受联邦运营拨款</strong>，联邦停摆期间照常开放收票。这是本区最硬的一张牌。</li><li><strong>Old Town Alexandria 与 Torpedo Factory Art Center —— 完全免疫。</strong>King Street 是市政街道，Torpedo Factory 由 City of Alexandria 运营，两者与联邦拨款无关。</li><li><strong>Arlington National Cemetery —— 高概率照常开放。</strong>由 U.S. Army 运营，军人葬礼属于必须继续执行的职能，历次停摆中墓园本体都保持开放、Tomb 哨兵二十四小时不间断。但<strong>解说服务、Welcome Center 展陈与 tram 班次可能缩减</strong>，且这属于历史惯例而非成文保证。</li><li><strong>Arlington House —— 会关。</strong>它是 NPS 单位（挂在 George Washington Memorial Parkway 下），虽然物理位置在 Army 的墓园里，但建筑本体、博物馆与两处 Enslaved Quarters 由 NPS 管，停摆即闭门。</li><li><strong>Marine Corps War Memorial 与 Netherlands Carillon —— 大概率仍可进入。</strong>NPS 管辖，但都是<strong>无门无栅栏的露天纪念地</strong>，停摆时通常物理可达，只是无人值守、厕所锁闭、垃圾不清。</li><li><strong>Theodore Roosevelt Island —— 风险中等。</strong>NPS，停车场有闸口，可能被锁；从 Rosslyn 沿 Mount Vernon Trail 步行或骑行过人行桥通常仍进得去。</li><li><strong>Great Falls Park —— 风险最高。</strong>NPS，<strong>有实体收费亭与大门</strong>，历次停摆中曾整园上锁。这是本区唯一真正可能完全去不了的点。</li></ul><p>换句话说：<strong>Mount Vernon + Old Town Alexandria + Arlington National Cemetery 这三点足够撑起一整天高质量拍摄，且几乎完全不受联邦拨款影响</strong>。DC 河东岸的 Smithsonian 与 National Mall 建筑内景一旦停摆全线阵亡，本区是唯一的整块替代方案。</p>"
+      },
+      {
+        "type": "warn",
+        "title": "Arlington 换岗频率 10 月 1 日切换；三脚架政策极严",
+        "html": "<p><strong>Tomb of the Unknown Soldier 的换岗仪式频率按官方原文分季：「every hour on the hour from October 1 through March 31, and every half hour from April 1 through September 30」。</strong>这条对行程影响很大：<strong>9 月 25 日去，整点与半点都有场次，等待上限 30 分钟；10 月 22 日去，只有整点一场，错过就是整整一小时。</strong>墓园开放 8:00–17:00，因此 10 月场次实际只有 <strong>9:00、10:00、11:00、12:00、13:00、14:00、15:00、16:00</strong> 这八次（8:00 为开门时刻，需预留安检时间）。闭园时段哨兵每 2 小时换一次，公众看不到。</p><p><strong>三脚架：官方 Prohibited Items 清单明列「Tripods which cannot fit into a purse/small bag」以及「Unauthorized media/photography equipment」。</strong>实务口径是——能塞进小包的桌面脚架／迷你脚架可过安检，<strong>常规摄影三脚架基本进不去</strong>。想用大脚架或明显的专业器材，须事先联系 ANC Public Affairs Office（703-614-0024）。</p><p><strong>这是一座仍在使用的墓园，工作日每天有 27–30 场葬礼。</strong>官方 Media Policy 的原文要求「refraining from taking pictures of or filming someone who is visibly mourning」，并要求拍摄正在扫墓的人须先征得许可。<strong>正在进行的葬礼一律不要拍，不要靠近，不要用长焦「远远拍一下」。</strong>葬礼也可能导致 tram 改线或临时封闭某些站点与道路。</p>"
+      },
+      {
+        "type": "tip",
+        "title": "秋色时间窗：DC 低地峰值在 10 月底至 11 月初，九月下旬完全没有色彩",
+        "html": "<p>综合 Old Farmer’s Almanac 的历史物候分析、Virginia Tourism 的分区口径与 2026 年长期预报，DC 都会区这种低海拔平原的秋色进度是：<strong>Shenandoah National Park 与 Blue Ridge 山区约 10 月 10–20 日到峰，而 Arlington / Alexandria / Fairfax 这些低地要晚一到两周，near-peak 约 10 月 20–27 日，真正峰值落在 10 月 25 日至 11 月 8 日这个区间</strong>。</p><p>2026 年的修正项：Old Farmer’s Almanac 预测 Atlantic Corridor 九、十月气温约低于常年 <strong>1°F</strong>、降水少约 <strong>1 英寸</strong>。偏冷偏干通常让转色略微提前、饱和度更高，所以 2026 年<strong>可以把上述窗口整体往前挪三到五天来预期</strong>，但仍然不会早于 10 月中旬。</p><p>对本区的直接结论：</p><ul><li><strong>9 月 25 日左右去：Theodore Roosevelt Island 与 Great Falls Park 基本全绿</strong>，没有任何秋色价值。这两处此时应该按「地质构造与水」和「花岗岩纪念碑」来拍，不要按「红叶」来期待，<strong>Theodore Roosevelt Island 在此时可以降级或直接跳过</strong>。</li><li><strong>10 月 22 日左右去：处于 near-peak 边缘</strong>，Great Falls 因为略偏内陆、地势稍高，通常比 Old Town 的行道树早几天，Mather Gorge 两侧崖壁林会有可观的黄与橙；Theodore Roosevelt Island 的枫、橡、山核桃开始上色但未必到位。<strong>如果整个行程可以微调，把这两处排到 10 月最后一周比排到 10 月 22 日明显更值。</strong></li></ul>"
+      },
+      {
+        "type": "info",
+        "title": "日出日落钟点与方位角；以及 GW Parkway 的施工封路",
+        "html": "<p>华盛顿特区（38.89°N, 77.04°W）实算值，两个日期均处于 EDT（夏令时 2026 年 11 月 1 日才结束）：</p><ul><li><strong>9 月 25 日：日出 06:59（方位角 91°，正东）／日落 19:00（方位角 269°，正西）。</strong>民用晨昏蒙影各约再向外 26 分钟，即 06:33 与 19:26。</li><li><strong>10 月 22 日：日出 07:25（方位角 104°，东偏南）／日落 18:20（方位角 256°，西偏南）。</strong></li></ul><p><strong>关键几何：从 Iwo Jima Memorial 望向 Capitol 的方位角约 91°，望向 Washington Monument 约 92°；从 Netherlands Carillon 望向这条轴线约 86–88°。</strong>而 9 月下旬的日出方位角正是 <strong>91°</strong>——也就是说<strong>秋分后一周左右，太阳几乎正从 Washington Monument 与 Capitol 的方向升起</strong>，这是一年里这两个机位最好的日出对齐窗口。到 10 月 22 日日出方位角已漂到 104°，<strong>太阳会从纪念碑轴线右侧（偏南）约 12–16° 升起</strong>，画面里日轮与地标不再重合，只能当侧光用。</p><p><strong>Old Town Alexandria 的 King Street 西向轴线约 278°</strong>，9 月 25 日日落方位角 269° 与它只差 9°——<strong>沿 King Street 向西的街道峡谷落日在九月下旬几乎正对</strong>；10 月 22 日的 256° 已偏离 22°，落日会掉到街道左侧的屋顶后面。</p><p><strong>路况：NPS 于 2026 年 9 月 1 日公告，George Washington Memorial Parkway 在 Route 123 与 Spout Run Parkway 之间于 9 月 21 日至 10 月 29 日期间、每周一至周四 9:30–14:30 全线封闭南向车道</strong>（树木评估与修剪）。这段正好是<strong>从 Great Falls 方向回 Rosslyn / Theodore Roosevelt Island 的主路</strong>，工作日白天走这条线要绕行并预留额外时间；周五至周日不受影响。（同一工程的北向封闭已于 9 月 17 日结束。）</p>"
+      }
+    ],
+    "spots": [
+      {
+        "id": "great-falls-park-virginia",
+        "n": 1,
+        "name": "大瀑布公园（弗吉尼亚侧）",
+        "en": "Great Falls Park (Virginia side)",
+        "score": 4.5,
+        "tldr": "本区最强自然题材，三个瀑布观景台全开。America the Beautiful 年卡免入园费；7:00 开门，闭园为日落后 30 分钟。",
+        "tags": [
+          {
+            "t": "年卡可免费",
+            "c": "free"
+          },
+          {
+            "t": "否则 $20/车",
+            "c": "paid"
+          },
+          {
+            "t": "仅刷卡不收现金",
+            "c": "risk"
+          },
+          {
+            "t": "闭园=日落+30分",
+            "c": "risk"
+          },
+          {
+            "t": "勿走错马里兰侧",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>先解决最容易走错的一件事：Great Falls 有两个完全独立的公园，分处 Potomac 两岸。</strong><strong>弗吉尼亚侧才是本条目所指的 Great Falls Park</strong>（地址 9200 Old Dominion Dr, McLean, VA 22102），<strong>马里兰侧属于另一个单位 Chesapeake & Ohio Canal National Historical Park</strong>（Olmsted Island 栈道与 Billy Goat Trail 在那边），<strong>两侧各有自己的大门与收费站，隔着峡谷相望但没有任何桥相连——开车绕过去要走 American Legion Bridge 或 Beltway，单程通常 30–45 分钟以上</strong>。导航时务必确认输入的是 Virginia 一侧的地址",
+          "<strong>三个瀑布观景台全部开放，且都在离访客中心五到十分钟步行内</strong>（官方原文「The three falls overlooks are located within a five to ten minute walk from the visitor center and parking lots」）。<strong>Overlook 2 与 Overlook 3 为无障碍</strong>。未查到任何观景台关闭告示；<strong>唯一有官方警示的是 Difficult Run Trail——已重新开放供徒步，但有一段受洪水破坏后变得又陡又窄，高水位时可能无法通行</strong>，而它并不在瀑布观景台的常规路线上",
+          "<strong>Potomac 在这里于不到 1 英里的距离内落差约 76 英尺，然后被挤进宽仅 60–100 英尺的 Mather Gorge</strong>——这是整条 Potomac 上落差最陡的一段，也是本区唯一真正的「地质题材」。<strong>峡谷两侧的片岩崖壁与被水切出的凹槽是比瀑布本身更耐拍的东西</strong>",
+          "<strong>园内还有 Patowmack Canal 的遗迹——由 George Washington 本人于 1785 年发起的美国最早运河之一</strong>，沿 Patowmack Canal Trail 可以走完整段船闸与开凿岩壁，<strong>历史开凿的岩沟内禁止攀岩</strong>（攀岩区在 Overlook 3 下游至 Sandy Landing 的紧急下水坡道之间）",
+          "<strong>开门时间与日出时间的关系在这两个日期上完全不同，这条对拍摄计划影响最大：</strong>园区固定 <strong>7:00</strong> 开门。<strong>9 月 25 日日出 06:59——你进园时太阳已经出来了，拍不到日出前的暖调天空</strong>；<strong>10 月 22 日日出 07:25——7:00 进园还有整整 25 分钟可以布置机位、等第一缕光打上崖壁</strong>。<strong>十月因此明显优于九月，与秋色时间窗的结论一致</strong>"
+        ],
+        "photo": "风光 <strong>5/5</strong>，地质／细节 <strong>5/5</strong>，人像 <strong>2/5</strong>，建筑 <strong>2/5</strong>。<strong>这是华盛顿都会区半小时车程内唯一的一线自然风光题材</strong>：大落差瀑布、深切峡谷、片岩崖壁、长曝水流、十月末的崖壁林秋色，且<strong>三个观景台在十分钟步行内提供三种完全不同的视角与朝向</strong>。扣分在人像与人流：观景台面积有限，晴好周末下午几乎站不下三脚架，而且<strong>本区七个点里只有它在联邦停摆时可能整园上锁</strong>。",
+        "shots": [
+          {
+            "name": "Overlook 1（最上游，东北向正对主瀑布）",
+            "park": [
+              38.998317,
+              -77.255811
+            ],
+            "desc": "<strong>三个观景台里最靠上游的一个，视线约朝东北 45° 正对主瀑布群。</strong><strong>因此清晨的太阳（方位角 91°–104°）从视线右侧约 45° 打过来，是极好的侧逆光</strong>——水花与晨雾会被逆光勾出轮廓。<strong>最佳时段 7:00–8:30</strong>（10 月 22 日可以早于日出 25 分钟入场布置）。<strong>24–70mm 交代瀑布全貌与前景岩台；70–200mm 单挑某一股跌水的结构</strong>。午后太阳转到背后，改为顺光，反差降低但立体感也降低。<strong>三脚架在此完全允许</strong>（NPS 规定 8 人以内、手持器材、不独占场地、不影响资源与其他访客者无需许可）。view 坐标见 Overlook 2 条目下的说明，此处为 OSM viewpoint 节点。",
+            "view": [
+              38.996433,
+              -77.253538
+            ]
+          },
+          {
+            "name": "Overlook 2（中段，北北东向，无障碍）",
+            "view": [
+              38.995934,
+              -77.2533
+            ],
+            "desc": "<strong>视线约朝北北东 20°，是三个台里正面感最强的一个，也是无障碍台。</strong><strong>这里是长曝的主战场</strong>：<strong>1/4–2 秒是这段瀑布的黄金快门</strong>——足以把跌水拉成丝绢，又不至于像 10 秒以上那样把整片激流糊成一团失去力量感；<strong>想反向表现湍流的暴力感，用 1/500 秒以上凝结水花</strong>。白天需 <strong>ND8–ND64</strong> 才能压到 1/4 秒以下；<strong>偏振镜是这里的必备件</strong>，用来压掉湿岩石表面的反光、让片岩本色出来。<strong>16–35mm 竖构图把前景岩体与整片瀑布一起收</strong>。<strong>晴好周末下午这个台会站不下人</strong>，务必安排在上午或闭园前一小时。"
+          },
+          {
+            "name": "Overlook 3 与 River Trail 起点（正北看瀑布，正南俯瞰 Mather Gorge）",
+            "view": [
+              38.995182,
+              -77.252842
+            ],
+            "desc": "<strong>这个台的价值是一台两用：向正北看瀑布，向南南东俯瞰 Mather Gorge。</strong><strong>看瀑布时是纯侧光</strong>（清晨太阳在右手 90°、午后在左手 90°），<strong>侧光是三个台里最能拍出水体立体感的角度</strong>。<strong>向南俯瞰峡谷则相反</strong>：<strong>清晨对岸（Maryland 侧）的崖壁被低角度阳光正面打亮，而你所在的这一侧还在阴影里，光比极大但对岸崖壁的暖色与纹理最好</strong>；<strong>午后则轮到你脚下这侧受光、对岸转暗</strong>。<strong>拍对岸崖壁与十月末的峡谷秋色，请选 7:00–9:00</strong>。<strong>River Trail 自 Overlook 3 下游接入</strong>，沿崖顶走可以找到更贴近水面、更少人的机位，<strong>但那是中等难度的岩面步道，人多时会很堵，且不允许骑行与骑马</strong>。<strong>严禁游泳与涉水</strong>，靠近水边时务必留意湿滑岩面。"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约</strong>。婚礼需另办许可（703-757-3101）；<strong>8 人以内、仅手持器材、不独占场地的常规摄影（含三脚架）不需要许可</strong>",
+          "ticket": "<strong>持 America the Beautiful 年卡免入园费——本次行程直接刷卡进场即可。</strong>否则：<strong>$20/私人车辆（含车内全部乘员，七日内有效）</strong>，步行、骑行或骑马入园 <strong>$10/人</strong>；另有 <strong>$35 的 Great Falls + C&amp;O Canal 双园年卡</strong>。<strong>园内一律不收现金，只接受 Master Card／VISA／Discover／American Express 与感应支付</strong>。线上预购的电子票（QR 码）<strong>务必在抵达前先下载到手机——园内手机信号很弱</strong>。<strong>2026 年免票日中在本次窗口内的是 9 月 17 日（Constitution Day）与 10 月 27 日（Theodore Roosevelt 诞辰）</strong>",
+          "hours": "官方原文：<strong>Great Falls Park, overlooks, hiking trails, picnic areas and other outdoor areas, are open daily from 7:00 a.m. to thirty (30) minutes after sunset.</strong>（每日 7:00 至日落后 30 分钟；仅 12 月 25 日闭园）。<strong>换算到具体日期：9 月 25 日为 7:00–19:30，10 月 22 日为 7:00–18:50。</strong>访客中心 10:00–17:00；<strong>访客中心庭院洗手间 8:30–16:00</strong>（Old Carriage Road Trail 与 Matildaville Trail 的洗手间目前故障，现场设有移动厕所，全园开放时段可用）。小卖部通常仅周末 12:00–17:00 营业，工作日按季节",
+          "parking": "主访客中心停车场 <strong>253 个车位</strong>（见 park 坐标，距访客中心与三个观景台最近，有路缘坡与人行道相连）；上层停车场另有约 300 个车位，但<strong>无无障碍车位、也没有人行道通到访客中心</strong>。<strong>官方明确警告：天气好的周末与假日，入园车队大约从 10:30–11:00 开始排，等待可长达 45 分钟到 1 小时。</strong><strong>请在 9:00 前抵达，或直接安排在闭园前一小时</strong>；付款方式提前备好可加快通行",
+          "walk": "主停车场到访客中心约 <strong>250 米、3–4 分钟</strong>；<strong>访客中心到三个观景台各 5–10 分钟</strong>，Overlook 1 到 Overlook 3 之间沿栈道全程不到 200 米。River Trail 自 Overlook 3 下游接入，属中等难度岩面步道。<strong>三个台全部走完加从容拍摄，预留 1.5–2.5 小时</strong>"
+        },
+        "notes": [
+          "<strong>三脚架允许且没有数量限制</strong>——NPS 对 8 人以内、手持器材、不独占场地、不影响园区资源与其他访客的静态摄影不要求许可。<strong>但观景台面积有限，晴好周末午后实际根本没有空间架三脚架</strong>，想稳定长曝就必须选清晨",
+          "<strong>不要导航到马里兰侧</strong>：C&amp;O Canal National Historical Park 是独立单位、独立大门、独立收费，<strong>虽然隔着峡谷相望，开车绕过去单程通常要 30–45 分钟以上</strong>。马里兰侧的电话是 301-767-3714",
+          "<strong>闭园时间随日落浮动</strong>：日落后 30 分钟即清园，<strong>这意味着蓝调时段基本没有——9/25 只到 19:30、10/22 只到 18:50</strong>。想拍暮色需精确掐时间并提前走到停车场",
+          "<strong>严禁游泳与涉水</strong>，园内不允许饮酒。历史运河开凿的岩沟内禁止攀岩",
+          "<strong>秋季秋色</strong>：Great Falls 略偏内陆、地势稍高，<strong>通常比 Old Town 与 Arlington 的行道树早几天转色</strong>；按 2026 年预报，<strong>10 月最后一周至 11 月初为峰值，10 月 22 日约为 near-peak 边缘</strong>，九月下旬全绿",
+          "<strong>园内没有自动售货机，小卖部季节性营业</strong>，需自带水与食物。<strong>手机信号很弱，离线地图与提前下载的电子门票都必备</strong>",
+          "宠物可入但须用不超过六英尺的牵引绳，<strong>访客中心内与 ranger 导览活动禁带宠物（服务犬除外）</strong>；瀑布观景台、River Trail、Patowmack Canal Trail、Mine Run 与 Matildaville Trail 均禁行自行车",
+          "<strong>路况联动</strong>：2026 年 9 月 21 日至 10 月 29 日，GW Memorial Parkway 在 Route 123 与 Spout Run Parkway 之间每周一至周四 9:30–14:30 封闭南向车道，<strong>正好是从这里返回 Rosslyn / Arlington 的主路，工作日白天需绕行</strong>"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/2019-09-07_14_49_40_Panoramic_view_of_the_Mather_Gorge_of_the_Potomac_River_from_a_point_about_0.22_miles_below_Great_Falls_within_Great_Falls_Park_in_Great_Falls%2C_Fairfax_County%2C_Virginia.jpg",
+            "cap": "Mather Gorge 超宽幅全景 · Famartin / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Great_Falls_Park_-_Virginia_%288490239891%29.jpg",
+            "cap": "观景台视角下的主瀑布群 · m01229 / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Cloudy_day_in_Great_Falls_Park%2C_USA.jpg",
+            "cap": "阴天柔光下的瀑布与片岩崖壁 · Melissa Guadalupe Huertas / CC BY-SA 4.0"
+          }
+        ]
+      },
+      {
+        "id": "theodore-roosevelt-island",
+        "n": 2,
+        "name": "西奥多·罗斯福岛",
+        "en": "Theodore Roosevelt Island",
+        "score": 3,
+        "tldr": "人行桥正常开放、免费、6:00–22:00。九月下旬全绿基本没有拍点，十月最后一周秋色才值得来。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "6:00–22:00",
+            "c": "free"
+          },
+          {
+            "t": "九月下旬无秋色",
+            "c": "risk"
+          },
+          {
+            "t": "车位约 90 个",
+            "c": "risk"
+          },
+          {
+            "t": "全程土石路",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>88.5 英亩的林地岛，整座岛本身就是纪念碑</strong>——景观由 Frederick Law Olmsted, Jr. 设计为「living memorial」，1930 年代由 Civilian Conservation Corps 重新植被。<strong>岛上禁行汽车与自行车，唯一入口是从 Virginia 岸边停车场跨过的一座混凝土人行桥</strong>",
+          "<strong>人行桥经核实开放正常</strong>：NPS 的无障碍页面（2026 年 4 月 24 日更新）明确描述「A wide concrete pedestrian bridge at the south end of the parking lot connects to the island」，未列任何封闭告示。<strong>容易搞混的是另一件事——横跨 Potomac 的 Theodore Roosevelt Bridge（车行桥，2025 年 4 月起大修约三年八个月）确实有间断性人行道封闭，但那座桥只是跨过岛、并不通到岛上，与本机位的人行桥无关</strong>",
+          "<strong>Memorial Plaza 是全岛最高点上的一座人工广场</strong>，1967 年 10 月 27 日落成，建筑师 Eric Gugler、雕塑家 Paul Manship。中央是 <strong>17 英尺高的 Roosevelt 演讲姿态铜像</strong>，四周立着<strong>四块巨型花岗岩碑柱，分别刻着以 YOUTH、THE STATE、MANHOOD、NATURE 为题的十五段引文</strong>，另有两座大型水池。<strong>「花岗岩巨石阵 + 铜像 + 水面」的几何感是本机位真正的主体，秋色只是加分项</strong>",
+          "<strong>Swamp Trail 的木栈道段是全岛唯一开阔、能看到水与对岸的地方</strong>，也是观鸟点（Roosevelt 本人是狂热鸟类爱好者，这段设计是刻意的）。林中土石小径在密林里终日弱光，<strong>阴天反而比晴天好拍</strong>"
+        ],
+        "photo": "风光 <strong>3/5</strong>（十月末可到 4/5），建筑／纪念物 <strong>4/5</strong>，人像 <strong>3/5</strong>。花岗岩碑柱与铜像的构成很强，而且<strong>广场是全岛唯一有开阔顶光与侧光的地方</strong>；林间步道则严重依赖阴天柔光。<strong>致命的季节性问题：九月下旬 DC 低地完全没有转色，此时这里就是一座普通的绿色城市林地，性价比在本区七个点里垫底——如果行程排在九月下旬，这一站可以直接舍弃。</strong>",
+        "shots": [
+          {
+            "name": "Memorial Plaza（花岗岩碑柱与 Roosevelt 铜像）",
+            "park": [
+              38.896745,
+              -77.067121
+            ],
+            "view": [
+              38.897261,
+              -77.064008
+            ],
+            "desc": "<strong>四块碑柱围出的开阔广场是全岛唯一有正经光线的地方。</strong><strong>16–35mm 贴近碑柱基部仰拍</strong>，用碑面的刻字纹理做前景、铜像做画面焦点；<strong>35–70mm 站到水池对岸，把铜像与两块碑柱的倒影一起收</strong>（水池并非全年注水，需现场确认）。<strong>最佳时段是 9/25 的 07:15–08:45 与 16:45–18:15、10/22 的 07:40–09:10 与 16:10–17:40</strong>：低角度侧光让花岗岩的凿痕与刻字产生投影，正午顶光会把整片浅色石面拍成一张过曝的白纸。<strong>三脚架允许</strong>；碑面刻字用 70–200mm 局部单拍效果很好。"
+          },
+          {
+            "name": "Swamp Trail 木栈道段（观鸟与开阔水面）",
+            "view": [
+              38.898913,
+              -77.062206
+            ],
+            "desc": "<strong>全岛唯一望得见水与对岸的开阔段，也是唯一适合早晨拍水汽的地方。</strong><strong>24–70mm 沿栈道纵深构图，用栏杆的重复线条做引导线</strong>；<strong>观鸟需 300mm 以上，清晨 06:30–08:00 活动最密</strong>。栈道两侧是沼泽植被，<strong>十月末转色时这一段的黄栌与枫树反射到水面上是全岛最好的一张</strong>。<strong>阴天与雨后是这里的最优天气</strong>，晴天正午树冠会在栈道上打出杂乱的斑驳硬光，非常难处理。木板潮湿时很滑，穿抓地鞋。"
+          },
+          {
+            "name": "人行桥上（望向岛与 Potomac 水道）",
+            "view": [
+              38.896055,
+              -77.065834
+            ],
+            "desc": "<strong>过桥时不要只顾着走</strong>——桥面本身是一个被忽略的机位。<strong>站在桥中段向南、向北各拍一张</strong>：向南可以把 Theodore Roosevelt Bridge 的桥体做背景，向北是 Key Bridge 与 Georgetown 方向。<strong>24–70mm，最佳时段日落后的蓝调</strong>（9/25 约 19:05–19:26，10/22 约 18:25–18:46），此时 Rosslyn 一侧的楼群灯光与水面倒影都出来了，而岛还是深色剪影。<strong>需三脚架，f/8、2–8 秒。</strong>注意岛上 22:00 关闭，蓝调结束后不要在岛内深处停留。"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约</strong>",
+          "ticket": "<strong>完全免费</strong>",
+          "hours": "NPS 官方口径：<strong>岛每日 6:00–22:00 开放</strong>（官方原文「The island is open from 6 am to 10 pm」）。<strong>NPS 提醒这是城市环境中的岛，天黑后请谨慎</strong>。Current Conditions 页面（最后更新 2025 年 11 月 14 日）未列任何关闭告示",
+          "parking": "<strong>停车场只能从 George Washington Memorial Parkway 的北向车道驶入</strong>（位置在 Theodore Roosevelt Bridge 与 Key Bridge 之间），<strong>南向车道无法进入，走错必须绕一大圈</strong>。车位约 90–100 个（另有 1 个 van accessible 与 3 个无障碍车位，都在靠人行桥的南端）。<strong>周末容易满，但周转率高，NPS 称一般等不超过 15 分钟</strong>；<strong>只能停在划线车位内，其他位置会被开罚单</strong>。替代方案：从 Rosslyn Metro 站沿 Mount Vernon Trail 步行或骑行过来",
+          "walk": "停车场南端过人行桥到 Memorial Plaza <strong>约 0.4 公里（1/4 英里）、步行 8–10 分钟</strong>。<strong>全岛没有一条铺装路面</strong>——过桥后是砾石路上坡（1–1.5 英寸碎石，坡度 1%–12%，其中约 60 米陡于 9%）；广场路口另有三级 5 英寸台阶，东侧有带扶手的金属坡道可绕开。到 Swamp Trail 栈道段再走 <strong>10–15 分钟</strong>"
+        },
+        "notes": [
+          "<strong>时间价值判断（最重要的一条）</strong>：九月下旬 DC 低地零转色，这里此时只值得「顺路 45 分钟拍一下 Memorial Plaza」；<strong>要看秋色请排到 10 月最后一周或 11 月第一周</strong>，10 月 22 日只是 near-peak 边缘，赌成分不小",
+          "<strong>三脚架允许</strong>，无器材限制。商业拍摄需向 George Washington Memorial Parkway 申请许可",
+          "<strong>岛上禁行汽车与自行车</strong>；自行车须停在停车场的车架上。宠物可入但须牵引",
+          "<strong>岛上没有任何餐饮与售货机</strong>，Memorial Plaza 有长椅与饮水台，Swamp Trail 栈道段也有长椅。垃圾须自行带出",
+          "全程土石与砾石路，<strong>雨后泥泞、木栈道很滑</strong>；夏末初秋沼泽段蚊虫较多，建议带驱蚊剂",
+          "<strong>路况联动</strong>：2026 年 9 月 21 日至 10 月 29 日，GW Memorial Parkway 在 Route 123 与 Spout Run Parkway 之间每周一至周四 9:30–14:30 封闭南向车道，<strong>从 Great Falls 方向过来会受影响</strong>；本岛停车场位于 Spout Run 以南，进场匝道本身不在封闭段内",
+          "手机信号一般可用，但林中偶有弱区"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Washington%2C_D.C._-_Theodore_Roosevelt_Island_-_20170819141015.jpg",
+            "cap": "Memorial Plaza 的花岗岩碑柱与铜像 · Riis2602 / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Theodore_Roosevelt_Island_DC_-_IMG_7198.JPG",
+            "cap": "Roosevelt 铜像正面 · Daderot / Public domain"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/TheodoreRooseveltIsland_fountain.JPG",
+            "cap": "纪念广场水池与碑柱 · Wikimedia Commons 上传者 / Public domain"
+          }
+        ]
+      },
+      {
+        "id": "marine-corps-war-memorial",
+        "n": 3,
+        "name": "美国海军陆战队战争纪念碑（硫磺岛纪念碑）",
+        "en": "United States Marine Corps War Memorial (Iwo Jima Memorial)",
+        "score": 5,
+        "tldr": "免费、6:00–24:00 无门禁，是本区唯一能拍金光与蓝调的一线机位；九月下旬日出几乎正对 Washington Monument。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "6:00–24:00",
+            "c": "free"
+          },
+          {
+            "t": "不需预约",
+            "c": "free"
+          },
+          {
+            "t": "夜间有射灯",
+            "c": "free"
+          }
+        ],
+        "highlights": [
+          "<strong>Felix de Weldon 依据 Joe Rosenthal 1945 年 2 月 23 日那张普利策奖照片放大而成的青铜群像</strong>：六名陆战队员的人像高约 <strong>32 英尺</strong>，他们竖起的青铜旗杆长 <strong>60 英尺</strong>，连基座总高约 78 英尺。<strong>整组雕塑分 108 块铸造后再焊接组装</strong>，1954 年 11 月 10 日（陆战队建军 179 周年）落成，建造费约 85 万美元<strong>全部由陆战队员与相关人士捐款，未用一分联邦经费</strong>",
+          "<strong>旗杆上的国旗依 1961 年的总统公告二十四小时不降</strong>——这在美国是极少数被授权全天候悬挂国旗的地点之一，意味着<strong>你在任何时刻来都能拍到旗，不存在「旗降下来了」这种失手</strong>",
+          "<strong>雕塑群朝东</strong>，Marines 面向 Potomac 河与 National Mall。因此<strong>还原 Rosenthal 照片构图的「正面」要站在纪念碑的西侧向东拍</strong>——这正好是能把 Lincoln Memorial、Washington Monument、U.S. Capitol 三个地标排在群像身后同一画面里的那一侧。<strong>方向与构图在这里是同一件事，没有取舍空间</strong>",
+          "几何算出来的关键窗口：<strong>从纪念碑望向 Capitol 的方位角约 91°、望向 Washington Monument 约 92°；而 9 月 25 日的日出方位角正是 91°</strong>。<strong>秋分后一周左右，太阳几乎正从纪念碑与 Washington Monument 的连线上升起</strong>；到 10 月 22 日日出方位角漂到 104°，日轮会落到轴线右侧十几度，对齐效果消失",
+          "夜间群像的<strong>每张脸都由基座旁独立射灯单独打亮</strong>，这是白天做不到的效果——70–200mm 拉近拍单个面孔的表情，是这里被严重低估的一个题材"
+        ],
+        "photo": "建筑／雕塑 <strong>5/5</strong>，城市天际线 <strong>5/5</strong>，人像 <strong>2/5</strong>。<strong>它同时拥有一线雕塑主体、DC 三地标背景、全天候旗帜、夜间专业布光，并且 6:00–24:00 无门无票——在整个 DC 都会区里，这四项同时成立的地方只有这一处。</strong>扣分只在人像：这里是军事纪念地，NPS 明文规定商业拍摄与婚礼需申请许可（703-289-2513）。",
+        "shots": [
+          {
+            "name": "纪念碑西侧草坡正面机位（日出：天际线在群像身后）",
+            "park": [
+              38.890451,
+              -77.071038
+            ],
+            "view": [
+              38.890438,
+              -77.069724
+            ],
+            "desc": "<strong>地图针脚标的是雕塑本体，实际站位在它西侧 25–40 米的草坡上</strong>，压低机位让旗杆顶端不切出画面。<strong>9 月 25 日：日出 06:59、方位角 91°，请在 06:15 前站好位置</strong>（民用晨光 06:33 起就能拍到有色天空）；<strong>10 月 22 日：日出 07:25、方位角 104°，太阳会从轴线右侧升起，此时应放弃「日轮压地标」的构想，改用 Washington Monument 剪影加渐变天空</strong>。<strong>24–70mm 交代全景加三地标；70–200mm 把 Washington Monument 压到群像肩后</strong>。此时群像完全逆光——<strong>不要试图补光提亮，直接按剪影处理，对天空测光后欠曝 1 挡，让人像与旗成为纯黑轮廓</strong>；或者包围曝光 ±2 挡回去合成。"
+          },
+          {
+            "name": "同一西侧机位（日落顺光 + 蓝调射灯）",
+            "view": [
+              38.890438,
+              -77.069724
+            ],
+            "desc": "同一站位、完全相反的用法。<strong>你面朝东，太阳在你背后的西方落下，因此低角度暖光会正面打亮群像的可见面</strong>，而身后的 DC 天际线此时处于阴影与冷色调中——<strong>这是拍「纪念碑本体」的正确时段，不是日出</strong>。<strong>9 月 25 日窗口 18:15–19:00；10 月 22 日窗口 17:35–18:20。</strong>日落后不要走：<strong>射灯在暮色中亮起、天空还剩深蓝的那 15–25 分钟是全天最好的一张</strong>（9/25 约 19:05–19:26，10/22 约 18:25–18:46）。<strong>此时必须上三脚架</strong>，f/8、ISO 100、1–4 秒；青铜的暖射灯与蓝天补色对比极强。露天场地无门禁，可以一路拍到 24:00。"
+          },
+          {
+            "name": "基座东南侧低角度仰拍",
+            "desc": "<strong>无对应 OSM 实体节点，地图不放针脚</strong>。从东侧步道走到基座东南角，<strong>16–24mm 贴近黑色花岗岩基座仰拍</strong>，用基座上镌刻的历次战役名单做前景、群像做顶端。这个角度看不到 DC 天际线，但<strong>能拍到「六个人合力推一根杆」这个动势本身</strong>，比正面构图更有压迫感。<strong>阴天或日落后的射灯时段最好</strong>，晴天正午顶光会让基座刻字完全失去立体感。"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约</strong>。仅商业拍摄、婚礼与团体活动需申请许可，电话 703-289-2513",
+          "ticket": "<strong>完全免费</strong>",
+          "hours": "NPS 官方原文：<strong>The memorial grounds are open year-round from 6 am until midnight.</strong>（每日 6:00–24:00，全年无休）。<strong>需要注意但本次不受影响的一点</strong>：夏季 Sunset Parade 期间（6–7 月部分周二 18:00–21:00，2026 年另加 8 月 5 日与 8 月 12 日 17:30–20:30）纪念碑广场会对公众关闭，<strong>九月下旬至十月下旬没有此类活动，广场全天可用</strong>",
+          "parking": "Marshall Drive 上纪念碑西侧有免费停车场（约 115 米，见 park 坐标）。<strong>周末与晴好傍晚会满，日出时段几乎总是空的</strong>。公共交通：Metro Rosslyn 站（Blue／Orange／Silver）步行 10–15 分钟，Arlington Cemetery 站（Blue）步行 10–15 分钟",
+          "walk": "停车场到纪念碑广场 <strong>约 115 米，全程铺装路面，2 分钟</strong>；有坡道与台阶两条路径。到 Netherlands Carillon 再走 <strong>约 250 米、3–4 分钟</strong>"
+        },
+        "notes": [
+          "<strong>这是纪念地而非公园</strong>：NPS 明文禁止在雕塑与阅兵草坪上进行球类活动与放风筝。宠物须用不超过六英尺的牵引绳",
+          "<strong>三脚架在这里完全允许</strong>——这一点与隔墙的 Arlington National Cemetery 截然相反。<strong>本区的长曝、蓝调与夜景题材应全部安排在这里和 Netherlands Carillon，不要指望墓园</strong>",
+          "<strong>与 Arlington National Cemetery 的联动是本区最高效的一段行程结构</strong>：这里 6:00 就能进，墓园 8:00 才开；<strong>拍完日出后从北侧 Ord and Weitzel Gate 步行入园即可</strong>，不必回停车场绕行",
+          "纪念碑附近已建有洗手间与饮水台，但清晨可能未开",
+          "广场周边无遮挡、无座椅，秋季清晨风大且体感明显低于市区，<strong>日出机位建议加一层防风外套与手套</strong>",
+          "雕塑近旁的射灯亮度很高，<strong>夜景构图时注意别让灯具本体入画</strong>，或用它做星芒"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Marine_Corps_War_Memorial_at_sunrise.jpg",
+            "cap": "日出时段的西侧正面机位 · APK / CC BY 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Marine_Corps_War_Memorial_at_night_-_1.jpg",
+            "cap": "夜间射灯下的群像 · APK / CC BY 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Marine_Corps_War_Memorial_-_Arlington_VA_%287703287876%29.jpg",
+            "cap": "群像与青铜旗杆细部 · Esther Westerveld / CC BY 2.0"
+          }
+        ]
+      },
+      {
+        "id": "netherlands-carillon",
+        "n": 4,
+        "name": "荷兰钟塔",
+        "en": "Netherlands Carillon",
+        "score": 4,
+        "tldr": "紧邻硫磺岛纪念碑、免费、6:00–24:00；坡地是 Lincoln–Washington–Capitol 三点一线的最佳高位。塔身永久禁止攀登。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "6:00–24:00",
+            "c": "free"
+          },
+          {
+            "t": "塔身禁入",
+            "c": "risk"
+          },
+          {
+            "t": "郁金香仅四月",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>53 口钟悬挂在一座 127 英尺高的开放式钢塔里</strong>，是荷兰人民为感谢二战期间与战后美援所赠。钟 1954 年运抵、1960 年 5 月 5 日（荷兰解放十五周年）在现址落成。<strong>2019 年秋启动、2021 年完工的 440 万美元大修</strong>把全部外部钢板拆下清理更换、按修订后的风荷载规范加固了立柱，荷兰大使馆同时增补三口钟，<strong>使它补齐半音音阶、升级为「Grand Carillon」</strong>——现在你看到的塔身漆面与钢板都是那次换新的",
+          "<strong>塔身永久不对公众开放，任何时候都不能登塔</strong>。NPS 官方原文是「For your safety, the carillon structure is closed to visitors at all times」，内部楼梯在底层即被铁栅封闭。<strong>网上仍在流传的「登塔看 DC 全景」是过时信息</strong>——本机位的价值来自<strong>塔所在的这片坡地本身的高度</strong>，不是塔",
+          "<strong>坡地朝东的开阔面是本区最干净的「三点一线」机位</strong>：从这里望向 Lincoln Memorial 约 86°、Washington Monument 约 87°、U.S. Capitol 约 88°，<strong>三个地标在两度视角内几乎排成一条水平线</strong>，用 200mm 以上压缩后会得到那张经典的「Big Three 并列」画面。这条线在 Iwo Jima 那边是 91–92°，<strong>Carillon 这边更靠近正东，压缩效果更整齐</strong>",
+          "<strong>季节提醒：塔基那片荷兰赠送的郁金香只在四月上旬前后开</strong>，九月下旬到十月下旬看不到。此时 <strong>50 个花坛组成的 Floral Library 换的是菊花</strong>，色彩仍在但形态完全不同；塔基两侧 Paul Phillip Koning 所作的两尊青铜卧狮全年都在"
+        ],
+        "photo": "城市天际线 <strong>5/5</strong>，建筑／构筑物 <strong>3/5</strong>，人像 <strong>3/5</strong>。<strong>三地标水平并列的压缩画面是这个机位不可替代的产出</strong>，且与 Iwo Jima Memorial 只隔 250 米、同为 6:00–24:00 无门禁，两处可以在同一个日出或日落里连拍。扣分在塔本身：开放式钢结构在晴天顶光下极难拍好，而且<strong>不能登塔就没有俯视视角</strong>。",
+        "shots": [
+          {
+            "name": "东侧草坡边缘（Lincoln–Washington–Capitol 三点一线）",
+            "park": [
+              38.890451,
+              -77.071038
+            ],
+            "view": [
+              38.888172,
+              -77.06787
+            ],
+            "desc": "<strong>view 坐标取自 OSM 上「USMC War Memorial & Netherlands Carillion」解说牌节点</strong>，位于塔东侧下坡约 145 米处，正是坡地视野最开阔的一段。<strong>200–400mm 是这个机位的必备焦段</strong>：把三个地标压成并列的一排，前景不要放任何树冠。<strong>9 月 25 日日出 06:59、方位角 91°，太阳几乎从这条轴线上升起，是全年最好的对齐日之一</strong>；<strong>10 月 22 日日出 07:25、方位角 104°</strong>，日轮偏到 Capitol 右侧，此时改拍蓝调时段（06:55–07:20）的城市灯火与渐变天空更划算。<strong>晨雾与河面水汽会让远处地标层次分离，这是本机位最值得等的天气条件。</strong>傍晚同一位置为逆向使用：日落后 15–25 分钟拍城市灯光初亮，须上三脚架、2–8 秒。"
+          },
+          {
+            "name": "钟塔本体与坡地（塔身构图）",
+            "view": [
+              38.888216,
+              -77.069496
+            ],
+            "desc": "<strong>开放式钢塔最怕正午顶光——钢格栅会变成一团无结构的深灰。</strong>正确做法有两种：<strong>一是日落后的蓝调时段，用天空的深蓝透过钢格栅形成剪影骨架</strong>，16–35mm 贴近塔基仰拍，f/8、2–6 秒；<strong>二是清晨低角度侧光（9/25 的 07:10–08:00、10/22 的 07:35–08:30），让钢板受光面与背光面分离出立体感</strong>。塔基两尊青铜卧狮用 50–85mm 单拍效果好；<strong>秋季 Floral Library 的菊花可作前景色块</strong>，但别指望春季郁金香那种效果。整片草坡起伏平缓，是本区少见的适合放模特的开阔绿地。"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约</strong>",
+          "ticket": "<strong>完全免费</strong>",
+          "hours": "NPS 官方原文：<strong>The carillon grounds are open year-round from 6 am until midnight.</strong>（草坪与广场每日 6:00–24:00，全年无休）。<strong>塔身「closed to visitors at all times」，永久不可攀登。</strong>每日有自动演奏与整点报时；夏秋两季会安排客座演奏家的现场音乐会，具体场次需查 NPS 活动日历",
+          "parking": "与 Marine Corps War Memorial 共用 Marshall Drive 旁的免费停车场（见 park 坐标）。公共交通：Metro Rosslyn 站步行 10–15 分钟",
+          "walk": "停车场到钟塔广场 <strong>约 250 米、3–4 分钟</strong>，铺装路面缓坡；再到东侧三地标机位需<strong>下坡走 100–150 米、再 2 分钟</strong>。<strong>从 Marine Corps War Memorial 走过来只需 3–4 分钟，两处务必安排在同一个光线时段里连拍</strong>"
+        },
+        "notes": [
+          "<strong>三脚架允许</strong>，蓝调与夜景在这里没有任何器材限制",
+          "<strong>不要按网上老攻略去找登塔入口</strong>——塔内楼梯在底部即被封闭，NPS 的措辞是「at all times」，不存在开放日",
+          "这片草坡没有围栏、没有闸门，实际上任何时间都进得来；<strong>但 0:00–6:00 属官方闭园时段，不要在此时段停留</strong>",
+          "<strong>东侧坡地前方有若干成年乔木</strong>，具体机位需在现场左右挪动几米避开树冠；秋末落叶后视野会比夏季明显干净",
+          "塔身钟声在整点与自动演奏时段音量很大，<strong>如果同时在录视频需注意</strong>",
+          "广场与坡地上没有洗手间，最近的在 Marine Corps War Memorial 一侧"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Netherlands_Carillon_-_Arlington_VA_%2846796334702%29.jpg",
+            "cap": "钟塔与东侧坡地 · FaceMePLS / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Netherlands_Carillon.jpg",
+            "cap": "开放式钢塔与 53 口钟 · Ben Schumin / CC BY-SA 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Netherlands_Carillon_at_Night.jpg",
+            "cap": "夜间的钟塔剪影 · Daniel Horowitz / CC BY-SA 4.0"
+          }
+        ]
+      },
+      {
+        "id": "arlington-national-cemetery",
+        "n": 5,
+        "name": "阿林顿国家公墓",
+        "en": "Arlington National Cemetery",
+        "score": 4.5,
+        "tldr": "免费但 8:00–17:00 拍不到金光；换岗仪式 10 月起改为每小时整点一场，常规三脚架进不了安检。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "不需预约",
+            "c": "free"
+          },
+          {
+            "t": "8:00–17:00",
+            "c": "risk"
+          },
+          {
+            "t": "三脚架受限",
+            "c": "risk"
+          },
+          {
+            "t": "需过安检",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>Tomb of the Unknown Soldier 的哨兵自 1937 年起从未中断过一分钟</strong>——由 3rd U.S. Infantry Regiment（绰号 The Old Guard）自 1948 年起接管，一年 365 天、任何天气二十四小时守卫。哨兵在黑垫上以<strong>每分钟 90 步</strong>的固定节拍行走，换岗时 relief commander 会做一次<strong>白手套逐部件验枪</strong>，并转身要求全场站立肃静。这套仪式的价值不在「壮观」，而在<strong>它的节拍完全可预测，因此可以事先决定用多少焦段、站在哪一级台阶</strong>",
+          "<strong>John F. Kennedy Eternal Flame（1963 年 11 月 25 日由 Jacqueline Kennedy 点燃）所在的坡地平台，是全墓园唯一一处能把 Memorial Bridge、Lincoln Memorial、Washington Monument 串成一条轴线的东望机位</strong>。这条视线不是巧合——墓园与 Memorial Bridge、Lincoln Memorial 的中轴关系是 1920 年代 McMillan 规划的刻意安排。永久火焰在 2013 年做过燃烧器与传感器升级，现在的火头比老照片里更小更稳",
+          "<strong>Arlington House 是墓园存在的原因本身</strong>：这栋 1802–1818 年由 George Washington Parke Custis（华盛顿的继孙）所建的希腊复兴式宅邸，后由 Robert E. Lee 通过婚姻取得使用权；1861 年 Lee 离开加入南军后联邦军接管此地，并<strong>刻意把阵亡者埋到宅邸的花园里，目的就是让 Lee 家永远无法回来居住</strong>。今天房子的解说重心已经转向在此被奴役的一百余人（Syphax、Parks、Gray、Norris、Branham、Burke 等家族），2018–2021 年一笔 <strong>1,235 万美元</strong>的私人捐赠（David M. Rubenstein）完成了整体修复",
+          "<strong>639 英亩、约 40 万座墓，起伏的丘陵地形让「墓碑列阵」这个题材在这里比任何平地公墓都强</strong>——白色大理石碑随地形起伏形成的曲面阵列，用 100–200mm 压缩后是本区最有力量的一张画面。<strong>McClellan Gate（1879 年建成的红砂岩拱门）</strong>周边坡地是列阵密度与地形起伏兼顾的一段",
+          "实用但反直觉的一条：<strong>步行或搭 Metro 进来的人不需要 REAL ID</strong>，只走 Welcome Center 的常规人身安检；<strong>只有开车进入墓园的人（含乘客）才需要出示 REAL ID</strong>。停在 Welcome Center 停车楼里也不需要"
+        ],
+        "photo": "建筑 <strong>4/5</strong>，纪实／仪式 <strong>5/5</strong>，风光 <strong>2/5</strong>。换岗仪式与墓碑列阵都是极强的题材，Arlington House 的柱廊与东望轴线也很上镜。扣分全在硬约束上：<strong>8:00–17:00 的作息意味着九月下旬到十月下旬这里永远拍不到日出日落，一年中最好的光线完全落在闭园时间外</strong>；加上安检把常规三脚架挡在门外，长曝与低光题材基本放弃。",
+        "shots": [
+          {
+            "name": "Tomb of the Unknown Soldier 广场（换岗仪式主机位）",
+            "view": [
+              38.876386,
+              -77.072252
+            ],
+            "desc": "<strong>提前 15 分钟到，站在广场西侧或北侧的第一排石阶上</strong>，视线越过黑垫。<strong>9 月：整点与半点各一场；10 月 1 日起只有整点一场。</strong><strong>70–200mm 是绝对主力</strong>——拍验枪的手部特写、哨兵侧脸、三人立正的三角构图；24–70mm 只在需要交代 Memorial Amphitheater 白色大理石背景时用。广场朝西南开口，<strong>上午 9:00–11:00 哨兵行走的黑垫一侧处于顺光、Tomb 石棺立面不过曝，是全天最好的时段</strong>；正午顶光会让白色大理石与深色制服的反差爆掉。<strong>器材务必低调</strong>：单机一镜、无脚架，仪式期间禁止走动与说话。"
+          },
+          {
+            "name": "JFK Eternal Flame 平台（东望 Memorial Bridge–Lincoln–Washington Monument 轴线）",
+            "view": [
+              38.881534,
+              -77.071507
+            ],
+            "desc": "火焰本身与身后那条东望轴线要分两张拍。<strong>轴线用 70–200mm 从平台栏杆处向东压缩</strong>，把 Memorial Bridge 的桥拱、Lincoln Memorial 与远处的 Washington Monument 叠成层次；<strong>视线方向约 75–85°，因此上午是逆光、下午是顺光</strong>——<strong>轴线选 15:00–16:30，火焰与花岗岩地面选 9:00–10:30 的柔侧光</strong>。火焰用 50–85mm、f/2.8–f/4 拍近景，白天火苗很淡，<strong>刻意欠曝 1/3–2/3 挡才能让火色出来</strong>。地面平台是抛光石材，雨后有倒影可用。"
+          },
+          {
+            "name": "Arlington House 前廊与东侧台地",
+            "view": [
+              38.881177,
+              -77.07264
+            ],
+            "desc": "<strong>八根多立克巨柱的希腊复兴式门廊是本区最强的单体建筑立面</strong>，正面朝东。<strong>因此上午 9:30–11:00 柱廊为顺光，是拍立面的唯一好时段</strong>；下午整个门廊落入自身阴影。16–35mm 贴近柱基仰拍强调柱列纵深；<strong>站到台地边缘回身用 35–50mm，可以把柱廊边缘与远处 DC 天际线放进同一画面</strong>。室内一层为自助参观（南翼为主，北翼与二层视人力临时开放），<strong>光线很弱、禁三脚架，需 f/1.4–f/2 加高感手持</strong>。博物馆与南北两处 Enslaved Quarters 9:00–16:30 开放，<strong>大于 18×16×8 英寸的包不得带入建筑内</strong>。"
+          },
+          {
+            "name": "McClellan Gate 周边坡地（墓碑列阵）",
+            "view": [
+              38.878799,
+              -77.067151
+            ],
+            "desc": "<strong>1879 年的红砂岩拱门本身可作前景，但真正的主体是它两侧沿坡起伏的白色墓碑阵列。</strong><strong>100–200mm 压缩视角、机位尽量低</strong>，让碑列在画面里堆成密不透风的层，是这个题材唯一有效的做法；广角会把它拍成一片稀疏的白点。<strong>最佳时段 15:30–16:45</strong>：低角度侧光让每块碑都产生一道投影，阵列的节奏感才出得来；正午顶光下墓碑无影，画面会彻底扁平。<strong>阴天柔光是这个题材的另一个好选择。</strong>注意：<strong>不要跨越、倚靠或站上墓碑</strong>；见到任何葬礼队列立即停止拍摄并绕行。"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约</strong>，墓园与 Arlington House 均免票免预约。tram 车票可现场在 Welcome Center 购买或线上先买，也不需预约",
+          "ticket": "<strong>入园完全免费</strong>。可选的 interpretive tram tour <strong>成人约 $21.50 起</strong>（军人／退伍军人票约 $11.50 起，20 人以上团体票约 $17.50 起）；<strong>持残障停车证者本人加一名同行者免费搭乘</strong>",
+          "hours": "官方口径：<strong>Arlington National Cemetery is open daily from 8 a.m. to 5 p.m.</strong>（每日 8:00–17:00）。<strong>Arlington House 与其博物馆、两处 Enslaved Quarters：9 月至次年 5 月 9:30–16:30</strong>（6–8 月为 9:00–16:30），<strong>宅邸最后入场 16:00</strong>，仅 New Year’s Day、Thanksgiving、Christmas 三天闭馆。tram 8:30–16:00 发车（<strong>ANC 官网写「every 20 minutes」，运营商官网写「every 30 minutes」，两处口径不一致，以现场告示为准</strong>）。另需注意：部分第三方来源称 4–9 月延长至 19:00 闭园，<strong>但 arlingtoncemetery.mil 现行页面只写 8:00–17:00，未能从官方渠道确认延长时段</strong>",
+          "parking": "Welcome Center 停车楼（导航输入 <strong>1 Memorial Avenue</strong>），按小时收费；<strong>停这里不需要 REAL ID</strong>。更省事的是搭 Metro Blue Line 到 Arlington Cemetery 站，出站步行 5 分钟即达正门。<strong>若当天先拍 Iwo Jima Memorial，可从北侧 Ord and Weitzel Gate 步行入园</strong>（距 Rosslyn 站 15 分钟）",
+          "walk": "Welcome Center 到 Tomb of the Unknown Soldier 约 <strong>1.2 公里、含持续上坡，步行 20–25 分钟</strong>；到 Arlington House 约 <strong>15 分钟上坡</strong>；JFK 墓区在两者之间。<strong>全园 639 英亩、丘陵地形，一圈走下来 5–7 公里，务必穿正经徒步鞋并预留安检 15–20 分钟</strong>"
+        },
+        "notes": [
+          "<strong>三脚架政策（官方原文）</strong>：Prohibited Items 明列「Tripods which cannot fit into a purse/small bag」与「Unauthorized media/photography equipment, including drones」。<strong>能装进小包的迷你脚架可以过，常规三脚架与独脚架基本会被拦下</strong>；需要用专业器材请事先联系 ANC Public Affairs Office，703-614-0024",
+          "<strong>葬礼纪律是这个点位的第一条规矩</strong>：工作日每天 27–30 场葬礼。官方 Media Policy 要求不得拍摄明显处于哀伤中的人，拍摄扫墓者须先征询同意。<strong>正在进行的葬礼一律不拍，不要用长焦规避距离</strong>。葬礼也会导致 tram 改线与临时封路",
+          "<strong>所有人必须通过人身安检</strong>（含身份核验）。官方建议「bring minimal to no bags」；安检时手机、帽子与口袋物品要举过头顶通过。<strong>刀刃超过四英寸、酒精、喷雾、扬声设备、大于 8.5×11 英寸的旗帜均禁入</strong>；除服务犬与军犬外一律禁带宠物",
+          "<strong>换岗仪式频率 10 月 1 日切换</strong>：4/1–9/30 每半小时一场，10/1–3/31 每小时整点一场。按 8:00–17:00 的开放时间算，十月下旬实际可看场次只有整点的八次",
+          "园内<strong>禁止骑行与滑板</strong>；个人自行车只能停在 Welcome Center 外的车架上，共享单车与滑板车须停在 Metro 站",
+          "Memorial Day 与 Veterans Day 等大型仪式日会启用更严格的禁带清单，<strong>那两天三脚架与自拍杆一律禁入、且禁止步行前往 Memorial Amphitheater</strong>。九月下旬至十月下旬无此类活动，但 <strong>tram 在 2026 年 12 月 19 日与 2027 年 1 月 9 日（Wreaths In / Wreaths Out）停运</strong>",
+          "园内没有餐饮，Welcome Center 有洗手间与饮水；坡多且长，夏末初秋正午体感很闷"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Tomb_of_the_Unknown_Soldier%2C_Arlington_National_Cemetery_%2820_September_2023%29_02.jpg",
+            "cap": "Tomb of the Unknown Soldier 广场与 Memorial Amphitheater · DiscoA340 / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Memorial_Day_in_Arlington_National_Cemetery_%2827085342830%29.jpg",
+            "cap": "起伏地形上的墓碑列阵 · Arlington National Cemetery / Public domain"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Arlington_House_-_Robert_E._Lee_Memorial.jpg",
+            "cap": "Arlington House 东向八柱门廊 · Carlos Delgado / CC BY-SA 3.0"
+          }
+        ]
+      },
+      {
+        "id": "old-town-alexandria",
+        "n": 6,
+        "name": "亚历山德里亚老城",
+        "en": "Old Town Alexandria",
+        "score": 4,
+        "tldr": "免费步行、市政管辖不受停摆影响；防洪工程要到 2027 年夏秋才动工，本次窗口滨水区基本正常。",
+        "tags": [
+          {
+            "t": "步行免费",
+            "c": "free"
+          },
+          {
+            "t": "停摆免疫",
+            "c": "free"
+          },
+          {
+            "t": "不需预约",
+            "c": "free"
+          },
+          {
+            "t": "车表 $2.75/时",
+            "c": "paid"
+          },
+          {
+            "t": "艺术中心常提前闭馆",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>滨水防洪工程的时间表是本次最值得核实的一条，而结论是好消息。</strong>Alexandria 那个长期拖延的 Waterfront Flood Mitigation Project 在 2026 年3 月由市议会选定改用「Option 3 增强重力式雨水系统」方案（<strong>取消原定的抽水站</strong>，改为扩容重力管网、加装防倒流闸阀、将关键段护岸抬升至 6 英尺高程，并原样复建 Waterfront Park）。<strong>时间表是：2026 年秋完成 70% 设计，2026 年冬至 2027 年春完成最终设计，施工要到 2027 年夏或秋才开始。</strong>也就是说<strong>九月下旬到十月下旬的滨水区没有大型工地，Waterfront Park 正常开放</strong>；2026 年 7 月那轮沿 King Street、The Strand、Union Street、Prince Street 的地下管线试坑勘查（test pits）已在 7 月 24 日结束",
+          "<strong>Captain’s Row 是 Prince Street 的 100 街区，那段卵石路面是全美东岸保存最完整的原始铺装之一</strong>，两侧是十八世纪末至十九世纪初的联邦式排屋。<strong>这里的卵石不是仿古装饰，是真的老路面——凹凸不平、极其难走，但对摄影是纯加分</strong>：低角度贴地拍时，圆石的高光会形成一整片有肌理的前景",
+          "<strong>Torpedo Factory Art Center 是 1918 年动工的美国海军鱼雷生产厂，1974 年改造为艺术中心</strong>，现在是<strong>全美对公众开放的驻场艺术家工作室数量最多的一处</strong>，三层楼、免费进出。楼内还有 3 层的 Alexandria Archaeology Museum 与 1、2 层的 The Art League Gallery and School。<strong>工业厂房的钢窗、桁架与中庭光井是这里真正上镜的部分，不是画作</strong>",
+          "<strong>方位事实需要说清楚，因为很多攻略含糊过去了：从 Alexandria 滨水区望向 Washington Monument 的方位角只有约 2°，也就是几乎正北，直线距离约 9.6 公里。</strong>这意味着<strong>DC 天际线在这里是一条很远的正北向视线，晴朗通透时才勉强分辨得出华盛顿纪念碑的方尖碑轮廓，它不是这个机位的主体</strong>。真正好拍的是<strong>正东跨河的日出</strong>（对岸是 Maryland 与 National Harbor），以及<strong>南偏东约 162°、约 1.2 公里外的 Woodrow Wilson Bridge</strong>",
+          "<strong>King Street 的西向轴线方位角约 278°</strong>，而 <strong>9 月 25 日的日落方位角是 269°，只差 9°</strong>——<strong>九月下旬沿 King Street 向西看的街道峡谷落日几乎正对</strong>；到 10 月 22 日日落方位角掉到 256°，偏离 22°，太阳会落到街道左侧的屋顶后面。这是同一条街在一个月内完全不同的两种拍法"
+        ],
+        "photo": "街景／建筑 <strong>4/5</strong>，人像 <strong>4/5</strong>，风光 <strong>3/5</strong>。<strong>卵石路 + 联邦式排屋 + 工业厂房改造 + 东向开阔河面，四种质地在步行十五分钟的范围内齐备</strong>，而且完全免费、无门禁、不受联邦停摆影响，是本区可靠性最高的一站。扣分在天际线：<strong>DC 在这里太远（9.6 公里正北），别指望拍到 Iwo Jima 那种地标压缩效果</strong>。",
+        "shots": [
+          {
+            "name": "King Street 100 街区向西（街道峡谷落日轴线）",
+            "view": [
+              38.804198,
+              -77.039998
+            ],
+            "desc": "<strong>站在 King Street 最东端（Union Street 路口附近）沿街向西</strong>，用两侧连续的商铺立面与遮阳篷做街道峡谷。<strong>9 月 25 日：日落 19:00、方位角 269°，与街道 278° 的轴线只差 9°，18:30–19:05 是全年最好的对齐窗口</strong>，太阳会正对着你从街道尽头落下。<strong>10 月 22 日：日落 18:20、方位角 256°，偏离 22°</strong>，此时放弃对齐构想，改拍 17:50–18:20 的低角度暖光扫过北侧砖立面。<strong>70–200mm 压缩街道纵深、把远处的招牌与行人叠成层</strong>；<strong>24–70mm 拍完整街景</strong>。正对落日时务必用遮光罩并注意鬼影，或让太阳半藏在屋檐后拍星芒。<strong>King Street 最东两个街区为步行区，可以站在路中间</strong>。"
+          },
+          {
+            "name": "Waterfront Park 与市政码头（东向跨河日出）",
+            "view": [
+              38.803385,
+              -77.03943
+            ],
+            "desc": "<strong>这里正东跨 Potomac 望向 Maryland 岸，是老城唯一的开阔东向视野，因此是日出机位而不是日落机位。</strong><strong>9 月 25 日日出 06:59、方位角 91°（正东，日轮直接从对岸水平线升起）；10 月 22 日日出 07:25、方位角 104°（东偏南，会从 Woodrow Wilson Bridge 方向升起，桥体可入画）</strong>——<strong>十月的这个偏移反而更好用，因为桥给了日轮一个结构参照</strong>。民用晨光比日出早约 26 分钟，请提前四十分钟到位。<strong>16–35mm 拍河面与码头栈桥；70–200mm 压缩对岸的 National Harbor 与摩天轮</strong>。<strong>ND 加三脚架做 1–4 秒长曝可以把河面拍成镜面</strong>，这里没有任何三脚架限制。停泊在此的 Tall Ship Providence 是很好的前景桅杆剪影。傍晚这一侧背光，改为回身向西拍被落日染红的砖立面。"
+          },
+          {
+            "name": "Captain’s Row（Prince Street 100 街区卵石路）",
+            "view": [
+              38.803205,
+              -77.041178
+            ],
+            "desc": "<strong>Prince Street 与 Union Street 路口往西那一段的原始卵石路面。</strong><strong>正确做法是把机身放到接近地面的高度、用 24–35mm 贴地拍</strong>，让圆石的高光与阴影铺满前景下半幅，联邦式排屋的门廊与百叶窗做上半幅。Prince Street 也是东西走向，<strong>因此低角度斜光会顺着街道把每块卵石的立体感全部拉出来</strong>：<strong>9/25 的 18:15–18:55 与 10/22 的 17:35–18:15 向西拍最好</strong>，清晨（9/25 的 07:05–07:50）向东拍是另一个方向。<strong>雨后湿路面会让卵石反光，是这个题材最理想的条件。</strong>35–85mm 拍单栋门廊的门扇、扇形气窗与马蹄铁踏石细节。<strong>提醒：这是居民住宅区，不要进入前院台阶或对着窗户拍；路面极不平整，注意脚下与器材</strong>。"
+          },
+          {
+            "name": "Torpedo Factory Art Center 内部（工业厂房结构）",
+            "view": [
+              38.804856,
+              -77.039795
+            ],
+            "desc": "<strong>免费进出，主体是这栋 1918 年海军鱼雷厂的空间本身。</strong><strong>16–35mm 沿三层贯通的中庭仰拍或俯拍</strong>，利用钢桁架、栏杆与工作室门排的重复节奏；<strong>大面积钢窗在上午 10:00–12:00 会把柔和的侧光灌进中庭走廊，这是全天最好的时段</strong>。室内偏暗，<strong>f/2.8、ISO 800–1600 手持；三脚架建议避免——通道窄且人流多</strong>。<strong>拍摄艺术家作品或工作室内部前请先征得该艺术家同意</strong>，每位驻场艺术家自订工作时间，想找特定艺术家须事先联系。<strong>务必先查当天开放时间：2026 年 9 至 10 月有多个日期提前到 17:00 闭馆</strong>（9/18、9/19、9/26、9/27、10/3、10/10、10/11、10/17）。"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约</strong>。King Street、滨水区、Captain’s Row 与 Torpedo Factory Art Center 均免费开放",
+          "ticket": "<strong>步行游览完全免费</strong>，Torpedo Factory Art Center 自 1974 年起免费开放，Alexandria Archaeology Museum 与 The Art League Gallery 亦免费",
+          "hours": "街道与滨水区<strong>全天开放</strong>。<strong>Torpedo Factory Art Center：每日 10:00–18:00</strong>，<strong>但常因私人活动提前到 17:00 闭馆——2026 年 9–10 月已公告的日期是 9/18、9/19、9/26、9/27、10/3、10/10、10/11、10/17</strong>；另于 New Year’s Day、Easter、Independence Day、Thanksgiving（2026 年 11 月 26 日）、Christmas 闭馆。<strong>驻场艺术家各自订时间，建筑开门不等于工作室都有人</strong>",
+          "parking": "<strong>路边计时车表：2026 年 7 月 1 日起 $2.75/小时</strong>（罚单基准 $55），多数路段周一至周六 8:00–21:00 收费，<strong>周日与州法定假日免费</strong>；限时多为 2–3 小时，<strong>各街区规则不同，停车前必须逐块看标牌</strong>。<strong>Old Town 有 20 余处公共停车楼与停车场，多数在 $5–$10/天档位，不少提供「工作日 17:00 后与周末上限 $5」的优惠</strong>。市营设施包括 Courthouse Garage（111 South Pitt St）、North Union Street Garage（220 North Union St）、Thompson’s Alley Garage（10 Thompson’s Alley）等。<strong>注意：Market Square Garage 因 City Hall 翻修工程关闭中</strong>。公共交通：Metro King Street–Old Town 站（Blue／Yellow），出站可搭免费的 King Street Trolley 直达滨水区",
+          "walk": "King Street 从 Metro 站到滨水区约 <strong>1.6 公里、步行 20–25 分钟</strong>（免费 trolley 全程约 10–15 分钟）。<strong>四个机位彼此极近</strong>：King Street 东端到 Waterfront Park 约 100 米，到 Torpedo Factory 约 150 米，到 Captain’s Row 约 250 米，<strong>全部串完步行不超过 15 分钟</strong>"
+        },
+        "notes": [
+          "<strong>三脚架在户外街道与滨水区没有限制</strong>；Torpedo Factory 室内通道窄、人流大，建议不用架子",
+          "<strong>Captain’s Row 是私人住宅区</strong>：不要踏上前院台阶、不要对着窗内拍摄、不要长时间堵在住户门前。卵石路面极不平整，<strong>穿硬底防滑鞋，别在这段路上换镜头</strong>",
+          "<strong>防洪工程虽未开工，但零星的管线勘查与路面修补仍可能随时出现</strong>；出行前查 alexandriava.gov 的新闻页与 visitalexandria.com 确认当天有无临时封路",
+          "<strong>滨水区会「晴天积水」（sunny day flooding）</strong>——这正是防洪工程要解决的问题：<strong>Potomac 高潮位时河水会从雨水管倒流，Waterfront Park 与 The Strand 一带在无雨的情况下也可能出现漫水</strong>。秋季朔望大潮期尤需留意，出发前查 NOAA 的 Alexandria 潮位站",
+          "车表周日与州法定假日免费，<strong>但住宅区的按号付费路段周日也收费且费率更高</strong>，标牌必须看清",
+          "滨水区傍晚风大；King Street 沿街餐饮密集，日落时段户外座位会挡住部分街景构图",
+          "<strong>DC 天际线在这里距离约 9.6 公里且方位几乎正北</strong>，<strong>只有能见度极佳的日子才勉强辨认出 Washington Monument</strong>，不要把这条视线当作行程的理由"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/100_block_of_King_Street_looking_west_fron_Union%2C_Old_Town_Alexandria%2C_Virginia_%2814496605432%29.jpg",
+            "cap": "King Street 100 街区自 Union 街口西望 · Ken Lund / CC BY-SA 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Prince_St._cobblestones%2C_Alexandria%2C_VA.jpg",
+            "cap": "Captain’s Row 的原始卵石路面 · AlbertHerring / CC BY 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Torpedo_Factory_Art_Center%2C_Alexandria_%28September_2023%29_01.jpg",
+            "cap": "Torpedo Factory Art Center 外立面 · DiscoA340 / CC BY-SA 4.0"
+          }
+        ]
+      },
+      {
+        "id": "mount-vernon",
+        "n": 7,
+        "name": "弗农山庄",
+        "en": "Mount Vernon",
+        "score": 4,
+        "tldr": "私营运营、联邦停摆照常开门，是全 DC 最硬的备胎。$30、9:00–17:00、全园禁三脚架；宅邸内允许无闪光手持拍摄。",
+        "tags": [
+          {
+            "t": "停摆免疫",
+            "c": "free"
+          },
+          {
+            "t": "门票 $30",
+            "c": "paid"
+          },
+          {
+            "t": "停车免费",
+            "c": "free"
+          },
+          {
+            "t": "全园禁三脚架",
+            "c": "risk"
+          },
+          {
+            "t": "宅邸需定时票",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>由 Mount Vernon Ladies’ Association 私营，这是本次行程里最有实用价值的一条事实。</strong>该组织成立于 1853 年（1858 年买下庄园），<strong>从未接受联邦运营拨款</strong>，因此<strong>联邦政府停摆期间它照常开放收票、全年 365 天不休</strong>。National Mall 一侧的 Smithsonian 与各纪念堂内景在停摆中全线阵亡时，这里是唯一同等级别的替代目标",
+          "<strong>宅邸刚做完史上最大规模的修复，而且时机恰好</strong>：2023 年启动、耗资 <strong>4,000 万美元</strong>的 Mansion Revitalization Project 于<strong>2025 年 12 月 10 日举行剪彩，一、二层全部房间自 2024 年 1 月以来首次同时开放</strong>。工程重做了排水、楼板框架与地基，并新装 HVAC 以解决湿度问题。<strong>核心成果是 Washingtons’ Bedchamber 的全面复原</strong>——依据建筑与物质文化研究重制了 1790 年代复刻壁纸、重新抹灰，并按考证复位了华盛顿家族原件家具。<strong>但要注意：地窖（cellar）在 2026 年秋季前仍不对外，且宅邸北侧有一处围起来的施工区，外立面构图时需避开</strong>",
+          "<strong>建筑本体的关键几何：宅邸的 Piazza（那条著名的两层柱廊门廊）朝东，俯瞰 Potomac；西立面朝 Bowling Green，是游客的来向。</strong>这直接决定了拍摄顺序——<strong>东立面与 Piazza 只有上午顺光，西立面与 Bowling Green 只有下午顺光</strong>，而园区 9:00–17:00 的作息刚好各给你一个半到两小时",
+          "<strong>宅邸内部允许拍照，这一点与很多攻略的说法相反，值得核实清楚。</strong>官方 Guest Code of Conduct 原文是「Personal photography is allowed estate-wide except for inside all theaters or if posted otherwise in specific museum galleries. Flash photography is not permitted in the Mansion or museum galleries. Equipment, including tripods and selfie sticks, is not allowed.」也就是<strong>宅邸内可以手持无闪光拍摄，禁的是闪光灯与所有支撑器材</strong>，不是「禁止室内摄影」。<strong>只有专业拍摄与任何录像录音需要事先书面授权</strong>",
+          "<strong>2026 年是美国建国 250 周年，园区把它当作重点</strong>：新常设展 <strong>George Washington: A Revolutionary Life</strong> 已于 2026 年 6 月在 Education Center 开幕，另有 Mount Vernon: Story of an American Icon 展与 Patriots Path 独立战争营地重现。<strong>好消息是人多、坏消息也是人多——宅邸定时票会更早售罄</strong>"
+        ],
+        "photo": "建筑 <strong>5/5</strong>，园林 <strong>4/5</strong>，人像 <strong>3/5</strong>，风光 <strong>3/5</strong>。<strong>东立面 Piazza 的柱廊加 Potomac 河景是整个华盛顿都会区最好的十八世纪建筑构图</strong>，室内也刚做完修复、允许手持拍摄。扣分两处：<strong>全园明令禁止三脚架（连包检清单上都单独列出「Camera equipment, including tripods, and selfie sticks」），因此室内弱光只能靠大光圈加高感硬扛</strong>；以及 <strong>9:00–17:00 的作息把日出日落全部排除在外，这里永远拍不到金色时段</strong>。",
+        "shots": [
+          {
+            "name": "东立面 Piazza 与 Potomac 河景（上午唯一窗口）",
+            "park": [
+              38.71216,
+              -77.086697
+            ],
+            "view": [
+              38.70796,
+              -77.086136
+            ],
+            "desc": "<strong>这是全庄园的招牌构图，而且只有上午能拍。</strong>Piazza 朝东，<strong>开园的 9:00–10:30 是它唯一的顺光时段</strong>，此时低角度的东向阳光会一路射进柱廊底下，把八根方柱与地砖的明暗节奏全部打开。<strong>16–35mm 从 Piazza 南端沿柱列纵深拍，机位放低贴近地砖</strong>；<strong>24–70mm 退到东侧草坡，把柱廊与身后的 Potomac 河面一起收</strong>。<strong>10:30 以后柱廊会整体落入自身阴影</strong>——那时改用 50–85mm 拍柱间的人像剪影，站在阴影里往亮处拍，反差很戏剧化。<strong>禁三脚架，全程手持</strong>；上午光线足，f/5.6、ISO 200 够用。"
+          },
+          {
+            "name": "Bowling Green 西立面（下午唯一窗口）",
+            "view": [
+              38.708084,
+              -77.086655
+            ],
+            "desc": "游客从 Bowling Green 一侧接近宅邸，看到的是西立面与那座标志性的八角穹顶小塔。<strong>这一侧只有下午顺光，最佳 15:30–16:45</strong>（园区 17:00 关门，别拖到最后）。<strong>24–70mm 从 Bowling Green 草坪中轴线正对宅邸</strong>，利用两侧的对称树列做框；<strong>70–200mm 单拍穹顶与风向标</strong>。<strong>务必留意宅邸北侧那片围起的施工围栏</strong>——构图时从偏南的角度切入可以避开。西立面外墙是所谓 rustication 工艺（木板刷砂浆漆冒充石材），<strong>低角度斜光下这层假石面的质感才看得出来，是这个机位真正的看点</strong>。"
+          },
+          {
+            "name": "Washington’s Tomb（华盛顿夫妇墓）",
+            "view": [
+              38.706838,
+              -77.088722
+            ],
+            "desc": "砖砌拱券墓室，1831 年建成，内有 George 与 Martha Washington 的石棺。<strong>墓室朝东南、位于坡下的林荫中，全天大部分时间处于树影里</strong>，<strong>阴天或上午 10:00–11:30 的柔光最好</strong>，晴天正午会打出极难处理的斑驳硬光。<strong>35–70mm 正对拱门</strong>，用砖券的弧线做构图核心；光线很暗，<strong>禁三脚架的条件下需 f/2.8、ISO 800–1600</strong>。再往南 100 米左右是 Slave Memorial 与 African American Burial Ground，<strong>那里的拍摄请保持与墓地相称的克制</strong>。"
+          }
+        ],
+        "access": {
+          "book": "<strong>园区门票（grounds pass）不强制预约，可现场买；但宅邸参观需另配定时票。</strong>官方原文：「Entry to the Mansion requires a ticket, available during online checkout or at the gate.」<strong>强烈建议线上先订以拿到想要的时段——官方明示旺季与周末现场买时，最早可用的宅邸场次可能在抵达后两小时以上</strong>。<strong>线上预约宅邸时段每人加收 $2</strong>",
+          "ticket": "<strong>成人（12 岁以上）$30</strong>，青少年（6–11 岁）$16，<strong>0–5 岁免费</strong>。门票含历史区、园林、附属建筑、博物馆与语音导览。<strong>宅邸定时票线上预约每人另加 $2</strong>。15 岁及以下须成人陪同。<strong>停车全程免费</strong>",
+          "hours": "官方口径：<strong>4 月至 10 月 9:00–17:00；11 月至次年 3 月 9:00–16:00。全年 365 天开放，含所有节假日。</strong><strong>九月下旬至十月下旬适用 9:00–17:00。</strong>Donald W. Reynolds Museum & Education Center 与 The Shops 比园区晚一小时关（4–10 月 9:00–18:00）。<strong>The Farm 与 Distillery & Gristmill 只在 4–10 月开放</strong>（Distillery & Gristmill 在 2.8 英里外，需自驾或搭接驳，单程约 12 分钟）",
+          "parking": "<strong>访客停车永久免费</strong>，West / East / RV / Overflow 数个大场，先到先停。导航地址 3200 Mount Vernon Memorial Highway, Mount Vernon, VA 22121。从 DC 市区经 George Washington Memorial Parkway 南下约 25–40 分钟",
+          "walk": "West Parking Area 到园区入口约 <strong>350 米、5–7 分钟</strong>；入口到宅邸 <strong>约 10 分钟</strong>，到 Tomb 约 <strong>10 分钟</strong>，到 Museum / Education Center 约 5 分钟。<strong>园区面积很大且多为土径与碎石路，官方建议至少留三小时</strong>；<strong>宅邸参观从票面时间起请整体预留一小时（含排队），并把后续行程排在票面时间之后 75 分钟以上</strong>"
+        },
+        "notes": [
+          "<strong>三脚架政策（最硬的一条）</strong>：官方 Bag Inspection Policy 的禁带清单直接列出「Camera equipment, including tripods, and selfie sticks」，<strong>全园禁止三脚架与自拍杆，不只是宅邸内</strong>。室内弱光只能靠 f/1.4–f/2 大光圈加高感手持",
+          "<strong>宅邸内摄影的准确口径</strong>：允许个人无闪光手持拍摄；<strong>禁闪光灯、禁三脚架、禁任何录像录音（无论个人或专业）</strong>；剧场内与部分标示的博物馆展厅完全禁拍。<strong>专业拍摄须提前四周向 Association 申请</strong>",
+          "<strong>地窖（cellar）在 2026 年秋季前仍不对外开放</strong>，宅邸北侧有围起的施工作业区，外立面构图需避开。修复工程 Phase 4 排至 2026 年 9 月，<strong>个别房间仍可能临时闭展、参观路线随工程变动</strong>",
+          "<strong>禁带清单其余项</strong>：除水以外的一切食品饮料、超过 3.5 英寸的刀具、武器、大于 16×16×8 英寸的包。<strong>婴儿车不得进入宅邸</strong>（可停在门外）",
+          "FAA 已将 Mount Vernon 划为禁飞区；官方也几乎不批准航拍",
+          "3–10 月有付费的 <strong>Photo Cruise on the Potomac</strong>（约 45 分钟），<strong>是从水面拍宅邸东立面与河崖的唯一途径</strong>，但需与宅邸定时票的时段错开安排",
+          "<strong>宅邸参观为导览制，官方称一般 15–25 分钟走完</strong>（旺季更快）；队伍推进有节奏，<strong>每个房间只有十几秒，室内拍摄要预先想好焦段，不要现场换镜头</strong>"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Mount_Vernon_Estate_Mansion_2.JPG",
+            "cap": "宅邸东立面与 Piazza 柱廊 · Martin Falbisoner / CC BY-SA 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Mount_Vernon_Estate_Mansion_1.JPG",
+            "cap": "Bowling Green 一侧的西立面与八角穹顶 · Martin Falbisoner / CC BY-SA 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/East_Face_of_Mansion%2C_Mount_Vernon%2C_Near_Alexandria%2C_Virginia_%282731036366%29.jpg",
+            "cap": "东立面全景 · Ken Lund / CC BY-SA 2.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dc-neighborhoods",
+    "name": "Washington DC · Georgetown 与外围街区",
+    "navName": "Georgetown 与外围",
+    "color": "#a78bfa",
+    "lead": "这一区是 DC 里「纪念碑之外」的部分：联邦风格红砖排屋、一座世界第六大的哥特主教座堂、一座哈佛管的私人花园、一位废奴主义者的山顶宅邸，以及一条 300 英尺长的十三级叠瀑。<strong>本区最重要的三个「水到底通没通」的判断结果是：Meridian Hill 叠瀑已于 2026 年 5 月 14 日复流（去）；C&amp;O Canal 的 Georgetown 段官方状态仍是「De-watered」干河床（别指望倒影）；Dumbarton Oaks 的循环喷泉在 10 月 31 日前的常规季应当运行，但未能从官方渠道逐一确认。</strong>另有两个会坑人的时间坑：Dumbarton Oaks <strong>每天只开下午 14:00–18:00 且周一闭园</strong>，National Cathedral <strong>周日基本不售自助参观票</strong>。",
+    "callouts": [
+      {
+        "type": "warn",
+        "title": "C&O Canal 的 Georgetown 段仍是干河床",
+        "html": "<p>NPS 官方「Current Park Conditions」页面的水位表（表内标注 Last Update: 4/16/2026，页面整体更新至 2026-08-24）写明：<strong>Locks 3–4、Locks 4–5、Locks 5–6 全部为「De-watered」</strong>。Locks 4–5 就是 Level 4——从 Wisconsin Avenue 往上游一直到 Brookmont 的那段长水面，也正是所有明信片照片的取景处。</p><p>原因是 2024 年 2 月开工的 <strong>$12.7M 船闸与石墙修复工程</strong>（Locks 1、2、5、Inlet Lock 1、Guard Lock 及 Level 1/2/4 石墙）。NPS 明确写「To facilitate construction, water will need to be lowered in the canal during the entire duration of construction」。工期原定 2026 年春完工，但 <strong>2026 年 2 月底 Level 1 北墙部分坍塌</strong>，需重做设计，官方最新口径改为「anticipated that the project will last through Fall 2026, weather dependent」。坍塌点周边的 towpath 至今封闭，Georgetown 段（Mile 0.4–1）有绕行。</p><p>有非官方博客称运河已在 Thomas Jefferson St 至 30th St 之间重新蓄水。<strong>该说法未能在 NPS 官方渠道得到证实</strong>，与官方水位表相互矛盾。请按「干河床」做预案，出发前致电园区总部 <strong>301-739-4200</strong> 确认。运河游船（Georgetown Heritage）状态为 Closed，官方目标是 <strong>2027 年春</strong>复航，这已是第三次推迟，不要指望。</p>"
+      },
+      {
+        "type": "good",
+        "title": "Meridian Hill 十三级叠瀑已复流（本区最确定的好消息）",
+        "html": "<p>叠瀑自 2019 年因下层广场改造被关闭，是它建成以来<strong>历史上第一次完全停水</strong>，一停就是七年。NPS Rock Creek Park 官方页面写明：<strong>「The cascading fountain at Meridian Hill Park reopened to visitors on May 14, 2026」</strong>，下层反射池同日重开。</p><p>7 月初曾有一次插曲：Joan of Arc 雕像旁两座未列入改造合同的小喷泉试水，把管路里几十年的铁锈沉积冲进了互联的管网，叠瀑一度变成浑浊的棕色。NPS 冲洗加人工吸底，几天内恢复清澈。NPS 同时提示「Testing of the fountain will continue, to adjust the water levels and obtain the correct flow rate」，<strong>即流量仍可能被临时调整</strong>。</p><p>另需注意：2026 年整园养护中，<strong>上层草坪自 4 月底起被围栏封闭做草皮更新</strong>，NPS 只说「估计封闭到夏天」。<strong>9–10 月围栏是否已拆除未能确认。</strong>走道全程开放。</p>"
+      },
+      {
+        "type": "info",
+        "title": "联邦停摆风险：这个时间窗内已排除",
+        "html": "<p>本区六个点里，C&amp;O Canal、Frederick Douglass NHS、Meridian Hill Park 三处属 NPS，理论上受停摆影响；Dumbarton Oaks 由 <strong>Harvard University 的 Trustees</strong> 运营，Washington National Cathedral 是<strong>私立圣公会机构</strong>，两者与联邦拨款无关，停摆照常开门。</p><p>拨款现状：<strong>H.R. 6500《Continuing Appropriations and Extensions Act, 2027》已于 2026 年 9 月 2 日由总统签署生效</strong>（参议院 8 月 8 日 90–6 通过，众议院 9 月 1 日 370–48 通过）。该 CR 按 FY2026 水平续拨，<strong>有效期至 2026 年 12 月 11 日</strong>。也就是说 <strong>10 月 1 日的财年切换不会触发停摆，整个 9 月底至 10 月底的行程窗口完全被覆盖</strong>。下一个悬崖是 12 月 11 日，与本次无关。</p>"
+      },
+      {
+        "type": "warn",
+        "title": "Dumbarton Oaks：只开下午、只能网购、禁三脚架",
+        "html": "<ul><li><strong>2026 常规季（3/1–10/31）：周二至周日 14:00–18:00，17:30 停止入场。周一与联邦假日闭园。</strong>上午完全没戏，别安排早光。</li><li><strong>2026 年额外闭园日：10 月 8–10 日（内部活动，当日不售票、季票也不认）。</strong>另有 4/11、4/23–25、5/7–9 及各联邦假日。</li><li>票 <strong>$15/人</strong>，<strong>只能通过 Eventbrite 提前购买，现场无售票点、无候补、无 standby</strong>。每户每日限 10 张，售出不退，不可再次入场。2026 年季票已售罄。</li><li><strong>官方 Gardens Rules 明文禁止：三脚架、独脚架、自拍杆、灯具及其他大体积摄影器材；同时禁止一切商业与专业摄影摄像（含婚纱与订婚照）。</strong>手持拍摄没问题。</li><li>11/1–12/31 转入冬季时段 14:00–17:00（16:30 停止入场），<strong>免票但仍需提前预约</strong>；1/1–2/28 全季闭园。</li></ul>"
+      },
+      {
+        "type": "tip",
+        "title": "光线与秋色：具体到分钟与日期",
+        "html": "<p><strong>日出日落（Washington DC，按 NOAA 算法计算，与官方发布值差异在 ±3 分钟内）：</strong></p><ul><li><strong>9 月 25 日</strong>：日出 <strong>06:58</strong>（方位 <strong>90°</strong>，正东）／日落 <strong>19:02</strong>（方位 <strong>270°</strong>，正西）；正午 13:00，太阳高度角 50°；民用暮光结束 19:28。</li><li><strong>10 月 22 日</strong>：日出 <strong>07:24</strong>（方位 <strong>104°</strong>）／日落 <strong>18:21</strong>（方位 <strong>257°</strong>）；正午 12:53，太阳高度角 40°；民用暮光结束 18:48。</li></ul><p>意义：<strong>9 月底日落几乎正西，10 月底西偏南 23°</strong>——这直接决定 Key Bridge 的剪影落在画面哪一侧。夏令时到 11 月 1 日才结束，本行程窗口内全程 EDT。</p><p><strong>秋色：DC 城区的历史平均峰值在 11 月第一周</strong>；Shenandoah 约 10 月 20 日，马里兰／弗吉尼亚内陆在 10 月下旬，然后才轮到低海拔的 DC。《Old Farmer's Almanac》对 2026 年大西洋沿岸 9–10 月的长期预报是<strong>气温低于常年约 1°F、降水少约 1 英寸</strong>，偏冷偏干通常有利于显色。<strong>结论：本区三个秋色目标（Dumbarton Oaks、Meridian Hill、运河纤道）在 9 月底基本还是全绿，10 月下旬能拍到 60–80% 转色，真正的峰值要等到 10 月最后几天到 11 月初。如果日期可选，选晚不选早。</strong>Dumbarton Oaks 自家通讯里说他们的菊花与树冠「always at their best in November」。</p>"
+      }
+    ],
+    "spots": [
+      {
+        "id": "national-cathedral",
+        "n": 1,
+        "name": "华盛顿国家座堂",
+        "en": "Washington National Cathedral",
+        "score": 4.5,
+        "tldr": "世界第六大主教座堂，$15 自助票；西立面日落正面受光，Space Window 的正午是唯一时段；北立面全被脚手架包住。",
+        "tags": [
+          {
+            "t": "$15 自助参观",
+            "c": "paid"
+          },
+          {
+            "t": "周日基本不开放参观",
+            "c": "risk"
+          },
+          {
+            "t": "北立面脚手架",
+            "c": "risk"
+          },
+          {
+            "t": "私立·不受停摆影响",
+            "c": "good"
+          }
+        ],
+        "highlights": [
+          "正式名称 Cathedral Church of Saint Peter and Saint Paul，<strong>世界第六大、全美第二大主教座堂</strong>。1907 年 Theodore Roosevelt 参加奠基，<strong>1990 年才安上最后一枚尖顶饰石，前后 83 年</strong>，全程用中世纪工法——承重石砌、飞扶壁、无钢结构。中央的 Gloria in Excelsis Tower 高 301 英尺，<strong>塔顶海拔 676 英尺，是全 DC 地理最高点</strong>",
+          "<strong>Space Window（正式名 Scientists and Technicians Window）：全馆最著名的彩窗。</strong>设计者 Rodney Winfield 以 NASA 照片为蓝本画了一片星野，虚线暗示 Apollo 11 的飞行轨迹。<strong>画面中央那个大红圆里嵌着一片真的月岩</strong>——取自 Lunar Sample 10057 中心切片、重 <strong>7.18 克</strong>、采自 Mare Tranquillitatis，1974 年 7 月 21 日（登月五周年）由 Armstrong、Aldrin、Collins 三人亲手送来揭幕。Collins 本人是座堂旁 St. Albans School 的校友。<strong>窗旁的一枚拱顶浮雕刻的是宇航员的靴印</strong>",
+          "<strong>Darth Vader 怪兽雕（grotesque）</strong>：1980 年代西北塔施工期间办过一次儿童设计竞赛，黑武士是获奖作品之一。它<strong>位于西北塔的北面、某个山花中央尖饰的下方、从正面看略偏左</strong>，而且是<strong>水平向外探头而非向下俯视</strong>，所以侧视角比正视角好找。<strong>坏消息是它永远在阴面</strong>——北面全年得不到直射光，本地导游的说法是「on the dark side」，这个双关是字面意义上的",
+          "<strong>2011 年 8 月 23 日 M5.8 弗吉尼亚地震</strong>震落多枚尖饰石、扭歪或震塌数座小尖塔、有落石在金属屋面上砸出一个洞、后殿飞扶壁开裂，<strong>损失约 $3,800 万而座堂没有地震险</strong>。第一期 $1,000 万的内部拱顶石作已于 2015 年 2 月完成；2022 年 9 月启动的 $1.5 亿募款计划到 2025 年初结束时募到 <strong>$1.85 亿</strong>，<strong>所有地震修复资金已全部到位，目标 2030 年前全部完工</strong>",
+          "<strong>当前脚手架状况（本条目最重要的核实项）：</strong><strong>中殿北立面已被一整套自立式脚手架包住</strong>，覆盖北侧的七至八道飞扶壁及其小尖塔与山花，<strong>作业平台每 6 英尺 6 英寸一层、总高 30 至 130 英尺</strong>，因为不能在历史石材上打锚，整套结构是落在下层坡屋面的铝梁与橡胶垫上自立的；北立面两处入口上方还搭了防坠护棚。同时<strong>中央塔的修复已经开工</strong>——座堂 2026 年 6 月 11 日的公告说 Garth 中庭与 All Souls Memorial Garden 因中央塔工程封闭，<strong>「We do not expect the Garth to be re-opened before late fall 2026」</strong>。<strong>西立面双塔与南立面目前没有搭架的报道，但中央塔本身是否已被围裹、以及北草坪看西北塔的视线是否被中殿脚手架切到，均未能从官方渠道确认</strong>"
+        ],
+        "photo": "建筑 <strong>5/5</strong>，人像 <strong>3/5</strong>，风光 <strong>2.5/5</strong>。外部有明确的日落正面光、内部有全 DC 最好的彩窗光柱，两条线都能独立成篇；扣分是北立面被脚手架废掉、Garth 中庭封闭、且 17:00 准时清场导致内部拍不到暮光。",
+        "shots": [
+          {
+            "name": "Wisconsin Avenue 对街，西立面双塔正面",
+            "desc": "<strong>座堂是标准东西朝向，双塔与 West Rose Window 组成的西立面正对 Wisconsin Avenue。这意味着它在下午到日落全程被正面照亮，是本条目最可靠的外景。</strong><strong>9 月 25 日日落方位 270°（正西），西立面被完全正打，几乎没有立体感但色温最暖；10 月 22 日日落方位 257°（西偏南 23°），光从左前方来，立面有了明暗过渡，塔身层次更好——就外立面而言 10 月下旬优于 9 月底。</strong><strong>时段：日落前 60 分钟到日落（9/25 是 18:00–19:02，10/22 是 17:20–18:21）。</strong>注意<strong>座堂内部 17:00 准时关门，但外部场地此时仍可停留</strong>，所以外景要排在参观之后。<strong>24mm 竖构图</strong>能把双塔完整收下；<strong>移轴或后期校正是必需的</strong>，仰角带来的汇聚线在哥特立面上特别刺眼。70–200mm 单拍西北塔顶的尖饰与怪兽雕群。",
+            "park": [
+              38.92918,
+              -77.07322
+            ],
+            "view": [
+              38.93031,
+              -77.07274
+            ]
+          },
+          {
+            "name": "Bishop's Garden 南侧，飞扶壁与花园前景",
+            "desc": "<strong>Garth 中庭封闭期间，Bishop's Garden 是唯一还开放的座堂花园</strong>，也是唯一能用植物做前景仰拍主体的位置。<strong>南立面全天受光</strong>：秋季太阳始终偏南，<strong>大致 10:00–16:00 南侧飞扶壁与扶壁尖塔都是正面或高侧光</strong>，其中 <strong>15:00–16:30 的低侧光最能勾出扶壁的立体骨架</strong>。<strong>而且这一侧目前没有脚手架</strong>，是拍「完整哥特外壳」唯一干净的角度。35mm 用花园的黄杨与石栏做前景框；100mm 单独压缩连排飞扶壁的重复节奏。这里也是全座堂最好的人像位——石墙加植物加柔和反射光。",
+            "view": [
+              38.92975,
+              -77.07085
+            ]
+          },
+          {
+            "name": "中殿内部：Space Window 与南侧高侧窗光柱",
+            "desc": "<strong>Space Window 位于中殿南侧的中层高侧窗（clerestory），这决定了它必须在太阳偏南时拍——也就是正午前后。</strong><strong>9/25 太阳正南时刻 13:00、高度角 50°；10/22 是 12:53、高度角 40°。实际可用窗口大致 11:30–14:30，其中 12:30–14:00 最强。</strong>此时阳光直接穿过南侧高窗，<strong>在北侧列柱与地面上投出成片的彩色光斑</strong>，这是这座堂最值得拍的内景现象，而不是彩窗本身。<strong>10 月下旬太阳更低，光柱在柱子上的位置更高、色块更长，效果优于 9 月底。</strong>拍窗本身用 <strong>200–400mm</strong>（窗在高处且不大，月岩那一小片圆需要长焦才看得清）；拍光柱落在柱身上用 <strong>24–70mm</strong>，站中央通道向东。<strong>光比经常超过 10 EV，务必包围曝光 3–5 张。</strong>ISO 1600–6400，f/2.8–f/4，机身防抖全开——<strong>实务上你只能手持</strong>。",
+            "view": [
+              38.93065,
+              -77.0708
+            ]
+          },
+          {
+            "name": "北草坪找 Darth Vader 怪兽雕",
+            "desc": "<strong>无 OSM 实体，地图无针脚。</strong>标准做法是站到座堂北侧、靠近 Wisconsin Avenue 的草坪上，抬头看西北塔北面中间那个山花。<strong>它非常小、位置非常高，肉眼只是一个凸起，必须 400mm 以上或带望远镜才找得到。</strong><strong>北面全年无直射光，等不到「好光」——只能靠阴天的均匀天光或多云时的亮边</strong>，拍出来必然是低反差的灰石头配亮天，<strong>后期要压天空、提暗部才能看清盔形轮廓</strong>。建议 <strong>ISO 400–800、1/500 秒以上</strong>抵消长焦抖动。<strong>重要不确定项：中殿北立面 30–130 英尺高的脚手架就在这条视线的前景方向，它是否会遮挡或干扰北草坪看西北塔的角度，未能从官方渠道确认。把这个机位当作「到现场再看」的可选项。</strong>",
+            "park": [
+              38.92918,
+              -77.07322
+            ]
+          }
+        ],
+        "access": {
+          "book": "自助参观<strong>建议提前在 cathedral.org 或 tix.cathedral.org 购票</strong>，现场也可买但热门时段会满。<strong>塔楼攀登与幕后导览必须提前预约</strong>，按讲解员排班开放，名额少。20 人以上团体必须提前申请",
+          "ticket": "<strong>自助参观（Self-Guided Sightseeing）：成人 $15，5–12 岁儿童 $10，学生与长者周一至周三 8 折。</strong>票含 Bloomberg Connects 数字导览、主层与地下层、各展览，以及 <strong>Tower Observation Gallery「when available」——即观景廊是否开放逐日不定，不保证</strong>。导览类：Guided Spotlights Tour <strong>$20 / 儿童 $15</strong>（含 1 小时讲解，之后可继续自助参观）；Behind the Scenes Tour <strong>$35</strong>；<strong>Bell Tower Climb $50</strong>（爬 333 级到中央塔的鸣钟室，全程 70–90 分钟，有身高与年龄限制）。<strong>参加礼拜与私人祈祷永远免费</strong>",
+          "hours": "<strong>官方原文：「Our sightseeing hours vary day-to-day to accommodate the wide range of activities and ministries offered at the Cathedral. Your ticket is valid for the hours posted that day.」</strong>实际常见为 <strong>10:00–17:00 或 11:00–17:00，17:00 准时清场（closes promptly at 5 pm）</strong>。<strong>周日：官方明确写「Touring is not available during Sunday services」</strong>，周日基本不售自助参观票；<strong>某个特定周日午后是否放开参观未能确认，必须逐日查 cathedral.org 的日历</strong>。<strong>Garth 中庭与 All Souls Memorial Garden 因中央塔工程封闭，官方称「不早于 2026 年晚秋」重开</strong>",
+          "parking": "<strong>场地内有地下车库</strong>（由 Atlantic / asgpark.com 运营），入口在 Wisconsin Avenue、Woodley Road 南侧那个红绿灯处，<strong>开放 06:00–23:00，限高 7 英尺 6 英寸</strong>，各层电梯旁有无障碍车位与缴费机（收现金与信用卡）。<strong>周日礼拜时段免费</strong>。<strong>具体费率官方只给 PDF 且注明随时调整，2026 年数值未能核实</strong>。周边住宅区路边车位极少",
+          "walk": "<strong>没有邻近地铁站。</strong>最近是红线 Woodley Park–Zoo/Adams Morgan 站，步行约 1.5 公里 / 20 分钟且是上坡；更实用的是 Wisconsin Avenue 走向的 Metrobus（D82 Wisconsin Avenue–Foggy Bottom 线在座堂门口设站，站点坐标 38.92969, -77.06651）。车库电梯到访客入口约 <strong>150 米 / 3 分钟</strong>；<strong>访客入口在从 Wisconsin Avenue 正对立面时的左前方，玻璃电梯对面</strong>"
+        },
+        "notes": [
+          "<strong>三脚架（已逐项核实）：内部为「酌情限制」——官方原文是「Visitors may be limited in the use of photo equipment such as tripods or selfie sticks」，即工作人员可当场要求你收起来，实务上应按「只能手持」准备</strong>；个人非商业录像的政策则写「limited to hand-held and tripod equipment only」，两处口径不完全一致。<strong>外部与场地上的有计划拍摄需要 Photo Location Permit</strong>：基本许可为 2 小时、含摄影师在内最多 8 人、<strong>明确不含灯具与三脚架</strong>，<strong>起价 $250，而 10 月属旺季月份要 $350</strong>，审批需最多两周",
+          "<strong>许可只覆盖座堂外部、指定场地与 Bishop's Garden；不含 Garth 喷泉区（那是纪念园）、不含 St. Albans、National Cathedral School、Beauvoir 等 Close 内其他机构；内部原则上只对在此举行仪式的当事人开放拍摄</strong>。普通游客手持随手拍不受这套许可约束",
+          "<strong>礼拜与音乐会进行中一律禁止摄影摄像</strong>；不要把正在私人祈祷的人当作画面主体；官方导览手册明说<strong>闪光灯在这么大的内部空间里毫无作用</strong>，关掉它",
+          "<strong>17:00 准时关门意味着你永远拍不到内部的暮光与夜景。</strong>要拍点灯后的外立面，只能在场地上从外面拍",
+          "<strong>塔楼观景廊（Tower Observation Gallery）是「when available」而非固定开放</strong>，在中央塔施工期间尤其不稳定。如果观景视野是你此行的目的，<strong>请在买票当天先致电 (202) 537-6200 确认</strong>，不要指望自助票一定能上去",
+          "<strong>属私立圣公会机构，联邦停摆完全不影响</strong>；真正影响开放的是葬礼、国家级礼拜、音乐会等临时占用，这类变更座堂会邮件通知并全额退款，但不会提前很久公布"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/National_Cathedral_in_DC.jpg",
+            "cap": "座堂全景与中央塔 · Siubo11A / CC BY-SA 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Space_Window_-_South_Nave_Bay_E_-_National_Cathedral_-_DC.JPG",
+            "cap": "中殿南侧高窗上的 Space Window · Tim Evanson / CC BY-SA 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Washington_National_Cathedral_from_Bishop%27s_Garden.jpg",
+            "cap": "自 Bishop's Garden 仰望南立面 · Ron Dicker / CC BY-SA 4.0"
+          }
+        ]
+      },
+      {
+        "id": "meridian-hill",
+        "n": 2,
+        "name": "Meridian Hill Park（Malcolm X Park）",
+        "en": "Meridian Hill Park (Malcolm X Park)",
+        "score": 4,
+        "tldr": "十三级叠瀑已于 2026 年 5 月 14 日复流，是本区最确定的好消息；免费、开到午夜、三脚架合法，蓝调长曝是正解。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "叠瀑已复流",
+            "c": "good"
+          },
+          {
+            "t": "开到午夜",
+            "c": "good"
+          },
+          {
+            "t": "三脚架合法",
+            "c": "good"
+          },
+          {
+            "t": "上层草坪或仍围挡",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>十三级叠瀑长约 300 英尺，是北美最长的连续跌水之一。</strong>它 2019 年因下层广场改造停水，<strong>是建成以来历史上第一次完全断流，一停七年</strong>；<strong>NPS 官方页面写明「reopened to visitors on May 14, 2026」，下层反射池同日重开</strong>。NPS 同时提示流量仍在调试中，可能被临时调整",
+          "公园 1914 年由景观建筑师 <strong>George Burnap</strong> 起稿、<strong>Horace Peaslee</strong> 修订，按意大利文艺复兴台地园的路子做，<strong>直到 1936 年才算真正建成</strong>。1933 年划归 NPS，1994 年列为 National Historic Landmark",
+          "<strong>对拍摄者最重要的一个技术事实：这里是美国「露石混凝土」（exposed-aggregate concrete）的试验场。</strong>石子按尺寸与颜色逐颗挑选，混凝土未完全硬化时就拆模，再用钢丝刷加酸洗把骨料表面刮出来。<strong>结果是整座公园的墙面、栏杆、台阶都有一层砂纸般的颗粒质感——低角度侧光下这层质感本身就是极好的抽象题材</strong>，比拍全景更值",
+          "<strong>「Malcolm X Park」这个名字来自 1969 年 Angela Davis 在此集会时提出的更名倡议</strong>，至今是本地通用叫法但非官方名。<strong>周日下午的鼓圈（drum circle）自 1960 年代延续至今</strong>，在上层草坪靠近 Joan of Arc 雕像那一侧，通常从下午开始一直到天黑，NPS 官方页面把它列为公园的日常景象之一",
+          "园内两件雕塑值得单独拍：<strong>1922 年的 Joan of Arc 骑马像是全 DC 唯一的女性骑马雕像</strong>（法国妇女团体所赠，2024 年 11 月做过修复）；<strong>下层广场那座浑天仪（armillary sphere）是 2024 年 11 月新装的复制品</strong>，原件在 1960 年代被破坏、1970 年代末拆除后失踪，新件是照历史照片与图纸重做的"
+        ],
+        "photo": "风光 <strong>4/5</strong>，建筑 <strong>4.5/5</strong>，人像 <strong>4/5</strong>。复流后的十三级跌水加露石混凝土的几何台地，是 DC 少有的「能拍慢门」的免费场地，且开到午夜、三脚架合法；扣分是上层草坪可能仍在围挡、以及秋季树冠遮蔽让下午光线很碎。",
+        "shots": [
+          {
+            "name": "下层广场正对叠瀑仰拍（招牌机位）",
+            "desc": "<strong>先把朝向说清楚：叠瀑从北端（38.92013）沿坡向南跌到下层反射池（38.91965），也就是整条水轴朝正南。你站在下层广场向北仰拍，太阳在你背后。</strong>这意味着<strong>正午前后叠瀑是被正面硬光打的，反差大、水花过曝，最不该拍的时段</strong>。<strong>真正的时段有三个：一是阴天全天（丝滑水流的最佳条件）；二是日落前 60–30 分钟（西侧台地与树把水池打进阴影、只有上部还留暖光，明暗分层最漂亮）；三是蓝调（9/25 约 19:05–19:30，10/22 约 18:25–18:50）</strong>。<strong>公园 5–10 月开到午夜，蓝调之后还有大量时间，这是本区唯一能合法慢慢拍夜景的地方。</strong><strong>慢门参数：白天要 ND8–ND64 才能到 1/2–2 秒；蓝调不需要 ND，2–15 秒直接拍。</strong><strong>1/2 到 1 秒的水是「有质地的丝」，超过 4 秒会糊成一片白，13 级台阶的层次就没了</strong>——这里不要盲目拉长曝光时间。24–35mm 竖构图从池边正中拍全程；配 CPL 压水面反光。",
+            "park": [
+              38.91967,
+              -77.03498
+            ],
+            "view": [
+              38.91965,
+              -77.03564
+            ]
+          },
+          {
+            "name": "叠瀑顶端俯拍与 16th Street 壁龛",
+            "desc": "从跌水最上一级的平台向南俯瞰，<strong>十三级水盘一路收窄消失在下层广场</strong>，是与上一个机位完全相反的视角，也更能表达「台地」这件事。<strong>此处朝南，秋季全天正对太阳，因此反过来——这个机位适合上午与傍晚的斜光，正午会直接吃到太阳进画面。</strong>推荐 <strong>日出后 1–2 小时（9/25 约 08:00–09:00，10/22 约 08:30–09:30）</strong>：此时太阳在东南、高度角 15–25°，<strong>擦地光会把每一级水盘边缘的露石混凝土质感全部勾出来</strong>，而且这个时段公园几乎没人。16–24mm 广角贴着栏杆向下压。往北再走 60 米就是 Joan of Arc 骑马像所在的上层平台。",
+            "view": [
+              38.92013,
+              -77.03565
+            ]
+          },
+          {
+            "name": "上层平台：Joan of Arc 骑马像与周日鼓圈",
+            "desc": "<strong>上层是开阔草坪与列树，也是周日下午鼓圈的地点</strong>（通常下午开始、持续到天黑，靠 Joan of Arc 雕像一侧）。<strong>拍鼓圈请用 35mm 或 50mm 走进去拍，不要在外围用长焦偷拍</strong>——这是一个持续六十年的社区活动，先站着听几分钟、点头示意，通常没人介意你拍，但远距离长焦会让人不舒服。<strong>雕像本身朝向使其正立面在下午受光</strong>，<strong>15:00–17:00 的侧光配秋树背景最好</strong>，85–135mm 浅景深单拍马与骑手的轮廓。<strong>重要提醒：2026 年整园养护中上层草坪自 4 月底起被围栏封闭做草皮更新，NPS 只说估计封闭到夏天，9–10 月围栏是否拆除未能确认</strong>——走道全程开放，但草坪本身可能进不去。",
+            "view": [
+              38.92071,
+              -77.03571
+            ]
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约</strong>（举办活动才需要 special use permit）",
+          "ticket": "<strong>免费</strong>",
+          "hours": "<strong>5 月至 10 月 05:00–24:00；11 月至次年 4 月 05:00–21:00。</strong><strong>整个 9 月底至 10 月底的行程窗口都适用「开到午夜」这一档</strong>，这是本区唯一能从容拍夜景的点位。无闭园日",
+          "parking": "<strong>无专用停车场。</strong>16th Street NW、Euclid Street NW、W Street NW 一带是路边停车，<strong>大部分为居民许可区，非居民限停 2 小时且有时段限制，务必逐根看标杆</strong>。傍晚与周末车位竞争激烈，<strong>强烈建议不要开车</strong>",
+          "walk": "<strong>Metro 绿/黄线 U Street 站</strong>步行到公园下层广场入口（16th &amp; W Street NW）约 <strong>900 米 / 12 分钟</strong>；<strong>红线 Columbia Heights 站</strong>约 <strong>1.0 公里 / 13 分钟</strong>。<strong>下层广场入口（16th &amp; Florida/W Street 角）是唯一的无障碍入口</strong>，有连续坡道通到 James Buchanan 纪念碑前的平台；<strong>16th Street 一侧的多数入口因台地与台阶不具无障碍条件</strong>。下层广场到叠瀑顶端约 150 米、要爬两段台阶"
+        },
+        "notes": [
+          "<strong>三脚架（已逐项核实）：可以，不需要许可。</strong>NPS 现行摄影规则把三脚架、独脚架与手持灯具归入 handheld equipment，只有<strong>进入封闭区、需要独占场地、或搭建布景／使用非手持器材</strong>才需要 permit。公园本身也没有额外的三脚架禁令。架设时请避开主通道与鼓圈范围",
+          "<strong>所有水体禁止涉水、游泳与洗浴（人与宠物皆然）</strong>，见 Superintendent's Compendium。想拍水面低机位就蹲在池边铺装上，不要下水，也不要把器材架进池里",
+          "<strong>叠瀑的水在 2026 年 7 月初曾因旁边两座未改造的小喷泉试水而被冲进大量铁锈沉积、一度变成浑浊棕色</strong>，NPS 冲洗加人工吸底后数日内恢复。<strong>类似情况仍可能重演</strong>，出发当天可先看 PoPville 或 NPS Rock Creek Park 页面有无新公告",
+          "<strong>NPS 明说「Testing of the fountain will continue, to adjust the water levels and obtain the correct flow rate」——流量并非固定</strong>，你看到的水量可能比历史照片大或小",
+          "<strong>公园开到午夜不等于午夜适合待在这里。</strong>蓝调时段（日落后 20–50 分钟）人流仍多、照明正常，是拍夜景的合理窗口；<strong>再晚就不建议独自带三脚架停留</strong>，尤其是树荫密集的上层与东侧台阶",
+          "秋季树冠茂密，<strong>下午的光在台地上是碎斑而不是整片</strong>，这也是为什么这里更推荐阴天与蓝调，而不是所谓的「黄金时刻」",
+          "<strong>属 NPS（Rock Creek Park 管辖），但 2026 年 9 月 2 日生效的 CR 已把联邦拨款延到 12 月 11 日，本行程窗口内不存在停摆闭园风险</strong>"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Cascading_water_fountain_at_Meridian_Hill_Park.jpg",
+            "cap": "十三级叠瀑运行中 · Katy Van Every / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Looking_south_-_Meridian_Hill_Park_fountain.jpg",
+            "cap": "自叠瀑顶端向南俯瞰下层广场 · AgnosticPreachersKid / CC BY-SA 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Meridian_Hill_Park.jpg",
+            "cap": "台地、露石混凝土墙与列树 · Kurt Kaiser / CC0"
+          }
+        ]
+      },
+      {
+        "id": "dumbarton-oaks",
+        "n": 3,
+        "name": "Dumbarton Oaks 花园",
+        "en": "Dumbarton Oaks Gardens",
+        "score": 4,
+        "tldr": "Beatrix Farrand 的台地园；只开下午 14:00–18:00、周一闭园、10/8–10 停开、$15 须网购、禁三脚架。",
+        "tags": [
+          {
+            "t": "$15/人",
+            "c": "paid"
+          },
+          {
+            "t": "仅 Eventbrite 预购",
+            "c": "risk"
+          },
+          {
+            "t": "禁三脚架",
+            "c": "risk"
+          },
+          {
+            "t": "仅下午开放",
+            "c": "risk"
+          },
+          {
+            "t": "哈佛运营·不受停摆影响",
+            "c": "good"
+          }
+        ],
+        "highlights": [
+          "<strong>先纠正一个常见的数字错误：正式花园是约 16 英亩，不是 27 英亩。</strong>Bliss 夫妇 1920 年买下的是一处 53 英亩产业；1940 年他们把<strong>上部 16 英亩连同宅邸捐给 Harvard University</strong>，成立拜占庭研究、前哥伦布研究与园林景观研究的研究所；<strong>剩下的 27 英亩划给了 NPS，成为今天独立的 Dumbarton Oaks Park</strong>——那是一处自然式的溪谷林地，免费、无人管、与这里不是一个地方。要拍台地园，买的是前者的票",
+          "设计者 <strong>Beatrix Farrand</strong> 是美国景观设计师协会创始会员中唯一的女性。她与 Mildred Bliss <strong>密切合作了近三十年</strong>（1921 年起），<strong>每一级台地、每一张长椅、每一个石瓮与花境边缘都是两人逐项议定的</strong>。结果是一座随山势跌落、由正式到野趣逐段过渡的园子：Green Garden、Beech Terrace、Urn Terrace、Rose Garden、Fountain Terrace、Lovers' Lane Pool、Pebble Garden 一路向下",
+          "<strong>1944 年 8 月到 10 月的 Dumbarton Oaks Conference 就在这栋楼里开</strong>——美、英、苏、中的代表在这里起草了后来成为《联合国宪章》骨架的方案。也就是说，你在深秋午后拍的这片草坪与台地，正是联合国蓝图定稿时窗外的景",
+          "园内共有 <strong>12 座喷泉</strong>，原设计是活水常流、溢流后进雨水管网。2017–2018 年园方把 Pebble Garden、Fountain Terrace、Lovers' Lane、Ellipse 等几处改成循环系统，并于 2019 年装上紫外线灭藻灯替代加氯，<strong>年节水估计超过 2,800 万加仑</strong>。<strong>关于「秋天喷泉开不开」：官方从未公开发布过逐月运行表，未能从官方渠道确认。</strong>循环加 UV 的系统在防冻期之前没有停机理由，<strong>10 月 31 日前的常规季应当运行，信心中偏高；但请把它当作加分项而不是行程前提</strong>",
+          "秋色：园方自家通讯里写他们的菊花与落叶树冠「always at their best in November」，<strong>与 DC 城区 11 月初的历史峰值一致</strong>。9 月底来基本全绿，10 月下旬能拍到明显转色但不是最盛"
+        ],
+        "photo": "建筑 <strong>4/5</strong>，风光 <strong>4/5</strong>，人像 <strong>4.5/5</strong>。台地、砖墙、铁门、水池构成一层层天然取景框，是全 DC 最适合环境人像的付费场地；扣分完全来自规则——禁三脚架、只开下午四小时、且禁止一切专业与商业拍摄。",
+        "shots": [
+          {
+            "name": "North Vista 与主宅北立面",
+            "desc": "进门后第一个正式空间，一条向北逐级收窄的草坪甬道，两侧砖墙与限石柱把远处视线压成一条。<strong>下午开园即到（14:00）时太阳在西南偏南，砖墙受侧光、草坪受顶光，反差偏大</strong>；<strong>真正好的是闭园前最后一小时</strong>——<strong>10 月下旬 17:00–18:00 正好是日落前 80 分钟到 20 分钟，整条甬道被极低角度的暖光贯穿</strong>（10/22 日落 18:21）。而 <strong>9 月底同样的 17:00–18:00 距日落还有一到两小时，光还是硬的</strong>——这是「晚十月明显优于晚九月」最直接的一处体现。24–35mm 站甬道正中轴线拍透视收敛；85mm 压缩台阶层次。禁三脚架，手持即可（光够）。",
+            "park": [
+              38.91406,
+              -77.06358
+            ],
+            "view": [
+              38.91436,
+              -77.06287
+            ]
+          },
+          {
+            "name": "Fountain Terrace 与 Pebble Garden",
+            "desc": "两处是园内最强的图案题材：Fountain Terrace 是对称双水池加铁艺花架，Pebble Garden 是整片彩色卵石拼成的 Bliss 家族纹章图案，<strong>上面覆着一层极浅的水膜——它靠的正是 2017 年改造后的循环系统</strong>。<strong>Pebble Garden 必须俯拍才成立</strong>，从上层台地边缘用 35–50mm 向下压，水膜会把天光反成一层高光，需要 <strong>CPL 偏振镜按需减反</strong>（留一点反光比全消掉好看）。<strong>时段选 16:00–17:30 的高侧光</strong>，此时卵石有立体感而水面还没进全阴影。<strong>若当日喷泉未运行，Pebble Garden 会变成一片干燥的灰色卵石，这个机位直接放弃。</strong>",
+            "view": [
+              38.91406,
+              -77.06358
+            ]
+          },
+          {
+            "name": "Lovers' Lane Pool 与下层野趣段",
+            "desc": "<strong>无独立 OSM 实体，地图无针脚</strong>（位于花园东南角、Fountain Terrace 下方）。一座仿意大利露天剧场式的椭圆水池，<strong>池后是 Farrand 1928–29 年设计的十五根带瓮列柱</strong>，半圆形阶梯座席贴着树林。这是全园最暗的一处，树冠遮蔽严重，<strong>阴天或 17:00 之后的散射光反而最适合</strong>，直射光会打出杂乱的斑驳。35mm 拍列柱与水面的对称；<strong>如果水池在运行，1/15 秒手持配机身防抖能拍出轻微的水面拉丝</strong>（不能用三脚架，只能靠稳）。ISO 800–3200 备用。往下走就进入非正式的林地段，10 月下旬这里落叶最厚。",
+            "park": [
+              38.91406,
+              -77.06358
+            ]
+          }
+        ],
+        "access": {
+          "book": "<strong>必须提前在 Eventbrite 购定时票，现场没有售票点、没有候补、没有 standby。</strong>票为定时入场，持票可在标注时间到 17:30 之间入园；每户每日限 10 张；售出不退（仅当园方自行闭园时例外）；<strong>不可再次入场</strong>。2026 年季票已全部售罄",
+          "ticket": "常规季（3/1–10/31）<strong>$15/人</strong>，2 岁及以下免费。冬季（11/1–12/31）<strong>免票但仍需提前预约</strong>",
+          "hours": "<strong>常规季 3 月 1 日–10 月 31 日：周二至周日 14:00–18:00，17:30 停止入场，周一及联邦假日闭园。</strong><strong>2026 年额外闭园日：10 月 8、9、10 日</strong>（当日不售票且季票不认）。冬季 11/1–12/31：14:00–17:00，16:30 停止入场，同样周一与联邦假日闭园。1/1–2/28 全季闭园。<strong>注意 10 月 12 日的 Columbus Day / Indigenous Peoples' Day 是周一，本就闭园，不额外冲突</strong>",
+          "parking": "<strong>无自有停车场。</strong>周边 R Street、32nd Street、31st Street 是居民区路边停车，大部分路段有 Residential Permit Parking 时段限制（非居民通常限停 2 小时），<strong>看清每一根标杆</strong>。开车来建议停 Georgetown 商业区车库后步行上坡",
+          "walk": "游客入口在 <strong>1703 32nd Street NW</strong>（32nd &amp; R Street 路口附近）。从 M Street 商业区走上来是持续爬坡约 <strong>1.1 公里 / 15–18 分钟</strong>；<strong>Metro 无邻近站</strong>，Dupont Circle 站（红线）步行约 1.9 公里 / 25 分钟，或搭 Wisconsin Avenue 走向的 Metrobus 到 Q Street 后步行 600 米"
+        },
+        "notes": [
+          "<strong>三脚架、独脚架、自拍杆、灯具及其他大体积摄影器材一律禁止</strong>，这是官方 Gardens Rules 的明文条款，不是现场酌情。<strong>同时禁止一切商业与专业摄影摄像</strong>（含订婚照、婚纱、活动拍摄）",
+          "园方要求把花园当作「户外博物馆」：<strong>禁止触摸、攀爬或坐在喷泉、雕塑与园墙上</strong>，禁止踩踏花境、摘花、爬树。想拍低机位请蹲在铺装路面上，不要跨进花床",
+          "<strong>园内禁止饮食、禁止携带敞口容器</strong>，只能在长椅与座椅上坐。写生可以，但仅限铅笔或炭笔、画板不超过 12\"×18\"",
+          "园区近年野生动物增多，<strong>包括无毒的黑鼠蛇（black rat snake）</strong>。园方明确说它们不具攻击性，遇到别惊动即可",
+          "<strong>下午开园意味着你永远拍不到这里的晨雾与早光</strong>。接受这一点，把行程排成「上午别处、14:00 进园、18:00 出园直接接日落」",
+          "<strong>由 Harvard University 的 Trustees 运营，联邦停摆完全不影响开放</strong>；真正会临时关门的是恶劣天气（园方保留在危险天气下闭园的权利）与内部活动日"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Dumbarton_Oaks_in_September_%2821676345916%29.jpg",
+            "cap": "九月的台地花园 · DC Gardens / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Dumbarton_Oaks_in_September_%2821676351366%29.jpg",
+            "cap": "花境与砖墙层次 · DC Gardens / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Dumbarton_Oaks_north_face.jpg",
+            "cap": "主宅北立面与 North Vista · AgnosticPreachersKid / CC BY-SA 4.0"
+          }
+        ]
+      },
+      {
+        "id": "exorcist-steps",
+        "n": 4,
+        "name": "驱魔人阶梯与 Georgetown 老街区",
+        "en": "The Exorcist Steps, Cady's Alley & Georgetown Rowhouses",
+        "score": 3.5,
+        "tldr": "75 级深沟阶梯全天几乎无直射光，阴郁本身就是主题；配 O/P 街的鹅卵石与有轨电车轨道能凑一条完整扫街线。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "24 小时可拍",
+            "c": "free"
+          },
+          {
+            "t": "深沟无光",
+            "c": "risk"
+          },
+          {
+            "t": "沿街是私宅",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "阶梯 <strong>1895 年</strong>由本地民主党人物 George Killeen 主持修筑，与旁边的 <strong>Capital Traction Company Union Station（今 Georgetown Car Barn）</strong>同期完工。选址是 20 度斜坡、<strong>从 Prospect Street 到 M Street 落差 60 英尺</strong>，为了整平站场挖掉了八万多立方码土方，这道挡土墙与嵌在墙里的楼梯就是那次工程的副产品——它本质上是采光井兼公共通行权，不是景观楼梯",
+          "<strong>在《The Exorcist》之前它被本地人叫作「Hitchcock steps」</strong>。1972 年 William Friedkin 在此取景，Karras 神父坠亡那场戏为保护替身在石阶上铺了泡沫垫，<strong>整段摔了两遍</strong>。2015 年万圣节前夜，市长 Muriel Bowser 在 Friedkin 与原著／编剧 William Peter Blatty 到场的仪式上，<strong>在阶梯底部揭幕纪念铭牌，正式列为 DC 地标与官方旅游景点</strong>。整组建筑（车库、挡土墙、楼梯）已列入 National Register，编号 100004248",
+          "常说是 75 级，<strong>但当地有个梗是每次数的结果都不一样</strong>。楼梯是 36th Street NW 的延续，南北走向，被四层高的车库（东）与石挡土墙（西）夹成一条约 3–4 米宽的深沟",
+          "<strong>O Street NW 与 P Street NW 在 33rd 到 36th 之间保留着全 DC 仅存的原状有轨电车轨道</strong>，嵌在比利时块石（Belgian block）路面里，未被沥青覆盖。Capital Traction 的电车 <strong>1962 年 1 月 28 日</strong>停运，这两条街是唯一没被铲掉的物证。潮湿或雨后轨道反光时最好拍",
+          "N Street NW 是联邦风格排屋密度最高的一条：<strong>3307 N Street NW 是 John F. Kennedy 1957–1961 年的住所</strong>，他从这栋房子的台阶上出发去就职；<strong>3014 N Street 的 Laird-Dunlop House 曾属于 Robert Todd Lincoln</strong>，后来是《华盛顿邮报》的 Ben Bradlee 家。<strong>全部是有人居住的私宅</strong>"
+        ],
+        "photo": "建筑 <strong>4/5</strong>，人像 <strong>4/5</strong>，风光 <strong>1/5</strong>。阶梯的透视与压迫感是 DC 少有的电影感场景，鹅卵石街区适合环境人像；扣分因为阶梯几乎永远缺光、可站位极少，且是一条真正的通勤楼梯，不能久占。",
+        "shots": [
+          {
+            "name": "阶梯底部（M Street 一侧停车场）向上仰拍",
+            "desc": "<strong>这是招牌构图，也是唯一能表达 60 英尺落差的角度。</strong>沟是南北走向、南端向 M Street 敞口，所以<strong>推算</strong>只有太阳接近正南时光才可能顺着沟轴射进来：<strong>9 月 25 日太阳正南时刻 13:00、高度角 50°，10 月 22 日 12:53、高度角 40°</strong>，因此<strong>大致 12:30–13:30 会有一条窄光带扫到楼梯上半段，其余时间整条沟全天处于阴影</strong>。<strong>此为几何推算，未经实地核实。</strong>但反过来说——<strong>阴郁低光正是这个场景的正解</strong>，直射光会把气氛拍没。推荐阴天全天、或日落后 20–40 分钟靠沟内路灯拍（9/25 约 19:20–19:40，10/22 约 18:40–19:00）。<strong>16–24mm 贴着底部台阶正中低机位</strong>，让两侧墙面在画面上缘收成一点。手持需 ISO 3200–6400；架三脚架 1–4 秒会更干净，但楼梯是通行道，架完立刻拍完立刻收。",
+            "park": [
+              38.90285,
+              -77.06342
+            ],
+            "view": [
+              38.90552,
+              -77.07016
+            ]
+          },
+          {
+            "name": "阶梯顶部（Prospect Street 与 36th Street 路口）俯拍",
+            "desc": "与上一个机位同一 OSM 实体、相隔 60 英尺垂直落差。<strong>俯视构图更适合放人</strong>：让模特站在下方三分之一处仰头，24–35mm 从顶部铁栏杆外侧向下压，<strong>台阶的重复节奏会把视线一路带到底部的亮口</strong>，形成隧道效果。2015 年那块纪念铭牌在底部，想拍铭牌要下到最下面。顶部是 Prospect Street 的人行道，白天有游客排队打卡，<strong>要拍空镜请在日出后一小时内来（9/25 约 07:00–08:00，10/22 约 07:25–08:25）</strong>，那个时间人最少，且沟内仍是均匀的散射光，正合用。",
+            "view": [
+              38.90552,
+              -77.07016
+            ]
+          },
+          {
+            "name": "O Street / P Street 的鹅卵石与有轨电车轨道",
+            "desc": "<strong>O Street NW 在 33rd–34th 之间（38.90779, -77.06696）与 P Street NW 同段（38.90878, -77.06697）在 OSM 上都标为 surface=sett 且带 railway=disused，是可核对的实体。</strong><strong>最佳时段是日出后 30–60 分钟与日落前 60 分钟的低角度侧光</strong>——只有擦地光能把块石的圆顶与轨道的金属边缘同时勾出来，正午顶光下这条街完全是平的。<strong>35mm 或 50mm 蹲低到膝盖高度沿街纵向拍</strong>，让两道轨道在画面里收敛消失；85mm 拍单块石与轨道接缝的抽象。雨后或洒水车过后效果提升一个档次。街两侧是密集的联邦风格排屋，秋天时街树转色，10 月下旬这条街是本区最好的秋色街景。",
+            "view": [
+              38.90779,
+              -77.06696
+            ]
+          },
+          {
+            "name": "Cady's Alley 设计街区",
+            "desc": "M Street 南侧的一条改造后巷，两侧是玻璃幕墙嵌进旧砖仓库的设计家居店。<strong>巷子东西走向、宽度只有几米，全天大部分时间是散射光</strong>，正好适合<strong>环境人像与橱窗反射的双重曝光式构图</strong>。35–85mm，f/1.8 让背景的砖与玻璃虚成色块。<strong>最佳是黄昏 18:00 之后店内灯亮、天光未尽的 20 分钟</strong>（10 月下旬约 17:50–18:15）。巷内是私人商铺产权，架三脚架会被店员劝离，手持。",
+            "view": [
+              38.90466,
+              -77.06691
+            ]
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约</strong>",
+          "ticket": "<strong>免费</strong>",
+          "hours": "<strong>阶梯是公共通行权，24 小时开放无人管理</strong>；O/P Street 与 N Street 是普通市政道路，同样全天可达",
+          "parking": "阶梯底部就是一个小型停车场（M Street 与 Canal Road 交口附近），车位极少；实际建议停 Waterfront Center 车库（38.90285, -77.06342）或用 Metro",
+          "walk": "从滨水公园东端走到阶梯底部约 <strong>900 米 / 12 分钟</strong>；<strong>Rosslyn 站过 Key Bridge 到阶梯底部约 800 米 / 10 分钟，是最近的地铁路径</strong>。阶梯底部到 O Street 轨道段约 700 米 / 10 分钟，中间要爬上 Prospect Street 那 60 英尺"
+        },
+        "notes": [
+          "<strong>三脚架：阶梯与街道均属公共空间，法律上可用</strong>，但阶梯窄且是实际通行道、Cady's Alley 属私人商铺产权，两处都建议手持或极短时间架设",
+          "<strong>N Street、O Street、P Street 沿线全部是有人居住的私宅。</strong>不要走上台阶、不要把镜头对着窗户、不要在同一户门前停留超过一两分钟。这是这条线唯一真正会惹麻烦的地方",
+          "阶梯石面在雨天与落叶季<strong>非常滑</strong>，坡度接近 40 度且没有中间平台；带器材上下请单手扶栏，不要边走边看取景器",
+          "<strong>不要在阶梯上摆拍「坠落」姿势</strong>——除了危险，这里已是官方地标且常有本地人通行",
+          "10 月 31 日前后是这里全年人最多的时候（万圣节朝圣），<strong>如果行程落在 10 月下旬且想要空镜，务必赶清晨</strong>",
+          "Georgetown Car Barn 目前是 Georgetown University 的办公与教室楼，<strong>不对公众开放</strong>，只能拍外墙"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Exorcist_Steps_%2850391769906%29.png",
+            "cap": "阶梯全貌与两侧夹壁 · Ben Schumin / CC BY-SA 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Looking_up_the_Exorcist_steps_in_Georgetown._-_panoramio.jpg",
+            "cap": "自底部仰视 75 级台阶 · olekinderhook / CC BY 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Exorcist_steps_-_3.jpg",
+            "cap": "阶梯与 Georgetown Car Barn 挡土墙 · APK / CC BY-SA 4.0"
+          }
+        ]
+      },
+      {
+        "id": "georgetown-canal",
+        "n": 5,
+        "name": "C&O 运河与 Georgetown 滨水公园",
+        "en": "C&O Canal Georgetown & Georgetown Waterfront Park",
+        "score": 3,
+        "tldr": "运河仍是干河床、游船停摆、纤道有绕行；真正值得来的是滨水公园的日落与 Key Bridge 剪影。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "运河无水",
+            "c": "risk"
+          },
+          {
+            "t": "纤道绕行",
+            "c": "risk"
+          },
+          {
+            "t": "日落机位强",
+            "c": "good"
+          }
+        ],
+        "highlights": [
+          "Chesapeake &amp; Ohio Canal 1828 年动工、1850 年通到 Cumberland，全长 184.5 英里，<strong>Georgetown 就是 Mile 0</strong>。今天沿 Level 1 到 Level 4 还留着 Lock 1–4 四座石砌船闸，闸室、闸门槽、绞盘基座都是原物，即使没水也是很好的石构与几何题材",
+          "<strong>但请先接受这个前提：水没了。</strong>NPS 官方水位表把 Locks 3–4、4–5、5–6 全部标为 De-watered。$12.7M 的船闸与石墙工程从 2024 年 2 月做到现在，<strong>2026 年 2 月底 Level 1 北墙部分坍塌</strong>后工期又延到「through Fall 2026」。网上流传的绿水倒影照都是 2023 年之前拍的",
+          "运河两侧那排红砖厂房是 Georgetown 工业时代的遗存——面粉厂、制冰厂、仓库，19 世纪靠运河与 B&amp;O 铁路运货，1920 年代 Key Bridge 与 Whitehurst Freeway 建成后航运彻底衰败，厂房在 1970 年代被改造成 Canal Square 一类的商业体。<strong>Wisconsin Avenue 以西、Grace Street 一带砖立面最完整</strong>",
+          "<strong>Georgetown Waterfront Park</strong> 2011 年秋建成，10 英亩，从 31st Street NW 一路延伸到 Key Bridge，<strong>24 小时开放且完全免费</strong>。西端有一座公共迷宫（labyrinth），中段 Percy Plaza 有一座季节性运行的喷泉（<strong>10 月是否还开未能从官方渠道确认</strong>，NPS 只写「seasonal」）",
+          "<strong>Francis Scott Key Bridge</strong> 1923 年通车，是 DC 段 Potomac 河上现存最古老的桥，七跨钢筋混凝土开腹拱。它取代的是更早的 Aqueduct Bridge——那座桥曾把运河船直接驳过河去 Alexandria 运河，<strong>它的桥台残迹至今还立在滨水公园西端的河岸上</strong>，是很好的前景"
+        ],
+        "photo": "风光 <strong>3.5/5</strong>，建筑 <strong>3/5</strong>，人像 <strong>3.5/5</strong>。滨水公园的日落方位极好、开阔且免费，撑起了全部分数；运河本体因无水掉了至少一档，纤道工程围挡也让砖仓库那条线不完整。",
+        "shots": [
+          {
+            "name": "Georgetown Waterfront Park 东段，日落对着 Key Bridge",
+            "desc": "<strong>本条目唯一的招牌机位。</strong>从公园东端（31st Street NW 入口）沿河岸步道向西望 Key Bridge，方位约 <strong>280°</strong>。9 月 25 日日落方位 270°、10 月 22 日 257°——<strong>9 月底太阳几乎正落在桥的轴线上（偏左 10°），10 月底会明显偏到桥左侧的河面上</strong>。两种都好用，但构图不同：9 月底把太阳压在桥拱开口里做爆闪星芒（f/16），10 月底让桥留在画面右侧做纯剪影、左边留大片橙红天空。<strong>时段 9/25 是 18:20–19:28，10/22 是 17:40–18:48</strong>（日落前 40 分钟到民用暮光结束）。<strong>桥在这个时段是剪影而不是被照亮的主体</strong>——桥面路灯与对岸 Rosslyn 楼群会在日落后 15–20 分钟点亮，那 10 分钟是天空亮度与灯光亮度平衡的窗口，蓝调版本比金光版本更出片。24–70mm 通吃，70–200mm 压缩 Rosslyn 天际线与桥拱效果更强。三脚架无限制，河岸步道很宽。",
+            "park": [
+              38.90285,
+              -77.06342
+            ],
+            "view": [
+              38.90275,
+              -77.06513
+            ]
+          },
+          {
+            "name": "Lock 3 / Lock 4 船闸段纤道",
+            "desc": "<strong>把这里当石构与线条题材，不要当水景题材。</strong>Lock 3（38.90410, -77.05935）与 Lock 4（38.90418, -77.06033）之间这段 Level 3 是 Georgetown 保存最完整的闸室。无水状态下闸底铺石、闸墙分层砌缝、两侧红砖厂房的倒影墙全部裸露，<strong>反而更适合拍结构</strong>。运河呈东西走向、两侧被高楼夹住，<strong>只有 11:30–14:30 顶光能落到闸底</strong>，其余时间整条沟都在阴影里；想拍砖墙暖色就反过来选 16:30 之后的高侧光打上层立面。24–35mm 沿纤道纵向压缩闸室序列，35–85mm 拍闸门槽与铁件细节。<strong>纤道 Mile 0.4–1 有施工绕行，按现场旗手与告示牌走，Level 1 北墙坍塌点周边完全封闭。</strong>",
+            "view": [
+              38.9041,
+              -77.05935
+            ]
+          },
+          {
+            "name": "Wisconsin Avenue 以西的砖仓库与吊桥段",
+            "desc": "<strong>无 OSM 实体，地图无针脚。</strong>位置在 Wisconsin Avenue 跨运河桥往西，沿 Grace Street 与 Cady's Alley 之间那段 Level 4。这里是砖立面最连续、木质人行吊桥最上镜的一段，也正是 Level 4 石墙修复的工区之一——<strong>围挡与脚手架位置随施工推进变动，无法预告</strong>。光线同上：正午顶光进沟，傍晚打立面。这段建议放在行程末尾当机动项，到现场看围挡再决定要不要花时间。",
+            "park": [
+              38.90466,
+              -77.06691
+            ]
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约。</strong>运河游船（Georgetown Heritage）状态为 Closed，目标 2027 年春复航，本次无票可买",
+          "ticket": "<strong>免费</strong>（C&amp;O Canal NHP 与 Georgetown Waterfront Park 均不收门票）",
+          "hours": "Georgetown Waterfront Park <strong>24 小时开放</strong>。C&amp;O Canal 纤道无固定闭园钟点，但 <strong>Georgetown 段 Mile 0.4–1 有施工绕行、Level 1 北墙坍塌点周边封闭</strong>，绕行路线走相邻街道与巷子，多绕 0.3 英里以内。NPS 现况页显示 Georgetown Visitor Center 为「Open」，<strong>但其具体每日开放钟点未能从官方渠道确认</strong>，需要盖 Passport 章的话请先致电 301-739-4200",
+          "parking": "<strong>不建议开车。</strong>Georgetown 街边咪表周一至周六收费（费率以现场标牌为准，<strong>2026 年具体价格未能核实</strong>）；车库首选 Washington Harbour（3000 K St NW）与 Georgetown Park（3222 M St NW），日间约 $20–30/天量级。Waterfront Center 车库（38.90285, -77.06342）离滨水公园最近",
+          "walk": "Metro <strong>Foggy Bottom–GWU 站（蓝/橙/银线）</strong>步行到滨水公园约 <strong>1.3 公里 / 16 分钟</strong>；<strong>Rosslyn 站</strong>走 Key Bridge 过河约 <strong>1.2 公里 / 15 分钟</strong>，<strong>而且过桥时本身就是拍 Georgetown 天际线的免费机位</strong>。滨水公园东端到 Lock 3 约 700 米 / 9 分钟"
+        },
+        "notes": [
+          "<strong>三脚架：滨水公园与纤道均可自由使用。</strong>NPS 2023 年起的全国摄影规则把三脚架、独脚架、手持灯具归为 handheld equipment，只有进入封闭区、需要独占场地、或搭建布景才需要许可证",
+          "<strong>请务必在出发当天早上再查一次 nps.gov/choh 的 Current Park Conditions 页</strong>——水位、纤道封闭段与绕行路线都在那一页，且会随施工变动",
+          "滨水公园的木质步道与河岸护栏在日落后没有照明死角，人流到 21:00 前都不少；<strong>但 Whitehurst Freeway 高架下与运河纤道夜间光线很差</strong>，独自带器材不建议天黑后走纤道",
+          "公园西端的 labyrinth 是浅色石材铺地，<strong>正午顶光下几乎没有明暗对比，接近不可拍</strong>；要拍它必须等日落前 30 分钟的低角度侧光把石缝勾出来",
+          "Percy Plaza 喷泉是季节性运行，<strong>10 月是否仍开放官方未公布</strong>，不要把它写进必拍清单",
+          "Key Bridge 桥面人行道很窄且紧贴车流，<strong>桥上架三脚架会被 Arlington 一侧的警察劝离</strong>，桥上请手持"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chesapeake_and_Ohio_Canal_panorama.jpg",
+            "cap": "Georgetown 段运河与纤道全景 · APK / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Chesapeake_and_Ohio_Canal_and_Key_Bridge.jpg",
+            "cap": "运河尽头与 Key Bridge · APK / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Georgetown_Waterfront_Park_and_Rosslyn.jpg",
+            "cap": "滨水公园对望 Rosslyn 天际线 · APK / CC BY-SA 4.0"
+          }
+        ]
+      },
+      {
+        "id": "cedar-hill",
+        "n": 6,
+        "name": "Frederick Douglass 故居（Cedar Hill）",
+        "en": "Frederick Douglass National Historic Site (Cedar Hill)",
+        "score": 3.5,
+        "tldr": "免票但室内只能跟游、需 recreation.gov 预约 $1；周日周一闭馆，9:00 开门那一场的城市远眺光线最好。",
+        "tags": [
+          {
+            "t": "免门票",
+            "c": "free"
+          },
+          {
+            "t": "预约费 $1",
+            "c": "paid"
+          },
+          {
+            "t": "室内仅限跟游",
+            "c": "risk"
+          },
+          {
+            "t": "周日周一闭馆",
+            "c": "risk"
+          },
+          {
+            "t": "室内可拍·禁闪光",
+            "c": "good"
+          }
+        ],
+        "highlights": [
+          "Frederick Douglass <strong>1877 年</strong>买下这栋 1850 年代建于山顶的宅子，<strong>当时 Uniontown（今 Anacostia）的地契上带有禁止售予非裔的限制性条款，他的购入直接打破了它</strong>。他把这里命名为 Cedar Hill，住到 <strong>1895 年 2 月 20 日</strong>去世为止。房子共 21 间、山头 51 英尺高、连同园地约 9 英亩",
+          "<strong>屋内约 70% 的陈设是道格拉斯本人或家人的原物</strong>——家具、藏书、画作、个人用品都还在原位，这在美国的历史宅邸里比例极高。<strong>后院还留着他称为「the Growlery」的一间独立小石屋书房</strong>，他用来独处写作",
+          "他去世后由第二任妻子 <strong>Helen Pitts Douglass</strong> 发起保存，与全国有色人种妇女俱乐部联合会共同维系了几十年；<strong>1962 年 9 月 5 日由 Kennedy 签署设立为 Frederick Douglass Home</strong>，1972 年大修后重开，1982 年增建访客中心，<strong>1988 年经国会立法升格为 National Historic Site</strong>",
+          "<strong>山顶视野是这里的摄影核心，方位需要说清楚：从故居门廊看出去，美国国会大厦在方位约 325°（西北偏北）、直线距离约 3.6 公里；Washington Monument 在方位约 304°（西北偏西）、约 5.3 公里。</strong>整片天际线大致落在 300°–330° 这个 30 度的扇形里，<strong>用 200–400mm 压缩才能让国会圆顶在画面中占到有效面积</strong>",
+          "<strong>这是全区唯一「室内必须跟着讲解员走」的点位。</strong>房子只能通过 ranger 导览进入，每场 30 分钟、覆盖一二两层、上限 10 人。<strong>不给自由活动时间，也不允许中途插入</strong>——这直接决定了你的室内拍摄策略"
+        ],
+        "photo": "人文 <strong>4/5</strong>，风光 <strong>3.5/5</strong>，建筑 <strong>3.5/5</strong>。室内原物密度极高且明确允许拍摄，是本区唯一的历史室内题材；扣分是 30 分钟跟游节奏、禁背包、以及 17:00 闭园导致拍不到山顶的日落与蓝调。",
+        "shots": [
+          {
+            "name": "山顶门廊向西北眺望国会大厦",
+            "desc": "<strong>本条目的招牌机位，而且最佳时段被开门时间锁死了。</strong>视线朝西北（国会 325°、方尖碑 304°），<strong>意味着市中心那些朝东南的立面正对着你</strong>——要让它们受正面光，太阳必须在东到东南，也就是<strong>上午</strong>。<strong>访客中心 9:00 开门，此时太阳方位约 110–125°、高度角 15–20°，正是暖色低角度正面光，这就是全天最好的时刻，没有第二个。</strong><strong>所以请订 9:00 那一场</strong>：先在山顶拍城市，再进屋。<strong>17:00 闭园，日落是 19:02（9/25）／18:21（10/22），山顶的日落与蓝调你拍不到，别做计划。</strong><strong>200–400mm 是必需的</strong>（3.6 公里外的圆顶用 70mm 只有一个小疙瘩）；<strong>秋季清晨的低层霾是最大敌人</strong>，冷锋过境后的第一个晴天能见度最好。门廊与草坪上可以架三脚架。",
+            "park": [
+              38.86362,
+              -76.98451
+            ],
+            "view": [
+              38.86276,
+              -76.9851
+            ]
+          },
+          {
+            "name": "故居正立面与门廊",
+            "desc": "白色木构、带柱廊、坐在 51 英尺高的坡顶上。<strong>正立面朝西北，与山顶视野同向，因此正立面在上午处于背光、在下午才被正打。</strong>两种都能用：<strong>上午（9:00–10:30）拍逆光轮廓加天空，配合 85 级台阶做前景，强调「山上的房子」这个概念</strong>；<strong>下午（15:00–16:45）正面受光，白色木板墙细节最完整</strong>，而 15:00 与 15:30 场次正好落在这个窗口。<strong>24–35mm 从台阶中段仰拍</strong>，让门廊柱列与山坡的坡度一起进画。不要走进花圃，园地是历史景观的一部分。",
+            "view": [
+              38.86276,
+              -76.9851
+            ]
+          },
+          {
+            "name": "室内导览中的书房与陈设",
+            "desc": "<strong>官方规则原文：「Photography is permitted, but the flash must be off to protect light-sensitive objects.」——可以拍，但必须关闪光。</strong><strong>真正的限制是另一条：婴儿车、手提袋、背包与其他大件包一律不得带进屋。</strong>意味着<strong>你只能带一机一镜进去，其余留车上或访客中心</strong>——请提前决定好那支镜头。<strong>推荐 24mm 或 35mm 的 f/1.4–f/1.8 定焦</strong>：房间小、只能站在地毯走道上、不能踏木地板，广角加大光圈是唯一解。ISO 3200–6400 打底，1/60 秒以上，机身防抖全开。<strong>30 分钟走完两层，平均每个房间不到 3 分钟</strong>，进屋前想好「书房的书桌、客厅的钢琴、卧室的窗光」这三张，到位就按，不要现场构思。",
+            "view": [
+              38.86276,
+              -76.9851
+            ]
+          }
+        ],
+        "access": {
+          "book": "<strong>房屋内部只能通过 ranger 导览进入。</strong>官方强烈建议预约：<strong>recreation.gov（Facility 234636）或电话 1-877-444-6777</strong>，<strong>每张票收 $1 不可退的预约服务费，最晚需提前一天预约，最早可提前 6 个月</strong>。未被预约掉的余票在访客中心免费先到先得，<strong>但热门时段经常提前很久就订满</strong>。11 人以上团体必须预约（1-877-559-6777，提前至少一周，同样 $1/人，学校团体统一 $10）",
+          "ticket": "<strong>免门票、免入园费</strong>。唯一的钱是 $1/张的网上预约服务费",
+          "hours": "<strong>房屋导览仅在周二至周六进行</strong>（<strong>即周日与周一无法进屋</strong>）。标准场次：<strong>9:00、12:15、13:15、15:00、15:30，以及仅 4–10 月加开的 16:00 场</strong>，每场 30 分钟、上限 10 人。<strong>另有每天 11:30 的一场 Grounds Tour（户外，15–20 人）</strong>。访客中心 <strong>4–10 月 9:00–17:00</strong>（11–3 月 9:00–16:30）。<strong>提醒：NPS 导览页最后更新于 2025 年 8 月，2024 年曾因人手不足一度缩到每周只开三天，2026 年秋是否仍为周二至周六未能确认，出发前请致电 771-208-1499</strong>",
+          "parking": "<strong>场内有免费停车场</strong>，位于 W Street SE 与 15th Street SE 交口，就在访客中心门口。车位不多但通常够用；停满可停周边住宅街道，<strong>但要看清居民许可时段标牌</strong>。行动不便者可先到访客中心告知 ranger，获准后直接把车开上山顶（山顶有两个无障碍车位）",
+          "walk": "<strong>Metro 绿线 Anacostia 站</strong>，从「Howard Road / Buses」出口出站，右转 Howard Road 走一个街区、左转 Martin Luther King Jr. Avenue 走三个街区、右转 W Street 走四个街区到访客中心，<strong>全程约 1.2 公里 / 15 分钟</strong>，<strong>路线全在有商铺的主干道上</strong>。<strong>更省事的是从 Anacostia 站换 B2 或 V2 路公交，站点就在门口的 W &amp; 14th Street</strong>。停车场到访客中心 30 米；<strong>访客中心到山顶故居要爬 85 级台阶，或走无障碍坡道，约 3–5 分钟</strong>"
+        },
+        "notes": [
+          "<strong>三脚架（已逐项核实）：户外的园地与山顶可以用。</strong>National Capital Parks-East 的 2026 年 Superintendent's Compendium 把三脚架、独脚架与手持灯具明确归为 handheld equipment，只有进入封闭区、独占场地或搭建布景才需许可。<strong>室内则因为禁带大件包、30 分钟跟游、且只能站在地毯上，实务上完全不可能架设</strong>",
+          "<strong>关于 Anacostia 的实用建议（只讲操作，不讲刻板印象）：</strong>这里的报案犯罪率高于 DC 西北部，但故居本身有 NPS 工作人员常驻、免费停车场就在门口 30 米、且<strong>全年 17:00 就闭园，你不会在天黑后还留在附近</strong>。<strong>最省心的方案是开车直接停场内，或搭 B2/V2 在门口下车</strong>；走地铁那 15 分钟全程在 MLK Jr. Avenue 与 W Street 这两条有店面的主街上，白天走没问题",
+          "<strong>器材上的建议是「少而精」而不是「藏起来」：</strong>带一机一镜（反正室内也不许背包），把长焦在山顶用完就收进车里，不要在街上边走边换镜头。这条对任何城市都适用，在这里只是更值得执行",
+          "<strong>必须提前 30 分钟到访客中心取票</strong>（9:00 那场除外，因为访客中心 9:00 才开门）。<strong>导览一旦进屋就不能再加人</strong>，迟到即失效，且团体迟到超过 15 分钟直接作废",
+          "屋内禁止饮食、嚼口香糖与吸烟；<strong>必须全程走在地毯走道上，不能踩到木地板</strong>；<strong>故居内没有洗手间</strong>，上山前先在访客中心解决",
+          "访客中心有一部 19 分钟的影片《Fighter for Freedom: The Frederick Douglass Story》，<strong>提前 30 分钟到的时间正好够看完</strong>，看了再进屋，导览的信息密度会高很多"
+        ],
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Frederick_Douglass%27_House.jpg",
+            "cap": "Cedar Hill 故居正立面 · Peter Fitzgerald / CC BY-SA 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Frederick_douglass_house.jpg",
+            "cap": "山顶故居与前坡草地 · Aude / CC BY-SA 2.5"
           }
         ]
       }
