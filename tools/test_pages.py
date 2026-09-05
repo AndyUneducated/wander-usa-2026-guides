@@ -145,6 +145,11 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
 
     print(f'\n{"=" * 62}\n  {label}  视口 {viewport["width"]}x{viewport["height"]}\n{"=" * 62}')
 
+    # 每个地区页的图片加起来约 50–60 MB。本地是文件读取，线上要真的过网络，
+    # 而下面又刻意把所有图片改成 eager 一次性拉完，所以线上必须给足时间。
+    remote = not base.startswith('http://127.0.0.1')
+    img_timeout = 300_000 if remote else 60_000
+
     with sync_playwright() as p:
         browser = p.chromium.launch()
         for page_path in PAGES:
@@ -161,7 +166,10 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
             page.on('requestfailed',
                     lambda r: failed_req.append(f'{r.method} {r.url} — {r.failure}'))
 
-            resp = page.goto(url, wait_until='load', timeout=45000)
+            # 只等 DOM 就绪，不等 load。'load' 会连视口内的图片一起等，线上
+            # 那是几十 MB，45 秒根本不够，会把「页面打不开」的假失败报出来。
+            # 图片有下面的显式等待兜底，这里不需要重复等。
+            resp = page.goto(url, wait_until='domcontentloaded', timeout=90000)
             status = resp.status if resp else 0
             if status != 200:
                 fails.append(f'{label} {name}: HTTP {status}')
@@ -190,7 +198,7 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
             try:
                 page.wait_for_function(
                     'Array.from(document.images).every(i => i.complete)',
-                    timeout=60000)
+                    timeout=img_timeout)
             except Exception:
                 pending = page.evaluate(
                     'Array.from(document.images).filter(i=>!i.complete).length')

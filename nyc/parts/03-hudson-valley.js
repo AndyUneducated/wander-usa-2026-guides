@@ -958,8 +958,13 @@ module.exports = {
         hours: '<strong>周三至周一 10:00–18:00，周二闭园，最晚入场 17:00。'
           + '10 月的周六与周日提前至 09:00 开门。</strong>'
           + '会员可于开放日 09:30 起入园。'
-          + '<strong>2026 季度：4 月 1 日开季、11 月 29 日季末闭园</strong>；'
-          + '感恩节闭园，Indigenous Peoples\u2019 Day 与 Veterans Day 正常开放',
+          + '（以上四项已于 2026 年 9 月 5 日在 stormking.org/visit 与首页 Fall Hours 表逐条核对，全部一致。）'
+          + '<strong>2026 季度 4 月 1 日开季；季末日期官网 Plan Your Visit 页并未公布，'
+          + '但官方活动日历把每日导览一直排到 11 月 30 日为止，所以 11 月底闭园、10 月中完全在季内是确定的' +
+          '（具体季末日未能从官方渠道确认）</strong>；'
+          + '感恩节闭园，Indigenous Peoples\u2019 Day 与 Veterans Day 正常开放。'
+          + '<strong>另注意官网 Tickets 页在非秋季给出「周六 10:00–20:00、末次入场 19:00」的延长时段，'
+          + '与十月的 Fall Hours（周六周日 09:00–18:00）不是同一套，十月适用后者</strong>',
         parking: '<strong>门票含园内停车</strong>，访客入口为 20 Old Pleasant Hill Road, New Windsor。'
           + '<strong>无法容纳超出标准车位尺寸的车辆。</strong>'
           + '无车方案：Metro-North 到 Beacon 站后打车约 30 分钟；'
@@ -1374,11 +1379,14 @@ module.exports = {
         hours: '<strong>Sleepy Hollow Cemetery：周一至周五 08:00–16:30，周六周日 08:30–16:30，'
           + '16:30 后不得入园</strong>。'
           + '<strong>Lyndhurst：庭园 4 月至 12 月每日开放</strong>，'
-          + '官网 Plan Your Visit 页写 09:30–16:30、Daily Grounds Pass 页写 09:30–17:00 最晚入场 16:00、'
-          + 'Hours 页写 09:00–17:00，<strong>三处口径不一致，建议出发前致电 914-631-4481 确认</strong>；'
-          + '<strong>宅邸导览 2026 年 Fall Classic Mansion Tour 为 9 月 24 日–11 月 1 日每日开放，'
-          + '10:00–16:00、每半点一场</strong>，'
-          + '<strong>11 月整月停止导览</strong>，平时周二与周三闭馆',
+          + '官网 Plan Your Visit 页现行口径为 <strong>09:30–16:30</strong>，'
+          + '但 Daily Grounds Pass 页写 09:30–17:00 最晚入场 16:00、Hours 页写 09:00–17:00，'
+          + '<strong>三处口径不一致，以 Plan Your Visit 页为准，出发前致电 914-631-4481 确认</strong>；'
+          + '<strong>导览时段已按官网核实：4 月至 9 月中旬每周 6 天，'
+          + '9 月底至 10 月底改为每周 7 天、10:00–16:00（Fall Classic Mansion Tour 每半点一场），'
+          + '11 月整月停止导览，感恩节前的周日起恢复每周 6 天到 12 月底</strong>。'
+          + '<strong>→ 也就是说十月里 Lyndhurst 天天都有导览，没有每周闭馆日；'
+          + '需要留意的是非秋季那段每周休一天，从票务电话时段（周四至周二）推断休的是周三</strong>',
         parking: 'Sleepy Hollow Cemetery 两个车行入口附近各有小型停车区，'
           + '<strong>园内可开车但限速 10 mph，禁止停在草地与墓上</strong>。'
           + 'Lyndhurst 园内停车免费但<strong>必须持宅邸票或 Grounds Pass</strong>，'
@@ -1417,6 +1425,14 @@ module.exports = {
           + '10 月 2 与 4 日 18:30–20:00、10 月 3 与 9–11 与 16–18 日 18:30–21:00、'
           + '10 月 23–25 与 30–31 日 18:00–21:00，$25–$35，同样只预售）。'
           + '<strong>Horseman\u2019s Hollow 是否仍然举办，未能从官方渠道确认</strong>',
+        '<strong>如果你想顺路加一处 Historic Hudson Valley 的白天参观，先看清十月的开放日，'
+          + '它和一般直觉正好相反：Philipsburg Manor 十月只开周一、周三、周四（10/5–10/29），'
+          + '周五到周日不开；Washington Irving\u2019s Sunnyside 的白天导览 9 月 20 日之后就停到 11 月 6 日才恢复，'
+          + '整个十月没有白天场。</strong>'
+          + '<strong>换句话说，周末来 Sleepy Hollow 这一带，两处都进不去，能拍的只有 Old Dutch Church、'
+          + '墓园与 Lyndhurst。</strong>'
+          + '<strong>同区的 Kykuit 更彻底：Rockefeller Brothers Fund 已宣布公众导览「on hiatus for the 2026 season」，'
+          + '2027 年才恢复，2026 全年拍不到</strong>',
         '<strong>万圣节活动对白天拍摄的实际影响有限但不为零。</strong>'
           + 'Blaze 与 Twilight Village 都是夜场（18:00 以后），'
           + '而墓园 16:30 就清场，两者在时间上并不冲突。'
