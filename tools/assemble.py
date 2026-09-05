@@ -65,6 +65,16 @@ def build(region: str) -> int:
     if not parts:
         sys.exit(f'{region}/parts 下没有片段文件')
 
+    # 研究员会先落一个只有骨架、spots 为空的文件占位，再逐步补内容。
+    # 这种半成品不该进 data.js，否则页面上会出现一个没有景点的空子地区。
+    skeletons = [p['__file'] for p in parts if not (p.get('spots') or [])]
+    parts = [p for p in parts if p.get('spots')]
+    if skeletons:
+        print(f'\n  跳过 {len(skeletons)} 个尚无景点的骨架片段（研究进行中）：'
+              + '、'.join(skeletons))
+    if not parts:
+        sys.exit(f'{region}/parts 下还没有含景点的片段')
+
     seen_spot_ids: dict[str, str] = {}
     seen_region_ids: set[str] = set()
     warnings: list[str] = []
