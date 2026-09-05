@@ -52,8 +52,144 @@ var REGIONS = [
     ],
     spots: [
       {
-        id: 'ragged-point',
+        id: 'pfeiffer-beach',
         n: 1,
+        name: 'Pfeiffer 海滩（钥匙孔石拱）',
+        en: 'Pfeiffer Beach · Keyhole Arch',
+        score: 4,
+        tldr: '9/3 起重新可达：森林封闭令把这里明文列为例外，Hwy 1 北段也已解封。但 9 月拍不到让它出名的穿孔日落。',
+        tags: [{ t: '9/3 起可达', c: 'free' }, { t: '需从北侧进出', c: 'risk' }, { t: '9 月无穿孔日落', c: 'risk' }, { t: '$15/车', c: 'paid' }],
+        highlights: [
+          '紫色沙滩配海蚀拱门，<strong>Keyhole Arch 的穿孔日落</strong>是 Big Sur 最著名的摄影题材之一——但那个现象只在<strong>每年 12 月至次年 1 月</strong>前后出现，9 月太阳方位角偏北，光线不会穿过拱洞',
+          '<strong>这里的紫色沙是真的</strong>：上游锰榴石（manganese garnet）风化后沉积在滩面，雨后与浪线附近颜色最明显，是加州少有的地质题材',
+          '即便没有穿孔光，礁岩群本身的形态、退浪拉丝与逆光水雾仍然成立，是一处扎实的海岸长曝光机位',
+          '<strong>2026 年 9 月的特殊状态</strong>：Los Padres 国家森林的紧急封闭令 <strong>Forest Order 05-07-51-26-10</strong> 标题即写明「EXCEPT PFEIFFER BEACH AND SYCAMORE CANYON ROAD」，把这里明文排除在封闭之外；配合 Hwy 1 北段于 <strong>9 月 3 日 6:00 解封至 PM45</strong>，从 Carmel / Monterey 方向南下可以正常抵达'
+        ],
+        photo: '风光 <strong>4/5</strong>，人像 <strong>3/5</strong>，人文 <strong>1.5/5</strong>。扣分不在于景观，而在于时令——让这里封神的那张照片是冬至前后的现象，9 月只能拍常规海景与礁石。',
+        shots: [
+          {
+            name: 'Keyhole Arch 正对沙滩（主机位）',
+            park: [36.238100, -121.815500],
+            view: [36.239371, -121.818018],
+            desc: '沿 Sycamore Canyon Road 开到尽头停车场后步行下滩。<strong>日落前 40 分钟至日落（约 18:35–19:20）</strong>光线最好。16–35mm 拍拱门与礁岩群全景，70–200mm 单独压缩拱洞。<strong>建议带 ND 与偏振镜，1–4 秒慢门拍退浪拉丝</strong>，让水流从画面下缘的礁石间抽走形成引导线。9 月太阳落点偏拱洞北侧，别等穿孔。'
+          },
+          {
+            name: '滩北端紫沙带',
+            view: [36.240100, -121.817200],
+            desc: '退潮后沿滩向北走，注意脚下颜色偏紫红的细沙层。<strong>35–50mm 或 100mm 微距</strong>贴地拍紫沙与常规石英砂的分界，或把紫沙作为前景、拱门虚化在后。阴天与雨后颜色最饱和，正午顶光下反而看不出来。'
+          }
+        ],
+        access: {
+          book: '不需预约',
+          ticket: '<strong>$15/车</strong>（Los Padres National Forest 日间使用费）',
+          hours: '日间使用区通常 09:00 至日落，<strong>日落后闸门上锁</strong>——拍完日落要立刻走，别拖到蓝调',
+          parking: '尽头的日间使用区停车场，<strong>车位极少且不接受大车与拖挂</strong>。Sycamore Canyon Road 为狭窄单车道，会车困难',
+          walk: '停车场到沙滩约 <strong>200 米 / 3 分钟</strong>，短且平缓'
+        },
+        notes: [
+          '<strong>2026 年 9 月的通行前提：只能从北侧（Carmel / Monterey 方向）南下抵达，不能南北贯通。</strong>Hwy 1 南段（县界 PM0 至 Kirk Creek 一带）因 Plaskett Fire 仍然封闭，无 pilot car、无限时通行、无预计重开时间',
+          '<strong>Forest Order 5-07-51-25-02 规定：Sycamore Canyon Road 从 Hwy 1 路口起向西约 2.5 英里必须待在机动车内，禁止步行。</strong>也就是不能把车停在 Hwy 1 路边走进去，必须开车进入',
+          '<strong>Plaskett Fire 至今控制率仅 1%</strong>，面积在 8/30 至 9/2 两天内从 15,479 英亩涨到 28,968 英亩。这条封闭令在两场火「declared out」之前不会解除，而封闭范围随时可能再变——<strong>出发当天务必复查 Caltrans 实时路况与 Los Padres 森林封闭令</strong>',
+          '北段解封本身也不是永久保证：这条路在 8 月就有过解封后又因火势重新封闭的先例',
+          '若从 Carmel 南下，注意 <strong>Rocky Creek Bridge（Monterey 以南 15.7 英里）24 小时单向交通管制，持续到 2026 年 11 月 30 日</strong>，会产生等待，日落时段的时间预算要留余量',
+          '如果将来专程为穿孔日落再访，请安排在 <strong>12 月中至 1 月中</strong>，且需要低潮加晴朗天空同时满足'
+        ],
+        images: [
+          { url: 'assets/img/pfeiffer-beach-ii-19295487233-11703d13.jpg', cap: 'Pfeiffer 海滩礁岩与浪 · Wikimedia Commons / CC BY-SA 2.0' },
+          { url: 'assets/img/pfeiffer-beach-keyhole-arch-panoramio-055368a1.jpg', cap: 'Keyhole Arch 钥匙孔石拱 · panoramio / CC BY 3.0' },
+          { url: 'assets/img/pfeiffer-beach-at-dusk-unsplash-0c30b48f.jpg', cap: 'Pfeiffer Beach 暮色 · Unsplash / CC0' }
+        ]
+      },
+      {
+        id: 'mcway-falls',
+        n: 2,
+        gone: '本次无法抵达',
+        name: 'McWay 瀑布',
+        en: 'McWay Falls, Julia Pfeiffer Burns SP',
+        score: 5,
+        tldr: '9/3 起道路已能开到公园门口，但公园本身仍关闭至另行通知；且观景步道自 2024 年 11 月起就已长期封闭。',
+        tags: [{ t: '公园关闭', c: 'risk' }, { t: '步道长期封闭', c: 'risk' }, { t: '无解封时间表', c: 'risk' }],
+        highlights: [
+          '80 英尺高的瀑布直落海滩，是加州仅有的几条「潮汐瀑布」之一，也是整条 Big Sur 海岸最著名的单一画面',
+          '<strong>不可达的理由在 9/3 变了：现在不是路的问题，是公园自己关着。</strong>Hwy 1 北段已于 9 月 3 日 6:00 解封至 PM45，车能开到公园门口；但 California State Parks 于 <strong>8 月 28 日发布的「CLOSURE OF BIG SUR STATE PARKS」公告仍然有效</strong>，Julia Pfeiffer Burns 与另外四座州立公园一并关闭至另行通知',
+          '<strong>即便公园突然重开，经典机位也未必能拍到</strong>：通往观景点的 Overlook Trail 在火灾之前就已长期关闭（自 2024 年 11 月起即无 McWay Falls 通道）。围栏之外的悬崖、沙滩、Saddle Rock 与瀑布区域一律禁入，违规可被引用甚至逮捕'
+        ],
+        photo: '正常年份是 5/5 的顶级风光题材。<strong>但本次行程为 0——公园关闭，且观景步道本身已封闭近两年。</strong>',
+        shots: [
+          {
+            name: 'Overlook Trail（当前关闭）',
+            view: [36.157821, -121.672396],
+            desc: '正常情况下从 Hwy 1 路边停车场穿隧道即到，往返约 0.6 英里。<strong>目前全园关闭。</strong>',
+            at: [36.15780, -121.67080]
+          }
+        ],
+        access: {
+          book: '—',
+          ticket: '正常年份 $10/车日间使用费',
+          hours: '<strong>因山火全园关闭，无解封时间表</strong>',
+          parking: '不可进入',
+          walk: '不可进入',
+        },
+        notes: [
+          '<strong>双重阻断</strong>：一是公园本身因火关闭，二是 Hwy 1 在 Pacific Valley（MM16）至县界（MM0.09）封闭，即便公园开放，从 San Simeon 方向也上不去',
+          '若你从 Monterey 方向单独进入是另一条路线，但那与本次「由北向南贯通」的行程不兼容',
+          '出发当天可复查 <a href="https://roads.dot.ca.gov/" target="_blank" rel="noopener">Caltrans 路况</a>，但按目前控制率（1%）预期解封的可能性很低'
+        ],
+        images: [
+          { url: 'assets/img/mcway-falls-1-unsplash-e88c60c2.jpg', cap: 'McWay 瀑布与海湾全景 · Unsplash / CC0' },
+          { url: 'assets/img/mcway-falls-big-sur-may-2011-001-cd67ff7a.jpg', cap: 'McWay Falls 竖构图 · Wikimedia Commons / CC BY-SA 3.0' },
+          { url: 'assets/img/2016-06-03-usa-ca-mcway-cove-dsc-8734-dxo-1-4a2ddc4d.jpg', cap: 'McWay Cove 海湾全景 · Wikimedia Commons / CC BY 4.0' }
+        ]
+      },
+      {
+        id: 'sand-dollar-jade',
+        n: 3,
+        gone: '本次无法抵达',
+        name: '沙钱海滩 / 翡翠湾 / 柳溪观景点',
+        en: 'Sand Dollar Beach · Jade Cove · Willow Creek Vista',
+        score: 4,
+        tldr: '双重封锁：既在 Hwy 1 仍封闭的南段内，又被森林封闭令逐条点名。可以确定地排除，无需再抱期望。',
+        tags: [{ t: 'Hwy 1 封闭段内', c: 'risk' }, { t: '森林封闭令点名', c: 'risk' }, { t: '无到期日', c: 'risk' }],
+        highlights: [
+          '<strong>Sand Dollar Beach</strong> 是 Big Sur 最长的沙滩；<strong>Jade Cove</strong> 以海滩上可捡到的蛇纹石玉著称；<strong>Willow Creek Vista</strong> 是俯瞰河口的路边观景台',
+          '三处沿 Hwy 1 相邻分布，正常情况下可一次串联，<strong>已合并为一条</strong>',
+          '<strong>Plaskett Creek 与 Gorda 就在同一路段，同样不可达</strong>'
+        ],
+        photo: '<strong>本次为 0。</strong>这一段正是 Plaskett Fire 得名的位置，是整场火最核心的区域。',
+        shots: [
+          {
+            name: 'Sand Dollar Beach（当前不可达）',
+            view: [35.923925, -121.469841],
+            desc: 'Hwy 1 西侧停车场下切至沙滩。<strong>位于封闭段内。</strong>',
+            at: [35.92180, -121.46400]
+          },
+          {
+            name: 'Jade Cove（当前不可达）',
+            view: [35.913777, -121.470412],
+            desc: '路边停车后翻栅栏下陡坡。<strong>位于封闭段内。</strong>',
+            at: [35.91470, -121.46000]
+          }
+        ],
+        access: {
+          book: '—',
+          ticket: '正常年份 Sand Dollar $10/车，Jade Cove 免费',
+          hours: '<strong>Hwy 1 封闭：Pacific Valley（MM16）至 Monterey/SLO 县界（MM0.09），无解封时间表</strong>',
+          parking: '不可进入',
+          walk: '不可进入',
+        },
+        notes: [
+          '<strong>Plaskett Fire 已烧 29,123 英亩、控制率仅 1%</strong>，这一段短期内不具备开放条件',
+          '这三处的替代方案：<strong>Montaña de Oro</strong> 的岩石海岸与潮池题材最接近，且完全免费、烟雾影响小'
+        ],
+        images: [
+          { url: 'assets/img/jade-cove-big-sur-california-cdb74d17.jpg', cap: 'Jade Cove 翡翠湾 · Wikimedia Commons / CC BY 2.0' },
+          { url: 'assets/img/route-1-big-sur-coast-highway-sand-dollar-picnic-area-and-be-88755fd4.jpg', cap: 'Sand Dollar 海滩与 Hwy 1 · NARA / Public domain' },
+          { url: 'assets/img/willow-creek-road-big-sur-25785902100-5d230abd.jpg', cap: 'Willow Creek 与 Hwy 1 桥 · Wikimedia Commons / CC BY-SA 2.0' }
+        ]
+      },
+      {
+        id: 'ragged-point',
+        n: 4,
         name: '拉格德角（含崖下 Young Creek Beach）',
         en: 'Ragged Point · Young Creek Beach',
         score: 4,
@@ -115,8 +251,66 @@ var REGIONS = [
         ]
       },
       {
+        id: 'daou',
+        n: 5,
+        name: 'DAOU 酒庄',
+        en: 'DAOU Vineyards, Paso Robles',
+        score: 4,
+        tldr: '这条线上唯一的高质量建筑题材，也是最佳人像点；但必须提前预约，且 17:00 关门拍不到日落。',
+        tags: [{ t: '必须预约', c: 'book' }, { t: '$50 起／人', c: 'paid' }, { t: '拍不到日落', c: 'risk' }, { t: '顺路', c: 'free' }],
+        highlights: [
+          '<strong>DAOU Mountain 海拔 2,200 英尺，是加州中央海岸海拔最高的酒庄</strong>，山坡坡度可达 56%，从海岸山脉中戏剧性拔起',
+          '<strong>西班牙殖民／教会风格</strong>白色建筑群，钟塔上挂着一口 <strong>1740 年的西班牙修道院铜钟</strong>，' +
+            '入口有 EST 2007 锻铁拱门，外围是大片薰衣草田与俯瞰葡萄园的大露台',
+          '因 Hwy 1 封闭、绕行必经 Paso Robles，<strong>这里从「绕远点」变成了「顺路点」</strong>'
+        ],
+        photo: '建筑 <strong>5/5</strong>，人像 <strong>5/5</strong>，风光 <strong>4/5</strong>。' +
+          '西班牙殖民风格白墙加钟塔加锻铁拱门加 1740 年古钟加薰衣草前景，元素完整且有主题性。' +
+          '白墙、钟塔、拱门、薰衣草、露台、无尽山景——这是整条线上最适合人像与打卡的地点，且环境舒适（有座位、餐食、洗手间）。',
+        shots: [
+          {
+            name: '入口锻铁拱门（EST 2007）+ 薰衣草田',
+            desc: '抵达时必拍。薰衣草做前景，拱门做框架。24–70mm；35mm 拍环境人像。',
+            park: [35.64140, -120.78430],
+            view: [35.64140, -120.78430]
+          },
+          {
+            name: '钟塔 + 白色主建筑立面',
+            desc: '最佳时段 <strong>上午 10:00–11:30</strong>，光线最柔且人最少。24–70mm，广角端注意梯形畸变，' +
+              '建议移轴或后期校正。塔有门禁，能否登塔请现场询问。',
+            view: [35.64140, -120.78430]
+          },
+          {
+            name: '大露台 / 庭院俯瞰葡萄园与海岸山脉',
+            desc: '本地点的风光机位。受营业时间限制，<strong>最佳可用时段是 16:00–17:00</strong>（闭店前一小时，光线开始转暖）。' +
+              '<strong>70–200mm 压缩山脉层次是这里的正解</strong>，24–70mm 拍露台环境。',
+            view: [35.64140, -120.78430]
+          }
+        ],
+        access: {
+          book: '<strong>强制要求。</strong>官方原文：每一张桌子都需预订，即便吧台也不保证 walk-in。工作日多数时段可当天约；<strong>周末需提前 2–4 周</strong>',
+          ticket: 'Discover DAOU（60 分钟）<strong>$50/人</strong>；The Estate Experience（90 分钟）$95–110/人；Patrimony Immersion（2.5 小时，仅周一至周四）$275/人',
+          hours: '<strong>每日 10:00–17:00，仅接受预约</strong>',
+          parking: '山上停车位有限，<strong>仅供已确认预约的客人</strong>。入口 Kiosk 有工作人员核验后分配上下层停车场——<strong>不要越过 Kiosk 自行开进去</strong>',
+          walk: '<strong>1–3 分钟</strong>，建筑群内步行',
+        },
+        notes: [
+          '<strong>17:00 关门，而 9 月 Paso Robles 日落约 19:20——你无法在正常预约中拍到日落</strong>，甚至拍不到完整暮金光。旧游记说这里日落极佳，那是营业时间更晚的时期',
+          '应对方案：把 DAOU 定位为白天的建筑人文加高位风光点，日落另找 Cambria 或 Montaña de Oro；或预约当日最后一档（约 15:30–16:00 入场）拿到开始转暖的光',
+          '<strong>你的行程含劳工节长周末，9/5–7 的档位现在很可能已满，请立刻预订，或安排在 9/8、9/9</strong>',
+          '酒庄建议订上午场避热（多数座位在户外，海拔 2,200 英尺）',
+          '<strong>品酒涉及饮酒，Hidden Mountain Road 是多弯盘山路，请安排不饮酒的驾驶员</strong>',
+          '所有预约均为品酒 flight，不是单杯或单瓶',
+          'Plaskett Fire 正向东烧入 Fort Hunter Liggett，Paso Robles 在其东南方向，需留意空气质量'
+        ],
+        images: [
+          { url: 'assets/img/daou-winery-view-paso-robles-e2a92da7.jpg', cap: 'DAOU 露台视角俯瞰葡萄园 · SD Dirk / CC BY 2.0' },
+          { url: 'assets/img/daou-vineyards-paso-robles-california-usa-feb-2012-0be8a8bf.jpg', cap: 'DAOU 葡萄园宽幅全景 · SD Dirk / CC BY 2.0' }
+        ]
+      },
+      {
         id: 'moonstone',
-        n: 2,
+        n: 6,
         name: '月光石海滩',
         en: 'Moonstone Beach, Cambria',
         score: 5,
@@ -177,7 +371,7 @@ var REGIONS = [
       },
       {
         id: 'green-valley',
-        n: 3,
+        n: 7,
         name: '绿谷观景点',
         en: 'Green Valley Viewing Point, CA-46',
         score: 3,
@@ -237,7 +431,7 @@ var REGIONS = [
       },
       {
         id: 'montana-de-oro',
-        n: 4,
+        n: 8,
         name: '黄金山州立公园（Spooner\u2019s Cove + Bluff Trail）',
         en: 'Montaña de Oro State Park, Los Osos',
         score: 5,
@@ -306,66 +500,69 @@ var REGIONS = [
         ]
       },
       {
-        id: 'daou',
-        n: 5,
-        name: 'DAOU 酒庄',
-        en: 'DAOU Vineyards, Paso Robles',
-        score: 4,
-        tldr: '这条线上唯一的高质量建筑题材，也是最佳人像点；但必须提前预约，且 17:00 关门拍不到日落。',
-        tags: [{ t: '必须预约', c: 'book' }, { t: '$50 起／人', c: 'paid' }, { t: '拍不到日落', c: 'risk' }, { t: '顺路', c: 'free' }],
+        id: 'oceano-dunes',
+        n: 9,
+        name: '奥西亚诺沙丘访客中心 + Pismo 栈桥',
+        en: 'Oceano Dunes Visitor Center · Pismo Beach Pier',
+        score: 3,
+        tldr: '步行进沙滩完全免费不需通行证；Edward Weston 1936 年就在这片沙丘拍出摄影史经典。Pismo 栈桥是可靠的日落备案。',
+        tags: [{ t: '步行免费', c: 'free' }, { t: '中心周日周一闭馆', c: 'risk' }, { t: '烟雾影响最小', c: 'free' }],
         highlights: [
-          '<strong>DAOU Mountain 海拔 2,200 英尺，是加州中央海岸海拔最高的酒庄</strong>，山坡坡度可达 56%，从海岸山脉中戏剧性拔起',
-          '<strong>西班牙殖民／教会风格</strong>白色建筑群，钟塔上挂着一口 <strong>1740 年的西班牙修道院铜钟</strong>，' +
-            '入口有 EST 2007 锻铁拱门，外围是大片薰衣草田与俯瞰葡萄园的大露台',
-          '因 Hwy 1 封闭、绕行必经 Paso Robles，<strong>这里从「绕远点」变成了「顺路点」</strong>'
+          '访客中心只是个小型解说站，真正价值在周边沙丘与海滩。' +
+            '<strong>Edward Weston 1936 年就在这片沙丘拍出了 20 世纪现代主义摄影的里程碑之作</strong>——' +
+            '对摄影史有兴趣的话，站在 Weston 拍过的沙丘上本身就是这一站的意义',
+          '<strong>Pismo Beach Pier</strong> 在北侧约 3 英里，是本区最可靠的日落加建筑结构机位'
         ],
-        photo: '建筑 <strong>5/5</strong>，人像 <strong>5/5</strong>，风光 <strong>4/5</strong>。' +
-          '西班牙殖民风格白墙加钟塔加锻铁拱门加 1740 年古钟加薰衣草前景，元素完整且有主题性。' +
-          '白墙、钟塔、拱门、薰衣草、露台、无尽山景——这是整条线上最适合人像与打卡的地点，且环境舒适（有座位、餐食、洗手间）。',
+        photo: '风光 <strong>4/5</strong>，人像 <strong>3/5</strong>，建筑 <strong>2/5</strong>。' +
+          '沙丘加正西海滩加免费步行进入。<strong>但这里是全加州唯一允许机动车上沙滩的州立公园之一</strong>，' +
+          '越野车会严重干扰画面纯净度和沙面完整性。<strong>关键技巧：往 Pier Avenue 以北走，那一侧非越野区，沙面干净。</strong>',
         shots: [
           {
-            name: '入口锻铁拱门（EST 2007）+ 薰衣草田',
-            desc: '抵达时必拍。薰衣草做前景，拱门做框架。24–70mm；35mm 拍环境人像。',
-            park: [35.64140, -120.78430],
-            view: [35.64140, -120.78430]
+            name: 'Pier Avenue 尽头沙滩，向北走（主机位）',
+            desc: '<strong>关键</strong>：Post 2 位于 Pier Avenue 以南 1 英里，是越野区起点。<strong>往北走等于无车、干净沙面。</strong>' +
+              '最佳时段日落前 1 小时至暮光（18:20–19:45）。16–35mm 拍沙纹前景加落日，70–200mm 拍沙脊层次。' +
+              '<strong>步行进入免费，不需要车辆通行证。</strong>',
+            park: [35.10670, -120.62680],
+            view: [35.10590, -120.63090]
           },
           {
-            name: '钟塔 + 白色主建筑立面',
-            desc: '最佳时段 <strong>上午 10:00–11:30</strong>，光线最柔且人最少。24–70mm，广角端注意梯形畸变，' +
-              '建议移轴或后期校正。塔有门禁，能否登塔请现场询问。',
-            view: [35.64140, -120.78430]
+            name: 'Pismo Beach Pier（日落备案）',
+            park: [35.138974, -120.642746],
+            view: [35.138331, -120.644608],
+            desc: '北侧约 3 英里，车程 8–10 分钟。<strong>栈桥桩柱剪影加落日是经典构图。</strong>' +
+              '时段日落至暮光（19:20–19:45）。24–70mm；慢门 1–4 秒配 ND 拍桩柱周围的水流雾化。',
+            at: [35.13980, -120.64370]
           },
           {
-            name: '大露台 / 庭院俯瞰葡萄园与海岸山脉',
-            desc: '本地点的风光机位。受营业时间限制，<strong>最佳可用时段是 16:00–17:00</strong>（闭店前一小时，光线开始转暖）。' +
-              '<strong>70–200mm 压缩山脉层次是这里的正解</strong>，24–70mm 拍露台环境。',
-            view: [35.64140, -120.78430]
+            name: '访客中心室内展示',
+            view: [35.106700, -120.626800],
+            desc: '仅在开放时段（周二至周六 12:00–16:00）。光线弱，需大光圈。',
+            at: [35.10670, -120.62680]
           }
         ],
         access: {
-          book: '<strong>强制要求。</strong>官方原文：每一张桌子都需预订，即便吧台也不保证 walk-in。工作日多数时段可当天约；<strong>周末需提前 2–4 周</strong>',
-          ticket: 'Discover DAOU（60 分钟）<strong>$50/人</strong>；The Estate Experience（90 分钟）$95–110/人；Patrimony Immersion（2.5 小时，仅周一至周四）$275/人',
-          hours: '<strong>每日 10:00–17:00，仅接受预约</strong>',
-          parking: '山上停车位有限，<strong>仅供已确认预约的客人</strong>。入口 Kiosk 有工作人员核验后分配上下层停车场——<strong>不要越过 Kiosk 自行开进去</strong>',
-          walk: '<strong>1–3 分钟</strong>，建筑群内步行',
+          book: '不需要',
+          ticket: '访客中心<strong>免费</strong>；<strong>步行进沙滩免费且无需通行证</strong>；车辆上沙滩 $5/车',
+          hours: '访客中心 <strong>周二至周六 12:00–16:00</strong>，周日与周一关闭；车辆上沙滩 07:00–22:00',
+          parking: '访客中心与 Pier Avenue 沿线有街边停车，铺装车位免费',
+          walk: '访客中心 <strong>0 分钟</strong>；到沙滩机位步行 <strong>5–8 分钟</strong>、约 400 米',
         },
         notes: [
-          '<strong>17:00 关门，而 9 月 Paso Robles 日落约 19:20——你无法在正常预约中拍到日落</strong>，甚至拍不到完整暮金光。旧游记说这里日落极佳，那是营业时间更晚的时期',
-          '应对方案：把 DAOU 定位为白天的建筑人文加高位风光点，日落另找 Cambria 或 Montaña de Oro；或预约当日最后一档（约 15:30–16:00 入场）拿到开始转暖的光',
-          '<strong>你的行程含劳工节长周末，9/5–7 的档位现在很可能已满，请立刻预订，或安排在 9/8、9/9</strong>',
-          '酒庄建议订上午场避热（多数座位在户外，海拔 2,200 英尺）',
-          '<strong>品酒涉及饮酒，Hidden Mountain Road 是多弯盘山路，请安排不饮酒的驾驶员</strong>',
-          '所有预约均为品酒 flight，不是单杯或单瓶',
-          'Plaskett Fire 正向东烧入 Fort Hunter Liggett，Paso Robles 在其东南方向，需留意空气质量'
+          '<strong>访客中心 9/6 周日、9/7 劳工节关闭</strong>，即使开放也只有四小时',
+          '两个官方页面对营业日有矛盾记载（一处写周二至周六，一处写每日 12:00–16:00），已按较严格者规划，建议电话确认',
+          '劳工节周末车辆通行证极可能启用线上预售制（闸口不售票，上限 1,800 辆/日，年票在预售日无效）。<strong>但如果你只是步行进沙滩拍照，这完全不影响你</strong>',
+          'Pier Avenue 正在施工重铺，Beach 至 Norswing Drive 段由四车道缩为三车道，可能有临时延误',
+          '<strong>距火场约 100 英里，烟雾影响最小——这是本次行程的空气质量最优区</strong>'
         ],
         images: [
-          { url: 'assets/img/daou-winery-view-paso-robles-e2a92da7.jpg', cap: 'DAOU 露台视角俯瞰葡萄园 · SD Dirk / CC BY 2.0' },
-          { url: 'assets/img/daou-vineyards-paso-robles-california-usa-feb-2012-0be8a8bf.jpg', cap: 'DAOU 葡萄园宽幅全景 · SD Dirk / CC BY 2.0' }
+          { url: 'assets/img/dunes-oceano-1936-by-edward-weston-27f1f153.jpg', cap: 'Dunes, Oceano, 1936 · Edward Weston / 公有领域' },
+          { url: 'assets/img/pismo-beach-pier-north-view-20110805-1-0e397f05.jpg', cap: 'Pismo Beach Pier 日落，即机位 B · DXR / CC BY-SA 4.0' },
+          { url: 'assets/img/view-of-the-guadalupe-nipomo-dunes-from-oceano-3a2d6cb5.jpg', cap: '从 Oceano 俯瞰沙丘复合体北端 · Engl145 / 公有领域' }
         ]
       },
       {
         id: 'guadalupe-dunes',
-        n: 6,
+        n: 10,
         name: '瓜达卢佩沙丘（含沙丘中心）',
         en: 'Rancho Guadalupe Dunes Preserve · Dunes Center',
         score: 4,
@@ -426,205 +623,6 @@ var REGIONS = [
           { url: 'assets/img/guadalupe-dunes-county-park-beach-c782aa27.jpg', cap: 'Rancho Guadalupe 沙滩，即主机位 · Adbar / CC BY-SA 3.0' },
           { url: 'assets/img/us-ca-mussel-rock-guadalupe-beach-b8338eb4.jpg', cap: '南端 Mussel Rock 回望视角 · Kevin P. Rice / CC BY-SA 3.0' }
         ]
-      },
-      {
-        id: 'oceano-dunes',
-        n: 7,
-        name: '奥西亚诺沙丘访客中心 + Pismo 栈桥',
-        en: 'Oceano Dunes Visitor Center · Pismo Beach Pier',
-        score: 3,
-        tldr: '步行进沙滩完全免费不需通行证；Edward Weston 1936 年就在这片沙丘拍出摄影史经典。Pismo 栈桥是可靠的日落备案。',
-        tags: [{ t: '步行免费', c: 'free' }, { t: '中心周日周一闭馆', c: 'risk' }, { t: '烟雾影响最小', c: 'free' }],
-        highlights: [
-          '访客中心只是个小型解说站，真正价值在周边沙丘与海滩。' +
-            '<strong>Edward Weston 1936 年就在这片沙丘拍出了 20 世纪现代主义摄影的里程碑之作</strong>——' +
-            '对摄影史有兴趣的话，站在 Weston 拍过的沙丘上本身就是这一站的意义',
-          '<strong>Pismo Beach Pier</strong> 在北侧约 3 英里，是本区最可靠的日落加建筑结构机位'
-        ],
-        photo: '风光 <strong>4/5</strong>，人像 <strong>3/5</strong>，建筑 <strong>2/5</strong>。' +
-          '沙丘加正西海滩加免费步行进入。<strong>但这里是全加州唯一允许机动车上沙滩的州立公园之一</strong>，' +
-          '越野车会严重干扰画面纯净度和沙面完整性。<strong>关键技巧：往 Pier Avenue 以北走，那一侧非越野区，沙面干净。</strong>',
-        shots: [
-          {
-            name: 'Pier Avenue 尽头沙滩，向北走（主机位）',
-            desc: '<strong>关键</strong>：Post 2 位于 Pier Avenue 以南 1 英里，是越野区起点。<strong>往北走等于无车、干净沙面。</strong>' +
-              '最佳时段日落前 1 小时至暮光（18:20–19:45）。16–35mm 拍沙纹前景加落日，70–200mm 拍沙脊层次。' +
-              '<strong>步行进入免费，不需要车辆通行证。</strong>',
-            park: [35.10670, -120.62680],
-            view: [35.10590, -120.63090]
-          },
-          {
-            name: 'Pismo Beach Pier（日落备案）',
-            park: [35.138974, -120.642746],
-            view: [35.138331, -120.644608],
-            desc: '北侧约 3 英里，车程 8–10 分钟。<strong>栈桥桩柱剪影加落日是经典构图。</strong>' +
-              '时段日落至暮光（19:20–19:45）。24–70mm；慢门 1–4 秒配 ND 拍桩柱周围的水流雾化。',
-            at: [35.13980, -120.64370]
-          },
-          {
-            name: '访客中心室内展示',
-            view: [35.106700, -120.626800],
-            desc: '仅在开放时段（周二至周六 12:00–16:00）。光线弱，需大光圈。',
-            at: [35.10670, -120.62680]
-          }
-        ],
-        access: {
-          book: '不需要',
-          ticket: '访客中心<strong>免费</strong>；<strong>步行进沙滩免费且无需通行证</strong>；车辆上沙滩 $5/车',
-          hours: '访客中心 <strong>周二至周六 12:00–16:00</strong>，周日与周一关闭；车辆上沙滩 07:00–22:00',
-          parking: '访客中心与 Pier Avenue 沿线有街边停车，铺装车位免费',
-          walk: '访客中心 <strong>0 分钟</strong>；到沙滩机位步行 <strong>5–8 分钟</strong>、约 400 米',
-        },
-        notes: [
-          '<strong>访客中心 9/6 周日、9/7 劳工节关闭</strong>，即使开放也只有四小时',
-          '两个官方页面对营业日有矛盾记载（一处写周二至周六，一处写每日 12:00–16:00），已按较严格者规划，建议电话确认',
-          '劳工节周末车辆通行证极可能启用线上预售制（闸口不售票，上限 1,800 辆/日，年票在预售日无效）。<strong>但如果你只是步行进沙滩拍照，这完全不影响你</strong>',
-          'Pier Avenue 正在施工重铺，Beach 至 Norswing Drive 段由四车道缩为三车道，可能有临时延误',
-          '<strong>距火场约 100 英里，烟雾影响最小——这是本次行程的空气质量最优区</strong>'
-        ],
-        images: [
-          { url: 'assets/img/dunes-oceano-1936-by-edward-weston-27f1f153.jpg', cap: 'Dunes, Oceano, 1936 · Edward Weston / 公有领域' },
-          { url: 'assets/img/pismo-beach-pier-north-view-20110805-1-0e397f05.jpg', cap: 'Pismo Beach Pier 日落，即机位 B · DXR / CC BY-SA 4.0' },
-          { url: 'assets/img/view-of-the-guadalupe-nipomo-dunes-from-oceano-3a2d6cb5.jpg', cap: '从 Oceano 俯瞰沙丘复合体北端 · Engl145 / 公有领域' }
-        ]
-      },
-
-      /* ---- 以下为因 Plaskett Fire 封闭、本次无法抵达的点位 ---- */
-      {
-        id: 'mcway-falls',
-        n: 8,
-        gone: '本次无法抵达',
-        name: 'McWay 瀑布',
-        en: 'McWay Falls, Julia Pfeiffer Burns SP',
-        score: 5,
-        tldr: '9/3 起道路已能开到公园门口，但公园本身仍关闭至另行通知；且观景步道自 2024 年 11 月起就已长期封闭。',
-        tags: [{ t: '公园关闭', c: 'risk' }, { t: '步道长期封闭', c: 'risk' }, { t: '无解封时间表', c: 'risk' }],
-        highlights: [
-          '80 英尺高的瀑布直落海滩，是加州仅有的几条「潮汐瀑布」之一，也是整条 Big Sur 海岸最著名的单一画面',
-          '<strong>不可达的理由在 9/3 变了：现在不是路的问题，是公园自己关着。</strong>Hwy 1 北段已于 9 月 3 日 6:00 解封至 PM45，车能开到公园门口；但 California State Parks 于 <strong>8 月 28 日发布的「CLOSURE OF BIG SUR STATE PARKS」公告仍然有效</strong>，Julia Pfeiffer Burns 与另外四座州立公园一并关闭至另行通知',
-          '<strong>即便公园突然重开，经典机位也未必能拍到</strong>：通往观景点的 Overlook Trail 在火灾之前就已长期关闭（自 2024 年 11 月起即无 McWay Falls 通道）。围栏之外的悬崖、沙滩、Saddle Rock 与瀑布区域一律禁入，违规可被引用甚至逮捕'
-        ],
-        photo: '正常年份是 5/5 的顶级风光题材。<strong>但本次行程为 0——公园关闭，且观景步道本身已封闭近两年。</strong>',
-        shots: [
-          {
-            name: 'Overlook Trail（当前关闭）',
-            view: [36.157821, -121.672396],
-            desc: '正常情况下从 Hwy 1 路边停车场穿隧道即到，往返约 0.6 英里。<strong>目前全园关闭。</strong>',
-            at: [36.15780, -121.67080]
-          }
-        ],
-        access: {
-          book: '—',
-          ticket: '正常年份 $10/车日间使用费',
-          hours: '<strong>因山火全园关闭，无解封时间表</strong>',
-          parking: '不可进入',
-          walk: '不可进入',
-        },
-        notes: [
-          '<strong>双重阻断</strong>：一是公园本身因火关闭，二是 Hwy 1 在 Pacific Valley（MM16）至县界（MM0.09）封闭，即便公园开放，从 San Simeon 方向也上不去',
-          '若你从 Monterey 方向单独进入是另一条路线，但那与本次「由北向南贯通」的行程不兼容',
-          '出发当天可复查 <a href="https://roads.dot.ca.gov/" target="_blank" rel="noopener">Caltrans 路况</a>，但按目前控制率（1%）预期解封的可能性很低'
-        ],
-        images: [
-          { url: 'assets/img/mcway-falls-1-unsplash-e88c60c2.jpg', cap: 'McWay 瀑布与海湾全景 · Unsplash / CC0' },
-          { url: 'assets/img/mcway-falls-big-sur-may-2011-001-cd67ff7a.jpg', cap: 'McWay Falls 竖构图 · Wikimedia Commons / CC BY-SA 3.0' },
-          { url: 'assets/img/2016-06-03-usa-ca-mcway-cove-dsc-8734-dxo-1-4a2ddc4d.jpg', cap: 'McWay Cove 海湾全景 · Wikimedia Commons / CC BY 4.0' }
-        ]
-      },
-      {
-        id: 'pfeiffer-beach',
-        n: 9,
-        name: 'Pfeiffer 海滩（钥匙孔石拱）',
-        en: 'Pfeiffer Beach · Keyhole Arch',
-        score: 4,
-        tldr: '9/3 起重新可达：森林封闭令把这里明文列为例外，Hwy 1 北段也已解封。但 9 月拍不到让它出名的穿孔日落。',
-        tags: [{ t: '9/3 起可达', c: 'free' }, { t: '需从北侧进出', c: 'risk' }, { t: '9 月无穿孔日落', c: 'risk' }, { t: '$15/车', c: 'paid' }],
-        highlights: [
-          '紫色沙滩配海蚀拱门，<strong>Keyhole Arch 的穿孔日落</strong>是 Big Sur 最著名的摄影题材之一——但那个现象只在<strong>每年 12 月至次年 1 月</strong>前后出现，9 月太阳方位角偏北，光线不会穿过拱洞',
-          '<strong>这里的紫色沙是真的</strong>：上游锰榴石（manganese garnet）风化后沉积在滩面，雨后与浪线附近颜色最明显，是加州少有的地质题材',
-          '即便没有穿孔光，礁岩群本身的形态、退浪拉丝与逆光水雾仍然成立，是一处扎实的海岸长曝光机位',
-          '<strong>2026 年 9 月的特殊状态</strong>：Los Padres 国家森林的紧急封闭令 <strong>Forest Order 05-07-51-26-10</strong> 标题即写明「EXCEPT PFEIFFER BEACH AND SYCAMORE CANYON ROAD」，把这里明文排除在封闭之外；配合 Hwy 1 北段于 <strong>9 月 3 日 6:00 解封至 PM45</strong>，从 Carmel / Monterey 方向南下可以正常抵达'
-        ],
-        photo: '风光 <strong>4/5</strong>，人像 <strong>3/5</strong>，人文 <strong>1.5/5</strong>。扣分不在于景观，而在于时令——让这里封神的那张照片是冬至前后的现象，9 月只能拍常规海景与礁石。',
-        shots: [
-          {
-            name: 'Keyhole Arch 正对沙滩（主机位）',
-            park: [36.238100, -121.815500],
-            view: [36.239371, -121.818018],
-            desc: '沿 Sycamore Canyon Road 开到尽头停车场后步行下滩。<strong>日落前 40 分钟至日落（约 18:35–19:20）</strong>光线最好。16–35mm 拍拱门与礁岩群全景，70–200mm 单独压缩拱洞。<strong>建议带 ND 与偏振镜，1–4 秒慢门拍退浪拉丝</strong>，让水流从画面下缘的礁石间抽走形成引导线。9 月太阳落点偏拱洞北侧，别等穿孔。'
-          },
-          {
-            name: '滩北端紫沙带',
-            view: [36.240100, -121.817200],
-            desc: '退潮后沿滩向北走，注意脚下颜色偏紫红的细沙层。<strong>35–50mm 或 100mm 微距</strong>贴地拍紫沙与常规石英砂的分界，或把紫沙作为前景、拱门虚化在后。阴天与雨后颜色最饱和，正午顶光下反而看不出来。'
-          }
-        ],
-        access: {
-          book: '不需预约',
-          ticket: '<strong>$15/车</strong>（Los Padres National Forest 日间使用费）',
-          hours: '日间使用区通常 09:00 至日落，<strong>日落后闸门上锁</strong>——拍完日落要立刻走，别拖到蓝调',
-          parking: '尽头的日间使用区停车场，<strong>车位极少且不接受大车与拖挂</strong>。Sycamore Canyon Road 为狭窄单车道，会车困难',
-          walk: '停车场到沙滩约 <strong>200 米 / 3 分钟</strong>，短且平缓'
-        },
-        notes: [
-          '<strong>2026 年 9 月的通行前提：只能从北侧（Carmel / Monterey 方向）南下抵达，不能南北贯通。</strong>Hwy 1 南段（县界 PM0 至 Kirk Creek 一带）因 Plaskett Fire 仍然封闭，无 pilot car、无限时通行、无预计重开时间',
-          '<strong>Forest Order 5-07-51-25-02 规定：Sycamore Canyon Road 从 Hwy 1 路口起向西约 2.5 英里必须待在机动车内，禁止步行。</strong>也就是不能把车停在 Hwy 1 路边走进去，必须开车进入',
-          '<strong>Plaskett Fire 至今控制率仅 1%</strong>，面积在 8/30 至 9/2 两天内从 15,479 英亩涨到 28,968 英亩。这条封闭令在两场火「declared out」之前不会解除，而封闭范围随时可能再变——<strong>出发当天务必复查 Caltrans 实时路况与 Los Padres 森林封闭令</strong>',
-          '北段解封本身也不是永久保证：这条路在 8 月就有过解封后又因火势重新封闭的先例',
-          '若从 Carmel 南下，注意 <strong>Rocky Creek Bridge（Monterey 以南 15.7 英里）24 小时单向交通管制，持续到 2026 年 11 月 30 日</strong>，会产生等待，日落时段的时间预算要留余量',
-          '如果将来专程为穿孔日落再访，请安排在 <strong>12 月中至 1 月中</strong>，且需要低潮加晴朗天空同时满足'
-        ],
-        images: [
-          { url: 'assets/img/pfeiffer-beach-ii-19295487233-11703d13.jpg', cap: 'Pfeiffer 海滩礁岩与浪 · Wikimedia Commons / CC BY-SA 2.0' },
-          { url: 'assets/img/pfeiffer-beach-keyhole-arch-panoramio-055368a1.jpg', cap: 'Keyhole Arch 钥匙孔石拱 · panoramio / CC BY 3.0' },
-          { url: 'assets/img/pfeiffer-beach-at-dusk-unsplash-0c30b48f.jpg', cap: 'Pfeiffer Beach 暮色 · Unsplash / CC0' }
-        ]
-      },
-      {
-        id: 'sand-dollar-jade',
-        n: 10,
-        gone: '本次无法抵达',
-        name: '沙钱海滩 / 翡翠湾 / 柳溪观景点',
-        en: 'Sand Dollar Beach · Jade Cove · Willow Creek Vista',
-        score: 4,
-        tldr: '双重封锁：既在 Hwy 1 仍封闭的南段内，又被森林封闭令逐条点名。可以确定地排除，无需再抱期望。',
-        tags: [{ t: 'Hwy 1 封闭段内', c: 'risk' }, { t: '森林封闭令点名', c: 'risk' }, { t: '无到期日', c: 'risk' }],
-        highlights: [
-          '<strong>Sand Dollar Beach</strong> 是 Big Sur 最长的沙滩；<strong>Jade Cove</strong> 以海滩上可捡到的蛇纹石玉著称；<strong>Willow Creek Vista</strong> 是俯瞰河口的路边观景台',
-          '三处沿 Hwy 1 相邻分布，正常情况下可一次串联，<strong>已合并为一条</strong>',
-          '<strong>Plaskett Creek 与 Gorda 就在同一路段，同样不可达</strong>'
-        ],
-        photo: '<strong>本次为 0。</strong>这一段正是 Plaskett Fire 得名的位置，是整场火最核心的区域。',
-        shots: [
-          {
-            name: 'Sand Dollar Beach（当前不可达）',
-            view: [35.923925, -121.469841],
-            desc: 'Hwy 1 西侧停车场下切至沙滩。<strong>位于封闭段内。</strong>',
-            at: [35.92180, -121.46400]
-          },
-          {
-            name: 'Jade Cove（当前不可达）',
-            view: [35.913777, -121.470412],
-            desc: '路边停车后翻栅栏下陡坡。<strong>位于封闭段内。</strong>',
-            at: [35.91470, -121.46000]
-          }
-        ],
-        access: {
-          book: '—',
-          ticket: '正常年份 Sand Dollar $10/车，Jade Cove 免费',
-          hours: '<strong>Hwy 1 封闭：Pacific Valley（MM16）至 Monterey/SLO 县界（MM0.09），无解封时间表</strong>',
-          parking: '不可进入',
-          walk: '不可进入',
-        },
-        notes: [
-          '<strong>Plaskett Fire 已烧 29,123 英亩、控制率仅 1%</strong>，这一段短期内不具备开放条件',
-          '这三处的替代方案：<strong>Montaña de Oro</strong> 的岩石海岸与潮池题材最接近，且完全免费、烟雾影响小'
-        ],
-        images: [
-          { url: 'assets/img/jade-cove-big-sur-california-cdb74d17.jpg', cap: 'Jade Cove 翡翠湾 · Wikimedia Commons / CC BY 2.0' },
-          { url: 'assets/img/route-1-big-sur-coast-highway-sand-dollar-picnic-area-and-be-88755fd4.jpg', cap: 'Sand Dollar 海滩与 Hwy 1 · NARA / Public domain' },
-          { url: 'assets/img/willow-creek-road-big-sur-25785902100-5d230abd.jpg', cap: 'Willow Creek 与 Hwy 1 桥 · Wikimedia Commons / CC BY-SA 2.0' }
-        ]
       }
     ]
   },
@@ -677,8 +675,60 @@ var REGIONS = [
     ],
     spots: [
       {
-        id: 'sb-courthouse',
+        id: 'old-mission-sb',
         n: 1,
+        name: '圣巴巴拉老教堂（补充建议）',
+        en: 'Old Mission Santa Barbara',
+        score: 4.5,
+        tldr: '加州唯一双钟塔的传教站教堂，与法院构成 Santa Barbara「西班牙风格双璧」，只拍其一是明显遗漏。',
+        tags: [{ t: '补充建议', c: 'book' }, { t: '$17/人', c: 'paid' }, { t: '停车免费', c: 'free' }, { t: '外景免票可拍', c: 'free' }],
+        highlights: [
+          '<strong>「Queen of the Missions」（传教站女王）</strong>，1786 年方济各会创建，是加州 21 座传教站中的第十座，' +
+            '也是<strong>唯一拥有双钟塔</strong>的一座——这个对称立面正是它得名的原因',
+          '现在这座建筑是 1820 年的第四代。前三座分别毁于地震与年久失修，1925 年 Santa Barbara 大地震又震塌了钟塔，' +
+            '现存立面是此后按原样重建的。<strong>它是加州唯一自建成起从未中断使用的传教站</strong>',
+          '玫瑰色砂岩立面配新古典式三角山花，这个设计据信参考了古罗马建筑师维特鲁威的著作插图——' +
+            '一本 1787 年的西班牙语译本至今还留在教堂藏书室里',
+          '前方是宽阔草坪与 <strong>A.C. Postel 玫瑰园</strong>；内部有博物馆展厅、中庭花园，以及一片仍在使用的历史墓园，' +
+            '安葬着约 4,000 名 Chumash 原住民'
+        ],
+        photo: '建筑 <strong>5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>2/5</strong>。' +
+          '立面朝东南偏南，<strong>午后光最饱满</strong>，暖光下砂岩呈玫瑰金色。侧翼连续拱券的透视与光斑是人像绝佳素材。',
+        shots: [
+          {
+            name: '草坪正对面中轴线',
+            desc: '双塔完全对称，24–35mm。<strong>下午 15:00–17:30 立面正面受光</strong>，清晨也可但光偏冷。',
+            park: [34.43754, -119.71316],
+            view: [34.43770, -119.71360]
+          },
+          {
+            name: '玫瑰园低机位',
+            desc: '用前景花丛框住教堂，35mm。春夏花期更佳，9 月玫瑰仍有二次花。',
+            view: [34.43770, -119.71360]
+          },
+          {
+            name: '侧翼拱廊与内部中庭',
+            desc: '连续拱券的透视与光斑，50mm 或 85mm，人像绝佳。内部中庭花园与墓园用 85mm 浅景深，光线柔和。',
+            view: [34.43837, -119.71374]
+          }
+        ],
+        access: {
+          book: '自助游览无需预约（10 人以下）',
+          ticket: '成人 <strong>$17</strong>、65+ 与现役军人 $15、5–17 岁 $12、4 岁以下免费。<strong>草坪与立面外景不需买票就能拍</strong>，门票是进博物馆、中庭与墓园用的',
+          hours: '周一至周六 09:30–17:00，周日 12:30–17:00，<strong>均为 16:00 停止售票</strong>。周日上午 09:30–12:30 因弥撒不对游客开放教堂',
+          parking: '教堂<strong>免费停车场</strong>，Los Olivos Street 侧',
+          walk: '<strong>约 100 米、2 分钟</strong>',
+        },
+        notes: ['建议停留 1–2 小时'],
+        images: [
+          { url: 'assets/img/facade-mission-santa-barbara-laguna-street-santa-barbara-ca--2e4d674f.jpg', cap: 'Old Mission 正立面 · Warren LeMay / CC BY-SA 2.0' },
+          { url: 'assets/img/mission-santa-barbara01-7ce6d357.jpg', cap: 'Mission Santa Barbara 双钟塔 · Bernard Gagnon / CC BY-SA 3.0' },
+          { url: 'assets/img/mission-santa-barbara-laguna-street-santa-barbara-ca-5392916-59c2993e.jpg', cap: 'Mission 与前方草坪 · Warren LeMay / CC BY-SA 2.0' }
+        ]
+      },
+      {
+        id: 'sb-courthouse',
+        n: 2,
         name: '圣巴巴拉县法院大楼',
         en: 'Santa Barbara County Courthouse',
         score: 5,
@@ -728,58 +778,6 @@ var REGIONS = [
           { url: 'assets/img/2014-04-11-santa-barbara-county-courthouse-2-26dd9ac0.jpg', cap: 'Santa Barbara County Courthouse · Gunnar Klack / CC BY-SA 4.0' },
           { url: 'assets/img/santa-barbara-courthouse-tower-view-af7f8517.jpg', cap: '塔顶俯瞰视角 · Photopippo / CC BY-SA 3.0' },
           { url: 'assets/img/santa-barbara-county-courthouse-7fd7dc5b.jpg', cap: '法院大楼全貌 · Konrad Summers / CC BY-SA 2.0' }
-        ]
-      },
-      {
-        id: 'old-mission-sb',
-        n: 2,
-        name: '圣巴巴拉老教堂（补充建议）',
-        en: 'Old Mission Santa Barbara',
-        score: 4.5,
-        tldr: '加州唯一双钟塔的传教站教堂，与法院构成 Santa Barbara「西班牙风格双璧」，只拍其一是明显遗漏。',
-        tags: [{ t: '补充建议', c: 'book' }, { t: '$17/人', c: 'paid' }, { t: '停车免费', c: 'free' }, { t: '外景免票可拍', c: 'free' }],
-        highlights: [
-          '<strong>「Queen of the Missions」（传教站女王）</strong>，1786 年方济各会创建，是加州 21 座传教站中的第十座，' +
-            '也是<strong>唯一拥有双钟塔</strong>的一座——这个对称立面正是它得名的原因',
-          '现在这座建筑是 1820 年的第四代。前三座分别毁于地震与年久失修，1925 年 Santa Barbara 大地震又震塌了钟塔，' +
-            '现存立面是此后按原样重建的。<strong>它是加州唯一自建成起从未中断使用的传教站</strong>',
-          '玫瑰色砂岩立面配新古典式三角山花，这个设计据信参考了古罗马建筑师维特鲁威的著作插图——' +
-            '一本 1787 年的西班牙语译本至今还留在教堂藏书室里',
-          '前方是宽阔草坪与 <strong>A.C. Postel 玫瑰园</strong>；内部有博物馆展厅、中庭花园，以及一片仍在使用的历史墓园，' +
-            '安葬着约 4,000 名 Chumash 原住民'
-        ],
-        photo: '建筑 <strong>5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>2/5</strong>。' +
-          '立面朝东南偏南，<strong>午后光最饱满</strong>，暖光下砂岩呈玫瑰金色。侧翼连续拱券的透视与光斑是人像绝佳素材。',
-        shots: [
-          {
-            name: '草坪正对面中轴线',
-            desc: '双塔完全对称，24–35mm。<strong>下午 15:00–17:30 立面正面受光</strong>，清晨也可但光偏冷。',
-            park: [34.43754, -119.71316],
-            view: [34.43770, -119.71360]
-          },
-          {
-            name: '玫瑰园低机位',
-            desc: '用前景花丛框住教堂，35mm。春夏花期更佳，9 月玫瑰仍有二次花。',
-            view: [34.43770, -119.71360]
-          },
-          {
-            name: '侧翼拱廊与内部中庭',
-            desc: '连续拱券的透视与光斑，50mm 或 85mm，人像绝佳。内部中庭花园与墓园用 85mm 浅景深，光线柔和。',
-            view: [34.43837, -119.71374]
-          }
-        ],
-        access: {
-          book: '自助游览无需预约（10 人以下）',
-          ticket: '成人 <strong>$17</strong>、65+ 与现役军人 $15、5–17 岁 $12、4 岁以下免费。<strong>草坪与立面外景不需买票就能拍</strong>，门票是进博物馆、中庭与墓园用的',
-          hours: '周一至周六 09:30–17:00，周日 12:30–17:00，<strong>均为 16:00 停止售票</strong>。周日上午 09:30–12:30 因弥撒不对游客开放教堂',
-          parking: '教堂<strong>免费停车场</strong>，Los Olivos Street 侧',
-          walk: '<strong>约 100 米、2 分钟</strong>',
-        },
-        notes: ['建议停留 1–2 小时'],
-        images: [
-          { url: 'assets/img/facade-mission-santa-barbara-laguna-street-santa-barbara-ca--2e4d674f.jpg', cap: 'Old Mission 正立面 · Warren LeMay / CC BY-SA 2.0' },
-          { url: 'assets/img/mission-santa-barbara01-7ce6d357.jpg', cap: 'Mission Santa Barbara 双钟塔 · Bernard Gagnon / CC BY-SA 3.0' },
-          { url: 'assets/img/mission-santa-barbara-laguna-street-santa-barbara-ca-5392916-59c2993e.jpg', cap: 'Mission 与前方草坪 · Warren LeMay / CC BY-SA 2.0' }
         ]
       },
       {
@@ -886,177 +884,8 @@ var REGIONS = [
         ]
       },
       {
-        id: 'el-matador',
-        n: 5,
-        name: '斗牛士海滩（补充建议）',
-        en: 'El Matador State Beach',
-        score: 5,
-        tldr: '加州最上镜的海滩，没有之一。若整条 SB–Malibu 线只能加一站，选这里。但车位仅约 30 个。',
-        tags: [{ t: '补充建议', c: 'book' }, { t: '停车 $8–12', c: 'paid' }, { t: '车位仅约 30', c: 'risk' }, { t: '强依赖潮汐', c: 'risk' }],
-        highlights: [
-          '巨型岩柱（sea stack）直立于沙中与浅水里，形成<strong>天然拱门、隐蔽小湾与穿行通道</strong>。' +
-            '这些岩柱是 Santa Monica 山脉在此入海后被浪蚀切割的残留物——原本是崖体的一部分，' +
-            '较软的岩层被掏走，留下最硬的核心站在原地',
-          '北端有一个<strong>落潮时可进入的大型海蚀洞</strong>。当光线以特定角度射入、涌浪在洞口进退时，' +
-            '是整个南加州海岸最戏剧化的画面之一',
-          '沙滩坡度陡、颗粒粗，<strong>退浪会在湿沙上留下极干净的镜面反射</strong>，' +
-            '这是它在婚纱与时尚摄影圈常年高居榜首的技术原因——同样的岩柱，倒影会让画面多出一整层',
-          '同属 Robert H. Meyer Memorial State Beach 的还有北侧的 <strong>La Piedra 与 El Pescador</strong>，' +
-            '地貌类似但人少得多。El Matador 车位满了的话，这两处是现成的备胎'
-        ],
-        photo: '风光 <strong>5/5</strong>，人像 <strong>5/5</strong>，建筑 0/5。婚纱与时尚大片常驻地。' +
-          '<strong>日落前 45 分钟至日落后 20 分钟（18:30–19:35）为绝对黄金窗口。</strong>',
-        shots: [
-          {
-            name: '主礁柱群（阶梯下到沙滩后向西走 50–100 米）',
-            desc: '把海蚀柱作为主体，涌浪回流做慢门丝绸质感，16–35mm。' +
-              '贴地低机位拍湿沙倒影，把礁柱倒影与晚霞一起收，机身几乎贴沙。',
-            park: [34.03903, -118.87496],
-            view: [34.03797, -118.87499]
-          },
-          {
-            name: '穿过岩拱向外拍',
-            desc: '用天然拱门框住落日，需站位精确，35–50mm。人像可拍礁柱之间窄通道的逆光剪影，85mm。',
-            view: [34.03797, -118.87499]
-          },
-          {
-            name: '北端海蚀洞（仅落潮可入）',
-            desc: '洞口框海，广角加三脚架，长曝 1–4 秒。<strong>涨潮时通道与洞会被淹没甚至困人。</strong>',
-            view: [34.03805, -118.87482]
-          }
-        ],
-        access: {
-          book: '不需要',
-          ticket: '海滩免费，<strong>仅停车收费 $8–12</strong>（各来源报价不一，普遍 $10 上下，备好刷卡与零钱）',
-          hours: '<strong>08:00 至日落</strong>',
-          parking: '约 30–45 车位，<strong>常在上午就满</strong>。PCH 路肩可停但标牌需逐块看清，巡逻员开罚频繁',
-          walk: '约 120 米，但含一段<strong>陡峭砾石小径与阶梯</strong>：下行 5–8 分钟、<strong>上行 8–12 分钟</strong>。穿抓地鞋，别背太重器材',
-        },
-        notes: [
-          '<strong>潮汐是成败关键</strong>：涨潮时礁柱通道与海蚀洞会被淹没甚至困人。理想是日落时段恰逢落潮，出发前查 NOAA Santa Monica 或 Malibu 潮汐表',
-          '<strong>2026 年初 El Matador 路口已改造为环岛</strong>，进出方式与旧攻略不同，跟着导航走',
-          '商业与婚纱拍摄需加州州立公园拍摄许可，个人摄影无需',
-          '不适合婴儿车与行动不便者。三脚架允许，但注意涌浪与流沙'
-        ],
-        images: [
-          { url: 'assets/img/el-matador-state-beach-malibu-unsplash-b1cf1a96.jpg', cap: 'El Matador 海蚀柱 · Joseph Yates / CC0' },
-          { url: 'assets/img/el-matador-beach-malibu-a6226328.jpg', cap: 'El Matador 海滩 · Graham / CC BY 2.0' },
-          { url: 'assets/img/el-matador-state-beach-rushing-tides-35173442584-139a4f3d.jpg', cap: 'El Matador 涌浪 · Santa Monica Mountains NRA / 公有领域' }
-        ]
-      },
-      {
-        id: 'malibu-pier',
-        n: 6,
-        name: '马里布栈桥',
-        en: 'Malibu Pier',
-        score: 3.5,
-        tldr: '真正价值在「冲浪者 + 栈桥」的长焦组合，而不是「太阳落在桥后」——桥朝南，不是正对构图。',
-        tags: [{ t: '上桥免费', c: 'free' }, { t: '停车 $10–20', c: 'paid' }, { t: '劳工节 $20', c: 'paid' }],
-        highlights: [
-          '1905 年的老栈桥，两座标志性白色塔楼，桥头是 Malibu Farm 餐厅',
-          '桥西侧即 <strong>Surfrider Beach</strong>——世界冲浪保护区，右手长浪，全天有冲浪者，是抓拍与长焦剪影的绝佳素材库'
-        ],
-        photo: '风光 <strong>4/5</strong>，人像 <strong>4/5</strong>，建筑 <strong>3/5</strong>。' +
-          '<strong>栈桥朝南</strong>，日落时太阳落在西侧，能拍到侧逆光下的桥身剪影和金色海面，但<strong>不是「太阳落在桥后」的正对构图</strong>。' +
-          '真正价值在冲浪者与栈桥的组合，以及塔楼作为人像背景的辨识度。扣分点是停车贵、PCH 车流噪杂、桥上视觉元素略杂乱。',
-        shots: [
-          {
-            name: 'Surfrider Beach 沙滩、栈桥西侧 300–400 米处（最经典）',
-            desc: '把栈桥整体放进画面，前景是冲浪者与浪花。<strong>日落前 45 分钟至日落</strong>（18:30–19:17）。' +
-              '24–70mm 拍全景，<strong>70–200mm 或 100–400mm 压缩冲浪者与桥柱是这里最出片的打法</strong>。',
-            park: [34.03771, -118.67569],
-            view: [34.03380, -118.67952]
-          },
-          {
-            name: '栈桥桥面向岸回望',
-            desc: '拍 Malibu 山脊线与海岸别墅，早晨顺光。白色塔楼特写与人像用 35–85mm，日出后或日落前一小时的暖光，中午顶光很难看。',
-            view: [34.03641, -118.67610]
-          },
-          {
-            name: '桥下木桩',
-            desc: '低角度贴沙面拍桥墩阵列与涌浪，需慢门 1/4–2 秒配 ND 镜，落潮时可站位更远。',
-            view: [34.03641, -118.67610]
-          }
-        ],
-        access: {
-          book: '不需要',
-          ticket: '上桥免费',
-          hours: '<strong>日出至日落，全年 365 天开放</strong>（官网首页原文为 OPEN SUNRISE TO SUNSET, 365 DAYS）',
-          parking: '桥前收费场约 96 车位 <strong>$10–20</strong>；隔壁 Surfrider Beach 县属场夏季周末 06:00–16:00 约 $15、16:00 后 $3；<strong>劳工节 9/7 按节假日费率 06:00–16:00 $20</strong>',
-          walk: '到桥面约 150 米、2 分钟；<strong>到 Surfrider 沙滩最佳机位约 430 米、6–7 分钟</strong>',
-        },
-        notes: [
-          'Malibu Pier 位于 Carbon Beach Terrace 以西，<strong>不在 PCH 施工限制段内</strong>，通行正常。但从 Getty Villa 往西开必然要穿过 25 mph 施工段',
-          '<strong>9/5–9/7 仍属劳工节周末，路边违停风险高</strong>（周末与节假日运行拖车场），请务必停进正规车位',
-          '夏季海滩执法队运行至劳工节，海滩禁酒执法严格'
-        ],
-        images: [
-          { url: 'assets/img/the-malibu-pier-from-surfrider-beach-panoramio-6714a11e.jpg', cap: '从 Surfrider 沙滩拍栈桥，即主机位 · Darin R. McClure / CC BY 3.0' },
-          { url: 'assets/img/malibu-pier-dfc772e5.jpg', cap: 'Malibu Pier 与白色塔楼 · Levi Clancy / CC BY-SA 4.0' },
-          { url: 'assets/img/malibu-pier-with-waves-crashing-03-d8c86f0b.jpg', cap: 'Malibu Pier 涌浪 · Levi Clancy / CC BY-SA 4.0' }
-        ]
-      },
-      {
-        id: 'point-dume',
-        n: 7,
-        gone: '主通道无限期关闭',
-        name: '杜姆角',
-        en: 'Point Dume State Beach',
-        score: 2.5,
-        tldr: '主通道因 8/1 海岸侵蚀无限期关闭。但崖顶保护区另有一个 Cliffside Drive 入口不经施工闸门，值得当天打电话确认。',
-        tags: [{ t: '免费', c: 'free' }, { t: '下层停车场关闭', c: 'risk' }, { t: '入口 05:00–15:00 禁行', c: 'risk' }, { t: '崖缘不稳', c: 'risk' }],
-        highlights: [
-          '凸入太平洋的圆丘状火山岬角，是 Santa Monica Bay 的西北端点。崖顶木栈道通向观景平台，' +
-            '可俯瞰 Westward Beach 与 Zuma Beach 的白沙一路延伸到 Point Mugu，晴天可见 Catalina Island',
-          '灰鲸洄游期是 12 月至次年 4 月中，<strong>9 月看不到</strong>，但海豚全年可见'
-        ],
-        photo: '<strong>潜力 4.5/5，但 2026 年 9 月实际可执行性仅 2.5/5</strong>。' +
-          '风光 5/5、海岸日落 5/5（西北向俯瞰长滩，日落方位极佳）、人像 3/5。' +
-          '这本该是本段最强的风光机位——<strong>问题完全出在通达性上</strong>。',
-        shots: [
-          {
-            name: '岬顶观景平台（主机位）',
-            desc: '西北向俯拍 Westward 加 Zuma 双滩弧线，16–35mm 广角接片；<strong>日落前一小时</strong>侧光最能表现沙滩纹理与海浪层次。' +
-              '崖顶木栈道中段比平台更避风，适合架三脚架做慢门。',
-            park: [34.00450, -118.80569],
-            view: [34.00163, -118.80668]
-          },
-          {
-            name: '⭐ 强烈建议的替代方案：Zuma Beach 南端远眺',
-            desc: '<strong>如果崖顶去不了，这是最好的替代。</strong>改停 Zuma Beach 收费停车场（$8–15），' +
-              '从北侧远景拍 Point Dume 岬角剪影，长焦压缩，同样能拿到日落好片，<strong>且完全没有关闭风险</strong>。',
-            park: [34.01615, -118.82191],
-            view: [34.01615, -118.82191]
-          }
-        ],
-        access: {
-          book: '不需要',
-          ticket: '免门票',
-          hours: '<strong>Birdview Avenue 入口每日 05:00–15:00 对行人和自行车也关闭</strong>（施工作业区，有承包商与警长副手驻场）',
-          parking: '<strong>Westward Beach Road 收费闸口以外路段与 373 车位的下层停车场自 2026 年 8 月起无限期关闭</strong>。崖顶 Preserve 免费小场约 2 小时限时、车位极少，周边住宅区严禁停车',
-          walk: '崖顶停车场到岬顶约 <strong>330 米、爬升 60 米、10–12 分钟</strong>',
-        },
-        notes: [
-          '<strong>关闭的真正原因是海岸侵蚀，不是山火修复工程。</strong>2026 年 8 月 1 日夜间的高潮位加大浪造成崖缘局部近 8 英尺落差、路基部分塌陷并损坏路面下的水管。山火只是间接背景——2025 年 1 月 Palisades Fire 烧毁的海滨住宅连带失去原有海堤，这段海岸从此没有了缓冲',
-          '<strong>这条路的状态在一年里已经反复变过：</strong>它曾因另一项排水工程封闭，并于 2026 年 6 月 11 日恢复通行，8 月 1 日才因侵蚀再次关闭。<strong>任何超过几周的旧攻略都不可靠，出发当天必须重查</strong>',
-          '<strong>可能保住这个点的一条线索：崖顶保护区另有一个独立入口，在 Cliffside Drive 29188 号</strong>（约 10 个车位、其中 2 个无障碍、限时 2 小时），<strong>不经过 Birdview Avenue 的施工闸门</strong>。县方公告点名关闭的是 Westward Beach Road 入口，并未提及 Cliffside Drive 一侧，因此「连行人都禁行」对崖顶步道未必适用。<strong>但这一条无法从官方渠道确认，请当天致电 LA County Beaches &amp; Harbors 询问该入口是否开放</strong>——这是唯一可能保住整个 Point Dume 拍摄点的信息',
-          '<strong>崖缘不稳、局部落差近 8 英尺，绝对不要越过警戒锥、警示带或围栏</strong>，越界可致重伤且属违规',
-          '这处火烧区岸段因原有海堤随房屋损毁而失去保护，<strong>侵蚀仍在持续</strong>',
-          '1、2、3 号卫生间因水管被侵蚀损坏关闭，仅有临时化学厕所',
-          '下到 Big Dume 沙滩的长阶梯受潮汐控制，<strong>高潮时通道会被完全切断</strong>',
-          '出发当天务必查 malibucity.org 的 Alert Center 与 parks.ca.gov 公告栏。保护区内禁止携犬',
-          '<strong>行程期内这里有再次变化的现实可能</strong>：飓风 Marie 的外围涌浪（9/4 起 6–8 英尺、持续到 9/8）与高潮位，正是 8 月 1 日造成崩塌的同一类组合。封闭范围可能扩大，也可能因施工阶段结束而取消时段限制',
-          '若改去 Zuma Beach，注意 Westward Beach Road 与 Zuma 主入口之间的 <strong>Zuma Creek 涌水路口曾于 2026 年 6 月 11 日因高浪漫溢而封闭</strong>，出发前可致电 City of Malibu（310-456-2489）确认已恢复'
-        ],
-        images: [
-          { url: 'assets/img/point-dume-from-zuma-beach-932994ed.jpg', cap: '从 Zuma Beach 远眺 Point Dume，即推荐的替代机位 · OMCV / 公有领域' },
-          { url: 'assets/img/point-dume-beach-51985228879-077fc2ad.jpg', cap: 'Point Dume 海滩 · Santa Monica Mountains NRA / 公有领域' },
-          { url: 'assets/img/point-dume-state-beach-01-07c1a6f9.jpg', cap: 'Point Dume 崖顶视角 · Michael Benatar / CC BY 2.0' }
-        ]
-      },
-      {
         id: 'getty-villa',
-        n: 8,
+        n: 5,
         name: '盖蒂别墅博物馆',
         en: 'The Getty Villa',
         score: 4.5,
@@ -1118,6 +947,175 @@ var REGIONS = [
           { url: 'assets/img/getty-villa-outer-peristyle-colonnade-pacific-palisades-los--fa25f548.jpg', cap: '柱廊内侧竖构图 · Dale Cruse / CC BY 4.0' },
           { url: 'assets/img/060807-002-gettyvilla001-ce83e354.jpg', cap: 'Getty Villa 建筑 · Bobak Ha\u2019Eri / CC BY 3.0' }
         ]
+      },
+      {
+        id: 'el-matador',
+        n: 6,
+        name: '斗牛士海滩（补充建议）',
+        en: 'El Matador State Beach',
+        score: 5,
+        tldr: '加州最上镜的海滩，没有之一。若整条 SB–Malibu 线只能加一站，选这里。但车位仅约 30 个。',
+        tags: [{ t: '补充建议', c: 'book' }, { t: '停车 $8–12', c: 'paid' }, { t: '车位仅约 30', c: 'risk' }, { t: '强依赖潮汐', c: 'risk' }],
+        highlights: [
+          '巨型岩柱（sea stack）直立于沙中与浅水里，形成<strong>天然拱门、隐蔽小湾与穿行通道</strong>。' +
+            '这些岩柱是 Santa Monica 山脉在此入海后被浪蚀切割的残留物——原本是崖体的一部分，' +
+            '较软的岩层被掏走，留下最硬的核心站在原地',
+          '北端有一个<strong>落潮时可进入的大型海蚀洞</strong>。当光线以特定角度射入、涌浪在洞口进退时，' +
+            '是整个南加州海岸最戏剧化的画面之一',
+          '沙滩坡度陡、颗粒粗，<strong>退浪会在湿沙上留下极干净的镜面反射</strong>，' +
+            '这是它在婚纱与时尚摄影圈常年高居榜首的技术原因——同样的岩柱，倒影会让画面多出一整层',
+          '同属 Robert H. Meyer Memorial State Beach 的还有北侧的 <strong>La Piedra 与 El Pescador</strong>，' +
+            '地貌类似但人少得多。El Matador 车位满了的话，这两处是现成的备胎'
+        ],
+        photo: '风光 <strong>5/5</strong>，人像 <strong>5/5</strong>，建筑 0/5。婚纱与时尚大片常驻地。' +
+          '<strong>日落前 45 分钟至日落后 20 分钟（18:30–19:35）为绝对黄金窗口。</strong>',
+        shots: [
+          {
+            name: '主礁柱群（阶梯下到沙滩后向西走 50–100 米）',
+            desc: '把海蚀柱作为主体，涌浪回流做慢门丝绸质感，16–35mm。' +
+              '贴地低机位拍湿沙倒影，把礁柱倒影与晚霞一起收，机身几乎贴沙。',
+            park: [34.03903, -118.87496],
+            view: [34.03797, -118.87499]
+          },
+          {
+            name: '穿过岩拱向外拍',
+            desc: '用天然拱门框住落日，需站位精确，35–50mm。人像可拍礁柱之间窄通道的逆光剪影，85mm。',
+            view: [34.03797, -118.87499]
+          },
+          {
+            name: '北端海蚀洞（仅落潮可入）',
+            desc: '洞口框海，广角加三脚架，长曝 1–4 秒。<strong>涨潮时通道与洞会被淹没甚至困人。</strong>',
+            view: [34.03805, -118.87482]
+          }
+        ],
+        access: {
+          book: '不需要',
+          ticket: '海滩免费，<strong>仅停车收费 $8–12</strong>（各来源报价不一，普遍 $10 上下，备好刷卡与零钱）',
+          hours: '<strong>08:00 至日落</strong>',
+          parking: '约 30–45 车位，<strong>常在上午就满</strong>。PCH 路肩可停但标牌需逐块看清，巡逻员开罚频繁',
+          walk: '约 120 米，但含一段<strong>陡峭砾石小径与阶梯</strong>：下行 5–8 分钟、<strong>上行 8–12 分钟</strong>。穿抓地鞋，别背太重器材',
+        },
+        notes: [
+          '<strong>潮汐是成败关键</strong>：涨潮时礁柱通道与海蚀洞会被淹没甚至困人。理想是日落时段恰逢落潮，出发前查 NOAA Santa Monica 或 Malibu 潮汐表',
+          '<strong>2026 年初 El Matador 路口已改造为环岛</strong>，进出方式与旧攻略不同，跟着导航走',
+          '商业与婚纱拍摄需加州州立公园拍摄许可，个人摄影无需',
+          '不适合婴儿车与行动不便者。三脚架允许，但注意涌浪与流沙'
+        ],
+        images: [
+          { url: 'assets/img/el-matador-state-beach-malibu-unsplash-b1cf1a96.jpg', cap: 'El Matador 海蚀柱 · Joseph Yates / CC0' },
+          { url: 'assets/img/el-matador-beach-malibu-a6226328.jpg', cap: 'El Matador 海滩 · Graham / CC BY 2.0' },
+          { url: 'assets/img/el-matador-state-beach-rushing-tides-35173442584-139a4f3d.jpg', cap: 'El Matador 涌浪 · Santa Monica Mountains NRA / 公有领域' }
+        ]
+      },
+      {
+        id: 'malibu-pier',
+        n: 7,
+        name: '马里布栈桥',
+        en: 'Malibu Pier',
+        score: 3.5,
+        tldr: '真正价值在「冲浪者 + 栈桥」的长焦组合，而不是「太阳落在桥后」——桥朝南，不是正对构图。',
+        tags: [{ t: '上桥免费', c: 'free' }, { t: '停车 $10–20', c: 'paid' }, { t: '劳工节 $20', c: 'paid' }],
+        highlights: [
+          '1905 年的老栈桥，两座标志性白色塔楼，桥头是 Malibu Farm 餐厅',
+          '桥西侧即 <strong>Surfrider Beach</strong>——世界冲浪保护区，右手长浪，全天有冲浪者，是抓拍与长焦剪影的绝佳素材库'
+        ],
+        photo: '风光 <strong>4/5</strong>，人像 <strong>4/5</strong>，建筑 <strong>3/5</strong>。' +
+          '<strong>栈桥朝南</strong>，日落时太阳落在西侧，能拍到侧逆光下的桥身剪影和金色海面，但<strong>不是「太阳落在桥后」的正对构图</strong>。' +
+          '真正价值在冲浪者与栈桥的组合，以及塔楼作为人像背景的辨识度。扣分点是停车贵、PCH 车流噪杂、桥上视觉元素略杂乱。',
+        shots: [
+          {
+            name: 'Surfrider Beach 沙滩、栈桥西侧 300–400 米处（最经典）',
+            desc: '把栈桥整体放进画面，前景是冲浪者与浪花。<strong>日落前 45 分钟至日落</strong>（18:30–19:17）。' +
+              '24–70mm 拍全景，<strong>70–200mm 或 100–400mm 压缩冲浪者与桥柱是这里最出片的打法</strong>。',
+            park: [34.03771, -118.67569],
+            view: [34.03380, -118.67952]
+          },
+          {
+            name: '栈桥桥面向岸回望',
+            desc: '拍 Malibu 山脊线与海岸别墅，早晨顺光。白色塔楼特写与人像用 35–85mm，日出后或日落前一小时的暖光，中午顶光很难看。',
+            view: [34.03641, -118.67610]
+          },
+          {
+            name: '桥下木桩',
+            desc: '低角度贴沙面拍桥墩阵列与涌浪，需慢门 1/4–2 秒配 ND 镜，落潮时可站位更远。',
+            view: [34.03641, -118.67610]
+          }
+        ],
+        access: {
+          book: '不需要',
+          ticket: '上桥免费',
+          hours: '<strong>日出至日落，全年 365 天开放</strong>（官网首页原文为 OPEN SUNRISE TO SUNSET, 365 DAYS）',
+          parking: '桥前收费场约 96 车位 <strong>$10–20</strong>；隔壁 Surfrider Beach 县属场夏季周末 06:00–16:00 约 $15、16:00 后 $3；<strong>劳工节 9/7 按节假日费率 06:00–16:00 $20</strong>',
+          walk: '到桥面约 150 米、2 分钟；<strong>到 Surfrider 沙滩最佳机位约 430 米、6–7 分钟</strong>',
+        },
+        notes: [
+          'Malibu Pier 位于 Carbon Beach Terrace 以西，<strong>不在 PCH 施工限制段内</strong>，通行正常。但从 Getty Villa 往西开必然要穿过 25 mph 施工段',
+          '<strong>9/5–9/7 仍属劳工节周末，路边违停风险高</strong>（周末与节假日运行拖车场），请务必停进正规车位',
+          '夏季海滩执法队运行至劳工节，海滩禁酒执法严格'
+        ],
+        images: [
+          { url: 'assets/img/the-malibu-pier-from-surfrider-beach-panoramio-6714a11e.jpg', cap: '从 Surfrider 沙滩拍栈桥，即主机位 · Darin R. McClure / CC BY 3.0' },
+          { url: 'assets/img/malibu-pier-dfc772e5.jpg', cap: 'Malibu Pier 与白色塔楼 · Levi Clancy / CC BY-SA 4.0' },
+          { url: 'assets/img/malibu-pier-with-waves-crashing-03-d8c86f0b.jpg', cap: 'Malibu Pier 涌浪 · Levi Clancy / CC BY-SA 4.0' }
+        ]
+      },
+      {
+        id: 'point-dume',
+        n: 8,
+        gone: '主通道无限期关闭',
+        name: '杜姆角',
+        en: 'Point Dume State Beach',
+        score: 2.5,
+        tldr: '主通道因 8/1 海岸侵蚀无限期关闭。但崖顶保护区另有一个 Cliffside Drive 入口不经施工闸门，值得当天打电话确认。',
+        tags: [{ t: '免费', c: 'free' }, { t: '下层停车场关闭', c: 'risk' }, { t: '入口 05:00–15:00 禁行', c: 'risk' }, { t: '崖缘不稳', c: 'risk' }],
+        highlights: [
+          '凸入太平洋的圆丘状火山岬角，是 Santa Monica Bay 的西北端点。崖顶木栈道通向观景平台，' +
+            '可俯瞰 Westward Beach 与 Zuma Beach 的白沙一路延伸到 Point Mugu，晴天可见 Catalina Island',
+          '灰鲸洄游期是 12 月至次年 4 月中，<strong>9 月看不到</strong>，但海豚全年可见'
+        ],
+        photo: '<strong>潜力 4.5/5，但 2026 年 9 月实际可执行性仅 2.5/5</strong>。' +
+          '风光 5/5、海岸日落 5/5（西北向俯瞰长滩，日落方位极佳）、人像 3/5。' +
+          '这本该是本段最强的风光机位——<strong>问题完全出在通达性上</strong>。',
+        shots: [
+          {
+            name: '岬顶观景平台（主机位）',
+            desc: '西北向俯拍 Westward 加 Zuma 双滩弧线，16–35mm 广角接片；<strong>日落前一小时</strong>侧光最能表现沙滩纹理与海浪层次。' +
+              '崖顶木栈道中段比平台更避风，适合架三脚架做慢门。',
+            park: [34.00450, -118.80569],
+            view: [34.00163, -118.80668]
+          },
+          {
+            name: '⭐ 强烈建议的替代方案：Zuma Beach 南端远眺',
+            desc: '<strong>如果崖顶去不了，这是最好的替代。</strong>改停 Zuma Beach 收费停车场（$8–15），' +
+              '从北侧远景拍 Point Dume 岬角剪影，长焦压缩，同样能拿到日落好片，<strong>且完全没有关闭风险</strong>。',
+            park: [34.01615, -118.82191],
+            view: [34.01615, -118.82191]
+          }
+        ],
+        access: {
+          book: '不需要',
+          ticket: '免门票',
+          hours: '<strong>Birdview Avenue 入口每日 05:00–15:00 对行人和自行车也关闭</strong>（施工作业区，有承包商与警长副手驻场）',
+          parking: '<strong>Westward Beach Road 收费闸口以外路段与 373 车位的下层停车场自 2026 年 8 月起无限期关闭</strong>。崖顶 Preserve 免费小场约 2 小时限时、车位极少，周边住宅区严禁停车',
+          walk: '崖顶停车场到岬顶约 <strong>330 米、爬升 60 米、10–12 分钟</strong>',
+        },
+        notes: [
+          '<strong>关闭的真正原因是海岸侵蚀，不是山火修复工程。</strong>2026 年 8 月 1 日夜间的高潮位加大浪造成崖缘局部近 8 英尺落差、路基部分塌陷并损坏路面下的水管。山火只是间接背景——2025 年 1 月 Palisades Fire 烧毁的海滨住宅连带失去原有海堤，这段海岸从此没有了缓冲',
+          '<strong>这条路的状态在一年里已经反复变过：</strong>它曾因另一项排水工程封闭，并于 2026 年 6 月 11 日恢复通行，8 月 1 日才因侵蚀再次关闭。<strong>任何超过几周的旧攻略都不可靠，出发当天必须重查</strong>',
+          '<strong>可能保住这个点的一条线索：崖顶保护区另有一个独立入口，在 Cliffside Drive 29188 号</strong>（约 10 个车位、其中 2 个无障碍、限时 2 小时），<strong>不经过 Birdview Avenue 的施工闸门</strong>。县方公告点名关闭的是 Westward Beach Road 入口，并未提及 Cliffside Drive 一侧，因此「连行人都禁行」对崖顶步道未必适用。<strong>但这一条无法从官方渠道确认，请当天致电 LA County Beaches &amp; Harbors 询问该入口是否开放</strong>——这是唯一可能保住整个 Point Dume 拍摄点的信息',
+          '<strong>崖缘不稳、局部落差近 8 英尺，绝对不要越过警戒锥、警示带或围栏</strong>，越界可致重伤且属违规',
+          '这处火烧区岸段因原有海堤随房屋损毁而失去保护，<strong>侵蚀仍在持续</strong>',
+          '1、2、3 号卫生间因水管被侵蚀损坏关闭，仅有临时化学厕所',
+          '下到 Big Dume 沙滩的长阶梯受潮汐控制，<strong>高潮时通道会被完全切断</strong>',
+          '出发当天务必查 malibucity.org 的 Alert Center 与 parks.ca.gov 公告栏。保护区内禁止携犬',
+          '<strong>行程期内这里有再次变化的现实可能</strong>：飓风 Marie 的外围涌浪（9/4 起 6–8 英尺、持续到 9/8）与高潮位，正是 8 月 1 日造成崩塌的同一类组合。封闭范围可能扩大，也可能因施工阶段结束而取消时段限制',
+          '若改去 Zuma Beach，注意 Westward Beach Road 与 Zuma 主入口之间的 <strong>Zuma Creek 涌水路口曾于 2026 年 6 月 11 日因高浪漫溢而封闭</strong>，出发前可致电 City of Malibu（310-456-2489）确认已恢复'
+        ],
+        images: [
+          { url: 'assets/img/point-dume-from-zuma-beach-932994ed.jpg', cap: '从 Zuma Beach 远眺 Point Dume，即推荐的替代机位 · OMCV / 公有领域' },
+          { url: 'assets/img/point-dume-beach-51985228879-077fc2ad.jpg', cap: 'Point Dume 海滩 · Santa Monica Mountains NRA / 公有领域' },
+          { url: 'assets/img/point-dume-state-beach-01-07c1a6f9.jpg', cap: 'Point Dume 崖顶视角 · Michael Benatar / CC BY 2.0' }
+        ]
       }
     ]
   },
@@ -1174,66 +1172,61 @@ var REGIONS = [
     ],
     spots: [
       {
-        id: 'griffith',
+        id: 'wisdom-tree',
         n: 1,
-        name: '格里菲斯天文台',
-        en: 'Griffith Observatory',
-        score: 5,
-        tldr: '建筑、城市全景、Hollywood Sign 三个题材一次拍完；周一闭馆但室外机位照常，堵车与停车是主要成本。',
-        tags: [{ t: '入场免费', c: 'free' }, { t: '停车 $10/hr', c: 'paid' }, { t: '周一闭馆', c: 'risk' }, { t: '日落前必堵', c: 'risk' }],
+        name: '智慧树与伯班克峰',
+        en: 'Wisdom Tree · Burbank Peak · Cahuenga Peak',
+        score: 4.5,
+        tldr: '孤树立于窄脊，是本区风光属性最强的点；停车只能停 Lake Hollywood Drive，且该路 21:00 至次日 06:00 禁停。',
+        tags: [{ t: '免费', c: 'free' }, { t: '陡峭 24% 坡', c: 'risk' }, { t: '日落最佳', c: 'free' }, { t: '需头灯', c: 'risk' }],
         highlights: [
-          '1935 年开放的 Art Deco 装饰艺术天文台，三穹顶青铜屋顶配白色混凝土立面，是《La La Land》与《Rebel Without a Cause》的取景地，本身就是洛杉矶最上镜的公共建筑之一',
-          '它的不可替代性在于<strong>一个机位同时提供三个题材</strong>：建筑主体、俯瞰 Downtown LA 天际线的高位视角、以及距离 2.6 公里的 Hollywood Sign 正面视角',
-          '海拔约 346 米，西向视野越过 Santa Monica 山脊。<strong>注意实际日落比理论时刻早 3–8 分钟</strong>，因为太阳是沉入山脊线而非海平面',
-          '日落后建筑泛光灯亮起、山下城市灯网铺开，<strong>蓝调时刻的画面密度是全程最高的</strong>',
-          '1935 年的捐赠契约规定不得收门票，因此建筑、场地与公共望远镜至今全部免费',
-          '9/5–9/9 傍晚天空无月（残月要到下半夜才升起），对城市夜景是极好的条件'
+          'Wisdom Tree 是 2007 年 Griffith Park 大火中<strong>山顶唯一幸存的孤松</strong>，树下有铁盒供徒步者留言，已成为洛杉矶的民间精神地标',
+          '孤树立于窄脊之上，背后是 Hollywood Reservoir、Burbank 与 Verdugo Hills，构成极强的「孤独感」剪影题材——<strong>这是本区唯一能拍到山脊加孤树加城市的纯风光构图</strong>',
+          '沿 Aileen Getty Ridge Trail 东行可上 Cahuenga Peak（553 米，Griffith Park 最高点），再往东即 Mount Lee 与 Hollywood Sign 背面',
+          '这片土地曾在 2000 年代面临五栋豪宅开发计划，经 Aileen Getty、Hugh Hefner 等出资募捐，于 2010 年并入 Griffith Park'
         ],
-        photo: '建筑 <strong>5/5</strong>，城市日落 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>。西露台栏杆配 Hollywood Sign 背景是全洛杉矶辨识度最高的人像背景之一，缺点是日落时段栏杆位基本无空隙。',
+        photo: '风光 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>，人文 <strong>2.5/5</strong>。孤树配窄脊与天空的极简背景对人像极其友好，逆光剪影与轮廓光效果出色，且人流远少于 Lake Hollywood Park。',
         shots: [
           {
-            name: '西露台栏杆（Hollywood Sign 正面）',
-            desc: '<strong>日出后 06:30–08:00 最佳</strong>，Sign 受晨光正面照亮且几乎无人；傍晚金光时 Sign 处于逆光、反差大易发灰。Sign 距此 2.64 公里，横宽约 110 米——要填满全画幅长边需约 860mm，不现实。实用区间是 <strong>200–400mm</strong> 让 Sign 占画面四分之一到一半并带山体，<strong>400–600mm</strong> 拍字母紧凑特写。用露台弧形石栏做前景引导线，Sign 放右上三分点。',
-            park: [34.11835, -118.3006],
-            view: [34.1182, -118.3010]
+            name: 'Wisdom Tree 树下（Burbank Peak 顶）',
+            desc: '<strong>日落金光 18:35–19:10</strong>拍孤树西向逆光剪影，或日出 06:30–07:10 让东侧晨光给树冠轮廓光。24–35mm 拍孤树配完整山脊与天空，16mm 贴地仰拍把树顶顶到画面上缘。<strong>关键是压低机位到膝盖以下</strong>，让山脊线降到画面下三分之一、天空留大——这是让孤树成立的前提。人像时让模特站树的一侧，留出树冠的负空间。',
+            park: [34.131157, -118.337791],
+            view: [34.136026, -118.332110]
           },
           {
-            name: '前草坪与 Astronomers Monument',
-            desc: '<strong>蓝调 19:20–19:30 的十分钟</strong>是全天最高价值时段，建筑泛光与天空亮度在此达成平衡。16–35mm 拍建筑全貌加纪念碑前景，35–50mm 拍单穹顶配人物剪影。从纪念碑南侧压低机位，让方尖碑基座切入画面下缘、三穹顶横排成线。需三脚架，快门 1–4 秒。',
-            view: [34.118907, -118.300375]
+            name: 'Burbank Peak 石堆与西侧脊线',
+            desc: '蓝调 19:15–19:35，Valley 灯光起。24–70mm，用石堆做前景、脊线向西延伸做引导线，灯海在下方。',
+            view: [34.1358, -118.3325]
           },
           {
-            name: '东露台（Downtown LA 方向）',
-            desc: '<strong>日出前蓝调 06:04–06:25</strong>，Downtown 楼群灯还亮着而天空已泛蓝；或日落后 19:25–19:45 拍城市灯网。70–200mm 压缩楼群，100–300mm 在晨霾中拍层叠山脊。九月清晨若有海雾层，可拍到高楼刺破云海。',
-            view: [34.1182, -118.2998]
+            name: 'Aileen Getty Ridge Trail 脊线中段',
+            desc: '日出后 07:00–08:30。70–200mm 压缩脊线起伏与远处 Mount Lee 天线塔；Sign 距此约 0.9 公里，135mm 左右可拍到字母侧后方轮廓。让脊线从画面左下切入、Mount Lee 塔群在右上形成对角线。',
+            view: [34.1364, -118.3290]
           },
           {
-            name: 'Charlie Turner Trailhead 上方步道',
-            desc: '日落前一小时起步，走 5–10 分钟即高于停车场人群。24–70mm 拍「天文台建筑加其后 Downtown 天际线」的同框俯视——这是从建筑本身拍不到的角度。往北 500 米是 Berlin Forest 松林，可拍松枝框住 Hollywood Sign。',
-            park: [34.120945, -118.300379],
-            view: [34.120945, -118.300379]
+            name: 'Cahuenga Peak 顶（全园最高点）',
+            desc: '日出。16–35mm 接片拍 360 度全景，山顶有保育纪念铭牌可作前景。',
+            view: [34.136991, -118.325834]
           }
         ],
         access: {
           book: '不需预约',
-          ticket: '建筑、场地、公共望远镜<strong>全部免费</strong>（1935 年捐赠契约规定不得收门票）。Samuel Oschin 天象厅成人 $12、55+ 与学生 $10、5–12 岁 $8，<strong>仅现场购当日场次，无法网购或预订</strong>',
-          hours: '周二至周五 12:00–22:00；周六日 10:00–22:00；<strong>周一闭馆</strong>。<strong>场地与露台每天开放</strong>。免费公众望远镜观测：开馆日 19:00–21:30。Griffith Park 全园 05:00–22:30',
-          parking: '官方停车场与 West/Western Canyon Road 路边约 <strong>$10/小时</strong>，无时长上限，<strong>仅收信用卡</strong>，收据须放挡风玻璃内否则罚单。收费时段周一至周五 12:00–22:00、周六日 10:00–22:00，<strong>全年每天执法且节假日费率上调</strong>。<strong>周末与晴朗日落夜在日落前 90 分钟基本满位</strong>，满位后车辆会被劝返下山。免费替代：Greek Theatre 停车场（无演出日）加步行约 1 英里，或 DASH 巴士 $0.50',
-          walk: '主停车场到西露台约 <strong>3–5 分钟 / 200–300 米</strong>；Greek Theatre 步行上山 20–30 分钟、爬升约 130 米'
+          ticket: '免费',
+          hours: '步道规定日落关闭',
+          parking: '<strong>绝对不要停 Wonder View Drive</strong>——无公共车位、无过境通行，居民会直接叫拖车（多份旧攻略把停车点错标在这里）。正确做法是停 <strong>Lake Hollywood Drive</strong> 免费路边车位，尽量往坡顶靠。<strong>该路 21:00–06:00 禁止停车</strong>，这直接卡死日出计划：06:00 才能合法停车，步行 35–40 分钟上山，最快 06:40 到顶，已错过 06:30 的日出与全部蓝调。<strong>日落方案不受此限</strong>',
+          walk: 'Lake Hollywood Dr 车位到 Wonder View Dr 顶端黄色闸门约 8–10 分钟 / 0.4 公里（铺装上坡）；闸门到 Wisdom Tree 约 <strong>25–30 分钟 / 0.72 公里，爬升 174 米</strong>。合计单程约 35–40 分钟、总爬升约 225 米'
         },
         notes: [
-          '<strong>9/7 Labor Day 建筑闭馆</strong>（周一规则照常），但场地、露台、西栏杆观景位全部开放，对纯摄影行程影响有限',
-          '<strong>切勿在日落前 20–45 分钟抵达</strong>——这是最糟的窗口：停车场已满、上山单行道 stop-and-go、路边车位被抢，而你人还在车里。正确做法是日落前 90–120 分钟到位',
-          '拥堵时警方会<strong>直接封闭上山道路</strong>，届时只有 DASH 巴士、旅游大巴与无障碍接驳车放行——这本身就是选 DASH 的最强理由',
-          'Greek Theatre 演出日 13:00 后不提供停车。9/5 与 9/7 无演出（可免费停），<strong>9/6、9/8、9/9 有演出</strong>',
-          '上山时注意选车道：West Observatory Road 左车道进停车场，右车道是路边停车与过境，<strong>走错车道无法进停车场</strong>',
-          'East Observatory Road 现为单向下山。日落后 19:30–20:30 是下山高峰，留到 21:00 后再走会顺畅很多',
-          '园区大门 22:00 关闭，若约车接送务必让司机 22:00 前进园'
+          '<strong>本区最陡的一段</strong>：0.72 公里内爬升 174 米（平均坡度 24%），碎石松动、无遮荫、无水源，必须穿有抓地力的鞋',
+          '<strong>下撤风险高于上山</strong>。碎石陡坡在暮色中极易滑倒，若拍日落，<strong>头灯是必需品</strong>（不是手机手电）',
+          '请勿攀爬或触碰 Wisdom Tree。树枝部分时段会被保护性包裹以进行养护，切勿拉扯、刻字或悬挂物品',
+          'Lake Hollywood Drive 应不在 PPD 320 周末禁停范围内，但两个区域仅隔一个山谷且规则都在变动，<strong>请现场逐块核对标志牌</strong>',
+          '山上手机信号差，返程叫车困难，建议下撤到 Barham Blvd 再叫车'
         ],
         images: [
-          { url: 'assets/img/griffith-observatory-facade-8b9a45ab.jpg', cap: 'Griffith Observatory 立面 · APickleForTheKnowingOnes / CC0' },
-          { url: 'assets/img/view-from-the-balcony-at-griffith-observatory-on-the-hollywo-2648a267.jpg', cap: '自西露台望 Hollywood Sign 与 Mount Lee · Steveshelokhonov / CC BY-SA 4.0' },
-          { url: 'assets/img/griffith-observatory-2012-01-b6efc40f.jpg', cap: 'Griffith Observatory 全景 · Mike Peel / CC BY-SA 4.0' }
+          { url: 'assets/img/wisdom-tree-los-angeles-united-states-unsplash-157645ea.jpg', cap: 'Wisdom Tree 孤松 · Andre Benz / CC0' },
+          { url: 'assets/img/panorama-of-los-angeles-from-burbank-peak-e7bf284b.jpg', cap: '自 Burbank Peak 俯瞰洛杉矶全景 · Downtowngal / CC BY-SA 3.0' },
+          { url: 'assets/img/mount-lee-from-burbank-peak-cc299f9c.jpg', cap: '自 Burbank Peak 望 Mount Lee 与 Sign · Downtowngal / CC BY-SA 3.0' }
         ]
       },
       {
@@ -1297,61 +1290,66 @@ var REGIONS = [
         ]
       },
       {
-        id: 'wisdom-tree',
+        id: 'griffith',
         n: 3,
-        name: '智慧树与伯班克峰',
-        en: 'Wisdom Tree · Burbank Peak · Cahuenga Peak',
-        score: 4.5,
-        tldr: '孤树立于窄脊，是本区风光属性最强的点；停车只能停 Lake Hollywood Drive，且该路 21:00 至次日 06:00 禁停。',
-        tags: [{ t: '免费', c: 'free' }, { t: '陡峭 24% 坡', c: 'risk' }, { t: '日落最佳', c: 'free' }, { t: '需头灯', c: 'risk' }],
+        name: '格里菲斯天文台',
+        en: 'Griffith Observatory',
+        score: 5,
+        tldr: '建筑、城市全景、Hollywood Sign 三个题材一次拍完；周一闭馆但室外机位照常，堵车与停车是主要成本。',
+        tags: [{ t: '入场免费', c: 'free' }, { t: '停车 $10/hr', c: 'paid' }, { t: '周一闭馆', c: 'risk' }, { t: '日落前必堵', c: 'risk' }],
         highlights: [
-          'Wisdom Tree 是 2007 年 Griffith Park 大火中<strong>山顶唯一幸存的孤松</strong>，树下有铁盒供徒步者留言，已成为洛杉矶的民间精神地标',
-          '孤树立于窄脊之上，背后是 Hollywood Reservoir、Burbank 与 Verdugo Hills，构成极强的「孤独感」剪影题材——<strong>这是本区唯一能拍到山脊加孤树加城市的纯风光构图</strong>',
-          '沿 Aileen Getty Ridge Trail 东行可上 Cahuenga Peak（553 米，Griffith Park 最高点），再往东即 Mount Lee 与 Hollywood Sign 背面',
-          '这片土地曾在 2000 年代面临五栋豪宅开发计划，经 Aileen Getty、Hugh Hefner 等出资募捐，于 2010 年并入 Griffith Park'
+          '1935 年开放的 Art Deco 装饰艺术天文台，三穹顶青铜屋顶配白色混凝土立面，是《La La Land》与《Rebel Without a Cause》的取景地，本身就是洛杉矶最上镜的公共建筑之一',
+          '它的不可替代性在于<strong>一个机位同时提供三个题材</strong>：建筑主体、俯瞰 Downtown LA 天际线的高位视角、以及距离 2.6 公里的 Hollywood Sign 正面视角',
+          '海拔约 346 米，西向视野越过 Santa Monica 山脊。<strong>注意实际日落比理论时刻早 3–8 分钟</strong>，因为太阳是沉入山脊线而非海平面',
+          '日落后建筑泛光灯亮起、山下城市灯网铺开，<strong>蓝调时刻的画面密度是全程最高的</strong>',
+          '1935 年的捐赠契约规定不得收门票，因此建筑、场地与公共望远镜至今全部免费',
+          '9/5–9/9 傍晚天空无月（残月要到下半夜才升起），对城市夜景是极好的条件'
         ],
-        photo: '风光 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>，人文 <strong>2.5/5</strong>。孤树配窄脊与天空的极简背景对人像极其友好，逆光剪影与轮廓光效果出色，且人流远少于 Lake Hollywood Park。',
+        photo: '建筑 <strong>5/5</strong>，城市日落 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>。西露台栏杆配 Hollywood Sign 背景是全洛杉矶辨识度最高的人像背景之一，缺点是日落时段栏杆位基本无空隙。',
         shots: [
           {
-            name: 'Wisdom Tree 树下（Burbank Peak 顶）',
-            desc: '<strong>日落金光 18:35–19:10</strong>拍孤树西向逆光剪影，或日出 06:30–07:10 让东侧晨光给树冠轮廓光。24–35mm 拍孤树配完整山脊与天空，16mm 贴地仰拍把树顶顶到画面上缘。<strong>关键是压低机位到膝盖以下</strong>，让山脊线降到画面下三分之一、天空留大——这是让孤树成立的前提。人像时让模特站树的一侧，留出树冠的负空间。',
-            park: [34.131157, -118.337791],
-            view: [34.136026, -118.332110]
+            name: '西露台栏杆（Hollywood Sign 正面）',
+            desc: '<strong>日出后 06:30–08:00 最佳</strong>，Sign 受晨光正面照亮且几乎无人；傍晚金光时 Sign 处于逆光、反差大易发灰。Sign 距此 2.64 公里，横宽约 110 米——要填满全画幅长边需约 860mm，不现实。实用区间是 <strong>200–400mm</strong> 让 Sign 占画面四分之一到一半并带山体，<strong>400–600mm</strong> 拍字母紧凑特写。用露台弧形石栏做前景引导线，Sign 放右上三分点。',
+            park: [34.11835, -118.3006],
+            view: [34.1182, -118.3010]
           },
           {
-            name: 'Burbank Peak 石堆与西侧脊线',
-            desc: '蓝调 19:15–19:35，Valley 灯光起。24–70mm，用石堆做前景、脊线向西延伸做引导线，灯海在下方。',
-            view: [34.1358, -118.3325]
+            name: '前草坪与 Astronomers Monument',
+            desc: '<strong>蓝调 19:20–19:30 的十分钟</strong>是全天最高价值时段，建筑泛光与天空亮度在此达成平衡。16–35mm 拍建筑全貌加纪念碑前景，35–50mm 拍单穹顶配人物剪影。从纪念碑南侧压低机位，让方尖碑基座切入画面下缘、三穹顶横排成线。需三脚架，快门 1–4 秒。',
+            view: [34.118907, -118.300375]
           },
           {
-            name: 'Aileen Getty Ridge Trail 脊线中段',
-            desc: '日出后 07:00–08:30。70–200mm 压缩脊线起伏与远处 Mount Lee 天线塔；Sign 距此约 0.9 公里，135mm 左右可拍到字母侧后方轮廓。让脊线从画面左下切入、Mount Lee 塔群在右上形成对角线。',
-            view: [34.1364, -118.3290]
+            name: '东露台（Downtown LA 方向）',
+            desc: '<strong>日出前蓝调 06:04–06:25</strong>，Downtown 楼群灯还亮着而天空已泛蓝；或日落后 19:25–19:45 拍城市灯网。70–200mm 压缩楼群，100–300mm 在晨霾中拍层叠山脊。九月清晨若有海雾层，可拍到高楼刺破云海。',
+            view: [34.1182, -118.2998]
           },
           {
-            name: 'Cahuenga Peak 顶（全园最高点）',
-            desc: '日出。16–35mm 接片拍 360 度全景，山顶有保育纪念铭牌可作前景。',
-            view: [34.136991, -118.325834]
+            name: 'Charlie Turner Trailhead 上方步道',
+            desc: '日落前一小时起步，走 5–10 分钟即高于停车场人群。24–70mm 拍「天文台建筑加其后 Downtown 天际线」的同框俯视——这是从建筑本身拍不到的角度。往北 500 米是 Berlin Forest 松林，可拍松枝框住 Hollywood Sign。',
+            park: [34.120945, -118.300379],
+            view: [34.120945, -118.300379]
           }
         ],
         access: {
           book: '不需预约',
-          ticket: '免费',
-          hours: '步道规定日落关闭',
-          parking: '<strong>绝对不要停 Wonder View Drive</strong>——无公共车位、无过境通行，居民会直接叫拖车（多份旧攻略把停车点错标在这里）。正确做法是停 <strong>Lake Hollywood Drive</strong> 免费路边车位，尽量往坡顶靠。<strong>该路 21:00–06:00 禁止停车</strong>，这直接卡死日出计划：06:00 才能合法停车，步行 35–40 分钟上山，最快 06:40 到顶，已错过 06:30 的日出与全部蓝调。<strong>日落方案不受此限</strong>',
-          walk: 'Lake Hollywood Dr 车位到 Wonder View Dr 顶端黄色闸门约 8–10 分钟 / 0.4 公里（铺装上坡）；闸门到 Wisdom Tree 约 <strong>25–30 分钟 / 0.72 公里，爬升 174 米</strong>。合计单程约 35–40 分钟、总爬升约 225 米'
+          ticket: '建筑、场地、公共望远镜<strong>全部免费</strong>（1935 年捐赠契约规定不得收门票）。Samuel Oschin 天象厅成人 $12、55+ 与学生 $10、5–12 岁 $8，<strong>仅现场购当日场次，无法网购或预订</strong>',
+          hours: '周二至周五 12:00–22:00；周六日 10:00–22:00；<strong>周一闭馆</strong>。<strong>场地与露台每天开放</strong>。免费公众望远镜观测：开馆日 19:00–21:30。Griffith Park 全园 05:00–22:30',
+          parking: '官方停车场与 West/Western Canyon Road 路边约 <strong>$10/小时</strong>，无时长上限，<strong>仅收信用卡</strong>，收据须放挡风玻璃内否则罚单。收费时段周一至周五 12:00–22:00、周六日 10:00–22:00，<strong>全年每天执法且节假日费率上调</strong>。<strong>周末与晴朗日落夜在日落前 90 分钟基本满位</strong>，满位后车辆会被劝返下山。免费替代：Greek Theatre 停车场（无演出日）加步行约 1 英里，或 DASH 巴士 $0.50',
+          walk: '主停车场到西露台约 <strong>3–5 分钟 / 200–300 米</strong>；Greek Theatre 步行上山 20–30 分钟、爬升约 130 米'
         },
         notes: [
-          '<strong>本区最陡的一段</strong>：0.72 公里内爬升 174 米（平均坡度 24%），碎石松动、无遮荫、无水源，必须穿有抓地力的鞋',
-          '<strong>下撤风险高于上山</strong>。碎石陡坡在暮色中极易滑倒，若拍日落，<strong>头灯是必需品</strong>（不是手机手电）',
-          '请勿攀爬或触碰 Wisdom Tree。树枝部分时段会被保护性包裹以进行养护，切勿拉扯、刻字或悬挂物品',
-          'Lake Hollywood Drive 应不在 PPD 320 周末禁停范围内，但两个区域仅隔一个山谷且规则都在变动，<strong>请现场逐块核对标志牌</strong>',
-          '山上手机信号差，返程叫车困难，建议下撤到 Barham Blvd 再叫车'
+          '<strong>9/7 Labor Day 建筑闭馆</strong>（周一规则照常），但场地、露台、西栏杆观景位全部开放，对纯摄影行程影响有限',
+          '<strong>切勿在日落前 20–45 分钟抵达</strong>——这是最糟的窗口：停车场已满、上山单行道 stop-and-go、路边车位被抢，而你人还在车里。正确做法是日落前 90–120 分钟到位',
+          '拥堵时警方会<strong>直接封闭上山道路</strong>，届时只有 DASH 巴士、旅游大巴与无障碍接驳车放行——这本身就是选 DASH 的最强理由',
+          'Greek Theatre 演出日 13:00 后不提供停车。9/5 与 9/7 无演出（可免费停），<strong>9/6、9/8、9/9 有演出</strong>',
+          '上山时注意选车道：West Observatory Road 左车道进停车场，右车道是路边停车与过境，<strong>走错车道无法进停车场</strong>',
+          'East Observatory Road 现为单向下山。日落后 19:30–20:30 是下山高峰，留到 21:00 后再走会顺畅很多',
+          '园区大门 22:00 关闭，若约车接送务必让司机 22:00 前进园'
         ],
         images: [
-          { url: 'assets/img/wisdom-tree-los-angeles-united-states-unsplash-157645ea.jpg', cap: 'Wisdom Tree 孤松 · Andre Benz / CC0' },
-          { url: 'assets/img/panorama-of-los-angeles-from-burbank-peak-e7bf284b.jpg', cap: '自 Burbank Peak 俯瞰洛杉矶全景 · Downtowngal / CC BY-SA 3.0' },
-          { url: 'assets/img/mount-lee-from-burbank-peak-cc299f9c.jpg', cap: '自 Burbank Peak 望 Mount Lee 与 Sign · Downtowngal / CC BY-SA 3.0' }
+          { url: 'assets/img/griffith-observatory-facade-8b9a45ab.jpg', cap: 'Griffith Observatory 立面 · APickleForTheKnowingOnes / CC0' },
+          { url: 'assets/img/view-from-the-balcony-at-griffith-observatory-on-the-hollywo-2648a267.jpg', cap: '自西露台望 Hollywood Sign 与 Mount Lee · Steveshelokhonov / CC BY-SA 4.0' },
+          { url: 'assets/img/griffith-observatory-2012-01-b6efc40f.jpg', cap: 'Griffith Observatory 全景 · Mike Peel / CC BY-SA 4.0' }
         ]
       },
       {
@@ -1469,8 +1467,62 @@ var REGIONS = [
         ]
       },
       {
-        id: 'lacma',
+        id: 'rodeo-drive',
         n: 6,
+        name: '罗迪欧大道',
+        en: 'Rodeo Drive · Beverly Hills Sign · Via Rodeo',
+        score: 3.5,
+        tldr: '三个机位步行可达，全部免费；市政停车楼 7:00–18:00 前两小时免费，两小时内拍完可以零成本。',
+        tags: [{ t: '全部免费', c: 'free' }, { t: '停车前 2 小时免费', c: 'free' }, { t: '清晨才空场', c: 'risk' }],
+        highlights: [
+          '<strong>Beverly Hills Sign 与睡莲池</strong>：40 英尺长的发光招牌立在睡莲池后。这组景观源于 1907 年的房地产推广——当年潜在买主从对面火车站下车，第一眼看到的就是这个池塘。原招牌一度残破消失，2014 年为庆祝建市百年由市政与居民捐资完整复原',
+          '<strong>Walk of Style</strong>：North Rodeo Drive 人行道上嵌有纪念 Armani、Tom Ford、Ferragamo、Manolo Blahnik、Valentino、Cartier、Versace 等时尚业名人的铜牌；Dayton Way 交口有 Robert Graham 专为此路创作的 14 英尺高实心铝雕《Torso》',
+          '<strong>Two Rodeo Drive / Via Rodeo</strong>：欧洲小城风格的鹅卵石斜坡街道，坡底立着著名的路牌。<strong>术语澄清：Beverly Hills 并没有官方名为「Spanish Steps」的地标</strong>，那是游客对 Two Rodeo 鹅卵石台阶的俗称，查资料请用 Two Rodeo Drive 或 Via Rodeo',
+          'Beverly Gardens Park 绿带全长 1.9 英里、跨 22 个街区，从招牌走到 Rodeo Drive 一路都是补充素材，含 Electric Fountain、玫瑰园、仙人掌园与多件公共艺术'
+        ],
+        photo: '人像打卡 <strong>5/5</strong>，建筑 <strong>3.5/5</strong>，风光 <strong>1.5/5</strong>。本区人像打卡属性最强的一站，全部免费且全部好拍；扣分因整体属于商业布景式建筑，缺乏建筑深度。',
+        shots: [
+          {
+            name: 'Beverly Hills Sign 与睡莲池',
+            desc: '招牌面朝南全天受光。<strong>清晨 06:45–08:30 是最佳选择</strong>——光线柔和、无人，且招牌照明仍可见。次选 18:15–19:10 暖光（但人多）。<strong>19:10 日落后招牌点亮，19:15–19:35 蓝调期可拍「招牌发光配深蓝天空」，这是这里的最高级版本。</strong>24–35mm 把睡莲池、招牌、后方棕榈一起纳入。<strong>关键是蹲低到接近水面，让睡莲池的倒影把招牌复制一遍</strong>——这是区别于千篇一律游客照的要点。',
+            park: [34.0700, -118.4009],
+            view: [34.072407, -118.403523]
+          },
+          {
+            name: 'North Rodeo Drive 棕榈大道与 Walk of Style',
+            desc: 'Rodeo Drive 为南北走向，<strong>日落时被西侧建筑遮挡，因此这里不是日落机位</strong>。<strong>上午 08:00–10:30</strong>（店铺尚未开门、街上几乎没人、东侧立面受暖光）是拍「空无一人的 Rodeo Drive」的唯一机会。24–35mm 沿街拍棕榈树列透视，50mm 或 100mm 接近垂直向下拍地面铜牌以避免反光。',
+            view: [34.067707, -118.401485]
+          },
+          {
+            name: 'Two Rodeo Drive 鹅卵石斜坡',
+            desc: '窄街高墙，<strong>大部分时间处于阴影中——这是一个「柔光箱」机位，不依赖直射阳光</strong>。10:00–12:00 或 16:00–18:00 天空散射光最好，<strong>正午顶光会在鹅卵石上打出杂乱斑点，避开</strong>。35mm 或 50mm 还原「站在欧洲小巷里」的透视感，85mm 拍台阶上的人像。站坡底用 Via Rodeo 路牌做前景左侧，鹅卵石斜坡向上延伸做引导线。',
+            view: [34.067499, -118.400945]
+          }
+        ],
+        access: {
+          book: '不需预约',
+          ticket: '<strong>全部免费</strong>，Beverly Gardens Park 与 Rodeo Drive 均为开放公共空间',
+          hours: '户外区域无限制。店铺通常 10:00/11:00–18:00/19:00，<strong>9/7 Labor Day 多家可能缩短营业，但不影响任何户外拍摄</strong>',
+          parking: '<strong>本区性价比最高的一处</strong>：市政停车楼（如 450 North Rexford Drive）与 Two Rodeo 私有停车场均提供 <strong>每日 7:00–18:00 前两小时免费</strong>。全市另有多个 2 小时免费地面停车场。→ <strong>两小时内的拍摄可以做到停车零成本</strong>',
+          walk: '450 N Rexford Dr 停车楼到 Two Rodeo 约 <strong>280 米 / 4 分钟</strong>；Beverly Hills Sign 到 Rodeo Drive 主段约 <strong>595 米 / 8 分钟</strong>。<strong>Metro D 线「Wilshire/Rodeo」站</strong>可完全避开停车与堵车'
+        },
+        notes: [
+          '<strong>私人保安是这里最大的变量。</strong>Rodeo Drive 奢侈品店门口普遍有保安，在店门口或店内拍摄很可能被劝止，尤其带大三脚架时。<strong>建议站在公共人行道上拍店面外观（合法），不要把镜头对着店内或顾客</strong>',
+          '三脚架在公共人行道与公园内法律上可用，但 Rodeo Drive 商业段架三脚架极易被询问；<strong>Beverly Gardens Park（招牌处）宽松得多</strong>，拍蓝调时用三脚架通常没问题',
+          '<strong>商业与模特拍摄需许可</strong>，带专业模特、造型团队、反光板阵仗一定会被要求出示。个人旅行摄影与手持人像不受影响',
+          '<strong>Beverly Hills Sign 处几乎全天排队拍照</strong>（尤其 10:00–17:00），<strong>清晨 07:00–08:30 是唯一的空场窗口</strong>——强烈建议牺牲一个早上',
+          '建议路线：停 Rexford Dr 到招牌（8 分钟），沿 Beverly Gardens Park 绿带走回 Rodeo Drive（8 分钟），再到 Walk of Style 与 Two Rodeo。全程步行 25–35 分钟，加拍摄共 1.5–2 小时',
+          'Beverly Hills 是本区最安全的区域，但该市也有砸车抢夺案件，<strong>车内不要留器材</strong>'
+        ],
+        images: [
+          { url: 'assets/img/written-beverly-hills-in-beverly-gardens-park-a0bf4095.jpg', cap: 'Beverly Hills 招牌与睡莲池 · Andrek02 / CC0' },
+          { url: 'assets/img/via-rodeo-drive-3ccf06d3.jpg', cap: 'Via Rodeo 鹅卵石斜坡 · Prayitno / CC BY 2.0' },
+          { url: 'assets/img/rodeo-drive-california-ba14fce5.jpg', cap: 'Rodeo Drive 棕榈大道街景 · Prayitno / CC BY 2.0' }
+        ]
+      },
+      {
+        id: 'lacma',
+        n: 7,
         name: '洛杉矶郡立美术馆',
         en: 'LACMA · Urban Light · Levitated Mass',
         score: 4.5,
@@ -1527,8 +1579,59 @@ var REGIONS = [
         ]
       },
       {
+        id: 'vista-hermosa',
+        n: 8,
+        name: '美景自然公园',
+        en: 'Vista Hermosa Natural Park',
+        score: 4,
+        tldr: '野草与橡树前景配 Downtown 天际线，是最「自然」的城市天际线机位；但日落即闭园，拍不到蓝调。',
+        tags: [{ t: '完全免费', c: 'free' }, { t: '日落即闭园', c: 'risk' }, { t: '人少', c: 'free' }, { t: '砸车风险', c: 'risk' }],
+        highlights: [
+          '10.5 英亩的城市自然公园，由 Santa Monica Mountains Conservancy 在一片<strong>废弃油田上建成</strong>（2008 年开放），是该密集人口区一百多年来的第一座公园',
+          '<strong>核心摄影价值在于：站在小山丘的草甸上，前景是野草与橡树，背景是完整的 Downtown 天际线</strong>——一种「野地里看见大城市」的强烈反差，是所有天际线机位中最自然的一个',
+          '园内还有地中海式原生植被、橡树草原、小溪流、岩石探险区与下沉石窟式露天剧场',
+          '游客极少（大多是附近居民），本地常有 Quinceañera 与毕业照在此拍摄'
+        ],
+        photo: '风光 <strong>4/5</strong>，人像 <strong>4.5/5</strong>，建筑 <strong>3.5/5</strong>。免费、人少、多种背景，天际线作背景的人像出片率极高；扣分因日落即闭园拍不到蓝调。',
+        shots: [
+          {
+            name: '山顶草甸（天际线主机位）',
+            desc: 'Downtown 楼群位于公园正东。<strong>日落 18:10–19:10 时太阳在你背后，楼群被正面暖金色光照亮</strong>——这是本机位的最佳时段，顺光下玻璃幕墙会整片反射橙金色。<strong>70–200mm 是首选</strong>，把楼群压缩放大让它们「贴」在草地后方；<strong>广角会让 Downtown 显得又小又远</strong>。蹲低让前景野草占画面下三分之一、天际线压上三分之一、中间留橡树剪影。',
+            park: [34.0620, -118.2572],
+            view: [34.061699, -118.256900]
+          },
+          {
+            name: '野草前景低机位（草地南侧）',
+            desc: '18:30–19:05，低角度光穿透草叶形成金色轮廓光。35mm 或 50mm 贴地拍摄，逆光或侧逆光穿草、天际线做背景。<strong>这是本公园最容易出「杂志感」照片的机位。</strong>',
+            view: [34.0614, -118.2572]
+          },
+          {
+            name: '石窟露天剧场',
+            desc: '10:00–15:00 阴影中的柔光或 18:00 后。24–50mm 拍石阶的同心弧线配上方植被，是与天际线完全不同的封闭式人像背景，适合拍情绪肖像。',
+            view: [34.0619, -118.2566]
+          }
+        ],
+        access: {
+          book: '不需预约',
+          ticket: '<strong>完全免费</strong>',
+          hours: '<strong>日出至日落，日落即闭园</strong>。9/5–9/9 日落 19:07–19:13。→ <strong>可以拍到日落前的黄金时段（正是本机位最佳时段），但拍不到日落后的蓝调与城市灯光</strong>。实际执行：18:00 到场，18:15–19:10 密集拍摄，19:10 立刻撤离',
+          parking: '主入口 100 N Toluca St 有<strong>小型免费专用停车场</strong>，但车位非常少，高峰时段需找路边车位',
+          walk: '停车场到山顶草甸观景点约 <strong>110 米 / 2–3 分钟</strong>，有上坡但为铺装步道。全园环形步道约 0.5 英里 / 11 分钟走完'
+        },
+        notes: [
+          '<strong>砸车盗窃是本条目最需注意的风险</strong>。多条访客反馈提到停车场与周边曾发生砸车。<strong>不要把任何器材或包袋留在车内可见处</strong>，尤其后座',
+          '如果你要的是灯光天际线，请改去 6th Street Viaduct——这里日落就得走',
+          '三脚架可正常使用（MRCA 未见明文禁止，公园环境宽松）',
+          '公园紧邻 Edward R. Roybal Learning Center 中学，上下学时段学生密集，拍人像注意避免误拍未成年人'
+        ],
+        images: [
+          { url: 'assets/img/2013-vista-hermosa-natural-park-panoramio-d5f12b62.jpg', cap: 'Vista Hermosa 草甸与 Downtown 天际线 · Chris English / CC BY-SA 3.0' },
+          { url: 'assets/img/vista-hermosa-natural-park-2008-ff2c895f.jpg', cap: '公园原生植被与步道 · Laurie Avocado / CC BY 2.0' }
+        ]
+      },
+      {
         id: 'disney-hall',
-        n: 7,
+        n: 9,
         name: '迪士尼音乐厅',
         en: 'Walt Disney Concert Hall · Blue Ribbon Garden',
         score: 5,
@@ -1586,7 +1689,7 @@ var REGIONS = [
       },
       {
         id: 'bradbury',
-        n: 8,
+        n: 10,
         name: '布拉德伯里大厦',
         en: 'Bradbury Building',
         score: 5,
@@ -1640,7 +1743,7 @@ var REGIONS = [
       },
       {
         id: 'sixth-street-viaduct',
-        n: 9,
+        n: 11,
         name: '第六街高架桥',
         en: 'Sixth Street Viaduct (Ribbon of Light)',
         score: 4,
@@ -1694,59 +1797,8 @@ var REGIONS = [
         ]
       },
       {
-        id: 'vista-hermosa',
-        n: 10,
-        name: '美景自然公园',
-        en: 'Vista Hermosa Natural Park',
-        score: 4,
-        tldr: '野草与橡树前景配 Downtown 天际线，是最「自然」的城市天际线机位；但日落即闭园，拍不到蓝调。',
-        tags: [{ t: '完全免费', c: 'free' }, { t: '日落即闭园', c: 'risk' }, { t: '人少', c: 'free' }, { t: '砸车风险', c: 'risk' }],
-        highlights: [
-          '10.5 英亩的城市自然公园，由 Santa Monica Mountains Conservancy 在一片<strong>废弃油田上建成</strong>（2008 年开放），是该密集人口区一百多年来的第一座公园',
-          '<strong>核心摄影价值在于：站在小山丘的草甸上，前景是野草与橡树，背景是完整的 Downtown 天际线</strong>——一种「野地里看见大城市」的强烈反差，是所有天际线机位中最自然的一个',
-          '园内还有地中海式原生植被、橡树草原、小溪流、岩石探险区与下沉石窟式露天剧场',
-          '游客极少（大多是附近居民），本地常有 Quinceañera 与毕业照在此拍摄'
-        ],
-        photo: '风光 <strong>4/5</strong>，人像 <strong>4.5/5</strong>，建筑 <strong>3.5/5</strong>。免费、人少、多种背景，天际线作背景的人像出片率极高；扣分因日落即闭园拍不到蓝调。',
-        shots: [
-          {
-            name: '山顶草甸（天际线主机位）',
-            desc: 'Downtown 楼群位于公园正东。<strong>日落 18:10–19:10 时太阳在你背后，楼群被正面暖金色光照亮</strong>——这是本机位的最佳时段，顺光下玻璃幕墙会整片反射橙金色。<strong>70–200mm 是首选</strong>，把楼群压缩放大让它们「贴」在草地后方；<strong>广角会让 Downtown 显得又小又远</strong>。蹲低让前景野草占画面下三分之一、天际线压上三分之一、中间留橡树剪影。',
-            park: [34.0620, -118.2572],
-            view: [34.061699, -118.256900]
-          },
-          {
-            name: '野草前景低机位（草地南侧）',
-            desc: '18:30–19:05，低角度光穿透草叶形成金色轮廓光。35mm 或 50mm 贴地拍摄，逆光或侧逆光穿草、天际线做背景。<strong>这是本公园最容易出「杂志感」照片的机位。</strong>',
-            view: [34.0614, -118.2572]
-          },
-          {
-            name: '石窟露天剧场',
-            desc: '10:00–15:00 阴影中的柔光或 18:00 后。24–50mm 拍石阶的同心弧线配上方植被，是与天际线完全不同的封闭式人像背景，适合拍情绪肖像。',
-            view: [34.0619, -118.2566]
-          }
-        ],
-        access: {
-          book: '不需预约',
-          ticket: '<strong>完全免费</strong>',
-          hours: '<strong>日出至日落，日落即闭园</strong>。9/5–9/9 日落 19:07–19:13。→ <strong>可以拍到日落前的黄金时段（正是本机位最佳时段），但拍不到日落后的蓝调与城市灯光</strong>。实际执行：18:00 到场，18:15–19:10 密集拍摄，19:10 立刻撤离',
-          parking: '主入口 100 N Toluca St 有<strong>小型免费专用停车场</strong>，但车位非常少，高峰时段需找路边车位',
-          walk: '停车场到山顶草甸观景点约 <strong>110 米 / 2–3 分钟</strong>，有上坡但为铺装步道。全园环形步道约 0.5 英里 / 11 分钟走完'
-        },
-        notes: [
-          '<strong>砸车盗窃是本条目最需注意的风险</strong>。多条访客反馈提到停车场与周边曾发生砸车。<strong>不要把任何器材或包袋留在车内可见处</strong>，尤其后座',
-          '如果你要的是灯光天际线，请改去 6th Street Viaduct——这里日落就得走',
-          '三脚架可正常使用（MRCA 未见明文禁止，公园环境宽松）',
-          '公园紧邻 Edward R. Roybal Learning Center 中学，上下学时段学生密集，拍人像注意避免误拍未成年人'
-        ],
-        images: [
-          { url: 'assets/img/2013-vista-hermosa-natural-park-panoramio-d5f12b62.jpg', cap: 'Vista Hermosa 草甸与 Downtown 天际线 · Chris English / CC BY-SA 3.0' },
-          { url: 'assets/img/vista-hermosa-natural-park-2008-ff2c895f.jpg', cap: '公园原生植被与步道 · Laurie Avocado / CC BY 2.0' }
-        ]
-      },
-      {
         id: 'baldwin-hills',
-        n: 11,
+        n: 12,
         name: '鲍德温山观景台',
         en: 'Baldwin Hills Scenic Overlook',
         score: 4,
@@ -1798,170 +1850,8 @@ var REGIONS = [
         ]
       },
       {
-        id: 'rodeo-drive',
-        n: 12,
-        name: '罗迪欧大道',
-        en: 'Rodeo Drive · Beverly Hills Sign · Via Rodeo',
-        score: 3.5,
-        tldr: '三个机位步行可达，全部免费；市政停车楼 7:00–18:00 前两小时免费，两小时内拍完可以零成本。',
-        tags: [{ t: '全部免费', c: 'free' }, { t: '停车前 2 小时免费', c: 'free' }, { t: '清晨才空场', c: 'risk' }],
-        highlights: [
-          '<strong>Beverly Hills Sign 与睡莲池</strong>：40 英尺长的发光招牌立在睡莲池后。这组景观源于 1907 年的房地产推广——当年潜在买主从对面火车站下车，第一眼看到的就是这个池塘。原招牌一度残破消失，2014 年为庆祝建市百年由市政与居民捐资完整复原',
-          '<strong>Walk of Style</strong>：North Rodeo Drive 人行道上嵌有纪念 Armani、Tom Ford、Ferragamo、Manolo Blahnik、Valentino、Cartier、Versace 等时尚业名人的铜牌；Dayton Way 交口有 Robert Graham 专为此路创作的 14 英尺高实心铝雕《Torso》',
-          '<strong>Two Rodeo Drive / Via Rodeo</strong>：欧洲小城风格的鹅卵石斜坡街道，坡底立着著名的路牌。<strong>术语澄清：Beverly Hills 并没有官方名为「Spanish Steps」的地标</strong>，那是游客对 Two Rodeo 鹅卵石台阶的俗称，查资料请用 Two Rodeo Drive 或 Via Rodeo',
-          'Beverly Gardens Park 绿带全长 1.9 英里、跨 22 个街区，从招牌走到 Rodeo Drive 一路都是补充素材，含 Electric Fountain、玫瑰园、仙人掌园与多件公共艺术'
-        ],
-        photo: '人像打卡 <strong>5/5</strong>，建筑 <strong>3.5/5</strong>，风光 <strong>1.5/5</strong>。本区人像打卡属性最强的一站，全部免费且全部好拍；扣分因整体属于商业布景式建筑，缺乏建筑深度。',
-        shots: [
-          {
-            name: 'Beverly Hills Sign 与睡莲池',
-            desc: '招牌面朝南全天受光。<strong>清晨 06:45–08:30 是最佳选择</strong>——光线柔和、无人，且招牌照明仍可见。次选 18:15–19:10 暖光（但人多）。<strong>19:10 日落后招牌点亮，19:15–19:35 蓝调期可拍「招牌发光配深蓝天空」，这是这里的最高级版本。</strong>24–35mm 把睡莲池、招牌、后方棕榈一起纳入。<strong>关键是蹲低到接近水面，让睡莲池的倒影把招牌复制一遍</strong>——这是区别于千篇一律游客照的要点。',
-            park: [34.0700, -118.4009],
-            view: [34.072407, -118.403523]
-          },
-          {
-            name: 'North Rodeo Drive 棕榈大道与 Walk of Style',
-            desc: 'Rodeo Drive 为南北走向，<strong>日落时被西侧建筑遮挡，因此这里不是日落机位</strong>。<strong>上午 08:00–10:30</strong>（店铺尚未开门、街上几乎没人、东侧立面受暖光）是拍「空无一人的 Rodeo Drive」的唯一机会。24–35mm 沿街拍棕榈树列透视，50mm 或 100mm 接近垂直向下拍地面铜牌以避免反光。',
-            view: [34.067707, -118.401485]
-          },
-          {
-            name: 'Two Rodeo Drive 鹅卵石斜坡',
-            desc: '窄街高墙，<strong>大部分时间处于阴影中——这是一个「柔光箱」机位，不依赖直射阳光</strong>。10:00–12:00 或 16:00–18:00 天空散射光最好，<strong>正午顶光会在鹅卵石上打出杂乱斑点，避开</strong>。35mm 或 50mm 还原「站在欧洲小巷里」的透视感，85mm 拍台阶上的人像。站坡底用 Via Rodeo 路牌做前景左侧，鹅卵石斜坡向上延伸做引导线。',
-            view: [34.067499, -118.400945]
-          }
-        ],
-        access: {
-          book: '不需预约',
-          ticket: '<strong>全部免费</strong>，Beverly Gardens Park 与 Rodeo Drive 均为开放公共空间',
-          hours: '户外区域无限制。店铺通常 10:00/11:00–18:00/19:00，<strong>9/7 Labor Day 多家可能缩短营业，但不影响任何户外拍摄</strong>',
-          parking: '<strong>本区性价比最高的一处</strong>：市政停车楼（如 450 North Rexford Drive）与 Two Rodeo 私有停车场均提供 <strong>每日 7:00–18:00 前两小时免费</strong>。全市另有多个 2 小时免费地面停车场。→ <strong>两小时内的拍摄可以做到停车零成本</strong>',
-          walk: '450 N Rexford Dr 停车楼到 Two Rodeo 约 <strong>280 米 / 4 分钟</strong>；Beverly Hills Sign 到 Rodeo Drive 主段约 <strong>595 米 / 8 分钟</strong>。<strong>Metro D 线「Wilshire/Rodeo」站</strong>可完全避开停车与堵车'
-        },
-        notes: [
-          '<strong>私人保安是这里最大的变量。</strong>Rodeo Drive 奢侈品店门口普遍有保安，在店门口或店内拍摄很可能被劝止，尤其带大三脚架时。<strong>建议站在公共人行道上拍店面外观（合法），不要把镜头对着店内或顾客</strong>',
-          '三脚架在公共人行道与公园内法律上可用，但 Rodeo Drive 商业段架三脚架极易被询问；<strong>Beverly Gardens Park（招牌处）宽松得多</strong>，拍蓝调时用三脚架通常没问题',
-          '<strong>商业与模特拍摄需许可</strong>，带专业模特、造型团队、反光板阵仗一定会被要求出示。个人旅行摄影与手持人像不受影响',
-          '<strong>Beverly Hills Sign 处几乎全天排队拍照</strong>（尤其 10:00–17:00），<strong>清晨 07:00–08:30 是唯一的空场窗口</strong>——强烈建议牺牲一个早上',
-          '建议路线：停 Rexford Dr 到招牌（8 分钟），沿 Beverly Gardens Park 绿带走回 Rodeo Drive（8 分钟），再到 Walk of Style 与 Two Rodeo。全程步行 25–35 分钟，加拍摄共 1.5–2 小时',
-          'Beverly Hills 是本区最安全的区域，但该市也有砸车抢夺案件，<strong>车内不要留器材</strong>'
-        ],
-        images: [
-          { url: 'assets/img/written-beverly-hills-in-beverly-gardens-park-a0bf4095.jpg', cap: 'Beverly Hills 招牌与睡莲池 · Andrek02 / CC0' },
-          { url: 'assets/img/via-rodeo-drive-3ccf06d3.jpg', cap: 'Via Rodeo 鹅卵石斜坡 · Prayitno / CC BY 2.0' },
-          { url: 'assets/img/rodeo-drive-california-ba14fce5.jpg', cap: 'Rodeo Drive 棕榈大道街景 · Prayitno / CC BY 2.0' }
-        ]
-      },
-      {
-        id: 'venice-canals',
-        n: 13,
-        name: '威尼斯运河历史街区',
-        en: 'Venice Canal Historic District',
-        score: 4,
-        tldr: '1905 年开凿的运河与九座拱桥，全洛杉矶最可靠的倒影场景；区内完全没有访客停车位。',
-        tags: [{ t: '免费', c: 'free' }, { t: '区内无停车', c: 'risk' }, { t: '居民社区', c: 'risk' }],
-        highlights: [
-          '1905 年由 Abbot Kinney 开凿的六条海水运河，为 National Register 历史街区。<strong>九座拱形步行桥横跨约 50 英尺宽的水道</strong>',
-          '两岸建筑从 1900 年代原始小屋到当代玻璃住宅并置，<strong>建筑年代跨度是本区人文密度最高的</strong>',
-          '<strong>水面平静如镜，是全洛杉矶最可靠的倒影场景</strong>。清晨有各类海鸟在船坞与小船上觅食，黄昏水面光色最美',
-          '全区约 1.5 英里可步行水岸，慢走加拍照约需 1 小时'
-        ],
-        photo: '建筑人文 <strong>5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>2/5</strong>。拱桥是天然人像框架、背景干净、光线柔和；扣分因空间狭窄且需顾及居民。',
-        shots: [
-          {
-            name: 'Grand Canal 北段步行桥',
-            desc: '<strong>日出后 06:35–07:05</strong>（晨间无风时倒影最完整）或昏金光 18:40–19:10。24–35mm 立于桥面中央沿运河纵轴向南望，用拱桥栏杆做前景引导线，<strong>压低机位至栏杆高度让水面倒影占画面下半</strong>。',
-            park: [33.98600, -118.47000],
-            view: [33.985934, -118.465102]
-          },
-          {
-            name: 'Dell Avenue 跨 Carroll Canal 桥',
-            desc: '昏金光 18:40–19:12。Dell Avenue 是唯一贯穿运河区的车道，四座桥连成序列。35–85mm 站桥侧人行道向水道望，<strong>可把一座拱桥完整纳入并在水中形成「O」形闭环倒影</strong>。人像置于桥拱正中，f/2.8–f/4 使两岸房屋轻微虚化。',
-            view: [33.984577, -118.466591]
-          },
-          {
-            name: 'Grand Canal Court 水岸步道桥',
-            desc: '蓝调 19:15–19:35，住宅灯火亮起后用 16–24mm 超广角贴近水面拍两岸窗光在水中的拉长倒影。需三脚架，2–8 秒曝光。<strong>注意步道很窄，避免占道。</strong>',
-            view: [33.983328, -118.467587]
-          }
-        ],
-        access: {
-          book: '不需预约',
-          ticket: '<strong>免费</strong>，24 小时开放（官方建议白天 6:00–21:00 造访）',
-          parking: '<strong>本条目最大的难题：运河区内完全没有访客停车位。</strong>只能停街区外围 Venice Blvd、Washington Blvd、Pacific Avenue、Strongs Drive 的路边车位（免费但竞争激烈），或走远些用 Venice Beach 公共停车场 $5–15。路边智能停车表约 $1–2/小时、<strong>通常限停 2 小时</strong>，多数周一至周六 8:00–20:00 收费。<strong>务必逐块读牌</strong>，部分属优先停车区需居民许可证。建议上午 10 点前抵达',
-          walk: '从 Pacific Avenue 沿线车位入运河区约 <strong>250–500 米 / 3–6 分钟</strong>；从 South City Parking Lot 步行约 900 米 / 11–13 分钟'
-        },
-        notes: [
-          '<strong>这是一个居民社区，不是景区。</strong>步道是公共通行权，但花园、船坞、庭院、船只均为私人财产，踏入即属侵入。城市立牌写明风险自负',
-          '<strong>水面传声极好，请压低音量。</strong>居民协会与市府合作管理标识，明确要求访客留在步道上',
-          '禁止游泳与垂钓，禁止在步道骑车或滑板（需推行），遛狗须系绳并清理',
-          '<strong>夜间照明极少、人烟稀少</strong>，独行者不建议天黑后久留',
-          '步道狭窄，三脚架容易挡道，请尽量收拢并礼让行人'
-        ],
-        images: [
-          { url: 'assets/img/los-angeles-venice-canal-historic-district-02-b36a5958.jpg', cap: 'Venice 运河与拱桥倒影 · Américo Toledano / CC BY-SA 4.0' },
-          { url: 'assets/img/los-angeles-venice-canal-historic-district-01-8776c827.jpg', cap: '运河两岸住宅 · Américo Toledano / CC BY-SA 4.0' },
-          { url: 'assets/img/venice-canals-winter-evening-9e907b7c.jpg', cap: '运河傍晚水面 · Satyajitc / CC BY-SA 3.0' }
-        ]
-      },
-      {
-        id: 'muscle-beach',
-        n: 14,
-        name: '肌肉海滩与威尼斯海滨步道',
-        en: 'Muscle Beach Venice · Venice Boardwalk · Venice Sign',
-        score: 4.5,
-        tldr: '街头文化密度最高的一站，纪实与人像素材极多；但天黑后治安明显下降，蓝调拍完即撤。',
-        tags: [{ t: '免费', c: 'free' }, { t: '停车 $9–15', c: 'paid' }, { t: '夜间治安差', c: 'risk' }],
-        highlights: [
-          'Muscle Beach Venice 是<strong>户外健身文化的圣地</strong>——沙地上的露天举重区，蓝色器械、看台与棕榈树构成极具辨识度的美式亚文化场景，健美者常在此训练与表演，是<strong>纪实与人物特写的富矿</strong>',
-          'Venice Boardwalk（Ocean Front Walk）绵延 3 英里，街头艺人、涂鸦墙、滑板公园、手绘店招连成一条<strong>高密度街拍走廊</strong>',
-          'Windward Avenue 上方横跨的 Venice Sign 是标志性打卡门框，<strong>夜间亮灯</strong>',
-          '沙滩宽阔且正西向，可拍海上落日与棕榈剪影'
-        ],
-        photo: '人文 <strong>5/5</strong>，人像 <strong>5/5</strong>，风光 <strong>3/5</strong>。器械区、Venice Sign、涂鸦墙三种截然不同的人像背景，风格强烈；风光扣分因视觉杂乱、缺乏干净前景。',
-        shots: [
-          {
-            name: 'Muscle Beach 露天健身区',
-            desc: '<strong>昏金光 18:40–19:12</strong>（低角侧光勾勒肌肉线条与器械金属反光），或上午 9–11 点训练人多时。35mm 定焦拍环境人物，<strong>70–200mm 拍不干扰的特写并压缩看台层次</strong>。由沙地低机位仰拍，让人物与器械顶在天空上形成干净剪影。<strong>拍摄他人前请征得同意。</strong>',
-            park: [33.9855, -118.4735],
-            view: [33.985456, -118.472593]
-          },
-          {
-            name: 'Venice Sign（Windward Avenue 上方）',
-            desc: '<strong>蓝调 19:15–19:35</strong>，招牌亮灯与天空同亮度。24–50mm 站在 Windward Avenue 路中央（注意车辆）沿街道轴线向东望，让招牌横跨画面上缘、两侧历史柱廊建筑形成对称走廊，人像置于街心以招牌为顶部框架。',
-            view: [33.987613, -118.472361]
-          },
-          {
-            name: 'Boardwalk 街拍走廊',
-            desc: '下午 16:00–18:30 人流与光线俱佳。28mm 或 35mm 贴近抓拍，沿步道纵轴利用棕榈树列与店招做重复韵律。<strong>浅景深不适用，建议 f/8 全景深街拍。</strong>',
-            view: [33.986000, -118.472700]
-          },
-          {
-            name: '沙滩向西拍海上落日',
-            desc: '19:00–19:20。16–35mm 拍棕榈剪影配落日，或 200mm 以上压缩落日与人物剪影。日落方位约 278 度正对海面。<strong>9/5 沙滩最宽，最适合此机位</strong>（当日高潮早在 16:55，日落时水位已明显回落）。',
-            view: [33.985100, -118.474500]
-          }
-        ],
-        access: {
-          book: '不需预约',
-          ticket: '<strong>免费</strong>。Muscle Beach 围栏健身区内部使用需付费，但从外围拍摄免费',
-          parking: '三个公共停车场（South City Lot 2100 Ocean Front Walk、North City Lot 300 Ocean Front Walk、Washington Blvd Lot 3100 Washington Blvd）：<strong>夏季 6:00–9:00 $9，9:00–24:00 $15</strong>。付费机需输车牌，收卡与 $1、$5 纸币不找零，票据面朝上放驾驶侧仪表台。<strong>一车一入，当日不可重复进出</strong>。夏季周末与节假日常在 10:00–11:00 前满，Labor Day 更早，建议 9:30 前到',
-          walk: 'South City Lot 到 Muscle Beach 约 <strong>400 米 / 5 分钟</strong>；Muscle Beach 到 Venice Sign 约 300 米 / 4 分钟；到 Venice Canals 约 1.3 公里 / 15–18 分钟'
-        },
-        notes: [
-          '<strong>天黑后的 Venice Boardwalk 安全等级明显下降。</strong>此处长期存在无家可归者营地、街头纠纷与偷窃。<strong>强烈建议蓝调拍完（约 19:35）即撤离</strong>，不要在步道南段或偏僻沙滩独行，器材不外露，勿把包放在脚边。若要拍夜景请结伴并留在人多灯亮的 Windward Plaza 一带',
-          '<strong>Labor Day 是全年海滨最挤的日子之一</strong>，Boardwalk 从上午 10 点起就极为拥挤',
-          '<strong>商业拍摄许可仅限周一至周五</strong>，不接受周末与节假日——9/7 Labor Day 当天不可申请。纯个人旅拍不需要许可',
-          '拍摄街头艺人通常被期待给小费；健美者多数乐于被拍但请先问'
-        ],
-        images: [
-          { url: 'assets/img/muscle-beach-venice-outdoor-gym-c71bfe16.jpg', cap: 'Muscle Beach 露天健身区 · DanielMichaelPerry / CC0' },
-          { url: 'assets/img/venice-beach-boardwalk-los-angeles-2019-4ed8f08b.jpg', cap: 'Venice Boardwalk 街拍走廊 · Steven Lek / CC BY-SA 4.0' },
-          { url: 'assets/img/muscle-beach-venice-july-2023-2769acb0.jpg', cap: 'Muscle Beach 器械与看台 · Benoît Prieur / CC0' }
-        ]
-      },
-      {
         id: 'santa-monica-pier',
-        n: 15,
+        n: 13,
         name: '圣莫尼卡栈桥',
         en: 'Santa Monica Pier · Pacific Park · West Coaster · Route 66 End of the Trail',
         score: 5,
@@ -2019,8 +1909,204 @@ var REGIONS = [
         ]
       },
       {
-        id: 'point-fermin',
+        id: 'venice-canals',
+        n: 14,
+        name: '威尼斯运河历史街区',
+        en: 'Venice Canal Historic District',
+        score: 4,
+        tldr: '1905 年开凿的运河与九座拱桥，全洛杉矶最可靠的倒影场景；区内完全没有访客停车位。',
+        tags: [{ t: '免费', c: 'free' }, { t: '区内无停车', c: 'risk' }, { t: '居民社区', c: 'risk' }],
+        highlights: [
+          '1905 年由 Abbot Kinney 开凿的六条海水运河，为 National Register 历史街区。<strong>九座拱形步行桥横跨约 50 英尺宽的水道</strong>',
+          '两岸建筑从 1900 年代原始小屋到当代玻璃住宅并置，<strong>建筑年代跨度是本区人文密度最高的</strong>',
+          '<strong>水面平静如镜，是全洛杉矶最可靠的倒影场景</strong>。清晨有各类海鸟在船坞与小船上觅食，黄昏水面光色最美',
+          '全区约 1.5 英里可步行水岸，慢走加拍照约需 1 小时'
+        ],
+        photo: '建筑人文 <strong>5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>2/5</strong>。拱桥是天然人像框架、背景干净、光线柔和；扣分因空间狭窄且需顾及居民。',
+        shots: [
+          {
+            name: 'Grand Canal 北段步行桥',
+            desc: '<strong>日出后 06:35–07:05</strong>（晨间无风时倒影最完整）或昏金光 18:40–19:10。24–35mm 立于桥面中央沿运河纵轴向南望，用拱桥栏杆做前景引导线，<strong>压低机位至栏杆高度让水面倒影占画面下半</strong>。',
+            park: [33.98600, -118.47000],
+            view: [33.985934, -118.465102]
+          },
+          {
+            name: 'Dell Avenue 跨 Carroll Canal 桥',
+            desc: '昏金光 18:40–19:12。Dell Avenue 是唯一贯穿运河区的车道，四座桥连成序列。35–85mm 站桥侧人行道向水道望，<strong>可把一座拱桥完整纳入并在水中形成「O」形闭环倒影</strong>。人像置于桥拱正中，f/2.8–f/4 使两岸房屋轻微虚化。',
+            view: [33.984577, -118.466591]
+          },
+          {
+            name: 'Grand Canal Court 水岸步道桥',
+            desc: '蓝调 19:15–19:35，住宅灯火亮起后用 16–24mm 超广角贴近水面拍两岸窗光在水中的拉长倒影。需三脚架，2–8 秒曝光。<strong>注意步道很窄，避免占道。</strong>',
+            view: [33.983328, -118.467587]
+          }
+        ],
+        access: {
+          book: '不需预约',
+          ticket: '<strong>免费</strong>，24 小时开放（官方建议白天 6:00–21:00 造访）',
+          parking: '<strong>本条目最大的难题：运河区内完全没有访客停车位。</strong>只能停街区外围 Venice Blvd、Washington Blvd、Pacific Avenue、Strongs Drive 的路边车位（免费但竞争激烈），或走远些用 Venice Beach 公共停车场 $5–15。路边智能停车表约 $1–2/小时、<strong>通常限停 2 小时</strong>，多数周一至周六 8:00–20:00 收费。<strong>务必逐块读牌</strong>，部分属优先停车区需居民许可证。建议上午 10 点前抵达',
+          walk: '从 Pacific Avenue 沿线车位入运河区约 <strong>250–500 米 / 3–6 分钟</strong>；从 South City Parking Lot 步行约 900 米 / 11–13 分钟'
+        },
+        notes: [
+          '<strong>这是一个居民社区，不是景区。</strong>步道是公共通行权，但花园、船坞、庭院、船只均为私人财产，踏入即属侵入。城市立牌写明风险自负',
+          '<strong>水面传声极好，请压低音量。</strong>居民协会与市府合作管理标识，明确要求访客留在步道上',
+          '禁止游泳与垂钓，禁止在步道骑车或滑板（需推行），遛狗须系绳并清理',
+          '<strong>夜间照明极少、人烟稀少</strong>，独行者不建议天黑后久留',
+          '步道狭窄，三脚架容易挡道，请尽量收拢并礼让行人'
+        ],
+        images: [
+          { url: 'assets/img/los-angeles-venice-canal-historic-district-02-b36a5958.jpg', cap: 'Venice 运河与拱桥倒影 · Américo Toledano / CC BY-SA 4.0' },
+          { url: 'assets/img/los-angeles-venice-canal-historic-district-01-8776c827.jpg', cap: '运河两岸住宅 · Américo Toledano / CC BY-SA 4.0' },
+          { url: 'assets/img/venice-canals-winter-evening-9e907b7c.jpg', cap: '运河傍晚水面 · Satyajitc / CC BY-SA 3.0' }
+        ]
+      },
+      {
+        id: 'muscle-beach',
+        n: 15,
+        name: '肌肉海滩与威尼斯海滨步道',
+        en: 'Muscle Beach Venice · Venice Boardwalk · Venice Sign',
+        score: 4.5,
+        tldr: '街头文化密度最高的一站，纪实与人像素材极多；但天黑后治安明显下降，蓝调拍完即撤。',
+        tags: [{ t: '免费', c: 'free' }, { t: '停车 $9–15', c: 'paid' }, { t: '夜间治安差', c: 'risk' }],
+        highlights: [
+          'Muscle Beach Venice 是<strong>户外健身文化的圣地</strong>——沙地上的露天举重区，蓝色器械、看台与棕榈树构成极具辨识度的美式亚文化场景，健美者常在此训练与表演，是<strong>纪实与人物特写的富矿</strong>',
+          'Venice Boardwalk（Ocean Front Walk）绵延 3 英里，街头艺人、涂鸦墙、滑板公园、手绘店招连成一条<strong>高密度街拍走廊</strong>',
+          'Windward Avenue 上方横跨的 Venice Sign 是标志性打卡门框，<strong>夜间亮灯</strong>',
+          '沙滩宽阔且正西向，可拍海上落日与棕榈剪影'
+        ],
+        photo: '人文 <strong>5/5</strong>，人像 <strong>5/5</strong>，风光 <strong>3/5</strong>。器械区、Venice Sign、涂鸦墙三种截然不同的人像背景，风格强烈；风光扣分因视觉杂乱、缺乏干净前景。',
+        shots: [
+          {
+            name: 'Muscle Beach 露天健身区',
+            desc: '<strong>昏金光 18:40–19:12</strong>（低角侧光勾勒肌肉线条与器械金属反光），或上午 9–11 点训练人多时。35mm 定焦拍环境人物，<strong>70–200mm 拍不干扰的特写并压缩看台层次</strong>。由沙地低机位仰拍，让人物与器械顶在天空上形成干净剪影。<strong>拍摄他人前请征得同意。</strong>',
+            park: [33.9855, -118.4735],
+            view: [33.985456, -118.472593]
+          },
+          {
+            name: 'Venice Sign（Windward Avenue 上方）',
+            desc: '<strong>蓝调 19:15–19:35</strong>，招牌亮灯与天空同亮度。24–50mm 站在 Windward Avenue 路中央（注意车辆）沿街道轴线向东望，让招牌横跨画面上缘、两侧历史柱廊建筑形成对称走廊，人像置于街心以招牌为顶部框架。',
+            view: [33.987613, -118.472361]
+          },
+          {
+            name: 'Boardwalk 街拍走廊',
+            desc: '下午 16:00–18:30 人流与光线俱佳。28mm 或 35mm 贴近抓拍，沿步道纵轴利用棕榈树列与店招做重复韵律。<strong>浅景深不适用，建议 f/8 全景深街拍。</strong>',
+            view: [33.986000, -118.472700]
+          },
+          {
+            name: '沙滩向西拍海上落日',
+            desc: '19:00–19:20。16–35mm 拍棕榈剪影配落日，或 200mm 以上压缩落日与人物剪影。日落方位约 278 度正对海面。<strong>9/5 沙滩最宽，最适合此机位</strong>（当日高潮早在 16:55，日落时水位已明显回落）。',
+            view: [33.985100, -118.474500]
+          }
+        ],
+        access: {
+          book: '不需预约',
+          ticket: '<strong>免费</strong>。Muscle Beach 围栏健身区内部使用需付费，但从外围拍摄免费',
+          parking: '三个公共停车场（South City Lot 2100 Ocean Front Walk、North City Lot 300 Ocean Front Walk、Washington Blvd Lot 3100 Washington Blvd）：<strong>夏季 6:00–9:00 $9，9:00–24:00 $15</strong>。付费机需输车牌，收卡与 $1、$5 纸币不找零，票据面朝上放驾驶侧仪表台。<strong>一车一入，当日不可重复进出</strong>。夏季周末与节假日常在 10:00–11:00 前满，Labor Day 更早，建议 9:30 前到',
+          walk: 'South City Lot 到 Muscle Beach 约 <strong>400 米 / 5 分钟</strong>；Muscle Beach 到 Venice Sign 约 300 米 / 4 分钟；到 Venice Canals 约 1.3 公里 / 15–18 分钟'
+        },
+        notes: [
+          '<strong>天黑后的 Venice Boardwalk 安全等级明显下降。</strong>此处长期存在无家可归者营地、街头纠纷与偷窃。<strong>强烈建议蓝调拍完（约 19:35）即撤离</strong>，不要在步道南段或偏僻沙滩独行，器材不外露，勿把包放在脚边。若要拍夜景请结伴并留在人多灯亮的 Windward Plaza 一带',
+          '<strong>Labor Day 是全年海滨最挤的日子之一</strong>，Boardwalk 从上午 10 点起就极为拥挤',
+          '<strong>商业拍摄许可仅限周一至周五</strong>，不接受周末与节假日——9/7 Labor Day 当天不可申请。纯个人旅拍不需要许可',
+          '拍摄街头艺人通常被期待给小费；健美者多数乐于被拍但请先问'
+        ],
+        images: [
+          { url: 'assets/img/muscle-beach-venice-outdoor-gym-c71bfe16.jpg', cap: 'Muscle Beach 露天健身区 · DanielMichaelPerry / CC0' },
+          { url: 'assets/img/venice-beach-boardwalk-los-angeles-2019-4ed8f08b.jpg', cap: 'Venice Boardwalk 街拍走廊 · Steven Lek / CC BY-SA 4.0' },
+          { url: 'assets/img/muscle-beach-venice-july-2023-2769acb0.jpg', cap: 'Muscle Beach 器械与看台 · Benoît Prieur / CC0' }
+        ]
+      },
+      {
+        id: 'point-vicente',
         n: 16,
+        name: '文森特角灯塔',
+        en: 'Point Vicente Lighthouse · Interpretive Center',
+        score: 4.5,
+        tldr: 'Wayfarers Chapel 的首选替代：崖顶正西无遮挡、日落方位正对，且停车免费。',
+        tags: [{ t: '免费', c: 'free' }, { t: '停车免费', c: 'free' }, { t: '塔内通常不开放', c: 'risk' }],
+        highlights: [
+          '1926 年建成的 <strong>67 英尺白色圆塔</strong>立于 Palos Verdes 半岛西端崖顶，塔身洁白、灯室 Fresnel 透镜完整，是南加州最上镜的灯塔之一',
+          '<strong>崖顶正西开阔、无任何遮挡，而九月日落方位角 277–279 度几乎正对</strong>——这是本区最干净的海上落日机位',
+          '可完美替代已无法抵达的 Wayfarers Chapel 的「建筑加海景」组合，且<strong>停车完全免费</strong>',
+          'Interpretive Center 为市立博物馆与灰鲸观测点（鲸季在冬春，九月无），崖顶步道与草坪开阔'
+        ],
+        photo: '风光日落 <strong>5/5</strong>，建筑 <strong>4/5</strong>，人像 <strong>4/5</strong>。白塔配蓝海与崖顶草坪，背景干净高级；建筑扣分因塔内平日不开放。',
+        shots: [
+          {
+            name: 'The Major Vista Point 观景台',
+            desc: '<strong>昏金光 18:37–19:12，日落 19:09–19:14，蓝调至 19:36</strong>。24–70mm 拍灯塔配海，16–24mm 拍崖线全景。灯塔置于画面左或右三分线，让开阔海平面与落日占据其余空间，崖顶野草与龙舌兰可作前景。',
+            park: [33.744889, -118.410241],
+            view: [33.743170, -118.410373]
+          },
+          {
+            name: '灯塔全景机位',
+            desc: '70–200mm 从北侧压缩拍塔身与崖壁层次，35mm 拍塔、崖、海的关系。',
+            view: [33.741883, -118.410743]
+          },
+          {
+            name: 'Interpretive Center 崖顶草坪（人像）',
+            desc: '昏金光时段。85–135mm，f/1.8–2.8 逆光拍人物发丝光，背景为虚化的海平面与落日。',
+            view: [33.744761, -118.411400]
+          }
+        ],
+        access: {
+          book: '不需预约',
+          ticket: '崖顶步道与观景台免费。Interpretive Center 2026 年 9 月开放时间与门票<strong>未能确认</strong>（历史上为低价或免费、周一可能闭馆），请行前查 rpvca.gov——<strong>但户外崖顶机位不受此影响</strong>',
+          hours: '崖顶步道全天可达。<strong>灯塔塔身由 U.S. Coast Guard 管理，通常不对外开放内部</strong>（历史上仅每月一次开放日），2026 年 9 月安排未能确认',
+          parking: '<strong>多个免费停车场</strong>（OSM 标注 fee=no）',
+          walk: '停车场到 The Major Vista Point 约 <strong>200–280 米 / 3–4 分钟</strong>；到灯塔观景位约 350 米 / 5 分钟'
+        },
+        notes: [
+          '崖壁陡直无护栏处极危险，勿靠近边缘或翻越围栏。<strong>海风强劲，三脚架需压重</strong>',
+          '前往此处需经 Palos Verdes Drive South；<strong>该路对汽车正常开放</strong>，穿越 Portuguese Bend 滑坡区的路段仍在持续沥青修补，请减速、留意路面高差与横向裂缝。' +
+            '好消息是<strong>滑动已显著减速</strong>：峰值曾达每周 12 英寸，2026 年 8 月最新读数为每周约 1.1 英寸。行前仍建议查 rpvca.gov/landmovement',
+          '<strong>注意两轮车禁令仍然有效</strong>：出于安全考虑，Palos Verdes Drive South 的滑坡路段禁止摩托车、电动自行车与自行车通行——这只影响两轮出行，自驾不受限',
+          '<strong>其他替代机位</strong>：Abalone Cove Shoreline Park（距 Wayfarers 原址仅约 350 米，有崖顶海景与潮池，但位于滑坡活跃区边缘，2026 年开放状态未能确认）；Terranea Resort 崖顶公共步道（California Coastal Trail 段，非住客停车通常收费）；Trump National Golf Club 崖顶眺望（公众通行范围未能确认）'
+        ],
+        images: [
+          { url: 'assets/img/point-vicente-lighthouse-44623086120-4b329d3c.jpg', cap: 'Point Vicente 灯塔与崖线 · Ron Reiring / CC BY-SA 2.0' },
+          { url: 'assets/img/parlos-verdes-light-house-aug-2012-1a9287d1.jpg', cap: '灯塔全景 · Mike Quach / CC BY-SA 3.0' },
+          { url: 'assets/img/point-vicente-lighthouse-on-cliff-b159e179.jpg', cap: '崖顶白塔 · Nhostetler / CC BY-SA 3.0' }
+        ]
+      },
+      {
+        id: 'wayfarers-chapel',
+        n: 17,
+        gone: '本次无法抵达',
+        name: '玻璃教堂',
+        en: 'Wayfarers Chapel',
+        score: 0,
+        tldr: '2024 年因滑坡拆解入库，原址与庭园全部封闭，重建希望 2027 年秋开工。请从行程中删除。',
+        tags: [{ t: '已拆解', c: 'risk' }, { t: '原址封闭', c: 'risk' }],
+        highlights: [
+          'Lloyd Wright（Frank Lloyd Wright 之子）设计的「玻璃教堂」，1951 年落成，以玻璃墙与红杉林交融的中世纪现代主义杰作闻名，<strong>2023 年 12 月刚被指定为 National Historic Landmark</strong>',
+          '<strong>2024 年 2 月因 Portuguese Bend 滑坡复活而关闭</strong>——教堂地基出现大面积裂缝、结构失稳；<strong>2024 年 5 月起专业拆解，7 月拆解完成</strong>，绝大部分材料（含 Walk of Honor 刻名纪念砖）已编号入库',
+          '<strong>官方已判定原址不可能重建。</strong>新址选在 City Hall 旁的 Battery Barnes（一处约 4 英亩、现属 U.S. Coast Guard 的二战海防用地，距原址西约 1 英里）',
+          '<strong>卡点在于该地块转让需国会立法</strong>：Rep. Ted Lieu 于 2026 年 1 月表示将提案，但 RPV 市长明确表示「目前尚无任何承诺或协议」；截至 2026 年 2 月最新项目更新，Battery Barnes 仍被教会自己的材料描述为「拟定」地点',
+          '官网 FAQ 称<strong>希望第一期重建于 2027 年秋季开工</strong>——即本次行程期间既无教堂，也无工地可拍'
+        ],
+        photo: '<strong>本次无法拍摄。</strong>请勿驱车前往原址——该处封闭，且位于滑坡活跃区。替代机位见上一条 Point Vicente。',
+        shots: [],
+        access: {
+          book: '—',
+          ticket: '—',
+          hours: '<strong>原址与周边庭园全部封闭</strong>',
+          parking: '—',
+          walk: '—'
+        },
+        notes: [
+          '<strong>请将此点从行程中删除。</strong>教会活动未中断：主日聚会以视频进行，并在 Palos Verdes Estates 的 St. Francis Chapel 提供线下选项',
+          '首选替代是 <strong>Point Vicente Lighthouse 与 Interpretive Center</strong>（见上一条），崖顶正西无遮挡、日落方位正对、停车免费',
+          '其次可考虑 Abalone Cove Shoreline Park（最接近原计划位置）、Terranea Resort 崖顶公共步道、Trump National Golf Club 崖顶眺望'
+        ],
+        images: [
+          { url: 'assets/img/wayfarers-chapel-2018-2-19-ca513868.jpg', cap: '拆解前的玻璃教堂（历史影像）· Sitao Xiang / CC BY-SA 4.0' },
+          { url: 'assets/img/wayfarer-s-chapel-plaza-67d09927.jpg', cap: '教堂庭园（历史影像）· Prashila Amatya / CC BY-SA 4.0' }
+        ]
+      },
+      {
+        id: 'point-fermin',
+        n: 18,
         name: '费尔明角灯塔与公园',
         en: 'Point Fermin Lighthouse · Point Fermin Park · Sunken City',
         score: 4.5,
@@ -2076,94 +2162,6 @@ var REGIONS = [
           { url: 'assets/img/point-fermin-lighthouse-46475598811-b4781d15.jpg', cap: 'Point Fermin 灯塔与白篱栅 · Ron Reiring / CC BY 2.0' },
           { url: 'assets/img/point-fermin-lighthouse-san-pedro-california-11400358046-f72afeac.jpg', cap: '维多利亚木构与灯室 · Doug Kerr / CC BY-SA 2.0' },
           { url: 'assets/img/point-fermin-lighthouse-flowers-281d5483.jpg', cap: '灯塔与玫瑰花圃 · Cynthiastanley / CC BY-SA 4.0' }
-        ]
-      },
-      {
-        id: 'point-vicente',
-        n: 17,
-        name: '文森特角灯塔',
-        en: 'Point Vicente Lighthouse · Interpretive Center',
-        score: 4.5,
-        tldr: 'Wayfarers Chapel 的首选替代：崖顶正西无遮挡、日落方位正对，且停车免费。',
-        tags: [{ t: '免费', c: 'free' }, { t: '停车免费', c: 'free' }, { t: '塔内通常不开放', c: 'risk' }],
-        highlights: [
-          '1926 年建成的 <strong>67 英尺白色圆塔</strong>立于 Palos Verdes 半岛西端崖顶，塔身洁白、灯室 Fresnel 透镜完整，是南加州最上镜的灯塔之一',
-          '<strong>崖顶正西开阔、无任何遮挡，而九月日落方位角 277–279 度几乎正对</strong>——这是本区最干净的海上落日机位',
-          '可完美替代已无法抵达的 Wayfarers Chapel 的「建筑加海景」组合，且<strong>停车完全免费</strong>',
-          'Interpretive Center 为市立博物馆与灰鲸观测点（鲸季在冬春，九月无），崖顶步道与草坪开阔'
-        ],
-        photo: '风光日落 <strong>5/5</strong>，建筑 <strong>4/5</strong>，人像 <strong>4/5</strong>。白塔配蓝海与崖顶草坪，背景干净高级；建筑扣分因塔内平日不开放。',
-        shots: [
-          {
-            name: 'The Major Vista Point 观景台',
-            desc: '<strong>昏金光 18:37–19:12，日落 19:09–19:14，蓝调至 19:36</strong>。24–70mm 拍灯塔配海，16–24mm 拍崖线全景。灯塔置于画面左或右三分线，让开阔海平面与落日占据其余空间，崖顶野草与龙舌兰可作前景。',
-            park: [33.744889, -118.410241],
-            view: [33.743170, -118.410373]
-          },
-          {
-            name: '灯塔全景机位',
-            desc: '70–200mm 从北侧压缩拍塔身与崖壁层次，35mm 拍塔、崖、海的关系。',
-            view: [33.741883, -118.410743]
-          },
-          {
-            name: 'Interpretive Center 崖顶草坪（人像）',
-            desc: '昏金光时段。85–135mm，f/1.8–2.8 逆光拍人物发丝光，背景为虚化的海平面与落日。',
-            view: [33.744761, -118.411400]
-          }
-        ],
-        access: {
-          book: '不需预约',
-          ticket: '崖顶步道与观景台免费。Interpretive Center 2026 年 9 月开放时间与门票<strong>未能确认</strong>（历史上为低价或免费、周一可能闭馆），请行前查 rpvca.gov——<strong>但户外崖顶机位不受此影响</strong>',
-          hours: '崖顶步道全天可达。<strong>灯塔塔身由 U.S. Coast Guard 管理，通常不对外开放内部</strong>（历史上仅每月一次开放日），2026 年 9 月安排未能确认',
-          parking: '<strong>多个免费停车场</strong>（OSM 标注 fee=no）',
-          walk: '停车场到 The Major Vista Point 约 <strong>200–280 米 / 3–4 分钟</strong>；到灯塔观景位约 350 米 / 5 分钟'
-        },
-        notes: [
-          '崖壁陡直无护栏处极危险，勿靠近边缘或翻越围栏。<strong>海风强劲，三脚架需压重</strong>',
-          '前往此处需经 Palos Verdes Drive South；<strong>该路对汽车正常开放</strong>，穿越 Portuguese Bend 滑坡区的路段仍在持续沥青修补，请减速、留意路面高差与横向裂缝。' +
-            '好消息是<strong>滑动已显著减速</strong>：峰值曾达每周 12 英寸，2026 年 8 月最新读数为每周约 1.1 英寸。行前仍建议查 rpvca.gov/landmovement',
-          '<strong>注意两轮车禁令仍然有效</strong>：出于安全考虑，Palos Verdes Drive South 的滑坡路段禁止摩托车、电动自行车与自行车通行——这只影响两轮出行，自驾不受限',
-          '<strong>其他替代机位</strong>：Abalone Cove Shoreline Park（距 Wayfarers 原址仅约 350 米，有崖顶海景与潮池，但位于滑坡活跃区边缘，2026 年开放状态未能确认）；Terranea Resort 崖顶公共步道（California Coastal Trail 段，非住客停车通常收费）；Trump National Golf Club 崖顶眺望（公众通行范围未能确认）'
-        ],
-        images: [
-          { url: 'assets/img/point-vicente-lighthouse-44623086120-4b329d3c.jpg', cap: 'Point Vicente 灯塔与崖线 · Ron Reiring / CC BY-SA 2.0' },
-          { url: 'assets/img/parlos-verdes-light-house-aug-2012-1a9287d1.jpg', cap: '灯塔全景 · Mike Quach / CC BY-SA 3.0' },
-          { url: 'assets/img/point-vicente-lighthouse-on-cliff-b159e179.jpg', cap: '崖顶白塔 · Nhostetler / CC BY-SA 3.0' }
-        ]
-      },
-      {
-        id: 'wayfarers-chapel',
-        n: 18,
-        gone: '本次无法抵达',
-        name: '玻璃教堂',
-        en: 'Wayfarers Chapel',
-        score: 0,
-        tldr: '2024 年因滑坡拆解入库，原址与庭园全部封闭，重建希望 2027 年秋开工。请从行程中删除。',
-        tags: [{ t: '已拆解', c: 'risk' }, { t: '原址封闭', c: 'risk' }],
-        highlights: [
-          'Lloyd Wright（Frank Lloyd Wright 之子）设计的「玻璃教堂」，1951 年落成，以玻璃墙与红杉林交融的中世纪现代主义杰作闻名，<strong>2023 年 12 月刚被指定为 National Historic Landmark</strong>',
-          '<strong>2024 年 2 月因 Portuguese Bend 滑坡复活而关闭</strong>——教堂地基出现大面积裂缝、结构失稳；<strong>2024 年 5 月起专业拆解，7 月拆解完成</strong>，绝大部分材料（含 Walk of Honor 刻名纪念砖）已编号入库',
-          '<strong>官方已判定原址不可能重建。</strong>新址选在 City Hall 旁的 Battery Barnes（一处约 4 英亩、现属 U.S. Coast Guard 的二战海防用地，距原址西约 1 英里）',
-          '<strong>卡点在于该地块转让需国会立法</strong>：Rep. Ted Lieu 于 2026 年 1 月表示将提案，但 RPV 市长明确表示「目前尚无任何承诺或协议」；截至 2026 年 2 月最新项目更新，Battery Barnes 仍被教会自己的材料描述为「拟定」地点',
-          '官网 FAQ 称<strong>希望第一期重建于 2027 年秋季开工</strong>——即本次行程期间既无教堂，也无工地可拍'
-        ],
-        photo: '<strong>本次无法拍摄。</strong>请勿驱车前往原址——该处封闭，且位于滑坡活跃区。替代机位见上一条 Point Vicente。',
-        shots: [],
-        access: {
-          book: '—',
-          ticket: '—',
-          hours: '<strong>原址与周边庭园全部封闭</strong>',
-          parking: '—',
-          walk: '—'
-        },
-        notes: [
-          '<strong>请将此点从行程中删除。</strong>教会活动未中断：主日聚会以视频进行，并在 Palos Verdes Estates 的 St. Francis Chapel 提供线下选项',
-          '首选替代是 <strong>Point Vicente Lighthouse 与 Interpretive Center</strong>（见上一条），崖顶正西无遮挡、日落方位正对、停车免费',
-          '其次可考虑 Abalone Cove Shoreline Park（最接近原计划位置）、Terranea Resort 崖顶公共步道、Trump National Golf Club 崖顶眺望'
-        ],
-        images: [
-          { url: 'assets/img/wayfarers-chapel-2018-2-19-ca513868.jpg', cap: '拆解前的玻璃教堂（历史影像）· Sitao Xiang / CC BY-SA 4.0' },
-          { url: 'assets/img/wayfarer-s-chapel-plaza-67d09927.jpg', cap: '教堂庭园（历史影像）· Prashila Amatya / CC BY-SA 4.0' }
         ]
       }
     ]
@@ -2258,56 +2256,8 @@ var REGIONS = [
         ]
       },
       {
-        id: 'treasure-island',
-        n: 2,
-        name: '宝藏岛海滩',
-        en: 'Treasure Island Beach',
-        score: 4,
-        tldr: '紧邻 Montage 度假村但海滩与崖顶步道均为公共产权；比 Heisler 人少，北端有天然拱门。',
-        tags: [{ t: '免费', c: 'free' }, { t: '无需预约', c: 'free' }, { t: '停车费率未确认', c: 'risk' }],
-        highlights: [
-          'Montage Laguna Beach 五星度假村下方的<strong>公共</strong>海滩，崖顶草坪步道加观景平台',
-          '<strong>北端有天然拱门</strong>，南侧串联 Goff Cove、Middle Man Cove、Christmas Cove 三个小湾'
-        ],
-        photo: '风光 <strong>4/5</strong>，人像 <strong>4/5</strong>，建筑 <strong>3/5</strong>。' +
-          '崖顶平台正西向，小湾与礁石构成前景；草坪加棕榈加海景，构图干净，<strong>比 Heisler 人少</strong>。' +
-          'Montage 的加州工艺美术风格建筑可作背景，但不可入内拍摄。',
-        shots: [
-          {
-            name: 'Lookout Point 崖顶观景点（主机位）',
-            desc: '日落前 40 分钟到位，16–35mm 横构图收整段海岸线。小湾特写用 70–200mm 从崖顶压缩礁石与浪花层次。' +
-              '慢门用 ND1000 配三脚架，1–4 秒，日落后蓝调 19:20–19:35。',
-            park: [33.51580, -117.75635],
-            view: [33.51428, -117.75817]
-          },
-          {
-            name: '下沙滩石阶与北端天然拱门',
-            desc: '<strong>低潮时才能靠近拱门</strong>，但<strong>比 Pirate Tower 宽容得多</strong>。' +
-              '9/8–9/9 下午的低潮窗口（13:48 / 14:34）同样适用。',
-            view: [33.51410, -117.75668]
-          }
-        ],
-        access: {
-          book: '不需要',
-          ticket: '免费，海滩与崖顶步道全公共',
-          hours: '海滩 05:00–01:00',
-          parking: 'City Lot 7（地面）/ Lot 8（车库），位于 30799–30801 Coast Highway。<strong>具体费率未能确认</strong>，建议用 Laguna Beach Parking App 现场查实时空位与价格',
-          walk: '到崖顶观景点约 <strong>240 米 / 4 分钟</strong>；到沙滩石阶约 190 米 / 3 分钟，之后一段中等坡度石阶',
-        },
-        notes: [
-          '度假村范围内（泳池、露台、餐厅）属私产，<strong>请勿架设器材</strong>',
-          '冬季涌浪会把北端沙滩冲成纯礁石，9 月初通常有沙',
-          '崖顶部分轮椅可达'
-        ],
-        images: [
-          { url: 'assets/img/north-end-of-treasure-island-beach-laguna-beach-with-natural-f383595a.jpg', cap: '北端天然拱门 · Beyond My Ken / CC BY-SA 4.0' },
-          { url: 'assets/img/view-from-atop-treasure-island-beach-63491a6f.jpg', cap: '崖顶俯瞰 · ZacharyCrespin / CC BY 4.0' },
-          { url: 'assets/img/goff-cove-laguna-beach-from-south-4b8a3932.jpg', cap: 'Goff Cove · Beyond My Ken / CC BY-SA 4.0' }
-        ]
-      },
-      {
         id: 'victoria-pirate',
-        n: 3,
+        n: 2,
         name: '维克多利亚海滩 & 海盗塔',
         en: 'Victoria Beach & Pirate Tower (La Tour)',
         score: 4.5,
@@ -2371,6 +2321,54 @@ var REGIONS = [
           { url: 'assets/img/victoria-beach-pirate-tower-nov-2019-0458a0a7.jpg', cap: 'Victoria Beach 海盗塔 · Carl Glover / CC BY 2.0' },
           { url: 'assets/img/cameo-cove-laguna-beach-ca-by-don-ramey-logan-5f777115.jpg', cap: '紧邻的 Cameo Cove 海岸地形 · Don Ramey Logan / CC BY-SA 4.0' }
         ]
+      },
+      {
+        id: 'treasure-island',
+        n: 3,
+        name: '宝藏岛海滩',
+        en: 'Treasure Island Beach',
+        score: 4,
+        tldr: '紧邻 Montage 度假村但海滩与崖顶步道均为公共产权；比 Heisler 人少，北端有天然拱门。',
+        tags: [{ t: '免费', c: 'free' }, { t: '无需预约', c: 'free' }, { t: '停车费率未确认', c: 'risk' }],
+        highlights: [
+          'Montage Laguna Beach 五星度假村下方的<strong>公共</strong>海滩，崖顶草坪步道加观景平台',
+          '<strong>北端有天然拱门</strong>，南侧串联 Goff Cove、Middle Man Cove、Christmas Cove 三个小湾'
+        ],
+        photo: '风光 <strong>4/5</strong>，人像 <strong>4/5</strong>，建筑 <strong>3/5</strong>。' +
+          '崖顶平台正西向，小湾与礁石构成前景；草坪加棕榈加海景，构图干净，<strong>比 Heisler 人少</strong>。' +
+          'Montage 的加州工艺美术风格建筑可作背景，但不可入内拍摄。',
+        shots: [
+          {
+            name: 'Lookout Point 崖顶观景点（主机位）',
+            desc: '日落前 40 分钟到位，16–35mm 横构图收整段海岸线。小湾特写用 70–200mm 从崖顶压缩礁石与浪花层次。' +
+              '慢门用 ND1000 配三脚架，1–4 秒，日落后蓝调 19:20–19:35。',
+            park: [33.51580, -117.75635],
+            view: [33.51428, -117.75817]
+          },
+          {
+            name: '下沙滩石阶与北端天然拱门',
+            desc: '<strong>低潮时才能靠近拱门</strong>，但<strong>比 Pirate Tower 宽容得多</strong>。' +
+              '9/8–9/9 下午的低潮窗口（13:48 / 14:34）同样适用。',
+            view: [33.51410, -117.75668]
+          }
+        ],
+        access: {
+          book: '不需要',
+          ticket: '免费，海滩与崖顶步道全公共',
+          hours: '海滩 05:00–01:00',
+          parking: 'City Lot 7（地面）/ Lot 8（车库），位于 30799–30801 Coast Highway。<strong>具体费率未能确认</strong>，建议用 Laguna Beach Parking App 现场查实时空位与价格',
+          walk: '到崖顶观景点约 <strong>240 米 / 4 分钟</strong>；到沙滩石阶约 190 米 / 3 分钟，之后一段中等坡度石阶',
+        },
+        notes: [
+          '度假村范围内（泳池、露台、餐厅）属私产，<strong>请勿架设器材</strong>',
+          '冬季涌浪会把北端沙滩冲成纯礁石，9 月初通常有沙',
+          '崖顶部分轮椅可达'
+        ],
+        images: [
+          { url: 'assets/img/north-end-of-treasure-island-beach-laguna-beach-with-natural-f383595a.jpg', cap: '北端天然拱门 · Beyond My Ken / CC BY-SA 4.0' },
+          { url: 'assets/img/view-from-atop-treasure-island-beach-63491a6f.jpg', cap: '崖顶俯瞰 · ZacharyCrespin / CC BY 4.0' },
+          { url: 'assets/img/goff-cove-laguna-beach-from-south-4b8a3932.jpg', cap: 'Goff Cove · Beyond My Ken / CC BY-SA 4.0' }
+        ]
       }
     ]
   },
@@ -2422,8 +2420,224 @@ var REGIONS = [
     ],
     spots: [
       {
-        id: 'sunset-cliffs',
+        id: 'gliderport',
         n: 1,
+        name: '托里松滑翔机场',
+        en: 'Torrey Pines Gliderport',
+        score: 4,
+        tldr: '免费、停车免费、走两分钟就到崖顶，能拍「人在天上飞 + 海岸线」。9 月初日落时段大概率仍有伞在飞。',
+        tags: [{ t: '完全免费', c: 'free' }, { t: '停车免费', c: 'free' }, { t: '活跃飞行场', c: 'risk' }],
+        highlights: [
+          '运营近百年的无动力飞行场，滑翔伞与悬挂滑翔翼常年在 <strong>350 英尺高的砂岩崖顶</strong>起降；' +
+            '崖顶可俯瞰 Black\u2019s Beach 与整条 Torrey Pines 崖线',
+          '这是拍「人在天上飞 + 海岸线」的独特机位，现场还有 Cliff Hanger Cafe 可以补给'
+        ],
+        photo: '风光 <strong>5/5</strong>，人像 <strong>4/5</strong>，建筑 2/5。' +
+          '西向崖顶，砂岩崖壁在落日下呈金橙色，崖线纵深极佳。以滑翔伞与崖线为背景，画面辨识度高。' +
+          '<strong>长焦在这里比在其他站更有用。</strong>',
+        shots: [
+          {
+            name: '起飞崖沿（主机位）',
+            desc: '<strong>伞加落日剪影</strong>：70–200mm 或 100–400mm，日落前 20 分钟，等伞飞过日面。' +
+              '崖线大景用 16–35mm 从崖沿向北收 Torrey Pines 崖壁与 Black\u2019s Beach。' +
+              '起飞瞬间用 24–70mm 连拍，站在起飞区侧后方，<strong>勿进入起飞区内</strong>。',
+            park: [32.89004, -117.25057],
+            view: [32.88990, -117.25130]
+          },
+          {
+            name: '南侧 / 北侧土场（备用停车）',
+            park: [32.889940, -117.247084],
+            view: [32.889940, -117.247084],
+            desc: '沙土面，公共开放免费。周末主场很快满位。',
+            at: [32.89109, -117.25014]
+          }
+        ],
+        access: {
+          book: '不需要，观景免费',
+          ticket: '<strong>免费。</strong>Tandem 体验若有兴趣：滑翔伞 $175–200 起，悬挂滑翔翼 $225 起，现金付款有折扣，先到先服务',
+          hours: '官方 tandem 运营 <strong>09:00–17:00</strong>（看风况）。但飞行社说明更精确：秋冬 11:00–16:00 风况最佳，<strong>春夏 09:00 到 19:00 甚至更晚都常可飞</strong>——9 月初属夏季尾，日落时段大概率仍有伞在天上',
+          parking: '<strong>完全免费</strong>，土质大场，但周末很快满位',
+          walk: '<strong>150 米 / 2 分钟</strong>，平坦土路',
+        },
+        notes: [
+          '<strong>这是运行中的飞行场</strong>：起飞区与降落区严禁进入，站位听从现场人员指挥，伞索与翼尖扫过范围很大',
+          '<strong>Black\u2019s Beach 步道</strong>：Gliderport Trail 从停车场最南端下切，<strong>圣地亚哥市已在此立「DO NOT USE」警示牌</strong>（崖体不稳定、频发滞困与坠亡）；北侧的 Black\u2019s Beach Trail 更陡更险，碎石浮沙极易滑倒。' +
+            '<strong>崖顶已经能拍到本站 90% 的价值，携器材下海滩的风险回报比不佳</strong>',
+          '若一定要下，走 Gliderport Trail、穿抓地力好的鞋、避开涨潮，并注意 <strong>Black\u2019s Beach 是事实上的天体海滩</strong>，拍摄时请注意分寸与他人隐私',
+          '崖体持续侵蚀，勿站崖沿悬空处、勿翻越围栏',
+          '崖顶风大，广角镜头易进沙，换镜头请背风。无正式厕所（除咖啡馆）'
+        ],
+        images: [
+          { url: 'assets/img/torrey-pines-gliderport-1-26a3e3f2.jpg', cap: 'Torrey Pines Gliderport 崖顶 · Ncysea / CC BY-SA 4.0' },
+          { url: 'assets/img/torrey-pines-gliderport-b535a186.jpg', cap: 'Gliderport 滑翔伞 · Dmadeo / CC BY-SA 3.0' },
+          { url: 'assets/img/torrey-pines-gliderport-2-2019-04-16-45152331.jpg', cap: 'Gliderport 崖线 · FASTILY / CC BY-SA 4.0' }
+        ]
+      },
+      {
+        id: 'salk',
+        n: 2,
+        name: '索尔克生物研究所',
+        en: 'Salk Institute for Biological Studies',
+        score: 5,
+        tldr: '二十世纪现代建筑殿堂级作品，但门禁与摄影政策都已收紧：$25 导览团、禁三脚架、禁摆拍人像，且只有 9/9 上午可去。',
+        tags: [{ t: '必须预约', c: 'book' }, { t: '$25/人', c: 'paid' }, { t: '仅 9/9 可行', c: 'risk' }, { t: '禁三脚架', c: 'risk' }, { t: '禁摆拍人像', c: 'risk' }],
+        highlights: [
+          'Louis Kahn 1965 年设计、脊髓灰质炎疫苗发明者 Jonas Salk 创立，<strong>公认的二十世纪现代建筑殿堂级作品</strong>。' +
+            'Salk 给 Kahn 的要求很有名：造一个「连毕加索都愿意来的地方」，因为他相信环境的开阔会带来思想的开阔',
+          '<strong>中庭原本的设计是一片花园</strong>。传说是墨西哥建筑师 Luis Barragán 到访后对 Kahn 说：' +
+            '「不要种一棵树、一片叶子，把它做成一个石头的广场，天空就是立面。」Kahn 采纳了——' +
+            '于是有了今天这片空无一物、只有石灰石与天空的中庭，也成了整栋建筑最强的一笔',
+          '两栋对称的混凝土实验楼夹出中庭，<strong>一道仅数厘米宽的「生命之河」（River of Life）水槽笔直指向太平洋</strong>，' +
+            '尽头是一道无限延伸的地平线。每年春分与秋分前后，落日会正对着这条水槽轴线沉入海面',
+          '材质是这里的另一半故事：<strong>清水混凝土掺了火山灰呈暖粉调、模板木纹被刻意保留</strong>，' +
+            '柚木窗框未做任何涂装、任其风化成银灰色，与石灰石地面构成三种质感的对照。这是建筑摄影的教科书级样本',
+          '实验楼采用「服务层与被服务层」分离的结构：每层实验室上方都有一整层管道夹层，' +
+            '让内部空间可以完全无柱、随科研需要自由改造——这个理念影响了此后半个世纪的实验室建筑'
+        ],
+        photo: '建筑 <strong>5/5</strong>，风光 <strong>2/5</strong>，<strong>人像 0/5（摆拍人像明令禁止，不要尝试）</strong>。' +
+          '中庭朝西正对太平洋，日落时是最佳光线——<strong>但导览团只在上午 10:00/11:30，根本拍不到日落，这是本站最大的遗憾</strong>。',
+        shots: [
+          {
+            name: '中庭中轴对称（必拍一张）',
+            desc: '站水槽东端中线，<strong>16–24mm 竖构图，水槽引导线直指海平面</strong>。' +
+              '<strong>建议选 10:00 场</strong>，太阳位置略低，墙面阴影更有层次。' +
+              '无三脚架但上午光线足够手持；<strong>超广角机身水平必须手动找准，对称构图歪一度就废，建议开机内电子水平仪</strong>。',
+            park: [32.89004, -117.25057],
+            view: [32.88762, -117.24668]
+          },
+          {
+            name: '混凝土与柚木材质细节',
+            desc: '35–50mm，侧光下混凝土的木纹模板痕迹最清楚。建筑几何用 24–70mm，利用两侧塔楼的斜切墙面做重复韵律。' +
+              '<strong>只能带一台手持相机，建议一支 16–35mm 变焦搞定全部。</strong>',
+            view: [32.88762, -117.24668]
+          }
+        ],
+        access: {
+          book: '<strong>必须提前线上注册。</strong>公众团每周三、四、五 <strong>10:00 与 11:30</strong>，约 1 小时。私人团周一至周五 09:00–15:00，1–10 人 $250，须提前至少 10 个工作日申请',
+          ticket: '<strong>$25 / 人</strong>',
+          hours: '<strong>周末、节假日、私人活动期间全部闭园。</strong>本次行程<strong>只有 9/9（周三）可行</strong>',
+          parking: '<strong>校园内无公共访客停车。</strong>最近的免费公共停车是 Torrey Pines Gliderport 土场',
+          walk: 'Gliderport 到研究所直线约 450 米，<strong>实际步行绕行 600–700 米 / 8–10 分钟</strong>，但官方建议按 15–20 分钟预留',
+        },
+        notes: [
+          '<strong>摄影政策严格。允许</strong>：仅导览团期间的休闲个人拍摄，<strong>限一台手持相机或手机</strong>，不得使用任何附加器材',
+          '<strong>明令禁止</strong>：三脚架、自拍杆、灯光设备（含离机闪光灯）、道具、服装、' +
+            '<strong>正式或摆拍或受委托的摄影摄像</strong>（婚纱、订婚、毕业、家庭写真、模特作品集、学生作业均在内）、' +
+            '作品集摄影、实验室内部拍摄。不得为了拍照而拖延或打断团队行进',
+          '<strong>专业与商业摄影一律禁止</strong>，除非事先获批并由 Salk 传播团队全程陪同，申请邮箱 press@salk.edu',
+          '<strong>导览准时出发，迟到超过 10 分钟可能不被允许加入</strong>',
+          '官方提示<strong>园区正在进行保护与修复施工，包括主中庭内部及周边</strong>，可能有围挡影响构图',
+          '这是私有产权，Salk 保留对违规者拒绝或撤销进入许可的权利。<strong>请勿试图在非导览时段进入园区拍摄——这是近年政策收紧的直接原因</strong>',
+          '中庭石灰石地面反光强，注意镜头耀斑'
+        ],
+        images: [
+          { url: 'assets/img/salk-institute-highsmith-a4d3f2ab.jpg', cap: 'Salk Institute 中庭与生命之河 · Carol M. Highsmith / 公有领域' },
+          { url: 'assets/img/salk-institute-for-biological-studies-and-a-seagull-dllu-9d48f0b7.jpg', cap: 'Salk Institute 中庭 · Daniel L. Lu / CC BY-SA 4.0' },
+          { url: 'assets/img/chairs-and-table-at-salk-institute-dllu-159def22.jpg', cap: 'Salk Institute 细部 · Daniel L. Lu / CC BY-SA 4.0' }
+        ]
+      },
+      {
+        id: 'scripps-pier',
+        n: 3,
+        name: '斯克里普斯海洋研究所纪念栈桥',
+        en: 'Ellen Browning Scripps Memorial Pier (UCSD)',
+        score: 4,
+        tldr: '栈桥对公众关闭，但 Birch Aquarium 的日落导览是唯一合法登桥途径，9 月起有场次，热门时段常售罄——想上桥请立刻订票。',
+        tags: [{ t: '沙滩免费', c: 'free' }, { t: '停车免费', c: 'free' }, { t: '栈桥不可上', c: 'risk' }, { t: '9 月无穿柱日落', c: 'risk' }],
+        highlights: [
+          '<strong>1,084 英尺（330 米）长的全混凝土研究栈桥</strong>，1988 年建成，是全球最大的在用海洋研究栈桥之一',
+          '自 1916 年起每日采集水温盐度，是<strong>全球最长连续海洋观测序列之一</strong>。紧邻 La Jolla 海底峡谷头部',
+          '<strong>✅ 确认栈桥对公众关闭</strong>，仅限研究人员使用。唯一合法上桥途径是 Birch Aquarium 的 Sunset Pier Walk 导览（<strong>$40，须官网提前预订，季节性开放通常 9 月至次年 4 月</strong>，9 月初是否已开当季首场未能确认）'
+        ],
+        photo: '风光 <strong>4/5</strong>，人像 <strong>3.5/5</strong>，建筑 <strong>4/5</strong>。' +
+          '桥墩纵深与剪影框架都很强，只是 9 月没有 Scrippshenge 的对齐奇观。',
+        shots: [
+          {
+            name: '栈桥以北沙滩 150–250 米（日落主机位）',
+            desc: '把栈桥整体收进画面，<strong>让落日落在桥体左后方，用栈桥做画面右侧的剪影框架、桥下透光</strong>。' +
+              '24–70mm，18:35–19:10。慢门用 ND1000 配三脚架 1–8 秒，蓝调 19:10–19:35。' +
+              '<strong>注意 9 月初日落时正逢涨潮，浪线推进快，留好器材与退路。</strong>',
+            park: [32.86450, -117.25400],
+            view: [32.86661, -117.25576]
+          },
+          {
+            name: '栈桥正下方（桥墩纵深）',
+            desc: '<strong>16–24mm 超广角贴近水面顺桥墩纵向拍</strong>，退潮时桥墩基座裸露层次最好。' +
+              '9/8–9/9 下午低潮（13:48 / 14:34）适合拍桥墩基座，但那时段光线硬；' +
+              '日落时是高潮（19:54 / 20:39 达 6.3–6.4 ft），浪会打到桥墩，适合慢门拍雾化水面。',
+            view: [32.86661, -117.25576]
+          }
+        ],
+        access: {
+          book: '沙滩拍摄不需预约。<strong>唯一合法登桥途径是 Birch Aquarium 的 Sunset Scripps Pier Walk</strong>：90 分钟导览，会员 $30、公众 $40，9 岁以上可参加，须提前在 aquarium.ucsd.edu 在线订票，集合点在栈桥入口闸门（8650 Kennel Way）。该项目为季节性，通常 9 月至次年 4 月运行，当前列为「部分周六与周日，持续至 2026 年 12 月」——<strong>请立刻去查 9/5、9/6、9/8、9/9 是否有场次</strong>',
+          ticket: '免费（沙滩公共）',
+          hours: '沙滩全天；Kellogg Park 停车场<strong>全年 22:00–04:00 禁停</strong>',
+          parking: '<strong>La Jolla Shores Drive 沿线有免费路边位</strong>（最省时，距沙滩约 250 米）；Kellogg Park 停车场车位更多但离栈桥远。<strong>两者均免费</strong>',
+          walk: '<strong>建议走 La Jolla Shores Drive 路边方案</strong>：约 450 米 / 9 分钟。从 Kellogg Park 走要 1.0 公里 / 13–15 分钟全程软沙，带三脚架会明显吃力，<strong>能省约 20 分钟往返沙地步行</strong>',
+        },
+        notes: [
+          '<strong>9 月圣地亚哥沿岸清晨与傍晚常有海雾，会直接吞掉落日</strong>，建议当天下午查一下海岸能见度再决定是否前往',
+          '请勿试图攀爬栈桥或使用科研潜水楼梯——这是 UCSD 设施，有安保。桥面通行严格限于 UCSD 授权人员、科研潜水队伍与官方导览团',
+          '从沙滩向栈桥拍摄<strong>没有任何新增限制</strong>：2026 年 5 月与 8 月的两次 Scrippshenge（落日恰好穿过桥墩）都有大批摄影者聚集在沙滩上，秩序正常',
+          '桥墩区域涨潮时浪大且有回卷，注意脚下与器材',
+          '这一带是 Matlahuayl 州立海洋保护区，<strong>禁止采集任何生物</strong>'
+        ],
+        images: [
+          { url: 'assets/img/scripps-institution-of-oceanography-pier-photo-don-ramey-log-b51a87cb.jpg', cap: 'Scripps Pier · Don Ramey Logan / CC BY-SA 3.0' },
+          { url: 'assets/img/scripps-pier-la-jolla-california-e4ebb281.jpg', cap: 'Scripps Pier 桥墩 · Mwinog2777 / CC BY-SA 4.0' },
+          { url: 'assets/img/la-jolla-shores-photo-don-ramey-logan-d2f38a1d.jpg', cap: 'La Jolla Shores · Don Ramey Logan / CC BY-SA 4.0' }
+        ]
+      },
+      {
+        id: 'mount-soledad',
+        n: 4,
+        name: '索莱达山国家退伍军人纪念碑',
+        en: 'Mount Soledad National Veterans Memorial',
+        score: 3.5,
+        tldr: '免费、停车免费、走一分钟就到。360° 视野，日落明显优于日出，日落后可立刻转拍市区灯光。',
+        tags: [{ t: '完全免费', c: 'free' }, { t: '停车免费', c: 'free' }, { t: '22:00 锁门', c: 'risk' }],
+        highlights: [
+          '<strong>确认：原清单上的「Soledad Mountain」就是这里。</strong>圣地亚哥县最高海岸峰（约 822 英尺）',
+          '核心是 29 英尺（含基座 43 英尺）混凝土十字架，周围 14 道黑色花岗岩墙嵌有<strong>逾 6,000 块退伍军人纪念牌</strong>，含 6 位美国总统与 27 位荣誉勋章获得者',
+          '360° 视野：西向太平洋、南向市区天际线与科罗纳多大桥、东向山脉、北向 Del Mar，晴日可远眺墨西哥'
+        ],
+        photo: '风光 <strong>4/5</strong>，建筑 <strong>4/5</strong>，人像 <strong>2/5</strong>（环境偏庄严，且游客与旅游大巴多）。' +
+          '<strong>日落明显优于日出</strong>：孤峰全向视野，西侧直面太平洋无遮挡，太阳直落海平面；' +
+          '同时日落后可立即转拍南向市区灯光加蓝调天空的双层画面。日出方向朝内陆山脉，缺少水面，' +
+          '且 9 月清晨海雾极常见容易整片糊掉。唯一支持日出的场景是想要最清透的远景能见度。',
+        shots: [
+          {
+            name: '十字架基座（主机位）',
+            desc: '<strong>日落前 30–45 分钟抵达</strong>抢车位与观景位置（山顶车位极少，旅游大巴常占）。' +
+              '十字架框景用 16–24mm 仰拍，利用墙体开口切割晚霞；海岸大景用 24–70mm 西向，压低地平线突出天空。' +
+              '<strong>城市天际线与科罗纳多大桥用 70–200mm 或 100–400mm 南向长焦压缩，日落后 20–40 分钟灯光与天空亮度平衡最佳。</strong>' +
+              '花岗岩墙细节用 35–50mm。山顶开阔风大，三脚架建议挂重物。',
+            park: [32.83957, -117.24508],
+            view: [32.83982, -117.24469]
+          }
+        ],
+        access: {
+          book: '不需要',
+          ticket: '<strong>永久免费</strong>（纪念碑由捐赠资助运营）',
+          hours: '<strong>每日 07:00–22:00，大门 22:00 准时上锁</strong>，切勿把车留在场内',
+          parking: '<strong>免费。</strong>纪念碑周边零散车位数个；下方五分钟步行处有一个大停车场；满位时可停 La Jolla Scenic Drive South 路边（免费）',
+          walk: '近处车位到十字架基座约 <strong>40 米 / 1 分钟</strong>；大停车场约 5 分钟上坡',
+        },
+        notes: [
+          '这是<strong>现役纪念场所</strong>，常有家属祭扫与仪式，架设器材请避让',
+          '上山路陡窄弯多，<strong>自行车骑行者极多，慎超车</strong>',
+          '山顶风大温差明显，日落后迅速降温。仅有移动厕所',
+          '<strong>注意导航</strong>：OSM 上另有一个标为「Soledad Mountain」的峰点节点位于纪念碑以西约 730 米，与纪念碑不是同一位置，请使用本条给出的坐标'
+        ],
+        images: [
+          { url: 'assets/img/mount-soledad-i-4883143285-033bf0e7.jpg', cap: 'Mount Soledad 十字架 · Antonio Zugaldia / CC BY 2.0' },
+          { url: 'assets/img/mount-soledad-ii-4883143499-9ad992a6.jpg', cap: 'Mount Soledad 纪念墙 · Antonio Zugaldia / CC BY 2.0' },
+          { url: 'assets/img/mount-soledad-iii-4883747540-41aac087.jpg', cap: 'Mount Soledad 全景 · Antonio Zugaldia / CC BY 2.0' }
+        ]
+      },
+      {
+        id: 'sunset-cliffs',
+        n: 5,
         name: '日落崖自然公园',
         en: 'Sunset Cliffs Natural Park, Point Loma',
         score: 5,
@@ -2490,222 +2704,6 @@ var REGIONS = [
           { url: 'assets/img/sunset-cliffs-san-diego-2013-e555473c.jpg', cap: 'Sunset Cliffs 日落 · Tuxyso / CC BY-SA 3.0' },
           { url: 'assets/img/people-at-sunset-cliffs-natural-park-san-diego-2013-29976f87.jpg', cap: 'Sunset Cliffs 崖顶 · Tuxyso / CC BY-SA 3.0' },
           { url: 'assets/img/azure-vista-panoramic-f67d64c8.jpg', cap: 'Point Loma 崖线全景 · RightCowLeftCoast / CC BY-SA 4.0' }
-        ]
-      },
-      {
-        id: 'gliderport',
-        n: 2,
-        name: '托里松滑翔机场',
-        en: 'Torrey Pines Gliderport',
-        score: 4,
-        tldr: '免费、停车免费、走两分钟就到崖顶，能拍「人在天上飞 + 海岸线」。9 月初日落时段大概率仍有伞在飞。',
-        tags: [{ t: '完全免费', c: 'free' }, { t: '停车免费', c: 'free' }, { t: '活跃飞行场', c: 'risk' }],
-        highlights: [
-          '运营近百年的无动力飞行场，滑翔伞与悬挂滑翔翼常年在 <strong>350 英尺高的砂岩崖顶</strong>起降；' +
-            '崖顶可俯瞰 Black\u2019s Beach 与整条 Torrey Pines 崖线',
-          '这是拍「人在天上飞 + 海岸线」的独特机位，现场还有 Cliff Hanger Cafe 可以补给'
-        ],
-        photo: '风光 <strong>5/5</strong>，人像 <strong>4/5</strong>，建筑 2/5。' +
-          '西向崖顶，砂岩崖壁在落日下呈金橙色，崖线纵深极佳。以滑翔伞与崖线为背景，画面辨识度高。' +
-          '<strong>长焦在这里比在其他站更有用。</strong>',
-        shots: [
-          {
-            name: '起飞崖沿（主机位）',
-            desc: '<strong>伞加落日剪影</strong>：70–200mm 或 100–400mm，日落前 20 分钟，等伞飞过日面。' +
-              '崖线大景用 16–35mm 从崖沿向北收 Torrey Pines 崖壁与 Black\u2019s Beach。' +
-              '起飞瞬间用 24–70mm 连拍，站在起飞区侧后方，<strong>勿进入起飞区内</strong>。',
-            park: [32.89004, -117.25057],
-            view: [32.88990, -117.25130]
-          },
-          {
-            name: '南侧 / 北侧土场（备用停车）',
-            park: [32.889940, -117.247084],
-            view: [32.889940, -117.247084],
-            desc: '沙土面，公共开放免费。周末主场很快满位。',
-            at: [32.89109, -117.25014]
-          }
-        ],
-        access: {
-          book: '不需要，观景免费',
-          ticket: '<strong>免费。</strong>Tandem 体验若有兴趣：滑翔伞 $175–200 起，悬挂滑翔翼 $225 起，现金付款有折扣，先到先服务',
-          hours: '官方 tandem 运营 <strong>09:00–17:00</strong>（看风况）。但飞行社说明更精确：秋冬 11:00–16:00 风况最佳，<strong>春夏 09:00 到 19:00 甚至更晚都常可飞</strong>——9 月初属夏季尾，日落时段大概率仍有伞在天上',
-          parking: '<strong>完全免费</strong>，土质大场，但周末很快满位',
-          walk: '<strong>150 米 / 2 分钟</strong>，平坦土路',
-        },
-        notes: [
-          '<strong>这是运行中的飞行场</strong>：起飞区与降落区严禁进入，站位听从现场人员指挥，伞索与翼尖扫过范围很大',
-          '<strong>Black\u2019s Beach 步道</strong>：Gliderport Trail 从停车场最南端下切，<strong>圣地亚哥市已在此立「DO NOT USE」警示牌</strong>（崖体不稳定、频发滞困与坠亡）；北侧的 Black\u2019s Beach Trail 更陡更险，碎石浮沙极易滑倒。' +
-            '<strong>崖顶已经能拍到本站 90% 的价值，携器材下海滩的风险回报比不佳</strong>',
-          '若一定要下，走 Gliderport Trail、穿抓地力好的鞋、避开涨潮，并注意 <strong>Black\u2019s Beach 是事实上的天体海滩</strong>，拍摄时请注意分寸与他人隐私',
-          '崖体持续侵蚀，勿站崖沿悬空处、勿翻越围栏',
-          '崖顶风大，广角镜头易进沙，换镜头请背风。无正式厕所（除咖啡馆）'
-        ],
-        images: [
-          { url: 'assets/img/torrey-pines-gliderport-1-26a3e3f2.jpg', cap: 'Torrey Pines Gliderport 崖顶 · Ncysea / CC BY-SA 4.0' },
-          { url: 'assets/img/torrey-pines-gliderport-b535a186.jpg', cap: 'Gliderport 滑翔伞 · Dmadeo / CC BY-SA 3.0' },
-          { url: 'assets/img/torrey-pines-gliderport-2-2019-04-16-45152331.jpg', cap: 'Gliderport 崖线 · FASTILY / CC BY-SA 4.0' }
-        ]
-      },
-      {
-        id: 'scripps-pier',
-        n: 3,
-        name: '斯克里普斯海洋研究所纪念栈桥',
-        en: 'Ellen Browning Scripps Memorial Pier (UCSD)',
-        score: 4,
-        tldr: '栈桥对公众关闭，但 Birch Aquarium 的日落导览是唯一合法登桥途径，9 月起有场次，热门时段常售罄——想上桥请立刻订票。',
-        tags: [{ t: '沙滩免费', c: 'free' }, { t: '停车免费', c: 'free' }, { t: '栈桥不可上', c: 'risk' }, { t: '9 月无穿柱日落', c: 'risk' }],
-        highlights: [
-          '<strong>1,084 英尺（330 米）长的全混凝土研究栈桥</strong>，1988 年建成，是全球最大的在用海洋研究栈桥之一',
-          '自 1916 年起每日采集水温盐度，是<strong>全球最长连续海洋观测序列之一</strong>。紧邻 La Jolla 海底峡谷头部',
-          '<strong>✅ 确认栈桥对公众关闭</strong>，仅限研究人员使用。唯一合法上桥途径是 Birch Aquarium 的 Sunset Pier Walk 导览（<strong>$40，须官网提前预订，季节性开放通常 9 月至次年 4 月</strong>，9 月初是否已开当季首场未能确认）'
-        ],
-        photo: '风光 <strong>4/5</strong>，人像 <strong>3.5/5</strong>，建筑 <strong>4/5</strong>。' +
-          '桥墩纵深与剪影框架都很强，只是 9 月没有 Scrippshenge 的对齐奇观。',
-        shots: [
-          {
-            name: '栈桥以北沙滩 150–250 米（日落主机位）',
-            desc: '把栈桥整体收进画面，<strong>让落日落在桥体左后方，用栈桥做画面右侧的剪影框架、桥下透光</strong>。' +
-              '24–70mm，18:35–19:10。慢门用 ND1000 配三脚架 1–8 秒，蓝调 19:10–19:35。' +
-              '<strong>注意 9 月初日落时正逢涨潮，浪线推进快，留好器材与退路。</strong>',
-            park: [32.86450, -117.25400],
-            view: [32.86661, -117.25576]
-          },
-          {
-            name: '栈桥正下方（桥墩纵深）',
-            desc: '<strong>16–24mm 超广角贴近水面顺桥墩纵向拍</strong>，退潮时桥墩基座裸露层次最好。' +
-              '9/8–9/9 下午低潮（13:48 / 14:34）适合拍桥墩基座，但那时段光线硬；' +
-              '日落时是高潮（19:54 / 20:39 达 6.3–6.4 ft），浪会打到桥墩，适合慢门拍雾化水面。',
-            view: [32.86661, -117.25576]
-          }
-        ],
-        access: {
-          book: '沙滩拍摄不需预约。<strong>唯一合法登桥途径是 Birch Aquarium 的 Sunset Scripps Pier Walk</strong>：90 分钟导览，会员 $30、公众 $40，9 岁以上可参加，须提前在 aquarium.ucsd.edu 在线订票，集合点在栈桥入口闸门（8650 Kennel Way）。该项目为季节性，通常 9 月至次年 4 月运行，当前列为「部分周六与周日，持续至 2026 年 12 月」——<strong>请立刻去查 9/5、9/6、9/8、9/9 是否有场次</strong>',
-          ticket: '免费（沙滩公共）',
-          hours: '沙滩全天；Kellogg Park 停车场<strong>全年 22:00–04:00 禁停</strong>',
-          parking: '<strong>La Jolla Shores Drive 沿线有免费路边位</strong>（最省时，距沙滩约 250 米）；Kellogg Park 停车场车位更多但离栈桥远。<strong>两者均免费</strong>',
-          walk: '<strong>建议走 La Jolla Shores Drive 路边方案</strong>：约 450 米 / 9 分钟。从 Kellogg Park 走要 1.0 公里 / 13–15 分钟全程软沙，带三脚架会明显吃力，<strong>能省约 20 分钟往返沙地步行</strong>',
-        },
-        notes: [
-          '<strong>9 月圣地亚哥沿岸清晨与傍晚常有海雾，会直接吞掉落日</strong>，建议当天下午查一下海岸能见度再决定是否前往',
-          '请勿试图攀爬栈桥或使用科研潜水楼梯——这是 UCSD 设施，有安保。桥面通行严格限于 UCSD 授权人员、科研潜水队伍与官方导览团',
-          '从沙滩向栈桥拍摄<strong>没有任何新增限制</strong>：2026 年 5 月与 8 月的两次 Scrippshenge（落日恰好穿过桥墩）都有大批摄影者聚集在沙滩上，秩序正常',
-          '桥墩区域涨潮时浪大且有回卷，注意脚下与器材',
-          '这一带是 Matlahuayl 州立海洋保护区，<strong>禁止采集任何生物</strong>'
-        ],
-        images: [
-          { url: 'assets/img/scripps-institution-of-oceanography-pier-photo-don-ramey-log-b51a87cb.jpg', cap: 'Scripps Pier · Don Ramey Logan / CC BY-SA 3.0' },
-          { url: 'assets/img/scripps-pier-la-jolla-california-e4ebb281.jpg', cap: 'Scripps Pier 桥墩 · Mwinog2777 / CC BY-SA 4.0' },
-          { url: 'assets/img/la-jolla-shores-photo-don-ramey-logan-d2f38a1d.jpg', cap: 'La Jolla Shores · Don Ramey Logan / CC BY-SA 4.0' }
-        ]
-      },
-      {
-        id: 'salk',
-        n: 4,
-        name: '索尔克生物研究所',
-        en: 'Salk Institute for Biological Studies',
-        score: 5,
-        tldr: '二十世纪现代建筑殿堂级作品，但门禁与摄影政策都已收紧：$25 导览团、禁三脚架、禁摆拍人像，且只有 9/9 上午可去。',
-        tags: [{ t: '必须预约', c: 'book' }, { t: '$25/人', c: 'paid' }, { t: '仅 9/9 可行', c: 'risk' }, { t: '禁三脚架', c: 'risk' }, { t: '禁摆拍人像', c: 'risk' }],
-        highlights: [
-          'Louis Kahn 1965 年设计、脊髓灰质炎疫苗发明者 Jonas Salk 创立，<strong>公认的二十世纪现代建筑殿堂级作品</strong>。' +
-            'Salk 给 Kahn 的要求很有名：造一个「连毕加索都愿意来的地方」，因为他相信环境的开阔会带来思想的开阔',
-          '<strong>中庭原本的设计是一片花园</strong>。传说是墨西哥建筑师 Luis Barragán 到访后对 Kahn 说：' +
-            '「不要种一棵树、一片叶子，把它做成一个石头的广场，天空就是立面。」Kahn 采纳了——' +
-            '于是有了今天这片空无一物、只有石灰石与天空的中庭，也成了整栋建筑最强的一笔',
-          '两栋对称的混凝土实验楼夹出中庭，<strong>一道仅数厘米宽的「生命之河」（River of Life）水槽笔直指向太平洋</strong>，' +
-            '尽头是一道无限延伸的地平线。每年春分与秋分前后，落日会正对着这条水槽轴线沉入海面',
-          '材质是这里的另一半故事：<strong>清水混凝土掺了火山灰呈暖粉调、模板木纹被刻意保留</strong>，' +
-            '柚木窗框未做任何涂装、任其风化成银灰色，与石灰石地面构成三种质感的对照。这是建筑摄影的教科书级样本',
-          '实验楼采用「服务层与被服务层」分离的结构：每层实验室上方都有一整层管道夹层，' +
-            '让内部空间可以完全无柱、随科研需要自由改造——这个理念影响了此后半个世纪的实验室建筑'
-        ],
-        photo: '建筑 <strong>5/5</strong>，风光 <strong>2/5</strong>，<strong>人像 0/5（摆拍人像明令禁止，不要尝试）</strong>。' +
-          '中庭朝西正对太平洋，日落时是最佳光线——<strong>但导览团只在上午 10:00/11:30，根本拍不到日落，这是本站最大的遗憾</strong>。',
-        shots: [
-          {
-            name: '中庭中轴对称（必拍一张）',
-            desc: '站水槽东端中线，<strong>16–24mm 竖构图，水槽引导线直指海平面</strong>。' +
-              '<strong>建议选 10:00 场</strong>，太阳位置略低，墙面阴影更有层次。' +
-              '无三脚架但上午光线足够手持；<strong>超广角机身水平必须手动找准，对称构图歪一度就废，建议开机内电子水平仪</strong>。',
-            park: [32.89004, -117.25057],
-            view: [32.88762, -117.24668]
-          },
-          {
-            name: '混凝土与柚木材质细节',
-            desc: '35–50mm，侧光下混凝土的木纹模板痕迹最清楚。建筑几何用 24–70mm，利用两侧塔楼的斜切墙面做重复韵律。' +
-              '<strong>只能带一台手持相机，建议一支 16–35mm 变焦搞定全部。</strong>',
-            view: [32.88762, -117.24668]
-          }
-        ],
-        access: {
-          book: '<strong>必须提前线上注册。</strong>公众团每周三、四、五 <strong>10:00 与 11:30</strong>，约 1 小时。私人团周一至周五 09:00–15:00，1–10 人 $250，须提前至少 10 个工作日申请',
-          ticket: '<strong>$25 / 人</strong>',
-          hours: '<strong>周末、节假日、私人活动期间全部闭园。</strong>本次行程<strong>只有 9/9（周三）可行</strong>',
-          parking: '<strong>校园内无公共访客停车。</strong>最近的免费公共停车是 Torrey Pines Gliderport 土场',
-          walk: 'Gliderport 到研究所直线约 450 米，<strong>实际步行绕行 600–700 米 / 8–10 分钟</strong>，但官方建议按 15–20 分钟预留',
-        },
-        notes: [
-          '<strong>摄影政策严格。允许</strong>：仅导览团期间的休闲个人拍摄，<strong>限一台手持相机或手机</strong>，不得使用任何附加器材',
-          '<strong>明令禁止</strong>：三脚架、自拍杆、灯光设备（含离机闪光灯）、道具、服装、' +
-            '<strong>正式或摆拍或受委托的摄影摄像</strong>（婚纱、订婚、毕业、家庭写真、模特作品集、学生作业均在内）、' +
-            '作品集摄影、实验室内部拍摄。不得为了拍照而拖延或打断团队行进',
-          '<strong>专业与商业摄影一律禁止</strong>，除非事先获批并由 Salk 传播团队全程陪同，申请邮箱 press@salk.edu',
-          '<strong>导览准时出发，迟到超过 10 分钟可能不被允许加入</strong>',
-          '官方提示<strong>园区正在进行保护与修复施工，包括主中庭内部及周边</strong>，可能有围挡影响构图',
-          '这是私有产权，Salk 保留对违规者拒绝或撤销进入许可的权利。<strong>请勿试图在非导览时段进入园区拍摄——这是近年政策收紧的直接原因</strong>',
-          '中庭石灰石地面反光强，注意镜头耀斑'
-        ],
-        images: [
-          { url: 'assets/img/salk-institute-highsmith-a4d3f2ab.jpg', cap: 'Salk Institute 中庭与生命之河 · Carol M. Highsmith / 公有领域' },
-          { url: 'assets/img/salk-institute-for-biological-studies-and-a-seagull-dllu-9d48f0b7.jpg', cap: 'Salk Institute 中庭 · Daniel L. Lu / CC BY-SA 4.0' },
-          { url: 'assets/img/chairs-and-table-at-salk-institute-dllu-159def22.jpg', cap: 'Salk Institute 细部 · Daniel L. Lu / CC BY-SA 4.0' }
-        ]
-      },
-      {
-        id: 'mount-soledad',
-        n: 5,
-        name: '索莱达山国家退伍军人纪念碑',
-        en: 'Mount Soledad National Veterans Memorial',
-        score: 3.5,
-        tldr: '免费、停车免费、走一分钟就到。360° 视野，日落明显优于日出，日落后可立刻转拍市区灯光。',
-        tags: [{ t: '完全免费', c: 'free' }, { t: '停车免费', c: 'free' }, { t: '22:00 锁门', c: 'risk' }],
-        highlights: [
-          '<strong>确认：原清单上的「Soledad Mountain」就是这里。</strong>圣地亚哥县最高海岸峰（约 822 英尺）',
-          '核心是 29 英尺（含基座 43 英尺）混凝土十字架，周围 14 道黑色花岗岩墙嵌有<strong>逾 6,000 块退伍军人纪念牌</strong>，含 6 位美国总统与 27 位荣誉勋章获得者',
-          '360° 视野：西向太平洋、南向市区天际线与科罗纳多大桥、东向山脉、北向 Del Mar，晴日可远眺墨西哥'
-        ],
-        photo: '风光 <strong>4/5</strong>，建筑 <strong>4/5</strong>，人像 <strong>2/5</strong>（环境偏庄严，且游客与旅游大巴多）。' +
-          '<strong>日落明显优于日出</strong>：孤峰全向视野，西侧直面太平洋无遮挡，太阳直落海平面；' +
-          '同时日落后可立即转拍南向市区灯光加蓝调天空的双层画面。日出方向朝内陆山脉，缺少水面，' +
-          '且 9 月清晨海雾极常见容易整片糊掉。唯一支持日出的场景是想要最清透的远景能见度。',
-        shots: [
-          {
-            name: '十字架基座（主机位）',
-            desc: '<strong>日落前 30–45 分钟抵达</strong>抢车位与观景位置（山顶车位极少，旅游大巴常占）。' +
-              '十字架框景用 16–24mm 仰拍，利用墙体开口切割晚霞；海岸大景用 24–70mm 西向，压低地平线突出天空。' +
-              '<strong>城市天际线与科罗纳多大桥用 70–200mm 或 100–400mm 南向长焦压缩，日落后 20–40 分钟灯光与天空亮度平衡最佳。</strong>' +
-              '花岗岩墙细节用 35–50mm。山顶开阔风大，三脚架建议挂重物。',
-            park: [32.83957, -117.24508],
-            view: [32.83982, -117.24469]
-          }
-        ],
-        access: {
-          book: '不需要',
-          ticket: '<strong>永久免费</strong>（纪念碑由捐赠资助运营）',
-          hours: '<strong>每日 07:00–22:00，大门 22:00 准时上锁</strong>，切勿把车留在场内',
-          parking: '<strong>免费。</strong>纪念碑周边零散车位数个；下方五分钟步行处有一个大停车场；满位时可停 La Jolla Scenic Drive South 路边（免费）',
-          walk: '近处车位到十字架基座约 <strong>40 米 / 1 分钟</strong>；大停车场约 5 分钟上坡',
-        },
-        notes: [
-          '这是<strong>现役纪念场所</strong>，常有家属祭扫与仪式，架设器材请避让',
-          '上山路陡窄弯多，<strong>自行车骑行者极多，慎超车</strong>',
-          '山顶风大温差明显，日落后迅速降温。仅有移动厕所',
-          '<strong>注意导航</strong>：OSM 上另有一个标为「Soledad Mountain」的峰点节点位于纪念碑以西约 730 米，与纪念碑不是同一位置，请使用本条给出的坐标'
-        ],
-        images: [
-          { url: 'assets/img/mount-soledad-i-4883143285-033bf0e7.jpg', cap: 'Mount Soledad 十字架 · Antonio Zugaldia / CC BY 2.0' },
-          { url: 'assets/img/mount-soledad-ii-4883143499-9ad992a6.jpg', cap: 'Mount Soledad 纪念墙 · Antonio Zugaldia / CC BY 2.0' },
-          { url: 'assets/img/mount-soledad-iii-4883747540-41aac087.jpg', cap: 'Mount Soledad 全景 · Antonio Zugaldia / CC BY 2.0' }
         ]
       },
       {
@@ -2813,79 +2811,8 @@ var REGIONS = [
     ],
     spots: [
       {
-        id: 'salvation-mountain',
-        n: 1,
-        name: '救赎山',
-        en: 'Salvation Mountain, Niland',
-        score: 4.5,
-        tldr: '全免费、日出到日落全年开放的民间艺术地标；人像与人文性价比极高。黄砖路是唯一指定通行路径，务必踩着它走。',
-        tags: [
-          { t: '完全免费', c: 'free' }, { t: '无需预约', c: 'free' },
-          { t: '全年日出至日落', c: 'free' }, { t: '9/7 起 38°C', c: 'risk' }
-        ],
-        highlights: [
-          '<strong>Leonard Knight 用 28 年、约 10 万加仑废弃乳胶漆</strong>，混合 adobe 黏土与麦秸，一个人堆出的民间艺术纪念碑。' +
-            '约 3 层楼高、100 英尺宽，核心标语是 “GOD IS LOVE”。2026 年恰逢建成 <strong>40 周年</strong>',
-          '它的起点其实是一次失败：Knight 原本想造一个写着这句话的<strong>热气球</strong>，做了十几年都没能升空。' +
-            '1984 年他放弃气球，改用水泥在这片荒地上堆了第一座小山——结果因结构不稳在 1989 年<strong>整个塌掉</strong>。' +
-            '他把它推平，改用当地黏土加麦秸重来一遍，才有了今天这座',
-          '1994 年 Imperial County 曾以「有毒废弃物堆」为由准备铲平它。' +
-            '土壤检测送到实验室后结果是安全的，加上舆论声援，拆除计划取消。' +
-            '<strong>2002 年它被列入国会记录，认定为「国家级民间艺术珍宝」</strong>',
-          'Knight 在此独居生活了近 30 年——没有电、没有自来水，住在旁边一辆卡车里，全部收入靠捐款。' +
-            '他 2011 年因健康问题离开，2014 年去世，现在由一个非营利组织维护',
-          '旁边是他最后的作品 “Museum”：以轮胎作树干、黏土球作花朵的树屋式结构，' +
-            '<strong>目前已坍塌、禁止进入</strong>，只能从外部拍摄。周围还散落着数辆彩绘卡车'
-        ],
-        photo: '人文 <strong>5/5</strong>，人像 <strong>5/5</strong>，风光 <strong>2/5</strong>。' +
-          '高饱和色块加标语文字是极强的人像背景板，这是本次行程里人文与人像性价比最高的单点。' +
-          '扣分项是周边为极平坦无特征的 Imperial Valley 荒地，没有地形层次可用。',
-        shots: [
-          {
-            name: '正面全景（主机位）',
-            desc: '主体西南侧、Beal Rd 路面上，退后约 40–60 米可用 24mm 收全。' +
-              '<strong>务必清晨拍</strong>：日出 06:20，最佳窗口 06:50–08:00，此时西北偏西的主立面是柔和顺侧光且几乎无人。' +
-              '正午顶光会把色块拍得死平，下午整个立面在阴影里。镜头 24–35mm 全景 / 85mm 压缩局部色块。',
-            park: [33.25417, -115.47250],
-            view: [33.25390, -115.47280]
-          },
-          {
-            name: 'Museum 结构与侧面',
-            desc: '主体东南侧，紧邻本体。Museum 已坍塌禁止进入，只能外部拍摄。上午同一时段，16–24mm 贴近拍纹理。',
-            view: [33.25417, -115.47250]
-          },
-          {
-            name: 'Slab City 入口牌坊',
-            view: [33.257951, -115.462841],
-            desc: '距救赎山约 1.2 公里。Beal Road 铺装路面延伸至救赎山，之后转为土石路，低底盘车辆需谨慎。白天沿主路行车观光问题不大，但不要擅入营地、不要拍摄居民，日落后不建议逗留。附近的 <strong>East Jesus 装置艺术园区 10:00–17:00 开放</strong>，免费、接受现金捐赠。<strong>区内无自来水、无电力、无垃圾清运</strong>，请自备每人每天至少 5 加仑水，最近加油站在约 4 英里外的 Niland。',
-            at: [33.25750, -115.46250]
-          }
-        ],
-        access: {
-          book: '不需要',
-          ticket: '完全免费。无门票、无纪念品店，现场工作人员不主动索要捐款',
-          hours: '日出至日落，全年 365 天',
-          parking: '免费土地面，普通轿车可到（Beal Rd 末段非铺装，注意松沙，<strong>不需要四驱</strong>）。官方要求距彩绘与展示区至少 10 英尺',
-          walk: '停车到机位 <strong>不到 1 分钟</strong>；建议停留 30–45 分钟',
-        },
-        notes: [
-          '<strong>黄砖路（Yellow Brick Road）是志愿者指定的唯一通行路径，不是封闭区</strong>：官方明确要求参观者严格沿着地面画出的黄砖路行走，以免踩坏脆弱的黏土结构。<strong>请踩着它走，不要走在它之外的任何山体表面</strong>',
-          '<strong>Museum 结构已坍塌，禁止进入</strong>，官方说明只能从外部拍摄',
-          '除黄砖路外，山体所有其他部分严禁攀爬',
-          '捐款鼓励但非强制，<strong>只投现场捐款箱或线上捐，不要把现金交给现场任何人</strong>',
-          '此处没有加油站、餐饮与可靠手机信号，<strong>最后一次加油请在 Niland 或 Calipatria 完成</strong>，并离线下载地图',
-          '<strong>气温：9/5、9/6 约 32°C，9/7 起升到 38°C 左右，全程无高温预警</strong>（上一次极端高温预警已于 8/29 到期）。清晨仍是最佳拍摄时段，但不再是安全上的硬性约束。带每人至少 4L 水、宽檐帽与高倍防晒。场地限速 5 mph',
-          '土地所有权存在风险：机构正募集 50 万美元购地基金以防被工业开发拆除，年运营预算仅约 6.5 万美元'
-        ],
-        images: [
-          { url: 'assets/img/salvation-mountain-niland-ca-2942c5a2.jpg', cap: 'Salvation Mountain 正面全貌 · Wikimedia Commons' },
-          { url: 'assets/img/salvation-mountain-flickr-gregthebusker-d31bfdc3.jpg', cap: 'Salvation Mountain · GregTheBusker via Flickr / Wikimedia Commons' },
-          { url: 'assets/img/salvation-mountain-folk-art-726b41a4.jpg', cap: 'Salvation Mountain 色块与标语细节 · Wikimedia Commons' }
-        ]
-      },
-      {
         id: 'salton-sea',
-        n: 2,
+        n: 1,
         name: '索尔顿湖 / 孟买海滩',
         en: 'Salton Sea · Bombay Beach',
         score: 4,
@@ -2955,6 +2882,77 @@ var REGIONS = [
           { url: 'assets/img/the-swing-at-bombay-beach-856e72f6.jpg', cap: 'Bombay Beach 的秋千装置 · Wikimedia Commons' },
           { url: 'assets/img/bombay-beach-at-sunset-flickr-ruggybearla-cf09824f.jpg', cap: 'Bombay Beach 日落 · RuggyBearLA via Flickr / Wikimedia Commons' },
           { url: 'assets/img/old-salton-sea-beach-marina-2013-d55de5c5.jpg', cap: 'Salton Sea 湖岸废墟 · Wikimedia Commons' }
+        ]
+      },
+      {
+        id: 'salvation-mountain',
+        n: 2,
+        name: '救赎山',
+        en: 'Salvation Mountain, Niland',
+        score: 4.5,
+        tldr: '全免费、日出到日落全年开放的民间艺术地标；人像与人文性价比极高。黄砖路是唯一指定通行路径，务必踩着它走。',
+        tags: [
+          { t: '完全免费', c: 'free' }, { t: '无需预约', c: 'free' },
+          { t: '全年日出至日落', c: 'free' }, { t: '9/7 起 38°C', c: 'risk' }
+        ],
+        highlights: [
+          '<strong>Leonard Knight 用 28 年、约 10 万加仑废弃乳胶漆</strong>，混合 adobe 黏土与麦秸，一个人堆出的民间艺术纪念碑。' +
+            '约 3 层楼高、100 英尺宽，核心标语是 “GOD IS LOVE”。2026 年恰逢建成 <strong>40 周年</strong>',
+          '它的起点其实是一次失败：Knight 原本想造一个写着这句话的<strong>热气球</strong>，做了十几年都没能升空。' +
+            '1984 年他放弃气球，改用水泥在这片荒地上堆了第一座小山——结果因结构不稳在 1989 年<strong>整个塌掉</strong>。' +
+            '他把它推平，改用当地黏土加麦秸重来一遍，才有了今天这座',
+          '1994 年 Imperial County 曾以「有毒废弃物堆」为由准备铲平它。' +
+            '土壤检测送到实验室后结果是安全的，加上舆论声援，拆除计划取消。' +
+            '<strong>2002 年它被列入国会记录，认定为「国家级民间艺术珍宝」</strong>',
+          'Knight 在此独居生活了近 30 年——没有电、没有自来水，住在旁边一辆卡车里，全部收入靠捐款。' +
+            '他 2011 年因健康问题离开，2014 年去世，现在由一个非营利组织维护',
+          '旁边是他最后的作品 “Museum”：以轮胎作树干、黏土球作花朵的树屋式结构，' +
+            '<strong>目前已坍塌、禁止进入</strong>，只能从外部拍摄。周围还散落着数辆彩绘卡车'
+        ],
+        photo: '人文 <strong>5/5</strong>，人像 <strong>5/5</strong>，风光 <strong>2/5</strong>。' +
+          '高饱和色块加标语文字是极强的人像背景板，这是本次行程里人文与人像性价比最高的单点。' +
+          '扣分项是周边为极平坦无特征的 Imperial Valley 荒地，没有地形层次可用。',
+        shots: [
+          {
+            name: '正面全景（主机位）',
+            desc: '主体西南侧、Beal Rd 路面上，退后约 40–60 米可用 24mm 收全。' +
+              '<strong>务必清晨拍</strong>：日出 06:20，最佳窗口 06:50–08:00，此时西北偏西的主立面是柔和顺侧光且几乎无人。' +
+              '正午顶光会把色块拍得死平，下午整个立面在阴影里。镜头 24–35mm 全景 / 85mm 压缩局部色块。',
+            park: [33.25417, -115.47250],
+            view: [33.25390, -115.47280]
+          },
+          {
+            name: 'Museum 结构与侧面',
+            desc: '主体东南侧，紧邻本体。Museum 已坍塌禁止进入，只能外部拍摄。上午同一时段，16–24mm 贴近拍纹理。',
+            view: [33.25417, -115.47250]
+          },
+          {
+            name: 'Slab City 入口牌坊',
+            view: [33.257951, -115.462841],
+            desc: '距救赎山约 1.2 公里。Beal Road 铺装路面延伸至救赎山，之后转为土石路，低底盘车辆需谨慎。白天沿主路行车观光问题不大，但不要擅入营地、不要拍摄居民，日落后不建议逗留。附近的 <strong>East Jesus 装置艺术园区 10:00–17:00 开放</strong>，免费、接受现金捐赠。<strong>区内无自来水、无电力、无垃圾清运</strong>，请自备每人每天至少 5 加仑水，最近加油站在约 4 英里外的 Niland。',
+            at: [33.25750, -115.46250]
+          }
+        ],
+        access: {
+          book: '不需要',
+          ticket: '完全免费。无门票、无纪念品店，现场工作人员不主动索要捐款',
+          hours: '日出至日落，全年 365 天',
+          parking: '免费土地面，普通轿车可到（Beal Rd 末段非铺装，注意松沙，<strong>不需要四驱</strong>）。官方要求距彩绘与展示区至少 10 英尺',
+          walk: '停车到机位 <strong>不到 1 分钟</strong>；建议停留 30–45 分钟',
+        },
+        notes: [
+          '<strong>黄砖路（Yellow Brick Road）是志愿者指定的唯一通行路径，不是封闭区</strong>：官方明确要求参观者严格沿着地面画出的黄砖路行走，以免踩坏脆弱的黏土结构。<strong>请踩着它走，不要走在它之外的任何山体表面</strong>',
+          '<strong>Museum 结构已坍塌，禁止进入</strong>，官方说明只能从外部拍摄',
+          '除黄砖路外，山体所有其他部分严禁攀爬',
+          '捐款鼓励但非强制，<strong>只投现场捐款箱或线上捐，不要把现金交给现场任何人</strong>',
+          '此处没有加油站、餐饮与可靠手机信号，<strong>最后一次加油请在 Niland 或 Calipatria 完成</strong>，并离线下载地图',
+          '<strong>气温：9/5、9/6 约 32°C，9/7 起升到 38°C 左右，全程无高温预警</strong>（上一次极端高温预警已于 8/29 到期）。清晨仍是最佳拍摄时段，但不再是安全上的硬性约束。带每人至少 4L 水、宽檐帽与高倍防晒。场地限速 5 mph',
+          '土地所有权存在风险：机构正募集 50 万美元购地基金以防被工业开发拆除，年运营预算仅约 6.5 万美元'
+        ],
+        images: [
+          { url: 'assets/img/salvation-mountain-niland-ca-2942c5a2.jpg', cap: 'Salvation Mountain 正面全貌 · Wikimedia Commons' },
+          { url: 'assets/img/salvation-mountain-flickr-gregthebusker-d31bfdc3.jpg', cap: 'Salvation Mountain · GregTheBusker via Flickr / Wikimedia Commons' },
+          { url: 'assets/img/salvation-mountain-folk-art-726b41a4.jpg', cap: 'Salvation Mountain 色块与标语细节 · Wikimedia Commons' }
         ]
       }
     ]
