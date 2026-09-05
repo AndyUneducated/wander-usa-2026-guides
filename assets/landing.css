@@ -1,0 +1,80 @@
+/* 总入口首页专用样式，只在 index.html 引入 */
+
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 18px;
+  margin-bottom: 8px;
+}
+
+.guide {
+  display: block;
+  position: relative;
+  padding: 24px 24px 20px;
+  background: var(--bg-card);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--accent);
+  border-radius: 12px;
+  color: inherit;
+  text-decoration: none;
+  transition: border-color .18s, background .18s, transform .18s;
+}
+
+.guide:hover {
+  background: var(--bg-soft);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.guide.done { border-left-color: var(--green); }
+.guide.done:hover { border-color: var(--green); }
+
+.guide-emoji { font-size: 28px; line-height: 1; margin-bottom: 12px; }
+
+.guide h3 {
+  margin: 0 0 4px;
+  font-size: 21px;
+  line-height: 1.3;
+}
+
+.guide-sub {
+  margin: 0 0 14px;
+  font-size: 12.5px;
+  color: var(--text-faint);
+  letter-spacing: .01em;
+}
+
+.guide-desc {
+  margin: 0 0 18px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-dim);
+}
+
+.guide-desc b { color: var(--text); font-weight: 600; }
+
+.guide-meta {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+
+.guide-meta span {
+  font-size: 12px;
+  color: var(--text-faint);
+  padding: 3px 9px;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
+
+.guide-meta .ext { color: var(--green); border-color: rgba(75, 209, 138, .35); }
+
+#howto .callout { max-width: 900px; }
+
+@media (max-width: 720px) {
+  .guide-grid { grid-template-columns: 1fr; }
+  .guide { padding: 20px; }
+}
