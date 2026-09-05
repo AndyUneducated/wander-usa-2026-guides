@@ -30,15 +30,23 @@
 | `nyc/parts/02-boston-cambridge.js` | ✅ 完成 |
 | `nyc/parts/03-hudson-valley.js` | ✅ 完成 |
 | `nyc/parts/04-manhattan-midtown.js` | ✅ 完成 |
-| `nyc/parts/05-manhattan-downtown.js` | ❌ 待做 |
+| `yellowstone/parts/03-mammoth-lamar.js` | ✅ 完成 |
+| `yellowstone/parts/05-canyon-hayden.js` | ✅ 完成 |
+| `yellowstone/parts/06-geyser-basins.js` | ✅ 完成 |
+| `yellowstone/parts/08-grand-teton.js` | ✅ 完成 |
+| `nyc/parts/05-manhattan-downtown.js` | ⚠️ 断网时正在做，已落盘的部分在 `d759402` |
+| `yellowstone/parts/02-butte-paradise.js` | ⚠️ 断网时正在做，已落盘的部分在 `d759402` |
+| `yellowstone/parts/04-beartooth-chief-joseph.js` | ⚠️ 断网时正在做，已落盘的部分在 `d759402` |
 | `nyc/parts/06-brooklyn.js` | ❌ 待做 |
 | `yellowstone/parts/01-bitterroot.js` | ❌ 待做 |
-| `yellowstone/parts/02-butte-paradise.js` | ❌ 待做 |
-| `yellowstone/parts/04-beartooth-chief-joseph.js` | ❌ 待做 |
-| `yellowstone/parts/03-mammoth-lamar.js` | ❌ 待做 |
-| `yellowstone/parts/05-canyon-hayden.js` | ❌ 待做 |
-| `yellowstone/parts/06-geyser-basins.js` | ❌ 待做 |
-| `yellowstone/parts/08-grand-teton.js` | ❌ 待做 |
+
+三个标 ⚠️ 的片段是断网打断的，写进去的修正有效（语法与 `check_all.py` 都过了），
+但没做完。恢复时重派这三个加上两个 ❌，一共五个片段。
+
+黄石园内那四个片段的复核留下两个还没定论的问题，恢复后若想继续追：
+Old Faithful Inn 的关门日 Xanterra 说 10/12、NPS 说 10/18 而两页都是当前的
+（只影响 10 月下旬的备用窗口，不影响 9/22–9/29 的真实日期）；
+Blacktail Plateau Drive 与 Upper Terrace Drive 无公布日期，只反推出「最晚 11/1」的上界。
 
 **派研究员时的两条硬性约束**，两条都是踩过坑才加的：
 
