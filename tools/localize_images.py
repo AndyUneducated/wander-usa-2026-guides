@@ -20,6 +20,8 @@ import json
 import os
 import re
 import ssl
+import subprocess
+import sys
 import threading
 import time
 import urllib.error
@@ -264,15 +266,26 @@ def main() -> int:
     credits = img_dir / "CREDITS.md"
     progress_path = img_dir / ".progress.json"
 
-    if not data.exists():
-        log(f"找不到 {data}")
+    # 改写目标：如果该地域有 parts/，data.js 是 tools/assemble.py 生成的，
+    # 直接改 data.js 会在下次拼装时被覆盖，所以必须改片段源文件。
+    parts_dir = region_dir / "parts"
+    if parts_dir.is_dir():
+        targets = sorted(parts_dir.glob("*.js"))
+        log(f"[{args.region}] 改写目标为 {len(targets)} 个片段文件"
+            f"（data.js 由 assemble.py 生成，改它会被覆盖）")
+    elif data.exists():
+        targets = [data]
+    else:
+        log(f"找不到 {data}，也没有 {parts_dir}")
         return 1
 
-    source = data.read_text()
-    urls = sorted(set(re.findall(r"url:\s*'(https?://[^']+)'", source)))
+    # 片段用 JS 单引号，assemble 生成的 data.js 用 JSON 双引号，两种都要认
+    URL_RE = re.compile(r"""["']?url["']?\s*:\s*(['"])(https?://[^'"]+)\1""")
+    sources = {p: p.read_text() for p in targets}
+    urls = sorted({m.group(2) for s in sources.values() for m in URL_RE.finditer(s)})
 
     if not urls:
-        log(f"[{args.region}] data.js 中没有远程图片链接，无需处理。")
+        log(f"[{args.region}] 没有远程图片链接，无需处理。")
         img_dir.mkdir(parents=True, exist_ok=True)
         Progress(progress_path, 0, args.region).close("nothing-to-do")
         return 0
@@ -346,14 +359,26 @@ def main() -> int:
         log(f"    → {path.name}  ({len(body) / 1024:.0f} KB)")
         prog.tick("ok")
 
-    # 改写 data.js
+    # 改写源文件（片段或 data.js），两种引号格式都替换
     prog.set(phase="rewriting", current=None)
-    out = source
-    for url, local in mapping.items():
-        out = out.replace(f"url: '{url}'", f"url: '{local}'")
-    if out != source:
-        data.write_text(out)
-        log(f"\n[{args.region}] data.js 已改写 {len(mapping)} 个链接为本地路径")
+    rewritten = 0
+    for path, source in sources.items():
+        out = source
+        for url, local in mapping.items():
+            for qc in ("'", '"'):
+                out = out.replace(f"url: {qc}{url}{qc}", f"url: {qc}{local}{qc}")
+                out = out.replace(f'"url": {qc}{url}{qc}', f'"url": {qc}{local}{qc}')
+        if out != source:
+            path.write_text(out)
+            rewritten += 1
+    if rewritten:
+        log(f"\n[{args.region}] 已在 {rewritten} 个文件中改写 {len(mapping)} 个链接为本地路径")
+        if parts_dir.is_dir():
+            log(f"[{args.region}] 重新拼装 data.js")
+            subprocess.run(
+                [sys.executable, str(ROOT / "tools" / "assemble.py"),
+                 "--region", args.region],
+                check=False)
 
     # 生成署名文件，满足 CC 协议的署名要求
     lines = [
