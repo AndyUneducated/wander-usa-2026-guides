@@ -1988,12 +1988,17 @@ module.exports = {
           '→ <strong>结论：Harborwalk 拍早晨，Fenway 拍傍晚，两者不冲突也不重叠。</strong>' +
           '<strong>如果只能选一个，选 Harborwalk</strong>——理由在下面第三条。',
         '<strong>本条目最重要的一条坏消息，而且它直接删掉一张标志性照片：Citgo 招牌在你来的时候是不存在的。</strong>' +
-          '<strong>2026 年 5 月 29 日起，Kenmore Square 的 Citgo 招牌被 Suffolk Construction 逐块拆除</strong>；' +
+          '<strong>官方项目页（bostonyouremyhome.net）写明「the CITGO Sign Relocation project began on May 27, 2026」，' +
+          '字母与 logo 随即被拆下，Kenmore Square 的招牌由 Suffolk Construction 逐块拆除</strong>；' +
           '原计划只是「平移」，但 5 月 Poyant Signs 的检测发现钢结构腐蚀严重、无法安全复用，' +
           '<strong>于是改为由 Federal Heath 按 1965 年原样重做一套复制品（11 英尺高的字母、60×60 英尺、整体 12.5 万磅）</strong>。' +
           '<strong>新招牌装在 660 Beacon Street 屋顶一座新钢结构上，比原位高 30 英尺、向东 120 英尺</strong>' +
           '（为了绕开挡住视线的 Whoop 总部标识，恢复 1965 年以来的视线关系），' +
-          '<strong>安装从 2026 年 8 月做到 10 月，LED 复亮时间是「by mid-November」，工程造价 $8M。</strong>' +
+          '<strong>安装从 2026 年 8 月做到 10 月、之后是电气工程，LED 复亮时间是「by mid-November」，' +
+          '整个项目要到 12 月才完工，造价 $8M</strong>' +
+          '（官方项目页：「expected to be fully operational in November 2026」；' +
+          'Boston Globe 2026 年 7 月 29 日：「The rebuilt sign\'s LED lights will shine by mid-November」）。' +
+          '<strong>这一条在 2026 年 9 月 5 日复查过，两个来源口径一致：10 月中下旬招牌一定是暗的。</strong>' +
           '→ <strong>推论：9 月 25 日到 10 月 22 日之间，你看到的是塔吊与半成品，招牌不亮。' +
           '「Citgo 招牌浮在 Green Monster 后面」这张照片本次拿不到，没有替代机位。</strong>' +
           '<strong>唯一的补偿：原版招牌上拆下来的那个字母「C」现在挂在 660 Beacon Street 底层的 Cornwall\'s 餐厅室内，' +
@@ -2026,11 +2031,17 @@ module.exports = {
         '<strong>Fenway 这一侧：球场本身在你的窗口里大概率仍然「活着」，但你几乎不可能带器材进去。</strong>' +
           '<strong>2026 赛季最后一场常规赛是 9 月 27 日（周日）15:05 在 Fenway 主场对 Chicago Cubs，第 162 战；' +
           '此前 9 月 22／23／24 日主场对 Cleveland（18:45／19:10／18:45），9 月 25／26 日对 Cubs（19:10／19:15）。</strong>' +
-          '<strong>Baseball-Reference 的赛季快照显示 Red Sox 进季后赛概率 98.4%</strong>，' +
-          '而<strong>2026 季后赛日程为：Wild Card 9 月 29 日–10 月 1 日、Division Series 10 月 3–10 日、' +
-          'ALCS 10 月 12–20 日、World Series 10 月 23–31 日</strong>。' +
-          '→ <strong>推论：十月上中旬完全可能有主场季后赛，届时球场周边封路、安检范围扩大、导览大概率停开；' +
-          '这是本条目在十月最大的不确定性。</strong>' +
+          '<strong>2026 年 9 月 5 日的实际战况：Red Sox 75–65，占据美联第二张外卡（第 5 种子），' +
+          'FanGraphs 给的进季后赛概率 98.4%、Baseball-Reference 给 99.3%</strong>。' +
+          '而<strong>MLB 官方公布的 2026 季后赛日程是：Wild Card 9 月 29 日–10 月 1 日、' +
+          'Division Series 10 月 3–10 日、ALCS 10 月 12–20 日（G1 10/12、G2 10/13、G3 10/15、G4 10/16、' +
+          'G5 10/17、G6 10/19、G7 10/20）、World Series 10 月 23–31 日</strong>。' +
+          '<strong>LCS 是 2-3-2，高种子打 G1–2 与 G6–7。Red Sox 以第 5 种子进去几乎一定是低种子，' +
+          '所以他们的 ALCS 主场是 G3、G4、G5——也就是 10 月 15、16、17 日。</strong>' +
+          '→ <strong>推论，说得具体一点：10/13（周二）那场 ALCS G2 打在对手主场，Fenway 一带正常；' +
+          '真正的风险日是 10/15（周四），那天如果 Red Sox 打到 ALCS 且是低种子，Fenway 就有主场比赛，' +
+          '当天最后一班导览提前到开赛前三小时发车，Jersey Street 与 Lansdowne Street 会封、安检范围扩大。</strong>' +
+          '<strong>这是本条目在十月最大的不确定性，出发前一周查 mlb.com/redsox 的赛程页即可定案。</strong>' +
           '<strong>而真正会毁掉你计划的是器材规定，官方原文：' +
           '「Bags must be single-compartment and no larger than 12"x12"x6". Backpacks... are NOT permitted」，' +
           '以及「Professional audio/visual equipment is prohibited... Some examples of this equipment are tripods, ' +
@@ -2132,19 +2143,26 @@ module.exports = {
             '<strong>具体排号未能从官方渠道核实</strong>），<strong>85mm 从侧上方压缩一片绿座椅里的一点红。</strong>' +
             '<strong>时段：导览 09:00–17:00 整点一班，室内外混合，光线不可控；' +
             '选 15:00 或 16:00 那班，此时西斜光会从看台开口斜切进场地，是全天最好的场内光。</strong>' +
-            '<strong>$30，需提前在官方网站订（最多提前 30 天），赛季中常售罄。</strong>'
+            '<strong>$30，需提前在官方网站订（官方原文「Online tour tickets are available for purchase ' +
+            'up to 180 days prior to each date」，也就是最多提前 180 天而不是 30 天），赛季中常售罄。</strong>'
         }
       ],
       access: {
         book: '<strong>Harborwalk、Long Wharf、Christopher Columbus Park、Rowes Wharf、Jersey Street 与 Lansdowne Street ' +
           '全部是公共空间，不需预约、不需票。</strong>' +
-          '<strong>Fenway Park 球场导览需在 mlb.com/redsox/ballpark/tours 提前购票，官方称最多可提前 30 天，' +
-          '赛季中与周末常售罄，务必提前订。</strong>' +
+          '<strong>Fenway Park 球场导览需在 mlb.com/redsox/ballpark/tours 提前购票，' +
+          '官方原文是「Online tour tickets are available for purchase up to 180 days prior to each date」——' +
+          '最多提前 180 天，10 月的票现在就能订，赛季中与周末常售罄，务必提前订。</strong>' +
           '<strong>主场比赛日的当天最后一班导览在开赛前三小时发车</strong>——' +
           '<strong>推论：9 月 25 日（19:10 开赛）最后一班约 16:00，9 月 27 日（15:05 开赛）最后一班约 12:00。</strong>',
         ticket: '<strong>外景全部免费。</strong>' +
           '<strong>Fenway Park 公众导览（Public Tour，约 60 分钟）：成人 $30、儿童 3–12 岁 $21、军人 $21。</strong>' +
           '<strong>Pregame Tour $55（仅主场比赛日、开赛前三小时）。</strong>' +
+          '<strong>另有一项官方新增、对拍照的人最有价值的票种：8 AM Field Level Tour，' +
+          '成人与 3–12 岁同价 $75、约 75 分钟、走到内场警戒线（warning track）上</strong>——' +
+          '08:00 出发意味着低角度晨光正打进场地，而且人最少；' +
+          '但官方注明「限时供应、只能线上购买」，' +
+          '<strong>而且这一班完全禁止带任何包（原文「NO BAGS ARE PERMITTED on this tour」）。</strong>' +
           '<strong>「Fenway in Fifteen」$20，但官方限定 5 月至 9 月的比赛日与周末 12:00–15:00——' +
           '也就是说十月来的人拿不到这一项。</strong>' +
           '<strong>Christopher Columbus Park、Long Wharf、Harborwalk 全程免费。</strong>',
@@ -2154,12 +2172,17 @@ module.exports = {
           '「On game days the last tour departs THREE hours before game time」。' +
           '11 月 1 日至 3 月 31 日改为 10:00–17:00。全年只在 Thanksgiving、Christmas、New Year\'s Day 闭馆。</strong>' +
           '→ <strong>所以十月下旬导览照常运行，这一点是好消息。</strong>' +
-          '<strong>但 2026 季后赛（Wild Card 9/29–10/1、Division Series 10/3–10、ALCS 10/12–20、World Series 10/23–31）' +
-          '若 Red Sox 打进主场轮次，导览大概率停开、球场周边封锁——这一段无法提前确认，只能到日子前查官网。</strong>' +
+          '<strong>但 2026 季后赛（MLB 官方日程：Wild Card 9/29–10/1、Division Series 10/3–10、' +
+          'ALCS 10/12–20、World Series 10/23–31）若 Red Sox 打进主场轮次，' +
+          '当天最后一班导览会提前到开赛前三小时、球场周边封锁。</strong>' +
+          '<strong>已按 2026 年 9 月 5 日的战况算过一遍：Red Sox 是美联第 5 种子（第二张外卡），' +
+          'ALCS 里几乎一定是低种子，因此他们的主场是 G3／G4／G5 = 10/15、10/16、10/17。' +
+          '→ 10/13（周二）的 ALCS G2 在对手主场，Fenway 一带正常；10/15（周四）是唯一有风险的一天。</strong>' +
           '<strong>Harborwalk、Long Wharf、Christopher Columbus Park 为公共通道与市属公园，实务上 24 小时开放。</strong>' +
           '<strong>Christopher Columbus Park 棚架蓝灯官方口径「from the end of November through the middle of April」，' +
           '点灯在感恩节前的周一（2026 年 11 月 23 日），行程窗口内不亮。</strong>' +
-          '<strong>Citgo 招牌：2026 年 5 月 29 日起拆除重建，官方口径复亮时间「by mid-November」，行程窗口内不亮。</strong>',
+          '<strong>Citgo 招牌：官方项目页写明工程自 2026 年 5 月 27 日开工拆除重建，' +
+          '复亮时间「by mid-November」、整个项目 12 月完工，行程窗口内不亮。</strong>',
         parking: '<strong>两侧都不建议自驾。</strong>' +
           'Fenway 一带比赛日车库单次常见 $40–$60（<strong>具体费率未能从官方渠道确认</strong>），' +
           '滨水区 downtown 车库同样昂贵。' +
@@ -2193,9 +2216,12 @@ module.exports = {
         '<strong>2026 年最后一场常规赛是 9 月 27 日（周日）15:05 主场对 Cubs</strong>；' +
           '<strong>9 月 22–27 日连续六个主场日，也就是说九月底来的人是可以看到球赛的</strong>——' +
           '但那几天球场周边人流与封路都会明显加重',
-        '<strong>Red Sox 进季后赛概率约 98.4%（Baseball-Reference 赛季快照）</strong>，' +
-          '而<strong>季后赛日程为 Wild Card 9/29–10/1、Division Series 10/3–10、ALCS 10/12–20、World Series 10/23–31</strong>。' +
-          '<strong>若有主场轮次，导览大概率停开、周边封锁；这一段无法提前确认，出发前一定要查官网</strong>',
+        '<strong>季后赛这一条已经算到具体日子了</strong>：2026 年 9 月 5 日 Red Sox 75–65、' +
+          '占美联第二张外卡（第 5 种子），进季后赛概率 FanGraphs 98.4%／Baseball-Reference 99.3%。' +
+          '<strong>ALCS 官方日程 G1 10/12、G2 10/13、G3 10/15、G4 10/16、G5 10/17、G6 10/19、G7 10/20，' +
+          '2-3-2 由高种子打 G1–2 与 G6–7；Red Sox 作为低种子的主场是 G3–G5 = 10/15、10/16、10/17。</strong>' +
+          '→ <strong>10/13 的 G2 不在 Fenway，那天没问题；10/15 是唯一可能撞上主场季后赛的日子，' +
+          '当天导览末班会提前到开赛前三小时，Jersey／Lansdowne 会封。出发前一周查 mlb.com/redsox 赛程页定案</strong>',
         '<strong>球场导览十月下旬照常运行（4/1–10/31 每天 09:00–17:00、整点一班、$30）</strong>，' +
           '但<strong>「Fenway in Fifteen」($20) 官方限定 5–9 月，十月来的人没有这一项</strong>',
         '<strong>Jersey Street 立面是十月下旬更好、九月底较差（法向 248.5° 对日落 255.7°／269.5°）</strong>，' +

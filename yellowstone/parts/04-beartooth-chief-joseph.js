@@ -1205,27 +1205,31 @@ module.exports = {
     {
       id: 'clay-butte-lookout',
       n: 5,
-      gone: '9 月下旬极可能已季节性关闭',
+      gone: '官方页面持续标注 Site Closed，2026 年从未更新',
       name: 'Clay Butte 火警瞭望台',
       en: 'Clay Butte Lookout (FR 142)',
       score: 3,
-      tldr: '9,811 英尺的 1942 年 CCC 火警塔，能同时看到 Pilot／Index Peaks 与 Beartooth Butte。但官方页面近年在 9 月 10 日前后即挂出「Closed for the Season」，9/24–9/25 极可能上不去。替代机位在主路上，坐标已核实。',
+      tldr: '9,811 英尺的 1942 年 CCC 火警塔，能同时看到 Pilot／Index Peaks 与 Beartooth Butte。但官方页面至 2026-09-05 仍挂着「Site Closed／Closed for the 2025 Season」且整年未更新，无法确认它 2026 年究竟开过没有，按去不了规划。替代机位在主路上，坐标已核实。',
       tags: [
-        { t: '9 月下旬多半已关', c: 'risk' },
+        { t: '官方状态仍是「已关闭」', c: 'risk' },
         { t: '最后 0.4 公里 17:00–08:00 锁门', c: 'risk' },
         { t: '2.6 英里单车道碎石路', c: 'risk' },
         { t: '开放时完全免费', c: 'free' },
         { t: '有替代机位（主路上）', c: 'free' }
       ],
       highlights: [
-        '<strong>先说结论，因为这决定你是否要拐这个弯。</strong>' +
-          'Shoshone National Forest 官方 Clay Butte Lookout 页面在 ' +
-          '<strong>「Current Conditions」栏目里的原文是 “Closed for the 2025 Season”，' +
-          '而该页面的 “Last updated” 日期是 2025 年 9 月 10 日</strong>。' +
-          '<strong>也就是说这个点位在 9 月上旬就已经收季了。</strong>' +
-          '<strong>2026 年的确切关闭日期未能从官方渠道确认，但按同一节奏，9 月 24–25 日几乎肯定已关。</strong>' +
-          '<strong>本页因此把它标成「无法抵达」，并在下面给出主路上一处已核实坐标的替代机位。</strong>' +
-          '如果你恰好赶上它还开着，那是意外收获，而不是可以规划的东西',
+        '<strong>先说结论，因为这决定你是否要拐这个弯——而结论比「已关闭」更微妙一点，请读完。</strong>' +
+          '<strong>2026 年 9 月 5 日复核：Shoshone National Forest 官方 Clay Butte Lookout 页面顶部挂着状态标签 “Site Closed”，' +
+          '「Current Conditions」栏的原文是 “Closed for the 2025 Season”，而页面的 “Last updated” 日期是 2025 年 9 月 10 日。</strong>' +
+          '<strong>注意这个日期：它已经是一年前了。也就是说林务局在 2025 年 9 月挂上收季公告之后，' +
+          '整个 2026 年从未再动过这一页——既没有宣布 2026 年开季，也没有宣布 2026 年关季。</strong>' +
+          '<strong>所以准确的说法不是「它每年 9 月 10 日关」，而是「官方唯一还在线的状态是『关闭』，' +
+          '而 2026 年的真实开关情况官方根本没有发布过」。</strong>' +
+          '（同一现象在整个 Shoshone NF 都有：该森林的 “Current Conditions” 总页最后更新日期是 2025 年 3 月 21 日；' +
+          '<strong>Alerts 页面上也查不到任何与 FR 142 或 Clay Butte 相关的封闭令</strong>。）' +
+          '<strong>本页因此仍按「无法抵达」规划，并在下面给出主路上一处已核实坐标的替代机位——' +
+          '理由不是「已经证实关了」，而是「官方挂着关闭、且没有任何渠道能证实它开着」，这两者对行程的影响是一样的。</strong>' +
+          '<strong>唯一可能翻盘的动作写在 access.book 一栏（提前打 Clarks Fork Ranger District），务必看一眼。</strong>',
         '<strong>还有第二道门，这一点连很多攻略都没写。</strong>' +
           '<strong>官方（Forest Service 野花项目页）原文：“The last 1/4 mile to the Fire tower is usually open 8am to 5pm.”</strong>' +
           '这道闸门就在<strong>最后一个发卡弯之后、步道停车场（OSM 停车实体 44.95184, −109.63293）旁边</strong>。' +
@@ -1314,18 +1318,26 @@ module.exports = {
       ],
       access: {
         book: '<strong>不需预约</strong>，也没有任何预约渠道。' +
-          '<strong>如果你打算试一次，唯一有用的动作是提前一天打 Shoshone National Forest ' +
-          'Clarks Fork Ranger District 问「FR 142 和瞭望台今天开不开」。</strong>' +
+          '<strong>如果你打算试一次，唯一有用的动作是提前打 Shoshone National Forest ' +
+          'Clarks Fork Ranger District 问「FR 142 和瞭望台今天开不开」——' +
+          '因为官网那一页已经一年没更新，电话是唯一能拿到 2026 年真实状态的渠道。</strong>' +
+          '<strong>该区与 Greybull、Wapiti 两区合署办公，地址 203A Yellowstone Avenue, Cody, WY，' +
+          '电话 (307) 527-6921，办公时间周一、周二、周四、周五 08:00–16:30 MT。</strong>' +
+          '<strong>请特别注意它周三不上班</strong>——你 9/24（周四）要用的信息，' +
+          '<strong>如果想提前一天问，9/23 是周三，打不通；请在 9/22（周二）就打，或 9/24 当天早上开门后打。</strong>' +
+          '（备用：Supervisor\u2019s Office 808 Meadow Lane Avenue, Cody，(307) 527-6241，周一至周五 08:00–16:30，但需预约到访。）' +
           '现场没有手机信号，到了路口再想查是查不了的',
         ticket: '<strong>免费。</strong>官方页面 Fee Site 栏为空，无入场费、无停车费。' +
           '替代机位 Pilot-Index Overlook 的 layby 在 OSM 上标注 fee=no',
         hours: '<strong>这是本景点的核心问题，官方口径有两条且不完全一致，请两条都按最严的理解：</strong>' +
-          '<strong>（一）Shoshone National Forest 官方页 “Operational Hours: Day use only, open sunrise to sunset”；' +
-          '同页 “Current Conditions: Closed for the 2025 Season”，页面 Last updated 2025 年 9 月 10 日。</strong>' +
+          '<strong>（一）Shoshone National Forest 官方页（2026-09-05 复核）：页面状态标签 “Site Closed”，' +
+          '“Operational Hours: Day use only, open sunrise to sunset”，' +
+          '“Current Conditions: Closed for the 2025 Season”，页面 Last updated 2025 年 9 月 10 日——' +
+          '这一页在整个 2026 年从未更新过。</strong>' +
           '<strong>（二）Forest Service 另一官方页面：“The last 1/4 mile to the Fire tower is usually open 8am to 5pm.”</strong>' +
           '<strong>另有第三方记录称该闸门在 17:00–08:00 之间通常上锁。</strong>' +
           '<strong>结论：9 月 24–25 日按「已关闭」规划；即使开着，也只在 08:00–17:00 之间可能进得去。</strong>' +
-          '<strong>2026 年的确切关闭日期未能从官方渠道确认。</strong>' +
+          '<strong>2026 年是否开季、以及 2026 年的关闭日期，官方从未发布，未能从官方渠道确认。</strong>' +
           '<strong>作为对照，替代机位 Pilot-Index Overlook 在 US-212 主路边，公路开放期内（2026 年 5 月 22 日 – 10 月 12 日）24 小时可用、无闸门。</strong>',
         parking: '<strong>瞭望台：碎石停车场（44.94458, −109.62658），免费，容量小。</strong>' +
           '<strong>闸门前的步道停车场（44.95184, −109.63293，OSM surface=ground）——' +
@@ -1505,8 +1517,13 @@ module.exports = {
           '<strong>WY-296 全线免费，且不进入 Yellowstone，所以不需要国家公园门票——' +
           '这一点在 Beartooth 封路那天很有用</strong>',
         hours: '<strong>公路开放期内 24 小时可进入，无闸门、无门禁。</strong>' +
-          '<strong>WY-296（Chief Joseph Scenic Byway）2026 年的季节性关闭与 US-212 同步，约 10 月 12 日，' +
-          '因此 9 月 22–29 日全程开放。</strong>' +
+          '<strong>本观景台所在的 WY-296 路段其实全年通车，并不随 US-212 在 10 月 12 日一起关。</strong>' +
+          'NPS 原文：<strong>“Open year-round from WY-120 to Pilot Creek Parking Lot”</strong>，' +
+          '<strong>Dead Indian Pass 就在这一段之内</strong>；' +
+          '10/12 关的是 US-212 全线，以及 WY-296／US-212 路口往 Cooke City 方向那 9 英里' +
+          '（该 9 英里段的通车期为 mid-May 至 early November）。' +
+          '<strong>因此 9 月 22–29 日本点位确定开放，而且即使 Beartooth 因雪封了，这里通常还在——' +
+          '这正是它作为备选方案的价值。</strong>' +
           '<strong>与 Beartooth Highway 不同，WY-296 最高点只有 8,048 英尺，' +
           '因季节性降雪临时封路的概率明显低得多</strong>' +
           '（<strong>具体概率无官方统计，此处为基于海拔差的推断</strong>）。' +
@@ -1685,7 +1702,9 @@ module.exports = {
         ticket: '<strong>免费。</strong>桥上人行道、停车、厕所、Sunlight Creek Picnic Site 全部免费。' +
           '不进入 Yellowstone，因此不需要国家公园门票',
         hours: '<strong>公路开放期内 24 小时可进入，无闸门。</strong>' +
-          '<strong>WY-296 2026 年季节性关闭约 10 月 12 日，与 US-212 同步，因此 9 月 22–29 日全程开放。</strong>' +
+          '<strong>桥所在的 WY-296 路段全年通车，不随 US-212 在 10 月 12 日关闭</strong>' +
+          '（NPS 原文 “Open year-round from WY-120 to Pilot Creek Parking Lot”，Sunlight Bridge 在这一段内），' +
+          '<strong>因此 9 月 22–29 日确定开放。</strong>' +
           '<strong>Sunlight Creek Picnic Site 的 2026 年季节性开放期未能从官方渠道确认</strong>——' +
           'Shoshone National Forest 的野餐区通常在 9 月中下旬收季，' +
           '<strong>但即便设施关闭，那条碎石支路本身是公共道路，请以现场路障为准。</strong>' +
@@ -1908,8 +1927,17 @@ module.exports = {
           '<strong>公厕与饮水 —— OSM check_date 2026-06-26，fee=no。</strong>' +
           '<strong>Cooke City Chamber of Commerce 游客中心（45.01911, −109.93698，OSM check_date 2026-06-26）' +
           '的具体时段未能核实。</strong>' +
-          '<strong>Sinclair 加油站的时段与 9 月下旬营业状态未能从官方渠道确认（OSM survey 2024-09-25）。</strong>' +
-          '<strong>最实时的汇总在 cookecityexxon.com/cooke-city-info 的 “what’s open” 页面，出发前查一次。</strong>',
+          '<strong>Sinclair 加油站的时段与 9 月下旬营业状态未能从官方渠道确认（OSM survey 2024-09-25）；' +
+          '并且 2026-09-05 复核 cookecityexxon.com 的 “what’s open” 页时，' +
+          '该页列出的加油／杂货点里根本没有 Sinclair——请不要把它算进补给计划。</strong>' +
+          '<strong>加油这件事本身可以放心：Exxon 的 “Gas Pumps 24/7” 与 9 月下旬无关，' +
+          '它是这条 64 英里无服务路段两端唯一确定的油源，本页已确认。' +
+          '规则很简单——不管油表显示多少，离开 Cooke City 前一定加满。</strong>' +
+          '同页 2026-09-05 仍在列的补给点：<strong>Cooke City General Store、Yellowstone Trading Post、' +
+          'Sweet Pea Grocery（High Country Motel 内）</strong>，' +
+          'Silver Gate 一侧 <strong>Silver Gate General Store 与 Stop The Car Trading Post</strong>，' +
+          '<strong>但该页只列店名与地址、不列营业时间，各家 9 月下旬是否还开仍需电话确认。</strong>' +
+          '<strong>最实时的汇总就是 cookecityexxon.com/cooke-city-info 的 “what’s open” 页面（链接已核实可用），出发前查一次。</strong>',
         parking: '<strong>免费。</strong>Cooke City 主街有公共停车场（OSM way 637318392，45.01917, −109.93659），' +
           '紧邻公厕与饮水；主街两侧也有路边车位。' +
           '<strong>Silver Gate 没有正式公共停车场，只有店前路边位；' +

@@ -5,7 +5,9 @@ module.exports = {
   color: '#5ac8fa',
   lead: '先把结论放在最前面：<strong>10/13–10/15 这三天不要为了 Salem 的殖民地街景来 Salem。</strong>' +
     'Haunted Happenings <strong>2026 年 10 月 1 日至 10 月 31 日全月运行</strong>，' +
-    '整月为这座只有约 4.4 万人口的小城带来<strong>五十万到一百万人次</strong>的访客，' +
+    '整月为这座只有约 4.4 万人口的小城带来<strong>超过一百万人次</strong>的访客' +
+    '（Destination Salem 2026 年 8 月 19 日官方新闻稿原文「draws more than 1 million visitors」），' +
+    '而 <strong>2026 年恰好是 Salem 建城 400 周年（Salem 400+），官方口径明确把今年当成加码的一年</strong>，' +
     '而所有人都挤在 Essex Street 到 Derby Street 之间不到一平方公里的殖民地核心区里。' +
     '市政府 <strong>2026 年取消了往年的十月周末摆渡巴士</strong>、把居民临时停车许可从 9 月 15 日一直排到 11 月 1 日，' +
     'Charter Street Cemetery <strong>自 9 月 18 日起改为每日限流加当日线上预约</strong>，' +
@@ -34,9 +36,17 @@ module.exports = {
         '大量三日游访客会顺延到周二；而十月中旬本身已经是 Haunted Happenings 客流的爬坡段（真正的峰值在最后一周）。' +
         '实务判断是：<strong>Essex Street 步行街、Washington Street、Charter Street 一带在 10:00 之后就已经人头攒动，' +
         '11:00–17:00 基本无法做任何需要干净前景的构图。</strong></p>' +
-        '<p><strong>封路口径要说清楚：</strong>市政府的正式封路公告集中在<strong>十月周末与 10 月 31 日</strong>' +
+        '<p><strong>封路口径要说清楚，而且这一条已经查到了具体条文：</strong>' +
+        '市政府的正式封路公告只针对<strong>十月的周末、Indigenous Peoples\' Day 与 10 月 31 日</strong>' +
         '（万圣夜当天中午前后即开始封街）。' +
-        '<strong>我未能在 salemma.gov 上找到任何针对 10 月 13–15 日这三个工作日的公告封路清单</strong>——' +
+        '上一份完整公告（salemma.gov 新闻稿）的原文是' +
+        '<strong>「Essex Street from Hawthorne Boulevard to New Liberty Street 与 Front Street 每个周六与周日 ' +
+        '09:00–22:00 禁止穿行、禁止路边停车」</strong>，' +
+        '并逐日列出周末封路日期——<strong>关键是那份清单里唯一的工作日就是当年的 Indigenous Peoples\' Day</strong>。' +
+        '<strong>把同一套规则套到 2026 年，封路日是 10/3–4、10/10–12（10/12 周一是假日）、10/17–18、10/24–25 与 10/31；' +
+        '10/13–10/15 这三天全部落在名单之外。</strong>' +
+        '（<strong>2026 年当年的封路公告在 2026 年 9 月 5 日仍未发布，以上为按上一份公告规则的推演，' +
+        '出发前请再刷一次 salemma.gov</strong>。）' +
         '也就是说<strong>这三天大概率没有硬性封路</strong>，' +
         '但 Essex Street 本来就是常年步行街，Derby Street、Hawthorne Boulevard 与 Charter Street 一带' +
         '会因摊位、导览团队伍与警戒线出现事实上的通行受阻。' +
@@ -179,6 +189,12 @@ module.exports = {
         '有来源把 Cape Ann 单列为 <strong>10 月 22 日至 11 月 5 日</strong>，' +
         '长期跟踪新英格兰秋色的 Jeff Foliage 更直接写「在 Salem 拍到最漂亮的秋色是 <strong>10 月 25 日到 11 月 5 日</strong>」。' +
         '原因是海水的热惯性把沿海的夜温托高，落叶推迟。</p>' +
+        '<p><strong>2026 年当年的预报已经查到，而且方向对我们不利：</strong>' +
+        'Yankee Magazine 的秋色预报员 Jim Salge 给 2026 年的判断是' +
+        '<strong>「a long, spectacular foliage season」——去年旱情缓解、树冠健康饱满，红色会很艳，' +
+        '但今年是渐进式而不是短促的爆发，而且暖的天气型态「could potentially delay fall color in southern New England」。</strong>' +
+        '他给 Massachusetts 的峰值是<strong>十月中旬起步、最艳的橙红出现在十月中到下旬、十一月初才褪</strong>。' +
+        '<strong>「渐进 + 偏暖 + 南新英格兰延后」这三条叠起来，等于把 10/13–10/15 进一步推向「偏早」那一侧。</strong></p>' +
         '<p><strong>所以对 10/13–10/15 的诚实判断是：偏早。</strong>' +
         '这三天的 North Shore 大概处在<strong>转色三到五成</strong>的状态——' +
         '红枫会有零星色块，橡树与山毛榛基本还是绿的，<strong>不要指望满山金红</strong>。' +
@@ -364,8 +380,11 @@ module.exports = {
           '<strong>十月究竟适用哪一档未能从官方渠道确认，按 17:00 最晚入场规划最安全</strong>。' +
           '<strong>10:00 才开门这一点很关键：它错开了日出那个人少的窗口</strong>，' +
           '所以想拍花园与室内就必须接受人多。' +
-          '十月另有多场夜间活动（Shadows of the Seven Gables 9/30–11/1、Haunted Fables 10/15–19 等），' +
-          '<strong>10/15 起有 Haunted Fables 夜场，当晚园区会有活动人流</strong>。' +
+          '<strong>十月夜场已按官网 October 页逐日核实，2026 年的两台戏是 Legacy of the Hanging Judge ' +
+          '与 Spirits of the Gables，场次为 10/11、10/12、10/13 的 19:30–21:30，' +
+          '10/18、10/19、10/25、10/26 的 19:15–23:00，以及 10/31 的 19:15–22:00</strong>（每 5–10 分钟发一场、单场约 35 分钟）。' +
+          '<strong>→ 也就是说 10/13（周二）当晚 19:30 之后园区有夜场人流，而 10/14 与 10/15 晚间没有活动。' +
+          '这一条与旧版口径相反，请按此排。</strong>夜场需电话订票 (978) 744-0991 转 104。' +
           '电话 (978) 744-0991。',
         parking: '<strong>不要开车。官方自己写「Parking is extremely scarce during October in Salem」，' +
           '并明确「Though The Gables has a parking lot, parking is not guaranteed」，' +
@@ -390,8 +409,9 @@ module.exports = {
           '大摄影包在跟团时会不断刮到墙与家具，建议只带机身加一支定焦',
         '<strong>官方提醒行程要留足余量</strong>（原文「PLEASE PLAN EXTRA TIME FOR TRAVEL」），' +
           '因为十月 Salem 的路面通行状况不可预测；从 Salem 站走过来请预留 25 分钟而不是 17 分钟',
-        '<strong>10/15 起有 Haunted Fables 夜场活动</strong>，若你把这里排在 10/15 傍晚，' +
-          '花园里会有活动人流与临时布置',
+        '<strong>夜场是 10/13 而不是 10/15</strong>：官网 October 页列出的 2026 场次为 10/11–13、10/18–19、' +
+          '10/25–26 与 10/31，<strong>所以 10/13（周二）19:30 之后园区会有戏剧夜场的人流与临时布置，' +
+          '而 10/14、10/15 晚间反而是干净的</strong>',
         '<strong>食物不能带进 Turner-Ingersoll Mansion</strong>，但持票可以在花园里吃'
       ],
       images: [
@@ -563,9 +583,17 @@ module.exports = {
         '<strong>这是本区最重要的一条：园区 24 小时开放且免费，' +
           '所以它是绕过 Salem 十月人潮的唯一正规途径。</strong>' +
           '06:26 民用晨光到 08:00 之间，整道栈桥基本只有你和几个跑步的本地人',
-        '<strong>Friendship of Salem 已核实在泊位上（2025 年 7 月 15 日归泊），' +
-          '但索具安装工程是否完成、施工罩是否已撤，未能从官方渠道确认</strong>。' +
+        '<strong>Friendship of Salem 已核实在泊位上（2025 年 7 月 15 日 14:30 归泊），' +
+          '但索具安装工程是否完成、施工罩是否已撤，未能从官方渠道确认</strong>——' +
+          '<strong>2026 年 9 月 5 日复查时，NPS 的 Friendship 工程页仍停在 2025 年 7 月 16 日那一次更新，' +
+          '一年多没有新进度公告</strong>。' +
           '出发前打 <strong>978-740-1650</strong> 问一句',
+        '<strong>Derby Wharf 十月有一个官方活动要知道：Witch Hats on the Wharf，' +
+          '2026 年 10 月 17 日（周六）11:00</strong>，' +
+          '由 City of Salem、Salem Maritime National Historical Park 与 Destination Salem 合办，' +
+          '为 Salem 400 周年做一次「整条栈桥站满戴女巫帽的人」的世界纪录尝试。' +
+          '<strong>10/13–10/15 的行程不受影响，但若你把 Salem 挪到那个周六，' +
+          '栈桥当天上午会是全年人最多的状态，日出那一档也会提前上人</strong>',
         '<strong>10/13 是周二，Custom House、Public Stores 与 Narbonne House 都不开</strong>' +
           '（周三至周日制）；<strong>Derby House 整个秋季闭馆</strong>。' +
           '想拍室内就把这里排到 10/14 或 10/15',

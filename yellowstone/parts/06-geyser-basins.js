@@ -65,7 +65,11 @@ module.exports = {
         '<p><strong>Old Faithful Inn 的关门日期是本区唯一一处两个官方来源打架的地方，而且差了整整六天。</strong>' +
         '其余八家住宿两边完全吻合（Xanterra 的日期永远是 NPS 末日的次日，即退房日），唯独 Inn 对不上：' +
         'Xanterra 的开关门日期页、Inn 单页与餐饮页三处一致写 <strong>10/12</strong>，' +
-        'NPS 表格写 <strong>10/18</strong>。<strong>无法判断哪一边是过期数据，未能核实。</strong>' +
+        'NPS 表格写 <strong>10/18</strong>。' +
+        '<strong>2026-09-05 复核 Xanterra 的 Opening and Closing Dates 页，仍是 “Old Faithful Inn｜May 1, 2026｜October 12, 2026”。' +
+        '由于 Xanterra 是这栋楼的实际经营方（NPS 只是转载），本页以 10/12 为准；' +
+        '哪一边是过期数据仍无法从官方渠道判定，但该按经营方的日期规划。</strong>' +
+        '（附带一个可能的解释：同一张 NPS 表上 Madison Campground、Fishing Bridge RV Park 与 Old Faithful General Store 的末日都恰好是 10/18。）' +
         '实务口径：<strong>10/12 之前一定进得去大堂；10/13–10/19 属于赌运气；10/19 之后一定进不去。</strong>' +
         '若行程落在 10/13 之后而那个 1904 年的大堂是你的重点，出发前直接打 <strong>307-344-7311</strong> 确认。</p>' +
         '<p><strong>三个日期节点，翻译成实际后果：</strong></p>' +
@@ -1348,7 +1352,8 @@ module.exports = {
         hours: '<strong>盆地与栈道无门禁、全天可入，2026 年秋季无公布的封闭。</strong>' +
           '<strong>Old Faithful Visitor Education Center 最后营业日 10/31</strong>' +
           '（预报板与免费 Wi-Fi 在这里，覆盖整个窗口）。' +
-          '<strong>Old Faithful Inn 客房：NPS 写 10/18、Xanterra 写 10/12，两说，未能核实哪边正确。</strong>' +
+          '<strong>Old Faithful Inn 客房：以经营方 Xanterra 官网 2026-09-05 复核的 10/12 为准' +
+          '（NPS 表格另写 10/18，两说，本页取经营方口径）。</strong>' +
           '<strong>Snow Lodge 客房 10/24（Obsidian 餐厅 10/25，Geyser Grill 与礼品店 10/31）；' +
           'Old Faithful Lodge Cabins 10/3。</strong>' +
           '<strong>10/24 之后 Old Faithful 一带没有任何过夜的地方。</strong>' +

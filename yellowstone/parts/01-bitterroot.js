@@ -66,9 +66,21 @@ module.exports = {
         '<li><strong>Moose Mountain Fire</strong>（Idaho，Lolo Pass 西北）——Missoula 公共卫生局 8 月的通报明确点名' +
         '<strong>它对 Missoula 县的烟霾影响最大</strong></li>' +
         '<li>好消息是 9 月初的降温降雨已经压住了大部分火线：Nature Grove 一带' +
-        '<strong>“slick conditions”</strong> 反而让手工开线变困难，' +
-        'Skalkaho Highway <strong>仍然通车，但有引导车、最长等 20 分钟</strong></li>' +
+          '<strong>“slick conditions”</strong> 反而让手工开线变困难，' +
+          'Skalkaho Highway <strong>仍然通车，但有引导车、最长等 20 分钟</strong>' +
+          '（Bitterroot NF alerts 页原文：“Skalkaho Highway (Highway 38) is open. ' +
+          'The reopened section is from mile marker 13 to 17.”）</li>' +
         '</ul>' +
+        '<p><strong>2026 年 9 月 5 日复核，上面这些数字仍然成立</strong>：' +
+        'NIFC 9 月 2 日的 IMSR 仍把 <strong>Cooper（310 英亩，0%）与 Scimitar（334 英亩，0%）</strong>列为在燃，' +
+        '两者的预计控制日期都是 <strong>10 月 31 日</strong>——' +
+        '<strong>也就是说这两把火按官方预期会一路烧过你的 9/22–9/23，请不要指望它们在你到之前熄掉。</strong>' +
+        '同时 <strong>Forest Order 01-03-02-26-09（NFSR 75／720／711）仍挂在 Bitterroot NF 的 alerts 页上</strong>。' +
+        '几个方向性的好消息：<strong>Sand Creek 控制率升到 21%、Bobcat Lakes 升到 61%</strong>' +
+        '（但 <strong>Pioneer Scenic Byway 仍然封闭</strong>），' +
+        'Bitterroot 一带 9 月 5 日的实测 <strong>AQI 约 58（Moderate，PM2.5 约 13 µg/m³）</strong>，' +
+        '已明显好于 8 月那一个月 83 的均值。' +
+        '<strong>但这只是本页写作当天的快照，距你出发还有两周多——真正有效的动作仍然是出发前一晚自己查下面那三个链接。</strong></p>' +
         '<p><strong>逐日烟霾的日变化规律（这一条最实用）：</strong>' +
         'Missoula 公共卫生局反复给出同一套描述——' +
         '<strong>“expect diurnal patterns of worsening air quality overnight as smoke settles into the valleys ' +

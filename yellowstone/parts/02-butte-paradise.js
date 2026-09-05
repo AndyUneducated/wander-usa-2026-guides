@@ -838,7 +838,7 @@ module.exports = {
       tldr: '博物馆 9/23–9/24 确定开门（季节到 10 月 29 日，周二至周日 9:30–17:00）。建在真实矿场上，含 1890 年代复原矿镇。纪念地是另一处免费点位，纪念 1917 年 168 死。',
       tags: [
         { t: '9/23–24 确定开门', c: 'free' },
-        { t: '博物馆需门票', c: 'paid' },
+        { t: '门票 $12／地下团 $30', c: 'paid' },
         { t: '纪念地完全免费 24 小时', c: 'free' },
         { t: '地下团需提前订', c: 'risk' },
         { t: '两处不在同一地点', c: 'risk' }
@@ -948,9 +948,11 @@ module.exports = {
           '<strong>地下矿井团强烈建议提前在 miningmuseum.org 订票</strong>' +
           '（官网原话 “We strongly recommend purchasing your Underground Tour Tickets in Advance.”），' +
           '容量有限。<strong>Granite Mountain Memorial 无需预约。</strong>',
-        ticket: '<strong>博物馆需门票；地下矿井团另收费。' +
-          '官网未公布具体金额（Prices 字段为空），门票与地下团的确切票价未能从官方渠道确认</strong>，' +
-          '请以 miningmuseum.org 或现场为准（提供 AAA、儿童、团体、军人、老年优惠）。' +
+        ticket: '<strong>博物馆需门票；地下矿井团另收费。官网 Admission &amp; Tours 页已公布金额：' +
+          '普通入场成人 $12；Orphan Girl 地下矿井团 $30，周二优惠价 $25。</strong>' +
+          '<strong>普通入场票「good for two consecutive days」，连续两天有效——' +
+          '你 9/23 与 9/24 两天都在 Butte，买一次就够，这一点很值。</strong>' +
+          '另提供 AAA、儿童、团体、军人、老年优惠（各档金额官网未逐项公布）。' +
           '<strong>Granite Mountain Memorial 完全免费。</strong>',
         hours: '<strong>已确认：博物馆 9/23（周三）与 9/24（周四）均开门，时间 9:30–17:00。</strong>' +
           '官网口径：<strong>“Regular Museum season ends October 29th.”</strong>；' +

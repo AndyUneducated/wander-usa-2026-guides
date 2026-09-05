@@ -585,10 +585,14 @@ module.exports = {
           'City Climb 每天仅 5 个时段、需单独预订，出发前一天 23:59 前可全额退',
         ticket: '<strong>General Admission 成人 $42 起</strong>（另加 $2 手续费），' +
           '<strong>Advance Saver $34 起</strong>（提前 14 天以上），' +
-          '<strong>Tri-State Resident（纽约/新泽西/康州邮编）$36 起</strong>，' +
+          '<strong>NY／NJ／CT 居民票官网现行口径改成了「save up to 30%」而不再挂固定价</strong>，' +
           '儿童 6–11 岁 $35 起、长者 62+ $39 起、<strong>6 岁以下免费</strong>。' +
-          'Flex Admission $63–73 起（不限时段到场），Priority Access $88 起，Champagne Experience 约 $65。' +
-          '<strong>City Climb $202</strong>（含 Edge 入场、数字照片与香槟）',
+          '<strong>Flex Admission $73 起</strong>（不限时段到场），Priority Access $88 起，' +
+          '<strong>Champagne Experience $63 起</strong>。' +
+          '<strong>City Climb $202</strong>（含 Edge 入场、数字照片与香槟）。' +
+          '<strong>2026 年 9 月 5 日复核时官网新增了几个票种：Sunset VIP $113 起、' +
+          'All-Inclusive VIP $179、Date Night $52 起、Bites &amp; Sights Flex（含餐）$65 起、' +
+          'Edge + Vessel 组合 $84 起（省 10%）；家庭票另有 20% 折扣</strong>',
         hours: '<strong>官方主页在不同日期给出不同营业时间，需按你的日期查 edgenyc.com。</strong>' +
           '常见口径为 <strong>10:00–22:00（周一至周四）、09:00–24:00（周五至周日）</strong>，' +
           '旺季（4–10 月）可延长到 08:00–24:00。' +
@@ -1257,11 +1261,20 @@ module.exports = {
         ticket: '<strong>86 层：成人 $44 起、儿童 $38 起、长者 $42 起。</strong>' +
           '<strong>86 + 102 层：成人 $79 起、儿童 $73 起、长者 $77 起。</strong>' +
           '<strong>每笔交易另加 $5 手续费</strong>（官方原文「A $5 booking charge is added to each transaction」）。' +
-          'Sunrise Experience $135/人（仅周六）。' +
-          '<strong>官网直挂的 CityPASS 价：成人 $283 → $169、儿童 $275 → $129</strong>，' +
+          '<strong>日出票 2026 年已改名为「The ESB Starbucks Reserve Sunrise Ticket」，$135 起</strong>' +
+          '（<strong>是否仍限周六未能从现行官网页面确认</strong>）。' +
+          '<strong>2026 年 9 月 5 日复核时另有几个官网票种值得知道：Flex Ticket $64 起（不绑时段）、' +
+          'AM/PM Experience $62 起（同日白天加夜间两次入场，这是四座里唯一的官方双次票）、' +
+          'Best Value $39 起、Express Pass 86 层 $85 起／86+102 层 $120 起、' +
+          'NYC 居民票 25% off、Premium 私人导览 $175 起</strong>。' +
+          '<strong>CityPASS 现行官网只写「Bundle &amp; Save up to 51%」「$2 booking charge per ticket」「Valid 9 Days」，' +
+          '不再挂固定金额；旧口径的「成人 $283 → $169、儿童 $275 → $129」未能在现行页面复核</strong>，' +
           '含 ESB 的 AM/PM 双次入场（86 层白天 + 关门前 3 小时内的同夜再入）加另外 4 项',
         hours: '<strong>官方逐段时间（本窗口）：9 月 18 日–10 月 4 日 10:00–23:00，入场门 22:00 关；' +
           '10 月 5 日–8 日 10:00–22:00，入场门 21:00 关；10 月 9 日–31 日 09:00–23:00，入场门 22:00 关。</strong>' +
+          '<strong>要打一个折扣：2026 年 9 月 5 日复核时，esbnyc.com 站头挂的当日时段是 09:00–24:00，' +
+          '比上面这张表给的同期口径宽——说明 ESB 的营业时间是逐日调整的，' +
+          '「四座里关得最早」这个判断可能在你的日期上不成立。以订票确认函与当日站头为准。</strong>' +
           '<strong>全年 365 天开放，风雨无阻，冬季 86 层露天平台会装辐射式取暖器。</strong>' +
           '<strong>请注意本季它是四座里关得最早的</strong>——' +
           'Top of the Rock 与 Summit 都开到 24:00。' +
