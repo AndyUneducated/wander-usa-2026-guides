@@ -96,11 +96,11 @@ module.exports = {
         '9 月下旬至 10 月下旬是 Capitol Grounds 秋色期：AOC 的说法是<strong>「从 10 月初到 11 月，秋色是一株一株、一簇一簇陆续爆的，从来不会同时到位」</strong>（园内树种极杂，多为纪念树，来自各州）。想拍秋叶加穹顶，<strong>东北象限（Capitol Square 东北角）有一株银杏是 AOC 摄影师自己点名的最佳目标</strong>——但那一侧现在有 East Front 脚手架，构图要小心避开'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/39/West_Front_of_United_States_Capitol_in_December_2017.jpg',
+        { url: 'img/west-front-of-united-states-capitol-in-december-2017-2074c39c.jpg',
           cap: 'West Front 全景 · Mys 721tx / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Capitol_Dome_at_Dusk_With_the_Tholos_Illuminated_%2845170379825%29.jpg',
+        { url: 'img/capitol-dome-at-dusk-with-the-tholos-illuminated-45170379825-86b72d72.jpg',
           cap: '蓝调时段的泛光穹顶 · John Brighenti / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/22/Capitol_rotunda_20240601.jpg',
+        { url: 'img/capitol-rotunda-20240601-59f9e138.jpg',
           cap: 'Rotunda 与 Apotheosis 壁画 · 颐园居 / CC BY 4.0' }
       ]
     },
@@ -166,11 +166,11 @@ module.exports = {
         '目前不提供团体导览，<strong>但有少量小团 guided tours 通过同一个 Etix 票务系统发放</strong>，值得在订定时票时顺手看一眼有没有余位；馆内有巡场志愿者可问路与讲解'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/LOC_Main_Reading_Room_Highsmith.jpg',
+        { url: 'img/loc-main-reading-room-highsmith-168e8bba.jpg',
           cap: 'Main Reading Room 全景 · Carol M. Highsmith / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Main_reading_room_of_the_Library_of_Congress_-_5.jpg',
+        { url: 'img/main-reading-room-of-the-library-of-congress-5-4a68da94.jpg',
           cap: '自 Overlook 俯视阅览室 · APK / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Library_Congress_October_2016-2a.jpg',
+        { url: 'img/library-congress-october-2016-2a-3229c728.jpg',
           cap: 'Great Hall 柱廊与藻井 · Alvesgaspar / CC BY-SA 4.0' }
       ]
     },
@@ -231,11 +231,11 @@ module.exports = {
         '一层与地下层有常设展览、Café 与礼品店；官方建议参观时长 1–1.5 小时（讲座 30 分钟＋展览与公共空间 30–60 分钟）'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/da/Panorama_of_United_States_Supreme_Court_Building_at_Dusk.jpg',
+        { url: 'img/panorama-of-united-states-supreme-court-building-at-dusk-9baea9bb.jpg',
           cap: '西立面黄昏全景 · Joe Ravi / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/44/CourtEqualJustice.JPG',
+        { url: 'img/courtequaljustice-508582ca.jpg',
           cap: '檐部「Equal Justice Under Law」铭文 · MattWade / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/db/USA_-_Supreme_Court.JPG',
+        { url: 'img/usa-supreme-court-f5ef549f.jpg',
           cap: '大台阶与科林斯柱廊 · Ingfbruno / CC BY-SA 3.0' }
       ]
     },
@@ -294,11 +294,11 @@ module.exports = {
         '这里是本区唯一有大量餐饮与卫生间、且可以坐下来的地方，<strong>适合放在 Capitol Hill 一天行程的中段或收尾</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/99/Great_Hall%2C_Washington_Union_Station_%282024%29-L1005585.jpg',
+        { url: 'img/great-hall-washington-union-station-2024-l1005585-394bb995.jpg',
           cap: 'Main Hall 藻井拱顶 · Frank Schulenburg / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Washington_Union_Station_panoramic.jpg',
+        { url: 'img/washington-union-station-panoramic-54342017.jpg',
           cap: 'Main Hall 旋转镜头全景 · Antony-22 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/78/East_Hall%2C_Washington_Union_Station_%282024%29-L1005594.jpg',
+        { url: 'img/east-hall-washington-union-station-2024-l1005594-4e33818b.jpg',
           cap: 'East Hall 拱廊与彩绘天花 · Frank Schulenburg / CC BY-SA 4.0' }
       ]
     },
@@ -356,11 +356,11 @@ module.exports = {
         '园内当前特展是「America\'s State Flowers: An America250 Celebration」（各州与属地的官方州花，活体植栽加植物插画加标本），<strong>是 2026 年独有的题材，值得顺手拍</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/67/U.S._Botanic_Garden_Conservatory_%2823696022410%29.jpg',
+        { url: 'img/u-s-botanic-garden-conservatory-23696022410-0bd80502.jpg',
           cap: '温室内部与钢骨玻璃屋顶 · DC Gardens / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/United_States_Botanic_Garden_by_Matt_Bisanz.JPG',
+        { url: 'img/united-states-botanic-garden-by-matt-bisanz-0577c21a.jpg',
           cap: 'Conservatory 外观 · MBisanz / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Bartholdi_Fountain.jpg',
+        { url: 'img/bartholdi-fountain-96a3b450.jpg',
           cap: 'Bartholdi Fountain · EP313 / CC BY-SA 4.0' }
       ]
     }

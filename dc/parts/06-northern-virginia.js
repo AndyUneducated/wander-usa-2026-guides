@@ -226,11 +226,11 @@ module.exports = {
         '园内没有餐饮，Welcome Center 有洗手间与饮水；坡多且长，夏末初秋正午体感很闷'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/20/Tomb_of_the_Unknown_Soldier%2C_Arlington_National_Cemetery_%2820_September_2023%29_02.jpg',
+        { url: 'img/tomb-of-the-unknown-soldier-arlington-national-cemetery-20-s-cf121e40.jpg',
           cap: 'Tomb of the Unknown Soldier 广场与 Memorial Amphitheater · DiscoA340 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/35/Memorial_Day_in_Arlington_National_Cemetery_%2827085342830%29.jpg',
+        { url: 'img/memorial-day-in-arlington-national-cemetery-27085342830-bf17360a.jpg',
           cap: '起伏地形上的墓碑列阵 · Arlington National Cemetery / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Arlington_House_-_Robert_E._Lee_Memorial.jpg',
+        { url: 'img/arlington-house-robert-e-lee-memorial-a9d3adb9.jpg',
           cap: 'Arlington House 东向八柱门廊 · Carlos Delgado / CC BY-SA 3.0' }
       ]
     },
@@ -335,11 +335,11 @@ module.exports = {
         '雕塑近旁的射灯亮度很高，<strong>夜景构图时注意别让灯具本体入画</strong>，或用它做星芒'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/95/Marine_Corps_War_Memorial_at_sunrise.jpg',
+        { url: 'img/marine-corps-war-memorial-at-sunrise-fa86916f.jpg',
           cap: '日出时段的西侧正面机位 · APK / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6f/Marine_Corps_War_Memorial_at_night_-_1.jpg',
+        { url: 'img/marine-corps-war-memorial-at-night-1-d4b32ddd.jpg',
           cap: '夜间射灯下的群像 · APK / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Marine_Corps_War_Memorial_-_Arlington_VA_%287703287876%29.jpg',
+        { url: 'img/marine-corps-war-memorial-arlington-va-7703287876-1b3dc53b.jpg',
           cap: '群像与青铜旗杆细部 · Esther Westerveld / CC BY 2.0' }
       ]
     },
@@ -432,11 +432,11 @@ module.exports = {
         '广场与坡地上没有洗手间，最近的在 Marine Corps War Memorial 一侧'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Netherlands_Carillon_-_Arlington_VA_%2846796334702%29.jpg',
+        { url: 'img/netherlands-carillon-arlington-va-46796334702-06248bc3.jpg',
           cap: '钟塔与东侧坡地 · FaceMePLS / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Netherlands_Carillon.jpg',
+        { url: 'img/netherlands-carillon-6d2dc0f6.jpg',
           cap: '开放式钢塔与 53 口钟 · Ben Schumin / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Netherlands_Carillon_at_Night.jpg',
+        { url: 'img/netherlands-carillon-at-night-610a2cac.jpg',
           cap: '夜间的钟塔剪影 · Daniel Horowitz / CC BY-SA 4.0' }
       ]
     },
@@ -545,11 +545,11 @@ module.exports = {
         '手机信号一般可用，但林中偶有弱区'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/01/Washington%2C_D.C._-_Theodore_Roosevelt_Island_-_20170819141015.jpg',
+        { url: 'img/washington-d-c-theodore-roosevelt-island-20170819141015-e3945c0a.jpg',
           cap: 'Memorial Plaza 的花岗岩碑柱与铜像 · Riis2602 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Theodore_Roosevelt_Island_DC_-_IMG_7198.JPG',
+        { url: 'img/theodore-roosevelt-island-dc-img-7198-d46a0770.jpg',
           cap: 'Roosevelt 铜像正面 · Daderot / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/TheodoreRooseveltIsland_fountain.JPG',
+        { url: 'img/theodorerooseveltisland-fountain-fd23a6e2.jpg',
           cap: '纪念广场水池与碑柱 · Wikimedia Commons 上传者 / Public domain' }
       ]
     },
@@ -680,11 +680,11 @@ module.exports = {
           '队伍推进有节奏，<strong>每个房间只有十几秒，室内拍摄要预先想好焦段，不要现场换镜头</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Mount_Vernon_Estate_Mansion_2.JPG',
+        { url: 'img/mount-vernon-estate-mansion-2-3e230792.jpg',
           cap: '宅邸东立面与 Piazza 柱廊 · Martin Falbisoner / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Mount_Vernon_Estate_Mansion_1.JPG',
+        { url: 'img/mount-vernon-estate-mansion-1-0beac14b.jpg',
           cap: 'Bowling Green 一侧的西立面与八角穹顶 · Martin Falbisoner / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/East_Face_of_Mansion%2C_Mount_Vernon%2C_Near_Alexandria%2C_Virginia_%282731036366%29.jpg',
+        { url: 'img/east-face-of-mansion-mount-vernon-near-alexandria-virginia-2-278b15fe.jpg',
           cap: '东立面全景 · Ken Lund / CC BY-SA 2.0' }
       ]
     },
@@ -835,11 +835,11 @@ module.exports = {
           '不要把这条视线当作行程的理由'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/48/100_block_of_King_Street_looking_west_fron_Union%2C_Old_Town_Alexandria%2C_Virginia_%2814496605432%29.jpg',
+        { url: 'img/100-block-of-king-street-looking-west-fron-union-old-town-al-50f7aec3.jpg',
           cap: 'King Street 100 街区自 Union 街口西望 · Ken Lund / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/13/Prince_St._cobblestones%2C_Alexandria%2C_VA.jpg',
+        { url: 'img/prince-st-cobblestones-alexandria-va-11b38858.jpg',
           cap: 'Captain\u2019s Row 的原始卵石路面 · AlbertHerring / CC BY 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Torpedo_Factory_Art_Center%2C_Alexandria_%28September_2023%29_01.jpg',
+        { url: 'img/torpedo-factory-art-center-alexandria-september-2023-01-b4fc0fda.jpg',
           cap: 'Torpedo Factory Art Center 外立面 · DiscoA340 / CC BY-SA 4.0' }
       ]
     },
@@ -988,11 +988,11 @@ module.exports = {
           '<strong>正好是从这里返回 Rosslyn / Arlington 的主路，工作日白天需绕行</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/29/2019-09-07_14_49_40_Panoramic_view_of_the_Mather_Gorge_of_the_Potomac_River_from_a_point_about_0.22_miles_below_Great_Falls_within_Great_Falls_Park_in_Great_Falls%2C_Fairfax_County%2C_Virginia.jpg',
+        { url: 'img/2019-09-07-14-49-40-panoramic-view-of-the-mather-gorge-of-th-95298d5e.jpg',
           cap: 'Mather Gorge 超宽幅全景 · Famartin / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Great_Falls_Park_-_Virginia_%288490239891%29.jpg',
+        { url: 'img/great-falls-park-virginia-8490239891-97aa7cb0.jpg',
           cap: '观景台视角下的主瀑布群 · m01229 / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/72/Cloudy_day_in_Great_Falls_Park%2C_USA.jpg',
+        { url: 'img/cloudy-day-in-great-falls-park-usa-f9fccfd2.jpg',
           cap: '阴天柔光下的瀑布与片岩崖壁 · Melissa Guadalupe Huertas / CC BY-SA 4.0' }
       ]
     }

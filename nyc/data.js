@@ -3,6 +3,1097 @@
    景点已按纬度从北到南排序，n 字段为自动编号，与地图针脚一一对应。 */
 var REGIONS = [
   {
+    "id": "salem-north-shore",
+    "name": "Salem 与 North Shore",
+    "navName": "Salem",
+    "color": "#5ac8fa",
+    "lead": "先把结论放在最前面：<strong>10/13–10/15 这三天不要为了 Salem 的殖民地街景来 Salem。</strong>Haunted Happenings <strong>2026 年 10 月 1 日至 10 月 31 日全月运行</strong>，整月为这座只有约 4.4 万人口的小城带来<strong>五十万到一百万人次</strong>的访客，而所有人都挤在 Essex Street 到 Derby Street 之间不到一平方公里的殖民地核心区里。市政府 <strong>2026 年取消了往年的十月周末摆渡巴士</strong>、把居民临时停车许可从 9 月 15 日一直排到 11 月 1 日，Charter Street Cemetery <strong>自 9 月 18 日起改为每日限流加当日线上预约</strong>，House of the Seven Gables <strong>十月门票涨价并必须提前买定时票、不退不改</strong>——这些都不是节假日的临时措施，是<strong>整个十月的常态</strong>，周二到周四同样适用。<strong>真正的解法有两个：一是把 Salem 压缩到 06:53 日出到 08:30 这段窗口</strong>（Derby Wharf 与 Salem Maritime 的园区 <strong>24 小时开放</strong>，NPS 自己就有一个「在 Derby Wharf 看日出」的官方页面），<strong>二是干脆放弃 Salem，把整天交给 Rockport 与 Marblehead</strong>。本区九个点里，摄影产出最高的三个（<strong>Rockport 的 Motif No. 1</strong>、<strong>Marblehead Old Town 与 Fort Sewall</strong>、<strong>Ipswich 的 Crane Estate</strong>）<strong>全部在 Salem 人潮之外，全部不受 Haunted Happenings 影响</strong>，其中 Rockport 直接在通勤铁路终点站上，North Station 到 Rockport 约 76–79 分钟。另有两件必须先知道的几何事实：<strong>Massachusetts 处在东部时区的最东缘，10/13 日落 18:07、10/15 日落 18:03</strong>，拍摄日被压得极短；<strong>而北岸的海岸整体朝东与东北，这是一条日出海岸而不是日落海岸</strong>，与加州完全相反——排机位时必须按这个来。",
+    "callouts": [
+      {
+        "type": "warn",
+        "title": "直说：10/13–10/15 的 Salem 是一笔糟糕的摄影买卖",
+        "html": "<p><strong>2026 年 Haunted Happenings 的日期已核实：10 月 1 日（周四）至 10 月 31 日（周六），全月运行</strong>，Grand Parade 是 <strong>10 月 1 日 18:30 从 Shetland Park 出发、约 20:00–20:15 抵达 Salem Common</strong>——<strong>注意这是开幕而不是闭幕，10/13–10/15 已在游行之后</strong>，所以你不会撞上游行本身，但你会撞上它开启的那个持续四周的街头节庆。</p><p><strong>10/13 是周二、10/14 周三、10/15 周四，这三天没有周末级别的封路，但也不是安静的工作日。</strong>关键在于 <strong>10/12（周一）是 Columbus Day / Indigenous Peoples' Day 假日</strong>，大量三日游访客会顺延到周二；而十月中旬本身已经是 Haunted Happenings 客流的爬坡段（真正的峰值在最后一周）。实务判断是：<strong>Essex Street 步行街、Washington Street、Charter Street 一带在 10:00 之后就已经人头攒动，11:00–17:00 基本无法做任何需要干净前景的构图。</strong></p><p><strong>封路口径要说清楚：</strong>市政府的正式封路公告集中在<strong>十月周末与 10 月 31 日</strong>（万圣夜当天中午前后即开始封街）。<strong>我未能在 salemma.gov 上找到任何针对 10 月 13–15 日这三个工作日的公告封路清单</strong>——也就是说<strong>这三天大概率没有硬性封路</strong>，但 Essex Street 本来就是常年步行街，Derby Street、Hawthorne Boulevard 与 Charter Street 一带会因摊位、导览团队伍与警戒线出现事实上的通行受阻。<strong>2026 年确定的两条新规是：① 市政府取消了十月周末的摆渡巴士服务</strong>（108 Jefferson Avenue 停车场周末免费但没有摆渡）；<strong>② 十月周末与假日的车库、停车场与路边表停费率可改为一次性平价</strong>。实时封路与停车位余量看 <strong>parksalem.com</strong>，或装 My Salem MA 与 Destination Salem 两个 App。</p><p><strong>我的建议，不含糊：如果你只有一天做这片北岸，跳过 Salem，去 Rockport 加 Marblehead。</strong>Rockport 的 Motif No. 1 与 Bearskin Neck 是整个子地区单点摄影价值最高的目标，<strong>直接在 Newburyport/Rockport 线的终点站上，从 North Station 76–79 分钟直达，全程免票</strong>；Marblehead Old Town 是一座保存度不输 Salem、但游客量差一个数量级的殖民地海港。<strong>如果你实在想要 Salem 的殖民地立面，那就只做日出那一档</strong>（见下一条），拍完 08:30 上车走人，不要留下来。</p>"
+      },
+      {
+        "type": "good",
+        "title": "Salem 的唯一解法：06:53 日出到 08:30，而且这条路是官方开的",
+        "html": "<p><strong>已核实：Salem Maritime National Historical Park 的「Derby Wharf 与历史建筑周边园区」官方口径为「Open 24/7」</strong>（nps.gov/sama/planyourvisit/basicinfo.htm，页面<strong>最后更新于 2026 年 8 月 19 日</strong>，2026 年 9 月 21 日至 11 月 14 日的季节表内明确列出）。NPS 另有一个独立的官方活动页 <code>/thingstodo/watch-sunrise-from-derby-wharf.htm</code>，原文写着「The Derby Wharf area provides an excellent opportunity to enjoy a New England sunrise」，并注明<strong>免费、不需预约、全年、时段标注为 Dawn</strong>，海滩上还放了 <strong>6 把 Adirondack 椅</strong>，先到先得。<strong>换句话说，「在人潮之前拍 Salem」不是钻空子，是公园自己推荐的玩法。</strong></p><p><strong>执行方案（三天皆适用）：</strong>坐 <strong>05:30 前后从 North Station 出发的第一班车</strong>，约 06:10 前后到 Salem 站（工作日班次很密，见交通那条），<strong>步行 15 分钟到 Derby Wharf，06:53 日出（10/13）／06:56（10/15）拍完海港与灯塔</strong>，然后 07:40–08:30 之间走完 <strong>Chestnut Street 的 McIntire 历史区</strong>与 <strong>Witch Trials Memorial</strong>（后者黎明到黄昏免票免预约）。<strong>08:30 之后 Essex Street 一带就开始上人，09:00 之后基本收工。</strong></p><p><strong>这个窗口能拍到什么、拍不到什么，要分清：</strong></p><ul><li><strong>能拍</strong>：Derby Wharf 全长 2,045 英尺加尽端的 Derby Wharf Light、Friendship of Salem 的船体、Custom House 的外立面、Chestnut Street 整条街、Witch Trials Memorial、House of the Seven Gables 的外墙（从 Derby Street 与 Turner Street 街面看）。这几样加起来已经是 Salem 摄影价值的八成。</li><li><strong>拍不到</strong>：Charter Street Cemetery（十月<strong>首个入场时段 10:00</strong>、且需当日线上预约）、House of the Seven Gables 的室内与花园（<strong>10:00 才开门</strong>）、Custom House 室内（<strong>周三至周日 9:30–16:30，周二 10/13 不开</strong>）。</li></ul><p><strong>一个反直觉的加分项：10 月中旬这三天的日出时刻恰好落在低潮附近</strong>（Boston 10/13 低潮 07:25、10/15 低潮 08:49），所以 Derby Wharf 根部会露出滩石与海藻——这对前景纹理是好事，对「满潮的港口」是坏事。详见潮位那条。</p>"
+      },
+      {
+        "type": "tip",
+        "title": "日出日落、方位角，以及「这是日出海岸」这条决定一切的几何事实",
+        "html": "<p>北岸取 <strong>42.5°N, 70.9°W</strong>，以下全部为 <strong>EDT</strong>（<strong>2026 年美国夏令时到 11 月 1 日才结束，这三天全在 EDT 内</strong>）。数值由 NOAA 太阳位置算法逐分钟计算：</p><ul><li><strong>10/13（周二）</strong>：民用晨光 <strong>06:26</strong>，日出 <strong>06:53</strong>（方位 <strong>99.7°</strong>），正午 12:30 高度 <strong>39.6°</strong>，日落 <strong>18:07</strong>（方位 <strong>260.2°</strong>），民用暮光 <strong>18:34</strong>。</li><li><strong>10/14（周三）</strong>：日出 <strong>06:54</strong>（<strong>100.2°</strong>），日落 <strong>18:05</strong>（<strong>259.7°</strong>）。</li><li><strong>10/15（周四）</strong>：民用晨光 <strong>06:28</strong>，日出 <strong>06:56</strong>（方位 <strong>100.8°</strong>），正午 12:29 高度 <strong>38.8°</strong>，日落 <strong>18:03</strong>（方位 <strong>259.1°</strong>），民用暮光 <strong>18:30</strong>。</li></ul><p><strong>第一个实际后果：拍摄日极短。</strong>Massachusetts 在东部时区的最东端，<strong>18:07 就日落，黄金时段只到 17:20–18:07 的 47 分钟，蓝调在 18:07–18:30</strong>。而 Crane Estate 17:00 闭园、Halibut Point 日落即闭园、Parker River 日落即闭园——<strong>本区有三个景点的闭园时间与日落几乎同时或更早，等于没有黄金时段可用</strong>，排行程时必须先扣掉这一段。同时日出很晚（06:53），所以<strong>晨昏两头都被压缩，一天实际能用的好光只有约两小时</strong>。</p><p><strong>第二个实际后果，也是本区最重要的一条：北岸是日出海岸。</strong>Cape Ann 与整条北岸的开阔海面在<strong>东到东北</strong>方向，日出方位 <strong>99.7°–100.8°</strong> 正落在海上，日落方位 <strong>259.1°–260.2°</strong> 落在内陆一侧。<strong>这与加州海岸完全相反。</strong>据此把九个点分成三类：</p><ul><li><strong>日出主场（06:53–08:00）</strong>：<strong>Salem Derby Wharf</strong>（栈桥朝 152° 伸入海港，日出方位 100° 从左前方低角度打来）、<strong>Gloucester 的 Eastern Point Light 与 Dog Bar Breakwater</strong>（灯塔在港口东侧、东面朝开阔洋面）、<strong>Plum Island 的海滩与沙丘</strong>（屏障岛的东侧就是大西洋）。</li><li><strong>日落主场（17:00–18:07）</strong>：只有<strong>朝西的港湾</strong>成立——<strong>Marblehead Neck 的 Marblehead Light</strong>（在 Neck 上朝西越过港口看老城）、<strong>Marblehead 的 Fort Sewall</strong>（在港口北口朝西南看整条港湾）、<strong>Rockport 的 Motif No. 1</strong>（从 T Wharf 朝北偏东看，被打亮的是它的西南面）、<strong>Gloucester 的 Rocky Neck</strong>（在内港东岸朝西看城与船）、<strong>Plum Island 的盐沼</strong>（在保护区公路上朝西看，逆光的金色盐沼）。</li><li><strong>不吃方向、全天可拍</strong>：<strong>Salem 的 Chestnut Street</strong>（街道走向 <strong>72.5°／252.5°</strong>，实测自 OSM 路径两端 42.51879／-70.90369 与 42.52001／-70.89847，全长 449 米；<strong>北侧那排联邦式立面法向约 162.5°，07:00 到 17:00 全天受光</strong>，<strong>而南侧那排法向 342.5°，十月全天零直射</strong>；另有一个彩蛋：<strong>日落方位 260° 与街道轴线 252.5° 只差 7.7°，落日基本沿街道纵轴下沉</strong>）、<strong>Marblehead 与 Newburyport 的老城街巷</strong>（巷窄楼高，正午高度只有 39°，路面全天柔光）。</li></ul><p><strong>两个需要单独算的几何：</strong></p><ul><li><strong>Crane Estate 的 Grand Allée 走向为 28.6°／208.6°</strong>（实测自 OSM「Grand Allée」多边形最长轴，上端 42.68723／-70.77840 到下端 42.69057／-70.77595，长 421 米）。也就是说<strong>它朝东北偏北下探到海</strong>。推论一：从 Great House 顺着 Allée 望海是<strong>面向 29°</strong>，太阳整天在你右后方，<strong>09:00（方位 123°、高度 21°）与 15:30–16:45（方位 226°–246°、高度 27°–17°）是纯侧光</strong>，草地台阶的横向长影会被拉出来，这是这里唯一正确的时段。推论二更要紧：<strong>Great House 朝海那一面（法向 29°）只在太阳方位落在 299°–119° 之间才受光，10/13 这段时间是日出 06:53 到约 08:40——而园区 09:00 才开门。所以「阳光正打在 Great House 海侧立面上」这张照片，在十月的开放时间内根本拍不到。</strong></li><li><strong>Halibut Point 朝正北面对开阔大洋</strong>（法向约 350°）。要让朝北的岩壁受光，太阳方位得落在 260°–80° 之间；而这三天太阳只在 <strong>100°–260°</strong> 之间走。<strong>结论：十月这三天，Halibut Point 朝海的花岩壁面与采石坑的海侧壁全天零直射光，一分钟都没有。</strong>站在岬角朝北看海时太阳整天在你背后，画面是平的、没有立体感。<strong>唯一有方向感的光是日落前 45 分钟（17:20–18:03，方位 251°–259°）从西南西横扫过岩脊的掠射光</strong>（日出那一档同理，但公园 <strong>8:00 才开门</strong>，06:53 的日出用不上）。<strong>所以这里正确的定位是：阴天题材、蓝调题材、以及日落前那 45 分钟的横向掠射光。</strong></li></ul>"
+      },
+      {
+        "type": "info",
+        "title": "潮位（10/13–15 实测预报）与秋色时间（北岸比内陆晚，这三天偏早）",
+        "html": "<p><strong>潮位。</strong>数据取自 <strong>NOAA Tides &amp; Currents 官方预报 API</strong>，<strong>Boston 站（8443970）</strong>与<strong>Gloucester 站（8447435）</strong>，均为当地时（EDT）。两站差别很大，必须分开用：<strong>Boston 潮差约 10 英尺，Gloucester 只有 5–6 英尺，而且 Gloucester 比 Boston 晚约 50 分钟</strong>（Boston 在 Massachusetts Bay 内部有放大效应，Cape Ann 在外侧）。</p><ul><li><strong>Boston（用于 Salem、Marblehead、Newburyport）</strong>：<strong>10/13</strong> 高 01:29（9.6 ft）／低 <strong>07:25</strong>（0.9）／高 <strong>13:35</strong>（10.3）／低 19:57（0.1）；<strong>10/14</strong> 高 02:12／低 <strong>08:07</strong>（1.3）／高 <strong>14:16</strong>（10.1）／低 20:41；<strong>10/15</strong> 高 02:55／低 <strong>08:49</strong>（1.7）／高 <strong>14:59</strong>（9.7）／低 21:26。</li><li><strong>Gloucester（用于 Rockport、Gloucester、Ipswich 的 Crane Beach）</strong>：<strong>10/13</strong> 高 02:21／低 <strong>08:40</strong>（0.4）／高 <strong>14:24</strong>（5.7）／低 21:25（-0.1）；<strong>10/14</strong> 高 03:06／低 <strong>09:19</strong>／高 <strong>15:05</strong>（5.5）／低 22:09；<strong>10/15</strong> 高 03:53／低 <strong>09:58</strong>／高 <strong>15:48</strong>（5.3）／低 22:53。</li></ul><p><strong>哪些点要低潮、哪些点要高潮：</strong></p><ul><li><strong>要低潮</strong>：<strong>Crane Beach 与 Steep Hill Beach</strong>（低潮露出极宽的沙坪与波痕，这三天的低潮在 <strong>08:40／09:19／09:58</strong>，正好卡在 Castle Hill 09:00 开园之后，配合极佳）；<strong>Gloucester 的 Dog Bar Breakwater</strong>（花岩块面在低潮时露得多、落脚更安全，<strong>涨潮加涌浪时花岩极滑，不要上</strong>）；<strong>Halibut Point 的潮池</strong>。</li><li><strong>要高潮</strong>：<strong>Rockport 内港（Motif No. 1）</strong>——高潮才没有露出的泥与水草、船身浮起、倒影完整。<strong>这里出现了整个行程最漂亮的一次巧合：10/15 Gloucester 高潮 15:48，而 Motif No. 1 的最佳光线是 15:30–17:45，两者几乎完全重合。</strong>10/13 的高潮 14:24 略早一点，也仍在可用范围。<strong>Plum Island 的盐沼</strong>也偏好高潮（潮沟灌满水，金色草与蓝色水才有对比）。</li><li><strong>要注意的坏消息</strong>：<strong>Salem Derby Wharf 的日出恰好赶上低潮</strong>（10/13 日出 06:53、低潮 07:25），栈桥根部会露出滩石。把它当纹理前景用是加分，想拍「满潮的港口」就只能等 13:35–14:59——而那是人最多的时段。</li></ul><p><strong>秋色时间——这一条要纠正一个常见误判。</strong><strong>Massachusetts 沿海的秋色比内陆晚一到两周，比 Vermont 与 New Hampshire 晚两到四周。</strong>各方口径：全州综合峰值约 <strong>10 月 7–15 日</strong>（内陆与 Berkshires 主导）；但 <strong>Greater Boston、North Shore 与 Cape Ann 的峰值普遍给到 10 月 18 日至 11 月 1 日</strong>，有来源把 Cape Ann 单列为 <strong>10 月 22 日至 11 月 5 日</strong>，长期跟踪新英格兰秋色的 Jeff Foliage 更直接写「在 Salem 拍到最漂亮的秋色是 <strong>10 月 25 日到 11 月 5 日</strong>」。原因是海水的热惯性把沿海的夜温托高，落叶推迟。</p><p><strong>所以对 10/13–10/15 的诚实判断是：偏早。</strong>这三天的 North Shore 大概处在<strong>转色三到五成</strong>的状态——红枫会有零星色块，橡树与山毛榛基本还是绿的，<strong>不要指望满山金红</strong>。如果你的核心目的是秋色，<strong>10/13–10/15 来北岸海岸线是早了约十天</strong>，同期真正在峰值上的是 Berkshires 与中部 Massachusetts（内陆方向），但那不是本区。<strong>反过来有一个真正在时间点上的题材：盐沼。</strong>Spartina 盐沼草的转色与树木无关，<strong>十月中旬正是它从绿转成铜金色的时候</strong>，Parker River、Plum Island Sound 与 Crane Estate 后侧的大片盐沼在这三天状态正好，<strong>这是本区被严重低估、而且时间点完全对得上的题材</strong>。（以上为区域气候常规与多方预测的综合，<strong>2026 年当年的实际转色进度无法提前核实</strong>，出发前刷 mass.gov 的 foliage report。）</p>"
+      },
+      {
+        "type": "info",
+        "title": "MBTA Newburyport/Rockport 线实操，以及哪些点无车到不了",
+        "html": "<p>这是无车旅行者的决定性因素。以下时刻取自 <strong>MBTA 官方 Newburyport/Rockport 线工作日时刻表</strong>（读取日期 2026-10-09 的工作日班表；<strong>注意 MBTA 网站在 2026 年 9 月初仍只提供到 9 月 5 日为止的 Spring/Summer 时刻表，10 月的秋季表当时尚未发布，以下为现行工作日班表的实测行车时间，班次时刻可能微调</strong>）。全线从 <strong>North Station</strong> 发车，在 <strong>Beverly</strong> 分岔为 Rockport 支线与 Newburyport 支线，<strong>两条支线的车都停 Salem</strong>。</p><ul><li><strong>Salem</strong>：约 <strong>33–37 分钟</strong>，单程 <strong>$8.00</strong>（Zone 3；优惠票 $4）。工作日班次极密，早晚高峰约每 30 分钟一班，白天 30–60 分钟一班，末班约 23:00 之后。<strong>车站到 Derby Wharf 步行约 1.2 公里／15 分钟，到 Chestnut Street 约 900 米／11 分钟。</strong></li><li><strong>Rockport</strong>（终点站）：约 <strong>76–79 分钟</strong>。<strong>下车走 10–15 分钟即到 Bearskin Neck 与 Motif No. 1，这是全区可达性最好的重点目标。</strong></li><li><strong>Gloucester</strong>：约 <strong>68–70 分钟</strong>。车站到 Man at the Wheel（Stacy Boulevard）约 1.3 公里／16 分钟，到 Rocky Neck 约 3 公里／35 分钟。</li><li><strong>Newburyport</strong>（终点站）：约 <strong>65–72 分钟</strong>。车站到 Market Square 老城约 1.3 公里／16 分钟。</li><li><strong>Ipswich</strong>：约 <strong>53–59 分钟</strong>。<strong>但车站到 Crane Estate 大门有 5.9 公里，没有公交，必须打车。</strong></li></ul><p><strong>关于十月的加开班次，有一条要纠正的常见误解：MBTA 的 Haunted Happenings 加班车只加周末。</strong>MBTA 历年（2024、2025）的官方新闻稿措辞都是「Several extra trains will run on <strong>Saturdays and Sundays</strong>」，并配套 <strong>$10 周末通勤铁路通票</strong>与 10 月 31 日的 <strong>$10 Haunted Happenings 单日通票</strong>。<strong>10/13–10/15 是周二至周四，没有加班车，跑的是常规工作日班表。</strong>这其实不是坏事——工作日班表本身就比周末密，而且车上没有周末那种满载的节庆人流；<strong>但 $10 周末通票在这三天也用不了，得按 $8 单程买。</strong>（<strong>2026 年的 Haunted Happenings 加班车时刻表在 2026 年 9 月初尚未发布，未能核实</strong>。）</p><p><strong>无车可达性分级，这是本条最有用的部分：</strong></p><ul><li><strong>火车直达、下车即走到（最优）</strong>：Salem 三个点、<strong>Rockport 的 Motif No. 1 与 Bearskin Neck</strong>、Gloucester 的 Man at the Wheel、Newburyport 老城。</li><li><strong>火车加一段 30–45 分钟步行（可接受）</strong>：<strong>Halibut Point State Park</strong>（Rockport 站到 Gott Avenue 约 3.2 公里／40 分钟，沿 Route 127 有人行道）、Gloucester 的 Rocky Neck（约 3 公里／35 分钟）。</li><li><strong>必须打车或换公交（明显不便）</strong>：<strong>Marblehead</strong>——<strong>不在通勤铁路上</strong>。从 Salem 站没有直达公交，要坐 <strong>455 路到 Lynn 再换 441／442 路</strong>，实测约 <strong>60–83 分钟</strong>、票价 $3.40；<strong>更快的走法是从 Boston 市区坐蓝线到 Wonderland 再换 441／442 路直达 Marblehead</strong>，合计约 1 小时 15 分。或者从 Salem 站直接打车，约 6.5 公里、10–15 分钟。<strong>Crane Estate（Ipswich 站打车 5.9 公里）与 Plum Island／Parker River（Newburyport 站打车 6 公里，岛上无公交）也都必须打车。</strong><strong>Gloucester 的 Eastern Point Light 最糟：从 Gloucester 站有 5.5 公里，而且最后 2.6 公里是挂着「Private Road」牌子的 Eastern Point Boulevard，步行时间约 70 分钟，实务上必须开车或打车。</strong></li></ul><p><strong>一条串点建议：Rockport 支线的车经停 Salem，所以「Salem 日出 + Rockport 白天」是同一条线上的一趟车能做完的</strong>（Salem 到 Rockport 约 40 分钟）。反过来 Marblehead 与 Rockport 不在一天里，硬凑会把时间全花在换乘上。</p>"
+      }
+    ],
+    "spots": [
+      {
+        "id": "seven-gables",
+        "n": 1,
+        "name": "七个尖角的房子",
+        "en": "The House of the Seven Gables",
+        "score": 3.5,
+        "tldr": "1668 年殖民地大宅，外观与海边花园是拍摄主体；十月必须提前买定时票、成人涨到 $31、不退不改。",
+        "tags": [
+          {
+            "t": "十月成人 $31",
+            "c": "paid"
+          },
+          {
+            "t": "必须提前买定时票",
+            "c": "risk"
+          },
+          {
+            "t": "不退不改不改期",
+            "c": "risk"
+          },
+          {
+            "t": "室内禁闪光灯",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>1668 年由船主兼商人 John Turner 建于 Salem 港边</strong>，正式名称是 <strong>Turner-Ingersoll Mansion</strong>，是 <strong>新英格兰现存最古老的木构大宅之一</strong>。Nathaniel Hawthorne 1851 年的小说《The House of the Seven Gables》以它为原型——<strong>但要注意因果关系是反的：小说出版时这栋房子的尖角早已被拆到只剩三个</strong>，现在你看到的七个尖角是 <strong>1908–1910 年由 Caroline Emmerton 出资、按小说描述与建筑考古复原出来的</strong>。换句话说，<strong>这栋建筑的最著名特征是小说反向塑造建筑的结果</strong>。",
+          "<strong>Emmerton 把它开成博物馆的目的不是旅游而是社会工作</strong>：门票收入用来办 Settlement House 服务当时 Salem 的移民社区。<strong>这条传统一直延续到今天——机构现在仍然免费提供 ESL 与公民入籍课程</strong>，你买的这张 $31 的票有一部分是在付这个。园区 2007 年被列为 National Historic Landmark District，<strong>占地 2 英亩，含殖民复兴式海边花园与若干历史建筑</strong>，其中包括被整体搬迁过来的 <strong>Nathaniel Hawthorne Birthplace</strong>。",
+          "<strong>摄影主体是外观与海边花园，不是室内。</strong>室内是 1600–1700 年代的低矮木构、分多层、跟团 45 分钟、通道极窄，官方明确<strong>禁止闪光灯与摄像</strong>，实际上也没有架设空间。真正出片的是<strong>朝海港那一侧的黑色木瓦山墙群</strong>——七个尖角在同一个立面上重叠出的锯齿轮廓线，是这里唯一无法替代的构图。",
+          "<strong>十月的票务规则是硬约束，必须提前几周处理：</strong>官方原文写明<strong>「Advance tickets are REQUIRED」、门票不退款、不可改期、迟到不得入场也不退款、需提前 15 分钟到场签到</strong>。<strong>10 月 1–15 日的票在 9 月 1 日（会员）与 9 月 4 日（公众）放出</strong>，<strong>10 月 16–31 日的票在 9 月 16 日与 9 月 19 日放出</strong>。也就是说<strong>你要拍 10/13–10/15，得在 9 月 4 日开卖那天就去抢</strong>。",
+          "<strong>十月的价格与平时不同，这一条容易踩坑。</strong>Mansion Tour Package（含 Grounds Pass）<strong>十月成人 $31、老年／教师／急救人员／大学生 $26、5–12 岁儿童 $21、无障碍票 $16</strong>；而<strong>11 月至 9 月同一张票只要 $26</strong>——十月每人贵 $5。<strong>Salem 居民、NARM 会员、SNAP／WIC／EBT 持卡人与 Massachusetts 公立院校学生免费</strong>，5 岁以下免费。<strong>只逛花园与外围的 Grounds Pass 单独出售，但官网未把它的十月价格列在价目表里，未能核实其具体票价。</strong>"
+        ],
+        "photo": "建筑 <strong>4/5</strong>，园林 <strong>3.5/5</strong>，室内 <strong>2/5</strong>，风光 <strong>2/5</strong>。加分在那组山墙轮廓与紧贴海港的位置；扣分全在票务与人流——<strong>十月这里是 Salem 最典型的「定时票加满场」体验，你几乎不可能拿到一张没有其他游客的室内照片</strong>。",
+        "shots": [
+          {
+            "name": "Turner Street 街面（免票拍山墙群）",
+            "view": [
+              42.52182,
+              -70.88382
+            ],
+            "desc": "<strong>坐标为 OSM 的 The House of the Seven Gables 实体节点（115 Derby Street）。</strong><strong>这是本条目性价比最高的机位：从公共街道拍，不需要票、不受 10:00 开门限制。</strong><strong>最佳 06:53–08:00</strong>（10/13 日出 06:53、方位 99.7°、高度 0°→11°）：低角度的暖光从东南东扫过黑色木瓦，<strong>七个尖角会各自投出一道影子，锯齿轮廓最清楚</strong>；而且这个时段街上基本没人，这在十月的 Salem 是唯一能白捡的东西。<strong>次佳 15:30–17:00</strong>（方位 226°–248°），光从西南来，打的是山墙的另一侧，反差更硬、木瓦纹理更粗。<strong>焦段 24–35mm 拍完整立面加前景铺装，50mm 是这里最好的焦段</strong>——压缩之后七个尖角会层层贴合、密度最高，而广角会把它们拉散成一排孤立的三角形。<strong>85–135mm 单独抽两三个尖角与烟囱的重叠关系</strong>，是这里最容易被忽略的构图。街道窄、有电线与路灯杆，<strong>找角度让它们落在山墙一侧而不是横穿画面</strong>。手持即可，<strong>不要在住宅区人行道上架三脚架挡道</strong>。"
+          },
+          {
+            "name": "海边花园与朝海立面（需门票）",
+            "desc": "<strong>无独立 OSM 实体，地图无针脚（位于 115 Derby Street 园区内，在主建筑东南侧靠海港一侧）。</strong><strong>要进这里必须持 Grounds Pass 或 Mansion Tour Package，最早 10:00 开门。</strong>这一侧是殖民复兴式的对称花园加草坪，背后就是 Salem 港的水面。<strong>最佳 15:00–17:00</strong>：园区 <strong>18:00 才关</strong>（官方原文「Open daily 10 A.M.-6 P.M.」），<strong>所以这里是 Salem 少数能拍到接近黄金光的付费景点</strong>——10/13 的 17:00 太阳高度只有 10.7°、方位 248.6°，低光从西南西斜切过草坪，把花园的黄杨边框与砖径的影子全部拉长。<strong>注意 18:00 关门而日落 18:07，所以最后一档只能拍到日落前 7 分钟，真正的日落与蓝调在里面拍不到。</strong>24–35mm 把花园、山墙与海面收在一张里（这是唯一能同时交代「宅子就在海边」的构图），85mm 压花园细节与远处港口的船。<strong>器材注意：官方允许「recreational photography for personal use」，但「professional photography shoots」需要事先批准、签合同并提供保险证明。一个人拿一机一镜没问题，架起三脚架加反光板就会被当成商业拍摄。</strong>"
+          },
+          {
+            "name": "室内跟团（Mansion Tour，45 分钟）",
+            "desc": "<strong>无独立 OSM 实体，地图无针脚（位于 Turner-Ingersoll Mansion 建筑体内）。</strong><strong>官方明确：允许个人手持拍摄，但禁止闪光灯与摄像（原文「no flash photography or videography is allowed」）。</strong>房子是 1600–1700 年代木构，<strong>天花极低、窗小、木饰全为深色</strong>，实测需要 <strong>ISO 3200–6400、f/1.8–2.8、1/50–1/80</strong>，强烈建议带一支 <strong>24mm 或 35mm 的 f/1.4–f/1.8 定焦</strong>，变焦头在这里基本废掉。<strong>白平衡固定在 3200–3800K</strong>，自动白平衡在深色木饰加窗光的混合下会来回跳。构图只抓两样：<strong>那道著名的暗藏楼梯</strong>，以及<strong>从小窗斜射进来打在宽木地板上的光带</strong>。<strong>45 分钟跟团、多层楼、通道窄、十月场场满，实务上你只能在人头缝里抓拍，不要指望干净的空房间。</strong><strong>禁三脚架（无明文，但通道宽度决定了不可能）。</strong>需要爬楼梯，无障碍不可达（另有 $16 的一楼无障碍票）。"
+          }
+        ],
+        "access": {
+          "book": "<strong>十月必须提前买定时票，官方原文「Advance tickets are REQUIRED」。</strong><strong>10 月 1–15 日的票于 9 月 1 日对会员、9 月 4 日对公众开放购买</strong>；10 月 16–31 日的票于 9 月 16 日与 9 月 19 日开放。<strong>不退款、不可改期、迟到不得入场（官方原文：「We do not have the staff resources to accommodate requests for rescheduling」「All sales final」「we cannot accept late arrivals」）</strong>，<strong>需提前 15 分钟到场签到</strong>。Mansion Tour 的发团频次按季节浮动，官网现场看余位。Grounds Pass 可在开放时段内任意时间入场，最晚入场时间为闭馆时刻。",
+          "ticket": "<strong>十月 Mansion Tour Package（含 Grounds Pass）：成人 $31、老年 65+／急救人员／教师／大学生 $26、儿童 5–12 岁 $21、无障碍票 $16、5 岁以下免费。</strong><strong>Salem 居民、NARM 会员／博物馆同业、SNAP／WIC／EBT 持卡人、Massachusetts 公立院校学生免费</strong>（均需证件）。<strong>11 月至次年 9 月同一张票为成人 $26，十月是唯一涨价的月份。</strong><strong>Grounds Pass 单卖，但官网价目表未列出其十月价格，未能从官方渠道核实。</strong><strong>从 Turner Street 与 Derby Street 街面拍外观完全免费。</strong>",
+          "hours": "官方原文（7gables.org，站头横幅）：<strong>「Open daily 10 A.M.-6 P.M.」</strong>，<strong>秋季无每周固定闭馆日，周一至周日均开</strong>——<strong>10 月 13 日（周二）正常开放</strong>。Grounds Pass 的最晚入场时间随季节为 16:00／17:00／18:00 三档之一（官方措辞「last entry at close (4,5,or 6PM seasonally)」），<strong>十月究竟适用哪一档未能从官方渠道确认，按 17:00 最晚入场规划最安全</strong>。<strong>10:00 才开门这一点很关键：它错开了日出那个人少的窗口</strong>，所以想拍花园与室内就必须接受人多。十月另有多场夜间活动（Shadows of the Seven Gables 9/30–11/1、Haunted Fables 10/15–19 等），<strong>10/15 起有 Haunted Fables 夜场，当晚园区会有活动人流</strong>。电话 (978) 744-0991。",
+          "parking": "<strong>不要开车。官方自己写「Parking is extremely scarce during October in Salem」，并明确「Though The Gables has a parking lot, parking is not guaranteed」，且自有停车场只在你参观期间可用。</strong>正确方案是 <strong>MBTA Newburyport/Rockport 线 Salem 站</strong>，<strong>官方文案也直接推荐「using public transportation is highly recommended」</strong>。",
+          "walk": "Salem 站到 115 Derby Street 约 <strong>1.4 公里 / 17 分钟</strong>；从 Derby Wharf 走过来约 <strong>500 米 / 6 分钟</strong>（两点是天然一组，日出拍完 Derby Wharf 正好在这里等 10:00 开门）。<strong>园区内建议留 90 分钟（含 45 分钟跟团），纯拍外观 20 分钟够。</strong>"
+        },
+        "notes": [
+          "<strong>票务是本条目最大的风险，不是光线。</strong>10/13–10/15 的票在 <strong>9 月 4 日</strong>对公众开卖，<strong>不退不改不改期、迟到即作废</strong>——把它当成机票而不是门票来处理",
+          "<strong>十月成人票 $31，比其他月份贵 $5</strong>。如果你只想拍那组山墙轮廓，<strong>Turner Street 街面免费机位已经够了，一分钱不用花</strong>",
+          "<strong>室内明确禁闪光灯与摄像</strong>，但允许个人手持静态摄影；<strong>「professional photography shoots」需事先批准、签合同并附保险证明</strong>，所以不要带三脚架、反光板或助手，那会被判定为商业拍摄",
+          "<strong>室内是 1600 年代木构，天花低、楼梯窄、需爬多层</strong>，大摄影包在跟团时会不断刮到墙与家具，建议只带机身加一支定焦",
+          "<strong>官方提醒行程要留足余量</strong>（原文「PLEASE PLAN EXTRA TIME FOR TRAVEL」），因为十月 Salem 的路面通行状况不可预测；从 Salem 站走过来请预留 25 分钟而不是 17 分钟",
+          "<strong>10/15 起有 Haunted Fables 夜场活动</strong>，若你把这里排在 10/15 傍晚，花园里会有活动人流与临时布置",
+          "<strong>食物不能带进 Turner-Ingersoll Mansion</strong>，但持票可以在花园里吃"
+        ],
+        "images": [
+          {
+            "url": "img/house-of-the-seven-gables-ma1-982ceb48.jpg",
+            "cap": "Turner-Ingersoll Mansion 山墙侧立面全貌 · Acroterion / CC BY-SA 4.0"
+          },
+          {
+            "url": "img/house-of-the-seven-gables-side-salem-massachusetts-58f2f7a5.jpg",
+            "cap": "从侧面看层层叠出的七个山墙与雪松木瓦 · Daderot / CC BY-SA 3.0"
+          },
+          {
+            "url": "img/house-of-seven-gables-salem-ma-1-145d0169.jpg",
+            "cap": "海侧花园一侧的房屋与草坪 · Upstateherd / CC BY-SA 4.0"
+          }
+        ]
+      },
+      {
+        "id": "salem-burying-point-mcintire",
+        "n": 2,
+        "name": "Old Burying Point、女巫审判纪念碑与 McIntire 历史区",
+        "en": "Old Burying Point, Witch Trials Memorial & McIntire Historic District",
+        "score": 4,
+        "tldr": "Chestnut Street 才是 Salem 真正的摄影高点：住宅街、免票、24 小时、人少；墓园十月需当日预约且 10:00 才开。",
+        "tags": [
+          {
+            "t": "Chestnut Street 全免费",
+            "c": "free"
+          },
+          {
+            "t": "墓园需当日线上预约",
+            "c": "risk"
+          },
+          {
+            "t": "墓园 10:00 才首场",
+            "c": "risk"
+          },
+          {
+            "t": "纪念碑黎明到黄昏免票",
+            "c": "free"
+          }
+        ],
+        "highlights": [
+          "<strong>本条目的核心判断：三个点里 Chestnut Street 最强，而且它恰好是最不受十月人潮影响的一个。</strong>McIntire Historic District 以 Salem 本地木雕师兼建筑师 <strong>Samuel McIntire（1757–1811）</strong>命名，<strong>Chestnut Street 一整条街是联邦式（Federal）豪宅的连续立面</strong>，建于 1800 年前后 Salem 全球贸易鼎盛期，屋主是那一代的船东与商人。<strong>关键在于它是纯住宅街、距 Essex Street 的节庆核心区约 700 米，不在任何导览路线与摊位分布上——十月的人流密度和 Derby Street 差一个数量级。</strong>（这一点已通过位置关系与街道性质核实；<strong>具体的十月分时人流数据没有任何官方来源，此处是基于「它是住宅街、无景点入口、不在活动区」的推断</strong>。）",
+          "<strong>Chestnut Street 的几何算得很干净，而且有一个彩蛋。</strong>街道走向<strong>实测 72.5°／252.5°</strong>，全长 <strong>449 米</strong>（自 OSM 路径两端节点算出：西端 42.51879／-70.90369，东端 42.52001／-70.89847）。推论一：<strong>北侧那排房子的立面法向约 162.5°（朝南偏东），10 月 13 日太阳方位从 07:00 的 101° 走到 17:00 的 249°，全部落在 72.5°–252.5° 区间内，所以北侧立面全天受光</strong>，而<strong>南侧那排法向 342.5°（朝北偏西），十月全天零直射光</strong>。推论二（彩蛋）：<strong>10/13 日落方位 260.2°、10/15 为 259.1°，与街道轴线 252.5° 只差 6.6°–7.7°</strong>——<strong>也就是说落日基本沿着 Chestnut Street 的纵轴下沉</strong>。不是完美对齐（完全对齐要到 10 月下旬），但足以在最后 20 分钟做出「太阳压在街道尽头」的效果。",
+          "<strong>Old Burying Point（又名 Charter Street Cemetery、Central Burying Point）是 Salem 最老的墓地，1637 年启用，现存最早的墓石刻着 1673 年。</strong>1.47 英亩，收藏了新英格兰最好的 17–19 世纪墓碑雕刻之一。<strong>要点名的两处误解：一，被 1692 年处死的人没有葬在这里</strong>（官方说法：这里虽非圣化之地但仍是市有财产，被国家处死者不会葬入，且多数受害者并不住在附近）；<strong>二，这块墓地在审判中没有扮演任何特定角色</strong>。真正埋在这里的是<strong>审判法官 John Hathorne 与 Bartholomew Gedney、总督 Simon Bradstreet、以及 Samuel McIntire 本人</strong>，还有 Derby、Forrester、Fiske 等 18 世纪商业家族。John Hathorne 是 Nathaniel Hawthorne 的高祖父——<strong>作家在自己姓氏里加了一个 w，一般认为就是为了和这位法官脱钩</strong>。",
+          "<strong>墓园的十月限流是硬约束，已在官方页面逐字核实。</strong>charterstreetcemetery.com 的「Visiting In October」页原文：<strong>十月访客必须做当日的线上预约、预约免费、时段每 15 分钟一档、首场 10:00 入场、墓园 17:00 关门、预约只能当天做（不接受提前预约）</strong>，并明确<strong>「Reservations will be required starting September 18th」</strong>。日限流量官方称「仍在每日 1,000 人以上」。另有两条摄影相关：<strong>禁无人机</strong>、<strong>「Any filming or photoshoots must have written permission from the Salem Film Office」</strong>。<strong>还有一件更要紧的：门口除了拥挤的人行道之外没有等候空间</strong>，官方建议早到的人先去转角的 Witch Trials Memorial。",
+          "<strong>Salem Witch Trials Memorial 反而是三个点里最省事的：黎明到黄昏开放、免费、不需预约。</strong>1992 年为审判三百周年落成，就在墓园的转角、Liberty Street 上（Charter Street 与 Derby Street 之间）。设计是<strong>二十条从矮花岩墙上悬挑出来的石凳，每一条刻着一位被处死者的姓名与处刑日期</strong>；入口处的地面刻着受审者辩词的片段，而<strong>刻字被刻意做成半途中断、被墙截断</strong>——意思是这些人的话从未被听完。<strong>这个细节是本条目最值得拍的一处特写，而且几乎没有人会低头去拍它。</strong>"
+        ],
+        "photo": "建筑 <strong>4.5/5</strong>（Chestnut Street），街拍 <strong>4/5</strong>，纪实与静物 <strong>4/5</strong>（纪念碑刻字与墓碑），风光 <strong>1/5</strong>。加分几乎全部来自 Chestnut Street 那 449 米连续的联邦式立面——免票、24 小时、人少、朝向正确，是 Salem 唯一同时满足这四条的目标；扣分在墓园的预约门槛与视觉上的平淡。",
+        "shots": [
+          {
+            "name": "Chestnut Street 中段（联邦式立面主机位）",
+            "view": [
+              42.5194,
+              -70.901
+            ],
+            "desc": "<strong>坐标为 OSM 的 Chestnut Street 路径中点。</strong><strong>最佳 07:30–10:00</strong>：10/13 的 08:00 太阳高度 10.9°、方位 111.4°，<strong>低光沿街道斜切过来，北侧那排联邦式立面正面受光、砖缝与白色门楣的立体感最强，而路面上会拉出整排长影</strong>。<strong>这个时段同时是十月 Salem 最安静的时段，两件事恰好重合。</strong><strong>次佳 15:30–17:00</strong>（方位 226°–248°），光更暖但角度已经偏到街道后方。<strong>第三档也是最特殊的一档：17:45–18:07（10/13 日落 18:07，方位 260.2°）</strong>——<strong>站在街道东端朝西看，落日几乎压在街道纵轴上（轴线 252.5°，差 7.7°），整条街会被一道极低的暖光贯穿，同时南侧那排全天无光的立面在这一刻才勉强被擦到</strong>。<strong>焦段：50mm 是这里的甜点</strong>——压缩之后两侧的立面层层贴合，把 449 米的街拍成密实的一片；<strong>85–135mm 抽单栋门廊、扇形气窗与铁栏杆的重复韵律</strong>（这是 McIntire 的手艺所在）；<strong>24–28mm 才用来拍街道纵深加天空，不要更广</strong>。<strong>这是一条私人住宅街</strong>：不要坐台阶、不要靠门、不要把镜头对着窗户往里拍、不要在 08:00 之前大声说话，也不要在某户门前架三脚架站二十分钟。"
+          },
+          {
+            "name": "Salem Witch Trials Memorial（免票、黎明到黄昏）",
+            "view": [
+              42.52084,
+              -70.8919
+            ],
+            "desc": "<strong>坐标为 OSM 的 Salem Witch Trials Memorial 实体节点（Liberty Street 上）。</strong><strong>免费、不需预约、黎明到黄昏开放——所以它是唯一能配合日出窗口的 Salem 人文点。</strong><strong>最佳 06:53–08:00</strong>：低角度光斜射进这个矮墙围合的方院，<strong>二十条悬挑石凳会各自投出一道横影，刻字的凹槽在掠射光下才读得出来</strong>；正午顶光下刻字会完全消失成一片灰，这是本机位最需要避开的时段。<strong>次佳 16:30–17:30</strong>，同理。<strong>构图两个层次：24–35mm 站在入口拍整个方院与二十条石凳的排列</strong>（把 Old Burying Point 的墓碑收在墙后做背景，两处的关系就交代清楚了）；<strong>85mm 或 100mm 微距贴近拍单条石凳的姓名与日期，以及入口地面那段被墙截断的辩词刻字</strong>——<strong>后者是本条目最好的一张特写，而且几乎没人拍。</strong><strong>这是纪念场所，请安静、不要坐在石凳上、不要踩刻字。</strong>手持为宜；若要长曝，清晨无人时用低机位小三脚架，不要挡住通道。"
+          },
+          {
+            "name": "Old Burying Point 墓园内（十月需当日预约）",
+            "view": [
+              42.52037,
+              -70.89221
+            ],
+            "desc": "<strong>坐标为 OSM 的 Charter Street Cemetery 实体。</strong><strong>十月必须当天在 charterstreetcemetery.com 抢当日的免费时段票，首场 10:00、每 15 分钟一档、17:00 关门；预约不能提前做。</strong><strong>所以这里拍不到清晨光，只能在 10:00 之后的高角度光下工作</strong>——10/13 的 10:00 太阳高度已有 29.2°、方位 136.4°。<strong>对策是不要拍全景而是拍单块石碑</strong>：<strong>85–135mm 侧对石碑、让光从画面一侧掠过，17 世纪那些带翼骷髅头（death's head）与柳树骨灰瓮的浮雕才会有明暗</strong>；正对石碑拍会把浅浮雕拍成一片平。<strong>35mm 拍石碑群的倾斜与错落（这里的板岩碑普遍歪斜，是本墓园的视觉特征）。</strong><strong>如果当天是阴天，反而是这里最好的条件</strong>：均匀漫射光下石碑与草地的层次全保得住。<strong>官方明确禁止拓碑（grave-rubbings）与无人机；任何 filming 或 photoshoot 需 Salem Film Office 的书面许可</strong>——一个人手持一机一镜不属于此列，但不要带三脚架加灯。园内是碎石路面且高低不平，只准走指定路径。"
+          },
+          {
+            "name": "Hawthorne Boulevard 与 Salem Common（可选的第四点）",
+            "view": [
+              42.52452,
+              -70.88901
+            ],
+            "desc": "<strong>坐标为 OSM 的 Salem Common 公园实体。</strong><strong>这是 Haunted Happenings 的活动主场地，所以整个十月这里会有摊位、帐篷与围栏</strong>——<strong>要拍「安静的殖民地公共绿地」这三天做不到，请把它当成节庆纪实题材而不是风景题材。</strong>真要拍的话，<strong>06:53–07:45 是摊位还没开门的唯一窗口</strong>，此时公园周边那圈联邦式与希腊复兴式住宅的东南立面正面受光（方位 100°–108°、高度 0°–8°）。<strong>35mm 拍公园铸铁围栏与后面的住宅立面；135mm 压缩抽 Salem Common 那座 1802 年的拱门（Washington Arch）与树冠。</strong><strong>十月中旬这里的树大概只有三到五成转色</strong>（见前置提醒的秋色那条），不要指望满树金黄。若愿意换个方向，08:00 之后从 Hawthorne Boulevard（OSM 42.52187／-70.89040）朝西可以把 Nathaniel Hawthorne 铜像与街景一起收进来。"
+          }
+        ],
+        "access": {
+          "book": "<strong>Chestnut Street 与 McIntire 历史区：公共街道，不需预约、不需票。</strong><strong>Salem Witch Trials Memorial：不需预约、不需票。</strong><strong>Old Burying Point / Charter Street Cemetery：十月必须做当日线上预约</strong>（charterstreetcemetery.com，<strong>免费</strong>，<strong>只能当天预约、每 15 分钟一档、首场 10:00</strong>，2026 年的预约制度<strong>自 9 月 18 日起生效</strong>）。<strong>官方特别声明：任何向你收费让你进墓园的人都与 Salem 市政府无关。</strong>",
+          "ticket": "<strong>三处全部免费</strong>（墓园的十月预约也免费）。墓园旁的 Charter Street Cemetery Welcome Center（历史建筑 Pickman House 内）亦免费。",
+          "hours": "<strong>Chestnut Street：公共街道，24 小时。</strong><strong>Witch Trials Memorial：官方口径「open from dawn till dusk」，即黎明到黄昏</strong>（这三天约 06:26–18:34），并注明可能因维护临时关闭。<strong>Old Burying Point：Welcome Center 夏季表为每日 10:00–17:00、最晚入场 16:45；十月版本为首场 10:00 入场、17:00 关门</strong>。Thanksgiving、Christmas Eve、Christmas Day、New Year's Eve、New Year's Day 与联邦假日闭园，<strong>恶劣天气可能临时闭园</strong>。<strong>秋季无每周固定闭馆日——10 月 13 日（周二）三处均正常。</strong><strong>有一处口径不一致要提醒：一份二手来源写墓园十月只开 12:00–15:45、时段为 10 分钟一档，而官方页面写首场 10:00、15 分钟一档、17:00 关门。以官方页面为准，但这处矛盾说明规则年年在改，出发当天务必刷一次官网。</strong>",
+          "parking": "<strong>十月不要开车。</strong>Chestnut Street 一带是居民临时许可停车区（<strong>2026 年的临时季节性居民许可从 9 月 15 日到 11 月 1 日</strong>），游客停进去会被开票。<strong>正确方案是 MBTA Salem 站</strong>，或市营 Museum Place Garage。<strong>2026 年市政府取消了十月周末的摆渡巴士服务</strong>，108 Jefferson Avenue 停车场周末免费但没有摆渡接驳。",
+          "walk": "Salem 站到 Chestnut Street 西端约 <strong>900 米 / 11 分钟</strong>；<strong>Chestnut Street 全长 449 米，从头走到尾 6 分钟，但认真拍值得留 45–60 分钟。</strong>Chestnut Street 东端到 Witch Trials Memorial 约 <strong>750 米 / 10 分钟</strong>；Witch Trials Memorial 到墓园入口（51 Charter Street）约 <strong>80 米 / 1 分钟</strong>（就在转角）；墓园到 Derby Wharf 约 <strong>700 米 / 9 分钟</strong>。"
+        },
+        "notes": [
+          "<strong>本条目最重要的一条：把重心放在 Chestnut Street，不要放在墓园。</strong>墓园十月要抢当日预约、10:00 才首场、视觉上也比较平淡；Chestnut Street 免票、24 小时、人少、朝向正确，摄影产出高得多",
+          "<strong>Chestnut Street 是私人住宅街，不是景点。</strong>不要坐或站在住户台阶上、不要触碰门与花箱、不要把镜头对着窗户往里拍、不要在清早大声交谈。住户有权要求你停止拍摄，请立刻配合",
+          "<strong>墓园的十月预约只能当天做</strong>，所以出门前必须在手机上守着放票——这也意味着你无法提前把它排进日程，<strong>请把它当成「抢到就去、抢不到就算」的可选项</strong>",
+          "<strong>墓园明确禁无人机、禁拓碑；任何 filming 或 photoshoot 需 Salem Film Office 书面许可。</strong>一个人手持拍摄没问题，但不要带三脚架加灯——那会被判定为 photoshoot",
+          "<strong>墓园门口没有等候空间</strong>（官方原话），早到的话按官方建议先去转角的 Witch Trials Memorial 拍，时间刚好",
+          "<strong>Witch Trials Memorial 是纪念场所而不是拍照背景。</strong>不要坐在那二十条石凳上、不要踩地面刻字、不要在里面大声说话；有人在悼念时请等一等",
+          "<strong>Salem Common 整个十月是 Haunted Happenings 的活动主场地</strong>，有摊位与围栏。想拍空场只有 07:45 之前那一档",
+          "<strong>10/13 是周二，这三处都不受影响</strong>（无每周闭馆日）；但同区的 Custom House 与 Peabody Essex Museum 周二可能不开，串点时留意"
+        ],
+        "images": [
+          {
+            "url": "img/chestnut-street-salem-7e569ad3.jpg",
+            "cap": "Chestnut Street 连续的联邦式立面——本条目真正的主体 · Fletcher6 / CC BY-SA 3.0"
+          },
+          {
+            "url": "img/salem-witch-trials-memorial-a2225b4c.jpg",
+            "cap": "Salem Witch Trials Memorial 从矮墙悬挑出的石凳 · Christine Zenino / CC BY 2.0"
+          },
+          {
+            "url": "img/old-burying-point-cemetery-in-salem-2638749323-f14068ed.jpg",
+            "cap": "Old Burying Point 歪斜的板岩墓碑群 · Reading Tom / CC BY 2.0"
+          }
+        ]
+      },
+      {
+        "id": "salem-maritime-derby-wharf",
+        "n": 3,
+        "name": "Salem 海事国家历史公园与 Derby Wharf",
+        "en": "Salem Maritime NHS, Derby Wharf & Friendship of Salem",
+        "score": 4,
+        "tldr": "免票、园区 24 小时开放，是 Salem 唯一能绕过十月人潮的机位；Friendship 已核实在泊位上，但仍带工程罩。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "园区 24 小时开放",
+            "c": "free"
+          },
+          {
+            "t": "日出主场",
+            "c": "free"
+          },
+          {
+            "t": "周二室内不开",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>1938 年设立，是全美第一处 National Historic Site</strong>，现在的正式名称已改为 Salem Maritime National Historical Park。园区 9 英亩、12 栋历史建筑，<strong>核心是 Derby Wharf——全长 2,045 英尺（约 623 米）伸入 Salem 港，尽端立着 Derby Wharf Light</strong>。18 世纪末 Salem 一度是全美最富的城市之一，Elias Hasket Derby 被认为是美国第一位百万富翁，这道栈桥就是那段全球贸易的物证。",
+          "<strong>关键事实核实结果：Friendship of Salem 现在就在 Derby Wharf 的泊位上，招牌构图存在。</strong>这艘 1797 年 Salem 造 East Indiaman 的全尺寸复制品（1996 年在 Albany 的 Scarano Shipyard 铺龙骨），<strong>2024 年 11 月 13 日被拖到 Gloucester Marine Railway 做船首结构大修，2025 年 7 月 15 日 14:30 拖回 Derby Wharf</strong>（NPS 官方页面记录）。<strong>但要打折的地方在这里：回泊时船上仍蒙着施工防护罩，桅杆与索具的安装从 2025 年夏末开始、原计划贯穿整个冬春，为 America 250 与 Salem 400+ 做准备。NPS 该页面最后更新于 2025 年 7 月 16 日，所以「到 2026 年 10 月是否已撤罩、三根桅杆是否立起」未能从官方渠道确认。</strong><strong>诚实的预期是：船体一定在，「三桅方帆船的完整索具剪影」有可能还没有。</strong>出发前打 978-740-1650 问一句最省事。",
+          "<strong>栈桥的走向是本条目的关键几何，而且它正好指向对的方向。</strong>Derby Wharf 自 Derby Street 一侧向<strong>南偏东约 152°</strong>伸入海港（自 OSM 的栈桥根部与 Derby Wharf Light 实体 42.51658／-70.88354 推算），尽端灯塔距岸约 570 米。<strong>Salem 港在这里向东南方向敞开，而 10/13 日出方位是 99.7°</strong>——也就是<strong>太阳从栈桥左前方约 53° 的海面上升起</strong>，低角度暖光横切过整道栈桥与灯塔的东侧面，<strong>这是本区最干净的一个日出机位，也是整个 Salem 唯一不受人潮影响的机位</strong>。NPS 官方甚至专门做了一个「Watch the Sunrise from Derby Wharf」的活动页，并在海滩上放了 <strong>6 把 Adirondack 椅</strong>（先到先得）。",
+          "<strong>Derby Wharf Light 的可达性是好消息：塔就在栈桥尽端，走过去就到，免费、无门禁。</strong>这是一座 1871 年的方形砖塔、约 23 英尺高，<strong>塔身不对公众开放（内部不可进），但外部可以贴到脚下拍</strong>。走完 623 米的栈桥单程约 8–10 分钟，路面是平整碎石。<strong>注意栈桥完全暴露在海风里，十月清晨风冷且没有任何遮挡</strong>。",
+          "<strong>室内建筑的开放日必须单独看，而且 10/13 周二正好撞上闭馆。</strong>NPS 的 2026 年 9 月 21 日至 11 月 14 日季节表（页面 <strong>2026 年 8 月 19 日更新</strong>）写明：<strong>Custom House 与 Public Stores &amp; Scale House 为周三至周日 9:30–16:30、Narbonne House 周三至周日 13:00–16:00、而 Derby House 在这个时段是「Closed for the season」。</strong><strong>→ 10 月 13 日（周二）这些室内全部不开，只能拍外立面；10/14 与 10/15 正常开。</strong>Salem Armory Regional Visitor Center 与 Waite &amp; Peirce Park Store 每日 9:30–16:30。<strong>所有建筑与所有项目全部免费。</strong>"
+        ],
+        "photo": "风光 <strong>4/5</strong>，建筑 <strong>3.5/5</strong>，日出 <strong>4.5/5</strong>，人文纪实 <strong>3/5</strong>。加分在完全免费、24 小时开放、朝向正确、且是本区唯一能在人潮之前完成的目标；扣分在 Friendship 的索具状态不确定、以及日出恰好赶上低潮（栈桥根部露泥）。",
+        "shots": [
+          {
+            "name": "Derby Wharf 栈桥纵深与灯塔（日出主机位）",
+            "view": [
+              42.51796,
+              -70.8848
+            ],
+            "desc": "<strong>坐标为 OSM 的 Derby Wharf 实体（栈桥中段）。</strong><strong>最佳 06:40–07:45（10/13 日出 06:53，方位 99.7°；10/15 日出 06:56，方位 100.8°），民用晨光 06:26 就已经有色，值得提早 25 分钟到位。</strong>站在栈桥中段偏根部处朝<strong>南偏东 152°</strong>看，<strong>太阳在你左前方约 53° 的海平线上，光横切过碎石路面与灯塔的东侧壁</strong>——这是有方向、有立体感的光，而不是正对镜头的逆光。<strong>焦段 24–35mm 拍栈桥纵深加灯塔小点（这是最经典的一张，让 623 米的线性透视做主角）；70–200mm 从根部压缩，灯塔会被推到很大、和天空的色带贴在一起</strong>。<strong>不要用 16mm 级超广</strong>——它会把栈桥拉成一条细线，纵深反而崩掉。<strong>潮位注意：10/13 低潮 07:25、10/15 低潮 08:49（Boston 站），日出时都接近低潮，栈桥根部与海滩会露出滩石与海藻</strong>，把它当前景纹理用是加分项，想要满潮水面就得等 13:35–14:59（人最多）。<strong>三脚架在这里完全可用</strong>（24 小时开放的户外园区、清晨无人），这是本区少数能安心架机器的地方；带 ND 做 1–4 秒长曝把海面拉平会很好看。<strong>栈桥毫无遮挡，十月清晨风大且冷，带防风外套与手套。</strong>"
+          },
+          {
+            "name": "Friendship of Salem 与 Central Wharf 之间（船体与索具）",
+            "view": [
+              42.51906,
+              -70.88558
+            ],
+            "desc": "<strong>坐标为 OSM 的 Salem Maritime National Historical Park 实体（160 Derby Street，Friendship 泊位在 Derby Wharf 与 Central Wharf 之间）。</strong><strong>最佳 06:53–08:00</strong>：船停在朝东南敞开的泊位上，日出的低光从东南东打在船身左舷与船尾，<strong>黑红船体的漆面与舷窗序列此时最有层次</strong>。<strong>次佳 16:30–17:30</strong>，光从西南来打右舷。<strong>35mm 拍全船加 Custom House 的关系（这是唯一能同时交代船与海关楼的构图）；85–135mm 抽船尾雕饰、舷窗与索具节点</strong>。<strong>关键预期管理：如果索具还没装完或船上还蒙着施工罩，就放弃「完整三桅剪影」这张，改拍船体的局部与工程本身</strong>——施工罩加脚手架其实是一个很好的纪实题材，而且这个状态几年后就不存在了。登船参观按季节安排（2025 年秋季为周三至周日 13:30–16:30，<strong>2026 年 10 月的登船时段未能从官方渠道确认</strong>），免费、不需预约、甲板有容量限制。"
+          },
+          {
+            "name": "Custom House 立面（Hawthorne 与《红字》的那一栋）",
+            "view": [
+              42.52166,
+              -70.88723
+            ],
+            "desc": "<strong>坐标为 OSM 的 Custom House 实体（164/174/178 Derby Street）。</strong>这是 1819 年的联邦式海关楼，屋顶上有一只金色木雕鹰；Nathaniel Hawthorne 1846–1849 年在这里当过测量员，<strong>《The Scarlet Letter》的开篇「The Custom-House」写的就是这栋楼</strong>。<strong>主立面朝南偏东面向 Derby Street 与海港，所以受光条件很好：最佳 08:00–10:30（方位 111°–140°、高度 11°–29°），砖体呈暖红、白色木饰与门廊柱有明确立体感</strong>；<strong>15:30–17:00 是第二档</strong>，光转到西南，反差更硬。<strong>24mm 竖幅拍完整立面加台阶（街道不宽，35mm 已经勉强）；135–200mm 单独抽屋顶那只金鹰配天空，是这里最容易被忽略的一张。</strong><strong>室内只在周三至周日 9:30–16:30 开，10/13 周二不开</strong>，但外立面在公共人行道上 24 小时可拍。注意 Derby Street 是主干道，有车流与公交，用 1/250 以上快门避免拍到动态模糊的路人。"
+          },
+          {
+            "name": "Derby Wharf Light 塔基特写",
+            "view": [
+              42.51658,
+              -70.88354
+            ],
+            "desc": "<strong>坐标为 OSM 的 Derby Wharf Light 灯塔实体。</strong><strong>走完 623 米栈桥才能到，单程 8–10 分钟，请把它排在日出机位之后</strong>（先在中段拍纵深，再走到尽端拍塔）。这是一座 1871 年的方形砖塔，约 23 英尺高，<strong>塔内不开放，只能拍外部</strong>。<strong>最佳 07:00–07:50</strong>：低光打在塔的东南面，砖体与白色顶部灯室的分离最好，背后是 Salem 港与远处 Marblehead 的地平线。<strong>24mm 贴近仰拍强调塔的锥形与天空（这是最有力的一张）；50mm 平视拍塔加栈桥尽端的护栏；70–200mm 回身朝西北压缩，把塔当前景、Salem 老城的屋顶与教堂尖顶做背景</strong>。<strong>尽端风最大、没有任何遮挡</strong>，三脚架要压重或降低重心；低潮时塔基外侧的花岩块会露出，可以做前景。"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约、不需票。</strong>Ranger 带队的免费导览需当日到 Salem Armory Visitor Center 现场领位，<strong>每团上限 8 人</strong>。登船参观免费、不需预约，甲板有容量限制。",
+          "ticket": "<strong>免费</strong>（NPS 官方原文：「All buildings and programs are free」，且无入园费）",
+          "hours": "NPS 官方 2026 年 9 月 21 日至 11 月 14 日季节表原文（nps.gov/sama/planyourvisit/basicinfo.htm，<strong>2026 年 8 月 19 日更新</strong>）：<strong>「Derby Wharf and Park Grounds Around Historic Structures — Open 24/7」</strong>；<strong>Salem Armory Regional Visitor Center 与 Waite &amp; Peirce Park Store 每日 9:30–16:30</strong>；<strong>Custom House 与 Public Stores &amp; Scale House 周三至周日 9:30–16:30</strong>（后者视天气）；<strong>Narbonne House 周三至周日 13:00–16:00</strong>；<strong>Derby House 在这个季节标注为「Closed for the season」</strong>；Central Wharf 洗手间每日 9:30–16:30。<strong>→ 10 月 13 日（周二）所有室内不开，栈桥与园区照常 24 小时可进。</strong>全年只在 Thanksgiving、Christmas Day、New Year's Day 闭馆。",
+          "parking": "<strong>十月不要开车来 Salem。</strong>园区没有大型自有停车场，周边路边车位在十月被居民临时许可与摊位大量占用。<strong>正确方案是 MBTA Newburyport/Rockport 线 Salem 站</strong>（工作日班次密，单程 $8，约 33–37 分钟）。若必须停车，Museum Place Garage 是最近的市营车库，<strong>十月周末与假日费率可能改为一次性平价，具体金额未能从官方渠道确认</strong>。",
+          "walk": "Salem 站到 Derby Wharf 根部约 <strong>1.2 公里 / 15 分钟</strong>（沿 Washington Street 南行再折向 Derby Street）。<strong>栈桥根部到尽端灯塔 623 米 / 单程 8–10 分钟</strong>，来回加拍摄请留 <strong>45–60 分钟</strong>。到 House of the Seven Gables 约 500 米 / 6 分钟，到 Witch Trials Memorial 约 700 米 / 9 分钟。"
+        },
+        "notes": [
+          "<strong>这是本区最重要的一条：园区 24 小时开放且免费，所以它是绕过 Salem 十月人潮的唯一正规途径。</strong>06:26 民用晨光到 08:00 之间，整道栈桥基本只有你和几个跑步的本地人",
+          "<strong>Friendship of Salem 已核实在泊位上（2025 年 7 月 15 日归泊），但索具安装工程是否完成、施工罩是否已撤，未能从官方渠道确认</strong>。出发前打 <strong>978-740-1650</strong> 问一句",
+          "<strong>10/13 是周二，Custom House、Public Stores 与 Narbonne House 都不开</strong>（周三至周日制）；<strong>Derby House 整个秋季闭馆</strong>。想拍室内就把这里排到 10/14 或 10/15",
+          "<strong>三脚架在这里没问题</strong>——户外国家公园园区、清晨无人。按 EXPLORE Act，8 人以内、公众开放区域的静态摄影不需许可；<strong>但该法免许可条款的措辞是「hand-carried equipment」，严格读会把落地三脚架排除在外，实务上清晨栈桥上没人会管</strong>",
+          "<strong>栈桥完全暴露在海风中、623 米内没有任何遮挡或座位</strong>（只有根部海滩上 6 把先到先得的 Adirondack 椅）。十月清晨海边体感明显低于内陆，带防风外套、手套与帽子",
+          "<strong>日出恰逢低潮</strong>（10/13 低潮 07:25、10/14 08:07、10/15 08:49，Boston 站）。滩石与海藻会露出来——当纹理用是好事，<strong>想要满潮的港口面貌只有 13:35／14:16／14:59 三个高潮时刻，而那正是人最多的时候</strong>",
+          "<strong>Derby Wharf Light 塔内不开放</strong>，只能拍外部；塔基花岩在潮湿时很滑，低机位拍摄注意脚下",
+          "<strong>本条目由 NPS 运营，联邦拨款中断时室内建筑会关，但 24/7 的园区与栈桥通常仍可通行</strong>；出发前刷一下 nps.gov/sama 的 Current Conditions 页"
+        ],
+        "images": [
+          {
+            "url": "img/derby-wharf-lighthouse-p1000617-aac24def.jpg",
+            "cap": "栈桥尽头的 Derby Wharf Light 方塔 · NewtonCourt / CC BY-SA 4.0"
+          },
+          {
+            "url": "img/friendship-of-salem-salem-maritime-national-historic-site-49-a0ad6a5f.jpg",
+            "cap": "满索具状态下的 Friendship of Salem 复原船 · Robert Linsdell / CC BY 2.0"
+          },
+          {
+            "url": "img/friendship-of-salem-without-masts-e6d27a29.jpg",
+            "cap": "桅杆被拆除、只剩船体停在 Derby Wharf 的 Friendship——这正是修船期间的样子，是本条目最要紧的风险画面 · Fletcher / CC BY 4.0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "boston-cambridge",
+    "name": "Boston 与 Cambridge",
+    "navName": "Boston",
+    "color": "#5ac8fa",
+    "lead": "本区有两条硬性的天文事实，先说清楚，其余安排全从它们推导：<strong>第一，Boston 在东部时区的最东端，日落极早</strong>——9 月 25 日日落 <strong>18:36</strong>，10 月 22 日日落 <strong>17:52</strong>，也就是说十月下旬<strong>下午六点整个城市已经进入蓝调</strong>，你的「黄金时段」其实是下午四点半到五点五十这段班还没下的时间。<strong>第二，Charles River 河道东西向，Boston 天际线在南岸、Cambridge 在北岸</strong>，所以从 Cambridge 拍 Boston 是「朝南拍」——而秋季太阳方位始终落在 <strong>88°–272°</strong> 之间，<strong>Back Bay 那排塔楼朝河的北立面在整个行程窗口里一秒直射光都拿不到</strong>。这不是技术问题，是几何问题，唯一的解法是把它当成日落与蓝调题材而不是「打光题材」；而真正的加分位在 <strong>Harvard Bridge 以西的 Cambridge 河岸</strong>——从那里朝东南望约 117°，落日方位 269°（9/25）到 256°（10/22）几乎就在你正后方，这是全河唯一能拿到正面暖光的机位。<br><br>第二层结论关于街网：<strong>Back Bay 是全美最规整的维多利亚网格，东西向街道实测走向 70°／250°</strong>（Newbury、Marlborough、Beacon、Commonwealth、Boylston 全在 69.5°–70.1° 之间，OSM 实际路径节点算出）。<strong>推论：每条街只有北侧那一排房子受光，南侧那一排整个秋季是永久阴面</strong>；而 <strong>10 月下旬落日方位 254°–256°，与街轴 250° 只差 4–6 度</strong>，也就是说站在 Commonwealth Avenue Mall 上朝西南望，<strong>太阳几乎是顺着街道轴线落进画面的</strong>。Beacon Hill 的街网则整体偏转到 <strong>73.7°／253.7°</strong>（Acorn Street 与 Chestnut Street 实测），角度接近但不相同——这个 4 度的差别决定了 Acorn Street 与 Newbury Street 的最佳时段不一样。<br><br><strong>九个点里七个完全免费</strong>，最贵的一张票是 Fenway Park 的 $30 球场导览，Boston Public Library、Harvard Art Museums、Massachusetts State House、Harvard Yard、MIT 全部免票。需要花钱的只有 Trinity Church（$10）与 Fenway 导览（$30）。本区真正的风险不在钱也不在光，在<strong>三件已经核实的日期</strong>：<strong>天鹅船 9 月 7 日已收季（你来不及）</strong>、<strong>Head of the Charles Regatta 10 月 16–18 日封河封路</strong>、<strong>Boston 的红叶峰期落在 10 月下旬到 11 月初，比内陆 New England 晚两到三周</strong>。",
+    "callouts": [
+      {
+        "type": "warn",
+        "title": "两个季节性硬期限：天鹅船 9 月 7 日已收季，红叶要等到十月底",
+        "html": "<h4 style=\"margin:0 0 6px\">一、天鹅船本次拍不到</h4><p>这是本区最需要提前认清的一条。官方站 <strong>swanboats.com/plan-your-visit</strong> 的原文是：<strong>「First day of season: Saturday April 18, 2026」「Last day of season: September 7, 2026」</strong>，并列出全季时刻表：<strong>4 月 18 日–6 月 20 日每日 10:00–16:00，6 月 21 日–9 月 7 日每日 10:00–17:00</strong>。<strong>9 月 7 日是 Labor Day，之后全部上岸。</strong>Boston 市政府官网（boston.gov）在一篇由 Office of Historic Preservation 撰写的文章里也确认：<strong>「The Swan Boats close for the season on Labor Day, September 7, and re-open for the 150th time in April 2027.」</strong></p><p><strong>结论：9 月末到 10 月末的任何日期都拍不到水面上的天鹅船。</strong>Public Garden 的湖面在这段时间是空的——没有船、没有船坞的排队人群。好消息是<strong>这反而让 Lagoon Bridge 与秋色倒影变干净</strong>：没有船就没有尾迹，水面是镜面，桥的倒影完整。把「天鹅船」这个执念换成「空湖面加红叶倒影」，出片率其实更高。</p><p>票价供参考（明年用）：成人 $4.75、2–15 岁 $3.25、65 岁以上 $4.25、2 岁以下免费，现场买票、不接受预约、单程约 12–15 分钟。<strong>官方另注明 Public Garden 内禁止喂鸟。</strong></p><h4 style=\"margin:14px 0 6px\">二、Boston 红叶：10 月 22 日–11 月 5 日，比内陆晚两到三周</h4><p><strong>这条直接决定 Public Garden、Boston Common、Harvard Yard、Commonwealth Avenue Mall 四个点的价值，也决定你要不要把 Boston 排在行程的最后而不是最前。核心几天大概率在 10 月 25 日–11 月 1 日。</strong>依据：</p><ul><li><strong>Boston Globe（2026 年 9 月 4 日）</strong>：「By mid- to late October, the colorful canopy reaches Boston and much of Massachusetts. The more southern parts of New England and coastal areas are usually the last to peak, with some locations holding onto color into early November.」并指出<strong>南部 New England 以橡树（oak）为主，色调是深酒红与铁锈红，不是北方那种亮橙黄</strong>。</li><li><strong>AccuWeather 2026 秋季预报</strong>：New England 是全美今年最有希望的区域，春末与初夏雨量充沛、树体健康；东北整体峰期在 10 月上中旬，<strong>「reaching southern New England by mid to late October」</strong>。风险项是<strong>九月的热带风暴可能缩短峰期窗口</strong>。</li><li><strong>Explore Fall（Evan Fisher）的 2026 分区日历</strong>把 Boston 排得更晚：<strong>「Early Nov – Spotlight on Boston. The best of fall finally reaches Boston with peak colors arriving in the early part of November」</strong>，并明确说自己<strong>对 Coastal New England 的信心低于 Vermont 与 New Hampshire</strong>。</li></ul><p><strong>与内陆／北方的对照（一趟连着走的话这张表比什么都有用）：</strong></p><ul><li><strong>北 Vermont、北 New Hampshire、高海拔</strong>：9 月末–10 月 10 日</li><li><strong>中 Vermont、White Mountains、Mohawk Trail</strong>：10 月 5–15 日</li><li><strong>南 Vermont、the Berkshires、中部 Massachusetts</strong>：10 月 12–22 日</li><li><strong>Greater Boston、North Shore</strong>：10 月 18 日–11 月 1 日</li><li><strong>Cape Ann 与最外侧海岸</strong>：10 月 22 日–11 月 5 日</li></ul><p><strong>诚实结论：如果你在 9 月末到 10 月中来 Boston，城里基本还是绿的</strong>——Public Garden 与 Harvard Yard 会是「夏末」而不是「秋天」，这时候红叶要往西北方向的 Berkshires 或 Vermont 找。<strong>只有把 Boston 压到 10 月 22 日以后，你才能在 Public Garden 拍到真正的秋色</strong>，而即使那样也只是「接近峰期」而非峰期本身。<strong>一个反直觉的补充：海岸偏晚是因为海水调节夜温</strong>，所以 Boston 城里比同纬度内陆 20 公里的地方还要再晚 3–5 天，市区热岛效应又叠加一层延迟。</p><p><strong>另一个 2026 年的具体风险</strong>：Cape Cod 与部分 Maine 仍处于「moderate to severe」干旱，沿海已经出现「false fall」——受旱树木提前变色并提前落叶，New England Forestry Foundation 的 Milakovsky 的说法是这些地方「more subdued colors and a shorter foliage season」。<strong>Boston 市区目前不在重旱区，但沿海整体偏干意味着色彩饱和度可能不如宣传照。</strong></p>"
+      },
+      {
+        "type": "warn",
+        "title": "Head of the Charles Regatta：10 月 16–18 日，Charles River 全部机位作废",
+        "html": "<p><strong>2026 年赛期已核实为 10 月 16 日（周五）至 10 月 18 日（周日）</strong>，来源为官方报名平台 <strong>RegattaCentral</strong>（「Oct 16, 2026 To Oct 18, 2026 · Charles River · Cambridge, MA」）与 Boston 官方旅游局 <strong>meetboston.com</strong>（「In Boston October 16 - 18, 2026」）。<strong>近 12,000 名选手参赛，主办方口径的观众规模是 30 万人级别，是全世界最大的三日划船赛事。</strong></p><p><strong>对拍摄的实际影响（按主办方公布的交通管制）：</strong></p><ul><li><strong>Memorial Drive 在 Western Ave 与 JFK Street 之间，周六周日 07:00–19:00 全线断交通</strong>；Soldiers Field Road 的一段在周六周日 08:00 起封闭。</li><li>河两岸的步道、Eliot Bridge、Weeks Footbridge、Anderson Bridge 全部挤满观众，<strong>「空景加倒影」的天际线机位在这三天完全不成立</strong>。</li><li>Harvard Square、Central Square 一带人流与停车全面失控；Harvard Stadium Gate 14 的临时停车场 <strong>$40／天</strong>，约 500 车位，周五 12:00–17:00、周六周日 06:00–17:00。</li><li>Alewife 车库 <strong>周一至周五 $9／天、周六周日 $3／天</strong>，是主办方推荐的换乘点（Red Line 到 Harvard）。</li></ul><p><strong>两种用法，自己选：</strong>① <strong>躲</strong>——把 Charles River、Harvard、MIT 三个点全部排在 10 月 16 日之前或 10 月 19 日之后；② <strong>拍</strong>——这三天本身是极好的体育与人文题材（免费入场），但你要放弃「安静的建筑照片」，改用 <strong>200–400mm 拍艇与桨手、35mm 拍岸边人群</strong>。<strong>两件事同一天做不到。</strong></p><p><strong>一处来源冲突：</strong>Boston Discovery Guide 把 2026 年赛期写成 10 月 17、18、19 日，HOCR 官网的 competitors 页面里也混着「Thursday, October 16th」「Friday, October 17th」这类与 2026 年星期不符的表述（2026 年 10 月 16 日是<strong>周五</strong>）。<strong>推测是沿用 2025 年（10 月 17–19 日）的旧文案未同步。</strong>同一页面又写「all equipment to be removed from the site by end of racing on <strong>Sunday 10/18</strong>」，与「周日 = 10 月 18 日」自洽，因此<strong>以 10 月 16–18 日为准</strong>；出发前请再刷一次 hocr.org。</p>"
+      },
+      {
+        "type": "tip",
+        "title": "日出日落、太阳方位，与「Boston 日落很早」这件事",
+        "html": "<p>Boston（42.360°N, 71.059°W），以下全部为 <strong>EDT</strong>——<strong>2026 年美国夏令时到 11 月 1 日才结束，整个行程窗口都是 EDT</strong>。数值由 Boston 实际经纬度算出：</p><ul><li><strong>9 月 25 日</strong>：日出 <strong>06:33</strong>（方位 <strong>90°</strong>），日落 <strong>18:36</strong>（方位 <strong>269°</strong>），正午 12:35 高度 <strong>46.6°</strong>，民用晨昏 06:06–19:04。</li><li><strong>10 月 10 日</strong>：日出 <strong>06:50</strong>（方位 <strong>98°</strong>），日落 <strong>18:11</strong>（方位 <strong>262°</strong>），正午 12:31 高度 <strong>40.8°</strong>。</li><li><strong>10 月 22 日</strong>：日出 <strong>07:04</strong>（方位 <strong>104°</strong>），日落 <strong>17:52</strong>（方位 <strong>256°</strong>），正午 12:28 高度 <strong>36.4°</strong>，民用晨昏 06:36–18:19。</li></ul><p><strong>请务必先接受这个事实：Boston 在东部时区的最东端，日落比 New York 早约 15 分钟、比 Chicago 的同纬度城市早得多。</strong>10 月 22 日<strong>日落 17:52、民用晨昏 18:19 就结束</strong>——也就是说<strong>下午五点就要站在机位上，六点半以后天已经全黑</strong>。这对行程排布的影响非常大：<strong>室内目标（BPL、Trinity、Harvard Art Museums）全部安排在上午与午后，把 16:30 之后的每一分钟都留给室外</strong>。同时也有好处——<strong>你不需要熬到晚上八点才能拍蓝调</strong>，晚饭前就收工了。</p><p><strong>黄金时段</strong>（按日落前 45 分钟算）：9/25 <strong>17:51–18:36</strong>，10/22 <strong>17:07–17:52</strong>。<strong>蓝调</strong>（城市灯光与天空亮度平衡的窗口，约日落后 10–35 分钟）：9/25 <strong>18:46–19:11</strong>，10/22 <strong>18:02–18:27</strong>。<strong>清晨的对应窗口</strong>：9/25 06:06–06:33，10/22 06:36–07:04。</p><p><strong>三条已经算好的街道／桥梁对齐（本区最实用的几何）：</strong></p><ul><li><strong>Longfellow Bridge 桥轴 96°／276°</strong>。<strong>日出方位在 10 月 6 日恰好扫过 96.1°</strong>——那几天太阳从桥的正东端升起，站 Cambridge 一侧朝东拍是「桥轴日出」。反过来，<strong>9 月 20–25 日日落方位 272°→269°，距桥轴 276° 只差 4–7 度</strong>，此时站 Cambridge 端朝东望，落日几乎正在你背后，桥塔与远处 downtown 全部正面受光。</li><li><strong>Back Bay 街轴 70°／250°</strong>。10 月 25 日日落方位 <strong>254.1°</strong>，与街轴只差 4 度；<strong>越接近 10 月底越准</strong>（10 月 31 日为 251.4°）。朝西南望 Commonwealth Avenue Mall，落日顺着轴线落进画面。</li><li><strong>Acorn Street 街轴 73.7°／253.7°</strong>。<strong>10 月 26 日日落方位恰为 253.7°，17:46 与巷道轴线完全重合</strong>。但请注意<strong>此时太阳高度为 0°，West Cedar Street 对面的联排房几乎肯定会挡住这道光</strong>（遮挡关系无法远程核实）——当彩票，不当计划。</li></ul><p><strong>一条对整个 Charles River 都成立的负面结论</strong>：秋季太阳方位始终在 88°–272° 之间，<strong>任何朝正北的立面（法向 0°）全天零直射光</strong>。Back Bay 天际线朝河那一面正是北面，所以「从 Cambridge 拍到被阳光正面照亮的 Boston 天际线」<strong>在这个季节做不到</strong>。要么改成日落／蓝调／夜景，要么换到 Harvard Bridge 以西那个朝东南的斜角机位。</p>"
+      },
+      {
+        "type": "info",
+        "title": "逐馆核实：拍摄政策、三脚架，以及四处施工现状",
+        "html": "<h4 style=\"margin:0 0 6px\">一、拍摄与三脚架政策</h4><p><strong>Boston Public Library（本区最重要的一条，官方原文逐字）</strong>：bpl.org 的 Photography &amp; Filming Policy 与 Central Library Photography Guidelines 写明——「Patrons may take photographs and/or videos in the public areas of the Library to record their own visit or capture a building's architecture.」接着是四条硬性禁止：<strong>「No photographs on stairs, blocking walkways, or interfering with other patrons」「No climbing on library surfaces」「No moving furniture/fixtures」「No selfie sticks, tripods, or additional equipment」「No balloons or props」</strong>。另有一条：<strong>「Refrain from the use of flash equipment in reading rooms」</strong>，以及<strong>禁止拍摄公众、值班馆员与公共活动（除事先获许）</strong>。→ <strong>结论：Bates Hall 手持自由拍，三脚架与自拍杆明确禁止，而且「不许在楼梯上拍照」</strong>——那道有石狮子的大楼梯是全馆最好的题材之一，<strong>你可以拍它，但不能站在台阶上拍</strong>，请从楼梯口的平台拍。正式／商业拍摄必须走 Special Events Office（events@bpl.org / 617.859.2212），<strong>官方明说「we cannot allow formal photography shoots during library hours」</strong>，只能安排在开馆前的工作日早晨（约 08:00–09:00），<strong>二手来源称许可费 $750 起</strong>（未在 bpl.org 上找到公布价格）。</p><p><strong>Trinity Church</strong>：<strong>trinitychurchboston.org 上没有找到任何成文的摄影政策，这一项未能从官方渠道确认。</strong>官方 Visit 页只写了通用要求：<strong>「we request that men please remove hats, and that food and drink are not consumed in the church」</strong>，并提醒不要把随身物品放着无人看管。多个二手来源一致的口径是<strong>「室内允许手持拍摄、礼拜与特殊活动期间禁闪光灯」</strong>，<strong>三脚架按活跃堂区的通例视为不可用</strong>。实务建议：<strong>手持、关闪光、$10 门票进场后先问一句 Welcome Desk</strong>，这是花三十秒能消除的不确定性。注意<strong>周二 12:00–12:45 因 Holy Eucharist 暂停入场与导览</strong>。</p><p><strong>Harvard</strong>：官方 Visitor Guidelines（harvard.edu 的 PDF）里有一条容易踩雷——<strong>「no video recording」</strong>，以及<strong>「AT THIS TIME, ONLY REGISTERED TOUR PROVIDERS MAY CONDUCT TOURS IN HARVARD YARD」</strong>。静态摄影没有禁止条款，Yard 内手持拍摄没有问题；但<strong>不要拍摄宿舍与教室里的学生</strong>（官方原文「respect the privacy of students in dorms and classrooms」），<strong>不得进入任何行政、教学或住宿建筑</strong>。<strong>Harvard Art Museums 免票，馆内政策请以现场标示为准（未逐条核实）。</strong></p><p><strong>MIT</strong>：Killian Court、Great Dome 外景、Stata Center 外景全部是开放校园，<strong>无门票、无时段限制、手持与三脚架实务上都没人管</strong>（未见成文禁令）。<strong>但 MIT Chapel 室内只有周一至周五 10:00–11:00 与 13:30–14:30 两个各一小时的公众时段</strong>，详见该条目。</p><p><strong>Massachusetts State House</strong>：室内需过安检，<strong>免费</strong>，仅工作日；金顶外景在 Beacon Street 人行道上 24 小时可拍。<strong>Fenway Park</strong>：球场导览需买票，官方列出禁带物品清单并有安检，<strong>三脚架属于会被拦下的类别（按同类球场通例，未逐字核实）</strong>。</p><h4 style=\"margin:14px 0 6px\">二、施工与脚手架：四处全部核实，结论意外地好</h4><p><strong>① Massachusetts State House 金顶——本窗口内干净，但只差一周。</strong>这是本次最值得记住的一个日期。DCAMM（Massachusetts Division of Capital Asset Management and Maintenance）的 <strong>BSB2403「State House Dome Rehabilitation &amp; Repair」</strong>已进入招标：标的为 Bulfinch 楼<strong>檐口以上</strong>的屋面、墙体、栏杆与窗户修复，合同额 <strong>$11,098,305</strong>，<strong>投标截止 2026 年 9 月 3 日，开工日期 2026 年 11 月 3 日</strong>。配套的分包标（CommBuys 平台）明确包含<strong>「design, supply, and install perimeter scaffolding and swing stages」——即穹顶周圈脚手架</strong>。→ <strong>也就是说 9 月末到 10 月末的整个窗口，金顶都还是无脚手架状态，11 月 3 日之后就不好说了。</strong>如果你的行程在这个窗口里，<strong>请把金顶当成一个有时限的目标，别推到下次</strong>。施工期间「State House shall be fully occupied and operational」，所以室内参观应该照常。</p><p><strong>② Trinity Church 与 Copley Square——围挡已经拆了。</strong>搜索缓存里还留着 Trinity 官网 tours 页的旧文案「enter the main doors on the West Porch (facing Copley Square and <strong>currently behind the construction fence</strong>)」，但<strong>直接抓取当前页面，同一句已经改成「enter the main doors on the West Porch (facing Copley Square)」，「construction fence」被删掉了</strong>。原因也找到了：<strong>Boston 市政府的 Copley Square Park 改造工程已于 2026 年 5 月完工并举行剪彩</strong>（Mayor Michelle Wu 出席），内容包括全面无障碍步道、重建人行道、扩大树冠、透水铺装、<strong>最后一期是 Trinity Church 一侧的扩大草坪与广场标志性喷泉的修复</strong>。→ <strong>结论：Copley Square 现在是刚修完的状态，围挡撤除、喷泉恢复运行、Trinity 一侧新增草坪。</strong>这对 Copley 的构图是净利好（视线更通、前景更干净）。Trinity 建筑本身的上一轮外立面大修（West Porch 与西北塔）是 2016 年那一期，<strong>2026 年未见任何新的外墙工程报道。</strong></p><p><strong>③ Boston Public Library——没有施工，但四成建筑本来就不开放。</strong>这是两件不同的事，别混。<strong>目前没有任何在建工程</strong>：BPL 在 2025 年 6 月宣布启动一个由匿名捐赠者 <strong>$550 万</strong>资助的<strong>五年期规划流程</strong>，目标是把 McKim 楼的改造推到「design-ready」阶段——<strong>这是规划，不是施工，本次行程完全不受影响</strong>。但要知道现状：<strong>McKim 楼约 40% 的面积（基本就是整个三楼）已经对公众关闭十年以上</strong>，油漆剥落、灰泥碎裂、漏水导致暖气被关掉、大部分三楼房间没有温湿度控制。<strong>好消息是三楼唯一还开放的正是 Sargent Gallery</strong>（Sargent 的《Triumph of Religion》壁画在那里），West Gallery、Wiggin Gallery、Cushman Room 等则锁着。未来方案里还包括<strong>给中庭加透明顶棚</strong>——现在还是露天的，想拍露天中庭就趁现在。</p><p><strong>④ Longfellow Bridge——2018 年就完工了，无施工。</strong>那场耗资约 <strong>$3 亿</strong>、从 2013 年拖到 2018 年的大修（因为联邦历史保护法规要求每一个可见构件都用原技术原材料复原，包括<strong>让已经在 1950 年代绝迹的热铆工艺重新上岗、逐颗复原上万颗铆钉</strong>）已于 <strong>2018 年 5 月底</strong>全面开放。<strong>2026 年未见任何新的封闭或施工报道，桥面车道、人行道、自行车道与 Red Line 轨道均正常。</strong></p>"
+      },
+      {
+        "type": "good",
+        "title": "Harvard Yard 目前对公众开放（2025 年 6 月解禁），但有前提",
+        "html": "<p><strong>结论先说：可以进，免费，不需要证件，不需要预约。</strong>这一项在 2024 年确实是个真问题——<strong>2024 年春季因 Yard 内的抗议营地，Harvard 把所有大门锁了，进入需要出示 Harvard ID</strong>。Cambridge Day（<strong>2026 年 5 月 19 日</strong>）的一篇长文把时间线交代得很清楚：「in 2024, Harvard locked the gates in response to the pro-Palestinian encampment in the Yard. You had to show an ID to get in.」，而后 <strong>「Harvard reopened the Yard to the public in June 2025」</strong>，并注明<strong>「As of this writing, only 11 are open during daylight hours; four have remained closed since the 2024 encampment.」</strong></p><p><strong>11 道开放的门与各自时段（accessibility.harvard.edu 的官方清单）：</strong></p><ul><li><strong>24 小时开放</strong>：<strong>Widener、Thayer、Wadsworth、Meyer、Sever、Solomon/Lamont</strong>；<strong>Johnston Gate 行人 24 小时</strong>（车辆仅周一至周五 08:00–16:00）。</li><li><strong>06:00–19:00</strong>：Boylston、Holworthy、Straus、Loeb（Loeb 有活动时延后关闭）。</li></ul><p><strong>对拍摄的直接推论：想拍日出或蓝调，走 Widener Gate（Massachusetts Avenue 上，24 小时且全天有人值守）或 Johnston Gate。</strong>10 月 22 日日出 07:04、日落 17:52，06:00–19:00 那批门的时段其实已经覆盖了黄金时段，但<strong>把 24 小时的那几道门记住可以省掉绕大半个 Yard 的时间</strong>。Memorial Church 官方页面另有一条实用信息：<strong>「The Widener Library (Morgan) Gate (along Massachusetts Avenue) should be used for Sunday mornings and non-business hours, as it is staffed 24 hours.」</strong></p><p><strong>三个仍然存在的限制，别当成「完全自由」：</strong></p><ul><li><strong>Yard 会因校内活动临时整体关闭。</strong>官方口径是「Gate openings are subject to change」；一家注册导览商（Trademark Tours）在 2026 年 9 月就挂出<strong>「Harvard Yard is closed on September 1st, 3rd, and 4th. Tours will run with an adapted route.」</strong>——<strong>这种临时封闭没有固定规律，出发当天请刷 harvard.edu/visit 与 accessibility.harvard.edu。</strong></li><li><strong>建筑内部不开放。</strong>Widener Library 只对持 Harvard ID 者（及其带的客人）开放，访问学者可另行申请；<strong>对游客而言 Widener 是纯外景目标</strong>。Massachusetts Hall、University Hall 是办公与教学楼，不进。</li><li><strong>只有注册导览商可以在 Yard 内带团</strong>，且官方 Visitor Guidelines 写着<strong>「no video recording」</strong>。静态摄影不受限。</li></ul><p><strong>免费的官方导览仍在运营</strong>：Harvard University Visitor Center（<strong>周一至周五 09:00–17:00</strong>）提供学生带领的 <strong>Historical Tour of Harvard</strong>，<strong>免费、需线上登记、每团限 10 人</strong>。另有免费的 <strong>Visit Harvard</strong> 手机 app 自助导览，以及 Visitor Center 营业时间内 <strong>$3</strong> 的纸质自助地图。第三方 Trademark Tours 的公开团约 <strong>成人 $22、4–17 岁 $20</strong>。</p>"
+      }
+    ],
+    "spots": [
+      {
+        "id": "harvard-yard",
+        "n": 1,
+        "name": "哈佛大学 · 哈佛庭院",
+        "en": "Harvard University · Harvard Yard",
+        "score": 4,
+        "tldr": "Yard 已于 2025 年 6 月重新对公众开放，免费无证件，6 道门 24 小时；Art Museums 免票但周一闭馆。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "6 道门 24 小时",
+            "c": "free"
+          },
+          {
+            "t": "可能临时封闭",
+            "c": "risk"
+          },
+          {
+            "t": "建筑内部不开放",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>访问权限的结论先说：可以进，免费，不需要证件，不需要预约。</strong>这在 2024 年确实是个真问题——<strong>那年春季因 Yard 内的抗议营地，Harvard 锁了所有大门，进入需出示 Harvard ID</strong>。Cambridge Day（2026 年 5 月 19 日）把时间线交代得很清楚：<strong>「Harvard reopened the Yard to the public in June 2025」</strong>，并注明<strong>「only 11 are open during daylight hours; four have remained closed since the 2024 encampment」</strong>。<strong>其中 6 道是真正 24 小时开放的：Widener、Thayer、Wadsworth、Meyer、Sever、Solomon/Lamont</strong>，<strong>Johnston Gate 行人 24 小时</strong>（车辆仅工作日 08:00–16:00）；Boylston、Holworthy、Straus、Loeb 为 06:00–19:00。→ <strong>想拍日出或蓝调，走 Massachusetts Avenue 上的 Widener（Morgan）Gate，官方注明它「staffed 24 hours」。</strong>",
+          "<strong>Widener Library 的建造动机是一场海难。</strong>OSM <strong>42.37346／-71.11649</strong>。<strong>Harry Elkins Widener（Harvard 1907 届）在 1912 年 Titanic 沉没中丧生</strong>，他的母亲 Eleanor Elkins Widener 捐建这座图书馆纪念他，1915 年落成。它是全球最大的大学图书馆系统的核心，那道朝南的巨型阶梯与柯林斯柱廊是 Yard 内最强的单一立面。<strong>但对游客来说它是纯外景目标</strong>：Harvard Library 明确规定<strong>Widener 只对持 Harvard ID 者（及其带的客人）开放</strong>，访问学者可另行申请。<strong>不要浪费时间试图进去。</strong>",
+          "<strong>「三个谎言的雕像」——这才是 John Harvard 像值得拍的理由。</strong>OSM <strong>42.37446／-71.11720</strong>，Daniel Chester French（林肯纪念堂那尊林肯像的作者）1884 年作，在 University Hall 前。基座刻着「John Harvard, Founder, 1638」，<strong>而这三项信息全是错的</strong>：<strong>① 脸不是 John Harvard</strong>——1764 年的大火烧掉了所有他的肖像，French 只能找一名在校学生当模特；<strong>② 他不是创办人</strong>，他是 1638 年去世时捐出藏书与一半遗产的<strong>捐赠人</strong>，学校 1636 年就由 Massachusetts Bay Colony 立法成立；<strong>③ 年份应是 1636 而非 1638</strong>。<strong>实拍现实：游客排队摸那只左脚（据说带来好运），所以左脚被摸得金亮，与其余深色铜锈形成强烈反差——那只脚本身就是最好的特写题材。</strong>",
+          "<strong>Tercentenary Theatre 是 Yard 内唯一的大空间，也是全区最好的建筑对话。</strong>这块草坪被四栋建筑围合：<strong>北面 Memorial Church（OSM 42.37492／-71.11603，1932 年，纪念一战阵亡校友，白色塔尖是 Yard 的垂直制高点）</strong>；<strong>南面 Widener Library 的巨型阶梯</strong>；东面是 H. H. Richardson 1880 年的 <strong>Sever Hall</strong>（<strong>与 Trinity Church 同一位建筑师</strong>，砖砌的 Richardsonian Romanesque，<strong>门廊有个著名的声学怪癖：两人站在拱门两侧低声说话可以互相听见</strong>）；西面是 Emerson Hall。<strong>Memorial Church 的白塔与 Widener 的灰石柱廊隔草坪正面相对，这是 Yard 内唯一能一次拍到两个量级建筑的位置。</strong><br><br><strong>Massachusetts Hall 是 Yard 里最老的建筑（1720 年），而它现在是校长办公室。</strong>在 Johnston Gate 内侧右手。<strong>它在美国革命期间被用作大陆军营房</strong>（<strong>容纳人数各来源不一，未能从校方渠道逐字核实</strong>）。现在一楼是校长与副校长办公室，<strong>不对外开放</strong>。<strong>拍摄价值在于「最老的砖」</strong>：三层红砖、极简、几乎无装饰，与旁边 19 世纪那些繁复立面对比强烈，是 35mm 正面平拍的好目标。",
+          "<strong>Harvard Art Museums 已永久免票，这是本条目最大的实惠。</strong>OSM <strong>42.37410／-71.11411</strong>（32 Quincy Street）。<strong>官方原文「Admission is free to all visitors every day」</strong>，免票由 <strong>David Rockefeller 遗产</strong>捐赠与校长办公室支持实现（2023 年 7 月起的永久政策）。三馆合一（Fogg、Busch-Reisinger、Arthur M. Sackler），<strong>建筑本身是 Renzo Piano 2014 年的改造，中央玻璃屋顶下的多层庭院是绝佳的建筑摄影题材</strong>。<strong>另一个便宜的加分项：Adolphus Busch Hall（29 Kirkland Street）也免费，但只在周三 13:00–17:00 与周六 10:00–14:00 开放。</strong>"
+        ],
+        "photo": "建筑 <strong>4.5/5</strong>，风光 <strong>3.5/5</strong>（10/22 后升到 4.5），人文纪实 <strong>4/5</strong>，室内 <strong>4/5</strong>（Art Museums）。免费、大部分门 24 小时、砖石与秋叶的色调关系是 New England 的教科书；扣分在所有建筑内部都进不去，以及 Yard 有临时封闭的可能。",
+        "shots": [
+          {
+            "name": "Tercentenary Theatre（Widener 阶梯与 Memorial Church 对望）",
+            "view": [
+              42.37409,
+              -71.11672
+            ],
+            "desc": "<strong>坐标为 OSM Harvard Yard 节点；Tercentenary Theatre 是 Widener 与 Memorial Church 之间的草坪，无独立 OSM 实体。</strong><strong>这是 Yard 内最强的一张，而方向决定时段：</strong><strong>① 站 Widener 阶梯上朝北拍 Memorial Church</strong>——教堂南立面与白塔正对你，<strong>秋季全天受光，最佳 11:00–14:30</strong>（9/25 正午高度 46.6°、10/22 为 36.4°；<strong>十月更好：太阳低，白色塔尖的层叠不会顶光过曝，砖体更暖</strong>）。<strong>塔尖需要 24mm 竖幅才收得全</strong>；<strong>85–135mm 单抽塔的钟层与风向标。</strong><strong>② 站 Memorial Church 台阶上朝南拍 Widener</strong>——Widener 的北立面朝你，<strong>而朝北的立面在秋季零直射光，全天是阴面</strong>。所以这个方向<strong>要么等阴天</strong>（均匀漫射，灰石柱廊的层次反而最好），<strong>要么改拍蓝调</strong>（9/25 约 18:46–19:11、10/22 约 18:02–18:27，建筑照明亮起、天空还有色，<strong>Widener 的柱廊会变成一排暖色光柱</strong>）。<strong>③ 秋色：这块草坪四周是 Yard 内树最密的一片。</strong><strong>10 月 22 日之后来，35mm 把树冠当上框、塔尖从枝叶间穿出，是本条目的封面照。</strong><strong>手持即可；Yard 内三脚架未见成文禁令，但请不要挡通行。官方 Visitor Guidelines 明确「no video recording」，静态摄影不受限。</strong>"
+          },
+          {
+            "name": "John Harvard 像与 Massachusetts Hall",
+            "view": [
+              42.37446,
+              -71.1172
+            ],
+            "desc": "坐标为 OSM John Harvard Statue 节点，在 University Hall 前。<strong>最重要的实拍事实：这里几乎永远在排队，10:00–16:00 有旅游团轮番占位。</strong><strong>想拍到没有人的雕像只有一个窗口：日出后到 08:30</strong>（9/25 日出 06:33、10/22 日出 07:04；走 24 小时的 Widener Gate 进）。<strong>光线：雕像面朝东南，所以清晨 07:30–09:30 正面受光</strong>（9/25 的 09:00 太阳方位 116.8°、高度 25.1°），<strong>低角度暖光会把 French 那些衣褶与面部结构完全打出来</strong>；<strong>正午顶光最差</strong>——脸变平、眼窝成两个黑洞。<strong>三张构图：</strong><strong>85mm 正面半身</strong>（把背后 University Hall 的灰花岗岩虚化成中性背景）；<strong>100mm 微距单拍那只被摸得金亮的左脚</strong>——<strong>这是本机位最好的一张，因为它拍的是一个持续百年的集体行为留下的物理痕迹，而不是又一张雕像照</strong>；<strong>35mm 拍排队摸脚的人群</strong>（Yard 内最好的纪实题材，<strong>但不要拍摄可辨识的学生</strong>）。<strong>顺路：Massachusetts Hall（1720 年，Yard 内最老）在 Johnston Gate 内侧右手，35mm 正面平拍三层红砖立面，最佳 11:00–14:00。</strong>"
+          },
+          {
+            "name": "Harvard Art Museums 中央玻璃庭院",
+            "view": [
+              42.3741,
+              -71.11411
+            ],
+            "desc": "坐标为 OSM Harvard Art Museums 节点（32 Quincy Street）。<strong>免票，但周一闭馆——这是本条目唯一的硬性时段限制。</strong><strong>Renzo Piano 2014 年改造的中央庭院（Calderwood Courtyard）上方是玻璃屋顶</strong>，四周是层层挑出的回廊，<strong>建筑本身比大部分藏品更适合拍。</strong><strong>最佳 11:00–14:00</strong>：<strong>玻璃屋顶是唯一光源，所以太阳越高、庭院光越均匀、越能照到底层</strong>（9/25 正午高度 46.6°、10/22 为 36.4°——<strong>这个机位九月优于十月，与 Yard 外景正好相反</strong>）。<strong>阴天同样成立</strong>：漫射光下四层回廊的白色栏板会变成一组干净的几何。<strong>24mm 站庭院正中垂直上仰拍玻璃屋顶与四层回廊的收缩</strong>是这里最强的一张；<strong>35mm 从一层拍对角的回廊层叠</strong>；<strong>85mm 从上层俯拍庭院地面与人</strong>。<strong>参数：ISO 800–3200、f/2.8–4、1/60–1/125</strong>——天光比想象中弱。<strong>馆内具体摄影政策未逐条核实，请以现场标示为准</strong>；现代美术馆通例是禁三脚架、禁闪光、部分借展作品禁拍。<strong>加分时段：每月最后一个周四延长到 21:00（Harvard Art Museums At Night，免费）——10 月 29 日就是本窗口内的那一场</strong>，玻璃庭院在夜间纯人工光下是完全不同的一张照片。"
+          }
+        ],
+        "access": {
+          "book": "<strong>Harvard Yard 与 Harvard Art Museums 都不需预约、不需票。</strong>Art Museums 官方建议<strong>周末提前线上登记以缩短入场排队</strong>，但 walk-in 一直欢迎；<strong>到馆后请先到 Visitor Services 台报到</strong>。<strong>免费的 Historical Tour of Harvard</strong>由学生带领、走 Harvard Yard，<strong>需线上登记、每团限 10 人</strong>，经 Harvard University Visitor Center（<strong>周一至周五 09:00–17:00</strong>）安排；也有免费的 <strong>Visit Harvard</strong> 手机 app 自助导览。第三方 Trademark Tours 的公开团约 <strong>成人 $22、4–17 岁 $20，3 岁以下免费</strong>。",
+          "ticket": "<strong>Harvard Yard 免费。</strong><strong>Harvard Art Museums 官方原文：「Admission is free to all visitors every day」。</strong><strong>Adolphus Busch Hall 也免费、不需票。</strong>Visitor Center 的纸质自助地图 <strong>$3</strong>。<strong>Widener Library 内部不对游客开放，任何票都进不去。</strong>",
+          "hours": "<strong>Harvard Yard：6 道门 24 小时（Widener、Thayer、Wadsworth、Meyer、Sever、Solomon/Lamont），Johnston Gate 行人 24 小时，另 4 道（Boylston、Holworthy、Straus、Loeb）06:00–19:00。</strong>官方警告<strong>「Gate openings are subject to change」，且 Yard 会因校内活动临时整体关闭</strong>（例：一家注册导览商在 2026 年 9 月挂出「Harvard Yard is closed on September 1st, 3rd, and 4th」）。<strong>Harvard Art Museums 官方原文：「Open Tuesday-Sunday 10am-5pm」「closed on Mondays and major holidays」</strong>，<strong>每月最后一个周四延长至 21:00</strong>（Harvard Art Museums At Night，免费）。<strong>你的窗口内两条已公布的例外：10 月 12 日（周一）本来就闭馆；10 月 23 日（周五）官方列为「Closing at 4pm」，提前一小时关门。10 月 29 日是本窗口内唯一的 At Night 夜场。</strong><strong>Visitor Center：周一至周五 09:00–17:00。</strong><strong>Adolphus Busch Hall：仅周三 13:00–17:00、周六 10:00–14:00。</strong>",
+          "parking": "<strong>不要开车到 Harvard Square。</strong>Harvard 招生办自己的警告很直白：<strong>路边表位「will take quarters only」、限时一到两小时、「Cambridge parking violations start at $40.00」，执法很严且校方不代缴罚单</strong>。<strong>MBTA：Red Line「Harvard」站出站即到 Harvard Square。</strong><strong>Harvard 在 Oxford Street 与 Broadway 有校方车库可线上买通行证（需打印）</strong>；<strong>费率未能从官方渠道确认</strong>。<strong>Harvard Yard 内的停车只限行动不便者与送货车（20 分钟）。</strong>",
+          "walk": "Harvard 站到 <strong>Johnston Gate 约 400 米 / 5 分钟</strong>（沿 Massachusetts Avenue 东行）；到 <strong>Widener Gate 约 450 米 / 6 分钟</strong>。Johnston Gate 到 John Harvard 像约 <strong>120 米 / 2 分钟</strong>；到 Tercentenary Theatre 约 <strong>250 米 / 3 分钟</strong>。<strong>Yard 东侧出去到 Harvard Art Museums 约 300 米 / 4 分钟</strong>。<strong>公共洗手间在 Smith Campus Center（1350 Massachusetts Ave），官方指定给访客用。</strong><strong>Yard 到 Charles River 的 Weeks Footbridge 约 900 米 / 12 分钟。</strong>"
+        },
+        "notes": [
+          "<strong>Yard 目前开放（2025 年 6 月解禁），但会因校内活动临时整体关闭，且没有固定规律。</strong><strong>出发当天请刷 harvard.edu/visit 与 accessibility.harvard.edu 的门禁清单</strong>——这是本条目唯一真正的不确定性",
+          "<strong>所有建筑内部都不开放</strong>：Widener 只对持 Harvard ID 者开放，Massachusetts Hall 是校长办公室，Memorial Church 平日多数时间锁着。<strong>把 Yard 当成一个露天建筑摄影场地，不要指望进任何门</strong>（Harvard Art Museums 与 Smith Campus Center 除外）",
+          "<strong>官方 Visitor Guidelines 里有一条容易踩雷：「no video recording」。</strong>静态摄影不受限，但录像是明文禁止的。另外<strong>只有注册导览商可以在 Yard 内带团</strong>",
+          "<strong>不要拍摄宿舍与教室里可辨识的学生</strong>（官方原文 respect the privacy of students in dorms and classrooms）。Yard 里的宿舍楼是学生真正住的地方，不是布景",
+          "<strong>John Harvard 像 10:00–16:00 永远在排队</strong>，想拍空镜只有日出到 08:30 一个窗口（走 24 小时的 Widener Gate 进）",
+          "<strong>Harvard Art Museums 周一闭馆</strong>；<strong>10 月 12 日（Indigenous Peoples Day，周一）本来就关，10 月 23 日（周五）提前到 16:00 关门，10 月 29 日是窗口内唯一的免费夜场（延到 21:00）</strong>",
+          "<strong>Yard 内秋色的日期分界线同样是 10 月 22 日</strong>，之前来是绿的。Yard 的树以榆、橡为主，<strong>橡树转的是深酒红与铁锈红，与红砖建筑的色相非常接近</strong>——这既是这里秋色最协调的原因，也意味着<strong>反差偏低，需要靠逆光或侧光分离层次</strong>",
+          "<strong>Head of the Charles Regatta（10 月 16–18 日）期间 Harvard Square 与 Harvard Stadium 一带人流与交通全面失控</strong>，想安静拍 Yard 请避开这三天"
+        ],
+        "images": []
+      },
+      {
+        "id": "fenway-harborwalk",
+        "n": 2,
+        "name": "Fenway Park 外景与 Boston Harborwalk",
+        "en": "Fenway Park Exterior & the Boston Harborwalk",
+        "score": 3.5,
+        "tldr": "Citgo 招牌整个行程窗口是拆掉状态、11 月中才复亮；Harborwalk 是全城唯一能日出正面拍天际线的地方。",
+        "tags": [
+          {
+            "t": "外景完全免费",
+            "c": "free"
+          },
+          {
+            "t": "Citgo 招牌已拆",
+            "c": "risk"
+          },
+          {
+            "t": "球场禁三脚架与长镜",
+            "c": "risk"
+          },
+          {
+            "t": "球场导览 $30",
+            "c": "paid"
+          }
+        ],
+        "highlights": [
+          "<strong>先说合并的理由，以及为什么它其实成立。</strong>Fenway Park 与 Christopher Columbus Park <strong>实测直线距离 4.1 公里、方位 66°</strong>，地理上毫无关系，硬凑在一起看起来很怪。<strong>但它们在光学上恰好是一天的两个端点，而且各自独占一个全城别处拿不到的条件：</strong><strong>Harborwalk 在 downtown 的正东边，是 Boston 唯一能在日出时拿到天际线正面光的地方</strong>（Charles River 那边整个秋季的沿河立面永远是阴面）；<strong>而 Fenway 的 Jersey Street 砖立面法向约 248.5°，10 月 22 日日落方位 255.7°——只差 7°，是全城少见的「正对落日的大立面」。</strong>→ <strong>结论：Harborwalk 拍早晨，Fenway 拍傍晚，两者不冲突也不重叠。</strong><strong>如果只能选一个，选 Harborwalk</strong>——理由在下面第三条。",
+          "<strong>本条目最重要的一条坏消息，而且它直接删掉一张标志性照片：Citgo 招牌在你来的时候是不存在的。</strong><strong>2026 年 5 月 29 日起，Kenmore Square 的 Citgo 招牌被 Suffolk Construction 逐块拆除</strong>；原计划只是「平移」，但 5 月 Poyant Signs 的检测发现钢结构腐蚀严重、无法安全复用，<strong>于是改为由 Federal Heath 按 1965 年原样重做一套复制品（11 英尺高的字母、60×60 英尺、整体 12.5 万磅）</strong>。<strong>新招牌装在 660 Beacon Street 屋顶一座新钢结构上，比原位高 30 英尺、向东 120 英尺</strong>（为了绕开挡住视线的 Whoop 总部标识，恢复 1965 年以来的视线关系），<strong>安装从 2026 年 8 月做到 10 月，LED 复亮时间是「by mid-November」，工程造价 $8M。</strong>→ <strong>推论：9 月 25 日到 10 月 22 日之间，你看到的是塔吊与半成品，招牌不亮。「Citgo 招牌浮在 Green Monster 后面」这张照片本次拿不到，没有替代机位。</strong><strong>唯一的补偿：原版招牌上拆下来的那个字母「C」现在挂在 660 Beacon Street 底层的 Cornwall's 餐厅室内，可以进去拍——这是本次独有的一张，明年就没有了。</strong>（顺带一个冷知识：<strong>Citgo 招牌是全 Massachusetts 唯一拥有联邦地标身份的招牌</strong>——FHWA 与 MassDOT 把它列入 1965 年《Highway Beautification Act》之前既存招牌名单；<strong>但它至今不是 Boston 市级地标，2018 年 Walsh 市长否决了那次立法。</strong>）",
+          "<strong>Harborwalk 这一侧的关键几何是全篇最反直觉的一条：这是 Boston 唯一的日出正面光机位。</strong>实测：<strong>从 Long Wharf（OSM 42.36032／-71.04807）到 Custom House Tower 方位 252.5°、474 米</strong>，也就是说<strong>塔朝你的那一面法向约 72.5°（东北偏东）</strong>；<strong>而日出方位 9 月 25 日是 90.4°、10 月 22 日是 104.1°</strong>——<strong>与 72.5° 只差 18°–32°，是可用的准正面光。</strong>→ <strong>推论：日出后的头 40 分钟，downtown 那一排楼（Custom House Tower、One International Place、Rowes Wharf）的临海立面会被低角度暖光正面打亮，而这在 Charles River 那一侧整个秋季都不可能发生。</strong><strong>具体时刻：9/25 的 06:34–07:15、10/22 的 07:04–07:45。</strong><strong>而且同一个机位转身 180° 还有第二张：太阳就从 Inner Harbor 的水面上升起来</strong>（<strong>方位 90°–104° 正对着 East Boston 与 Logan 机场方向的开阔水面</strong>），<strong>民用曙光从 9/25 的 06:07 / 10/22 的 06:37 就开始，日出前那半小时的粉紫色调比日出本身更好。</strong>",
+          "<strong>Christopher Columbus Park 的招牌夜景同样不在你的窗口里，这一点必须提前知道。</strong>公园的紫藤棚架（trellis）挂蓝灯是本地名场面，<strong>但 Friends of Christopher Columbus Park 的官方口径是「from the end of November through the middle of April」</strong>，<strong>点灯仪式固定在感恩节前的那个周一（2026 年即 11 月 23 日）。</strong>→ <strong>推论：10 月 22 日之前来，棚架是不亮的；紫藤花期在五月，也不在秋天。这个公园在你的窗口里只剩白天的结构与前景价值，不是夜景目标。</strong><strong>好消息是没有施工：City of Boston 在 2026 年 2 月发出过 Christopher Columbus Park 与 Long Wharf 的规划设计服务 RFP（投标 3 月 23 日截止），但那只是设计阶段，现场没有工程。</strong><strong>Long Wharf 本身是值得单独交代的：它建于 1710–1721 年，历史上曾伸入海中约 1,586 英尺，是 National Historic Landmark</strong>；<strong>Boston Harborwalk 全长约 43 英里，沿岸从 East Boston 一路连到 Dorchester，全程免费公共通道。</strong>",
+          "<strong>Fenway 这一侧：球场本身在你的窗口里大概率仍然「活着」，但你几乎不可能带器材进去。</strong><strong>2026 赛季最后一场常规赛是 9 月 27 日（周日）15:05 在 Fenway 主场对 Chicago Cubs，第 162 战；此前 9 月 22／23／24 日主场对 Cleveland（18:45／19:10／18:45），9 月 25／26 日对 Cubs（19:10／19:15）。</strong><strong>Baseball-Reference 的赛季快照显示 Red Sox 进季后赛概率 98.4%</strong>，而<strong>2026 季后赛日程为：Wild Card 9 月 29 日–10 月 1 日、Division Series 10 月 3–10 日、ALCS 10 月 12–20 日、World Series 10 月 23–31 日</strong>。→ <strong>推论：十月上中旬完全可能有主场季后赛，届时球场周边封路、安检范围扩大、导览大概率停开；这是本条目在十月最大的不确定性。</strong><strong>而真正会毁掉你计划的是器材规定，官方原文：「Bags must be single-compartment and no larger than 12\"x12\"x6\". Backpacks... are NOT permitted」，以及「Professional audio/visual equipment is prohibited... Some examples of this equipment are tripods, monopods, and detachable lenses longer than 6 inches」。</strong>→ <strong>结论：摄影包进不去、三脚架进不去、超过 6 英寸长的可换镜头进不去。一支 70–200mm f/2.8 约 7.8 英寸，直接违规。所以「球场内部」对认真拍照的人基本是关闭的，本条目的重心应该放在外景。</strong>（不合规的包可以寄存：<strong>Gate E 对面 Lansdowne Garage 顶层有第三方寄存车辆</strong>。）"
+        ],
+        "photo": "建筑与街景 <strong>4/5</strong>（Harborwalk 日出），城市天际线 <strong>4/5</strong>，砖石质感 <strong>3.5/5</strong>（Fenway 立面），夜景 <strong>1.5/5</strong>。扣分理由很直接：<strong>这一区两张最有名的夜景（Citgo 招牌、Columbus Park 蓝灯棚架）在行程窗口内都不存在</strong>，而球场内部对器材的限制严到实际不可用；加分理由是 Harborwalk 的日出正面光在全城独一无二。",
+        "shots": [
+          {
+            "name": "Long Wharf 尽头望 Custom House Tower 与 downtown（日出正面光）",
+            "view": [
+              42.36032,
+              -71.04807
+            ],
+            "desc": "坐标为 OSM「Long Wharf」公共广场（way/29861778）。<strong>这是本条目的第一机位，而且只在日出后 40 分钟内成立。</strong>实测<strong>到 Custom House Tower 方位 252.5°、474 米</strong>，<strong>塔朝你那面的法向约 72.5°，与日出方位（9/25 的 90.4°、10/22 的 104.1°）只差 18°–32°</strong>。<strong>时刻：9/25 的 06:34–07:15，10/22 的 07:04–07:45。再晚太阳转到南边，这面立面就掉进阴影里了——这个机位没有下午版本。</strong><strong>焦段 50–135mm</strong>：474 米的距离，<strong>85mm 竖幅正好把 Custom House Tower 那座 1915 年的钟塔连基座一起框住</strong>（1847 年的希腊复兴式基座＋1915 年加建的塔，是 Boston 第一座摩天楼，<strong>观景层是否对公众开放未能从官方渠道确认</strong>）；<strong>135mm 抽塔顶的钟面与雕饰；24–35mm 拍 Long Wharf 的码头结构做前景引导线。</strong><strong>务必带偏振镜</strong>：海面反光会把楼的暖色冲淡，压掉反光后砖石与花岗岩的暖调会明显厚起来。<strong>参数：日出正面光下 ISO 200／f/8／1/125 足够手持</strong>，<strong>但日出前的曙光段（9/25 的 06:07 起、10/22 的 06:37 起）需要三脚架＋1–4 秒。</strong><strong>转身 180° 是同一趟的第二张：太阳从 Inner Harbor 水面升起，方位 90°–104° 正对开阔水面</strong>，<strong>24–70mm，用 ND 或直接对着高光测光减 2 EV，把码头桩与渡轮做剪影前景。</strong><strong>公共通道、24 小时、免费、三脚架无限制。</strong>"
+          },
+          {
+            "name": "Christopher Columbus Park 棚架与草坪（白天结构）",
+            "view": [
+              42.36125,
+              -71.05161
+            ],
+            "desc": "坐标为 OSM「Christopher Columbus Waterfront Park」（way/29868803）。<strong>先降预期：蓝灯棚架在 11 月底才亮，紫藤五月才开，所以这里在你的窗口里是白天的几何题材，不是夜景。</strong>实测方位：<strong>Custom House Tower 在 213°／294 米，Long Wharf 在 110°／309 米，Zakim Bridge 在 311°／1240 米，Old North Church 在 337.5°／610 米。</strong><strong>可用的两张：</strong><strong>① 24–35mm 沿棚架的连续拱券纵向拍进去</strong>，<strong>把 Custom House Tower 压在拱券尽端的开口里</strong>——这是这个公园唯一有构图力量的角度，<strong>最佳时段 15:00–17:00</strong>（10/22 时太阳方位 222°–247°，<strong>横向掠过棚架，拱券的投影会在地面上排成节奏</strong>）；<strong>② 50–85mm 拍草坪上的秋叶与背后 downtown 的塔楼层次，同样是下午侧光。</strong><strong>日出时段这个公园本身没什么可拍，直接往东走 300 米去 Long Wharf。</strong><strong>另一个值得多走 400 米的目标是 Rowes Wharf</strong>（OSM Harborwalk 节点 <strong>42.35717／-71.05019</strong>，<strong>到 Custom House Tower 方位 306.8°／347 米</strong>）：1987 年 Skidmore, Owings &amp; Merrill 设计的巨大拱门是 Boston 滨水最好的单体建筑题材，<strong>从海侧朝西拍，拱门在日出时是正面受光；用 24–35mm 让拱门框住后面的天空与水面。</strong><strong>2026 年核实：City of Boston 只发出了规划设计 RFP（3 月 23 日截止），现场没有施工。</strong><strong>免费、24 小时、三脚架无限制。</strong>"
+          },
+          {
+            "name": "Jersey Street 上的 Fenway Park 砖立面（唯一正对落日的大立面）",
+            "view": [
+              42.3468,
+              -71.09898
+            ],
+            "desc": "坐标为 OSM Jersey Street 北段路径节点（球场正门一侧，门牌 4 Jersey Street）。<strong>核心几何：Jersey Street 实测走向 338.5°／158.5°，球场砖立面与街平行，因此立面法向约 248.5°（西南偏西）。而 10 月 22 日日落方位 255.7°——只差 7°，几乎正对；9 月 25 日 269.5°，差 21°，是偏侧的斜光。</strong>→ <strong>推论：十月下旬优于九月底，这与本区其他目标的结论相反。</strong><strong>最佳时段 10/22 的 16:00–16:45</strong>（太阳方位 235°–241°、高度 13°–18°，<strong>既接近正面又还没被街对面的楼挡掉</strong>）；<strong>9/25 对应 16:40–17:25。</strong><strong>重要的现场限制：Jersey Street 很窄、西侧是三到五层的楼</strong>，<strong>所以太阳高度掉到 10° 以下时地面层先进阴影，只有立面上部与檐口还亮着</strong>——<strong>这反而正好，因为那排拱窗与「FENWAY PARK」字样本来就在高处，构图时直接放弃地面层。</strong><strong>焦段：35mm 竖幅拍整段立面与街的关系；85–135mm 抽单个拱窗与砖砌细节；24mm 贴墙仰拍强化那面 1912 年的砖墙。</strong><strong>顺路两条街要知道差别：Lansdowne Street 实测走向 92.5°（正东西），在球场北侧、Green Monster 外墙的背面就在这条街上——朝北的立面整个秋季拿不到直射光，所以 Lansdowne 是阴天／蓝调街景，不是黄金时段街景。</strong><strong>Kenmore Square（OSM 42.34890／-71.09621）在球场北偏东 281 米，但 Citgo 招牌在你来的时候已拆、不亮，那个方向本次没有目标。</strong><strong>街道是公共道路、外景 24 小时可拍、三脚架在人行道上无限制</strong>（<strong>但主场比赛日与季后赛日会临时封 Jersey Street 并扩大安检范围</strong>）。"
+          },
+          {
+            "name": "Fenway Park 球场导览（Green Monster 与看台内部）",
+            "view": [
+              42.34646,
+              -71.0971
+            ],
+            "desc": "坐标为 OSM Fenway Park 场馆多边形中心（relation/11188464，4 Jersey Street）。<strong>先把器材规定说清楚，因为它会直接决定你要不要买这张票。官方原文：「Professional audio/visual equipment is prohibited from Fenway Park. Some examples of this equipment are tripods, monopods, and detachable lenses longer than 6 inches」，以及「Bags must be single-compartment and no larger than 12\"x12\"x6\". Backpacks... are NOT permitted」。</strong>→ <strong>实际含义：三脚架、独脚架禁止；超过 6 英寸长的可换镜头禁止（70–200mm f/2.8 约 7.8 英寸，违规）；摄影双肩包禁止，只能带单格 12×12×6 英寸以内的包。不合规的包可寄存在 Gate E 对面 Lansdowne Garage 顶层的第三方寄存车上。</strong><strong>所以现实的方案是：一机一镜（24–70mm 或 35mm 定焦）＋一个小单格包，别想长焦与稳定器。</strong><strong>值得拍的三样：</strong><strong>① Green Monster——左外野墙高 37 英尺 2 英寸，1934 年起用手动记分板，1947 年后漆成现在的绿</strong>，<strong>35mm 贴着墙根仰拍最能表达它的荒谬高度</strong>；<strong>② 1934 年至今仍在使用的最老一批座椅与右外野的 Pesky's Pole</strong>；<strong>③ 看台上那把孤零零的红色座椅</strong>（标记 1946 年 Ted Williams 的超远全垒打落点，<strong>具体排号未能从官方渠道核实</strong>），<strong>85mm 从侧上方压缩一片绿座椅里的一点红。</strong><strong>时段：导览 09:00–17:00 整点一班，室内外混合，光线不可控；选 15:00 或 16:00 那班，此时西斜光会从看台开口斜切进场地，是全天最好的场内光。</strong><strong>$30，需提前在官方网站订（最多提前 30 天），赛季中常售罄。</strong>"
+          }
+        ],
+        "access": {
+          "book": "<strong>Harborwalk、Long Wharf、Christopher Columbus Park、Rowes Wharf、Jersey Street 与 Lansdowne Street 全部是公共空间，不需预约、不需票。</strong><strong>Fenway Park 球场导览需在 mlb.com/redsox/ballpark/tours 提前购票，官方称最多可提前 30 天，赛季中与周末常售罄，务必提前订。</strong><strong>主场比赛日的当天最后一班导览在开赛前三小时发车</strong>——<strong>推论：9 月 25 日（19:10 开赛）最后一班约 16:00，9 月 27 日（15:05 开赛）最后一班约 12:00。</strong>",
+          "ticket": "<strong>外景全部免费。</strong><strong>Fenway Park 公众导览（Public Tour，约 60 分钟）：成人 $30、儿童 3–12 岁 $21、军人 $21。</strong><strong>Pregame Tour $55（仅主场比赛日、开赛前三小时）。</strong><strong>「Fenway in Fifteen」$20，但官方限定 5 月至 9 月的比赛日与周末 12:00–15:00——也就是说十月来的人拿不到这一项。</strong><strong>Christopher Columbus Park、Long Wharf、Harborwalk 全程免费。</strong>",
+          "hours": "<strong>Fenway Park 导览官方口径：「Available year-round. Public Tours depart at the top of each hour」，「April 1 through October 31: 9 a.m. – 5 p.m.」，「Last tour departs at 5 p.m. on non-game days」，「On game days the last tour departs THREE hours before game time」。11 月 1 日至 3 月 31 日改为 10:00–17:00。全年只在 Thanksgiving、Christmas、New Year's Day 闭馆。</strong>→ <strong>所以十月下旬导览照常运行，这一点是好消息。</strong><strong>但 2026 季后赛（Wild Card 9/29–10/1、Division Series 10/3–10、ALCS 10/12–20、World Series 10/23–31）若 Red Sox 打进主场轮次，导览大概率停开、球场周边封锁——这一段无法提前确认，只能到日子前查官网。</strong><strong>Harborwalk、Long Wharf、Christopher Columbus Park 为公共通道与市属公园，实务上 24 小时开放。</strong><strong>Christopher Columbus Park 棚架蓝灯官方口径「from the end of November through the middle of April」，点灯在感恩节前的周一（2026 年 11 月 23 日），行程窗口内不亮。</strong><strong>Citgo 招牌：2026 年 5 月 29 日起拆除重建，官方口径复亮时间「by mid-November」，行程窗口内不亮。</strong>",
+          "parking": "<strong>两侧都不建议自驾。</strong>Fenway 一带比赛日车库单次常见 $40–$60（<strong>具体费率未能从官方渠道确认</strong>），滨水区 downtown 车库同样昂贵。<strong>Fenway 的公共交通：MBTA Green Line「Kenmore」站（B/C/D 支线）步行到 Jersey Street 约 400 米；「Fenway」站（D 支线）与「Lansdowne」通勤铁路站也在步行范围。</strong><strong>Harborwalk 一侧：MBTA Blue Line「Aquarium」站出站即到 Christopher Columbus Park 与 Long Wharf；Orange／Green Line「State」站步行约 600 米。</strong><strong>Blue Line 是本条目的关键：日出机位在 06:30–07:00 需要到位，MBTA 地铁工作日约 05:15 起首班车，赶日出是可行的（首班时刻请当天确认）。</strong>",
+          "walk": "<strong>Aquarium 站到 Christopher Columbus Park 约 120 米 / 2 分钟</strong>；<strong>Columbus Park 到 Long Wharf 广场约 310 米 / 4 分钟</strong>；<strong>Long Wharf 到 Rowes Wharf 沿 Harborwalk 约 390 米 / 6 分钟</strong>；<strong>Columbus Park 到 Old North Church 约 610 米 / 9 分钟</strong>（顺路可接 North End）。<strong>Kenmore 站到 Jersey Street 球场正门约 400 米 / 6 分钟</strong>；<strong>Jersey Street 到 Lansdowne Street 绕球场北侧约 350 米 / 5 分钟</strong>。<strong>Fenway 到 Christopher Columbus Park 直线 4.1 公里、方位 66°，Green Line 转 Blue Line 约 25–30 分钟——这两半不要安排在同一段光里。</strong>"
+        },
+        "notes": [
+          "<strong>Citgo 招牌在整个行程窗口（9/25–10/22）是拆除重建状态、不亮，官方复亮时间是 11 月中。</strong><strong>「Citgo 招牌浮在 Green Monster 后面」这张照片本次拿不到，没有替代机位</strong>；补偿是原版的字母「C」现在挂在 660 Beacon Street 底层的 Cornwall's 餐厅里，可以进去拍。<strong>同理，Christopher Columbus Park 的蓝灯棚架也是 11 月底才亮（官方：end of November 到 mid-April）</strong>，紫藤花期在五月——<strong>本条目两张最有名的夜景在你的窗口里都不存在，不要为夜景专程去</strong>",
+          "<strong>Fenway Park 禁三脚架、禁独脚架、禁超过 6 英寸长的可换镜头、禁双肩包</strong>（包必须单格且不超过 12×12×6 英寸）。<strong>70–200mm f/2.8 约 7.8 英寸，直接违规</strong>；现实方案是一机一镜（24–70mm 或 35mm 定焦）加一个小单格包，不合规的包寄存在 Gate E 对面 Lansdowne Garage 顶层",
+          "<strong>2026 年最后一场常规赛是 9 月 27 日（周日）15:05 主场对 Cubs</strong>；<strong>9 月 22–27 日连续六个主场日，也就是说九月底来的人是可以看到球赛的</strong>——但那几天球场周边人流与封路都会明显加重",
+          "<strong>Red Sox 进季后赛概率约 98.4%（Baseball-Reference 赛季快照）</strong>，而<strong>季后赛日程为 Wild Card 9/29–10/1、Division Series 10/3–10、ALCS 10/12–20、World Series 10/23–31</strong>。<strong>若有主场轮次，导览大概率停开、周边封锁；这一段无法提前确认，出发前一定要查官网</strong>",
+          "<strong>球场导览十月下旬照常运行（4/1–10/31 每天 09:00–17:00、整点一班、$30）</strong>，但<strong>「Fenway in Fifteen」($20) 官方限定 5–9 月，十月来的人没有这一项</strong>",
+          "<strong>Jersey Street 立面是十月下旬更好、九月底较差（法向 248.5° 对日落 255.7°／269.5°）</strong>，这与本区其他目标的时效方向相反，排行程时注意。<strong>而 Lansdowne Street（走向 92.5°）在球场北侧、朝北立面整个秋季无直射光</strong>——把它当阴天与蓝调街景，不要浪费黄金时段",
+          "<strong>Harborwalk 的日出机位需要 06:30–07:00 到位（10 月下旬 07:00–07:45）</strong>，<strong>MBTA 地铁工作日约 05:15 起首班车，赶得上，但首班时刻请当天确认</strong>",
+          "<strong>Custom House Tower 的观景层是否对公众开放、以及那把红色座椅的具体排号，均未能从官方渠道确认</strong>"
+        ],
+        "images": []
+      },
+      {
+        "id": "mit-killian-court",
+        "n": 3,
+        "name": "麻省理工 · 基利安广场与大穹顶",
+        "en": "MIT · Killian Court & the Great Dome",
+        "score": 4.5,
+        "tldr": "大穹顶朝正南，是全区唯一秋季全天正面受光的建筑；MIT Chapel 只有工作日两个各一小时的公众时段。",
+        "tags": [
+          {
+            "t": "外景完全免费",
+            "c": "free"
+          },
+          {
+            "t": "全天正面受光",
+            "c": "free"
+          },
+          {
+            "t": "Chapel 仅工作日两小时",
+            "c": "risk"
+          },
+          {
+            "t": "Kresge 室内不开放",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>本条目最重要的几何事实，而且它是好消息：大穹顶朝正南，因此秋季全天正面受光。</strong>Killian Court（OSM way/24493932，多边形中心 <strong>42.35870／-71.09139</strong>）是一块朝南开口的 U 形草坪，<strong>Great Dome（Building 10 / Maclaurin Building，William Welles Bosworth 设计，1916 年）在北端，南立面法向约 180°，正对草坪与 Charles River</strong>。→ <strong>推论：这是全区极少数「不用担心背光」的目标。</strong>最佳正面光 <strong>11:00–14:30</strong>（9/25 正午太阳方位 180°／高度 46.6°；10/22 为 180°／36.4°），而 <strong>15:30–17:30 的低角度侧光会把穹顶的方格与柯林斯柱廊的立体感完全打出来</strong>，<strong>那才是拍建筑质感的最佳时段</strong>。跟本区其他所有目标（背光、阴面、要等阴天）相比，这里的自由度高得不像同一座城市。",
+          "<strong>穹顶的原型是罗马 Pantheon，而檐部刻的名字是一份 20 世纪初的科学价值观清单。</strong>Bosworth 的「New Technology」校园（1916 年 MIT 从 Boston 迁到 Cambridge 时建）是新古典主义的极致：<strong>Killian Court 三面被建筑围合、开口正对河</strong>，<strong>檐部刻着一圈科学家与哲学家的名字（Aristotle、Newton、Darwin、Pasteur 等）</strong>。<strong>Great Dome 下方是 Barker Engineering Library 的圆形阅览室</strong>（<strong>是否对公众开放未能从官方渠道确认，请当作不可进入来规划</strong>）。穹顶也是 MIT「hack」（校园恶作剧）的传统舞台——历史上被装成过 R2-D2、警车、巨大的戒指，<strong>但那是随机事件，不要指望碰上。</strong>",
+          "<strong>Frank Gehry 的 Stata Center 是第二个主角，而它的最佳时段与穹顶完全相反。</strong>OSM <strong>42.36154／-71.09067</strong>（32 Vassar Street，2004 年建成）。Gehry 那些倾斜、鼓凸、互相碰撞的体量包着两种主要材料——<strong>抛光不锈钢与彩色砖</strong>。<strong>关键差别：不锈钢面需要有方向的硬光才出戏，砖面需要柔光才出色。</strong>→ <strong>所以 Stata 是黄金时段的目标（16:30–17:50）</strong>：低角度暖光在弯曲钢面上拉出连续的高光带，<strong>这是唯一能让那些曲面「读」出来的光</strong>；正午顶光会让整栋楼变成一堆分不清前后的白斑。<strong>它同时也是本区最好的阴天目标之一</strong>——阴天时钢面变成柔和的银灰、砖色饱和，几何关系反而最清楚。",
+          "<strong>Eero Saarinen 的 MIT Chapel 是本区最难约的室内目标，只有工作日两个各一小时的窗口。</strong>OSM <strong>42.35834／-71.09415</strong>（Building W15，1955 年，与旁边的 Kresge Auditorium 同期同建筑师）。<strong>官方原文：「The space is unlocked and open to members of the general public for visiting hours, Monday – Friday, 10:00AM to 11:00AM and 1:30PM to 2:30PM」</strong>，并警告<strong>「sometimes religious services are scheduled during these hours. If you arrive during a service the Chapel is not available for viewing」</strong>。→ <strong>周末完全不开，工作日每天只有两小时，而且可能被礼拜占掉。</strong>值得这么折腾的理由：它是一个<strong>无侧窗的圆柱形砖砌空间，唯一的主光来自穹顶天窗，落在 Harry Bertoia 做的金属幕上再散射到祭坛</strong>；砖墙是波浪形的，下部有一圈贴水面的低窗，<strong>外面浅水池的反光会从底部往上打到砖墙上，形成会动的水波光斑</strong>。<strong>座位 114 席，加折椅可到 140。</strong>",
+          "<strong>从 Charles River 对岸拍大穹顶：这是本条目被低估的一张，而且几何完美。</strong>Harvard Bridge（即 Massachusetts Avenue Bridge）跨河，OSM 桥面中点约 <strong>42.35208／-71.08995</strong>。<strong>由两点坐标算得：从桥上到 Killian Court 的方位是 351°（几乎正北）、距离约 750 米。</strong><strong>而穹顶南立面法向 180°——正对着你。</strong>→ <strong>正午时太阳（方位 180°）正好在你背后，是完美的正面光；16:00–17:30 太阳转到 235°–247°，变成 60–70° 的侧光。</strong><strong>桥面是公共人行道、24 小时、完全免费</strong>，<strong>而且这是全区唯一能把「穹顶＋Killian Court＋河面倒影」叠在一张里的位置。</strong>另一个彩蛋：<strong>Harvard Bridge 的桥面用「Smoot」为单位刻着刻度</strong>（1958 年 MIT 学生 Oliver Smoot 被同学一遍遍放倒量出来的，全桥 <strong>364.4 Smoots 加一只耳朵</strong>），<strong>这些漆在桥面上的刻度是很好的低机位前景细节。</strong>"
+        ],
+        "photo": "建筑 <strong>5/5</strong>，室内 <strong>4.5/5</strong>（Chapel），城市与河景 <strong>4/5</strong>，风光 <strong>2/5</strong>。全免费、全天正面受光、而且一次能拍到新古典（Bosworth）、现代主义（Saarinen）与解构主义（Gehry）三个时代；扣分只在 MIT Chapel 的时段极窄与 Kresge 室内进不去。",
+        "shots": [
+          {
+            "name": "Killian Court 望 Great Dome",
+            "view": [
+              42.3587,
+              -71.09139
+            ],
+            "desc": "坐标为 OSM Killian Court 多边形中心。<strong>穹顶南立面朝正南（法向 180°），所以这里没有「等光」的问题，只有「选哪种光」的问题：</strong><strong>① 正面光 11:00–14:30</strong>（9/25 正午 12:35 方位 180°／高度 46.6°；10/22 为 12:28／180°／36.4°）——立面全亮、无阴影，适合规整的对称构图。<strong>十月优于九月：太阳低 10 度，穹顶下方柱廊会出现明确投影，立体感更强。</strong><strong>② 侧光 15:30–17:30——这才是拍建筑质感的时段。</strong>10/22 的 16:00 太阳高度 17.9°、方位 235.2°，<strong>穹顶的方格（coffering）与柯林斯柱头会被逐一勾出，檐部刻的名字会有可读的浮雕投影</strong>。<strong>③ 蓝调</strong>（9/25 约 18:46–19:11、10/22 约 18:02–18:27）：建筑照明亮起、穹顶发白光、天空深蓝，是本机位最戏剧的一张。<strong>构图：站在草坪南端的中轴线上。</strong><strong>24–35mm 竖幅让草坪占下三分之一、穹顶居中</strong>（草坪很长，广角能表达「被建筑夹住」的纵深）；<strong>85–135mm 单抽穹顶与柱廊、把两侧翼楼裁掉，这一张比全景更有力</strong>；<strong>200mm 抽檐部的名字</strong>。<strong>10 月 22 日之后草坪两侧的树转色，24mm 可以把秋叶当左右两个框。</strong><strong>开放校园，三脚架无限制，外景 24 小时可拍。</strong>"
+          },
+          {
+            "name": "Harvard Bridge 桥面望 Great Dome（越过 Charles River）",
+            "view": [
+              42.35208,
+              -71.08995
+            ],
+            "desc": "坐标为 OSM Harvard Bridge（Massachusetts Avenue Bridge）桥面中点。<strong>方位与距离已算出：到 Killian Court 为 351°（几乎正北）、约 750 米。</strong><strong>因为穹顶南立面法向 180°，它正对着你——这是全区唯一「过河拍对岸而且还是正面光」的机位。</strong><strong>最佳两段：</strong><strong>① 11:30–13:30 正面光</strong>（太阳在你正后方），穹顶最亮、河面最蓝，适合拍「建筑＋倒影」的干净对称；<strong>② 16:00–17:50 黄金时段到日落</strong>（10/22 日落 17:52），<strong>太阳在西南，穹顶被暖光侧打，河面拉出长长的金色反光带——这是更好的一张。</strong><strong>焦段是这里的胜负手：750 米外的穹顶，200–400mm 才能让它撑满画面</strong>；<strong>135mm 拍「穹顶＋两侧翼楼＋河面」的完整关系</strong>；<strong>24–35mm 只适合拍桥本身与那些 Smoot 刻度</strong>——<strong>用广角拍穹顶会让它缩成一个可以忽略的小白点，这是这个机位最常见的失误。</strong><strong>长焦跨水面要注意大气抖动（热变形）：正午最严重、傍晚最轻</strong>，这是傍晚优于正午的第二个理由。<strong>桥面有车流震动，三脚架效果有限，建议靠机身防抖手持并用 1/500 以上快门</strong>；要长曝就走到桥两端的岸上。<strong>桥面漆着 Smoot 刻度（全桥 364.4 Smoots 加一只耳朵），是很好的低机位前景。</strong>"
+          },
+          {
+            "name": "MIT Chapel 室内（Saarinen 的天光与 Bertoia 金属幕）",
+            "view": [
+              42.35834,
+              -71.09415
+            ],
+            "desc": "坐标为 OSM「W15 MIT Chapel」节点。<strong>硬性限制先记住：只有周一至周五 10:00–11:00 与 13:30–14:30，周末完全不开，而且可能被礼拜占用。</strong><strong>两个窗口里选 13:30–14:30。</strong>理由是几何的——<strong>Chapel 的主光是穹顶天窗，太阳越高、进光越强越垂直</strong>，而<strong>10:00 时太阳高度只有 26.6°（10/22），13:30 时约 35°，接近当日峰值</strong>；同时<strong>下部那圈贴水面的低窗需要外面浅水池被阳光照到，才能把水波反光打上砖墙</strong>，午后概率明显更高。<strong>构图三张：</strong><strong>① 24mm 沿中轴拍祭坛与 Bertoia 的金属幕</strong>（天窗光落在金属片上再散射，这是全场唯一的亮点，<strong>务必按金属幕的亮部测光并减 1 EV，否则它会糊成一团白</strong>）；<strong>② 24mm 垂直上仰拍天窗</strong>；<strong>③ 50–85mm 贴地拍波浪形砖墙下部的水波光斑</strong>——<strong>这是这栋建筑真正的秘密，也是最少被拍到的一张。</strong><strong>参数：这是一个几乎全暗的空间，光比极大。f/1.8–2.8、1/30–1/60、ISO 6400 是现实值，强烈建议带 f/1.4 定焦</strong>；<strong>或者拍 3–5 张包围做 HDR</strong>（金属幕与砖墙暗部的光比常在 8 EV 以上）。<strong>白平衡固定 4500–5000K</strong>（天窗日光为主，砖墙会把它染暖）。<strong>禁闪光——会彻底毁掉这个空间的全部意义。这是一个供人静默的宗教空间，安静、快速、不要长时间占据中轴。</strong><strong>顺路 80 米是 Kresge Auditorium（OSM 42.35817／-71.09506）</strong>，Saarinen 同期的八分之一球面薄壳、只靠三个点落地，<strong>室内不对公众开放（须有场次票），但外景是绝佳的几何题材</strong>：<strong>35mm 贴近拍薄壳与玻璃幕的交接，最佳 15:30–17:30 侧光。</strong>"
+          },
+          {
+            "name": "Stata Center（Gehry）",
+            "view": [
+              42.36154,
+              -71.09067
+            ],
+            "desc": "坐标为 OSM「32 Stata Center」建筑节点（32 Vassar Street）。<strong>时段判断与大穹顶完全相反，这是本条目最容易搞错的一点。</strong><strong>最佳 16:30–17:50 的黄金时段</strong>（10/22 日落 17:52）：<strong>抛光不锈钢面必须有方向性的低角度硬光，才能在曲面上拉出连续的高光带</strong>，这是唯一能让 Gehry 那些倾斜鼓凸的体量「读」出来的光。<strong>正午顶光是这里最差的条件</strong>——钢面把天空反成一片均匀的白，整栋楼变成分不清前后的白斑堆。<strong>阴天反而是次佳（不是最差）</strong>：漫射光下钢面变柔和的银灰、彩砖饱和度上升，<strong>体量的几何关系比晴天正午更清楚</strong>。<strong>蓝调是第三选择</strong>（10/22 约 18:02–18:27）：室内灯光透过那些歪斜的窗、钢面反射天空的深蓝，反差最戏剧。<strong>构图：这栋楼没有「正立面」，所以不要试图拍全景。</strong><strong>24–35mm 贴近拍两三个体量的碰撞与交接</strong>（找钢与砖交界的那条线）；<strong>85–135mm 抽单个曲面上的高光带与倒影</strong>——<strong>这是本机位最好的一类照片：完全抽象、看不出是哪栋楼、但一眼就是 Gehry。</strong><strong>低机位仰拍能强化倾斜感</strong>；<strong>这栋楼几乎没有垂直线，所以不要做透视校正，歪就是它的样子。</strong><strong>开放校园、三脚架无限制、外景 24 小时可拍。</strong>"
+          }
+        ],
+        "access": {
+          "book": "<strong>Killian Court、Great Dome 外景、Stata Center 外景、Kresge 外景、Harvard Bridge 全部不需预约、不需票、无时段限制。</strong><strong>MIT Chapel 的公众时段也不需预约</strong>，门在那两个时段是开的，直接走进去。<strong>Kresge Auditorium 室内不对公众开放</strong>——它由 Campus Activities Complex（CAC）管理，只在有场次时进人；<strong>想进去只能买一场演出的票</strong>，校方活动日历（calendar.mit.edu/building_w16）能查到公开场次（例：10 月 23 日 20:00 有 MIT Family Weekend Concert）。",
+          "ticket": "<strong>全部免费。</strong>Killian Court、Great Dome、Stata Center、MIT Chapel、Harvard Bridge 均无门票。Kresge Auditorium 的演出另行售票（价格视场次）。",
+          "hours": "<strong>校园室外空间：实务上 24 小时可进入</strong>（MIT 是开放校园，无围墙、无门禁）。<strong>MIT Chapel 官方原文：「open to members of the general public for visiting hours, Monday – Friday, 10:00AM to 11:00AM and 1:30PM to 2:30PM」</strong>，并明确<strong>「sometimes religious services are scheduled during these hours. If you arrive during a service the Chapel is not available for viewing and we ask that you return on another day」</strong>。→ <strong>周末与工作日的其余时间只对持 MIT 卡者开放，游客进不去。这是本区最窄的时段窗口，请把它当成一个「有场次」的目标来排。</strong>CAC 管理的活动空间整体开放时段为周日至周四 07:00–23:00、周五至周六 07:00–01:00，<strong>但那是给办活动用的，不等于游客可进。</strong><strong>Barker Engineering Library（穹顶下的圆形阅览室）是否对公众开放未能从官方渠道确认。</strong>",
+          "parking": "<strong>不建议自驾</strong>，Cambridge 路边停车与 Harvard Square 一样难。<strong>MBTA：Red Line「Kendall/MIT」站</strong>（离 Stata Center 最近）；<strong>MBTA 1 路公交沿 Massachusetts Avenue 跨 Harvard Bridge，连接 Back Bay 与 MIT，是最方便的一条</strong>（也正好顺路拍桥上机位）。校内车位需许可，游客不适用；<strong>周边商业车库费率未能从官方渠道确认</strong>。",
+          "walk": "Kendall/MIT 站到 <strong>Stata Center 约 350 米 / 5 分钟</strong>；到 <strong>Killian Court 约 900 米 / 12 分钟</strong>。<strong>Harvard Bridge 北端到 Killian Court 约 700 米 / 9 分钟</strong>；<strong>桥面中点到 MIT Chapel 约 600 米 / 8 分钟</strong>。<strong>Killian Court 到 MIT Chapel 约 350 米 / 5 分钟</strong>；<strong>MIT Chapel 到 Kresge Auditorium 约 80 米 / 1 分钟</strong>（两栋紧邻）；<strong>Killian Court 到 Stata Center 约 550 米 / 7 分钟</strong>。<strong>四个机位走完一圈约 2.5 公里。</strong>"
+        },
+        "notes": [
+          "<strong>本条目最大的优势：大穹顶朝正南，秋季全天正面受光。</strong>这在 Boston 是稀有的——本区大多数目标要么背光要么阴面。<strong>把晴天的正午与傍晚留给这里，把阴天留给 Acorn Street 与 BPL</strong>",
+          "<strong>MIT Chapel 只有工作日 10:00–11:00 与 13:30–14:30，周末完全不开。</strong><strong>如果你只有周末在 Boston，这个室内直接删掉</strong>（外面的浅水池与波浪砖墙外观仍可拍）。<strong>建议选 13:30 那场，天窗进光更强</strong>",
+          "<strong>Chapel 可能被礼拜占掉，官方已明说</strong>——不要把它排成当天唯一目标，留一个备选",
+          "<strong>Stata Center 的时段与穹顶相反</strong>：<strong>不锈钢面要低角度硬光（16:30 之后），正午顶光是这里最差的条件</strong>。两栋楼相距只有 550 米，但最佳时段错开三小时，规划时别混在一起",
+          "<strong>从 Harvard Bridge 拍穹顶必须用长焦（200–400mm）</strong>。750 米的距离，广角拍出来穹顶只是一个小白点，<strong>这是这个机位最常见的失误</strong>；<strong>另外长焦跨水面要注意大气抖动、正午最严重</strong>，这是傍晚优于正午的第二个理由（第一个是侧光）",
+          "<strong>Kresge Auditorium 室内不对公众开放</strong>，只能买演出票进；外景的薄壳几何本身就值得单独拍一张",
+          "<strong>MIT 是开放校园，外景没有任何时段与三脚架限制</strong>，是本区少数可以放心架三脚架拍蓝调的地方（另两处是 Public Garden 与 Comm Ave Mall）",
+          "<strong>Head of the Charles Regatta（10 月 16–18 日）的赛道在 Charles River 上游</strong>（Boston University 到 Eliot Bridge 一段），<strong>Harvard Bridge 与 Killian Court 在赛道下游、受影响较小</strong>，但那三天整条河沿岸人流都会明显增加"
+        ],
+        "images": []
+      },
+      {
+        "id": "charles-river-esplanade",
+        "n": 4,
+        "name": "Charles River 河岸与 Longfellow Bridge",
+        "en": "Charles River Esplanade & the Longfellow Bridge",
+        "score": 5,
+        "tldr": "天际线是纯日落＋蓝调题材，不是日出题材；从 Cambridge 岸朝东南拍，最佳窗口 10/22 只有 18:00–18:20。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "日落与蓝调题材",
+            "c": "free"
+          },
+          {
+            "t": "三脚架无限制",
+            "c": "free"
+          },
+          {
+            "t": "10/16–18 赛事封路",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>先把题目里那个问题直接回答掉：这是日落与蓝调题材，不是日出题材，而且这个结论是几何决定的、没有变通空间。</strong>从 Cambridge 岸的 MIT Sailing Pavilion（OSM <strong>42.35851／-71.08779</strong>）实测方位：<strong>到 Prudential Tower 是 161°（南偏东）、1334 米；到 200 Clarendon（原 John Hancock Tower）是 135°（东南）、1471 米</strong>。也就是说你在朝<strong>南到东南</strong>看，<strong>那排塔楼对着你的是它们的北／西北立面</strong>。而秋季 Boston 的太阳方位全天只在 <strong>88°–272°</strong> 之间（9/25 日出 90.4°、日落 269.5°），<strong>太阳从来不会跑到北边去——所以那些朝河的立面在整个行程窗口里一秒直射光都拿不到。</strong>→ <strong>推论一：白天来这里拍天际线，得到的一定是平光、灰蓝、毫无立体感的一张，这不是你技术不行，是没有光。</strong>→ <strong>推论二：日出更糟。</strong>日出方位 90°–104° 意味着太阳从你的左前方（塔楼的左后方）升起，<strong>你会得到一个逆光剪影加一片亮天，塔楼全黑。</strong>→ <strong>结论：唯一正确的时段是日落之后的蓝调，此时楼里的灯与天空亮度接近，河面把它们全部复制一遍。</strong>",
+          "<strong>蓝调窗口极短，而且十月比九月更短：这是本条目唯一需要掐着表执行的事。</strong><strong>9 月 25 日：日落 18:38、民用暮光结束 19:04</strong>——可用 26 分钟，<strong>「楼灯与天空亮度交叉」的最佳一刻在 18:50–19:00</strong>。<strong>10 月 22 日：日落 17:53、民用暮光结束 18:21</strong>——可用 28 分钟，<strong>最佳一刻 18:05–18:18</strong>。<strong>推论：十月的蓝调结束在下午六点半以前，你必须在 17:30 之前就架好机位、构图完、参数试过。</strong>这也是本区反复出现的那个主题——<strong>Boston 在东部时区最东端，「傍晚」比你的身体时钟提前了大约一个半小时。</strong>（另注：<strong>2026 年夏令时结束在 11 月 1 日</strong>，行程窗口内全程是 EDT，不用换算。）",
+          "<strong>如果你一定要「有直射光打在楼上」的那一张，唯一的解是走到 Harvard Bridge 上朝东偏南看，而且要在九月底而不是十月底。</strong>实测：<strong>从 Harvard Bridge（OSM 桥面中点 42.35208／-71.08995）到 200 Clarendon 的方位是 105°、1261 米；到 Prudential Tower 是 132°、820 米</strong>。朝 105° 拍，希望太阳在正后方就是 285°；<strong>而 9 月 25 日日落方位 269.5°——只差 16°，已经是可用的准正面光</strong>；<strong>到 10 月 22 日日落方位掉到 255.7°，差 29°，就只剩侧光了</strong>。→ <strong>推论：想拍「塔顶被落日染红」的那一张，越靠近九月底越好，越往十月走越难。</strong><strong>具体时刻是日落前 20 分钟到日落（9/25 的 18:18–18:38）</strong>，此时太阳高度只有 0°–4°，<strong>光只够打到塔楼上部三分之一，下半截仍在阴影里——这恰好就是那张照片的样子。</strong>",
+          "<strong>Longfellow Bridge 有一个几乎没人写过的巧合，而且它落在你的窗口边缘上。</strong>从 Overpass 取出全桥六段路径合成后实测：<strong>西端 42.36167／-71.07928（Cambridge），东端 42.36142／-71.07154（Boston），桥面整体走向 92.5°／272.5°，全长 636 米</strong>。<strong>也就是说站在桥的 Boston 端沿桥面朝西望，视线方位是 272.5°。</strong>而日落方位：<strong>9 月 20 日 272.2°、9 月 25 日 269.5°、10 月 22 日 255.7°</strong>。→ <strong>9 月下旬太阳几乎就是顺着桥面轴线落下去的（9/25 只偏 3°），落日正好卡在两对「盐罐胡椒罐」花岗岩桥塔之间；到十月下旬偏到 17°，太阳落到桥的左侧河面上——变成另一张照片，但不再是「穿过桥塔」那一张。</strong><strong>结论：这一张越早来越好，九月底是全窗口最佳。</strong>",
+          "<strong>这条河是人造的，而这件事解释了为什么它能倒影：它其实是个水库。</strong>1910 年建成的 Charles River Dam 把原本潮差近 3 米的咸水河口变成了恒定水位的淡水河盆，<strong>Esplanade 的整片土地就是那之后填出来的</strong>；1951 年 Storrow Drive 修进公园，把它与 Back Bay 街区切断——<strong>这就是为什么今天你必须走天桥才能从 Beacon Street 走到河边</strong>。<strong>Longfellow Bridge 建于 1900–1906 年（原名 Cambridge Bridge），1927 年改名纪念诗人 Henry Wadsworth Longfellow</strong>；<strong>MBTA Red Line 走在桥的中央路基上，从 Charles/MGH 站出来后是露天段——一列红线车穿过桥塔是这个机位最好的动态元素，班距约 5–9 分钟，等得起</strong>。<strong>2013–2018 年做过一次全面大修，2026 年 9 月核实：桥本身没有在施工。</strong><strong>但要注意 Storrow Drive 隧道维修工程把 Longfellow Bridge 当作绕行路线</strong>（2026 年 5 月 11 日起每晚 20:00–05:00 封闭 Storrow Drive 内行方向，官方称第一阶段「through August」），<strong>第二阶段是否在秋季恢复夜间封路未能从官方渠道确认</strong>；好消息是<strong>那个时段（20:00 之后）已经在蓝调结束之后，对拍照没有影响。</strong>"
+        ],
+        "photo": "城市天际线 <strong>5/5</strong>（蓝调），建筑 <strong>4.5/5</strong>（桥塔），风光与秋色 <strong>4/5</strong>，人像 <strong>3/5</strong>。全区最强的一张照片在这里，而且完全免费、三脚架无限制、24 小时可进；扣分只在窗口极短（十月每天不到半小时）与白天几乎无光可用。",
+        "shots": [
+          {
+            "name": "MIT Sailing Pavilion 前的 Cambridge 河岸（天际线主机位）",
+            "view": [
+              42.35851,
+              -71.08779
+            ],
+            "desc": "坐标为 OSM「51 Wood Sailing Pavilion」（134 Memorial Drive）。<strong>这是本区最重要的一个机位，只在日落后的半小时里有效。</strong>实测方位：<strong>Prudential Tower 161°／1334 米，200 Clarendon 135°／1471 米</strong>，两者张开约 26°，<strong>用 50–85mm 横幅正好把 Back Bay 那一簇塔楼收满、两侧留出河面。</strong><strong>时段（按日期算，不要靠感觉）：</strong><strong>9/25——17:50 到位，18:10–18:38 拍日落时的暖天，18:45–19:00 是蓝调最佳一刻，19:04 民用暮光结束收工；</strong><strong>10/22——17:10 到位，17:30–17:53 日落段，18:05–18:18 蓝调最佳，18:21 收工。</strong><strong>「最佳一刻」的判据不是钟点而是画面：当楼里的窗光与天空亮度看起来差不多时按下去，那一张就是对的。</strong><strong>参数：三脚架＋ISO 100＋f/8＋2–8 秒。</strong><strong>河面必须长曝——1 秒以上水面涟漪被抹平，倒影才会变成清晰的第二排楼；低于 1/4 秒你只会得到一片碎光斑，这是这个机位最常见的失败原因。</strong><strong>白平衡固定 3800–4200K</strong>（自动白平衡会被楼里的钠灯与 LED 拉得忽冷忽热，一组片子色调不统一）。<strong>包围曝光 ±2 EV 各一张</strong>：楼窗与河面暗部光比常超过 9 EV。<strong>另一个方向也别忘了回头看：日落方位 269.5°（9/25）在你右后方，朝西拍 Harvard Bridge 与河面的落日反光带是同一机位的第二张。</strong><strong>开放河岸公园，24 小时，三脚架无限制。</strong>"
+          },
+          {
+            "name": "Harvard Bridge 桥面朝东南（唯一能拿到直射光的机位）",
+            "view": [
+              42.35208,
+              -71.08995
+            ],
+            "desc": "坐标为 OSM Harvard Bridge（Massachusetts Avenue Bridge）桥面中点。<strong>这是全河唯一能让塔楼吃到直射暖光的位置，理由是方位：到 200 Clarendon 105°／1261 米，到 Prudential Tower 132°／820 米</strong>，<strong>而日落方位 9/25 是 269.5°、几乎在你正后方（理想值 285°，只差 16°）。</strong><strong>所以：越早来越好。9 月底可用，10 月下旬（255.7°，差 29°）就退化成侧光。</strong><strong>时刻：日落前 20 分钟到日落那一刻</strong>（<strong>9/25 的 18:18–18:38</strong>；10/22 是 17:33–17:53）。此时太阳高度 0°–4°，<strong>只有塔楼上三分之一被染红、下半截留在阴影里，这恰恰是这张照片该有的样子——不要试图把下半截提亮，那会毁掉它。</strong><strong>焦段 85–200mm</strong>：820–1261 米的距离，广角会让塔楼缩得没有存在感。<strong>200mm 单抽 200 Clarendon 的玻璃幕反射晚霞是最好的一张</strong>（它是全玻璃立面，会把整片天空的颜色反给你）。<strong>桥面有车流震动，三脚架效果有限，用防抖手持配 1/250 以上</strong>；需要长曝就退到桥两端的岸上。<strong>长焦跨水面注意大气抖动，日落前后是全天最轻的时候，正好。</strong><strong>桥面漆着 Smoot 刻度（全桥 364.4 Smoots 加一只耳朵），是很好的低机位前景。</strong><strong>公共人行道，24 小时，免费。</strong>"
+          },
+          {
+            "name": "Longfellow Bridge 与「盐罐胡椒罐」桥塔",
+            "view": [
+              42.36155,
+              -71.07541
+            ],
+            "desc": "坐标为 Overpass 取全桥六段路径后算出的桥面中点（<strong>推算</strong>，西端 42.36167／-71.07928、东端 42.36142／-71.07154 均为 OSM 实测节点）。<strong>核心事实：桥面走向 92.5°／272.5°，全长 636 米。</strong><strong>所以从 Boston 端沿桥面朝西望，视线正好 272.5°；而 9 月 25 日日落方位 269.5°——偏 3°，太阳几乎就落在两对花岗岩桥塔之间。</strong><strong>这是本区时效性最强的一张：9 月 20 日方位 272.2°（完全对齐，但早于窗口），9 月底仍然极佳，10 月 22 日掉到 255.7°、偏 17°，太阳落到桥的左侧去了。</strong><strong>三种拍法：</strong><strong>① 站桥东端（Boston 侧）人行道，24–35mm 沿桥面纵向压缩，把落日、桥塔、Red Line 车轨叠在一条轴线上</strong>（<strong>时刻 9/25 的 18:20–18:40</strong>）；<strong>② 走到 Esplanade 或 Cambridge 岸从侧面拍全桥剪影＋水面倒影</strong>，<strong>85–135mm，蓝调时段</strong>（9/25 的 18:45–19:00 / 10/22 的 18:05–18:18），<strong>此时桥体照明与桥塔泛光已亮</strong>；<strong>③ 50–85mm 单拍一对桥塔的花岗岩细节，最佳时间是 16:00–17:00 的侧光。</strong><strong>动态元素：MBTA Red Line 走桥的中央路基、在桥上是露天段，班距约 5–9 分钟。用 1/2–2 秒把车拉成一条红色光带，这是这张照片的加分项，值得多等两班车。</strong><strong>三脚架在人行道上无限制，但桥面有车流震动——尽量靠外侧栏杆、必要时开防抖并按快门线延时。</strong><strong>2026 年 9 月核实桥本身没有在施工。</strong>"
+          },
+          {
+            "name": "Charles River Esplanade 与 Arthur Fiedler Footbridge（Boston 侧公园）",
+            "view": [
+              42.35596,
+              -71.07312
+            ],
+            "desc": "坐标为 OSM「Arthur Fiedler Footbridge」（跨 Storrow Drive 的人行天桥）。<strong>先把预期降下来：Esplanade 不是拍天际线的地方。</strong>从这里朝北看的是 Cambridge，<strong>而太阳整个秋季都在南半天，所以 Cambridge 那一侧的沿河立面同样永远是阴面</strong>；朝南看是 200 Clarendon（<strong>方位 192°、773 米</strong>），<strong>但正午太阳在 180°，几乎正在楼后面，是彻底的逆光。</strong>→ <strong>结论：这里的题材是公园本身——秋叶、泻湖、帆船、天桥的曲线，以及从西侧近距离拍 Longfellow Bridge。</strong><strong>最佳时段 15:00–17:00 的侧光</strong>（10/22 时太阳方位 222°–247°、高度 8°–26°，<strong>横向掠过树冠，秋叶透光最好</strong>）。<strong>三个具体目标：</strong><strong>① Fiedler 天桥的螺旋坡道</strong>，24mm 从下往上拍它与树冠的关系；<strong>② Storrow Lagoon 的水面倒影＋秋叶</strong>，50mm，<strong>用偏振镜压掉水面反光让倒影更实</strong>；<strong>③ Community Boating（OSM 42.35984／-71.07306）的帆船桅杆群</strong>，<strong>135mm 压缩成一片桅杆林，背景是 Cambridge 岸——这是最少人拍的一张</strong>（<strong>秋季船队何时上岸未能从官方渠道确认，请当作可能没有船</strong>）。<strong>需要注意的施工：Charlesbank ＋ Smith Family Pavilion（$24M）在 Museum of Science 一侧施工，目标 2026 年 11 月 1 日开放——也就是说你来的时候那一段仍是工地，围挡明确。Esplanade 其余部分正常开放。</strong><strong>免费、24 小时、三脚架无限制</strong>，但<strong>入夜后河岸公园人少灯暗，独行者建议蓝调结束就撤到 Beacon Street 一侧。</strong>"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约。</strong>Charles River Esplanade、Cambridge 岸的 Memorial Drive 河滨路径、Longfellow Bridge 与 Harvard Bridge 的人行道全部是公共空间，<strong>直接走进去即可，没有任何票务或登记环节。</strong>",
+          "ticket": "<strong>免费。</strong>四个机位全部无门票。",
+          "hours": "<strong>河岸公园与两座桥的人行道实务上 24 小时开放</strong>（Esplanade 由 Massachusetts DCR 管理，无门无闸）。<strong>但真正约束你的不是开放时间而是天光：9 月 25 日日落 18:38、民用暮光结束 19:04；10 月 22 日日落 17:53、民用暮光结束 18:21。</strong><strong>换句话说十月下旬六点半以后这里已经没有可用的天光了。</strong><strong>Charlesbank ＋ Smith Family Pavilion 工地（Museum of Science 一侧）目标 2026 年 11 月 1 日开放，行程窗口内仍在施工。</strong>",
+          "parking": "<strong>不建议自驾</strong>。Storrow Drive 沿线没有可用的路边停车，Cambridge 的 Memorial Drive 沿线为限时路边位、周末与傍晚极难找。<strong>MBTA 是唯一合理的方案：</strong><strong>Red Line「Charles/MGH」站就在 Longfellow Bridge 的 Boston 端桥头</strong>（下车即到机位）；<strong>Red Line「Kendall/MIT」站是 Cambridge 端；</strong><strong>Green Line「Arlington」或「Hynes」站步行到 Esplanade 约 10 分钟</strong>（须走 Fiedler 天桥或 Arthur Fiedler / Dartmouth Street 的过街天桥跨 Storrow Drive）。<strong>周边商业车库费率未能从官方渠道确认。</strong>",
+          "walk": "<strong>Charles/MGH 站到 Longfellow Bridge 桥面中点约 450 米 / 6 分钟</strong>；到 <strong>Esplanade 主步道约 500 米 / 7 分钟</strong>。<strong>Kendall/MIT 站到 MIT Sailing Pavilion 约 900 米 / 12 分钟</strong>。<strong>Hynes 站（Green Line）到 Harvard Bridge 南端约 550 米 / 7 分钟</strong>，再走到桥面中点加 <strong>250 米 / 3 分钟</strong>。<strong>Fiedler 天桥到 Hatch Memorial Shell 约 150 米 / 2 分钟</strong>；<strong>Hatch Shell 到 Longfellow Bridge 桥头约 450 米 / 6 分钟。</strong><strong>Sailing Pavilion 到 Longfellow Bridge 中点沿 Cambridge 岸约 1.2 公里 / 16 分钟</strong>——<strong>注意这段路没有捷径，蓝调只有 25 分钟，不要指望一晚上跑完两个机位。</strong>"
+        },
+        "notes": [
+          "<strong>本条目的一句话执行结论：日落＋蓝调，不是日出。</strong>日出方位 90°–104° 会把塔楼变成逆光剪影；而朝河的立面整个秋季拿不到直射光，所以白天来这里等于白来",
+          "<strong>十月下旬的蓝调只有 17:53–18:21 这 28 分钟</strong>，<strong>务必 17:30 之前架好机位、试好参数</strong>。这是本区最容易因为「以为还早」而错过的一张",
+          "<strong>河面必须长曝 1 秒以上</strong>，否则涟漪把倒影切碎；<strong>ISO 100 / f/8 / 2–8 秒 / 三脚架</strong>是这里的标准配置。<strong>白平衡也要手动固定在 3800–4200K</strong>——自动白平衡会被楼窗里混杂的钠灯与 LED 带着跑，一组片子色调对不上",
+          "<strong>「太阳落在 Longfellow Bridge 桥塔之间」这一张有强时效性</strong>：桥面轴线 272.5°，<strong>9 月 25 日日落 269.5°（偏 3°，极佳）、10 月 22 日 255.7°（偏 17°，已失效）</strong>。越早来越好",
+          "<strong>Head of the Charles Regatta 10 月 16–18 日（周五至周日）是本条目最大的风险。</strong>赛道主要在上游（Boston University 到 Eliot Bridge），<strong>但三天里有约 30 万观众沿两岸与各桥聚集，Memorial Drive 会分段封路、桥上人满</strong>。<strong>如果你的目标是干净的天际线长曝，避开这三天；如果你想拍人与赛艇，这三天反而是全年最好的机会</strong>",
+          "<strong>Storrow Drive 隧道维修把 Longfellow Bridge 当绕行路线（每晚 20:00–05:00）</strong>，<strong>但那在蓝调结束之后，对拍照没有影响；第二阶段是否在秋季恢复未能从官方渠道确认</strong>",
+          "<strong>Charlesbank ＋ Smith Family Pavilion 工地（Museum of Science 一侧）在你来的时候仍在施工</strong>，目标 11 月 1 日开放。Esplanade 其余部分正常",
+          "<strong>桥面有车流震动，三脚架在桥上效果有限</strong>；要长曝就退到两端岸上，或用快门线加延时并靠外侧栏杆。<strong>入夜后河岸公园人少灯暗</strong>，带三脚架与长焦独行时建议蓝调一结束就撤，不要在 Esplanade 深处久留"
+        ],
+        "images": []
+      },
+      {
+        "id": "acorn-street-beacon-hill",
+        "n": 5,
+        "name": "橡实街与灯塔山",
+        "en": "Acorn Street & Beacon Hill",
+        "score": 4.5,
+        "tldr": "巷宽约 5 米、房高约 11 米，秋季阳光永远打不到鹅卵石——所以阴天与 07:00 前才是正解，不是「等好光」。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "24 小时可拍",
+            "c": "free"
+          },
+          {
+            "t": "私人住宅街",
+            "c": "risk"
+          },
+          {
+            "t": "09:00 后人挤爆",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>全美被拍摄次数最多的一条街，长度只有 70 米。</strong>OSM way/818143478 实测：西端在 West Cedar Street 侧（<strong>42.35753／-71.06924</strong>），东端在 Willow Street 侧（<strong>42.35771／-71.06843</strong>），<strong>全长 70 米、走向 73.7°／253.7°</strong>。从头走到尾一分钟，认真拍值得留 40–60 分钟。",
+          "<strong>反直觉的身份：这条最上流的街当年是给下人住的。</strong>Acorn Street 建于 1820 年代前后，<strong>房子是给在 Chestnut Street 与 Mount Vernon Street 那些豪宅里干活的马车夫与仆役住的</strong>，所以门面比周边窄小得多、层高更低。正是这种「省钱」的尺度——窄巷加小立面——制造了今天这个密度极高的构图。<strong>鹅卵石路面是原装的，从未重铺</strong>，住户历来抵制铺沥青。",
+          "<strong>核心光线结论：秋季直射阳光永远到不了路面。</strong>巷道净宽约 <strong>5 米</strong>、两侧联排房约三层 <strong>10–12 米</strong>高，<strong>阳光要落到鹅卵石上需要太阳高度超过约 63–66°</strong>；而 Boston 的正午高度 <strong>9 月 25 日只有 46.6°、10 月 22 日只有 36.4°</strong>（Boston 全年最高也只有约 71°，只有仲夏正午才勉强够）。→ <strong>整条巷子在你到访的每一天都是柔光棚，不用等光。</strong><strong>但「柔光」不等于「随时都一样」，这里有一个必须避开的时段。</strong>巷道走向 73.7°，因此<strong>北侧那一排房子的立面朝 163.7°（南偏东），南侧那一排朝 343.7°（北偏西）</strong>。南侧朝北，秋季<strong>全天零直射光</strong>；北侧朝南，<strong>约 09:00–14:00 上部楼层会被直射光打亮</strong>，在画面上缘形成一条极亮的砖带，而路面还在阴影里——<strong>这条亮带与鹅卵石之间的光比常在 3–4 EV，是本机位唯一会毁片的技术问题。</strong>",
+          "<strong>Louisburg Square 是全美最老的业主协会，中间那块草地你进不去。</strong>广场（OSM way/8646541，中心 <strong>42.35845／-71.06877</strong>，走向 <strong>350°／170°</strong>、南北向长约 94 米）由 <strong>Louisburg Square Proprietors 自 1844 年起私有</strong>，被普遍认为是<strong>全美最早的住宅业主组织</strong>——<strong>围栏内的椭圆形绿地是私产，只有周边住户有钥匙</strong>，两端各有一尊雕像（Aristides 与 Columbus）。<strong>Louisa May Alcott 在 10 号去世</strong>；街道本身是公共通行的，隔栏拍摄完全没问题。",
+          "<strong>Massachusetts State House 的金顶有一个 11 月 3 日的期限。</strong>Charles Bulfinch 设计、<strong>1798 年 1 月 11 日完工，是 Beacon Hill 上最老的建筑</strong>。穹顶的材料史很值得知道：<strong>最初是木瓦刷白灰，1802 年由 Paul Revere and Sons 覆铜</strong>，后来刷灰、刷金，<strong>1874 年首次贴 23K 金箔（当年花了 $2,862.50）</strong>，<strong>二战期间为防月光反射引导轰炸而整个刷成黑色</strong>，<strong>1997 年最近一次重贴金箔，花了 $300,000</strong>。顶端一直是一颗松果，纪念殖民时期的木材业。还有一条冷知识：<strong>这个金顶是地图上「Boston」的官方坐标点</strong>——路牌上写「50 miles to Boston」指的是距这个金顶 50 英里。<strong>DCAMM 的 $1,110 万穹顶大修（BSB2403）开工日期是 2026 年 11 月 3 日，含穹顶周圈脚手架</strong>，所以你这一趟拍到的是最后一批无脚手架的金顶。"
+        ],
+        "photo": "街拍 <strong>5/5</strong>，建筑 <strong>4/5</strong>，人像 <strong>4.5/5</strong>，风光 <strong>1/5</strong>。题材密度与色调统一度是全区第一（红砖加黑门加黄铜门牌加煤气灯），而且完全不受天气与开放时间限制；扣分只在两点：巷子太短、以及 09:00 之后你的构图里一定站着别人。",
+        "shots": [
+          {
+            "name": "Acorn Street 西端（West Cedar Street 侧）向东",
+            "view": [
+              42.35753,
+              -71.06924
+            ],
+            "desc": "<strong>招牌构图，坐标为 OSM 巷道西端节点。</strong>相机降到<strong>膝高或更低（40–60 厘米）</strong>，让前景鹅卵石占画面下三分之一，两侧砖立面向消失点收拢，巷尾的天光做出口。<strong>最佳时段两段：07:00–08:30 与 16:00–17:30</strong>——此时太阳低到连北侧上部楼层都不受光，<strong>整个画面落在同一档均匀光里，后期最省事</strong>；而且这两段是全天人最少的时候（9 月 25 日日出 06:33、10 月 22 日日出 07:04，<strong>十月来的话 07:00 到就是天刚亮</strong>）。<strong>必须避开 10:00–14:00 的晴天</strong>：北侧上部楼层会出现 3–4 EV 的亮砖带，要么压半档曝光、要么把构图压低到不拍屋檐。<strong>阴天是这里最好的天气，不是次好</strong>——薄云漫射时反差最小，砖色、黑门、鹅卵石的层次全都保得住。<strong>焦段 24–28mm 是甜点</strong>；16mm 会把只有 70 米的巷子拉成 25 米、两侧散掉；<strong>50mm 从西端压缩会让砖墙层层贴合、密度最高</strong>，是被低估的选择。<strong>雨后是彩蛋</strong>：湿鹅卵石反天光成一条亮线，纵深立刻翻倍。<strong>不要架三脚架</strong>——这是住宅街，别在别人门口占二十分钟。"
+          },
+          {
+            "name": "Acorn Street 东端（Willow Street 侧）向西",
+            "view": [
+              42.35771,
+              -71.06843
+            ],
+            "desc": "坐标为 OSM 巷道东端节点。<strong>朝西拍，太阳在你背后，是唯一可能有纵向光的方向。</strong><strong>已算出的彩票：10 月 26 日日落方位恰为 253.7°，与巷道轴线完全重合，时刻 17:46</strong>（10 月 24 日为 254.6°、10 月 28 日为 252.7°，前后几天都在 1 度内）。若光能沿轴线射入，会打亮整排立面并在鹅卵石上拉出长影。<strong>但此时太阳高度是 0°，West Cedar Street 对面的联排房几乎肯定挡住这道光——该遮挡关系无法远程核实，请把它当成低成本尝试，成了是全区最好的一张，不成也不亏。</strong>常规用法上这个方向同样成立：<strong>85mm 从东端向西压缩，能把两侧的黑色木门与黄铜门牌叠成一条重复图案</strong>，这是本巷最容易被忽略的抽象构图。35mm 竖幅拍「巷道加天空」的比例最舒服。"
+          },
+          {
+            "name": "Louisburg Square 隔栏与 Mount Vernon Street",
+            "view": [
+              42.35845,
+              -71.06877
+            ],
+            "desc": "坐标为 OSM Louisburg Square 广场中心。<strong>广场走向 350°／170°（南北向），所以它的光线规律与 Acorn Street 正好相反</strong>：<strong>东侧那一排房子朝西（法向 260°），下午 15:30–17:30 正面受光</strong>；西侧那一排朝东，<strong>上午 07:30–10:00 受光</strong>。<strong>这让 Louisburg Square 成为 Beacon Hill 唯一能拍到「阳光下的整面联排立面」的地方</strong>——Acorn Street 做不到这件事。10 月 22 日 16:00 太阳高度 17.9°、方位 235.2°，光几乎平打在东侧立面上，扇形气窗与黑铁栏杆会被侧光勾出全部体积。<strong>35mm 拍整排立面加中央绿地的围栏做前景</strong>；<strong>85–135mm 隔着铸铁栏杆用 f/2–2.8 把栏杆虚化到几乎消失</strong>，把镜头前缘贴近栏杆缝隙。顺路 100 米就是 <strong>Mount Vernon Street</strong>（OSM 实测走向 <strong>79.9°</strong>，这 6 度的差别意味着它比 Acorn Street 稍宽、上部受光时间更长），街道更宽、马车道石阶与煤气灯更完整，是拍单栋门面的好地方。"
+          },
+          {
+            "name": "Boston Common 西北角望 State House 金顶",
+            "view": [
+              42.35722,
+              -71.06429
+            ],
+            "desc": "<strong>坐标为 Boston Common 内近 Beacon Street 一侧的位置（几何推算，取自 Common 与 State House 之间的连线）。</strong>State House 本体 OSM 节点为 <strong>42.35860／-71.06388</strong>，<strong>主立面朝南、正对 Boston Common</strong>，所以<strong>这是本区极少数「秋季全天正面受光」的建筑</strong>。<strong>最佳 11:00–14:30</strong>（9/25 正午 12:35 高度 46.6°／方位 180°；10/22 为 12:28／36.4°／180°）；<strong>十月实际优于九月</strong>——太阳更低，砖体与白色列柱的立体感更强，金顶不会顶光过曝。<strong>次佳是 16:30–17:30 的黄金时段</strong>：金箔在低角度暖光下会真正「烧」起来，这是 23K 金箔唯一能拍出金属质感的时刻（正午顶光下它只是一块亮黄色）。<strong>焦段：135–200mm 单抽金顶与松果顶饰是这里最强的一张</strong>（金顶直径不大，24mm 会让它缩成一个小点）；<strong>35mm 拍「Common 的树加台阶加立面」的完整关系</strong>，10 月下旬树叶转色后这一张的价值翻倍。<strong>Beacon Street 人行道上 24 小时可拍，不需过安检。</strong>要进楼请走 Beacon Street 上 Park Street 顶端的 <strong>General Hooker Entrance</strong>。"
+          }
+        ],
+        "access": {
+          "book": "<strong>Acorn Street、Louisburg Square、Boston Common 全部是公共空间，不需预约、不需票。</strong>State House 室内<strong>自助参观不需预约</strong>；<strong>免费的 40 分钟导览需要提前电话预约</strong>——官方口径「We can only accept tour reservations by phone」，电话 <strong>617-727-3676</strong>，1–50 人皆可，<strong>10 人以上须提前至少三周</strong>。",
+          "ticket": "<strong>Acorn Street、Louisburg Square、Boston Common、State House 全部免费。</strong>State House 导览官方原文「free of charge」，含 House 与 Senate Chambers、「Sacred Cod」与州昆虫瓢虫的典故。<strong>Louisburg Square 中央绿地是私产，任何票都进不去。</strong>",
+          "hours": "<strong>Acorn Street 与 Louisburg Square：24 小时（公共街道）。</strong><strong>Boston Common：全年开放</strong>（Boston 市属公园，夜间不建议久留）。<strong>Massachusetts State House 官方原文：「Tours are given weekdays year-round from 10 a.m. to 3:30 p.m., free of charge. The building is open weekdays from 8:45 a.m. to 5 p.m., and closed on weekends and holidays.」</strong>→ <strong>周末与法定假日室内完全不开</strong>；你的窗口内 <strong>10 月 12 日（Indigenous Peoples Day）是假日，室内不开</strong>。<strong>金顶外景不受任何时段限制。</strong>注意 State House 室内<strong>全员过安检</strong>，入口在 Beacon Street 的 General Hooker Entrance，无障碍入口在 Bowdoin Street 一侧有坡道。",
+          "parking": "<strong>不要在 Beacon Hill 开车。</strong>这一带是 18–19 世纪的窄巷网络，<strong>Acorn Street 本身是单行鹅卵石路、路边基本没有游客可用车位</strong>，居民区限时限证停车执法很严。<strong>MBTA 方案：Red Line 或 Green Line 到「Park Street」站</strong>（State House 与 Common 用这站）；<strong>Red Line 到「Charles/MGH」站</strong>（Acorn Street 与 Charles Street 用这站，更近）。<strong>Boston Common Garage 在 Common 地下</strong>，是这一带最省事的车库，<strong>费率未能从官方渠道确认</strong>。",
+          "walk": "Charles/MGH 站到 Acorn Street 西端约 <strong>600 米 / 8 分钟</strong>（一路上坡，Beacon Hill 名副其实）；Park Street 站到 State House 约 <strong>150 米 / 2 分钟</strong>；Acorn Street 到 Louisburg Square 约 <strong>150 米 / 2 分钟</strong>；Acorn Street 到 State House 约 <strong>600 米 / 9 分钟</strong>；<strong>Acorn Street 到 Public Garden 的 Charles Street 入口约 500 米 / 7 分钟</strong>——这两个点是天然的一组。"
+        },
+        "notes": [
+          "<strong>最重要的一条：Acorn Street 上住着人，这不是景点。</strong>不要坐或站在住户台阶上、不要触碰门与花箱、不要把镜头对着窗户往里拍、不要在 08:00 前或 20:00 后大声交谈。<strong>住户有权要求你停止，请立刻配合</strong>",
+          "<strong>人流时间表比光线时间表更重要</strong>：<strong>09:00 之后开始有旅游团与拍写真的，10:00–16:00 基本无法拍到空巷</strong>，婚纱与网红拍摄常常占据整条巷子。<strong>想要空场只有 07:00–08:30 一个窗口</strong>（十月里这正好是日出后不久，光也刚好）",
+          "<strong>秋季的具体变化：常春藤与窗台花箱会换掉。</strong>巷内几户的爬藤在 10 月下旬转红，<strong>而夏天那些爆满的窗台花箱会在入秋后被换成南瓜、玉米秸与菊花的秋季组合</strong>。也就是说<strong>你拍到的不会是网上流传的那个绿意版本</strong>——色调会更暖、更干、更接近砖色，这未必是坏事，但请调整预期",
+          "<strong>路面是真鹅卵石，非常不平</strong>，蹲低机位时注意脚下；雨后石面极滑，硬底鞋要小心。这也是巷内几乎没有轮椅可达性的原因",
+          "<strong>不要用 16mm 级别的超广</strong>——70 米的巷子经不起这种拉伸，24–28mm 与 50mm 才是这里的正确焦段",
+          "<strong>Louisburg Square 中央绿地不要跨栏</strong>：那是 1844 年起的私产，隔栏用长焦拍效果更好，也不会引起冲突",
+          "<strong>State House 只在工作日开、且 10 月 12 日因假日闭馆</strong>；若你只有周末在 Boston，室内直接删掉，金顶外景照样能拍出全区最好的一张建筑照",
+          "<strong>金顶脚手架的时限是 2026 年 11 月 3 日</strong>（DCAMM BSB2403 开工日），这一趟拍不到就要等大修结束"
+        ],
+        "images": [
+          {
+            "url": "img/acorn-street-beacon-hill-boston-331ee502.jpg",
+            "cap": "Acorn Street 的鹅卵石路面与联排砖房 · R Boed / CC BY 2.0"
+          },
+          {
+            "url": "img/boston-louisburg-square-48718896076-d9613d9e.jpg",
+            "cap": "Louisburg Square 与中央私有绿地 · Ajay Suresh / CC BY 2.0"
+          },
+          {
+            "url": "img/massachusetts-state-house-from-boston-common-boston-massachu-dfed0714.jpg",
+            "cap": "从 Boston Common 望 Massachusetts State House 金顶 · Christian David / CC BY-SA 4.0"
+          }
+        ]
+      },
+      {
+        "id": "public-garden-boston-common",
+        "n": 6,
+        "name": "公共花园与波士顿公园",
+        "en": "Boston Public Garden & Boston Common",
+        "score": 4,
+        "tldr": "天鹅船 9 月 7 日已收季，但空湖面反而给了干净的桥倒影；红叶要等到 10 月 22 日以后才成立。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "24 小时可拍",
+            "c": "free"
+          },
+          {
+            "t": "天鹅船已收季",
+            "c": "risk"
+          },
+          {
+            "t": "10/22 前基本还绿",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>先把最重要的一条说清：天鹅船在 9 月 7 日（Labor Day）已经收季，本次拍不到。</strong>官方 swanboats.com 原文「<strong>Last day of season: September 7, 2026</strong>」，Boston 市政府官网也确认「close for the season on Labor Day, September 7, and re-open for the 150th time in April 2027」。<strong>但这未必是坏消息</strong>：没有船就<strong>没有尾迹，湖面在无风的早晨是完整的镜面</strong>，<strong>Lagoon Bridge 的倒影因此比夏天更完整</strong>，船坞那一带常年排队的人群也不在了。天鹅船本身自 <strong>1877 年</strong>运营至今，<strong>现役最老的一条 1910 年下水</strong>，而 Public Garden 的地标研究报告里写明<strong>划天鹅船与冬季滑冰是这片受保护景观内唯一被允许的两项游憩活动</strong>。",
+          "<strong>Public Garden 是全美第一座公共植物园（1837 年建立），1977 年列为 Boston Landmark。</strong>它与 Boston Common 只隔一条 Charles Street，但性质完全不同：<strong>Common 是 1634 年设立的公共牧场、全美最古老的城市公园</strong>，地形起伏、树种杂、氛围市井；<strong>Public Garden 是 19 世纪的维多利亚式园林</strong>，有明确的中轴、花坛、异国树种与人工湖。<strong>拍照上这个区别很实际：Public Garden 出「构图」，Common 出「氛围」。</strong>",
+          "<strong>Lagoon Bridge 是全区最上镜的小型构筑物。</strong>横跨人工湖的这座小桥常被介绍为「世界上最小的悬索桥」（<strong>该称号广泛流传但未能从官方渠道核实</strong>；现存结构在 20 世纪已被改为实质上的梁桥）。<strong>它的价值在于尺度：桥很小，所以你可以用一支 35mm 就把「桥＋倒影＋两岸垂柳＋远处天际线」全收进来</strong>，这在别的城市要用长焦拼。",
+          "<strong>《Make Way for Ducklings》铜像的位置与朝向值得先知道。</strong>OSM 节点 <strong>42.35552／-71.06975</strong>，在 Public Garden 东北角、靠 Charles Street 与 Beacon Street 那一侧。Nancy Schön 1987 年作，八只小鸭跟着 Mrs. Mallard 排成一列，取自 Robert McCloskey 1941 年的绘本。<strong>实拍要点：铜像贴地，所以唯一成立的机位是把相机放到地面高度</strong>，<strong>而且它总是被摸得发亮、常常被人套上季节性的小衣服</strong>（万圣节前后概率很高）——<strong>这不是干扰，是这座城市的一部分，值得拍下来。</strong>",
+          "<strong>秋色的时间判断，直接决定这个点值几分。</strong>Boston 与东部沿海的峰期是 <strong>10 月 22 日–11 月 5 日</strong>，核心几天大概率在 <strong>10 月 25 日–11 月 1 日</strong>。→ <strong>如果你在 9 月末到 10 月中来，这里基本还是绿的，本条目应该降到 3 分；10 月 22 日以后来，它值 4.5 分。</strong>还有一个树种上的差别要知道：<strong>南部 New England 的秋色以橡树（oak）为主导，是深酒红与铁锈红，不是 Vermont 那种亮橙黄</strong>（Boston Globe 2026 年 9 月 4 日）；而 Public Garden 里大量的<strong>垂柳在整个秋季基本保持黄绿</strong>，所以这里的秋色是「红＋黄绿＋水面」的组合，而不是满屏火红。"
+        ],
+        "photo": "风光 <strong>4/5</strong>（10/22 后）／<strong>2.5/5</strong>（之前），城市公园 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>，建筑 <strong>3/5</strong>。免费、24 小时、天气容错高、且是唯一能同时拍到自然与 Back Bay 天际线的地方；扣分全在时间——天鹅船已走，红叶要等，两件事都不在你手上。",
+        "shots": [
+          {
+            "name": "Lagoon Bridge 与湖面倒影",
+            "view": [
+              42.35409,
+              -71.07004
+            ],
+            "desc": "<strong>坐标为 OSM Public Garden 公园中心；桥在湖面中段，无独立 OSM 实体（几何推算）。</strong><strong>最佳是清晨 06:30–08:30</strong>——理由有三，都很硬：① <strong>无风时段，湖面是镜面</strong>（天鹅船已收季，连尾迹都没有）；② 9/25 日出 06:33、10/22 日出 07:04，<strong>此时太阳方位 90°–104°，低角度暖光从东边横扫过湖面，垂柳被逆光打成半透明</strong>；③ <strong>全天人最少</strong>。<strong>次佳是日落前 45 分钟</strong>（9/25 17:51–18:36、10/22 17:07–17:52），此时太阳在西南（方位 235°–256°），<strong>光沿着湖的长轴打过来，桥的侧面受光</strong>。<strong>构图：机位压到贴近水面（20–40 厘米），让倒影占画面下半</strong>——站着拍这座桥永远拍不好，因为它太矮。<strong>35mm 是甜点</strong>（能同时收桥、倒影、两岸垂柳与一角天际线）；<strong>24mm 会把桥拍得太小</strong>；<strong>85–135mm 从湖的一端压缩，把桥拱与倒影叠成一个完整的椭圆</strong>，是这里最容易被忽略、也最干净的一张。<strong>CPL 在这里要谨慎</strong>：它会削弱倒影，<strong>想要强倒影就不要用；想压水面反光看清水底落叶才用。</strong><strong>手持完全够（清晨 ISO 800–1600），但如果要拍长曝把水面抹平，这里是公共公园、三脚架可用。</strong>"
+          },
+          {
+            "name": "Make Way for Ducklings 铜像（贴地机位）",
+            "view": [
+              42.35552,
+              -71.06975
+            ],
+            "desc": "坐标为 OSM 铜像节点，在 Public Garden 东北角近 Charles Street 与 Beacon Street 一侧。<strong>唯一成立的机位是把相机放到地面</strong>——铜像的鸭子只有二三十厘米高，站着拍出来永远是「俯视一排小疙瘩」。<strong>把机身直接搁在铺装上，用翻转屏取景</strong>，让第一只小鸭在前景、Mrs. Mallard 与后面的鸭队向纵深排开。<strong>时段：这一带东侧与北侧有高树，所以直射光只在 08:00–10:00 能斜射进来</strong>（9/25 的 09:00 太阳高度 25.1°、方位 116.8°）；<strong>10:30 之后铜像基本全天在树荫里</strong>——这对铜的质感其实是好事（漫射光下被摸亮的黄铜部分与深色锈层分离得最清楚），<strong>所以这个机位几乎不受时段限制，阴天照样成立</strong>。<strong>35–50mm 拍鸭队纵深；85–100mm 微距拍单只鸭被摸亮的头顶</strong>（那层反光是几十年游客手掌抛光出来的，是这件作品真正的时间痕迹）。<strong>秋季有很高概率碰到铜像被套上季节性装饰（万圣节前后尤其）</strong>——想拍「干净的原作」就早上去，想拍城市生活就正好。"
+          },
+          {
+            "name": "Boston Common 望 Back Bay 天际线与秋色",
+            "view": [
+              42.35504,
+              -71.06607
+            ],
+            "desc": "坐标为 OSM Boston Common 公园中心。<strong>这是本条目里最依赖日期的一张：10 月 22 日之前基本不成立。</strong><strong>最佳时段是日落前 45 分钟到蓝调结束</strong>（9/25 <strong>17:51–19:11</strong>、10/22 <strong>17:07–18:27</strong>）：<strong>朝西南望，Back Bay 的塔群在你视线尽头，落日方位 256°–269° 恰好在那个方向偏右</strong>，<strong>秋叶被逆光打成半透明，而远处玻璃幕墙同时反射晚霞</strong>——这是 Boston 唯一能把「树的秋色」与「城市天际线」叠在一张里的位置。<strong>请注意 10 月 22 日民用晨昏 18:19 就结束</strong>，也就是说<strong>整个可用窗口只有 70 分钟，而且下午五点你就得站在这里</strong>。<strong>焦段：70–200mm 是主力</strong>——压缩后天际线会变大、树冠与塔楼的尺度关系才成立；<strong>24–35mm 会让天际线缩成一条细线，效果差很多</strong>。构图上找两样东西：<strong>Frog Pond 一带的开阔草坡（能拍到完整的树形轮廓）</strong>，以及<strong>Common 内那些铸铁灯柱</strong>——蓝调时灯亮起，是把前景、中景、远景串起来的唯一元素。<strong>Common 与 Public Garden 都是公共公园，三脚架没有限制，蓝调时值得带一支。</strong><strong>治安提示：Common 夜间（尤其是靠 Boylston Street 与 Tremont Street 那侧）不建议独自久留</strong>，蓝调拍完就走。"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约、不需票。</strong><strong>天鹅船 2026 季已于 9 月 7 日结束</strong>，本来也是现场买票、不接受预约（供明年参考：成人 $4.75、2–15 岁 $3.25、65 岁以上 $4.25、2 岁以下免费，单程约 12–15 分钟，接受现金与信用卡）。",
+          "ticket": "<strong>Public Garden 与 Boston Common 全部免费。</strong>园内所有雕像、桥、湖、草坪均无收费项目。",
+          "hours": "<strong>两座公园都是 Boston Parks and Recreation Department 管理的市属公园，全年开放</strong>，<strong>没有围栏关门的机制，实务上 24 小时可进入</strong>。<strong>但夜间不建议久留</strong>（尤其 Boston Common 靠 Tremont Street 一侧）。<strong>官方明确规定：Public Garden 内禁止喂任何鸟类</strong>（原文「The Boston Parks and Recreation Department restricts the feeding of all birds in the Boston Public Garden to maintain the health of the wildlife and the cleanliness of the Public Garden lagoon」）。<strong>湖面在天鹅船收季后是否会放水检修，未能从官方渠道确认</strong>——往年一般在入冬前才放，但如果你极度依赖倒影这张，<strong>建议出发前打 Boston Parks 或 617-522-1966 问一句</strong>。",
+          "parking": "<strong>Boston Common Garage 在 Boston Common 地下</strong>，是这一带唯一大型车库，<strong>费率未能从官方渠道确认</strong>。<strong>更好的方案是地铁</strong>：<strong>Green Line「Arlington」站</strong>（在 Arlington Street 与 Boylston Street 转角，过条街就进 Public Garden，官方说法是<strong>到天鹅船船坞约 4 分钟步行</strong>）；<strong>Red／Green Line「Park Street」站</strong>（Boston Common 东北角）；<strong>Green Line「Boylston」站</strong>（Common 东南角）。",
+          "walk": "Arlington 站到 Lagoon Bridge 约 <strong>350 米 / 5 分钟</strong>；Arlington 站到 Make Way for Ducklings 约 <strong>500 米 / 7 分钟</strong>；Park Street 站到 Common 中心约 <strong>250 米 / 3 分钟</strong>。<strong>Public Garden 与 Boston Common 只隔一条 Charles Street，两园之间步行 3 分钟</strong>；<strong>到 Acorn Street 约 500 米 / 7 分钟</strong>，<strong>到 Newbury Street 西端约 400 米 / 5 分钟</strong>——这三个点适合排成一条线。"
+        },
+        "notes": [
+          "<strong>天鹅船 9 月 7 日已收季，2027 年 4 月才回来（那将是第 150 季）。</strong>不要按网上的照片规划这一张。把它换成「空湖面镜像」——<strong>无船的湖面在无风的清晨反而是更好的题材</strong>",
+          "<strong>红叶的日期分界线是 10 月 22 日。</strong>之前来，这里是「夏末的绿公园」；之后来，才是秋色。<strong>如果你的行程在 10 月中之前，请把本条目的期望值调低，红叶去 Berkshires 或 Vermont 找</strong>",
+          "<strong>Boston 的秋色以橡树为主，是深酒红与铁锈红</strong>，不是北方那种亮橙黄；<strong>Public Garden 里大量垂柳整个秋季保持黄绿</strong>，所以这里的调子是「红＋黄绿＋水」，别指望满屏火红",
+          "<strong>Make Way for Ducklings 必须贴地拍</strong>，带翻转屏的机身或愿意躺下来是前提；<strong>秋季它很可能被套上季节性装饰</strong>，想拍原作就早去",
+          "<strong>官方禁止在 Public Garden 内喂鸟</strong>——不要为了让水鸟入镜而撒食物",
+          "<strong>这里是本区唯一可以用三脚架的地方</strong>（公共公园，无禁令），蓝调与长曝值得带一支；但<strong>Common 夜间治安一般，蓝调拍完就走，别独自留到全黑</strong>",
+          "<strong>湖面是否会在秋季放空检修未能从官方渠道确认</strong>；倒影这张有落空的可能，建议不要把它排成当天唯一目标",
+          "<strong>两园均由 Boston 市运营，不受联邦拨款影响，也不受天气以外的任何因素限制</strong>，是全区最灵活的填空目标"
+        ],
+        "images": []
+      },
+      {
+        "id": "back-bay-newbury",
+        "n": 7,
+        "name": "后湾褐石街区与纽伯里街",
+        "en": "Back Bay Brownstones & Newbury Street",
+        "score": 3.5,
+        "tldr": "街网实测 70°／250°：每条街只有北侧那排受光，南侧永久阴面；10 月 25 日落日几乎顺街轴落下。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "24 小时可拍",
+            "c": "free"
+          },
+          {
+            "t": "南侧全季无光",
+            "c": "risk"
+          },
+          {
+            "t": "商业街人多",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>Back Bay 是全美保存最完整的维多利亚城市街区，而且它的规整程度可以量化。</strong>OSM 实测五条东西向主街的走向几乎完全一致：<strong>Newbury Street 70.1°、Marlborough Street 70.1°、Beacon Street 70.0°、Commonwealth Avenue 69.9°、Boylston Street 69.5°</strong>（各取 180–220 米长的路段两端节点算得）。<strong>南北向的横街（Arlington、Berkeley、Clarendon、Dartmouth、Exeter、Fairfield、Gloucester、Hereford）因此全部走向约 160°／340°</strong>，而且<strong>它们的首字母是按字母顺序从东往西排的</strong>——这是全美最好用的城市导航彩蛋之一。整个区是 1857 年起用 Needham 运来的土方填出来的，<strong>所以街网是一次规划成型的，与 Beacon Hill 那种有机生长的巷网完全不同</strong>。",
+          "<strong>核心光线结论（本条目最有用的一条）：每条街只有一侧受光，而且整个秋季不变。</strong>街道走向 70°，因此<strong>街道北侧那一排房子的立面朝 160°（南偏东），南侧那一排朝 340°（北偏西）</strong>。秋季太阳方位始终在 <strong>88°–272°</strong> 之间，<strong>推论：南侧那一排（朝北）在整个行程窗口里一秒直射光都拿不到</strong>；<strong>北侧那一排（朝南）在约 09:00–14:30 受光，太阳方位到 160° 时正打</strong>（实测 9/25 约 11:20、10/22 约 11:35）。→ <strong>要拍「阳光下的褐石立面」，站在街道南侧的人行道上、拍对面（北侧）那一排。</strong>反过来说也成立：<strong>想要均匀无影的立面细节，就拍南侧那一排，它全天是柔光。</strong>",
+          "<strong>但十月有一个必须知道的削弱因素：太阳太低，只有上部楼层受光。</strong>Back Bay 的褐石多为四到五层、约 15–18 米高，街道连人行道宽约 20 米。<strong>正午时南侧房子向北投影的长度：9 月 25 日（高度 46.6°）约 16 米，10 月 22 日（高度 36.4°）约 22 米</strong>。→ <strong>九月正午时影子还没盖满街面，北侧立面的下部楼层与人行道仍有光；十月下旬影子已经超过街宽，北侧立面只有上面两三层受光，人行道与一二层全天在阴影里。</strong><strong>结论：想要「整面立面被阳光照亮」的照片，九月末明显优于十月末</strong>——这与本区大多数目标（十月优于九月）正好相反，是个反直觉的例外。",
+          "<strong>Commonwealth Avenue Mall 是本区秋色与落日几何的交汇点。</strong>Comm Ave 中央是一条宽阔的林荫步道（Frederick Law Olmsted 的 Emerald Necklace 体系的东端起点），两侧各是行车道，<strong>整条走向 69.9°／249.9°</strong>。<strong>而 10 月 25 日日落方位为 254.1°、10 月 31 日为 251.4°</strong>——<strong>与街轴只差 2–4 度</strong>。→ <strong>10 月下旬站在 Mall 上朝西南望，落日几乎是顺着这条林荫轴线落进画面的</strong>，此时头顶的秋叶被完全逆光打透。<strong>这是整个 Back Bay 最强的一张，而且日期越靠后越准。</strong>Mall 上每隔一个街区有一尊铜像（Alexander Hamilton、William Lloyd Garrison、Samuel Eliot Morison 等），是天然的前景锚点。",
+          "<strong>Newbury Street 的性质要先认清：它是商业街，不是住宅街。</strong>八个街区、约 300 家店，<strong>底层几乎全部被店面改造过（玻璃橱窗、雨棚、招牌、露天座位）</strong>，<strong>真正完整的维多利亚立面只存在于二层以上</strong>。→ <strong>实拍推论：在 Newbury Street 要么抬头拍（二层以上的凸窗、檐口、屋顶线），要么低头拍（橱窗、雨棚、露天座位的城市生活），中间那一段是最乱的。</strong><strong>想拍纯粹的褐石联排，请往北走一条街到 Marlborough Street 或 Beacon Street</strong>——那两条是安静的住宅街，立面完整、几乎没有商业改造，<strong>而且游客密度是 Newbury 的十分之一。这是本条目最实际的一条建议。</strong>"
+        ],
+        "photo": "建筑 <strong>4/5</strong>，街拍 <strong>4/5</strong>，风光 <strong>3/5</strong>，人像 <strong>4/5</strong>。免费、24 小时、街网规整到可以精确计算光线，Comm Ave Mall 的落日轴线是真正的加分项；扣分在于「一条褐石街道」本身的辨识度不如 Acorn Street，而 Newbury 的底层商业改造削弱了立面的完整性。",
+        "shots": [
+          {
+            "name": "Commonwealth Avenue Mall 朝西南（落日轴线＋秋叶逆光）",
+            "view": [
+              42.35082,
+              -71.08144
+            ],
+            "desc": "坐标为 OSM Commonwealth Avenue 路段节点（Dartmouth 与 Exeter 之间一带）。<strong>这是本条目最强的一张，而且时间点是算出来的。</strong><strong>最佳：日落前 30 分钟到日落</strong>（9/25 <strong>18:06–18:36</strong>、10/22 <strong>17:22–17:52</strong>、10/25 <strong>17:17–17:47</strong>）。<strong>Mall 轴线 249.9°，而 10 月 25 日落日方位 254.1°、10 月 31 日 251.4°——只差 2–4 度</strong>，<strong>所以越靠 10 月底，太阳越准确地落在你视线的正前方</strong>。此时<strong>头顶整条林荫的秋叶被完全逆光打透</strong>，而两侧褐石立面在暖光下变成一条对称的画框。<strong>器材要点：太阳在画面里，所以</strong><strong>① 用小光圈 f/11–f/16 把太阳拍成星芒</strong>（这是唯一让「太阳在画面里」好看的办法）；<strong>② 或者等太阳压到树冠后面、只留一片透光的叶幕</strong>，那一张更耐看；<strong>③ 逆光下务必用遮光罩并把镜片擦干净</strong>，一点灰或指纹在 f/16 逆光下会变成满屏鬼影。<strong>焦段 24–35mm 拍轴线纵深</strong>；<strong>70–200mm 从 Mall 一端压缩，把几个街区的树冠叠成一层层的叶幕</strong>，是这里最容易出片的一张。<strong>Mall 上的铜像是天然前景</strong>——把一尊像放在画面下三分之一做剪影。<strong>公共步道，三脚架可用。</strong><strong>注意 10 月 22 日之前秋叶可能还没转色，这张的价值与日期强绑定。</strong>"
+          },
+          {
+            "name": "Marlborough Street 或 Beacon Street 住宅段（完整褐石立面）",
+            "view": [
+              42.35406,
+              -71.07429
+            ],
+            "desc": "坐标为 OSM Marlborough Street 路段节点（Arlington 与 Berkeley 之间一带）。<strong>这是本条目真正该去的地方，不是 Newbury Street。</strong>Marlborough 与 Beacon 是安静住宅街，<strong>立面从地面到屋顶线完整、没有商业招牌、游客密度极低</strong>。<strong>时段两选一，取决于你要什么：</strong><strong>① 要「阳光下的立面」→ 站在街道南侧人行道、拍对面北侧那一排，最佳 10:30–13:30，且九月末明显优于十月末</strong>（十月太阳太低，影子超过街宽，只有上面两三层受光）。<strong>② 要「均匀的立面细节」→ 拍南侧那一排，全天柔光、阴天更好</strong>——朝北的立面在整个秋季零直射光，这是它的缺点也是它的优点。<strong>构图找三样东西</strong>：<strong>凸窗（bay window）的重复韵律</strong>（<strong>50–85mm 正对压缩，让十几个凸窗叠成一条锯齿</strong>，这是 Back Bay 最有辨识度的抽象构图）；<strong>入口台阶与黑铁栏杆的序列</strong>（35mm 沿人行道纵向）；<strong>屋顶线与檐口</strong>（85–135mm 上仰，把天空压成背景）。<strong>拍摄要正对、要水平</strong>——褐石立面一歪，砖缝与窗轴线就全乱，<strong>竖幅时务必用电子水平仪或后期做透视校正</strong>。<strong>这是住宅街，不要架三脚架长时间占住户门口，也不要对着窗户往里拍。</strong>"
+          },
+          {
+            "name": "Newbury Street（二层以上立面＋街头生活）",
+            "view": [
+              42.35004,
+              -71.08093
+            ],
+            "desc": "坐标为 OSM Newbury Street 路段节点（Exeter 与 Fairfield 之间一带）。<strong>把 Newbury 当街拍场地，不要当建筑场地。</strong><strong>两种用法，时段完全不同：</strong><strong>① 拍立面 → 只拍二层以上，站南侧拍北侧那一排，10:30–13:30</strong>。<strong>85–135mm 抽二三层的凸窗、雕饰檐口与屋顶线</strong>，把底层那些玻璃橱窗与雨棚彻底裁掉——<strong>这是让 Newbury 看起来像 19 世纪的唯一办法</strong>。<strong>② 拍街头生活 → 08:00–09:30（店还没开、街面空、扫地送货）</strong>或 <strong>16:30–17:30 的黄金时段</strong>（露天座位坐满人、暖光斜射进店面）。<strong>35mm 是街拍焦段</strong>，快门 <strong>1/250 以上</strong>避免走动的人糊掉。<strong>入夜后（10/22 约 18:10 之后）店面招牌与橱窗灯亮起，而天空还有蓝调，是拍「橱窗玻璃里叠着街景倒影」的唯一窗口</strong>，<strong>ISO 3200–6400 手持即可。</strong><strong>白平衡：店面照明色温极杂（2700K 的暖射灯到 5000K 的 LED 都有），拍 RAW、机内固定 3800–4200K、关掉自动白平衡</strong>，否则一组片子无法统一调色。<strong>这是繁忙商业街，三脚架会挡道，建议全程手持。</strong><strong>拍店内与店员前请先示意</strong>。"
+          }
+        ],
+        "access": {
+          "book": "<strong>全部是公共街道，不需预约、不需票、无任何开放时间限制。</strong>Comm Ave Mall 是公共步道，Marlborough 与 Beacon 是公共街道（沿街建筑为私宅，不入内）。",
+          "ticket": "<strong>完全免费。</strong>Newbury Street 上的店铺与餐厅另算，<strong>但拍摄本身不产生任何费用</strong>。",
+          "hours": "<strong>24 小时。</strong><strong>唯一有时段性的是 Newbury Street 的商业氛围</strong>：多数店铺约 <strong>10:00 或 11:00 开门、18:00 或 19:00 关门</strong>（<strong>各店不同，未逐一核实</strong>），餐厅与露天座位到更晚。<strong>拍空街要 08:00–09:30，拍有人味要 16:30 之后。</strong>注意 <strong>10 月 22 日日落 17:52</strong>——<strong>「黄金时段的露天座位」与「蓝调的橱窗」在十月下旬只隔二十分钟，两张可以连着拍。</strong>",
+          "parking": "<strong>不要在 Back Bay 找路边车位</strong>，这一带是全 Boston 停车最难的区域之一，居民证限制严格。<strong>MBTA：Green Line「Copley」「Hynes Convention Center」「Arlington」三站都在区内</strong>，Green Line 的 B/C/D 支线沿 Boylston Street 与 Commonwealth Avenue 贯穿整个街区。<strong>Prudential Center 与 Copley Place 的地下车库</strong>是最省事的选择，<strong>费率未能从官方渠道确认</strong>。",
+          "walk": "<strong>整个 Back Bay 东西向只有约 1.5 公里，八个街区，走完 20 分钟</strong>。Copley 站到 Newbury Street 约 <strong>200 米 / 3 分钟</strong>；Arlington 站到 Comm Ave Mall 东端约 <strong>250 米 / 3 分钟</strong>；Hynes 站到 Newbury Street 西端约 <strong>150 米 / 2 分钟</strong>。<strong>Newbury Street 到 Marlborough Street 只隔一个街区，步行 2 分钟</strong>；<strong>到 Public Garden 东端约 400 米 / 5 分钟</strong>；<strong>到 Trinity Church 约 300 米 / 4 分钟</strong>。"
+        },
+        "notes": [
+          "<strong>最实际的一条：想拍完整的褐石立面，去 Marlborough Street 或 Beacon Street，不要去 Newbury Street。</strong>Newbury 的底层几乎全被店面改造，完整立面只在二层以上；<strong>Marlborough 与 Beacon 立面完整、人少十倍</strong>",
+          "<strong>南侧那一排房子整个秋季零直射光</strong>（立面朝 340°，而秋季太阳方位只在 88°–272° 之间）。<strong>要阳光就站南侧拍北侧；要柔光细节就拍南侧</strong>——两者都是可用的，别当成缺陷",
+          "<strong>反直觉的例外：这个点九月末优于十月末。</strong>十月下旬正午太阳只有 36.4°，南侧房子的影子（约 22 米）已超过街宽（约 20 米），<strong>北侧立面只有上面两三层受光</strong>；九月末（46.6°，影长约 16 米）整面立面都还有光",
+          "<strong>Comm Ave Mall 的落日轴线越靠 10 月底越准</strong>（街轴 249.9°，10 月 25 日落日方位 254.1°、10 月 31 日 251.4°）。<strong>但秋叶要 10 月 22 日之后才转色</strong>——<strong>两件事都指向同一个结论：这个点排在行程最后几天</strong>",
+          "<strong>横街首字母按字母顺序从东往西排</strong>（Arlington、Berkeley、Clarendon、Dartmouth、Exeter、Fairfield、Gloucester、Hereford）。在这里定位机位比在任何别的城市都容易，报街名就够了",
+          "<strong>Marlborough 与 Beacon 是住宅街</strong>：不要坐台阶、不要对着窗户拍、不要在门前架三脚架。<strong>Comm Ave Mall 是公共步道，三脚架完全没问题</strong>",
+          "<strong>褐石立面必须拍正、拍水平</strong>。砖缝与窗轴线一歪整张就废了，<strong>竖幅仰拍时用电子水平仪，或直接后期做透视校正</strong>",
+          "<strong>本区不受任何开放时间、票务或拨款影响，是全区最灵活的填空目标</strong>，而且雨天也能拍（湿人行道反射店面灯光）"
+        ],
+        "images": []
+      },
+      {
+        "id": "trinity-church-copley",
+        "n": 8,
+        "name": "三一教堂与科普利广场",
+        "en": "Trinity Church & Copley Square",
+        "score": 4.5,
+        "tldr": "Hancock 玻璃倒影的窗口是 10:30–14:30，15:00 后玻璃自己受光就废了；教堂周日周一不开、门票 $10。",
+        "tags": [
+          {
+            "t": "广场免费",
+            "c": "free"
+          },
+          {
+            "t": "教堂 $10",
+            "c": "paid"
+          },
+          {
+            "t": "周日周一不开",
+            "c": "risk"
+          },
+          {
+            "t": "周五 12:15 可免票进",
+            "c": "free"
+          }
+        ],
+        "highlights": [
+          "<strong>1872 年动工、1877 年建成，H. H. Richardson 的代表作</strong>，「Richardsonian Romanesque」这个风格名称就是从这栋楼来的。<strong>American Institute of Architects 反复把它列入「全美十座最重要的建筑」</strong>，教堂自己的官方文案用的措辞是「one of the ten most important buildings in America」。堂区<strong>1733 年创立，1877 年迁到 Copley Square</strong>，<strong>每年逾 70,000 人来此礼拜或参观</strong>。中央塔的原型是西班牙 Salamanca 的老主教座堂——Richardson 原本设计的是尖塔，实际建成的是这个方形灯笼塔。",
+          "<strong>最反直觉的事实：这栋 9,000 万磅的石头建筑是浮在水里的。</strong>Copley Square 一带整片是 19 世纪填出来的 Back Bay，地下是淤泥与黏土，<strong>Trinity 的全部重量压在约 4,500 根打入填土的木桩上</strong>（各来源普遍引用 4,502 根这个数字，<strong>未能从教会官方渠道逐字核实</strong>）。<strong>木桩必须永远浸在水里才不腐烂，所以地下水位是被长期监测的</strong>——这也是 1970 年代 Hancock Tower 开挖基坑时 Trinity 受损、并最终打赢官司的原因（<strong>赔偿金额的具体数字未能核实</strong>）。<strong>换句话说，你要拍的那张「教堂倒映在摩天楼玻璃上」的照片，两个主角之间有一段真实的法律仇怨。</strong>",
+          "<strong>室内的价值全在 John La Farge。</strong>La Farge 主持了内部装饰，<strong>面积逾 21,500 平方英尺的壁画</strong>，<strong>而且他为这栋建筑发明了「opalescent glass」（乳光玻璃）技法</strong>——不是在玻璃上画，而是让颜色与质地长在玻璃里面。除了 La Farge，堂内还有 <strong>Edward Burne-Jones 与 William Morris</strong> 设计的窗。另有一件容易漏掉的：北侧户外是 <strong>Augustus Saint-Gaudens 做的 Phillips Brooks 像</strong>——Brooks 是这里的教区长，<strong>《O Little Town of Bethlehem》的词作者</strong>。",
+          "<strong>倒影机位的完整几何，这是本条目的核心。</strong>Trinity（OSM relation/64066，中心 <strong>42.35000／-71.07549</strong>）的<strong>西门廊（West Porch）朝西正对 Copley Square</strong>；<strong>200 Clarendon（原 John Hancock Tower）在它正南约 70 米</strong>（OSM <strong>42.34917／-71.07512</strong>），塔身是菱形平面，<strong>朝向 Copley 与 Trinity 的那面玻璃法向约 315°（西北）</strong>。<strong>推论一：Trinity 的南侧翼（法向约 180°）在秋季 09:00–15:00 都受光，正午 12:28–12:35 太阳正打（高度 36–47°）。</strong><strong>推论二：Hancock 的西北玻璃面要到太阳方位超过 225° 才开始受直射</strong>，实测时刻为 <strong>9 月 25 日 14:54、10 月 22 日 15:12</strong>。→ <strong>结论：倒影的黄金窗口是 10:30–14:30。</strong>此时<strong>被摄主体（Trinity）全亮、镜子（玻璃）在阴影里</strong>，这正是任何反射摄影需要的光比关系。<strong>15:00 之后玻璃自己被太阳打亮、整面泛白发雾，倒影会被冲掉</strong>——这是本机位唯一的硬性时段限制。",
+          "<strong>Copley Square 刚修完，围挡已撤——这对构图是净利好。</strong>Boston 市政府的 Copley Square Park 改造工程<strong>2026 年 5 月完工并剪彩</strong>（Mayor Michelle Wu 出席），内容包括全面 ADA 无障碍步道、重建人行道、扩大树冠、透水铺装，<strong>最后一期正是「Trinity Church 一侧的扩大草坪」与「广场标志性喷泉的修复」</strong>（含机电与池底改造）。官方新闻稿明确提到改造「improved sightlines to the Boston Public Library and Trinity Church」。<strong>搜索缓存里 Trinity 官网还留着「currently behind the construction fence」的旧文案，但直接抓当前页面，那半句已经删掉了。</strong>→ <strong>现在是新铺装、新草坪、喷泉运行、无围挡的状态。</strong>"
+        ],
+        "photo": "建筑 <strong>5/5</strong>，室内 <strong>4.5/5</strong>，城市抽象 <strong>4.5/5</strong>，风光 <strong>1/5</strong>。「古典石构倒映在现代玻璃里」是 Boston 唯一无可替代的一张，而且刚修完的广场给了干净的前景；扣分在周日周一不开、时段窗口窄、以及官方摄影政策查不到。",
+        "shots": [
+          {
+            "name": "Hancock 玻璃倒影（Copley Square 东南侧／Clarendon Street）",
+            "view": [
+              42.34952,
+              -71.07541
+            ],
+            "desc": "<strong>坐标为 Copley Square 东南角近 Clarendon Street 的位置（几何推算：取 Trinity 与 200 Clarendon 之间连线的西侧，无独立 OSM 实体）。</strong><strong>最佳时段 10:30–14:30，硬性截止在 15:00</strong>——理由已在看点里算过：<strong>Hancock 的西北玻璃在 14:54（9/25）／15:12（10/22）开始受直射光，之后整面发白、倒影冲掉</strong>。而在 10:30–14:30 之间，<strong>Trinity 的南翼与塔身全亮、玻璃在自身阴影里当纯镜子用</strong>，这是全天唯一成立的光比。<strong>焦段是这里的胜负手：70–200mm 才是主力</strong>——把镜头顶到玻璃立面上，让倒影里的教堂充满画面、把「哪个是实体哪个是倒影」的线索抽掉，这才是这张照片的意思。<strong>24–35mm 会把倒影缩成玻璃上一小块，效果差很多</strong>，除非你要的是「小教堂被大玻璃塔压住」的叙事对比（那也是一张好照片，但是另一张）。<strong>CPL 在这里要反着用</strong>：常规是用 CPL 消反射，<strong>而你要的就是反射，所以把 CPL 转到「增强反射」的角度，或者干脆不带</strong>。玻璃是双层的，<strong>注意会有轻微重影，用长焦压缩＋精确对焦在倒影的虚像平面上可以减轻</strong>。曝光按倒影里的教堂给，玻璃周边的天空反射会过曝，那是可以接受的。<strong>手持即可（ISO 400–800、f/5.6–8），此处是繁忙人行道，别架三脚架。</strong>"
+          },
+          {
+            "name": "Copley Square 西侧望教堂西立面（BPL 台阶方向）",
+            "view": [
+              42.34998,
+              -71.07654
+            ],
+            "desc": "坐标为 OSM Copley Square 公园中心。<strong>西立面（West Porch）法向朝西，所以这一面是下午与黄金时段的目标</strong>——与倒影机位的时段正好错开，两个机位可以在同一天前后接着做。<strong>最佳 15:30–17:30</strong>：10 月 22 日 16:00 太阳高度 17.9°、方位 235.2°，<strong>光几乎平打在西立面上，Richardson 那种粗面花岗岩加红砂岩的带状砌体会被侧光完全勾出质感</strong>——这是本条目最能体现「Richardsonian Romanesque」为什么叫这个名字的时刻。<strong>九月太阳更高（16:00 时 26.9°），石材反差反而偏平，十月优于九月。</strong><strong>次佳是蓝调</strong>（9/25 约 18:46–19:11、10/22 约 18:02–18:27）：教堂有泛光照明，而<strong>背后 200 Clarendon 的玻璃会同时亮起办公室灯光</strong>，「石头的暖」对「玻璃的冷」是这个广场最强的一组对比。<strong>焦段 24mm 竖幅收整个西立面加双塔</strong>（广场够开阔，不需要超广）；<strong>35mm 把新修的喷泉或草坪当前景</strong>；<strong>135–200mm 单抽中央塔的连券与角塔</strong>。<strong>喷泉刚修复完成，是新增的前景选项</strong>——低机位贴近水面拍教堂倒影，<strong>但秋季喷泉是否仍在运行未能从官方渠道确认</strong>（Boston 市属喷泉一般在入冬前停）。"
+          },
+          {
+            "name": "教堂室内中殿与 La Farge 彩窗",
+            "desc": "<strong>无独立 OSM 实体，地图无针脚（位于 Trinity Church 建筑体内）。</strong>需买 <strong>$10</strong> 门票（详见下方）。<strong>最佳 13:00–16:00</strong>：La Farge 的乳光玻璃需要背后有强光才显色，<strong>而西立面朝西，下午的光正好从 West Porch 上方那组窗透进来</strong>，此时中殿的壁画金色与彩窗同时亮起。上午来的话彩窗偏暗、壁画偏灰。<strong>构图三张就够</strong>：<strong>24mm 沿中轴向圣坛拍对称构图</strong>（这是本堂最强的一张，中央塔下方的交叉部把四臂拱券收在一点上）；<strong>24mm 站在交叉部正中垂直上仰拍塔内顶</strong>；<strong>85–135mm 单抽彩窗</strong>（要正对、要水平，<strong>曝光按玻璃给、比测光值再减 1 到 1.7 EV</strong>，否则乳光玻璃的颜色会被拍成一片白）。<strong>参数：ISO 3200–6400、f/1.8–2.8、1/50–1/100</strong>——现场几乎全靠环境光，<strong>有访客记录称手持时曝光时间会长到一两秒，一半的片子有抖动</strong>，强烈建议带一支 f/1.4–1.8 的 24mm 或 35mm 定焦。<strong>白平衡固定在 3500–4000K</strong>（堂内是暖钨丝灯与冷窗光的混合）。<strong>禁闪光灯；三脚架按活跃堂区通例视为不可用。</strong><strong>遇到礼拜、婚礼、葬礼或音乐会请立刻收起相机。</strong>"
+          }
+        ],
+        "access": {
+          "book": "<strong>广场不需预约。教堂个人参观也不需预约，现场在 Narthex 的 Welcome Desk 买票即可</strong>（入口是<strong>朝 Copley Square 的 West Porch 主门</strong>）。<strong>Guided Tour 由 docent 带领、45–60 分钟、只在特定时段发车</strong>，场次见官网 web calendar。<strong>团体私人导览需填表申请，且周日与周一不提供。</strong>最新时段请电话确认：<strong>617-536-0944 转 102</strong>。",
+          "ticket": "官方原文：<strong>「The price is $10 for Adults, or $8 for Seniors, Students, Educators, Military, First Responders, and Massachusetts Residents. Children younger than 14 and EBT &amp; WIC cardholders are free.」</strong><strong>门票含三种参观方式任选：自助（附地图，15–30 分钟）、音频导览（扫 QR 码或借设备，约 30 分钟）、docent 导览（45–60 分钟，限特定时段）。</strong><strong>省钱的一招（已核实）：官方写明「From September through May, join us on Fridays at 12:15 pm for our weekly Organ Recitals. There is no charge for admission during the recital」</strong>——<strong>也就是说每周五 12:15 的管风琴音乐会期间进堂是免费的，建议捐 $10</strong>。你的窗口内每个周五都有。<strong>另有完全免费的 Free Exterior Audio Tour</strong>：West Porch 上有 QR 码，或访问 trinitychurchboston.org/feat，不受开放时间限制。<strong>Copley Square、喷泉、Phillips Brooks 像全部免费、24 小时。</strong>",
+          "hours": "<strong>官方原文（trinitychurchboston.org/tours）：「Trinity Church is open for tours Tuesday through Saturday from 10 am to 4:30 pm (Guests who purchase admission by 4:30 pm will have until 5 pm in the Sanctuary)」。</strong>→ <strong>周日与周一不对游客开放，这是本条目最大的时段陷阱。</strong><strong>夏季的周日时段（11:00–15:30）官方写明只到 9 月 6 日为止</strong>（「Through Sun. Sept. 6, Trinity Church will also be open for tours on Sundays」），<strong>你的窗口全部在这之后，所以周日一定进不去。</strong>另有两条已公布的临时调整（都在你的窗口之前）：9 月 10 日 12:00 才开、9 月 19 日 16:00 提前关。<strong>每周二 12:00–12:45 因 Tuesday Holy Eucharist 暂停入场与导览</strong>（30 分钟的午间礼拜，欢迎参加）。<strong>官方明确警告「As an active Episcopal parish, visitor services hours may vary due to weddings, funerals, worship services, and other parish events」</strong>，并说恶劣天气可能临时调整。<strong>主日礼拜时间（9 月 13 日起恢复学年制）：8:00、10:00（含直播）、17:00。</strong>",
+          "parking": "<strong>不建议自驾。</strong><strong>MBTA：Green Line「Copley」站出站即到；Orange Line「Back Bay」站步行 5 分钟。</strong>最近的车库是 <strong>Copley Place 与 Prudential Center 地下</strong>，<strong>费率未能从官方渠道确认</strong>。教堂地址 <strong>206 Clarendon Street</strong>，无自有停车场。",
+          "walk": "Copley 站到 West Porch 约 <strong>200 米 / 3 分钟</strong>。<strong>到 Boston Public Library 只有 250 米 / 3 分钟（穿过 Copley Square）</strong>；<strong>到 Newbury Street 约 300 米 / 4 分钟</strong>；到 Public Garden 约 <strong>900 米 / 12 分钟</strong>（沿 Boylston Street 东行）。倒影机位与西立面机位相距不到 <strong>100 米</strong>，<strong>但两者最佳时段相差三小时，中间正好插进去拍 BPL 的室内</strong>。"
+        },
+        "notes": [
+          "<strong>周日与周一教堂不对游客开放</strong>——这是最容易白跑的一条。夏季的周日时段已在 9 月 6 日结束，<strong>把 Trinity 排在周二至周六</strong>",
+          "<strong>倒影机位有硬性截止：15:00。</strong>之后 Hancock 的西北玻璃开始受直射光、整面发白，倒影就没了。<strong>10:30–14:30 是唯一窗口，请把它当成一个「有开放时间的机位」来排</strong>",
+          "<strong>拍倒影不要用 CPL 消反射</strong>——你要的正是反射。如果带 CPL，把它转到增强反射的角度；不带反而更省事",
+          "<strong>官方摄影政策未能从 trinitychurchboston.org 上找到任何成文条款。</strong>二手来源一致的口径是室内允许手持、礼拜期间禁闪光；<strong>实务建议：进门后花三十秒问一下 Welcome Desk，这是能消除的不确定性</strong>。三脚架按活跃堂区通例不要带",
+          "<strong>周五 12:15 的管风琴音乐会期间免票入场（9 月至 5 月）</strong>，官方原文「There is no charge for admission during the recital, though a suggested donation of $10」。<strong>但注意那是音乐会进行中，能不能自由走动拍照取决于现场——想安静拍建筑还是买 $10 的票更稳</strong>",
+          "<strong>周二 12:00–12:45 暂停入场，别在那个时间点到门口；而这是活跃的圣公会堂区，婚礼、葬礼、音乐会随时可能占用整个 Sanctuary</strong>；官方已明说时段会因此变动，出发当天打 617-536-0944 转 102 确认最保险",
+          "<strong>Copley Square 已在 2026 年 5 月完工，无围挡</strong>；<strong>但新修喷泉在秋季是否仍运行未能从官方渠道确认</strong>，想拍水面倒影请把它当加分项而不是计划",
+          "<strong>Trinity 与 Hancock Tower 之间有真实的历史积怨</strong>：1970 年代 Hancock 开挖基坑损坏了 Trinity 的木桩基础、Trinity 诉讼胜诉。<strong>拍那张倒影时可以想想这件事——它让照片有了内容而不只是构图</strong>"
+        ],
+        "images": []
+      },
+      {
+        "id": "boston-public-library",
+        "n": 9,
+        "name": "波士顿公共图书馆 · McKim 楼",
+        "en": "Boston Public Library · McKim Building",
+        "score": 5,
+        "tldr": "Bates Hall 免票、无限制、每日开放；窗户朝东北，09:00–11:00 是唯一有直射光柱的窗口，三脚架明确禁止。",
+        "tags": [
+          {
+            "t": "完全免费",
+            "c": "free"
+          },
+          {
+            "t": "不需预约",
+            "c": "free"
+          },
+          {
+            "t": "明确禁三脚架",
+            "c": "risk"
+          },
+          {
+            "t": "楼梯上禁拍照",
+            "c": "risk"
+          }
+        ],
+        "highlights": [
+          "<strong>Bates Hall 对公众完全开放，不需票、不需预约、不需登记，这一点已核实。</strong>它是 Central Library 内的一间公共阅览室，只要在开馆时间内就能走进去。尺度是它的全部力量：<strong>长 218 英尺、宽 42 英尺、桶形拱顶最高约 50 英尺</strong>，两端各有一个半圆室（apse），中间是一长列橡木长桌与那些著名的绿玻璃罩台灯。命名来自 <strong>Joshua Bates</strong>——图书馆的第一位大额捐赠人。McKim, Mead &amp; White 设计，<strong>1895 年开馆</strong>，是美国 Beaux-Arts 的标杆之一，也是 National Historic Landmark。",
+          "<strong>关键几何：Bates Hall 的高窗朝东北，所以它是一个上午的房间。</strong>McKim 楼的主立面临 <strong>Dartmouth Street</strong>、正对 Copley Square，<strong>立面法向约 70°（东偏北）</strong>——这是 Back Bay 网格 70°／250° 的直接结果。Bates Hall 占据二楼整条 Dartmouth Street 临街面，<strong>那一排巨大的拱窗就是它的窗</strong>。→ <strong>直射光只在上午进来：09:00（开馆时刻）太阳方位 116.8°、高度 25.1°（9/25），与窗户法向差 47°，光以斜角射入，在桶形拱顶的方格与对面墙上拉出光柱；约 11:20（太阳方位到 160°）之后直射光完全消失</strong>，整个大厅转成纯环境光加绿台灯。<strong>「Bates Hall 的光柱」只存在于 09:00–11:00，而且只在晴天。</strong>",
+          "<strong>混合白平衡是这里唯一的技术难题，而它有一个优雅的解法：换时段。</strong>绿玻璃罩下的灯泡约 <strong>2700–3000K</strong>，高窗进来的日光晴天约 <strong>5500K</strong>、阴天可达 <strong>6500K 以上</strong>，<strong>同一张画面里跨了 3000K 以上，自动白平衡必然两边都不对</strong>。但注意：<strong>Boston 10 月 22 日日落 17:52</strong>，而<strong>周一至周四 BPL 开到 20:00</strong>——也就是说<strong>10 月下旬的周一至周四 18:15–20:00，Bates Hall 是纯人工光</strong>，白平衡问题<strong>直接消失</strong>，而且那是绿台灯统治整个大厅、最像电影场景的两小时。<strong>这是本条目最有用的一条信息。</strong>",
+          "<strong>三楼有四成面积已经关闭十年以上，但 Sargent Gallery 还开着。</strong>John Singer Sargent 的壁画组画 <strong>《Triumph of Religion》</strong>在三楼的 Sargent Gallery，<strong>他从 1890 年与建筑师 McKim 讨论构想开始，画了三十多年，1895 至 1919 年间分四次把在英国画好的画板运到 Boston 安装，1925 年去世时整套仍未完成</strong>。需要知道现状：<strong>McKim 楼约 40% 的面积、基本就是整个三楼，已对公众关闭十年以上</strong>（油漆剥落、灰泥碎裂、漏水导致暖气被关、大部分房间无温湿度控制），<strong>West Gallery、Wiggin Gallery、Cushman Room 都锁着，唯一还开放的就是 Sargent Gallery</strong>。BPL 在 2025 年 6 月启动了一个由匿名捐赠者 $550 万资助的五年期改造规划，<strong>但那是规划不是施工，本次行程不受影响。</strong>",
+          "<strong>中庭现在还是露天的——想拍露天版本就趁现在。</strong>内院（Courtyard）仿罗马 Palazzo della Cancelleria 的回廊，中央是 Frederick MacMonnies 的铜像 <strong>《Bacchante and Infant Faun》</strong>。这尊像的故事值得知道：<strong>1890 年代送到图书馆时因「醉态、裸体、还抱着个婴儿」引发全城公愤，McKim 被迫撤回赠礼、把它送给了纽约的 Metropolitan Museum of Art</strong>；Museum of Fine Arts 买了一个复制品让 Boston 人还能看到；<strong>1990 年代内院翻修时，BPL 又照着 MFA 那个复制品再复制了一个，她才终于回到原位。</strong>改造方案里包含<strong>给中庭加透明顶棚</strong>（现方案称能把活动从「限于 6–8 月」扩展到全年），一旦实施，露天中庭就不存在了。"
+        ],
+        "photo": "室内建筑 <strong>5/5</strong>，细节 <strong>4.5/5</strong>，人文 <strong>4/5</strong>，风光 <strong>0.5/5</strong>。这是本区摄影价值最高的单一目标：免费、每日开放、题材极强、且不受天气影响；扣分只在明确禁三脚架与「楼梯上不许拍照」这两条硬规则。",
+        "shots": [
+          {
+            "name": "Bates Hall 中轴纵向（招牌构图）",
+            "view": [
+              42.34933,
+              -71.07865
+            ],
+            "desc": "<strong>坐标为 OSM 图书馆建筑节点；Bates Hall 在二楼 Dartmouth Street 临街面，无独立 OSM 实体。</strong><strong>两个最佳时段，选一个：</strong><strong>① 09:00–10:30（周一至周六开馆即到）</strong>——此时高窗有直射光斜射进来，桶形拱顶的方格与远端半圆室出现光柱，而且<strong>这是全天读者最少、长桌最空的时候</strong>。<strong>② 周一至周四 18:15–19:45</strong>——10 月 22 日日落 17:52，此时窗外已黑，<strong>大厅由绿玻璃台灯单独统治，白平衡问题彻底消失</strong>，这是最像电影布光的两小时（<strong>但周五、周六 17:00 闭馆，周日 17:00 闭馆，这个时段只有周一到周四有</strong>）。<strong>构图：站在大厅一端的中轴上，让长桌与台灯组成两条向消失点收拢的直线，拱顶占上三分之一。</strong><strong>焦段 20–24mm 是必需的</strong>（218 英尺长的房间，35mm 收不进整个拱顶的弧度）；<strong>50mm 压缩台灯序列</strong>会得到一排绿光点的重复韵律，是被低估的一张；<strong>85–135mm 抽半圆室的雕带与窗券细节</strong>。<strong>参数：f/1.8–2.8、1/40–1/60、ISO 3200–6400</strong>。<strong>无三脚架的替代方案（这条很实用）：把机身直接放在橡木长桌上</strong>——桌子不是三脚架，规则里没有禁止，而且桌面高度正好接近台灯的水平；也可以把手肘压在桌面上、或靠窗台与石栏杆当支点。<strong>白平衡：拍 RAW，机内固定在 4000K 并关掉自动白平衡</strong>——这是 2800K 台灯与 5500K 窗光之间的折中点，让台灯留一点琥珀、窗光留一点冷，反而是这里最真实的样子；<strong>纯人工光时段改成固定 3200K</strong>。<strong>禁闪光灯（官方明文：reading rooms 内不要用闪光设备）；这是一间在使用中的自习室，快门声调到最小、不要挡过道、不要站在别人桌前。</strong>"
+          },
+          {
+            "name": "内院（Courtyard）与 Bacchante 铜像",
+            "view": [
+              42.34943,
+              -71.07836
+            ],
+            "desc": "<strong>坐标为 McKim 楼内院位置（几何推算，位于 Dartmouth Street 与 Boylston Street 两翼之间）。</strong><strong>这是全馆唯一的露天空间，也是唯一没有混合白平衡问题的机位。</strong>内院四面围合、只有天空一个光源，<strong>所以正午 11:30–13:30 顶光最均匀</strong>（9/25 正午高度 46.6°、10/22 为 36.4°——<strong>十月的太阳更低，会有一面回廊拱券被直射光打亮，反差更有戏，实际优于九月</strong>）。<strong>阴天同样成立</strong>：四面石材在漫射光下是干净的中灰，铜像的绿锈会更饱和。<strong>24mm 站在院子正中垂直上仰</strong>，把四面回廊与中央的天空框成对称构图，是这里最强的一张；<strong>35mm 拍铜像加一侧拱券的关系</strong>；<strong>85mm 抽铜像细节与拱券的重复</strong>。<strong>秋季注意两点</strong>：内院的座椅与遮阳设施是季节性的，<strong>入秋后可能已经收起（该项未能从官方渠道确认）</strong>；以及官方文件提到内院的活动「currently limited to June-August」，所以 10 月来这里会很安静——对拍照是好事。"
+          },
+          {
+            "name": "大楼梯与 Puvis de Chavannes 壁画层（注意：不能站在台阶上拍）",
+            "desc": "<strong>无独立 OSM 实体，地图无针脚（位于 McKim 楼一至二层之间）。</strong><strong>这是本条目唯一有明文限制的机位，先记规则：官方原文「No photographs on stairs」。</strong>也就是说<strong>你可以拍这道楼梯，但不能站在台阶上拍</strong>——要从楼梯底部的门厅或二楼的平台拍。这条规则在现场由保安执行，别赌。题材本身极强：<strong>Louis Saint-Gaudens 的两尊大理石狮子</strong>把守楼梯，上到二楼是 <strong>Pierre Puvis de Chavannes 的壁画组</strong>（缪斯题材），再往里是 <strong>Edwin Austin Abbey 的 Holy Grail 组画（Abbey Room）</strong>。<strong>时段：这一段没有窗，全靠人工光，因此全天一致、和天气无关</strong>——是雨天的首选目标。<strong>24mm 从门厅仰拍整道楼梯与狮子</strong>；<strong>50mm 拍单只狮子与背后的黄褐色石材</strong>（石材本身偏暖，<strong>白平衡固定 3400–3800K</strong>，自动会把整个画面校成灰的，那就没意思了）；<strong>Abbey Room 里 35mm 平拍壁画组、85mm 抽单幅</strong>。<strong>参数 f/1.8–2.8、1/50–1/80、ISO 3200–6400，禁闪光、禁三脚架。</strong>想拍 Sargent 的《Triumph of Religion》要继续上三楼的 <strong>Sargent Gallery</strong>——<strong>那是三楼唯一还开放的房间</strong>，有天窗，因此<strong>上午到正午的天光最好</strong>。"
+          }
+        ],
+        "access": {
+          "book": "<strong>不需预约、不需票、不需登记</strong>，直接走进去。<strong>但如果你打算做「正式拍摄」（带助手、换装、打灯、婚纱或订婚照），必须事先申请</strong>：官方原文<strong>「Unfortunately we cannot allow formal photography shoots during library hours」</strong>，只能安排在开馆前的工作日早晨（约 08:00–09:00），联系 Special Events Office：<strong>events@bpl.org / 617.859.2212</strong>。<strong>二手来源称许可费 $750 起，未在 bpl.org 上找到公布价格。</strong>",
+          "ticket": "<strong>免费</strong>。全馆所有公共区域（含 Bates Hall、内院、大楼梯、Abbey Room、Sargent Gallery）<strong>一律不收费</strong>。也有免费的馆方建筑导览，时段以现场公告为准。",
+          "hours": "官方原文（bpl.org/locations/central，Central Library in Copley Square）：<strong>「Monday–Thursday 9:00 am – 8:00 pm / Friday 9:00 am – 5:00 pm / Saturday 9:00 am – 5:00 pm / Sunday 11:00 am – 5:00 pm」</strong>。→ <strong>本区罕见的「每日开放、无每周闭馆日」的大馆</strong>。<strong>你的窗口内唯一的闭馆日是 10 月 12 日（Monday, October 12, 2026, Indigenous Peoples Day）</strong>，官方 Holiday Closures 页写明「The Library will be closed.」。<strong>请特别注意周五与周六只到 17:00</strong>——而 10 月 22 日日落 17:52，<strong>所以「纯人工光的 Bates Hall」只有周一至周四（开到 20:00）能拍到</strong>。（另：9 月 6 日与 9 月 7 日因 Labor Day 闭馆，已过。）",
+          "parking": "<strong>不建议自驾。</strong><strong>MBTA：Green Line「Copley」站出站步行 2 分钟；Orange Line「Back Bay」站步行 5 分钟</strong>，两条线都直达。<strong>Prudential Center 与 Copley Place 的地下车库最近</strong>，<strong>费率未能从官方渠道确认</strong>（Back Bay 商业车库日上限普遍在 $35–50）。",
+          "walk": "Copley 站到 Dartmouth Street 正门约 <strong>150 米 / 2 分钟</strong>；Back Bay 站约 <strong>350 米 / 5 分钟</strong>。<strong>正门到 Bates Hall：进门后走大楼梯上二楼、右转，约 2 分钟</strong>；<strong>Bates Hall 到 Sargent Gallery 需再上一层窄楼梯</strong>。<strong>到 Trinity Church 只有 250 米 / 3 分钟（穿过 Copley Square）</strong>——这两个点必须连着做。"
+        },
+        "notes": [
+          "<strong>三脚架与自拍杆明确禁止，官方原文「No selfie sticks, tripods, or additional equipment」。</strong>另有一条同样是原文的<strong>「Equipment such as tripods or selfie sticks may not obstruct passageways」</strong>，两条合起来的实务读法是：<strong>带了也用不了，别带</strong>",
+          "<strong>「不许在楼梯上拍照」是本馆最容易违规的一条</strong>（官方原文 No photographs on stairs）。那道有狮子的大楼梯正是最想拍的地方，<strong>请从楼梯底部门厅或二楼平台拍，不要站到台阶上</strong>。另外<strong>禁止攀爬馆内任何表面、禁止移动家具与陈设、禁止气球与道具</strong>",
+          "<strong>阅览室内禁用闪光灯</strong>（官方原文）。<strong>另有一条常被忽略：禁止拍摄公众、值班馆员与公共活动</strong>——也就是说<strong>Bates Hall 里那些在自习的人，严格说是不该成为你照片主体的</strong>。要拍「有人的 Bates Hall」，请拍到不可辨识的程度（背影、剪影、动态模糊），或者拍同行者",
+          "<strong>Bates Hall 是在使用中的自习室，不是布景。</strong>把快门声调到静音或最小、不要挡过道、不要长时间站在别人桌前、不要挪动椅子",
+          "<strong>没有三脚架时最好的支点是橡木长桌本身</strong>：机身直接放在桌面上，或手肘压桌。这不违反任何规则，而且桌面高度接近台灯水平，出来的视角比站着拍更好",
+          "<strong>三楼四成面积长期关闭，唯一开放的是 Sargent Gallery</strong>——如果你的目标是 Sargent 壁画，那是能进的；<strong>但 West Gallery、Wiggin Gallery、Cushman Room 都锁着，别抱期望</strong>",
+          "<strong>中庭是露天的，但未来方案要给它加透明顶棚</strong>；<strong>内院秋季座椅是否已收起未能从官方渠道确认</strong>",
+          "<strong>本馆由 Boston 市运营，不受联邦拨款影响</strong>，而且每日开放、雨天可拍，是全区最可靠的备份目标"
+        ],
+        "images": []
+      }
+    ]
+  },
+  {
     "id": "hudson-valley",
     "name": "Hudson Valley 与 Catskills",
     "navName": "Hudson Valley",
@@ -26,12 +1117,12 @@ var REGIONS = [
       },
       {
         "type": "info",
-        "title": "河谷是南北向的，所以光是「横河」的——用这条规则分配每个点的时段",
+        "title": "河谷南北向，光是横河的：据此排时段",
         "html": "<p>Hudson River 在这一段大致<strong>正南正北</strong>流。太阳早上在东（方位 90°–104°）、傍晚在西（方位 270°–252°），于是整条河谷的光永远是<strong>横切河面</strong>的，从来不是顺河的。直接推论：</p><ul><li><strong>东岸的山体与建筑在下午被正面照亮</strong>——所以站在西岸拍东岸（例如从 Storm King 山下看 Breakneck 一线、从 Bear Mountain 山顶看 Anthony’s Nose）要选<strong>15:00 以后</strong></li><li><strong>西岸的山体在上午被正面照亮</strong>——所以站在东岸拍西岸（Cold Spring 看 Storm King Mountain、Olana 看 Catskills 断崖、Walkway 桥上往西看 Highland 一侧）要选<strong>日出后到 10:30</strong>。这条规则和「秋色摄影要拍傍晚」的直觉是相反的，但秋色的饱和度靠的是正面光而不是逆光</li><li>站在东岸朝西拍日落，得到的是<strong>剪影加彩色天空</strong>，不是彩色山坡。Olana 和 Cold Spring 是这类画面的最佳位置；但如果你要的是「满山红黄」，这两处得早上来</li></ul><p><strong>mid-Hudson（Poughkeepsie，41.71°N）实测日出日落（EDT）：</strong></p><ul><li><strong>9 月 25 日：日出 06:46（方位 90.3°，正东）、日落 18:49（方位 269.7°，正西）</strong>，日长 12 小时 03 分，正午 12:48（太阳高度约 47.6°）。黄金时段约 17:50–18:49，蓝调约 18:49–19:20</li><li><strong>10 月 22 日：日出 07:16（方位 104.0°，东偏南 14°）、日落 18:05（方位 256.0°，西偏南 14°）</strong>，日长 10 小时 50 分，正午 12:40（太阳高度约 37.5°）。黄金时段约 17:10–18:05，蓝调约 18:05–18:35</li><li>一个月里<strong>日出推迟 30 分钟、日落提前 44 分钟、可用日光少了 1 小时 13 分</strong>，且日出日落方位各向南移了约 14 度。10 月下旬正午太阳高度只有 37.5°，意味着<strong>全天都是斜光</strong>——这对秋色是好事，对 Dia Beacon 的天窗采光是坏事</li><li><strong>夏令时于 2026 年 11 月 1 日结束</strong>，落在本次窗口之外；整个 9 月下旬到 10 月底都用 EDT（UTC−4），不必换算</li></ul>"
       },
       {
         "type": "info",
-        "title": "从纽约市出发：车程、Metro-North，以及哪三个点可以完全不开车",
+        "title": "从纽约市出发：车程与 Metro-North 无车方案",
         "html": "<p>本区全部是纽约市的一日或一夜行程。以下车程自 Midtown 起算、按<strong>无严重拥堵</strong>估计，周五下午与周日傍晚回程请各加 30–60 分钟：</p><ul><li><strong>Sleepy Hollow / Tarrytown（Lyndhurst、Sleepy Hollow Cemetery）</strong>约 26 英里、45–70 分钟</li><li><strong>Croton-on-Hudson（Van Cortlandt Manor，Blaze 会场）</strong>约 37 英里、55–80 分钟</li><li><strong>Bear Mountain / Perkins Memorial Drive</strong>约 47 英里、60–85 分钟（走 Palisades Interstate Parkway）</li><li><strong>Cold Spring</strong>约 55 英里、70–95 分钟</li><li><strong>Storm King Art Center（New Windsor）</strong>约 60 英里、75–100 分钟</li><li><strong>Dia Beacon</strong>约 62 英里、80–105 分钟</li><li><strong>Walkway Over the Hudson（Poughkeepsie）</strong>约 76 英里、95–120 分钟</li><li><strong>Minnewaska State Park Preserve</strong>约 87 英里、100–125 分钟（Thruway Exit 18 New Paltz 后走 44/55 号公路）</li><li><strong>Olana（Hudson）</strong>约 115 英里、2 小时 05 分–2 小时 40 分</li><li><strong>Kaaterskill Falls（Haines Falls）</strong>约 122 英里、2 小时 15 分–2 小时 45 分</li></ul><p><strong>Metro-North Hudson Line 让三个点可以完全不开车</strong>（自 Grand Central Terminal 发车，Hudson Line 沿河东岸北上，<strong>右侧靠窗座位本身就是一段沿河秋色</strong>）：</p><ul><li><strong>Poughkeepsie</strong>（Walkway 东端）——普通车最长约 115 分钟；2025 年 10 月 6 日起投入的 super-express 班次最快 <strong>88–89 分钟</strong>，为该线史上最快。车站到 Walkway 东入口步行约 1.5 公里</li><li><strong>Beacon</strong>（Dia Beacon）—— 约 90 分钟。<strong>Dia Beacon 就在 Beacon 车站旁边，步行 5 分钟</strong>，是本区无车可达性最好的一个点；Dia 官方也注明开馆时段内每小时双向各一班车</li><li><strong>Cold Spring</strong>—— 约 80 分钟。<strong>车站出来直接就是 Main Street 底部</strong>，滨水公园步行 5 分钟。Storm King Art Center 也可从 Beacon 站打车约 30 分钟抵达，或从 NJ Transit 的 Salisbury Mills-Cornwall 站打车约 10 分钟；Coach USA 另有自 Port Authority 出发、含门票的往返巴士套票</li><li><strong>Croton-Harmon</strong>（Great Jack O’Lantern Blaze 会场）—— 约 50 分钟，车站步行可达 Van Cortlandt Manor</li><li><strong>Tarrytown</strong>（Lyndhurst、Sleepy Hollow）—— 约 40 分钟，但从车站到 Lyndhurst 约 1.6 公里、到 Sleepy Hollow Cemetery 约 3.5 公里，需要再打车</li><li><strong>Breakneck Ridge 站已关闭</strong>，见下方 Cold Spring 条目</li></ul>"
       }
     ],
@@ -117,15 +1208,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Olana_-_facade_panorama.jpg",
+            "url": "img/olana-facade-panorama-47306503.jpg",
             "cap": "主宅立面全景 · Daderot / 公有领域"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/150710_Olana_Sunset.jpg",
+            "url": "img/150710-olana-sunset-77885aa1.jpg",
             "cap": "自 Olana 露台看 Hudson 与 Catskills 日落 · Mark Rosengarten / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Olana_2017_03.jpg",
+            "url": "img/olana-2017-03-4ff7d521.jpg",
             "cap": "波斯风格彩瓷与多色石板屋顶 · ɱ / CC BY-SA 4.0"
           }
         ]
@@ -215,15 +1306,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Hikers_swiming_in_the_upper_pool_of_Kaaterskill_Falls%2C_NY.JPG",
+            "url": "img/hikers-swiming-in-the-upper-pool-of-kaaterskill-falls-ny-71316e74.jpg",
             "cap": "上级瀑布顶部水潭 · Ahodges7 / CC BY-SA 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Cole_Thomas_Kaaterskill_Falls_1826.jpg",
+            "url": "img/cole-thomas-kaaterskill-falls-1826-16770893.jpg",
             "cap": "Thomas Cole 1826 年《Kaaterskill Falls》· Thomas Cole / 公有领域"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Cauterskill_falls_LCCN2004668031.jpg",
+            "url": "img/cauterskill-falls-lccn2004668031-ad7d55ad.jpg",
             "cap": "十九世纪石版画中的两级瀑布与圆形剧场 · Popular Graphic Arts / 公有领域"
           }
         ]
@@ -272,7 +1363,7 @@ var REGIONS = [
               41.7255,
               -74.23559
             ],
-            "desc": "自主停车场沿马车道下到湖边约 <strong>0.4 英里 / 10 分钟</strong>，再沿环湖道走到西岸。<strong>西岸看东岸：上午 08:30–10:30 是唯一的正面光时段</strong>，此时东侧白崖与崖顶秋叶全部受光，湖面无风时倒影完整。下午过来会变成逆光加一片阴影。24–70mm 拍崖壁与倒影的对称构图，<strong>16–24mm 贴近水面拍前景岩石加白崖加天空的三段式</strong>。偏振镜要谨慎——全量偏振会把倒影完全抹掉，<strong>这里应该只转到约三分之一效果，保留倒影同时压掉水面白反光</strong>。坐标为 Lake Minnewaska 水体的 OSM 节点，实际站位在环湖道上，<strong>湖岸具体机位无 OSM 实体，地图针脚指向湖体中心</strong>。"
+            "desc": "自主停车场沿马车道下到湖边约 <strong>0.4 英里 / 10 分钟</strong>，再沿环湖道走到西岸。<strong>西岸看东岸：上午 08:30–10:30 是唯一的正面光时段</strong>，此时东侧白崖与崖顶秋叶全部受光，湖面无风时倒影完整。下午过来会变成逆光加一片阴影。24–70mm 拍崖壁与倒影的对称构图，<strong>16–24mm 贴近水面拍前景岩石加白崖加天空的三段式</strong>。偏振镜要谨慎——全量偏振会把倒影完全抹掉，<strong>这里应该只转到约三分之一效果，保留倒影同时压掉水面白反光</strong>。<strong>坐标为 Lake Minnewaska Carriage Road（环湖马车道）上的 OSM 节点，不是精确站位——沿环湖道任意一段西岸都可用</strong>。"
           },
           {
             "name": "Awosting Falls 瀑底",
@@ -306,15 +1397,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Lake_Minnewaska_from_cliffs.jpg",
+            "url": "img/lake-minnewaska-from-cliffs-d9776f2f.jpg",
             "cap": "自白崖俯瞰 Lake Minnewaska · Juliancolton / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/View_of_lake_Minnewaska_from_a_cliff_near_Gertrude%27s_nose_in_Minnewaska_State_Park%2C_taken_11-10-2023.jpg",
+            "url": "img/view-of-lake-minnewaska-from-a-cliff-near-gertrude-s-nose-in-88369686.jpg",
             "cap": "Gertrude’s Nose 附近崖沿看湖 · Magpieturtle / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Minnewaska_State_Park_Preserve.jpg",
+            "url": "img/minnewaska-state-park-preserve-94914c04.jpg",
             "cap": "Shawangunk 砾岩崖壁与松林 · Cliomd1 / CC BY-SA 4.0"
           }
         ]
@@ -400,15 +1491,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Walkway_Over_the_Hudson_panorama_2.jpg",
+            "url": "img/walkway-over-the-hudson-panorama-2-d31e8cce.jpg",
             "cap": "桥面与河道超宽幅全景 · Juliancolton / 公有领域"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Walkway_Over_the_Hudson_1.JPG",
+            "url": "img/walkway-over-the-hudson-1-3f1fd339.jpg",
             "cap": "桥面钢桁架透视 · Juliancolton / 公有领域"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Poughkeepsie_Bridge_115997.jpg",
+            "url": "img/poughkeepsie-bridge-115997-5003b155.jpg",
             "cap": "改造前的 Poughkeepsie 铁路桥全貌 · Jack E. Boucher / 公有领域"
           }
         ]
@@ -494,15 +1585,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Dia_Beacon_NY1.jpg",
+            "url": "img/dia-beacon-ny1-6b41c5d0.jpg",
             "cap": "1929 年 Nabisco 厂房外立面与锯齿屋顶 · Acroterion / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Dia_Beacon_02.JPG",
+            "url": "img/dia-beacon-02-2286b348.jpg",
             "cap": "天窗自然光下的主展厅 · ɱ / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Dia_Beacon_09.JPG",
+            "url": "img/dia-beacon-09-6ce4e9eb.jpg",
             "cap": "展厅内的顶光与混凝土地面 · ɱ / CC BY-SA 4.0"
           }
         ]
@@ -555,7 +1646,7 @@ var REGIONS = [
               41.42346,
               -74.06256
             ],
-            "desc": "<strong>这是全园最重要的机位，也是唯一能同时收进「巨型钢构、起伏草甸、远处山脊」的位置。</strong><strong>关于黄金时段，把话说清楚：Storm King 全年 18:00 关门、17:00 停止入场。</strong>对照日落——9 月 26 日 18:48、10 月 5 日 18:33、10 月 15 日 18:17、10 月 20 日 18:09、10 月 25 日 18:02、10 月 31 日 17:54。<strong>结论：10 月 18 日之前，闭园时太阳还高悬地平线之上 17 到 50 分钟，黄金时段在这里物理上不可能拍到。</strong>只有 <strong>10 月 20 日以后</strong>，17:00–18:00 这最后一小时才真正落进黄金时段。<strong>所以正确的做法是：如果日期在 10 月 20 日之前，把「金色光」的期待彻底放下，改追「低角度侧光」——即 10 月周六周日的 09:00–10:30 开门第一小时，那是全天太阳最低、影子最长的时段，而且人最少。</strong>24–70mm 拍雕塑与地形的关系，70–200mm 压缩钢构与远山，<strong>16–24mm 贴近钢构底部仰拍，让红色钢梁切割天空</strong>。偏振镜能把秋日的蓝天压深，与红色钢构的对比会非常强。"
+            "desc": "<strong>这是全园最重要的机位，也是唯一能同时收进「巨型钢构、起伏草甸、远处山脊」的位置。</strong><strong>关于黄金时段，把话说清楚：Storm King 全年 18:00 关门、17:00 停止入场。</strong>对照日落——9 月 26 日 18:48、10 月 5 日 18:33、10 月 15 日 18:17、10 月 20 日 18:09、10 月 25 日 18:02、10 月 31 日 17:54。<strong>结论：10 月 18 日之前，闭园时太阳还高悬地平线之上 17 到 50 分钟，黄金时段在这里物理上不可能拍到。</strong>只有 <strong>10 月 20 日以后</strong>，17:00–18:00 这最后一小时才真正落进黄金时段。<strong>所以正确的做法是：如果日期在 10 月 20 日之前，把「金色光」的期待彻底放下，改追「低角度侧光」——即 10 月周六周日的 09:00–10:30 开门第一小时，那是全天太阳最低、影子最长的时段，而且人最少。</strong>24–70mm 拍雕塑与地形的关系，70–200mm 压缩钢构与远山，<strong>16–24mm 贴近钢构底部仰拍，让红色钢梁切割天空</strong>。偏振镜能把秋日的蓝天压深，与红色钢构的对比会非常强。<strong>坐标为 Storm King Art Center 的 OSM 节点（园区南半部），不是精确站位</strong>。"
           },
           {
             "name": "Museum Hill 与美术馆建筑",
@@ -571,7 +1662,7 @@ var REGIONS = [
           },
           {
             "name": "Maya Lin《Wavefield》",
-            "desc": "11 英亩的人造土浪，波长约 11 米、波高约 3–4.6 米，2007–2008 年在一处废弃采砾场上做成。<strong>它只有在极低角度的侧光下才成立</strong>——光一高，土浪就塌成一片平草地，什么都看不出来。所以：<strong>10 月周六周日 09:00–10:00，或任何一天的 17:00–18:00</strong>，这是全园对时间最挑剔的一件作品。70–200mm 从侧面压缩波峰的重复韵律，24–70mm 站在波谷里拍「被土浪包围」的视角。位于园区西南角，自入口约 1.6 公里，<strong>可租园内自行车（10:00–16:00 出租、18:00 前归还）节省时间；个人自行车不得入园</strong>。<strong>无 OSM 实体节点，地图无针脚。</strong>"
+            "desc": "11 英亩的人造土浪，<strong>波高约 3–4.6 米（10–15 英尺）、每道波脊长约 120 米（400 英尺）</strong>，2007–2008 年在一处废弃采砾场上做成。<strong>它只有在极低角度的侧光下才成立</strong>——光一高，土浪就塌成一片平草地，什么都看不出来。所以：<strong>10 月周六周日 09:00–10:00，或任何一天的 17:00–18:00</strong>，这是全园对时间最挑剔的一件作品。70–200mm 从侧面压缩波峰的重复韵律，24–70mm 站在波谷里拍「被土浪包围」的视角。位于园区西南角，自入口约 1.6 公里，<strong>可租园内自行车（10:00–16:00 出租、18:00 前归还）节省时间；个人自行车不得入园</strong>。<strong>无 OSM 实体节点，地图无针脚。</strong>"
           }
         ],
         "access": {
@@ -593,15 +1684,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Storm_King_Museum_Building_Jul_12.jpg",
+            "url": "img/storm-king-museum-building-jul-12-82343942.jpg",
             "cap": "Museum Hill 上的美术馆建筑 · Doug Kerr / CC BY-SA 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Storm_King_Art_Center_views_01.jpg",
+            "url": "img/storm-king-art-center-views-01-6f787746.jpg",
             "cap": "起伏草甸上的大尺度户外雕塑 · ɱ / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Storm_King_Art_Center_%28112119123%29.jpeg",
+            "url": "img/storm-king-art-center-112119123-a8b0b95a.jpg",
             "cap": "South Fields 的钢构与丘陵地形 · Jim Wroten / CC BY-SA 3.0"
           }
         ]
@@ -687,15 +1778,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Cold_Spring_New_York_2025.jpg",
+            "url": "img/cold-spring-new-york-2025-9560a7ef.jpg",
             "cap": "Cold Spring 滨水与对岸 Hudson Highlands · Arwcheek / CC0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Cold_Spring_Waterfront.JPG",
+            "url": "img/cold-spring-waterfront-2ba3a4b7.jpg",
             "cap": "Main Street 底部滨水与凉亭 · Alexisrael / CC BY-SA 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Cold_Spring_-_Flickr_-_minka6.jpg",
+            "url": "img/cold-spring-flickr-minka6-b08312fd.jpg",
             "cap": "越河看西岸山体 · minka6 / CC BY 2.0"
           }
         ]
@@ -777,15 +1868,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bear_Mountain_Bridge_from_eastern_Dunderberg_Mountain%2C_Nov._2024.jpg",
+            "url": "img/bear-mountain-bridge-from-eastern-dunderberg-mountain-nov-20-121949e0.jpg",
             "cap": "Bear Mountain Bridge 与秋季 Hudson Highlands · Mr. Matté / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Bear_Mountain_Peak.JPG",
+            "url": "img/bear-mountain-peak-a4c542d8.jpg",
             "cap": "Bear Mountain 山顶视野 · Alexisrael / CC BY-SA 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Scenery_at_Bear_Mountain_Lake_-_Bear_Mountain_State_Park_-_New_York_-_USA_%2827359867157%29.jpg",
+            "url": "img/scenery-at-bear-mountain-lake-bear-mountain-state-park-new-y-0fb13b6e.jpg",
             "cap": "山下 Hessian Lake 一带的秋色 · Adam Jones / CC BY-SA 2.0"
           }
         ]
@@ -846,7 +1937,7 @@ var REGIONS = [
               41.09538,
               -73.86032
             ],
-            "desc": "<strong>墓园每日开放：周一至周五 08:00–16:30，周六周日 08:30–16:30，16:30 之后不得入园，个人与家庭免费</strong>。两个入口的资料箱里有免费的法律用纸尺寸导览图，标出主要名人墓位。<strong>光线上，这里几乎全在树冠下，所以要的是散射光而不是直射</strong>：阴天全天可用，晴天则选 <strong>08:00–10:00</strong>，此时低角度光从树间穿过、光斑还不至于杂乱。<strong>器材必须是手持相机或手机，见下方注意事项——这是硬规定。</strong><strong>所以实际方案是：35mm 或 50mm 大光圈定焦一支，f/1.8 加 ISO 800，不带包、不带脚架、不带反光板</strong>，这样既合规又不引人注意。<strong>秋色峰期约 10 月 20 日–11 月 5 日</strong>，10 月上旬来会看到一片绿。"
+            "desc": "<strong>墓园每日开放：周一至周五 08:00–16:30，周六周日 08:30–16:30，16:30 之后不得入园，个人与家庭免费</strong>。两个入口的资料箱里有免费的法律用纸尺寸导览图，标出主要名人墓位。<strong>光线上，这里几乎全在树冠下，所以要的是散射光而不是直射</strong>：阴天全天可用，晴天则选 <strong>08:00–10:00</strong>，此时低角度光从树间穿过、光斑还不至于杂乱。<strong>器材必须是手持相机或手机，见下方注意事项——这是硬规定。</strong><strong>所以实际方案是：35mm 或 50mm 大光圈定焦一支，f/1.8 加 ISO 800，不带包、不带脚架、不带反光板</strong>，这样既合规又不引人注意。<strong>秋色峰期约 10 月 20 日–11 月 5 日</strong>，10 月上旬来会看到一片绿。<strong>坐标为 Sleepy Hollow Cemetery 园区内 Forest Avenue 一带的 OSM 节点，不是 Irving 墓的精确位置——请用入口资料箱里的免费导览图定位</strong>。"
           },
           {
             "name": "Lyndhurst —— 哥特复兴立面与河岸草坪",
@@ -880,15 +1971,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Lyndhurst2020_4.jpg",
+            "url": "img/lyndhurst2020-4-a3ed40ae.jpg",
             "cap": "Lyndhurst 哥特复兴立面 · Irina S.B. / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Lyndhurst_Park_with_Tappan_Zee_Bridge.JPG",
+            "url": "img/lyndhurst-park-with-tappan-zee-bridge-0600216f.jpg",
             "cap": "Lyndhurst 河岸草坪与 Hudson · Ad Meskens / CC BY-SA 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Sleepy_Hollow_Cemetery_from_Rockefeller_State_Park.jpg",
+            "url": "img/sleepy-hollow-cemetery-from-rockefeller-state-park-3ead8bd3.jpg",
             "cap": "Sleepy Hollow Cemetery 秋季远景 · PointsofNoReturn / CC BY-SA 4.0"
           }
         ]
@@ -1002,15 +2093,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Empire_State_Building_at_Night_from_Top_of_the_Rock_%2826453938287%29.jpg",
+            "url": "img/empire-state-building-at-night-from-top-of-the-rock-26453938-fd575160.jpg",
             "cap": "自 Top of the Rock 夜拍 Empire State Building · Nan Palmero / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/NYC_Top_of_the_Rock_Pano.jpg",
+            "url": "img/nyc-top-of-the-rock-pano-c429756f.jpg",
             "cap": "70 层无玻璃平台全景 · Daniel Schwen / CC BY-SA 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Top_of_30_Rock_%286279766362%29.jpg",
+            "url": "img/top-of-30-rock-6279766362-6bee20bd.jpg",
             "cap": "观景平台与周圈混凝土矮台 · Erik Drost / CC BY 2.0"
           }
         ]
@@ -1087,15 +2178,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/NYC_-_St._Patrick%27s_Cathedral_-_Interior.JPG",
+            "url": "img/nyc-st-patrick-s-cathedral-interior-ff49b461.jpg",
             "cap": "中殿中轴线与主祭台 · Jean-Christophe BENOIST / CC BY 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Spires_of_St_Patricks_Cathedral_Rising_Above_Fifth_Avenue_2019-09-30_18-19.jpg",
+            "url": "img/spires-of-st-patricks-cathedral-rising-above-fifth-avenue-20-d454aa50.jpg",
             "cap": "第五大道上的双尖塔 · Axel Tschentscher / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/20/St-Patricks-Cathedral_renovated-interior-1.jpg",
+            "url": "img/st-patricks-cathedral-renovated-interior-1-6e266bb9.jpg",
             "cap": "2015 年修复后的室内拱肋与柱列 · GordonStrong / CC BY-SA 4.0"
           }
         ]
@@ -1184,15 +2275,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Channel_Gardens_Rockefeller_Center_New_York_2022.jpg",
+            "url": "img/channel-gardens-rockefeller-center-new-york-2022-a7a94565.jpg",
             "cap": "Channel Gardens 中轴线望 30 Rockefeller Plaza · Larry D. Moore / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/PROMETHEUS%2C_Rockefeller_Center%2C_New_York%2C_NY.jpg",
+            "url": "img/prometheus-rockefeller-center-new-york-ny-59afb79d.jpg",
             "cap": "下沉广场的镀金 Prometheus · Peter K Burian / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Atlas-Rockefeller_Center.jpg",
+            "url": "img/atlas-rockefeller-center-441c280f.jpg",
             "cap": "Lee Lawrie 的 Atlas 与其身后的第五大道 · P. Hughes / CC BY-SA 4.0"
           }
         ]
@@ -1266,15 +2357,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/NewYorkTheEdgePanorama.jpg",
+            "url": "img/newyorktheedgepanorama-ecc44cba.jpg",
             "cap": "自 Edge 平台俯瞰中城与下城全景 · Erik Grönnerud / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Edge_NYC_observation_deck_at_30_Hudson_Yards.jpg",
+            "url": "img/edge-nyc-observation-deck-at-30-hudson-yards-c488a161.jpg",
             "cap": "三角形悬臂平台与斜面玻璃围挡 · Wikipettanko / CC BY-SA 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Edge_from_One_Vanderbilt_New_York_2022.jpg",
+            "url": "img/edge-from-one-vanderbilt-new-york-2022-445f3ca3.jpg",
             "cap": "自 One Vanderbilt 看 Edge 悬出楼体的形态 · Larry D. Moore / CC BY 4.0"
           }
         ]
@@ -1364,15 +2455,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Bryant_Park_%26_Emp_State.JPG",
+            "url": "img/bryant-park-emp-state-fab6fe3d.jpg",
             "cap": "自 Bryant Park 草坪望 Empire State Building · Phi / CC0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/American_Radiator_Building_and_Empire_State_Building%2C_2025_%2854982982508%29.jpg",
+            "url": "img/american-radiator-building-and-empire-state-building-2025-54-c2b44268.jpg",
             "cap": "American Radiator Building 与 Empire State Building 同框 · Ethan Long / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bryant_Park_with_the_Empire_State_Building_in_the_background_-_panoramio.jpg",
+            "url": "img/bryant-park-with-the-empire-state-building-in-the-background-4bdc98f8.jpg",
             "cap": "草坪前景加 Empire State Building 的竖构图 · Martin Ibert / CC BY-SA 3.0"
           }
         ]
@@ -1446,15 +2537,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/New_York_Public_Library_Rose_Reading_Room_%2840430027685%29.jpg",
+            "url": "img/new-york-public-library-rose-reading-room-40430027685-3c034262.jpg",
             "cap": "Rose Main Reading Room 长轴与铜制台灯 · Nan Palmero / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Astor_Hall%2C_New_York_Public_Library.jpg",
+            "url": "img/astor-hall-new-york-public-library-0858293b.jpg",
             "cap": "Astor Hall 白色大理石大厅与对称楼梯 · bryansjs / CC BY-SA 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/New_York_City%2C_Midtown_Manhattan%2C_New_York_Public_Library%2C_Stephen_A._Schwarzman_Building%2C_1897-1911._5th_Avenue_%282011%29.jpg",
+            "url": "img/new-york-city-midtown-manhattan-new-york-public-library-step-a43ab654.jpg",
             "cap": "第五大道立面与 Patience、Fortitude 双狮 · vincent desjardins / CC BY 2.0"
           }
         ]
@@ -1528,11 +2619,11 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/2022-0402-NYC-Summit_One_Vanderbilt-01.jpg",
+            "url": "img/2022-0402-nyc-summit-one-vanderbilt-01-a881df2a.jpg",
             "cap": "Kenzo Digital 的镜面装置「Air」内部 · Bobak Ha'Eri / CC BY 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/2022-0402-NYC-Summit_One_Vanderbilt-02.jpg",
+            "url": "img/2022-0402-nyc-summit-one-vanderbilt-02-4bd842b3.jpg",
             "cap": "镜面墙地顶与中城天际线的多重反射 · Bobak Ha'Eri / CC BY 3.0"
           }
         ]
@@ -1618,15 +2709,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Grand_Central_Terminal_Main_Concourse%2C_New_York%2C_August_2021.jpg",
+            "url": "img/grand-central-terminal-main-concourse-new-york-august-2021-b437b01c.jpg",
             "cap": "Main Concourse 与星空天顶 · PCN02WPS / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Grand_Central_Station_Main_Concourse_Rectilinear_projection_Jan_2006.jpg",
+            "url": "img/grand-central-station-main-concourse-rectilinear-projection--9e274786.jpg",
             "cap": "自 West Balcony 俯视大厅与中央问询亭铜钟 · Diliff / CC BY 2.5"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/42nd_Street_Facade%2C_Grand_Central_Terminal%2C_October_2025.jpg",
+            "url": "img/42nd-street-facade-grand-central-terminal-october-2025-219bf38e.jpg",
             "cap": "42 街立面与 Glory of Commerce 雕塑群 · TheCatalyst31 / CC BY-SA 4.0"
           }
         ]
@@ -1700,15 +2791,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/New_York_City_%28New_York%2C_USA%29%2C_Empire_State_Building_--_2012_--_6448.jpg",
+            "url": "img/new-york-city-new-york-usa-empire-state-building-2012-6448-65042937.jpg",
             "cap": "Empire State Building 塔身与装饰艺术退台 · Dietmar Rabich / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Empire_state_building-20120518-RM-163038.jpg",
+            "url": "img/empire-state-building-20120518-rm-163038-ccdfe165.jpg",
             "cap": "自街面仰望塔冠 · Ermell / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Empire_State_Building_view3.jpg",
+            "url": "img/empire-state-building-view3-847cf386.jpg",
             "cap": "自 86 层观景台俯瞰中城 · Benn Newman / MIT License"
           }
         ]
@@ -1837,15 +2928,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/At_New_York_City_2023_024_-_High_Line_Section_3.jpg",
+            "url": "img/at-new-york-city-2023-024-high-line-section-3-e716a50a.jpg",
             "cap": "High Line 步道与两侧种植 · Mike Peel / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/High_Line%2C_New_York_City%2C_20231001_1806_1489.jpg",
+            "url": "img/high-line-new-york-city-20231001-1806-1489-52df0bf6.jpg",
             "cap": "十月初的 High Line 草本与楼群 · Jakub Hałun / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Highline_and_IAC_Building_NY1.jpg",
+            "url": "img/highline-and-iac-building-ny1-2f27ca08.jpg",
             "cap": "High Line 与 IAC Building · Acroterion / CC BY-SA 4.0"
           }
         ]
@@ -1943,15 +3034,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Hudson_River_Park_td_%282024-08-18%29_001_-_Little_Island_at_Pier_55.jpg",
+            "url": "img/hudson-river-park-td-2024-08-18-001-little-island-at-pier-55-fd4d0c37.jpg",
             "cap": "Little Island 与混凝土桩阵列 · Tdorante10 / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Little_Island_Amphitheater%2C_New_York_City%2C_20231001_1824_1523.jpg",
+            "url": "img/little-island-amphitheater-new-york-city-20231001-1824-1523-160b9d20.jpg",
             "cap": "圆形剧场 The Amph 与 Hudson · Jakub Hałun / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Hudson_River_Park_td_%282024-08-18%29_010_-_Little_Island_at_Pier_55.jpg",
+            "url": "img/hudson-river-park-td-2024-08-18-010-little-island-at-pier-55-a58e67e1.jpg",
             "cap": "自水面看桩顶的起伏 · Tdorante10 / CC BY-SA 4.0"
           }
         ]
@@ -2027,15 +3118,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Whitney_Museum_from_west.jpg",
+            "url": "img/whitney-museum-from-west-cec59c8a.jpg",
             "cap": "自西侧看 Renzo Piano 的悬挑体量 · Beyond My Ken / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/2025-05-15-Whitney-Museum-of_American-Art-Meatpacking-District-building.jpg",
+            "url": "img/2025-05-15-whitney-museum-of-american-art-meatpacking-distri-009e7de5.jpg",
             "cap": "东侧外挑露台与外置钢楼梯 · Gunnar Klack / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Square%2C_Whitney_Museum_of_American_Art_%28Unsplash%29.jpg",
+            "url": "img/square-whitney-museum-of-american-art-unsplash-c7b55711.jpg",
             "cap": "博物馆与 Gansevoort Street 街景 · Michael Mroczek / CC0"
           }
         ]
@@ -2116,15 +3207,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Washington_Square_Arch%2C_New_York.jpg",
+            "url": "img/washington-square-arch-new-york-2b7bfed9.jpg",
             "cap": "Washington Square Arch 正面 · Marco Almbauer / CC0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Washington_Square_Park%2C_Manhattan_%282014%29_-_05.JPG",
+            "url": "img/washington-square-park-manhattan-2014-05-3fbea95f.jpg",
             "cap": "喷泉与拱门的轴线关系 · Another Believer / CC BY-SA 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Washington_Square_Arch_September_2022.jpg",
+            "url": "img/washington-square-arch-september-2022-43a86e85.jpg",
             "cap": "九月的拱门与公园人流 · Kidfly182 / CC BY-SA 4.0"
           }
         ]
@@ -2198,15 +3289,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Midtown_Manhattan_skyline_from_the_One_World_Observatory%2C_New_York_City.jpg",
+            "url": "img/midtown-manhattan-skyline-from-the-one-world-observatory-new-adfa71e2.jpg",
             "cap": "自观景台北望 Midtown（注意距离感） · Christian David / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Interior_of_the_One_World_Observatory_with_visitors_backlit_against_the_windows%2C_New_York_City.jpg",
+            "url": "img/interior-of-the-one-world-observatory-with-visitors-backlit--b1945205.jpg",
             "cap": "玻璃前逆光的观众剪影 · Christian David / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Panorama_of_Midtown_Manhattan_from_the_One_World_Observatory%2C_New_York_City.jpg",
+            "url": "img/panorama-of-midtown-manhattan-from-the-one-world-observatory-a398fff9.jpg",
             "cap": "观景层全景接片 · Christian David / CC BY-SA 4.0"
           }
         ]
@@ -2284,15 +3375,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/North_reflecting_pool_of_the_National_September_11_Memorial%2C_New_York_City.jpg",
+            "url": "img/north-reflecting-pool-of-the-national-september-11-memorial--6ae6ce31.jpg",
             "cap": "North Pool 与四面下落的水幕 · Christian David / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/National_September_11_Memorial_South_Pool_-_03.jpg",
+            "url": "img/national-september-11-memorial-south-pool-03-309cf4c4.jpg",
             "cap": "South Pool 与青铜名字栏板 · Oleg Yunakov / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/National_September_11_Memorial%2C_World_Trade_Center%2C_Manhattan%2C_New_York.jpg",
+            "url": "img/national-september-11-memorial-world-trade-center-manhattan--fb74d07a.jpg",
             "cap": "广场与 Oculus、One World Trade Center 的关系 · Christian David / CC BY-SA 4.0"
           }
         ]
@@ -2374,15 +3465,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Oculus_%2841323p%29.jpg",
+            "url": "img/oculus-41323p-cdc5195a.jpg",
             "cap": "大厅钢肋与天窗全景 · Rhododendrites / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/d/de/Oculus_Interior_252.jpg",
+            "url": "img/oculus-interior-252-a9ac3947.jpg",
             "cap": "大厅内部钢肋阵列 · Kidfly182 / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/One_World_Trade_Center_through_the_Oculus_%2891538%29.jpg",
+            "url": "img/one-world-trade-center-through-the-oculus-91538-57eb1e20.jpg",
             "cap": "自大厅内透过天窗看 One World Trade Center · Rhododendrites / CC BY-SA 4.0"
           }
         ]
@@ -2476,15 +3567,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/2024-06-15_09_55_03_View_from_the_pedestrian_walkway_of_the_Brooklyn_Bridge_northwestward_towards_the_Manhattan_tower_in_Manhattan%2C_New_York_City%2C_New_York.jpg",
+            "url": "img/2024-06-15-09-55-03-view-from-the-pedestrian-walkway-of-the--0862f6c5.jpg",
             "cap": "自步道望 Manhattan 塔的双尖拱 · Famartin / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/2024-06-15_09_53_30_View_from_the_middle_of_the_Brooklyn_Bridge_looking_northwest_along_the_pedestrian_walkway_in_Manhattan%2C_New_York_City%2C_New_York.jpg",
+            "url": "img/2024-06-15-09-53-30-view-from-the-middle-of-the-brooklyn-bri-129cf2d8.jpg",
             "cap": "桥中段向西北看步道与缆索 · Famartin / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Brooklyn_Bridge_as_viewed_from_pedestrian_walkway.jpg",
+            "url": "img/brooklyn-bridge-as-viewed-from-pedestrian-walkway-bd608238.jpg",
             "cap": "缆索网格与塔的对称关系 · Guushing / CC BY-SA 3.0"
           }
         ]
@@ -2570,15 +3661,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Statue_of_Liberty_from_Staten_Island_Ferry%2C_January_8_2026.jpg",
+            "url": "img/statue-of-liberty-from-staten-island-ferry-january-8-2026-81786a54.jpg",
             "cap": "自渡轮看自由女神（右舷视角） · Dillan Payne / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/View_of_Liberty_Island_from_Staten_Island_Ferry%2C_NYC%2C_20231002_1645_1793.jpg",
+            "url": "img/view-of-liberty-island-from-staten-island-ferry-nyc-20231002-a96ba6c1.jpg",
             "cap": "十月傍晚的 Liberty Island · Jakub Hałun / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Statue_of_Liberty_from_the_Staten_Island_Ferry_Evening_%286251160214%29.jpg",
+            "url": "img/statue-of-liberty-from-the-staten-island-ferry-evening-62511-9e1d9ef4.jpg",
             "cap": "傍晚逆光下的女神像剪影 · Tony Hisgett / CC BY 2.0"
           }
         ]
@@ -2699,15 +3790,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Long_Island_City_Pepsi_Cola_Sign_-_May_2026.jpg",
+            "url": "img/long-island-city-pepsi-cola-sign-may-2026-ceacaff6.jpg",
             "cap": "Pepsi-Cola 招牌与 Midtown 天际线 · Anonymouscarrots / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/19/Pepsi-Cola_sign_park_view.jpg",
+            "url": "img/pepsi-cola-sign-park-view-ee82b923.jpg",
             "cap": "自园内草坪望招牌与对岸楼群 · Sashimi-b / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Pepsi-Cola_sign_in_Gantry_Plaza_State_Park%2C_Long_Island_City%2C_New_York.jpg",
+            "url": "img/pepsi-cola-sign-in-gantry-plaza-state-park-long-island-city--e9d8221f.jpg",
             "cap": "招牌侧向机位 · MusikAnimal / CC BY-SA 4.0"
           }
         ]
@@ -2801,15 +3892,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Brooklyn_Bridge_and_the_Lower_Manhattan_skyline_from_Pebble_Beach%2C_New_York.jpg",
+            "url": "img/brooklyn-bridge-and-the-lower-manhattan-skyline-from-pebble--22b9f2cf.jpg",
             "cap": "自 Pebble Beach 拍 Brooklyn Bridge 与 Lower Manhattan 超宽幅 · Christian David / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Jane%27s_Carousel%2C_Dumbo_Brooklyn_in_July_2017.jpg",
+            "url": "img/jane-s-carousel-dumbo-brooklyn-in-july-2017-8002019c.jpg",
             "cap": "Jane’s Carousel 的 Jean Nouvel 玻璃亭 · MusikAnimal / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Brooklyn_Bridge_Above_Jane%27s_Carousel.jpg",
+            "url": "img/brooklyn-bridge-above-jane-s-carousel-9f06c044.jpg",
             "cap": "Brooklyn Bridge 石塔与木马亭同框 · joiseyshowaa / CC BY-SA 2.0"
           }
         ]
@@ -2890,15 +3981,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Manhattan_Bridge_from_Washington_Street%2C_Dumbo%2C_Brooklyn%2C_New_York.jpg",
+            "url": "img/manhattan-bridge-from-washington-street-dumbo-brooklyn-new-y-8469bb7e.jpg",
             "cap": "自 Washington Street 拍 Manhattan Bridge 经典竖幅 · Christian David / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Empire_State_Building_through_the_Manhattan_Bridge_arch%2C_Dumbo%2C_Brooklyn%2C_New_York.jpg",
+            "url": "img/empire-state-building-through-the-manhattan-bridge-arch-dumb-00a98c6f.jpg",
             "cap": "桥洞中的 Empire State Building 长焦特写 · Christian David / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Manhattan_Bridge_view_from_Washington_Street_DUMBO_Brooklyn_Morning_2022.jpg",
+            "url": "img/manhattan-bridge-view-from-washington-street-dumbo-brooklyn--d26a166e.jpg",
             "cap": "清晨侧光下的砖墙与桥塔 · Eugene Krasnaok / CC BY 4.0"
           }
         ]
@@ -2979,15 +4070,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Brooklyn_Heights_Promenade_View.jpg",
+            "url": "img/brooklyn-heights-promenade-view-be88e6b5.jpg",
             "cap": "自步道望 Lower Manhattan 全景 · Kidfly182 / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Brooklyn_Heights_Promenade_NY1.jpg",
+            "url": "img/brooklyn-heights-promenade-ny1-5206422b.jpg",
             "cap": "悬臂步道本体与铸铁栏杆 · Acroterion / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Brooklyn_Heights_Promenade_01_%289423355002%29.jpg",
+            "url": "img/brooklyn-heights-promenade-01-9423355002-39af070d.jpg",
             "cap": "步道北段与 Brooklyn Bridge · Joe Mabel / CC BY-SA 3.0"
           }
         ]
@@ -3076,15 +4167,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Fall_Morning_Prospect_Park_Long_Meadow.jpg",
+            "url": "img/fall-morning-prospect-park-long-meadow-0824ed9c.jpg",
             "cap": "秋日清晨的 Long Meadow · Badtartin / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Prospect_Park_boathouse_%2861446p%29.jpg",
+            "url": "img/prospect-park-boathouse-61446p-daf9165a.jpg",
             "cap": "Boathouse on the Lullwater 与水面倒影 · Rhododendrites / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Soldiers%27_and_Sailors%27_Arch%2C_Brooklyn.jpg",
+            "url": "img/soldiers-and-sailors-arch-brooklyn-c24569fe.jpg",
             "cap": "Grand Army Plaza 的 Soldiers’ and Sailors’ Arch · David Brossard / CC BY-SA 2.0"
           }
         ]
@@ -3169,15 +4260,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Japanese_Hill-and-Pond_Garden%2C_Brooklyn_Botanic_Garden_%2860636%29.jpg",
+            "url": "img/japanese-hill-and-pond-garden-brooklyn-botanic-garden-60636-911abf98.jpg",
             "cap": "Japanese Hill-and-Pond Garden 池畔与鸟居 · Rhododendrites / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Brooklyn_Botanic_Garden_New_York_November_2016_006.jpg",
+            "url": "img/brooklyn-botanic-garden-new-york-november-2016-006-1de7d667.jpg",
             "cap": "秋色中的日式庭园 · King of Hearts / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Brooklyn_Botanic_Garden_New_York_October_2016_005.jpg",
+            "url": "img/brooklyn-botanic-garden-new-york-october-2016-005-1cb0420b.jpg",
             "cap": "十月园内秋叶 · King of Hearts / CC BY-SA 4.0"
           }
         ]
@@ -3271,15 +4362,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Green-Wood_Cemetery_gate_%2853784p%29.jpg",
+            "url": "img/green-wood-cemetery-gate-53784p-5c229a9c.jpg",
             "cap": "25th Street 哥特复兴主门与钟塔 · Rhododendrites / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Green-Wood_Cemetery_gate_%2853753p%29.jpg",
+            "url": "img/green-wood-cemetery-gate-53753p-67b64453.jpg",
             "cap": "主门尖拱与飞扶壁细部 · Rhododendrites / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a3/2015_Green-Wood_Cemetery_gate_house.jpg",
+            "url": "img/2015-green-wood-cemetery-gate-house-db396bf2.jpg",
             "cap": "门侧的办公与礼拜堂翼楼 · Beyond My Ken / CC BY-SA 4.0"
           }
         ]
@@ -3369,15 +4460,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Wonder_Wheel_and_Thunderbolt_at_night%2C_Coney_Island%2C_Brooklyn.jpg",
+            "url": "img/wonder-wheel-and-thunderbolt-at-night-coney-island-brooklyn-724640f6.jpg",
             "cap": "夜间亮灯的 Wonder Wheel 与 Thunderbolt · Amaury Laporte / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Parachute_Jump_on_Coney_Island.jpg",
+            "url": "img/parachute-jump-on-coney-island-01d12d00.jpg",
             "cap": "262 英尺的 Parachute Jump 塔 · Rhododendrites / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Steeplechase_Pier_facing_Coney_Island_Boardwalk.jpg",
+            "url": "img/steeplechase-pier-facing-coney-island-boardwalk-a36d995f.jpg",
             "cap": "自 Steeplechase Pier 回望木栈道与天际线 · Rhododendrites / CC BY-SA 4.0"
           }
         ]

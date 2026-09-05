@@ -258,11 +258,11 @@ module.exports = {
           '考虑到园内 Mammoth 加油站 10 月 4 日就关，<strong>每次进园前在 Gardiner 加满是本区的标准动作</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/72/Sunrise_at_Roosevelt_Arch_%2833691940371%29.jpg',
+        { url: 'img/sunrise-at-roosevelt-arch-33691940371-860984ed.jpg',
           cap: '日出时的 Roosevelt Arch · Yellowstone National Park (NPS) / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1d/Roosevelt_Arch%2C_Yellowstone_gate_%2895954p%29.jpg',
+        { url: 'img/roosevelt-arch-yellowstone-gate-95954p-99171871.jpg',
           cap: '拱门与 Gardiner 一侧全景 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Inscription_on_Roosevelt_Arch_%2833641927502%29.jpg',
+        { url: 'img/inscription-on-roosevelt-arch-33641927502-3e00cf8a.jpg',
           cap: '门楣题字特写 · Yellowstone National Park (NPS) / 公有领域' }
       ]
     },
@@ -403,11 +403,11 @@ module.exports = {
           '此后园内北部的热食只剩 Mammoth Hot Springs Hotel 的餐厅（营业到 2027 年 3 月）与 Mammoth General Store'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Mammoth_Hot_Springs_%2878729p%29.jpg',
+        { url: 'img/mammoth-hot-springs-78729p-7ac9366a.jpg',
           cap: '主台地全景，可见阶梯状边坝 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/ad/Palette_Spring_terraces_%2848021367501%29.jpg',
+        { url: 'img/palette-spring-terraces-48021367501-7b1c45f0.jpg',
           cap: 'Palette Spring 的流水面与色带 · Yellowstone National Park (NPS) / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Orange_Spring_Mound_at_Mammoth_Hot_Springs.jpg',
+        { url: 'img/orange-spring-mound-at-mammoth-hot-springs-3852f72d.jpg',
           cap: '上台地环路的 Orange Spring Mound · Brocken Inaglory / CC BY-SA 3.0' }
       ]
     },
@@ -518,11 +518,11 @@ module.exports = {
           '住这里的额外好处是：草坪就在窗外，不用为了晨昏光线在黑暗中开长途山路'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Bull_elk_bugling%2C_Mammoth_Hot_Springs_%2826095965298%29.jpg',
+        { url: 'img/bull-elk-bugling-mammoth-hot-springs-26095965298-9b12d2a4.jpg',
           cap: 'Mammoth 草坪上鸣叫的公麋鹿 · Yellowstone National Park (NPS) / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Bull_elk_with_harem%2C_Mammoth_Hot_Springs_%2826095968758%29.jpg',
+        { url: 'img/bull-elk-with-harem-mammoth-hot-springs-26095968758-0461c53c.jpg',
           cap: '公鹿与它的 harem · Yellowstone National Park (NPS) / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/A_bull_elk_bugles_in_Arch_Park_at_sunset_%2848795777356%29.jpg',
+        { url: 'img/a-bull-elk-bugles-in-arch-park-at-sunset-48795777356-a8630a50.jpg',
           cap: 'Gardiner 的 Arch Park，公鹿在日落时鸣叫 · Yellowstone National Park (NPS) / 公有领域' }
       ]
     },
@@ -609,11 +609,11 @@ module.exports = {
           '那正好是它们的正面光时段，而清晨去反而是逆光'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Undine_Falls_%28Yellowstone_National_Park%2C_northwestern_Wyoming%2C_USA%29_%2815946534709%29.jpg',
+        { url: 'img/undine-falls-yellowstone-national-park-northwestern-wyoming--ee731b94.jpg',
           cap: 'Undine Falls 三级跌水 · James St. John / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/01/Wraith_Falls_%28Lupine_Creek%2C_Yellowstone_National_Park%2C_northwestern_Wyoming%2C_USA%29_%2816131851632%29.jpg',
+        { url: 'img/wraith-falls-lupine-creek-yellowstone-national-park-northwes-b8c97fcc.jpg',
           cap: 'Wraith Falls 贴岩板下滑的宽幅斜瀑 · James St. John / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/Hiker_and_Wraith_Falls_%2852200512453%29.jpg',
+        { url: 'img/hiker-and-wraith-falls-52200512453-055db2a9.jpg',
           cap: '观景平台与瀑布的尺度关系 · YellowstoneNPS / 公有领域' }
       ]
     },
@@ -733,11 +733,11 @@ module.exports = {
           '官方标识与地图一律用单数，搜索资料时用单数命中率更高'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/61/Tower_Fall_%2828880933604%29.jpg',
+        { url: 'img/tower-fall-28880933604-97c01cd1.jpg',
           cap: '主观景台视角的 Tower Fall 与火山岩尖峰 · Yellowstone National Park (NPS) / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Tower_Fall_%2823266736344%29.jpg',
+        { url: 'img/tower-fall-23266736344-a8bbd086.jpg',
           cap: '竖构图下瀑布与尖峰的比例关系 · Yellowstone National Park (NPS) / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/25/Yellowstone_River_near_Tower_Fall%2C_Yellowstone_National_Park%2C_2009.jpg',
+        { url: 'img/yellowstone-river-near-tower-fall-yellowstone-national-park--a1701670.jpg',
           cap: 'Tower Fall 附近的 Yellowstone River 峡谷 · DimiTalen / CC0' }
       ]
     },
@@ -900,11 +900,11 @@ module.exports = {
           '园内住宿只剩 Mammoth Hot Springs Hotel（Roosevelt Lodge 9 月 7 日已关）'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Lamar_Valley_bison_YNP1.jpg',
+        { url: 'img/lamar-valley-bison-ynp1-3c2ae0eb.jpg',
           cap: 'Lamar Valley 的野牛群与开阔谷地 · Acroterion / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Wildlife_watching_in_Lamar_Valley_with_Yellowstone_Forever_%2836467647182%29.jpg',
+        { url: 'img/wildlife-watching-in-lamar-valley-with-yellowstone-forever-3-27292b8c.jpg',
           cap: '路肩上架着观鸟镜的 scope line · Yellowstone National Park (NPS) / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Lamar_Valley_Pronghorn_grasses.jpg',
+        { url: 'img/lamar-valley-pronghorn-grasses-691829ac.jpg',
           cap: '谷地草甸上的叉角羚 · Chris Light / CC BY-SA 4.0' }
       ]
     },
@@ -1010,11 +1010,11 @@ module.exports = {
           '<strong>把它当成「概率最高的一个点」，不是「一定看得到的点」</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Slough_Creek_%2895427p%29.jpg',
+        { url: 'img/slough-creek-95427p-0a14d73c.jpg',
           cap: 'Slough Creek 支谷的河岸草甸 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9e/Bison_at_Slough_Creek_%2895342%29.jpg',
+        { url: 'img/bison-at-slough-creek-95342-56103a07.jpg',
           cap: 'Slough Creek 草甸上的野牛 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Fall_hiker_on_the_Slough_Creek_Trail_%2844896254444%29.jpg',
+        { url: 'img/fall-hiker-on-the-slough-creek-trail-44896254444-aab5ad7b.jpg',
           cap: '秋季的 Slough Creek 步道 · Yellowstone National Park (NPS) / 公有领域' }
       ]
     },
@@ -1149,11 +1149,11 @@ module.exports = {
           '这意味着「路还开着」和「叶子正黄」这两个条件的重叠窗口相当窄'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/Blacktail_Plateau_Drive_%2815558554342%29.jpg',
+        { url: 'img/blacktail-plateau-drive-15558554342-b55b026a.jpg',
           cap: 'Blacktail Plateau Drive 的草甸段 · Yellowstone National Park (NPS) / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Blacktail_Plateau_Drive_winds_through_the_trees_%2848266867617%29.jpg',
+        { url: 'img/blacktail-plateau-drive-winds-through-the-trees-48266867617-4b15f9e9.jpg',
           cap: '土路在林间的曲线 · Yellowstone National Park (NPS) / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b2/Blacktail_Deer_Plateau_Drive%2C_Yellowstone_National_Park.jpg',
+        { url: 'img/blacktail-deer-plateau-drive-yellowstone-national-park-5c5fd12f.jpg',
           cap: '高原上的开阔视野 · John Manard / CC BY-SA 2.0' }
       ]
     }

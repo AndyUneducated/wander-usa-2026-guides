@@ -352,11 +352,11 @@ module.exports = {
         '停车场有厕所（季节性）；<strong>无餐饮、无饮水</strong>，最近的补给在 Canyon Village'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Artist_Point_view_of_Yellowstone_Canyon_01.jpg',
+        { url: 'img/artist-point-view-of-yellowstone-canyon-01-9f9bb1cd.jpg',
           cap: 'Artist Point 主观景台视角，Lower Falls 位于画面远端 · Dirtsc / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/66/Artist_Point._Yellowstone._NP_%2830657776088%29.jpg',
+        { url: 'img/artist-point-yellowstone-np-30657776088-b317a6a2.jpg',
           cap: '崖壁氧化色带与峡谷收拢感 · Bernard Spragg. NZ / CC0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Visitors_at_Artist_Point_%2811983069053%29.jpg',
+        { url: 'img/visitors-at-artist-point-11983069053-013c8ffe.jpg',
           cap: '观景台实况与平台宽度 · Yellowstone National Park / Public domain' }
       ]
     },
@@ -426,11 +426,11 @@ module.exports = {
           '而它到不了 Lower Falls 底部，只到下游的河边'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a3/Descending_the_stairs_of_Uncle_Tom%27s_Trail_%2820700897544%29.jpg',
+        { url: 'img/descending-the-stairs-of-uncle-tom-s-trail-20700897544-91723b38.jpg',
           cap: '关闭前的 328 级台阶实况 · Yellowstone National Park / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Uncle_Tom%27s_Trail_as_seen_from_the_North_Rim_%2815649919967%29.jpg',
+        { url: 'img/uncle-tom-s-trail-as-seen-from-the-north-rim-15649919967-fa275945.jpg',
           cap: '从北缘看这座悬在崖壁上的楼梯 · Yellowstone National Park / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/66/Lower_Falls_viewed_from_Uncle_Tom%27s_Trail_%2830494725907%29.jpg',
+        { url: 'img/lower-falls-viewed-from-uncle-tom-s-trail-30494725907-3c40eeb6.jpg',
           cap: '楼梯终点平台看 Lower Falls，这个视角现已不可复现 · Yellowstone National Park / Public domain' }
       ]
     },
@@ -531,11 +531,11 @@ module.exports = {
         '无手机信号，无饮水。步道上没有厕所，最近的在停车区（季节性）'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Brink_of_the_Lower_Falls_Trail_%2848637850307%29.jpg',
+        { url: 'img/brink-of-the-lower-falls-trail-48637850307-5df5e2f3.jpg',
           cap: '之字形下切步道实况 · Yellowstone National Park / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/98/New_pavement_and_railings_at_Brink_of_the_Lower_Falls_Trail_%283%29_%2851225605589%29.jpg',
+        { url: 'img/new-pavement-and-railings-at-brink-of-the-lower-falls-trail--59f83db8.jpg',
           cap: '2021 年翻新后的路面与护栏 · YellowstoneNPS / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Brink_of_the_Lower_Falls_viewing_area_%2853041959459%29.jpg',
+        { url: 'img/brink-of-the-lower-falls-viewing-area-53041959459-03ff6e4a.jpg',
           cap: '唇口观景平台与俯视角度 · YellowstoneNPS / Public domain' }
       ]
     },
@@ -629,11 +629,11 @@ module.exports = {
         '两处均无信号、无餐饮；停车场有季节性厕所'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Upper_Falls_of_the_Yellowstone_River%2C_Yellowstone.jpg',
+        { url: 'img/upper-falls-of-the-yellowstone-river-yellowstone-0eda42f1.jpg',
           cap: 'Upper Falls 全景 · Supercarwaar / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Upper_Yellowstone_Falls_%2837028523416%29.jpg',
+        { url: 'img/upper-yellowstone-falls-37028523416-6a3f21c4.jpg',
           cap: '唇口附近的水流与岩槽 · Jason Jacobs / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Grand_Canyon_of_the_Yellowstone_Upper_Falls_%288044053340%29.jpg',
+        { url: 'img/grand-canyon-of-the-yellowstone-upper-falls-8044053340-f6347ea9.jpg',
           cap: 'Upper Falls 竖构图与下游谷口 · Tony Hisgett / CC BY 2.0' }
       ]
     },
@@ -776,11 +776,11 @@ module.exports = {
         '四处均无信号、无餐饮；停车场有季节性厕所。从 Canyon Village 到 North Rim Drive 入口约 1.5 英里'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Fall_sunrise_at_Lookout_Point_Overlook_%2849015104423%29.jpg',
+        { url: 'img/fall-sunrise-at-lookout-point-overlook-49015104423-7eabdbb6.jpg',
           cap: '秋季日出时的 Lookout Point 实景 · Yellowstone National Park / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Lower_Falls_from_Lookout_Point_%2853524958266%29.jpg',
+        { url: 'img/lower-falls-from-lookout-point-53524958266-4069f380.jpg',
           cap: 'Lookout Point 看 Lower Falls 与落水潭 · Yellowstone National Park / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Views_of_the_Grand_Canyon_of_the_Yellowstone_from_Inspiration_Point_%2848324443802%29.jpg',
+        { url: 'img/views-of-the-grand-canyon-of-the-yellowstone-from-inspiratio-42e64f07.jpg',
           cap: '翻修后的 Inspiration Point 与峡谷纵深 · Yellowstone National Park / Public domain' }
       ]
     },
@@ -949,11 +949,11 @@ module.exports = {
           '但<strong>不在本条的机位范围内，本条不给其坐标</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1d/Fog_on_the_Yellowstone_River_in_Hayden_Valley.jpg',
+        { url: 'img/fog-on-the-yellowstone-river-in-hayden-valley-42c5ced0.jpg',
           cap: 'Yellowstone River 上的晨雾，本区核心画面 · TigerScientist / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Hayden_Valley_Buffalos_1.jpg',
+        { url: 'img/hayden-valley-buffalos-1-4d37f3fb.jpg',
           cap: 'Hayden Valley 的野牛群与开阔草甸 · Dirtsc / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Hayden_Valley_Yellowstone_River_01.jpg',
+        { url: 'img/hayden-valley-yellowstone-river-01-affe7b2f.jpg',
           cap: '从公路侧朝东望向河道与对岸谷地 · Dirtsc / CC BY-SA 3.0' }
       ]
     },
@@ -1085,11 +1085,11 @@ module.exports = {
           '但如果碰上零下十度、无风、有晨雾的早晨，它会是当天最出乎意料的一站'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Mud_Volcano%2C_Yellowstone_NP.jpg',
+        { url: 'img/mud-volcano-yellowstone-np-2679c78d.jpg',
           cap: 'Mud Volcano 泥浆池与被蒸汽煮死的枯木 · Supercarwaar / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Sulphur_Caldron_%2827615647381%29.jpg',
+        { url: 'img/sulphur-caldron-27615647381-29b98967.jpg',
           cap: 'Sulphur Caldron 翻滚的酸水，pH 1–2 · Yellowstone National Park / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Mud_Volcano_Area%2C_view_towards_Dragon%27s_Mouth_Spring%2C_Yellowstone_National_Park%2C_2009.jpg',
+        { url: 'img/mud-volcano-area-view-towards-dragon-s-mouth-spring-yellowst-d7cfbaf7.jpg',
           cap: '栈道望向 Dragon\u2019s Mouth Spring · DimiTalen / CC0' }
       ]
     },
@@ -1207,11 +1207,11 @@ module.exports = {
           '观景台在其西南侧的路边平台上，不需要登顶，也没有到顶的正规步道'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Teton_Range_from_Lake_Butte_Overlook_%2847995460877%29.jpg',
+        { url: 'img/teton-range-from-lake-butte-overlook-47995460877-b79aec0e.jpg',
           cap: '从 Lake Butte Overlook 长焦拍 Teton Range · Yellowstone National Park / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Views_of_Yellowstone_Lake_from_Lake_Butte_Overlook_%2854355010103%29.jpg',
+        { url: 'img/views-of-yellowstone-lake-from-lake-butte-overlook-543550101-eace88c3.jpg',
           cap: '高位俯瞰 Yellowstone Lake 湖面 · YellowstoneNPS / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Yellowstone_Lake_and_Teton_Mountains_as_seen_from_Lake_Butte_Overlook_%288a2e8466-47bf-4905-9dfe-5e03f78b9294%29.jpg',
+        { url: 'img/yellowstone-lake-and-teton-mountains-as-seen-from-lake-butte-b3b11c0b.jpg',
           cap: '湖面与远处 Teton 山脊同框（超广视角） · NPS / Jim Peaco / Public domain' }
       ]
     }

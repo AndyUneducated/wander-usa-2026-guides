@@ -209,9 +209,9 @@ module.exports = {
         '拍草穗需要 1/125 秒以上凝固晃动；想要「风中的草」的柔化效果可降到 1/15–1/8 秒，但要等风势的间隙做包围'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/At_New_York_City_2023_024_-_High_Line_Section_3.jpg', cap: 'High Line 步道与两侧种植 · Mike Peel / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/High_Line%2C_New_York_City%2C_20231001_1806_1489.jpg', cap: '十月初的 High Line 草本与楼群 · Jakub Hałun / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f5/Highline_and_IAC_Building_NY1.jpg', cap: 'High Line 与 IAC Building · Acroterion / CC BY-SA 4.0' }
+        { url: 'img/at-new-york-city-2023-024-high-line-section-3-e716a50a.jpg', cap: 'High Line 步道与两侧种植 · Mike Peel / CC BY-SA 4.0' },
+        { url: 'img/high-line-new-york-city-20231001-1806-1489-52df0bf6.jpg', cap: '十月初的 High Line 草本与楼群 · Jakub Hałun / CC BY 4.0' },
+        { url: 'img/highline-and-iac-building-ny1-2f27ca08.jpg', cap: 'High Line 与 IAC Building · Acroterion / CC BY-SA 4.0' }
       ]
     },
     {
@@ -292,9 +292,9 @@ module.exports = {
         '商业与编辑类拍摄不接受现场申请，需事先联系 Press Office 并可能要签 Location Agreement'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Whitney_Museum_from_west.jpg', cap: '自西侧看 Renzo Piano 的悬挑体量 · Beyond My Ken / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/22/2025-05-15-Whitney-Museum-of_American-Art-Meatpacking-District-building.jpg', cap: '东侧外挑露台与外置钢楼梯 · Gunnar Klack / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Square%2C_Whitney_Museum_of_American_Art_%28Unsplash%29.jpg', cap: '博物馆与 Gansevoort Street 街景 · Michael Mroczek / CC0' }
+        { url: 'img/whitney-museum-from-west-cec59c8a.jpg', cap: '自西侧看 Renzo Piano 的悬挑体量 · Beyond My Ken / CC BY-SA 4.0' },
+        { url: 'img/2025-05-15-whitney-museum-of-american-art-meatpacking-distri-009e7de5.jpg', cap: '东侧外挑露台与外置钢楼梯 · Gunnar Klack / CC BY-SA 4.0' },
+        { url: 'img/square-whitney-museum-of-american-art-unsplash-c7b55711.jpg', cap: '博物馆与 Gansevoort Street 街景 · Michael Mroczek / CC0' }
       ]
     },
     {
@@ -391,9 +391,9 @@ module.exports = {
         '园内不设售票口也不设安检，但入园处有工作人员做人流管控，<strong>非常拥挤时会短暂排队等候</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/31/Hudson_River_Park_td_%282024-08-18%29_001_-_Little_Island_at_Pier_55.jpg', cap: 'Little Island 与混凝土桩阵列 · Tdorante10 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c8/Little_Island_Amphitheater%2C_New_York_City%2C_20231001_1824_1523.jpg', cap: '圆形剧场 The Amph 与 Hudson · Jakub Hałun / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Hudson_River_Park_td_%282024-08-18%29_010_-_Little_Island_at_Pier_55.jpg', cap: '自水面看桩顶的起伏 · Tdorante10 / CC BY-SA 4.0' }
+        { url: 'img/hudson-river-park-td-2024-08-18-001-little-island-at-pier-55-fd4d0c37.jpg', cap: 'Little Island 与混凝土桩阵列 · Tdorante10 / CC BY-SA 4.0' },
+        { url: 'img/little-island-amphitheater-new-york-city-20231001-1824-1523-160b9d20.jpg', cap: '圆形剧场 The Amph 与 Hudson · Jakub Hałun / CC BY-SA 4.0' },
+        { url: 'img/hudson-river-park-td-2024-08-18-010-little-island-at-pier-55-a58e67e1.jpg', cap: '自水面看桩顶的起伏 · Tdorante10 / CC BY-SA 4.0' }
       ]
     },
     {
@@ -487,9 +487,9 @@ module.exports = {
           '公园里以美国榆与 London plane 为主，黄色为主调、缺红色，出片强度不如 Central Park'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bf/Washington_Square_Arch%2C_New_York.jpg', cap: 'Washington Square Arch 正面 · Marco Almbauer / CC0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/15/Washington_Square_Park%2C_Manhattan_%282014%29_-_05.JPG', cap: '喷泉与拱门的轴线关系 · Another Believer / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Washington_Square_Arch_September_2022.jpg', cap: '九月的拱门与公园人流 · Kidfly182 / CC BY-SA 4.0' }
+        { url: 'img/washington-square-arch-new-york-2b7bfed9.jpg', cap: 'Washington Square Arch 正面 · Marco Almbauer / CC0' },
+        { url: 'img/washington-square-park-manhattan-2014-05-3fbea95f.jpg', cap: '喷泉与拱门的轴线关系 · Another Believer / CC BY-SA 3.0' },
+        { url: 'img/washington-square-arch-september-2022-43a86e85.jpg', cap: '九月的拱门与公园人流 · Kidfly182 / CC BY-SA 4.0' }
       ]
     },
     {
@@ -585,9 +585,9 @@ module.exports = {
         '大厅冬暖夏凉但气流很强，<strong>从地下站台上来时镜头容易结雾</strong>，请留 5–10 分钟适应温差'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Oculus_%2841323p%29.jpg', cap: '大厅钢肋与天窗全景 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Oculus_Interior_252.jpg', cap: '大厅内部钢肋阵列 · Kidfly182 / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/88/One_World_Trade_Center_through_the_Oculus_%2891538%29.jpg', cap: '自大厅内透过天窗看 One World Trade Center · Rhododendrites / CC BY-SA 4.0' }
+        { url: 'img/oculus-41323p-cdc5195a.jpg', cap: '大厅钢肋与天窗全景 · Rhododendrites / CC BY-SA 4.0' },
+        { url: 'img/oculus-interior-252-a9ac3947.jpg', cap: '大厅内部钢肋阵列 · Kidfly182 / CC BY 4.0' },
+        { url: 'img/one-world-trade-center-through-the-oculus-91538-57eb1e20.jpg', cap: '自大厅内透过天窗看 One World Trade Center · Rhododendrites / CC BY-SA 4.0' }
       ]
     },
     {
@@ -685,9 +685,9 @@ module.exports = {
         '偏振镜在这里基本没用（双层玻璃且入射角不定），<strong>橡胶或硅胶的可折叠贴玻璃遮光罩才是有效工具</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Midtown_Manhattan_skyline_from_the_One_World_Observatory%2C_New_York_City.jpg', cap: '自观景台北望 Midtown（注意距离感） · Christian David / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Interior_of_the_One_World_Observatory_with_visitors_backlit_against_the_windows%2C_New_York_City.jpg', cap: '玻璃前逆光的观众剪影 · Christian David / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/dc/Panorama_of_Midtown_Manhattan_from_the_One_World_Observatory%2C_New_York_City.jpg', cap: '观景层全景接片 · Christian David / CC BY-SA 4.0' }
+        { url: 'img/midtown-manhattan-skyline-from-the-one-world-observatory-new-adfa71e2.jpg', cap: '自观景台北望 Midtown（注意距离感） · Christian David / CC BY-SA 4.0' },
+        { url: 'img/interior-of-the-one-world-observatory-with-visitors-backlit--b1945205.jpg', cap: '玻璃前逆光的观众剪影 · Christian David / CC BY-SA 4.0' },
+        { url: 'img/panorama-of-midtown-manhattan-from-the-one-world-observatory-a398fff9.jpg', cap: '观景层全景接片 · Christian David / CC BY-SA 4.0' }
       ]
     },
     {
@@ -788,9 +788,9 @@ module.exports = {
         '<strong>想拍空广场只有 08:00–08:30</strong>；9:00 之后旅游团开始进场，10:00–17:00 池沿基本站满人'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b1/North_reflecting_pool_of_the_National_September_11_Memorial%2C_New_York_City.jpg', cap: 'North Pool 与四面下落的水幕 · Christian David / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9c/National_September_11_Memorial_South_Pool_-_03.jpg', cap: 'South Pool 与青铜名字栏板 · Oleg Yunakov / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/National_September_11_Memorial%2C_World_Trade_Center%2C_Manhattan%2C_New_York.jpg', cap: '广场与 Oculus、One World Trade Center 的关系 · Christian David / CC BY-SA 4.0' }
+        { url: 'img/north-reflecting-pool-of-the-national-september-11-memorial--6ae6ce31.jpg', cap: 'North Pool 与四面下落的水幕 · Christian David / CC BY-SA 4.0' },
+        { url: 'img/national-september-11-memorial-south-pool-03-309cf4c4.jpg', cap: 'South Pool 与青铜名字栏板 · Oleg Yunakov / CC BY-SA 4.0' },
+        { url: 'img/national-september-11-memorial-world-trade-center-manhattan--fb74d07a.jpg', cap: '广场与 Oculus、One World Trade Center 的关系 · Christian David / CC BY-SA 4.0' }
       ]
     },
     {
@@ -896,9 +896,9 @@ module.exports = {
         '桥面机动车道的施工与活动会临时改变通行安排，<strong>出发前查 NYC DOT 的桥梁公告</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/94/2024-06-15_09_55_03_View_from_the_pedestrian_walkway_of_the_Brooklyn_Bridge_northwestward_towards_the_Manhattan_tower_in_Manhattan%2C_New_York_City%2C_New_York.jpg', cap: '自步道望 Manhattan 塔的双尖拱 · Famartin / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b0/2024-06-15_09_53_30_View_from_the_middle_of_the_Brooklyn_Bridge_looking_northwest_along_the_pedestrian_walkway_in_Manhattan%2C_New_York_City%2C_New_York.jpg', cap: '桥中段向西北看步道与缆索 · Famartin / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/25/Brooklyn_Bridge_as_viewed_from_pedestrian_walkway.jpg', cap: '缆索网格与塔的对称关系 · Guushing / CC BY-SA 3.0' }
+        { url: 'img/2024-06-15-09-55-03-view-from-the-pedestrian-walkway-of-the--0862f6c5.jpg', cap: '自步道望 Manhattan 塔的双尖拱 · Famartin / CC BY-SA 4.0' },
+        { url: 'img/2024-06-15-09-53-30-view-from-the-middle-of-the-brooklyn-bri-129cf2d8.jpg', cap: '桥中段向西北看步道与缆索 · Famartin / CC BY-SA 4.0' },
+        { url: 'img/brooklyn-bridge-as-viewed-from-pedestrian-walkway-bd608238.jpg', cap: '缆索网格与塔的对称关系 · Guushing / CC BY-SA 3.0' }
       ]
     },
     {
@@ -1006,9 +1006,9 @@ module.exports = {
         '<strong>不要试图从船上拍 Ellis Island 的建筑细节</strong>：航道离 Ellis Island 比离 Liberty Island 更远，400mm 也拍不出细节'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b7/Statue_of_Liberty_from_Staten_Island_Ferry%2C_January_8_2026.jpg', cap: '自渡轮看自由女神（右舷视角） · Dillan Payne / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/8b/View_of_Liberty_Island_from_Staten_Island_Ferry%2C_NYC%2C_20231002_1645_1793.jpg', cap: '十月傍晚的 Liberty Island · Jakub Hałun / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Statue_of_Liberty_from_the_Staten_Island_Ferry_Evening_%286251160214%29.jpg', cap: '傍晚逆光下的女神像剪影 · Tony Hisgett / CC BY 2.0' }
+        { url: 'img/statue-of-liberty-from-staten-island-ferry-january-8-2026-81786a54.jpg', cap: '自渡轮看自由女神（右舷视角） · Dillan Payne / CC BY-SA 4.0' },
+        { url: 'img/view-of-liberty-island-from-staten-island-ferry-nyc-20231002-a96ba6c1.jpg', cap: '十月傍晚的 Liberty Island · Jakub Hałun / CC BY 4.0' },
+        { url: 'img/statue-of-liberty-from-the-staten-island-ferry-evening-62511-9e1d9ef4.jpg', cap: '傍晚逆光下的女神像剪影 · Tony Hisgett / CC BY 2.0' }
       ]
     }
   ]

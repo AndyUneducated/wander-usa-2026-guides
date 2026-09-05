@@ -253,11 +253,11 @@ module.exports = {
         '票价另有动态浮动，<strong>周二至周四同一时段通常比周五周六便宜约 $5、人流少一半、画面完全一样</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Empire_State_Building_at_Night_from_Top_of_the_Rock_%2826453938287%29.jpg',
+        { url: 'img/empire-state-building-at-night-from-top-of-the-rock-26453938-fd575160.jpg',
           cap: '自 Top of the Rock 夜拍 Empire State Building · Nan Palmero / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/39/NYC_Top_of_the_Rock_Pano.jpg',
+        { url: 'img/nyc-top-of-the-rock-pano-c429756f.jpg',
           cap: '70 层无玻璃平台全景 · Daniel Schwen / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/54/Top_of_30_Rock_%286279766362%29.jpg',
+        { url: 'img/top-of-30-rock-6279766362-6bee20bd.jpg',
           cap: '观景平台与周圈混凝土矮台 · Erik Drost / CC BY 2.0' }
       ]
     },
@@ -375,11 +375,11 @@ module.exports = {
           '构图时留意画面下缘'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Channel_Gardens_Rockefeller_Center_New_York_2022.jpg',
+        { url: 'img/channel-gardens-rockefeller-center-new-york-2022-a7a94565.jpg',
           cap: 'Channel Gardens 中轴线望 30 Rockefeller Plaza · Larry D. Moore / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/52/PROMETHEUS%2C_Rockefeller_Center%2C_New_York%2C_NY.jpg',
+        { url: 'img/prometheus-rockefeller-center-new-york-ny-59afb79d.jpg',
           cap: '下沉广场的镀金 Prometheus · Peter K Burian / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Atlas-Rockefeller_Center.jpg',
+        { url: 'img/atlas-rockefeller-center-441c280f.jpg',
           cap: 'Lee Lawrie 的 Atlas 与其身后的第五大道 · P. Hughes / CC BY-SA 4.0' }
       ]
     },
@@ -496,11 +496,11 @@ module.exports = {
           '不是官方信息；到场后可用手机指南针与实际阴影快速自查'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/NYC_-_St._Patrick%27s_Cathedral_-_Interior.JPG',
+        { url: 'img/nyc-st-patrick-s-cathedral-interior-ff49b461.jpg',
           cap: '中殿中轴线与主祭台 · Jean-Christophe BENOIST / CC BY 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/86/Spires_of_St_Patricks_Cathedral_Rising_Above_Fifth_Avenue_2019-09-30_18-19.jpg',
+        { url: 'img/spires-of-st-patricks-cathedral-rising-above-fifth-avenue-20-d454aa50.jpg',
           cap: '第五大道上的双尖塔 · Axel Tschentscher / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/20/St-Patricks-Cathedral_renovated-interior-1.jpg',
+        { url: 'img/st-patricks-cathedral-renovated-interior-1-6e266bb9.jpg',
           cap: '2015 年修复后的室内拱肋与柱列 · GordonStrong / CC BY-SA 4.0' }
       ]
     },
@@ -620,11 +620,11 @@ module.exports = {
           '<strong>所以要把整段金光到蓝调（约 75 分钟）都规划在一次进场里</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/ad/NewYorkTheEdgePanorama.jpg',
+        { url: 'img/newyorktheedgepanorama-ecc44cba.jpg',
           cap: '自 Edge 平台俯瞰中城与下城全景 · Erik Grönnerud / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Edge_NYC_observation_deck_at_30_Hudson_Yards.jpg',
+        { url: 'img/edge-nyc-observation-deck-at-30-hudson-yards-c488a161.jpg',
           cap: '三角形悬臂平台与斜面玻璃围挡 · Wikipettanko / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a4/Edge_from_One_Vanderbilt_New_York_2022.jpg',
+        { url: 'img/edge-from-one-vanderbilt-new-york-2022-445f3ca3.jpg',
           cap: '自 One Vanderbilt 看 Edge 悬出楼体的形态 · Larry D. Moore / CC BY 4.0' }
       ]
     },
@@ -753,11 +753,11 @@ module.exports = {
           '<strong>用手挡或换角度，别指望遮光罩能解决</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Bryant_Park_%26_Emp_State.JPG',
+        { url: 'img/bryant-park-emp-state-fab6fe3d.jpg',
           cap: '自 Bryant Park 草坪望 Empire State Building · Phi / CC0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/American_Radiator_Building_and_Empire_State_Building%2C_2025_%2854982982508%29.jpg',
+        { url: 'img/american-radiator-building-and-empire-state-building-2025-54-c2b44268.jpg',
           cap: 'American Radiator Building 与 Empire State Building 同框 · Ethan Long / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/0b/Bryant_Park_with_the_Empire_State_Building_in_the_background_-_panoramio.jpg',
+        { url: 'img/bryant-park-with-the-empire-state-building-in-the-background-4bdc98f8.jpg',
           cap: '草坪前景加 Empire State Building 的竖构图 · Martin Ibert / CC BY-SA 3.0' }
       ]
     },
@@ -878,11 +878,11 @@ module.exports = {
           '外立面全面修复是 2011 年）。但中城临时棚架变化很快，到场后请自行确认'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/de/New_York_Public_Library_Rose_Reading_Room_%2840430027685%29.jpg',
+        { url: 'img/new-york-public-library-rose-reading-room-40430027685-3c034262.jpg',
           cap: 'Rose Main Reading Room 长轴与铜制台灯 · Nan Palmero / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/80/Astor_Hall%2C_New_York_Public_Library.jpg',
+        { url: 'img/astor-hall-new-york-public-library-0858293b.jpg',
           cap: 'Astor Hall 白色大理石大厅与对称楼梯 · bryansjs / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/86/New_York_City%2C_Midtown_Manhattan%2C_New_York_Public_Library%2C_Stephen_A._Schwarzman_Building%2C_1897-1911._5th_Avenue_%282011%29.jpg',
+        { url: 'img/new-york-city-midtown-manhattan-new-york-public-library-step-a43ab654.jpg',
           cap: '第五大道立面与 Patience、Fortitude 双狮 · vincent desjardins / CC BY 2.0' }
       ]
     },
@@ -1009,9 +1009,9 @@ module.exports = {
           '合理定位是「第三座」或「专程为镜面题材来一次」'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/2022-0402-NYC-Summit_One_Vanderbilt-01.jpg',
+        { url: 'img/2022-0402-nyc-summit-one-vanderbilt-01-a881df2a.jpg',
           cap: 'Kenzo Digital 的镜面装置「Air」内部 · Bobak Ha\'Eri / CC BY 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/08/2022-0402-NYC-Summit_One_Vanderbilt-02.jpg',
+        { url: 'img/2022-0402-nyc-summit-one-vanderbilt-02-4bd842b3.jpg',
           cap: '镜面墙地顶与中城天际线的多重反射 · Bobak Ha\'Eri / CC BY 3.0' }
       ]
     },
@@ -1158,11 +1158,11 @@ module.exports = {
           '这是唯一无法用技术弥补的变数，请把它当成加分项而不是计划'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bd/Grand_Central_Terminal_Main_Concourse%2C_New_York%2C_August_2021.jpg',
+        { url: 'img/grand-central-terminal-main-concourse-new-york-august-2021-b437b01c.jpg',
           cap: 'Main Concourse 与星空天顶 · PCN02WPS / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/95/Grand_Central_Station_Main_Concourse_Rectilinear_projection_Jan_2006.jpg',
+        { url: 'img/grand-central-station-main-concourse-rectilinear-projection--9e274786.jpg',
           cap: '自 West Balcony 俯视大厅与中央问询亭铜钟 · Diliff / CC BY 2.5' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/70/42nd_Street_Facade%2C_Grand_Central_Terminal%2C_October_2025.jpg',
+        { url: 'img/42nd-street-facade-grand-central-terminal-october-2025-219bf38e.jpg',
           cap: '42 街立面与 Glory of Commerce 雕塑群 · TheCatalyst31 / CC BY-SA 4.0' }
       ]
     },
@@ -1300,11 +1300,11 @@ module.exports = {
           '——玻璃反光会抵消掉大部分高度优势。预算有限时把这 $35 留给另一座观景台'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/01/New_York_City_%28New_York%2C_USA%29%2C_Empire_State_Building_--_2012_--_6448.jpg',
+        { url: 'img/new-york-city-new-york-usa-empire-state-building-2012-6448-65042937.jpg',
           cap: 'Empire State Building 塔身与装饰艺术退台 · Dietmar Rabich / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Empire_state_building-20120518-RM-163038.jpg',
+        { url: 'img/empire-state-building-20120518-rm-163038-ccdfe165.jpg',
           cap: '自街面仰望塔冠 · Ermell / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d4/Empire_State_Building_view3.jpg',
+        { url: 'img/empire-state-building-view3-847cf386.jpg',
           cap: '自 86 层观景台俯瞰中城 · Benn Newman / MIT License' }
       ]
     }

@@ -224,9 +224,9 @@ module.exports = {
         '<strong>不要为了机位下到泥岸</strong>：岸线是软泥且冬季结薄冰，同时这是驼鹿的核心觅食区，靠近违反 25 码规定。'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Oxbow_Bend_-_Grand_Teton_National_Park_-_Wyoming.jpg', cap: 'Oxbow Bend 与 Mount Moran 倒影 · Watts / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Oxbow_Bend_Morning.jpg', cap: '清晨死水面上的完整倒影 · Eric Kilby / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Oxbow_bend.jpg', cap: '主观景点全景视角 · Chris Light / CC BY-SA 4.0' }
+        { url: 'img/oxbow-bend-grand-teton-national-park-wyoming-34f0dfe3.jpg', cap: 'Oxbow Bend 与 Mount Moran 倒影 · Watts / CC BY 2.0' },
+        { url: 'img/oxbow-bend-morning-140b3f76.jpg', cap: '清晨死水面上的完整倒影 · Eric Kilby / CC BY-SA 2.0' },
+        { url: 'img/oxbow-bend-1bdf0c30.jpg', cap: '主观景点全景视角 · Chris Light / CC BY-SA 4.0' }
       ]
     },
     {
@@ -298,9 +298,9 @@ module.exports = {
         '低温下这里比台地上更冷（冷空气沉在河谷），日出前实测常比 Jackson 低 3–5°C，多带一层。'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Schwabacher_Landing_Sunrise_-_Grand_Teton_National_Park_-_Flickr_-_aparlette.jpg', cap: '海狸塘上的日出倒影 · Andrew Parlette / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/73/Schwabachers_Landing_(48975245721).jpg', cap: '河汊与完整 Teton 山脊 · GrandTetonNPS / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Schwabacher_landing_reflection_Grand_Teton_national_park_-_Flickr_-_Mferbfriske.jpg', cap: '静水段的镜面反射 · Mferbfriske / CC BY-SA 2.0' }
+        { url: 'img/schwabacher-landing-sunrise-grand-teton-national-park-flickr-361f5139.jpg', cap: '海狸塘上的日出倒影 · Andrew Parlette / CC BY 2.0' },
+        { url: 'img/schwabachers-landing-48975245721-2c426333.jpg', cap: '河汊与完整 Teton 山脊 · GrandTetonNPS / Public domain' },
+        { url: 'img/schwabacher-landing-reflection-grand-teton-national-park-fli-13dccbe3.jpg', cap: '静水段的镜面反射 · Mferbfriske / CC BY-SA 2.0' }
       ]
     },
     {
@@ -376,9 +376,9 @@ module.exports = {
         '这一带属于 Elk Hunt Area 75 的范围边缘，但<strong>US-191 两侧各 1/4 英里全年禁止狩猎</strong>，且减鹿计划 2026 年的日期是 11 月 14 日至 12 月 6 日，不影响本次窗口。'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Adams_The_Tetons_and_the_Snake_River.jpg', cap: '1942 年原作《The Tetons and the Snake River》 · Ansel Adams / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Grand_Teton_from_the_Snake_River_Overlook.jpg', cap: '现今从观景台看出去的实况，前景树带已长起 · Frank Kovalchek / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Snake_River_Overlook.JPG', cap: '观景台现场视角 · Fredlyfish4 / CC BY-SA 3.0' }
+        { url: 'img/adams-the-tetons-and-the-snake-river-e2fde3e9.jpg', cap: '1942 年原作《The Tetons and the Snake River》 · Ansel Adams / Public domain' },
+        { url: 'img/grand-teton-from-the-snake-river-overlook-6e5008a4.jpg', cap: '现今从观景台看出去的实况，前景树带已长起 · Frank Kovalchek / CC BY 2.0' },
+        { url: 'img/snake-river-overlook-e74df827.jpg', cap: '观景台现场视角 · Fredlyfish4 / CC BY-SA 3.0' }
       ]
     },
     {
@@ -470,9 +470,9 @@ module.exports = {
         '这一带（Antelope Flats 部分）虽在 Elk Hunt Area 75 边界内，但<strong>官方明确 Antelope Flats 段全季对减鹿计划关闭</strong>，且 2026 年计划日期为 11/14–12/6，与本次窗口无关。'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Sunrise,_Mormon_Row_barns,_Grand_Teton_National_Park.jpg', cap: '日出时的 Moulton 谷仓与 Teton 山脊 · DASH713 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f5/T.A._Molten_Barn,_Mormon_Row,_GTNP.jpg', cap: 'T. A. Moulton Barn 正面 · megmpete / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Mormon_Row,_GTNP.jpg', cap: 'Mormon Row 建筑群与鼠尾草滩 · megmpete / CC BY-SA 4.0' }
+        { url: 'img/sunrise-mormon-row-barns-grand-teton-national-park-9a19f9f7.jpg', cap: '日出时的 Moulton 谷仓与 Teton 山脊 · DASH713 / CC BY-SA 4.0' },
+        { url: 'img/t-a-molten-barn-mormon-row-gtnp-79d8edaa.jpg', cap: 'T. A. Moulton Barn 正面 · megmpete / CC BY-SA 4.0' },
+        { url: 'img/mormon-row-gtnp-900107ff.jpg', cap: 'Mormon Row 建筑群与鼠尾草滩 · megmpete / CC BY-SA 4.0' }
       ]
     },
     {
@@ -570,9 +570,9 @@ module.exports = {
         'String Lake 独木舟下水点开放到 10 月 31 日（随 Teton Park Road 封闭而关），但 10 月水温接近冰点，不建议下水。'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e8/Aerial_image_of_Jenny_Lake_(view_from_the_east).jpg', cap: 'Jenny Lake 与 Cascade Canyon 出口 · Carsten Steger / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a0/Jenny_Lake_from_Inspiration_Point_2024.jpg', cap: '从 Inspiration Point 俯瞰 Jenny Lake 与河谷 · Larry D. Moore / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7f/Grand_Teton_National_Park._Hidden_Falls._01.JPG', cap: 'Hidden Falls · Miguel Hermoso Cuesta / CC BY-SA 4.0' }
+        { url: 'img/aerial-image-of-jenny-lake-view-from-the-east-2caaad36.jpg', cap: 'Jenny Lake 与 Cascade Canyon 出口 · Carsten Steger / CC BY-SA 4.0' },
+        { url: 'img/jenny-lake-from-inspiration-point-2024-b43244b0.jpg', cap: '从 Inspiration Point 俯瞰 Jenny Lake 与河谷 · Larry D. Moore / CC BY 4.0' },
+        { url: 'img/grand-teton-national-park-hidden-falls-01-7aa40eb9.jpg', cap: 'Hidden Falls · Miguel Hermoso Cuesta / CC BY-SA 4.0' }
       ]
     },
     {
@@ -662,9 +662,9 @@ module.exports = {
         '顶上风大且比谷底冷 3–5°C，暮光段站 40 分钟需要真正的防风层与手套。'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Grand_Teton_National_Park_at_Signal_Mountain_Road.jpg', cap: 'Signal Mountain Road 上俯瞰河谷全景 · Wing-Chi Poon / CC BY-SA 2.5' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Signal_Mountain_-_Grand_Teton_National_Park_-_Wyoming.jpg', cap: '顶上观景台视角 · Dougtone / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e4/Signal_Mountain_Lodge_GTNP1.jpg', cap: '山脚下的 Signal Mountain Lodge · Acroterion / CC BY-SA 4.0' }
+        { url: 'img/grand-teton-national-park-at-signal-mountain-road-a0552bef.jpg', cap: 'Signal Mountain Road 上俯瞰河谷全景 · Wing-Chi Poon / CC BY-SA 2.5' },
+        { url: 'img/signal-mountain-grand-teton-national-park-wyoming-6ab41d46.jpg', cap: '顶上观景台视角 · Dougtone / CC BY-SA 2.0' },
+        { url: 'img/signal-mountain-lodge-gtnp1-5e5516c6.jpg', cap: '山脚下的 Signal Mountain Lodge · Acroterion / CC BY-SA 4.0' }
       ]
     },
     {
@@ -764,9 +764,9 @@ module.exports = {
         '这一带（Jackson Lake Lodge 与 Colter Bay 周边）是全园手机信号相对最好的地方，<strong>Verizon 可用，AT&T 与 T-Mobile 基本无服务</strong>。'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Mount_Moran_from_the_lobby_of_the_Jackson_Lake_Lodge,_WY.jpg', cap: '从二层大堂落地窗看 Mount Moran · Zeete / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Willow_Flats_area_and_Teton_Range_in_Grand_Teton_National_Park.jpg', cap: 'Willow Flats 湿地与 Teton 山脊 · Michael Gäbler / CC BY 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/2a/Jackson_Lake_and_Jackson_Lake_Dam,_Grand_Teton_National_Park_20110818_1.jpg', cap: 'Jackson Lake 与水坝 · DXR / CC BY-SA 4.0' }
+        { url: 'img/mount-moran-from-the-lobby-of-the-jackson-lake-lodge-wy-f650cdd5.jpg', cap: '从二层大堂落地窗看 Mount Moran · Zeete / CC BY-SA 4.0' },
+        { url: 'img/willow-flats-area-and-teton-range-in-grand-teton-national-pa-ae60b2a5.jpg', cap: 'Willow Flats 湿地与 Teton 山脊 · Michael Gäbler / CC BY 3.0' },
+        { url: 'img/jackson-lake-and-jackson-lake-dam-grand-teton-national-park--75d5e6a2.jpg', cap: 'Jackson Lake 与水坝 · DXR / CC BY-SA 4.0' }
       ]
     },
     {
@@ -865,8 +865,8 @@ module.exports = {
         '这一带手机信号断续，Kelly 附近尚可，往上游很快就没有了。'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/eb/Bull_Moose_in_Gros_Ventre_River_(48905336898).jpg', cap: 'Gros Ventre River 中的公驼鹿 · GrandTetonNPS / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Moose_at_Gros_Ventre_(29704126705).jpg', cap: 'Gros Ventre 一带的驼鹿 · GrandTetonNPS / Public domain' }
+        { url: 'img/bull-moose-in-gros-ventre-river-48905336898-48055fca.jpg', cap: 'Gros Ventre River 中的公驼鹿 · GrandTetonNPS / Public domain' },
+        { url: 'img/moose-at-gros-ventre-29704126705-bff4dbfd.jpg', cap: 'Gros Ventre 一带的驼鹿 · GrandTetonNPS / Public domain' }
       ]
     },
     {
@@ -953,9 +953,9 @@ module.exports = {
         '这一带无手机信号，把行程告诉别人再出发。'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/ee/Taggart_Lake_(21072005605).jpg', cap: 'Taggart Lake 与正对的 Teton 岩壁 · H.L.I.T. / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/31/Taggart_Lake_(8983168016).jpg', cap: '湖岸石滩与山体 · Heidi / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Taggart_Lake_(29805486345).jpg', cap: 'Taggart Lake 全景 · mellow cat / CC BY 2.0' }
+        { url: 'img/taggart-lake-21072005605-15f30701.jpg', cap: 'Taggart Lake 与正对的 Teton 岩壁 · H.L.I.T. / CC BY 2.0' },
+        { url: 'img/taggart-lake-8983168016-3d0553b4.jpg', cap: '湖岸石滩与山体 · Heidi / CC BY-SA 2.0' },
+        { url: 'img/taggart-lake-29805486345-311f640a.jpg', cap: 'Taggart Lake 全景 · mellow cat / CC BY 2.0' }
       ]
     },
     {
@@ -1069,9 +1069,9 @@ module.exports = {
         '博物馆的 Sculpture Trail 朝东，<strong>上午顺光、傍晚进阴影</strong>，别排在下班前去。'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Elk_antler_arch_at_Jackson_Square,_Jackson,_WY_2022-07-11.jpg', cap: 'Town Square 鹿角拱门 · Schwerdf / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Antler_Base.jpg', cap: '拱门基座的鹿角咬合细节 · Sirguh / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Million_Dollar_Cowboy_Bar_(Jackson,_Wyoming)_001.jpg', cap: 'Million Dollar Cowboy Bar 外观 · Leonard J. DeFrancisci / CC BY-SA 3.0' }
+        { url: 'img/elk-antler-arch-at-jackson-square-jackson-wy-2022-07-11-ac10a47e.jpg', cap: 'Town Square 鹿角拱门 · Schwerdf / CC BY 4.0' },
+        { url: 'img/antler-base-f4fa8c65.jpg', cap: '拱门基座的鹿角咬合细节 · Sirguh / CC BY-SA 4.0' },
+        { url: 'img/million-dollar-cowboy-bar-jackson-wyoming-001-959fba45.jpg', cap: 'Million Dollar Cowboy Bar 外观 · Leonard J. DeFrancisci / CC BY-SA 3.0' }
       ]
     }
   ]

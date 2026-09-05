@@ -30,7 +30,7 @@ var REGIONS = [
         html: '<p><strong>仍然去不了：</strong>Sand Dollar Beach、Jade Cove、Willow Creek Vista Point、Plaskett Creek、Gorda——' +
           '它们既在 Hwy 1 南段封闭区内，又被 Los Padres 森林封闭令逐条点名，双重封锁，且封闭令要到两场火「declared out」才解除。</p>' +
           '<p>Pfeiffer Big Sur、Julia Pfeiffer Burns（<strong>McWay Falls</strong>）、Andrew Molera、Limekiln、Point Sur 等州立公园' +
-          '<strong>现在车能开到门口，但公园自己仍关闭至另行通知</strong>（California State Parks 8 月 28 日公告）。' +
+          '<strong>现在车能开到门口，但公园自己仍关闭至另行通知</strong>（California State Parks「CLOSURE OF BIG SUR STATE PARKS」公告，最近一次更新为 9 月 3 日）。' +
           'McWay Falls 还有一层：观景用的 Overlook Trail 早在 2024 年 11 月就已长期封闭，即便公园重开也未必能拍。</p>' +
           '<p><strong>唯一的好消息：Pfeiffer Beach 恢复可达。</strong>森林封闭令标题明文写着「EXCEPT PFEIFFER BEACH AND SYCAMORE CANYON ROAD」，' +
           '加上北段 9/3 解封，从北侧南下即可抵达——但 9 月拍不到 Keyhole Arch 的穿孔日落，那是冬至前后的现象。</p>'
@@ -81,15 +81,15 @@ var REGIONS = [
         ],
         access: {
           book: '不需预约',
-          ticket: '<strong>$15/车</strong>（Los Padres National Forest 日间使用费）',
-          hours: '日间使用区通常 09:00 至日落，<strong>日落后闸门上锁</strong>——拍完日落要立刻走，别拖到蓝调',
-          parking: '尽头的日间使用区停车场，<strong>车位极少且不接受大车与拖挂</strong>。Sycamore Canyon Road 为狭窄单车道，会车困难',
+          ticket: '<strong>$15/车</strong>（Los Padres National Forest 日间使用费）。<strong>自助信封投币箱，现金优先</strong>，把存根放仪表台；<strong>America the Beautiful 国家公园年票在这里不能用</strong>（此处属 USFS 承包商 Parks Management Company 管理，另售 $50 年票）。<strong>一票一进，当日不可重复出入</strong>',
+          hours: '<strong>官方 Los Padres 页面写 09:00–20:00</strong>，承包商 Camp One 页面写「日出至日落」，两种口径并存。9/5–9/9 Big Sur 日落约 19:40–19:45，<strong>无论按哪种口径，拍完日落都要立刻走</strong>，别拖到蓝调——闸门会上锁',
+          parking: '尽头的日间使用区停车场<strong>共 65 个车位</strong>，<strong>不接受 24 英尺以上车辆与拖挂</strong>，夏季与假日常在 11:00 前满，满位会被劝返。<strong>Sycamore Canyon Road 沿线严禁停车并且执法</strong>，且为狭窄单车道，会车困难',
           walk: '停车场到沙滩约 <strong>200 米 / 3 分钟</strong>，短且平缓'
         },
         notes: [
           '<strong>2026 年 9 月的通行前提：只能从北侧（Carmel / Monterey 方向）南下抵达，不能南北贯通。</strong>Hwy 1 南段（县界 PM0 至 Kirk Creek 一带）因 Plaskett Fire 仍然封闭，无 pilot car、无限时通行、无预计重开时间',
-          '<strong>Forest Order 5-07-51-25-02 规定：Sycamore Canyon Road 从 Hwy 1 路口起向西约 2.5 英里必须待在机动车内，禁止步行。</strong>也就是不能把车停在 Hwy 1 路边走进去，必须开车进入',
-          '<strong>Plaskett Fire 至今控制率仅 1%</strong>，面积在 8/30 至 9/2 两天内从 15,479 英亩涨到 28,968 英亩。这条封闭令在两场火「declared out」之前不会解除，而封闭范围随时可能再变——<strong>出发当天务必复查 Caltrans 实时路况与 Los Padres 森林封闭令</strong>',
+          '<strong>另有一条独立的路权封闭令：Sycamore Canyon Road（Forest Road 19S05）从 Hwy 1 路口起向西约 2.5 英里必须待在机动车内，禁止步行。</strong>该令 2025 年 1 月 30 日生效、<strong>有效期至 2027 年 1 月 29 日</strong>，即本次行程期内有效。也就是不能把车停在 Hwy 1 路边走进去，必须开车进入',
+          '<strong>Plaskett Fire 至今控制率仅 1%，面积已达 29,521 英亩</strong>（8/30 至 9/2 两天内即从 15,479 英亩涨到 28,968 英亩）。森林封闭令在两场火「declared out」之前不会解除，而封闭范围随时可能再变——<strong>出发当天务必复查 Caltrans 实时路况与 Los Padres 森林封闭令</strong>',
           '北段解封本身也不是永久保证：这条路在 8 月就有过解封后又因火势重新封闭的先例',
           '若从 Carmel 南下，注意 <strong>Rocky Creek Bridge（Monterey 以南 15.7 英里）24 小时单向交通管制，持续到 2026 年 11 月 30 日</strong>，会产生等待，日落时段的时间预算要留余量',
           '如果将来专程为穿孔日落再访，请安排在 <strong>12 月中至 1 月中</strong>，且需要低潮加晴朗天空同时满足'
@@ -111,8 +111,9 @@ var REGIONS = [
         tags: [{ t: '公园关闭', c: 'risk' }, { t: '步道长期封闭', c: 'risk' }, { t: '无解封时间表', c: 'risk' }],
         highlights: [
           '80 英尺高的瀑布直落海滩，是加州仅有的几条「潮汐瀑布」之一，也是整条 Big Sur 海岸最著名的单一画面',
-          '<strong>不可达的理由在 9/3 变了：现在不是路的问题，是公园自己关着。</strong>Hwy 1 北段已于 9 月 3 日 6:00 解封至 PM45，车能开到公园门口；但 California State Parks 于 <strong>8 月 28 日发布的「CLOSURE OF BIG SUR STATE PARKS」公告仍然有效</strong>，Julia Pfeiffer Burns 与另外四座州立公园一并关闭至另行通知',
-          '<strong>即便公园突然重开，经典机位也未必能拍到</strong>：通往观景点的 Overlook Trail 在火灾之前就已长期关闭（自 2024 年 11 月起即无 McWay Falls 通道）。围栏之外的悬崖、沙滩、Saddle Rock 与瀑布区域一律禁入，违规可被引用甚至逮捕'
+          '<strong>不可达的理由在 9/3 变了：现在不是路的问题，是公园自己关着。</strong>Hwy 1 北段已于 9 月 3 日 6:00 解封至 PM45，车能开到公园门口；但 California State Parks 的「CLOSURE OF BIG SUR STATE PARKS」公告仍然有效，<strong>该公告 9 月 3 日刚更新过一次（Timber Fire 约 25,000 英亩、23% 控制；Plaskett Fire 约 29,000 英亩、1% 控制），Julia Pfeiffer Burns 与另外四座州立公园仍是「closed until further notice」</strong>',
+          '<strong>即便公园突然重开，经典机位也未必能拍到</strong>：通往观景点的 Overlook Trail 在火灾之前就已长期关闭（自 2024 年 11 月起即无 McWay Falls 通道），<strong>官方给出的理由是一项长期挡土墙修复工程</strong>（parks.ca.gov 公告 2025 年 4 月 16 日发布、2026 年 3 月 4 日更新，明写「预计持续到 2026 年」）。California Conservation Corps 2026 年 6 月的报道说队员过去一年一直吊在崖壁上重砌支撑步道的石墙，工程仍未完工',
+          '<strong>正常年份公园关着这条步道时，官方指定的替代观看点是 Hwy 1 路边的一小块观景处</strong>；但在全园关闭期间那个路边位能否停车、是否也被封，<strong>未能从官方渠道确认</strong>。围栏之外的悬崖、沙滩、Saddle Rock 与瀑布区域则一律禁入（District Superintendent&rsquo;s Order No. 720-97-003(G)），违规可被引用甚至逮捕'
         ],
         photo: '正常年份是 5/5 的顶级风光题材。<strong>但本次行程为 0——公园关闭，且观景步道本身已封闭近两年。</strong>',
         shots: [
@@ -131,7 +132,7 @@ var REGIONS = [
           walk: '不可进入',
         },
         notes: [
-          '<strong>双重阻断</strong>：一是公园本身因火关闭，二是 Hwy 1 在 Pacific Valley（MM16）至县界（MM0.09）封闭，即便公园开放，从 San Simeon 方向也上不去',
+          '<strong>阻断的是公园本身，不是路。</strong>公园位于 Hwy 1 的 MM35.8，已在 9/3 解封后的可通行区段内，车能开到门口；但 Hwy 1 仍在县界至 Kirk Creek Campground（县界以北 19 英里）之间封闭，<strong>从 San Simeon 方向北上仍然上不来，只能从 Carmel / Monterey 方向南下</strong>',
           '若你从 Monterey 方向单独进入是另一条路线，但那与本次「由北向南贯通」的行程不兼容',
           '出发当天可复查 <a href="https://roads.dot.ca.gov/" target="_blank" rel="noopener">Caltrans 路况</a>，但按目前控制率（1%）预期解封的可能性很低'
         ],
@@ -173,12 +174,13 @@ var REGIONS = [
         access: {
           book: '—',
           ticket: '正常年份 Sand Dollar $10/车，Jade Cove 免费',
-          hours: '<strong>Hwy 1 封闭：Pacific Valley（MM16）至 Monterey/SLO 县界（MM0.09），无解封时间表</strong>',
+          hours: '<strong>Hwy 1 封闭：Monterey/SLO 县界至县界以北 19 英里的 Kirk Creek Campground，无解封时间表</strong>（Caltrans 9/5 02:17 实时路况口径，<strong>比 9/2 新闻稿写的 Pacific Valley MM16 又向北扩了约 3 英里</strong>）',
           parking: '不可进入',
           walk: '不可进入',
         },
         notes: [
-          '<strong>Plaskett Fire 已烧 29,123 英亩、控制率仅 1%</strong>，这一段短期内不具备开放条件',
+          '<strong>Plaskett Fire 已烧 29,521 英亩、控制率仍为 1%</strong>，这一段短期内不具备开放条件',
+          '<strong>森林封闭令把这三处逐条点名，不是笼统覆盖</strong>：Forest Order 05-07-51-26-10（2026 年 8 月 29 日生效，取代 05-07-51-26-08，<strong>有效期到 Timber 与 Plaskett 两场火被 declared out 为止，没有固定到期日</strong>）的 Exhibit A 里明列 23S08 Sand Dollar DUA、23S05 Willow Creek DUA、23S10 与 23S10A Willow Creek，以及 5E13.1 / 5E13.2 / 5E13.3 / 5E13.6 四条 SAND DOLLAR/JADE COVE 步道',
           '这三处的替代方案：<strong>Montaña de Oro</strong> 的岩石海岸与潮池题材最接近，且完全免费、烟雾影响小'
         ],
         images: [
@@ -288,8 +290,8 @@ var REGIONS = [
           }
         ],
         access: {
-          book: '<strong>强制要求。</strong>官方原文：每一张桌子都需预订，即便吧台也不保证 walk-in。工作日多数时段可当天约；<strong>周末需提前 2–4 周</strong>',
-          ticket: 'Discover DAOU（60 分钟）<strong>$50/人</strong>；The Estate Experience（90 分钟）$95–110/人；Patrimony Immersion（2.5 小时，仅周一至周四）$275/人',
+          book: '<strong>强制要求。</strong>官方原文：每一张桌子都需预订，即便吧台也不保证 walk-in（&ldquo;Every table at DAOU is reserved. Walk-ins cannot be guaranteed seating, even at the bar.&rdquo;）。<strong>工作日多数时段可当天约</strong>，会员可提前 90 天订。<strong>取消政策：提前 24 小时以上免费，24 小时内每人 $25；Patrimony Immersion 需提前 72 小时</strong>',
+          ticket: 'Discover DAOU（60 分钟，每日开放，五款 Reserve 与 Estate 酒）<strong>$50/人</strong>，购满两瓶 Estate 可免；The Estate Experience（90 分钟，<strong>每日仅 11:00–16:00</strong>，含主厨配餐）<strong>$95/人</strong>——<strong>也可以先订 $50 那档，到场后加 $45 现场升级</strong>；Patrimony Immersion（2.5 小时，含酒窖导览、桶边试饮与鱼子酱配餐）$275/人，<strong>须另行预约，此前因道路施工暂停、已于 9 月 1 日恢复</strong>',
           hours: '<strong>每日 10:00–17:00，仅接受预约</strong>',
           parking: '山上停车位有限，<strong>仅供已确认预约的客人</strong>。入口 Kiosk 有工作人员核验后分配上下层停车场——<strong>不要越过 Kiosk 自行开进去</strong>',
           walk: '<strong>1–3 分钟</strong>，建筑群内步行',
@@ -653,15 +655,16 @@ var REGIONS = [
           '<strong>每周二闭馆，9/8 是周二。</strong>可去的日期是 9/5、9/6、9/7、9/9。</p>'
       },
       {
-        type: 'warn',
-        title: 'Point Dume 主通道无限期关闭——但崖顶可能另有入口',
+        type: 'info',
+        title: 'Point Dume：崖顶照常开放，关的只是崖下那条路',
         html: '<p>2026 年 8 月 1–2 日高潮位与涌浪造成严重侵蚀，崖缘不稳、局部落差近 8 英尺，路基部分塌陷。' +
           '<strong>成因是海岸侵蚀，不是山火修复工程</strong>（Palisades Fire 只是间接背景：烧毁的滨海住宅连带失去了原有海堤）。' +
-          '<strong>Westward Beach Road 与 373 车位的下层停车场已关闭，无预计重开日期</strong>；' +
-          '8 月 6 日起进一步升级，<strong>Birdview Avenue 入口在每日 05:00–15:00 对行人和自行车也关闭</strong>。</p>' +
-          '<p><strong>但县方公告点名关闭的是 Westward Beach Road 入口，并未提及崖顶保护区在 Cliffside Drive 29188 号的独立入口</strong>' +
-          '（约 10 个车位、限时 2 小时、不经施工闸门）。这一条无法从官方渠道确认，<strong>出发当天请致电 LA County Beaches &amp; Harbors 询问</strong>——' +
-          '这是唯一可能保住整个 Point Dume 拍摄点的信息。详见该条目，另有 Zuma Beach 替代方案。</p>' +
+          '<strong>Westward Beach Road 收费闸口以外路段与 373 车位的下层停车场已关闭，无预计重开日期</strong>；' +
+          '8 月 6 日起进一步升级，<strong>Birdview Avenue 那个下切施工闸门在每日 05:00–15:00 对行人和自行车也关闭</strong>。</p>' +
+          '<p><strong>但崖顶的主机位不受影响。</strong>parks.ca.gov 的 Point Dume State Beach 页面 8 月 28 日更新明确写着' +
+          '「road access to the lower parking lot is currently unavailable… <strong>The beach remains accessible</strong>」，' +
+          '全文未提崖顶 Nature Preserve 关闭；县方公告点名的也只是 Westward Beach Road 与 Birdview Avenue 的施工区。' +
+          '<strong>从 29188 Cliffside Drive 的崖顶入口进即可，不经施工闸门</strong>——只是那里免费车位仅约 10 个、限时 2 小时，满位就改去 Zuma Beach。</p>' +
           '<p>另需留意：飓风 Marie 的外围涌浪（9/4 起 6–8 英尺、持续到 9/8）正是造成 8 月 1 日崩塌的同一类组合，<strong>封闭范围在行程期内可能再变</strong>。</p>'
       },
       {
@@ -1062,20 +1065,19 @@ var REGIONS = [
       {
         id: 'point-dume',
         n: 8,
-        gone: '主通道无限期关闭',
         name: '杜姆角',
         en: 'Point Dume State Beach',
-        score: 2.5,
-        tldr: '主通道因 8/1 海岸侵蚀无限期关闭。但崖顶保护区另有一个 Cliffside Drive 入口不经施工闸门，值得当天打电话确认。',
-        tags: [{ t: '免费', c: 'free' }, { t: '下层停车场关闭', c: 'risk' }, { t: '入口 05:00–15:00 禁行', c: 'risk' }, { t: '崖缘不稳', c: 'risk' }],
+        score: 4,
+        tldr: '崖顶保护区照常开放，从 Cliffside Drive 一侧进即可，主机位成立；关闭的只是崖下 Westward Beach Road 与 373 车位停车场。',
+        tags: [{ t: '免费', c: 'free' }, { t: '崖顶开放', c: 'free' }, { t: '崖顶车位仅约 10 个', c: 'risk' }, { t: '下层停车场关闭', c: 'risk' }],
         highlights: [
           '凸入太平洋的圆丘状火山岬角，是 Santa Monica Bay 的西北端点。崖顶木栈道通向观景平台，' +
             '可俯瞰 Westward Beach 与 Zuma Beach 的白沙一路延伸到 Point Mugu，晴天可见 Catalina Island',
           '灰鲸洄游期是 12 月至次年 4 月中，<strong>9 月看不到</strong>，但海豚全年可见'
         ],
-        photo: '<strong>潜力 4.5/5，但 2026 年 9 月实际可执行性仅 2.5/5</strong>。' +
-          '风光 5/5、海岸日落 5/5（西北向俯瞰长滩，日落方位极佳）、人像 3/5。' +
-          '这本该是本段最强的风光机位——<strong>问题完全出在通达性上</strong>。',
+        photo: '风光 <strong>5/5</strong>，海岸日落 <strong>5/5</strong>（西北向俯瞰长滩，日落方位极佳），人像 <strong>3/5</strong>。' +
+          '这是本段最强的风光机位，<strong>崖顶步道与观景平台目前正常开放</strong>；' +
+          '唯一的成本是崖顶免费车位只有约 10 个、限时 2 小时，来晚了就没有合法停车处。',
         shots: [
           {
             name: '岬顶观景平台（主机位）',
@@ -1085,9 +1087,9 @@ var REGIONS = [
             view: [34.00163, -118.80668]
           },
           {
-            name: '⭐ 强烈建议的替代方案：Zuma Beach 南端远眺',
-            desc: '<strong>如果崖顶去不了，这是最好的替代。</strong>改停 Zuma Beach 收费停车场（$8–15），' +
-              '从北侧远景拍 Point Dume 岬角剪影，长焦压缩，同样能拿到日落好片，<strong>且完全没有关闭风险</strong>。',
+            name: '备选：Zuma Beach 南端远眺',
+            desc: '<strong>崖顶那约 10 个车位停满时的退路。</strong>改停 Zuma Beach 收费停车场（$8–15），' +
+              '从北侧远景拍 Point Dume 岬角剪影，长焦压缩，同样能拿到日落好片，<strong>且车位充裕</strong>。',
             park: [34.01615, -118.82191],
             view: [34.01615, -118.82191]
           }
@@ -1095,14 +1097,14 @@ var REGIONS = [
         access: {
           book: '不需要',
           ticket: '免门票',
-          hours: '<strong>Birdview Avenue 入口每日 05:00–15:00 对行人和自行车也关闭</strong>（施工作业区，有承包商与警长副手驻场）',
-          parking: '<strong>Westward Beach Road 收费闸口以外路段与 373 车位的下层停车场自 2026 年 8 月起无限期关闭</strong>。崖顶 Preserve 免费小场约 2 小时限时、车位极少，周边住宅区严禁停车',
+          hours: '崖顶 Point Dume Nature Preserve 按州立公园日间时段开放，<strong>官方口径为日出至日落</strong>。<strong>05:00–15:00 的封闭只针对 Birdview Avenue 下切 Westward Beach Road 的那个施工闸门</strong>（含行人与自行车），不影响 Cliffside Drive 一侧的崖顶入口',
+          parking: '<strong>走 Cliffside Drive 一侧：</strong>崖顶保护区入口在 <strong>29188 Cliffside Drive</strong>，免费但只有约 10 个车位（其中 2 个无障碍）、<strong>限时 2 小时</strong>，Cliffside Drive 沿线另有少量无障碍车位。周边住宅区严禁停车，满位就直接改去 Zuma。<strong>崖下 Westward Beach Road 收费闸口以外路段与 373 车位的下层停车场自 2026 年 8 月 1 日起无限期关闭</strong>，那条路不用再考虑',
           walk: '崖顶停车场到岬顶约 <strong>330 米、爬升 60 米、10–12 分钟</strong>',
         },
         notes: [
           '<strong>关闭的真正原因是海岸侵蚀，不是山火修复工程。</strong>2026 年 8 月 1 日夜间的高潮位加大浪造成崖缘局部近 8 英尺落差、路基部分塌陷并损坏路面下的水管。山火只是间接背景——2025 年 1 月 Palisades Fire 烧毁的海滨住宅连带失去原有海堤，这段海岸从此没有了缓冲',
           '<strong>这条路的状态在一年里已经反复变过：</strong>它曾因另一项排水工程封闭，并于 2026 年 6 月 11 日恢复通行，8 月 1 日才因侵蚀再次关闭。<strong>任何超过几周的旧攻略都不可靠，出发当天必须重查</strong>',
-          '<strong>可能保住这个点的一条线索：崖顶保护区另有一个独立入口，在 Cliffside Drive 29188 号</strong>（约 10 个车位、其中 2 个无障碍、限时 2 小时），<strong>不经过 Birdview Avenue 的施工闸门</strong>。县方公告点名关闭的是 Westward Beach Road 入口，并未提及 Cliffside Drive 一侧，因此「连行人都禁行」对崖顶步道未必适用。<strong>但这一条无法从官方渠道确认，请当天致电 LA County Beaches &amp; Harbors 询问该入口是否开放</strong>——这是唯一可能保住整个 Point Dume 拍摄点的信息',
+          '<strong>崖顶入口的疑问已经有答案：走 Cliffside Drive 就行。</strong>parks.ca.gov 的 Point Dume State Beach 页面 <strong>8 月 28 日更新只说「下层停车场因 Westward Beach Road 封闭而无法车行抵达，海滩本身仍可进入」</strong>，全文没有提到崖顶保护区关闭；LA County Beaches &amp; Harbors 的公告点名的也只是 Westward Beach Road 与 Birdview Avenue 那个施工闸门。<strong>29188 Cliffside Drive 的崖顶入口不经过施工区，主机位成立</strong>',
           '<strong>崖缘不稳、局部落差近 8 英尺，绝对不要越过警戒锥、警示带或围栏</strong>，越界可致重伤且属违规',
           '这处火烧区岸段因原有海堤随房屋损毁而失去保护，<strong>侵蚀仍在持续</strong>',
           '1、2、3 号卫生间因水管被侵蚀损坏关闭，仅有临时化学厕所',
@@ -1139,7 +1141,7 @@ var REGIONS = [
           '<li><strong>Griffith Observatory</strong> 每周一闭馆 → 9/7 建筑闭馆，<strong>但室外露台与全部机位照常开放</strong></li>' +
           '<li><strong>Point Fermin Lighthouse</strong> 周一闭馆 + 重大节日可能闭馆 → <strong>9/7 双重命中，改约 9/8 或 9/9 下午</strong></li>' +
           '<li><strong>Bradbury Building</strong> 周末仅 10:00–14:00；<strong>9/7 是否开放未能确认</strong>，楼内有 LAPD 机构，建议先致电 (213) 592-3222</li>' +
-          '<li><strong>Pacific Park</strong>（Santa Monica Pier）<strong>9/9 提前 18:00 关闭</strong>，早于当日日落 19:09 → 当晚拍不到亮灯摩天轮</li>' +
+          '<li><strong>Pacific Park</strong>（Santa Monica Pier）<strong>9/8 关 19:00、9/9 关 18:00</strong>，都早于当日日落（19:10 / 19:09）→ <strong>亮灯摩天轮的蓝调只剩 9/5、9/6、9/7 三晚</strong></li>' +
           '</ul>' +
           '<p><strong>唯一不可替代的时间锚点：Getty Center 只有 9/5（周六）开放到 21:00</strong>，是全程唯一能在那里拍到日落与蓝调的日子，请优先固定。</p>'
       },
@@ -1148,8 +1150,10 @@ var REGIONS = [
         title: '停车才是洛杉矶的真正门槛：三处住宅区禁停规则会直接卡死机位',
         html: '<p>本区多个机位位于住宅社区，周末与节假日的许可停车制度是硬约束。</p>' +
           '<ul>' +
-          '<li><strong>Lake Hollywood Park（Hollywood Sign 正面机位）</strong>：2026 年 5 月起 PPD 320 扩区生效，' +
-          '<strong>周五、周六、周日及节假日</strong>禁止无证停车，违者拖车。→ <strong>9/5、9/6、9/7 三天不能开车去，只能安排 9/8 或 9/9</strong>。</li>' +
+          '<li><strong>Lake Hollywood Park（Hollywood Sign 正面机位）</strong>：PPD 320 扩区已于 2026 年 5 月 18 日生效，' +
+          '<strong>周五、周六、周日及节假日的 08:00–18:00</strong> 禁止无证停车，违者拖车——<strong>是时段限制，不是全天</strong>。' +
+          '→ <strong>9/5、9/6、9/7 要么 08:00 前拍完撤走（日出 06:31，正面光够用），要么 18:00 后再来；9/8、9/9 全天不受限</strong>。' +
+          '牌面按街段有多种版本，停车前逐块读牌。</li>' +
           '<li><strong>Wisdom Tree 起登点</strong>：<strong>绝对不要停 Wonder View Drive</strong>（无公共车位，居民直接叫拖车），' +
           '只能停 Lake Hollywood Drive；该路 <strong>21:00–06:00 禁停</strong>，因此赶不上 06:30 的日出。</li>' +
           '<li><strong>Point Fermin 园内停车场日落即关</strong>——而那正是拍日落的时段。请停 Paseo del Mar 路边免费车位，否则车被锁在场内。</li>' +
@@ -1163,8 +1167,8 @@ var REGIONS = [
         type: 'info',
         title: '两处已确认无法抵达，行前请勿按旧攻略前往',
         html: '<ul>' +
-          '<li><strong>Wayfarers Chapel</strong>：2024 年因 Portuguese Bend 滑坡拆解入库，原址与庭园全部封闭，' +
-          '重建希望 2027 年秋开工。已在下方列为红色卡片并附四个替代机位。</li>' +
+          '<li><strong>Wayfarers Chapel</strong>：2024 年因 Portuguese Bend 滑坡拆解入库，原址与庭园全部封闭并立牌禁止进入，' +
+          '<strong>官方已判定原址不可能重建、且未公布任何新址开工日期</strong>。已在下方列为红色卡片并附四个替代机位。</li>' +
           '<li><strong>Sunken City</strong>：2026 年仍属非法侵入，罚款约 $450。市议会 2026 年 2 月才刚拨款做围栏设计与环境监测，' +
           '官方称还要约一年。只能从 Point Fermin Park 崖顶用长焦合法眺望。</li>' +
           '</ul>'
@@ -1235,8 +1239,8 @@ var REGIONS = [
         name: '好莱坞标志',
         en: 'Hollywood Sign · Lake Hollywood Park · Mount Lee',
         score: 4.5,
-        tldr: '正面全字母机位在 Lake Hollywood Park，但周五至周日及节假日禁止无证停车——本次只能安排 9/8 或 9/9。',
-        tags: [{ t: '免费', c: 'free' }, { t: '9/5–9/7 禁停', c: 'risk' }, { t: '上午顺光', c: 'free' }],
+        tldr: '正面全字母机位在 Lake Hollywood Park。9/5–9/7 禁停时段为 08:00–18:00，必须赶在 08:00 前拍完撤走；9/8、9/9 不受限。',
+        tags: [{ t: '免费', c: 'free' }, { t: '9/5–9/7 限 08:00 前', c: 'risk' }, { t: '上午顺光', c: 'free' }],
         highlights: [
           '1923 年立起的世界级文化符号，原本是 HOLLYWOODLAND 房地产广告，2022 年完成最近一次大修。字母高 13.7 米、总宽约 110 米，架设在 Mount Lee 南坡',
           '<strong>不存在任何合法方式站到字母之间或上面</strong>——围栏、13 个监控摄像头加 LAPD 警员全天候看守。可拍的是三类画面：正面远景含字母全貌、近距离仰视、以及从 Mount Lee 山顶拍字母背面加全城俯瞰',
@@ -1248,7 +1252,7 @@ var REGIONS = [
         shots: [
           {
             name: 'Lake Hollywood Park（正面全字母）',
-            desc: '<strong>上午 08:00–11:00 最佳</strong>，Sign 正面充分受光、白色字母不过曝且山体有立体感；<strong>傍晚为完全逆光，不推荐</strong>。字母横宽 110 米在 889 米外，<strong>70–200mm 是核心区间</strong>（135mm 左右字母约占画面半宽），24–70mm 拍人物全身配完整字母背景。草坡制高点压低机位，让草地占下三分之一、Sign 在上三分点。',
+            desc: '<strong>上午 08:00–11:00 最佳</strong>，Sign 正面充分受光、白色字母不过曝且山体有立体感；<strong>傍晚为完全逆光，不推荐</strong>。字母横宽 110 米在 889 米外，<strong>70–200mm 是核心区间</strong>（135mm 左右字母约占画面半宽），24–70mm 拍人物全身配完整字母背景。草坡制高点压低机位，让草地占下三分之一、Sign 在上三分点。<strong>9/5–9/7 受 PPD 320 的 08:00–18:00 禁停限制，这三天要把窗口前移到日出后 06:35–07:50</strong>（正面光已经起来，且人最少），车必须在 08:00 前开走；<strong>想用完整的 08:00–11:00 窗口就排 9/8 或 9/9</strong>。',
             park: [34.126905, -118.325870],
             view: [34.126905, -118.325870]
           },
@@ -1273,7 +1277,7 @@ var REGIONS = [
           book: '不需预约',
           ticket: '<strong>全部免费</strong>',
           hours: '户外无限制，但 <strong>Deronda 行人闸门日落后不能进入</strong>（9/5–9/9 即 19:07–19:13 后只能出不能进）。Griffith Park 步道规定日落关闭',
-          parking: '<strong>本条目最大的坑。</strong>Lake Hollywood Park 一带 Canyon Lake Dr 为免费路边车位，<strong>但 2026 年 5 月起 PPD 320 扩区：周五、周六、周日及节假日禁止无证停车，违者开罚并拖车</strong>。→ <strong>9/5（六）、9/6（日）、9/7（Labor Day）三天不可开车前往，只能安排 9/8 或 9/9</strong>。平日免费且通常有位，但周末即使合规日也会在 09:00 前坐满。<strong>Beachwood Gate 自 2017 年 4 月起永久关闭</strong>，九年未重开',
+          parking: '<strong>本条目最大的坑，但坑的形状和多数攻略写的不一样。</strong>Lake Hollywood Park 一带 Canyon Lake Dr 为免费路边车位，<strong>PPD 320 扩区已于 2026 年 5 月 18 日（周一）生效，标准牌面为「NO PARKING 8 AM TO 6 PM, FRIDAY, SATURDAY, SUNDAY, AND HOLIDAYS; VEHICLES WITH DISTRICT NO. 320 PERMITS EXEMPT」</strong>，违者开罚并拖车。<strong>关键是它只管 08:00–18:00 这一段，不是全天禁停</strong>：→ <strong>9/5（六）、9/6（日）、9/7（Labor Day）仍可开车前往，但必须 08:00 前离场，或 18:00 后再来；9/8（二）、9/9（三）不在限制日内，全天免费</strong>。平日通常有位，周末即使合规时段也会在 09:00 前坐满。<strong>市议会 25-0947 号案同时授权了多种牌面（含仅周六日加节假日、8:00–16:00、07:00–21:00、限停 2 小时等），逐块牌面并不一致，停车前必须读你那一段的牌子</strong>。<strong>Beachwood Gate 自 2017 年 4 月 18 日起对「进入」方向永久关闭</strong>（法院认定行人流量妨碍 Sunset Ranch 的地役权，2019 年上诉维持原判），<strong>但仍可作为出园方向使用</strong>',
           walk: 'Canyon Lake Dr 车位到 Lake Hollywood Park 草坪约 <strong>3–5 分钟 / 250 米</strong>；到 Deronda 闸门后方约 10 分钟 / 0.7 公里；Brush Canyon 停车场到 Mount Lee 山顶约 <strong>1 小时 20 分 / 5.1 公里单程</strong>，爬升约 320 米'
         },
         notes: [
@@ -1855,8 +1859,8 @@ var REGIONS = [
         name: '圣莫尼卡栈桥',
         en: 'Santa Monica Pier · Pacific Park · West Coaster · Route 66 End of the Trail',
         score: 5,
-        tldr: '日落素材最丰富的一站；但 9/9 游乐场 18:00 就关，当晚拍不到亮灯摩天轮，蓝调请安排 9/5–9/8。',
-        tags: [{ t: '入园免费', c: 'free' }, { t: '9/9 提前 18:00 关', c: 'risk' }, { t: '停车节日加价', c: 'paid' }],
+        tldr: '日落素材最丰富的一站；但游乐场 9/8 关 19:00、9/9 关 18:00，都早于日落，亮灯摩天轮的蓝调只剩 9/5–9/7。',
+        tags: [{ t: '入园免费', c: 'free' }, { t: '亮灯蓝调仅 9/5–9/7', c: 'risk' }, { t: '停车节日加价', c: 'paid' }],
         highlights: [
           '1909 年建成的百年木栈桥，是<strong>全球辨识度最高的加州海滨符号</strong>',
           '桥上的 Pacific Park 是<strong>不设门禁的免费入园</strong>游乐场，共 12 项设施。两大主角是 <strong>Pacific Wheel——全球首座且唯一的太阳能供电摩天轮</strong>，夜间有灯光秀；以及 West Coaster 海滨过山车',
@@ -1874,7 +1878,7 @@ var REGIONS = [
           },
           {
             name: 'Pacific Wheel 摩天轮下方',
-            desc: '<strong>蓝调 19:20–19:32 的黄金 12 分钟</strong>，灯光与天空亮度平衡。14–24mm 超广角贴近轮体基座向上仰，让辐条呈放射状充满画面；或退至 20 米外以 35mm 把摩天轮与过山车轨道并置。人像可让对象站轮前，用轮体灯光作巨大环形背景光，1/60s、f/2.0、ISO 1600–3200 手持可行。',
+            desc: '<strong>蓝调 19:20–19:32 的黄金 12 分钟</strong>，灯光与天空亮度平衡。<strong>只有 9/5、9/6、9/7 三晚游乐场开到 23:00，能吃到这个窗口；9/8 关 19:00、9/9 关 18:00，轮子届时已熄灯</strong>。14–24mm 超广角贴近轮体基座向上仰，让辐条呈放射状充满画面；或退至 20 米外以 35mm 把摩天轮与过山车轨道并置。人像可让对象站轮前，用轮体灯光作巨大环形背景光，1/60s、f/2.0、ISO 1600–3200 手持可行。',
             view: [34.008227, -118.497834]
           },
           {
@@ -1891,7 +1895,7 @@ var REGIONS = [
         access: {
           book: '不需预约',
           ticket: '<strong>栈桥免费；Pacific Park 免门票入园</strong>，设施按次单独计费每项 $6–20。线上预购 Pacific Wheel 或 West Coaster 单次 $14（现场 $20）。另有当日无限次腕带。<strong>Pacific Wheel 不接受单人乘坐</strong>',
-          hours: '栈桥每日 6:00 至 23:00。<strong>Pacific Park：9/5、9/6 为 11:00–23:00（已确认）；9/7、9/8 推测同样但未能确认；9/9 提前 18:00 关闭（官方明确公告）</strong>。→ <strong>9/9 当晚拍不到亮灯摩天轮的蓝调照片</strong>（当日日落 19:09），灯光蓝调务必安排在 9/5–9/8',
+          hours: '栈桥每日 6:00 至 23:00。<strong>Pacific Park 官方运营日历（pacpark.com/hours）逐日为：9/5 11:00–23:00、9/6 11:00–23:00、9/7 11:00–23:00、9/8 12:00–19:00、9/9 12:00–18:00</strong>。→ <strong>9/8 与 9/9 都在日落（19:10 / 19:09）之前或同时关灯收摊，这两晚都拍不到亮灯摩天轮的蓝调</strong>；灯光蓝调只能安排在 <strong>9/5、9/6、9/7</strong> 三晚',
           parking: '<strong>Pier Deck 桥上停车场</strong>：夏季平日 $4.25/小时上限 $20、周末上限 $22，位置最好但最早满（周末与节假日常在 10:00–11:00 满）。<strong>海滨停车场</strong>：夏季平日 $12/次、周末 $15/次，营业 6:00–21:00。<strong>Labor Day 属特殊节日费率，请按周末价上浮预算</strong>。有利的一点是<strong>日落时段 18:00 后反而会因日间游客离场而释放车位</strong>',
           walk: 'Pier Deck 到 Route 66 标志约 <strong>100 米 / 1–2 分钟</strong>；到摩天轮约 200 米 / 3 分钟；海滨停车场到南侧沙滩机位约 300–450 米 / 4–6 分钟。<strong>Metro E 线 Downtown Santa Monica 站步行 10–15 分钟可完全避开停车问题</strong>'
         },
@@ -2023,14 +2027,15 @@ var REGIONS = [
         name: '玻璃教堂',
         en: 'Wayfarers Chapel',
         score: 0,
-        tldr: '2024 年因滑坡拆解入库，原址与庭园全部封闭，重建希望 2027 年秋开工。请从行程中删除。',
+        tldr: '2024 年因滑坡拆解入库，原址与庭园全部封闭且立牌禁止进入。官方至今未公布重建开工日期。请从行程中删除。',
         tags: [{ t: '已拆解', c: 'risk' }, { t: '原址封闭', c: 'risk' }],
         highlights: [
           'Lloyd Wright（Frank Lloyd Wright 之子）设计的「玻璃教堂」，1951 年落成，以玻璃墙与红杉林交融的中世纪现代主义杰作闻名，<strong>2023 年 12 月刚被指定为 National Historic Landmark</strong>',
           '<strong>2024 年 2 月因 Portuguese Bend 滑坡复活而关闭</strong>——教堂地基出现大面积裂缝、结构失稳；<strong>2024 年 5 月起专业拆解，7 月拆解完成</strong>，绝大部分材料（含 Walk of Honor 刻名纪念砖）已编号入库',
           '<strong>官方已判定原址不可能重建。</strong>新址选在 City Hall 旁的 Battery Barnes（一处约 4 英亩、现属 U.S. Coast Guard 的二战海防用地，距原址西约 1 英里）',
-          '<strong>卡点在于该地块转让需国会立法</strong>：Rep. Ted Lieu 于 2026 年 1 月表示将提案，但 RPV 市长明确表示「目前尚无任何承诺或协议」；截至 2026 年 2 月最新项目更新，Battery Barnes 仍被教会自己的材料描述为「拟定」地点',
-          '官网 FAQ 称<strong>希望第一期重建于 2027 年秋季开工</strong>——即本次行程期间既无教堂，也无工地可拍'
+          '<strong>卡点在于该地块转让需国会立法</strong>：Rep. Ted Lieu 于 2026 年 1 月表示将提案，但 RPV 市长明确表示「目前尚无任何承诺或协议」；<strong>截至 2026 年 8 月 1 日的官方新闻稿，Battery Barnes 仍被教会自己的材料称为 prospective / proposed（拟定）地点</strong>',
+          '<strong>官方没有给出任何开工日期。</strong>官网原话是「一旦能确保拟定新址并募齐重建资金，就可以开始重建」，没有时间表——<strong>本次行程期间既无教堂，也无工地可拍</strong>',
+          '<strong>唯一的好消息与拍摄无关：</strong>2026 年 8 月的地质报告称 Portuguese Bend 滑坡已减速到约每周 1.1 英寸、比一年前慢约 60%，教会因此说原址「有朝一日或可作为历史景观保存下来」——但那是很多年之后的事'
         ],
         photo: '<strong>本次无法拍摄。</strong>请勿驱车前往原址——该处封闭，且位于滑坡活跃区。替代机位见上一条 Point Vicente。',
         shots: [],
@@ -2457,8 +2462,8 @@ var REGIONS = [
         ],
         access: {
           book: '不需要，观景免费',
-          ticket: '<strong>免费。</strong>Tandem 体验若有兴趣：滑翔伞 $175–200 起，悬挂滑翔翼 $225 起，现金付款有折扣，先到先服务',
-          hours: '官方 tandem 运营 <strong>09:00–17:00</strong>（看风况）。但飞行社说明更精确：秋冬 11:00–16:00 风况最佳，<strong>春夏 09:00 到 19:00 甚至更晚都常可飞</strong>——9 月初属夏季尾，日落时段大概率仍有伞在天上',
+          ticket: '<strong>看飞行与拍摄完全免费。</strong>Tandem 体验若有兴趣：<strong>滑翔伞 $200（现金 $190，现役军人持证 $180）</strong>；<strong>悬挂滑翔翼牌价 $225，但官网目前三处页面都用大写声明「因没有教练，暂不提供 tandem 悬挂滑翔翼」</strong>，别按旧攻略指望它。不接受预约，先到先服务，出发当天上午致电 858-452-9858 问风况',
+          hours: '官方原文：<strong>tandem 飞行项目每周七天运营，09:00 至日落，风况允许时还会更晚</strong>。飞行社另注明秋冬 11:00–16:00 风况最佳，春夏窗口更长——9 月初属夏季尾，<strong>日落时段大概率仍有伞在天上</strong>',
           parking: '<strong>完全免费</strong>，土质大场，但周末很快满位',
           walk: '<strong>150 米 / 2 分钟</strong>，平坦土路',
         },
@@ -2545,12 +2550,12 @@ var REGIONS = [
         name: '斯克里普斯海洋研究所纪念栈桥',
         en: 'Ellen Browning Scripps Memorial Pier (UCSD)',
         score: 4,
-        tldr: '栈桥对公众关闭，但 Birch Aquarium 的日落导览是唯一合法登桥途径，9 月起有场次，热门时段常售罄——想上桥请立刻订票。',
-        tags: [{ t: '沙滩免费', c: 'free' }, { t: '停车免费', c: 'free' }, { t: '栈桥不可上', c: 'risk' }, { t: '9 月无穿柱日落', c: 'risk' }],
+        tldr: '本次上不了桥：唯一合法登桥的 Birch Aquarium 日落导览要到 9/19 才开季，行程期内没有场次。沙滩机位不受影响。',
+        tags: [{ t: '沙滩免费', c: 'free' }, { t: '停车免费', c: 'free' }, { t: '行程期内无法登桥', c: 'risk' }, { t: '9 月无穿柱日落', c: 'risk' }],
         highlights: [
           '<strong>1,084 英尺（330 米）长的全混凝土研究栈桥</strong>，1988 年建成，是全球最大的在用海洋研究栈桥之一',
           '自 1916 年起每日采集水温盐度，是<strong>全球最长连续海洋观测序列之一</strong>。紧邻 La Jolla 海底峡谷头部',
-          '<strong>✅ 确认栈桥对公众关闭</strong>，仅限研究人员使用。唯一合法上桥途径是 Birch Aquarium 的 Sunset Pier Walk 导览（<strong>$40，须官网提前预订，季节性开放通常 9 月至次年 4 月</strong>，9 月初是否已开当季首场未能确认）'
+          '<strong>✅ 确认栈桥对公众关闭</strong>，仅限研究人员使用。唯一合法上桥途径是 Birch Aquarium 的 Sunset Scripps Pier Walk 导览，<strong>但 2026 年秋季档要到 9 月 19 日才开季，9/5–9/9 期间一场都没有</strong>——这条路本次直接排除，只能在沙滩上拍'
         ],
         photo: '风光 <strong>4/5</strong>，人像 <strong>3.5/5</strong>，建筑 <strong>4/5</strong>。' +
           '桥墩纵深与剪影框架都很强，只是 9 月没有 Scrippshenge 的对齐奇观。',
@@ -2572,7 +2577,7 @@ var REGIONS = [
           }
         ],
         access: {
-          book: '沙滩拍摄不需预约。<strong>唯一合法登桥途径是 Birch Aquarium 的 Sunset Scripps Pier Walk</strong>：90 分钟导览，会员 $30、公众 $40，9 岁以上可参加，须提前在 aquarium.ucsd.edu 在线订票，集合点在栈桥入口闸门（8650 Kennel Way）。该项目为季节性，通常 9 月至次年 4 月运行，当前列为「部分周六与周日，持续至 2026 年 12 月」——<strong>请立刻去查 9/5、9/6、9/8、9/9 是否有场次</strong>',
+          book: '沙滩拍摄不需预约。<strong>唯一合法登桥途径是 Birch Aquarium 的 Sunset Scripps Pier Walk</strong>：90 分钟导览，<strong>会员 $35、公众 $40</strong>（与水族馆门票打包另有折扣价），9 岁以上可参加，须提前在 aquarium.ucsd.edu 在线订票，集合点在栈桥入口闸门（8650 Kennel Way），场次时间随日落浮动且经常售罄。<strong>但 2026 年秋季档的首场是 9 月 19 日，9/5、9/6、9/8、9/9 均无场次——本次无法登桥，已确认，不必再查</strong>',
           ticket: '免费（沙滩公共）',
           hours: '沙滩全天；Kellogg Park 停车场<strong>全年 22:00–04:00 禁停</strong>',
           parking: '<strong>La Jolla Shores Drive 沿线有免费路边位</strong>（最省时，距沙滩约 250 米）；Kellogg Park 停车场车位更多但离栈桥远。<strong>两者均免费</strong>',

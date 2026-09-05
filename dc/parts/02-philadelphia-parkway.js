@@ -367,11 +367,11 @@ module.exports = {
           '露台上风大，长焦拍 2 公里外的塔时三脚架要压重物'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Philadelphia_skyline_Eakins_Oval_and_Benjamin_Franklin_Parkway_looking_southeast_from_top_of_Rocky_Steps.jpeg',
+        { url: 'img/philadelphia-skyline-eakins-oval-and-benjamin-franklin-parkw-6eaea095.jpg',
           cap: '自东阶顶朝东南望 Parkway 与 City Hall（即第一机位视角） · Dough4872 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/15/Philadelphia_Museum_of_Art_looking_northwest_from_bottom_of_Rocky_Steps.jpeg',
+        { url: 'img/philadelphia-museum-of-art-looking-northwest-from-bottom-of--299944b4.jpg',
           cap: '自台阶底仰望神庙立面与 72 级台阶 · Dough4872 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/21/Rocky_Statue%2C_Philadelphia%2C_PA_2025-03.jpg',
+        { url: 'img/rocky-statue-philadelphia-pa-2025-03-36898bf6.jpg',
           cap: 'Rocky 铜像（在台阶底的地面广场上，不在台阶上） · Horcrux / CC BY-SA 4.0' }
       ]
     },
@@ -565,11 +565,11 @@ module.exports = {
         '<strong>本条目为独立 501(c)(3)，不受联邦拨款影响</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/72/Eastern_State_Penitentiary_-_Philadelphia_-_Pennsylvania_-_04.jpg',
+        { url: 'img/eastern-state-penitentiary-philadelphia-pennsylvania-04-e7e974ee.jpg',
           cap: '拱顶牢房走廊与塌落天窗（即主机位视角） · Adam Jones, Ph.D. / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Eastern_State_Penitentiary_peeling_ceiling_paint.jpg',
+        { url: 'img/eastern-state-penitentiary-peeling-ceiling-paint-e3dd5c0d.jpg',
           cap: '剥落的天花漆层（注意这是铅漆，不要触摸） · Saschacat916 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Eastern_State_Penitentiary_Cell_block_A.jpg',
+        { url: 'img/eastern-state-penitentiary-cell-block-a-e399302e.jpg',
           cap: '牢房翼内部的高动态范围实况 · Jersey Milt / CC BY-SA 4.0' }
       ]
     },
@@ -737,11 +737,11 @@ module.exports = {
         '<strong>本条目由 Philadelphia Parks &amp; Recreation 运营，不受联邦拨款影响</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Swann_Memorial_Fountain%2C_Philadelphia.jpg',
+        { url: 'img/swann-memorial-fountain-philadelphia-fd8dfa16.jpg',
           cap: '喷泉与三尊河流铜像（宽幅） · Dudva / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Swann_Memorial_Fountain%2C_Logan_Square%2C_Philadelphia%2C_PA.JPG',
+        { url: 'img/swann-memorial-fountain-logan-square-philadelphia-pa-c83e400a.jpg',
           cap: '水柱运行时的实际观感与环岛环境 · Ngilmour3 / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Children_in_Swann_Memorial_Fountain_on_4th_July.jpg',
+        { url: 'img/children-in-swann-memorial-fountain-on-4th-july-9c59ce3b.jpg',
           cap: '池沿低机位与飞沫（快门定住水珠的效果） · Haley Betrayal / CC BY-SA 4.0' }
       ]
     },
@@ -893,11 +893,11 @@ module.exports = {
         '<strong>本条目由 Philadelphia Museum of Art 运营，不受联邦拨款影响</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Rodin_Museum_Phila_jeh.jpg',
+        { url: 'img/rodin-museum-phila-jeh-073664d2.jpg',
           cap: '临 Parkway 的立面与花园入口 · Jim.henderson / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/4a/Philadelphia_October_2017_13_%28Rodin_Museum%29.jpg',
+        { url: 'img/philadelphia-october-2017-13-rodin-museum-7ae23753.jpg',
           cap: '十月的花园与 Beaux-Arts 建筑（即主机位视角） · Michael Barera / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Rodin_Museum_entrance_in_Philadelphia%2C_Pennsylvania.jpg',
+        { url: 'img/rodin-museum-entrance-in-philadelphia-pennsylvania-23e99347.jpg',
           cap: '入口段与《地狱之门》一侧 · Nolabob / CC BY-SA 4.0' }
       ]
     },
@@ -1056,11 +1056,11 @@ module.exports = {
         '<strong>本条目为独立 501(c)(3)，不受联邦拨款影响</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f8/The_Barnes_Foundation_in_Philadelphia_%28by_MyWikiBiz%29.jpg',
+        { url: 'img/the-barnes-foundation-in-philadelphia-by-mywikibiz-e5e4a908.jpg',
           cap: 'Tod Williams Billie Tsien 的建筑体量与 Negev 石灰石外墙 · Thekohser / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Reflecting_pool_outside_the_Barnes_Foundation_-_Philadelphia_%28by_MyWikiBiz%29.jpg',
+        { url: 'img/reflecting-pool-outside-the-barnes-foundation-philadelphia-b-71c87af4.jpg',
           cap: '入口反射水池（即主机位视角） · Thekohser / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a4/Galerie_Barnes_Foundation.JPG',
+        { url: 'img/galerie-barnes-foundation-c0c7c90e.jpg',
           cap: '收藏展厅内的 ensembles 墙面陈列 · Dav Sanetrník / CC BY-SA 3.0' }
       ]
     },
@@ -1213,11 +1213,11 @@ module.exports = {
         '<strong>本条目由 Archdiocese of Philadelphia 运营，不受联邦拨款影响</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/2013_Cathedral_Basilica_of_Saints_Peter_and_Paul_from_across_the_Benjamin_Franklin_Parkway_2.jpg',
+        { url: 'img/2013-cathedral-basilica-of-saints-peter-and-paul-from-across-057cd7e8.jpg',
           cap: '自 Benjamin Franklin Parkway 对侧看褐石立面与铜穹顶 · Beyond My Ken / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a0/Interior_Cathedral_Basilica_of_Saints_Peter_and_Paul_crop.JPG',
+        { url: 'img/interior-cathedral-basilica-of-saints-peter-and-paul-crop-5699941a.jpg',
           cap: '正殿中轴与穹顶下的采光（即主机位视角） · Interstate295r / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Cathedral_Basilica_of_Saints_Peter_and_Paul_in_Philadelphia_20240528.jpg',
+        { url: 'img/cathedral-basilica-of-saints-peter-and-paul-in-philadelphia--25a2220b.jpg',
           cap: 'Logan Square 一侧的教堂全貌 · 颐园居 / CC BY-SA 4.0' }
       ]
     },
@@ -1436,11 +1436,11 @@ module.exports = {
           '不受联邦拨款影响</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Boat_houses_at_night_-_2442597025.jpg',
+        { url: 'img/boat-houses-at-night-2442597025-2a6f7be3.jpg',
           cap: '入夜后的灯光轮廓与水面反射（即西岸机位效果） · Matt B / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Boathouse_Row_-_Oct_2024.jpg',
+        { url: 'img/boathouse-row-oct-2024-ed3499d9.jpg',
           cap: '十月的船屋群与河岸秋色 · Domaking9000 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Fairmount_Water_Works_at_dusk.jpg',
+        { url: 'img/fairmount-water-works-at-dusk-b71bb0d3.jpg',
           cap: '黄昏的 Fairmount Water Works 与美术馆山坡 · SkipL / CC BY-SA 4.0' }
       ]
     }

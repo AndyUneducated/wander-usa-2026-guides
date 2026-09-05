@@ -260,11 +260,11 @@ module.exports = {
           '建议固定白平衡在 3800–4500K，并对红通道留出至少 2/3 档余量，否则红色笔画会糊成没有细节的色块'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bf/Long_Island_City_Pepsi_Cola_Sign_-_May_2026.jpg',
+        { url: 'img/long-island-city-pepsi-cola-sign-may-2026-ceacaff6.jpg',
           cap: 'Pepsi-Cola 招牌与 Midtown 天际线 · Anonymouscarrots / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/19/Pepsi-Cola_sign_park_view.jpg',
+        { url: 'img/pepsi-cola-sign-park-view-ee82b923.jpg',
           cap: '自园内草坪望招牌与对岸楼群 · Sashimi-b / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Pepsi-Cola_sign_in_Gantry_Plaza_State_Park%2C_Long_Island_City%2C_New_York.jpg',
+        { url: 'img/pepsi-cola-sign-in-gantry-plaza-state-park-long-island-city--e9d8221f.jpg',
           cap: '招牌侧向机位 · MusikAnimal / CC BY-SA 4.0' }
       ]
     },
@@ -421,11 +421,11 @@ module.exports = {
           '<strong>建议当天查园方 Park Alerts 页确认开放状态</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Brooklyn_Bridge_and_the_Lower_Manhattan_skyline_from_Pebble_Beach%2C_New_York.jpg',
+        { url: 'img/brooklyn-bridge-and-the-lower-manhattan-skyline-from-pebble--22b9f2cf.jpg',
           cap: '自 Pebble Beach 拍 Brooklyn Bridge 与 Lower Manhattan 超宽幅 · Christian David / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Jane%27s_Carousel%2C_Dumbo_Brooklyn_in_July_2017.jpg',
+        { url: 'img/jane-s-carousel-dumbo-brooklyn-in-july-2017-8002019c.jpg',
           cap: 'Jane\u2019s Carousel 的 Jean Nouvel 玻璃亭 · MusikAnimal / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a5/Brooklyn_Bridge_Above_Jane%27s_Carousel.jpg',
+        { url: 'img/brooklyn-bridge-above-jane-s-carousel-9f06c044.jpg',
           cap: 'Brooklyn Bridge 石塔与木马亭同框 · joiseyshowaa / CC BY-SA 2.0' }
       ]
     },
@@ -575,11 +575,11 @@ module.exports = {
           '而且人会少一大半。带一块吸水布擦镜头前玻璃，别擦镜片'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Manhattan_Bridge_from_Washington_Street%2C_Dumbo%2C_Brooklyn%2C_New_York.jpg',
+        { url: 'img/manhattan-bridge-from-washington-street-dumbo-brooklyn-new-y-8469bb7e.jpg',
           cap: '自 Washington Street 拍 Manhattan Bridge 经典竖幅 · Christian David / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Empire_State_Building_through_the_Manhattan_Bridge_arch%2C_Dumbo%2C_Brooklyn%2C_New_York.jpg',
+        { url: 'img/empire-state-building-through-the-manhattan-bridge-arch-dumb-00a98c6f.jpg',
           cap: '桥洞中的 Empire State Building 长焦特写 · Christian David / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9d/Manhattan_Bridge_view_from_Washington_Street_DUMBO_Brooklyn_Morning_2022.jpg',
+        { url: 'img/manhattan-bridge-view-from-washington-street-dumbo-brooklyn--d26a166e.jpg',
           cap: '清晨侧光下的砖墙与桥塔 · Eugene Krasnaok / CC BY 4.0' }
       ]
     },
@@ -719,11 +719,11 @@ module.exports = {
           '把时间放在清晨最保险'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Brooklyn_Heights_Promenade_View.jpg',
+        { url: 'img/brooklyn-heights-promenade-view-be88e6b5.jpg',
           cap: '自步道望 Lower Manhattan 全景 · Kidfly182 / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Brooklyn_Heights_Promenade_NY1.jpg',
+        { url: 'img/brooklyn-heights-promenade-ny1-5206422b.jpg',
           cap: '悬臂步道本体与铸铁栏杆 · Acroterion / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Brooklyn_Heights_Promenade_01_%289423355002%29.jpg',
+        { url: 'img/brooklyn-heights-promenade-01-9423355002-39af070d.jpg',
           cap: '步道北段与 Brooklyn Bridge · Joe Mabel / CC BY-SA 3.0' }
       ]
     },
@@ -885,11 +885,11 @@ module.exports = {
           '把 BBG 留给下一次'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Japanese_Hill-and-Pond_Garden%2C_Brooklyn_Botanic_Garden_%2860636%29.jpg',
+        { url: 'img/japanese-hill-and-pond-garden-brooklyn-botanic-garden-60636-911abf98.jpg',
           cap: 'Japanese Hill-and-Pond Garden 池畔与鸟居 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Brooklyn_Botanic_Garden_New_York_November_2016_006.jpg',
+        { url: 'img/brooklyn-botanic-garden-new-york-november-2016-006-1de7d667.jpg',
           cap: '秋色中的日式庭园 · King of Hearts / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/25/Brooklyn_Botanic_Garden_New_York_October_2016_005.jpg',
+        { url: 'img/brooklyn-botanic-garden-new-york-october-2016-005-1cb0420b.jpg',
           cap: '十月园内秋叶 · King of Hearts / CC BY-SA 4.0' }
       ]
     },
@@ -1050,11 +1050,11 @@ module.exports = {
           '想要空草地请在清晨，傍晚就把人拍进去当尺度'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9e/Fall_Morning_Prospect_Park_Long_Meadow.jpg',
+        { url: 'img/fall-morning-prospect-park-long-meadow-0824ed9c.jpg',
           cap: '秋日清晨的 Long Meadow · Badtartin / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/86/Prospect_Park_boathouse_%2861446p%29.jpg',
+        { url: 'img/prospect-park-boathouse-61446p-daf9165a.jpg',
           cap: 'Boathouse on the Lullwater 与水面倒影 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/46/Soldiers%27_and_Sailors%27_Arch%2C_Brooklyn.jpg',
+        { url: 'img/soldiers-and-sailors-arch-brooklyn-c24569fe.jpg',
           cap: 'Grand Army Plaza 的 Soldiers\u2019 and Sailors\u2019 Arch · David Brossard / CC BY-SA 2.0' }
       ]
     },
@@ -1235,11 +1235,11 @@ module.exports = {
           'Fort Hamilton 门的 Gatehouse 都有洗手间'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/45/Green-Wood_Cemetery_gate_%2853784p%29.jpg',
+        { url: 'img/green-wood-cemetery-gate-53784p-5c229a9c.jpg',
           cap: '25th Street 哥特复兴主门与钟塔 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Green-Wood_Cemetery_gate_%2853753p%29.jpg',
+        { url: 'img/green-wood-cemetery-gate-53753p-67b64453.jpg',
           cap: '主门尖拱与飞扶壁细部 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a3/2015_Green-Wood_Cemetery_gate_house.jpg',
+        { url: 'img/2015-green-wood-cemetery-gate-house-db396bf2.jpg',
           cap: '门侧的办公与礼拜堂翼楼 · Beyond My Ken / CC BY-SA 4.0' }
       ]
     },
@@ -1427,11 +1427,11 @@ module.exports = {
           '并注意别把陌生儿童拍成画面主体'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/15/Wonder_Wheel_and_Thunderbolt_at_night%2C_Coney_Island%2C_Brooklyn.jpg',
+        { url: 'img/wonder-wheel-and-thunderbolt-at-night-coney-island-brooklyn-724640f6.jpg',
           cap: '夜间亮灯的 Wonder Wheel 与 Thunderbolt · Amaury Laporte / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Parachute_Jump_on_Coney_Island.jpg',
+        { url: 'img/parachute-jump-on-coney-island-01d12d00.jpg',
           cap: '262 英尺的 Parachute Jump 塔 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/db/Steeplechase_Pier_facing_Coney_Island_Boardwalk.jpg',
+        { url: 'img/steeplechase-pier-facing-coney-island-boardwalk-a36d995f.jpg',
           cap: '自 Steeplechase Pier 回望木栈道与天际线 · Rhododendrites / CC BY-SA 4.0' }
       ]
     }

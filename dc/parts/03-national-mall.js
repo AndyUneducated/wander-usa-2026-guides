@@ -195,11 +195,11 @@ module.exports = {
         '台阶大理石雨后极滑，且清晨常有露水；带三脚架在台阶下架设时注意不要挡住轮椅坡道'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/19/Lincoln_Memorial_Night_Focus.jpg',
+        { url: 'img/lincoln-memorial-night-focus-cda511cb.jpg',
           cap: '夜间泛光下的柱廊与林肯像 · Ramakrishna Gundra / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/76/Columns_of_the_Lincoln_Memorial_Against_a_Clear_Sky.jpg',
+        { url: 'img/columns-of-the-lincoln-memorial-against-a-clear-sky-01603ef6.jpg',
           cap: '仰视 36 根多立克柱 · Brett Guessford / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fe/2026-06-26_Lincoln_Memorial_Undercroft_entrance_11-29-11.jpg',
+        { url: 'img/2026-06-26-lincoln-memorial-undercroft-entrance-11-29-11-f8b30d6f.jpg',
           cap: '2026 年 6 月新开放的 Undercroft 入口 · G. Edward Johnson / CC BY 4.0' }
       ]
     },
@@ -293,11 +293,11 @@ module.exports = {
           '墙体本身归 Vietnam Veterans Memorial Fund</strong>。个人记录性拍摄不受影响，商业使用需授权'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Vietnam_Veterans_Memorial_Wall-9.jpg',
+        { url: 'img/vietnam-veterans-memorial-wall-9-fdf858c2.jpg',
           cap: '黑色辉长岩墙面与名字 · Almonroth / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Vietnam_Veterans_Memorial_Wall-3.jpg',
+        { url: 'img/vietnam-veterans-memorial-wall-3-66e54bc6.jpg',
           cap: '墙体沿地面切入的纵深 · Almonroth / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/4a/Vietnam_Memorial_Wall_with_Washington_Monument.jpg',
+        { url: 'img/vietnam-memorial-wall-with-washington-monument-fcc00356.jpg',
           cap: '墙面映出 Washington Monument · David J. Jackson / CC BY-SA 4.0' }
       ]
     },
@@ -385,11 +385,11 @@ module.exports = {
         '雕像基座周围地面不平且有低矮地灯，夜间容易绊倒；三脚架腿别压在灯罩上'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Korean_War_Veterans_Memorial_Pool_of_Remembrance%2C_July_2017_01.jpg',
+        { url: 'img/korean-war-veterans-memorial-pool-of-remembrance-july-2017-0-19b4389f.jpg',
           cap: 'Pool of Remembrance 全景 · MusikAnimal / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Aerial_view_of_Korean_War_Veterans_Memorial.jpg',
+        { url: 'img/aerial-view-of-korean-war-veterans-memorial-aa7d7711.jpg',
           cap: '19 座雕像的三角阵列俯瞰 · Carol M. Highsmith / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Korean_War_Veterans_Memorial_Without_Soldiers.jpg',
+        { url: 'img/korean-war-veterans-memorial-without-soldiers-c01f26c4.jpg',
           cap: '花岗岩壁与蚀刻面孔 · U.S. Navy / 公有领域' }
       ]
     },
@@ -482,11 +482,11 @@ module.exports = {
         '找 Kilroy 涂鸦时不要翻越或撬动铁门，它就在门后可视范围内'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Pacific_Arch_side_of_National_World_War_II_Memorial_20240601.jpg',
+        { url: 'img/pacific-arch-side-of-national-world-war-ii-memorial-20240601-3fc5ecb9.jpg',
           cap: 'Pacific 拱门一侧 · 颐园居 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9b/Atlantic_Arch_side_of_National_World_War_II_Memorial_20240601.jpg',
+        { url: 'img/atlantic-arch-side-of-national-world-war-ii-memorial-2024060-25f6081c.jpg',
           cap: 'Atlantic 拱门与立柱环 · 颐园居 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/World_War_II_Monument_and_Lincoln_Memorial.jpg',
+        { url: 'img/world-war-ii-monument-and-lincoln-memorial-82a11a4b.jpg',
           cap: '自纪念碑向西望 Lincoln Memorial · Kurt Kaiser / CC0' }
       ]
     },
@@ -596,11 +596,11 @@ module.exports = {
         '<strong>观景台没有可开启的窗</strong>，无法把镜头伸出去，也没有防眩光贴膜，反光是硬约束'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bf/Washington_Monument_at_sunrise_%2897797%29.jpg',
+        { url: 'img/washington-monument-at-sunrise-97797-2cca5972.jpg',
           cap: '日出时的方尖碑 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/Washington_Monument_evening.jpg',
+        { url: 'img/washington-monument-evening-f1c63e15.jpg',
           cap: '傍晚泛光下的碑体 · Daniel Schwen / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Washington_October_2016-6.jpg',
+        { url: 'img/washington-october-2016-6-c7994066.jpg',
           cap: '十月的方尖碑与旗阵 · Alvesgaspar / CC BY-SA 4.0' }
       ]
     },
@@ -697,11 +697,11 @@ module.exports = {
         'Tidal Basin 海堤翻新后步道抬高、边缘无护栏，<strong>夜间贴水面架三脚架要留意脚下</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bb/Martin_Luther_King%2C_Jr_Memorial%2C_Washington_D_C_%2843627795282%29.jpg',
+        { url: 'img/martin-luther-king-jr-memorial-washington-d-c-43627795282-f770a493.jpg',
           cap: 'Stone of Hope 正面 · CBP Photography / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/02/Martin_Luther_King%2C_Jr._Memorial_10_-_July_2012.JPG',
+        { url: 'img/martin-luther-king-jr-memorial-10-july-2012-41490fde.jpg',
           cap: '自 Mountain of Despair 裂口望向雕像 · Another Believer / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/08/The_Martin_Luther_King_Jr._Memorial_and_the_Lincoln_Memorial_During_the_Spring_in_Washington%2C_DC._%28c5e18b8e-1d80-4001-9e0e-416e0e24bdb8%29.jpg',
+        { url: 'img/the-martin-luther-king-jr-memorial-and-the-lincoln-memorial--16c1271a.jpg',
           cap: 'MLK 与 Lincoln Memorial 的轴线关系 · Rachel Hendrix / 公有领域' }
       ]
     },
@@ -808,11 +808,11 @@ module.exports = {
           '要拍夜景优先选靠 Tidal Basin 岸边的开阔段'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/FDR-Memorial-Waterfall-3.jpg',
+        { url: 'img/fdr-memorial-waterfall-3-394e2d86.jpg',
           cap: '第三室的乱流瀑布 · Carol M. Highsmith / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/FDR_Memorial_on_an_October_Afternoon.jpg',
+        { url: 'img/fdr-memorial-on-an-october-afternoon-b67df51f.jpg',
           cap: '十月午后的花岗岩墙动线 · Lauren Bradish / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/29/FDRMemorial.jpg',
+        { url: 'img/fdrmemorial-77de3616.jpg',
           cap: '罗斯福与 Fala 犬铜像 · Codera23 / CC BY-SA 4.0' }
       ]
     },
@@ -932,11 +932,11 @@ module.exports = {
           '这是殿内唯一有戏剧性的几分钟，值得专门等'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Jefferson_Memorial_Washington_April_2017_002.jpg',
+        { url: 'img/jefferson-memorial-washington-april-2017-002-6ee47be8.jpg',
           cap: '隔 Tidal Basin 望向圆顶 · King of Hearts / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/50/Jefferson_Memorial_as_Seen_From_Across_the_Tidal_Basin_-_Flickr_-_John_Brighenti.jpg',
+        { url: 'img/jefferson-memorial-as-seen-from-across-the-tidal-basin-flick-9a6dbd96.jpg',
           cap: '水面倒影与柱廊 · John Brighenti / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/13/Jefferson_Memorial_At_Dusk_1.jpg',
+        { url: 'img/jefferson-memorial-at-dusk-1-9758884f.jpg',
           cap: '蓝调时分的纪念堂 · Joe Ravi / CC BY-SA 3.0' }
       ]
     },
@@ -1040,11 +1040,11 @@ module.exports = {
           '现场执法尺度目前非常严'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Constitution_Gardens_Pond.jpg',
+        { url: 'img/constitution-gardens-pond-9e79e84b.jpg',
           cap: 'Constitution Gardens 池塘 · Mdy66 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Washington_Monument_from_Constitution_Gardens_at_sunrise.jpg',
+        { url: 'img/washington-monument-from-constitution-gardens-at-sunrise-6c38c1a5.jpg',
           cap: '自宪法花园望向方尖碑（日出） · Mdy66 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d4/Constitution_Gardens%2C_Washington_D.C.%2C_July_2017_01.jpg',
+        { url: 'img/constitution-gardens-washington-d-c-july-2017-01-7488b745.jpg',
           cap: '园区柳树与水岸 · MusikAnimal / CC BY-SA 4.0' }
       ]
     }
