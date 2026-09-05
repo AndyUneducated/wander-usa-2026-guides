@@ -273,6 +273,21 @@
     window.addEventListener('afterprint', function () {
       printRestore.forEach(function (p) { p[0].open = p[1]; });
     });
+
+    wrapWideTables();
+  }
+
+  /* 把还没套滚动容器的表格包进 .tbl-scroll。
+     子地区数据里的 callout 是研究员手写的 HTML，常常直接放裸 <table>，
+     在窄视口下会把整个文档撑宽、出现横向滚动条。这里统一兜底。 */
+  function wrapWideTables() {
+    document.querySelectorAll('table').forEach(function (t) {
+      if (t.closest('.tbl-scroll')) return;
+      var wrap = document.createElement('div');
+      wrap.className = 'tbl-scroll';
+      t.parentNode.insertBefore(wrap, t);
+      wrap.appendChild(t);
+    });
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', render);
