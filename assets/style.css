@@ -143,6 +143,8 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   border: 2px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,.5);
   font-size: 12px; font-weight: 700; color: #fff;
 }
+/* 不可抵达的点位仍显示编号（红底），加删除线区分 */
+.pin-gone { text-decoration: line-through; text-decoration-thickness: 2px; }
 
 /* ---------- 景点卡片 ---------- */
 .card {
@@ -193,6 +195,9 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .card.gone .card-num {
   background: rgba(255, 107, 107, .14); color: var(--red);
   border-color: rgba(255, 107, 107, .38);
+  /* 保留编号以便与地图针脚一一对应，用删除线表示不可抵达 */
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
 }
 .card.gone .card-title h3 { color: var(--red); }
 .card.gone .expand {

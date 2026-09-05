@@ -91,7 +91,10 @@
     /* details/summary：默认收起，点标题展开。打印时 CSS 会强制全部展开 */
     var h = '<details class="card' + (s.gone ? ' gone' : '') + '" id="' + esc(s.id) + '">';
     h += '<summary class="card-head">' +
-      '<div class="card-num">' + (s.gone ? '✕' : s.n) + '</div>' +
+      /* gone 的点位也保留编号：否则可见编号会出现空档，
+         且同一分区有多个 gone 时地图上会出现多个无法区分的标记。
+         「不可抵达」靠红色与删除线表达，见 style.css 的 .card.gone .card-num */
+      '<div class="card-num">' + s.n + '</div>' +
         '<div class="card-title"><h3>' + esc(s.en) +
         (s.name ? ' <span class="zh">' + esc(s.name) + '</span>' : '') + '</h3>' +
       (s.gone ? '<span class="gone-flag">' + esc(s.gone) + '</span>' : '') +
@@ -122,9 +125,16 @@
   /* ---------- 地图 ---------- */
   function buildMap(el, region) {
     var map = L.map(el, { scrollWheelZoom: false });
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
-      maxZoom: 19
+    /* 底图用 Esri Dark Gray Canvas：免密钥，且深色和本站配色一致。
+       原先用的 CARTO dark_all 已改为需要 API key，会返回「API KEY REQUIRED」水印图。
+       Dark Gray Base 不含地名，所以要再叠一层 Reference 做标注。 */
+    var ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/';
+    var ESRI_ATTR = 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ';
+    L.tileLayer(ESRI + 'World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+      attribution: ESRI_ATTR, maxZoom: 16
+    }).addTo(map);
+    L.tileLayer(ESRI + 'World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
+      maxZoom: 16, pane: 'shadowPane'
     }).addTo(map);
 
     var bounds = [];
@@ -134,8 +144,8 @@
       bounds.push(c);
       var icon = L.divIcon({
         className: '',
-        html: '<div class="pin" style="background:' + (s.gone ? '#ff6b6b' : (region.color || '#ff8a3d')) + '">' +
-          (s.gone ? '✕' : s.n) + '</div>',
+        html: '<div class="pin' + (s.gone ? ' pin-gone' : '') + '" style="background:' +
+          (s.gone ? '#ff6b6b' : (region.color || '#ff8a3d')) + '">' + s.n + '</div>',
         iconSize: [26, 26], iconAnchor: [13, 13]
       });
       L.marker(c, { icon: icon }).addTo(map).bindPopup(

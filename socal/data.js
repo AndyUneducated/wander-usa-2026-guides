@@ -95,9 +95,9 @@ var REGIONS = [
           '如果将来专程为穿孔日落再访，请安排在 <strong>12 月中至 1 月中</strong>，且需要低潮加晴朗天空同时满足'
         ],
         images: [
-          { url: 'assets/img/pfeiffer-beach-ii-19295487233-11703d13.jpg', cap: 'Pfeiffer 海滩礁岩与浪 · Wikimedia Commons / CC BY-SA 2.0' },
-          { url: 'assets/img/pfeiffer-beach-keyhole-arch-panoramio-055368a1.jpg', cap: 'Keyhole Arch 钥匙孔石拱 · panoramio / CC BY 3.0' },
-          { url: 'assets/img/pfeiffer-beach-at-dusk-unsplash-0c30b48f.jpg', cap: 'Pfeiffer Beach 暮色 · Unsplash / CC0' }
+          { url: 'img/pfeiffer-beach-ii-19295487233-11703d13.jpg', cap: 'Pfeiffer 海滩礁岩与浪 · Wikimedia Commons / CC BY-SA 2.0' },
+          { url: 'img/pfeiffer-beach-keyhole-arch-panoramio-055368a1.jpg', cap: 'Keyhole Arch 钥匙孔石拱 · panoramio / CC BY 3.0' },
+          { url: 'img/pfeiffer-beach-at-dusk-unsplash-0c30b48f.jpg', cap: 'Pfeiffer Beach 暮色 · Unsplash / CC0' }
         ]
       },
       {
@@ -136,9 +136,9 @@ var REGIONS = [
           '出发当天可复查 <a href="https://roads.dot.ca.gov/" target="_blank" rel="noopener">Caltrans 路况</a>，但按目前控制率（1%）预期解封的可能性很低'
         ],
         images: [
-          { url: 'assets/img/mcway-falls-1-unsplash-e88c60c2.jpg', cap: 'McWay 瀑布与海湾全景 · Unsplash / CC0' },
-          { url: 'assets/img/mcway-falls-big-sur-may-2011-001-cd67ff7a.jpg', cap: 'McWay Falls 竖构图 · Wikimedia Commons / CC BY-SA 3.0' },
-          { url: 'assets/img/2016-06-03-usa-ca-mcway-cove-dsc-8734-dxo-1-4a2ddc4d.jpg', cap: 'McWay Cove 海湾全景 · Wikimedia Commons / CC BY 4.0' }
+          { url: 'img/mcway-falls-1-unsplash-e88c60c2.jpg', cap: 'McWay 瀑布与海湾全景 · Unsplash / CC0' },
+          { url: 'img/mcway-falls-big-sur-may-2011-001-cd67ff7a.jpg', cap: 'McWay Falls 竖构图 · Wikimedia Commons / CC BY-SA 3.0' },
+          { url: 'img/2016-06-03-usa-ca-mcway-cove-dsc-8734-dxo-1-4a2ddc4d.jpg', cap: 'McWay Cove 海湾全景 · Wikimedia Commons / CC BY 4.0' }
         ]
       },
       {
@@ -182,9 +182,9 @@ var REGIONS = [
           '这三处的替代方案：<strong>Montaña de Oro</strong> 的岩石海岸与潮池题材最接近，且完全免费、烟雾影响小'
         ],
         images: [
-          { url: 'assets/img/jade-cove-big-sur-california-cdb74d17.jpg', cap: 'Jade Cove 翡翠湾 · Wikimedia Commons / CC BY 2.0' },
-          { url: 'assets/img/route-1-big-sur-coast-highway-sand-dollar-picnic-area-and-be-88755fd4.jpg', cap: 'Sand Dollar 海滩与 Hwy 1 · NARA / Public domain' },
-          { url: 'assets/img/willow-creek-road-big-sur-25785902100-5d230abd.jpg', cap: 'Willow Creek 与 Hwy 1 桥 · Wikimedia Commons / CC BY-SA 2.0' }
+          { url: 'img/jade-cove-big-sur-california-cdb74d17.jpg', cap: 'Jade Cove 翡翠湾 · Wikimedia Commons / CC BY 2.0' },
+          { url: 'img/route-1-big-sur-coast-highway-sand-dollar-picnic-area-and-be-88755fd4.jpg', cap: 'Sand Dollar 海滩与 Hwy 1 · NARA / Public domain' },
+          { url: 'img/willow-creek-road-big-sur-25785902100-5d230abd.jpg', cap: 'Willow Creek 与 Hwy 1 桥 · Wikimedia Commons / CC BY-SA 2.0' }
         ]
       },
       {
@@ -245,9 +245,9 @@ var REGIONS = [
           '崖上有餐厅、酒吧、espresso bar、冰淇淋店与礼品店，拍完可就地补给'
         ],
         images: [
-          { url: 'assets/img/ragged-point-from-ragged-point-inn-7339d0a7.jpg', cap: 'Ragged Point Inn 崖上南望 Big Sur 海岸 · ECTran71 / CC BY-SA 4.0' },
-          { url: 'assets/img/ragged-point-8005a4f0.jpg', cap: '南望 SLO 海岸线，平坦沙滩为 San Carpoforo Creek 口 · Eric Polk / CC BY-SA 4.0' },
-          { url: 'assets/img/ragged-point-seals-1-211a17f6.jpg', cap: 'Ragged Point 海豹 · CC BY-SA 4.0' }
+          { url: 'img/ragged-point-from-ragged-point-inn-7339d0a7.jpg', cap: 'Ragged Point Inn 崖上南望 Big Sur 海岸 · ECTran71 / CC BY-SA 4.0' },
+          { url: 'img/ragged-point-8005a4f0.jpg', cap: '南望 SLO 海岸线，平坦沙滩为 San Carpoforo Creek 口 · Eric Polk / CC BY-SA 4.0' },
+          { url: 'img/ragged-point-seals-1-211a17f6.jpg', cap: 'Ragged Point 海豹 · CC BY-SA 4.0' }
         ]
       },
       {
@@ -304,8 +304,8 @@ var REGIONS = [
           'Plaskett Fire 正向东烧入 Fort Hunter Liggett，Paso Robles 在其东南方向，需留意空气质量'
         ],
         images: [
-          { url: 'assets/img/daou-winery-view-paso-robles-e2a92da7.jpg', cap: 'DAOU 露台视角俯瞰葡萄园 · SD Dirk / CC BY 2.0' },
-          { url: 'assets/img/daou-vineyards-paso-robles-california-usa-feb-2012-0be8a8bf.jpg', cap: 'DAOU 葡萄园宽幅全景 · SD Dirk / CC BY 2.0' }
+          { url: 'img/daou-winery-view-paso-robles-e2a92da7.jpg', cap: 'DAOU 露台视角俯瞰葡萄园 · SD Dirk / CC BY 2.0' },
+          { url: 'img/daou-vineyards-paso-robles-california-usa-feb-2012-0be8a8bf.jpg', cap: 'DAOU 葡萄园宽幅全景 · SD Dirk / CC BY 2.0' }
         ]
       },
       {
@@ -364,9 +364,9 @@ var REGIONS = [
           '上午常有浓雾，若要清透深蓝海水请等下午'
         ],
         images: [
-          { url: 'assets/img/cambria-ca-15-743fc60f.jpg', cap: 'Moonstone Beach 海岸 · Stilfehler / CC BY-SA 4.0' },
-          { url: 'assets/img/cambria-ca-17-2b3bcb1c.jpg', cap: 'Moonstone Beach 栈道与礁岩 · Stilfehler / CC BY-SA 4.0' },
-          { url: 'assets/img/cambria-ca-23-f183f098.jpg', cap: 'Moonstone Beach 海岸线 · Stilfehler / CC BY-SA 4.0' }
+          { url: 'img/cambria-ca-15-743fc60f.jpg', cap: 'Moonstone Beach 海岸 · Stilfehler / CC BY-SA 4.0' },
+          { url: 'img/cambria-ca-17-2b3bcb1c.jpg', cap: 'Moonstone Beach 栈道与礁岩 · Stilfehler / CC BY-SA 4.0' },
+          { url: 'img/cambria-ca-23-f183f098.jpg', cap: 'Moonstone Beach 海岸线 · Stilfehler / CC BY-SA 4.0' }
         ]
       },
       {
@@ -425,8 +425,8 @@ var REGIONS = [
           'Wikimedia Commons 上没有这个地点的照片。搜到的同名图片是印度 Tamil Nadu 的 Kodaikanal 同名景点，与此无关'
         ],
         images: [
-          { url: 'assets/img/beautiful-scenes-along-route-46-in-california-lccn2013632166-10394e50.jpg', cap: 'CA-46 沿线金色丘陵与海雾 · Carol M. Highsmith / 公有领域' },
-          { url: 'assets/img/beautiful-scenes-along-route-46-in-california-lccn2013632565-52c3c1fd.jpg', cap: '海雾翻越山脊，丘陵层次分明 · Carol M. Highsmith / 公有领域' }
+          { url: 'img/beautiful-scenes-along-route-46-in-california-lccn2013632166-10394e50.jpg', cap: 'CA-46 沿线金色丘陵与海雾 · Carol M. Highsmith / 公有领域' },
+          { url: 'img/beautiful-scenes-along-route-46-in-california-lccn2013632565-52c3c1fd.jpg', cap: '海雾翻越山脊，丘陵层次分明 · Carol M. Highsmith / 公有领域' }
         ]
       },
       {
@@ -494,9 +494,9 @@ var REGIONS = [
           '狗仅限营地、车行道与 Spooner\u2019s Cove 沙滩（需牵引绳），所有步道禁止'
         ],
         images: [
-          { url: 'assets/img/spooners-cove-mdosp-e85eed66.jpg', cap: 'Spooner\u2019s Cove 南望全景 · Eric Polk / CC BY-SA 4.0' },
-          { url: 'assets/img/cliffs-at-montana-de-oro-state-park-panoramio-35f330ab.jpg', cap: '崖顶机位实景 · hakkun / CC BY-SA 3.0' },
-          { url: 'assets/img/montana-de-oro-state-park-bluff-trail-4-142c2d5a.jpg', cap: 'Bluff Trail 俯瞰 Spooner\u2019s Cove · Stilfehler / CC BY-SA 4.0' }
+          { url: 'img/spooners-cove-mdosp-e85eed66.jpg', cap: 'Spooner\u2019s Cove 南望全景 · Eric Polk / CC BY-SA 4.0' },
+          { url: 'img/cliffs-at-montana-de-oro-state-park-panoramio-35f330ab.jpg', cap: '崖顶机位实景 · hakkun / CC BY-SA 3.0' },
+          { url: 'img/montana-de-oro-state-park-bluff-trail-4-142c2d5a.jpg', cap: 'Bluff Trail 俯瞰 Spooner\u2019s Cove · Stilfehler / CC BY-SA 4.0' }
         ]
       },
       {
@@ -555,9 +555,9 @@ var REGIONS = [
           '<strong>距火场约 100 英里，烟雾影响最小——这是本次行程的空气质量最优区</strong>'
         ],
         images: [
-          { url: 'assets/img/dunes-oceano-1936-by-edward-weston-27f1f153.jpg', cap: 'Dunes, Oceano, 1936 · Edward Weston / 公有领域' },
-          { url: 'assets/img/pismo-beach-pier-north-view-20110805-1-0e397f05.jpg', cap: 'Pismo Beach Pier 日落，即机位 B · DXR / CC BY-SA 4.0' },
-          { url: 'assets/img/view-of-the-guadalupe-nipomo-dunes-from-oceano-3a2d6cb5.jpg', cap: '从 Oceano 俯瞰沙丘复合体北端 · Engl145 / 公有领域' }
+          { url: 'img/dunes-oceano-1936-by-edward-weston-27f1f153.jpg', cap: 'Dunes, Oceano, 1936 · Edward Weston / 公有领域' },
+          { url: 'img/pismo-beach-pier-north-view-20110805-1-0e397f05.jpg', cap: 'Pismo Beach Pier 日落，即机位 B · DXR / CC BY-SA 4.0' },
+          { url: 'img/view-of-the-guadalupe-nipomo-dunes-from-oceano-3a2d6cb5.jpg', cap: '从 Oceano 俯瞰沙丘复合体北端 · Engl145 / 公有领域' }
         ]
       },
       {
@@ -619,9 +619,9 @@ var REGIONS = [
           '<strong>距火场远，烟雾影响小</strong>——北边烟大时这里是替代方案'
         ],
         images: [
-          { url: 'assets/img/guadalupe-nipomo-dunes-nwr-sunset-11519903986-7521feb1.jpg', cap: '沙丘日落（本题材标杆之作）· Ian Shive / USFWS / 公有领域' },
-          { url: 'assets/img/guadalupe-dunes-county-park-beach-c782aa27.jpg', cap: 'Rancho Guadalupe 沙滩，即主机位 · Adbar / CC BY-SA 3.0' },
-          { url: 'assets/img/us-ca-mussel-rock-guadalupe-beach-b8338eb4.jpg', cap: '南端 Mussel Rock 回望视角 · Kevin P. Rice / CC BY-SA 3.0' }
+          { url: 'img/guadalupe-nipomo-dunes-nwr-sunset-11519903986-7521feb1.jpg', cap: '沙丘日落（本题材标杆之作）· Ian Shive / USFWS / 公有领域' },
+          { url: 'img/guadalupe-dunes-county-park-beach-c782aa27.jpg', cap: 'Rancho Guadalupe 沙滩，即主机位 · Adbar / CC BY-SA 3.0' },
+          { url: 'img/us-ca-mussel-rock-guadalupe-beach-b8338eb4.jpg', cap: '南端 Mussel Rock 回望视角 · Kevin P. Rice / CC BY-SA 3.0' }
         ]
       }
     ]
@@ -721,9 +721,9 @@ var REGIONS = [
         },
         notes: ['建议停留 1–2 小时'],
         images: [
-          { url: 'assets/img/facade-mission-santa-barbara-laguna-street-santa-barbara-ca--2e4d674f.jpg', cap: 'Old Mission 正立面 · Warren LeMay / CC BY-SA 2.0' },
-          { url: 'assets/img/mission-santa-barbara01-7ce6d357.jpg', cap: 'Mission Santa Barbara 双钟塔 · Bernard Gagnon / CC BY-SA 3.0' },
-          { url: 'assets/img/mission-santa-barbara-laguna-street-santa-barbara-ca-5392916-59c2993e.jpg', cap: 'Mission 与前方草坪 · Warren LeMay / CC BY-SA 2.0' }
+          { url: 'img/facade-mission-santa-barbara-laguna-street-santa-barbara-ca--2e4d674f.jpg', cap: 'Old Mission 正立面 · Warren LeMay / CC BY-SA 2.0' },
+          { url: 'img/mission-santa-barbara01-7ce6d357.jpg', cap: 'Mission Santa Barbara 双钟塔 · Bernard Gagnon / CC BY-SA 3.0' },
+          { url: 'img/mission-santa-barbara-laguna-street-santa-barbara-ca-5392916-59c2993e.jpg', cap: 'Mission 与前方草坪 · Warren LeMay / CC BY-SA 2.0' }
         ]
       },
       {
@@ -775,9 +775,9 @@ var REGIONS = [
           '免费导览：周一至周五 10:30、每日 14:00，Mural Room 集合，约 1 小时，无需预约'
         ],
         images: [
-          { url: 'assets/img/2014-04-11-santa-barbara-county-courthouse-2-26dd9ac0.jpg', cap: 'Santa Barbara County Courthouse · Gunnar Klack / CC BY-SA 4.0' },
-          { url: 'assets/img/santa-barbara-courthouse-tower-view-af7f8517.jpg', cap: '塔顶俯瞰视角 · Photopippo / CC BY-SA 3.0' },
-          { url: 'assets/img/santa-barbara-county-courthouse-7fd7dc5b.jpg', cap: '法院大楼全貌 · Konrad Summers / CC BY-SA 2.0' }
+          { url: 'img/2014-04-11-santa-barbara-county-courthouse-2-26dd9ac0.jpg', cap: 'Santa Barbara County Courthouse · Gunnar Klack / CC BY-SA 4.0' },
+          { url: 'img/santa-barbara-courthouse-tower-view-af7f8517.jpg', cap: '塔顶俯瞰视角 · Photopippo / CC BY-SA 3.0' },
+          { url: 'img/santa-barbara-county-courthouse-7fd7dc5b.jpg', cap: '法院大楼全貌 · Konrad Summers / CC BY-SA 2.0' }
         ]
       },
       {
@@ -824,9 +824,9 @@ var REGIONS = [
         },
         notes: ['Butterfly Beach 无救生员、禁篝火、禁犬'],
         images: [
-          { url: 'assets/img/bright-white-sunset-at-butterfly-beach-montecito-california--b9e1b24d.jpg', cap: 'Butterfly Beach 日落 · Damian Gadal / CC BY 2.0' },
-          { url: 'assets/img/stearns-wharf-don-ramey-logan-eedd0098.jpg', cap: 'Stearns Wharf · Don Ramey Logan / CC BY-SA 3.0' },
-          { url: 'assets/img/beach-and-stearns-wharf-brewbooks-c5795555.jpg', cap: '海滩与 Stearns Wharf 宽幅 · brewbooks / CC BY-SA 2.0' }
+          { url: 'img/bright-white-sunset-at-butterfly-beach-montecito-california--b9e1b24d.jpg', cap: 'Butterfly Beach 日落 · Damian Gadal / CC BY 2.0' },
+          { url: 'img/stearns-wharf-don-ramey-logan-eedd0098.jpg', cap: 'Stearns Wharf · Don Ramey Logan / CC BY-SA 3.0' },
+          { url: 'img/beach-and-stearns-wharf-brewbooks-c5795555.jpg', cap: '海滩与 Stearns Wharf 宽幅 · brewbooks / CC BY-SA 2.0' }
         ]
       },
       {
@@ -878,9 +878,9 @@ var REGIONS = [
           '海风常年强劲，三脚架需压重。周中上午人最少'
         ],
         images: [
-          { url: 'assets/img/mugu-rock-on-california-route-1-c067fb28.jpg', cap: 'Mugu Rock 与 PCH · Tim Pearce / CC BY 2.0' },
-          { url: 'assets/img/point-mugu-september-2013-panorama-5ea4de81.jpg', cap: 'Point Mugu 超宽幅全景 · King of Hearts / CC BY-SA 3.0' },
-          { url: 'assets/img/point-mugu-september-2013-002-ec07fd88.jpg', cap: 'Point Mugu 海岸 · King of Hearts / CC BY-SA 3.0' }
+          { url: 'img/mugu-rock-on-california-route-1-c067fb28.jpg', cap: 'Mugu Rock 与 PCH · Tim Pearce / CC BY 2.0' },
+          { url: 'img/point-mugu-september-2013-panorama-5ea4de81.jpg', cap: 'Point Mugu 超宽幅全景 · King of Hearts / CC BY-SA 3.0' },
+          { url: 'img/point-mugu-september-2013-002-ec07fd88.jpg', cap: 'Point Mugu 海岸 · King of Hearts / CC BY-SA 3.0' }
         ]
       },
       {
@@ -943,9 +943,9 @@ var REGIONS = [
           '超过 11×17×8 英寸的背包需寄存。建议游览时长 2–3 小时'
         ],
         images: [
-          { url: 'assets/img/getty-villa-outer-peristyle-garden-pacific-palisades-c0a6c8c0.jpg', cap: '外柱廊花园全景，即招牌机位 · Dale Cruse / CC BY 4.0' },
-          { url: 'assets/img/getty-villa-outer-peristyle-colonnade-pacific-palisades-los--fa25f548.jpg', cap: '柱廊内侧竖构图 · Dale Cruse / CC BY 4.0' },
-          { url: 'assets/img/060807-002-gettyvilla001-ce83e354.jpg', cap: 'Getty Villa 建筑 · Bobak Ha\u2019Eri / CC BY 3.0' }
+          { url: 'img/getty-villa-outer-peristyle-garden-pacific-palisades-c0a6c8c0.jpg', cap: '外柱廊花园全景，即招牌机位 · Dale Cruse / CC BY 4.0' },
+          { url: 'img/getty-villa-outer-peristyle-colonnade-pacific-palisades-los--fa25f548.jpg', cap: '柱廊内侧竖构图 · Dale Cruse / CC BY 4.0' },
+          { url: 'img/060807-002-gettyvilla001-ce83e354.jpg', cap: 'Getty Villa 建筑 · Bobak Ha\u2019Eri / CC BY 3.0' }
         ]
       },
       {
@@ -1002,9 +1002,9 @@ var REGIONS = [
           '不适合婴儿车与行动不便者。三脚架允许，但注意涌浪与流沙'
         ],
         images: [
-          { url: 'assets/img/el-matador-state-beach-malibu-unsplash-b1cf1a96.jpg', cap: 'El Matador 海蚀柱 · Joseph Yates / CC0' },
-          { url: 'assets/img/el-matador-beach-malibu-a6226328.jpg', cap: 'El Matador 海滩 · Graham / CC BY 2.0' },
-          { url: 'assets/img/el-matador-state-beach-rushing-tides-35173442584-139a4f3d.jpg', cap: 'El Matador 涌浪 · Santa Monica Mountains NRA / 公有领域' }
+          { url: 'img/el-matador-state-beach-malibu-unsplash-b1cf1a96.jpg', cap: 'El Matador 海蚀柱 · Joseph Yates / CC0' },
+          { url: 'img/el-matador-beach-malibu-a6226328.jpg', cap: 'El Matador 海滩 · Graham / CC BY 2.0' },
+          { url: 'img/el-matador-state-beach-rushing-tides-35173442584-139a4f3d.jpg', cap: 'El Matador 涌浪 · Santa Monica Mountains NRA / 公有领域' }
         ]
       },
       {
@@ -1054,9 +1054,9 @@ var REGIONS = [
           '夏季海滩执法队运行至劳工节，海滩禁酒执法严格'
         ],
         images: [
-          { url: 'assets/img/the-malibu-pier-from-surfrider-beach-panoramio-6714a11e.jpg', cap: '从 Surfrider 沙滩拍栈桥，即主机位 · Darin R. McClure / CC BY 3.0' },
-          { url: 'assets/img/malibu-pier-dfc772e5.jpg', cap: 'Malibu Pier 与白色塔楼 · Levi Clancy / CC BY-SA 4.0' },
-          { url: 'assets/img/malibu-pier-with-waves-crashing-03-d8c86f0b.jpg', cap: 'Malibu Pier 涌浪 · Levi Clancy / CC BY-SA 4.0' }
+          { url: 'img/the-malibu-pier-from-surfrider-beach-panoramio-6714a11e.jpg', cap: '从 Surfrider 沙滩拍栈桥，即主机位 · Darin R. McClure / CC BY 3.0' },
+          { url: 'img/malibu-pier-dfc772e5.jpg', cap: 'Malibu Pier 与白色塔楼 · Levi Clancy / CC BY-SA 4.0' },
+          { url: 'img/malibu-pier-with-waves-crashing-03-d8c86f0b.jpg', cap: 'Malibu Pier 涌浪 · Levi Clancy / CC BY-SA 4.0' }
         ]
       },
       {
@@ -1112,9 +1112,9 @@ var REGIONS = [
           '若改去 Zuma Beach，注意 Westward Beach Road 与 Zuma 主入口之间的 <strong>Zuma Creek 涌水路口曾于 2026 年 6 月 11 日因高浪漫溢而封闭</strong>，出发前可致电 City of Malibu（310-456-2489）确认已恢复'
         ],
         images: [
-          { url: 'assets/img/point-dume-from-zuma-beach-932994ed.jpg', cap: '从 Zuma Beach 远眺 Point Dume，即推荐的替代机位 · OMCV / 公有领域' },
-          { url: 'assets/img/point-dume-beach-51985228879-077fc2ad.jpg', cap: 'Point Dume 海滩 · Santa Monica Mountains NRA / 公有领域' },
-          { url: 'assets/img/point-dume-state-beach-01-07c1a6f9.jpg', cap: 'Point Dume 崖顶视角 · Michael Benatar / CC BY 2.0' }
+          { url: 'img/point-dume-from-zuma-beach-932994ed.jpg', cap: '从 Zuma Beach 远眺 Point Dume，即推荐的替代机位 · OMCV / 公有领域' },
+          { url: 'img/point-dume-beach-51985228879-077fc2ad.jpg', cap: 'Point Dume 海滩 · Santa Monica Mountains NRA / 公有领域' },
+          { url: 'img/point-dume-state-beach-01-07c1a6f9.jpg', cap: 'Point Dume 崖顶视角 · Michael Benatar / CC BY 2.0' }
         ]
       }
     ]
@@ -1224,9 +1224,9 @@ var REGIONS = [
           '山上手机信号差，返程叫车困难，建议下撤到 Barham Blvd 再叫车'
         ],
         images: [
-          { url: 'assets/img/wisdom-tree-los-angeles-united-states-unsplash-157645ea.jpg', cap: 'Wisdom Tree 孤松 · Andre Benz / CC0' },
-          { url: 'assets/img/panorama-of-los-angeles-from-burbank-peak-e7bf284b.jpg', cap: '自 Burbank Peak 俯瞰洛杉矶全景 · Downtowngal / CC BY-SA 3.0' },
-          { url: 'assets/img/mount-lee-from-burbank-peak-cc299f9c.jpg', cap: '自 Burbank Peak 望 Mount Lee 与 Sign · Downtowngal / CC BY-SA 3.0' }
+          { url: 'img/wisdom-tree-los-angeles-united-states-unsplash-157645ea.jpg', cap: 'Wisdom Tree 孤松 · Andre Benz / CC0' },
+          { url: 'img/panorama-of-los-angeles-from-burbank-peak-e7bf284b.jpg', cap: '自 Burbank Peak 俯瞰洛杉矶全景 · Downtowngal / CC BY-SA 3.0' },
+          { url: 'img/mount-lee-from-burbank-peak-cc299f9c.jpg', cap: '自 Burbank Peak 望 Mount Lee 与 Sign · Downtowngal / CC BY-SA 3.0' }
         ]
       },
       {
@@ -1284,9 +1284,9 @@ var REGIONS = [
           '无饮用水补给点，九月山脊午后地表温度显著高于海边，建议 08:00 前起步。步道有响尾蛇，勿穿凉鞋'
         ],
         images: [
-          { url: 'assets/img/hollywood-sign-from-park-on-canyon-lake-drive-panoramio-798da69b.jpg', cap: '自 Lake Hollywood Park 拍正面全字母 · Russell Lovrin / CC BY 3.0' },
-          { url: 'assets/img/hollywood-sign-zuschnitt-1081a785.jpg', cap: 'Hollywood Sign 正面特写 · Thomas Wolf / CC BY-SA 3.0' },
-          { url: 'assets/img/view-from-behind-hollywood-sign-overlooking-la-e850500e.jpg', cap: '自 Mount Lee 山顶望字母背面与全城 · Michael E. Arth / CC BY-SA 4.0' }
+          { url: 'img/hollywood-sign-from-park-on-canyon-lake-drive-panoramio-798da69b.jpg', cap: '自 Lake Hollywood Park 拍正面全字母 · Russell Lovrin / CC BY 3.0' },
+          { url: 'img/hollywood-sign-zuschnitt-1081a785.jpg', cap: 'Hollywood Sign 正面特写 · Thomas Wolf / CC BY-SA 3.0' },
+          { url: 'img/view-from-behind-hollywood-sign-overlooking-la-e850500e.jpg', cap: '自 Mount Lee 山顶望字母背面与全城 · Michael E. Arth / CC BY-SA 4.0' }
         ]
       },
       {
@@ -1347,9 +1347,9 @@ var REGIONS = [
           '园区大门 22:00 关闭，若约车接送务必让司机 22:00 前进园'
         ],
         images: [
-          { url: 'assets/img/griffith-observatory-facade-8b9a45ab.jpg', cap: 'Griffith Observatory 立面 · APickleForTheKnowingOnes / CC0' },
-          { url: 'assets/img/view-from-the-balcony-at-griffith-observatory-on-the-hollywo-2648a267.jpg', cap: '自西露台望 Hollywood Sign 与 Mount Lee · Steveshelokhonov / CC BY-SA 4.0' },
-          { url: 'assets/img/griffith-observatory-2012-01-b6efc40f.jpg', cap: 'Griffith Observatory 全景 · Mike Peel / CC BY-SA 4.0' }
+          { url: 'img/griffith-observatory-facade-8b9a45ab.jpg', cap: 'Griffith Observatory 立面 · APickleForTheKnowingOnes / CC0' },
+          { url: 'img/view-from-the-balcony-at-griffith-observatory-on-the-hollywo-2648a267.jpg', cap: '自西露台望 Hollywood Sign 与 Mount Lee · Steveshelokhonov / CC BY-SA 4.0' },
+          { url: 'img/griffith-observatory-2012-01-b6efc40f.jpg', cap: 'Griffith Observatory 全景 · Mike Peel / CC BY-SA 4.0' }
         ]
       },
       {
@@ -1401,8 +1401,8 @@ var REGIONS = [
           '任务清单中的「Autry Overlook」经核实<strong>不在 Griffith Park</strong>，而在 Studio City 的 Mulholland Dr 上（8601 号），朝北、<strong>完全看不到 Hollywood Sign</strong>，两者相距约 10 公里。其性价比低，建议直接跳过'
         ],
         images: [
-          { url: 'assets/img/the-hollywood-sign-panoramio-2d4f9349.jpg', cap: '自 Mulholland 观景台方向拍 Hollywood Sign · Alistair Cunningham / CC BY 3.0' },
-          { url: 'assets/img/los-angeles-i-i-27921358776-841c0bea.jpg', cap: 'Mulholland 沿线超宽幅全景 · Sergei Gussev / CC BY 2.0' }
+          { url: 'img/the-hollywood-sign-panoramio-2d4f9349.jpg', cap: '自 Mulholland 观景台方向拍 Hollywood Sign · Alistair Cunningham / CC BY 3.0' },
+          { url: 'img/los-angeles-i-i-27921358776-841c0bea.jpg', cap: 'Mulholland 沿线超宽幅全景 · Sergei Gussev / CC BY 2.0' }
         ]
       },
       {
@@ -1461,9 +1461,9 @@ var REGIONS = [
           'Labor Day 长周末会非常拥挤，且 I-405 通往 Getty 的路段尤其堵。9/5 周六 15:00 后入场既省停车费又能等到人潮散去（多数人 18:00 后离开）'
         ],
         images: [
-          { url: 'assets/img/getty-center-architecture-unsplash-165b85e0.jpg', cap: 'Getty Center 白色几何建筑 · Armando Castillejos / CC0' },
-          { url: 'assets/img/los-angeles-from-the-getty-center-5465683022-2bec4c14.jpg', cap: '自 Getty Center 俯瞰洛杉矶 · KimonBerlin / CC BY-SA 2.0' },
-          { url: 'assets/img/architectural-detail-the-getty-center-los-angeles-california-0142c4b2.jpg', cap: '石灰华与几何细部 · Adam Jones / CC BY-SA 2.0' }
+          { url: 'img/getty-center-architecture-unsplash-165b85e0.jpg', cap: 'Getty Center 白色几何建筑 · Armando Castillejos / CC0' },
+          { url: 'img/los-angeles-from-the-getty-center-5465683022-2bec4c14.jpg', cap: '自 Getty Center 俯瞰洛杉矶 · KimonBerlin / CC BY-SA 2.0' },
+          { url: 'img/architectural-detail-the-getty-center-los-angeles-california-0142c4b2.jpg', cap: '石灰华与几何细部 · Adam Jones / CC BY-SA 2.0' }
         ]
       },
       {
@@ -1515,9 +1515,9 @@ var REGIONS = [
           'Beverly Hills 是本区最安全的区域，但该市也有砸车抢夺案件，<strong>车内不要留器材</strong>'
         ],
         images: [
-          { url: 'assets/img/written-beverly-hills-in-beverly-gardens-park-a0bf4095.jpg', cap: 'Beverly Hills 招牌与睡莲池 · Andrek02 / CC0' },
-          { url: 'assets/img/via-rodeo-drive-3ccf06d3.jpg', cap: 'Via Rodeo 鹅卵石斜坡 · Prayitno / CC BY 2.0' },
-          { url: 'assets/img/rodeo-drive-california-ba14fce5.jpg', cap: 'Rodeo Drive 棕榈大道街景 · Prayitno / CC BY 2.0' }
+          { url: 'img/written-beverly-hills-in-beverly-gardens-park-a0bf4095.jpg', cap: 'Beverly Hills 招牌与睡莲池 · Andrek02 / CC0' },
+          { url: 'img/via-rodeo-drive-3ccf06d3.jpg', cap: 'Via Rodeo 鹅卵石斜坡 · Prayitno / CC BY 2.0' },
+          { url: 'img/rodeo-drive-california-ba14fce5.jpg', cap: 'Rodeo Drive 棕榈大道街景 · Prayitno / CC BY 2.0' }
         ]
       },
       {
@@ -1573,9 +1573,9 @@ var REGIONS = [
           'Wikimedia Commons 上 Urban Light 的可用高清照片极少，且<strong>没有 Geffen Galleries 建成后的照片</strong>。原因是美国对公共场所艺术作品不适用「全景自由」，Commons 会删除大量此类照片'
         ],
         images: [
-          { url: 'assets/img/she-is-enchanted-within-urban-lights-in-explore-may-31-22-fl-b38e39fb.jpg', cap: 'Urban Light 灯阵夜间人像 · Joey Zanotti / CC BY 2.0' },
-          { url: 'assets/img/levitated-mass-at-lacma-01-674f8aa0.jpg', cap: 'Levitated Mass 悬石与下沉通道 · Leviclancy / CC0' },
-          { url: 'assets/img/broad-contemporary-art-museum-entrance-july-2023-95d4a1c4.jpg', cap: 'BCAM 入口（Renzo Piano）· Benoît Prieur / CC0' }
+          { url: 'img/she-is-enchanted-within-urban-lights-in-explore-may-31-22-fl-b38e39fb.jpg', cap: 'Urban Light 灯阵夜间人像 · Joey Zanotti / CC BY 2.0' },
+          { url: 'img/levitated-mass-at-lacma-01-674f8aa0.jpg', cap: 'Levitated Mass 悬石与下沉通道 · Leviclancy / CC0' },
+          { url: 'img/broad-contemporary-art-museum-entrance-july-2023-95d4a1c4.jpg', cap: 'BCAM 入口（Renzo Piano）· Benoît Prieur / CC0' }
         ]
       },
       {
@@ -1625,8 +1625,8 @@ var REGIONS = [
           '公园紧邻 Edward R. Roybal Learning Center 中学，上下学时段学生密集，拍人像注意避免误拍未成年人'
         ],
         images: [
-          { url: 'assets/img/2013-vista-hermosa-natural-park-panoramio-d5f12b62.jpg', cap: 'Vista Hermosa 草甸与 Downtown 天际线 · Chris English / CC BY-SA 3.0' },
-          { url: 'assets/img/vista-hermosa-natural-park-2008-ff2c895f.jpg', cap: '公园原生植被与步道 · Laurie Avocado / CC BY 2.0' }
+          { url: 'img/2013-vista-hermosa-natural-park-panoramio-d5f12b62.jpg', cap: 'Vista Hermosa 草甸与 Downtown 天际线 · Chris English / CC BY-SA 3.0' },
+          { url: 'img/vista-hermosa-natural-park-2008-ff2c895f.jpg', cap: '公园原生植被与步道 · Laurie Avocado / CC BY 2.0' }
         ]
       },
       {
@@ -1682,9 +1682,9 @@ var REGIONS = [
           '<strong>Bunker Hill 夜间人流稀少</strong>，独自在 2nd St 或 Lower Grand 一带带器材拍夜景需注意安全，建议结伴'
         ],
         images: [
-          { url: 'assets/img/disney-concert-hall-unsplash-3c996187.jpg', cap: 'Disney Concert Hall 不锈钢曲面 · Brandon Smith / CC0' },
-          { url: 'assets/img/disney-concert-hall-10920404614-d4442fd4.jpg', cap: 'Gehry 钢帆的抽象曲面 · Daniel Hartwig / CC BY 2.0' },
-          { url: 'assets/img/view-of-walt-disney-concert-hall-from-la-city-hall-4a407628.jpg', cap: '自市政厅俯瞰音乐厅 · Levi Clancy / CC BY-SA 4.0' }
+          { url: 'img/disney-concert-hall-unsplash-3c996187.jpg', cap: 'Disney Concert Hall 不锈钢曲面 · Brandon Smith / CC0' },
+          { url: 'img/disney-concert-hall-10920404614-d4442fd4.jpg', cap: 'Gehry 钢帆的抽象曲面 · Daniel Hartwig / CC BY 2.0' },
+          { url: 'img/view-of-walt-disney-concert-hall-from-la-city-hall-4a407628.jpg', cap: '自市政厅俯瞰音乐厅 · Levi Clancy / CC BY-SA 4.0' }
         ]
       },
       {
@@ -1736,9 +1736,9 @@ var REGIONS = [
           '这一区靠近 Skid Row 边缘，白天有 Grand Central Market 人流相对安全，<strong>日落后不建议携带显眼器材独行</strong>'
         ],
         images: [
-          { url: 'assets/img/interior-of-the-bradbury-building-dllu-4cebcaf3.jpg', cap: 'Bradbury Building 天窗中庭 · Daniel L. Lu / CC BY-SA 4.0' },
-          { url: 'assets/img/bradbury-building-lobby-798f0c6c.jpg', cap: '大堂与铸铁栏杆 · Visitor7 / CC BY-SA 3.0' },
-          { url: 'assets/img/bradbury-building-3-9a329c1c.jpg', cap: '笼形电梯与大理石楼梯 · Visitor7 / CC BY-SA 3.0' }
+          { url: 'img/interior-of-the-bradbury-building-dllu-4cebcaf3.jpg', cap: 'Bradbury Building 天窗中庭 · Daniel L. Lu / CC BY-SA 4.0' },
+          { url: 'img/bradbury-building-lobby-798f0c6c.jpg', cap: '大堂与铸铁栏杆 · Visitor7 / CC BY-SA 3.0' },
+          { url: 'img/bradbury-building-3-9a329c1c.jpg', cap: '笼形电梯与大理石楼梯 · Visitor7 / CC BY-SA 3.0' }
         ]
       },
       {
@@ -1791,9 +1791,9 @@ var REGIONS = [
           '桥下的 12 英亩 Sixth Street PARC 公园预计今年晚些时候开放，届时会增加通往地面的楼梯，但 9 月是否已开放未能确认'
         ],
         images: [
-          { url: 'assets/img/6th-street-bridge-los-angeles-sunscape-1-0070afa6.jpg', cap: '第六街高架桥日落 · Downtowngal / CC BY-SA 4.0' },
-          { url: 'assets/img/los-angeles-6th-street-bridge-961f6a14.jpg', cap: '拱肋序列 · Rcmrtnz96 / CC BY-SA 4.0' },
-          { url: 'assets/img/6th-street-bridge-los-angeles-sunscape-2-583d4b25.jpg', cap: '桥体全景宽幅 · Downtowngal / CC BY-SA 4.0' }
+          { url: 'img/6th-street-bridge-los-angeles-sunscape-1-0070afa6.jpg', cap: '第六街高架桥日落 · Downtowngal / CC BY-SA 4.0' },
+          { url: 'img/los-angeles-6th-street-bridge-961f6a14.jpg', cap: '拱肋序列 · Rcmrtnz96 / CC BY-SA 4.0' },
+          { url: 'img/6th-street-bridge-los-angeles-sunscape-2-583d4b25.jpg', cap: '桥体全景宽幅 · Downtowngal / CC BY-SA 4.0' }
         ]
       },
       {
@@ -1844,9 +1844,9 @@ var REGIONS = [
           '九月午后常有雾霾，会降低远距离天际线的通透度；清晨通透度显著优于午后'
         ],
         images: [
-          { url: 'assets/img/view-from-baldwin-hills-scenic-overlook-culver-city-los-ange-e30c78d2.jpg', cap: '自观景台俯瞰洛杉矶盆地 · Adam Jones / CC BY-SA 2.0' },
-          { url: 'assets/img/culver-city-stairs-68416569.jpg', cap: 'Culver City Stairs 楼梯 · Accipitre / CC BY-SA 4.0' },
-          { url: 'assets/img/baldwin-hills-scenic-overlook-culver-city-stairs-visitor-s-c-96959d0d.jpg', cap: '游客中心与原生灌丛 · Jengod / CC BY-SA 4.0' }
+          { url: 'img/view-from-baldwin-hills-scenic-overlook-culver-city-los-ange-e30c78d2.jpg', cap: '自观景台俯瞰洛杉矶盆地 · Adam Jones / CC BY-SA 2.0' },
+          { url: 'img/culver-city-stairs-68416569.jpg', cap: 'Culver City Stairs 楼梯 · Accipitre / CC BY-SA 4.0' },
+          { url: 'img/baldwin-hills-scenic-overlook-culver-city-stairs-visitor-s-c-96959d0d.jpg', cap: '游客中心与原生灌丛 · Jengod / CC BY-SA 4.0' }
         ]
       },
       {
@@ -1903,9 +1903,9 @@ var REGIONS = [
           '<strong>9/7–9/9 傍晚水位高</strong>，勿在桥桩间久留，注意涌浪'
         ],
         images: [
-          { url: 'assets/img/santa-monica-pier-panoramio-5-479a42b1.jpg', cap: 'Santa Monica 栈桥与摩天轮 · bynyalcin / CC BY 3.0' },
-          { url: 'assets/img/anglers-on-the-santa-monica-pier-deb75fe5.jpg', cap: '栈桥桥面与桥桩 · Jelson25 / Public domain' },
-          { url: 'assets/img/santa-monica-and-venice-ca-september-2022-111-fca32430.jpg', cap: '栈桥入口与霓虹 · Another Believer / CC BY-SA 4.0' }
+          { url: 'img/santa-monica-pier-panoramio-5-479a42b1.jpg', cap: 'Santa Monica 栈桥与摩天轮 · bynyalcin / CC BY 3.0' },
+          { url: 'img/anglers-on-the-santa-monica-pier-deb75fe5.jpg', cap: '栈桥桥面与桥桩 · Jelson25 / Public domain' },
+          { url: 'img/santa-monica-and-venice-ca-september-2022-111-fca32430.jpg', cap: '栈桥入口与霓虹 · Another Believer / CC BY-SA 4.0' }
         ]
       },
       {
@@ -1955,9 +1955,9 @@ var REGIONS = [
           '步道狭窄，三脚架容易挡道，请尽量收拢并礼让行人'
         ],
         images: [
-          { url: 'assets/img/los-angeles-venice-canal-historic-district-02-b36a5958.jpg', cap: 'Venice 运河与拱桥倒影 · Américo Toledano / CC BY-SA 4.0' },
-          { url: 'assets/img/los-angeles-venice-canal-historic-district-01-8776c827.jpg', cap: '运河两岸住宅 · Américo Toledano / CC BY-SA 4.0' },
-          { url: 'assets/img/venice-canals-winter-evening-9e907b7c.jpg', cap: '运河傍晚水面 · Satyajitc / CC BY-SA 3.0' }
+          { url: 'img/los-angeles-venice-canal-historic-district-02-b36a5958.jpg', cap: 'Venice 运河与拱桥倒影 · Américo Toledano / CC BY-SA 4.0' },
+          { url: 'img/los-angeles-venice-canal-historic-district-01-8776c827.jpg', cap: '运河两岸住宅 · Américo Toledano / CC BY-SA 4.0' },
+          { url: 'img/venice-canals-winter-evening-9e907b7c.jpg', cap: '运河傍晚水面 · Satyajitc / CC BY-SA 3.0' }
         ]
       },
       {
@@ -2011,9 +2011,9 @@ var REGIONS = [
           '拍摄街头艺人通常被期待给小费；健美者多数乐于被拍但请先问'
         ],
         images: [
-          { url: 'assets/img/muscle-beach-venice-outdoor-gym-c71bfe16.jpg', cap: 'Muscle Beach 露天健身区 · DanielMichaelPerry / CC0' },
-          { url: 'assets/img/venice-beach-boardwalk-los-angeles-2019-4ed8f08b.jpg', cap: 'Venice Boardwalk 街拍走廊 · Steven Lek / CC BY-SA 4.0' },
-          { url: 'assets/img/muscle-beach-venice-july-2023-2769acb0.jpg', cap: 'Muscle Beach 器械与看台 · Benoît Prieur / CC0' }
+          { url: 'img/muscle-beach-venice-outdoor-gym-c71bfe16.jpg', cap: 'Muscle Beach 露天健身区 · DanielMichaelPerry / CC0' },
+          { url: 'img/venice-beach-boardwalk-los-angeles-2019-4ed8f08b.jpg', cap: 'Venice Boardwalk 街拍走廊 · Steven Lek / CC BY-SA 4.0' },
+          { url: 'img/muscle-beach-venice-july-2023-2769acb0.jpg', cap: 'Muscle Beach 器械与看台 · Benoît Prieur / CC0' }
         ]
       },
       {
@@ -2064,9 +2064,9 @@ var REGIONS = [
           '<strong>其他替代机位</strong>：Abalone Cove Shoreline Park（距 Wayfarers 原址仅约 350 米，有崖顶海景与潮池，但位于滑坡活跃区边缘，2026 年开放状态未能确认）；Terranea Resort 崖顶公共步道（California Coastal Trail 段，非住客停车通常收费）；Trump National Golf Club 崖顶眺望（公众通行范围未能确认）'
         ],
         images: [
-          { url: 'assets/img/point-vicente-lighthouse-44623086120-4b329d3c.jpg', cap: 'Point Vicente 灯塔与崖线 · Ron Reiring / CC BY-SA 2.0' },
-          { url: 'assets/img/parlos-verdes-light-house-aug-2012-1a9287d1.jpg', cap: '灯塔全景 · Mike Quach / CC BY-SA 3.0' },
-          { url: 'assets/img/point-vicente-lighthouse-on-cliff-b159e179.jpg', cap: '崖顶白塔 · Nhostetler / CC BY-SA 3.0' }
+          { url: 'img/point-vicente-lighthouse-44623086120-4b329d3c.jpg', cap: 'Point Vicente 灯塔与崖线 · Ron Reiring / CC BY-SA 2.0' },
+          { url: 'img/parlos-verdes-light-house-aug-2012-1a9287d1.jpg', cap: '灯塔全景 · Mike Quach / CC BY-SA 3.0' },
+          { url: 'img/point-vicente-lighthouse-on-cliff-b159e179.jpg', cap: '崖顶白塔 · Nhostetler / CC BY-SA 3.0' }
         ]
       },
       {
@@ -2087,6 +2087,9 @@ var REGIONS = [
         ],
         photo: '<strong>本次无法拍摄。</strong>请勿驱车前往原址——该处封闭，且位于滑坡活跃区。替代机位见上一条 Point Vicente。',
         shots: [],
+        /* 无机位，但保留原址坐标以便地图上出现 17 号红色针脚，
+           与卡片编号对应。坐标为 OSM way/873354664 实体。 */
+        at: [33.743735, -118.377480],
         access: {
           book: '—',
           ticket: '—',
@@ -2100,8 +2103,8 @@ var REGIONS = [
           '其次可考虑 Abalone Cove Shoreline Park（最接近原计划位置）、Terranea Resort 崖顶公共步道、Trump National Golf Club 崖顶眺望'
         ],
         images: [
-          { url: 'assets/img/wayfarers-chapel-2018-2-19-ca513868.jpg', cap: '拆解前的玻璃教堂（历史影像）· Sitao Xiang / CC BY-SA 4.0' },
-          { url: 'assets/img/wayfarer-s-chapel-plaza-67d09927.jpg', cap: '教堂庭园（历史影像）· Prashila Amatya / CC BY-SA 4.0' }
+          { url: 'img/wayfarers-chapel-2018-2-19-ca513868.jpg', cap: '拆解前的玻璃教堂（历史影像）· Sitao Xiang / CC BY-SA 4.0' },
+          { url: 'img/wayfarer-s-chapel-plaza-67d09927.jpg', cap: '教堂庭园（历史影像）· Prashila Amatya / CC BY-SA 4.0' }
         ]
       },
       {
@@ -2159,9 +2162,9 @@ var REGIONS = [
           '园内浣熊会主动接近人，勿投喂、看管食物与器材包'
         ],
         images: [
-          { url: 'assets/img/point-fermin-lighthouse-46475598811-b4781d15.jpg', cap: 'Point Fermin 灯塔与白篱栅 · Ron Reiring / CC BY 2.0' },
-          { url: 'assets/img/point-fermin-lighthouse-san-pedro-california-11400358046-f72afeac.jpg', cap: '维多利亚木构与灯室 · Doug Kerr / CC BY-SA 2.0' },
-          { url: 'assets/img/point-fermin-lighthouse-flowers-281d5483.jpg', cap: '灯塔与玫瑰花圃 · Cynthiastanley / CC BY-SA 4.0' }
+          { url: 'img/point-fermin-lighthouse-46475598811-b4781d15.jpg', cap: 'Point Fermin 灯塔与白篱栅 · Ron Reiring / CC BY 2.0' },
+          { url: 'img/point-fermin-lighthouse-san-pedro-california-11400358046-f72afeac.jpg', cap: '维多利亚木构与灯室 · Doug Kerr / CC BY-SA 2.0' },
+          { url: 'img/point-fermin-lighthouse-flowers-281d5483.jpg', cap: '灯塔与玫瑰花圃 · Cynthiastanley / CC BY-SA 4.0' }
         ]
       }
     ]
@@ -2250,9 +2253,9 @@ var REGIONS = [
         },
         notes: ['阶梯石面在晨雾后湿滑', '夏季狗禁入沙滩，看现场标示'],
         images: [
-          { url: 'assets/img/heisler-park-laguna-beach-california-01-0f21fa32.jpg', cap: 'Heisler Park 海岸 · Norbert Nagel / CC BY-SA 4.0' },
-          { url: 'assets/img/heisler-park-laguna-beach-california-05-098a07d1.jpg', cap: 'Heisler Park 崖顶视角 · Norbert Nagel / CC BY-SA 4.0' },
-          { url: 'assets/img/mermaid-beach-heisler-park-laguna-beach-california-e41b90ac.jpg', cap: 'Mermaid Beach · Norbert Nagel / CC BY-SA 4.0' }
+          { url: 'img/heisler-park-laguna-beach-california-01-0f21fa32.jpg', cap: 'Heisler Park 海岸 · Norbert Nagel / CC BY-SA 4.0' },
+          { url: 'img/heisler-park-laguna-beach-california-05-098a07d1.jpg', cap: 'Heisler Park 崖顶视角 · Norbert Nagel / CC BY-SA 4.0' },
+          { url: 'img/mermaid-beach-heisler-park-laguna-beach-california-e41b90ac.jpg', cap: 'Mermaid Beach · Norbert Nagel / CC BY-SA 4.0' }
         ]
       },
       {
@@ -2318,8 +2321,8 @@ var REGIONS = [
           'Wikimedia Commons 上仅有一张该地点的可用图片，已全库检索多组关键词，不足 2–3 张'
         ],
         images: [
-          { url: 'assets/img/victoria-beach-pirate-tower-nov-2019-0458a0a7.jpg', cap: 'Victoria Beach 海盗塔 · Carl Glover / CC BY 2.0' },
-          { url: 'assets/img/cameo-cove-laguna-beach-ca-by-don-ramey-logan-5f777115.jpg', cap: '紧邻的 Cameo Cove 海岸地形 · Don Ramey Logan / CC BY-SA 4.0' }
+          { url: 'img/victoria-beach-pirate-tower-nov-2019-0458a0a7.jpg', cap: 'Victoria Beach 海盗塔 · Carl Glover / CC BY 2.0' },
+          { url: 'img/cameo-cove-laguna-beach-ca-by-don-ramey-logan-5f777115.jpg', cap: '紧邻的 Cameo Cove 海岸地形 · Don Ramey Logan / CC BY-SA 4.0' }
         ]
       },
       {
@@ -2365,9 +2368,9 @@ var REGIONS = [
           '崖顶部分轮椅可达'
         ],
         images: [
-          { url: 'assets/img/north-end-of-treasure-island-beach-laguna-beach-with-natural-f383595a.jpg', cap: '北端天然拱门 · Beyond My Ken / CC BY-SA 4.0' },
-          { url: 'assets/img/view-from-atop-treasure-island-beach-63491a6f.jpg', cap: '崖顶俯瞰 · ZacharyCrespin / CC BY 4.0' },
-          { url: 'assets/img/goff-cove-laguna-beach-from-south-4b8a3932.jpg', cap: 'Goff Cove · Beyond My Ken / CC BY-SA 4.0' }
+          { url: 'img/north-end-of-treasure-island-beach-laguna-beach-with-natural-f383595a.jpg', cap: '北端天然拱门 · Beyond My Ken / CC BY-SA 4.0' },
+          { url: 'img/view-from-atop-treasure-island-beach-63491a6f.jpg', cap: '崖顶俯瞰 · ZacharyCrespin / CC BY 4.0' },
+          { url: 'img/goff-cove-laguna-beach-from-south-4b8a3932.jpg', cap: 'Goff Cove · Beyond My Ken / CC BY-SA 4.0' }
         ]
       }
     ]
@@ -2468,9 +2471,9 @@ var REGIONS = [
           '崖顶风大，广角镜头易进沙，换镜头请背风。无正式厕所（除咖啡馆）'
         ],
         images: [
-          { url: 'assets/img/torrey-pines-gliderport-1-26a3e3f2.jpg', cap: 'Torrey Pines Gliderport 崖顶 · Ncysea / CC BY-SA 4.0' },
-          { url: 'assets/img/torrey-pines-gliderport-b535a186.jpg', cap: 'Gliderport 滑翔伞 · Dmadeo / CC BY-SA 3.0' },
-          { url: 'assets/img/torrey-pines-gliderport-2-2019-04-16-45152331.jpg', cap: 'Gliderport 崖线 · FASTILY / CC BY-SA 4.0' }
+          { url: 'img/torrey-pines-gliderport-1-26a3e3f2.jpg', cap: 'Torrey Pines Gliderport 崖顶 · Ncysea / CC BY-SA 4.0' },
+          { url: 'img/torrey-pines-gliderport-b535a186.jpg', cap: 'Gliderport 滑翔伞 · Dmadeo / CC BY-SA 3.0' },
+          { url: 'img/torrey-pines-gliderport-2-2019-04-16-45152331.jpg', cap: 'Gliderport 崖线 · FASTILY / CC BY-SA 4.0' }
         ]
       },
       {
@@ -2531,9 +2534,9 @@ var REGIONS = [
           '中庭石灰石地面反光强，注意镜头耀斑'
         ],
         images: [
-          { url: 'assets/img/salk-institute-highsmith-a4d3f2ab.jpg', cap: 'Salk Institute 中庭与生命之河 · Carol M. Highsmith / 公有领域' },
-          { url: 'assets/img/salk-institute-for-biological-studies-and-a-seagull-dllu-9d48f0b7.jpg', cap: 'Salk Institute 中庭 · Daniel L. Lu / CC BY-SA 4.0' },
-          { url: 'assets/img/chairs-and-table-at-salk-institute-dllu-159def22.jpg', cap: 'Salk Institute 细部 · Daniel L. Lu / CC BY-SA 4.0' }
+          { url: 'img/salk-institute-highsmith-a4d3f2ab.jpg', cap: 'Salk Institute 中庭与生命之河 · Carol M. Highsmith / 公有领域' },
+          { url: 'img/salk-institute-for-biological-studies-and-a-seagull-dllu-9d48f0b7.jpg', cap: 'Salk Institute 中庭 · Daniel L. Lu / CC BY-SA 4.0' },
+          { url: 'img/chairs-and-table-at-salk-institute-dllu-159def22.jpg', cap: 'Salk Institute 细部 · Daniel L. Lu / CC BY-SA 4.0' }
         ]
       },
       {
@@ -2583,9 +2586,9 @@ var REGIONS = [
           '这一带是 Matlahuayl 州立海洋保护区，<strong>禁止采集任何生物</strong>'
         ],
         images: [
-          { url: 'assets/img/scripps-institution-of-oceanography-pier-photo-don-ramey-log-b51a87cb.jpg', cap: 'Scripps Pier · Don Ramey Logan / CC BY-SA 3.0' },
-          { url: 'assets/img/scripps-pier-la-jolla-california-e4ebb281.jpg', cap: 'Scripps Pier 桥墩 · Mwinog2777 / CC BY-SA 4.0' },
-          { url: 'assets/img/la-jolla-shores-photo-don-ramey-logan-d2f38a1d.jpg', cap: 'La Jolla Shores · Don Ramey Logan / CC BY-SA 4.0' }
+          { url: 'img/scripps-institution-of-oceanography-pier-photo-don-ramey-log-b51a87cb.jpg', cap: 'Scripps Pier · Don Ramey Logan / CC BY-SA 3.0' },
+          { url: 'img/scripps-pier-la-jolla-california-e4ebb281.jpg', cap: 'Scripps Pier 桥墩 · Mwinog2777 / CC BY-SA 4.0' },
+          { url: 'img/la-jolla-shores-photo-don-ramey-logan-d2f38a1d.jpg', cap: 'La Jolla Shores · Don Ramey Logan / CC BY-SA 4.0' }
         ]
       },
       {
@@ -2630,9 +2633,9 @@ var REGIONS = [
           '<strong>注意导航</strong>：OSM 上另有一个标为「Soledad Mountain」的峰点节点位于纪念碑以西约 730 米，与纪念碑不是同一位置，请使用本条给出的坐标'
         ],
         images: [
-          { url: 'assets/img/mount-soledad-i-4883143285-033bf0e7.jpg', cap: 'Mount Soledad 十字架 · Antonio Zugaldia / CC BY 2.0' },
-          { url: 'assets/img/mount-soledad-ii-4883143499-9ad992a6.jpg', cap: 'Mount Soledad 纪念墙 · Antonio Zugaldia / CC BY 2.0' },
-          { url: 'assets/img/mount-soledad-iii-4883747540-41aac087.jpg', cap: 'Mount Soledad 全景 · Antonio Zugaldia / CC BY 2.0' }
+          { url: 'img/mount-soledad-i-4883143285-033bf0e7.jpg', cap: 'Mount Soledad 十字架 · Antonio Zugaldia / CC BY 2.0' },
+          { url: 'img/mount-soledad-ii-4883143499-9ad992a6.jpg', cap: 'Mount Soledad 纪念墙 · Antonio Zugaldia / CC BY 2.0' },
+          { url: 'img/mount-soledad-iii-4883747540-41aac087.jpg', cap: 'Mount Soledad 全景 · Antonio Zugaldia / CC BY 2.0' }
         ]
       },
       {
@@ -2701,9 +2704,9 @@ var REGIONS = [
           '9 月海雾可能在傍晚快速涌入，直接吞掉落日。潮池区禁止采集任何生物'
         ],
         images: [
-          { url: 'assets/img/sunset-cliffs-san-diego-2013-e555473c.jpg', cap: 'Sunset Cliffs 日落 · Tuxyso / CC BY-SA 3.0' },
-          { url: 'assets/img/people-at-sunset-cliffs-natural-park-san-diego-2013-29976f87.jpg', cap: 'Sunset Cliffs 崖顶 · Tuxyso / CC BY-SA 3.0' },
-          { url: 'assets/img/azure-vista-panoramic-f67d64c8.jpg', cap: 'Point Loma 崖线全景 · RightCowLeftCoast / CC BY-SA 4.0' }
+          { url: 'img/sunset-cliffs-san-diego-2013-e555473c.jpg', cap: 'Sunset Cliffs 日落 · Tuxyso / CC BY-SA 3.0' },
+          { url: 'img/people-at-sunset-cliffs-natural-park-san-diego-2013-29976f87.jpg', cap: 'Sunset Cliffs 崖顶 · Tuxyso / CC BY-SA 3.0' },
+          { url: 'img/azure-vista-panoramic-f67d64c8.jpg', cap: 'Point Loma 崖线全景 · RightCowLeftCoast / CC BY-SA 4.0' }
         ]
       },
       {
@@ -2760,9 +2763,9 @@ var REGIONS = [
           'Harbor Drive 路边计时表限停 2–3 小时，<strong>不够看完全馆</strong>'
         ],
         images: [
-          { url: 'assets/img/san-diego-california-usa-uss-midway-museum-2012-5365-da29c3a8.jpg', cap: 'USS Midway 舰体 · Dietmar Rabich / CC BY-SA 4.0' },
-          { url: 'assets/img/uss-midway-museum-2022-26-fbf177ff.jpg', cap: 'USS Midway 飞行甲板 · Issac I Navarro / CC BY 4.0' },
-          { url: 'assets/img/the-unconditional-surrender-statue-ff99b7a5.jpg', cap: '《无条件投降》雕塑 · Seankimstyle / CC BY-SA 4.0' }
+          { url: 'img/san-diego-california-usa-uss-midway-museum-2012-5365-da29c3a8.jpg', cap: 'USS Midway 舰体 · Dietmar Rabich / CC BY-SA 4.0' },
+          { url: 'img/uss-midway-museum-2022-26-fbf177ff.jpg', cap: 'USS Midway 飞行甲板 · Issac I Navarro / CC BY 4.0' },
+          { url: 'img/the-unconditional-surrender-statue-ff99b7a5.jpg', cap: '《无条件投降》雕塑 · Seankimstyle / CC BY-SA 4.0' }
         ]
       }
     ]
@@ -2879,9 +2882,9 @@ var REGIONS = [
           '手机信号不可靠，务必离线下载地图'
         ],
         images: [
-          { url: 'assets/img/the-swing-at-bombay-beach-856e72f6.jpg', cap: 'Bombay Beach 的秋千装置 · Wikimedia Commons' },
-          { url: 'assets/img/bombay-beach-at-sunset-flickr-ruggybearla-cf09824f.jpg', cap: 'Bombay Beach 日落 · RuggyBearLA via Flickr / Wikimedia Commons' },
-          { url: 'assets/img/old-salton-sea-beach-marina-2013-d55de5c5.jpg', cap: 'Salton Sea 湖岸废墟 · Wikimedia Commons' }
+          { url: 'img/the-swing-at-bombay-beach-856e72f6.jpg', cap: 'Bombay Beach 的秋千装置 · Wikimedia Commons' },
+          { url: 'img/bombay-beach-at-sunset-flickr-ruggybearla-cf09824f.jpg', cap: 'Bombay Beach 日落 · RuggyBearLA via Flickr / Wikimedia Commons' },
+          { url: 'img/old-salton-sea-beach-marina-2013-d55de5c5.jpg', cap: 'Salton Sea 湖岸废墟 · Wikimedia Commons' }
         ]
       },
       {
@@ -2950,9 +2953,9 @@ var REGIONS = [
           '土地所有权存在风险：机构正募集 50 万美元购地基金以防被工业开发拆除，年运营预算仅约 6.5 万美元'
         ],
         images: [
-          { url: 'assets/img/salvation-mountain-niland-ca-2942c5a2.jpg', cap: 'Salvation Mountain 正面全貌 · Wikimedia Commons' },
-          { url: 'assets/img/salvation-mountain-flickr-gregthebusker-d31bfdc3.jpg', cap: 'Salvation Mountain · GregTheBusker via Flickr / Wikimedia Commons' },
-          { url: 'assets/img/salvation-mountain-folk-art-726b41a4.jpg', cap: 'Salvation Mountain 色块与标语细节 · Wikimedia Commons' }
+          { url: 'img/salvation-mountain-niland-ca-2942c5a2.jpg', cap: 'Salvation Mountain 正面全貌 · Wikimedia Commons' },
+          { url: 'img/salvation-mountain-flickr-gregthebusker-d31bfdc3.jpg', cap: 'Salvation Mountain · GregTheBusker via Flickr / Wikimedia Commons' },
+          { url: 'img/salvation-mountain-folk-art-726b41a4.jpg', cap: 'Salvation Mountain 色块与标语细节 · Wikimedia Commons' }
         ]
       }
     ]
