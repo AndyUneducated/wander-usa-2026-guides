@@ -240,8 +240,12 @@ def _throttle() -> None:
     _last_request_at = time.monotonic()
 
 
-def download(url: str, retries: int = 3) -> tuple[bytes, str]:
-    """下载图片。遇到 429 长时间退避（限流按分钟计，秒级重试没有意义）。"""
+def download(url: str, retries: int = 5) -> tuple[bytes, str]:
+    """下载图片。遇到 429 长时间退避（限流按分钟计，秒级重试没有意义）。
+
+    连续跑几百张之后 Wikimedia 的限流会明显收紧，退避需要按分钟递增，
+    否则收尾那几十张会一直失败。
+    """
     last = None
     for attempt in range(retries):
         _throttle()
@@ -253,7 +257,7 @@ def download(url: str, retries: int = 3) -> tuple[bytes, str]:
         except urllib.error.HTTPError as e:
             last = e
             if e.code == 429 and attempt < retries - 1:
-                cool = 45 * (attempt + 1)
+                cool = 60 * (2 ** attempt)  # 60s / 2min / 4min / 8min
                 log(f"    HTTP 429 限流，冷却 {cool}s…")
                 time.sleep(cool)
                 continue

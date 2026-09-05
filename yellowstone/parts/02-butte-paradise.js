@@ -495,9 +495,9 @@ module.exports = {
       images: [
         { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Hotel_Finlen-Uptown_Butte.JPG',
           cap: 'Uptown Butte 的 Hotel Finlen 立面 · J.K.Wise / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/View_to_the_west_on_Broadway._-_Butte_Historic_District%2C_Bounded_by_Copper%2C_Arizona%2C_Mercury_and_Continental_Streets%2C_Butte%2C_Silver_Bow_County%2C_MT_HAER_MONT%2C47-BUT%2C1-16.tif',
+        { url: 'img/view-to-the-west-on-broadway-butte-historic-district-bounded-56ed7c0c.jpg',
           cap: 'Broadway 向西的街轴视角 · Historic American Engineering Record (HAER) / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/13/East_Broadway_entrance_to_the_Thornton_Block._-_Butte_Historic_District%2C_Bounded_by_Copper%2C_Arizona%2C_Mercury_and_Continental_Streets%2C_Butte%2C_Silver_Bow_County%2C_MT_HAER_MONT%2C47-BUT%2C1-67.tif',
+        { url: 'img/east-broadway-entrance-to-the-thornton-block-butte-historic--3860d371.jpg',
           cap: 'Thornton Block 的 East Broadway 入口，《1923》中的 First Bank of Montana · Historic American Engineering Record (HAER) / 公有领域' }
       ]
     },
@@ -674,11 +674,11 @@ module.exports = {
           '<strong>但对矿井架的蓝调剪影几乎无害——甚至会把天空压成橙红，与红色 LED 形成更强的画面</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/ed/The_Bell_Diamond_Mine_in_Butte_Montana_%282614626817%29.jpg',
+        { url: 'img/the-bell-diamond-mine-in-butte-montana-2614626817-7737f8f4.jpg',
           cap: 'Bell Diamond 矿井架，Butte 最常被拍的一座 · Robert from Seattle / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/11/Steward_Mine_headframe_%28Butte%2C_Montana%2C_USA%29.jpg',
+        { url: 'img/steward-mine-headframe-butte-montana-usa-b0ee7405.jpg',
           cap: 'Steward Mine 矿井架，紧贴 Uptown 北缘 · James St. John / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/95/Lexington_Mine_headframe_%28Butte%2C_Montana%2C_USA%29.jpg',
+        { url: 'img/lexington-mine-headframe-butte-montana-usa-7c710f62.jpg',
           cap: 'Lexington Mine 矿井架的桁架结构 · James St. John / CC BY 2.0' }
       ]
     },
@@ -807,11 +807,11 @@ module.exports = {
           '这一带扬起的粉尘含矿物颗粒，不适合让传感器暴露'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Berkeley_Pit_%28Butte%2C_Montana%2C_USA%29_3.jpg',
+        { url: 'img/berkeley-pit-butte-montana-usa-3-8228dec7.jpg',
           cap: '观景台视角的矿坑与台阶状高墙 · James St. John / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Berkeley_Pit_-_Butte%2C_Montana_%287998261366%29.jpg',
+        { url: 'img/berkeley-pit-butte-montana-7998261366-ad923e03.jpg',
           cap: '酸性湖水的色彩与坑壁尺度 · TravelingOtter / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/2013_Berkeley_Pit%2C_Butte%2C_Montana_%281%29.jpg',
+        { url: 'img/2013-berkeley-pit-butte-montana-1-9e4eefd6.jpg',
           cap: '坑与背后的矿区全景 · Chris06 / CC BY-SA 4.0' }
       ]
     },
@@ -983,11 +983,11 @@ module.exports = {
           '<strong>并且请记住这是纪念 168 名死者的场所——保持安静，不要在纪念构筑物上架设器材</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/95/20210806_55_World_Museum_of_Mining%2C_Butte%2C_Montana.jpg',
+        { url: 'img/20210806-55-world-museum-of-mining-butte-montana-0251c537.jpg',
           cap: '博物馆场区与 Orphan Girl 矿场全景 · David Wilson / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f5/Orphan_Girl_Mine_Butte_Montana_02.jpg',
+        { url: 'img/orphan-girl-mine-butte-montana-02-157acb71.jpg',
           cap: 'Orphan Girl Mine 井口与矿井架 · Montanabw / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Granite_Mountain_Mine_headframe_%28Butte%2C_Montana%2C_USA%29_1.jpg',
+        { url: 'img/granite-mountain-mine-headframe-butte-montana-usa-1-8f2bb954.jpg',
           cap: 'Granite Mountain Mine 矿井架，1917 年矿难纪念地一带 · James St. John / CC BY 2.0' }
       ]
     },
@@ -1148,11 +1148,11 @@ module.exports = {
           '可以和矿井架的红灯排在同一个傍晚里'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Our_Lady_of_the_Rockies_%289277622042%29.jpg',
+        { url: 'img/our-lady-of-the-rockies-9277622042-dfbad01e.jpg',
           cap: '山顶近景，可见雕像尺度 · AllAroundTheWest / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/31/Our_Lady_of_the_Rockies_WC_831.jpg',
+        { url: 'img/our-lady-of-the-rockies-wc-831-734f18e0.jpg',
           cap: '90 英尺雕像俯瞰 Butte · Gillfoto / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/84/OurLadyOfRockies-2MT.jpg',
+        { url: 'img/ourladyofrockies-2mt-1b5dbebf.jpg',
           cap: '大陆分水岭山脊上的雕像与山下城市 · MPSharwood / CC BY-SA 4.0' }
       ]
     },
@@ -1313,9 +1313,9 @@ module.exports = {
           '但 9 月下旬清晨仍在 0°C 附近，<strong>电池贴身放，回暖气车前把机身装袋防冷凝</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Livingston%2C_Montana.jpg',
+        { url: 'img/livingston-montana-53bc2deb.jpg',
           cap: 'Livingston 老城与铁路走廊的整体格局 · Quintin Soloviev / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/LivingstonMontanaNPPRDepot-Haynes1894.jpg',
+        { url: 'img/livingstonmontananpprdepot-haynes1894-13e96802.jpg',
           cap: '1894 年的北太平洋铁路 Livingston 车站（现存建筑为 1902 年重建） · Frank Jay Haynes / 公有领域' }
       ]
     },
@@ -1487,9 +1487,9 @@ module.exports = {
           '不过这与你的日期无关——你是在关季前两天到的'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/Northwest_face_Absaroka_Range.jpg',
+        { url: 'img/northwest-face-absaroka-range-d4690644.jpg',
           cap: 'Pine Creek 所切入的 Absaroka 西北坡，自 Paradise Valley 望去 · Mike Cline / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Absaroka-Beartooth_Wilderness_NPS1.jpg',
+        { url: 'img/absaroka-beartooth-wilderness-nps1-f4c783d7.jpg',
           cap: '步道通往的 Absaroka-Beartooth Wilderness · National Park Service / 公有领域' }
       ]
     },
@@ -1729,11 +1729,11 @@ module.exports = {
           '坏消息是电池会掉电，带足并贴身放，回暖气车前把机身装进密封袋防冷凝。</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Livingstonvalley_%2838347976464%29.jpg',
+        { url: 'img/livingstonvalley-38347976464-70a1d4dd.jpg',
           cap: 'Livingston 以南的 Paradise Valley 与 Absaroka 大墙 · USDA NRCS Montana / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/18/SouthofLivingston_%2839026998932%29.jpg',
+        { url: 'img/southoflivingston-39026998932-b38e6f04.jpg',
           cap: '谷地中段的 Absaroka 山墙与河岸牧场 · USDA NRCS Montana / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/68/EmigrantPeakEastRiverRd2009.jpg',
+        { url: 'img/emigrantpeakeastriverrd2009-19158498.jpg',
           cap: '自 East River Road 望 Emigrant Peak · Mike Cline / 公有领域' }
       ]
     },
@@ -1951,11 +1951,11 @@ module.exports = {
           '低底盘车与两驱租车在结冰或泥泞时请放弃，改在 Point of Rocks FAS（US-89 milepost 21，铺装路可达）拍傍晚场次'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/83/Emigrant_Peak_2013.jpg',
+        { url: 'img/emigrant-peak-2013-7857ed2c.jpg',
           cap: 'Yellowstone River 与 Emigrant Peak，10 月 · Mike Cline / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/85/Emigrant_Peak%2C_Paradise_Valley.jpg',
+        { url: 'img/emigrant-peak-paradise-valley-631c4a71.jpg',
           cap: '自 Paradise Valley 望 Emigrant Peak 的金字塔形山体 · Tim Gage / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Chico_Hot_Springs%2C_Pray%2C_Montana_01.jpg',
+        { url: 'img/chico-hot-springs-pray-montana-01-586f748a.jpg',
           cap: 'Chico Hot Springs 度假村，1900 年开业的历史建筑 · Mamalodon / CC0' }
       ]
     }

@@ -926,15 +926,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/The_Bell_Diamond_Mine_in_Butte_Montana_%282614626817%29.jpg",
+            "url": "img/the-bell-diamond-mine-in-butte-montana-2614626817-7737f8f4.jpg",
             "cap": "Bell Diamond 矿井架，Butte 最常被拍的一座 · Robert from Seattle / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Steward_Mine_headframe_%28Butte%2C_Montana%2C_USA%29.jpg",
+            "url": "img/steward-mine-headframe-butte-montana-usa-b0ee7405.jpg",
             "cap": "Steward Mine 矿井架，紧贴 Uptown 北缘 · James St. John / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Lexington_Mine_headframe_%28Butte%2C_Montana%2C_USA%29.jpg",
+            "url": "img/lexington-mine-headframe-butte-montana-usa-7c710f62.jpg",
             "cap": "Lexington Mine 矿井架的桁架结构 · James St. John / CC BY 2.0"
           }
         ]
@@ -1044,11 +1044,11 @@ var REGIONS = [
             "cap": "Uptown Butte 的 Hotel Finlen 立面 · J.K.Wise / CC BY-SA 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/View_to_the_west_on_Broadway._-_Butte_Historic_District%2C_Bounded_by_Copper%2C_Arizona%2C_Mercury_and_Continental_Streets%2C_Butte%2C_Silver_Bow_County%2C_MT_HAER_MONT%2C47-BUT%2C1-16.tif",
+            "url": "img/view-to-the-west-on-broadway-butte-historic-district-bounded-56ed7c0c.jpg",
             "cap": "Broadway 向西的街轴视角 · Historic American Engineering Record (HAER) / 公有领域"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/13/East_Broadway_entrance_to_the_Thornton_Block._-_Butte_Historic_District%2C_Bounded_by_Copper%2C_Arizona%2C_Mercury_and_Continental_Streets%2C_Butte%2C_Silver_Bow_County%2C_MT_HAER_MONT%2C47-BUT%2C1-67.tif",
+            "url": "img/east-broadway-entrance-to-the-thornton-block-butte-historic--3860d371.jpg",
             "cap": "Thornton Block 的 East Broadway 入口，《1923》中的 First Bank of Montana · Historic American Engineering Record (HAER) / 公有领域"
           }
         ]
@@ -1122,15 +1122,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Berkeley_Pit_%28Butte%2C_Montana%2C_USA%29_3.jpg",
+            "url": "img/berkeley-pit-butte-montana-usa-3-8228dec7.jpg",
             "cap": "观景台视角的矿坑与台阶状高墙 · James St. John / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Berkeley_Pit_-_Butte%2C_Montana_%287998261366%29.jpg",
+            "url": "img/berkeley-pit-butte-montana-7998261366-ad923e03.jpg",
             "cap": "酸性湖水的色彩与坑壁尺度 · TravelingOtter / CC BY-SA 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/2013_Berkeley_Pit%2C_Butte%2C_Montana_%281%29.jpg",
+            "url": "img/2013-berkeley-pit-butte-montana-1-9e4eefd6.jpg",
             "cap": "坑与背后的矿区全景 · Chris06 / CC BY-SA 4.0"
           }
         ]
@@ -1224,15 +1224,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/95/20210806_55_World_Museum_of_Mining%2C_Butte%2C_Montana.jpg",
+            "url": "img/20210806-55-world-museum-of-mining-butte-montana-0251c537.jpg",
             "cap": "博物馆场区与 Orphan Girl 矿场全景 · David Wilson / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Orphan_Girl_Mine_Butte_Montana_02.jpg",
+            "url": "img/orphan-girl-mine-butte-montana-02-157acb71.jpg",
             "cap": "Orphan Girl Mine 井口与矿井架 · Montanabw / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Granite_Mountain_Mine_headframe_%28Butte%2C_Montana%2C_USA%29_1.jpg",
+            "url": "img/granite-mountain-mine-headframe-butte-montana-usa-1-8f2bb954.jpg",
             "cap": "Granite Mountain Mine 矿井架，1917 年矿难纪念地一带 · James St. John / CC BY 2.0"
           }
         ]
@@ -1306,15 +1306,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Our_Lady_of_the_Rockies_%289277622042%29.jpg",
+            "url": "img/our-lady-of-the-rockies-9277622042-dfbad01e.jpg",
             "cap": "山顶近景，可见雕像尺度 · AllAroundTheWest / CC BY-SA 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/31/Our_Lady_of_the_Rockies_WC_831.jpg",
+            "url": "img/our-lady-of-the-rockies-wc-831-734f18e0.jpg",
             "cap": "90 英尺雕像俯瞰 Butte · Gillfoto / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/OurLadyOfRockies-2MT.jpg",
+            "url": "img/ourladyofrockies-2mt-1b5dbebf.jpg",
             "cap": "大陆分水岭山脊上的雕像与山下城市 · MPSharwood / CC BY-SA 4.0"
           }
         ]
@@ -1396,11 +1396,11 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Livingston%2C_Montana.jpg",
+            "url": "img/livingston-montana-53bc2deb.jpg",
             "cap": "Livingston 老城与铁路走廊的整体格局 · Quintin Soloviev / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/LivingstonMontanaNPPRDepot-Haynes1894.jpg",
+            "url": "img/livingstonmontananpprdepot-haynes1894-13e96802.jpg",
             "cap": "1894 年的北太平洋铁路 Livingston 车站（现存建筑为 1902 年重建） · Frank Jay Haynes / 公有领域"
           }
         ]
@@ -1483,11 +1483,11 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Northwest_face_Absaroka_Range.jpg",
+            "url": "img/northwest-face-absaroka-range-d4690644.jpg",
             "cap": "Pine Creek 所切入的 Absaroka 西北坡，自 Paradise Valley 望去 · Mike Cline / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Absaroka-Beartooth_Wilderness_NPS1.jpg",
+            "url": "img/absaroka-beartooth-wilderness-nps1-f4c783d7.jpg",
             "cap": "步道通往的 Absaroka-Beartooth Wilderness · National Park Service / 公有领域"
           }
         ]
@@ -1590,15 +1590,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Livingstonvalley_%2838347976464%29.jpg",
+            "url": "img/livingstonvalley-38347976464-70a1d4dd.jpg",
             "cap": "Livingston 以南的 Paradise Valley 与 Absaroka 大墙 · USDA NRCS Montana / 公有领域"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/SouthofLivingston_%2839026998932%29.jpg",
+            "url": "img/southoflivingston-39026998932-b38e6f04.jpg",
             "cap": "谷地中段的 Absaroka 山墙与河岸牧场 · USDA NRCS Montana / 公有领域"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/EmigrantPeakEastRiverRd2009.jpg",
+            "url": "img/emigrantpeakeastriverrd2009-19158498.jpg",
             "cap": "自 East River Road 望 Emigrant Peak · Mike Cline / 公有领域"
           }
         ]
@@ -1697,15 +1697,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Emigrant_Peak_2013.jpg",
+            "url": "img/emigrant-peak-2013-7857ed2c.jpg",
             "cap": "Yellowstone River 与 Emigrant Peak，10 月 · Mike Cline / CC BY-SA 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Emigrant_Peak%2C_Paradise_Valley.jpg",
+            "url": "img/emigrant-peak-paradise-valley-631c4a71.jpg",
             "cap": "自 Paradise Valley 望 Emigrant Peak 的金字塔形山体 · Tim Gage / CC BY-SA 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Chico_Hot_Springs%2C_Pray%2C_Montana_01.jpg",
+            "url": "img/chico-hot-springs-pray-montana-01-586f748a.jpg",
             "cap": "Chico Hot Springs 度假村，1900 年开业的历史建筑 · Mamalodon / CC0"
           }
         ]
@@ -2665,15 +2665,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Beartooth_Highway_overlook_MT1.jpg",
+            "url": "img/beartooth-highway-overlook-mt1-5fcd47b4.jpg",
             "cap": "Rock Creek Vista 观景平台本身 · Acroterion / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Rock_Creek_Vista_Point_%28Beartooth_Mountains%2C_Montana%2C_USA%29.jpg",
+            "url": "img/rock-creek-vista-point-beartooth-mountains-montana-usa-0ad82daf.jpg",
             "cap": "从观景点俯瞰 Rock Creek 冰川谷 · James St. John / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Beartooth_Highway_-_Stunning_View_from_Rock_Creek_Vista_Point_-_NARA_-_7717207.jpg",
+            "url": "img/beartooth-highway-stunning-view-from-rock-creek-vista-point--ff8821d2.jpg",
             "cap": "Rock Creek Vista Point 的谷底视野 · NARA / Public domain"
           }
         ]
@@ -2770,15 +2770,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Beartooth_Highway_-_Rock_Creek_Valley_MT1.jpg",
+            "url": "img/beartooth-highway-rock-creek-valley-mt1-b019c2c2.jpg",
             "cap": "Rock Creek 谷与其后的 Hellroaring Plateau · Acroterion / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Beartooth_Highway_%28Rock_Creek_Canyon%2C_Beartooth_Mountains%2C_Montana%2C_USA%29_6.jpg",
+            "url": "img/beartooth-highway-rock-creek-canyon-beartooth-mountains-mont-d80d1258.jpg",
             "cap": "Rock Creek Canyon 段的盘山公路 · James St. John / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Beartooth_Pass_%28valley%29.jpg",
+            "url": "img/beartooth-pass-valley-8faf21a6.jpg",
             "cap": "自 Red Lodge 以南向西南望 Rock Creek Canyon · Chris Light / CC BY-SA 4.0"
           }
         ]
@@ -2881,11 +2881,11 @@ var REGIONS = [
             "cap": "Cooke City 主街与补给点 · NARA / Public domain"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Silver_Gate%2C_Montana_%2850436895092%29.jpg",
+            "url": "img/silver-gate-montana-50436895092-d4d011a3.jpg",
             "cap": "Silver Gate 的 General Store 与原木住宿 · Larry Lamsa / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Northeast_Entrance_Station_%2843829754261%29.jpg",
+            "url": "img/northeast-entrance-station-43829754261-9d89c723.jpg",
             "cap": "列入 NRHP 的 Northeast Entrance Station · Jacob W. Frank / NPS / Public domain"
           }
         ]
@@ -2996,15 +2996,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Beartooth_Highway_-_The_West_Summit_of_Beartooth_Pass_-_NARA_-_7717203.jpg",
+            "url": "img/beartooth-highway-the-west-summit-of-beartooth-pass-nara-771-c054f0ac.jpg",
             "cap": "West Summit 一带的 US-212 与高原 · NARA / Public domain"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Beartooth_Highway_-_Alpine_Tundra_on_Top_of_Beartooth_Pass_-_NARA_-_7717205.jpg",
+            "url": "img/beartooth-highway-alpine-tundra-on-top-of-beartooth-pass-nar-29c54b72.jpg",
             "cap": "垭口顶部的高山苔原与散石 · NARA / Public domain"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Beartooth_Pass_WY-MT_1999-1.jpg",
+            "url": "img/beartooth-pass-wy-mt-1999-1-4947844c.jpg",
             "cap": "Beartooth Pass 一带的公路与山体 · Acroterion / CC BY-SA 4.0"
           }
         ]
@@ -3098,15 +3098,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Beartooth_Highway_-_Beartooth_Butte_Reflection_-_NARA_-_7717238.jpg",
+            "url": "img/beartooth-highway-beartooth-butte-reflection-nara-7717238-ff4855d8.jpg",
             "cap": "Beartooth Butte 在湖面的倒影 · NARA / Public domain"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Beartooth_Mtns_%28Pan%29.jpg",
+            "url": "img/beartooth-mtns-pan-3ce1fef3.jpg",
             "cap": "向西南望 “Top of the World” 湖区全景 · Chris Light / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Beartooth_Highway_-_Fly_Fishing_the_Beartooth_Mountains_-_NARA_-_7717225.jpg",
+            "url": "img/beartooth-highway-fly-fishing-the-beartooth-mountains-nara-7-be1a9670.jpg",
             "cap": "Beartooth 高山湖上的飞钓者 · NARA / Public domain"
           }
         ]
@@ -3192,7 +3192,7 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Beartooth_Highway_-_View_from_Clay_Butte_Lookout_-_NARA_-_7717267.jpg",
+            "url": "img/beartooth-highway-view-from-clay-butte-lookout-nara-7717267-fec0e577.jpg",
             "cap": "自 Clay Butte Lookout 望出的高原全景 · NARA / Public domain"
           },
           {
@@ -3293,15 +3293,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sunlight_bridge.jpg",
+            "url": "img/sunlight-bridge-22ac2448.jpg",
             "cap": "Sunlight Bridge 桥体与它跨越的窄峡 · U.S. Forest Service / Public domain"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Sunlight-creek-gorge-along-the-chief-joseph-scenic-byway-WY-October-2010-joni-packard-40620015_%285864414413%29.jpg",
+            "url": "img/sunlight-creek-gorge-along-the-chief-joseph-scenic-byway-wy--179f132b.jpg",
             "cap": "Sunlight Creek 峡谷（2010 年 10 月） · Joni Packard / U.S. Forest Service / Public domain"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Along-the-chief-joseph-scenic-byway-sunlight-creek-wy-05112011-rogermpeterson-001_%286097422328%29.jpg",
+            "url": "img/along-the-chief-joseph-scenic-byway-sunlight-creek-wy-051120-bccd087c.jpg",
             "cap": "Sunlight Creek 一带的 WY-296 · Roger M. Peterson / U.S. Forest Service / Public domain"
           }
         ]
@@ -3400,15 +3400,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Dead_Indian_Pass.jpg",
+            "url": "img/dead-indian-pass-245d66de.jpg",
             "cap": "自 Dead Indian Pass 顶部向外的视野 · Smallchief / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/View-from-dead-indian-pass-summit-along-chief-jospeh-scenic-byway-WY-October-2010-joni-packard-40620016_%286097550158%29.jpg",
+            "url": "img/view-from-dead-indian-pass-summit-along-chief-jospeh-scenic--bbf603a4.jpg",
             "cap": "Dead Indian Pass 鞍部视野（2010 年 10 月） · Joni Packard / U.S. Forest Service / Public domain"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Along-chief-joseph-scenic-byway-at-dead-indian-pass-october-2010-by-joni-packard_%285688140353%29.jpg",
+            "url": "img/along-chief-joseph-scenic-byway-at-dead-indian-pass-october--29187df6.jpg",
             "cap": "Dead Indian Pass 一带的 WY-296 · Joni Packard / U.S. Forest Service / Public domain"
           }
         ]

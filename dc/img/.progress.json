@@ -1,24 +1,15 @@
 {
  "region": "dc",
- "pid": 37054,
+ "pid": 46180,
  "total": 2,
- "done": 2,
+ "done": 0,
  "ok": 0,
  "skipped": 0,
- "failed": 2,
- "current": null,
- "phase": "done-with-failures",
- "started_at": 1788604770.6040041,
- "updated_at": 1788605344.502301,
- "finished": true,
- "recent_failures": [
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Space_Window_-_South_Nave_Bay_E_-_National_Cathedral_-_DC.JPG",
-   "why": "HTTP Error 400: Use thumbnail sizes listed on https://w.wiki/GHai"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Looking_up_the_Exorcist_steps_in_Georgetown._-_panoramio.jpg",
-   "why": "HTTP Error 400: Use thumbnail sizes listed on https://w.wiki/GHai"
-  }
- ]
+ "failed": 0,
+ "current": "[1/2] space-window-south-nave-bay-e-national-cathedral-dc-531f7b3a",
+ "phase": "downloading",
+ "started_at": 1788610952.783556,
+ "updated_at": 1788610987.827626,
+ "finished": false,
+ "recent_failures": []
 }
