@@ -53,9 +53,12 @@ EXT_BY_TYPE = {
     "image/gif": ".gif",
 }
 
-# Wikimedia 只接受固定几档缩略图宽度，其它宽度会返回 400。
-# 1280px 对网页报告足够，且比原图小一到两个数量级（原图常有 6000–15000px 宽）。
-WM_THUMB_SIZES = (1280, 1024, 800, 640)
+# Wikimedia 只接受固定几档缩略图宽度，直接热链其它宽度会被拒。
+# 当前生产环境的档位见 https://w.wiki/GHai：
+#   20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920, 3840
+# 这里只取适合网页报告的几档。原先写的 1024/800/640 都不在档位里，
+# 会稳定收到 "400 Use thumbnail sizes listed on..."，三张图就是这么失败的。
+WM_THUMB_SIZES = (1280, 960, 500, 330)
 
 # Wikimedia 的限流是突发敏感的：短时间连打几个请求会整段吃 429，
 # 之后连本来正常的地址也会被拒。用全局节流器保证**任何两次** HTTP 请求都隔开足够时间，
@@ -182,12 +185,22 @@ def api_thumb_url(filename: str, width: int = 1280) -> str | None:
     if not pages or "imageinfo" not in pages[0]:
         return None
     info = pages[0]["imageinfo"][0]
-    # 原图本身比请求宽度还窄时，Wikimedia 拒绝放大并回 400
-    # （"Use thumbnail sizes listed on..."），此时直接取原图。
+    mime = (info.get("mime") or "").lower()
     original_width = info.get("width") or 0
+
+    # TIFF 等格式浏览器不渲染（HAER 建筑档案照片常是 image/tiff），
+    # 必须用服务端生成的缩略图换成 JPEG/PNG，哪怕原图更清晰也不能直接用。
+    web_safe = mime in ("image/jpeg", "image/png", "image/gif", "image/webp")
+    if not web_safe:
+        thumb = info.get("thumburl")
+        return thumb.split("?")[0] if thumb else None
+
+    # 原图比请求宽度还窄时，Wikimedia 拒绝放大并回 400
+    # （"Use thumbnail sizes listed on..."），此时直接取原图。
     if original_width and original_width <= width:
         url = info.get("url")
         return url.split("?")[0] if url else None
+
     thumb = info.get("thumburl") or info.get("url")
     return thumb.split("?")[0] if thumb else None
 
@@ -368,6 +381,15 @@ def main() -> int:
         if not ctype.startswith("image/"):
             why = f"content-type={ctype or '未知'}"
             log(f"    跳过：返回的不是图片（{why}）")
+            failures.append((url, why))
+            prog.tick("failed", url, why)
+            continue
+
+        # 存下来的必须是浏览器能渲染的格式。TIFF 之类若按 .jpg 存盘，
+        # 页面上就是一张永远加载不出来的破图，而且很难查。
+        if ctype not in EXT_BY_TYPE:
+            why = f"浏览器无法渲染的格式 {ctype}"
+            log(f"    跳过：{why}")
             failures.append((url, why))
             prog.tick("failed", url, why)
             continue

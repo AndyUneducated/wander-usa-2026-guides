@@ -428,7 +428,20 @@ var REGIONS = [
           "<strong>Yard 内秋色的日期分界线同样是 10 月 22 日</strong>，之前来是绿的。Yard 的树以榆、橡为主，<strong>橡树转的是深酒红与铁锈红，与红砖建筑的色相非常接近</strong>——这既是这里秋色最协调的原因，也意味着<strong>反差偏低，需要靠逆光或侧光分离层次</strong>",
           "<strong>Head of the Charles Regatta（10 月 16–18 日）期间 Harvard Square 与 Harvard Stadium 一带人流与交通全面失控</strong>，想安静拍 Yard 请避开这三天"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Harvard_Yard_in_autumn%2C_Boston%2C_Massachusetts%2C_2015.jpg",
+            "cap": "秋季的 Harvard Yard 草坪与红砖楼 · Nina R / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Widener_Memorial_Library_-_Harvard_University_%2854941110519%29.jpg",
+            "cap": "Widener Library 的柱廊与大阶梯 · Ajay Suresh / CC BY 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Statue_of_John_Harvard_%28left_foot_being_rubbed%29.JPG",
+            "cap": "John Harvard 像与被摸亮的左脚 · Vegasjon / CC BY-SA 4.0"
+          }
+        ]
       },
       {
         "id": "fenway-harborwalk",
@@ -514,7 +527,20 @@ var REGIONS = [
           "<strong>Harborwalk 的日出机位需要 06:30–07:00 到位（10 月下旬 07:00–07:45）</strong>，<strong>MBTA 地铁工作日约 05:15 起首班车，赶得上，但首班时刻请当天确认</strong>",
           "<strong>Custom House Tower 的观景层是否对公众开放、以及那把红色座椅的具体排号，均未能从官方渠道确认</strong>"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Fenway_Park_exterior%2C_April_12%2C_2018_%2839613672440%29.jpg",
+            "cap": "Jersey Street 一侧的 Fenway Park 砖立面 · Daniel Hartwig / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Boston_downtown_view_from_the_Long_Wharf_%284766291104%29.jpg",
+            "cap": "从 Long Wharf 尽头正面望 downtown 天际线 · Emmanuel Huybrechts / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Long_Wharf%2C_Central_Wharf%2C_and_New_England_Aquarium%2C_Boston%2C_P1000075.JPG",
+            "cap": "Long Wharf 与 Harborwalk 的滨水步道段 · NewtonCourt / CC BY-SA 4.0"
+          }
+        ]
       },
       {
         "id": "mit-killian-court",
@@ -600,7 +626,20 @@ var REGIONS = [
           "<strong>MIT 是开放校园，外景没有任何时段与三脚架限制</strong>，是本区少数可以放心架三脚架拍蓝调的地方（另两处是 Public Garden 与 Comm Ave Mall）",
           "<strong>Head of the Charles Regatta（10 月 16–18 日）的赛道在 Charles River 上游</strong>（Boston University 到 Eliot Bridge 一段），<strong>Harvard Bridge 与 Killian Court 在赛道下游、受影响较小</strong>，但那三天整条河沿岸人流都会明显增加"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/MIT_Killian_Court.jpg",
+            "cap": "Killian Court 草坪与正对的 Great Dome · Madcoverboy / CC BY-SA 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/MIT%2C_Great_Dome.jpg",
+            "cap": "十月光线下的 Great Dome 与柱廊 · R Boed / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/MIT_Chapel_Interior.jpg",
+            "cap": "MIT Chapel 室内的天光与 Bertoia 金属幕 · Madcoverboy / CC BY-SA 3.0"
+          }
+        ]
       },
       {
         "id": "charles-river-esplanade",
@@ -686,7 +725,20 @@ var REGIONS = [
           "<strong>Charlesbank ＋ Smith Family Pavilion 工地（Museum of Science 一侧）在你来的时候仍在施工</strong>，目标 11 月 1 日开放。Esplanade 其余部分正常",
           "<strong>桥面有车流震动，三脚架在桥上效果有限</strong>；要长曝就退到两端岸上，或用快门线加延时并靠外侧栏杆。<strong>入夜后河岸公园人少灯暗</strong>，带三脚架与长焦独行时建议蓝调一结束就撤，不要在 Esplanade 深处久留"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Downtown_Boston_skyline_and_the_Charles_River_%2851534558117%29.jpg",
+            "cap": "九月末从 Cambridge 岸望 downtown 天际线 · Chris Rycroft / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/08/Longfellow_Bridge_Boston_November_2016.jpg",
+            "cap": "Longfellow Bridge 与「盐罐胡椒罐」桥塔 · King of Hearts / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Charles_River_Esplanade_Boston_November_2016_001.jpg",
+            "cap": "Boston 侧的 Esplanade 河岸公园 · King of Hearts / CC BY-SA 4.0"
+          }
+        ]
       },
       {
         "id": "acorn-street-beacon-hill",
@@ -863,7 +915,20 @@ var REGIONS = [
           "<strong>湖面是否会在秋季放空检修未能从官方渠道确认</strong>；倒影这张有落空的可能，建议不要把它排成当天唯一目标",
           "<strong>两园均由 Boston 市运营，不受联邦拨款影响，也不受天气以外的任何因素限制</strong>，是全区最灵活的填空目标"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Lagoon_bridge_in_the_Boston_Public_Garden%2C_Boston%2C_Massachusetts.jpg",
+            "cap": "Lagoon Bridge 与湖面倒影 · Christian David / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Boston_Public_Garden_Foot_Bridge_%2836007%29.jpg",
+            "cap": "秋末的公共花园小桥与落叶 · Rhododendrites / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/Boston_Common_in_fall.jpg",
+            "cap": "Boston Common 的秋色与步道 · Chase Elliott Clark / CC BY 2.0"
+          }
+        ]
       },
       {
         "id": "back-bay-newbury",
@@ -941,7 +1006,20 @@ var REGIONS = [
           "<strong>褐石立面必须拍正、拍水平</strong>。砖缝与窗轴线一歪整张就废了，<strong>竖幅仰拍时用电子水平仪，或直接后期做透视校正</strong>",
           "<strong>本区不受任何开放时间、票务或拨款影响，是全区最灵活的填空目标</strong>，而且雨天也能拍（湿人行道反射店面灯光）"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/USA-Boston-Commonwealth_Avenue_Mall2.JPG",
+            "cap": "Commonwealth Avenue Mall 的林荫轴线与两侧褐石 · Ingfbruno / CC BY-SA 3.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Commonwealth_Avenue%2C_Boston_%2853828816356%29.jpg",
+            "cap": "十月的 Commonwealth Avenue 与秋叶 · Ethan Long / CC BY-SA 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Newbury_Street_Boston_May_2018.jpg",
+            "cap": "Newbury Street 的沿街立面与店面层 · King of Hearts / CC BY-SA 4.0"
+          }
+        ]
       },
       {
         "id": "trinity-church-copley",
@@ -1015,7 +1093,20 @@ var REGIONS = [
           "<strong>Copley Square 已在 2026 年 5 月完工，无围挡</strong>；<strong>但新修喷泉在秋季是否仍运行未能从官方渠道确认</strong>，想拍水面倒影请把它当加分项而不是计划",
           "<strong>Trinity 与 Hancock Tower 之间有真实的历史积怨</strong>：1970 年代 Hancock 开挖基坑损坏了 Trinity 的木桩基础、Trinity 诉讼胜诉。<strong>拍那张倒影时可以想想这件事——它让照片有了内容而不只是构图</strong>"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Copley_Square_with_Trinity_Church_and_Hancock_Tower.jpg",
+            "cap": "教堂与 Hancock 玻璃幕墙的倒影关系 · Gregg Squeglia / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Boston_Trinity_Church_Copley_Square_04.jpg",
+            "cap": "Richardson 罗曼式的西立面与中央塔 · Miguel Hermoso Cuesta / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Outside_Trinity_Church_in_Copley_Square%2C_Boston.jpg",
+            "cap": "Copley Square 广场一侧的横幅视角 · Swativ28 / CC BY-SA 4.0"
+          }
+        ]
       },
       {
         "id": "boston-public-library",
@@ -1089,7 +1180,20 @@ var REGIONS = [
           "<strong>中庭是露天的，但未来方案要给它加透明顶棚</strong>；<strong>内院秋季座椅是否已收起未能从官方渠道确认</strong>",
           "<strong>本馆由 Boston 市运营，不受联邦拨款影响</strong>，而且每日开放、雨天可拍，是全区最可靠的备份目标"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Boston_Public_Library%2C_McKim_Building_%28Bates_Hall_02%29.jpg",
+            "cap": "Bates Hall 的桶形拱顶与绿罩台灯 · Lëa-Kim Châteauneuf / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Boston_Public_Library%2C_McKim_Building_%28staircase_01%29.jpg",
+            "cap": "大楼梯与两侧石狮 · Lëa-Kim Châteauneuf / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Boston_Public_Library_Courtyard_%2826087613060%29.jpg",
+            "cap": "内院回廊与中央水池 · Tony Webster / CC BY-SA 2.0"
+          }
+        ]
       }
     ]
   },

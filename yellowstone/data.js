@@ -2559,12 +2559,12 @@ var REGIONS = [
       {
         "type": "warn",
         "title": "气温、结冰、64 英里没有加油站，以及没有办法快速折返",
-        "html": "<p><strong>温度落差（按标准气温垂减率 3.5°F／1,000 英尺推算，非实测）：</strong></p><ul><li>Beartooth Pass <strong>10,947 英尺</strong>比 Red Lodge（<strong>5,568 英尺</strong>）高 <strong>5,379 英尺</strong>，推算温差约 <strong>19°F（10.5°C）</strong>；比 Cooke City（<strong>约 7,650 英尺</strong>）高 3,300 英尺，推算温差约 <strong>12°F（6.5°C）</strong></li><li>加上垭口常年大风（20–30 mph 是常态，本区历史上以风著称，旁边那片高原就叫 Hellroaring Plateau），<strong>体感差 20–25°F 是很正常的</strong>。你在 Red Lodge 穿短袖，到垭口上要穿羽绒加防风外层，中间只隔 64 英里</li><li><strong>9 月下旬垭口的实际预期：清晨 −6 至 −2°C，白天 3–9°C，夜间可到 −10°C，随时可能有阵雪。</strong>这是推算值，出发前请看 Beartooth Pass 的山地点位预报而不是 Red Lodge 或 Cooke City 的镇上预报</li></ul><p><strong>结冰是清晨真正的危险，而不是雪：</strong></p><ul><li>白天融化的雪水在夜里重新冻成<strong>暗冰（black ice）</strong>，最容易出事的三个地方是：<strong>Rock Creek switchbacks 的阴面弯道、树线以上的桥面（尤其 2022 年新建的 Beartooth Ravine Bridge），以及垭口两侧背阴的路堑</strong>。桥面结冰早于路面，因为下方也在散热</li> <li>这条路<strong>没有路灯、大部分路段没有中央护栏、路肩窄</strong>，早年建设时工人给几个弯起的绰号是 Dead Man’s Curve 与 Mae West Curve</li><li><strong>清晨（日出前后）是路面最冷、结冰最严重的时刻；下午到傍晚路面最暖最干。</strong>这个事实直接决定了下面「日出还是日落」的答案</li></ul><p><strong>加油：这是本区最可能真的把你困住的一件事。</strong></p><ul><li><strong>Cooke City 到 Red Lodge 全程 64.0 英里，中间只有一个卖油的地方</strong>：<strong>Top of the World Store</strong>（海拔 <strong>9,396 英尺</strong>，距 Red Lodge 38.8 英里、距 Cooke City 24.6 英里）。它<strong>号称是 Red Lodge 与 Cooke City 之间唯一的加油、零食与纪念品点</strong>，夏季营业时间是 <strong>周一至周六 08:00–19:00、周日 08:00–18:00</strong>（旁边有一家四间房的 motel，宣称全年营业、冬季靠雪车进出）</li><li><strong>但它 9 月底是否还在营业、是否还有油，未能从官方渠道确认。</strong>这是一家单体小店，没有可核对的季节营业日历。<strong>请把它当成「开着就是运气」，绝对不要把它算进油量计划里。</strong>它同时也不是一个稳定的厕所或热饮点</li><li><strong>硬规则：在 Cooke City 加满再上山。</strong>Cooke City Exxon（204 Main St W）的<strong>油泵 24/7</strong>，而且 Cooke City 是一个冬季靠雪车维生的镇子，<strong>加油在这里是全年生意，9 月底不存在关门问题</strong>——这是本区最可靠的一条后勤事实。对面还有一家 Sinclair</li><li>如果你走 Chief Joseph 方向：<strong>Cooke City 到 Cody 76.5 英里之间同样没有加油站</strong>，同一条规则适用</li></ul><p><strong>手机信号：Cooke City 镇上有（弱），出镇往东基本就没有了，整条 Beartooth 与 Chief Joseph 的大部分路段无信号，Top of the World 也没有。</strong>这一条和上面的「封路监控」叠在一起才是完整的图景：<strong>你无法在路上查路况、无法叫救援、无法通知任何人你在哪里。</strong>离线地图、满油、保暖层、水与食物、一条毯子，在这条路上不是「装备清单」而是最低配置。出发前把当天计划告诉旅馆或同伴。</p><p><strong>相机方面的两个后果（与 Mammoth／Lamar 那一区相同，但更极端）：</strong>锂电池在 −10°C 下可用容量掉 30–50%，<strong>带 4–6 块贴身放在内层口袋</strong>；从垭口的低温回到暖气车里之前，<strong>先把机身与镜头装进密封塑料袋</strong>，否则冷镜片会瞬间结满冷凝水。此外<strong>大风加上高原的细砾是换镜头的最差环境</strong>——在车里换，或者索性一机一镜上去。</p><p><strong>—— 驾驶时间，以及「没有办法快速折返」这件事 ——</strong></p><p>以下距离与时间由 OSRM 路径规划器按 OSM 路网计算，<strong>是不含任何停车的乐观值</strong>。实际在这条路上请<strong>普遍加 15–25%</strong>：限速低、弯多、树线以上常有动物上路、慢车与摩托车队难超。</p><ul><li><strong>Cooke City → Beartooth Pass：33.2 英里／60 分钟（现实 70–80 分钟）</strong></li><li><strong>Beartooth Pass → Rock Creek Vista Point：10.4 英里／18 分钟</strong>（这一段就是 switchbacks，实际会更慢）</li><li><strong>Rock Creek Vista Point → Red Lodge：20.4 英里／38 分钟</strong></li><li><strong>Cooke City → Red Lodge 全程：64.0 英里／116 分钟</strong>。这和当地口径一致——Custer Gallatin NF 说「至少两小时不停车」，一位长期拍这条路的摄影者说<strong>「我从来没有在 4 到 5 小时以内开完过，因为我停不下来」</strong></li><li><strong>Cooke City → US-212／WY-296 路口：23.7 英里／43 分钟</strong>（分岔点，很重要）</li><li><strong>路口 → Sunlight Bridge Overlook：17.2 英里／35 分钟</strong></li><li><strong>Sunlight Bridge → Dead Indian Pass：9.7 英里／17 分钟</strong></li><li><strong>Dead Indian Pass → Cody：30.1 英里／42 分钟</strong></li><li><strong>Cooke City → Cody（全程 Chief Joseph）：76.5 英里／120 分钟</strong></li><li><strong>Red Lodge → Cody（WY-308／WY-72／WY-120，山外绕行）：63.5 英里／77 分钟</strong></li><li>衔接用：<strong>Lamar Confluence → Cooke City 19.0 英里／33 分钟</strong>；<strong>Northeast Entrance → Cooke City 4.0 英里／8 分钟</strong>（Silver Gate 在两者之间）</li></ul><p><strong>「没有办法快速绕回来」是本区的结构性问题，必须在排行程之前想清楚：</strong></p><ul><li>Beartooth Highway 与 Chief Joseph Scenic Byway <strong>共用 US-212 上同一个路口</strong>（Cooke City 以东 23.7 英里），两条都是从那里往外走。<strong>它们不构成一个可以从 Cooke City 出发、绕一圈回来的小环线。</strong>一旦你翻过 Beartooth 到了 Red Lodge，<strong>回 Cooke City 只有两个办法：原路翻回来（64 英里／116 分钟），或者绕整个 204 英里的大圈</strong></li><li><strong>完整环线的诚实数字：Cooke City → Red Lodge → Cody → Cooke City，共 204 英里，纯驾驶 5 小时 13 分。</strong>而这条路的全部意义在于停车，<strong>加上 Beartooth 沿线必要的停车拍摄（这条路上有十几个值得停的 pullout），现实是 10 到 13 小时，而且最后 1.5–2 小时必然在完全的黑暗中开 Chief Joseph。这不是「一个长日」，这是一个把整天吃光、并且没有任何余量应对天气或封路的日程。我不推荐。</strong></li></ul><p><strong>三个现实可行的版本（都以 Cooke City／Silver Gate 为基地）：</strong></p><ul><li><strong>版本 A（推荐，约 87 英里往返、纯驾驶 2 小时 36 分）：Cooke City → Beartooth Lake／Clay Butte／Top of the World → Beartooth Pass → Rock Creek Vista Point → 原路折返。</strong>不下到 Red Lodge。<strong>把 switchbacks 从 Rock Creek Vista 与它上方的 pullout 俯拍就够了，不需要真的开到底再爬回来。</strong>含拍摄 7–9 小时，赶得上垭口的日落</li><li><strong>版本 B（约 130 英里往返、纯驾驶 4 小时）：同上但一直下到 Red Lodge 再折返。</strong>多出来的是 Red Lodge 一端的 aspen 秋色、镇上的餐饮与加油、以及从下往上看整段 switchbacks 的视角。<strong>含拍摄 10–12 小时，会把整天用光。</strong>只有在你打算当晚住 Red Lodge、不折返的情况下才划算</li><li><strong>版本 C（约 101 英里往返、纯驾驶 3 小时 10 分）：Cooke City → US-212／WY-296 路口 → Sunlight Bridge → Dead Indian Pass → 原路折返。</strong>这是 Chief Joseph 的半日版，<strong>海拔低、更可靠、路况更宽松</strong>，也是 Beartooth 被雪封时的替代。含拍摄 5–6 小时，可以和别的安排拼在同一天</li></ul><p><strong>把 Beartooth 与 Chief Joseph 塞进同一天是可以的，但只有在你要一路开到 Cody 或 Red Lodge 过夜的前提下</strong>（也就是<strong>放弃折返</strong>）。如果当晚还要回 Cooke City，<strong>请二选一。</strong></p>"
+        "html": "<p><strong>温度落差（按标准气温垂减率 3.5°F／1,000 英尺推算，非实测）：</strong></p><ul><li>Beartooth Pass <strong>10,947 英尺</strong>比 Red Lodge（<strong>5,568 英尺</strong>）高 <strong>5,379 英尺</strong>，推算温差约 <strong>19°F（10.5°C）</strong>；比 Cooke City（<strong>约 7,650 英尺</strong>）高 3,300 英尺，推算温差约 <strong>12°F（6.5°C）</strong></li><li>加上垭口常年大风（20–30 mph 是常态，本区历史上以风著称，旁边那片高原就叫 Hellroaring Plateau），<strong>体感差 20–25°F 是很正常的</strong>。你在 Red Lodge 穿短袖，到垭口上要穿羽绒加防风外层，中间只隔 64 英里</li><li><strong>9 月下旬垭口的实际预期：清晨 −6 至 −2°C，白天 3–9°C，夜间可到 −10°C，随时可能有阵雪。</strong>这是推算值，出发前请看 Beartooth Pass 的山地点位预报而不是 Red Lodge 或 Cooke City 的镇上预报</li></ul><p><strong>结冰是清晨真正的危险，而不是雪：</strong></p><ul><li>白天融化的雪水在夜里重新冻成<strong>暗冰（black ice）</strong>，最容易出事的三个地方是：<strong>Rock Creek switchbacks 的阴面弯道、树线以上的桥面（尤其 2022 年新建的 Beartooth Ravine Bridge），以及垭口两侧背阴的路堑</strong>。桥面结冰早于路面，因为下方也在散热</li> <li>这条路<strong>没有路灯、大部分路段没有中央护栏、路肩窄</strong>，早年建设时工人给几个弯起的绰号是 Dead Man’s Curve 与 Mae West Curve</li><li><strong>清晨（日出前后）是路面最冷、结冰最严重的时刻；下午到傍晚路面最暖最干。</strong>这个事实直接决定了下面「日出还是日落」的答案</li></ul><p><strong>加油：这是本区最可能真的把你困住的一件事。</strong></p><ul><li><strong>Cooke City 到 Red Lodge 全程 64.0 英里，中间只有一个卖油的地方</strong>：<strong>Top of the World Store</strong>（海拔 <strong>9,396 英尺</strong>，距 Red Lodge 38.8 英里、距 Cooke City 24.6 英里）。它<strong>号称是 Red Lodge 与 Cooke City 之间唯一的加油、零食与纪念品点</strong>，夏季营业时间是 <strong>周一至周六 08:00–19:00、周日 08:00–18:00</strong>（旁边有一家四间房的 motel，宣称全年营业、冬季靠雪车进出）</li><li><strong>但它 9 月底是否还在营业、是否还有油，未能从官方渠道确认。</strong>这是一家单体小店，没有可核对的季节营业日历。<strong>请把它当成「开着就是运气」，绝对不要把它算进油量计划里。</strong>它同时也不是一个稳定的厕所或热饮点</li><li><strong>硬规则：在 Cooke City 加满再上山。</strong>Cooke City Exxon（204 Main St W）的<strong>油泵 24/7</strong>，而且 Cooke City 是一个冬季靠雪车维生的镇子，<strong>加油在这里是全年生意，9 月底不存在关门问题</strong>——这是本区最可靠的一条后勤事实。对面还有一家 Sinclair</li><li>如果你走 Chief Joseph 方向：<strong>Cooke City 到 Cody 76.5 英里之间同样没有加油站</strong>，同一条规则适用</li></ul><p><strong>手机信号：Cooke City 镇上有（弱），出镇往东基本就没有了，整条 Beartooth 与 Chief Joseph 的大部分路段无信号，Top of the World 也没有。</strong>这一条和上面的「封路监控」叠在一起才是完整的图景：<strong>你无法在路上查路况、无法叫救援、无法通知任何人你在哪里。</strong>离线地图、满油、保暖层、水与食物、一条毯子，在这条路上不是「装备清单」而是最低配置。出发前把当天计划告诉旅馆或同伴。</p><p><strong>相机方面的两个后果（与 Mammoth／Lamar 那一区相同，但更极端）：</strong>锂电池在 −10°C 下可用容量掉 30–50%，<strong>带 4–6 块贴身放在内层口袋</strong>；从垭口的低温回到暖气车里之前，<strong>先把机身与镜头装进密封塑料袋</strong>，否则冷镜片会瞬间结满冷凝水。此外<strong>大风加上高原的细砾是换镜头的最差环境</strong>——在车里换，或者索性一机一镜上去。</p><p><strong>—— 驾驶时间，以及「没有办法快速折返」这件事 ——</strong></p><p>以下距离与时间由 OSRM 路径规划器按 OSM 路网计算，<strong>是不含任何停车的乐观值</strong>。实际在这条路上请<strong>普遍加 15–25%</strong>：限速低、弯多、树线以上常有动物上路、慢车与摩托车队难超。</p><ul><li><strong>Cooke City → Beartooth Pass：33.2 英里／60 分钟（现实 70–80 分钟）</strong></li><li><strong>Beartooth Pass → Rock Creek Vista Point：10.4 英里／18 分钟</strong>（这一段就是 switchbacks，实际会更慢）</li><li><strong>Rock Creek Vista Point → Red Lodge：20.4 英里／38 分钟</strong></li><li><strong>Cooke City → Red Lodge 全程：64.0 英里／116 分钟</strong>。这和当地口径一致——Custer Gallatin NF 说「至少两小时不停车」，一位长期拍这条路的摄影者说<strong>「我从来没有在 4 到 5 小时以内开完过，因为我停不下来」</strong></li><li><strong>Cooke City → US-212／WY-296 路口：23.7 英里／43 分钟</strong>（分岔点，很重要）</li><li><strong>路口 → Sunlight Bridge Overlook：17.2 英里／35 分钟</strong></li><li><strong>Sunlight Bridge → Dead Indian Pass：9.7 英里／17 分钟</strong></li><li><strong>Dead Indian Pass → Cody：30.1 英里／42 分钟</strong></li><li><strong>Cooke City → Cody（全程 Chief Joseph）：76.5 英里／120 分钟</strong></li><li><strong>Red Lodge → Cody（WY-308／WY-72／WY-120，山外绕行）：63.5 英里／77 分钟</strong></li><li>衔接用：<strong>Lamar Confluence → Cooke City 19.0 英里／33 分钟</strong>；<strong>Northeast Entrance → Cooke City 4.0 英里／8 分钟</strong>（Silver Gate 在两者之间）</li></ul><p><strong>「没有办法快速绕回来」是本区的结构性问题，必须在排行程之前想清楚：</strong></p><ul><li>Beartooth Highway 与 Chief Joseph Scenic Byway <strong>共用 US-212 上同一个路口</strong>（Cooke City 以东 23.7 英里），两条都是从那里往外走。<strong>它们不构成一个可以从 Cooke City 出发、绕一圈回来的小环线。</strong>一旦你翻过 Beartooth 到了 Red Lodge，<strong>回 Cooke City 只有两个办法：原路翻回来（64 英里／116 分钟），或者绕整个 204 英里的大圈</strong></li><li><strong>完整环线的诚实数字：Cooke City → Red Lodge → Cody → Cooke City，共 204 英里，纯驾驶 5 小时 13 分。</strong>而这条路的全部意义在于停车，<strong>加上 Beartooth 沿线必要的停车拍摄（这条路上有十几个值得停的 pullout），现实是 10 到 13 小时，而且最后 1.5–2 小时必然在完全的黑暗中开 Chief Joseph。这不是「一个长日」，这是一个把整天吃光、并且没有任何余量应对天气或封路的日程。我不推荐。</strong></li></ul><p><strong>三个现实可行的版本（都以 Cooke City／Silver Gate 为基地）：</strong></p><ul><li><strong>版本 A（推荐，约 87 英里往返、纯驾驶 2 小时 36 分）：Cooke City → Beartooth Lake／Pilot-Index Overlook（Clay Butte 若已关就用这个）／Top of the World → Beartooth Pass → Rock Creek Vista Point → 原路折返。</strong>不下到 Red Lodge。<strong>把 switchbacks 从 Rock Creek Vista 与它上方的 pullout 俯拍就够了，不需要真的开到底再爬回来。</strong>含拍摄 7–9 小时，赶得上垭口的日落</li><li><strong>版本 B（约 130 英里往返、纯驾驶 4 小时）：同上但一直下到 Red Lodge 再折返。</strong>多出来的是 Red Lodge 一端的 aspen 秋色、镇上的餐饮与加油、以及从下往上看整段 switchbacks 的视角。<strong>含拍摄 10–12 小时，会把整天用光。</strong>只有在你打算当晚住 Red Lodge、不折返的情况下才划算</li><li><strong>版本 C（约 101 英里往返、纯驾驶 3 小时 10 分）：Cooke City → US-212／WY-296 路口 → Sunlight Bridge → Dead Indian Pass → 原路折返。</strong>这是 Chief Joseph 的半日版，<strong>海拔低、更可靠、路况更宽松</strong>，也是 Beartooth 被雪封时的替代。含拍摄 5–6 小时，可以和别的安排拼在同一天</li></ul><p><strong>把 Beartooth 与 Chief Joseph 塞进同一天是可以的，但只有在你要一路开到 Cody 或 Red Lodge 过夜的前提下</strong>（也就是<strong>放弃折返</strong>）。如果当晚还要回 Cooke City，<strong>请二选一。</strong></p>"
       },
       {
         "type": "info",
         "title": "日出日落钟点、完整黄金时刻，以及日出还是日落的取舍",
-        "html": "<p><strong>时区：Mountain Daylight Time（UTC−6）。夏令时到 2026 年 11 月 1 日才结束，9 月 22–29 日全程 MDT，不需要任何换算。</strong>以下由 NOAA 太阳位置算法按各点经纬度计算，<strong>均为平地平线时刻</strong>。</p><ul><li><strong>Beartooth Pass（44.9690, −109.4713，10,947 英尺）</strong>：<strong>9/24（周四）民用曙光 06:38／日出 07:08（方位 90.0°）／太阳最高 13:10（高度 44.3°）／日落 19:12（方位 270.0°）／民用暮光 19:42</strong>；<strong>9/25（周五）06:39／07:09（90.5°）／19:10（269.5°）／19:40</strong>。参考两端：9/22 06:36／07:05（88.9°）／19:16（271.1°）／19:45；9/29 06:44／07:14（92.7°）／19:03（267.3°）／19:32</li><li><strong>黄金时刻（太阳高度 0–6°）：清晨 07:08–07:46、傍晚 18:32–19:12，各约 38–40 分钟。</strong>9 月下旬接近秋分，<strong>日出方位就在 90°（正东）、日落在 270°（正西）</strong>，每天以约 0.5° 的速度往南移——这让方位记忆变得极简单</li><li><strong>Cooke City（45.0200, −109.9336）</strong>：9/24 日出 07:09／日落 19:14；9/25 07:11／19:12。比垭口晚约 1–2 分钟（经度更西）</li><li><strong>Dead Indian Pass（44.7429, −109.3828，8,048 英尺）</strong>：9/24 民用曙光 06:38／日出 07:07／日落 19:12／民用暮光 19:41；9/25 06:39／07:08／19:10／19:39</li><li><strong>Rock Creek Vista Point（45.0442, −109.4072，9,190 英尺）</strong>：9/24 06:38／07:07／19:12／19:41</li></ul><p><strong>现在是本区最重要的一条摄影事实，请和你在园内的经验对照着读：</strong></p><ul><li>在 <strong>Lamar Valley</strong>，谷底南有 Specimen Ridge、北有 Druid Peak，<strong>直射光真正打到谷底要比上表的日出晚 30–50 分钟</strong>，傍晚也提前同样多进入阴影。Grand Canyon of the Yellowstone 那种深峡谷里更糟。<strong>换句话说，园内绝大多数机位拿到的是一个被地形切掉两头的「打折黄金时刻」</strong></li><li>在 <strong>Beartooth Pass，你的头顶上没有任何地形。</strong>这是全 Wyoming 最高的公路点，向东、向西的地平线都是<strong>真地平线或远在几十英里外的低矮山脊</strong>。<strong>所以上表的 07:08 与 19:12 就是你实际拿到的日出与日落，一分钟都不打折——这是整份指南里唯一一个「完整黄金时刻」成立的地方。</strong></li><li><strong>而且它比完整还多一段。</strong>垭口四周是一圈 11,000–12,000 英尺的峰顶，日出前它们会先被打亮、日落后会最后熄灭，<strong>alpenglow 把可用光延长了大约 15–25 分钟（推算）</strong>。实操上这意味着：<strong>19:12 太阳落下之后不要收机器，往北和往西看，最高的峰顶还会红上一刻钟；到 19:42 民用暮光结束才是真的收工。</strong></li></ul><p><strong>高海拔的光学差别（这会改变你的滤镜与曝光习惯）：</strong></p><ul><li>11,000 英尺处的大气质量只有海平面的<strong>约三分之二</strong>，瑞利散射与气溶胶都少得多。直接后果是<strong>天空在照片里会渲染得明显更深、更蓝</strong>，而且<strong>直射光更硬、光比更大</strong>——同一台机器同一组参数，在这里拍出来的反差会比在 Lamar 高一档左右</li><li><strong>CPL 在这里要减半使用。</strong>本来天空就已经很深，偏振镜转到全效果会把天顶压成近乎墨蓝，而且<strong>广角（24mm 以下）会出现明显的深浅不均带</strong>，因为偏振效应在与太阳成 90° 的天区最强，视角一大就跨越了。<strong>转到三到五成、并且尽量不要在正对或背对太阳时用广角配 CPL。</strong>它真正有用的地方是压掉<strong>湖面反光</strong>（Beartooth Lake、Long Lake、Frozen Lake）和<strong>湿岩、残雪的表面反光</strong>，那两件事它做得很好</li><li><strong>霞光／远处的雾霭不是这里的问题，反差才是。</strong>所以带渐变减光镜（2–3 档软渐变）或直接做包围曝光，效果都好过指望 CPL——CPL 压不了亮部与暗部的绝对差</li><li><strong>残雪会骗测光。</strong>9 月下旬垭口一带的背阴处与雪沟里通常还留着夏季没融完的雪，加上随时可能落的新雪。矩阵测光看到大面积白色会压暗整张，<strong>需要 +0.7 至 +1.3 EV 补偿并盯着高光警告</strong></li></ul><p><strong>—— 那么，日出还是日落？这是本区最需要正面回答的取舍 ——</strong></p><p><strong>先把算术摆出来。</strong>Cooke City 到 Beartooth Pass <strong>33.2 英里</strong>，按路径规划器给的<strong>纯驾驶 60 分钟</strong>，但这是乐观值——弯多、限速低、树线以上常有山羊和马鹿上路、而且你会不由自主地在每个 pullout 减速。<strong>现实按 70–80 分钟算。</strong></p><p><strong>要在 9/24 的民用曙光 06:38 站在垭口上，你必须 05:15–05:20 从 Cooke City 出发。</strong>这意味着：在完全的黑暗里，从 7,650 英尺爬升 3,300 英尺，走一条<strong>没有路灯、当晚经历了整夜辐射冷却因而路面结冰概率最高的时刻、没有手机信号、这个季节这个时间几乎不会有第二辆车经过</strong>的高山公路。如果你在某个背阴弯道打滑滑出路面，<strong>没有人会知道，也没有办法叫人。</strong></p><p><strong>我的建议是：不要为日出上垭口。理由有四条，都不是主观的：</strong></p><ul><li><strong>（一）风险与收益不对称。</strong>清晨是这条路一天中路面最危险的时刻，而傍晚是最安全的（路面经过一整天日照，最暖最干）。同样一段 33 英里的高山路，你可以选在最好的时候开，也可以选在最坏的时候开，而<strong>光的质量并没有相应的差别来补偿这个风险</strong></li><li><strong>（二）9 月下旬日出与日落几乎完全对称。</strong>日出方位 90.0°、日落 270.0°，黄金时刻长度都是 38–40 分钟，太阳高度变化率一样。<strong>能在早上拍到的构图，傍晚几乎都能拍到，只是被照亮的坡面从东面换成西面。</strong>这不像某些机位那样「非早不可」</li><li><strong>（三）你在同一天还有一个更值钱的日出。</strong>本区实际上是和 Lamar Valley 串在一起走的，而 <strong>Lamar 的逆光晨雾＋野牛呼吸白气是整个东北角上限最高的一张照片</strong>，它必须在日出前后拍。<strong>把日出留给 Lamar、把日落留给 Beartooth Pass，是这一天唯一不浪费任何东西的排法</strong>（Lamar Confluence 到 Cooke City 只有 19 英里／33 分钟，衔接毫无压力）</li><li><strong>（四）如果你真的想要垭口的清晨光，有一个不需要夜路的版本</strong>：住 Red Lodge 那一端。从 Red Lodge 到 Rock Creek Vista 只有 20.4 英里／38 分钟，到垭口 30.8 英里／56 分钟，而且<strong>是从 5,568 英尺往上开、下半段在树线以下</strong>，性质完全不同。但这需要重排整个行程的住宿，不是当天能决定的事</li></ul><p><strong>所以推荐的排法（9/24 或 9/25）：</strong>Lamar 拍日出（06:41 民用曙光到位）→ 回 Cooke City 加满油、吃饭、查两州 511 →<strong>13:00–14:00 出发上山</strong>，把 Beartooth Lake／Clay Butte／Top of the World 一带留给午后，<strong>16:30 前后到 Beartooth Pass</strong>，拍 <strong>18:32–19:12 的黄金时刻</strong>，<strong>19:12–19:30 等 alpenglow</strong>，19:42 民用暮光结束后收工。</p><p><strong>但下山这件事必须说清楚，不要以为选了日落就没有代价：</strong><strong>你要在完全黑暗中开 70–80 分钟下山回 Cooke City，而且 19:12 太阳一落，垭口的温度会在半小时内掉 5–8°C，白天融的雪水开始重新结冰。</strong>这仍然是一段需要慢开的夜路，只是<strong>比清晨那一段安全得多</strong>：路面刚经过一整天日照、你白天已经开过一遍这条路认得弯、而且往下开时车灯照的是路而不是天空。<strong>把它当成计划的一部分接受下来，不要在暮光里为了多拍十分钟而临时延长。</strong></p><p><strong>另一个更保守的选项，不丢人：</strong>把垭口当成<strong>正午题材</strong>。11:00–15:00 太阳高度 35–44°，光很硬，<strong>但高原苔原、残雪、深蓝天空、湖面这一组题材恰恰是硬光加 CPL 才出得来的</strong>（这和峡谷里正午必死完全不同）。然后<strong>把黄金时刻交给海拔更低、离住处更近的点</strong>：Rock Creek Vista Point（9,190 英尺）或 Pilot &amp; Index Peaks Overlook，两者都能在天黑前回到铺装主路上。<strong>这个版本损失一点画面上限，换来完全不用开夜路——如果同车有人对高原反应或夜间山路敏感，这是对的选择。</strong></p>"
+        "html": "<p><strong>时区：Mountain Daylight Time（UTC−6）。夏令时到 2026 年 11 月 1 日才结束，9 月 22–29 日全程 MDT，不需要任何换算。</strong>以下由 NOAA 太阳位置算法按各点经纬度计算，<strong>均为平地平线时刻</strong>。</p><ul><li><strong>Beartooth Pass（44.9690, −109.4713，10,947 英尺）</strong>：<strong>9/24（周四）民用曙光 06:38／日出 07:08（方位 90.0°）／太阳最高 13:10（高度 44.3°）／日落 19:12（方位 270.0°）／民用暮光 19:42</strong>；<strong>9/25（周五）06:39／07:09（90.5°）／19:10（269.5°）／19:40</strong>。参考两端：9/22 06:36／07:05（88.9°）／19:16（271.1°）／19:45；9/29 06:44／07:14（92.7°）／19:03（267.3°）／19:32</li><li><strong>黄金时刻（太阳高度 0–6°）：清晨 07:08–07:46、傍晚 18:32–19:12，各约 38–40 分钟。</strong>9 月下旬接近秋分，<strong>日出方位就在 90°（正东）、日落在 270°（正西）</strong>，每天以约 0.5° 的速度往南移——这让方位记忆变得极简单</li><li><strong>Cooke City（45.0200, −109.9336）</strong>：9/24 日出 07:09／日落 19:14；9/25 07:11／19:12。比垭口晚约 1–2 分钟（经度更西）</li><li><strong>Dead Indian Pass（44.7429, −109.3828，8,048 英尺）</strong>：9/24 民用曙光 06:38／日出 07:07／日落 19:12／民用暮光 19:41；9/25 06:39／07:08／19:10／19:39</li><li><strong>Rock Creek Vista Point（45.0442, −109.4072，9,190 英尺）</strong>：9/24 06:38／07:07／19:12／19:41</li></ul><p><strong>现在是本区最重要的一条摄影事实，请和你在园内的经验对照着读：</strong></p><ul><li>在 <strong>Lamar Valley</strong>，谷底南有 Specimen Ridge、北有 Druid Peak，<strong>直射光真正打到谷底要比上表的日出晚 30–50 分钟</strong>，傍晚也提前同样多进入阴影。Grand Canyon of the Yellowstone 那种深峡谷里更糟。<strong>换句话说，园内绝大多数机位拿到的是一个被地形切掉两头的「打折黄金时刻」</strong></li><li>在 <strong>Beartooth Pass，你的头顶上没有任何地形。</strong>这是全 Wyoming 最高的公路点，向东、向西的地平线都是<strong>真地平线或远在几十英里外的低矮山脊</strong>。<strong>所以上表的 07:08 与 19:12 就是你实际拿到的日出与日落，一分钟都不打折——这是整份指南里唯一一个「完整黄金时刻」成立的地方。</strong></li><li><strong>而且它比完整还多一段。</strong>垭口四周是一圈 11,000–12,000 英尺的峰顶，日出前它们会先被打亮、日落后会最后熄灭，<strong>alpenglow 把可用光延长了大约 15–25 分钟（推算）</strong>。实操上这意味着：<strong>19:12 太阳落下之后不要收机器，往北和往西看，最高的峰顶还会红上一刻钟；到 19:42 民用暮光结束才是真的收工。</strong></li></ul><p><strong>高海拔的光学差别（这会改变你的滤镜与曝光习惯）：</strong></p><ul><li>11,000 英尺处的大气质量只有海平面的<strong>约三分之二</strong>，瑞利散射与气溶胶都少得多。直接后果是<strong>天空在照片里会渲染得明显更深、更蓝</strong>，而且<strong>直射光更硬、光比更大</strong>——同一台机器同一组参数，在这里拍出来的反差会比在 Lamar 高一档左右</li><li><strong>CPL 在这里要减半使用。</strong>本来天空就已经很深，偏振镜转到全效果会把天顶压成近乎墨蓝，而且<strong>广角（24mm 以下）会出现明显的深浅不均带</strong>，因为偏振效应在与太阳成 90° 的天区最强，视角一大就跨越了。<strong>转到三到五成、并且尽量不要在正对或背对太阳时用广角配 CPL。</strong>它真正有用的地方是压掉<strong>湖面反光</strong>（Beartooth Lake、Long Lake、Frozen Lake）和<strong>湿岩、残雪的表面反光</strong>，那两件事它做得很好</li><li><strong>霞光／远处的雾霭不是这里的问题，反差才是。</strong>所以带渐变减光镜（2–3 档软渐变）或直接做包围曝光，效果都好过指望 CPL——CPL 压不了亮部与暗部的绝对差</li><li><strong>残雪会骗测光。</strong>9 月下旬垭口一带的背阴处与雪沟里通常还留着夏季没融完的雪，加上随时可能落的新雪。矩阵测光看到大面积白色会压暗整张，<strong>需要 +0.7 至 +1.3 EV 补偿并盯着高光警告</strong></li></ul><p><strong>—— 那么，日出还是日落？这是本区最需要正面回答的取舍 ——</strong></p><p><strong>先把算术摆出来。</strong>Cooke City 到 Beartooth Pass <strong>33.2 英里</strong>，按路径规划器给的<strong>纯驾驶 60 分钟</strong>，但这是乐观值——弯多、限速低、树线以上常有山羊和马鹿上路、而且你会不由自主地在每个 pullout 减速。<strong>现实按 70–80 分钟算。</strong></p><p><strong>要在 9/24 的民用曙光 06:38 站在垭口上，你必须 05:15–05:20 从 Cooke City 出发。</strong>这意味着：在完全的黑暗里，从 7,650 英尺爬升 3,300 英尺，走一条<strong>没有路灯、当晚经历了整夜辐射冷却因而路面结冰概率最高的时刻、没有手机信号、这个季节这个时间几乎不会有第二辆车经过</strong>的高山公路。如果你在某个背阴弯道打滑滑出路面，<strong>没有人会知道，也没有办法叫人。</strong></p><p><strong>我的建议是：不要为日出上垭口。理由有四条，都不是主观的：</strong></p><ul><li><strong>（一）风险与收益不对称。</strong>清晨是这条路一天中路面最危险的时刻，而傍晚是最安全的（路面经过一整天日照，最暖最干）。同样一段 33 英里的高山路，你可以选在最好的时候开，也可以选在最坏的时候开，而<strong>光的质量并没有相应的差别来补偿这个风险</strong></li><li><strong>（二）9 月下旬日出与日落几乎完全对称。</strong>日出方位 90.0°、日落 270.0°，黄金时刻长度都是 38–40 分钟，太阳高度变化率一样。<strong>能在早上拍到的构图，傍晚几乎都能拍到，只是被照亮的坡面从东面换成西面。</strong>这不像某些机位那样「非早不可」</li><li><strong>（三）你在同一天还有一个更值钱的日出。</strong>本区实际上是和 Lamar Valley 串在一起走的，而 <strong>Lamar 的逆光晨雾＋野牛呼吸白气是整个东北角上限最高的一张照片</strong>，它必须在日出前后拍。<strong>把日出留给 Lamar、把日落留给 Beartooth Pass，是这一天唯一不浪费任何东西的排法</strong>（Lamar Confluence 到 Cooke City 只有 19 英里／33 分钟，衔接毫无压力）</li><li><strong>（四）如果你真的想要垭口的清晨光，有一个不需要夜路的版本</strong>：住 Red Lodge 那一端。从 Red Lodge 到 Rock Creek Vista 只有 20.4 英里／38 分钟，到垭口 30.8 英里／56 分钟，而且<strong>是从 5,568 英尺往上开、下半段在树线以下</strong>，性质完全不同。但这需要重排整个行程的住宿，不是当天能决定的事</li></ul><p><strong>所以推荐的排法（9/24 或 9/25）：</strong>Lamar 拍日出（06:41 民用曙光到位）→ 回 Cooke City 加满油、吃饭、查两州 511 →<strong>13:00–14:00 出发上山</strong>，把 Beartooth Lake／Pilot-Index Overlook／Top of the World 一带留给午后（<strong>Clay Butte 瞭望台 9 月下旬极可能已关，路口顺路看一眼即可，不要为它留时间</strong>），<strong>16:30 前后到 Beartooth Pass</strong>，拍 <strong>18:32–19:12 的黄金时刻</strong>，<strong>19:12–19:30 等 alpenglow</strong>，19:42 民用暮光结束后收工。</p><p><strong>但下山这件事必须说清楚，不要以为选了日落就没有代价：</strong><strong>你要在完全黑暗中开 70–80 分钟下山回 Cooke City，而且 19:12 太阳一落，垭口的温度会在半小时内掉 5–8°C，白天融的雪水开始重新结冰。</strong>这仍然是一段需要慢开的夜路，只是<strong>比清晨那一段安全得多</strong>：路面刚经过一整天日照、你白天已经开过一遍这条路认得弯、而且往下开时车灯照的是路而不是天空。<strong>把它当成计划的一部分接受下来，不要在暮光里为了多拍十分钟而临时延长。</strong></p><p><strong>另一个更保守的选项，不丢人：</strong>把垭口当成<strong>正午题材</strong>。11:00–15:00 太阳高度 35–44°，光很硬，<strong>但高原苔原、残雪、深蓝天空、湖面这一组题材恰恰是硬光加 CPL 才出得来的</strong>（这和峡谷里正午必死完全不同）。然后<strong>把黄金时刻交给海拔更低、离住处更近的点</strong>：Rock Creek Vista Point（9,190 英尺）或 Pilot &amp; Index Peaks Overlook，两者都能在天黑前回到铺装主路上。<strong>这个版本损失一点画面上限，换来完全不用开夜路——如果同车有人对高原反应或夜间山路敏感，这是对的选择。</strong></p>"
       },
       {
         "type": "tip",
@@ -2663,7 +2663,20 @@ var REGIONS = [
           "<strong>清晨路面结暗冰，switchbacks 的阴面弯道最危险。</strong>从 Red Lodge 上来时前半段在树线以下、结冰概率较低，但过了本站往垭口去就进入树线以上，结冰是常态",
           "<strong>没有手机信号、没有饮水、没有餐饮。</strong>最近的补给在 Red Lodge（东 20.4 英里）；往西到 Cooke City 是 43.6 英里，中间只有营业状态不明的 Top of the World Store"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Beartooth_Highway_overlook_MT1.jpg",
+            "cap": "Rock Creek Vista 观景平台本身 · Acroterion / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Rock_Creek_Vista_Point_%28Beartooth_Mountains%2C_Montana%2C_USA%29.jpg",
+            "cap": "从观景点俯瞰 Rock Creek 冰川谷 · James St. John / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Beartooth_Highway_-_Stunning_View_from_Rock_Creek_Vista_Point_-_NARA_-_7717207.jpg",
+            "cap": "Rock Creek Vista Point 的谷底视野 · NARA / Public domain"
+          }
+        ]
       },
       {
         "id": "beartooth-switchbacks",
@@ -2755,7 +2768,20 @@ var REGIONS = [
           "<strong>本段在树线上下之间，是 grizzly 与 black bear 都可能出现的地形。</strong>路肩活动风险低，<strong>但只要离开路肩走进林子或草坡就带熊喷雾</strong>；距熊与狼 100 码（91 米），距其他动物 25 码（23 米）",
           "<strong>没有手机信号、没有厕所、没有饮水。</strong>最近的厕所在 Rock Creek Vista Point 与 45.05851／−109.41251；最近的一切其他东西在 Red Lodge（北 14–20 英里）"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Beartooth_Highway_-_Rock_Creek_Valley_MT1.jpg",
+            "cap": "Rock Creek 谷与其后的 Hellroaring Plateau · Acroterion / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Beartooth_Highway_%28Rock_Creek_Canyon%2C_Beartooth_Mountains%2C_Montana%2C_USA%29_6.jpg",
+            "cap": "Rock Creek Canyon 段的盘山公路 · James St. John / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/4/41/Beartooth_Pass_%28valley%29.jpg",
+            "cap": "自 Red Lodge 以南向西南望 Rock Creek Canyon · Chris Light / CC BY-SA 4.0"
+          }
+        ]
       },
       {
         "id": "cooke-city-silver-gate",
@@ -2849,7 +2875,20 @@ var REGIONS = [
           "<strong>请把这里当成有人住的地方来拍。</strong><strong>Cooke City 常住人口不足 100 人，主街上大部分建筑既是店面也是住家。</strong>拍摄店面外观、街景没有问题，但不要进入私人院落、不要拍摄居民特写，<strong>也不要在 Northeast Entrance Station 拍摄工作人员或车辆牌照</strong>",
           "<strong>不要指望在 9 月最后一周还能挑餐厅。</strong><strong>Beartooth Cafe 与 Cooke City Store 的官方口径都是「开到 9 月底」，意味着你赶上的是最后一两周；其余店家逐家状态未能核实。</strong><strong>如果当天要早出晚归，请预设晚上回来时没有热食可吃，白天在 Exxon 便利店把补给买齐</strong>"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Beartooth_Highway_-_Cooke_City_-_NARA_-_7717221.jpg",
+            "cap": "Cooke City 主街与补给点 · NARA / Public domain"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Silver_Gate%2C_Montana_%2850436895092%29.jpg",
+            "cap": "Silver Gate 的 General Store 与原木住宿 · Larry Lamsa / CC BY 2.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Northeast_Entrance_Station_%2843829754261%29.jpg",
+            "cap": "列入 NRHP 的 Northeast Entrance Station · Jacob W. Frank / NPS / Public domain"
+          }
+        ]
       },
       {
         "id": "beartooth-pass-summit",
@@ -2955,7 +2994,20 @@ var REGIONS = [
           "<strong>正午在这里不是坏时段，这与峡谷机位完全相反。</strong>11:00–15:00 太阳高度 35–44°，光很硬，<strong>但苔原色块、残雪、深蓝天空与冰斗湖这一组题材恰恰需要硬光加 CPL</strong>。所以即使你只能在中午通过这里，也不要觉得白来了",
           "<strong>没有手机信号、没有饮水、没有餐饮、没有维修。</strong>最近的一切都在 Cooke City（西 33 英里）或 Red Lodge（东 31 英里）。<strong>离线地图、满油、保暖层、水与食物是最低配置</strong>，出发前把计划告诉别人"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Beartooth_Highway_-_The_West_Summit_of_Beartooth_Pass_-_NARA_-_7717203.jpg",
+            "cap": "West Summit 一带的 US-212 与高原 · NARA / Public domain"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Beartooth_Highway_-_Alpine_Tundra_on_Top_of_Beartooth_Pass_-_NARA_-_7717205.jpg",
+            "cap": "垭口顶部的高山苔原与散石 · NARA / Public domain"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Beartooth_Pass_WY-MT_1999-1.jpg",
+            "cap": "Beartooth Pass 一带的公路与山体 · Acroterion / CC BY-SA 4.0"
+          }
+        ]
       },
       {
         "id": "beartooth-island-lakes",
@@ -3006,10 +3058,14 @@ var REGIONS = [
           {
             "name": "Island Lake 湖岸与船坡（兼本区最好的星空机位）",
             "park": [
-              44.94787,
-              -109.54087
+              44.94284,
+              -109.53873
             ],
-            "desc": "<strong>本机位同样省略 view 字段：Island Lake 的营地与船坡在 OSM 上没有独立停车实体，只有湖体多边形（中心 44.94787, −109.54087，此即 park 用的近似位置），地图上不会有机位针脚。</strong>从 US-212 有一条<strong>短支路向北通到营地与船坡</strong>（<strong>营地 9 月中已关，车辆能否驶入未能确认，请预设可能要停在路口步行</strong>）。<strong>Island Lake 的性格与 Beartooth Lake 不同</strong>：它更靠树线以下，<strong>森林局部环抱、有开阔草坡缓缓下到水边</strong>，远景是 Beartooth 群峰的脊线。<strong>这是本区最适合「开阔草坡＋湖＋远山」三段式构图的地方</strong>，9 月下旬草坡已经转成枯金色。<strong>时段：清晨（07:08–09:00）与傍晚（17:30–19:11）都可以</strong>——清晨湖面更平，傍晚远山脊线更暖。24–70mm 为主，70–200mm 拍对岸林线与山脊的层次。<strong>另一个专门的用途：这是本子地区最好的星空机位。</strong>9,518 英尺、空气极干净、周围几十英里没有任何光污染，营地关闭后更是完全没有人。9 月下旬入夜后银河已偏西南，选新月前后。<strong>但请老实评估这件事：它意味着深夜独自待在 grizzly 活动区的湖边，而且回 Cooke City 要在黑暗中开 45 分钟高山路。除非同行有人、而且你已经在白天开过这一段，否则不建议。</strong>"
+            "view": [
+              44.94119,
+              -109.54
+            ],
+            "desc": "<strong>park 是 OSM 核实的停车场（way 175953852，44.94284, −109.53873）；view 用的是 Island Lake Campground 面实体的中心（way 175953962，44.94119, −109.54000，该面南北跨 44.93989–44.94236、东西跨 −109.54176 至 −109.53794）。请注意这是营地范围的中心而不是某个精确的岸边站位——湖岸上没有任何独立的 OSM 节点可对应到具体站位，实际取景请在营地范围内沿岸自行选择。营地内另有一间厕所（44.94233, −109.54051），停车场到营地中心约 209 米。</strong>从 US-212 有<strong>短支路通到营地与船坡</strong>（<strong>营地 9 月中已关，车辆能否驶入未能确认，请预设可能要停在路口步行</strong>）。<strong>Island Lake 的性格与 Beartooth Lake 不同</strong>：它更靠树线以下，<strong>森林局部环抱、有开阔草坡缓缓下到水边</strong>，远景是 Beartooth 群峰的脊线。<strong>这是本区最适合「开阔草坡＋湖＋远山」三段式构图的地方</strong>，9 月下旬草坡已经转成枯金色。<strong>时段：清晨（07:08–09:00）与傍晚（17:30–19:11）都可以</strong>——清晨湖面更平，傍晚远山脊线更暖。24–70mm 为主，70–200mm 拍对岸林线与山脊的层次。<strong>另一个专门的用途：这是本子地区最好的星空机位。</strong>9,518 英尺、空气极干净、周围几十英里没有任何光污染，营地关闭后更是完全没有人。9 月下旬入夜后银河已偏西南，选新月前后。<strong>但请老实评估这件事：它意味着深夜独自待在 grizzly 活动区的湖边，而且回 Cooke City 要在黑暗中开 45 分钟高山路。除非同行有人、而且你已经在白天开过这一段，否则不建议。</strong>"
           },
           {
             "name": "Top of the World Store 与 Beartooth Falls 一带",
@@ -3040,7 +3096,20 @@ var REGIONS = [
           "<strong>Top of the World Store 不要算进补给计划。</strong>它是这条路上唯一卖油的地方，但<strong>9 月底的营业状态未能核实</strong>。<strong>标准做法是在 Cooke City 加满（Exxon 油泵 24/7、全年营业）。</strong>",
           "<strong>整个 Beartooth Lake／Island Lake／Top of the World 区域没有手机信号。</strong>这一点在你打算待到天黑拍星空时尤其重要——<strong>出发前把计划和预计返回时间告诉别人</strong>"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Beartooth_Highway_-_Beartooth_Butte_Reflection_-_NARA_-_7717238.jpg",
+            "cap": "Beartooth Butte 在湖面的倒影 · NARA / Public domain"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Beartooth_Mtns_%28Pan%29.jpg",
+            "cap": "向西南望 “Top of the World” 湖区全景 · Chris Light / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Beartooth_Highway_-_Fly_Fishing_the_Beartooth_Mountains_-_NARA_-_7717225.jpg",
+            "cap": "Beartooth 高山湖上的飞钓者 · NARA / Public domain"
+          }
+        ]
       },
       {
         "id": "clay-butte-lookout",
@@ -3121,7 +3190,16 @@ var REGIONS = [
           "<strong>无任何手机信号，无饮用水。</strong>vault toilet 在开放季可用（44.94449, −109.62630），关季状态不明",
           "<strong>不要为了「反正来了」而在关闭的闸门外硬拍。</strong><strong>闸门位置（44.95184, −109.63293）本身没有视野——视野在最后 0.4 公里爬升之后才打开。</strong>与其耗在这里，不如把时间给 Beartooth Lake 的倒影或垭口的日落"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Beartooth_Highway_-_View_from_Clay_Butte_Lookout_-_NARA_-_7717267.jpg",
+            "cap": "自 Clay Butte Lookout 望出的高原全景 · NARA / Public domain"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Beartooth_Highway_-_Pilot_Peak_-_NARA_-_7717278.jpg",
+            "cap": "Pilot Peak——替代机位的主要拍摄对象 · NARA / Public domain"
+          }
+        ]
       },
       {
         "id": "sunlight-bridge",
@@ -3213,7 +3291,20 @@ var REGIONS = [
           "<strong>这一带是 grizzly 与黑熊活动区，且 Sunlight Creek 两岸的灌木带正是熊会走的通道。</strong>距熊与狼 100 码（91 米），距其他动物 25 码（23 米）；<strong>下到野餐区时熊喷雾随身，尤其在河岸柳丛边</strong>",
           "<strong>无手机信号。</strong>WY-296 全线基本无覆盖，直到接近 Cody 才恢复。<strong>这意味着你不能在这里查 Beartooth 的封路状态——请在 Cooke City 或 Cody 查好再进来</strong>"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Sunlight_bridge.jpg",
+            "cap": "Sunlight Bridge 桥体与它跨越的窄峡 · U.S. Forest Service / Public domain"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Sunlight-creek-gorge-along-the-chief-joseph-scenic-byway-WY-October-2010-joni-packard-40620015_%285864414413%29.jpg",
+            "cap": "Sunlight Creek 峡谷（2010 年 10 月） · Joni Packard / U.S. Forest Service / Public domain"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Along-the-chief-joseph-scenic-byway-sunlight-creek-wy-05112011-rogermpeterson-001_%286097422328%29.jpg",
+            "cap": "Sunlight Creek 一带的 WY-296 · Roger M. Peterson / U.S. Forest Service / Public domain"
+          }
+        ]
       },
       {
         "id": "dead-indian-pass",
@@ -3307,7 +3398,20 @@ var REGIONS = [
           "<strong>Cody 侧的发卡弯下降 3,000 英尺、连续急弯，路面好但坡长。</strong>下山请用低挡控速而不是持续踩刹车；<strong>停车观景一律进正式 pullout，不要停在弯道上——这条路上有货车</strong>",
           "<strong>不要在观景台上等日落全景。</strong><strong>9/24 日落 19:12、民用暮光结束 19:41，但西北主视野在 18:30 之后就已经完全逆光。</strong>真要拍 WY-296 的日落，站位应换到向东南俯瞰的一侧"
         ],
-        "images": []
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Dead_Indian_Pass.jpg",
+            "cap": "自 Dead Indian Pass 顶部向外的视野 · Smallchief / CC BY-SA 4.0"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/View-from-dead-indian-pass-summit-along-chief-jospeh-scenic-byway-WY-October-2010-joni-packard-40620016_%286097550158%29.jpg",
+            "cap": "Dead Indian Pass 鞍部视野（2010 年 10 月） · Joni Packard / U.S. Forest Service / Public domain"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Along-chief-joseph-scenic-byway-at-dead-indian-pass-october-2010-by-joni-packard_%285688140353%29.jpg",
+            "cap": "Dead Indian Pass 一带的 WY-296 · Joni Packard / U.S. Forest Service / Public domain"
+          }
+        ]
       }
     ]
   },
