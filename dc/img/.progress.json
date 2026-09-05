@@ -1,15 +1,24 @@
 {
  "region": "dc",
- "pid": 46964,
- "total": 146,
- "done": 10,
- "ok": 7,
- "skipped": 3,
- "failed": 0,
- "current": "[11/146] prince-st-cobblestones-alexandria-va-11b38858",
- "phase": "downloading",
- "started_at": 1788599989.392166,
- "updated_at": 1788600029.417429,
- "finished": false,
- "recent_failures": []
+ "pid": 78555,
+ "total": 2,
+ "done": 2,
+ "ok": 0,
+ "skipped": 0,
+ "failed": 2,
+ "current": null,
+ "phase": "done-with-failures",
+ "started_at": 1788602531.998095,
+ "updated_at": 1788603105.787477,
+ "finished": true,
+ "recent_failures": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Space_Window_-_South_Nave_Bay_E_-_National_Cathedral_-_DC.JPG",
+   "why": "HTTP Error 400: Use thumbnail sizes listed on https://w.wiki/GHai"
+  },
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Looking_up_the_Exorcist_steps_in_Georgetown._-_panoramio.jpg",
+   "why": "HTTP Error 400: Use thumbnail sizes listed on https://w.wiki/GHai"
+  }
+ ]
 }

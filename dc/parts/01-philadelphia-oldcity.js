@@ -239,11 +239,11 @@ module.exports = {
           '（截至 nps.gov 8 月 17 日的口径），如原本想串这一站请删掉'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Chestnut_Street_in_front_of_Independence_Hall.jpg',
+        { url: 'img/chestnut-street-in-front-of-independence-hall-eff52992.jpg',
           cap: 'Chestnut Street 正立面机位视角 · Myotus / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Independence_Hall_008.jpg',
+        { url: 'img/independence-hall-008-7f5f714d.jpg',
           cap: '钟塔与正立面（阴天均匀光的效果） · Foolish Productions Photography / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Independence_Hall%2C_Philadelphia_20240528.jpg',
+        { url: 'img/independence-hall-philadelphia-20240528-01d813ec.jpg',
           cap: '独立厅全景 · 颐园居 / CC BY-SA 4.0' }
       ]
     },
@@ -349,11 +349,11 @@ module.exports = {
           '当前 CR 保护期到 2026 年 12 月 11 日，本窗口内风险极低（详见前置提醒）'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Liberty_Bell_with_Independence_Hall.jpg',
+        { url: 'img/liberty-bell-with-independence-hall-748ac37c.jpg',
           cap: '自由钟与玻璃墙后的独立厅（招牌视线） · Abhiram Juvvadi / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/50/Independence_Hall_reflected_in_the_glass_of_the_Liberty_Bell_Center_with_the_Liberty_Bell_visible_through_the_glass.jpg',
+        { url: 'img/independence-hall-reflected-in-the-glass-of-the-liberty-bell-442cccb0.jpg',
           cap: '独立厅倒映在玻璃上、钟透过玻璃可见 · Impala402 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Independence_Hall_and_Liberty_Bell_Center.jpg',
+        { url: 'img/independence-hall-and-liberty-bell-center-8ecd4077.jpg',
           cap: '独立厅与自由钟中心的位置关系（宽幅） · Myotus / CC BY-SA 4.0' }
       ]
     },
@@ -479,11 +479,11 @@ module.exports = {
         '<strong>本条目不受联邦拨款影响</strong>（公共街道加私立小博物馆），是停摆情形下的可靠备份'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/06/Elfreth%27s_Alley_streetscape.jpg',
+        { url: 'img/elfreth-s-alley-streetscape-911d9636.jpg',
           cap: '巷道街景与鹅卵石路面 · Sam Nabi / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Elfreth%27s_Alley_from_2nd_Street.jpg',
+        { url: 'img/elfreth-s-alley-from-2nd-street-f5c8ff70.jpg',
           cap: '自 N 2nd Street 西端望入（即主机位视角） · Beyond My Ken / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Elfreth%27s_Alley_south_side_from_Front_Street.jpg',
+        { url: 'img/elfreth-s-alley-south-side-from-front-street-c6e9382c.jpg',
           cap: '自 N Front Street 东端看南侧一排 · Beyond My Ken / CC BY-SA 4.0' }
       ]
     },
@@ -605,11 +605,11 @@ module.exports = {
         '<strong>本条目由教会运营，不受联邦拨款影响</strong>，是停摆情形下的可靠备份'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/ed/Christ_Church%2C_Philadelphia_12.2021_%28edited%29.jpg',
+        { url: 'img/christ-church-philadelphia-12-2021-edited-1ebc8534.jpg',
           cap: 'Christ Church 立面与 1754 年塔尖 · Al R / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/37/Christ_Church_interior.jpg',
+        { url: 'img/christ-church-interior-5bec2526.jpg',
           cap: '中殿柱廊与 Palladian 式圣坛窗 · J. Passepartout / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Christ_Church_Burial_Ground.jpg',
+        { url: 'img/christ-church-burial-ground-21dabc1f.jpg',
           cap: 'Christ Church Burial Ground 墓园 · Andrea Kennedy (Fernweh Travel Images) / CC BY-SA 4.0' }
       ]
     },
@@ -714,11 +714,11 @@ module.exports = {
           '万一 NPS 那两处关门，这里是 Old City 唯一还开着的大型室内目的地'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Museum_of_the_American_Revolution_%2853590618560%29.jpg',
+        { url: 'img/museum-of-the-american-revolution-53590618560-e76a3680.jpg',
           cap: '3rd & Chestnut 街角外观 · ajay_suresh / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Museum_of_the_American_Revolution_-_Joy_of_Museums_3.jpg',
+        { url: 'img/museum-of-the-american-revolution-joy-of-museums-3-4230d42b.jpg',
           cap: '常设展厅内景（低照度加射灯的典型条件） · GordonMakryllos / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Museum_of_the_American_Revolution.jpg',
+        { url: 'img/museum-of-the-american-revolution-23134ba7.jpg',
           cap: '博物馆建筑全景 · Frances 84 28 / CC BY-SA 4.0' }
       ]
     },
@@ -856,11 +856,11 @@ module.exports = {
         '<strong>本条目由市场公司运营，不受联邦拨款影响</strong>，是停摆情形下的可靠备份'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Reading_Terminal_Market_%2853587020195%29.jpg',
+        { url: 'img/reading-terminal-market-53587020195-2e4196f4.jpg',
           cap: '市场大厅通道与摊位招牌 · ajay_suresh / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/95/Reading_Terminal_Market_%283399715590%29.jpg',
+        { url: 'img/reading-terminal-market-3399715590-f703ae7a.jpg',
           cap: '摊位与混合色温的实际观感 · Quinn Dombrowski / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/dc/Reading_Terminal_Market_2.jpg',
+        { url: 'img/reading-terminal-market-2-a79e1437.jpg',
           cap: '市场内景 · N1NJ4 / CC BY 2.0' }
       ]
     },
@@ -1051,11 +1051,11 @@ module.exports = {
           '是停摆情形下最强的备份目标'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Philadelphia_City_Hall_tower.jpg',
+        { url: 'img/philadelphia-city-hall-tower-bf1d87f0.jpg',
           cap: '钟塔与 William Penn 铜像 · Nickvud / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Philadelphia_City_Hall_South.jpg',
+        { url: 'img/philadelphia-city-hall-south-3cbdbe8f.jpg',
           cap: '南立面与 Broad Street 轴线方向 · Magiluke / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/80/City_Hall%2C_2013%2C_Philadelphia_PA.jpg',
+        { url: 'img/city-hall-2013-philadelphia-pa-3af5faf7.jpg',
           cap: 'Second Empire 立面与 Calder 雕塑群 · John Phelan / CC BY-SA 3.0' }
       ]
     }

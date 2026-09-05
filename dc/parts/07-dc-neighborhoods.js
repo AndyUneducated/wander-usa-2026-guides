@@ -191,11 +191,11 @@ module.exports = {
         'Key Bridge 桥面人行道很窄且紧贴车流，<strong>桥上架三脚架会被 Arlington 一侧的警察劝离</strong>，桥上请手持'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Chesapeake_and_Ohio_Canal_panorama.jpg',
+        { url: 'img/chesapeake-and-ohio-canal-panorama-cfbbb349.jpg',
           cap: 'Georgetown 段运河与纤道全景 · APK / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/72/Chesapeake_and_Ohio_Canal_and_Key_Bridge.jpg',
+        { url: 'img/chesapeake-and-ohio-canal-and-key-bridge-57b97175.jpg',
           cap: '运河尽头与 Key Bridge · APK / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/20/Georgetown_Waterfront_Park_and_Rosslyn.jpg',
+        { url: 'img/georgetown-waterfront-park-and-rosslyn-0177fb7e.jpg',
           cap: '滨水公园对望 Rosslyn 天际线 · APK / CC BY-SA 4.0' }
       ]
     },
@@ -306,11 +306,11 @@ module.exports = {
         'Georgetown Car Barn 目前是 Georgetown University 的办公与教室楼，<strong>不对公众开放</strong>，只能拍外墙'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/07/Exorcist_Steps_%2850391769906%29.png',
+        { url: 'img/exorcist-steps-50391769906-ca13a718.png',
           cap: '阶梯全貌与两侧夹壁 · Ben Schumin / CC BY-SA 2.0' },
         { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Looking_up_the_Exorcist_steps_in_Georgetown._-_panoramio.jpg',
           cap: '自底部仰视 75 级台阶 · olekinderhook / CC BY 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1d/Exorcist_steps_-_3.jpg',
+        { url: 'img/exorcist-steps-3-ebb3e8f9.jpg',
           cap: '阶梯与 Georgetown Car Barn 挡土墙 · APK / CC BY-SA 4.0' }
       ]
     },
@@ -422,11 +422,11 @@ module.exports = {
           '真正会临时关门的是恶劣天气（园方保留在危险天气下闭园的权利）与内部活动日'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bb/Dumbarton_Oaks_in_September_%2821676345916%29.jpg',
+        { url: 'img/dumbarton-oaks-in-september-21676345916-67fce000.jpg',
           cap: '九月的台地花园 · DC Gardens / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Dumbarton_Oaks_in_September_%2821676351366%29.jpg',
+        { url: 'img/dumbarton-oaks-in-september-21676351366-92c70d31.jpg',
           cap: '花境与砖墙层次 · DC Gardens / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Dumbarton_Oaks_north_face.jpg',
+        { url: 'img/dumbarton-oaks-north-face-df6bbbf3.jpg',
           cap: '主宅北立面与 North Vista · AgnosticPreachersKid / CC BY-SA 4.0' }
       ]
     },
@@ -584,11 +584,11 @@ module.exports = {
           '这类变更座堂会邮件通知并全额退款，但不会提前很久公布'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/96/National_Cathedral_in_DC.jpg',
+        { url: 'img/national-cathedral-in-dc-38a996bf.jpg',
           cap: '座堂全景与中央塔 · Siubo11A / CC BY-SA 3.0' },
         { url: 'https://upload.wikimedia.org/wikipedia/commons/5/55/Space_Window_-_South_Nave_Bay_E_-_National_Cathedral_-_DC.JPG',
           cap: '中殿南侧高窗上的 Space Window · Tim Evanson / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Washington_National_Cathedral_from_Bishop%27s_Garden.jpg',
+        { url: 'img/washington-national-cathedral-from-bishop-s-garden-eb6d6616.jpg',
           cap: '自 Bishop\'s Garden 仰望南立面 · Ron Dicker / CC BY-SA 4.0' }
       ]
     },
@@ -716,9 +716,9 @@ module.exports = {
           '<strong>提前 30 分钟到的时间正好够看完</strong>，看了再进屋，导览的信息密度会高很多'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/22/Frederick_Douglass%27_House.jpg',
+        { url: 'img/frederick-douglass-house-2f8a4807.jpg',
           cap: 'Cedar Hill 故居正立面 · Peter Fitzgerald / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Frederick_douglass_house.jpg',
+        { url: 'img/frederick-douglass-house-a5f380b7.jpg',
           cap: '山顶故居与前坡草地 · Aude / CC BY-SA 2.5' }
       ]
     },
@@ -842,11 +842,11 @@ module.exports = {
           '本行程窗口内不存在停摆闭园风险</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/09/Cascading_water_fountain_at_Meridian_Hill_Park.jpg',
+        { url: 'img/cascading-water-fountain-at-meridian-hill-park-47c50237.jpg',
           cap: '十三级叠瀑运行中 · Katy Van Every / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b0/Looking_south_-_Meridian_Hill_Park_fountain.jpg',
+        { url: 'img/looking-south-meridian-hill-park-fountain-15e0078f.jpg',
           cap: '自叠瀑顶端向南俯瞰下层广场 · AgnosticPreachersKid / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/df/Meridian_Hill_Park.jpg',
+        { url: 'img/meridian-hill-park-a5605b77.jpg',
           cap: '台地、露石混凝土墙与列树 · Kurt Kaiser / CC0' }
       ]
     }

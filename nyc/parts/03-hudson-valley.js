@@ -326,11 +326,11 @@ module.exports = {
           + '<strong>但桥上禁止停车，只能作为路过时的观察，不要试图在桥上架机器</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Olana_-_facade_panorama.jpg',
+        { url: 'img/olana-facade-panorama-47306503.jpg',
           cap: '主宅立面全景 · Daderot / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/ad/150710_Olana_Sunset.jpg',
+        { url: 'img/150710-olana-sunset-77885aa1.jpg',
           cap: '自 Olana 露台看 Hudson 与 Catskills 日落 · Mark Rosengarten / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c1/Olana_2017_03.jpg',
+        { url: 'img/olana-2017-03-4ff7d521.jpg',
           cap: '波斯风格彩瓷与多色石板屋顶 · ɱ / CC BY-SA 4.0' }
       ]
     },
@@ -449,11 +449,11 @@ module.exports = {
           + '镜头前端会持续挂水雾，带两块以上超细纤维布'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/35/Hikers_swiming_in_the_upper_pool_of_Kaaterskill_Falls%2C_NY.JPG',
+        { url: 'img/hikers-swiming-in-the-upper-pool-of-kaaterskill-falls-ny-71316e74.jpg',
           cap: '上级瀑布顶部水潭 · Ahodges7 / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/31/Cole_Thomas_Kaaterskill_Falls_1826.jpg',
+        { url: 'img/cole-thomas-kaaterskill-falls-1826-16770893.jpg',
           cap: 'Thomas Cole 1826 年《Kaaterskill Falls》· Thomas Cole / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Cauterskill_falls_LCCN2004668031.jpg',
+        { url: 'img/cauterskill-falls-lccn2004668031-ad7d55ad.jpg',
           cap: '十九世纪石版画中的两级瀑布与圆形剧场 · Popular Graphic Arts / 公有领域' }
       ]
     },
@@ -577,11 +577,11 @@ module.exports = {
         '园内餐饮选择极少，自带食物'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Lake_Minnewaska_from_cliffs.jpg',
+        { url: 'img/lake-minnewaska-from-cliffs-d9776f2f.jpg',
           cap: '自白崖俯瞰 Lake Minnewaska · Juliancolton / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/View_of_lake_Minnewaska_from_a_cliff_near_Gertrude%27s_nose_in_Minnewaska_State_Park%2C_taken_11-10-2023.jpg',
+        { url: 'img/view-of-lake-minnewaska-from-a-cliff-near-gertrude-s-nose-in-88369686.jpg',
           cap: 'Gertrude’s Nose 附近崖沿看湖 · Magpieturtle / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/95/Minnewaska_State_Park_Preserve.jpg',
+        { url: 'img/minnewaska-state-park-preserve-94914c04.jpg',
           cap: 'Shawangunk 砾岩崖壁与松林 · Cliomd1 / CC BY-SA 4.0' }
       ]
     },
@@ -701,11 +701,11 @@ module.exports = {
           + '09:00 至闭园前 90 分钟），<strong>2026 年具体运营日期未能确认</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bc/Walkway_Over_the_Hudson_panorama_2.jpg',
+        { url: 'img/walkway-over-the-hudson-panorama-2-d31e8cce.jpg',
           cap: '桥面与河道超宽幅全景 · Juliancolton / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/Walkway_Over_the_Hudson_1.JPG',
+        { url: 'img/walkway-over-the-hudson-1-3f1fd339.jpg',
           cap: '桥面钢桁架透视 · Juliancolton / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Poughkeepsie_Bridge_115997.jpg',
+        { url: 'img/poughkeepsie-bridge-115997-5003b155.jpg',
           cap: '改造前的 Poughkeepsie 铁路桥全貌 · Jack E. Boucher / 公有领域' }
       ]
     },
@@ -837,11 +837,11 @@ module.exports = {
         '馆内 Cafe 周五至周一 09:45–16:45 营业'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Dia_Beacon_NY1.jpg',
+        { url: 'img/dia-beacon-ny1-6b41c5d0.jpg',
           cap: '1929 年 Nabisco 厂房外立面与锯齿屋顶 · Acroterion / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Dia_Beacon_02.JPG',
+        { url: 'img/dia-beacon-02-2286b348.jpg',
           cap: '天窗自然光下的主展厅 · ɱ / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fc/Dia_Beacon_09.JPG',
+        { url: 'img/dia-beacon-09-6ce4e9eb.jpg',
           cap: '展厅内的顶光与混凝土地面 · ɱ / CC BY-SA 4.0' }
       ]
     },
@@ -996,11 +996,11 @@ module.exports = {
           + 'Museum Store 10:00–17:00'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Storm_King_Museum_Building_Jul_12.jpg',
+        { url: 'img/storm-king-museum-building-jul-12-82343942.jpg',
           cap: 'Museum Hill 上的美术馆建筑 · Doug Kerr / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Storm_King_Art_Center_views_01.jpg',
+        { url: 'img/storm-king-art-center-views-01-6f787746.jpg',
           cap: '起伏草甸上的大尺度户外雕塑 · ɱ / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/47/Storm_King_Art_Center_%28112119123%29.jpeg',
+        { url: 'img/storm-king-art-center-112119123-a8b0b95a.jpg',
           cap: 'South Fields 的钢构与丘陵地形 · Jim Wroten / CC BY-SA 3.0' }
       ]
     },
@@ -1119,11 +1119,11 @@ module.exports = {
         '村内餐饮与咖啡选择多，但秋季周末排队时间很长'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Cold_Spring_New_York_2025.jpg',
+        { url: 'img/cold-spring-new-york-2025-9560a7ef.jpg',
           cap: 'Cold Spring 滨水与对岸 Hudson Highlands · Arwcheek / CC0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/54/Cold_Spring_Waterfront.JPG',
+        { url: 'img/cold-spring-waterfront-2ba3a4b7.jpg',
           cap: 'Main Street 底部滨水与凉亭 · Alexisrael / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d4/Cold_Spring_-_Flickr_-_minka6.jpg',
+        { url: 'img/cold-spring-flickr-minka6-b08312fd.jpg',
           cap: '越河看西岸山体 · minka6 / CC BY 2.0' }
       ]
     },
@@ -1249,11 +1249,11 @@ module.exports = {
         '山顶手机信号在部分方向不稳定，Harriman 深谷内更差'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Bear_Mountain_Bridge_from_eastern_Dunderberg_Mountain%2C_Nov._2024.jpg',
+        { url: 'img/bear-mountain-bridge-from-eastern-dunderberg-mountain-nov-20-121949e0.jpg',
           cap: 'Bear Mountain Bridge 与秋季 Hudson Highlands · Mr. Matté / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Bear_Mountain_Peak.JPG',
+        { url: 'img/bear-mountain-peak-a4c542d8.jpg',
           cap: 'Bear Mountain 山顶视野 · Alexisrael / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Scenery_at_Bear_Mountain_Lake_-_Bear_Mountain_State_Park_-_New_York_-_USA_%2827359867157%29.jpg',
+        { url: 'img/scenery-at-bear-mountain-lake-bear-mountain-state-park-new-y-0fb13b6e.jpg',
           cap: '山下 Hessian Lake 一带的秋色 · Adam Jones / CC BY-SA 2.0' }
       ]
     },
@@ -1437,11 +1437,11 @@ module.exports = {
           + 'Blaze 10 月每晚开、Twilight Village 只在指定日期'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Lyndhurst2020_4.jpg',
+        { url: 'img/lyndhurst2020-4-a3ed40ae.jpg',
           cap: 'Lyndhurst 哥特复兴立面 · Irina S.B. / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Lyndhurst_Park_with_Tappan_Zee_Bridge.JPG',
+        { url: 'img/lyndhurst-park-with-tappan-zee-bridge-0600216f.jpg',
           cap: 'Lyndhurst 河岸草坪与 Hudson · Ad Meskens / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Sleepy_Hollow_Cemetery_from_Rockefeller_State_Park.jpg',
+        { url: 'img/sleepy-hollow-cemetery-from-rockefeller-state-park-3ead8bd3.jpg',
           cap: 'Sleepy Hollow Cemetery 秋季远景 · PointsofNoReturn / CC BY-SA 4.0' }
       ]
     }

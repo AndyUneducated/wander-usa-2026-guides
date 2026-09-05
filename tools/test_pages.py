@@ -79,16 +79,16 @@ PROBE = r"""
     if (close) close.click();
   }
 
-  // 图片是否有溢出容器（此前修过「图片过宽被裁剪」）
+  // 图片是否有溢出容器（此前修过「图片过宽被裁剪」）。
+  // 调用方已经把所有 details 展开了，这里保持展开状态，
+  // 这样后面的 hScroll 是在「全部内容可见」的最严苛布局下测的。
   let imgOverflow = 0;
   cards.forEach(c => {
-    c.open = true;
     c.querySelectorAll('img').forEach(im => {
       if (im.naturalWidth && im.getBoundingClientRect().width > c.getBoundingClientRect().width + 2) {
         imgOverflow++;
       }
     });
-    c.open = false;
   });
 
   return {
@@ -168,8 +168,34 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
                 ctx.close()
                 continue
 
-            # 等地图瓦片与图片有机会加载
-            page.wait_for_timeout(2500)
+            # 等地图瓦片加载
+            page.wait_for_timeout(2000)
+
+            # 图片几乎都在收起的 <details> 里，不展开的话浏览器根本不会去取，
+            # 「0 张加载失败」就成了假通过。先全部展开、滚到底触发懒加载，
+            # 再等图片真正落地。
+            page.evaluate("""() => {
+              document.querySelectorAll('details').forEach(d => d.open = true);
+              document.querySelectorAll('img[loading="lazy"]')
+                      .forEach(i => i.loading = 'eager');
+            }""")
+            page.evaluate("""async () => {
+              const step = window.innerHeight;
+              for (let y = 0; y < document.body.scrollHeight; y += step) {
+                window.scrollTo(0, y);
+                await new Promise(r => setTimeout(r, 60));
+              }
+              window.scrollTo(0, 0);
+            }""")
+            try:
+                page.wait_for_function(
+                    'Array.from(document.images).every(i => i.complete)',
+                    timeout=60000)
+            except Exception:
+                pending = page.evaluate(
+                    'Array.from(document.images).filter(i=>!i.complete).length')
+                notes.append(f'{label} {name} 有 {pending} 张图片超时未加载完')
+            page.wait_for_timeout(500)
             try:
                 r = page.evaluate(PROBE)
             except Exception as e:

@@ -1,0 +1,20 @@
+{
+ "region": "yellowstone",
+ "pid": 80600,
+ "total": 127,
+ "done": 127,
+ "ok": 126,
+ "skipped": 0,
+ "failed": 1,
+ "current": null,
+ "phase": "done-with-failures",
+ "started_at": 1788602710.3100958,
+ "updated_at": 1788603934.240837,
+ "finished": true,
+ "recent_failures": [
+  {
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/St._Mary%27s_Mission_to_the_Salish_%28Flathead%29%2C_Stevensville%2C_Montana.png",
+   "why": "HTTP Error 400: Use thumbnail sizes listed on https://w.wiki/GHai"
+  }
+ ]
+}

@@ -182,6 +182,12 @@ def api_thumb_url(filename: str, width: int = 1280) -> str | None:
     if not pages or "imageinfo" not in pages[0]:
         return None
     info = pages[0]["imageinfo"][0]
+    # 原图本身比请求宽度还窄时，Wikimedia 拒绝放大并回 400
+    # （"Use thumbnail sizes listed on..."），此时直接取原图。
+    original_width = info.get("width") or 0
+    if original_width and original_width <= width:
+        url = info.get("url")
+        return url.split("?")[0] if url else None
     thumb = info.get("thumburl") or info.get("url")
     return thumb.split("?")[0] if thumb else None
 

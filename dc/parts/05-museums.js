@@ -258,11 +258,11 @@ module.exports = {
           'corona 是从街上免费可见的，日落西立面那个机位不需要任何票'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/db/National_Museum_of_African_American_History_and_Culture_in_February_2020.jpg',
+        { url: 'img/national-museum-of-african-american-history-and-culture-in-f-f98e1e73.jpg',
           cap: 'corona 青铜格栅外立面 · Frank Schulenburg / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/National_Museum_of_African_American_History_and_Culture_and_Washington_Monument.jpg',
+        { url: 'img/national-museum-of-african-american-history-and-culture-and--2f33425d.jpg',
           cap: '与 Washington Monument 同框，可见 17 度倾角关系 · Mdy66 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Interior_of_the_National_Museum_of_African_American_History_and_Culture_%28NMAAHC%29_looking_south.jpg',
+        { url: 'img/interior-of-the-national-museum-of-african-american-history--9da57170.jpg',
           cap: '格栅内侧向南望 Mall · Scott218 / CC BY-SA 4.0' }
       ]
     },
@@ -379,11 +379,11 @@ module.exports = {
           '馆方只会尝试通知并帮你改期'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/96/US_National_Archives_Building.jpg',
+        { url: 'img/us-national-archives-building-ca28ae4f.jpg',
           cap: 'Constitution Avenue 南立面柱廊 · David Samuel (User:Hellodavey1902) / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/55/Ceiling_of_National_Archives_Rotunda.jpg',
+        { url: 'img/ceiling-of-national-archives-rotunda-3f1967f1.jpg',
           cap: 'Rotunda 藻井穹顶，仰拍机位所见 · PatrykTBrown / CC0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/45/USA-Archives_of_the_United_States_of_America0.jpg',
+        { url: 'img/usa-archives-of-the-united-states-of-america0-5cf134b8.jpg',
           cap: '档案馆建筑全景 · Ingfbruno / CC BY-SA 3.0' }
       ]
     },
@@ -514,11 +514,11 @@ module.exports = {
           '把时间留给中庭、Great Hall 与 Luce Center 三处即可'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/ab/Museum_Kogod_Courtyard_2.jpg',
+        { url: 'img/museum-kogod-courtyard-2-96277ccb.jpg',
           cap: 'Kogod Courtyard 波浪玻璃顶全景 · Amy Vaughters, Smithsonian American Art Museum / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Museum_Kogod_Courtyard_5.jpg',
+        { url: 'img/museum-kogod-courtyard-5-48a459c4.jpg',
           cap: '斜交网格与周边老墙的新旧界面 · Zack Frank, Smithsonian American Art Museum / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/14/Panorama_of_the_western_facade_of_the_Donald_W._Reynolds_Center%2C_January_2026.jpg',
+        { url: 'img/panorama-of-the-western-facade-of-the-donald-w-reynolds-cent-85e17ef3.jpg',
           cap: 'Old Patent Office Building 西立面全景 · Marc Merlin / CC BY 4.0' }
       ]
     },
@@ -637,11 +637,11 @@ module.exports = {
           '本次行程窗口已由 CR 覆盖，但这一点值得知道'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b9/Ford%27s_Theatre_interior%2C_Washington%2C_D.C.jpg',
+        { url: 'img/ford-s-theatre-interior-washington-d-c-6c8e4530.jpg',
           cap: '剧场观众厅与总统包厢 · Wknight94 / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/The_interior_of_the_President%27s_box_in_Ford%27s_Theatre.JPG',
+        { url: 'img/the-interior-of-the-president-s-box-in-ford-s-theatre-430c59b7.jpg',
           cap: '总统包厢内部（仅可从外拍摄）· Cory Hartman / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/Petersen_House%2C_Washington%2C_D.C.IMG_4512.JPG',
+        { url: 'img/petersen-house-washington-d-c-img-4512-d74e9873.jpg',
           cap: 'Petersen House 街景立面 · Billy Hathorn / CC0' }
       ]
     },
@@ -804,11 +804,11 @@ module.exports = {
           '起降时段周边管控会更严而不是更松'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Lafayette_Park_and_the_North_Portico_of_the_White_House.jpg',
+        { url: 'img/lafayette-park-and-the-north-portico-of-the-white-house-381e1795.jpg',
           cap: 'Lafayette Park 越过草坪看北门廊，即封闭前的视角 · TCY / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/99/The_White_House_and_the_Lafayette_Park.jpg',
+        { url: 'img/the-white-house-and-the-lafayette-park-bebab7b1.jpg',
           cap: '白宫与 Lafayette Park 全景 · Carol M. Highsmith / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/The_People%27s_House_A_White_House_Experience_-_1.jpg',
+        { url: 'img/the-people-s-house-a-white-house-experience-1-9b4a191a.jpg',
           cap: "The People's House 馆内复原场景 · APK / CC BY 4.0" }
       ]
     },
@@ -960,11 +960,11 @@ module.exports = {
           '<strong>按那些老照片估曝光会低估 1–1.5 EV</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/63/East_Building_of_the_National_Gallery_of_Art%2C_atrium.jpg',
+        { url: 'img/east-building-of-the-national-gallery-of-art-atrium-a1532ce7.jpg',
           cap: 'East Building 天光中庭与三角梁架 · Difference engine / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/Mercury_Fountain_in_the_Rotunda_of_the_National_Gallery_of_Art.jpg',
+        { url: 'img/mercury-fountain-in-the-rotunda-of-the-national-gallery-of-a-6d365975.jpg',
           cap: 'West Building Rotunda 与 Mercury 喷泉 · John Menard / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/41/National_Gallery_of_Art_Sculpture_Garden_-_Fountain.jpg',
+        { url: 'img/national-gallery-of-art-sculpture-garden-fountain-270c741d.jpg',
           cap: 'Sculpture Garden 中央喷泉 · AgnosticPreachersKid / CC BY-SA 3.0' }
       ]
     },
@@ -1082,11 +1082,11 @@ module.exports = {
         '<strong>自带午餐必须收好</strong>，馆内无冷藏寄存'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/The_iconic_African_elephant_specimen_at_the_center_of_the_Smithsonian_National_Museum_of_Natural_History.jpg',
+        { url: 'img/the-iconic-african-elephant-specimen-at-the-center-of-the-sm-a0848535.jpg',
           cap: 'Rotunda 中央的非洲象 · Syed07 / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/62/NationalHistoryElephant.jpg',
+        { url: 'img/nationalhistoryelephant-7dc1d5af.jpg',
           cap: '二层环廊俯拍视角与八角穹顶 · Sbrools / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/98/Aerial_View_of_Elephant_in_NMNH_Rotunda%2C_1981_%288722701453%29.jpg',
+        { url: 'img/aerial-view-of-elephant-in-nmnh-rotunda-1981-8722701453-3bc02463.jpg',
           cap: 'Rotunda 俯视历史影像（1981）· Smithsonian Institution Archives / No restrictions' }
       ]
     },
@@ -1233,11 +1233,11 @@ module.exports = {
           'Wikimedia Commons 上有当时的照片存证。本次窗口已由 CR 覆盖'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/19/Smithsonian_Castle%2C_Viewed_from_the_Enid_A._Haupt_Garden_%282014%29.jpg',
+        { url: 'img/smithsonian-castle-viewed-from-the-enid-a-haupt-garden-2014-ce45a99d.jpg',
           cap: '从 Haupt 花园看城堡南立面，即招牌机位 · Rizka / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/The_Smithsonian_Castle_in_Winter.jpg',
+        { url: 'img/the-smithsonian-castle-in-winter-f8e4deed.jpg',
           cap: '红色 Seneca 砂岩塔楼群 · Northern-Virginia-Photographer / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d6/Enid_Haupt_Garden_%286965483747%29.jpg',
+        { url: 'img/enid-haupt-garden-6965483747-85e00861.jpg',
           cap: 'Haupt 花园刺绣式花坛 · Payton Chung / CC BY 2.0' }
       ]
     }
