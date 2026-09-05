@@ -35,7 +35,11 @@ module.exports = {
         '<strong>你的整个窗口都在封闭期内。</strong>紧接着 11 月 1 日又叠加常规冬季封闭（至次年 5 月中）。</li>' +
         '<li><strong>Death Canyon Road 与 Death Canyon Trailhead：2026 年 5 月 – 2027 年 6 月全时段封闭</strong>，行人也不行。Phelps Lake 只能从 Granite Canyon 或 LSR Preserve 走，停车位极少。</li>' +
         '<li><strong>Teton Park Road / Moose 入口环岛工程：5 月 1 日 – 11 月 15 日，延误 20 分钟</strong>（不含入口站排队）。' +
-        '<strong>算日出机位时这 20 分钟必须扣掉</strong>——从 Jackson 走内环去 Jenny Lake 拍日出会撞上它。<strong>Menor\u2019s Ferry Road 工作日全天封闭</strong>。</li>' +
+        '<strong>算日出机位时这 20 分钟必须扣掉</strong>——从 Jackson 走内环去 Jenny Lake 拍日出会撞上它。' +
+        '<strong>另外 Menor\u2019s Ferry Road 工作日全天封闭（官方原文「Closed to all use on weekdays」），周末车位也因施工堆料而减少。</strong>' +
+        '这条支路是 Menor\u2019s Ferry Historic District 与 Chapel of the Transfiguration 的唯一车行通道——' +
+        '<strong>也就是说 9 月 22–29 日这一周里，只有 9 月 26 日（周六）与 9 月 27 日（周日）能开车过去；' +
+        '想拍那座小教堂从祭坛窗框住 Teton 山脊的经典画面，必须排在这两天。</strong></li>' +
         '<li><strong>Schwabacher Landing Road：NPS 口径「typically closed mid-October to mid-May」</strong>，是条约 1 英里的碎石支路，约 20 个车位。' +
         '9 月下旬可靠，<strong>10 月下旬有实质概率已经关了</strong>。</li>' +
         '<li><strong>Antelope Flats Road / Mormon Row Road、Deadmans Bar、Pilgrim Creek、Two Ocean：官方归类为「closed seasonally based on conditions」，无固定日期</strong>，惯例也是 11 月 1 日前后。</li>' +
