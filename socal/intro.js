@@ -184,16 +184,20 @@
     '</tbody></table></div>',
 
     '<h3 class="apx-h">E. 出发当天复查清单</h3>',
-    '<p class="section-lead">这份报告的实时信息核实于 <strong>2026 年 9 月 3 日</strong>。' +
-    '其中有几项在核实当天仍在变动——Plaskett Fire 控制率只有 1%，飓风 Marie 的影响尚未落地，Point Dume 的封闭一年内已反复三次。' +
-    '<strong>下面这些请在出发当天早上逐条点开看一遍</strong>，尤其是标了「高」的三条。</p>',
+    '<p class="section-lead">这份报告的实时信息初核于 <strong>2026 年 9 月 3 日</strong>，' +
+    '并在 <strong>9 月 5 日</strong>对全部开放时间、票价与封闭判定做了一轮逐条复核。' +
+    '复核推翻了两条原先的结论：<strong>Point Dume 崖顶其实开放</strong>，' +
+    '<strong>Hollywood Sign 的路边限停是 08:00–18:00 而非全天</strong>，所以周末清早仍可停。' +
+    '仍在变动的是 Plaskett Fire 与飓风 Marie。' +
+    '<strong>下面这些请在出发当天早上逐条点开看一遍</strong>，尤其是标了「高」的两条。</p>',
     '<div class="tbl-scroll"><table class="plan"><thead><tr><th>要查什么</th><th>变动可能</th><th>链接 / 方式</th></tr></thead><tbody>',
     [
       ['Hwy 1 封闭范围（南段是否部分解封、北段是否重新封闭）', '<b>高</b>',
        '<a href="https://roads.dot.ca.gov/roadscell.php?roadnumber=1" target="_blank" rel="noopener">Caltrans 实时路况 SR 1</a>'],
       ['Plaskett Fire 火势与疏散区（影响 Ragged Point、烟雾分布）', '<b>高</b>',
        '<a href="https://www.fire.ca.gov/incidents/2026/8/26/plaskett-fire" target="_blank" rel="noopener">CAL FIRE 事件页</a>'],
-      ['Point Dume 的 Cliffside Drive 崖顶入口是否开放', '<b>高</b>',
+      ['Point Dume 崖顶保护区（<b>9/5 已查清：Cliffside Drive 入口开放</b>，' +
+       '关闭的只是崖下 Westward Beach Road。剩下要确认的是那约 10 个 2 小时免费车位有没有满）', '中',
        '致电 LA County Beaches &amp; Harbors；另查 <a href="https://www.malibucity.org/alerts" target="_blank" rel="noopener">Malibu Alert Center</a>'],
       ['Los Padres 森林封闭令是否变更（Pfeiffer Beach 的例外条款）', '中',
        '<a href="https://www.fs.usda.gov/r05/lospadres/alerts" target="_blank" rel="noopener">Los Padres 封闭令与警报</a>'],

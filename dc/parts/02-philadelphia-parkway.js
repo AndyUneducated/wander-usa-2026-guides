@@ -1342,8 +1342,10 @@ module.exports = {
             '<strong>85–135mm 从栈道压缩、把泵房与山顶的美术馆叠在一起</strong>。' +
             '<strong>低机位贴近水面用 24mm 拍倒影是这里的加分项</strong>（这一段水面比河道主流平静得多）。' +
             '<strong>三脚架自由。</strong>' +
-            '<strong>Interpretive Center 免费，但其开放时间未能从官方渠道确认</strong>——' +
-            '室外的栈道、坝体与泵房外观全天可拍，不受馆方时间约束。'
+            '<strong>Interpretive Center 免费，但只开周三至周六 10:00–17:00，' +
+            '你在费城的 10/19（周一）与 10/20（周二）两天它都关着</strong>——' +
+            '室内当作看不到即可。室外的栈道、坝体与泵房外观全天可拍，不受馆方时间约束，' +
+            '而这里的主体本来就是外景。'
         },
         {
           name: 'Lloyd Hall 与东岸步道（船屋近景与赛艇）',
@@ -1378,7 +1380,8 @@ module.exports = {
           '（换算到你的窗口：9/25 约 19:00–19:15 亮，10/22 约 18:20–18:35 亮）。' +
           '<strong>特别活动的灯光会从日落亮到日出</strong>，' +
           '且<strong>任何人可付费预订当晚颜色（boathouserowlights.org）——当晚颜色无法提前保证。</strong>' +
-          '<strong>Fairmount Water Works Interpretive Center 的开放时间未能从官方渠道确认。</strong>' +
+          '<strong>Fairmount Water Works Interpretive Center：周三至周六 10:00–17:00，' +
+          '周日至周二闭馆——10/19、10/20 两天进不去，只拍外景。</strong>' +
           'Lloyd Hall（1 号船屋）作为公共活动中心开放，' +
           '<strong>具体时间未能从官方渠道确认</strong>，但它是这一带唯一的公共洗手间来源。',
         parking: '<strong>Lloyd Hall / Art Museum Trailhead 停车场</strong>' +

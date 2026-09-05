@@ -300,7 +300,8 @@ module.exports = {
         { t: '完全免费', c: 'free' }, { t: '街道 24 小时开放', c: 'free' },
         { t: '《1923》取景地', c: 'free' },
         { t: '街面受光仅 3.5 小时', c: 'risk' },
-        { t: '内景全为私产不可进', c: 'risk' }
+        { t: '法院中庭可进（平日 8–17）', c: 'free' },
+        { t: '其余内景多为私产不可进', c: 'risk' }
       ],
       highlights: [
         '<strong>这里的建筑密度是矿业泡沫的直接产物。</strong>Butte 坐在被称为 <strong>“the Richest Hill on Earth”</strong> 的矿脉上，' +
@@ -337,9 +338,11 @@ module.exports = {
           '<strong>（一）布景已经全部拆掉复原。</strong>当地报纸的原话是 “The buildings were restored to their former look after filming.”——' +
           '<strong>你到 W Broadway 看到的是真实的 Butte 店面，不是剧中的 Opal\u2019s Diner。' +
           '能拍到的是「这些戏是在这条街上拍的」，不是「这些戏的场景还在」。</strong>' +
-          '<strong>（二）所有内景都进不去。</strong>Carpenters Union Hall 是工会与电台自用建筑，' +
+          '<strong>（二）内景基本都进不去，但有一个重要例外。</strong>Carpenters Union Hall 是工会与电台自用建筑，' +
           'Butte Water Company Building 是自来水公司办公楼，Thornton Block 的银行内景其实根本不在 Butte——' +
           '<strong>那场戏拍在 Pony 镇的 Morris State Bank</strong>。' +
+          '<strong>例外是那座法院：Butte-Silver Bow Courthouse 平日 08:00–17:00 欢迎公众自助参观，' +
+          '所以剧中审判 Banner Creighton 那栋建筑的内部你是真的进得去的（详见 hours 一栏）。</strong>' +
           '<strong>（三）Butte Civic Center（1340 Harrison Ave）不是可参观的景点。</strong>' +
           '剧组租下这座场馆在里面搭了银行内景与舞厅等大量摄影棚布景，' +
           '<strong>它本身是一座市政体育／活动场馆，没有布景遗留，也没有对外的参观项目，不要专程去。</strong>' +
@@ -402,8 +405,15 @@ module.exports = {
             '<strong>法院是本街唯一有正立面台阶与门廊的大体量建筑，需要退到街对面用 24–35mm 才收得下</strong>，' +
             '而街宽有限、退无可退时改用<strong>移轴或后期做垂直校正</strong>（仰拍会让立柱严重收敛）。' +
             'Water Company 那栋的新古典柱式在<strong>掠射的轴向光下</strong>浮雕感最强，' +
-            '用 70–200mm 单独压柱廊。<strong>法院与自来水公司都是在办公的政府／企业建筑，' +
-            '从人行道拍外立面没有问题，不要进门厅架三脚架。</strong>',
+            '用 70–200mm 单独压柱廊。' +
+            '<strong>法院内部是可以进的，而且值得进：平日 08:00–17:00 对公众自助开放（9/23、9/24 均适用）。' +
+            '里面按官方描述有 1912 年落成的中庭（rotunda）、中庭顶上的彩绘玻璃穹顶、成片的室内壁画、' +
+            '以及一座由 Butte 本地人 Bill Burns 花 38 年做出来的 Belmont Mine 可动模型。' +
+            '穹顶要仰拍，24mm 以下加高感光度手持；这是本街区唯一一处室内建筑机位。</strong>' +
+            '<strong>另有一个撞得上的加分项：American Revolution Experience 巡展 2026 年 9 月 21 日至 10 月 2 日在这座法院展出，' +
+            '平日 08:00–17:00，免费——正好覆盖你的 9/23–9/24，中庭里会多出展板与数字互动台。</strong>' +
+            '<strong>自来水公司那栋是在办公的企业建筑，只拍外立面；' +
+            '法院内部虽可进，也请不要在门厅架三脚架挡人。</strong>',
         },
         {
           name: 'East Broadway · Thornton Block（《1923》的 First Bank of Montana）',
@@ -447,11 +457,15 @@ module.exports = {
           'Mountain Con Mine Yard 也是免费的公共场地',
         hours: '<strong>街区 24 小时开放，无门禁，全年可达，不受任何季节性关闭影响</strong>——' +
           '这是本子地区最可靠的一个点，也是烟大或天气坏时的保底方案。' +
-          '<strong>但要注意所有内景全部不可进入</strong>：' +
+          '<strong>但要注意大部分内景不可进入</strong>：' +
           'Carpenters Union Hall（工会与 KMBF 电台自用）、Butte Water Company Building（自来水公司办公楼）、' +
           'Kenwood 与 Thornton Block（私有商业物业）、Butte Civic Center（市政场馆，无参观项目）。' +
-          'Butte-Silver Bow Courthouse 是在办公的法院，' +
-          '<strong>其对公众开放的时间与安检规定未能从官方渠道确认，本页只建议拍外立面</strong>',
+          '<strong>唯一的例外是 Butte-Silver Bow Courthouse，它确实可以进——' +
+          'Mainstreet Uptown Butte 官方原文：“Although the building remains in use as office space for county staff, ' +
+          'visitors are welcome to take self-guided tours Monday through Friday from 8 am to 5 pm.”</strong>' +
+          '<strong>9/23（周三）与 9/24（周四）都是平日，08:00–17:00 可自助进入拍中庭。</strong>' +
+          '<strong>安检规定官方未公布；县政府官方页面明确写了「除服务犬外不得带动物入内」。</strong>' +
+          '其余市政办公楼请只拍外立面',
         parking: '<strong>Uptown 街边停车免费</strong>，Broadway、Granite、Park 各街均有路边车位；' +
           '9 月下旬平日车位宽松。' +
           '<strong>Mountain Con Mine Yard 有独立免费停车场（46.02316, −112.53216）。</strong>' +
