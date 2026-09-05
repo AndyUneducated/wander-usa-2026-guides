@@ -60,7 +60,7 @@ WM_THUMB_SIZES = (1280, 1024, 800, 640)
 # Wikimedia 的限流是突发敏感的：短时间连打几个请求会整段吃 429，
 # 之后连本来正常的地址也会被拒。用全局节流器保证**任何两次** HTTP 请求都隔开足够时间，
 # 包括尺寸回退与重试在内。
-MIN_GAP = 2.0
+MIN_GAP = 3.0
 _last_request_at = 0.0
 
 
@@ -322,13 +322,26 @@ def main() -> int:
         candidates = []
         fname = commons_filename(url)
         if fname:
-            try:
-                _throttle()
-                thumb = api_thumb_url(fname)
-                if thumb:
-                    candidates.append(thumb)
-            except Exception as e:
-                log(f"    API 查询失败，改用直链：{e}")
+            # API 查询本身也会吃 429。此时立刻改打 upload 主机只会让限流更重，
+            # 所以先冷却再重试 API，把直链当最后手段。
+            for attempt in range(3):
+                try:
+                    _throttle()
+                    thumb = api_thumb_url(fname)
+                    if thumb:
+                        candidates.append(thumb)
+                    break
+                except urllib.error.HTTPError as e:
+                    if e.code == 429 and attempt < 2:
+                        cool = 60 * (attempt + 1)
+                        log(f"    API 限流，冷却 {cool}s 后重试…")
+                        time.sleep(cool)
+                        continue
+                    log(f"    API 查询失败，改用直链：{e}")
+                    break
+                except Exception as e:
+                    log(f"    API 查询失败，改用直链：{e}")
+                    break
         candidates += [u for u in url_variants(url) if u not in candidates]
 
         for cand in candidates:
