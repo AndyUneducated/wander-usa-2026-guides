@@ -139,7 +139,7 @@ module.exports = {
     },
     {
       type: 'info',
-      title: '河谷是南北向的，所以光是「横河」的——用这条规则分配每个点的时段',
+      title: '河谷南北向，光是横河的：据此排时段',
       html: '<p>Hudson River 在这一段大致<strong>正南正北</strong>流。'
         + '太阳早上在东（方位 90°–104°）、傍晚在西（方位 270°–252°），'
         + '于是整条河谷的光永远是<strong>横切河面</strong>的，从来不是顺河的。直接推论：</p>'
@@ -171,7 +171,7 @@ module.exports = {
     },
     {
       type: 'info',
-      title: '从纽约市出发：车程、Metro-North，以及哪三个点可以完全不开车',
+      title: '从纽约市出发：车程与 Metro-North 无车方案',
       html: '<p>本区全部是纽约市的一日或一夜行程。以下车程自 Midtown 起算、按<strong>无严重拥堵</strong>估计，'
         + '周五下午与周日傍晚回程请各加 30–60 分钟：</p>'
         + '<ul>'
@@ -508,8 +508,8 @@ module.exports = {
             + '<strong>16–24mm 贴近水面拍前景岩石加白崖加天空的三段式</strong>。'
             + '偏振镜要谨慎——全量偏振会把倒影完全抹掉，'
             + '<strong>这里应该只转到约三分之一效果，保留倒影同时压掉水面白反光</strong>。'
-            + '坐标为 Lake Minnewaska 水体的 OSM 节点，'
-            + '实际站位在环湖道上，<strong>湖岸具体机位无 OSM 实体，地图针脚指向湖体中心</strong>。',
+            + '<strong>坐标为 Lake Minnewaska Carriage Road（环湖马车道）上的 OSM 节点，'
+            + '不是精确站位——沿环湖道任意一段西岸都可用</strong>。',
         },
         {
           name: 'Awosting Falls 瀑底',
@@ -901,7 +901,8 @@ module.exports = {
             + '那是全天太阳最低、影子最长的时段，而且人最少。</strong>'
             + '24–70mm 拍雕塑与地形的关系，70–200mm 压缩钢构与远山，'
             + '<strong>16–24mm 贴近钢构底部仰拍，让红色钢梁切割天空</strong>。'
-            + '偏振镜能把秋日的蓝天压深，与红色钢构的对比会非常强。',
+            + '偏振镜能把秋日的蓝天压深，与红色钢构的对比会非常强。'
+            + '<strong>坐标为 Storm King Art Center 的 OSM 节点（园区南半部），不是精确站位</strong>。',
         },
         {
           name: 'Museum Hill 与美术馆建筑',
@@ -929,7 +930,7 @@ module.exports = {
         },
         {
           name: 'Maya Lin《Wavefield》',
-          desc: '11 英亩的人造土浪，波长约 11 米、波高约 3–4.6 米，'
+          desc: '11 英亩的人造土浪，<strong>波高约 3–4.6 米（10–15 英尺）、每道波脊长约 120 米（400 英尺）</strong>，'
             + '2007–2008 年在一处废弃采砾场上做成。'
             + '<strong>它只有在极低角度的侧光下才成立</strong>——'
             + '光一高，土浪就塌成一片平草地，什么都看不出来。'
@@ -1331,7 +1332,9 @@ module.exports = {
             + '不带包、不带脚架、不带反光板</strong>，'
             + '这样既合规又不引人注意。'
             + '<strong>秋色峰期约 10 月 20 日–11 月 5 日</strong>，'
-            + '10 月上旬来会看到一片绿。',
+            + '10 月上旬来会看到一片绿。'
+            + '<strong>坐标为 Sleepy Hollow Cemetery 园区内 Forest Avenue 一带的 OSM 节点，'
+            + '不是 Irving 墓的精确位置——请用入口资料箱里的免费导览图定位</strong>。',
         },
         {
           name: 'Lyndhurst —— 哥特复兴立面与河岸草坪',

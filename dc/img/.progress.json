@@ -1,0 +1,15 @@
+{
+ "region": "dc",
+ "pid": 77090,
+ "total": 146,
+ "done": 3,
+ "ok": 3,
+ "skipped": 0,
+ "failed": 0,
+ "current": "[4/146] elfreth-s-alley-streetscape-911d9636",
+ "phase": "downloading",
+ "started_at": 1788599607.234386,
+ "updated_at": 1788599652.2763698,
+ "finished": false,
+ "recent_failures": []
+}
