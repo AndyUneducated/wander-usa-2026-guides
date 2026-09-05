@@ -20,6 +20,7 @@
 
 import argparse
 import json
+import re
 import subprocess
 import time
 from pathlib import Path
@@ -27,8 +28,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 TRANSCRIPTS = Path.home() / '.cursor' / 'projects'
 
-STALE_MIN = 8.0    # transcript 停这么久开始可疑
-DEAD_MIN = 20.0    # 停这么久且无产物，判定卡死
+# 实测教训（2026-09-05）：02-philadelphia-parkway 的 subagent transcript 静默 37 分钟，
+# 期间被误判为卡死并重派，结果它在第 38 分钟一次性写出 68KB 的成品。
+# subagent 通常在全部调研完成后才落盘，所以「产物未出现」在整个工作期间都是正常状态，
+# 而 transcript 静默只说明它在连续调用工具。阈值必须放宽到远超一次完整调研的耗时。
+STALE_MIN = 25.0   # transcript 停这么久，值得留意但不要动它
+DEAD_MIN = 50.0    # 停这么久且无产物，才值得考虑重派
 
 # 派活时约定的产物路径 → 便于核对。key 是给人看的任务名
 EXPECTED = {
@@ -45,7 +50,7 @@ EXPECTED = {
         '01-salem-north-shore.js',
         '02-boston-cambridge.js',
         '03-hudson-valley.js',
-        '04-manhattan-uptown.js',
+        '04-manhattan-midtown.js',
         '05-manhattan-downtown.js',
         '06-brooklyn.js',
     ],
@@ -61,8 +66,30 @@ EXPECTED = {
 }
 
 
+PART_RE = re.compile(r'parts/((?:\d{2})-[a-z0-9-]+\.js)')
+
+
+def transcript_target(path: Path):
+    """从 transcript 里读出这个 subagent 负责写哪个产物文件。
+
+    派活的 prompt 里写了绝对路径，出现在开头几行，所以只扫前若干行即可。
+    """
+    try:
+        with path.open(errors='ignore') as fh:
+            for _ in range(40):
+                line = fh.readline()
+                if not line:
+                    break
+                m = PART_RE.search(line)
+                if m:
+                    return m.group(1)
+    except OSError:
+        pass
+    return None
+
+
 def find_transcripts():
-    """找出所有 subagent transcript，返回 (mtime, 行数, 路径)。"""
+    """找出所有 subagent transcript，返回 (mtime, 路径) 按新→旧排序。"""
     out = []
     for p in TRANSCRIPTS.glob('*/agent-transcripts/*/subagents/*.jsonl'):
         try:
@@ -120,29 +147,40 @@ def snapshot() -> bool:
         for r in rows:
             print(r)
 
-    print(f'\n—— transcript 活跃度（仅供参考，判断卡死请以上面的产物核对为准）——')
-    print('   说明：subagent 在密集调用工具时不会即时写 transcript，'
-          '行数停滞很常见。\n'
-          '   只有「产物未交付」+「transcript 长时间停滞」同时成立，才值得断掉重派。')
+    print('\n—— 在跑的 subagent（按它负责的产物对齐）——')
+    print(f'   subagent 通常调研全部做完才一次性落盘，因此「产物未出现」在整个工作期间都正常，'
+          f'transcript 静默只说明它在连续调用工具。\n'
+          f'   只有「产物未交付」且「transcript 静默超过 {DEAD_MIN:.0f} 分钟」才考虑重派；'
+          f'重派前先把已有产物备份。')
+
     ts = find_transcripts()
-    if not ts:
-        print('  没找到任何 subagent transcript')
     shown = 0
     for mtime, path in ts:
         age_min = (now - mtime) / 60
         if age_min > 180:      # 三小时以上的当作历史记录，不再列出
             continue
-        try:
-            lines = sum(1 for _ in path.open())
-        except OSError:
-            lines = -1
-        if age_min > DEAD_MIN:
-            mark = '⚠️  长时间停滞'
+        target = transcript_target(path)
+
+        # 产物已经落盘的，这个 subagent 无论 transcript 多旧都已经完事，不必再盯
+        delivered = False
+        if target:
+            for region, files in EXPECTED.items():
+                if target in files and check_part(region, target)[0] == 'ok':
+                    delivered = True
+                    break
+
+        if delivered:
+            mark, note = '✅ 已交付', '产物已落盘，无需再盯'
+        elif age_min > DEAD_MIN:
+            mark, note = '⚠️  可考虑重派', f'静默已超 {DEAD_MIN:.0f} 分钟且无产物'
         elif age_min > STALE_MIN:
-            mark = '·  短暂停滞'
+            mark, note = '·  静默中', '正常，密集调工具时不写 transcript'
         else:
-            mark = '⏳ 活跃'
-        print(f'  {mark:12s} {path.stem[:8]}  {lines:4d} 行  最后活动 {fmt_ago(age_min)}')
+            mark, note = '⏳ 活跃', ''
+
+        tgt = target or '(未能识别产物)'
+        print(f'  {mark:14s} {path.stem[:8]}  {tgt:30s} 最后活动 {fmt_ago(age_min)}'
+              + (f'  — {note}' if note else ''))
         shown += 1
     if shown == 0:
         print('  近三小时内没有活跃的 subagent')

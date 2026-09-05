@@ -207,7 +207,7 @@ module.exports = {
       },
       notes: [
         '<strong>三脚架政策（官方原文）</strong>：Prohibited Items 明列「Tripods which cannot fit into a purse/small bag」' +
-          '与「Unauthorized media/photography equipment, including drones」。' +
+          '与「Unauthorized media/photography equipment」。' +
           '<strong>能装进小包的迷你脚架可以过，常规三脚架与独脚架基本会被拦下</strong>；' +
           '需要用专业器材请事先联系 ANC Public Affairs Office，703-614-0024',
         '<strong>葬礼纪律是这个点位的第一条规矩</strong>：工作日每天 27–30 场葬礼。' +
@@ -780,7 +780,7 @@ module.exports = {
         },
         {
           name: 'Torpedo Factory Art Center 内部（工业厂房结构）',
-          view: [38.804856, -77.039795],
+          view: [38.804915, -77.039810],
           desc: '<strong>免费进出，主体是这栋 1918 年海军鱼雷厂的空间本身。</strong>' +
             '<strong>16–35mm 沿三层贯通的中庭仰拍或俯拍</strong>，' +
             '利用钢桁架、栏杆与工作室门排的重复节奏；' +
