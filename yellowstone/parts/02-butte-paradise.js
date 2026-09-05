@@ -1331,10 +1331,12 @@ module.exports = {
           '（闭季期间车站可租作活动场地，<strong>因此有可能撞上包场，前庭会有布置</strong>）',
         ticket: '<strong>免费。</strong>街区与外立面拍摄无任何费用。' +
           '<strong>博物馆在开季时收门票（“Admission charged”，金额官网未公布），但 9/23–9/24 已闭季，此项不适用。</strong>',
-        hours: '<strong>明确判定：Livingston Depot Center 博物馆在 9/23–9/24 已关闭。</strong>' +
-          '官网原文 <strong>“Museum open Monday - Saturday 10am - 5pm，May 26 - September 4, 2026”</strong> 与' +
-          '<strong>“Last Museum Day September 4th, 2026”</strong>。' +
+        hours: '<strong>明确判定，2026-09-05 复核仍然成立：Livingston Depot Center 博物馆在 9/23–9/24 已关闭。</strong>' +
+          '官网首页当前原文 <strong>“Museum Open Monday - Saturday 10am - 5pm”</strong> 与' +
+          '<strong>“Last Museum Day September 4th, 2026”</strong>，' +
+          '2026 年季节为 5 月 26 日 – 9 月 4 日。' +
           'FAQ 补充其常规闭季期为「大约 9 月中到次年 5 月初或中」。' +
+          '<strong>所以整个「9 月下旬到 10 月下旬」的窗口里，室内都进不去，不存在挑日子的余地。</strong>' +
           '<strong>但车站外立面、庭院、遮荫公园与 Depot Rotary Park 全年无门禁、免费开放，' +
           '所以本景点的摄影内容基本不受影响。</strong>' +
           '办公室仍为<strong>周一至周五 10:00–16:00</strong>（电话 406.222.2300），' +
@@ -1730,12 +1732,21 @@ module.exports = {
           'FWP 的许可只针对含团队、模特、道具或客户的商业拍摄',
         hours: '<strong>两条路全年 24 小时通行，无门禁。</strong>' +
           '<strong>四处 FAS 官方标注均为 “Open: Jan 1 to Dec 31”，全年开放、不限时。</strong>' +
-          '<strong>唯一的不确定项是 Carter\u2019s Bridge 的 2026 年施工：' +
-          '单车道放行、9 英尺宽度限制、旗手或临时信号灯控制，' +
-          'MDT 称桥不封闭且项目预计年内完工，但 9 月 23 日是否已完工未能确认。' +
-          '出发当天务必查 511mt.net。</strong>' +
-          '<strong>US-89 主线 2026 年未查到大型路面施工；' +
-          'East River Road 除 Carter\u2019s Bridge 外未查到其他施工。</strong>',
+          '<strong>唯一的不确定项是 MDT 的 Livingston Area Bridges 项目，而 2026-09-05 复核后这一条要改写：' +
+          '它不只是 Carter\u2019s Bridge 一座桥，US-89 上还有三座桥在同一个项目里。</strong>' +
+          '<strong>Carter\u2019s Bridge（East River Road 跨 Yellowstone River）：施工自 2026 年 7 月 6 日那一周开始，' +
+          '单车道放行、旗手或临时信号灯控制，宽度限制 9 英尺。</strong>' +
+          '<strong>同项目内的另三座在 US-89 上：跨 I-90 的 Exit 337 与 Exit 340 两座跨线桥，' +
+          '以及 Exit 340 以北跨 Yellowstone River 的那座（宽度限制 10 英尺）。' +
+          'MDT 的项目 FAQ 明确说 Exit 340 那座 US-89 桥需要整体封闭并设改道' +
+          '（I-90 东行车流要开到 Exit 343 掉头回西行再下 Exit 340）。' +
+          '这三座都在 Livingston 城北一侧，不在你南下 Paradise Valley 的方向上，' +
+          '但只要你从 I-90 穿 Livingston 进城就可能遇到。</strong>' +
+          '<strong>进度：MDT 新闻室 2026 年 8 月 4 日的通告说四座桥的桥头铣刨与铺装从 8 月 3 日那一周开始，' +
+          '之后还要做碎石封层，并重申 “Construction on this project is anticipated to be completed this year.”' +
+          '——到 2026-09-05 为止 MDT 没有发布完工通告，所以请按「9 月 23 日仍在施工」准备。' +
+          '各桥的宽度限制会逐座变化，MDT 自己把实时口径指向 511mt.net，出发当天务必查一次。</strong>' +
+          '<strong>East River Road 除 Carter\u2019s Bridge 外未查到其他施工。</strong>',
         parking: '<strong>四处 FAS 均有正式免费停车场</strong>' +
           '（<strong>但需持 $10 保育证才能使用场地</strong>）：' +
           'Mallard\u2019s Rest 有旱厕与可饮用水、混凝土坡道，' +
