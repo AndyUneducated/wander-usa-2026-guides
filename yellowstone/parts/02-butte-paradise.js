@@ -410,8 +410,14 @@ module.exports = {
             '里面按官方描述有 1912 年落成的中庭（rotunda）、中庭顶上的彩绘玻璃穹顶、成片的室内壁画、' +
             '以及一座由 Butte 本地人 Bill Burns 花 38 年做出来的 Belmont Mine 可动模型。' +
             '穹顶要仰拍，24mm 以下加高感光度手持；这是本街区唯一一处室内建筑机位。</strong>' +
-            '<strong>另有一个撞得上的加分项：American Revolution Experience 巡展 2026 年 9 月 21 日至 10 月 2 日在这座法院展出，' +
-            '平日 08:00–17:00，免费——正好覆盖你的 9/23–9/24，中庭里会多出展板与数字互动台。</strong>' +
+            '<strong>另有一个撞得上的加分项，日期已核实：American Revolution Experience 巡展 ' +
+            '2026 年 9 月 21 日至 10 月 2 日在这座法院展出，展期时段 Mon–Fri 08:00–17:00' +
+            '（来源为主办方 American Battlefield Trust 自己的活动页，与 Silver Bow Chapter, DAR 合办）——' +
+            '正好覆盖你的 9/23–9/24，中庭里会多出展板与数字互动台。</strong>' +
+            '<strong>但主办方页面通篇没有写门票或「免费」二字，所以本页不再声称它免费；' +
+            '同类巡展一般不收费，要确认就写信问 silverbowchapter@gmail.com。</strong>' +
+            '<strong>顺带一个构图上的实际后果：展板与互动台会占掉中庭地面，' +
+            '想拍干净的中庭与穹顶就得往上仰、或者接受画面里有展具。</strong>' +
             '<strong>自来水公司那栋是在办公的企业建筑，只拍外立面；' +
             '法院内部虽可进，也请不要在门厅架三脚架挡人。</strong>',
         },
@@ -455,16 +461,26 @@ module.exports = {
           '<strong>其 2026 年 9 月下旬的具体开放时间未能从官方渠道确认</strong>）',
         ticket: '<strong>免费。</strong>街道、人行道与所有外立面拍摄均无费用。' +
           'Mountain Con Mine Yard 也是免费的公共场地',
-        hours: '<strong>街区 24 小时开放，无门禁，全年可达，不受任何季节性关闭影响</strong>——' +
+        hours: '<strong>街区 24 小时开放，无门禁，全年可达，不受任何季节性关闭影响（2026-09-05 复核，仍然成立）</strong>——' +
           '这是本子地区最可靠的一个点，也是烟大或天气坏时的保底方案。' +
           '<strong>但要注意大部分内景不可进入</strong>：' +
           'Carpenters Union Hall（工会与 KMBF 电台自用）、Butte Water Company Building（自来水公司办公楼）、' +
           'Kenwood 与 Thornton Block（私有商业物业）、Butte Civic Center（市政场馆，无参观项目）。' +
-          '<strong>唯一的例外是 Butte-Silver Bow Courthouse，它确实可以进——' +
-          'Mainstreet Uptown Butte 官方原文：“Although the building remains in use as office space for county staff, ' +
+          '<strong>这五处在 2026-09-05 复核时依然查不到任何对外开放的参观项目或公示时段</strong>；' +
+          'Butte Civic Center 在 Butte-Silver Bow 县政府自己的 Government Buildings 页上是一个市政设施条目' +
+          '（1340 Harrison Ave，(406) 497-6573），没有游客项目这一栏。' +
+          '<strong>唯一的例外是 Butte-Silver Bow Courthouse，它确实可以进，但请注意这条信息的来源层级：</strong>' +
+          '<strong>「平日 08:00–17:00 可自助参观」这句话的出处是 Mainstreet Uptown Butte（街区商会组织）：' +
+          '“Although the building remains in use as office space for county staff, ' +
           'visitors are welcome to take self-guided tours Monday through Friday from 8 am to 5 pm.”</strong>' +
-          '<strong>9/23（周三）与 9/24（周四）都是平日，08:00–17:00 可自助进入拍中庭。</strong>' +
-          '<strong>安检规定官方未公布；县政府官方页面明确写了「除服务犬外不得带动物入内」。</strong>' +
+          '<strong>而真正的产权与管理方 Butte-Silver Bow 县政府在自己的官方页面上并没有公布任何参观时段——' +
+          '它只是把中庭、彩绘玻璃穹顶与 Bill Burns 那座 Belmont Mine 可动模型描述成 ' +
+          '“Visitors to the Butte Courthouse can see…”，即确认公众可以看，但不给时间。</strong>' +
+          '<strong>两级来源不冲突，但严格说「8 am to 5 pm」不是运营方自己的口径。' +
+          '9/23（周三）与 9/24（周四）都是平日，按这个时段进去拍中庭在实操上是可行的；' +
+          '如果这是你当天唯一的室内机位，出发前打县政府总机 (406) 497-6200 问一句更稳。</strong>' +
+          '<strong>安检规定官方未公布（这是在办公的法院，安检完全可能存在）；' +
+          '县政府官方页面明确写了「除服务犬外不得带动物入内」。</strong>' +
           '其余市政办公楼请只拍外立面',
         parking: '<strong>Uptown 街边停车免费</strong>，Broadway、Granite、Park 各街均有路边车位；' +
           '9 月下旬平日车位宽松。' +
@@ -702,9 +718,9 @@ module.exports = {
       name: '伯克利矿坑',
       en: 'Berkeley Pit',
       score: 4,
-      tldr: '一英里宽的酸性露天铜矿湖，Superfund 场址。观景台 9/23–9/24 开门（每日 10:00–17:00），门票访客报告为 $7。只能在 10:00–17:00 拍，没有晨昏光。',
+      tldr: '一英里宽的酸性露天铜矿湖，Superfund 场址。观景台 9/23–9/24 开门（每日 10:00–17:00），门票金额官方从未公布、非官方口径 $3 与 $7 并存，带 $10 现金。只能在 10:00–17:00 拍，没有晨昏光。',
       tags: [
-        { t: '门票约 $7（未官方确认）', c: 'paid' },
+        { t: '门票金额无官方数字', c: 'paid' },
         { t: '9/23–24 开门（May–Oct）', c: 'free' },
         { t: '仅 10:00–17:00，无晨昏', c: 'risk' },
         { t: '闭季口径两处冲突', c: 'risk' },
@@ -776,20 +792,29 @@ module.exports = {
         book: '<strong>不需预约。</strong>散客直接到场买票即可。' +
           '（团体与教育参观可另约，Tours available March through November，' +
           '联系 info@pitwatch.org，建议提前一周）',
-        ticket: '<strong>需付费。运营方官网（pitwatch.org/visit）只写 “Admission Fee”，没有公布金额。</strong>' +
-          '<strong>2026 年 6 月与 7 月的实地访客报告一致为每人 $7</strong>' +
+        ticket: '<strong>需付费，但金额到 2026-09-05 仍然没有任何官方数字，而且非官方数字互相矛盾——' +
+          '这一条比原先写的更不确定，请按最坏情况带现金。</strong>' +
+          '<strong>运营方官网（pitwatch.org/visit）2026-09-05 复核，Admission 一栏只有 “Admission Fee” 三个字，' +
+          '没有金额；Butte Chamber of Commerce 作为实际运营方也没有公示价目。</strong>' +
+          '<strong>非官方口径至少有两个版本：一批访客报告为每人 $7，另一批第三方页面写 $3</strong>' +
           '（历史金额曾是 $2，后为 $5）。' +
-          '<strong>$7 为访客报告值，未能从官方渠道确认，请按每人 $7–10 备现金。' +
-          '停车免费。</strong>',
-        hours: '<strong>运营方（Butte Chamber of Commerce）官方口径原文：' +
+          '<strong>两个数字差一倍以上，说明没有一个能当准。请按每人 $10 备现金，并在电话里直接问价：' +
+          '(406) 723-3177，或 (406) 497-5045。</strong>' +
+          '<strong>停车免费。</strong>',
+        hours: '<strong>2026-09-05 复核，运营方（Butte Chamber of Commerce）的官方口径一字未变，原文：' +
           '“Open daily, 10 A.M.- 5 P.M.” 与 “Open May – October (weather permitting)”。' +
           '据此 9 月 23 日（周三）与 9 月 24 日（周四）均在营业期内，每日 10:00–17:00 开放。</strong>' +
           '<strong>但必须指出口径冲突：</strong>区域旅游局 southwestmt.com 写的是' +
           '“The Berkeley Pit Viewing Stand is typically open from mid-May through mid-September”，' +
           '<strong>即九月中旬就可能收季</strong>，只补充说可能延后到秋季更晚。' +
-          '<strong>两个渠道不一致。本页采信运营方自己的 May–October，但这是本子地区第一优先要电话确认的项：' +
-          '(406) 723-3177（或 (406) 497-5045）。</strong>' +
-          '另注意 “weather permitting”——降雪或结冰可临时闭站',
+          '<strong>两个渠道不一致。本页采信运营方自己的 May–October</strong>' +
+          '（Montana Tech 的 Butte 景点页也写 “The Viewing Stand and Gift Shop are open May – October”，' +
+          '算是第三个站在 May–October 一边的口径，虽然它同样不是运营方），' +
+          '<strong>但这仍然是本子地区第一优先要电话确认的项：(406) 723-3177（或 (406) 497-5045）。</strong>' +
+          '另注意 “weather permitting”——降雪或结冰可临时闭站。' +
+          '<strong>如果行程落在 10 月下旬那个备用窗口，这一条的风险明显更高：' +
+          '按运营方口径十月仍在期内，但那正好是两个口径分歧最大的时段，' +
+          '而且十月的降雪足以让 “weather permitting” 真的生效——那种日期务必先打电话再开车过去。</strong>',
         parking: '<strong>免费专用停车场</strong>，位于 Shields Avenue 尽头，车位充足。' +
           '<strong>2026 年的好消息：Shields Avenue 跨铁路桥的 MDT 修复工程已于 6 月完工</strong>，' +
           '这正是通往观景台的那条路，9 月不会再受影响',
@@ -838,7 +863,7 @@ module.exports = {
       tldr: '博物馆 9/23–9/24 确定开门（季节到 10 月 29 日，周二至周日 9:30–17:00）。建在真实矿场上，含 1890 年代复原矿镇。纪念地是另一处免费点位，纪念 1917 年 168 死。',
       tags: [
         { t: '9/23–24 确定开门', c: 'free' },
-        { t: '门票 $12／地下团 $30', c: 'paid' },
+        { t: '门票 $12／地下团 $30（网订 $31.20，含入场）', c: 'paid' },
         { t: '纪念地完全免费 24 小时', c: 'free' },
         { t: '地下团需提前订', c: 'risk' },
         { t: '两处不在同一地点', c: 'risk' }
@@ -948,8 +973,16 @@ module.exports = {
           '<strong>地下矿井团强烈建议提前在 miningmuseum.org 订票</strong>' +
           '（官网原话 “We strongly recommend purchasing your Underground Tour Tickets in Advance.”），' +
           '容量有限。<strong>Granite Mountain Memorial 无需预约。</strong>',
-        ticket: '<strong>博物馆需门票；地下矿井团另收费。官网 Admission &amp; Tours 页已公布金额：' +
-          '普通入场成人 $12；Orphan Girl 地下矿井团 $30，周二优惠价 $25。</strong>' +
+        ticket: '<strong>官网 Admission &amp; Tours 页（2026-09-05 复核）：普通入场成人 $12.00；' +
+          'Orphan Girl 地下矿井团 $30.00，周二 $25.00。</strong>' +
+          '<strong>但这里有一个原先写错的关键点：地下团不是「另收费」，而是含普通入场——' +
+          '官网 Underground Tour 页原文 “General admission included in purchase of underground tour ticket.”。' +
+          '所以要下矿的话不要买两张票，直接买地下团那一张。</strong>' +
+          '<strong>而且同一个官网上有两套金额，差在手续费：' +
+          'Underground Tour 页写的是 “All Ages: $31.20 (Tuesdays $26.00)”、“Member: $15.60”，' +
+          '并自己注明 “* Price includes a 4% booking fee.”——' +
+          '也就是说 $30／$25 是牌价，网上订票实付 $31.20／$26.00。' +
+          '两个数字都是官方的，不是矛盾，按 $31.20 备预算即可。</strong>' +
           '<strong>普通入场票「good for two consecutive days」，连续两天有效——' +
           '你 9/23 与 9/24 两天都在 Butte，买一次就够，这一点很值。</strong>' +
           '另提供 AAA、儿童、团体、军人、老年优惠（各档金额官网未逐项公布）。' +
@@ -960,9 +993,18 @@ module.exports = {
           '<strong>“Last General Admission Ticket Sold One Hour Prior to Closing”，即最晚 16:00 售票</strong>。' +
           '2026 年 3 月 31 日开季，<strong>daily operations through fall</strong>。' +
           '<strong>地下矿井团每日运行。</strong>' +
-          '注意官网自己标注 “Hours subject to change”，且历史上曾因 Montana Tech 的橄榄球赛临时缩短时间' +
-          '（9 月 1–11 日期间因 9 月 5 日的比赛改为 9:30–15:00）——' +
-          '<strong>9 月下旬是否还有类似赛事导致的临时缩时，未能从官方渠道确认，进门前看一眼官网公告栏。</strong>' +
+          '<strong>那个赛事缩时的问题，2026-09-05 复核后可以放下了：' +
+          '官网首页当前挂的公告是 “SEPTEMBER 1-11, 2026, HOURS ' +
+          '— Due to the Montana Tech Football on Sept 5, the Museum hours will be 9:30 am - 3:00 PM. ' +
+          'Last General Admission will be sold at 2:00 PM.”' +
+          '——这条公告自己划定的窗口是 9 月 1 至 11 日，够不到你的 9/23–9/24，' +
+          '而且到今天为止官网没有针对 9 月下旬发布任何缩时公告。</strong>' +
+          '官网仍然自己标注 “Hours subject to change”，进门前还是看一眼首页公告栏。' +
+          '<strong>另一条官方提醒对你的日期直接相关，原先没写进来：' +
+          '“The Museum is 95% outdoors. Please be prepared for inclement weather. ' +
+          'Snow or frost can delay Museum opening hours.”' +
+          '——9 月下旬 Butte 清晨已在冰点附近，' +
+          '所以 9:30 那个开门时间在有霜的早上是可能被推迟的，不要把它排成当天第一个硬时点。</strong>' +
           '<strong>Granite Mountain Memorial 为无人值守的开放场地，24 小时、全年可达。</strong>',
         parking: '<strong>博物馆有免费专用停车场</strong>（46.00964, −112.56530），' +
           '位于 Montana Tech 校园后方，' +
@@ -1117,18 +1159,23 @@ module.exports = {
           '<strong>发车时刻表在 Buy Tickets 页面的动态日历里，该日历是订票插件，我无法读取，' +
           '因此 9/23–9/24 是否有班次未能确认。</strong>' +
           '<strong>所有团从 1707 Continental Dr. Suite C 的礼品店集合发车，必须在礼品店与团队会合。</strong>',
-        ticket: '<strong>成人 $28；老人与 12–17 岁 $25；11 岁及以下 $10；儿童座椅另收 $10。</strong>' +
+        ticket: '<strong>成人 $28；老人与 12–17 岁 $25；11 岁及以下 $10；儿童座椅另收 $10' +
+          '（2026-09-05 复核，官网多处一致，已核实）。</strong>' +
           '官网注明 “Prices and times are subject to change”，' +
           '并把最新价格指向 Buy Tickets 页的日历。' +
           '<strong>从山下用长焦拍摄免费。</strong>',
-        hours: '<strong>官方口径原文：“We try to offer up to three tours daily June, July and August. ' +
+        hours: '<strong>2026-09-05 复核，官方口径原文未变：“We try to offer up to three tours daily June, July and August. ' +
           'September and October are weather permitting.”</strong>' +
           '<strong>也就是说 9 月已经不是固定班期，只在天气允许时发车——' +
-          '9/23（周三）与 9/24（周四）是否有车，未能从官方渠道确认，这是本景点的决定性未知项。</strong>' +
-          '现有班次时刻为 <strong>10:00、14:00、18:00</strong>，' +
-          '<strong>单程约 3 小时（往返含山顶停留）</strong>。' +
-          '礼品店淡季时间 <strong>周二至周五 11:00–17:00，周六日与周一闭店</strong>' +
-          '（9/23 与 9/24 都在周二至周五之内，至少店是开的）。' +
+          '9/23（周三）与 9/24（周四）是否有车，未能从官方渠道确认，这是本景点的决定性未知项。' +
+          '（10 月下旬那个备用窗口同样只有 “weather permitting”，而且更靠后、更冷，风险只会更大。）</strong>' +
+          '现有班次时刻为 <strong>10:00、14:00、18:00</strong>（官网 2026-09-05 仍列这三班），' +
+          '<strong>全程约 3 小时（往返含山顶停留）</strong>。' +
+          '<strong>礼品店时段官网自己有两个版本，都在同一个官方网站上，这里两个都给你：' +
+          '站内通栏写的是 “Tuesday-Friday 11am – 5pm. Closed Saturday, Sunday and Monday”（标注为淡季），' +
+          '而 Contact 页写的是 “Office/Store Hours Tuesday – saturday 11am – 6pm”。' +
+          '好消息是 9/23 与 9/24 是周三、周四，落在两个版本的交集里，店一定开；' +
+          '差别只在几点关门（17:00 还是 18:00）。要卡傍晚那班车就打 (406) 782-1221 问准。</strong>' +
           '<strong>雕像本身在私人土地，不存在「自行前往的开放时间」。</strong>',
         parking: '<strong>巴士团：在礼品店（1707 Continental Dr. Suite C）停车，免费。</strong>' +
           '<strong>山顶没有任何公共停车位，这也是禁止自驾的原因之一。</strong>' +

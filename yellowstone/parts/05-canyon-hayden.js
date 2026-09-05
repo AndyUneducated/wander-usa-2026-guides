@@ -53,9 +53,22 @@ module.exports = {
         '<strong>「permanently closed」，NPS 计划在未来拆除整座楼梯</strong>：' +
         '结构已超设计寿命，踏板变形、扶手缺失、焊缝开裂、锈蚀严重；' +
         '2019 年的翻修估价为 300–350 万美元，因造价上涨已被从峡谷改造工程中剔除，' +
-        '公园「不打算再对这座楼梯投入」。它已从 NPS 所有现行出版物中删除——' +
+        '公园「不打算再对这座楼梯投入」。</p>' +
+        '<p><strong>2026-09-05 复核，这条结论的证据分两层，说清楚免得你被第三方攻略动摇：</strong>' +
+        '<strong>（一）nps.gov 上的实证是「彻底消失」。</strong>' +
         '<a href="https://www.nps.gov/yell/planyourvisit/canyonplan.htm" target="_blank" rel="noopener">NPS 的 Canyon 区页面</a>' +
-        '现在只列 Artist Point、Upper Falls Viewpoints、Brink of the Lower Falls Trail、Red Rock Point。' +
+        '与 NPS 官方的 ' +
+        '<a href="https://www.nps.gov/thingstodo/yell-grand-canyon-of-the-yellowstone.htm" target="_blank" rel="noopener">Grand Canyon of the Yellowstone 条目</a>' +
+        '在逐条列举峡谷所有观景台与步道时，' +
+        '<strong>South Rim Drive 一节只写到 Upper Falls Viewpoints 与 Artist Point，Uncle Tom\u2019s Trail 连名字都不再出现</strong>；' +
+        '北缘一侧列的是 Brink of Lower Falls、Lookout、Inspiration、Grand View。' +
+        '一条现役步道不会在官方自己的清单里被整条抹掉。' +
+        '<strong>（二）「永久」这个词本身来自公园公共事务办公室对媒体的答复，不是 nps.gov 上的成文表述</strong>——' +
+        '这是本条唯一一处证据强度上的缺口。' +
+        '实务上不影响结论（清单里没有它 = 你到现场也进不去），' +
+        '<strong>但如果你想拿到一句「官方亲口说永久」，只能打公园信息线 (307) 344-7381 问。</strong>' +
+        '反过来说：<strong>大量第三方攻略（含 2023 年之后的博客）仍把它写成「维修中、将来会开」，那是错的，别按它安排行程。</strong></p>' +
+        '<p>替代方案与命名混淆：' +
         '原来的「Uncle Tom\u2019s Point」已改名为 <strong>Upper Falls Viewpoints</strong>（开放），' +
         '停车场仍叫 Uncle Tom\u2019s Parking Area，这是很多旧攻略混淆的来源。' +
         '<strong>替代方案：Red Rock Point</strong>（下切约 500 英尺、约 100 级台阶，对岸低位视角）' +
@@ -387,8 +400,13 @@ module.exports = {
           '园方描述楼梯状况为「poor」：踏板变形、扶手缺失、焊缝开裂、锈蚀，且落石造成多处绝路',
         '<strong>2019 年的翻修估价 300–350 万美元，因造价上涨被从峡谷整体改造工程中剔除。</strong>' +
           'Yellowstone 公共事务办公室的正式表述是「permanently closed」，' +
-          '并称 NPS 计划在未来拆除整座楼梯、「不打算再对这座楼梯投入」。' +
-          '它已从 NPS 所有现行出版物中删除'
+          '并称 NPS 计划在未来拆除整座楼梯、「不打算再对这座楼梯投入」。',
+        '<strong>2026-09-05 核实结论：维持「永久关闭」。</strong>' +
+          'nps.gov 现行的 Canyon 区页面与官方 Grand Canyon of the Yellowstone 条目在逐条列举峡谷观景台与步道时，' +
+          '<strong>South Rim Drive 一节只列 Upper Falls Viewpoints 与 Artist Point，Uncle Tom\u2019s Trail 已完全不再出现</strong>。' +
+          '<strong>需要如实交代的一点</strong>：「永久」二字出自公园公共事务办公室对媒体的答复，' +
+          '<strong>nps.gov 上并没有一句成文的「permanently closed」</strong>——' +
+          '想要官方口头确认只能打 (307) 344-7381。但无论措辞如何，<strong>现场进不去这一点没有疑问</strong>'
       ],
       photo: '<strong>本次为 0。</strong>正常年份它是 4/5 的独特低位机位（近距离仰拍瀑布、水雾入画），' +
         '但那个画面在可预见的未来不会再有。' +
@@ -408,7 +426,10 @@ module.exports = {
       access: {
         book: '—',
         ticket: '—',
-        hours: '<strong>永久关闭，无重开时间表，NPS 计划拆除</strong>',
+        hours: '<strong>永久关闭，无重开时间表，NPS 计划拆除。</strong>' +
+          '2026-09-05 复核：nps.gov 现行的峡谷观景台／步道清单里已完全没有这条步道；' +
+          '「永久」的措辞出自公园公共事务办公室，未见于 nps.gov 成文页面，' +
+          '<strong>要口头确认请拨公园信息线 (307) 344-7381</strong>',
         parking: 'Uncle Tom\u2019s Parking Area 仍开放（44.71491, −110.49578），' +
           '是 Upper Falls Viewpoints 与 South Rim Trail 的正规停车场，免费',
         walk: '不可进入'

@@ -66,10 +66,19 @@ module.exports = {
         '其余八家住宿两边完全吻合（Xanterra 的日期永远是 NPS 末日的次日，即退房日），唯独 Inn 对不上：' +
         'Xanterra 的开关门日期页、Inn 单页与餐饮页三处一致写 <strong>10/12</strong>，' +
         'NPS 表格写 <strong>10/18</strong>。' +
-        '<strong>2026-09-05 复核 Xanterra 的 Opening and Closing Dates 页，仍是 “Old Faithful Inn｜May 1, 2026｜October 12, 2026”。' +
-        '由于 Xanterra 是这栋楼的实际经营方（NPS 只是转载），本页以 10/12 为准；' +
-        '哪一边是过期数据仍无法从官方渠道判定，但该按经营方的日期规划。</strong>' +
-        '（附带一个可能的解释：同一张 NPS 表上 Madison Campground、Fishing Bridge RV Park 与 Old Faithful General Store 的末日都恰好是 10/18。）' +
+        '<strong>2026-09-05 两边同时复核过一遍，结论是这个冲突解不掉，而且两边都不是陈旧页面。</strong>' +
+        'Xanterra 的 Opening and Closing Dates 页仍写 “Old Faithful Inn｜May 1, 2026｜October 12, 2026”；' +
+        '而 NPS 那张写 10/18 的 Operating Dates 表<strong>最后更新是 2026-09-03，也就是三天前</strong>，' +
+        '不能当成没人维护的旧数据打发掉。' +
+        '<strong>唯一一条偏向 10/12 的官方旁证是 NPS 自己的 ' +
+        '<a href="https://www.nps.gov/yell/planyourvisit/lodging.htm" target="_blank" rel="noopener">Lodging 页</a>' +
+        '（最后更新 2026-02-26）：它给 Old Faithful Inn 的季节只写 “Typical Season: May through mid-October”，' +
+        '措辞更接近 10/12 而不是 10/18，但它本身不给具体日期，所以只是旁证。</strong>' +
+        '<strong>本页按经营方 Xanterra 的 10/12 规划</strong>——房是它卖的、门是它锁的，' +
+        '<strong>但哪一边是过期数据未能核实，请勿把 10/13–10/18 当成有房。</strong>' +
+        '（顺带纠正一个容易被拿来当解释的巧合：同一张 NPS 表上末日确实是 10/18 的是 Old Faithful General Store、' +
+        'Old Faithful Upper 加油站店面与 Fishing Bridge General Store；' +
+        '<strong>Madison Campground 与 Fishing Bridge RV Park 是 10/17，不是 10/18</strong>。）' +
         '实务口径：<strong>10/12 之前一定进得去大堂；10/13–10/19 属于赌运气；10/19 之后一定进不去。</strong>' +
         '若行程落在 10/13 之后而那个 1904 年的大堂是你的重点，出发前直接打 <strong>307-344-7311</strong> 确认。</p>' +
         '<p><strong>三个日期节点，翻译成实际后果：</strong></p>' +
@@ -596,10 +605,15 @@ module.exports = {
           '<strong>1959 年 Hebgen Lake 7.3 级地震之后它变成了近乎不间断喷发，至今如此</strong>。' +
           '<strong>你不需要等它——这在 Yellowstone 是很罕见的待遇</strong>',
         '<strong>Firehole Lake Drive 的 2026 年状态是这一条目里最要紧的信息，而它不在任何实时路况地图上。</strong>' +
-          'NPS Current Conditions 页明确写：' +
-          '<em>「Firehole Lake Drive is closed to motorized vehicles due to hydrothermal heat damaging the road surface. ' +
-          'Foot and bicycle traffic is allowed.」</em>' +
-          '<strong>也就是说地热把沥青路基烤软塌了，2026 年全季对汽车关闭，但人和自行车可以进。</strong>' +
+          '<strong>2026-09-05 复核，最硬的官方依据是 2026 版 ' +
+          '<a href="https://www.nps.gov/yell/learn/management/upload/Yellowstone-Superintendent-s-Compendium.pdf" target="_blank" rel="noopener">Superintendent\u2019s Compendium</a> ' +
+          '第四部分 36 CFR §4.11 项下的一句成文规定：<em>「Firehole Lake Drive is closed to vehicles.」</em></strong>' +
+          '这是一条现行有效的园长令，不是季节安排，也不是施工通告。' +
+          '<strong>需要如实说明的是同一份文件自相矛盾</strong>：前面 §1.5「Road Closures」一节里另有一句旧条文写的是' +
+          '<em>「Firehole Lake Drive is closed to vehicles weighing six tons or more at the direction of Federal Highways」</em>（六吨以上禁行）。' +
+          '<strong>两句并存，但 §4.11 那句是无条件的，且 NPS 发言人对媒体的口径也是「因沥青被地热烤软而对机动车关闭、步行与自行车照旧」，' +
+          '因此本页按「全季禁车、可步行」规划。</strong>' +
+          '<strong>它不在实时路况地图上，出发当天只能打 (307) 344-2117 或到 Old Faithful Visitor Education Center 问 ranger 复核。</strong>' +
           '这条 <strong>2 英里的单行道（自南向北）</strong>上有 Great Fountain Geyser、White Dome Geyser、' +
           'Pink Cone Geyser 与 Firehole Lake——' +
           '<strong>结果就是：这几个点从「开车到路边就能拍」变成了「走 1–1.5 公里单程进去」。</strong>' +
@@ -705,9 +719,12 @@ module.exports = {
         ticket: '含在园区门票内，<strong>年票覆盖</strong>',
         hours: 'Fountain Paint Pot 栈道无门禁、全天可入，' +
           '<strong>2026 年秋季无公布的封闭段</strong>。' +
-          '<strong>Firehole Lake Drive：2026 年对机动车关闭（NPS Current Conditions 原文，' +
-          '原因是「hydrothermal heat damaging the road surface」），步行与自行车允许通行。</strong>' +
-          '网络上有一则关于北段部分恢复通车的说法，<strong>未能从官方渠道确认，按全线禁车准备</strong>。' +
+          '<strong>Firehole Lake Drive：对机动车关闭，步行与自行车允许通行。</strong>' +
+          '依据是 2026 版 Superintendent\u2019s Compendium 在 36 CFR §4.11 项下的成文规定' +
+          '<em>「Firehole Lake Drive is closed to vehicles.」</em>' +
+          '（同一份文件 §1.5 另有一句旧条文只写「六吨以上禁行」，两句冲突，见上方说明；本页按无条件禁车准备）。' +
+          '网络上有一则关于北段部分恢复通车的说法，<strong>未能从官方渠道确认；这条支线也不在 NPS 实时路况地图上，' +
+          '出发当天请拨 (307) 344-2117 或到 Old Faithful Visitor Education Center 向 ranger 核实</strong>。' +
           '所在的 Madison ↔ Old Faithful 路段 2026 年通车至 <strong>10/31</strong>',
         parking: 'Fountain Paint Pot 有正式停车场（OSM 停车面中心 <strong>44.54792, −110.80788</strong>），' +
           '10 月车位充裕。' +
@@ -1062,9 +1079,15 @@ module.exports = {
       ],
       highlights: [
         '<strong>Biscuit Basin 的状态是本区唯一一个真正的重大不确定项，答案是：仍然关闭，而且没有重开日期。</strong>' +
-          '时间线已核实：<strong>2024 年 7 月 23 日上午 10 点前，Black Diamond Pool 发生一次显著的热液爆炸，' +
-          '碎屑抛到近 200 英尺高、摧毁了附近的木栈道</strong>，栈道上的游客四散躲避，无人受伤；' +
-          '园方随即封闭整个盆地。' +
+          '时间线已核实：<strong>2024 年 7 月 23 日上午 10 点前，Black Diamond Pool 发生一次显著的热液爆炸。' +
+          'USGS 依照片分析给出的喷发柱高度是 <u>400–600 英尺（120–180 米）</u></strong>，' +
+          '数英里外可见；' +
+          '<strong>抛出物主要朝东北方向的 Firehole River 一侧散落，柚子大小的石块被抛出数十至数百英尺，' +
+          '离爆点最近的几块直径约 3 英尺（1 米）、重达数百磅，木栈道被砸毁</strong>。' +
+          '栈道上的游客四散躲避，无人受伤（USGS 认为纯属抛射方向凑巧）；' +
+          '园方随即连同停车场一并封闭整个盆地。' +
+          '<strong>NPS 的 Biscuit Basin Trailhead 页（最后更新 2025-03-12）至今仍只有一句：' +
+          '<em>「Biscuit Basin is closed until further notice due to a hydrothermal explosion that occured July 23, 2024.」</em></strong>' +
           '<strong>2026 年 6 月 13 日 05:09（MDT），同一盆地在 Black Diamond Pool 以北数百英尺处又发生一次较小的爆炸</strong>：' +
           '抛石数十英尺，地面裂开一道 <strong>60 英尺长、灌满沸水的裂缝</strong>；' +
           '两天后那片地面塌陷成一个 <strong>21 × 17 英尺的沸腾水池</strong>，' +
@@ -1135,7 +1158,7 @@ module.exports = {
         {
           name: 'Biscuit Basin —— 只能从主路远观',
           desc: '<strong>2026 年全域关闭，停车场也关闭，进不去。</strong>' +
-            '但从主路（Grand Loop Road，Old Faithful 以北约 2 英里）经过时，' +
+            '但从主路（Grand Loop Road，USGS 口径为 Old Faithful 西北约 2 英里）经过时，' +
             '<strong>可以在车里看到 Biscuit Basin 方向升起的蒸汽，以及 2026 年 6 月新形成的两条流向 Firehole River 的' +
             '径流沟</strong>——' +
             'USGS 明确写这两条新径流沟「were also visible from the road throughout the day」。' +
@@ -1148,9 +1171,12 @@ module.exports = {
       access: {
         book: '不需预约',
         ticket: '含在园区门票内，<strong>年票覆盖</strong>',
-        hours: '<strong>Black Sand Basin：无门禁、全天可入，2026 年秋季无公布的封闭。</strong>' +
-          '<strong>Biscuit Basin：自 2024 年 7 月 23 日爆炸后封闭至今，2026 年 6 月 13 日再次爆炸后维持封闭，' +
-          'NPS 与 USGS 均未给出重开日期或估计。已核实，按「不可进入」规划。</strong>' +
+        hours: '<strong>Black Sand Basin：无门禁、全天可入，2026-09-05 复核无任何公布的封闭。</strong>' +
+          '两条官方旁证：NPS 的 Current Conditions 页（最后更新 2026-08-31）没有把它列入任何封闭；' +
+          '2026 版 Superintendent\u2019s Compendium 仍把 Black Sand Basin 列为允许商业导览作业的地点之一，' +
+          '<strong>也就是说它在行政上是一个正常运营中的开放盆地——和隔壁的 Biscuit Basin 完全两回事。</strong>' +
+          '<strong>Biscuit Basin：自 2024 年 7 月 23 日爆炸后封闭至今（NPS 官方页原文「closed until further notice」），' +
+          '2026 年 6 月 13 日再次爆炸后维持封闭，NPS 与 USGS 均未给出重开日期或估计。已核实，按「不可进入」规划。</strong>' +
           '所在的 Madison ↔ Old Faithful 路段通车至 <strong>10/31</strong>',
         parking: 'Black Sand Basin 有自己的小停车场（OSM 停车面中心 <strong>44.46208, −110.85304</strong>），' +
           '<strong>规模小、夏季常满，10 月无压力</strong>。' +
@@ -1159,8 +1185,9 @@ module.exports = {
           '<strong>走完 15 分钟，含等 Cliff Geyser 喷发算 30–45 分钟</strong>'
       },
       notes: [
-        '<strong>Biscuit Basin 的封闭是有人因此受过重伤的那种封闭。</strong>' +
-          '2024 年那次爆炸把石块抛到近 200 英尺高、摧毁了栈道，' +
+        '<strong>Biscuit Basin 的封闭不是行政上的谨慎，是那种真会砸死人的封闭。</strong>' +
+          '2024 年那次爆炸的喷发柱按 USGS 分析高达 400–600 英尺，' +
+          '抛出的石块最大直径约 1 米、重数百磅，木栈道被直接砸毁，' +
           '<strong>2026 年 6 月又在原址以北数百英尺处形成新的喷口与沸腾池，地面仍在塌陷</strong>。' +
           '园方的措辞是「hazardous and unpredictable」，这不是行政保守',
         '<strong>Black Sand Basin 与 Old Faithful 只隔 1 英里／3 分钟车程</strong>，' +
@@ -1173,8 +1200,13 @@ module.exports = {
           '<strong>黑曜岩碎屑硬度高，擦镜头前先吹干净</strong>',
         '<strong>无手机信号、无厕所。</strong>' +
           '最近的厕所与联网点是 Old Faithful Visitor Education Center（开到 10/31）',
-        '这一带 2026 年 5 月 4 日曾发生带崽母灰熊袭人事件（在 Old Faithful 西北侧），' +
-          '<strong>相关临时封闭已解除，但说明这就是熊活动区</strong>；栈道虽短，喷雾照带'
+        '这一带 2026 年 5 月曾发生带崽母灰熊袭人事件（在 Old Faithful 西北侧），' +
+          '<strong>由此产生的步道临时封闭是否已全部解除，未能核实</strong>——' +
+          'NPS 的 Backcountry Situation Report 页在 2026-09-05 复核时取不到内容，' +
+          '而有二手来源称 Mystic Falls Trail 自 2026 年 5 月起因熊情封闭。' +
+          '<strong>Mystic Falls 步道口本就在已封闭的 Biscuit Basin 里，对本条目无影响；' +
+          '但要走这一带任何一条林间步道，请先拨后山办公室 (307) 344-2160 确认。</strong>' +
+          '总之这就是熊活动区，栈道虽短，喷雾照带'
       ],
       images: [
         { url: 'img/iron-spring-creek-at-black-sand-basin-yellowstone-national-p-afbc3400.jpg',
@@ -1343,7 +1375,8 @@ module.exports = {
             '<strong>室内光比极大：白天窗光与暗部差 6–8 挡，用包围曝光或直接欠曝保窗户</strong>；' +
             '<strong>三脚架可用（不需拍摄许可），但空间紧、以不挡通道为前提。</strong>' +
             '<strong>最佳时间是清晨 07:00–08:30 与晚 21:00 之后，客人最少。</strong>' +
-            '<strong>务必先确认关门日期（10/12 或 10/18，两说）。</strong>'
+            '<strong>务必先确认关门日期（10/12 或 10/18，两个官方来源各执一词，未能判定）——' +
+            '若你的日期落在 10/13 之后，出发前打 307-344-7311 问一句，别到了门口才知道锁了。</strong>'
         }
       ],
       access: {
@@ -1353,7 +1386,8 @@ module.exports = {
           '<strong>Old Faithful Visitor Education Center 最后营业日 10/31</strong>' +
           '（预报板与免费 Wi-Fi 在这里，覆盖整个窗口）。' +
           '<strong>Old Faithful Inn 客房：以经营方 Xanterra 官网 2026-09-05 复核的 10/12 为准' +
-          '（NPS 表格另写 10/18，两说，本页取经营方口径）。</strong>' +
+          '（NPS Operating Dates 表另写 10/18，该表最后更新 2026-09-03，两边都不是旧页面，' +
+          '未能判定哪个为准；10/13–10/18 请勿当成有房，要确认打 307-344-7311）。</strong>' +
           '<strong>Snow Lodge 客房 10/24（Obsidian 餐厅 10/25，Geyser Grill 与礼品店 10/31）；' +
           'Old Faithful Lodge Cabins 10/3。</strong>' +
           '<strong>10/24 之后 Old Faithful 一带没有任何过夜的地方。</strong>' +

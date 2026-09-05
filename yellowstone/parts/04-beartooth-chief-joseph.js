@@ -396,16 +396,20 @@ module.exports = {
         '<p><strong>—— 9 月底已经关闭的设施（这一条直接决定这一天是否可行）——</strong></p>' +
         '<ul>' +
         '<li><strong>Island Lake Campground（21 个营位，约 9,500 英尺）与 ' +
-        'Beartooth Lake Campground（21 个营位，约 9,000 英尺）：官方口径 ' +
-        '“Typically from late June through early/mid September”，' +
-        '因此 <strong>9/24–9/25 已经关闭</strong>。' +
+        'Beartooth Lake Campground（21 个营位，约 9,000 英尺）：2026 年的确切日期已经拿到了。' +
+        'Shoshone National Forest 两个营地的官方页面（2026-09-05 复核，页面 Last updated 2026 年 7 月 6 日）' +
+        '当前状态都是 “Site Open”，而 “Current Conditions” 一栏写的是 ' +
+        '“Expected to close for the season on September 13, 2026”。' +
+        '也就是说两个营地在 9 月 13 日收季，你的 9/24–9/25 在关闭之后 11 到 12 天。</strong>' +
         'Forest Service 同时明确 <strong>“When the campground is listed as closed, no services will be available, ' +
         'no fees will be collected, however walk-in camping is permitted.”</strong>' +
         '——<strong>也就是说路和场地通常仍可进入、不收费，但没有水、没有垃圾清运，' +
         'vault toilet 的实际状态未能核实。这对摄影者其实是好消息：湖岸机位仍然可达，而且没人。</strong></li>' +
-        '<li><strong>Clay Butte Lookout：Forest Service 官方页当前显示 “Site Closed / Closed for the 2025 Season”，' +
-        '页面最后更新日期是 2025 年 9 月 10 日，也就是说这一页根本还没有更新到 2026 年。' +
-        '2026 年的开放状态与 FR 142 的可通行性未能从官方渠道确认。</strong>' +
+        '<li><strong>Clay Butte Lookout：2026-09-05 复核，Forest Service 官方页仍然显示 ' +
+        '“Site Closed / Closed for the 2025 Season”，页面 Last updated 仍是 2025 年 9 月 10 日，整年未动。' +
+        '而同一片高原上的两个营地页面在 2026 年 7 月 6 日更新过、并给出了 9 月 13 日的 2026 年收季日——' +
+        '也就是说这套官方状态系统 2026 年确实在维护，只有 Clay Butte 这一页被留在了原地。' +
+        '本页据此仍按「去不了」规划。</strong>' +
         '详见该景点的说明与替代方案</li>' +
         '<li><strong>Top of the World Store（mile 38.8，9,396 英尺）：' +
         'Red Lodge 与 Cooke City 之间唯一卖油、零食与纪念品的地方。' +
@@ -1009,10 +1013,10 @@ module.exports = {
       name: '熊牙湖与岛湖',
       en: 'Beartooth Lake & Island Lake (with Beartooth Butte)',
       score: 4,
-      tldr: '两个紧贴公路的高山湖，背后是 Beartooth Butte 的红色崖壁（内含 4 亿年前的鱼化石）。两个营地 9 月中已关，但官方允许步行进入且不收费，湖岸机位仍可达。',
+      tldr: '两个紧贴公路的高山湖，背后是 Beartooth Butte 的红色崖壁（内含 4 亿年前的鱼化石）。两个营地官方定于 2026 年 9 月 13 日收季，你到时已关，但官方允许步行进入且不收费，湖岸机位仍可达。',
       tags: [
         { t: '完全免费', c: 'free' },
-        { t: '营地 9 月中已关', c: 'risk' },
+        { t: '营地 9/13 收季（已核实）', c: 'risk' },
         { t: '关闭后仍准步行进入', c: 'free' },
         { t: '无水无垃圾清运', c: 'risk' },
         { t: '倒影只有无风清晨', c: 'risk' }
@@ -1039,16 +1043,22 @@ module.exports = {
           '当时这里还有<strong>两个营地、一座 lodge 和若干商业与私人小屋</strong>，' +
           '客人要<strong>骑马走 40 英里的矿工与猎人小径</strong>才能到自己的夏季别墅。' +
           '<strong>1964 年商店搬到现址（44.94297, −109.55982，海拔 9,396 英尺）</strong>',
-        '<strong>营地状态已核实，而结论对摄影者反而是好消息。</strong>' +
+        '<strong>营地状态已核实到具体日期，而结论对摄影者反而是好消息。</strong>' +
           '<strong>Island Lake Campground 与 Beartooth Lake Campground（各 21 个营位，Shoshone National Forest，' +
-          '先到先得、不接受预订）的官方营业口径是 “Typically from late June through early/mid September”，' +
-          '因此 9/24–9/25 已经关闭。</strong>' +
+          '先到先得、不接受预订）的官方页面在 2026-09-05 复核时状态都是 “Site Open”，' +
+          '“Current Conditions” 栏写的是 “Expected to close for the season on September 13, 2026”，' +
+          '页面 Last updated 2026 年 7 月 6 日——' +
+          '这是本景点原先唯一的实质不确定项，现在有了 2026 年的官方日期：9 月 13 日收季，' +
+          '你的 9/24–9/25 在那之后 11 到 12 天。</strong>' +
+          '（对照口径：同页 “Operational Hours” 仍是笼统的 “Typically from late June through early/mid September”，' +
+          '<strong>要用的是 Current Conditions 里那个带年份的日期，不是这句笼统话。</strong>）' +
           '但 Forest Service 同时明确：' +
           '<strong>“When the campground is listed as closed, no services will be available, ' +
           'no fees will be collected, however walk-in camping is permitted.”</strong>' +
           '<strong>换句话说场地并未被当成禁区，只是没有服务、不收费。' +
           '实操含义是：湖岸机位仍然可达，而且完全没有人。' +
-          '代价是没有水、没有垃圾清运（官方原文 “pack it out”），vault toilet 的实际状态未能核实；' +
+          '代价是没有水、没有垃圾清运（Island Lake 页原文 “No garbage collection, pack it in, pack it out”），' +
+          'vault toilet 的实际状态未能核实；' +
           '车辆能否驶入营地支路（而非只能步行）也未能从官方渠道确认，请以现场路障为准。</strong>',
         '<strong>顺路还有两处被大多数人直接开过去的东西。</strong>' +
           '<strong>Beartooth Falls（OSM 节点 44.93713, −109.60323）</strong>与' +
@@ -1144,14 +1154,24 @@ module.exports = {
           '而且在你的窗口里已经关闭。日间的湖岸拍摄本来就不需要任何预约',
         ticket: '<strong>免费。</strong>湖岸与观景不收费；' +
           '<strong>营地关闭期间 Forest Service 明确 “no fees will be collected”</strong>，' +
-          '开放季的营位费在本行程里不适用',
+          '开放季的营位费在本行程里不适用。' +
+          '（供参考：Beartooth Lake 官方页写 “Single Site: $25 per night”，' +
+          '<strong>Island Lake 官方页同时印着 “$25 per night” 与 “$20/night” 两个数字、官方自己没统一</strong>，' +
+          '两页都注明只收现金或支票。这与你的日期无关，' +
+          '但说明这两页的费用栏本身不完全可靠——要用的是它们的 Current Conditions 日期。）',
         hours: '<strong>公路开放期内 24 小时可进入，无门禁。' +
           '2026 年公路开放期 5 月 22 日 – 10 月 12 日（NPS 官方口径）。</strong>' +
-          '<strong>两个营地：官方口径 “Typically from late June through early/mid September”，' +
-          '因此 9 月 24–25 日已关闭；官方同时说明关闭期间无服务、不收费、但 “walk-in camping is permitted”。</strong>' +
-          '<strong>2026 年的确切关闭日期，以及「车辆是否仍可驶入营地支路」这两项均未能从官方渠道确认</strong>——' +
-          '这是本景点唯一的实质不确定项。出发前可打 Shoshone National Forest 的 ' +
-          'Clarks Fork Ranger District 问一句，或到现场看路障',
+          '<strong>两个营地的 2026 年日期已核实：Shoshone National Forest 官方页（2026-09-05 复核，' +
+          '页面 Last updated 2026 年 7 月 6 日）状态 “Site Open”，' +
+          'Current Conditions 原文 “Expected to close for the season on September 13, 2026”——' +
+          '因此 9 月 24–25 日两个营地都已关闭 11 到 12 天。</strong>' +
+          '官方同时说明关闭期间无服务、不收费、但 “walk-in camping is permitted”。' +
+          '<strong>「车辆是否仍可驶入营地支路（而非只能步行）」仍未能从官方渠道确认，' +
+          '这是本景点剩下的唯一不确定项。</strong>' +
+          '出发前可打 Shoshone National Forest 的 Clarks Fork Ranger District ' +
+          '<strong>(307) 527-6921</strong> 问一句，或到现场看路障。' +
+          '<strong>若走到 10 月下旬那个备用窗口：公路本身仍在 10 月 12 日前开放，' +
+          '但 10/12 之后整条 Beartooth 关闭，本景点随之完全不可达。</strong>',
         parking: '<strong>免费。</strong>Beartooth Lake 营地／船坡（44.94513, −109.58747）与 ' +
           'Island Lake 营地／船坡（支路尽头，OSM 无独立停车实体）各有场地；' +
           'Top of the World Store（44.94297, −109.55982）门前有停车。' +
@@ -1205,11 +1225,11 @@ module.exports = {
     {
       id: 'clay-butte-lookout',
       n: 5,
-      gone: '官方页面持续标注 Site Closed，2026 年从未更新',
+      gone: '官方页面持续标注 Site Closed；同区设施 9 月 13 日收季，你的日期已在其后',
       name: 'Clay Butte 火警瞭望台',
       en: 'Clay Butte Lookout (FR 142)',
       score: 3,
-      tldr: '9,811 英尺的 1942 年 CCC 火警塔，能同时看到 Pilot／Index Peaks 与 Beartooth Butte。但官方页面至 2026-09-05 仍挂着「Site Closed／Closed for the 2025 Season」且整年未更新，无法确认它 2026 年究竟开过没有，按去不了规划。替代机位在主路上，坐标已核实。',
+      tldr: '9,811 英尺的 1942 年 CCC 火警塔，能同时看到 Pilot／Index Peaks 与 Beartooth Butte。但官方页面至 2026-09-05 仍挂着「Site Closed／Closed for the 2025 Season」整年未动，而同区两个营地已公布 2026 年 9 月 13 日收季——9/24–9/25 关着的可能性远大于开着，按去不了规划。替代机位在主路上，坐标已核实。',
       tags: [
         { t: '官方状态仍是「已关闭」', c: 'risk' },
         { t: '最后 0.4 公里 17:00–08:00 锁门', c: 'risk' },
@@ -1225,8 +1245,25 @@ module.exports = {
           '整个 2026 年从未再动过这一页——既没有宣布 2026 年开季，也没有宣布 2026 年关季。</strong>' +
           '<strong>所以准确的说法不是「它每年 9 月 10 日关」，而是「官方唯一还在线的状态是『关闭』，' +
           '而 2026 年的真实开关情况官方根本没有发布过」。</strong>' +
-          '（同一现象在整个 Shoshone NF 都有：该森林的 “Current Conditions” 总页最后更新日期是 2025 年 3 月 21 日；' +
-          '<strong>Alerts 页面上也查不到任何与 FR 142 或 Clay Butte 相关的封闭令</strong>。）' +
+          '<strong>2026-09-05 再次复核，这一页仍然一字未改。</strong>' +
+          '<strong>但这一次拿到了一个能把「页面过期」和「真的关着」分开的对照，结论对你不利，请读清楚：' +
+          '同一片高原上、同一个 Clarks Fork Ranger District 管的 Beartooth Lake 与 Island Lake 两个营地页面，' +
+          '在 2026 年 7 月 6 日更新过，状态是 “Site Open”，' +
+          '并且明确写了 2026 年的收季日 “Expected to close for the season on September 13, 2026”。</strong>' +
+          '<strong>也就是说这套官方状态系统在 2026 年确实有人在维护、也确实会写上带年份的日期——' +
+          '只有 Clay Butte 这一页被留在 2025 年 9 月。' +
+          '再加上这个区把高原上的设施统一在 9 月第二周撤掉（2025 年 Clay Butte 的收季公告挂在 9 月 10 日，' +
+          '2026 年两个营地定在 9 月 13 日），' +
+          '那么「9 月 24–25 日这里已经收季」不再只是一个陈旧页面的推论，而是与该区实际作业节奏一致的判断。</strong>' +
+          '（另两条查证：<strong>Shoshone NF 的 Alerts 页面 2026-09-05 复核，' +
+          '仍然查不到任何与 FR 142 或 Clay Butte 相关的封闭令</strong>——' +
+          '2026 年在册的是 Morrison Jeep Trail 一带的施工封闭与常年性的防熊令，与本条路无关；' +
+          '该森林的 “Current Conditions” 总页最后更新日期是 2025 年 3 月 21 日。）' +
+          '<strong>顺带解掉一个可能的误会：2025 年的关闭不是因为在修塔。' +
+          'HistoriCorps 与 Shoshone NF 合作的瞭望塔修缮（换修窗与纱窗、重做塔内地板）是 2025 年 8 月 3–15 日两期志愿者作业，' +
+          '发生在 2025 年季内、早于 9 月 10 日那条收季公告；HistoriCorps 的 2026 年项目表里已经没有 Clay Butte。' +
+          '所以 “Closed for the 2025 Season” 是一条正常的季末公告，不是施工封闭——' +
+          '这也意味着它没有「修完就重开」这种翻盘剧本。</strong>' +
           '<strong>本页因此仍按「无法抵达」规划，并在下面给出主路上一处已核实坐标的替代机位——' +
           '理由不是「已经证实关了」，而是「官方挂着关闭、且没有任何渠道能证实它开着」，这两者对行程的影响是一样的。</strong>' +
           '<strong>唯一可能翻盘的动作写在 access.book 一栏（提前打 Clarks Fork Ranger District），务必看一眼。</strong>',
@@ -1337,8 +1374,15 @@ module.exports = {
           '<strong>（二）Forest Service 另一官方页面：“The last 1/4 mile to the Fire tower is usually open 8am to 5pm.”</strong>' +
           '<strong>另有第三方记录称该闸门在 17:00–08:00 之间通常上锁。</strong>' +
           '<strong>结论：9 月 24–25 日按「已关闭」规划；即使开着，也只在 08:00–17:00 之间可能进得去。</strong>' +
-          '<strong>2026 年是否开季、以及 2026 年的关闭日期，官方从未发布，未能从官方渠道确认。</strong>' +
-          '<strong>作为对照，替代机位 Pilot-Index Overlook 在 US-212 主路边，公路开放期内（2026 年 5 月 22 日 – 10 月 12 日）24 小时可用、无闸门。</strong>',
+          '<strong>2026 年是否开季、以及 2026 年的关闭日期，官方从未在这一页上发布过，这一项仍属未能确认。</strong>' +
+          '<strong>但同区营地页面已经公布 2026 年 9 月 13 日收季（Beartooth Lake 与 Island Lake，' +
+          '页面 2026 年 7 月 6 日更新），而 2025 年 Clay Butte 的收季公告挂在 9 月 10 日——' +
+          '两个年份的节奏一致指向「9 月第二周收季」，所以 9/24–9/25 关着的可能性远大于开着。</strong>' +
+          '<strong>唯一能问出 2026 年真实状态的渠道是电话：Clarks Fork Ranger District (307) 527-6921，' +
+          '注意它周三不上班（见 access.book）。</strong>' +
+          '<strong>作为对照，替代机位 Pilot-Index Overlook 在 US-212 主路边，公路开放期内（2026 年 5 月 22 日 – 10 月 12 日）24 小时可用、无闸门。</strong>' +
+          '<strong>10 月下旬那个备用窗口不用考虑本景点：10 月 12 日之后整条 Beartooth Highway 关闭，' +
+          '连主路上的替代机位都到不了。</strong>',
         parking: '<strong>瞭望台：碎石停车场（44.94458, −109.62658），免费，容量小。</strong>' +
           '<strong>闸门前的步道停车场（44.95184, −109.63293，OSM surface=ground）——' +
           '如果闸门锁着，这里是你能停到的最高点，从这里到塔还有 0.25 英里（0.4 公里）步行。</strong>' +
@@ -1679,10 +1723,14 @@ module.exports = {
             '而且从南边上来的车视线被引道遮挡。</strong>',
         },
         {
-          name: 'Sunlight Creek Picnic Site —— 从谷底仰看（互补机位）',
+          name: 'Sunlight Creek Picnic Site —— 从谷底仰看（互补机位，但官方已标 Site Closed）',
           park: [44.76295, -109.43344],
           view: [44.76295, -109.43344],
-          desc: '<strong>park 与 view 都用 OSM 核实的 Sunlight Creek Picnic Site 节点' +
+          desc: '<strong>先说风险：2026-09-05 复核，Shoshone National Forest 官方页给这个野餐区挂的状态是 “Site Closed”，' +
+            '开放条件只写了 “open pending road conditions”，页面 2025 年 11 月 13 日之后没再更新。' +
+            '请把这个机位当成「到了路口看一眼有没有路障」的加分项，不要写进必到清单——' +
+            '本景点确定能拍的是桥上那个机位。</strong>' +
+            '<strong>park 与 view 都用 OSM 核实的 Sunlight Creek Picnic Site 节点' +
             '（44.76295, −109.43344，tourism=picnic_site，access=yes，OSM 记录地址 Forest Rd 2963A, Cody, WY 82414）。' +
             '野餐区范围内的具体站位没有独立 OSM 实体，此坐标为设施节点本身。</strong>' +
             '<strong>从桥沿碎石支路（OSM way 226826516 与 314603249，surface=gravel）往西南下行约 1.2 公里即到，' +
@@ -1699,16 +1747,23 @@ module.exports = {
       ],
       access: {
         book: '<strong>不需预约。</strong>桥、人行道、停车场、厕所与野餐区都是公共设施，无任何预约或许可要求',
-        ticket: '<strong>免费。</strong>桥上人行道、停车、厕所、Sunlight Creek Picnic Site 全部免费。' +
+        ticket: '<strong>免费。</strong>桥上人行道、停车与桥南端的厕所全部免费。' +
+          'Sunlight Creek Picnic Site 官方页 Fee 栏写的是 “No fee”，' +
+          '<strong>但同一页的状态标签是 “Site Closed”，所以那里 9 月下旬能不能用是另一回事（见 hours）。</strong>' +
           '不进入 Yellowstone，因此不需要国家公园门票',
         hours: '<strong>公路开放期内 24 小时可进入，无闸门。</strong>' +
           '<strong>桥所在的 WY-296 路段全年通车，不随 US-212 在 10 月 12 日关闭</strong>' +
           '（NPS 原文 “Open year-round from WY-120 to Pilot Creek Parking Lot”，Sunlight Bridge 在这一段内），' +
           '<strong>因此 9 月 22–29 日确定开放。</strong>' +
-          '<strong>Sunlight Creek Picnic Site 的 2026 年季节性开放期未能从官方渠道确认</strong>——' +
-          'Shoshone National Forest 的野餐区通常在 9 月中下旬收季，' +
-          '<strong>但即便设施关闭，那条碎石支路本身是公共道路，请以现场路障为准。</strong>' +
-          '<strong>桥上人行道全年不关（属公路结构的一部分）</strong>',
+          '<strong>Sunlight Creek Picnic Site：2026-09-05 复核 Shoshone National Forest 官方页，' +
+          '页面状态标签就是 “Site Closed”，“Operational Hours” 一栏写的是 ' +
+          '“Sunlight Creek Picnic area is open pending road conditions”，页面 Last updated 2025 年 11 月 13 日。</strong>' +
+          '<strong>所以请直接按「野餐区与它的 vault toilet 都不可用」规划，不要把它算成厕所点</strong>' +
+          '（唯一确定的厕所是桥南端那个，44.76973, −109.42442）。' +
+          '<strong>官方这句 “pending road conditions” 没有给日期，也没有说支路封不封——' +
+          '碎石支路本身是公共道路，2026 年是否设了路障未能从官方渠道确认，请以现场标示为准。</strong>' +
+          '要确认就打 Clarks Fork Ranger District <strong>(307) 527-6921</strong>。' +
+          '<strong>桥上人行道全年不关（属公路结构的一部分），所以这个景点的主机位不受影响。</strong>',
         parking: '<strong>免费。</strong>OSM 核实的停车场（way 244888128，44.76981, −109.42476）在桥南端西侧，' +
           '配一条 parking_aisle（way 244888123，44.76942, −109.42525 → 44.76984, −109.42456）。' +
           '<strong>厕所在 44.76973, −109.42442——这是 WY-296 上除 Dead Indian Overlook 之外唯一的厕所。</strong>' +
@@ -1776,9 +1831,13 @@ module.exports = {
           '电话 +1 406-838-2960，OSM survey 日期 2024-09-25）。</strong>' +
           '<strong>Exxon 官方网站明确写着 “Gas Pumps 24/7”，店面时段为 ' +
           'Sun–Wed 07:30–18:00、Thu–Sat 07:30–20:00。</strong>' +
-          '<strong>这是关键：Cooke City 与 Red Lodge 之间 64 英里翻越 10,947 英尺垭口的路上，' +
-          '除了营业状态不确定的 Top of the World Store 之外没有任何燃料；' +
-          'Cooke City 到 Cody 的 76.5 英里 WY-296 上也一滴油都没有。' +
+          '<strong>这是关键：Cooke City 与 Red Lodge 之间 64 英里翻越 10,947 英尺垭口的路上根本没有燃料。' +
+          '请特别不要把 Top of the World Store 当成加油点——' +
+          '2026-09-05 复核 cookecityexxon.com 的 “what’s open” 页，' +
+          '它虽然被列在「Gas Stations & General Stores」这一栏下、并标了 “Lodging / Rentals: Year Round”，' +
+          '但它自己的项目说明里只有 General Store、Groceries、Fishing License、Cabin Rental 与 Snowmobile Rentals，' +
+          '没有一个字提到汽油。</strong>' +
+          '<strong>另外 Cooke City 到 Cody 的 76.5 英里 WY-296 上也一滴油都没有。' +
           '所以出发前在 Exxon 加满，不是建议，是必须。</strong>',
         '<strong>Cooke City Store 从 1886 年开到今天，而且今年仍在营业——但只到 9 月底。</strong>' +
           '<strong>OSM 上它是 way 243864014（45.01928, −109.93459），' +

@@ -82,8 +82,10 @@ module.exports = {
         '而且它是离 Lamar 最近的园内住宿——这一条基本决定了北环只能住 Mammoth 或园外的 Gardiner</li>' +
         '<li>Canyon Lodge 客房 10/24（餐饮 10/25，小木屋 10/4）；Old Faithful Snow Lodge 客房 10/24；' +
         'Lake Yellowstone Hotel 10/10；Grant Village 10/10</li>' +
-        '<li>Old Faithful Inn：NPS 表格写客房到 <strong>10/18</strong>，特许经营商官网写 <strong>10/12</strong>，' +
-        '<strong>两处官方口径不一致，未能核实哪个为准</strong></li>' +
+        '<li>Old Faithful Inn：NPS Operating Dates 表写客房到 <strong>10/18</strong>（该表最后更新 2026-09-03），' +
+        '经营方 Xanterra 官网写 <strong>10/12</strong>。' +
+        '<strong>2026-09-05 两边都复核过，冲突仍在、两边都不是旧页面，未能判定哪个为准。' +
+        '按 10/12 规划（房是 Xanterra 卖的），10/13–10/18 别当成有房；要确认请拨 307-344-7311。</strong></li>' +
         '</ul>' +
         '<p><strong>营地与商店：</strong>Mammoth Campground <strong>全年开放</strong>；' +
         'Slough Creek Campground 6/15 – <strong>10/12</strong>；Tower Fall Campground 5/22 – <strong>9/27</strong>；' +
@@ -371,8 +373,14 @@ module.exports = {
         hours: '官方口径 <strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，' +
           '台地栈道本身无门禁、无关门时间，可以拍到暮光再走。' +
           '所在的 Mammoth 位于全年开放的北环上，<strong>不受 10/12 与 10/31 两个封路节点影响</strong>。' +
-          '<strong>Upper Terrace Drive 为季节性开放，2026 年具体关闭日期未能从官方渠道确认</strong>。' +
-          '园区路况录音 (307) 344-2117',
+          '<strong>Upper Terrace Drive 为季节性开放，2026 年具体关闭日期未能从官方渠道确认</strong>——' +
+          'NPS 的 Mammoth 区页面只有一句「open only during the summer season」，' +
+          'Park Roads 与 Operating Dates 两张表都不列这条支线。' +
+          '<strong>能确定的上限是 11 月 1 日</strong>：2026 版 Superintendent\u2019s Compendium 的年度开放路段清单写的是' +
+          '「Mammoth Hot Springs <em>to</em> Upper Terrace Drive」，即通到环路口的那段主路全年开放，' +
+          '<strong>但环路本身不在清单内</strong>。' +
+          '<strong>出发当天请拨路况录音 (307) 344-2117，或到全年开放的 Albright Visitor Center 问一句——' +
+          '环路口就在村子上方 2 英里，闸门锁没锁一问即知</strong>',
         parking: '下台地沿栈道有四处免费停车场（东北 44.97278/−110.70386、东 44.97140/−110.70316、' +
           '东南 44.96946/−110.70211、西 44.96839/−110.70775），均免费不限时。' +
           '<strong>秋季平日基本随到随停</strong>，Upper Terrace Drive 沿线另有数个小型 turnout',
@@ -1049,8 +1057,15 @@ module.exports = {
           '已知的两件事是：' +
           '<strong>（一）它每年春季因位于 Blacktail BMA 内而开得最晚（BMA 封闭期 3/10–6/30）；' +
           '（二）它在铺装路之前就会因泥泞或雪而临时关闭，且这种关闭可以发生在任何一天。</strong>' +
+          '<strong>2026-09-05 又查了一遍，仍然查不到日期，但多出一个能框定上限的官方依据：</strong>' +
+          '2026 版 Superintendent\u2019s Compendium 在列举「11 月 1 日之后仍全年开放」的路段时，' +
+          '只写了北门至 Mammoth、Mammoth 至 Upper Terrace Drive、Mammoth 至 Tower Junction、Tower Junction 至东北门四段，' +
+          '<strong>Blacktail Plateau Drive 与 Upper Terrace Drive 本身都不在这份年度开放清单里——' +
+          '也就是说它们最晚 11 月 1 日一定关，只是 NPS 从不公布具体哪一天。</strong>' +
           '按「无铺装支线比主环早关」的一般规律推断，' +
-          '<strong>10 月中旬之后能开的概率不高，但这是推断而非官方信息</strong>',
+          '<strong>10 月中旬之后能开的概率不高，但这是推断而非官方信息</strong>。' +
+          '<strong>唯一可靠的办法是当天问：路况录音 (307) 344-2117，或直接去全年开放的 Albright Visitor Center 问 ranger</strong>' +
+          '——这条路的闸门就在 Mammoth 东边 9 英里，问一句比开过去看一眼便宜',
         '<strong>Rescue Creek 狼群（16 匹）的活动范围就覆盖 Blacktail Plateau 到 Tower Junction</strong>，' +
           '这条路上有一定的遇狼可能；黑熊在这一带也很常见' +
           '（Commons 上有 NPS 拍摄的「Blacktail Plateau Drive 黑熊」照片）'

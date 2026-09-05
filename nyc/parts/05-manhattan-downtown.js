@@ -13,8 +13,8 @@ module.exports = {
     '另一半价值在下城：<strong>Oculus 是纽约最强的室内建筑目标且完全免费</strong>，' +
     'Staten Island Ferry 是全球最便宜的自由女神机位（成本为零），' +
     '9/11 Memorial 广场免票免安检，Brooklyn Bridge 步道 24 小时开放。' +
-    '<strong>九个点里七个是完全免费的</strong>，唯一两张票（Whitney $30、One World Observatory $31 起）' +
-    '里还有一张可以靠周五晚免费拿到。' +
+    '<strong>九个点里七个是完全免费的</strong>，唯一两张票（Whitney $30、One World Observatory $44 起）' +
+    '里还有一张可以靠周五晚免费拿到——而且 <strong>10 月 16 日正好是周五</strong>，Whitney 那张票可以不花钱。' +
     '这一区不缺机位，缺的是准时——本区几乎每一张好片都锁死在日出前 40 分钟或日落后 30 分钟这两个窄带里。',
   callouts: [
     {
@@ -31,8 +31,16 @@ module.exports = {
         '（9/25 日落 18:49、10/22 日落 18:06），也就是说<strong>你可以零成本站在 Renzo Piano 的露台上拍金光与蓝调</strong>。' +
         '常规票价是成人 $30、65 岁以上与学生 $24、25 岁及以下常年免费。</p>' +
         '<p><strong>但免费票仍然要领：</strong>官方原文「though admission is free, tickets are required and capacity is limited」，' +
-        '<strong>免费票提前 5 周放出</strong>，请一确定日期就去官网领。现场也发，但容量有限，' +
-        '周五晚有 DJ 与现场演出，是全周最挤的时段。</p>'
+        '<strong>免费票提前 5 周放出</strong>（官方原文「free tickets are available up to five weeks in advance」）。现场也发，但容量有限，' +
+        '周五晚有 DJ 与现场演出，是全周最挤的时段。</p>' +
+        '<p><strong>落到实际日期上，这一条变成一个有截止日的动作项：10 月 16 日是周五，正在纽约的三天里。</strong>' +
+        '<strong>10/16 往前推五周是 9 月 11 日（周五）</strong>——' +
+        '2026 年 9 月 5 日复核时，whitney.org 的 Free Friday Nights 页面显示的「This week」还是 9 月 11 日，' +
+        '<strong>也就是说 10/16 的免费票此刻还没放出，最早要到 9 月 11 日前后才能领</strong>' +
+        '（五周的推算由官方原文得出，官网不公布逐日放票时刻表）。' +
+        '<strong>请在 9 月 11 日当天就去 whitney.org 领 10/16 的票，而不是等到临行前。</strong>' +
+        '10/17（周六）与 10/18（周日）都不是免费日——10 月的免费周日是 10 月 11 日，不在纽约的三天里，' +
+        '所以这三天里 Whitney 只有 10/16 晚上能零成本进。</p>'
     },
     {
       type: 'good',
@@ -54,7 +62,16 @@ module.exports = {
         '<strong>「The Interim Walkway at the Western Rail Yards is temporarily closed.」</strong>' +
         '指的是 30th–33rd Street、11th–12th Avenue 之间那三分之一英里的路段——' +
         '全线唯一保留了原始自播生长植被的一段，自 2024 年 10 月起封闭，' +
-        '要改建成带照明与座椅的永久步道。<strong>官网没有给出重开日期，请按封闭计划行程。</strong></p>' +
+        '要改建成带照明与座椅的永久步道。</p>' +
+        '<p><strong>2026 年 9 月 5 日重新核实过，结论没变：还是关着。</strong>' +
+        'thehighline.org 的 Interim Walkway 分区页与 Park Features 页目前都在标题下直接标 ' +
+        '<strong>「Temporarily closed」</strong>，<strong>34th Street 那个唯一下到街面的出入口同样标为关闭</strong>。' +
+        '唯一新增的官方信息是重开的大致目标：' +
+        '<strong>官网 2026 年 1 月 9 日的博客写明，由 Field Operations 与 Piet Oudolf 设计的新 34th Street 花园' +
+        '将「open in late 2026, in tandem with our updates to the Western Rail Yards section of the park」</strong>。' +
+        '<strong>「late 2026」不是日期，官网至今没给具体开放日，10/16–10/18 这三天请一律按封闭计划。</strong>' +
+        '想赌一把的话，出发前一天再看一次那个分区页的 Temporarily closed 标签有没有摘掉，' +
+        '这是全网最早会变的地方。</p>' +
         '<p><strong>好消息是其余全部开放：</strong>Gansevoort Street 到 34th Street／12th Avenue 的主线、' +
         '30th Street 与 Tenth Avenue 的 The Spur（含 High Line Plinth 雕塑基座），' +
         '以及 <strong>2023 年 6 月开放的 High Line – Moynihan Connector</strong>（沿 30th Street 东行、' +
@@ -70,6 +87,21 @@ module.exports = {
       title: '本区太阳时刻表：夏令时在窗口结束后才切换',
       html: '<p>先解决时制问题：<strong>2026 年美国夏令时于 11 月 1 日结束，落在行程窗口之外</strong>，' +
         '所以下面所有钟点都是 EDT，不需要做任何换算。</p>' +
+        '<p><strong>先给实际在纽约的三天（10 月 16–18 日），下面的笼统窗口留作备用：</strong></p>' +
+        '<ul>' +
+        '<li><strong>10 月 16 日（周五）</strong>：民用晨光 06:40 → 日出 <strong>07:08</strong>（方位 100.9°）' +
+        '｜日落 <strong>18:16</strong>（方位 259.1°）→ 民用昏影终 <strong>18:43</strong>；正午太阳高度 40.5°（12:42）。' +
+        '<strong>金光时段 17:38–18:16，蓝调 18:16–18:43。</strong></li>' +
+        '<li><strong>10 月 17 日（周六）</strong>：民用晨光 06:41 → 日出 <strong>07:09</strong>（方位 101.4°）' +
+        '｜日落 <strong>18:14</strong>（方位 258.6°）→ 民用昏影终 <strong>18:42</strong>；正午太阳高度 40.1°。' +
+        '<strong>金光时段 17:37–18:14，蓝调 18:14–18:42。</strong></li>' +
+        '<li><strong>10 月 18 日（周日）</strong>：民用晨光 06:42 → 日出 <strong>07:10</strong>（方位 101.9°）' +
+        '｜日落 <strong>18:12</strong>（方位 258.1°）→ 民用昏影终 <strong>18:40</strong>；正午太阳高度 39.7°。' +
+        '<strong>金光时段 17:35–18:12，蓝调 18:12–18:40。</strong></li>' +
+        '</ul>' +
+        '<p><strong>三天之间只差 4 分钟，实务上可以按同一套钟点执行：' +
+        '金光 17:35–18:15、蓝调 18:15–18:40、日出 07:10。</strong>' +
+        '下面这一段是覆盖「九月下旬到十月下旬」的备用窗口，用于日期改动时对照：</p>' +
         '<ul>' +
         '<li><strong>9 月 25 日</strong>：日出 <strong>06:47</strong>（方位 90.6°）／日落 <strong>18:49</strong>（方位 269.4°）；' +
         '民用晨光 06:20 起、民用昏影终 19:16；正午太阳高度 48.2°（12:47）。' +
@@ -172,7 +204,8 @@ module.exports = {
           name: 'The Spur 与 High Line Plinth（看 Hudson Yards 的黄金时段）',
           view: [40.752076, -74.000912],
           desc: '30th Street 与 Tenth Avenue 交口向东伸出的支线，2019 年春开放，尽端是 High Line Plinth 大型雕塑基座（轮换展示委约作品）。' +
-            '<strong>17:00–18:12（9/25）／16:30–17:28（10/22）</strong>：太阳在西南偏西（方位 250–256°），' +
+            '<strong>实际日期请按 16:40–17:38（10/16–10/18，金光起于 17:35–17:38）</strong>；' +
+            '备用窗口 <strong>17:00–18:12（9/25）／16:30–17:28（10/22）</strong>：太阳在西南偏西（方位 250–259°），' +
             '从背后打亮 Hudson Yards 的玻璃幕墙。24mm 把雕塑作前景剪影、30 Hudson Yards 与 The Vessel 作背景；' +
             '换 85mm 单独压缩雕塑与玻璃楼的反射。' +
             '<strong>这也是全线离 Moynihan Connector 最近的一段</strong>，往北走 31st Street／Dyer Avenue 即可衔接。'
@@ -183,22 +216,37 @@ module.exports = {
           desc: '公园南端起点，钢楼梯与 Whitney 的 Renzo Piano 悬挑体量正对。' +
             '<strong>07:00–08:30 是唯一无人的时段</strong>：公园 7:00 开门，9/25 日出 06:47、10/22 日出 07:15，' +
             '<strong>开门即到就能拍到完全空的步道</strong>，9:00 之后再也不可能。' +
+            '<strong>10 月中旬在这里有一个九月底拿不到的便宜：10/16–10/18 日出是 07:08–07:10，' +
+            '也就是说 7:00 开门时天还没亮透，你能在完全空的步道上先拍到 8–10 分钟的日出前冷调，再接晨光</strong>' +
+            '——九月底 06:47 就日出了，开门时已经错过。' +
             '16–24mm 从楼梯底部向上仰拍钢结构与高架桥腹板的铆接细节；' +
             '转身用 35mm 拍 Whitney 的层层退台。<strong>这个时段也是全线唯一架得开三脚架的窗口。</strong>'
         }
       ],
       access: {
-        book: '<strong>不需预约。</strong>免费的 docent 导览团需另行报名，官网口径为 9–10 月的周二、周三与周末',
+        book: '<strong>不需预约。</strong>免费的 docent 导览团需另行报名。' +
+          '<strong>官方 FAQ 逐月列出了导览日，措辞是「on Tuesdays, Wednesdays, and Saturdays in September and October」' +
+          '——9–10 月是周二、周三与周六，不含周日</strong>' +
+          '（此前本条写「周末」，已按官方原文改正）。' +
+          '<strong>落到实际日期：10/16 周五与 10/18 周日都没有导览，只有 10/17 周六有</strong>',
         ticket: '<strong>免费</strong>',
-        hours: '官方原文：<strong>4 月 1 日–11 月 30 日 7:00–22:00；12 月 1 日–3 月 31 日 7:00–20:00</strong>。' +
-          '行程窗口整段落在 7:00–22:00 内。' +
-          '<strong>但官网 FAQ 同时挂着「The Interim Walkway at the Western Rail Yards is temporarily closed.」' +
-          '——30th–33rd St、11th–12th Ave 之间那三分之一英里自 2024 年 10 月起封闭改建，官网未给重开日期，请按封闭计划。</strong>' +
-          'Gansevoort St 到 34th St／12th Ave 的主线、The Spur 与 Moynihan Connector 均正常开放',
+        hours: '官方原文：<strong>4 月 1 日–11 月 30 日 7:00–22:00；12 月 1 日–3 月 31 日 7:00–20:00</strong>' +
+          '（2026 年 9 月 5 日在官网 Visitor Info 与 FAQ 两处复核一致）。' +
+          '<strong>10/16–10/18 三天整段落在 7:00–22:00 内，闭园时间对本行程毫无约束</strong>——' +
+          '这三天日落 18:12–18:16、民用昏影 18:40–18:43 结束，园子还要再开三个多小时。' +
+          '<strong>但官网仍在 Interim Walkway 分区页与 Park Features 页把 Western Rail Yards 段标为「Temporarily closed」' +
+          '——30th–33rd St、11th–12th Ave 之间那三分之一英里自 2024 年 10 月起封闭改建，' +
+          '连 34th Street 那个下到街面的出入口也一并关闭。</strong>' +
+          '官网 2026 年 1 月 9 日的博客只给到「late 2026」这个模糊目标（与新的 34th Street 花园同步开放），' +
+          '<strong>没有具体日期，请按封闭计划</strong>。' +
+          'Gansevoort St 到 30th St／The Spur 的主线与 Moynihan Connector 均正常开放',
         parking: '<strong>不要开车。</strong>Chelsea 一带路边表价约 $4.50–5.50/小时且极难找位，停车楼日价 $35–55。地铁替代方案完善',
         walk: '南端 <strong>A/C/E 线 14th Street 站</strong>步行约 700 米／9 分钟到 Gansevoort 入口；' +
           '中段 <strong>C/E 线 23rd Street 站</strong>步行约 600 米／8 分钟；' +
-          '北端 <strong>7 号线 34th Street–Hudson Yards 站</strong>直达。全线走完约 1.45 英里／45 分钟'
+          '<strong>北端注意：34th Street 入口随 Interim Walkway 一起关闭，7 号线 34th Street–Hudson Yards 站现在进不了园</strong>，' +
+          '要从北边上请走 30th Street 或 31st Street／Dyer Avenue（Moynihan Connector）。' +
+          '<strong>因此实际可走的长度不是名义上的 1.45 英里，而是约 1.1 英里／35 分钟</strong>' +
+          '（1.45 英里减去封闭的那三分之一英里，推算）'
       },
       notes: [
         '三脚架无明文禁令，但步道最窄处仅约 3 米宽且日均人流极大，<strong>实务上只有 7:00–9:00 架得开</strong>，其余时段会被工作人员要求收起',
@@ -220,7 +268,7 @@ module.exports = {
       name: '惠特尼美国艺术博物馆',
       en: 'Whitney Museum of American Art',
       score: 4,
-      tldr: '每周五 17:00–22:00 全馆免费（已不是随喜付费，是真免费），这段正好包住日落；5–8 层露台需门票，周二闭馆，禁三脚架。',
+      tldr: '每周五 17:00–22:00 全馆免费且免费票要提前 5 周领；三天里只有 10/16 周五能在露台上拍到日落，周六日 18:00 就闭馆。',
       tags: [{ t: '周五夜全馆免费', c: 'free' }, { t: '平日成人 $30', c: 'paid' }, { t: '周二闭馆', c: 'risk' }, { t: '禁三脚架', c: 'risk' }],
       highlights: [
         '2015 年 5 月启用的 Renzo Piano 新馆，地址 99 Gansevoort Street，' +
