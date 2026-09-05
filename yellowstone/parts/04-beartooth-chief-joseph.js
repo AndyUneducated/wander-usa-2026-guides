@@ -219,7 +219,8 @@ module.exports = {
         '<p><strong>三个现实可行的版本（都以 Cooke City／Silver Gate 为基地）：</strong></p>' +
         '<ul>' +
         '<li><strong>版本 A（推荐，约 87 英里往返、纯驾驶 2 小时 36 分）：' +
-        'Cooke City → Beartooth Lake／Clay Butte／Top of the World → Beartooth Pass → ' +
+        'Cooke City → Beartooth Lake／Pilot-Index Overlook（Clay Butte 若已关就用这个）／' +
+        'Top of the World → Beartooth Pass → ' +
         'Rock Creek Vista Point → 原路折返。</strong>' +
         '不下到 Red Lodge。' +
         '<strong>把 switchbacks 从 Rock Creek Vista 与它上方的 pullout 俯拍就够了，' +
@@ -329,7 +330,8 @@ module.exports = {
         '</ul>' +
         '<p><strong>所以推荐的排法（9/24 或 9/25）：</strong>' +
         'Lamar 拍日出（06:41 民用曙光到位）→ 回 Cooke City 加满油、吃饭、查两州 511 →' +
-        '<strong>13:00–14:00 出发上山</strong>，把 Beartooth Lake／Clay Butte／Top of the World 一带留给午后，' +
+        '<strong>13:00–14:00 出发上山</strong>，把 Beartooth Lake／Pilot-Index Overlook／Top of the World 一带留给午后' +
+        '（<strong>Clay Butte 瞭望台 9 月下旬极可能已关，路口顺路看一眼即可，不要为它留时间</strong>），' +
         '<strong>16:30 前后到 Beartooth Pass</strong>，' +
         '拍 <strong>18:32–19:12 的黄金时刻</strong>，' +
         '<strong>19:12–19:30 等 alpenglow</strong>，' +
@@ -683,7 +685,14 @@ module.exports = {
           '最近的一切都在 Cooke City（西 33 英里）或 Red Lodge（东 31 英里）。' +
           '<strong>离线地图、满油、保暖层、水与食物是最低配置</strong>，出发前把计划告诉别人'
       ],
-      images: []
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Beartooth_Highway_-_The_West_Summit_of_Beartooth_Pass_-_NARA_-_7717203.jpg',
+          cap: 'West Summit 一带的 US-212 与高原 \u00b7 NARA / Public domain' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Beartooth_Highway_-_Alpine_Tundra_on_Top_of_Beartooth_Pass_-_NARA_-_7717205.jpg',
+          cap: '垭口顶部的高山苔原与散石 \u00b7 NARA / Public domain' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Beartooth_Pass_WY-MT_1999-1.jpg',
+          cap: 'Beartooth Pass 一带的公路与山体 \u00b7 Acroterion / CC BY-SA 4.0' }
+      ]
     },
     {
       id: 'rock-creek-vista',
@@ -826,7 +835,14 @@ module.exports = {
           '最近的补给在 Red Lodge（东 20.4 英里）；' +
           '往西到 Cooke City 是 43.6 英里，中间只有营业状态不明的 Top of the World Store'
       ],
-      images: []
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Beartooth_Highway_overlook_MT1.jpg',
+          cap: 'Rock Creek Vista 观景平台本身 \u00b7 Acroterion / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Rock_Creek_Vista_Point_%28Beartooth_Mountains%2C_Montana%2C_USA%29.jpg',
+          cap: '从观景点俯瞰 Rock Creek 冰川谷 \u00b7 James St. John / CC BY 2.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Beartooth_Highway_-_Stunning_View_from_Rock_Creek_Vista_Point_-_NARA_-_7717207.jpg',
+          cap: 'Rock Creek Vista Point 的谷底视野 \u00b7 NARA / Public domain' }
+      ]
     },
     {
       id: 'beartooth-switchbacks',
@@ -978,7 +994,14 @@ module.exports = {
           '最近的厕所在 Rock Creek Vista Point 与 45.05851／−109.41251；' +
           '最近的一切其他东西在 Red Lodge（北 14–20 英里）'
       ],
-      images: []
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Beartooth_Highway_-_Rock_Creek_Valley_MT1.jpg',
+          cap: 'Rock Creek 谷与其后的 Hellroaring Plateau \u00b7 Acroterion / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a4/Beartooth_Highway_%28Rock_Creek_Canyon%2C_Beartooth_Mountains%2C_Montana%2C_USA%29_6.jpg',
+          cap: 'Rock Creek Canyon 段的盘山公路 \u00b7 James St. John / CC BY 2.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/41/Beartooth_Pass_%28valley%29.jpg',
+          cap: '自 Red Lodge 以南向西南望 Rock Creek Canyon \u00b7 Chris Light / CC BY-SA 4.0' }
+      ]
     },
     {
       id: 'beartooth-island-lakes',
@@ -1068,10 +1091,15 @@ module.exports = {
         },
         {
           name: 'Island Lake 湖岸与船坡（兼本区最好的星空机位）',
-          park: [44.94787, -109.54087],
-          desc: '<strong>本机位同样省略 view 字段：Island Lake 的营地与船坡在 OSM 上没有独立停车实体，' +
-            '只有湖体多边形（中心 44.94787, −109.54087，此即 park 用的近似位置），地图上不会有机位针脚。</strong>' +
-            '从 US-212 有一条<strong>短支路向北通到营地与船坡</strong>' +
+          park: [44.94284, -109.53873],
+          view: [44.94119, -109.54000],
+          desc: '<strong>park 是 OSM 核实的停车场（way 175953852，44.94284, −109.53873）；' +
+            'view 用的是 Island Lake Campground 面实体的中心（way 175953962，44.94119, −109.54000，' +
+            '该面南北跨 44.93989–44.94236、东西跨 −109.54176 至 −109.53794）。' +
+            '请注意这是营地范围的中心而不是某个精确的岸边站位——' +
+            '湖岸上没有任何独立的 OSM 节点可对应到具体站位，实际取景请在营地范围内沿岸自行选择。' +
+            '营地内另有一间厕所（44.94233, −109.54051），停车场到营地中心约 209 米。</strong>' +
+            '从 US-212 有<strong>短支路通到营地与船坡</strong>' +
             '（<strong>营地 9 月中已关，车辆能否驶入未能确认，请预设可能要停在路口步行</strong>）。' +
             '<strong>Island Lake 的性格与 Beartooth Lake 不同</strong>：' +
             '它更靠树线以下，<strong>森林局部环抱、有开阔草坡缓缓下到水边</strong>，远景是 Beartooth 群峰的脊线。' +
@@ -1165,7 +1193,14 @@ module.exports = {
           '这一点在你打算待到天黑拍星空时尤其重要——' +
           '<strong>出发前把计划和预计返回时间告诉别人</strong>'
       ],
-      images: []
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Beartooth_Highway_-_Beartooth_Butte_Reflection_-_NARA_-_7717238.jpg',
+          cap: 'Beartooth Butte 在湖面的倒影 \u00b7 NARA / Public domain' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/36/Beartooth_Mtns_%28Pan%29.jpg',
+          cap: '向西南望 \u201cTop of the World\u201d 湖区全景 \u00b7 Chris Light / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Beartooth_Highway_-_Fly_Fishing_the_Beartooth_Mountains_-_NARA_-_7717225.jpg',
+          cap: 'Beartooth 高山湖上的飞钓者 \u00b7 NARA / Public domain' }
+      ]
     },
     {
       id: 'clay-butte-lookout',
@@ -1328,7 +1363,12 @@ module.exports = {
           '视野在最后 0.4 公里爬升之后才打开。</strong>' +
           '与其耗在这里，不如把时间给 Beartooth Lake 的倒影或垭口的日落'
       ],
-      images: []
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Beartooth_Highway_-_View_from_Clay_Butte_Lookout_-_NARA_-_7717267.jpg',
+          cap: '自 Clay Butte Lookout 望出的高原全景 \u00b7 NARA / Public domain' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Beartooth_Highway_-_Pilot_Peak_-_NARA_-_7717278.jpg',
+          cap: 'Pilot Peak\u2014\u2014替代机位的主要拍摄对象 \u00b7 NARA / Public domain' }
+      ]
     },
     {
       id: 'dead-indian-pass',
@@ -1517,7 +1557,14 @@ module.exports = {
           '但西北主视野在 18:30 之后就已经完全逆光。</strong>' +
           '真要拍 WY-296 的日落，站位应换到向东南俯瞰的一侧'
       ],
-      images: []
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/25/Dead_Indian_Pass.jpg',
+          cap: '自 Dead Indian Pass 顶部向外的视野 \u00b7 Smallchief / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/View-from-dead-indian-pass-summit-along-chief-jospeh-scenic-byway-WY-October-2010-joni-packard-40620016_%286097550158%29.jpg',
+          cap: 'Dead Indian Pass 鞍部视野（2010 年 10 月） \u00b7 Joni Packard / U.S. Forest Service / Public domain' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b7/Along-chief-joseph-scenic-byway-at-dead-indian-pass-october-2010-by-joni-packard_%285688140353%29.jpg',
+          cap: 'Dead Indian Pass 一带的 WY-296 \u00b7 Joni Packard / U.S. Forest Service / Public domain' }
+      ]
     },
     {
       id: 'sunlight-bridge',
@@ -1678,7 +1725,14 @@ module.exports = {
           'WY-296 全线基本无覆盖，直到接近 Cody 才恢复。' +
           '<strong>这意味着你不能在这里查 Beartooth 的封路状态——请在 Cooke City 或 Cody 查好再进来</strong>'
       ],
-      images: []
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Sunlight_bridge.jpg',
+          cap: 'Sunlight Bridge 桥体与它跨越的窄峡 \u00b7 U.S. Forest Service / Public domain' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Sunlight-creek-gorge-along-the-chief-joseph-scenic-byway-WY-October-2010-joni-packard-40620015_%285864414413%29.jpg',
+          cap: 'Sunlight Creek 峡谷（2010 年 10 月） \u00b7 Joni Packard / U.S. Forest Service / Public domain' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/Along-the-chief-joseph-scenic-byway-sunlight-creek-wy-05112011-rogermpeterson-001_%286097422328%29.jpg',
+          cap: 'Sunlight Creek 一带的 WY-296 \u00b7 Roger M. Peterson / U.S. Forest Service / Public domain' }
+      ]
     },
     {
       id: 'cooke-city-silver-gate',
@@ -1909,7 +1963,14 @@ module.exports = {
           '<strong>如果当天要早出晚归，请预设晚上回来时没有热食可吃，' +
           '白天在 Exxon 便利店把补给买齐</strong>'
       ],
-      images: []
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Beartooth_Highway_-_Cooke_City_-_NARA_-_7717221.jpg',
+          cap: 'Cooke City 主街与补给点 \u00b7 NARA / Public domain' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Silver_Gate%2C_Montana_%2850436895092%29.jpg',
+          cap: 'Silver Gate 的 General Store 与原木住宿 \u00b7 Larry Lamsa / CC BY 2.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c6/Northeast_Entrance_Station_%2843829754261%29.jpg',
+          cap: '列入 NRHP 的 Northeast Entrance Station \u00b7 Jacob W. Frank / NPS / Public domain' }
+      ]
     }
   ]
 };
