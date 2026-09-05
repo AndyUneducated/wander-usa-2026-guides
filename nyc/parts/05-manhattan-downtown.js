@@ -377,12 +377,16 @@ module.exports = {
           'The only activity that requires a paid ticket to attend are all performances in The Amph.」' +
           '<strong>2021 年开园初期那套 timed entry 制度已经取消，官方 FAQ 全文不再出现 timed entry 字样。</strong>' +
           '这一条容易搞错，因为大量二手攻略还在写「高峰期需免费预约」',
-        '<strong>季节性开放时间（官网原文照抄）：3/8–5/24 为 6:00–23:00；5/25–9/7 为 6:00–24:00；' +
+        '<strong>季节性开放时间（官网 Rules &amp; FAQ 原文照抄，2026 年 9 月 5 日逐行复核无变化）：' +
+          '3/8–5/24 为 6:00–23:00；5/25–9/7 为 6:00–24:00；' +
           '9/8–10/31 为 6:00–23:00；11/1–12/31 为 6:00–21:00。</strong>' +
-          '行程窗口整段落在 6:00–23:00 内，<strong>但只要跨到 10 月 31 日之后，闭园就提前两小时</strong>',
+          '<strong>10/16–10/18 落在 6:00–23:00 这一档，蓝调结束（18:40–18:43）之后还有四个多小时余量，' +
+          '闭园时间在这三天完全不构成约束</strong>；但只要跨到 10 月 31 日之后，闭园就提前两小时',
         '2026 年的演出季只跑了 <strong>7 月 29 日–9 月 6 日的六周、约 56 场</strong>（比上年的约 110 场腰斩）。' +
-          '<strong>行程窗口内 The Amph 基本没有演出</strong>——这对摄影是好事：' +
-          '圆形剧场空着的时候才拍得到它的木构座席弧线与背后的混凝土桩',
+          '<strong>已从官网 2026 Season 页面确认：The Amph 的最后一档是 9 月 2–6 日的 Thomas Bartlett，' +
+          '此后整个十月没有任何排期</strong>——' +
+          '也就是说 <strong>10/16–10/18 三天 The Amph 一定是空的，「演出时全场禁摄」这条规则在本行程里不会被触发</strong>。' +
+          '这对摄影是好事：圆形剧场空着的时候才拍得到它的木构座席弧线与背后的混凝土桩',
         '相邻的 Hudson River Park 码头才是这一区真正的日落资产群，全部免费：' +
           '<strong>Pier 57 屋顶公园</strong>（Little Island 北侧约 200 米，视角更高更开阔）、' +
           '<strong>Gansevoort Peninsula</strong> 的人造沙滩（2023 年开放，<strong>Manhattan 唯一的河滨沙滩</strong>）、' +
@@ -394,7 +398,10 @@ module.exports = {
           name: 'Little Island 西南侧高点看 Hudson 日落（招牌构图）',
           park: [40.7419, -74.0112],
           view: [40.742005, -74.010610],
-          desc: '<strong>金光时段 18:12–18:49（9/25）／17:28–18:06（10/22）。</strong>' +
+          desc: '<strong>按实际日期：金光 17:35–18:15，日落 18:16（10/16）／18:14（10/17）／18:12（10/18），' +
+            '日落方位 259.1°→258.1°，蓝调到 18:40–18:43。' +
+            '加上下面那条 Palisades 修正，请把收尾时刻定在 18:05–18:10，不要等表上的日落。</strong>' +
+            '备用窗口：<strong>金光时段 18:12–18:49（9/25）／17:28–18:06（10/22）。</strong>' +
             '日落方位 9/25 为 269.4°、10/22 为 255.9°；Hudson 在此处宽约 1.2 公里，' +
             '<strong>两个日期太阳都落在 Hoboken 的水岸线上</strong>，10 月下旬会更偏南、压到 Jersey City 的高层玻璃楼群一侧。' +
             '16–35mm 把桩顶的混凝土花瓣作前景剪影、太阳压在画面右三分之一；70–200mm 压缩太阳与对岸楼群。' +
@@ -432,13 +439,15 @@ module.exports = {
         }
       ],
       access: {
-        book: '<strong>不需预约</strong>（已在官网 Rules & FAQ 逐条核实，无 timed entry 条款）。' +
+        book: '<strong>不需预约</strong>（2026 年 9 月 5 日再次在官网 Rules & FAQ 逐条核实，全文无 timed entry 条款）。' +
           '仅 The Amph 的付费演出需要票（座票 $25、站栏 $15，经官网或 TodayTix），' +
-          '<strong>行程窗口内基本无演出</strong>',
+          '<strong>而 2026 演出季已于 9 月 6 日收官，10/16–10/18 无任何排期，这三天不存在需要买票的情形</strong>',
         ticket: '<strong>免费。</strong>Hudson River Park 的 Pier 57 屋顶、Gansevoort Peninsula 与 Pier 45 同样免费',
         hours: '官方原文：Little Island「opens at 6:00 am, 365 days a year unless weather conditions dictate otherwise」。' +
           '分季时刻：<strong>3/8–5/24 为 6:00–23:00；5/25–9/7 为 6:00–24:00；9/8–10/31 为 6:00–23:00；' +
-          '11/1–12/31 为 6:00–21:00</strong>。恶劣天气会临时闭园，出发前查官网',
+          '11/1–12/31 为 6:00–21:00</strong>（2026 年 9 月 5 日在官网 Rules &amp; FAQ 复核，四档时刻一字未变）。' +
+          '<strong>10/16–10/18 为 6:00–23:00。</strong>' +
+          '恶劣天气会整园清场（官方原文「the entire park will close for extreme weather」），出发前查官网',
         parking: '无自有停车场。West Street（West Side Highway）沿线路边位少，Chelsea 停车楼日价 $35–50。建议地铁或步行',
         walk: '<strong>A/C/E 与 L 线 14th Street／8th Avenue 站</strong>步行约 1.0 公里／13 分钟；' +
           '<strong>1 号线 Christopher Street 站</strong>到 Pier 45 约 600 米／8 分钟。' +
@@ -465,14 +474,16 @@ module.exports = {
       name: '华盛顿广场公园与 Greenwich Village',
       en: 'Washington Square Park & Greenwich Village',
       score: 4,
-      tldr: '免费，6:00–24:00；拱门框住 Fifth Avenue 尽头的 Empire State Building 是唯一招牌构图，需 135–200mm；无在建工程。',
-      tags: [{ t: '完全免费', c: 'free' }, { t: '0:00–6:00 闭园', c: 'risk' }, { t: '人流嘈杂', c: 'risk' }],
+      tldr: '免费，6:00–24:00；招牌是拱门框住 2.1 公里外的帝国大厦，需 135–200mm；喷泉 10 月中旬多半已停水，别把它算进构图。',
+      tags: [{ t: '完全免费', c: 'free' }, { t: '0:00–6:00 闭园', c: 'risk' }, { t: '喷泉可能已停水', c: 'risk' }, { t: '人流嘈杂', c: 'risk' }],
       highlights: [
         '公园地下曾是 1797–1825 年的公共墓地，<strong>估计仍有约 2 万具遗骸埋在草坪之下</strong>；' +
           '2015 年市政施工时在公园东侧挖出两个完整的地下墓室。这不是都市传说，是有考古记录的',
         '<strong>Washington Square Arch</strong> 由 Stanford White 设计。' +
           '先有 1889 年为华盛顿就职百年立的临时版本（石膏与木头做的），' +
-          '因太受欢迎而在 1892 年改建为大理石永久拱门。' +
+          '因太受欢迎而在 1892 年建成大理石永久拱门；' +
+          '<strong>NYC Parks 官方页面把落成年份写作「dedicated in 1895」</strong>，' +
+          '两个年份指的是完工与正式揭幕两件事，看到不一致不必困惑。' +
           '高 23.5 米，开口宽约 9 米。<strong>拱门正对 Fifth Avenue 的南端起点——Fifth Avenue 的门牌号就是从这里开始编的</strong>',
         '<strong>招牌构图的几何（这是本条目的核心）：</strong>' +
           '从拱门南侧沿 Fifth Avenue 轴线向北看，<strong>Empire State Building 在 2.1 公里外、方位角约 26.8°，' +
@@ -533,8 +544,18 @@ module.exports = {
         ticket: '<strong>免费</strong>',
         hours: '<strong>每天 6:00 至次日 0:00</strong>（0:00–6:00 闭园，由 NYPD 与公园执法队每晚人工摆放铁马围栏封闭 11 个入口，' +
           '包括拱门一侧那道 100 英尺宽的开口）。' +
-          '<strong>喷泉的水一般在 4 月至 10 月运行，10 月下旬有可能已停水，未能从官方渠道确认 2026 年的具体停水日期</strong>——' +
-          '如果冲着「喷泉喷水加拱门」去，请把这一点算进风险',
+          '<strong>喷泉停水日期：2026 年 9 月 5 日再查一轮，仍然未能从官方渠道确认，而且坏消息是风险比原先写的更高。</strong>' +
+          'NYC Parks 的公园页面（nycgovparks.org／washington-square-park）根本不公布喷泉的启停日期，' +
+          '311 也不提供逐个水景的状态查询（Parks 已明确表示不再逐项追踪）。' +
+          '能查到的最接近官方的口径是公园管理方对流程的说明：' +
+          '<strong>每季末由 NYC Parks 的管道工来把喷泉、饮水器与喷淋一起做冬季化处理——排空管线与水箱，' +
+          '并把喷泉中央那组水下灯一并关掉（灯在空气中会很快烧坏）</strong>，' +
+          '也就是说停水与「池中灯灭」是同一个动作，停了就没有夜间亮水池可拍。' +
+          '<strong>而多年的实际记录是「一般在 10 月中旬关」（个别年份拖到 11 月上旬）——' +
+          '10 月 16–18 日正好压在这个典型关停点上，不是「有可能」，而是相当可能已经停了。</strong>' +
+          '<strong>请把「喷泉喷水 + 拱门」当成运气，不要当成行程的支点</strong>；' +
+          '真正稳的是拱门本身与 Fifth Avenue 轴线上的帝国大厦，那两样与喷泉无关。' +
+          '出发前唯一可做的核实是打 <strong>311</strong>（市外 212-639-9675）问 Washington Square Park 的喷泉当天是否在运行',
         parking: '<strong>不要开车。</strong>Greenwich Village 路边表价约 $4.50–5.50/小时且几乎找不到位，停车楼日价 $40–60',
         walk: '<strong>A/B/C/D/E/F/M 线 West 4th Street–Washington Square 站</strong>步行约 350 米／5 分钟；' +
           '<strong>N/Q/R/W 与 4/5/6 线 8th Street–NYU 站</strong>步行约 500 米／7 分钟。' +
@@ -588,8 +609,11 @@ module.exports = {
         {
           name: '大厅正中仰拍钢肋对称（招牌构图）',
           view: [40.711542, -74.011422],
-          desc: '<strong>时刻表（由 9 月 11 日 10:28 的太阳方位角 128.4° 反推得出，本区最有用的一组数字）：' +
-            '天窗光带沿大厅纵轴对齐的时刻是 9 月 25 日 10:07（太阳高度 34.6°）、10 月 1 日 09:58、' +
+          desc: '<strong>按实际日期，这是本区最值得照抄的一组钟点：光带沿大厅纵轴对齐的时刻是 ' +
+            '10 月 16 日 09:38（太阳高度 24.8°）、10 月 17 日 09:36（24.4°）、10 月 18 日 09:35（23.9°）。' +
+            '三天几乎同一时刻，安排在哪天都一样，请按「09:25 到位、09:45 收工」执行。</strong>' +
+            '<strong>备用窗口的完整时刻表（同样由 9 月 11 日 10:28 的太阳方位角 128.4° 反推得出）：' +
+            '9 月 25 日 10:07（太阳高度 34.6°）、10 月 1 日 09:58、' +
             '10 月 10 日 09:45、10 月 22 日 09:29（高度 21.9°）、10 月 31 日 09:19。</strong>' +
             '越往后太阳越低，光带越长、越偏向大厅西北端，' +
             '<strong>9 月底的对齐质量明显优于 10 月底</strong>；如果只能来一次，选 9 月那一档。' +
@@ -625,9 +649,18 @@ module.exports = {
         ticket: '<strong>免费。</strong>官方口径：进入 Oculus 大厅与各公共通道完全免费，只有购物、餐饮与乘 PATH／地铁才付费',
         hours: '大厅作为交通设施基本全天开放，' +
           '<strong>但港务局明确：「The Oculus street level access is limited overnight from 1:00 am to 5:00 am」</strong>' +
-          '——这段时间要走 Vesey Street 或 Fulton Street 经 2 WTC 北通道进出。' +
-          'Westfield 店铺（官方原文）：<strong>周一–周五 10:00–20:00，周六 10:00–19:00，周日 11:00–18:00</strong>。' +
-          '<strong>想拍空大厅就在 10:00 前到</strong>',
+          '——这段时间要走 Vesey Street 或 Fulton Street 经 2 WTC 北通道进出，其余街面口全部关闭' +
+          '（2026 年 9 月 5 日在港务局 Campus Updates 页复核，措辞未变）。' +
+          '<strong>店铺时间要标一个官方内部矛盾：港务局自己的两个网站给的不是同一组数字。</strong>' +
+          '<strong>Campus Updates 页写周一–周五 10:00–20:00、周六 10:00–19:00、周日 11:00–18:00；' +
+          '而同属港务局的 explorewtc.com「Shopping」页写周一–周五 9:00–19:00、周六 10:00–20:00、周日 11:00–19:00。</strong>' +
+          '<strong>两者都不是笔误、都挂在官网上，本条不替你二选一。</strong>' +
+          '<strong>对拍摄的实际影响只有一条：想拍空大厅请按较早的那组算，也就是 09:00 前到</strong>' +
+          '（原先本条写「10:00 前到」，按 explorewtc.com 的口径不够保险）。' +
+          '要确认当天口径可打商场服务台 <strong>(212) 284-9982</strong>' +
+          '（此号为第三方一致口径，港务局与 Westfield 的页面都不列电话，<strong>未能从官方页面证实</strong>）。' +
+          '另有一条官方细节对早班很有用：<strong>2 WTC 北通道主层的公共洗手间 08:00–20:00 开</strong>，' +
+          '其余几处随店铺时间',
         parking: '不建议开车，WTC 一带停车楼日价 $45–70',
         walk: '<strong>PATH 线 World Trade Center 站</strong>直达大厅；' +
           '<strong>地铁 E 线 World Trade Center 站、R/W 线 Cortlandt Street 站，以及 2/3、4/5、A/C、J/Z 线 Fulton Street 站</strong>' +

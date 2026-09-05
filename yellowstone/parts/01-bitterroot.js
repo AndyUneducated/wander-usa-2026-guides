@@ -812,6 +812,12 @@ module.exports = {
           '不清运垃圾、供水已或将被封闭过冬、部分卫生间关闭，' +
           '<strong>官方要求 “pack it in, pack it out”，垃圾必须全部带走。</strong>' +
           '营地日期：<strong>Lower Como 提供服务至 9/24、9 月 25 日关闭；Three Frogs 提供服务至 9/24、10 月 16 日关闭。</strong>' +
+          '<strong>一条 2026-09-05 新查到的邻近封闭，与本景点无关但就在旁边：' +
+          'Bitterroot NF 的 alerts 页写着 “Road closures are in place on Lost Horse at the Lick Creek Road (FS 5621) junction. ' +
+          'Lick Creek Rd. remains open.”' +
+          'Lost Horse 就在 Lake Como 北侧同样向西进山，' +
+          '这条封闭不涉及 Lake Como Road 与湖区日间使用区，本景点仍然可达；' +
+          '但如果你原本打算顺 Lost Horse 往里开，请先看这一页。</strong>' +
           '咨询：<strong>Darby Ranger Station 406-821-3913，周一至周五 08:00–16:30（联邦假日休息）</strong>',
         parking: '<strong>免费（你的日期已停收费用）。</strong>' +
           '日间使用区、沙滩与步道口均有铺装停车场，' +
@@ -992,15 +998,34 @@ module.exports = {
           '也不需要任何通行证</strong>（与 Lake Como 不同）',
         hours: '<strong>步道与停车场无门禁、无关门时间，官方标注最佳季节 5–10 月，9/22–9/23 完全在季节内。</strong>' +
           '<strong>但请注意「无门禁」不等于「一定能进」——这一带的真正变量是火情封路。</strong>' +
-          '<strong>2026 年已知的 Bitterroot NF 封闭令是针对 Nature Grove Fire 的：' +
-          'Forest Order 01-03-02-26-09 封闭 NFSR 75（自 MT-38 Skalkaho Highway 起至 NFSR 720 路口）、' +
-          'NFSR 720 与 NFSR 711，另 Black Bear Campground 与 714 号路关闭，效期自 7 月 27 日至 12 月 31 日。' +
-          '这些路全在谷地东侧的 Sapphire Mountains 一带，' +
-          '与西侧的 Blodgett（FS 735／736）不是同一批路，因此现有封闭令不影响本景点——已核实。</strong>' +
-          '<strong>但 Cooper（310 英亩，0% 控制）与 Scimitar（334 英亩，0% 控制）两把火仍在 Bitterroot NF 的荒野区内燃烧，' +
+          '<strong>2026-09-05 逐条复核了 Bitterroot NF 的 alerts 页，结论是本景点仍然不受封闭令影响，' +
+          '但原先「现有封闭令全在谷地东侧」这句话已经不准确，请看清楚下面第二条。</strong>' +
+          '<strong>（一）东侧、针对 Nature Grove Fire 的那一批仍在：' +
+          'Forest Order 01-03-02-26-09 封闭 NFSR 75（自 MT-38 Skalkaho Highway 起至 NFSR 720 路口）与 ' +
+          'NFSR 720（自该路口至 NFSR 718 路口），另 NFSR 711、Black Bear Campground 与 714 号路关闭，' +
+          '效期自 7 月 27 日至 12 月 31 日。' +
+          'MT-38（Skalkaho Highway）本身官方原文仍是 “open at this time for necessary traffic”，' +
+          '重新开放的路段是 mile marker 13 至 17。' +
+          '这些都在谷地东侧的 Sapphire Mountains 一带，与西侧的 Blodgett（FS 735／736）不是同一批路。</strong>' +
+          '<strong>（二）西侧现在也有一条封闭，这是新出现的：alerts 页上写着 ' +
+          '“Road closures are in place on Lost Horse at the Lick Creek Road (FS 5621) junction. Lick Creek Rd. remains open.”' +
+          'Lost Horse 在 Hamilton 以南、Lake Como 一带向西进山，' +
+          '也就是和 Blodgett 同在谷地西侧的 Bitterroot Range 这一侧。' +
+          '官方在列表里没有给这条封闭标注原因或日期。' +
+          '它不涉及 FS 735／736，因此 Blodgett Canyon Overlook 仍然可达——' +
+          '但它说明「西侧没有封闭」这个假设已经不成立，出发当天必须自己看这一页。</strong>' +
+          '<strong>（三）Nature Grove 的官方 alert 本身把 Alert End Date 设在 2026 年 9 月 28 日，' +
+          '也就是官方预期这条警报会一直挂过你的 9/22–9/23。' +
+          '同一页 8 月 23 日起对 Skalkaho Highway 1800 号地址以东两侧居民发出的疏散警告仍在。' +
+          '另外提醒一句关于这一页的读法：它的 “Size” 栏到 2026-09-05 仍写着 175 英亩、页面 Last updated 是 8 月 27 日，' +
+          '而 9 月初的 IMSR 已经是一千多英亩——' +
+          '这一页要用来看封闭与疏散，不要用来看火场面积。</strong>' +
+          '<strong>Cooper（310 英亩，0% 控制）与 Scimitar（334 英亩，0% 控制）两把火仍在 Bitterroot NF 的荒野区内燃烧，' +
           '新增封闭随时可能发布。' +
           '出发当天必须复查官方 alerts 页：fs.usda.gov/r01/bitterroot/alerts，' +
-          '或致电 Bitterroot NF 总部 406-363-7100 / Darby Ranger Station 406-821-3913。</strong>' +
+          '或致电 Bitterroot NF 总部 406-363-7100 / Darby Ranger Station 406-821-3913。' +
+          'Nature Grove 的火情信息专线是 406-420-3096（邮箱 2026.naturegrove@firenet.gov），' +
+          '问「今天有没有新封闭」用这个号最直接。</strong>' +
           '<strong>（作为对照：Lolo Pass Visitor Center 周二与周三全天关闭，' +
           '你的 9/22 与 9/23 两天都闭馆，24 小时卫生间仍可用；该中心按太平洋时区运作。）</strong>',
         parking: '<strong>路尽头有免费停车场，空间充足，另有旱厕。</strong>' +
@@ -1018,9 +1043,13 @@ module.exports = {
       },
       notes: [
         '<strong>出发当天必须复查火情封路，这是本景点唯一的重大不确定项。</strong>' +
-          '现有封闭令（NFSR 75／720／711，针对 Nature Grove Fire）不涉及 Blodgett，已核实；' +
-          '<strong>但 Cooper 与 Scimitar 两把火仍在 Bitterroot NF 内 0% 控制，新增封闭随时可能发布。' +
-          '查 fs.usda.gov/r01/bitterroot/alerts 或 Watch Duty，或直接打 406-363-7100。</strong>',
+          '东侧那批封闭令（NFSR 75／720／711，针对 Nature Grove Fire）不涉及 Blodgett，2026-09-05 复核仍然如此；' +
+          '<strong>但同一页现在也挂着一条西侧封闭（Lost Horse 在 Lick Creek Road／FS 5621 路口处封闭），' +
+          '所以不要再假定「西侧没事」。' +
+          '它不涉及进 Blodgett 的 FS 735／736，本景点仍可达。</strong>' +
+          '<strong>Cooper 与 Scimitar 两把火仍在 Bitterroot NF 内 0% 控制，新增封闭随时可能发布。' +
+          '查 fs.usda.gov/r01/bitterroot/alerts 或 Watch Duty，' +
+          '或直接打 406-363-7100，火情专线 406-420-3096。</strong>',
         '<strong>必带头灯。</strong>要拍到 19:05–19:15 的最后光线，你一定会在暮光中下山（民用暮光 20:05）；' +
           '1.5 英里的碎石下坡在半暗中很容易崴脚，扛三脚架时更是',
         '<strong>观景点边缘是陡崖。</strong>官方与当地都明确提醒 “the ledges are steep and rocky”。' +
@@ -1229,12 +1258,25 @@ module.exports = {
           '<strong>以现场为准，差额 $1 不影响决策</strong>）' +
           '<strong>St. Mary\u2019s Mission：$10／人，5 岁以下免费；博物馆与美术馆免费参观（欢迎捐赠）。</strong>' +
           '<strong>请注意这两处都不接受 America the Beautiful 年票</strong>——它们不是联邦产权',
-        hours: '<strong>Daly Mansion（官方「Summer Tour Season Hours (June – September)」原文口径）：</strong>' +
+        hours: '<strong>Daly Mansion（官方「Summer Tour Season Hours (June – September)」原文口径，2026-09-05 复核未变，' +
+          '官网与 Ravalli County 官方页两处一字不差）：</strong>' +
           '<strong>园区每周 7 天 10:00–17:00；导览团周二至周六 11:00–14:00（取决于志愿者在岗情况）；' +
           '自助参观周二至周六 10:00 与 15:00、周日 10:00–15:00 全天。</strong>' +
           '<strong>9/22 周二与 9/23 周三均在开放窗口内，已核实。</strong>' +
+          '<strong>但这里有一件原先没写清、而且直接决定 10 月下旬那个备用窗口的事：' +
+          '官网的 Tour 页上另有一整套「Fall &amp; Winter Hours」，原文是 ' +
+          '“Fall/Winter Grounds: Open 10 AM – 4 PM Monday – Friday”、' +
+          '“Mansion: Closed for Walk-In Tours”、' +
+          '“Tours: Based on availability – call for more information and to make a reservation”，' +
+          '并要求「导览须至少提前 48 小时电话预约」，还说明' +
+          '“Due to weather and preparation for our indoor events, we may not be able to accommodate all requests”。' +
+          '官网从来没有公布夏季转秋冬的具体日期。</strong>' +
+          '<strong>实操结论分两种情况：你的 9/22–9/23 在官方明确写着的「June – September」里，按夏季时段走；' +
+          '但只要行程滑到 10 月，园区就变成周一至周五 10:00–16:00、大宅不接受走进去参观、' +
+          '导览要提前 48 小时约且可能被拒——那是完全不同的一个景点。' +
+          '换季日期未能从官方渠道确认，凡是 10 月的日期都必须先打 406-363-6004。</strong>' +
           '（另：<strong>10 月 14–23 日临时闭馆</strong>；第三方资料称导览季 10 月 8 日结束，' +
-          '<strong>与官网夏季口径不一致，未能核实</strong>，但均在你的日期之后）' +
+          '<strong>与官网夏季口径不一致，未能核实</strong>，但均在你的 9 月日期之后）' +
           '<strong>St. Mary\u2019s Mission：周二至周六 11:00–15:00，最后一团 14:00，' +
           '季节为 4 月中至 10 月中（另一处官方表述为 4 月 15 日至 10 月 15 日）。' +
           '9/22 周二开放；9/23 周三亦在「周二至周六」窗口内。已核实。</strong>' +
