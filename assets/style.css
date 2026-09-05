@@ -328,7 +328,17 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .plan td { color: var(--text-dim); }
 .plan td b { color: var(--text); }
 .plan tbody tr:nth-child(even) { background: rgba(255,255,255,.015); }
-.tbl-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.tbl-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
+
+/* 数据里常出现整段 URL 路径与英文长专名。窄视口下这些不可断词会把
+   整个文档撑宽、出现横向滚动条，所以允许它们在任意位置断行。 */
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .92em; padding: 1px 5px; border-radius: 4px;
+  background: rgba(255, 255, 255, .06); color: var(--text-dim);
+  overflow-wrap: anywhere; word-break: break-word;
+}
+.card-body, .callout, .plan td, .plan th { overflow-wrap: break-word; }
 
 footer { padding: 40px 0 64px; color: var(--text-faint); font-size: 13px; }
 footer p { margin: 5px 0; }
