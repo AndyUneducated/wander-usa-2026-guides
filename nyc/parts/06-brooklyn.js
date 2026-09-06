@@ -170,7 +170,7 @@ module.exports = {
       name: 'Gantry Plaza 州立公园与 Pepsi-Cola 招牌',
       en: 'Gantry Plaza State Park · Pepsi-Cola Sign · Long Island City',
       score: 4.5,
-      tldr: '免费、地面高度、正对 Midtown 的最佳正面机位；但太阳会提前 30 分钟沉进天际线，真正的价值在蓝调。',
+      tldr: '免费、地面高度、正对 Midtown 的最佳正面机位；但太阳会提前 30 分钟沉进天际线，真正的价值在蓝调——<strong>而州立公园官网对闭园钟点有两个打架的口径（22:00 与「dusk」），出发前先打电话问</strong>。',
       tags: [
         { t: '完全免费', c: 'free' },
         { t: '不需预约', c: 'free' },
@@ -245,12 +245,25 @@ module.exports = {
       access: {
         book: '不需预约',
         ticket: '<strong>免费</strong>',
-        hours: 'Gantry Plaza State Park <strong>每日 08:00–22:00</strong>（纽约州立公园系统，节假日或有活动时可能调整）。' +
-          'Hunters Point South Park 属 NYC Parks，按一般市属公园口径 06:00–01:00。' +
-          '<strong>22:00 闭园对本窗口没有影响</strong>——10 月下旬民用暮光 18:34 就结束，' +
-          '天文暮光 19:06 结束，你有充裕的三个多小时。' +
-          '<strong>Pepsi-Cola 招牌的霓虹是整夜亮的</strong>，不受闭园时间限制，' +
-          '从园外的 Center Boulevard 上仍可拍到（角度差一些）',
+        hours: '<strong>这一条要当心：纽约州立公园官网在同一个页面上给出了两个互相矛盾的闭园口径，' +
+          '而本条目的全部价值都在蓝调，所以这个矛盾必须写出来，不能替你二选一。</strong>' +
+          'parks.ny.gov 的 Gantry Plaza State Park 页面里，' +
+          '<strong>「Hours of Operation」栏写的是「Open daily, dawn to dusk」（日出到日落／黄昏），' +
+          '而同一页讲遛狗规定那一段写的却是「during regular park hours --- 8 AM to 10 PM daily」（每日 08:00–22:00）。</strong>' +
+          '原先本条只采信了后者。' +
+          '<strong>两者的差别对拍摄是决定性的：真实日期 10/16–10/18 日落 18:13 前后、民用暮光 18:38–18:41 结束。' +
+          '按 22:00 口径，你在蓝调结束后还有三个多小时，完全从容；' +
+          '按「dusk」口径，园子大约在蓝调收尾的同时就该清场，' +
+          '你能不能站在园内拍完整段蓝调就得看当天护园员怎么执行。</strong>' +
+          '<strong>未能从官方渠道判定哪一个是现行口径</strong>——' +
+          '出发前请打园方电话 <strong>(347) 935-3039</strong> 问准当天的闭园钟点。' +
+          '<strong>好在这个点位有一条现成的退路，风险因此可控：' +
+          'Pepsi-Cola 招牌的霓虹整夜都亮、不受闭园时间限制，' +
+          '从园外的 Center Boulevard 人行道上照样拍得到（角度差一些、少了栈桥前景）；' +
+          '紧邻的 Hunters Point South Park 属 NYC Parks，按一般市属公园口径开到 01:00，' +
+          '真被请出 Gantry Plaza 就往南挪几十米继续拍。</strong>' +
+          '<strong>稳妥的排法是把到场时间提早：金光 17:33–17:36 起，' +
+          '在 18:13 日落前就把主构图拍完，蓝调当加分而不是当计划。</strong>',
         parking: '<strong>强烈建议不要开车。</strong>Hunters Point 是密集住宅区，' +
           'Center Boulevard 与 47th Road 沿线路边车位极少且多为居民占用，' +
           '停车楼按 Manhattan 价格收费。' +
