@@ -415,6 +415,13 @@ module.exports = {
           '分区例外：Pier 2 为 08:00–23:00（季节性）、Pier 5 为 06:00–23:00、' +
           'Pier 6 排球场 06:00–23:00、<strong>各儿童游乐场为日出至日落</strong>、' +
           '洗手间 3–10 月 07:00–23:00、11–3 月 07:00–22:00。' +
+          '（以上主时段与三处码头例外已于 2026 年 9 月 6 日在 brooklynbridgepark.org 官方页面复核，' +
+          '原文为「We Are Open 7 Days a Week | 6AM - 1AM」、「Pier 2 - 8AM–11PM」、' +
+          '「Pier 5 - 6AM–11PM」、「Pier 6 Volleyball Courts - 6AM–11PM」，与本条一致。' +
+          '洗手间的分季钟点未能在现行官方页面找到出处，保留原记录但请勿据此规划。）' +
+          '<strong>对真实日期的结论：10/16–10/18 日落 18:11–18:14、民用暮光 18:38–18:41 结束，' +
+          '离 01:00 闭园还有六个多小时，公园本身的开放时间完全不构成约束</strong>——' +
+          '这一区真正卡时间的是下面的木马，不是公园。' +
           '<strong>Jane\u2019s Carousel 秋季时刻表已逐字核实（2026 年 9 月 6 日取自 janescarousel.org 官方页面数据）：' +
           '「Fall Hours — September 14, 2026 to December 31, 2026 / Closed Monday and Tuesday / 11:00 AM–5:50 PM」' +
           '，即周一、周二闭馆，周三至周日 11:00–17:50</strong>——' +

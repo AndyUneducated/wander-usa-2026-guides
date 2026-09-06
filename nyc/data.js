@@ -3662,7 +3662,7 @@ var REGIONS = [
         "access": {
           "book": "不需预约",
           "ticket": "<strong>免费，24 小时开放</strong>（行人步道）",
-          "hours": "无固定开放时间。<strong>步道全天候可走，但夜间照明不足，凌晨与深夜的自动对焦会很困难</strong>，请开峰值对焦或手动预对焦到无限远",
+          "hours": "无固定开放时间。<strong>步道全天候可走，但夜间照明不足，凌晨与深夜的自动对焦会很困难</strong>，请开峰值对焦或手动预对焦到无限远。<strong>2026 年 9 月 6 日在 NYC DOT 的 Brooklyn Bridge 页复核，有一条会直接影响招牌构图，原先本条目完全没提：桥塔与引桥拱正在做大修（Contract 7「Rehabilitation of Towers and Approach Arches」，内容包括加固砌体桥塔、重新勾缝与替换花岗岩、以及改造桥塔照明）。官方对行人的承诺写得很明确——「The bridge promenade will be open at all times, although portions of the walkway may be narrowed at times」，也就是步道任何时候都不会整段封闭，但局部会被收窄。</strong><strong>为什么这条对你重要：本条目的招牌就是站在 Manhattan 塔正下方拍双尖拱对称，而塔正是这次施工的对象。收窄、围挡或塔身脚手架都可能出现在画面里，而且步道一窄，日出前那点空景优势也会被抵消。</strong><strong>还要照实说明官方页面自己的一处矛盾：该项目写着「began in September 2019 and will continue until 2023」，却仍然挂在「Current Projects」栏目下，也就是标称工期已过但状态仍是进行中，官网没有更新的完工日期，本条无法判定 2026 年 10 月现场到底有没有围挡——未能确认。</strong><strong>出发前值得打一个电话：DOT 为这个项目设了社区联络人 Anita Navalurkar，电话 347-647-0876、邮箱 brooklynbridgeoutreach@gmail.com，可以直接问当月塔下有没有脚手架。</strong>（同页另给出 2024 年的官方流量数据：日均行人 28,845、自行车 5,504、机动车 103,051。）",
           "parking": "桥两端<strong>没有专用停车场</strong>。Lower Manhattan 停车楼日价 $40–60。强烈建议地铁",
           "walk": "<strong>4/5/6 线 Brooklyn Bridge–City Hall 站</strong>或 <strong>J/Z 线 Chambers Street 站</strong>出站即到步道入口（Centre Street／Park Row）；<strong>R/W 线 City Hall 站</strong>步行约 400 米／5 分钟。从入口走到 Manhattan 塔约 <strong>800 米／11 分钟</strong>，走到 Brooklyn 一侧尽头约 1.8 公里／28 分钟"
         },
@@ -3696,7 +3696,7 @@ var REGIONS = [
         "name": "史泰登岛渡轮",
         "en": "Staten Island Ferry",
         "score": 4.5,
-        "tldr": "全免费、24 小时、单程 25 分钟；去程站右舷（starboard）拍自由女神、回程站左舷；金光请搭 18:00（9/25）或 17:15（10/22）那班。",
+        "tldr": "全免费、24 小时、单程 25 分钟；去程站右舷（starboard）拍自由女神、回程站左舷；<strong>真实日期请搭 Whitehall 17:30 南下、St. George 18:00 北上那一趟</strong>。",
         "tags": [
           {
             "t": "完全免费",
@@ -3738,7 +3738,7 @@ var REGIONS = [
           },
           {
             "name": "回程左舷拍下城天际线金光（本条目的核心推荐）",
-            "desc": "<strong>这是本条目最值得执行的一条，直接给班次：</strong><strong>9 月 25 日（周五，日落 18:49，金光 18:12–18:49，蓝调至 19:16）：搭 Whitehall 18:00 那班南下（18:25 抵 St. George），立刻转 18:30 那班北上</strong>——你会在 18:30–18:55 正好横在港中央，太阳 18:49 落下，下城天际线在正前方被最后的暖光正面打亮，随后进入蓝调、楼群亮灯。<strong>这一趟是整个窗口最优的一班。</strong><strong>10 月 22 日（周四，日落 18:06，金光 17:28–18:06，蓝调至 18:34）：搭 Whitehall 17:15 南下（17:40 抵），转 17:45 北上；想要纯蓝调版本就改搭 18:00 北上那班。</strong><strong>周末只有整点与半点两班，请按 18:30（9 月底）／18:00（10 月底）北上取整。</strong>构图：站左舷偏船头，24–70mm 拍下城天际线全景（One World Trade Center 在画面左、Brooklyn Bridge 与 Manhattan Bridge 在右后方）；70–200mm 压缩 Financial District 楼群。<strong>回程时太阳在左后方（方位 256–269°），楼群受的是正面偏侧的光，这正是拍天际线最好的光位。</strong><strong>机位在水面上，无 OSM 实体，地图不出针脚。</strong>"
+            "desc": "<strong>这是本条目最值得执行的一条，直接给班次。先给实际日期的三班，钟点全部照 NYC DOT 官方时刻表（2026 年 9 月 6 日复核）核对过：</strong><strong>10 月 17 日（周六）与 10 月 18 日（周日）走周末表，全天只有整点与半点两班——搭 Whitehall 17:30 南下（17:55 抵 St. George），转 18:00 北上（18:25 回到 Whitehall）。</strong>当天日落 18:12／18:11、民用暮光结束 18:40／18:38，<strong>也就是说这一趟北上正好把日落横在航程正中间，下城天际线在正前方由暖光转进蓝调，是这两天唯一对的一班。</strong>想要纯蓝调亮灯版本就改搭 St. George 18:30 北上那班（18:30–18:55，天已经黑透、楼群全亮）。<strong>10 月 16 日（周五）走平日表，傍晚是高峰加密时段，可选的班次多得多：St. George 北上有 17:30、17:45、18:00、18:15、18:30、18:45、19:00。当天日落 18:14、暮光结束 18:41——最佳是搭 Whitehall 17:30 南下、转 18:00 北上；若只想要蓝调就改 18:15 那班。</strong><strong>但周五这一趟要有心理准备：平日 17:00–19:00 的北上班次正是下班通勤高峰，与最佳光线完全重叠，栏杆位很难抢（见 notes）。想要从容站位就挑周六日。</strong><strong>备用窗口的两班如下——</strong><strong>9 月 25 日（周五，日落 18:49，金光 18:12–18:49，蓝调至 19:16）：搭 Whitehall 18:00 那班南下（18:25 抵 St. George），立刻转 18:30 那班北上</strong>——你会在 18:30–18:55 正好横在港中央，太阳 18:49 落下，下城天际线在正前方被最后的暖光正面打亮，随后进入蓝调、楼群亮灯。<strong>这一趟是整个窗口最优的一班。</strong><strong>10 月 22 日（周四，日落 18:06，金光 17:28–18:06，蓝调至 18:34）：搭 Whitehall 17:15 南下（17:40 抵），转 17:45 北上；想要纯蓝调版本就改搭 18:00 北上那班。</strong><strong>周末只有整点与半点两班，请按 18:30（9 月底）／18:00（10 月底）北上取整。</strong>构图：站左舷偏船头，24–70mm 拍下城天际线全景（One World Trade Center 在画面左、Brooklyn Bridge 与 Manhattan Bridge 在右后方）；70–200mm 压缩 Financial District 楼群。<strong>回程时太阳在左后方（方位 256–269°），楼群受的是正面偏侧的光，这正是拍天际线最好的光位。</strong><strong>机位在水面上，无 OSM 实体，地图不出针脚。</strong>"
           },
           {
             "name": "Whitehall Terminal 候船大厅的落地玻璃",
@@ -3756,7 +3756,7 @@ var REGIONS = [
         "access": {
           "book": "<strong>不需预约、不需票、不需刷卡，直接走上船。</strong><strong>码头附近有人向游客推销「渡轮票」，那是骗局——渡轮不卖票。</strong>",
           "ticket": "<strong>免费</strong>",
-          "hours": "<strong>24 小时、365 天。</strong>NYC DOT 官方时刻表：<strong>平日高峰约每 15–20 分钟一班，平峰每 30 分钟，深夜 30–60 分钟；周末全天每 30 分钟（整点与半点）</strong>。主要联邦假日按周末时刻表。官方把「晚于表定时刻 6 分钟以上」定义为延误，可向站务索取延误证明",
+          "hours": "<strong>24 小时、365 天。</strong>NYC DOT 官方时刻表（nyc.gov 的 Staten Island Ferry Schedule 页，2026 年 9 月 6 日逐班复核）：<strong>平日高峰约每 15–20 分钟一班，平峰每 30 分钟，深夜 30–60 分钟；周末全天每 30 分钟（整点与半点）</strong>，官方原文另注明单程「approximately 25 minutes」。<strong>假日按周末表的名单是官方逐条列出的，只有九个：New Year’s Day、Martin Luther King, Jr. Day、Presidents’ Day、Memorial Day、Juneteenth、Independence Day、Labor Day、Thanksgiving Day、Christmas Day。请注意 10 月 12 日（Indigenous Peoples’／Columbus Day）不在这个名单里，那天走的是平日表、傍晚有高峰加密班次</strong>——这一点对备用窗口有用。官方另注明「All schedules are subject to change without notice」。官方把「晚于表定时刻 6 分钟以上」定义为延误，可向站务索取延误证明",
           "parking": "Whitehall Terminal 没有游客停车场。强烈建议地铁",
           "walk": "<strong>1 号线 South Ferry 站</strong>直连候船大厅；<strong>R/W 线 Whitehall Street 站</strong>与 <strong>4/5 线 Bowling Green 站</strong>步行 3–5 分钟。从 9/11 Memorial 步行到 Whitehall 约 1.4 公里／18 分钟，或坐 R/W 线两站"
         },
@@ -3801,7 +3801,7 @@ var REGIONS = [
       {
         "type": "warn",
         "title": "Coney Island 2026 赛季：Labor Day 后只开周末与犹太节日，10/25 收摊",
-        "html": "<p><strong>先记住一件最容易踩的事：Wonder Wheel 和 Cyclone 属于两家不同的公司，日历不一样。</strong>Wonder Wheel、Phoenix、Spook-A-Rama 在 <strong>Deno’s Wonder Wheel Amusement Park</strong>；Cyclone、Thunderbolt、Tony’s Express 在 <strong>Luna Park</strong>。想拍「亮着灯还在转的 Wonder Wheel」，必须是 Deno’s 的营业日。</p><p><strong>Deno’s 官网已公布逐日 2026 日历，9/25–10/25 窗口内的营业日是：</strong></p><ul><li><strong>9/26（六）– 10/1（四）：连续六天全开</strong>（Sukkot 假期），是本窗口条件最好的一段</li><li>10/3（六）、10/4（日）</li><li>10/10（六）、10/11（日）、10/12（一，Indigenous Peoples’ Day）</li><li>10/17（六）、10/18（日）</li><li><strong>10/24（六）、10/25（日）——2026 赛季最后两天，之后整园关闭至 2027 年</strong></li></ul><p><strong>其余所有日期 Deno’s 都闭园，包括 9/25（周五）与 10/2（周五）——官网明确标注「Closed」。</strong>Deno’s 的开门时间是儿童区 11:00、Wonder Wheel 等成人机械 12:00。<strong>关园时间随天气浮动，2026 年 10 月的具体闭园钟点官网未公布——未能从官方渠道确认。</strong>作为参照，2025 年 10 月的官方口径是儿童区与成人机械都 <strong>18:00 关</strong>；若 2026 年照此执行，则 10 月中下旬（10/17 日落 18:13、10/24 日落 18:03）<strong>你会在摩天轮灯亮之前就被清场，拍不到蓝调亮灯轮</strong>。当天出发前请打 (718) 372-2592 问实际关园时间。</p><p><strong>Luna Park</strong> 的 Halloween Harvest 官方期间为 <strong>9/18–11/1</strong>，整季通票有效期写到 <strong>2026 年 11 月 1 日</strong>。官网活动日历已展开到 10 月 1 日，9 月的口径是：<strong>周五 16:00–22:00、周六 11:00–22:00、周日 11:00–20:00、节假周中 12:00–20:00</strong>（9/25 五 16:00–22:00、9/26 六 11:00–22:00、9/27 日 11:00–20:00、9/28–10/1 每天 12:00–20:00）。<strong>10 月 2 日以后的逐日钟点官网日历尚未展开，未能确认</strong>，按 9 月规律推测是「周五 + 周末 + Columbus Day」，但请以官网 lunaparknyc.com/plan/park-hours 为准。</p><p><strong>如果只能挑一天：选 9 月 26 日（周六）。</strong>两园同开、Luna Park 开到 22:00、当日日落 18:47、民用暮光结束 19:14——<strong>整个蓝调时段完整落在营业时间内</strong>，这是本窗口里唯一毫无悬念的组合。次选 10/3、10/10、10/17、10/24 的周六，越早越好（日落越晚，越不容易撞上闭园）。</p>"
+        "html": "<p><strong>先记住一件最容易踩的事：Wonder Wheel 和 Cyclone 属于两家不同的公司，日历不一样。</strong>Wonder Wheel、Phoenix、Spook-A-Rama 在 <strong>Deno’s Wonder Wheel Amusement Park</strong>；Cyclone、Thunderbolt、Tony’s Express 在 <strong>Luna Park</strong>。想拍「亮着灯还在转的 Wonder Wheel」，必须是 Deno’s 的营业日。</p><p><strong>Deno’s 官网已公布逐日 2026 日历，9/25–10/25 窗口内的营业日是：</strong></p><ul><li><strong>9/26（六）– 10/1（四）：连续六天全开</strong>（Sukkot 假期），是本窗口条件最好的一段</li><li>10/3（六）、10/4（日）</li><li>10/10（六）、10/11（日）、10/12（一，Indigenous Peoples’ Day）</li><li>10/17（六）、10/18（日）</li><li><strong>10/24（六）、10/25（日）——2026 赛季最后两天，之后整园关闭至 2027 年</strong></li></ul><p><strong>其余所有日期 Deno’s 都闭园，包括 9/25（周五）与 10/2（周五）——官网明确标注「Closed」。</strong>Deno’s 的开门时间是儿童区 11:00、Wonder Wheel 等成人机械 12:00。</p><p><strong>关园钟点现已查实：18:00，而且这是全季固定的，不是十月才这样。</strong>denoswonderwheel.com 的 Hours 页日历里，<strong>9 月 8 日夏季档结束之后的每一个营业日都记为 18:00 结束</strong>——9/9、9/21、9/29、9/30、10/1、10/12 这些单日条目全是 11:00–18:00，各周末条目也一律以周日 18:00 收尾；作为对照，6/4–9/8 的夏季档结束时间是 22:00。<strong>两点照实保留：这个 18:00 只出现在日历的结束时刻里，页面正文只宣传开门时间、没有用文字写出闭园钟点；官方另有原话「Hours are subject to change based on weather and operating conditions」。出发当天请打 (718) 372-2592 核实。</strong></p><p><strong>这条比日期表更要命，请务必读完：本窗口内最早的日落是 10/25 的 18:01，最晚是 9/25 的 18:47，全部晚于 Deno’s 的 18:00 关园。也就是说——不管你挑 9/25–10/25 里的哪一天，「亮着灯还在转的 Wonder Wheel」都拍不到，你会在它点灯之前就被清场。</strong>这不是挑日子的问题，是整个秋季档的钟点就是这样；要拍到得回到 9 月 8 日之前的夏季档（开到 22:00）。<strong>关园之后摩天轮的 LED 是否仍然亮着，官方没有任何说明——未能确认，同样请打上面那个电话问。</strong></p><p><strong>Luna Park</strong> 的 Halloween Harvest 官方期间为 <strong>9/18–11/1</strong>，整季通票有效期写到 <strong>2026 年 11 月 1 日</strong>。<strong>官网 lunaparknyc.com/plan/park-hours 的活动日历现已展开到 11 月 1 日，十月逐日钟点是：</strong></p><ul><li><strong>周五 16:00–22:00</strong>（10/2、10/9、10/16、10/23、10/30）</li><li><strong>周六与周日 11:00–20:00</strong>（10/3、10/4、10/10、10/11、10/17、10/18、10/24、10/25）</li><li><strong>10/12（一，Indigenous Peoples’ Day）11:00–20:00</strong>；周二至周四一律闭园</li><li><strong>10/31（六，万圣节）11:00–22:00</strong>；<strong>11/1（日）11:00–20:00，官网标注「Last day of Fall Season」</strong></li></ul><p><strong>请注意十月的周六不再像九月那样开到 22:00，而是 20:00</strong>——十月里只有周五和万圣节当天是 22:00 场，本条原先按九月规律推测「周六 22:00」，是错的，已更正。</p><p><strong>如果只能挑一天，而你的日期在真实行程内：选 10 月 16 日（周五），目标是 Luna Park。</strong>Luna Park 那天 16:00–22:00，当日日落 18:14、民用暮光结束 18:41，<strong>整个蓝调加三个多小时夜场全在营业时间内，Cyclone 与 Thunderbolt 亮灯运转，是三天里唯一不用赶的一场</strong>（代价是 Deno’s 周五不开，Wonder Wheel 连白天转动的版本都没有）。<strong>10/17 与 10/18（周六日）两园都开：Deno’s 12:00–18:00、Luna Park 11:00–20:00。想看转动的 Wonder Wheel 就 17:35–18:00 这段昏金光去拍，天还亮着；18:00 被清场后转场 130 米到 Cyclone 拍蓝调，两件事一晚上能串起来。</strong></p>"
       },
       {
         "type": "good",
@@ -3826,7 +3826,7 @@ var REGIONS = [
         "name": "Gantry Plaza 州立公园与 Pepsi-Cola 招牌",
         "en": "Gantry Plaza State Park · Pepsi-Cola Sign · Long Island City",
         "score": 4.5,
-        "tldr": "免费、地面高度、正对 Midtown 的最佳正面机位；但太阳会提前 30 分钟沉进天际线，真正的价值在蓝调。",
+        "tldr": "免费、地面高度、正对 Midtown 的最佳正面机位；但太阳会提前 30 分钟沉进天际线，真正的价值在蓝调——<strong>而州立公园官网对闭园钟点有两个打架的口径（22:00 与「dusk」），出发前先打电话问</strong>。",
         "tags": [
           {
             "t": "完全免费",
@@ -3886,7 +3886,7 @@ var REGIONS = [
         "access": {
           "book": "不需预约",
           "ticket": "<strong>免费</strong>",
-          "hours": "Gantry Plaza State Park <strong>每日 08:00–22:00</strong>（纽约州立公园系统，节假日或有活动时可能调整）。Hunters Point South Park 属 NYC Parks，按一般市属公园口径 06:00–01:00。<strong>22:00 闭园对本窗口没有影响</strong>——10 月下旬民用暮光 18:34 就结束，天文暮光 19:06 结束，你有充裕的三个多小时。<strong>Pepsi-Cola 招牌的霓虹是整夜亮的</strong>，不受闭园时间限制，从园外的 Center Boulevard 上仍可拍到（角度差一些）",
+          "hours": "<strong>这一条要当心：纽约州立公园官网在同一个页面上给出了两个互相矛盾的闭园口径，而本条目的全部价值都在蓝调，所以这个矛盾必须写出来，不能替你二选一。</strong>parks.ny.gov 的 Gantry Plaza State Park 页面里，<strong>「Hours of Operation」栏写的是「Open daily, dawn to dusk」（日出到日落／黄昏），而同一页讲遛狗规定那一段写的却是「during regular park hours --- 8 AM to 10 PM daily」（每日 08:00–22:00）。</strong>原先本条只采信了后者。<strong>两者的差别对拍摄是决定性的：真实日期 10/16–10/18 日落 18:13 前后、民用暮光 18:38–18:41 结束。按 22:00 口径，你在蓝调结束后还有三个多小时，完全从容；按「dusk」口径，园子大约在蓝调收尾的同时就该清场，你能不能站在园内拍完整段蓝调就得看当天护园员怎么执行。</strong><strong>未能从官方渠道判定哪一个是现行口径</strong>——出发前请打园方电话 <strong>(347) 935-3039</strong> 问准当天的闭园钟点。<strong>好在这个点位有一条现成的退路，风险因此可控：Pepsi-Cola 招牌的霓虹整夜都亮、不受闭园时间限制，从园外的 Center Boulevard 人行道上照样拍得到（角度差一些、少了栈桥前景）；紧邻的 Hunters Point South Park 属 NYC Parks，按一般市属公园口径开到 01:00，真被请出 Gantry Plaza 就往南挪几十米继续拍。</strong><strong>稳妥的排法是把到场时间提早：金光 17:33–17:36 起，在 18:13 日落前就把主构图拍完，蓝调当加分而不是当计划。</strong>",
           "parking": "<strong>强烈建议不要开车。</strong>Hunters Point 是密集住宅区，Center Boulevard 与 47th Road 沿线路边车位极少且多为居民占用，停车楼按 Manhattan 价格收费。<strong>公共交通是压倒性的更优解</strong>：<strong>7 号线 Vernon Blvd–Jackson Av 站</strong>（最近，出站往西走 8 分钟即到园区北入口，从 Grand Central 或 Times Square 乘 7 号线只需 10–15 分钟）；<strong>E／M 线 Court Sq–23 St 站</strong>；<strong>G 线 21 St 或 Court Sq 站</strong>（步行略远）；<strong>NYC Ferry East River 线 Hunters Point South 站</strong>直接停在南园里，而且从 DUMBO／Fulton Ferry 有直达船——如果你同一天要拍 Brooklyn Bridge Park，坐船是最省事的接法",
           "walk": "Vernon Blvd–Jackson Av 站到 Pepsi 招牌约 <strong>650 米／8 分钟</strong>，全程平路；招牌到龙门架约 150 米／2 分钟；招牌到 Hunters Point South Park 南端约 700 米／9 分钟"
         },
@@ -3986,8 +3986,8 @@ var REGIONS = [
         ],
         "access": {
           "book": "不需预约。<strong>Jane’s Carousel 也不需预约</strong>，现场买票即可",
-          "ticket": "公园<strong>免费</strong>。Jane’s Carousel 单次 <strong>$4</strong>；一名 42 英寸以下儿童可与一名成人共用一张票，额外的 42 英寸以下儿童每人 $4；接受 SNAP／EBT 折扣。木马是 501(c)(3) 非营利机构运营",
-          "hours": "<strong>Brooklyn Bridge Park 每日 06:00–01:00</strong>（官方口径 365 天开放）。分区例外：Pier 2 为 08:00–23:00（季节性）、Pier 5 为 06:00–23:00、Pier 6 排球场 06:00–23:00、<strong>各儿童游乐场为日出至日落</strong>、洗手间 3–10 月 07:00–23:00、11–3 月 07:00–22:00。<strong>Jane’s Carousel 秋季时刻表（2026 年 9 月 14 日至 12 月 31 日）：周一、周二闭馆，周三至周日 11:00–17:50</strong>——这个 17:50 早于本窗口每一天的日落，<strong>意味着蓝调时段木马一定是停着的</strong>（玻璃亭仍发光）",
+          "ticket": "公园<strong>免费</strong>。Jane’s Carousel 单次 <strong>$4</strong>；一名 42 英寸以下儿童可与一名成人共用一张票，额外的 42 英寸以下儿童每人 $4；接受 SNAP／EBT 折扣。<strong>另有 12 张联票 $20</strong>（官方原文「12 Tickets – $20.00」，折合每张约 $1.67，两个人各转三圈就已经比单买划算——原先本条漏了这一档）。学校团体另有预约团价。以上票价 2026 年 9 月 6 日在 janescarousel.org 的 Hours &amp; Tickets 页复核无变化。木马是 501(c)(3) 非营利机构运营",
+          "hours": "<strong>Brooklyn Bridge Park 每日 06:00–01:00</strong>（官方口径 365 天开放）。分区例外：Pier 2 为 08:00–23:00（季节性）、Pier 5 为 06:00–23:00、Pier 6 排球场 06:00–23:00、<strong>各儿童游乐场为日出至日落</strong>、洗手间 3–10 月 07:00–23:00、11–3 月 07:00–22:00。（以上主时段与三处码头例外已于 2026 年 9 月 6 日在 brooklynbridgepark.org 官方页面复核，原文为「We Are Open 7 Days a Week | 6AM - 1AM」、「Pier 2 - 8AM–11PM」、「Pier 5 - 6AM–11PM」、「Pier 6 Volleyball Courts - 6AM–11PM」，与本条一致。洗手间的分季钟点未能在现行官方页面找到出处，保留原记录但请勿据此规划。）<strong>对真实日期的结论：10/16–10/18 日落 18:11–18:14、民用暮光 18:38–18:41 结束，离 01:00 闭园还有六个多小时，公园本身的开放时间完全不构成约束</strong>——这一区真正卡时间的是下面的木马，不是公园。<strong>Jane’s Carousel 秋季时刻表已逐字核实（2026 年 9 月 6 日取自 janescarousel.org 官方页面数据）：「Fall Hours — September 14, 2026 to December 31, 2026 / Closed Monday and Tuesday / 11:00 AM–5:50 PM」，即周一、周二闭馆，周三至周日 11:00–17:50</strong>——这个 17:50 早于本窗口每一天的日落（最早的 10/25 也是 18:01），<strong>意味着蓝调时段木马一定是停着的</strong>（玻璃亭仍发光）。<strong>落到真实日期：10/16 周五、10/17 周六、10/18 周日三天木马都开，但都是 11:00–17:50，当天日落 18:11–18:14——木马比太阳早收工二十多分钟，「亮着灯还在转的木马 + 蓝调天空」这一帧三天都拿不到。</strong>想拍转动的木马请安排在 17:00–17:50 这段，天还亮着，要蓝调就只能拍熄了灯／停转的木马与仍然发光的 Jean Nouvel 玻璃亭。<strong>一处官方自相矛盾要照实说明：同一个官网首页与 Hours 页顶部挂着一句「The Carousel is closed on Thursdays」，与上面那张「周一、周二闭馆」的季节表对不上（9 月 6 日当天两句话同时挂在站上，夏季表写的又是「closed Tuesdays」）。本条不替你二选一——如果你的计划正好落在周三、周四或周一、周二，出发前请打 (718) 222-2502 或写信 info@janescarousel.org 问准当天开不开。真实日期 10/16–10/18 是周五至周日，两种口径下都在营业日内，这个矛盾不影响本次行程。</strong>",
           "parking": "<strong>DUMBO 与 Brooklyn Heights 一带的停车不值得尝试</strong>：路边表位少、限时 2 小时、周末几乎无空位，园内本身<strong>不提供任何访客停车</strong>（官方明确「不为制作车辆或房车提供停车」）。地铁：<strong>F 线 York Street 站</strong>（离 Pebble Beach 与木马最近）、<strong>A／C 线 High Street–Brooklyn Bridge 站</strong>、南端 Pier 6 走 <strong>2／3／4／5／R 线 Borough Hall／Court St 站</strong>。渡轮：<strong>NYC Ferry 停 DUMBO／Fulton Ferry 与 Pier 6／Atlantic Avenue 两处</strong>，其中 DUMBO／Fulton Ferry 站有到 Long Island City（Hunters Point South）的直达航线",
           "walk": "York Street 站到 Pebble Beach 约 <strong>600 米／8 分钟</strong>；Pebble Beach 到 Jane’s Carousel 约 200 米／3 分钟；木马到 Pier 1 Granite Prospect 约 700 米／9 分钟；Granite Prospect 到 Pier 3 端头约 700 米／9 分钟。<strong>全岸线从 Main Street 走到 Pier 6 约 2 公里／25–30 分钟</strong>，全程平坦无障碍"
         },
@@ -4199,7 +4199,7 @@ var REGIONS = [
         "name": "Prospect Park 与 Long Meadow",
         "en": "Prospect Park · Long Meadow · Boathouse on the Lullwater · Grand Army Plaza",
         "score": 4,
-        "tldr": "免费、05:00–01:00、三脚架明文合法——本区秋色三点里唯一能拍日落与蓝调的；但 10 月 20 日前还是绿的。",
+        "tldr": "免费、开到 01:00、三脚架明文合法——本区秋色三点里唯一能拍日落与蓝调的；但 10 月 20 日前还是绿的。",
         "tags": [
           {
             "t": "完全免费",
@@ -4263,7 +4263,7 @@ var REGIONS = [
         "access": {
           "book": "不需预约",
           "ticket": "<strong>免费</strong>（Boathouse 内的 Audubon Center 与旋转木马另有各自的开放时间与票价）",
-          "hours": "<strong>每日 05:00–01:00</strong>，全年开放（NYC 311 官方口径）。<strong>这是本区秋色三点里唯一覆盖日出、日落与蓝调的开放时间</strong>——Brooklyn Botanic Garden 18:00 关、Green-Wood 入夜前锁门，只有这里不受限制。<strong>2018 年 1 月 2 日起全园永久禁止机动车通行</strong>",
+          "hours": "<strong>开园时刻有两个官方口径打架，本条不替你二选一：NYC 311 的市属公园口径是每日 05:00–01:00，而受托管理本园的 Prospect Park Alliance 在自家 General Information 页写的是「Prospect Park is open daily from 6 am–1 am」（2026 年 9 月 6 日复核）。差的是早上那一小时，闭园时间两边都是 01:00。</strong><strong>好消息是这个分歧对本行程完全没有影响：真实日期 10/16–10/18 的日出是 07:08–07:10，备用窗口最早的 9/25 也要 06:46，无论 05:00 还是 06:00 开园，你都能在日出前一个多小时进园占位。</strong>只有打算拍天文暮光或星空的人才需要在意，那就按较晚的 06:00 planning，或打 311（市外 212-639-9675）问当天口径。<strong>Alliance 同页另列两条分区例外：儿童游乐场 21:00 关、Parade Ground 22:00 关</strong>，都不影响本条目的机位。<strong>这是本区秋色三点里唯一覆盖日出、日落与蓝调的开放时间</strong>——Brooklyn Botanic Garden 18:00 关、Green-Wood 入夜前锁门，只有这里不受限制；<strong>真实日期三天的日落 18:11–18:14、民用暮光结束 18:38–18:41，离 01:00 闭园还差得远，所以 Green-Wood 那边闭园钟点没查到的风险，可以用这里来兜底。</strong><strong>2018 年 1 月 2 日起全园永久禁止机动车通行</strong>",
           "parking": "园内不设访客停车场（且全园禁车）。周边路边停车在 Park Slope 与 Prospect Heights 一侧竞争激烈，逐块读牌。<strong>地铁覆盖是本区最好的，四个方向各有站</strong>：<strong>2／3 线 Grand Army Plaza 站</strong>（正对拱门与北门，出站即到）；<strong>B／Q／S 线 Prospect Park 站</strong>（东南角，靠近 Lullwater 与 Boathouse，<strong>周末无 B 线</strong>）；<strong>F／G 线 15 St–Prospect Park 站与 Fort Hamilton Parkway 站</strong>（西南侧）；<strong>B／Q 线 Parkside Avenue 站</strong>（南侧，靠 Prospect Park Lake）",
           "walk": "Grand Army Plaza 站到拱门 <strong>0 分钟，出站即到</strong>；拱门到 Endale Arch 约 350 米／5 分钟；Endale Arch 到 Long Meadow 中段约 700 米／9 分钟；Long Meadow 中段到 Boathouse 约 1.1 公里／15 分钟（有起伏）。<strong>拱门 → Long Meadow → Boathouse → Prospect Park 站全线约 3.5 公里／50–60 分钟</strong>，主路铺装、坡度平缓"
         },
@@ -4356,7 +4356,7 @@ var REGIONS = [
         "access": {
           "book": "<strong>建议线上预购但非强制</strong>。官方口径：advance tickets are recommended，门票提前 <strong>30 天</strong>开售；现场各入口售票亭也有当日票，但取决于余量。<strong>所有访客（含会员与儿童）都必须持票进场</strong>，会员凭会员证与免费票入场。票不可退，但可提前换日期",
           "ticket": "成人现场 <strong>$22</strong>／线上 $23.67（含 $1.67 手续费）；65 岁以上与 12 岁以上持证学生现场 <strong>$16</strong>／线上 $17.47；<strong>12 岁以下免费</strong>（14 岁以下须 18 岁以上成人陪同）。另有 <strong>Museum &amp; Garden 联票</strong>（含隔壁 Brooklyn Museum 当日入场）：成人现场 $34／线上 $36.06，65+ 与 20 岁以上学生 $24，12–19 岁学生 $16——注意 <strong>Brooklyn Museum 周二闭馆</strong>，联票须同日使用。每日另有一定数量免费的 Community tickets",
-          "hours": "<strong>9 月：周二至周四 10:00–19:00；周五至周日 10:00–18:00；周一闭馆。</strong><strong>10 月：周二至周日 10:00–18:00；周一闭馆，但 10 月 12 日（Indigenous Peoples’ Day）例外开放 10:00–18:00。</strong><strong>末次入园为闭园前 30 分钟；专类园（含 Japanese Hill-and-Pond Garden 与温室）在闭园前 30 分钟开始清园。</strong><strong>10 月 24 日（周六）为 Fall Harvest Festival，需专门票，当天不售普通门票。</strong>会员另有 Fall Mornings 提前入园：周六日 09:00–10:00（9 月 12 日起）",
+          "hours": "<strong>9 月：周二至周四 10:00–19:00；周五至周日 10:00–18:00；周一闭馆。</strong><strong>10 月：周二至周日 10:00–18:00；周一闭馆，但 10 月 12 日（Indigenous Peoples’ Day）例外开放 10:00–18:00。</strong><strong>末次入园为闭园前 30 分钟；专类园（含 Japanese Hill-and-Pond Garden 与温室）在闭园前 30 分钟开始清园。</strong><strong>10 月 24 日（周六）为 Fall Harvest Festival，需专门票，当天不售普通门票。</strong>会员另有 Fall Mornings 提前入园：周六日 09:00–10:00（9 月 12 日起）。<strong>以上全部于 2026 年 9 月 6 日在 bbg.org/visit/hours 逐行复核，与官网现行口径一致。</strong><strong>落到真实日期：10/16 周五、10/17 周六、10/18 周日三天都开，都是 10:00–18:00，不碰周一闭馆、也不碰 10/24 的 Fall Harvest Festival。但要按 18:00 关门倒推着安排：末次入园 17:30，而且 Japanese Hill-and-Pond Garden 这类专类园同样从 17:30 开始清园——也就是说主角景点你最晚 17:25 就得站在里面。当天日落是 18:11–18:14，全都在闭园之后，所以这里从一开始就不是日落机位，请把它当白天场，日落交给 Prospect Park。</strong><strong>另一件要认的事：本区秋色预报峰值在 10 月 21 日前后，10/16–10/18 来大概率还偏绿，见本区第一条提醒。</strong>",
           "parking": "<strong>900 Washington Avenue 有人看管停车场，07:00–22:00</strong>（无过夜停车）。费率：1 小时 $10、2 小时 $12、3 小时 $14、4 小时 $16、5 小时 $18、<strong>至闭园 $24</strong>、24 小时 $35、丢票每日 $35；繁忙日适用活动费率。<strong>公共交通更省事</strong>：<strong>2／3 线 Eastern Parkway–Brooklyn Museum 站</strong>（对应 990 Washington Avenue 入口，无障碍）；<strong>B／Q／S 线 Prospect Park 站</strong>（对应 455 Flatbush Avenue 入口，<strong>注意周末无 B 线</strong>）；S（Franklin Avenue Shuttle）到 Franklin Avenue 站（无电梯）。巴士 B16、B41、B43、B45、B48 均可达",
           "walk": "<strong>重要：150 Eastern Parkway 入口临时关闭</strong>，只能从 <strong>455 Flatbush Avenue</strong> 或 <strong>990 Washington Avenue</strong> 进。Eastern Parkway–Brooklyn Museum 站到 990 Washington Avenue 入口约 500 米／6 分钟；Prospect Park 站到 455 Flatbush Avenue 入口约 250 米／3 分钟。入园后到 Japanese Hill-and-Pond Garden 约 300–500 米／5–7 分钟，园内主路铺装、可轮椅通行，但部分历史小径较窄、不平或有坡"
         },
@@ -4389,7 +4389,7 @@ var REGIONS = [
         "name": "Green-Wood Cemetery 绿荫公墓",
         "en": "The Green-Wood Cemetery · Gothic Gates · Battle Hill",
         "score": 4.5,
-        "tldr": "免费、478 英亩、8,000 棵老树，个人拍照官方明说「欢迎并鼓励」；但 10 月起的闭园钟点未公布，可能拍不到日落。",
+        "tldr": "免费、478 英亩、8,000 棵老树，个人拍照官方明说「欢迎并鼓励」；<strong>但 10 月起的闭园钟点到 9/6 仍未公布</strong>，真实日期很可能在日落前就被清场——出发前先打电话问。",
         "tags": [
           {
             "t": "完全免费",
@@ -4457,7 +4457,7 @@ var REGIONS = [
         "access": {
           "book": "不需预约",
           "ticket": "<strong>免费</strong>。官方原文：「We’re open 365 days a year, at no charge.」<strong>园内停车也完全免费</strong>",
-          "hours": "<strong>官网现行公布的是 2026 年 4 月 1 日至 9 月 30 日的时刻表：</strong>主门（Fifth Avenue &amp; 25th Street）<strong>每天 07:00–19:00</strong>，车辆与行人皆可；Sunset Park 门（Fourth Avenue &amp; 35th Street）行人 08:00–19:00、车辆 08:00–16:00；Fort Hamilton Parkway 门与 Prospect Park West 门行人周一至周五 11:00–19:00、周六日 08:00–19:00，车辆仅周六日 08:00–16:00。<strong>10 月 1 日起的 2026 年秋冬时刻表官网尚未公布——未能从官方渠道确认。</strong>近年惯例是十月初至十一月初改为 <strong>08:00–18:00</strong>、之后 08:00–17:00。<strong>这件事直接决定你能不能拍到日落</strong>：9/25–9/30 期间 19:00 关园、当日日落 18:48–18:40，<strong>是本窗口内唯一能在园内拍到完整昏金光的时段</strong>；若十月照 18:00 执行，10/17（日落 18:13）与 10/22（日落 18:06）都在闭园之后，<strong>十月来就拍不到日落</strong>。园方特别提醒<strong>请在闭园时间前至少 10 分钟离场，闸门准点上锁</strong>（被锁在里面请打安保 347-865-4816）。园内的 Green-House 游客中心 4/18–9/30 周四至周一 10:00–19:00、周二周三闭，联邦假日闭馆（含 Labor Day 与 10 月 12 日 Indigenous Peoples’ Day）",
+          "hours": "<strong>官网现行公布的是 2026 年 4 月 1 日至 9 月 30 日的时刻表：</strong>主门（Fifth Avenue &amp; 25th Street）<strong>每天 07:00–19:00</strong>，车辆与行人皆可；Sunset Park 门（Fourth Avenue &amp; 35th Street）行人 08:00–19:00、车辆 08:00–16:00；Fort Hamilton Parkway 门与 Prospect Park West 门行人周一至周五 11:00–19:00、周六日 08:00–19:00，车辆仅周六日 08:00–16:00。<strong>10 月 1 日起的 2026 年秋冬时刻表，2026 年 9 月 6 日再查一轮，官网仍然只挂着上面这份 4/1–9/30 的表，10 月之后依旧没有公布——未能从官方渠道确认。</strong>（green-wood.com/hours 页四个门全部标注「April 1, 2026 through September 30, 2026」；Plan A Visit 页的措辞是「currently open every day from 7am to 7pm」，一个「currently」说明他们自己也把这当成会变的临时状态。）近年惯例是十月初至十一月初改为 <strong>08:00–18:00</strong>、之后 08:00–17:00。<strong>这件事直接决定你能不能拍到日落，而且对真实日期来说是本条目最大的一个未知数：</strong>9/25–9/30 期间 19:00 关园、当日日落 18:48–18:40，<strong>是本窗口内唯一能在园内拍到完整昏金光的时段</strong>；<strong>而真实日期 10/16–10/18 的日落是 18:14／18:12／18:11，正好卡在两种可能的闭园钟点中间——按旧表的 19:00 关，你能从容拍完日落甚至一小段蓝调；一旦改成惯例的 18:00 关（加上要求提前 10 分钟离场，实际 17:50 就得往外走），你会在日落前二十多分钟被请出去，昏金光只剩一个尾巴，蓝调完全没有。备用窗口的 10/22（日落 18:05）同理。</strong><strong>请务必在出发前几天打 (718) 768-7300 或写 contactus@green-wood.com 问准十月的闭园钟点，这一个电话决定你要不要为日落专门跑这一趟</strong>；若问不到，稳妥办法是<strong>把 Green-Wood 排成下午场（14:00–17:30 的斜光）、把日落与蓝调交给同区不受闭园限制的 Prospect Park（05:00–01:00）</strong>。园方特别提醒<strong>请在闭园时间前至少 10 分钟离场，闸门准点上锁</strong>（被锁在里面请打安保 347-865-4816）。园内的 Green-House 游客中心 4/18–9/30 周四至周一 10:00–19:00、周二周三闭，联邦假日闭馆（含 Labor Day 与 10 月 12 日 Indigenous Peoples’ Day）",
           "parking": "<strong>这是本区唯一一个开车明显优于地铁的点位</strong>，理由是园区面积：478 英亩、地形起伏，从主门到 Battle Hill 543 米且要爬坡，到 Sylvan Water 约 900 米。<strong>园方明确欢迎自驾并允许在园内任意处免费停车</strong>（要求靠道路右侧停、不上草地、留出通行空间）。地铁其实也极方便：<strong>R 线 25th Street 站就在主门正对面</strong>，这是全区最省事的地铁接驳；<strong>D／N／R 线 36th Street 站</strong>与 <strong>F／G 线 Fort Hamilton Parkway 站</strong>可从其他门进。<strong>建议：只拍大门就坐 R 线；要拍 Battle Hill 与水景就开车</strong>",
           "walk": "25th Street 站到主门 <strong>0–1 分钟，出站即到</strong>；主门到 Historic Chapel 约 250 米／4 分钟；<strong>主门到 Battle Hill 与 Minerva 约 543 米（方位 111.9°），步行 10–15 分钟且持续上坡至海拔 66 米</strong>；主门到 Sylvan Water 约 900 米／13 分钟。各入口均有免费地图，官网也有 PDF 版。<strong>园内禁止自行车、滑板车与轮滑</strong>（入口有停车架）"
         },
@@ -4491,7 +4491,7 @@ var REGIONS = [
         "name": "Coney Island · 木栈道与 Wonder Wheel",
         "en": "Coney Island · Riegelmann Boardwalk · Deno’s Wonder Wheel · Cyclone · Parachute Jump",
         "score": 4,
-        "tldr": "2026 赛季 10/25 收摊、只开周末与犹太节日；<strong>最优日期是 9/26 周六</strong>，其余日子摩天轮是黑的。",
+        "tldr": "<strong>Deno’s 秋季全部营业日都 18:00 关，早于本窗口每一天的日落——亮灯转动的 Wonder Wheel 在 9/25–10/25 内一天都拍不到</strong>；能拍的是 Luna Park，真实日期里 <strong>10/16（周五）开到 22:00</strong> 是唯一的完整夜场。",
         "tags": [
           {
             "t": "入园免费",
@@ -4502,16 +4502,22 @@ var REGIONS = [
             "c": "risk"
           },
           {
+            "t": "Deno’s 18:00 关·早于日落",
+            "c": "risk"
+          },
+          {
             "t": "10/25 赛季结束",
             "c": "risk"
           },
           {
-            "t": "十月闭园钟点未定",
+            "t": "摩天轮拍不到亮灯转动",
             "c": "risk"
           }
         ],
         "highlights": [
-          "<strong>能不能拍到「亮着灯还在转的摩天轮」，完全取决于你哪天来，这是本条目的全部要点。</strong>而且有一个几乎所有攻略都写错的前提：<strong>Wonder Wheel 和 Cyclone 属于两家不同公司、日历不同。</strong>Wonder Wheel、Phoenix、Spook-A-Rama 在 <strong>Deno’s Wonder Wheel Amusement Park</strong>；Cyclone、Thunderbolt、Tony’s Express 在 <strong>Luna Park</strong>。Deno’s 官网已公布逐日 2026 日历，<strong>9/25–10/25 窗口内的营业日只有：9/26–10/1（连续六天，Sukkot）、10/3、10/4、10/10、10/11、10/12、10/17、10/18、10/24、10/25</strong>，其余全部闭园（含 9/25 与 10/2 两个周五，官网明确写 Closed）。<strong>10/25 是 2026 赛季最后一天。</strong>详细日期与钟点见本区前置提醒",
+          "<strong>先把最扫兴的结论说完：「亮着灯还在转的 Wonder Wheel」在 9/25–10/25 这整个窗口里一天都不存在。</strong>原因不是日期挑得不对，是<strong>钟点根本对不上</strong>：Deno’s 官方日历里<strong>秋季每一个营业日都是 18:00 收摊</strong>，而本窗口内最早的日落是 10/25 的 18:01、最晚是 9/25 的 18:47——<strong>也就是说无论你哪天来，摩天轮都在太阳还没落下去的时候就已经停机清场了。</strong>要赶上「Deno’s 还在转 + 天已经黑」，得回到 9 月 8 日之前的夏季档（那时开到 22:00），整个秋季窗口都没有这个机会",
+          "<strong>但这里没有因此废掉，因为亮灯的园子是另一家。</strong>有一个几乎所有攻略都写错的前提：<strong>Wonder Wheel 和 Cyclone 属于两家不同公司、日历与钟点都不同。</strong>Wonder Wheel、Phoenix、Spook-A-Rama 在 <strong>Deno’s Wonder Wheel Amusement Park</strong>（18:00 关）；Cyclone、Thunderbolt、Tony’s Express 在 <strong>Luna Park</strong>，<strong>而 Luna Park 的 Halloween Harvest 十月周五开到 22:00、周末开到 20:00，都在日落之后</strong>。所以<strong>「蓝调 + 亮灯 + 运转中的机械」这一帧在真实日期里是拿得到的，只是主角得换成 Cyclone 与 Thunderbolt</strong>，而 Wonder Wheel 只能当一座停着的（是否仍亮灯未能确认）背景塔",
+          "Deno’s 官网已公布逐日 2026 日历，<strong>9/25–10/25 窗口内的营业日只有：9/26–10/1（连续六天，Sukkot）、10/3、10/4、10/10、10/11、10/12、10/17、10/18、10/24、10/25</strong>，其余全部闭园（含 9/25 与 10/2 两个周五，官网明确写 Closed）。<strong>10/25 是 2026 赛季最后一天，11 月整月无营业日。</strong><strong>落到真实日期上：10/16（周五）Deno’s 闭园、10/17 与 10/18 开，但都是 12:00–18:00。</strong>详细日期与钟点见本区前置提醒",
           "<strong>Wonder Wheel 本身是一台 1920 年的机械异类，值得为它单独安排一次。</strong>发明人 <strong>Charles Hermann</strong>，由 Eccentric Ferris Wheel Amusement Company 于 1918–1920 年建造，<strong>1920 年 5 月 30 日 Memorial Day 开转，钢材是 Bethlehem 钢、在 Coney Island 的沙滩上现场锻造的</strong>。高 <strong>150 英尺（46 米，相当于十五层楼）、重约 200 吨</strong>，<strong>24 个吊舱里有 16 个是「摆动式」——它们沿蛇形轨道向轮心滑进、随轮转再甩向轮缘</strong>，另外 8 个固定在轮缘上给你普通摩天轮的体验。<strong>转一圈要整整 10 分钟</strong>（这个数字对长曝光很关键，见机位说明）。发明人最初管它叫「Dip-the-Dip」，宣传语是同时给你缆车、摩天轮和滑水道三种刺激。1983 年 6 月 7 日 Denos Vourderis 从 Fred Garms 手里买下它，<strong>1989 年被定为纽约市地标，至今保持零事故记录</strong>",
           "<strong>Cyclone 是 1927 年的木制过山车，2026 年是它的 99 岁</strong>（1927 年 6 月 26 日首航）。首降 85 英尺、坡度约 58 度，全程 2,640 英尺，<strong>1988 年被定为纽约市地标、1991 年列入国家史迹名录</strong>。它归 Luna Park 管，所以<strong>日历要单独查</strong>",
           "<strong>Parachute Jump 是这片天际线的锚，而且它已经 58 年不动了。</strong>发明人是海军中校 <strong>James H. Strong</strong>，由 Elwyn E. Seelye &amp; Company 结构设计，<strong>1939–40 年纽约世界博览会上立在 Flushing Meadow，170 吨、262 英尺高</strong>，当年在博览会上只比 Trylon 矮。世博结束后 1940–41 年迁到 Coney Island 的 Steeplechase Park，<strong>1968 年停止运营，1989 年被定为纽约市地标</strong>。它现在不载人，但<strong>装了 LED 照明、入夜后整塔变色</strong>——<strong>而且它完全不受游乐场日历约束，任何一天的夜里都亮</strong>，这是「园子没开」时的保底机位",
@@ -4525,7 +4531,7 @@ var REGIONS = [
               40.574041,
               -73.979145
             ],
-            "desc": "<strong>只在 Deno’s 营业日成立，且必须是蓝调：9/26 为 18:47 日落 → 19:14 暮光结束，10/17 为 18:13 → 18:41，10/24 为 18:03 → 18:31。</strong><strong>快门要按转速算，这是这里最容易做错的一件事。</strong>Wonder Wheel 转一圈 <strong>10 分钟</strong>，轮缘线速度约 <strong>0.24 米／秒</strong>——所以常见的「1/2 秒拍光轨」在这里<strong>完全拉不出轨迹</strong>（只移动 12 厘米）。实用区间：<strong>4–15 秒</strong>出一段清晰的弧形光带；<strong>20–30 秒</strong>让吊舱灯扫出接近连续的圆环。f/8–f/11、ISO 100–200、三脚架加快门线。想凝固轮体与霓虹细节则 1/15–1/60 秒、f/2.8、ISO 1600 手持。焦段：<strong>14–24mm</strong> 贴到轮体基座下方仰拍让辐条呈放射状充满画面；<strong>35–50mm</strong> 退到 30 米外把摩天轮与旁边的 Phoenix 过山车并置。<strong>Phoenix 与 Thunderbolt 速度快得多，1/2–2 秒就有强烈拖影。</strong>"
+            "desc": "<strong>坏消息先说：这个机位在本行程窗口（9/25–10/25）内拍不成，请不要按它排时间。</strong>Deno’s 秋季每天 18:00 关园，而窗口内日落是 18:01（10/25）到 18:47（9/25）——<strong>蓝调开始时摩天轮已经停了、人也被请出去了。真实日期 10/17（日落 18:12）与 10/18（日落 18:11）同样如此，10/16 周五 Deno’s 根本不开园。</strong><strong>关园后摩天轮的 LED 是否仍然亮着、能不能从园外当静态光源拍，未能从官方渠道确认——想赌这一手请先打 (718) 372-2592 问清楚。</strong><strong>营业日里唯一还成立的版本是「白天／昏金光下转动的摩天轮」：10/17 与 10/18 的昏金光 17:35 起、18:00 被清场，只有 25 分钟</strong>，天还是亮的，拿到的是暖光打在轮辐上的立体感，不是光轨。要真正的蓝调光轨，请改用 Luna Park 的 Cyclone 与 Thunderbolt（见下方机位）。<strong>以下慢门参数留给夏季档（9 月 8 日前开到 22:00）或未来的行程，因为快门要按转速算，这是这里最容易做错的一件事。</strong>Wonder Wheel 转一圈 <strong>10 分钟</strong>，轮缘线速度约 <strong>0.24 米／秒</strong>——所以常见的「1/2 秒拍光轨」在这里<strong>完全拉不出轨迹</strong>（只移动 12 厘米）。实用区间：<strong>4–15 秒</strong>出一段清晰的弧形光带；<strong>20–30 秒</strong>让吊舱灯扫出接近连续的圆环。f/8–f/11、ISO 100–200、三脚架加快门线。想凝固轮体与霓虹细节则 1/15–1/60 秒、f/2.8、ISO 1600 手持。焦段：<strong>14–24mm</strong> 贴到轮体基座下方仰拍让辐条呈放射状充满画面；<strong>35–50mm</strong> 退到 30 米外把摩天轮与旁边的 Phoenix 过山车并置。<strong>Phoenix 与 Thunderbolt 速度快得多，1/2–2 秒就有强烈拖影。</strong>"
           },
           {
             "name": "Riegelmann Boardwalk 西段（Parachute Jump 剪影与沿轴落日）",
@@ -4541,7 +4547,7 @@ var REGIONS = [
               40.574499,
               -73.977716
             ],
-            "desc": "<strong>需要 Luna Park 的营业日（与 Deno’s 不同，请单独核对官网日历）。</strong><strong>昏金光 17:30–18:10（10 月下旬）拍白色木架结构</strong>——低角度暖光会把 1927 年的木桁架照出立体的交叉阴影，这是它最好看的时候；<strong>蓝调 18:03–18:31 拍亮灯版本</strong>。<strong>70–200mm</strong> 从 Surf Avenue 一侧沿轨道方向拍，<strong>1/500 秒以上凝固车厢</strong>（首降 85 英尺、坡度 58 度，速度很快），或 <strong>1/15–1/8 秒追随</strong>拍出车厢与灯带的拖影。<strong>16–35mm</strong> 贴到木架下方仰拍支撑柱阵列的重复韵律——这是它区别于任何钢架过山车的地方。往西 380 米是 Luna Park 的 Thunderbolt（约 40.574182, -73.982293）。"
+            "desc": "<strong>这是真实日期里唯一能拿到「亮灯 + 运转 + 蓝调」的机位，因为 Luna Park 的钟点跟 Deno’s 完全不同。</strong><strong>10/16（周五）16:00–22:00 是三天里最好的一场：日落 18:14、暮光结束 18:41，之后还有三个多小时的纯夜景营业时间，完全不必赶。10/17 与 10/18 是 11:00–20:00，蓝调结束后仍有约 80 分钟余量。</strong><strong>昏金光 17:35–18:14（真实日期）／17:27–18:05（10/22 备用）拍白色木架结构</strong>——低角度暖光会把 1927 年的木桁架照出立体的交叉阴影，这是它最好看的时候；<strong>蓝调 18:14–18:41（10/16）／18:12–18:40（10/17）／18:11–18:38（10/18）拍亮灯版本</strong>。<strong>70–200mm</strong> 从 Surf Avenue 一侧沿轨道方向拍，<strong>1/500 秒以上凝固车厢</strong>（首降 85 英尺、坡度 58 度，速度很快），或 <strong>1/15–1/8 秒追随</strong>拍出车厢与灯带的拖影。<strong>16–35mm</strong> 贴到木架下方仰拍支撑柱阵列的重复韵律——这是它区别于任何钢架过山车的地方。往西 380 米是 Luna Park 的 Thunderbolt（约 40.574182, -73.982293）。"
           },
           {
             "name": "Steeplechase Pier（回望整片天际线）",
@@ -4555,13 +4561,14 @@ var REGIONS = [
         "access": {
           "book": "不需预约",
           "ticket": "<strong>两家游乐场都是免票入园（Admission is FREE at all times）</strong>，设施按次单独计费。Deno’s：<strong>Wonder Wheel 单次 $10</strong>、Phoenix $10、Thunderbolt（音乐旋转）$10、Spook-A-Rama $8、碰碰车 $8、Stop the Zombies $8、多数儿童设施 $5；也可买点数包（$50/60 点、$90/125 点、$125/175 点），现金与信用卡皆可。Luna Park 另售当日无限次 Wristband，<strong>整季通票的有效期写到 2026 年 11 月 1 日</strong>，Halloween Harvest 的活动权益需搭配 Wristband",
-          "hours": "<strong>木栈道、沙滩与 Parachute Jump 的夜间照明不受游乐场日历限制。</strong><strong>Deno’s Wonder Wheel Park 2026 年营业日（官网逐日日历，本窗口内）：9/26–10/1 连续六天、10/3、10/4、10/10、10/11、10/12、10/17、10/18、10/24、10/25</strong>；其余日期闭园（<strong>含 9/25 与 10/2 两个周五</strong>）。开门：儿童区 11:00、Wonder Wheel 等成人机械 12:00。<strong>闭园钟点随天气浮动，2026 年 10 月的具体时间官网未公布——未能从官方渠道确认</strong>；2025 年 10 月的官方口径是 18:00 关，<strong>若照此执行则十月中下旬拍不到蓝调亮灯轮</strong>。当天打 (718) 372-2592 确认。<strong>Luna Park</strong> 的 Halloween Harvest 期间为 9/18–11/1，9 月口径为周五 16:00–22:00、周六 11:00–22:00、周日 11:00–20:00、节假周中 12:00–20:00；<strong>10 月 2 日以后的逐日钟点官网日历尚未展开——未能确认</strong>",
+          "hours": "<strong>木栈道、沙滩与 Parachute Jump 的夜间照明不受游乐场日历限制。</strong><strong>Deno’s Wonder Wheel Park 2026 年营业日（官网逐日日历，本窗口内）：9/26–10/1 连续六天、10/3、10/4、10/10、10/11、10/12、10/17、10/18、10/24、10/25</strong>；其余日期闭园（<strong>含 9/25 与 10/2 两个周五</strong>），10/25 后至 2027 年无营业日。开门：儿童区 11:00、Wonder Wheel 等成人机械 12:00。<strong>关园钟点已经查到了，是 18:00，原先本条写的「官网未公布」可以撤销：denoswonderwheel.com 的 Hours 页日历里，9 月 8 日夏季档结束之后的每一个营业日都记为 18:00 结束</strong>（9/9、9/21、9/29、9/30、10/1、10/12 这些单日条目全是 11:00–18:00，各个周末条目也一律以周日 18:00 收尾；作为对照，6/4–9/8 的夏季档结束时间是 22:00）。<strong>需要照实说明的两点保留：一是这个 18:00 只出现在日历的结束时刻里，页面正文只宣传开门时间、没有用文字写出闭园钟点；二是官方原话「Hours are subject to change based on weather and operating conditions」，关园钟点仍随天气浮动。当天务必打 (718) 372-2592 核实。</strong><strong>直接后果：10/17 日落 18:12、10/18 日落 18:11，Deno’s 都在日落前就关了——摩天轮的蓝调亮灯照拍不到，这不是运气问题，是全季如此。</strong><strong>Luna Park</strong> 的 Halloween Harvest 期间为 9/18–11/1，<strong>官网 lunaparknyc.com/plan/park-hours 的活动日历现已展开到 11 月 1 日，10 月逐日钟点为：周五 16:00–22:00、周六与周日 11:00–20:00、10/12（Indigenous Peoples’ Day）11:00–20:00、周二至周四闭园；10/31（万圣节当天）延长到 11:00–22:00，11/1（周日）11:00–20:00 是本季最后一天（官网标注 Last day of Fall Season）</strong>。<strong>注意十月的周六不再像九月那样开到 22:00，而是 20:00——只有周五和万圣节是 22:00 场，这一点原先记错了。</strong><strong>落到真实日期：10/16 周五 16:00–22:00、10/17 周六 11:00–20:00、10/18 周日 11:00–20:00，三天全部覆盖日落（18:11–18:14）与民用暮光结束（18:38–18:41）</strong>",
           "parking": "<strong>这是本区第二个开车不吃亏的点位</strong>：Surf Avenue 沿线与 MCU Park（Brooklyn Cyclones 球场）一带有多个大型商业停车场，<strong>秋季淡季（尤其非营业日）车位充裕</strong>，这与 DUMBO、Brooklyn Heights 的情况完全相反。但地铁同样极方便：<strong>D／F／N／Q 四条线的终点站 Coney Island–Stillwell Avenue</strong>就在 Surf Avenue 上，出站步行 5 分钟即到 Wonder Wheel。<strong>建议：如果要拍到蓝调之后（20:00 以后）且带三脚架，开车更省心；否则地铁完全够用</strong>——终点站始终有车、座位有保障",
           "walk": "Stillwell Avenue 站到 Wonder Wheel 约 <strong>400 米／5 分钟</strong>；Wonder Wheel 到 Cyclone 约 130 米／2 分钟；Wonder Wheel 到 Parachute Jump 约 460 米／6 分钟（沿木栈道，全程平坦）；Parachute Jump 到 Steeplechase Pier 端头约 250 米／4 分钟。<strong>四个机位串起来约 1.3 公里、走完 20 分钟</strong>，木栈道宽阔无台阶、可轮椅通行"
         },
         "notes": [
-          "<strong>只记一句话：想拍亮灯运转的 Wonder Wheel，把日期定在 9 月 26 日（周六）。</strong>两园同开、Luna Park 开到 22:00、日落 18:47、暮光结束 19:14——整个蓝调完整落在营业时间内。次选是 10/3、10/10、10/17、10/24 的周六，越早越好",
-          "<strong>如果你的日期落在非营业日，请重新设定这一站的目标</strong>：拍空栈道、拍 Parachute Jump 的 LED、拍 Cyclone 静止的木桁架、拍沙滩与桥桩。这些都不依赖游乐场。<strong>10 月 6–8 日虽然园子关着，但落日正对栈道纵轴，是那三天独有的补偿</strong>",
+          "<strong>只记一句话：来 Coney Island 拍夜景就定 10 月 16 日（周五）傍晚，目标是 Luna Park 不是 Wonder Wheel。</strong>Luna Park 那天 16:00–22:00，日落 18:14、暮光结束 18:41，<strong>整个蓝调加三个多小时夜场全在营业时间内，是三天里唯一不用赶的一场</strong>。10/17 与 10/18（周六日）Luna Park 11:00–20:00 也够用，只是收尾早两小时",
+          "<strong>原先这里写的「把日期定在 9 月 26 日周六就能拍到亮灯运转的 Wonder Wheel」是错的，已更正。</strong>那天 Luna Park 确实开到 22:00，但 <strong>Deno’s 一样是 18:00 关，而 9/26 日落 18:47</strong>——摩天轮比太阳还早下班 47 分钟。<strong>这条对整个 9/25–10/25 窗口都成立，没有哪个日期能绕开。</strong>想要亮灯转动的 Wonder Wheel，只能挑 9 月 8 日之前的夏季档",
+          "<strong>Deno’s 关园后（或在它的非营业日），请重新设定这一站的目标</strong>：拍 Luna Park 亮灯运转的 Cyclone 与 Thunderbolt、拍空栈道、拍 Parachute Jump 的 LED、拍沙滩与桥桩。<strong>除 Cyclone 外这些都不依赖任何游乐场日历。</strong><strong>10 月 6–8 日虽然两园都关着，但落日正对栈道纵轴，是那三天独有的补偿</strong>",
           "<strong>快门速度别照抄一般摩天轮的经验。</strong>Wonder Wheel 转一圈 10 分钟、轮缘线速度只有约 0.24 米／秒，<strong>1/2 秒完全拉不出光轨</strong>。要 4 秒以上才有弧线、20–30 秒才成圆环",
           "<strong>木栈道有缝隙、有海风、有涌浪震动。</strong>三脚架请踩在木板实心处、挂重物、按快门后等 2 秒再曝光；海边盐雾对镜头与卡口不友好，收工后擦拭",
           "<strong>入夜后的治安需要基本常识。</strong>Surf Avenue 与木栈道核心段（West 10th 到 West 16th）在营业日人流充足；<strong>非营业日的夜晚这一带会相当空</strong>，独行者不建议在 20:00 后往东西两侧的僻静段走，也不要把器材放在无人看管的长椅上",
