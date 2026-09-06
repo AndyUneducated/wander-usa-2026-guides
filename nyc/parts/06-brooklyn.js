@@ -939,7 +939,7 @@ module.exports = {
       name: 'Prospect Park 与 Long Meadow',
       en: 'Prospect Park · Long Meadow · Boathouse on the Lullwater · Grand Army Plaza',
       score: 4,
-      tldr: '免费、05:00–01:00、三脚架明文合法——本区秋色三点里唯一能拍日落与蓝调的；但 10 月 20 日前还是绿的。',
+      tldr: '免费、开到 01:00、三脚架明文合法——本区秋色三点里唯一能拍日落与蓝调的；但 10 月 20 日前还是绿的。',
       tags: [
         { t: '完全免费', c: 'free' },
         { t: '05:00–01:00', c: 'free' },
@@ -1047,9 +1047,22 @@ module.exports = {
       access: {
         book: '不需预约',
         ticket: '<strong>免费</strong>（Boathouse 内的 Audubon Center 与旋转木马另有各自的开放时间与票价）',
-        hours: '<strong>每日 05:00–01:00</strong>，全年开放（NYC 311 官方口径）。' +
+        hours: '<strong>开园时刻有两个官方口径打架，本条不替你二选一：' +
+          'NYC 311 的市属公园口径是每日 05:00–01:00，' +
+          '而受托管理本园的 Prospect Park Alliance 在自家 General Information 页写的是' +
+          '「Prospect Park is open daily from 6 am–1 am」（2026 年 9 月 6 日复核）。' +
+          '差的是早上那一小时，闭园时间两边都是 01:00。</strong>' +
+          '<strong>好消息是这个分歧对本行程完全没有影响：真实日期 10/16–10/18 的日出是 07:08–07:10，' +
+          '备用窗口最早的 9/25 也要 06:46，无论 05:00 还是 06:00 开园，' +
+          '你都能在日出前一个多小时进园占位。</strong>' +
+          '只有打算拍天文暮光或星空的人才需要在意，那就按较晚的 06:00 planning，' +
+          '或打 311（市外 212-639-9675）问当天口径。' +
+          '<strong>Alliance 同页另列两条分区例外：儿童游乐场 21:00 关、Parade Ground 22:00 关</strong>，' +
+          '都不影响本条目的机位。' +
           '<strong>这是本区秋色三点里唯一覆盖日出、日落与蓝调的开放时间</strong>——' +
-          'Brooklyn Botanic Garden 18:00 关、Green-Wood 入夜前锁门，只有这里不受限制。' +
+          'Brooklyn Botanic Garden 18:00 关、Green-Wood 入夜前锁门，只有这里不受限制；' +
+          '<strong>真实日期三天的日落 18:11–18:14、民用暮光结束 18:38–18:41，离 01:00 闭园还差得远，' +
+          '所以 Green-Wood 那边闭园钟点没查到的风险，可以用这里来兜底。</strong>' +
           '<strong>2018 年 1 月 2 日起全园永久禁止机动车通行</strong>',
         parking: '园内不设访客停车场（且全园禁车）。' +
           '周边路边停车在 Park Slope 与 Prospect Heights 一侧竞争激烈，逐块读牌。' +
