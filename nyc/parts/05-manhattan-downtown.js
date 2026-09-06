@@ -1019,7 +1019,22 @@ module.exports = {
         book: '不需预约',
         ticket: '<strong>免费，24 小时开放</strong>（行人步道）',
         hours: '无固定开放时间。<strong>步道全天候可走，但夜间照明不足，凌晨与深夜的自动对焦会很困难</strong>，' +
-          '请开峰值对焦或手动预对焦到无限远',
+          '请开峰值对焦或手动预对焦到无限远。' +
+          '<strong>2026 年 9 月 6 日在 NYC DOT 的 Brooklyn Bridge 页复核，有一条会直接影响招牌构图，' +
+          '原先本条目完全没提：桥塔与引桥拱正在做大修（Contract 7「Rehabilitation of Towers and Approach Arches」，' +
+          '内容包括加固砌体桥塔、重新勾缝与替换花岗岩、以及改造桥塔照明）。' +
+          '官方对行人的承诺写得很明确——「The bridge promenade will be open at all times, ' +
+          'although portions of the walkway may be narrowed at times」，' +
+          '也就是步道任何时候都不会整段封闭，但局部会被收窄。</strong>' +
+          '<strong>为什么这条对你重要：本条目的招牌就是站在 Manhattan 塔正下方拍双尖拱对称，' +
+          '而塔正是这次施工的对象。收窄、围挡或塔身脚手架都可能出现在画面里，' +
+          '而且步道一窄，日出前那点空景优势也会被抵消。</strong>' +
+          '<strong>还要照实说明官方页面自己的一处矛盾：该项目写着「began in September 2019 and will continue until 2023」，' +
+          '却仍然挂在「Current Projects」栏目下，也就是标称工期已过但状态仍是进行中，' +
+          '官网没有更新的完工日期，本条无法判定 2026 年 10 月现场到底有没有围挡——未能确认。</strong>' +
+          '<strong>出发前值得打一个电话：DOT 为这个项目设了社区联络人 Anita Navalurkar，' +
+          '电话 347-647-0876、邮箱 brooklynbridgeoutreach@gmail.com，可以直接问当月塔下有没有脚手架。</strong>' +
+          '（同页另给出 2024 年的官方流量数据：日均行人 28,845、自行车 5,504、机动车 103,051。）',
         parking: '桥两端<strong>没有专用停车场</strong>。Lower Manhattan 停车楼日价 $40–60。强烈建议地铁',
         walk: '<strong>4/5/6 线 Brooklyn Bridge–City Hall 站</strong>或 <strong>J/Z 线 Chambers Street 站</strong>' +
           '出站即到步道入口（Centre Street／Park Row）；<strong>R/W 线 City Hall 站</strong>步行约 400 米／5 分钟。' +
