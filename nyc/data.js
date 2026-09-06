@@ -3336,10 +3336,10 @@ var REGIONS = [
         "name": "世界贸易中心一号楼观景台",
         "en": "One World Observatory",
         "score": 3.5,
-        "tldr": "全城最高（386 米）但全封闭无露台；$31 起、每天 9:00–21:00；画面主体是海港与桥梁而不是 Midtown 天际线——想拍天际线该去 Midtown。",
+        "tldr": "全城最高（386 米）但全封闭无露台；官方票价 $44 起（不是 $31）、每天 9:00–21:00；画面主体是海港与桥梁而不是 Midtown 天际线。",
         "tags": [
           {
-            "t": "$31 起",
+            "t": "$44 起",
             "c": "paid"
           },
           {
@@ -3360,7 +3360,7 @@ var REGIONS = [
           "<strong>先说清取景局限，这决定了这张票值不值：它在下城最南端。</strong>从这里向北看，Empire State Building 与 One Vanderbilt 在 4–6 公里外，被一整片下城到中城之间的低层楼群垫在下面、显得又远又小。<strong>画面真正的主体是 New York Harbor、Statue of Liberty、Governors Island、Brooklyn Bridge 与 Manhattan Bridge——是海港与桥梁的地理，不是「教科书式 Manhattan 天际线」。</strong>想拍后者应该去 Midtown 的观景台（那里能把下城与上城同时收进一张）",
           "<strong>完全封闭、没有任何户外平台。</strong>Empire State 的 86 层、Top of the Rock 与 Edge 都有露台，这里没有。所有拍摄都要透过双层玻璃，<strong>而且天花板灯带会在玻璃上留下横向鬼影</strong>——这一条把夜景与蓝调的可行性砍掉一半",
           "三层分工：<strong>100 层</strong>主观景层（含 City Pulse 互动屏与 Sky Portal 地面投影）、<strong>101 层</strong> One Dine 餐厅与 ONE Mix 酒吧、<strong>102 层</strong> SEE FOREVER 剧场。全部票种都含三层",
-          "官方设有 <strong>\"See Forever Commitment\"</strong>：在官方判定为零可见度的日子可改期或补偿，但原文口径是「at the discretion of the Observatory」——<strong>一般的雾霾与薄云不算，而且票本身是不可退的（non-refundable）</strong>"
+          "官方设有 <strong>\"See Forever Commitment\"</strong>，但原文的条件比宣传口号窄得多，已逐字核实：<strong>「upon request, and upon the rare occasion of zero visibility, and at the discretion of the Observatory, a voucher may be issued for each un-used ticket allowing for re-entry on another date and time within 14 days, subject to availability」——必须是零可见度、必须自己开口要、给不给由馆方定，补的是一张 14 天内有效的凭证而不是退款</strong>。<strong>一般的雾霾与薄云不算，而且官方还写着「we advise all of our guests to arrive for their ticketed time」——天气不好照样让你上。</strong><strong>真正有用的退路不是这条，而是购票后可以自助改期</strong>（见 access 的票价一栏）"
         ],
         "photo": "风光 <strong>3.5/5</strong>，建筑 <strong>3/5</strong>，人像 <strong>2.5/5</strong>。海港与双桥的俯视角度独一无二；扣分是全封闭玻璃、禁三脚架、且门票价格与出片率不成正比。",
         "shots": [
@@ -3370,7 +3370,7 @@ var REGIONS = [
               40.712949,
               -74.013044
             ],
-            "desc": "<strong>9/25 的 17:00–18:30、10/22 的 16:30–18:00</strong>：太阳在西南偏西（方位 250–256°），<strong>正好把 Statue of Liberty、Ellis Island 与 Governors Island 一带的水面打成一整片金色反光</strong>，自由女神在约 3.9 公里外。70–200mm 是主力（需要压缩距离），200mm 端能把女神像与背后的 Verrazzano-Narrows Bridge 叠在一起。<strong>镜头必须贴上玻璃</strong>：镜筒抵住玻璃、另一只手掌围成罩挡掉室内灯，否则整幅都是天花板灯带的鬼影。<strong>带一块深色布或把外套披在镜头周围是这里最有用的一件小器材。</strong>"
+            "desc": "<strong>按实际日期：10/16–10/18 的 16:40–18:15，票买 17:15 或更早的时段</strong>（官方建议至少提前一小时进场，而当天日落 18:12–18:16）。备用窗口 <strong>9/25 的 17:00–18:30、10/22 的 16:30–18:00</strong>：太阳在西南偏西（方位 250–259°），<strong>正好把 Statue of Liberty、Ellis Island 与 Governors Island 一带的水面打成一整片金色反光</strong>，自由女神在约 3.9 公里外。70–200mm 是主力（需要压缩距离），200mm 端能把女神像与背后的 Verrazzano-Narrows Bridge 叠在一起。<strong>镜头必须贴上玻璃</strong>：镜筒抵住玻璃、另一只手掌围成罩挡掉室内灯，否则整幅都是天花板灯带的鬼影。<strong>带一块深色布或把外套披在镜头周围是这里最有用的一件小器材。</strong>"
           },
           {
             "name": "100 层东侧拍 Brooklyn Bridge 与 Manhattan Bridge 双桥叠压",
@@ -3382,9 +3382,9 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "<strong>强烈建议线上预购定时票。</strong>普通票绑定日期与 15 分钟到达时段；<strong>All-Inclusive Flex 票不绑时段、当天任意时间进</strong>——这一点对追日落的人有实际价值，因为日落时段的普通票经常先售空。Combination／Priority 票另含安检、电梯与出口的优先通道",
-          "ticket": "<strong>官方页面不公布固定价格</strong>（动态定价，只写 \"Prices are subject to additional fees\"）。第三方汇总口径：<strong>General Admission $31 起（成人与 6–12 岁儿童 $31、65 岁以上 $35），Priority／Skip All Lines $59 起，All-Inclusive Flex $70 起，VIP 导览 $74 起，每笔交易另加 $3.50 手续费；6 岁以下免费但需在 Guest Services 领取免费票</strong>。<strong>另有第三方来源报出成人 $44–53，与上述口径矛盾，未能从官方渠道确认具体数字</strong>——请以下单页面当天显示为准。票为不可退（non-refundable）",
-          "hours": "官方原文：<strong>Monday – Sunday 9:00 AM – 9:00 PM，全年 365 天开放</strong>（含公共假日）。<strong>末次入场约 20:00–20:10（闭馆前 45–60 分钟）</strong>。也就是说<strong>行程窗口内的日落（9/25 18:49、10/22 18:06）与蓝调都在营业时间内，闭馆前还剩 2–3 小时的纯夜景余量</strong>。特殊活动与假日可能调整，出发前查官方日历",
+          "book": "<strong>强烈建议线上预购定时票。</strong>普通票绑定日期与 15 分钟到达时段；<strong>ALL-INCLUSIVE 票不绑时段、当天任意时间进</strong>（官方表述为「Select Your Arrival／Arrive in the morning, afternoon, or evening」）——这一点对追日落的人有实际价值，因为日落时段的普通票经常先售空。COMBINATION 与 VIP 票另含安检、电梯与出口的优先通道。<strong>官方另说明「All current ticket packages ... are only valid for one-time admission. Re-entry is not permitted」——出去就回不来，所以别打算「先上去看看光线再下来吃饭」</strong>",
+          "ticket": "<strong>已从官方购票页取到确切数字，原先那套「$31 起」是过时的第三方口径，请作废。</strong>oneworldobservatory.com 的 Buy Tickets 页（2026 年 9 月 5 日）用一张四栏对照表公布起价：<strong>STANDARD（纯观景）$44 起；COMBINATION（加安检／电梯／出口优先通道与 One World Explorer 数字导览、含 $5 消费额）$54 起；ALL-INCLUSIVE（再加「当天任意时段入场」与 $15 消费额）$64 起；VIP TOUR（专人引导入场加 60 分钟导览）$74 起。每张票另加 $3.50 手续费加税。</strong><strong>官方不再公布儿童与老人分档价</strong>，也没有 6 岁以下免票的说明，只写「Guests must be at least 17 years of age or accompanied by an adult」——<strong>原先本条写的 6–12 岁 $31、65+ $35、6 岁以下免票，均未能在现行官方页面找到，请视为不可靠。</strong>官方公布的折扣有四种：<strong>Late Night Package「Visit us after 8pm and save 50%」、Family Pack 买 4 张以上省 20%、10–50 人团体 9 折、NYC 居民专享价</strong>，另有现役与退役军人／NYPD／FD／EMS 凭证到现场票房享 STANDARD 五折加同行最多四人八折。<strong>票不可退，但可改期：官方 FAQ 明确「you can update your ticket details online before your scheduled visit」，经 Manage My Booking 自助改日期与时段</strong>——这一条比「不可退」重要得多，意味着<strong>天气不好可以提前改到另一天，不必硬上</strong>",
+          "hours": "官方原文：<strong>Monday – Sunday 9:00 AM – 9:00 PM</strong>（2026 年 9 月 5 日在 Plan your Visit 页复核）。<strong>官方不公布末次入场时刻</strong>——原先本条写的「20:00–20:10 末次入场」在现行官方页面上找不到依据，<strong>而且官方自己在卖 Late Night Package（「Visit us after 8pm and save 50%」），说明 20:00 之后仍然放人进</strong>，所以请把它理解为「21:00 关门、之前都能进」，只是留给自己的拍摄时间会很短。<strong>10/16–10/18 三天日落 18:16／18:14／18:12、蓝调分别到 18:43／18:42／18:40，全部落在营业时间内，收工后还有两个多小时的纯夜景余量。</strong><strong>官方对追日落的人给了一条明确建议：「We recommend purchasing a ticket for at least one hour before sunset」——落到这三天就是买 17:15 或更早的时段票</strong>（普通票绑 15 分钟到达时段，进场后不限时）。特殊活动与假日可能调整，出发前查官方页面",
           "parking": "不建议开车。WTC 一带停车楼日价 $45–70",
           "walk": "入口在 <strong>West Street 与 Vesey Street 交口（117 West Street）</strong>；从 Oculus 大厅经地下通道过去约 300 米／4 分钟。地铁同 Oculus 条目"
         },
@@ -3418,7 +3418,7 @@ var REGIONS = [
         "name": "9/11 国家纪念广场",
         "en": "National September 11 Memorial (Reflecting Pools)",
         "score": 4.5,
-        "tldr": "广场免费、8:00–20:00、无票无安检；两个方形瀑布池只在柔光与夜间亮灯时成立，正午光比超 10 EV 必废。禁三脚架。",
+        "tldr": "广场免费、8:00–20:00、无票无安检；方池只在 08:00–09:00 与亮灯后成立，正午光比超 10 EV 必废。禁三脚架。",
         "tags": [
           {
             "t": "广场完全免费",
@@ -3441,7 +3441,7 @@ var REGIONS = [
           "Michael Arad 与 Peter Walker 的方案「Reflecting Absence」，2011 年 9 月 11 日启用。<strong>两个各约 1 英亩的方池精确落在双塔原有的基础轮廓之内</strong>，水从四边下落 30 英尺进入池底，再从池底中央的方孔落入看不见的第二层——<strong>那个「看不到底的洞」是整个设计的核心：它拒绝给出一个终点。</strong>这也是它作为摄影对象的全部难度所在",
           "池沿是青铜栏板（官方术语 <strong>Names Parapets</strong>），刻着 2001 年 9 月 11 日与 1993 年 2 月 26 日两次袭击中丧生的 <strong>2,983</strong> 人姓名。<strong>名字不按字母排序，而按 \"meaningful adjacencies\" 排列</strong>——按当事人生前的关系分组（同一班飞机、同一层楼、同一个消防队、朋友与家人），这套排列由专门的算法与数年的人工核对共同完成",
           "<strong>广场是免费的，已核实。</strong>官方原文：「The 9/11 Memorial is free and open to the public seven days a week, 8 a.m.–8 p.m.」<strong>不需要票、不需要预约、没有安检</strong>——这一点与博物馆完全不同",
-          "<strong>博物馆是独立的付费设施，必须提前买定时票。</strong>成人（18–64）<strong>$36</strong>、13–17 岁 $30、7–12 岁 $24、6 岁及以下免费但仍需领票；<strong>周三至周一以及部分周二 9:00–19:00，末次入场 17:30</strong>。<strong>每周一 17:30–19:00 免费入场</strong>，免费票每周一 07:00 ET 在官网放出、每人限 4 张、先到先得；每月第一个周日 16:00–19:00 对在纽约地区居住、工作或就读者免费（需证件）",
+          "<strong>博物馆是独立的付费设施，必须提前买定时票。</strong>成人（18–64）<strong>$36</strong>、13–17 岁 $30、7–12 岁 $24、6 岁及以下免费但仍需领票；<strong>周三至周一以及部分周二 9:00–19:00，末次入场 17:30；官方已公布 2026 年 10 月的每个周二都开放</strong>。<strong>每周一 17:30–19:00 免费入场</strong>，免费票每周一 07:00 ET 在官网放出、先到先得（官方未公布每人张数上限）；每月第一个周日 16:00–19:00 对在纽约地区居住、工作或就读者免费（需证件）。<strong>这两个免费口子在 10/16–10/18 都用不上</strong>",
           "广场上另有两处容易被忽略：<strong>Survivor Tree</strong>（一棵在废墟中被救出、修复后重新栽回的美国梨树）与 <strong>Memorial Glade</strong>（2019 年增设的六块倾斜花岗岩，纪念因救援与清理工作而患病死亡者）。两处都不显眼，但作为单独的构图比方池更容易处理"
         ],
         "photo": "建筑 <strong>4.5/5</strong>，风光 <strong>2/5</strong>，人像 <strong>1/5</strong>。方池的几何与水幕的连续运动是极强的抽象素材；<strong>人像分极低不是技术问题——这里不适合拍人像，请不要在名字栏板前摆拍。</strong>",
@@ -3452,7 +3452,7 @@ var REGIONS = [
               40.712139,
               -74.013176
             ],
-            "desc": "<strong>先说清为什么正午一定失败：</strong>方池是下沉 30 英尺的深坑，正午太阳高度 9/25 为 48.2°、10/22 为 38.1°——此时池内一半是刺眼直射的花岗岩、另一半是全黑的阴影，<strong>光比超过 10 EV：青铜栏板上的名字会曝成一片死白，池底的第二层洞口则是纯黑，这不是后期能救回来的。</strong><strong>成立的时段只有两个：08:00–09:00</strong>（广场 8:00 开门，此时全池在柔和的漫射光里且人极少）<strong>与日落后到闭园的 18:49–20:00（9/25）／18:06–20:00（10/22）</strong>（池壁照明亮起，水幕在暖白灯下呈丝状）。24–35mm 沿栏板贴近拍水幕的纵深；70–200mm 单独压缩水幕的丝状纹理。<strong>手持约 1/15 秒能把水拉成柔和的帘子，再慢就抖了（禁三脚架）</strong>，请开机身防抖并连拍。"
+            "desc": "<strong>先说清为什么正午一定失败：</strong>方池是下沉 30 英尺的深坑，正午太阳高度 9/25 为 48.2°、10/22 为 38.1°——此时池内一半是刺眼直射的花岗岩、另一半是全黑的阴影，<strong>光比超过 10 EV：青铜栏板上的名字会曝成一片死白，池底的第二层洞口则是纯黑，这不是后期能救回来的。</strong><strong>成立的时段只有两个：08:00–09:00</strong>（广场 8:00 开门，此时全池在柔和的漫射光里且人极少）<strong>与日落后到闭园的这一段——按实际日期是 18:15–20:00（10/16–10/18），足足一小时四十五分钟</strong>（备用窗口为 18:49–20:00（9/25）／18:06–20:00（10/22））（池壁照明亮起，水幕在暖白灯下呈丝状）。24–35mm 沿栏板贴近拍水幕的纵深；70–200mm 单独压缩水幕的丝状纹理。<strong>手持约 1/15 秒能把水拉成柔和的帘子，再慢就抖了（禁三脚架）</strong>，请开机身防抖并连拍。"
           },
           {
             "name": "两池之间的广场看 Oculus 与 One World Trade Center",
@@ -3460,7 +3460,7 @@ var REGIONS = [
               40.71103,
               -74.013081
             ],
-            "desc": "针脚落在 Memorial South Pool 的 OSM 实体，站在池的北侧向北看。<strong>蓝调 18:49–19:16（9/25）／18:06–18:34（10/22）</strong>：此时 One World Trade Center 的玻璃体量、Oculus 的白色钢翼与池壁照明三者亮度正好平衡。16–24mm 把 South Pool 的栏板作前景线、One World Trade Center 放画面右上、Oculus 放左侧。<strong>白天这个方向的问题是 One World Trade Center 太高，广角会把它压成一块斜插的玻璃板；蓝调时它变成一根发光的柱子，反而更好构图。</strong>"
+            "desc": "针脚落在 Memorial South Pool 的 OSM 实体，站在池的北侧向北看。<strong>蓝调：按实际日期是 18:16–18:43（10/16）／18:14–18:42（10/17）／18:12–18:40（10/18）；备用窗口 18:49–19:16（9/25）／18:06–18:34（10/22）</strong>：此时 One World Trade Center 的玻璃体量、Oculus 的白色钢翼与池壁照明三者亮度正好平衡。16–24mm 把 South Pool 的栏板作前景线、One World Trade Center 放画面右上、Oculus 放左侧。<strong>白天这个方向的问题是 One World Trade Center 太高，广角会把它压成一块斜插的玻璃板；蓝调时它变成一根发光的柱子，反而更好构图。</strong>"
           },
           {
             "name": "青铜栏板的字母凹槽抽象细节",
@@ -3468,9 +3468,9 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "广场<strong>不需预约</strong>。博物馆<strong>必须提前买定时票</strong>（最多可提前 6 个月购）；周一免费票每周一 07:00 ET 放出、每人限 4 张。预约可在开始前 24 小时以上退改，免费换票一次",
+          "book": "广场<strong>不需预约</strong>。博物馆<strong>必须提前买定时票</strong>（最多可提前 6 个月购）。<strong>周一免费票的官方原文是「available on the website each Monday beginning at 7 a.m. ET and are first come, first serve」——只说当天 07:00 ET 放出、先到先得，并没有写每人限 4 张</strong>（原先本条写的「限 4 张」查下来是 Museums for All／EBT 那个渠道的限额，已删）。预约可在开始前 24 小时以上退改，<strong>免费换票只有一次</strong>（原文「We allow ONE exchange at no extra cost」）。<strong>末次入场有两个互相矛盾的官方口径：Visit 页与 Special Tuesday Hours 页写「Last entry 5:30 p.m.」，而 Visit the Museum 页写「Last admission is 60 minutes prior to closing」（即 18:00）。两者都在官网上，本条不替你二选一——请按较早的 17:30 规划，拿不准就打预约线 (212) 312-8800 问当天口径</strong>（会员另有 (212) 266-5213）。<strong>还有一条对这三天的直接结论：10/16–10/18 是周五、周六、周日，既碰不上周一免费夜，也碰不上「每月第一个周日」（10 月那天是 10 月 4 日）——所以这三天想进博物馆就只能买 $36 的全价票，没有免费路径；广场本身仍然全天免费。</strong>",
           "ticket": "广场<strong>免费</strong>。博物馆：<strong>成人（18–64）$36</strong>、13–17 岁 $30、7–12 岁 $24、6 岁及以下免费（仍需票）；导览团含门票 $48–60；Memorial + Museum 导览 $85；家庭套票 $106／$125。语音导览现场租借 $11（九种语言含 ASL），官方另有免费的 Bloomberg Connects 手机版",
-          "hours": "广场官方原文：<strong>每天 8:00–20:00</strong>。博物馆：<strong>周三至周一以及部分周二，9:00–19:00，末次入场 17:30</strong>。<strong>注意官方写的是「and many Tuesdays」／「select Tuesdays」，即常规闭馆日是周二但部分周二仍开，具体日期只能在购票页面查当天</strong>——如果行程里只有周二能去博物馆，务必先查",
+          "hours": "广场官方原文：<strong>The Memorial is open daily from 8 a.m. to 8 p.m.</strong>博物馆：<strong>周三至周一以及部分周二，9:00–19:00，末次入场 17:30</strong>。<strong>「部分周二」这条原先标着「官方无公布名单、只能到购票页查」，现已查清，可以删掉这个风险：官方的 Special &amp; Extended Hours 页面（911memorial.org/special-and-extended-hours）逐条列出了 2026 年开放的周二，其中写明「Every Tuesday in October」——也就是说 2026 年 10 月整月的周二全部开放，十月这一个月里博物馆没有任何常规闭馆日。</strong><strong>对本行程而言这件事本来也不成立：10/16–10/18 是周五、周六、周日，一天周二都没有，所以周二这条不影响本次任何安排。</strong>（同页另注明博物馆 9 月 11 日当天对公众闭馆，与本行程无关。）<strong>三天里真正要记的是广场那条 20:00 关门线：当天蓝调 18:40–18:43 结束，之后还有整整一小时的纯夜景可以拍，广场闭园时间不构成约束。</strong>",
           "parking": "不建议开车。WTC 一带停车楼日价 $45–70",
           "walk": "广场四面开放（南界 Fulton St、北界 Liberty St、西界 West St、东界 Greenwich St）。<strong>Oculus 大厅西侧出口出来约 150 米／2 分钟</strong>；地铁同 Oculus 条目。博物馆入口在 180 Greenwich Street、广场南侧"
         },
@@ -3538,7 +3538,7 @@ var REGIONS = [
               40.711542,
               -74.011422
             ],
-            "desc": "<strong>时刻表（由 9 月 11 日 10:28 的太阳方位角 128.4° 反推得出，本区最有用的一组数字）：天窗光带沿大厅纵轴对齐的时刻是 9 月 25 日 10:07（太阳高度 34.6°）、10 月 1 日 09:58、10 月 10 日 09:45、10 月 22 日 09:29（高度 21.9°）、10 月 31 日 09:19。</strong>越往后太阳越低，光带越长、越偏向大厅西北端，<strong>9 月底的对齐质量明显优于 10 月底</strong>；如果只能来一次，选 9 月那一档。14–20mm 超广是必需的（大厅高、钢肋密，24mm 已经装不下两侧钢肋的收束）；站大厅正中向上垂直仰拍，让钢肋在画面中央汇成对称的椭圆开口。<strong>拍 3–5 张包围曝光做 HDR</strong>，天窗与地面石材的光比通常超过 8 EV。地面是抛光石材，<strong>可以正向利用做对称倒影：机身贴近地面、把倒影放在画面下半部。</strong>"
+            "desc": "<strong>按实际日期，这是本区最值得照抄的一组钟点：光带沿大厅纵轴对齐的时刻是 10 月 16 日 09:38（太阳高度 24.8°）、10 月 17 日 09:36（24.4°）、10 月 18 日 09:35（23.9°）。三天几乎同一时刻，安排在哪天都一样，请按「09:25 到位、09:45 收工」执行。</strong><strong>备用窗口的完整时刻表（同样由 9 月 11 日 10:28 的太阳方位角 128.4° 反推得出）：9 月 25 日 10:07（太阳高度 34.6°）、10 月 1 日 09:58、10 月 10 日 09:45、10 月 22 日 09:29（高度 21.9°）、10 月 31 日 09:19。</strong>越往后太阳越低，光带越长、越偏向大厅西北端，<strong>9 月底的对齐质量明显优于 10 月底</strong>；如果只能来一次，选 9 月那一档。14–20mm 超广是必需的（大厅高、钢肋密，24mm 已经装不下两侧钢肋的收束）；站大厅正中向上垂直仰拍，让钢肋在画面中央汇成对称的椭圆开口。<strong>拍 3–5 张包围曝光做 HDR</strong>，天窗与地面石材的光比通常超过 8 EV。地面是抛光石材，<strong>可以正向利用做对称倒影：机身贴近地面、把倒影放在画面下半部。</strong>"
           },
           {
             "name": "大厅长轴走道的钢肋透视与人流",
@@ -3546,7 +3546,7 @@ var REGIONS = [
               40.711238,
               -74.010918
             ],
-            "desc": "针脚落在 Entrance to Oculus 的 OSM 实体。<strong>08:00 前或 20:00 后是唯一的低人流窗口</strong>：Westfield 店铺 10:00 才开门，而通勤高峰 08:00–09:30 与 17:00–18:30 人最多。24–35mm 沿大厅长轴拍钢肋阵列的重复韵律；<strong>换 70–200mm 从走道端头压缩，把两侧钢肋叠成密集的白色网格——这是本条目最抽象、最耐看的一张。</strong>想拍人流虚影需要 1/8–1/2 秒，<strong>但禁三脚架意味着手持做不到</strong>：折中办法是把机身抵在栏杆或柱子上、1/8 秒开防抖连拍 10 张挑一张。"
+            "desc": "针脚落在 Entrance to Oculus 的 OSM 实体。<strong>08:00 前或 20:00 后是唯一的低人流窗口</strong>：<strong>店铺最早的官方口径是 09:00 开（港务局两个页面 09:00 与 10:00 各执一词，见 access 里的说明），所以「空大厅」要按 09:00 前算</strong>，而通勤高峰 08:00–09:30 与 17:00–18:30 人最多。<strong>10/16–10/18 里 10/18 是周日，通勤流最弱，是三天里最容易拿到空大厅的一天</strong>（代价是周日店铺 11:00 才开，光带对齐的 09:35 又还在店铺开门前，两件事正好不冲突）。24–35mm 沿大厅长轴拍钢肋阵列的重复韵律；<strong>换 70–200mm 从走道端头压缩，把两侧钢肋叠成密集的白色网格——这是本条目最抽象、最耐看的一张。</strong>想拍人流虚影需要 1/8–1/2 秒，<strong>但禁三脚架意味着手持做不到</strong>：折中办法是把机身抵在栏杆或柱子上、1/8 秒开防抖连拍 10 张挑一张。"
           },
           {
             "name": "Church Street 一侧 North Oculus Plaza 拍钢翼外观",

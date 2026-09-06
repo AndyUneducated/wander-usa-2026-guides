@@ -714,17 +714,23 @@ module.exports = {
         '三层分工：<strong>100 层</strong>主观景层（含 City Pulse 互动屏与 Sky Portal 地面投影）、' +
           '<strong>101 层</strong> One Dine 餐厅与 ONE Mix 酒吧、<strong>102 层</strong> SEE FOREVER 剧场。' +
           '全部票种都含三层',
-        '官方设有 <strong>"See Forever Commitment"</strong>：在官方判定为零可见度的日子可改期或补偿，' +
-          '但原文口径是「at the discretion of the Observatory」——<strong>一般的雾霾与薄云不算，' +
-          '而且票本身是不可退的（non-refundable）</strong>'
+        '官方设有 <strong>"See Forever Commitment"</strong>，但原文的条件比宣传口号窄得多，已逐字核实：' +
+          '<strong>「upon request, and upon the rare occasion of zero visibility, and at the discretion of the Observatory, ' +
+          'a voucher may be issued for each un-used ticket allowing for re-entry on another date and time within 14 days, subject to availability」' +
+          '——必须是零可见度、必须自己开口要、给不给由馆方定，补的是一张 14 天内有效的凭证而不是退款</strong>。' +
+          '<strong>一般的雾霾与薄云不算，而且官方还写着「we advise all of our guests to arrive for their ticketed time」' +
+          '——天气不好照样让你上。</strong>' +
+          '<strong>真正有用的退路不是这条，而是购票后可以自助改期</strong>（见 access 的票价一栏）'
       ],
       photo: '风光 <strong>3.5/5</strong>，建筑 <strong>3/5</strong>，人像 <strong>2.5/5</strong>。海港与双桥的俯视角度独一无二；扣分是全封闭玻璃、禁三脚架、且门票价格与出片率不成正比。',
       shots: [
         {
           name: '100 层西南侧玻璃拍 Statue of Liberty 与 New York Harbor',
           view: [40.712949, -74.013044],
-          desc: '<strong>9/25 的 17:00–18:30、10/22 的 16:30–18:00</strong>：' +
-            '太阳在西南偏西（方位 250–256°），<strong>正好把 Statue of Liberty、Ellis Island 与 Governors Island 一带的水面' +
+          desc: '<strong>按实际日期：10/16–10/18 的 16:40–18:15，票买 17:15 或更早的时段</strong>' +
+            '（官方建议至少提前一小时进场，而当天日落 18:12–18:16）。' +
+            '备用窗口 <strong>9/25 的 17:00–18:30、10/22 的 16:30–18:00</strong>：' +
+            '太阳在西南偏西（方位 250–259°），<strong>正好把 Statue of Liberty、Ellis Island 与 Governors Island 一带的水面' +
             '打成一整片金色反光</strong>，自由女神在约 3.9 公里外。' +
             '70–200mm 是主力（需要压缩距离），200mm 端能把女神像与背后的 Verrazzano-Narrows Bridge 叠在一起。' +
             '<strong>镜头必须贴上玻璃</strong>：镜筒抵住玻璃、另一只手掌围成罩挡掉室内灯，' +
@@ -753,19 +759,33 @@ module.exports = {
       ],
       access: {
         book: '<strong>强烈建议线上预购定时票。</strong>普通票绑定日期与 15 分钟到达时段；' +
-          '<strong>All-Inclusive Flex 票不绑时段、当天任意时间进</strong>——' +
+          '<strong>ALL-INCLUSIVE 票不绑时段、当天任意时间进</strong>（官方表述为「Select Your Arrival／Arrive in the morning, afternoon, or evening」）——' +
           '这一点对追日落的人有实际价值，因为日落时段的普通票经常先售空。' +
-          'Combination／Priority 票另含安检、电梯与出口的优先通道',
-        ticket: '<strong>官方页面不公布固定价格</strong>（动态定价，只写 "Prices are subject to additional fees"）。' +
-          '第三方汇总口径：<strong>General Admission $31 起（成人与 6–12 岁儿童 $31、65 岁以上 $35），' +
-          'Priority／Skip All Lines $59 起，All-Inclusive Flex $70 起，VIP 导览 $74 起，' +
-          '每笔交易另加 $3.50 手续费；6 岁以下免费但需在 Guest Services 领取免费票</strong>。' +
-          '<strong>另有第三方来源报出成人 $44–53，与上述口径矛盾，未能从官方渠道确认具体数字</strong>——请以下单页面当天显示为准。' +
-          '票为不可退（non-refundable）',
-        hours: '官方原文：<strong>Monday – Sunday 9:00 AM – 9:00 PM，全年 365 天开放</strong>（含公共假日）。' +
-          '<strong>末次入场约 20:00–20:10（闭馆前 45–60 分钟）</strong>。' +
-          '也就是说<strong>行程窗口内的日落（9/25 18:49、10/22 18:06）与蓝调都在营业时间内，' +
-          '闭馆前还剩 2–3 小时的纯夜景余量</strong>。特殊活动与假日可能调整，出发前查官方日历',
+          'COMBINATION 与 VIP 票另含安检、电梯与出口的优先通道。' +
+          '<strong>官方另说明「All current ticket packages ... are only valid for one-time admission. Re-entry is not permitted」' +
+          '——出去就回不来，所以别打算「先上去看看光线再下来吃饭」</strong>',
+        ticket: '<strong>已从官方购票页取到确切数字，原先那套「$31 起」是过时的第三方口径，请作废。</strong>' +
+          'oneworldobservatory.com 的 Buy Tickets 页（2026 年 9 月 5 日）用一张四栏对照表公布起价：' +
+          '<strong>STANDARD（纯观景）$44 起；COMBINATION（加安检／电梯／出口优先通道与 One World Explorer 数字导览、含 $5 消费额）$54 起；' +
+          'ALL-INCLUSIVE（再加「当天任意时段入场」与 $15 消费额）$64 起；VIP TOUR（专人引导入场加 60 分钟导览）$74 起。' +
+          '每张票另加 $3.50 手续费加税。</strong>' +
+          '<strong>官方不再公布儿童与老人分档价</strong>，也没有 6 岁以下免票的说明，只写「Guests must be at least 17 years of age or accompanied by an adult」' +
+          '——<strong>原先本条写的 6–12 岁 $31、65+ $35、6 岁以下免票，均未能在现行官方页面找到，请视为不可靠。</strong>' +
+          '官方公布的折扣有四种：<strong>Late Night Package「Visit us after 8pm and save 50%」、' +
+          'Family Pack 买 4 张以上省 20%、10–50 人团体 9 折、NYC 居民专享价</strong>，' +
+          '另有现役与退役军人／NYPD／FD／EMS 凭证到现场票房享 STANDARD 五折加同行最多四人八折。' +
+          '<strong>票不可退，但可改期：官方 FAQ 明确「you can update your ticket details online before your scheduled visit」，' +
+          '经 Manage My Booking 自助改日期与时段</strong>——这一条比「不可退」重要得多，' +
+          '意味着<strong>天气不好可以提前改到另一天，不必硬上</strong>',
+        hours: '官方原文：<strong>Monday – Sunday 9:00 AM – 9:00 PM</strong>（2026 年 9 月 5 日在 Plan your Visit 页复核）。' +
+          '<strong>官方不公布末次入场时刻</strong>——原先本条写的「20:00–20:10 末次入场」在现行官方页面上找不到依据，' +
+          '<strong>而且官方自己在卖 Late Night Package（「Visit us after 8pm and save 50%」），说明 20:00 之后仍然放人进</strong>，' +
+          '所以请把它理解为「21:00 关门、之前都能进」，只是留给自己的拍摄时间会很短。' +
+          '<strong>10/16–10/18 三天日落 18:16／18:14／18:12、蓝调分别到 18:43／18:42／18:40，' +
+          '全部落在营业时间内，收工后还有两个多小时的纯夜景余量。</strong>' +
+          '<strong>官方对追日落的人给了一条明确建议：「We recommend purchasing a ticket for at least one hour before sunset」' +
+          '——落到这三天就是买 17:15 或更早的时段票</strong>（普通票绑 15 分钟到达时段，进场后不限时）。' +
+          '特殊活动与假日可能调整，出发前查官方页面',
         parking: '不建议开车。WTC 一带停车楼日价 $45–70',
         walk: '入口在 <strong>West Street 与 Vesey Street 交口（117 West Street）</strong>；' +
           '从 Oculus 大厅经地下通道过去约 300 米／4 分钟。地铁同 Oculus 条目'
@@ -795,7 +815,7 @@ module.exports = {
       name: '9/11 国家纪念广场',
       en: 'National September 11 Memorial (Reflecting Pools)',
       score: 4.5,
-      tldr: '广场免费、8:00–20:00、无票无安检；两个方形瀑布池只在柔光与夜间亮灯时成立，正午光比超 10 EV 必废。禁三脚架。',
+      tldr: '广场免费、8:00–20:00、无票无安检；方池只在 08:00–09:00 与亮灯后成立，正午光比超 10 EV 必废。禁三脚架。',
       tags: [{ t: '广场完全免费', c: 'free' }, { t: '博物馆 $36 需定时票', c: 'paid' }, { t: '禁三脚架', c: 'risk' }, { t: '拍摄需克制', c: 'risk' }],
       highlights: [
         'Michael Arad 与 Peter Walker 的方案「Reflecting Absence」，2011 年 9 月 11 日启用。' +
@@ -812,9 +832,10 @@ module.exports = {
           '<strong>不需要票、不需要预约、没有安检</strong>——这一点与博物馆完全不同',
         '<strong>博物馆是独立的付费设施，必须提前买定时票。</strong>' +
           '成人（18–64）<strong>$36</strong>、13–17 岁 $30、7–12 岁 $24、6 岁及以下免费但仍需领票；' +
-          '<strong>周三至周一以及部分周二 9:00–19:00，末次入场 17:30</strong>。' +
-          '<strong>每周一 17:30–19:00 免费入场</strong>，免费票每周一 07:00 ET 在官网放出、每人限 4 张、先到先得；' +
-          '每月第一个周日 16:00–19:00 对在纽约地区居住、工作或就读者免费（需证件）',
+          '<strong>周三至周一以及部分周二 9:00–19:00，末次入场 17:30；官方已公布 2026 年 10 月的每个周二都开放</strong>。' +
+          '<strong>每周一 17:30–19:00 免费入场</strong>，免费票每周一 07:00 ET 在官网放出、先到先得（官方未公布每人张数上限）；' +
+          '每月第一个周日 16:00–19:00 对在纽约地区居住、工作或就读者免费（需证件）。' +
+          '<strong>这两个免费口子在 10/16–10/18 都用不上</strong>',
         '广场上另有两处容易被忽略：<strong>Survivor Tree</strong>（一棵在废墟中被救出、修复后重新栽回的美国梨树）' +
           '与 <strong>Memorial Glade</strong>（2019 年增设的六块倾斜花岗岩，纪念因救援与清理工作而患病死亡者）。' +
           '两处都不显眼，但作为单独的构图比方池更容易处理'
@@ -830,7 +851,8 @@ module.exports = {
             '此时池内一半是刺眼直射的花岗岩、另一半是全黑的阴影，' +
             '<strong>光比超过 10 EV：青铜栏板上的名字会曝成一片死白，池底的第二层洞口则是纯黑，这不是后期能救回来的。</strong>' +
             '<strong>成立的时段只有两个：08:00–09:00</strong>（广场 8:00 开门，此时全池在柔和的漫射光里且人极少）' +
-            '<strong>与日落后到闭园的 18:49–20:00（9/25）／18:06–20:00（10/22）</strong>' +
+            '<strong>与日落后到闭园的这一段——按实际日期是 18:15–20:00（10/16–10/18），足足一小时四十五分钟</strong>' +
+            '（备用窗口为 18:49–20:00（9/25）／18:06–20:00（10/22））' +
             '（池壁照明亮起，水幕在暖白灯下呈丝状）。' +
             '24–35mm 沿栏板贴近拍水幕的纵深；70–200mm 单独压缩水幕的丝状纹理。' +
             '<strong>手持约 1/15 秒能把水拉成柔和的帘子，再慢就抖了（禁三脚架）</strong>，请开机身防抖并连拍。'
@@ -839,7 +861,8 @@ module.exports = {
           name: '两池之间的广场看 Oculus 与 One World Trade Center',
           view: [40.711030, -74.013081],
           desc: '针脚落在 Memorial South Pool 的 OSM 实体，站在池的北侧向北看。' +
-            '<strong>蓝调 18:49–19:16（9/25）／18:06–18:34（10/22）</strong>：' +
+            '<strong>蓝调：按实际日期是 18:16–18:43（10/16）／18:14–18:42（10/17）／18:12–18:40（10/18）；' +
+            '备用窗口 18:49–19:16（9/25）／18:06–18:34（10/22）</strong>：' +
             '此时 One World Trade Center 的玻璃体量、Oculus 的白色钢翼与池壁照明三者亮度正好平衡。' +
             '16–24mm 把 South Pool 的栏板作前景线、One World Trade Center 放画面右上、Oculus 放左侧。' +
             '<strong>白天这个方向的问题是 One World Trade Center 太高，广角会把它压成一块斜插的玻璃板；' +
@@ -861,15 +884,32 @@ module.exports = {
         }
       ],
       access: {
-        book: '广场<strong>不需预约</strong>。博物馆<strong>必须提前买定时票</strong>（最多可提前 6 个月购）；' +
-          '周一免费票每周一 07:00 ET 放出、每人限 4 张。预约可在开始前 24 小时以上退改，免费换票一次',
+        book: '广场<strong>不需预约</strong>。博物馆<strong>必须提前买定时票</strong>（最多可提前 6 个月购）。' +
+          '<strong>周一免费票的官方原文是「available on the website each Monday beginning at 7 a.m. ET and are first come, first serve」' +
+          '——只说当天 07:00 ET 放出、先到先得，并没有写每人限 4 张</strong>' +
+          '（原先本条写的「限 4 张」查下来是 Museums for All／EBT 那个渠道的限额，已删）。' +
+          '预约可在开始前 24 小时以上退改，<strong>免费换票只有一次</strong>（原文「We allow ONE exchange at no extra cost」）。' +
+          '<strong>末次入场有两个互相矛盾的官方口径：Visit 页与 Special Tuesday Hours 页写「Last entry 5:30 p.m.」，' +
+          '而 Visit the Museum 页写「Last admission is 60 minutes prior to closing」（即 18:00）。' +
+          '两者都在官网上，本条不替你二选一——请按较早的 17:30 规划，' +
+          '拿不准就打预约线 (212) 312-8800 问当天口径</strong>（会员另有 (212) 266-5213）。' +
+          '<strong>还有一条对这三天的直接结论：10/16–10/18 是周五、周六、周日，' +
+          '既碰不上周一免费夜，也碰不上「每月第一个周日」（10 月那天是 10 月 4 日）——' +
+          '所以这三天想进博物馆就只能买 $36 的全价票，没有免费路径；广场本身仍然全天免费。</strong>',
         ticket: '广场<strong>免费</strong>。博物馆：<strong>成人（18–64）$36</strong>、13–17 岁 $30、7–12 岁 $24、' +
           '6 岁及以下免费（仍需票）；导览团含门票 $48–60；Memorial + Museum 导览 $85；家庭套票 $106／$125。' +
           '语音导览现场租借 $11（九种语言含 ASL），官方另有免费的 Bloomberg Connects 手机版',
-        hours: '广场官方原文：<strong>每天 8:00–20:00</strong>。' +
+        hours: '广场官方原文：<strong>The Memorial is open daily from 8 a.m. to 8 p.m.</strong>' +
           '博物馆：<strong>周三至周一以及部分周二，9:00–19:00，末次入场 17:30</strong>。' +
-          '<strong>注意官方写的是「and many Tuesdays」／「select Tuesdays」，即常规闭馆日是周二但部分周二仍开，' +
-          '具体日期只能在购票页面查当天</strong>——如果行程里只有周二能去博物馆，务必先查',
+          '<strong>「部分周二」这条原先标着「官方无公布名单、只能到购票页查」，现已查清，可以删掉这个风险：' +
+          '官方的 Special &amp; Extended Hours 页面（911memorial.org/special-and-extended-hours）逐条列出了 2026 年开放的周二，' +
+          '其中写明「Every Tuesday in October」——也就是说 2026 年 10 月整月的周二全部开放，' +
+          '十月这一个月里博物馆没有任何常规闭馆日。</strong>' +
+          '<strong>对本行程而言这件事本来也不成立：10/16–10/18 是周五、周六、周日，一天周二都没有，' +
+          '所以周二这条不影响本次任何安排。</strong>' +
+          '（同页另注明博物馆 9 月 11 日当天对公众闭馆，与本行程无关。）' +
+          '<strong>三天里真正要记的是广场那条 20:00 关门线：当天蓝调 18:40–18:43 结束，' +
+          '之后还有整整一小时的纯夜景可以拍，广场闭园时间不构成约束。</strong>',
         parking: '不建议开车。WTC 一带停车楼日价 $45–70',
         walk: '广场四面开放（南界 Fulton St、北界 Liberty St、西界 West St、东界 Greenwich St）。' +
           '<strong>Oculus 大厅西侧出口出来约 150 米／2 分钟</strong>；地铁同 Oculus 条目。' +
