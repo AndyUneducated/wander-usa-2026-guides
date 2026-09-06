@@ -1046,7 +1046,7 @@ module.exports = {
       name: '史泰登岛渡轮',
       en: 'Staten Island Ferry',
       score: 4.5,
-      tldr: '全免费、24 小时、单程 25 分钟；去程站右舷（starboard）拍自由女神、回程站左舷；金光请搭 18:00（9/25）或 17:15（10/22）那班。',
+      tldr: '全免费、24 小时、单程 25 分钟；去程站右舷（starboard）拍自由女神、回程站左舷；<strong>真实日期请搭 Whitehall 17:30 南下、St. George 18:00 北上那一趟</strong>。',
       tags: [{ t: '完全免费', c: 'free' }, { t: '24 小时不停', c: 'free' }, { t: '不需票不需预约', c: 'free' }, { t: '甲板拥挤且晃', c: 'risk' }],
       highlights: [
         '纽约市自 1905 年起自营，<strong>完全免费、24 小时、365 天不停</strong>，' +
@@ -1085,7 +1085,20 @@ module.exports = {
         },
         {
           name: '回程左舷拍下城天际线金光（本条目的核心推荐）',
-          desc: '<strong>这是本条目最值得执行的一条，直接给班次：</strong>' +
+          desc: '<strong>这是本条目最值得执行的一条，直接给班次。' +
+            '先给实际日期的三班，钟点全部照 NYC DOT 官方时刻表（2026 年 9 月 6 日复核）核对过：</strong>' +
+            '<strong>10 月 17 日（周六）与 10 月 18 日（周日）走周末表，全天只有整点与半点两班——' +
+            '搭 Whitehall 17:30 南下（17:55 抵 St. George），转 18:00 北上（18:25 回到 Whitehall）。</strong>' +
+            '当天日落 18:12／18:11、民用暮光结束 18:40／18:38，' +
+            '<strong>也就是说这一趟北上正好把日落横在航程正中间，下城天际线在正前方由暖光转进蓝调，是这两天唯一对的一班。</strong>' +
+            '想要纯蓝调亮灯版本就改搭 St. George 18:30 北上那班（18:30–18:55，天已经黑透、楼群全亮）。' +
+            '<strong>10 月 16 日（周五）走平日表，傍晚是高峰加密时段，可选的班次多得多：' +
+            'St. George 北上有 17:30、17:45、18:00、18:15、18:30、18:45、19:00。' +
+            '当天日落 18:14、暮光结束 18:41——最佳是搭 Whitehall 17:30 南下、转 18:00 北上；' +
+            '若只想要蓝调就改 18:15 那班。</strong>' +
+            '<strong>但周五这一趟要有心理准备：平日 17:00–19:00 的北上班次正是下班通勤高峰，' +
+            '与最佳光线完全重叠，栏杆位很难抢（见 notes）。想要从容站位就挑周六日。</strong>' +
+            '<strong>备用窗口的两班如下——</strong>' +
             '<strong>9 月 25 日（周五，日落 18:49，金光 18:12–18:49，蓝调至 19:16）：' +
             '搭 Whitehall 18:00 那班南下（18:25 抵 St. George），立刻转 18:30 那班北上</strong>' +
             '——你会在 18:30–18:55 正好横在港中央，太阳 18:49 落下，' +
@@ -1123,10 +1136,18 @@ module.exports = {
         book: '<strong>不需预约、不需票、不需刷卡，直接走上船。</strong>' +
           '<strong>码头附近有人向游客推销「渡轮票」，那是骗局——渡轮不卖票。</strong>',
         ticket: '<strong>免费</strong>',
-        hours: '<strong>24 小时、365 天。</strong>NYC DOT 官方时刻表：' +
+        hours: '<strong>24 小时、365 天。</strong>NYC DOT 官方时刻表' +
+          '（nyc.gov 的 Staten Island Ferry Schedule 页，2026 年 9 月 6 日逐班复核）：' +
           '<strong>平日高峰约每 15–20 分钟一班，平峰每 30 分钟，深夜 30–60 分钟；' +
-          '周末全天每 30 分钟（整点与半点）</strong>。' +
-          '主要联邦假日按周末时刻表。官方把「晚于表定时刻 6 分钟以上」定义为延误，可向站务索取延误证明',
+          '周末全天每 30 分钟（整点与半点）</strong>，官方原文另注明单程' +
+          '「approximately 25 minutes」。' +
+          '<strong>假日按周末表的名单是官方逐条列出的，只有九个：' +
+          'New Year\u2019s Day、Martin Luther King, Jr. Day、Presidents\u2019 Day、Memorial Day、Juneteenth、' +
+          'Independence Day、Labor Day、Thanksgiving Day、Christmas Day。' +
+          '请注意 10 月 12 日（Indigenous Peoples\u2019／Columbus Day）不在这个名单里，' +
+          '那天走的是平日表、傍晚有高峰加密班次</strong>——这一点对备用窗口有用。' +
+          '官方另注明「All schedules are subject to change without notice」。' +
+          '官方把「晚于表定时刻 6 分钟以上」定义为延误，可向站务索取延误证明',
         parking: 'Whitehall Terminal 没有游客停车场。强烈建议地铁',
         walk: '<strong>1 号线 South Ferry 站</strong>直连候船大厅；' +
           '<strong>R/W 线 Whitehall Street 站</strong>与 <strong>4/5 线 Bowling Green 站</strong>步行 3–5 分钟。' +
