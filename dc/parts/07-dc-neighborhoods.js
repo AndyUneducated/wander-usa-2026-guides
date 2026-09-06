@@ -308,7 +308,7 @@ module.exports = {
       images: [
         { url: 'img/exorcist-steps-50391769906-ca13a718.png',
           cap: '阶梯全貌与两侧夹壁 · Ben Schumin / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Looking_up_the_Exorcist_steps_in_Georgetown._-_panoramio.jpg',
+        { url: 'img/looking-up-the-exorcist-steps-in-georgetown-panoramio-9189f7ba.jpg',
           cap: '自底部仰视 75 级台阶 · olekinderhook / CC BY 3.0' },
         { url: 'img/exorcist-steps-3-ebb3e8f9.jpg',
           cap: '阶梯与 Georgetown Car Barn 挡土墙 · APK / CC BY-SA 4.0' }
@@ -586,7 +586,7 @@ module.exports = {
       images: [
         { url: 'img/national-cathedral-in-dc-38a996bf.jpg',
           cap: '座堂全景与中央塔 · Siubo11A / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/55/Space_Window_-_South_Nave_Bay_E_-_National_Cathedral_-_DC.JPG',
+        { url: 'img/space-window-south-nave-bay-e-national-cathedral-dc-531f7b3a.jpg',
           cap: '中殿南侧高窗上的 Space Window · Tim Evanson / CC BY-SA 2.0' },
         { url: 'img/washington-national-cathedral-from-bishop-s-garden-eb6d6616.jpg',
           cap: '自 Bishop\'s Garden 仰望南立面 · Ron Dicker / CC BY-SA 4.0' }

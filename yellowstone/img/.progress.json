@@ -1,32 +1,15 @@
 {
  "region": "yellowstone",
- "pid": 7543,
- "total": 49,
- "done": 49,
- "ok": 45,
+ "pid": 57772,
+ "total": 4,
+ "done": 1,
+ "ok": 1,
  "skipped": 0,
- "failed": 4,
- "current": null,
- "phase": "done-with-failures",
- "started_at": 1788607556.131718,
- "updated_at": 1788610600.4906082,
- "finished": true,
- "recent_failures": [
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Beartooth_Highway_-_Cooke_City_-_NARA_-_7717221.jpg",
-   "why": "HTTP Error 429: Too Many Requests (015d12c)"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/St._Mary%27s_Mission_to_the_Salish_%28Flathead%29%2C_Stevensville%2C_Montana.png",
-   "why": "HTTP Error 429: Too Many Requests (015d12c)"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Hotel_Finlen-Uptown_Butte.JPG",
-   "why": "HTTP Error 429: Too Many Requests (015d12c)"
-  },
-  {
-   "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Beartooth_Highway_-_Pilot_Peak_-_NARA_-_7717278.jpg",
-   "why": "HTTP Error 429: Too Many Requests (015d12c)"
-  }
- ]
+ "failed": 0,
+ "current": "[2/4] st-mary-s-mission-to-the-salish-flathead-stevensville-montan-159c9290",
+ "phase": "downloading",
+ "started_at": 1788681803.817018,
+ "updated_at": 1788682199.126167,
+ "finished": false,
+ "recent_failures": []
 }

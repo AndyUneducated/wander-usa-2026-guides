@@ -6,3 +6,5 @@
 
 | 本地文件 | 原始地址 |
 | --- | --- |
+| `looking-up-the-exorcist-steps-in-georgetown-panoramio-9189f7ba.jpg` | <https://upload.wikimedia.org/wikipedia/commons/c/c3/Looking_up_the_Exorcist_steps_in_Georgetown._-_panoramio.jpg> |
+| `space-window-south-nave-bay-e-national-cathedral-dc-531f7b3a.jpg` | <https://upload.wikimedia.org/wikipedia/commons/5/55/Space_Window_-_South_Nave_Bay_E_-_National_Cathedral_-_DC.JPG> |
