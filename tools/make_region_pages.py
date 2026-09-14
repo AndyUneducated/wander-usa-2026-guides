@@ -16,7 +16,7 @@ TEMPLATE = '''<!DOCTYPE html>
 <title>{title}</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="../assets/style.css?v=20260905b">
+<link rel="stylesheet" href="../assets/style.css?v=20260914a">
 </head>
 <body>
 
@@ -24,6 +24,7 @@ TEMPLATE = '''<!DOCTYPE html>
   <div class="topbar-inner">
     <span class="brand"><a href="../" style="color:inherit;text-decoration:none">🧭 Wander USA 2026</a> / {brand}</span>
     <nav id="region-nav">
+      <a href="../all.html">全部景点</a>
       <a href="#overview">总览</a>
     </nav>
   </div>
@@ -65,29 +66,29 @@ TEMPLATE = '''<!DOCTYPE html>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
 <script src="data.js?v=20260905b"></script>
-<script src="../assets/app.js?v=20260905b"></script>
-<script src="intro.js?v=20260905b"></script>
+<script src="../assets/app.js?v=20260914a"></script>
+<script src="intro.js?v=20260914a"></script>
 </body>
 </html>
 '''
 
 PAGES = {
     'yellowstone': {
-        'title': 'Yellowstone + Grand Teton 摄影地点手册 · Wander USA 2026',
+        'title': 'Yellowstone + Grand Teton 旅行手册 · Wander USA 2026',
         'brand': 'Yellowstone',
-        'h1': 'Yellowstone + Grand Teton 摄影地点手册',
+        'h1': 'Yellowstone + Grand Teton 旅行手册',
         'sub': 'Yellowstone National Park · Grand Teton National Park · Western Montana ｜ 地热盆地、野生动物谷地、Beartooth 高线与剧集取景地',
     },
     'nyc': {
-        'title': 'New York 区域摄影地点手册 · Wander USA 2026',
+        'title': 'New York 区域旅行手册 · Wander USA 2026',
         'brand': 'New York 区域',
-        'h1': 'New York 区域摄影地点手册',
-        'sub': 'New York City · Boston · Hudson Valley ｜ 天际线机位、地标建筑、博物馆与新英格兰秋色',
+        'h1': 'New York 区域旅行手册',
+        'sub': 'New York City · Boston · Hudson Valley ｜ 必去地标、博物馆与新英格兰秋色，附摄影机位',
     },
     'dc': {
-        'title': 'Washington DC 区域摄影地点手册 · Wander USA 2026',
+        'title': 'Washington DC 区域旅行手册 · Wander USA 2026',
         'brand': 'Washington DC 区域',
-        'h1': 'Washington DC 区域摄影地点手册',
+        'h1': 'Washington DC 区域旅行手册',
         'sub': 'Washington DC · Philadelphia · Virginia 与 Maryland ｜ 纪念建筑群、Smithsonian 各馆、建国史迹与庄园',
     },
 }

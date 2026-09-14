@@ -80,11 +80,12 @@
     }).join('') + '</div>';
   }
 
-  function renderTags(tags) {
-    if (!tags || !tags.length) return '';
-    return '<div class="tags">' + tags.map(function (t) {
+  function renderTags(tags, extra) {
+    var items = (tags || []).map(function (t) {
       return '<span class="tag ' + (t.c || '') + '">' + esc(t.t) + '</span>';
-    }).join('') + '</div>';
+    }).join('');
+    if (!items && !extra) return '';
+    return '<div class="tags">' + (extra || '') + items + '</div>';
   }
 
   /* 卡头评分。主评分是「必去价值」（传统旅游价值），摄影价值作为副行。
@@ -103,19 +104,44 @@
       '</div>';
   }
 
-  function renderCard(s) {
+  /* 收起状态下最该看到的一条硬信息：要待多久。
+     完整的票价与开放时间在展开后的可达性表里。 */
+  function renderMeta(s) {
+    var visit = (s.access || {}).visit;
+    if (!visit) return '';
+    /* visit 是带 <strong> 的富文本，卡头只要个短标签，所以取首个数字区间 */
+    var plain = String(visit).replace(/<[^>]+>/g, '');
+    var m = plain.match(/[\d.]+\s*[–\-~]\s*[\d.]+\s*(小时|分钟|min|h)|[\d.]+\s*(小时|分钟|min|h)/);
+    return '<span class="meta-chip" title="' + esc(plain) + '">⏱ ' +
+      esc(m ? m[0] : plain.slice(0, 14)) + '</span>';
+  }
+
+  /* 供搜索框匹配的纯文本。标签与 tldr 里的信息量最大，正文太长反而会让
+     搜索结果失去区分度，所以只索引标题、结论与标签。 */
+  function searchBlob(s, regionName) {
+    return [s.en, s.name, s.id, regionName, String(s.tldr || ''),
+      (s.tags || []).map(function (t) { return t.t; }).join(' ')]
+      .join(' ').replace(/<[^>]+>/g, '').toLowerCase();
+  }
+
+  function renderCard(s, regionName) {
     /* details/summary：默认收起，点标题展开。打印时 CSS 会强制全部展开 */
-    var h = '<details class="card' + (s.gone ? ' gone' : '') + '" id="' + esc(s.id) + '">';
+    var thumb = (s.images && s.images[0] && s.images[0].url) || '';
+    var h = '<details class="card' + (s.gone ? ' gone' : '') + '" id="' + esc(s.id) +
+      '" data-search="' + esc(searchBlob(s, regionName)) + '">';
     h += '<summary class="card-head">' +
       /* gone 的点位也保留编号：否则可见编号会出现空档，
          且同一分区有多个 gone 时地图上会出现多个无法区分的标记。
          「不可抵达」靠红色与删除线表达，见 style.css 的 .card.gone .card-num */
       '<div class="card-num">' + s.n + '</div>' +
+      (thumb
+        ? '<div class="card-thumb"><img loading="lazy" src="' + thumb + '" alt=""></div>'
+        : '<div class="card-thumb card-thumb-empty" aria-hidden="true"></div>') +
         '<div class="card-title"><h3>' + esc(s.en) +
         (s.name ? ' <span class="zh">' + esc(s.name) + '</span>' : '') + '</h3>' +
       (s.gone ? '<span class="gone-flag">' + esc(s.gone) + '</span>' : '') +
       (s.tldr ? '<div class="tldr">' + s.tldr + '</div>' : '') +
-      renderTags(s.tags) + '</div>' +
+      renderTags(s.tags, renderMeta(s)) + '</div>' +
       (s.gone ? '' : renderScore(s)) +
       '<span class="expand" aria-hidden="true">' +
       '<span class="lbl-shut">展开详情</span><span class="lbl-open">收起</span>' +
@@ -128,12 +154,26 @@
     if (s.highlights) h += '<div class="row"><div class="k">核心看点</div>' + renderList(s.highlights) + '</div>';
     if (s.tour) h += '<div class="row"><div class="k">游览要点</div>' + renderList(s.tour) + '</div>';
     if (s.access) h += '<div class="row"><div class="k">可达性</div>' + renderAccess(s.access) + '</div>';
-    if (s.photo) h += '<div class="row photo-row"><div class="k">摄影价值（辅助）</div><div class="v">' + s.photo + '</div></div>';
-    if (s.shots && s.shots.length) {
-      h += '<div class="row photo-row"><div class="k">摄影机位（可直接导航）</div>' +
-        s.shots.map(renderSpot).join('') + '</div>';
-    }
     if (s.notes) h += '<div class="row"><div class="k">注意事项</div>' + renderList(s.notes) + '</div>';
+    /* 摄影内容整体折叠：这本手册以游玩为主，机位是给有需要的人的附加信息，
+       默认展开会把「看什么、要多久」挤到屏幕外面去。
+
+       但 socal 是已经走完的摄影自驾，那批条目没有 tour 字段，摄影内容就是
+       它们的主体；一并折叠等于把整张卡片清空。所以只对已改版的条目折叠，
+       未改版的条目仍按原样平铺显示。 */
+    var fold = !!(s.tour && s.tour.length);
+    if (s.photo || (s.shots && s.shots.length)) {
+      h += '<details class="photo-fold"' + (fold ? '' : ' open') + '><summary>📷 摄影参考' +
+        (s.score != null ? '（摄影价值 ' + s.score + '/5' +
+          (s.shots && s.shots.length ? ' · ' + s.shots.length + ' 个机位' : '') + '）' : '') +
+        '</summary><div class="photo-fold-body">' +
+        (s.photo ? '<div class="row"><div class="k">摄影价值</div><div class="v">' + s.photo + '</div></div>' : '') +
+        (s.shots && s.shots.length
+          ? '<div class="row"><div class="k">机位（可直接导航）</div>' +
+            s.shots.map(renderSpot).join('') + '</div>'
+          : '') +
+        '</div></details>';
+    }
     if (s.images) h += '<div class="row"><div class="k">参考图</div>' + renderImages(s.images) + '</div>';
     h += '</div></details>';
     return h;
@@ -212,7 +252,7 @@
         '<button type="button" data-act="open" data-region="' + r.id + '">展开全部</button>' +
         '<button type="button" data-act="close" data-region="' + r.id + '">收起全部</button>' +
         '</div>' +
-        r.spots.map(renderCard).join('') +
+        r.spots.map(function (s) { return renderCard(s, r.name); }).join('') +
         '</div>';
       root.appendChild(sec);
 
@@ -295,6 +335,62 @@
     });
 
     wrapWideTables();
+    buildSearch();
+  }
+
+  /* ---------- 搜索 ----------
+     装在 sticky 顶栏里，全页所有分区的卡片一起过滤。匹配为空的分区整块隐藏，
+     否则页面上会留下一串只有标题和地图的空壳。 */
+  function buildSearch() {
+    var bar = document.querySelector('.topbar-inner');
+    if (!bar || document.getElementById('q')) return;
+    var cards = Array.prototype.slice.call(document.querySelectorAll('details.card'));
+    if (!cards.length) return;
+
+    var box = document.createElement('div');
+    box.className = 'searchbox';
+    box.innerHTML =
+      '<input id="q" type="search" autocomplete="off" placeholder="搜索景点（名称 / 标签 / 结论）">' +
+      '<span class="search-count" id="q-count"></span>';
+    bar.appendChild(box);
+
+    var input = box.querySelector('#q');
+    var count = box.querySelector('#q-count');
+
+    function apply() {
+      var q = input.value.trim().toLowerCase();
+      var hits = 0;
+      cards.forEach(function (c) {
+        var ok = !q || (c.dataset.search || '').indexOf(q) > -1;
+        c.hidden = !ok;
+        if (ok) hits++;
+        if (q && ok) c.open = true;
+        if (!q) c.open = false;
+      });
+      /* 分区与其地图一起隐藏 */
+      document.querySelectorAll('#regions > section').forEach(function (sec) {
+        var any = sec.querySelector('details.card:not([hidden])');
+        sec.hidden = !!q && !any;
+      });
+      count.textContent = q ? hits + ' 个匹配' : '';
+      count.classList.toggle('zero', !!q && hits === 0);
+    }
+
+    /* 结果在总览与地图下面，不滚一下等于看不见。只在刚开始输入时滚一次，
+       之后每敲一个字都滚会把页面拽得停不下来。 */
+    var wasEmpty = true;
+    input.addEventListener('input', function () {
+      apply();
+      var nowEmpty = !input.value.trim();
+      if (wasEmpty && !nowEmpty) {
+        var first = document.querySelector('#regions > section:not([hidden])');
+        if (first) first.scrollIntoView({ block: 'start' });
+      }
+      wasEmpty = nowEmpty;
+    });
+    input.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { input.value = ''; apply(); input.blur(); }
+    });
   }
 
   /* 把还没套滚动容器的表格包进 .tbl-scroll。

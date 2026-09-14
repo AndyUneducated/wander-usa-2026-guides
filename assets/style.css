@@ -1,4 +1,4 @@
-/* ===== 加州海岸摄影执行报告 · 样式 ===== */
+/* ===== Wander USA 2026 · 旅行执行手册 · 样式 ===== */
 
 :root {
   --bg: #0f1115;
@@ -20,7 +20,9 @@
 
 * { box-sizing: border-box; }
 
-html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+/* 顶栏加了搜索框后在常见视口下会换到第二行，锚点跳转的留白要跟着加高，
+   否则卡头会被压在顶栏底下。 */
+html { scroll-behavior: smooth; scroll-padding-top: 96px; }
 
 body {
   margin: 0;
@@ -60,9 +62,34 @@ a:hover { text-decoration: underline; }
   border-color: var(--line); text-decoration: none;
 }
 
+/* ---------- 顶栏搜索 ---------- */
+.searchbox { margin-left: auto; display: flex; align-items: center; gap: 9px; }
+.searchbox input {
+  width: 236px; max-width: 46vw;
+  background: var(--bg-card); border: 1px solid var(--line); color: var(--text);
+  border-radius: 999px; padding: 6px 14px; font-size: 13px; font-family: inherit;
+  transition: border-color .15s, box-shadow .15s, width .2s;
+}
+.searchbox input::placeholder { color: var(--text-faint); }
+.searchbox input:focus {
+  outline: none; border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+.search-count { font-size: 12px; color: var(--text-faint); white-space: nowrap; }
+.search-count.zero { color: var(--red); }
+
 /* ---------- 头图 ---------- */
-.hero { padding: 64px 0 40px; border-bottom: 1px solid var(--line); }
-.hero h1 { font-size: 40px; line-height: 1.25; margin: 0 0 14px; letter-spacing: -.01em; }
+.hero {
+  padding: 64px 0 40px; border-bottom: 1px solid var(--line);
+  position: relative; overflow: hidden;
+  background:
+    radial-gradient(1100px 420px at 12% -18%, rgba(255, 138, 61, .16), transparent 70%),
+    radial-gradient(900px 380px at 92% 0%, rgba(77, 163, 255, .13), transparent 70%);
+}
+.hero h1 {
+  font-size: 40px; line-height: 1.25; margin: 0 0 14px; letter-spacing: -.015em;
+  font-weight: 750;
+}
 .hero .sub { color: var(--text-dim); font-size: 17px; margin: 0 0 26px; }
 .hero-meta { display: flex; gap: 10px; flex-wrap: wrap; }
 .chip {
@@ -71,6 +98,19 @@ a:hover { text-decoration: underline; }
   border-radius: 999px; padding: 6px 14px; font-size: 13px; color: var(--text-dim);
 }
 .chip b { color: var(--text); font-weight: 600; }
+
+.hero-cta { margin: 20px 0 0; }
+.hero-cta a {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 9px 20px; border-radius: 999px; font-size: 14px; font-weight: 600;
+  color: var(--accent); background: var(--accent-soft);
+  border: 1px solid rgba(255, 138, 61, .42);
+  transition: background .15s, box-shadow .2s, transform .15s;
+}
+.hero-cta a:hover {
+  text-decoration: none; background: rgba(255, 138, 61, .22);
+  box-shadow: 0 8px 22px rgba(255, 138, 61, .15); transform: translateY(-1px);
+}
 
 /* ---------- 通用区块 ---------- */
 section { padding: 52px 0; border-bottom: 1px solid var(--line); }
@@ -151,10 +191,18 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   background: var(--bg-card); border: 1px solid var(--line);
   border-left: 3px solid var(--line);
   border-radius: var(--radius); margin-bottom: 12px; overflow: hidden;
-  transition: border-color .15s, box-shadow .15s;
+  transition: border-color .15s, box-shadow .2s, transform .2s;
 }
-.card:hover { border-left-color: var(--accent); }
-.card[open] { margin-bottom: 22px; border-left-color: var(--accent); }
+.card:hover {
+  border-left-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, .34);
+}
+.card[open] {
+  margin-bottom: 22px; border-left-color: var(--accent);
+  transform: none; box-shadow: var(--shadow);
+}
+.card[hidden] { display: none; }
 .card-head {
   padding: 15px 20px; cursor: pointer; list-style: none;
   display: flex; align-items: center; gap: 15px; flex-wrap: wrap;
@@ -244,6 +292,30 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   display: flex; align-items: center; justify-content: center;
   font-weight: 700; font-size: 15px; border: 1px solid rgba(255,138,61,.3);
 }
+/* 卡头缩略图。全站有近 600 张本地图片，改版前它们全被关在折叠区里，
+   页面因此通篇是文字块；把第一张提到卡头是这次视觉改动里收益最大的一处。 */
+.card-thumb {
+  flex: 0 0 auto; width: 112px; height: 76px; border-radius: 10px;
+  overflow: hidden; background: var(--bg-soft); border: 1px solid var(--line);
+}
+.card-thumb img {
+  width: 100%; height: 100%; object-fit: cover; display: block;
+  transition: transform .45s cubic-bezier(.2, .7, .3, 1); transform-origin: center;
+}
+.card-head:hover .card-thumb img { transform: scale(1.07); }
+.card-thumb-empty {
+  background:
+    repeating-linear-gradient(135deg, var(--bg-soft) 0 8px, rgba(255,255,255,.03) 8px 16px);
+}
+.card.gone .card-thumb img { filter: grayscale(1) brightness(.65); }
+
+/* 收起状态下的硬信息标签：参观时长 */
+.meta-chip {
+  font-size: 11.5px; padding: 2px 9px; border-radius: 999px; font-weight: 600;
+  color: var(--accent); background: var(--accent-soft);
+  border: 1px solid rgba(255, 138, 61, .32); white-space: nowrap;
+}
+
 .card-title { flex: 1 1 320px; min-width: 0; }
 .card-title h3 { margin: 0 0 3px; font-size: 20px; line-height: 1.35; }
 /* 标题格式：English 中文 */
@@ -266,6 +338,29 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .row ul { margin: 6px 0; padding-left: 20px; }
 .row li { margin-bottom: 5px; color: var(--text-dim); }
 .row li::marker { color: var(--text-faint); }
+
+/* 摄影参考折叠区。这本手册以游玩为主，摄影是附加信息，
+   所以整块收起、用中性色，不与正文的橙色标题抢注意力。 */
+.photo-fold {
+  margin-top: 18px; border: 1px dashed var(--line); border-radius: 10px;
+  background: rgba(255, 255, 255, .015);
+}
+.photo-fold > summary {
+  cursor: pointer; list-style: none; padding: 10px 14px;
+  font-size: 12.5px; font-weight: 600; color: var(--text-faint);
+  display: flex; align-items: center; gap: 8px;
+}
+.photo-fold > summary::-webkit-details-marker { display: none; }
+.photo-fold > summary::marker { content: ''; }
+.photo-fold > summary::after {
+  content: '展开 ▾'; margin-left: auto;
+  font-size: 11px; padding: 2px 9px; border-radius: 999px;
+  border: 1px solid var(--line); opacity: .8;
+}
+.photo-fold[open] > summary::after { content: '收起 ▴'; }
+.photo-fold > summary:hover { color: var(--text-dim); }
+.photo-fold-body { padding: 4px 14px 14px; }
+.photo-fold-body .row > .k { color: var(--text-faint); }
 
 /* 机位块 */
 .spot {
@@ -341,6 +436,74 @@ code {
 }
 .card-body, .callout, .plan td, .plan th { overflow-wrap: break-word; }
 
+/* ---------- 全部景点总表（all.html） ---------- */
+.xr-sort {
+  background: var(--bg-card); border: 1px solid var(--line); color: var(--text-dim);
+  border-radius: 999px; padding: 6px 15px; font-size: 13px; cursor: pointer;
+  font-family: inherit; transition: background .15s, color .15s, border-color .15s;
+}
+.xr-sort:hover { background: var(--bg-soft); color: var(--text); }
+.xr-sort.on {
+  background: var(--accent-soft); color: var(--accent);
+  border-color: rgba(255, 138, 61, .45); font-weight: 600;
+}
+
+.xr-list { display: flex; flex-direction: column; gap: 8px; }
+.xr-row {
+  display: flex; align-items: center; gap: 14px;
+  padding: 10px 14px; border-radius: 12px;
+  background: var(--bg-card); border: 1px solid var(--line);
+  border-left: 3px solid transparent;
+  color: inherit; text-decoration: none;
+  transition: border-color .15s, transform .15s, box-shadow .2s;
+}
+.xr-row:hover {
+  text-decoration: none; border-left-color: var(--accent);
+  transform: translateX(3px); box-shadow: 0 8px 22px rgba(0, 0, 0, .3);
+}
+.xr-thumb {
+  flex: 0 0 auto; width: 84px; height: 60px; border-radius: 9px; overflow: hidden;
+  background: var(--bg-soft); border: 1px solid var(--line);
+}
+.xr-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.xr-thumb-empty {
+  background: repeating-linear-gradient(135deg, var(--bg-soft) 0 8px, rgba(255,255,255,.03) 8px 16px);
+}
+.xr-main { flex: 1 1 auto; min-width: 0; display: block; }
+.xr-name { display: block; font-size: 15.5px; font-weight: 600; line-height: 1.4; }
+.xr-name i { color: var(--text-faint); font-size: 13px; font-style: normal; font-weight: 500; }
+.xr-where { display: block; font-size: 12px; color: var(--text-faint); margin-top: 1px; }
+.xr-tldr {
+  display: block; font-size: 12.5px; color: var(--text-dim); margin-top: 3px;
+  /* 总表一行只留一行结论，完整内容在地域手册里 */
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.xr-side {
+  flex: 0 0 auto; text-align: right; display: flex; flex-direction: column;
+  align-items: flex-end; gap: 3px;
+}
+.xr-must { font-size: 12px; color: var(--text-faint); white-space: nowrap; }
+.xr-must b { color: var(--yellow); font-size: 16px; font-weight: 700; margin-right: 5px; }
+.xr-stars { color: var(--yellow); letter-spacing: .5px; opacity: .85; }
+.xr-nomust { opacity: .6; }
+.xr-visit { font-size: 11.5px; color: var(--accent); white-space: nowrap; }
+.xr-gone { opacity: .55; }
+.xr-gone .xr-name { color: var(--red); text-decoration: line-through; }
+.xr-none { color: var(--text-dim); }
+
+@media (max-width: 720px) {
+  .xr-thumb { width: 62px; height: 46px; }
+  .xr-tldr { display: none; }
+  .xr-row { gap: 10px; padding: 9px 11px; }
+  .xr-name { font-size: 14px; }
+  .xr-name i { display: none; }
+  .xr-stars { display: none; }
+}
+
+@media (max-width: 480px) {
+  .search-count { display: none; }
+}
+
 footer { padding: 40px 0 64px; color: var(--text-faint); font-size: 13px; }
 footer p { margin: 5px 0; }
 
@@ -351,13 +514,37 @@ footer p { margin: 5px 0; }
   .map { height: 340px; }
   .card-head, .card-body { padding-left: 16px; padding-right: 16px; }
   .access td:first-child { width: 96px; }
+  /* 窄屏把缩略图压小，卡头才不会挤成三行 */
+  .card-thumb { width: 72px; height: 54px; }
+  .card-head { gap: 11px; }
+  .card-score { margin-left: auto; }
+
+  /* 顶栏在窄屏上必须压到两行：第一行标题加搜索，第二行导航横向滚动。
+     否则 7–8 个分区的导航会折成三四行，粘顶的顶栏吃掉小半屏，
+     跳转过去的分区标题正好被压在它底下。 */
+  .topbar-inner { gap: 8px 10px; }
+  /* flex 换行是按 flex-basis 判定的，basis 留 auto 会按标题全长算，
+     搜索框就被挤到第三行去了。所以这里给一个很小的 basis。 */
+  .topbar .brand {
+    flex: 1 1 130px; min-width: 0; font-size: 14px;
+    overflow: hidden; text-overflow: ellipsis;
+  }
+  .searchbox { order: 2; flex: 0 0 auto; margin-left: auto; }
+  .searchbox input { width: 148px; max-width: 42vw; }
+  .topbar nav {
+    order: 3; flex: 1 1 100%; flex-wrap: nowrap;
+    overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  }
+  .topbar nav::-webkit-scrollbar { display: none; }
 }
 
 @media print {
   body { background: #fff; color: #111; }
-  .topbar, .map-hint, .card-toolbar, .card .expand { display: none; }
+  .topbar, .map-hint, .card-toolbar, .card .expand, .searchbox { display: none; }
   /* 打印时强制展开所有卡片 */
   .card > .card-body { display: block !important; }
+  .photo-fold > summary::after { display: none; }
+  .photo-fold > *:not(summary) { display: block !important; }
   .card .tldr { display: none !important; }
   details.callout > summary.title::after { display: none; }
   details.callout > *:not(summary) { display: block !important; }
