@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>全部景点总表 · Wander USA 2026</title>
+<link rel="stylesheet" href="assets/style.css?v=20260914a">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <span class="brand"><a href="./" style="color:inherit;text-decoration:none">🧭 Wander USA 2026</a> / 全部景点</span>
+    <nav>
+      <a href="nyc/">New York</a>
+      <a href="dc/">Washington DC</a>
+      <a href="yellowstone/">Yellowstone</a>
+      <a href="socal/">加州海岸</a>
+    </nav>
+    <div class="searchbox">
+      <input id="q" type="search" autocomplete="off" placeholder="搜索全部景点（名称 / 地域 / 标签）">
+      <span class="search-count" id="q-count"></span>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>全部景点总表</h1>
+    <p class="sub">四个地域的景点汇在一页，默认按<b>必去价值</b>从高到低排。点任意一条跳到该地域手册里的完整卡片。</p>
+    <div class="hero-meta">
+      <button class="xr-sort on" data-sort="must">必去价值优先</button>
+      <button class="xr-sort" data-sort="region">按地域顺序</button>
+    </div>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <p id="xr-loading" class="section-lead">正在载入四个地域的数据…</p>
+    <div id="xr" class="xr-list"></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>必去价值是给「第一次来这个地域的普通游客」的排序依据；摄影价值收在各景点卡片的折叠区里。</p>
+    <p>未评必去价值的条目来自已走完的加州海岸摄影自驾，保留原样不再改动。</p>
+  </div>
+</footer>
+
+<script src="assets/all.js?v=20260914a"></script>
+</body>
+</html>
