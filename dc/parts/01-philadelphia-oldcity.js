@@ -116,6 +116,7 @@ module.exports = {
       n: 1,
       name: '独立厅',
       en: 'Independence Hall',
+      must: 5,
       score: 4.5,
       tldr: '9:00–9:50 免票 open house 已核实仍在，是最佳拍摄窗口；但主立面朝正北，10 月 11 日后全天不受光。',
       tags: [
@@ -145,6 +146,42 @@ module.exports = {
         '<strong>2025 年 3 月启动的 Independence Square Improvement Project 已按计划在 2026 年 7 月前完工</strong>' +
           '（含 2025/11/13–2026/1/28 的整楼闭馆），内容包括无障碍坡道、木构与砖石修复、' +
           '按史料复原的天花与墙面漆色。<strong>也就是说你现在看到的室内是刚修完的状态，无脚手架。</strong>'
+      ],
+      tour: [
+        '<strong>先搞清楚你买的票只管一栋楼。</strong>过完 5th Street 安检后，' +
+          '你身处的 Independence Square 安检区里有<strong>四个可看的地方</strong>：' +
+          'Independence Hall（需票或 open house）、<strong>Congress Hall</strong>、<strong>Old City Hall</strong>、' +
+          '以及西翼的 <strong>Great Essentials Exhibit</strong>——<strong>后三个全部免票、自由进出</strong>。' +
+          '很多人拿着票进来只看了 20 分钟就走了，等于把同一趟安检的三分之二浪费掉。' +
+          '合理顺序是：<strong>Independence Hall（按你的票时间）→ 西翼 Great Essentials → Congress Hall → Old City Hall</strong>。',
+        '<strong>Assembly Room 里只有三样东西值得你把眼睛停下来。</strong>' +
+          '① <strong>Rising Sun Chair</strong>——Washington 主持制宪会议时坐的那把，在房间正前方，' +
+          '椅背顶端刻着半个太阳，Franklin 在闭幕时说他终于确定那是旭日而不是落日；' +
+          '② 铺着<strong>绿呢桌布的代表桌</strong>与桌上的文具，房间是按 1787 年的清单复原的，不是原样保存；' +
+          '③ 隔壁的 <strong>Supreme Court Chamber</strong>（宾州最高法院庭），大多数人只顾着看 Assembly Room 就走过去了。' +
+          '<strong>注意：房间只能站在栏杆外看，不能走进去。</strong>',
+        '<strong>真正的原件不在 Independence Hall 里，在西翼。</strong>' +
+          'Great Essentials Exhibit 展出《独立宣言》《邦联条例》《宪法》的<strong>存世早期印本</strong>，' +
+          '以及签署《独立宣言》与《宪法》时实际使用的 <strong>Syng inkstand（银质墨水台）</strong>。' +
+          '<strong>这是全区最容易被漏掉、却最有实物分量的一处</strong>，而且免票、不用排队、几乎没人。' +
+          '给它 15 分钟。',
+        '<strong>Congress Hall 值 25 分钟，Old City Hall 十分钟就够。</strong>' +
+          'Congress Hall 是 1790–1800 年费城当首都期间<strong>美国国会的实际所在地</strong>——' +
+          '一楼众议院、二楼参议院，<strong>Washington 的第二次就职与 John Adams 的就职都在这栋楼里</strong>，' +
+          '室内陈设的完整度其实超过 Independence Hall，而且<strong>可以走进房间</strong>。' +
+          'Old City Hall 是 1791–1800 年美国最高法院的办公处，房间小、展陈简单，' +
+          '<strong>时间紧的话这一栋可以直接跳过</strong>。',
+        '<strong>排队与安检的实际流程</strong>：安检口在<strong>建筑南侧的 5th Street 上</strong>（Chestnut 与 Walnut 之间），' +
+          '不是 Chestnut Street 的正门。<strong>8:45 开检</strong>；想赶 9:00–9:50 的免票 open house 请 <strong>8:40 前到</strong>，' +
+          '官方明确说明<strong>受容量限制不保证所有人都能进</strong>。持票者须<strong>提前 30 分钟</strong>到。' +
+          '安检是机场级：过金属探测门、<strong>禁一切刀具与开口食物饮料</strong>（旋盖水瓶可以），' +
+          '<strong>园区内没有寄存柜</strong>，大包有被拒风险。',
+        '<strong>吃饭与洗手间：安检区内一样都没有。</strong>' +
+          '<strong>安检区内没有洗手间</strong>，这是很多人当场才发现的问题——' +
+          '最近的公共洗手间在 <strong>5th & Chestnut 西北角</strong>（每日 9:30–20:00）与 ' +
+          '<strong>Independence Visitor Center（6th & Market，每日 9:00–18:00）</strong>。' +
+          '<strong>进安检前先解决</strong>。餐饮在区内完全没有，最近的正经选择是走 10 分钟到 ' +
+          'Reading Terminal Market，或 Old City 沿 Market Street 的连锁店。'
       ],
       photo: '建筑 <strong>4/5</strong>，人文纪实 <strong>4.5/5</strong>，风光 <strong>1/5</strong>。' +
         '加分在 open house 那 50 分钟能自由控制站位；扣分全在朝向——正立面秋季永远是阴面，' +
@@ -196,6 +233,13 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>整个 Independence Square 安检区建议 2–2.5 小时</strong>，分配：' +
+          '安检排队 15–30 分钟；<strong>Independence Hall 本体 20 分钟</strong>' +
+          '（ranger 团按每 20 分钟一场发团，团长约 20 分钟——由发团间隔推算）；' +
+          '<strong>9:00–9:50 的 open house 自助时段可以自己控制，实际 30–50 分钟</strong>；' +
+          '西翼 Great Essentials 15 分钟；Congress Hall 25 分钟；Old City Hall 10 分钟。' +
+          '<strong>只看 Independence Hall 一栋、含安检，预留 60 分钟。</strong>' +
+          '<strong>NPS 官方没有给出建议时长</strong>，以上为按建筑数量与导览团时长的合理推算。',
         book: '<strong>9:00–9:50 的 open house 不需预约、不需票</strong>；' +
           '10:00 之后的每场导览<strong>必须持定时票</strong>。票在 <strong>recreation.gov</strong> 或电话 ' +
           '1-877-444-6777（10:00–24:00）预订，<strong>每账号最多 10 张</strong>。' +
@@ -203,11 +247,21 @@ module.exports = {
           '<strong>② 次日批在前一天 17:00 放</strong>，先到先得，未订完的票会一直挂到开团时间。' +
           '<strong>没抢到票怎么办：直接去赶 9:00 open house</strong>，这是官方制度而不是漏洞；' +
           '或者当天 17:00 盯次日批；或者反复刷 recreation.gov 捡退单（<strong>但票一经预订不退不改</strong>）。' +
-          '持票者须<strong>提前 30 分钟</strong>到安检口，迟到不保证入场。',
+          '持票者须<strong>提前 30 分钟</strong>到安检口，迟到不保证入场。' +
+          '<strong>2026-09-13 重新核实：上述两批放票规则、每账号 10 张上限、$1 手续费、' +
+          '以及「未订完的票会一直挂到开团时间」这几条在 recreation.gov 与 nps.gov 上均一字未改，' +
+          '2026 年十月适用。</strong>' +
+          '<strong>唯一的例外是七月（7/1–7/4 与 7/14 不需票），与十月无关。</strong>' +
+          '换算到本次行程：<strong>10 月 13 日的提前批在 9 月 13 日放，10 月 26 日的在 9 月 26 日放</strong>' +
+          '（按官方举例的 30 天滚动窗口推算）。',
         ticket: '<strong>门票本身免费</strong>，但需票时收 <strong>$1.00／张的手续费</strong>，' +
-          '<strong>Interagency Pass（美国国家公园年票）不覆盖这笔费用</strong>。' +
-          '外景与 Independence Square 完全免费。',
-        hours: '官方原文（nps.gov/inde/planyourvisit/hours.htm，2026 年 8 月 17 日更新）：' +
+          '<strong>Interagency Pass（美国国家公园年票）不覆盖这笔费用</strong>，' +
+          '<strong>且一经预订不退不改（官方原文「There are no refunds under any circumstances」）</strong>。' +
+          '外景与 Independence Square 完全免费。' +
+          '<strong>已于 2026-09-13 在 nps.gov/inde/planyourvisit/independencehalltickets.htm（页面标注最后更新 2026 年 2 月 17 日）' +
+          '与 recreation.gov 设施页 234639 重新核实，2026 年十月口径不变。</strong>',
+        hours: '官方原文（nps.gov/inde/planyourvisit/hours.htm，2026 年 8 月 17 日更新；' +
+          '<strong>2026-09-13 重新核实，与 independencehall.htm（2026 年 5 月 14 日更新）一致</strong>）：' +
           '<strong>「9 am–9:50 am: Open house (no tickets required) / 10 am–4 pm: Tours every 20 minutes (tickets required) / ' +
           '4:20 pm: Expanded tour (tickets required and not wheelchair accessible)」</strong>。' +
           '<strong>安检 8:45 开门，闭馆前至少 15 分钟停止安检，团满亦可能提前停</strong>。' +
@@ -236,7 +290,25 @@ module.exports = {
         '<strong>2026 年 7 月的建国 250 周年活动期间曾多次封闭 Market Street 5th–6th 段与人行道</strong>，' +
           '这类临时封路在纪念年内仍可能零星出现，出发前刷一下 nps.gov/inde 的 Alerts 页',
         '同一园区内的 <strong>Edgar Allan Poe National Historic Site 因公用设施改造工程闭馆</strong>' +
-          '（截至 nps.gov 8 月 17 日的口径），如原本想串这一站请删掉'
+          '（截至 nps.gov 8 月 17 日的口径），如原本想串这一站请删掉',
+        '<strong>联邦停摆：若十月发生停摆，本点位会直接关闭。</strong>' +
+          'Independence Hall 由 National Park Service 运营，<strong>拨款中断即锁门</strong>，' +
+          '连同 Congress Hall、Old City Hall、Great Essentials 与整个 Independence Square 安检区一起关，' +
+          '<strong>已预订的 recreation.gov 定时票不会自动退款也不会改期</strong>。' +
+          '<strong>2026-09-13 核实的结论是本次行程窗口（10/13–10/26）风险极低</strong>：' +
+          'FY2027 临时拨款决议 <strong>H.R. 6500 已于 2026 年 9 月 2 日签署成为 Public Law 119-103</strong>，' +
+          '按 FY2026 水平续拨到 <strong>2026 年 12 月 11 日</strong>，' +
+          '也就是说 10 月 1 日的财年切换不会触发停摆。' +
+          '<strong>官方查询渠道（出发前与当天各查一次）</strong>：' +
+          '① 园区实时通告 <strong>nps.gov/inde</strong> 的 Alerts 栏；' +
+          '② 停摆期间 NPS 全站会挂 <strong>doi.gov/shutdown</strong> 的应急告示；' +
+          '③ 拨款进度看 <strong>congress.gov/crs-appropriations-status-table/2027</strong>；' +
+          '④ 园区电话 <strong>215-965-2305</strong>；⑤ 订票问题 recreation.gov <strong>1-877-444-6777</strong>（10:00–24:00）',
+        '<strong>万一停摆，同一天的替代方案全部在步行范围内</strong>：' +
+          'Museum of the American Revolution（私立）、National Constitution Center（私立非营利）、' +
+          'Betsy Ross House（Historic Philadelphia, Inc.）、Christ Church 与墓园（教会）、' +
+          'Reading Terminal Market、City Hall 与 Dilworth Park、Elfreth\'s Alley（公共街道）。' +
+          '<strong>Independence Hall 的外景在 Chestnut Street 人行道上照常可看可拍</strong>'
       ],
       images: [
         { url: 'img/chestnut-street-in-front-of-independence-hall-eff52992.jpg',
@@ -252,6 +324,7 @@ module.exports = {
       n: 2,
       name: '自由钟中心',
       en: 'Liberty Bell Center',
+      must: 4.5,
       score: 3.5,
       tldr: '免票免预约，钟后玻璃墙确实能看到 Independence Hall；但玻璃朝南、全天逆光，避开 12:00–13:30。',
       tags: [
@@ -279,6 +352,42 @@ module.exports = {
           '钻完之后又裂出一道细纹，钟从此哑了，<strong>最后一次敲响是 1846 年 2 月 23 日</strong>。',
         '<strong>不进馆也能拍：钟从 Chestnut Street 一侧的玻璃外墙 24 小时可见</strong>，' +
           '不用排安检。夜间馆内有照明、街上没人，是拍「玻璃盒里的钟」这种冷调城市构图的时段。'
+      ],
+      tour: [
+        '<strong>动线是单向的，走错一次要重排安检。</strong>' +
+          '入口在 <strong>6th & Market</strong>（不是 Chestnut Street 那一头），过安检后沿一条上百米的长廊往南走，' +
+          '<strong>展览全部在走廊左侧</strong>，钟在<strong>最尽头的玻璃展室</strong>，' +
+          '<strong>出口在南端近 Chestnut Street</strong>。' +
+          '也就是说：<strong>你是先看展、最后才见到钟的</strong>，而且出去之后不能原路返回。' +
+          '心里有这个次序，就不会在前半段因为「怎么还没看到钟」而急着快走。',
+        '<strong>展廊真正的内容不是钟的铸造史，而是它怎么变成一个符号。</strong>' +
+          '这口钟原本只是宾州州议会大厦的一口普通报时钟，' +
+          '<strong>「Liberty Bell」这个名字是 1830 年代废奴主义者起的</strong>——' +
+          '他们看中的是钟身那句《利未记》铭文「Proclaim Liberty Throughout All the Land Unto All the Inhabitants Thereof」，' +
+          '把它拿来做废奴的象征；此后妇女参政运动与民权运动接力使用同一个符号。' +
+          '<strong>这条线索是本馆唯一值得慢看的东西</strong>，它解释了为什么一口裂了的哑钟会成为国家象征。' +
+          '展区里有一块<strong>可以用手触摸的铭文复制件</strong>，以及一段带开放式字幕与口述影像的影片。',
+        '<strong>每日 10:00 在钟的观景窗前有 ranger 讲解</strong>（官方 Operating Hours 页列出的固定项目，' +
+          '在 Liberty Bell Center 的 viewing window 集合）。' +
+          '<strong>如果你 9:00 第一批进场，正好可以先安静看完展、10:00 在钟前听这一场</strong>，' +
+          '这是把「20 分钟打卡」变成「值得的一小时」的唯一办法。' +
+          '不听讲解的话，钟本身看两样：<strong>铭文里少一个 n 的「Pensylvania」</strong>，' +
+          '以及那道<strong>宽缝其实是 1840 年代为救音色钻扩出来的修复痕迹、不是原始裂纹</strong>。',
+        '<strong>时间紧就大胆跳过前半段。</strong>' +
+          '展廊是自助式的图文面板加少量实物，<strong>没有必看的原件</strong>（真正的文献原件在 Independence Hall 西翼的 Great Essentials）。' +
+          '赶时间的话直接沿走廊走到底，<strong>10 分钟解决</strong>，不会有实质损失。' +
+          '反过来，如果你已经决定要排 15–55 分钟的队进来，那就别只花 10 分钟。',
+        '<strong>排队与安检</strong>：官方口径等待 <strong>15–55 分钟</strong>，春夏与节假日更长，' +
+          '<strong>9:00 开门那一刻是全天最短的队</strong>。安检要求所有随身物品过 X 光或目视检查，' +
+          '<strong>包括口袋里的东西、医疗设备、婴儿车与轮椅下方</strong>；' +
+          '禁刀具与一切开口食物饮料（旋盖瓶可以）。' +
+          '<strong>安检截止时间三个官方页面不一致（5 分钟 / 10 分钟 / 16:45），按 16:45 规划最安全。</strong>',
+        '<strong>馆内没有洗手间，一间都没有。</strong>' +
+          '这是 NPS 在两个页面上专门加粗提示的事（原文「There are NO restrooms (accessible or otherwise) in the Liberty Bell Center」）。' +
+          '最近的在 <strong>Independence Visitor Center（6th & Market，每日 9:00–18:00）</strong>，就在马路对面；' +
+          '另有 <strong>5th & Chestnut 西北角（每日 9:30–20:00）</strong>与' +
+          '<strong>Franklin Court 的 Benjamin Franklin Museum（每日 9:00–20:00）</strong>。' +
+          '<strong>馆内也没有餐饮</strong>，排队前先在 Visitor Center 解决。'
       ],
       photo: '建筑 <strong>3.5/5</strong>，静物特写 <strong>4/5</strong>，风光 <strong>0.5/5</strong>。' +
         '题材唯一且免费，但光线条件先天不利、可站位窄、人流不断，' +
@@ -319,9 +428,18 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>建议 45–60 分钟</strong>，分配：排队与安检 15–30 分钟；' +
+          '展廊 20 分钟；钟室 10 分钟。' +
+          '<strong>赶时间的最短方案：排队之外只要 10–15 分钟</strong>（直接走到底看钟）。' +
+          '<strong>想听 10:00 的 ranger 讲解则整体按 75 分钟预留。</strong>' +
+          '<strong>NPS 未给出官方建议时长</strong>，以上按单一走廊加一间展室的规模推算，' +
+          '排队区间取自官方公布的 15–55 分钟等待口径。',
         book: '<strong>不需预约、不需票</strong>，先到先得，但必须先过安检。',
-        ticket: '<strong>免费</strong>',
-        hours: '官方原文（nps.gov/inde/planyourvisit/libertybellcenter.htm）：<strong>「Open daily 9 am–5 pm」</strong>，' +
+        ticket: '<strong>免费</strong>（官方原文「Admission is FREE」「There is no fee to visit the Liberty Bell Center」）。' +
+          '<strong>2026-09-13 在 nps.gov/inde/planyourvisit/libertybellcenter.htm 与 nps.gov/places/000/liberty-bell-center.htm 重新核实，' +
+          '无任何收费或预约化的迹象。</strong>',
+        hours: '官方原文（nps.gov/inde/planyourvisit/libertybellcenter.htm，<strong>2026-09-13 重新核实</strong>）：' +
+          '<strong>「Open daily 9 am–5 pm」</strong>，' +
           '<strong>秋季无每周闭馆日</strong>，全年只闭 Thanksgiving、Christmas Day、New Year\'s Day。' +
           '<strong>安检截止时间三个官方页面口径不一</strong>：NPS 主页写「闭馆前至少 5 分钟」、' +
           'NPS 的 Things To Do 页写「10 分钟」、Philadelphia Visitor Center 写「16:45」。' +

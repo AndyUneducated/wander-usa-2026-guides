@@ -87,6 +87,7 @@ def check_region(region: str, problems: list, stats: dict):
         return
 
     n_spots = n_shots = n_imgs = 0
+    n_must = n_tour = n_visit = 0
     seen_ids = {}
 
     for r in data:
@@ -110,6 +111,17 @@ def check_region(region: str, problems: list, stats: dict):
             for f in REQUIRED_SPOT:
                 if s.get(f) in (None, ''):
                     problems.append(('字段', f'{region}/{r.get("id")}/{sid}: 缺 {f}'))
+
+            # 以传统旅游为主的改版新增字段。socal 不在改版范围内，所以这里
+            # 只统计覆盖率、不算问题；覆盖率由 main() 单独打印。
+            if s.get('must') is not None:
+                n_must += 1
+                if not (0 <= s['must'] <= 5):
+                    problems.append(('评分', f'{region}/{sid}: must={s["must"]} 超出 0–5'))
+            if s.get('tour'):
+                n_tour += 1
+            if (s.get('access') or {}).get('visit'):
+                n_visit += 1
 
             # 针脚
             pin = pin_of(s)
@@ -150,7 +162,8 @@ def check_region(region: str, problems: list, stats: dict):
                                         f'纬度 {lats[i][1]:.4f} 高于前一个 {lats[i-1][1]:.4f}，不符合北到南'))
                 break
 
-    stats[region] = {'子地区': len(data), '景点': n_spots, '机位': n_shots, '图片': n_imgs}
+    stats[region] = {'子地区': len(data), '景点': n_spots, '机位': n_shots, '图片': n_imgs,
+                     'must': n_must, 'tour': n_tour, 'visit': n_visit}
 
 
 def check_html(problems: list):
@@ -187,6 +200,17 @@ def main():
             continue
         print(f'  {r:12s} {s["子地区"]:2d} 子地区   {s["景点"]:3d} 景点   '
               f'{s["机位"]:3d} 机位   {s["图片"]:3d} 图片')
+
+    print('\n=== 传统旅游字段覆盖率（socal 不在改版范围内）===')
+    for r in regions:
+        s = stats.get(r)
+        if not s:
+            continue
+        total = s['景点'] or 1
+        flag = '✅' if s['must'] == s['visit'] == s['tour'] == s['景点'] else '…'
+        print(f'  {flag} {r:12s} must {s["must"]:3d}/{s["景点"]:3d}   '
+              f'tour {s["tour"]:3d}/{s["景点"]:3d}   参观时长 {s["visit"]:3d}/{s["景点"]:3d}'
+              f'   ({s["must"] * 100 // total}%)')
 
     remote = stats.get('_remote') or []
     if remote:

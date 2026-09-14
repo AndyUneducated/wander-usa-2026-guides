@@ -62,7 +62,7 @@
   function renderAccess(a) {
     if (!a) return '';
     var rows = [
-      ['预约', a.book], ['门票', a.ticket], ['开放时间', a.hours],
+      ['建议参观时长', a.visit], ['预约', a.book], ['门票', a.ticket], ['开放时间', a.hours],
       ['停车', a.parking], ['步行距离', a.walk]
     ].filter(function (r) { return r[1]; });
     return '<table class="access"><tbody>' + rows.map(function (r) {
@@ -87,6 +87,22 @@
     }).join('') + '</div>';
   }
 
+  /* 卡头评分。主评分是「必去价值」（传统旅游价值），摄影价值作为副行。
+     socal 建站时只有摄影评分，没有 must 字段，这类条目仍按摄影价值显示，
+     否则会把摄影分当成必去分展示出去。 */
+  function renderScore(s) {
+    var hasMust = s.must != null;
+    var prim = hasMust ? s.must : s.score;
+    if (prim == null) return '';
+    var label = (hasMust ? '必去价值 ' : '摄影价值 ') + prim + '/5';
+    return '<div class="card-score">' +
+      '<div class="stars" title="' + label + '">' + stars(prim) + '</div>' +
+      '<span class="score-label">' + label + '</span>' +
+      (hasMust && s.score != null
+        ? '<span class="score-sub">摄影 ' + s.score + '/5</span>' : '') +
+      '</div>';
+  }
+
   function renderCard(s) {
     /* details/summary：默认收起，点标题展开。打印时 CSS 会强制全部展开 */
     var h = '<details class="card' + (s.gone ? ' gone' : '') + '" id="' + esc(s.id) + '">';
@@ -100,22 +116,23 @@
       (s.gone ? '<span class="gone-flag">' + esc(s.gone) + '</span>' : '') +
       (s.tldr ? '<div class="tldr">' + s.tldr + '</div>' : '') +
       renderTags(s.tags) + '</div>' +
-      (s.gone ? '' :
-        '<div class="card-score"><div class="stars" title="摄影价值 ' + s.score + '/5">' +
-        stars(s.score) + '</div><span class="score-label">摄影价值 ' + s.score + '/5</span></div>') +
+      (s.gone ? '' : renderScore(s)) +
       '<span class="expand" aria-hidden="true">' +
       '<span class="lbl-shut">展开详情</span><span class="lbl-open">收起</span>' +
       '<span class="chev">▾</span></span>' +
       '</summary>';
 
     h += '<div class="card-body">';
+    /* 顺序即优先级：普通游客先看「看什么、怎么逛、要多久」，
+       摄影相关的两块排在可达性之后，作为辅助信息。 */
     if (s.highlights) h += '<div class="row"><div class="k">核心看点</div>' + renderList(s.highlights) + '</div>';
-    if (s.photo) h += '<div class="row"><div class="k">摄影价值</div><div class="v">' + s.photo + '</div></div>';
+    if (s.tour) h += '<div class="row"><div class="k">游览要点</div>' + renderList(s.tour) + '</div>';
+    if (s.access) h += '<div class="row"><div class="k">可达性</div>' + renderAccess(s.access) + '</div>';
+    if (s.photo) h += '<div class="row photo-row"><div class="k">摄影价值（辅助）</div><div class="v">' + s.photo + '</div></div>';
     if (s.shots && s.shots.length) {
-      h += '<div class="row"><div class="k">摄影机位（可直接导航）</div>' +
+      h += '<div class="row photo-row"><div class="k">摄影机位（可直接导航）</div>' +
         s.shots.map(renderSpot).join('') + '</div>';
     }
-    if (s.access) h += '<div class="row"><div class="k">可达性</div>' + renderAccess(s.access) + '</div>';
     if (s.notes) h += '<div class="row"><div class="k">注意事项</div>' + renderList(s.notes) + '</div>';
     if (s.images) h += '<div class="row"><div class="k">参考图</div>' + renderImages(s.images) + '</div>';
     h += '</div></details>';
@@ -152,7 +169,10 @@
         '<b>' + esc(s.en) + '</b>' + (s.name ? ' <span style="color:#a0a6b3">' + esc(s.name) + '</span>' : '') + '<br>' +
         (s.gone
           ? '<span style="color:#ff6b6b;font-weight:700">' + esc(s.gone) + '</span><br>'
-          : '<span style="color:#ffd24d">' + stars(s.score) + '</span> ' + s.score + '/5<br>') +
+          : '<span style="color:#ffd24d">' + stars(s.must != null ? s.must : s.score) + '</span> ' +
+            (s.must != null
+              ? '必去 ' + s.must + '/5 · 摄影 ' + s.score + '/5'
+              : s.score + '/5') + '<br>') +
         '<a href="#' + esc(s.id) + '">↓ 跳到详情</a> · ' +
         '<a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=' +
         c[0] + ',' + c[1] + '">导航</a>'

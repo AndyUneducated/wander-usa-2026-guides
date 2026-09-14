@@ -156,6 +156,7 @@ module.exports = {
       n: 1,
       name: '高线公园',
       en: 'The High Line',
+      must: 4.5,
       score: 4.5,
       tldr: '1.45 英里高架线性公园，免费 7:00–22:00；Oudolf 草本 10 月下旬最佳，10th Avenue Square 取景窗是招牌；Rail Yards 段封闭。',
       tags: [{ t: '完全免费', c: 'free' }, { t: '7:00–22:00', c: 'free' }, { t: 'Rail Yards 段封闭', c: 'risk' }, { t: '人流大难架架子', c: 'risk' }],
@@ -177,6 +178,28 @@ module.exports = {
         '真正成立的三个建筑取景点：<strong>10th Avenue Square</strong>（下沉式阶梯剧场加嵌在栏杆里的巨幅取景窗，俯视 Tenth Avenue 车流）、' +
           '<strong>Chelsea Thicket</strong>（20th–22nd St 之间的密植林荫隧道，全天柔光）、' +
           '以及 <strong>The Spur</strong>（30th St 与 Tenth Avenue 交口的支线，尽端是 High Line Plinth 大型雕塑基座）'
+      ],
+      tour: [
+        '<strong>怎么走：从南端 Gansevoort Street 上、一路向北走到 30th Street 下，全程单向不回头。</strong>' +
+          '这是线性公园，原路折返等于白花 35 分钟。南段（Gansevoort 到 23rd St）景观密度最高，' +
+          '北段 Western Rail Yards 已封闭，<strong>实际可走约 1.1 英里、纯步行 35 分钟</strong>',
+        '<strong>四样别错过</strong>：14th Street 的 Sundeck 木质躺椅段（唯一能躺下来看 Hudson 的地方）、' +
+          '<strong>10th Avenue Square</strong> 的下沉阶梯剧场与嵌在栏杆里的巨幅玻璃取景窗（正对 Tenth Avenue 车流，是全线最出名的一处）、' +
+          '20th–22nd Street 的 <strong>Chelsea Thicket</strong> 密植林荫隧道、' +
+          '以及北端 30th Street 的 <strong>The Spur</strong> 与 High Line Plinth 雕塑基座（轮换展示委约作品）',
+        '<strong>可以跳过的：沿线的纪念品摊与 23rd Street Lawn。</strong>' +
+          '那片草坪每年入秋后经常拉绳养护，10 月多半进不去；省下的时间留给北端接 Moynihan Connector' +
+          '（沿 31st Street／Dyer Avenue 一路走进 Manhattan West 与 Moynihan Train Hall，全程只过一次马路）',
+        '<strong>没有安检、没有票口、不用排队</strong>，但出入口不能乱选：' +
+          '设电梯的只有 Gansevoort St、14th St、23rd St、30th St 与 31st St／Dyer Ave 五处，其余全是楼梯。' +
+          '<strong>34th Street 那个唯一下到街面的北端出口随 Rail Yards 段一起关闭，7 号线 Hudson Yards 站现在进不了园</strong>',
+        '<strong>卫生间只有三处：Gansevoort Street、16th Street 与 30th Street</strong>' +
+          '（NYC Parks 官方页面口径，16th Street 那处最大）。' +
+          '园内餐饮摊位是季节性的，官方 FAQ 写明「Food and beverage vendors are open between May and October, ' +
+          'and Shake Shack is open year-round」，集中在 15th Street 的 Chelsea Market Passage 与 22nd Street；' +
+          '<strong>要正经吃饭请从 15th Street 出口下到 Chelsea Market</strong>，选择远比园内多',
+        '<strong>人流：7:00–9:00 几乎没人，11:00–17:00（尤其周末）步道最窄处只有约 3 米，会走走停停。</strong>' +
+          '全线禁自行车、滑板、轮滑与宠物（工作犬除外），也不许踩草坪'
       ],
       photo: '建筑 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>，风光 <strong>3/5</strong>。取景窗、林荫隧道与秋草三类素材互不重复，且全部免费；扣分是步道最窄处仅约 3 米、9:00 之后基本无法从容构图。',
       shots: [
@@ -224,6 +247,11 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1.5–2 小时</strong>：Gansevoort Street 到 30th Street 单向走完（约 1.1 英里）纯步行 35 分钟，' +
+          '加上在 10th Avenue Square、Chelsea Thicket 与 The Spur 三处各停 10–15 分钟。' +
+          '<strong>只想打卡取景窗与南段：45 分钟（Gansevoort 上、23rd Street 下）。</strong>' +
+          '想再接 Moynihan Connector 走到 Moynihan Train Hall，另加 20 分钟。' +
+          '（依据：官方不给建议时长，此为按实际步道长度与三处停留点推算）',
         book: '<strong>不需预约。</strong>免费的 docent 导览团需另行报名。' +
           '<strong>官方 FAQ 逐月列出了导览日，措辞是「on Tuesdays, Wednesdays, and Saturdays in September and October」' +
           '——9–10 月是周二、周三与周六，不含周日</strong>' +
@@ -231,9 +259,9 @@ module.exports = {
           '<strong>落到实际日期：10/16 周五与 10/18 周日都没有导览，只有 10/17 周六有</strong>',
         ticket: '<strong>免费</strong>',
         hours: '官方原文：<strong>4 月 1 日–11 月 30 日 7:00–22:00；12 月 1 日–3 月 31 日 7:00–20:00</strong>' +
-          '（2026 年 9 月 5 日在官网 Visitor Info 与 FAQ 两处复核一致）。' +
-          '<strong>10/16–10/18 三天整段落在 7:00–22:00 内，闭园时间对本行程毫无约束</strong>——' +
-          '这三天日落 18:12–18:16、民用昏影 18:40–18:43 结束，园子还要再开三个多小时。' +
+          '（<strong>2026 年 9 月 13 日在 thehighline.org 的 Visitor Info 与 FAQ 两处第三次复核，一字未变</strong>）。' +
+          '<strong>10/13–10/26 整个东岸窗口全部落在 7:00–22:00 这一档内，闭园时间对本行程毫无约束</strong>——' +
+          '这两周日落在 18:20 到 18:03 之间、民用昏影约 27 分钟后结束，园子还要再开三个多小时。' +
           '<strong>但官网仍在 Interim Walkway 分区页与 Park Features 页把 Western Rail Yards 段标为「Temporarily closed」' +
           '——30th–33rd St、11th–12th Ave 之间那三分之一英里自 2024 年 10 月起封闭改建，' +
           '连 34th Street 那个下到街面的出入口也一并关闭。</strong>' +
@@ -267,6 +295,7 @@ module.exports = {
       n: 2,
       name: '惠特尼美国艺术博物馆',
       en: 'Whitney Museum of American Art',
+      must: 3,
       score: 4,
       tldr: '每周五 17:00–22:00 全馆免费且免费票要提前 5 周领；三天里只有 10/16 周五能在露台上拍到日落，周六日 18:00 就闭馆。',
       tags: [{ t: '周五夜全馆免费', c: 'free' }, { t: '平日成人 $30', c: 'paid' }, { t: '周二闭馆', c: 'risk' }, { t: '禁三脚架', c: 'risk' }],
@@ -284,6 +313,29 @@ module.exports = {
           '日落时露台上看到的不是太阳，而是<strong>被落日正面打亮的 Manhattan 楼群与脚下的 High Line</strong>；' +
           '真正的 Hudson 日落要从西侧展厅的整面落地玻璃看，那里有双层玻璃与天花板灯的反光。' +
           '把这两件事搞混是这一栏最常见的失误'
+      ],
+      tour: [
+        '<strong>从顶楼往下逛。</strong>电梯直接上 8 层，再沿外置钢楼梯一层层走下来——' +
+          '这是 Renzo Piano 设计时就想好的动线，也避免了「先在低层耗光体力」。' +
+          '<strong>5–8 层是展厅与外挑露台，1 层是免票区。</strong>' +
+          '大展通常放在 5 层（层高最大、无柱的一整层），常设的美国艺术馆藏放在 7 层',
+        '<strong>别错过的三样</strong>：7 层与 8 层的<strong>常设馆藏陈列</strong>' +
+          '（Edward Hopper 的收藏是全球最完整的一批——Whitney 拿到了他遗孀 Josephine 的全部遗赠，' +
+          '另有 Georgia O\'Keeffe、Jacob Lawrence、Alexander Calder）；' +
+          '<strong>5–8 层的四层外挑露台</strong>（免费夜也含，是这栋楼最独特的体验）；' +
+          '以及<strong>东侧的外置钢楼梯</strong>，走一遍比坐电梯值得',
+        '<strong>可以跳过的：如果时间只有一小时，直接放弃 5 层的大型临展</strong>——' +
+          '临展轮换、常常需要 40 分钟以上才看得出所以然，而馆藏层与露台是不管哪年来都成立的部分。' +
+          '反过来，如果你本来就是冲着某个临展来的，那就只看 5 层，其余全跳',
+        '<strong>入馆流程：所有包都要查</strong>（官方原文「All bags will be inspected upon arrival」），' +
+          '<strong>任何尺寸的行李箱一律不准带入</strong>，−1 层有免费寄存与衣帽间。' +
+          '安检不是机场式，正常情况下 2–5 分钟通过；<strong>但周五 17:00 免费夜开门那一刻队伍最长，' +
+          '建议 16:45 就在门口排，或者干脆 18:30 之后再进（那时第一波已经上楼）</strong>',
+        '<strong>餐饮与卫生间：</strong>1 层是 Frenchette Bakery（免票即可进，咖啡与面包）、' +
+          '8 层是 Studio Bar（露台边上，有酒水与小食，周五营业到较晚）、' +
+          '3 层是 Untitled 餐厅。<strong>卫生间在 −1 层与各展厅层都有，人最少的是 −1 层那一处</strong>',
+        '<strong>25 岁及以下常年免费</strong>（官方新政，每天 10:30–18:00 都适用，18 岁以下需订免费票、' +
+          '19–25 岁可申请 Anytime Pass 免每次订票）——同行有年轻人的话这条能直接省掉一张 $30'
       ],
       photo: '建筑 <strong>4.5/5</strong>，风光 <strong>3.5/5</strong>，人像 <strong>4/5</strong>。外置钢楼梯与外挑板是一流的几何素材；扣分是禁三脚架、露台面积小、且周五免费夜正是全周最挤的时候。',
       shots: [
@@ -320,28 +372,38 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>2–3 小时</strong>：8 层往下逐层看，5 层大展 40–60 分钟、7 层与 8 层馆藏 40 分钟、' +
+          '四层露台合计 20–30 分钟、1 层免票展厅与商店 15 分钟。' +
+          '<strong>只看重点 75 分钟：直接上 8 层露台 15 分钟 → 7 层馆藏 30 分钟 → 5 层大展快走 30 分钟。</strong>' +
+          '<strong>只想上露台看城市：40 分钟足够</strong>（但露台需要门票，不在 1 层免票区内）。' +
+          '（依据：官方不给建议时长，此为按 5–8 层展厅规模推算）',
         book: '<strong>免费时段也需要票。</strong>官方原文：「though admission is free, tickets are required and capacity is limited」。' +
-          '<strong>Free Friday Nights 的免费票提前 5 周放出</strong>（「free tickets are available up to five weeks in advance」），' +
+          '<strong>Free Friday Nights 的免费票提前 5 周放出</strong>（官方原文「free tickets are available up to five weeks in advance」，' +
+          '2026 年 9 月 13 日在 whitney.org 的 Free and Discounted Admission 页复核，措辞未变），' +
           '线上先领；现场也发但容量有限。平日票可现场买或线上买。' +
-          '<strong>对 10/16 这一晚的具体动作：往前推五周落在 9 月 11 日（周五）</strong>——' +
-          '2026 年 9 月 5 日复核时官网 Free Friday Nights 页面的「This week」还停在 9 月 11 日，' +
-          '<strong>说明 10/16 的免费票当时还没开放，请在 9 月 11 日当天就去领</strong>' +
-          '（五周为官方原文推算，官网不公布逐日放票时刻，也不公布每场的余量）。' +
-          '每月第二个周日的免费票只提前一个月放出，10 月那天是 10 月 11 日，不在行程里',
-        ticket: '官方票价：<strong>成人 $30，65 岁以上与学生 $24，25 岁及以下免费</strong>。' +
+          '<strong>落到 10/13–10/26 这个窗口：里面有两个周五，10 月 16 日与 10 月 23 日。</strong>' +
+          '<strong>10/16 往前推五周是 9 月 11 日，今天（9 月 13 日）已经过了这个点，10/16 的免费票现在就应该已经能领——请立刻去领，不要再等。</strong>' +
+          '<strong>10/23 的五周线落在 9 月 18 日（周五），请在那天补领第二张作为备份</strong>' +
+          '（五周为官方原文推算，官网不公布逐日放票时刻，也不公布每场余量）。' +
+          '每月第二个周日的免费票只提前一个月放出，10 月那天是 10 月 11 日，早于行程首日，用不上',
+        ticket: '官方票价（<strong>2026 年 9 月 13 日在 whitney.org／visit 与 tickets 两页复核</strong>）：' +
+          '<strong>成人 $30，65 岁以上与学生 $24，25 岁及以下免费，会员免费</strong>。' +
           '<strong>每周五 17:00–22:00 全馆对所有人免费</strong>，每月第二个周日全天免费。' +
-          '一层展厅、大堂、商店与 Frenchette Bakery 常年免票',
-        hours: '官方原文：<strong>周一 10:30–18:00；周二闭馆；周三 10:30–18:00；周四 10:30–18:00；' +
+          '<strong>「25 岁及以下每天免费」是现行官方政策而不是限时活动</strong>' +
+          '（原文「Admission to the Whitney is now free every day for visitors aged 25 and under」；' +
+          '18 岁以下需订免费定时票，19–25 岁可申请 Anytime Pass 免去每次订票）。' +
+          '一层展厅、大堂、Whitney Shop 与 Frenchette Bakery 常年免票',
+        hours: '官方原文（<strong>2026 年 9 月 13 日在 whitney.org／visit 逐行复核，与 6 月 2 日新闻稿一致，无变化</strong>）：' +
+          '<strong>周一 10:30–18:00；周二闭馆；周三 10:30–18:00；周四 10:30–18:00；' +
           '周五 10:30–22:00；周六 10:30–18:00；周日 10:30–18:00</strong>。' +
-          '<strong>周二闭馆已核实</strong>（官网 Plan your visit 页与 2026 年 6 月 2 日新闻稿口径一致，' +
-          '2026 年 9 月 5 日再次逐行比对无变化）。' +
-          '注：2026 年 6 月 16 日–8 月 18 日曾临时改为每周七天开放，该临时安排在行程窗口内已结束。' +
-          '<strong>这张时刻表对实际日期有一个决定性后果：10/16 周五开到 22:00，' +
-          '而 10/17 周六与 10/18 周日都是 18:00 闭馆，早于当天日落（18:14／18:12）。' +
-          '也就是说「站在 5–8 层露台上拍日落与蓝调」这件事在这三天里只有 10/16 一个晚上做得到</strong>' +
-          '——而 10/16 恰好又是免费夜，两件好事撞在同一天，' +
-          '<strong>请不要把 10/16 傍晚安排给别的点位</strong>。' +
-          '8 层的 Studio Bar 周五开到 21:00（周六日 17:00 收），也在这一晚可用',
+          '注：2026 年 6 月 16 日–8 月 18 日曾临时改为每周七天开放，该临时安排早于行程窗口已结束。' +
+          '<strong>这张时刻表对 10/13–10/26 有一个决定性后果：整整两周里，' +
+          '只有周五（10/16 与 10/23）开到 22:00，其余每天都是 18:00 关门，而这两周日落在 18:20–18:03 之间。</strong>' +
+          '<strong>也就是说「站在 5–8 层露台上看日落与蓝调」在整个东岸窗口里只有这两个周五做得到，' +
+          '而这两天恰好又都是免费夜。请把 10/16 或 10/23 的傍晚锁给 Whitney，别安排给别的点位。</strong>' +
+          '另注意 <strong>10/13、10/20 两个周二全天闭馆</strong>，' +
+          '而 <strong>10/14（周三）、10/21（周三）等平日 18:00 就关，进去只能看白天</strong>。' +
+          '8 层的 Studio Bar 周五开到 21:00（周六日 17:00 收），也在这两晚可用',
         parking: '无自有停车场。Meatpacking 一带路边位极少且多为装卸区，停车楼日价 $40–60。建议地铁',
         walk: '<strong>A/C/E 与 L 线 14th Street／8th Avenue 站</strong>步行约 700 米／9 分钟；' +
           '<strong>从 High Line 南端 Gansevoort 入口下楼梯即到，约 80 米／1 分钟</strong>'
@@ -365,6 +427,7 @@ module.exports = {
       n: 3,
       name: '小岛公园与 Hudson River Park 码头',
       en: 'Little Island & Hudson River Park Piers',
+      must: 3,
       score: 4.5,
       tldr: '免费、不需预约、9/8–10/31 为 6:00–23:00；132 根混凝土「郁金香盆」把公园端在水面之上，日落正对 Hudson 对岸。',
       tags: [{ t: '完全免费', c: 'free' }, { t: '不需预约', c: 'free' }, { t: '6:00–23:00', c: 'free' }, { t: '演出时全场禁摄', c: 'risk' }],
@@ -391,6 +454,32 @@ module.exports = {
           '<strong>Pier 57 屋顶公园</strong>（Little Island 北侧约 200 米，视角更高更开阔）、' +
           '<strong>Gansevoort Peninsula</strong> 的人造沙滩（2023 年开放，<strong>Manhattan 唯一的河滨沙滩</strong>）、' +
           '以及 <strong>Pier 45</strong>（Christopher Street 尽头的大平台）'
+      ],
+      tour: [
+        '<strong>这是个只有 2.4 英亩的小公园，不要按「景点」的心态安排</strong>：' +
+          '两条人行桥进出（北桥在 13th Street、南桥在 Little West 12th Street 附近），' +
+          '园内步道绕一圈 15 分钟就走完了。<strong>它的价值在于坐下来看水，不在于走完。</strong>' +
+          '第一次来请顺时针走：从北桥进 → 中央的 The Play Ground 广场 → 南侧 The Amph 圆形剧场 → ' +
+          '西南角最高的那处观景平台（全园视野最好）→ 从南桥出',
+        '<strong>别错过：西南角的高点观景平台与 The Amph 的木构座席。</strong>' +
+          '桩顶高度做得刻意不一致，走上高点会明显感觉在爬一座小丘，' +
+          '<strong>那里是全园唯一能同时看到 Hudson 开阔水面、对岸 New Jersey 与身后 Manhattan 楼群的位置</strong>。' +
+          'The Amph 是 687 座的半圆形露天剧场，没有演出时可以随便坐',
+        '<strong>可以跳过的：园内的餐饮摊位。</strong>' +
+          'The Play Ground 那几家季节性档口价格偏高、选择有限，' +
+          '<strong>更好的做法是往北走 200 米到 Pier 57 屋顶</strong>——那里楼下有 Market 57 的美食广场（多家小店），' +
+          '买了带上屋顶草坪吃，视野比 Little Island 更开阔且有座位',
+        '<strong>没有票口、没有安检、不需预约</strong>（2021 年开园初期的 timed entry 制度已取消，' +
+          '大量二手攻略仍在写「高峰期需免费预约」，那是过时信息）。' +
+          '<strong>唯一会排队的情形是极端拥挤时入口做人流管控</strong>，通常是夏季周末傍晚；' +
+          '10 月的平日基本走进去就是',
+        '<strong>卫生间在园内北侧靠近入口桥处</strong>，规模小、日落时段会排队；' +
+          '<strong>更稳的是 Pier 57 内部的公共卫生间</strong>（Market 57 楼层，数量多得多）。' +
+          '两处都在步行 3 分钟内，日落前先解决掉',
+        '<strong>顺路的另外三个免费点值得一起排：</strong>Pier 57 屋顶公园（北侧 200 米，视野更高）、' +
+          'Gansevoort Peninsula 的人造沙滩（南侧 300 米，Manhattan 唯一的河滨沙滩，能踩到沙子）、' +
+          'Pier 45（南侧约 900 米，Christopher Street 尽头的大平台，草坪可躺）。' +
+          '<strong>四处连起来是一条 1.5 公里的滨水散步线，是这一区最舒服的两小时。</strong>'
       ],
       photo: '风光日落 <strong>5/5</strong>，建筑 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>。本区乃至整个 Manhattan 最好的免费日落机位群；扣分是阴天时混凝土桩会显得灰白平淡、毫无层次。',
       shots: [
@@ -439,14 +528,25 @@ module.exports = {
         }
       ],
       access: {
-        book: '<strong>不需预约</strong>（2026 年 9 月 5 日再次在官网 Rules & FAQ 逐条核实，全文无 timed entry 条款）。' +
+        visit: '<strong>Little Island 本身 45–60 分钟</strong>：绕园步道 15 分钟走完，' +
+          '西南角高点与 The Amph 各坐 15–20 分钟。' +
+          '<strong>只是路过打卡：25 分钟。</strong>' +
+          '<strong>把相邻的 Pier 57 屋顶、Gansevoort Peninsula 沙滩与 Pier 45 一起串成滨水散步线：2–2.5 小时</strong>' +
+          '（含在 Pier 57 楼下 Market 57 吃一顿的时间）。' +
+          '想看日落的话请把结束时刻定在日落后 30 分钟，而不是日落时。' +
+          '（依据：官方不给建议时长，此为按 2.4 英亩园区规模与四处相邻码头的步行距离推算）',
+        book: '<strong>不需预约</strong>（<strong>2026 年 9 月 13 日在 littleisland.org 的 Rules &amp; FAQ 逐条第三次核实，' +
+          '全文仍无 timed entry 条款</strong>，官方原文只有一句「Yes, the park is free and open to the public. ' +
+          'The only activity that requires a paid ticket to attend are all performances in The Amph.」）。' +
           '仅 The Amph 的付费演出需要票（座票 $25、站栏 $15，经官网或 TodayTix），' +
-          '<strong>而 2026 演出季已于 9 月 6 日收官，10/16–10/18 无任何排期，这三天不存在需要买票的情形</strong>',
-        ticket: '<strong>免费。</strong>Hudson River Park 的 Pier 57 屋顶、Gansevoort Peninsula 与 Pier 45 同样免费',
+          '<strong>而 2026 演出季已于 9 月 6 日收官，10/13–10/26 整个窗口无任何排期，这两周不存在需要买票的情形</strong>',
+        ticket: '<strong>免费</strong>（2026 年 9 月 13 日复核）。' +
+          'Hudson River Park 的 Pier 57 屋顶、Gansevoort Peninsula 与 Pier 45 同样免费',
         hours: '官方原文：Little Island「opens at 6:00 am, 365 days a year unless weather conditions dictate otherwise」。' +
           '分季时刻：<strong>3/8–5/24 为 6:00–23:00；5/25–9/7 为 6:00–24:00；9/8–10/31 为 6:00–23:00；' +
-          '11/1–12/31 为 6:00–21:00</strong>（2026 年 9 月 5 日在官网 Rules &amp; FAQ 复核，四档时刻一字未变）。' +
-          '<strong>10/16–10/18 为 6:00–23:00。</strong>' +
+          '11/1–12/31 为 6:00–21:00</strong>（<strong>2026 年 9 月 13 日在官网 Rules &amp; FAQ 复核，四档时刻一字未变</strong>）。' +
+          '<strong>10/13–10/26 全部落在 9/8–10/31 这一档，即 6:00–23:00；' +
+          '注意 11 月 1 日起闭园提前两小时到 21:00，但那已在行程之后。</strong>' +
           '恶劣天气会整园清场（官方原文「the entire park will close for extreme weather」），出发前查官网',
         parking: '无自有停车场。West Street（West Side Highway）沿线路边位少，Chelsea 停车楼日价 $35–50。建议地铁或步行',
         walk: '<strong>A/C/E 与 L 线 14th Street／8th Avenue 站</strong>步行约 1.0 公里／13 分钟；' +
@@ -473,6 +573,7 @@ module.exports = {
       n: 4,
       name: '华盛顿广场公园与 Greenwich Village',
       en: 'Washington Square Park & Greenwich Village',
+      must: 3.5,
       score: 4,
       tldr: '免费，6:00–24:00；招牌是拱门框住 2.1 公里外的帝国大厦，需 135–200mm；喷泉 10 月中旬多半已停水，别把它算进构图。',
       tags: [{ t: '完全免费', c: 'free' }, { t: '0:00–6:00 闭园', c: 'risk' }, { t: '喷泉可能已停水', c: 'risk' }, { t: '人流嘈杂', c: 'risk' }],
@@ -499,6 +600,35 @@ module.exports = {
           '选项从简单的链条到与历史铁栅栏风格一致的永久铁门都有。' +
           '<strong>但截至目前无正式设计、无成本估算、无施工，且因公园位于历史保护区还要过 Landmarks 委员会。' +
           '行程窗口内不会有围挡或脚手架。</strong>'
+      ],
+      tour: [
+        '<strong>这是一座 9.75 英亩的街区公园，不是景区：没有门、没有票、没有讲解，看的是人。</strong>' +
+          '标准逛法是从北面 Fifth Avenue 走进拱门 → 穿到中央喷泉 → 绕喷泉一圈看街头表演 → ' +
+          '东南角看街头象棋 → 从 MacDougal Street 出去接 Greenwich Village。' +
+          '<strong>全程 30–45 分钟，不需要更久</strong>',
+        '<strong>别错过：喷泉圆池边的街头表演。</strong>' +
+          '这是全纽约最密集的街头艺人据点，常年有钢琴（真的有人把立式钢琴推来）、爵士小编制、' +
+          '杂技与即兴喜剧；<strong>下沉式的圆形喷泉池在没水时会变成滑板与表演的天然舞台</strong>。' +
+          '另外东南角（近 MacDougal 与 West 4th）是纽约有名的<strong>街头象棋角</strong>，' +
+          '老棋手会主动邀战——<strong>那是收费的（通常 $5 一局起），不想玩就别坐下</strong>',
+        '<strong>拱门本身 5 分钟就看完，但两侧基座上的两尊华盛顿像值得走近</strong>：' +
+          '西侧是「Washington as Commander-in-Chief」、东侧是「Washington as President」。' +
+          '<strong>公园里另有 Giuseppe Garibaldi 与 Alexander Lyman Holley 两座纪念像</strong>，' +
+          '属于「顺路看一眼」级别，不用专门找',
+        '<strong>可以跳过的：绕公园外圈走一整圈。</strong>' +
+          '北面 Washington Square North 那排联排住宅（The Row）确实好看，但从拱门就能看到全貌；' +
+          '<strong>把省下的时间给公园东北角的 Washington Mews</strong>——一条铺弹石的私人马厩巷（现属 NYU），' +
+          '与拱门西侧的 MacDougal Alley 是同类型，安静得像另一个城市' +
+          '（<strong>Washington Mews 是私产，铁门有时锁着，只能从 Fifth Avenue 一侧向内看，请不要翻门</strong>）',
+        '<strong>卫生间：公园内有公共厕所</strong>（NYC Parks 官方设施清单列有 Public Restrooms，' +
+          '位置在西南侧靠近儿童游乐场处），<strong>但状况一般且日间常排队</strong>；' +
+          '更稳的是走到 MacDougal Street 或 Bleecker Street 上任一家咖啡馆消费后借用。' +
+          '<strong>餐饮：不要在公园周边找饭</strong>，往南两个街区的 MacDougal Street' +
+          '（老牌意大利咖啡馆、中东菜、通宵餐馆）与 Bleecker Street 密度和水准都高得多',
+        '<strong>安全与时段：白天人多时很安全，公园 0:00–6:00 闭园</strong>' +
+          '（每晚由 NYPD 与公园执法队人工摆铁马封住 11 个入口）。' +
+          '<strong>东南角一带（MacDougal 与 West 4th）夜间有毒品交易与酒精聚集</strong>，' +
+          '深夜不建议独自停留。最舒服的时段是 09:00–11:00 与 15:00–17:00'
       ],
       photo: '人像 <strong>5/5</strong>，建筑 <strong>4/5</strong>，风光 <strong>2.5/5</strong>。街头人文与人像的密度是全区最高（街头象棋、跳水池的滑板与即兴演奏常年不断）；扣分是没有任何一个方向能拍到干净的天际线。',
       shots: [
@@ -540,11 +670,22 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45–60 分钟</strong>：拱门 5 分钟、喷泉与街头表演 20–30 分钟、' +
+          '东南角象棋区 10 分钟、Washington Mews 与 MacDougal Alley 各 5 分钟。' +
+          '<strong>只是穿过打卡：15 分钟。</strong>' +
+          '<strong>把 Greenwich Village 的街区散步一起算进来：2–2.5 小时</strong>' +
+          '（公园 45 分钟 + MacDougal／Bleecker／Grove Street 一带 1–1.5 小时）。' +
+          '（依据：NYC Parks 不给建议时长，此为按 9.75 英亩园区规模与步行距离推算）',
         book: '不需预约',
-        ticket: '<strong>免费</strong>',
+        ticket: '<strong>免费</strong>（2026 年 9 月 13 日在 NYC Parks 的 Washington Square Park 页复核，' +
+          '公园无任何收费项目；该页同时显示「No recent capital investment」，' +
+          '<strong>与「园内无在建工程」的判断一致</strong>）',
         hours: '<strong>每天 6:00 至次日 0:00</strong>（0:00–6:00 闭园，由 NYPD 与公园执法队每晚人工摆放铁马围栏封闭 11 个入口，' +
           '包括拱门一侧那道 100 英尺宽的开口）。' +
-          '<strong>喷泉停水日期：2026 年 9 月 5 日再查一轮，仍然未能从官方渠道确认，而且坏消息是风险比原先写的更高。</strong>' +
+          '<strong>NYC Parks 的公园页面本身不列每日开放时刻，此为公园规章与现场告示牌口径</strong>，' +
+          '要确认当天可打公园管理处或 311。' +
+          '<strong>10/13–10/26 两周内该园无任何已公告的活动性封闭。</strong>' +
+          '<strong>喷泉停水日期：2026 年 9 月 13 日再查一轮，仍然未能从官方渠道确认，而且坏消息是风险比原先写的更高。</strong>' +
           'NYC Parks 的公园页面（nycgovparks.org／washington-square-park）根本不公布喷泉的启停日期，' +
           '311 也不提供逐个水景的状态查询（Parks 已明确表示不再逐项追踪）。' +
           '能查到的最接近官方的口径是公园管理方对流程的说明：' +
@@ -552,7 +693,8 @@ module.exports = {
           '并把喷泉中央那组水下灯一并关掉（灯在空气中会很快烧坏）</strong>，' +
           '也就是说停水与「池中灯灭」是同一个动作，停了就没有夜间亮水池可拍。' +
           '<strong>而多年的实际记录是「一般在 10 月中旬关」（个别年份拖到 11 月上旬）——' +
-          '10 月 16–18 日正好压在这个典型关停点上，不是「有可能」，而是相当可能已经停了。</strong>' +
+          '10 月 13–26 日整段正好骑在这个典型关停点上，越往后概率越高，' +
+          '不是「有可能」，而是相当可能已经停了。</strong>' +
           '<strong>请把「喷泉喷水 + 拱门」当成运气，不要当成行程的支点</strong>；' +
           '真正稳的是拱门本身与 Fifth Avenue 轴线上的帝国大厦，那两样与喷泉无关。' +
           '出发前唯一可做的核实是打 <strong>311</strong>（市外 212-639-9675）问 Washington Square Park 的喷泉当天是否在运行',

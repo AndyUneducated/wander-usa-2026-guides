@@ -328,6 +328,7 @@ module.exports = {
       n: 1,
       name: '诺里斯间歇泉盆地',
       en: 'Norris Geyser Basin',
+      must: 4,
       score: 4.5,
       tldr: '全园最热、最酸、变化最快的盆地，栈道无封闭；Porcelain Basin 的白色酸壳是最好的抽象素材，但 Steamboat 基本别指望。',
       tags: [
@@ -370,6 +371,33 @@ module.exports = {
           '<strong>黄色含硫（60–83 °C，也就是那股臭鸡蛋味的来源）、红棕色含铁与高浓度砷（60 °C 以下）、' +
           '翠绿色藻垫（56 °C 以下）、墨绿至黑色的 Zygogonium 藻（更凉）。</strong>' +
           '换句话说你拍的每一道彩色径流沟都是一条温度梯度'
+      ],
+      tour: [
+        '<strong>动线：从停车场先下博物馆西侧的坡，进 Porcelain Basin。</strong>' +
+          '两条环线都是<strong>单向回到起点的环（loop），不是折返路</strong>，走完一圈自然回到博物馆。' +
+          '<strong>时间只够一条就走 Porcelain Basin</strong>（3/4 英里／1.2 公里，无树的白色酸壳荒原，' +
+          '视觉冲击是全园最强的，30–40 分钟）；<strong>Back Basin（1.5 英里／2.4 公里，林间）可以跳过</strong>——' +
+          '它最值得看的 Steamboat 几乎不会喷，省下的 40 分钟建议留给 Old Faithful 或 Grand Prismatic',
+        '<strong>Back Basin 如果走，只有三个点值得停：Emerald Spring（进环线约 200 米，' +
+          '黄色硫黄池底叠深水蓝，是全园最好看的小池之一）、Steamboat（世界最高的活间歇泉，' +
+          '再往南约 300 米）、Echinus（世界最大的酸性间歇泉，Steamboat 以东约 200 米，2026 年 2 月刚复活）。</strong>' +
+          '其余泉眼可以边走边看不必停',
+        '<strong>关于 Steamboat 的期待管理，先说清楚免得白等：它没有预报、大喷相隔常常数年，' +
+          '2026 年迄今只在 2 月 27 日大喷过一次。</strong>' +
+          '你看到的几乎一定是 10–40 英尺的 minor phase 或单纯的蒸汽柱。' +
+          '<strong>不要在它旁边守着，看两眼就走</strong>',
+        '<strong>停车场 143 个车位 + 17 个加长位，夏季 10:00–15:00 会满并有 ranger 指挥；' +
+          '9 月下旬的实际情况是上午 10 点前和下午 4 点后基本随到随停，中午偶尔需要绕一圈。</strong>' +
+          '停车场路面本身有地热造成的沉降坑，进出慢行',
+        '<strong>厕所与饮水只在博物馆（Norris Geyser Basin Museum，最后营业日 10/3）一处，' +
+          '本区没有任何餐饮</strong>——' +
+          '这一带最近的热食在 Old Faithful（30 英里）或 Canyon Village（12 英里），' +
+          '来之前先解决吃喝',
+        '<strong>安全规定不是建议：全程必须留在木栈道与指定步道上，这是可罚款可监禁的联邦规定</strong>' +
+          '（2021 年一名游客在 Norris 走下栈道，被判 7 天监禁加 2,000 美元罚金赔偿）。' +
+          '<strong>热区内禁止饮食（喝水不限）、禁止带宠物上栈道、' +
+          '闻到刺鼻臭鸡蛋味并感到头痛恶心就立刻往高处上风向走</strong>——' +
+          'Norris 是全园硫化氢浓度最高的地方'
       ],
       photo: '风光 <strong>4.5/5</strong>，抽象／局部 <strong>5/5</strong>，人像 <strong>2/5</strong>。' +
         '<strong>Porcelain Basin 那片白色酸壳配彩色径流是全园最强的抽象素材</strong>，' +
@@ -420,15 +448,28 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1.5–2 小时走全两条环线</strong>（NPS 步道页给的官方口径是 30 分钟至 1.5 小时，' +
+          '那是不含拍摄的净走路时间）。' +
+          '<strong>分配建议：Porcelain Basin 环线 40 分钟、Back Basin 环线 50 分钟、博物馆与解说牌 15 分钟。</strong>' +
+          '<strong>时间紧就只走 Porcelain Basin，45 分钟足够，是本区性价比最高的取舍。</strong>' +
+          '停车到下坡进盆地另算 5 分钟',
         book: '不需预约',
-        ticket: '含在园区门票内，<strong>年票覆盖</strong>',
-        hours: '<strong>盆地本身没有门禁、全天可入</strong>' +
+        ticket: '含在园区门票内，<strong>园内点位无独立门票，年票覆盖</strong>。' +
+          '<strong>2026-09-13 核对 NPS Fees &amp; Passes 官方页</strong>：' +
+          '私家车（载客 15 人以下）7 日票 <strong>$35</strong>、摩托车／雪地车 $30、' +
+          '徒步或骑行入园每人 <strong>$20</strong>（未满 16 岁免费）；' +
+          'Yellowstone 年票与 America the Beautiful 年票均 <strong>$80</strong>。' +
+          '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100 nonresident fee，持任一年票者豁免</strong>' +
+          '（持卡人须本人在场并出示带照片证件）',
+        hours: '<strong>2026-09-13 复核，本行程窗口 9/22–9/29 内全部正常开放。</strong>' +
+          '<strong>盆地本身没有门禁、全天可入</strong>' +
           '（NPS 步道页标注 Season: Spring, Summer, Fall；Time of Day: Any Time）。' +
           '<strong>已核实：2026 年秋季 Norris 的木栈道没有公布的封闭段</strong>，' +
           'NPS 步道页只有一条注记——' +
           '<em>「Thermal activity throughout this entire area. Stay on the boardwalks and designated trails at all times.」</em>' +
-          '<strong>Norris Geyser Basin Museum 与 Norris Park Store 最后营业日均为 10/3</strong>，' +
-          '之后厕所与讲解台全部关闭。' +
+          '<strong>Norris Geyser Basin Museum 与 Norris Park Store 最后营业日均为 10/3</strong>' +
+          '（2026-09-13 于 NPS Operating Dates 页复核，该页最后更新 2026-09-03；' +
+          '<strong>9 月下旬两者都还开着</strong>），之后厕所与讲解台全部关闭。' +
           '所在的 Mammoth ↔ Norris、Norris ↔ Canyon、Madison ↔ Norris 三段公路 2026 年均通车至 <strong>10/31</strong>，' +
           '且这三段本年度无施工项目',
         parking: '博物馆东侧的免费停车场，<strong>NPS 标注 143 个车位 + 17 个加长车位</strong>，' +
@@ -474,6 +515,7 @@ module.exports = {
       n: 2,
       name: '火洞峡谷车道与 Firehole Falls',
       en: 'Firehole Canyon Drive & Firehole Falls',
+      must: 2,
       score: 3.5,
       tldr: '已核实：单行道、由北向南、全长 2.21 英里，正常开放。40 英尺瀑布配 800 英尺厚的流纹岩崖壁，20 分钟拍完。',
       tags: [
@@ -501,6 +543,35 @@ module.exports = {
           '<strong>本窗口内是否重开未能确认</strong>，但对摄影没有影响——' +
           '真正的影响是那一段的停车位也用不了，而它本来是这条路上最大的一片路肩。' +
           '（顺带说一句：10 月的水温在个位数摄氏度，就算开了也不该下水）'
+      ],
+      tour: [
+        '<strong>先说定位：这是一条「顺路开一遍」的支线，不值得为它专程改路线。</strong>' +
+          '如果你的时间已经排满，<strong>直接跳过它去 Fountain Paint Pot 或 Midway 是正确的取舍</strong>——' +
+          '它全程只有一个 40 英尺的瀑布和一段岩壁，20 分钟就看完了',
+        '<strong>方向是这条路唯一的硬规则：单行道，只能由北向南开。</strong>' +
+          '<strong>入口在 Madison Junction 以南约 0.6 英里（44.63888, −110.85856），从 Madison 往 Old Faithful 方向开正好顺路。</strong>' +
+          '<strong>反方向（从 Old Faithful 北上）会先撞上南端出口、进不去</strong>，' +
+          '必须多开到 Madison Junction 再折回来，来回约 10 分钟。' +
+          '<strong>限速 25 mph，禁止大巴、拖挂车与房车进入</strong>',
+        '<strong>停车是这里真正的问题，不是路。</strong>' +
+          '全线<strong>没有正式停车场，只有几处极小的路肩</strong>，Firehole Falls 正对面那片最大也只容几台车。' +
+          '<strong>满位时段是 11:00–16:00</strong>（大家都在同一时段从 Madison 往 Old Faithful 走）；' +
+          '<strong>9 点前或 17 点后几乎一定有位</strong>。' +
+          '<strong>没位就继续开，不要在单行道上停车等或倒车</strong>——后车看不见你，也没有超车空间',
+        '<strong>值得停的只有两处：Firehole Falls 观景路肩（下车走几步就到栏杆前，' +
+          '看落差 40 英尺的瀑布切进 800 英尺厚的流纹岩崖壁）和峡谷中段任意一处能停的路肩' +
+          '（看两侧的柱状节理岩壁，其实比瀑布更有看头）。</strong>' +
+          '其余路段在车里看就够了',
+        '<strong>全线没有厕所、没有饮水、没有餐饮、没有手机信号。</strong>' +
+          '最近的厕所在 Madison Information Station（开到 10/3）或 Madison Campground（开到 10/17），' +
+          '再远是 Old Faithful（16 英里）与 West Yellowstone（14 英里）。' +
+          '<strong>Firehole Swim Area 目前关闭</strong>（NPS Current Conditions 原文' +
+          '「Closed. Estimated opening date: no earlier than late summer/early fall.」），' +
+          '连带那一段最大的路肩也用不了',
+        '<strong>这条路上没有热区，是本区唯一不用担心薄壳与硫化氢的点位</strong>，' +
+          '但它在 Firehole River 边的林子里、弯道多且视线被崖壁挡住，' +
+          '<strong>秋季常有麋鹿与野牛上路，慢开</strong>；' +
+          '<strong>栏杆外的岩壁是陡崖，不要为了看瀑布翻过去</strong>'
       ],
       photo: '风光 <strong>3.5/5</strong>，长曝水流 <strong>4/5</strong>，人像 <strong>2/5</strong>。' +
         '<strong>加分项是它反规则：峡谷东西两侧崖壁很高，直射光只在中午前后短暂进入谷底，' +
@@ -538,9 +609,18 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>20–40 分钟</strong>：开完 2.21 英里单行道本身约 8–10 分钟（限速 25 mph），' +
+          '<strong>Firehole Falls 观景点停 10 分钟、峡谷中段岩壁再停 10 分钟就够了</strong>。' +
+          '<strong>算上从 Old Faithful 方向北上折返的额外 10 分钟，最多 50 分钟。</strong>' +
+          '（按路长、限速与两处停车点推算，NPS 未给官方建议时长）',
         book: '不需预约',
-        ticket: '含在园区门票内，<strong>年票覆盖</strong>',
-        hours: '无门禁。<strong>NPS 没有为 Firehole Canyon Drive 单独公布 2026 年季节性关闭日期</strong>——' +
+        ticket: '含在园区门票内，<strong>园内点位无独立门票，年票覆盖</strong>。' +
+          '<strong>2026-09-13 核对 NPS Fees &amp; Passes 官方页</strong>：' +
+          '私家车 7 日票 <strong>$35</strong>、摩托车／雪地车 $30、徒步或骑行每人 <strong>$20</strong>' +
+          '（未满 16 岁免费）；Yellowstone 年票与 America the Beautiful 年票均 <strong>$80</strong>。' +
+          '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100，持任一年票者豁免</strong>',
+        hours: '<strong>2026-09-13 复核：无门禁、9 月下旬正常通行。</strong>' +
+          '<strong>NPS 没有为 Firehole Canyon Drive 单独公布 2026 年季节性关闭日期</strong>——' +
           '按 2026 版 Superintendent\u2019s Compendium 的通则' +
           '（<em>「Starting November 1st ... the Grand Loop Road and park entrance roads are closed to wheeled ' +
           'motor vehicle use」</em>），它应与主环路同步在 <strong>10/31 结束通车</strong>；' +
@@ -581,6 +661,7 @@ module.exports = {
       n: 3,
       name: '喷泉泥浆池与火洞湖车道',
       en: 'Fountain Paint Pot & Firehole Lake Drive',
+      must: 3.5,
       score: 4,
       tldr: '已核实：Firehole Lake Drive 因路面被地热烤化，2026 年对机动车关闭、仅可步行与骑行——Great Fountain 得走 1.5 公里进去。Fountain Paint Pot 栈道正常。',
       tags: [
@@ -634,6 +715,36 @@ module.exports = {
           '热泉的矿化水被树根吸上去，在树干下部沉积成白色硅质外壳，' +
           '形成「穿了白袜子的死树」。' +
           '<strong>Silex Spring 一带成片站着这样的枯树，清晨逆光配蒸汽是本区最有气氛的一组画面</strong>'
+      ],
+      tour: [
+        '<strong>主环线是 0.5 英里／0.8 公里的木栈道单向环（loop），全程无障碍、有缓坡，</strong>' +
+          '<strong>按逆时针方向走（下车后沿右手边上坡）是官方标示的顺序，也是看点排列最合理的方向</strong>：' +
+          '先热泉（Silex、Celestine）→ 再爬到最高处的泥浆池 → 下坡到间歇泉群（Clepsydra、Fountain）→ 回停车场。' +
+          '<strong>30 分钟到 1 小时走完，是全园最划算的一段栈道</strong>',
+        '<strong>四个绝不能错过的点，按栈道顺序：</strong>' +
+          '<strong>①Silex Spring</strong>（一上坡就到，深蓝的近沸点热泉，旁边成片的「白袜子枯树」bobby socks trees 是本站的招牌）；' +
+          '<strong>②Fountain Paint Pot 本体</strong>（环线最高处的泥浆池，' +
+          '<strong>9 月是它一年里最稠、泡最大的时候</strong>，春天融雪期反而只是一锅稀汤，值得站三五分钟看它炸泡）；' +
+          '<strong>③Red Spouter</strong>（一个季节性变身的洞，' +
+          '秋天多半已从泥浆池变成一个吼着蒸汽的干喷气孔）；' +
+          '<strong>④Clepsydra Geyser</strong>（下坡段，' +
+          '<strong>1959 年 Hebgen Lake 7.3 级地震之后它就几乎不间断地喷，是全园唯一不用等的间歇泉</strong>）',
+        '<strong>Firehole Lake Drive 在 2026 年对机动车关闭，这决定了你要不要去 Great Fountain。</strong>' +
+          '<strong>结论：普通游客不建议去。</strong>' +
+          '把车停在 Fountain Paint Pot 停车场，沿被地热烤坏的旧沥青路走 <strong>单程 1.2–1.5 公里／约 20 分钟</strong>' +
+          '才能到 Great Fountain Geyser，而<strong>它的预报误差是 ± 2 小时（全园最宽）</strong>——' +
+          '<strong>除非你在 Old Faithful 游客中心问到的预报时间刚好落在你能等的那一两小时里，否则这 3 公里往返大概率白走</strong>。' +
+          '沿途没有栈道、没有厕所、没有信号，且是熊乡，喷雾要握在手里',
+        '<strong>停车场满位时段是 10:30–15:30</strong>，' +
+          '因为它正好卡在 Madison 与 Old Faithful 之间、是所有人午间必经的一站。' +
+          '<strong>9 月下旬 9:30 前或 16:00 后基本随到随停</strong>，即使在高峰时段绕一圈通常也能等到位',
+        '<strong>厕所在停车场（秋季可能关闭），全站没有餐饮也没有饮水机。</strong>' +
+          '<strong>最近的热食与可靠厕所在 Old Faithful（10 英里／约 20 分钟），Madison 方向 6 英里只有营地厕所</strong>。' +
+          '这一带完全没有手机信号，导航要提前离线下载',
+        '<strong>安全：全程必须留在木栈道上，这是联邦规定不是建议。</strong>' +
+          '<strong>泥浆池会甩出几米远的酸性泥点，不要把脸和衣服凑到最活跃的那个点上方</strong>；' +
+          '<strong>栈道旁常有野牛群卧着晒太阳，挡路时唯一正确的做法是原路退回等，绝不能绕下栈道</strong>' +
+          '（法定最小距离 25 码／23 米）。热区内禁止饮食，喝水不限'
       ],
       photo: '风光 <strong>4/5</strong>，微距／细节 <strong>4.5/5</strong>，人像 <strong>2/5</strong>。' +
         '<strong>它是本区题材密度第二高的盆地（仅次于 Upper Geyser Basin），而且人比 Midway 与 Old Faithful 少得多。</strong>' +
@@ -715,9 +826,20 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>只走 Fountain Paint Pot 环线：40 分钟到 1 小时</strong>' +
+          '（NPS 步道页官方口径「30 minutes to 1 hour」，那是净走路时间；' +
+          '<strong>停下来看泥浆池炸泡与 Clepsydra 至少要加 15 分钟</strong>）。' +
+          '<strong>分配：Silex Spring 与白袜树 10 分钟、泥浆池 10–15 分钟、Clepsydra 与 Fountain 一带 15 分钟。</strong>' +
+          '<strong>如果决定步行去 Great Fountain Geyser，整站要按 2.5–3 小时算</strong>' +
+          '（往返约 3 公里步行 40–50 分钟，加上等喷发的不确定时间）',
         book: '不需预约',
-        ticket: '含在园区门票内，<strong>年票覆盖</strong>',
-        hours: 'Fountain Paint Pot 栈道无门禁、全天可入，' +
+        ticket: '含在园区门票内，<strong>园内点位无独立门票，年票覆盖</strong>。' +
+          '<strong>2026-09-13 核对 NPS Fees &amp; Passes 官方页</strong>：' +
+          '私家车 7 日票 <strong>$35</strong>、摩托车／雪地车 $30、徒步或骑行每人 <strong>$20</strong>' +
+          '（未满 16 岁免费）；Yellowstone 年票与 America the Beautiful 年票均 <strong>$80</strong>。' +
+          '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100，持任一年票者豁免</strong>',
+        hours: '<strong>2026-09-13 复核，9/22–9/29 窗口内栈道正常开放。</strong>' +
+          'Fountain Paint Pot 栈道无门禁、全天可入，' +
           '<strong>2026 年秋季无公布的封闭段</strong>。' +
           '<strong>Firehole Lake Drive：对机动车关闭，步行与自行车允许通行。</strong>' +
           '依据是 2026 版 Superintendent\u2019s Compendium 在 36 CFR §4.11 项下的成文规定' +
@@ -768,6 +890,7 @@ module.exports = {
       n: 4,
       name: '中途间歇泉盆地',
       en: 'Midway Geyser Basin',
+      must: 5,
       score: 4.5,
       tldr: '橙色径流扇流进 Firehole River 是本区最好的清晨题材，而且它是唯一一个「蒸汽越厚越好」的机位；Excelsior 每分钟往河里倒 4,000 加仑热水。',
       tags: [

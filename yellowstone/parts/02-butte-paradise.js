@@ -294,6 +294,7 @@ module.exports = {
       n: 1,
       name: 'Butte 上城历史街区',
       en: 'Uptown Butte Historic District',
+      must: 4,
       score: 4.5,
       tldr: '全美最大的国家历史地标街区之一，半衰败半修复的采矿暴发城。街道全年免费。9/23 太阳最高只有 43.7°，街面受光窗口仅 11:35–15:10；阴天反而更好。',
       tags: [
@@ -355,6 +356,45 @@ module.exports = {
           '<strong>Dumas Brothel（E Mercury St）</strong>——1890 年开业、1982 年才停业，' +
           '常被称为全美连续经营时间最长的妓院建筑。' +
           '<strong>这四处加上《1923》的九处，构成一条不到 1.5 公里的步行拍摄线。</strong>'
+      ],
+      tour: [
+        '<strong>怎么逛：一条环线，不要瞎走。</strong>' +
+          '从 <strong>Broadway 与 Main 街口</strong>起步，沿 <strong>W Broadway 向西走到 Montana 街</strong>（这一段是《1923》的主街，也是店面最密的一段），' +
+          '右转上 <strong>W Granite 街向东折回</strong>（法院、Butte Water Company、Carpenters Union Hall、Copper King Mansion 都在这条街上），' +
+          '再往南绕一个街区到 <strong>W Mercury 街</strong>看 Mai Wah 与 Dumas Brothel。' +
+          '<strong>全程不到 1.5 公里，纯走路 25 分钟，正常节奏 1.5–2 小时。</strong>' +
+          '<strong>Uptown 建在山坡上，南北向街道很陡，东西向街道基本平——所以按上面这个「先走东西街、最后再上下一次」的顺序会省很多力气。</strong>',
+        '<strong>别错过的三样（按优先级）：</strong>' +
+          '<strong>① Butte-Silver Bow Courthouse（155 W Granite）的室内</strong>——' +
+          '这是 Uptown 唯一一处免费且能自由进的大型历史内景，' +
+          '看点是 1912 年的中庭、中庭顶上的彩绘玻璃穹顶、成片室内壁画，' +
+          '以及本地人 Bill Burns 花 38 年做的 <strong>Belmont Mine 可动模型</strong>（很多人专程为这个来）；' +
+          '<strong>② Copper King Mansion（219 W Granite）的导览</strong>——本页另有独立条目，' +
+          '是 Uptown 唯一能进去看内部装修的豪宅，需买票并按整点场次；' +
+          '<strong>③ Broadway 与 Granite 两条街的整体立面</strong>——' +
+          '这里的价值是「一整条街没有一栋现代建筑」，要连着看而不是挑单栋看。',
+        '<strong>可以直接跳过的：</strong>' +
+          '<strong>Butte Civic Center（1340 Harrison Ave）</strong>——' +
+          '《1923》在里面搭过摄影棚布景，但布景早已拆除，它就是一座普通的市政体育馆，没有任何参观项目，' +
+          '而且在山下平地城区、离 Uptown 车程 8–10 分钟；' +
+          '<strong>Harrison Avenue 一带的平地城区</strong>——连锁酒店与快餐带，没有可看的东西。' +
+          '<strong>省下的这一小时给法院中庭和 Mai Wah Museum，回报高得多。</strong>',
+        '<strong>人流与营业时间：人不是问题，营业时间才是。</strong>' +
+          '9 月下旬平日的 Uptown 街上几乎没有游客，任何时候来都不用排队。' +
+          '<strong>但这里大多数小店、咖啡馆与博物馆是 10:00 或 11:00 才开、17:00 就关，周日与周一有相当比例闭门。</strong>' +
+          '<strong>法院自助参观只在周一至周五 08:00–17:00</strong>，' +
+          '所以「想进室内」的话，把 Uptown 排在工作日的白天，不要排在周日或傍晚。',
+        '<strong>餐饮与卫生间（这条会影响你半天的安排）：</strong>' +
+          '餐饮集中在 <strong>E/W Broadway 与 W Park 街这两条街</strong>，' +
+          'Hotel Finlen 大堂的酒吧、Broadway 上的几家咖啡馆与餐馆是最稳的选择，' +
+          '<strong>但晚餐时段之外不少店会歇业，下午 14:00–17:00 之间可能只剩咖啡馆开着</strong>。' +
+          '<strong>街面上没有公共厕所</strong>——' +
+          '平日可用法院一层（08:00–17:00），其余时间只能靠餐馆与咖啡馆，' +
+          '出发前在山下加油站或酒店先解决一次比较稳妥。',
+        '<strong>安全与礼节：</strong>Uptown 有相当比例的空置物业，' +
+          '<strong>任何有围栏、封板或 “No Trespassing” 标示的建筑一律不要进</strong>——' +
+          '产权明确而且结构状况不明。' +
+          '街区本身白天治安正常，但入夜后空置街段行人很少，<strong>晚上尽量结伴并留在有灯的主街上</strong>。'
       ],
       photo: '建筑 <strong>5/5</strong>，人文／街拍 <strong>4.5/5</strong>，细节与质感 <strong>5/5</strong>，风光 <strong>2.5/5</strong>。' +
         '这是本次整趟行程里<strong>唯一一个「衰败工业城市美学」题材</strong>，而且是最高级别的那种：' +
@@ -456,17 +496,25 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>2.5–4 小时</strong>（含法院中庭与随走随看的店面）。' +
+          '<strong>拆开来算：</strong>只沿 Broadway 与 Granite 走一圈、不进任何室内 <strong>60–75 分钟</strong>；' +
+          '进法院看中庭、穹顶与 Belmont Mine 模型 <strong>+20–30 分钟</strong>；' +
+          'Mai Wah Museum 与 Dumas Brothel 外观 <strong>+20 分钟</strong>；' +
+          '开车上 Mountain Con Mine Yard 眺望全城 <strong>+30 分钟</strong>（含来回车程）。' +
+          '<strong>另加 Copper King Mansion 导览要再留 1.5 小时（见该条目）。</strong>' +
+          '<strong>时间只够一小时的话：就走 W Broadway 与 W Granite 这两个街区，其余全部舍掉。</strong>',
         book: '<strong>不需预约。</strong>街区是公共街道，全部机位都从人行道拍摄。' +
-          '（Copper King Mansion 的室内导览需另行预约与付费，' +
-          '<strong>其 2026 年 9 月下旬的具体开放时间未能从官方渠道确认</strong>）',
-        ticket: '<strong>免费。</strong>街道、人行道与所有外立面拍摄均无费用。' +
-          'Mountain Con Mine Yard 也是免费的公共场地',
-        hours: '<strong>街区 24 小时开放，无门禁，全年可达，不受任何季节性关闭影响（2026-09-05 复核，仍然成立）</strong>——' +
+          '（Copper King Mansion 的室内导览需另行购票，' +
+          '<strong>2026-09-13 已向官方页面核实：每日 10:00／12:30／14:00／15:30 四场，开到 9 月 30 日，详见该条目</strong>）',
+        ticket: '<strong>免费（2026-09-13 复核）。</strong>街道、人行道与所有外立面拍摄均无费用，' +
+          '<strong>Butte-Silver Bow Courthouse 的自助参观也不收费</strong>。' +
+          'Mountain Con Mine Yard 同样是免费的公共场地',
+        hours: '<strong>街区 24 小时开放，无门禁，全年可达，不受任何季节性关闭影响（2026-09-13 复核，仍然成立）</strong>——' +
           '这是本子地区最可靠的一个点，也是烟大或天气坏时的保底方案。' +
           '<strong>但要注意大部分内景不可进入</strong>：' +
           'Carpenters Union Hall（工会与 KMBF 电台自用）、Butte Water Company Building（自来水公司办公楼）、' +
           'Kenwood 与 Thornton Block（私有商业物业）、Butte Civic Center（市政场馆，无参观项目）。' +
-          '<strong>这五处在 2026-09-05 复核时依然查不到任何对外开放的参观项目或公示时段</strong>；' +
+          '<strong>这五处在 2026-09-13 复核时依然查不到任何对外开放的参观项目或公示时段</strong>；' +
           'Butte Civic Center 在 Butte-Silver Bow 县政府自己的 Government Buildings 页上是一个市政设施条目' +
           '（1340 Harrison Ave，(406) 497-6573），没有游客项目这一栏。' +
           '<strong>唯一的例外是 Butte-Silver Bow Courthouse，它确实可以进，但请注意这条信息的来源层级：</strong>' +
@@ -536,6 +584,7 @@ module.exports = {
       n: 2,
       name: 'Butte 矿井架（绞架）',
       en: 'Butte Headframes (Gallows Frames)',
+      must: 3,
       score: 4,
       tldr: '14 座钢制矿井架立在城市上方，其中 7–8 座缀有红色 LED、天黑即亮。9/23 蓝调窗口 19:35–19:55。哪几座今年亮着无官方名单，需现场确认。',
       tags: [
@@ -588,6 +637,35 @@ module.exports = {
           '<strong>Granite Mountain Mine</strong> 的架子在 Granite Mountain Memorial 一带（见下一景点）。' +
           '<strong>其余各座周边多为封闭矿区，围栏、竖井盖板与旧基础都在——' +
           '一律从公共道路或已开放的矿场院落内拍摄，不要越过任何围栏。</strong>'
+      ],
+      tour: [
+        '<strong>先摆正期望：这不是一个「景点」，是一组散在城市各处的露天构筑物。</strong>' +
+          '<strong>没有售票处、没有解说中心、没有游客服务，' +
+          '你能做的就是开车或步行到几座架子下面，抬头看，读一下路边的解说牌（不是每座都有）。</strong>' +
+          '<strong>因此它的正确用法是「顺路串起来」，而不是单独安排半天。</strong>',
+        '<strong>最省事的走法：一条 25–35 分钟的开车串联线。</strong>' +
+          '从 Uptown 出发 → <strong>Anselmo Mine（Caledonia St，保存最完整的一座，有成套地面设施，值得下车走一圈）</strong>' +
+          ' → <strong>Mountain Con Mine Yard（Wells St，有停车场、地势最高，能一眼看到全城加好几座架子，这是全组唯一的「观景点」）</strong>' +
+          ' → 顺 Shields Ave 下到 <strong>Belmont Mine</strong>（正好在去 Berkeley Pit 的路上）。' +
+          '<strong>如果懒得开车，Original Mine 与 Steward Mine 从 Broadway 步行 5–8 分钟就到，两座相距约 200 米。</strong>',
+        '<strong>别错过 Mountain Con Mine Yard；其余可以按时间砍。</strong>' +
+          '它是唯一能同时看到「密集的历史街区 + 山坡上的钢架」的位置，开车直达、几乎零步行，' +
+          '<strong>只在这一处停 20 分钟，也算把这个题材看明白了。</strong>' +
+          '相反，<strong>Travona（城西较低处）与 Bell Diamond 单看意义不大，时间紧就跳过</strong>；' +
+          '<strong>Kelley Mine 根本去不了</strong>（在 Berkeley Pit 北高墙上方的 Superfund 管制区，只能从矿坑观景台隔一英里远看）；' +
+          '<strong>Orphan Girl 在 World Museum of Mining 院内，要买票才进得去</strong>，已包含在那个条目里。',
+        '<strong>晚上值得再来一趟，而且这是本条最实在的建议。</strong>' +
+          '14 座里有 <strong>7–8 座缀着红色 LED</strong>，' +
+          '现场的说法是「太阳下山灯就亮」——' +
+          '<strong>整座城市上方浮着一排红色钢架轮廓，这个景象在别处看不到，比白天看一根铁架子有意思得多。</strong>' +
+          '实操：<strong>天黑前先开车绕一圈记下哪几座亮着</strong>（没有官方名单），' +
+          '然后回 Mountain Con 或走到 Original／Steward 下面看。' +
+          '<strong>Butte 9 月下旬天黑在 19:30 前后，看完正好去吃晚饭。</strong>',
+        '<strong>安全：这是本子地区唯一有实质危险的点位类型。</strong>' +
+          '矿场遗址地面是碎石、旧混凝土基础、外露钢件与<strong>真实存在的竖井盖板</strong>，' +
+          '<strong>任何围栏、封板与 “No Trespassing” 标示一律不越过。</strong>' +
+          '<strong>穿硬底鞋，天黑后必带手电或头灯</strong>；' +
+          '<strong>没有任何一座架子附近有卫生间</strong>，上一个厕所在 Uptown 的餐馆或 Berkeley Pit 观景台（17:00 关）。'
       ],
       photo: '工业／建筑 <strong>4.5/5</strong>，夜景与蓝调 <strong>5/5</strong>，白天单拍 <strong>3/5</strong>，人像 <strong>1.5/5</strong>。' +
         '<strong>这是本子地区最独特、也最不可能在别处复制的题材</strong>：' +
@@ -658,10 +736,14 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>作为白天顺路项目 45–75 分钟</strong>：开车串 Anselmo → Mountain Con → Belmont 约 <strong>35 分钟</strong>（含在每处下车 5–10 分钟），' +
+          '只去 Mountain Con 一处 <strong>20 分钟</strong>。' +
+          '<strong>晚上看亮灯另算 30–45 分钟</strong>（19:20 出门，19:30 前后灯亮，看两三座）。' +
+          '<strong>摄影者的节奏完全不同：单个蓝调机位就要 45–60 分钟，想串三四座请把整个 17:30–20:00 都留出来。</strong>',
         book: '<strong>不需预约。</strong>全部为公共道路或已对外开放的矿场院落',
-        ticket: '<strong>免费。</strong>Anselmo、Original、Steward、Mountain Con、Belmont、Travona 均无门票。' +
-          '<strong>例外只有 Orphan Girl——它在 World Museum of Mining 院内，需门票且只能在 9:30–17:00 拍</strong>',
-        hours: '<strong>路边与开放矿场院落 24 小时可达，全年开放，不受季节性关闭影响。</strong>' +
+        ticket: '<strong>免费（2026-09-13 复核）。</strong>Anselmo、Original、Steward、Mountain Con、Belmont、Travona 均无门票、无停车费。' +
+          '<strong>例外只有 Orphan Girl——它在 World Museum of Mining 院内，需门票（成人 $12）且只能在 9:30–17:00 进去看</strong>',
+        hours: '<strong>路边与开放矿场院落 24 小时可达，全年开放，不受季节性关闭影响（2026-09-13 复核）。</strong>' +
           '<strong>夜间亮灯的官方口径只有一句现场观察：“The lights come on when the sun goes down.”</strong>' +
           '<strong>2026 年 9 月具体哪几座在亮、几点开灯、是否有固定关灯时间，' +
           '全部未能从官方渠道确认</strong>——' +
@@ -717,6 +799,7 @@ module.exports = {
       n: 3,
       name: '伯克利矿坑',
       en: 'Berkeley Pit',
+      must: 4,
       score: 4,
       tldr: '一英里宽的酸性露天铜矿湖，Superfund 场址。观景台 9/23–9/24 开门（每日 10:00–17:00），门票金额官方从未公布、非官方口径 $3 与 $7 并存，带 $10 现金。只能在 10:00–17:00 拍，没有晨昏光。',
       tags: [
@@ -758,6 +841,39 @@ module.exports = {
           '它是一个「站在固定栏杆后看一个大坑」的点位，没有第二个角度，也不能沿坑缘移动。</strong>' +
           '平台有解说展板、卫生间与礼品店'
       ],
+      tour: [
+        '<strong>流程极简，全程照抄即可：</strong>' +
+          '开到 <strong>Shields Avenue 尽头</strong>的免费停车场 → 在小屋买票（<strong>带现金，金额见票价一栏</strong>）→ ' +
+          '<strong>穿过一条开凿在坑壁里的短隧道</strong>（照明良好、平地，2–3 分钟）→ 出隧道就是观景平台。' +
+          '<strong>平台是固定的，只有一个视角，不能沿坑缘移动，走到头就这些。</strong>' +
+          '<strong>先别急着看坑</strong>——平台上有一排解说展板讲矿坑的开挖史、水化学与治理现状，' +
+          '<strong>不读展板的话，这里就真的只是一个大水坑；读了它才成立。</strong>',
+        '<strong>必看的三样：</strong>' +
+          '<strong>① 水的颜色</strong>——强酸溶出铁、铜、砷、钴、镉，水面在不同光线与水深下呈红、黄、橙到近乎荧光绿的色带，' +
+          '这是这里唯一「别处没有」的东西；' +
+          '<strong>② 对岸北高墙的水平开采台阶</strong>，一层层的开采痕迹是理解「一英里宽、1,600 英尺深」这个尺度的唯一参照；' +
+          '<strong>③ 北高墙顶上的 Kelley Mine 矿井架</strong>——它在管制区里进不去，这里是唯一能看到它的地方。' +
+          '<strong>顺便留意定时响起的喇叭声：那是驱鸟装置，不是施工</strong>（1995 年约 342 只、2016 年数千只雪雁在此死亡之后加装的）。',
+        '<strong>可以跳过的：礼品店。</strong>' +
+          '东西不多、价格一般，<strong>Uptown 的几家店与 World Museum of Mining 的礼品店选择都更好</strong>。' +
+          '<strong>另外不要为了「看久一点」硬留</strong>——' +
+          '这是一个视角固定的点位，' +
+          '现场访客最常见的评价就是「走隧道过去花的时间比看坑本身还长」，' +
+          '<strong>看完 30–45 分钟就该走，把时间给 Uptown 或 World Museum of Mining。</strong>',
+        '<strong>人流与排队：基本不存在。</strong>' +
+          '9 月下旬平日这里人很少，买票不用排队，平台也不会挤。' +
+          '<strong>唯一会撞上的是 Butte 的观光电车（trolley）团</strong>——' +
+          '电车团把这里当固定停靠点、门票包含在车票里，' +
+          '一车人到了平台会瞬间站满，<strong>等 10 分钟他们就走了</strong>。',
+        '<strong>餐饮与卫生间：平台上有卫生间与野餐桌，这是这一带唯一的公共厕所</strong>' +
+          '（<strong>但 17:00 关门，之后整个矿区一带没有厕所</strong>）。' +
+          '<strong>没有任何餐饮</strong>，最近的吃饭地方在 Uptown，车程 5–8 分钟。' +
+          '通道与平台是铺装步道加坡道，<strong>轮椅与推车可达</strong>。',
+        '<strong>安全边界很硬：水是强酸性且富含重金属，栏杆之外是不稳定的坑壁。</strong>' +
+          '<strong>不要翻越护栏、不要试图接近水面、不要伸手取水或扔东西下去。</strong>' +
+          '这里是在管的 Superfund 场址，场内所有管制标识都必须遵守。' +
+          '坑缘海拔约 5,610 英尺、完全暴露，<strong>风大且干燥，9 月下旬中午也建议带一件外套。</strong>'
+      ],
       photo: '地景／工业 <strong>4/5</strong>，抽象与色彩 <strong>4.5/5</strong>，风光 <strong>2.5/5</strong>，人像 <strong>1/5</strong>。' +
         '<strong>加分全在两处：水的非自然色彩，以及一英里宽台阶状高墙的尺度</strong>——' +
         '用长焦压北高墙上那些水平的开采台阶（bench），可以拍出近乎抽象的地层线条。' +
@@ -789,21 +905,37 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>30–60 分钟</strong>，这就是这个点的全部容量。' +
+          '<strong>分配：</strong>停车场穿隧道到平台 <strong>单程 3–5 分钟</strong>（往返约 8 分钟）；' +
+          '在平台看坑、读完一排解说展板 <strong>20–30 分钟</strong>；' +
+          '礼品店与卫生间 <strong>5–10 分钟</strong>。' +
+          '<strong>只想看一眼就走：25 分钟足够。</strong>' +
+          '<strong>超过 75 分钟没有意义</strong>——视角单一、不能沿坑缘移动，看到的东西不会再增加' +
+          '（摄影者压长焦拍高墙台阶可以留到 75 分钟，但也就到顶了）。' +
+          '<strong>请把它排在中午</strong>：营业时间只有 10:00–17:00，本来也拿不到晨昏。',
         book: '<strong>不需预约。</strong>散客直接到场买票即可。' +
           '（团体与教育参观可另约，Tours available March through November，' +
           '联系 info@pitwatch.org，建议提前一周）',
-        ticket: '<strong>需付费，但金额到 2026-09-05 仍然没有任何官方数字，而且非官方数字互相矛盾——' +
-          '这一条比原先写的更不确定，请按最坏情况带现金。</strong>' +
-          '<strong>运营方官网（pitwatch.org/visit）2026-09-05 复核，Admission 一栏只有 “Admission Fee” 三个字，' +
-          '没有金额；Butte Chamber of Commerce 作为实际运营方也没有公示价目。</strong>' +
-          '<strong>非官方口径至少有两个版本：一批访客报告为每人 $7，另一批第三方页面写 $3</strong>' +
-          '（历史金额曾是 $2，后为 $5）。' +
-          '<strong>两个数字差一倍以上，说明没有一个能当准。请按每人 $10 备现金，并在电话里直接问价：' +
-          '(406) 723-3177，或 (406) 497-5045。</strong>' +
+        ticket: '<strong>需付费，但到 2026-09-13 再次复核，官方仍然没有公布任何金额，而非官方数字依旧两说——' +
+          '这一条请按最坏情况带现金。</strong>' +
+          '<strong>运营方官网（pitwatch.org/visit）2026-09-13 复核，Admission 一栏仍然只有 “Admission Fee” 三个字，' +
+          '一个数字都没有；实际运营方 Butte Chamber of Commerce 也没有公示价目。' +
+          '也就是说「官方从未公布门票金额」这个判断在今天依然成立。</strong>' +
+          '<strong>非官方口径两个版本，这次复核后可以说清它们的来源与新旧：</strong>' +
+          '<strong>（甲）$7 每人</strong>——来自 <strong>2026 年 6 月 24 日与 7 月 9 日两条独立的实地访客评论</strong>，' +
+          '两人都明确写出 “$7 per person”，是目前<strong>时间最近、彼此独立印证</strong>的数字；' +
+          '<strong>（乙）$3 每人</strong>——出现在若干第三方旅游与媒体页面上' +
+          '（这些页面同时还写着「mid-May 到 mid-September」的旧营业期，' +
+          '<strong>与运营方官网的 May–October 不符，因此整批内容有较明显的过时嫌疑</strong>）。' +
+          '<strong>历史金额曾为 $2，后为 $5。</strong>' +
+          '<strong>本页的判断：$7 更可能是 2026 年的现价，$3 更像是尚未更新的旧价——' +
+          '但这只是推断，官方一个字都没说，所以两个数字都照实写在这里。' +
+          '请按每人 $10 备现金，并在出发前直接电话问价：(406) 723-3177 或 (406) 497-5045。</strong>' +
           '<strong>停车免费。</strong>',
-        hours: '<strong>2026-09-05 复核，运营方（Butte Chamber of Commerce）的官方口径一字未变，原文：' +
+        hours: '<strong>2026-09-13 复核，运营方（Butte Chamber of Commerce）的官方口径一字未变，原文：' +
           '“Open daily, 10 A.M.- 5 P.M.” 与 “Open May – October (weather permitting)”。' +
-          '据此 9 月 23 日（周三）与 9 月 24 日（周四）均在营业期内，每日 10:00–17:00 开放。</strong>' +
+          '据此 <strong>2026 年 9 月 22 日至 9 月 29 日整个窗口都在营业期内，每日 10:00–17:00，不分周几</strong>' +
+          '（原先按 9/23–9/24 两天做的判定同样成立）。</strong>' +
           '<strong>但必须指出口径冲突：</strong>区域旅游局 southwestmt.com 写的是' +
           '“The Berkeley Pit Viewing Stand is typically open from mid-May through mid-September”，' +
           '<strong>即九月中旬就可能收季</strong>，只补充说可能延后到秋季更晚。' +
@@ -859,6 +991,7 @@ module.exports = {
       n: 4,
       name: '世界矿业博物馆与 Granite Mountain 纪念地',
       en: 'World Museum of Mining & Granite Mountain Memorial',
+      must: 4,
       score: 3.5,
       tldr: '博物馆 9/23–9/24 确定开门（季节到 10 月 29 日，周二至周日 9:30–17:00）。建在真实矿场上，含 1890 年代复原矿镇。纪念地是另一处免费点位，纪念 1917 年 168 死。',
       tags: [
@@ -905,6 +1038,54 @@ module.exports = {
           '<strong>摄影上：光线极暗、空间狭窄、要戴安全帽、跟队行进不能停下架三脚架——' +
           '这是一个体验项目而不是摄影项目，请用高感手持并接受出片率很低。</strong>' +
           '真正能出片的是地面的矿场院落与 Hell Roarin\u2019 Gulch'
+      ],
+      tour: [
+        '<strong>这是 Butte 唯一一个「买票进去、能待上半天」的正经景点，也是本区最适合带家人去的一处。</strong>' +
+          '<strong>进门顺序建议：先在入口确认当天的地下团时间并订好位（容量有限、每日运行），' +
+          '再按「Hell Roarin\u2019 Gulch → Orphan Girl 矿场院落 → 室内陈列」的顺序逛，' +
+          '把地下团夹在中间。</strong>' +
+          '<strong>场地约二十多英亩、95% 在户外</strong>，' +
+          '官方自己写着 “The Museum is 95% outdoors.”——<strong>穿舒服的鞋、带外套，别穿裙子和凉鞋。</strong>',
+        '<strong>绝对不能错过的两样：</strong>' +
+          '<strong>① Hell Roarin\u2019 Gulch</strong>——一整条复原的 1890 年代矿业营镇，几十栋建筑按当年街道排布，' +
+          '屋里塞满世纪之交的真实器物。' +
+          '<strong>逛的时候请特意注意这几家店的组合：Chinese Laundry（华人洗衣房）、Sauerkraut Factory（酸菜厂）、' +
+          'Union Hall（工会礼堂）、单间校舍、First National Bank、General Store、Saloon——' +
+          '它本身就是一份 Butte 的移民名单</strong>，' +
+          '华人矿工、中东欧移民、爱尔兰与康沃尔矿工各占一栋，这比任何解说牌都直观；' +
+          '<strong>② Orphan Girl 的 100 英尺钢制矿井架</strong>——' +
+          '矿工曾在它下方 3,200 多英尺处开采银、铅、锌（1875–1956 年），' +
+          '这是全 Butte 唯一一座你能走到脚下、从容绕一圈细看的矿井架。',
+        '<strong>地下矿井团（Underground Mine Tour）：值得参加，但先看清硬规定。</strong>' +
+          '<strong>每日运行、约 90 分钟、下到地下 100 英尺</strong>，' +
+          '官方原话是 “We strongly recommend purchasing your Underground Tour Tickets in Advance.”，' +
+          '<strong>请提前在 miningmuseum.org 订。</strong>' +
+          '<strong>规定是硬的：必须穿包头鞋（明确禁止 Crocs、Tevas 与拖鞋式鞋类，建议运动鞋或登山靴）；' +
+          '所有人必须能自行走完全程，不允许抱着孩子走；5 岁以下不可参加。</strong>' +
+          '<strong>洞内常年约 10°C 左右、潮湿、要戴安全帽</strong>，即使外面是晴天也得加一层。' +
+          '<strong>幽闭恐惧或膝盖不好的人可以跳过——地面部分本来就是这个博物馆的主体。</strong>',
+        '<strong>可以跳过的：</strong>' +
+          '若时间只有一小时，<strong>直接舍掉地下团与部分室内陈列柜，只走 Hell Roarin\u2019 Gulch 加矿井架院落</strong>，' +
+          '这两样占了这里八成的价值。' +
+          '<strong>另外请注意 Granite Mountain Memorial 不在博物馆里</strong>——' +
+          '它在城市另一头（相距约 4 公里、开车 10–12 分钟），是完全独立的一趟，' +
+          '<strong>很多攻略把两者并列，容易让人以为走两步就到。</strong>' +
+          '那处是免费、24 小时、无人值守的纪念场地，' +
+          '纪念 1917 年 6 月 8 日 Granite Mountain–Speculator 矿难的 168 名死者（美国史上最惨重的硬岩矿难），' +
+          '<strong>有解说展板与遇难者名录，地势高、能俯瞰全城，值得单独留 30–45 分钟。</strong>',
+        '<strong>人流、排队与时段：</strong>' +
+          '9 月下旬平日人很少，普通入场不用排队；' +
+          '<strong>唯一会卡你的是两条时间线——普通门票「闭馆前 1 小时停售」（即 16:00 截止），' +
+          '以及地下团的场次容量。</strong>' +
+          '<strong>另有一条季节性提醒直接关系到 9 月下旬：官方写 “Snow or frost can delay Museum opening hours.”，' +
+          'Butte 这个时候清晨已在冰点附近，所以 9:30 开门在有霜的早上可能推迟，' +
+          '不要把它排成当天第一个硬时点。</strong>',
+        '<strong>餐饮与卫生间：博物馆内有卫生间（入口一带），但没有正经餐厅。</strong>' +
+          '<strong>请在进门前吃完饭或自带水与零食</strong>——' +
+          '最近的餐饮在 Montana Tech 校园一带与山下的 Harrison Avenue，车程 5–10 分钟。' +
+          '<strong>Granite Mountain Memorial 完全无人值守，没有卫生间、没有照明、没有饮水。</strong>' +
+          '<strong>另外普通门票「连续两天有效」（good for two consecutive days），' +
+          '在 Butte 待两天的话买一次就够，这一点很划算。</strong>'
       ],
       photo: '工业细节／静物 <strong>4.5/5</strong>，建筑（复原矿镇）<strong>4/5</strong>，人文 <strong>4/5</strong>，风光 <strong>2/5</strong>，' +
         '地下部分 <strong>1.5/5</strong>。' +
@@ -969,11 +1150,20 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>博物馆 2–3 小时（只看地面）；加地下矿井团 3.5–4.5 小时。</strong>' +
+          '<strong>分配：</strong>Hell Roarin\u2019 Gulch 复原矿镇 <strong>60–90 分钟</strong>（这是主体，别压缩）；' +
+          'Orphan Girl 矿场院落与矿井架 <strong>30–40 分钟</strong>；' +
+          '室内陈列与礼品店 <strong>20–30 分钟</strong>；' +
+          '地下团固定 <strong>90 分钟</strong>（另加提前 15 分钟集合换装）。' +
+          '<strong>只有 60–75 分钟的话：走 Hell Roarin\u2019 Gulch 加矿井架院落，其余全舍。</strong>' +
+          '<strong>Granite Mountain Memorial 另算 30–45 分钟</strong>（停车即到，' +
+          '但它在城市另一头，来回车程还要再加 20–25 分钟）。' +
+          '<strong>提醒：普通门票 16:00 停售，想完整逛完请 14:30 之前进门。</strong>',
         book: '<strong>博物馆普通入场不需预约，走进去买票即可。</strong>' +
           '<strong>地下矿井团强烈建议提前在 miningmuseum.org 订票</strong>' +
           '（官网原话 “We strongly recommend purchasing your Underground Tour Tickets in Advance.”），' +
           '容量有限。<strong>Granite Mountain Memorial 无需预约。</strong>',
-        ticket: '<strong>官网 Admission &amp; Tours 页（2026-09-05 复核）：普通入场成人 $12.00；' +
+        ticket: '<strong>官网 Admission &amp; Tours 页（2026-09-13 复核，金额与上次一致）：普通入场成人 $12.00；' +
           'Orphan Girl 地下矿井团 $30.00，周二 $25.00。</strong>' +
           '<strong>但这里有一个原先写错的关键点：地下团不是「另收费」，而是含普通入场——' +
           '官网 Underground Tour 页原文 “General admission included in purchase of underground tour ticket.”。' +
@@ -987,18 +1177,20 @@ module.exports = {
           '你 9/23 与 9/24 两天都在 Butte，买一次就够，这一点很值。</strong>' +
           '另提供 AAA、儿童、团体、军人、老年优惠（各档金额官网未逐项公布）。' +
           '<strong>Granite Mountain Memorial 完全免费。</strong>',
-        hours: '<strong>已确认：博物馆 9/23（周三）与 9/24（周四）均开门，时间 9:30–17:00。</strong>' +
+        hours: '<strong>2026-09-13 官网首页复核，口径一字未变。已确认：2026 年 9 月 22 日至 9 月 29 日整个窗口天天开门。</strong>' +
           '官网口径：<strong>“Regular Museum season ends October 29th.”</strong>；' +
-          '<strong>周一 10:00–17:00，周二至周日 9:30–17:00</strong>；' +
+          '<strong>周一 10:00–17:00，周二至周日 9:30–17:00</strong>' +
+          '（<strong>对应到你的日期：9/28 周一是 10:00–17:00，其余各天 9:30–17:00</strong>）；' +
           '<strong>“Last General Admission Ticket Sold One Hour Prior to Closing”，即最晚 16:00 售票</strong>。' +
           '2026 年 3 月 31 日开季，<strong>daily operations through fall</strong>。' +
-          '<strong>地下矿井团每日运行。</strong>' +
-          '<strong>那个赛事缩时的问题，2026-09-05 复核后可以放下了：' +
+          '<strong>地下矿井团每日运行；周一 9:00 另有 “Miney\u2019s Shift Change”。</strong>' +
+          '<strong>那个赛事缩时的问题，2026-09-13 复核后可以放下了：' +
           '官网首页当前挂的公告是 “SEPTEMBER 1-11, 2026, HOURS ' +
           '— Due to the Montana Tech Football on Sept 5, the Museum hours will be 9:30 am - 3:00 PM. ' +
           'Last General Admission will be sold at 2:00 PM.”' +
-          '——这条公告自己划定的窗口是 9 月 1 至 11 日，够不到你的 9/23–9/24，' +
-          '而且到今天为止官网没有针对 9 月下旬发布任何缩时公告。</strong>' +
+          '——这条公告自己划定的窗口是 9 月 1 至 11 日，够不到你的 9/22–9/29，' +
+          '<strong>而且 2026-09-13 复核时该公告虽然还挂在首页上，其适用期已经过去，' +
+          '官网没有针对 9 月下旬发布任何新的缩时公告。</strong></strong>' +
           '官网仍然自己标注 “Hours subject to change”，进门前还是看一眼首页公告栏。' +
           '<strong>另一条官方提醒对你的日期直接相关，原先没写进来：' +
           '“The Museum is 95% outdoors. Please be prepared for inclement weather. ' +
@@ -1054,6 +1246,7 @@ module.exports = {
       n: 5,
       name: '落基山圣母像',
       en: 'Our Lady of the Rockies',
+      must: 2,
       score: 2.5,
       tldr: '大陆分水岭上 90 英尺高的雕像，只能坐巴士上去。9 月「天气允许才发车」，9/23–24 是否有车无法确认，必须先打电话。山下用 600mm 也只是个小白点。',
       tags: [
@@ -1102,6 +1295,45 @@ module.exports = {
           '一座 27.4 米高的雕像只占画面宽度的约 7.6%；换 400mm 只有约 5%。</strong>' +
           '<strong>结论请提前接受：从山下拍到的是「山脊线上一个白色小人形」，' +
           '这是一张环境照，不是雕像的肖像。600mm 是起步焦段，而不是够用的焦段。</strong>'
+      ],
+      tour: [
+        '<strong>先做决定，再谈怎么逛：这是一个要吃掉大半天、而且可能根本发不了车的项目。</strong>' +
+          '<strong>官方口径是 9 月「天气允许才发车」，不是固定班期</strong>，' +
+          '而一趟往返是 <strong>2.5–3 小时</strong>。' +
+          '<strong>建议的判断标准很直接：如果你在 Butte 只有一天，跳过它</strong>——' +
+          '同样的三小时给 Uptown 加 World Museum of Mining，回报明显更高。' +
+          '<strong>如果有两天、而且电话确认当天有车，那它值得去</strong>：' +
+          '山顶能看到约 100 英里外的山谷与山峰，' +
+          '而且<strong>你是真的可以走进那座 27 米高的雕像内部的</strong>，这个体验在别处没有。',
+        '<strong>流程（照抄）：</strong>' +
+          '先打 <strong>(406) 782-1221</strong> 预约（<strong>所有团都必须预约，没有现场上车这回事</strong>）→ ' +
+          '提前到礼品店集合（<strong>官网地址是 1707 Continental Dr. Suite C，紧邻 Butte Floral</strong>；' +
+          '<strong>但区域旅游局与 Visit Butte 都把地址列为 3100 Harrison Ave 的 Butte Plaza Mall，两处不一致，订票时务必在电话里问准集合点</strong>）→ ' +
+          '<strong>出发前在店里先放一段介绍雕像历史的短片</strong> → 上大巴 → ' +
+          '沿途经过 Berkeley Pit、Copper King Mansion 等地标，导游一路讲 Butte 矿业史 → ' +
+          '山顶自由活动 → 原路返回礼品店。',
+        '<strong>山顶别错过的两样：</strong>' +
+          '<strong>① 走进雕像内部</strong>——这是全程的核心，很多人以为只能在外面绕；' +
+          '<strong>② 观景台基座周围的女性纪念墙</strong>，上面刻着来自世界各地<strong>约 13,000 位已故女性的名字</strong>。' +
+          '<strong>雕像是无教派的，献给所有女性与母亲</strong>，' +
+          '而它的来历是一个人的还愿——当地一名男子在妻子从癌症中康复后立下许诺，' +
+          '<strong>1979 年动工、全部由志愿者建造、1985 年 12 月由 Sky Crane 重型直升机分段吊上山</strong>。' +
+          '<strong>知道这段来历再去看，和不知道是两种东西。</strong>',
+        '<strong>山下的替代方案，以及它有多不值：</strong>' +
+          '官方指定的免费观看点是 <strong>I-15 沿线一处专设路肩</strong>；' +
+          '城里任何朝东开阔处也能看到它（<strong>从 Uptown 是方位 102°、7.1 公里</strong>）。' +
+          '<strong>但请提前接受：肉眼看过去就是山脊线上一个白色小人形，' +
+          '望远镜或 600mm 以上长焦才勉强看出是个人。</strong>' +
+          '<strong>换句话说「在山下看一眼」等于没看，不必为此专门找地方停车。</strong>' +
+          '<strong>倒是夜里值得抬头看一眼</strong>：雕像有照明，' +
+          '从城里看是暗山脊上一个发光的人形，这是当地公认的景象' +
+          '（<strong>但开灯时间与是否全年运行未能从官方渠道确认</strong>）。',
+        '<strong>实际条件：山顶海拔 7,841 英尺，比 Butte 城区高约 2,000 英尺，完全暴露在大陆分水岭的风里。</strong>' +
+          '<strong>9 月下旬傍晚那班（18:00）回程时天已黑，体感会明显低于城里，务必带防风外层与手套。</strong>' +
+          '<strong>这是团队行程：山顶停留时间有限，不能自己决定待多久</strong>，' +
+          '想看的东西要先想好。' +
+          '<strong>卫生间在礼品店，山顶设施极简——上车前解决。</strong>' +
+          '<strong>另外这是宗教与纪念性场所，现场可能有人在祭奠，请保持安静并避开。</strong>'
       ],
       photo: '人文／地标 <strong>3.5/5</strong>（若坐上团）／<strong>1.5/5</strong>（若只能在山下），' +
         '风光 <strong>4/5</strong>（山顶视野确实开阔，可看百英里），人像 <strong>2/5</strong>。' +
@@ -1154,28 +1386,43 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>巴士团 2.5–3 小时，这个时长是固定的，你无法压缩。</strong>' +
+          '<strong>官方与两个旅游局的口径略有出入：运营方自己说「about 3 hours」，' +
+          'Visit Butte 写 “The 2.5 to 3-hour tour”，区域旅游局 southwestmt.com 写 “about two and a half hours”——' +
+          '按 3 小时留时间最稳。</strong>' +
+          '<strong>分配（按 2.5–3 小时估）：</strong>礼品店集合与观看介绍短片 <strong>15–20 分钟</strong>；' +
+          '上山车程含沿途讲解 <strong>单程 40–50 分钟</strong>；' +
+          '山顶自由活动（进雕像内部、女性纪念墙、远眺）<strong>30–40 分钟</strong>；下山 40–50 分钟。' +
+          '<strong>另请在前后各留 15 分钟的缓冲——发车点与停车都在礼品店。</strong>' +
+          '<strong>不坐团、只在山下看一眼：5 分钟，且基本等于没看（见 tour 一栏）。</strong>',
         book: '<strong>必须预约，且必须打电话确认 9 月是否发车。电话 (406) 782-1221。</strong>' +
           '官网原文 “All tours require reservations” 与 “All tours are weather permitting”。' +
           '<strong>发车时刻表在 Buy Tickets 页面的动态日历里，该日历是订票插件，我无法读取，' +
           '因此 9/23–9/24 是否有班次未能确认。</strong>' +
           '<strong>所有团从 1707 Continental Dr. Suite C 的礼品店集合发车，必须在礼品店与团队会合。</strong>',
         ticket: '<strong>成人 $28；老人与 12–17 岁 $25；11 岁及以下 $10；儿童座椅另收 $10' +
-          '（2026-09-05 复核，官网多处一致，已核实）。</strong>' +
+          '（2026-09-13 再次复核，官网首页、Buy Tickets 页与 Donate 页三处金额完全一致，未变）。</strong>' +
           '官网注明 “Prices and times are subject to change”，' +
           '并把最新价格指向 Buy Tickets 页的日历。' +
           '<strong>从山下用长焦拍摄免费。</strong>',
-        hours: '<strong>2026-09-05 复核，官方口径原文未变：“We try to offer up to three tours daily June, July and August. ' +
+        hours: '<strong>2026-09-13 复核，官方口径原文未变：“Tour season is weather dependent. ' +
+          'We try to offer up to three tours daily June, July and August. ' +
           'September and October are weather permitting.”</strong>' +
           '<strong>也就是说 9 月已经不是固定班期，只在天气允许时发车——' +
-          '9/23（周三）与 9/24（周四）是否有车，未能从官方渠道确认，这是本景点的决定性未知项。' +
-          '（10 月下旬那个备用窗口同样只有 “weather permitting”，而且更靠后、更冷，风险只会更大。）</strong>' +
-          '现有班次时刻为 <strong>10:00、14:00、18:00</strong>（官网 2026-09-05 仍列这三班），' +
-          '<strong>全程约 3 小时（往返含山顶停留）</strong>。' +
-          '<strong>礼品店时段官网自己有两个版本，都在同一个官方网站上，这里两个都给你：' +
-          '站内通栏写的是 “Tuesday-Friday 11am – 5pm. Closed Saturday, Sunday and Monday”（标注为淡季），' +
-          '而 Contact 页写的是 “Office/Store Hours Tuesday – saturday 11am – 6pm”。' +
-          '好消息是 9/23 与 9/24 是周三、周四，落在两个版本的交集里，店一定开；' +
-          '差别只在几点关门（17:00 还是 18:00）。要卡傍晚那班车就打 (406) 782-1221 问准。</strong>' +
+          '2026 年 9 月 22 日至 9 月 29 日这八天是否有车，未能从官方渠道确认，这是本景点的决定性未知项。' +
+          '（10 月同样只有 “weather permitting”，而且更靠后、更冷，风险只会更大。）</strong>' +
+          '现有班次时刻为 <strong>10:00、14:00、18:00</strong>' +
+          '（官网原文 “Tours are currently available at 10:00am, 2:00pm, and 6:00pm.”，2026-09-13 仍列这三班），' +
+          '<strong>全程 2.5–3 小时（往返含山顶停留）</strong>。' +
+          '<strong>发车时刻表在 Buy Tickets 页的动态日历里，官方自己把最新排班与价格都指向那个日历，' +
+          '而该日历是订票插件、读不到内容，因此具体到某一天有没有车只能靠电话。</strong>' +
+          '<strong>礼品店时段：同一个官方网站上现在有三个版本，这里全部列出，不替你选。</strong>' +
+          '<strong>（甲）首页与 Buy Tickets 页通栏：“Tuesday-Friday 11am – 5pm. Closed Saturday, Sunday and Monday”（标注为淡季 off season）；' +
+          '（乙）Contact 页：“Office/Store Hours Tuesday – saturday 11am – 6pm”；' +
+          '（丙）Donate 页：“Wednesday-Sunday 9:00am-6:00pm，Monday-Tuesday 9:00am-5:00pm”。</strong>' +
+          '<strong>三者互相矛盾，其中（甲）最严格：按它算，9/26（周六）、9/27（周日）、9/28（周一）三天礼品店闭店，' +
+          '而 9/22、9/23、9/24、9/25、9/29 落在所有版本的交集里，店一定开。' +
+          '要卡周末或傍晚那班车，必须打 (406) 782-1221 问准。</strong>' +
           '<strong>雕像本身在私人土地，不存在「自行前往的开放时间」。</strong>',
         parking: '<strong>巴士团：在礼品店（1707 Continental Dr. Suite C）停车，免费。</strong>' +
           '<strong>山顶没有任何公共停车位，这也是禁止自驾的原因之一。</strong>' +
@@ -1224,6 +1471,7 @@ module.exports = {
       n: 6,
       name: 'Livingston 老城与北太平洋铁路车站',
       en: 'Livingston Downtown Historic District & Northern Pacific Depot',
+      must: 3,
       score: 3.5,
       tldr: '1902 年北太平洋车站，设计者是纽约 Grand Central 的同一家事务所。博物馆 9 月 4 日已闭馆，但外立面、庭院与整个老城全年免费。风大，慎用三脚架。',
       tags: [
@@ -1276,6 +1524,46 @@ module.exports = {
           '<strong>所以除了拍照，这里是你补给、加油、买熊喷雾（不能随飞机携带）的最后合理机会。</strong>' +
           '往南 5 英里就是 East River Road 的入口'
       ],
+      tour: [
+        '<strong>定位先说清：博物馆已经关季，所以这里现在是「一个小时的老城散步 + 一次补给」，不是一个参观项目。</strong>' +
+          '<strong>官网原文 “Last Museum Day September 4th, 2026”，你到的时候它已经关了快三周</strong>，' +
+          '关掉的是室内那三个铁路史与地方史展览。' +
+          '<strong>但车站的外立面、柱廊、庭院与旁边的 Depot Rotary Park 全年免费开放、无门禁</strong>——' +
+          '而这座建筑最值得看的本来就是外面：' +
+          '<strong>1902 年由 Reed and Stem 设计（就是设计纽约 Grand Central Terminal 的那家事务所），' +
+          '在一个当时只有几千人的铁路小镇上盖出这个规格。</strong>',
+        '<strong>怎么逛（一条 40–60 分钟的步行线）：</strong>' +
+          '把车停在车站自带的免费停车场 → <strong>绕车站走一圈看柱廊与陶饰面</strong>（Park Street 一侧是正立面） → ' +
+          '穿过 <strong>Depot Rotary Park</strong>（有树、草坪与长椅，是全镇最舒服的休息点） → ' +
+          '看车站正对面的 <strong>1904 年 Murray Hotel</strong>（导演 Sam Peckinpah 曾长期住在里面，大堂可以进去看看） → ' +
+          '<strong>沿 W Park Street 与 Main Street 往西南走进老城核心</strong>。' +
+          '<strong>全程平地、不到 1 公里。</strong>',
+        '<strong>老城值得慢慢看的是店，不是建筑。</strong>' +
+          'Livingston 只有约八千人，' +
+          '<strong>但从上世纪七十年代起聚了一批作家与电影人（Jim Harrison、Thomas McGuane、Richard Brautigan、Peter Fonda 等都与这里有关）</strong>，' +
+          '<strong>结果是这个规模的蒙大拿小镇里极罕见的画廊、独立书店与老酒吧密度</strong>。' +
+          '<strong>随便推门进两家画廊和那家独立书店，是这里最好的一小时</strong>；' +
+          '相反，<strong>如果你只是绕着车站拍两张就走，这个点确实不值得停。</strong>',
+        '<strong>这里真正不可替代的功能：进园前最后一次像样的补给。</strong>' +
+          '<strong>往南 54 英里到 Gardiner 之间没有大型超市、没有连锁药店、加油站也稀疏。</strong>' +
+          '<strong>要在 Livingston 解决的四件事：加满油、买够水和干粮、买药品、' +
+          '以及买熊喷雾（不能随飞机携带，托运也不行，必须落地后买）。</strong>' +
+          '<strong>超市与加油站在城北 I-90 出口一带，不在老城里</strong>，' +
+          '所以逛完老城别急着上 US-89，先绕去补给。',
+        '<strong>人流、餐饮与卫生间：</strong>' +
+          '9 月下旬平日老城很安静，不存在排队。' +
+          '<strong>餐饮集中在 W Park Street 与 Main Street 交口一带</strong>，' +
+          '几家咖啡馆、Murray Hotel 的餐厅与老酒吧都在步行范围内，' +
+          '<strong>这是 Livingston 到 Gardiner 之间最后一顿正经饭的地方。</strong>' +
+          '<strong>卫生间：车站庭院与 Depot Rotary Park 一带的公共厕所是否常年开放未能确认，' +
+          '最稳的是餐馆与咖啡馆，或城北加油站。</strong>',
+        '<strong>一条会影响体感的现场提醒：风。</strong>' +
+          '<strong>Livingston 是全蒙大拿风最大的城市</strong>' +
+          '（月均风速可达 13.4–18.6 mph，45–60 mph 阵风属于日常，机场历史极值 94 mph），' +
+          '<strong>而且清晨最弱、午后到傍晚增强</strong>。' +
+          '<strong>要在街上慢慢逛，请尽量选上午；下午在这里散步会被风吹得很不舒服。</strong>' +
+          '另外<strong>横风会让 I-90 在这一带对高厢车辆限行乃至封闭</strong>，出发前查 511mt.net。'
+      ],
       photo: '建筑 <strong>4/5</strong>，街拍与招牌 <strong>4/5</strong>，人文 <strong>3.5/5</strong>，风光 <strong>2/5</strong>。' +
         '<strong>车站的柱廊在掠射光下极好，而且它有一个 Uptown Butte 没有的优势：正立面朝南，' +
           '9 月下旬全天都有直射光可用</strong>（Butte 那边一半的立面这个季节根本晒不到）。' +
@@ -1326,15 +1614,25 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1–2 小时（博物馆已闭季的前提下）。</strong>' +
+          '<strong>分配：</strong>绕车站看外立面、柱廊与庭院 <strong>20–25 分钟</strong>；' +
+          'Depot Rotary Park 与 Murray Hotel 街口 <strong>10–15 分钟</strong>；' +
+          'Park Street／Main Street 老城核心的画廊、书店与橱窗 <strong>30–60 分钟</strong>；' +
+          '喝杯咖啡或吃顿饭再加 <strong>45–60 分钟</strong>。' +
+          '<strong>纯路过只想看一眼车站：20 分钟够了。</strong>' +
+          '<strong>补给（加油、超市、药店、熊喷雾）请另算 30–45 分钟，而且在城北 I-90 出口一带、不在老城里。</strong>' +
+          '（<strong>Livingston Depot Foundation 没有公布过建议参观时长，以上为按街区规模与步行距离推算</strong>；' +
+          '博物馆闭季，其室内部分不计入。）',
         book: '<strong>不需预约。</strong>街区、车站外立面、庭院与 Depot Rotary Park 均为公共或免费开放空间。' +
           '<strong>博物馆已闭季，无需也无法预约。</strong>' +
           '（闭季期间车站可租作活动场地，<strong>因此有可能撞上包场，前庭会有布置</strong>）',
-        ticket: '<strong>免费。</strong>街区与外立面拍摄无任何费用。' +
-          '<strong>博物馆在开季时收门票（“Admission charged”，金额官网未公布），但 9/23–9/24 已闭季，此项不适用。</strong>',
-        hours: '<strong>明确判定，2026-09-05 复核仍然成立：Livingston Depot Center 博物馆在 9/23–9/24 已关闭。</strong>' +
+        ticket: '<strong>免费（2026-09-13 复核）。</strong>街区、车站外立面、庭院与 Depot Rotary Park 均无任何费用。' +
+          '<strong>博物馆在开季时收门票（“Admission charged”，金额官网始终未公布），但你的日期已闭季，此项不适用。</strong>',
+        hours: '<strong>明确判定，2026-09-13 复核官网首页原文未变：' +
+          'Livingston Depot Center 博物馆在 2026 年 9 月 22 日至 9 月 29 日整个窗口都已关闭。</strong>' +
           '官网首页当前原文 <strong>“Museum Open Monday - Saturday 10am - 5pm”</strong> 与' +
           '<strong>“Last Museum Day September 4th, 2026”</strong>，' +
-          '2026 年季节为 5 月 26 日 – 9 月 4 日。' +
+          '2026 年季节为 5 月 26 日 – 9 月 4 日，<strong>也就是说你到的时候它已经关了 18 至 25 天</strong>。' +
           'FAQ 补充其常规闭季期为「大约 9 月中到次年 5 月初或中」。' +
           '<strong>所以整个「9 月下旬到 10 月下旬」的窗口里，室内都进不去，不存在挑日子的余地。</strong>' +
           '<strong>但车站外立面、庭院、遮荫公园与 Depot Rotary Park 全年无门禁、免费开放，' +
@@ -1389,6 +1687,7 @@ module.exports = {
       n: 7,
       name: 'Pine Creek 瀑布',
       en: 'Pine Creek Falls',
+      must: 2,
       score: 3.5,
       tldr: 'East River Road 侧谷里的一小时来回步道，Absaroka 山脚的林中瀑布。营地营业期 5/15–9/25，9/23–24 卡在末尾。烟大或正午光烂时它是本区最好的备选。',
       tags: [
@@ -1429,7 +1728,9 @@ module.exports = {
         '<strong>季节性时间点刚好卡在你的日期上：Pine Creek Campground 的营业期是 5/15 – 9/25（weather dependent）。</strong>' +
           '<strong>也就是说 9/23 与 9/24 你还赶得上，9 月 25 日它就关季了——' +
           '这是本子地区几个季节性设施里唯一「差两天就错过」的。</strong>' +
-          '营地设施：<strong>17 个营位、旱厕、可饮用水</strong>，' +
+          '营地设施：<strong>25 个营位</strong>（Forest Service 官网 General Information 一栏原文 “Camp sites: 25”；' +
+          '<strong>另有 17 处标注为无障碍设施——本页此前写的「17 个营位」是把无障碍数量误当成了总数，已更正</strong>）、' +
+          '<strong>旱厕、可饮用水、$10 一捆的柴火</strong>，' +
           '并有无障碍的钓鱼平台。' +
           '<strong>徒步本身不收费</strong>（Absaroka-Beartooth Wilderness 的日间徒步免费），' +
           '营地过夜收费，' +
@@ -1441,6 +1742,47 @@ module.exports = {
           '<strong>Pine Creek 这条侧谷正是从谷底 4,700 英尺一路爬进 7,000 英尺以上的通道——' +
           '也就是说你想在 9/23 看到真正黄透的树，就得往侧谷里、往高处走，而这条步道就是最省力的那条。</strong>' +
           '营地一带（约 5,600 英尺，OSM 与 Forest Service 均给出 45.49843, −110.5236）已经能见到转色的白杨与落叶灌木'
+      ],
+      tour: [
+        '<strong>先摆正定位：这是一道中等规模的林中瀑布，不是必看景点。</strong>' +
+          '在一个有 Emigrant Peak 和整条 Paradise Valley 的子地区里，' +
+          '<strong>它的价值是「补位」——天阴、有烟、或者正午谷地远景全废的时候，它是唯一还能好好走一趟的地方。</strong>' +
+          '<strong>如果当天天气好、能见度高，请把时间给谷地，不要来这里。</strong>' +
+          '反过来说，<strong>它也是本区门槛最低的一段山径，一小时多就能来回，带老人小孩都走得动。</strong>',
+        '<strong>路线与实际强度：</strong>' +
+          'US-89 南下 Livingston 9 英里，转东上 <strong>Pine Creek Road 6 英里</strong>（Forest Service 原文 “narrow winding road”，' +
+          '<strong>窄、弯、穿过私人土地，请慢行并全程留在路面上</strong>）到营地，步道口紧邻营地。' +
+          '<strong>单程约 1 英里、20–30 分钟；往返 2.5–3 英里（不同来源口径 2.5 至 3 英里）。</strong>' +
+          '<strong>前段平缓好走，末段变得多石且略窄，并要过一道小溪</strong>——' +
+          '<strong>穿有抓地力的鞋，运动鞋可以，凉鞋不行。</strong>' +
+          '<strong>千万不要和 Pine Creek Lake 搞混：那条要继续往上 4–5 英里、爬升约 3,000 英尺，是完全不同量级的一整天。</strong>',
+        '<strong>沿途该看什么：</strong>' +
+          '这条步道真正的看点不止终点那道水。' +
+          '<strong>① 营地一带（约 5,600 英尺）是成熟的花旗松与云杉林，Absaroka 的山壁就在头顶</strong>；' +
+          '<strong>② 越往上走白杨（quaking aspen）越黄</strong>——' +
+          '河岸的棉白杨要到 10 月中下旬才盛期，' +
+          '<strong>但这条侧谷从谷底 4,700 英尺一路爬进 7,000 英尺以上，高处的白杨 9 月下旬正当盛期，' +
+          '这是本区 9 月下旬唯一能看到真正黄透林子的方向</strong>；' +
+          '<strong>③ 瀑布本体是一处林中跌水</strong>，' +
+          '<strong>9 月下旬是全年水量最低的时候，请把「壮观」两个字先放下</strong>，' +
+          '它好看在水流结构、湿岩与苔藓，不在体量。',
+        '<strong>体力不够或带轮椅的替代方案：营地内另有一条半英里的无障碍 Creekside Trail 沿溪而行。</strong>' +
+          '<strong>平地、铺装、不需要过溪</strong>，' +
+          '能看到同一条溪和同一片林子，只是到不了瀑布。' +
+          '<strong>时间紧的话走这条也算来过。</strong>',
+        '<strong>熊：这一条不是走过场，请当真。</strong>' +
+          '步道通往 Absaroka-Beartooth Wilderness，' +
+          '<strong>9 月下旬正是熊入蛰前的疯狂进食期，而低海拔溪谷正是它们的活动区</strong>；' +
+          'Recreation.gov 在这个营地的页面上明确写着 “Bears frequent the area”。' +
+          '<strong>必带熊喷雾，并挂在腰上或背带上、而不是塞进背包深处</strong>；' +
+          '<strong>熊喷雾不能随飞机携带（托运也不行），必须落地后在 Bozeman 或 Livingston 买。</strong>' +
+          '<strong>走路时出声、不要戴耳机、不要独自走在队伍前面很远。</strong>',
+        '<strong>人流、卫生间与停车：</strong>' +
+          '9 月下旬平日这条步道人很少，基本随到随走。' +
+          '<strong>步道口停车场车位不多（约 6–7 辆，路边另可停几辆），但这个季节的平日基本随到随停。</strong>' +
+          '<strong>卫生间与可饮用水在营地里——但请注意营业期 9 月 25 日结束：' +
+          '9/22 至 9/25 这几天设施还在运行，9/26 起旱厕与饮用水停用。</strong>' +
+          '<strong>这是 Livingston 一路南下到 Gardiner 之间少数几个公共卫生间之一，别错过。</strong>'
       ],
       photo: '瀑布与溪流 <strong>3.5/5</strong>，林间细节 <strong>4/5</strong>，秋色 <strong>4/5</strong>，风光 <strong>2.5/5</strong>。' +
         '<strong>加分在「可靠性」而不是「上限」</strong>：' +
@@ -1496,19 +1838,35 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1.5–2 小时（往返步道口到瀑布，含在瀑布边停留）。</strong>' +
+          '<strong>分配：</strong>上行 <strong>20–30 分钟</strong>，瀑布边停留 <strong>20–30 分钟</strong>，下行 <strong>15–25 分钟</strong>；' +
+          '走得快、只到瀑布看一眼就回头 <strong>60–75 分钟</strong>；' +
+          '想边走边看秋色、往上多走一段 <strong>2.5 小时</strong>。' +
+          '<strong>只走营地里那条半英里的无障碍 Creekside Trail：25–35 分钟。</strong>' +
+          '<strong>另请把车程算进去</strong>——' +
+          '从 US-89 转进来单程 6 英里的 Pine Creek Road 又窄又弯，<strong>来回车程要留 30–40 分钟</strong>，' +
+          '<strong>所以这个点从离开 US-89 到回到 US-89，整体要留 2.5–3 小时。</strong>' +
+          '（Forest Service 未公布建议时长，以上按官方里程与常规徒步速度推算。）',
         book: '<strong>徒步不需预约。</strong>' +
           '（Pine Creek Campground 的营位可在 recreation.gov 预订，' +
           '<strong>但营业期 9 月 25 日结束</strong>）',
-        ticket: '<strong>日间徒步免费</strong>——Custer Gallatin National Forest 与 ' +
-          'Absaroka-Beartooth Wilderness 的日间徒步不收门票，也不需许可。' +
-          '<strong>营地过夜收费，但两个官方渠道金额不一致：' +
-          'Forest Service 官网写单个营位 $20/晚（含 2 辆车）、额外车辆 $8/辆；' +
-          'recreation.gov 一侧出现 $26/晚与 $9/辆。哪个为准未能确认。</strong>' +
+        ticket: '<strong>日间徒步免费（2026-09-13 复核）</strong>——Custer Gallatin National Forest 与 ' +
+          'Absaroka-Beartooth Wilderness 的日间徒步不收门票、不需许可、停车也不收费。' +
+          '<strong>营地过夜收费，而这一次复核后要更正一点：两个互相矛盾的金额其实印在同一张 Forest Service 官方页面上，' +
+          '不是「两个渠道不一致」。</strong>' +
+          '<strong>该页 “Fee Site and Info” 一栏先写 “Single Site: $20 (includes 2 driving vehicles) Extra Vehicle Fee: $8 per additional vehicle”，' +
+          '紧接着下一行又写 “Single Site: $26 per night Additional Vehicle Fee: $9 per night”。</strong>' +
+          '<strong>recreation.gov 一侧与后者一致（额外车辆 $9/晚）。</strong>' +
+          '<strong>两种口径都照实写在这里；按 $26 备预算比较稳，但官方页面自相矛盾这一点未能消除。' +
+          '柴火 $10 一捆。要问准打 Yellowstone Ranger District：406-222-1892。</strong>' +
           '<strong>注意：这里是国家森林，不是州立 Fishing Access Site，' +
           '所以不需要 Montana Conservation License</strong>（那是 Paradise Valley 那些河岸停车点才需要的，见下一景点）',
-        hours: '<strong>步道本身无门禁、无关门时间。</strong>' +
-          '<strong>Pine Creek Campground 的营业期是 5/15 – 9/25（Forest Service 原文标注 “Weather Dependent”），' +
-          '所以 9/23（周三）与 9/24（周四）在营业期内，9 月 25 日关季。</strong>' +
+        hours: '<strong>步道本身无门禁、无关门时间，全年 24 小时可走。</strong>' +
+          '<strong>Pine Creek Campground 的营业期是 5/15 – 9/25（Forest Service 原文标注 “Weather Dependent”，页面注明 2026-05-01 更新，2026-09-13 复核未变）。</strong>' +
+          '<strong>对应到 2026/9/22–9/29 这个窗口，这里正好被切成两半：' +
+          '9 月 22、23、24、25 日营地仍在运行（旱厕与可饮用水可用）；' +
+          '9 月 26 日起关季，步道通常仍可徒步，但卫生间与饮用水停用。' +
+          '也就是说本区唯一「差几天就错过」的设施就是它——想用到厕所和水，请把这个点排在 9/25 之前。</strong>' +
           '<strong>营地关季后步道通常仍可徒步，但卫生间与饮用水会停用，' +
           '且 Pine Creek Road 的冬季维护状况未能从官方渠道确认。</strong>' +
           '管理单位是 Yellowstone Ranger District' +
@@ -1563,6 +1921,7 @@ module.exports = {
       n: 8,
       name: 'Paradise Valley 与 East River Road',
       en: 'Paradise Valley & East River Road (Secondary 540)',
+      must: 4.5,
       score: 4.5,
       tldr: '进园前 54 英里的走廊。East River Road（东岸 32 英里）明确比 US-89 好拍。谷地正南北向，Absaroka 在东是傍晚正面光，Gallatin 在西是清晨正面光。FWP 停车点需 $10 保育证。',
       tags: [

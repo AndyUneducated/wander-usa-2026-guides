@@ -474,6 +474,7 @@ module.exports = {
       n: 1,
       name: '熊牙垭口与 West Summit 观景区',
       en: 'Beartooth Pass & West Summit Overlook (10,947 ft)',
+      must: 5,
       score: 5,
       tldr: '全 Wyoming 最高的公路点，树线以上的高山苔原与冰斗湖。本指南唯一能拿到完整黄金时刻（07:08 / 19:12）的地方，且 9/24 日落方位 270° 几乎正对 32 公里外的 Pilot Peak。',
       tags: [
@@ -520,6 +521,56 @@ module.exports = {
           'OSM 核实位置 <strong>44.97715, −109.43530</strong>。' +
           '<strong>9 月下旬它已经停业，但缆车塔架和陡峭的雪沟地形还在，' +
           '是这一段少见的能给画面提供人工尺度参照的元素。</strong>'
+      ],
+      tour: [
+        '<strong>怎么开、朝哪个方向开：这一段是 US-212 的最高部分，从 Cooke City 往东或从 Red Lodge 往西都能走到。' +
+          '两个方向的体验不一样——从 Cooke City 上来是缓坡爬升，垭口几乎不知不觉就到了；' +
+          '从 Red Lodge 上来要先连闯 8 英里发卡弯，爬升感强得多，也更容易晕车。</strong>' +
+          '<strong>Cooke City → 垭口 33.2 英里，OSRM 算 60 分钟，实际按 70–80 分钟；' +
+          'Red Lodge → 垭口 31 英里，实际 60–70 分钟。</strong>' +
+          '<strong>无论从哪头来，单程都要预留半天，不要算成「两小时穿过去」。</strong>',
+        '<strong>必停的三处，按重要性排：</strong>' +
+          '<strong>（一）West Summit Overlook</strong>——标海拔的牌子和真正的观景平台在这里，' +
+          '从 US-212 路边沥青停车场（44.96903, −109.47123）拐上 180 米碎石支路，' +
+          '再走 90 米土径到平台。<strong>这是唯一一处「站定了看四周 360°」的地方，绝不能只在车里开过去。</strong>' +
+          '<strong>（二）Gardner Lake 路肩（44.97301, −109.45219）</strong>——下车就能俯看一个冰斗湖，' +
+          '也是全线看到 mountain goat 概率最高的位置。' +
+          '<strong>（三）Beartooth Basin 一带的 pullout（44.97503, −109.43477）</strong>——' +
+          '北美唯一常规夏季营业的滑雪场就在对面，9 月已停业，但缆车塔架还在，' +
+          '是这段路上少见的能看出「这里有多空旷」的参照物。' +
+          '<strong>其余十几处 pullout 随心情停，全部免费、不限时。</strong>',
+        '<strong>高海拔不适是这一段最常见的身体问题，而且大多数人没有心理准备。</strong>' +
+          '从 Cooke City（7,650 英尺）一小时内升到 10,947 英尺，' +
+          '<strong>净爬升 3,300 英尺、完全没有适应时间</strong>。' +
+          '典型表现是头痛、气短、心跳快、轻微恶心与判断力下降，' +
+          '<strong>平地走 200 米就会明显喘</strong>。' +
+          '<strong>对策：上山前一小时开始多喝水、不要喝酒；在垭口上走路慢一半、不要提重物；' +
+          '症状明显就直接往下开，降 1,000 英尺通常十几分钟内就好转。</strong>' +
+          '有高血压、心脏病或呼吸道疾病的同行者应当在行前咨询医生。',
+        '<strong>晕车在这条路上是真问题，尤其 Red Lodge 一侧。</strong>' +
+          '8 英里内连续 8 个以上大角度发卡弯，' +
+          '<strong>后排乘客与低头看手机的人几乎必晕</strong>。' +
+          '<strong>对策：容易晕车的人坐副驾、上车前 30–60 分钟服晕车药、' +
+          '视线固定在远处山脊而不是车内、车窗留一条缝、不要在爬坡途中吃东西。</strong>' +
+          '<strong>如果开始不舒服就在下一个 pullout 停 5 分钟下车走走——这条路上 pullout 很密，' +
+          '没有必要硬撑。</strong>',
+        '<strong>加油与厕所，这一段最关键的两件后勤事。</strong>' +
+          '<strong>加油：Cooke City 到 Red Lodge 64 英里只有 Top of the World Store（mile 38.8）一处卖油，' +
+          '而它 9 月底是否营业无法确认。硬规则是在 Cooke City Exxon 加满再上山，那里油泵 24/7、全年营业。</strong>' +
+          '<strong>厕所：垭口一带只有 vault toilet（状态不定），' +
+          '全线唯一可靠的厕所在东侧 10.4 英里的 Rock Creek Vista Point，' +
+          '以及两端的 Cooke City 与 Red Lodge。' +
+          '上山前一定先解决，中间 64 英里基本等于野外。</strong>' +
+          '同理，<strong>水与食物请在镇上买齐，垭口上没有任何售卖点</strong>。',
+        '<strong>天气突变怎么办——这一段的标准处置。</strong>' +
+          '<strong>9 月下旬垭口清晨 −6 至 −2°C、白天 3–9°C，随时可能起雾、刮 20–30 mph 大风或飘雪。' +
+          '在 Red Lodge 是晴天，垭口上是白毛风，这不是意外而是常态。</strong>' +
+          '<strong>处置顺序：（一）能见度掉到看不清前车尾灯就开雾灯、减速到 20 mph 以下，' +
+          '在下一个 pullout 停下等 20–30 分钟——高山上的雪团过得很快；' +
+          '（二）路面开始发白发亮（结冰）就不要再往上，掉头往低处走；' +
+          '（三）车上常备保暖层、水、食物和一条毯子，因为你无法叫救援：整条路没有手机信号。</strong>' +
+          '<strong>最重要的一条是时间上的：不要把这条路排在行程最后一天，' +
+          '它需要一个可以整体换到别的日子去的位置。</strong>'
       ],
       photo: '风光 <strong>5/5</strong>，地质／抽象 <strong>4.5/5</strong>，野生动物 <strong>3.5/5</strong>，人像 <strong>2/5</strong>。' +
         '完整的黄金时刻、360° 无遮挡的地平线、苔原色块加冰斗湖加残雪的组合，' +
@@ -618,15 +669,33 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>只走垭口核心段：2.5–3.5 小时。</strong>' +
+          '这是指从 Beartooth Basin（垭口以东 3 公里）到 Long Lake（以西 3 公里）这 6 公里范围内' +
+          '把 West Summit 观景台、Gardner Lake 路肩、Long Lake／Frozen Lake 一带跑完，' +
+          '<strong>其中 West Summit 平台 40–60 分钟、其余各 20–30 分钟、路上换点 30 分钟。</strong>' +
+          '<strong>只想「到此一游」拍张海拔牌：40 分钟足够</strong>' +
+          '（停车 10 分钟、走 90 米上平台看一圈 20 分钟、回车 10 分钟）。' +
+          '<strong>如果要等日落加 alpenglow：从 16:30 待到 19:45，约 3.5 小时。</strong>' +
+          '<strong>但真正要预留的是整条路的通过时间，而不是垭口本身：' +
+          'Cooke City → Red Lodge 全程 64 英里／OSRM 116 分钟，' +
+          '算上沿途停车实际是 4–5 小时，请按半天规划。</strong>' +
+          '（依据：OSRM 按 OSM 路网计算的行车时间，加各机位的现场停留推算；' +
+          '与 Custer Gallatin National Forest「至少两小时不停车」的口径一致。）',
         book: '<strong>不需预约。</strong>Beartooth Highway 是公共高速公路（US-212），' +
           '沿线的观景点与 pullout 均无任何预约或许可要求',
-        ticket: '<strong>免费。</strong>整条 Beartooth Highway 与全部观景点、pullout、' +
+        ticket: '<strong>免费（2026-09-13 复核）。</strong>整条 Beartooth Highway 与全部观景点、pullout、' +
           '厕所都不收费，也<strong>不需要国家森林的日票或 America the Beautiful 年票</strong>' +
           '（收费只发生在开发营地）。' +
           '注意：这里已经在 Yellowstone 国家公园界外，园区门票与本景点无关',
         hours: '<strong>公路本身 24 小时通行，无门禁、无夜间关闭。</strong>' +
-          '<strong>季节性开放期 2026 年为 5 月 22 日 – 10 月 12 日</strong>（NPS 官方口径；' +
-          'Custer Gallatin National Forest 写 “Memorial Day to October 15”、MDT 写 “through mid-October”，' +
+          '<strong>季节性开放期 2026 年为 5 月 22 日 – 10 月 12 日，' +
+          '2026-09-13 在 NPS 官方 Park Roads 页重新核实，日期未变</strong>' +
+          '（原文 “Open May 22 – October 12, 2026: Beartooth Highway (US-212), Chief Joseph Scenic Byway (WY-296). ' +
+          'This is a high elevation highway that generally experiences more winter weather than roads in the park' +
+          '—as with all other roads, the closing date is subject to change.”；' +
+          '同日复核 MDT 的 Beartooth 专页仍写 “generally open from the Friday of Memorial Day weekend ' +
+          'through mid-October, weather permitting”；' +
+          'Custer Gallatin National Forest 则写 “Memorial Day to October 15”。' +
           '<strong>三者不一致但都在 10 月中旬，均不影响 9 月下旬</strong>）。' +
           '<strong>关键风险是临时封路：MDT 原文 “unpredictable weather conditions may cause temporary closures throughout the summer”，' +
           'NPS 原文 “temporary travel restrictions or closures can occur at any time without notice”。' +
@@ -703,6 +772,7 @@ module.exports = {
       n: 2,
       name: '岩溪观景点',
       en: 'Rock Creek Vista Point',
+      must: 3.5,
       score: 4,
       tldr: '9,190 英尺的正式观景区，俯瞰冰川刻出的 U 形 Rock Creek 谷。有铺装无障碍步道与厕所，是全线唯一设施齐全的一站。清晨优于傍晚。',
       tags: [
@@ -733,6 +803,48 @@ module.exports = {
           '<strong>这是本子地区唯一一个用 70–200mm 就能把野生动物拍满画面的机位</strong>' +
           '（其余全部需要 400mm 以上）。' +
           '<strong>但请不要投喂</strong>——被投喂的高山啮齿类冬季存活率反而下降，而且它们会开始翻背包'
+      ],
+      tour: [
+        '<strong>这是 64 英里里唯一一处「什么都有」的正式休息区，路过必停，哪怕你对风景没兴趣。</strong>' +
+          '<strong>它有铺装停车场、厕所、垃圾桶、解说牌和一条 270 米的无障碍步道</strong>，' +
+          '而这条路上其余的停车点全是没有任何设施的碎石路肩。' +
+          '<strong>实际的用法是：把它当成这段路的服务区——上厕所、喝水、活动腿脚、让晕车的人缓一缓，' +
+          '顺便看一眼冰川谷。</strong>' +
+          '位置在 Red Lodge 以西 20.4 英里／38 分钟，正好是从镇上开上来后身体最需要停一下的距离。',
+        '<strong>怎么逛：停车场（45.04312, −109.40717）→ 铺装步道 270 米缓上坡 → 观景平台（45.04550, −109.40766）。</strong>' +
+          '<strong>平地条件下 3–5 分钟，但这里是 9,190 英尺，请按 6–8 分钟走，不要一口气冲上去。</strong>' +
+          '平台上向东北顺着 Rock Creek 的 U 形冰川谷能一直望到 20 公里外的 Red Lodge 方向，' +
+          '向西是 Hellroaring Plateau 的整面崖壁。' +
+          '<strong>两块解说牌讲的是冰川如何把 V 形河谷刻成 U 形，值得花两分钟读完再抬头看——' +
+          '知道了再看和不知道就看，是两回事。</strong>' +
+          '<strong>这里也是全区唯一一处轮椅与婴儿推车能到达观景点的地方。</strong>',
+        '<strong>高海拔不适在这里已经开始了，虽然只有 9,190 英尺。</strong>' +
+          '从 Red Lodge（5,568 英尺）开上来只用了 38 分钟，身体完全没有适应时间，' +
+          '<strong>很多人就是在这 270 米的缓坡上第一次意识到自己在喘。</strong>' +
+          '<strong>这其实是件好事：把这里当成上垭口前的体检站——' +
+          '如果在这里走 270 米就头痛心慌，那么继续上到 10,947 英尺一定会更难受，' +
+          '应当考虑缩短在垭口停留的时间或者干脆改走 Chief Joseph。</strong>' +
+          '晕车的人也一样：从 Red Lodge 上来的发卡弯已经走完一半，' +
+          '<strong>在这里下车走十分钟远比在车里硬扛有效。</strong>',
+        '<strong>厕所在这里，这是本条最实用的一句。</strong>' +
+          '<strong>观景区有 pit toilet，是 Cooke City 与 Red Lodge 之间 64 英里内唯一一处正式厕所</strong>' +
+          '（垭口一带的 vault toilet 状态不定，不要依赖）。' +
+          '<strong>但要有心理准备：这是旱厕，没有自来水、没有洗手池，请自带免洗洗手液与纸巾；' +
+          '9 月底是否因上冻而封闭未能从官方渠道确认。</strong>' +
+          '<strong>没有饮用水、没有任何售卖点、没有加油。</strong>' +
+          '最近能买到东西的地方是东边 20.4 英里的 Red Lodge。',
+        '<strong>地面上的小动物会主动凑过来，但请不要喂。</strong>' +
+          '这里的 ground squirrel 与 chipmunk 出名地不怕人，会跳上野餐桌翻背包。' +
+          '<strong>被投喂的高山啮齿类冬季存活率反而下降，而且它们会咬破包。' +
+          '把食物收进车里，规定的距离是距一切非熊类野生动物 25 码（23 米）。</strong>' +
+          '<strong>这一带同时是 grizzly 分布区，观景台本身人多风险低，' +
+          '但任何离开铺装区的走动都应带熊喷雾。</strong>',
+        '<strong>天气突变时这里是最好的避风点，也是最好的折返决策点。</strong>' +
+          '<strong>它有铺装停车场和固定建筑，能见度差时在这里等比在垭口的碎石路肩上等安全得多。</strong>' +
+          '<strong>更重要的是：从这里往西就要进入树线以上、结冰与雪的概率陡增；' +
+          '而往东回 Red Lodge 只有 38 分钟且一路下降。</strong>' +
+          '<strong>所以如果上山途中天气明显变坏，这里就是那个「还来得及体面地放弃」的位置。</strong>' +
+          '注意此处已经没有手机信号，决定要靠眼睛看，不能靠查天气。'
       ],
       photo: '风光 <strong>4.5/5</strong>，地质 <strong>4.5/5</strong>，小型野生动物 <strong>4/5</strong>，人像 <strong>3/5</strong>。' +
         '一个有护栏、有铺装、有解说牌的正式观景台俯瞰一条完整的 U 形冰川谷，构图稳定可重复，' +
@@ -795,11 +907,23 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45–75 分钟（含走完步道、在平台上看完两个方向、读解说牌、上厕所）。</strong>' +
+          '分配：<strong>停车场往返步道 15 分钟（270 米×2，高海拔已计入）、' +
+          '平台停留 20–40 分钟、厕所与休息 10 分钟。</strong>' +
+          '<strong>只当服务区用、不看风景：15–20 分钟</strong>（上厕所加活动腿脚）。' +
+          '<strong>如果要加拍西侧那个大发卡弯（45.04340, −109.41570）与 Hellroaring Plateau Trailhead 路口，' +
+          '再加 30–45 分钟。</strong>' +
+          '（依据：270 米铺装步道按 9,190 英尺的实际步速推算，非官方建议时长——' +
+          'Forest Service 未对本观景区发布过建议停留时间。）',
         book: '<strong>不需预约</strong>',
-        ticket: '<strong>免费。</strong>观景区、停车场、步道与厕所均不收费，' +
-          '<strong>也不需要国家森林日票或 America the Beautiful 年票</strong>',
+        ticket: '<strong>免费（2026-09-13 复核）。</strong>观景区、停车场、步道与厕所均不收费，' +
+          '<strong>也不需要国家森林日票或 America the Beautiful 年票</strong>。' +
+          '<strong>官方从未对 Rock Creek Vista Point 单独发布过费率页——' +
+          '「免费」的依据是它属于 US-212 公路设施、且 Custer Gallatin National Forest ' +
+          '的收费点清单里不含本观景区。</strong>',
         hours: '<strong>无门禁，公路开放期内 24 小时可进入</strong>（多个来源标注 “Open 24 hours”）。' +
-          '<strong>2026 年公路开放期 5 月 22 日 – 10 月 12 日（NPS 官方口径），9 月 22–29 日在期内。</strong>' +
+          '<strong>2026 年公路开放期 5 月 22 日 – 10 月 12 日，2026-09-13 在 NPS 官方 Park Roads 页复核未变；' +
+          '9 月 22–29 日在期内。</strong>' +
           '<strong>但随时可能因雪临时封路</strong>——本站在 Montana 一侧，状态查 <strong>MDT 511</strong>；' +
           '从 Cooke City 方向过来还要查 <strong>Wyoming 511</strong>。' +
           '<strong>厕所（pit toilet）9 月底是否仍开放、是否已上冻封闭，未能从官方渠道确认</strong>',
@@ -853,6 +977,7 @@ module.exports = {
       n: 3,
       name: '熊牙盘山发卡弯（Red Lodge 一侧）',
       en: 'The Beartooth Switchbacks above Red Lodge',
+      must: 3,
       score: 4,
       tldr: 'mile 14–22 之间 8 英里爬升 1,500 英尺的成堆发卡弯。四个弯顶已从 OSM 逐个核实；要俯拍必须开到 Rock Creek Vista 上方，清晨光最好，且必须用长焦。',
       tags: [
@@ -887,6 +1012,53 @@ module.exports = {
           '<strong>用 24mm 拍下去，弯道会被透视拉开、彼此分离，' +
           '结果是一片灰色山坡上几条不相干的细线。</strong>' +
           '所以本景点的主力焦段是 <strong>70–200mm，甚至 100–400mm</strong>'
+      ],
+      tour: [
+        '<strong>先摆正这一条的性质：它不是一个「景点」，是你从 Red Lodge 上山时必然要开的 8 英里路。</strong>' +
+          '<strong>问题从来不是「要不要去」，而是「怎么安全地开过去，以及要不要停」。</strong>' +
+          '<strong>范围是 mile 14 到 mile 22，从 8,000 英尺爬升 1,500 英尺，' +
+          '中间有四个转角超过 145° 的真发卡弯。</strong>' +
+          '<strong>如果你是从 Cooke City 方向过来，这一段是下坡，体验完全不同也更轻松；' +
+          '从 Red Lodge 上来才是它最狠的那一面。</strong>',
+        '<strong>怎么开：这一段的正确速度比你以为的慢一半。</strong>' +
+          '<strong>限速本身不高，但路肩窄、大部分路段没有中央护栏、弯内侧对来车是完全的盲区。</strong>' +
+          '<strong>具体规则：上坡用低挡保持动力不要频繁换挡；下坡一律用低挡控速，' +
+          '不要连续踩刹车（1,500 英尺的连续下降足以让刹车过热）；' +
+          '进弯前减速、弯中不变道、出弯再给油；' +
+          '看到后面有车贴近就找最近的 pullout 让行——这条路上摩托车队和本地车速度都不慢。</strong>' +
+          '<strong>不要在行车道上停车拍照，一秒都不行。</strong>',
+        '<strong>晕车：这 8 英里是全行程最容易吐的一段，没有之一。</strong>' +
+          '连续大角度回头弯加持续爬升，' +
+          '<strong>后排乘客、看手机的人和空腹或刚吃饱的人几乎必中。</strong>' +
+          '<strong>对策：易晕者坐副驾、提前 30–60 分钟吃晕车药、视线固定在远处山脊、' +
+          '车窗留缝通风、不要在这一段吃东西或看屏幕。</strong>' +
+          '<strong>难受就在下一个路肩停 5 分钟下车站着——OSM 上这一段核实的路肩有十几处，' +
+          '不需要硬撑到 Rock Creek Vista。</strong>' +
+          '同时这一段已经到 8,000–9,500 英尺，<strong>晕车与轻度高原反应会叠加，别把两者搞混。</strong>',
+        '<strong>停车看风景的话，只有两处值得下车，其余路肩看看就走。</strong>' +
+          '<strong>（一）弯群上方的沥青路肩（45.03349, −109.42532）</strong>——' +
+          '这是唯一能一眼看到下方一整组弯道层层叠起来的位置，' +
+          '<strong>关键在于它比 Rock Creek Vista 更高。很多人在观景台上找不到「那张明信片」的画面，' +
+          '就是因为站得太低。</strong>' +
+          '<strong>（二）弯群下方（45.06056, −109.40370）</strong>——' +
+          '从低处仰看那面被公路横切了好几道的山壁，最能说明这条路到底爬了多少；' +
+          '<strong>附近还有一处厕所（45.05851, −109.41251）。</strong>' +
+          '<strong>两处都是路肩，多数只容 2–5 辆车，必须把车完全停进去、车轮不压线、开危险警告灯。</strong>',
+        '<strong>加油与厕所：这一段两样都没有，而且两头距离都不近。</strong>' +
+          '<strong>最近的厕所往上是 Rock Creek Vista Point，往下是弯群底部 45.05851／−109.41251 那处' +
+          '以及 Red Lodge 镇上。</strong>' +
+          '<strong>加油只有 Red Lodge（北 14–20 英里）与 Cooke City（西 43 英里以上）两端，' +
+          '中间 64 英里只有一家营业状态不明的 Top of the World Store。</strong>' +
+          '<strong>从 Red Lodge 上山前在镇上加满、上厕所、买水，这是这一段唯一需要记住的后勤动作。</strong>' +
+          '手机信号在离开 Red Lodge 几英里后就没有了。',
+        '<strong>天气突变时这一段的处置与别处不同：立刻往下走，不要停在弯里等。</strong>' +
+          '<strong>这里最大的危险不是雪而是清晨的暗冰</strong>——' +
+          '白天融的雪水夜里在背阴弯道和桥面上重新冻成看不见的冰层，' +
+          '<strong>这一段有大量北向与东向的背阴弯，是全线结冰最集中的地方。</strong>' +
+          '<strong>处置：路面开始发亮发暗、或者过弯时方向盘轻飘，就把速度降到 20 mph 以下，' +
+          '在最近的直道路肩停下评估，然后调头下山——往下 1,500 英尺气温就回到冰点以上。</strong>' +
+          '<strong>不要在起雾或飘雪时停在弯道附近的路肩上，后车看不见你。</strong>' +
+          '<strong>清晨天黑时在这一段上山是本子地区最不推荐的单一行为。</strong>'
       ],
       photo: '风光 <strong>3.5/5</strong>，「路」题材 <strong>4.5/5</strong>，人像 <strong>1.5/5</strong>。' +
         '这是本子地区唯一一个以人造物为主体的机位，而且它做得很好——' +
@@ -952,10 +1124,22 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>纯通过（不停车）：25–35 分钟。</strong>' +
+          '这 8 英里官方无建议时长，按实际可跑的速度推算——' +
+          '<strong>OSRM 给 Rock Creek Vista 到 Red Lodge 20.4 英里／38 分钟，' +
+          '本段是其中最慢的一半，请按 25–35 分钟算，绝不要按平均车速估。</strong>' +
+          '<strong>要停两处路肩看风景：1–1.5 小时</strong>' +
+          '（弯群上方 45.03349／−109.42532 停 30–40 分钟、' +
+          '弯群下方 45.06056／−109.40370 停 20–30 分钟、路上换点 15 分钟）。' +
+          '<strong>晕车或不适应高海拔的同行者请额外预留 15–20 分钟的中途下车时间，' +
+          '这一段几乎一定会用到。</strong>',
         book: '<strong>不需预约</strong>',
-        ticket: '<strong>免费。</strong>全部为公共公路路肩，无任何费用或许可要求',
+        ticket: '<strong>免费（2026-09-13 复核）。</strong>全部为公共公路路肩，无任何费用或许可要求。' +
+          '<strong>本段没有任何官方设施，因此也没有对应的官方费率页；' +
+          '「免费」的依据是它是 US-212 的公路路权。</strong>',
         hours: '<strong>无门禁，公路开放期内 24 小时通行。</strong>' +
-          '<strong>2026 年 5 月 22 日 – 10 月 12 日（NPS 官方口径），9 月 22–29 日在期内。</strong>' +
+          '<strong>2026 年 5 月 22 日 – 10 月 12 日，2026-09-13 在 NPS 官方 Park Roads 页复核未变；' +
+          '9 月 22–29 日在期内。</strong>' +
           '本段在 Montana 一侧、由 MDT 养护，<strong>状态查 MDT 511</strong>；' +
           '<strong>随时可能因雪临时封闭</strong>，MDT 原文 ' +
           '“unpredictable weather conditions may cause temporary closures throughout the summer”',
@@ -1012,6 +1196,7 @@ module.exports = {
       n: 4,
       name: '熊牙湖与岛湖',
       en: 'Beartooth Lake & Island Lake (with Beartooth Butte)',
+      must: 3,
       score: 4,
       tldr: '两个紧贴公路的高山湖，背后是 Beartooth Butte 的红色崖壁（内含 4 亿年前的鱼化石）。两个营地官方定于 2026 年 9 月 13 日收季，你到时已关，但官方允许步行进入且不收费，湖岸机位仍可达。',
       tags: [
@@ -1069,6 +1254,48 @@ module.exports = {
           '<strong>它带来两个新的观景 pullout：桥上一处能看到 Beartooth Falls，' +
           '过桥后一处能回望峡谷与桥体本身。</strong>' +
           '<strong>这两个 pullout 在 OSM 上没有独立实体，本页因此不给它们的坐标</strong>'
+      ],
+      tour: [
+        '<strong>这两个湖的正确用法是「在开 64 英里的路上下车走十分钟」，不是「专程来玩一天」。</strong>' +
+          '<strong>它们都紧贴 US-212，各有一条几百米的支路直通湖岸与船坡，' +
+          'Beartooth Lake 在 mile 8 附近（44.94581, −109.59417，约 9,000 英尺），' +
+          'Island Lake 在再往东 4 公里（44.94787, −109.54087，9,518 英尺）。</strong>' +
+          '<strong>两个湖相距 6 分钟车程，看一个就够了的话选 Beartooth Lake</strong>——' +
+          '它北岸就是 Beartooth Butte 的红色崖壁，是这段路上最好认的一块地标。',
+        '<strong>9 月下旬的实际情况：两个营地都已关，这对你其实是好事，但要知道代价。</strong>' +
+          '<strong>Shoshone National Forest 官方页写明两个营地 2026 年 9 月 13 日收季，' +
+          '你的日期在其后 11 天以上。</strong>' +
+          '<strong>好处是完全没有人、不收费；代价是没有饮用水、没有垃圾清运（所有垃圾自己带走）、' +
+          'vault toilet 是否还开着不确定。</strong>' +
+          '<strong>另一个要预设的变数：车辆能不能开进营地支路未能从官方渠道确认。' +
+          '请按「可能要把车停在支路口、步行 300–800 米进去」来准备，' +
+          '并且不要把车堵在支路口挡住护林车。</strong>',
+        '<strong>看什么：Beartooth Butte 那层红岩里有约 4 亿年前的鱼化石，而且可能是已知最古老的一批。</strong>' +
+          '<strong>这座 10,483 英尺的孤立台状山紧贴 Beartooth Lake 北岸升起，' +
+          '崖壁上那条显眼的红色岩层（当地叫 Red Talus）里已经辨认出 15 种鱼类化石，' +
+          '而它下面压着的是 25 亿年的太古宙结晶基底。</strong>' +
+          '<strong>换句话说你站在湖边一眼看到的，是北美最古老的岩石和最古老的鱼叠在一起。</strong>' +
+          '<strong>不要爬上去找化石</strong>——崖壁陡、岩石松，而且国家森林内采集古生物化石有法律限制。' +
+          '想看解说就去 Clay Butte 路口方向那块官方牌子 “Beartooth Butte: Seabed to Mountaintop”。',
+        '<strong>厕所与补给：这一段是 64 英里里最靠近「有东西」的位置，但没有一样是可靠的。</strong>' +
+          '<strong>Top of the World Store（44.94297, −109.55982，9,396 英尺）就在两个湖之间，' +
+          '号称是 Red Lodge 与 Cooke City 之间唯一的加油与零食点，' +
+          '夏季时段周一至周六 08:00–19:00、周日 08:00–18:00——' +
+          '但它 9 月底是否还营业、是否还有油，完全无法从官方渠道确认。</strong>' +
+          '<strong>请把它当成「开着算运气」，既不要算进油量计划，也不要算进厕所计划。</strong>' +
+          '<strong>可靠的厕所：往东 Rock Creek Vista Point，往西 Cooke City。</strong>',
+        '<strong>熊：这里是本子地区最需要认真对待熊的一个点，而 9 月下旬正是最糟的时候。</strong>' +
+          '<strong>Forest Service 在邻近页面上直接写 “Grizzly bear frequent the meadows and forest below the lookout”，' +
+          '而 9 月下旬是熊的 hyperphagia（拼命进食）期。</strong>' +
+          '<strong>叠加的风险是：营地已经空了，湖岸草甸和林缘一个人都没有。</strong>' +
+          '<strong>规则：熊喷雾挂在腰上或胸前而不是背包里、出声行进、不要独自沿湖岸走远、' +
+          '不要在车外留任何食物。距熊与狼 100 码（91 米），距其他动物 25 码（23 米）。</strong>',
+        '<strong>天气与地面状况：9 月下旬这里夜间常在 −5°C 上下，早上湖岸会结霜甚至薄冰。</strong>' +
+          '<strong>覆霜的圆石非常滑，换位置时不要抱着东西跳石头。</strong>' +
+          '<strong>风是这一带的常态，湖面起浪就说明谷风已经起来了。</strong>' +
+          '<strong>如果起雾、飘雪或能见度变差，这一段的好处是海拔比垭口低 1,500 英尺、' +
+          '而且离主路只有几百米——直接回到 US-212 往低处走就行，不需要犹豫。</strong>' +
+          '<strong>这一整片区域没有手机信号，包括 Top of the World。</strong>'
       ],
       photo: '风光 <strong>4.5/5</strong>，地质 <strong>4/5</strong>，倒影 <strong>4.5/5</strong>，人像 <strong>2.5/5</strong>。' +
         'Beartooth Butte 的红色崖壁配深蓝湖面是本子地区最容易出「一眼片」的组合，' +
@@ -1149,10 +1376,17 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>只停 Beartooth Lake 一处：30–45 分钟</strong>' +
+          '（从主路拐进支路、走到湖南岸、看 Beartooth Butte 与倒影、回到车上）。' +
+          '<strong>两个湖都停：1.5–2 小时</strong>（各 30–45 分钟，中间 6 分钟车程）。' +
+          '<strong>再加 Top of the World Store 与 Beartooth Falls／Beartooth Ravine Bridge 一带：2–3 小时。</strong>' +
+          '<strong>如果营地支路被路障封住、需要从主路步行进入，请在上述每一项上再加 20–30 分钟</strong>' +
+          '（单程 300–800 米，9,000–9,500 英尺，步行时间要乘 1.5）。' +
+          '（依据：官方未对这两个湖发布过建议停留时间；以上按 OSM 实测距离与高海拔步速推算。）',
         book: '<strong>不需预约。</strong>' +
           '两个营地都是<strong>先到先得、不接受预订（first-come, first-served, no advance reservations）</strong>，' +
           '而且在你的窗口里已经关闭。日间的湖岸拍摄本来就不需要任何预约',
-        ticket: '<strong>免费。</strong>湖岸与观景不收费；' +
+        ticket: '<strong>免费（2026-09-13 复核）。</strong>湖岸与观景不收费；' +
           '<strong>营地关闭期间 Forest Service 明确 “no fees will be collected”</strong>，' +
           '开放季的营位费在本行程里不适用。' +
           '（供参考：Beartooth Lake 官方页写 “Single Site: $25 per night”，' +
@@ -1160,11 +1394,15 @@ module.exports = {
           '两页都注明只收现金或支票。这与你的日期无关，' +
           '但说明这两页的费用栏本身不完全可靠——要用的是它们的 Current Conditions 日期。）',
         hours: '<strong>公路开放期内 24 小时可进入，无门禁。' +
-          '2026 年公路开放期 5 月 22 日 – 10 月 12 日（NPS 官方口径）。</strong>' +
-          '<strong>两个营地的 2026 年日期已核实：Shoshone National Forest 官方页（2026-09-05 复核，' +
-          '页面 Last updated 2026 年 7 月 6 日）状态 “Site Open”，' +
-          'Current Conditions 原文 “Expected to close for the season on September 13, 2026”——' +
+          '2026 年公路开放期 5 月 22 日 – 10 月 12 日（NPS 官方口径，2026-09-13 复核未变）。</strong>' +
+          '<strong>两个营地的 2026 年日期已二次核实：Shoshone National Forest 官方页' +
+          '（2026-09-05 首次核实、2026-09-13 再次复核，两次一致，页面 Last updated 2026 年 7 月 6 日）' +
+          'Current Conditions 原文 “Expected to close for the season on September 13, 2026”，' +
+          'Beartooth Lake 与 Island Lake 两页写的是同一个日期——' +
           '因此 9 月 24–25 日两个营地都已关闭 11 到 12 天。</strong>' +
+          '<strong>补一条对照，它说明这套官方状态系统确实有人维护：' +
+          '同区的 Fox Creek 营地写的是 9 月 20 日、Hunter Peak 与 Eagle Creek 写的是 10 月 13 日，' +
+          '各页日期彼此不同而不是一刀切，所以 9 月 13 日这个日期是可信的。</strong>' +
           '官方同时说明关闭期间无服务、不收费、但 “walk-in camping is permitted”。' +
           '<strong>「车辆是否仍可驶入营地支路（而非只能步行）」仍未能从官方渠道确认，' +
           '这是本景点剩下的唯一不确定项。</strong>' +

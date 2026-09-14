@@ -300,6 +300,7 @@ module.exports = {
       n: 7,
       name: '约瑟夫酋长牧场（剧中 Dutton Ranch）',
       en: 'Chief Joseph Ranch, Darby',
+      must: 1,
       score: 2,
       tldr: '《Yellowstone》Dutton 主宅实景地，但<strong>主宅在公共路上看不到</strong>。能拍的只有大门与谷仓顶。2026 住客季 8/31 已结束，你的日期租不到房。',
       tags: [
@@ -370,6 +371,41 @@ module.exports = {
           '<strong>“it was a cold call. We did not have the ranch listed as a film location.”</strong>——' +
           '是 Paramount 主动打来的电话，牧场自己从未把自己挂牌为影视场地'
       ],
+      tour: [
+        '<strong>先建立正确预期：这里没有「参观」这件事。</strong>' +
+          '你能看到的全部内容是路边的一道门——两根石柱、门楣上 “Yellowstone Dutton Ranch” 的招牌、' +
+          '一尊猎野牛的青铜雕像、门后几座白色谷仓的顶部（其中一座带 Dutton 烙印）。' +
+          '<strong>没有售票处、没有讲解牌、没有纪念品店、没有卫生间，也没有任何可以走进去的地方。</strong>' +
+          '<strong>看完就是 10 分钟，这个数字不是压缩出来的，是现场内容的上限。</strong>',
+        '<strong>下车后的正确动线：把车完全停进 US-93 路肩 → 站在路肩上、正对大门看 →' +
+          '走到大门正前方（但不越过门线）拍两张 → 上车走。</strong>' +
+          '<strong>不要走进车道</strong>：一来那是牧场日常出入的通道，二来从车道上也一样看不到主宅，' +
+          '三来门内即为私人宅院，Montana 的私闯民宅可直接报警处理。' +
+          '<strong>门上装有安保设施，主人一家就住在里面。</strong>',
+        '<strong>剩下的时间请花在门外那几英里路上，那才是真正值得看的东西。</strong>' +
+          '<strong>Darby 到 Conner 这约 4 英里的 US-93，西侧是 Trapper Peak 群峰组成的山墙、' +
+          '东侧是 Sapphire Mountains、中间是带木栅栏的牧场与成群的牛马</strong>——' +
+          '<strong>剧里那种「Montana 牧场感」的视觉来源其实是这一段公路，而不是那道门。</strong>' +
+          '开慢一点、在宽路肩上停两次，比在门口多站 20 分钟有价值得多。',
+        '<strong>人流与时机：完全不需要担心排队。</strong>' +
+          '夏季旺季门口常年有零星粉丝停车，但<strong>9 月下旬的平日几乎没有人</strong>，' +
+          '你大概率是现场唯一一辆车。' +
+          '<strong>唯一会让你白跑的情况是剧组开机</strong>——' +
+          '官方 FAQ 明确写 “During filming, there will be security at the gates. ' +
+          'The Security company will not allow photos at that time”，' +
+          '<strong>届时连停留都不允许。2026 年 9 月是否有拍摄活动未能从官方渠道确认。</strong>',
+        '<strong>餐饮与卫生间：现场一律没有，请在 Darby 解决。</strong>' +
+          '<strong>Darby 在大门以北 1 英里、开车 2 分钟</strong>，' +
+          '镇上有三家餐馆、People\u2019s Market 杂货店与加油站（加油站有卫生间），' +
+          '是 Bitterroot 谷地南段唯一的补给点。' +
+          '<strong>再往北 25 分钟的 Hamilton 才有完整的超市与连锁服务。</strong>',
+        '<strong>值得知道的背景，它比电视剧有分量</strong>：主宅是 1914 年建成的原木大宅，' +
+          '最初属于 Ohio 实业家 William Ford，后来成为西部最早的 guest ranch 之一；' +
+          '<strong>1950 年代改名 Chief Joseph Ranch，纪念 1877 年 Nez Perce 族在 Chief Joseph 率领下' +
+          '为躲避美军而和平穿过这片谷地的那段历史</strong>。' +
+          '<strong>如果你对这段历史有兴趣，往南翻 Lost Trail Pass 一线的 Big Hole National Battlefield ' +
+          '才是这个故事真正的现场</strong>，那里有完整的国家纪念地与解说系统。'
+      ],
       photo: '风光 <strong>1.5/5</strong>，建筑 <strong>1/5</strong>，纪念／打卡 <strong>4/5</strong>。' +
         '<strong>请按「情感价值高、摄影价值低」来理解这个分数。</strong>' +
         '给 2 分不是因为它不重要，而是因为<strong>可拍摄的画面确实只有一道门</strong>：' +
@@ -424,6 +460,12 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>10–15 分钟，这是上限不是建议下限。</strong>' +
+          '分配：<strong>停车与走到门前 2 分钟 + 在门口看与拍 8–10 分钟 + 上车 2 分钟。</strong>' +
+          '<strong>没有第二项内容可看，站得再久也不会多出什么。</strong>' +
+          '<strong>如果你想让这一趟（从 Missoula 单程 1 小时 25 分钟）划得来，' +
+          '请把它和 Trapper Peak 观景牌（往南 3 英里）、Lake Como（往北 8 英里）排在同一趟里</strong>——' +
+          '<strong>三个点连在一起约需半天，单独为这道门跑一趟 3 小时来回是不值的。</strong>',
         book: '<strong>不需预约，也无法预约——因为不存在任何形式的参观。</strong>' +
           '官方 FAQ 原文：<strong>“Chief Joseph Ranch does not offer tours without a cabin reservation.”</strong>' +
           '<strong>唯一的进入方式是租两间小木屋之一（$1,600／$1,900 一晚，含牧场与场景导览），' +
@@ -432,9 +474,19 @@ module.exports = {
           '官网目前开放的是 <strong>2027 年 3 月 1 日至 11 月 1 日</strong>的预订；' +
           '预订电话 406-821-0894，官网 chiefjosephranch.net 为唯一渠道（不上任何第三方平台），' +
           '<strong>热门日期需提前约一年</strong>',
-        ticket: '<strong>在 US-93 路肩拍摄大门：免费</strong>，且为牧场主人明确欢迎的行为。' +
-          '进入牧场：无票可买，只有房费（$1,600／$1,900 每晚起）',
-        hours: '<strong>大门位于 US-93 公共路肩旁，路本身 24 小时通行，因此「拍大门」没有营业时间限制。</strong>' +
+        ticket: '<strong>【2026-09-13 复核官网，以下为当天口径】</strong>' +
+          '<strong>在 US-93 路肩看与拍大门：完全免费</strong>，且为牧场主人明确欢迎的行为。' +
+          '<strong>没有任何门票可买——进入牧场的唯一途径是租小木屋。</strong>' +
+          '<strong>官网 Cabins 页当天挂出的房价是：Fisherman Cabin $1,600／晚、Ben Cook Cabin $1,900／晚，' +
+          '均含 4 人，每加一人 $75／晚，房费含一次牧场与拍摄场景导览。</strong>' +
+          '<strong>但请注意这是官网正在接单的 2027 季价格</strong>——' +
+          '<strong>2026 年 6 月的多家报道给出的 2026 季价格是 Fisherman $1,400／晚、Ben Cook $1,700／晚，' +
+          '两种口径都存在，差别来自年份而非同期矛盾。</strong>' +
+          '<strong>另外官网 Reservation Policies 页写明三条会显著抬高实际支出的条款：' +
+          '最少住 3 晚（“Minimum 3 Night Stay”）、报价不含 8% 的 Montana Lodging &amp; Facility Tax、' +
+          '刷卡另加 3% 手续费。按 2027 价算，最低一次成交额约 $4,800 加税费。</strong>',
+        hours: '<strong>【2026-09-13 复核】大门位于 US-93 公共路肩旁，路本身 24 小时通行，' +
+          '因此「看大门」没有营业时间限制，也不存在季节关闭。</strong>' +
           '但请注意两件事：' +
           '（一）<strong>这是私人住宅的门口，深夜或清晨过早在门口活动、开大灯照射门内，' +
           '既不礼貌也容易引来安保或警方</strong>，建议在正常白天时段（07:30 之后）前往，' +
@@ -492,6 +544,7 @@ module.exports = {
       n: 8,
       name: '特拉珀峰与 Bitterroot 山墙（谷底视角）',
       en: 'Trapper Peak & the Bitterroot Range from the Valley Floor',
+      must: 3.5,
       score: 4.5,
       tldr: '10,157 英尺的山墙从谷底陡拔 6,270 英尺。秋分日太阳正东升起、正对东坡——07:23–07:50 山顶已亮而谷底仍在蓝影，是本区上限最高的一张。',
       tags: [
@@ -533,6 +586,43 @@ module.exports = {
           'Bitterroot Salish 人一直生活到 <strong>1891 年被迁往 Flathead Indian Reservation</strong>，' +
           '<strong>1877 年 Nez Perce 族逃亡时也和平穿过这里</strong>——' +
           '和 Chief Joseph Ranch 的名字是同一段历史'
+      ],
+      tour: [
+        '<strong>这是一个「开车看风景」的点位，不是需要走进去的景区，先把这件事说清楚。</strong>' +
+          '<strong>US-93 路东侧有一处正式观景点（邮政地址 3965 U.S. 93, Darby，南行时在右手边），' +
+          '带路肩停车与一块解说牌</strong>，停车即到，<strong>零步行</strong>。' +
+          '<strong>整个「参观」的内容就是：把车停好、下车、读那块解说牌、朝西南看那道山墙。' +
+          '没有游客中心、没有卫生间、没有饮水，也不需要门票或通行证。</strong>',
+        '<strong>看什么：认出是三座峰而不是一座，这是现场唯一需要「学」的东西。</strong>' +
+          '从左到右（南到北）依次是 <strong>East Trapper（9,928 英尺）、Trapper Peak（10,157 英尺）、' +
+          'North Trapper（9,801 英尺）</strong>，当地统称 the Trapper Group。' +
+          '<strong>中间那座最高、最尖的才是 Trapper Peak，也是整条 Bitterroot Range 的最高点。</strong>' +
+          '<strong>真正震撼的不是高度而是落差</strong>：你脚下的谷底只有约 3,900 英尺，' +
+          '<strong>这道墙在不到 11 英里内拔起 6,270 英尺，中间几乎没有过渡的丘陵地带</strong>——' +
+          '这种「农田直接接冰川峭壁」的地形在美国本土很少见。' +
+          '再看山脚那一排平行的凹口，<strong>那是 30 多条冰川切出的 U 形峡谷</strong>，' +
+          '从北往南依次是 Bass、Sweathouse、Blodgett、Mill、Lost Horse、Bear、Boulder、Como。',
+        '<strong>不要只停在官方观景牌那一处，往南再开两英里。</strong>' +
+          '<strong>本地登山圈的一致意见是：官方观景牌只是「大多数人停的地方」，' +
+          '再往南两英里（靠近 Conner）的视角明显更好</strong>——' +
+          '越往南你与山脊的相对角度越接近正交，<strong>三座峰不再互相叠压，轮廓分得开。</strong>' +
+          '这一段没有正式观景点，但有多处能把整辆车停进去的宽路肩。' +
+          '<strong>加上这两英里，全程也只多花 10 分钟。</strong>',
+        '<strong>什么时候来，差别极大，这是本点位最需要照做的一条。</strong>' +
+          '<strong>清晨 07:23–09:30 山墙被正面光打亮、峡谷一条条投出阴影，立体感全天最强；' +
+          '傍晚太阳落到山墙背后，整道山变成没有细节的黑色剪影。</strong>' +
+          '<strong>如果你一天里只能来一次，必须是早上。</strong>' +
+          '<strong>傍晚要看山的话请反过来朝东看 Sapphire Mountains——' +
+          '那一侧此时正被暖光整面打亮，而大多数人这时还在朝西看一堆灰黑色的山。</strong>',
+        '<strong>人流与安全：几乎不用担心人，要担心的是车。</strong>' +
+          '<strong>9 月下旬平日这处观景点通常只有一两辆车，随到随停，不存在排队。</strong>' +
+          '<strong>但 US-93 是限速 65–70 mph、重型卡车频繁的主干道</strong>，' +
+          '停车务必把整车开出行车道、打开危险警示灯，下车后走向路侧而不是路中，' +
+          '<strong>带小孩的话请从副驾一侧下车。这里唯一的真实危险是交通。</strong>',
+        '<strong>餐饮与卫生间：现场都没有，Darby 在观景牌以北约 3 英里、开车 6 分钟。</strong>' +
+          'Darby 有三家餐馆、一家杂货店与加油站（加油站卫生间是这一带最方便的）。' +
+          '<strong>清晨来的话请注意：Darby 的餐馆多数 07:00 之后才开门，' +
+          '而你最好的观景时段是 07:23 开始，所以早饭请前一晚在 Hamilton 买好带上。</strong>'
       ],
       photo: '风光 <strong>5/5</strong>，地质 <strong>4.5/5</strong>，人像 <strong>2/5</strong>。' +
         '<strong>这是本子地区摄影上限最高的一个点，而且几乎零门槛——全部在 US-93 路边，下车即拍。</strong>' +
@@ -613,10 +703,21 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>30–45 分钟（不含往返车程）。</strong>' +
+          '分配：<strong>官方观景牌处 15–20 分钟（读解说牌 + 看山 + 认三座峰）+ ' +
+          '往南两英里换一处宽路肩再看 15–20 分钟 + 转场 10 分钟。</strong>' +
+          '<strong>只想看一眼就走：15 分钟足够，就停官方观景牌那一处。</strong>' +
+          '<strong>清晨专门来拍的话请整体预留 1.5–2 小时</strong>' +
+          '（含从 Hamilton 或 Darby 过来的车程、07:05 前到位、拍到 09:30 收工）。' +
+          '<strong>本点位没有任何「内容量」可以撑更长时间——它是看一眼就懂的地形，' +
+          '多出来的时间请给同一趟里的 Lake Como 与 Chief Joseph Ranch 大门。</strong>',
         book: '不需预约',
-        ticket: '<strong>免费</strong>。全部机位均在 US-93 公共路肩与正式观景点上，无任何费用，也不需要国家森林通行证' +
-          '（观景牌所在处不属于收费游憩区）',
-        hours: '<strong>US-93 为全年 24 小时通行的主干道，观景点无门禁、无关门时间</strong>，' +
+        ticket: '<strong>【2026-09-13 复核】完全免费。</strong>' +
+          '全部机位均在 US-93 公共路肩与正式观景点上，<strong>无门票、无日间使用费、无停车费</strong>，' +
+          '<strong>也不需要国家森林通行证或 America the Beautiful 年票</strong>——' +
+          '<strong>Bitterroot National Forest 当天的官方 Passes 页只对 Lake Como Recreation Area 一处设日间使用费，' +
+          'Trapper Peak 观景牌不在其列。</strong>',
+        hours: '<strong>【2026-09-13 复核】US-93 为全年 24 小时通行的主干道，观景点无门禁、无关门时间、无季节关闭</strong>，' +
           '任何时刻都可以到。' +
           '<strong>这是本区唯一一个「完全不受任何营业时间、季节关闭、预约制度影响」的高分点位</strong>，' +
           '也因此是烟霾散去后随时可以补拍的备选。' +
@@ -669,6 +770,7 @@ module.exports = {
       n: 6,
       name: '科莫湖',
       en: 'Lake Como, Darby',
+      must: 2.5,
       score: 3.5,
       tldr: '913 英亩水库，紧贴 Bitterroot 主脊之下。9/22 起日间使用费已免收。清晨湖面倒影 + 山脊金光是主菜，但秋季水位已被放光，岸线会露出泥滩。',
       tags: [
@@ -720,6 +822,48 @@ module.exports = {
           '<strong>也就是说 9/22–9/23 两处营地都还开着，但官方提示「若气温开始下降，供水会提前封闭过冬」' +
           '（“water will be winterized sooner if temperatures start dropping”）——' +
           '而 9 月下旬清晨已在冰点附近，请不要指望现场有水。</strong>'
+      ],
+      tour: [
+        '<strong>怎么进去：从 Darby 沿 US-93 北行 4 英里到 Lake Como Road，西行约 4 英里到底。' +
+          '路口处向右（北）通往沙滩、野餐区与步道口，向左（南）通往营地与下水坡道。</strong>' +
+          '<strong>普通游客请走右边那条</strong>——日间使用区有铺装停车场，' +
+          '<strong>停好车走 2–3 分钟就到水边，湖正对面就是 Bitterroot 主脊，' +
+          '这是整个谷地里唯一能同时看到「静水 + 紧贴其后的高山」的地方。</strong>' +
+          '<strong>进场道路为铺装，普通轿车没有问题。</strong>',
+        '<strong>怎么逛：三种强度，按你有多少时间选。</strong>' +
+          '<strong>（一）15 分钟版</strong>：在日间使用区停车场下车、走到岸边看一眼、拍张照就走。' +
+          '<strong>这已经拿到了这里 80% 的东西</strong>，因为主景就是「湖 + 山」这一眼。' +
+          '<strong>（二）1 小时版（推荐）</strong>：沿北岸步道向西走 20–30 分钟再折返。' +
+          '<strong>东端岸边松杉很多、视线常被挡，往西走 1–1.5 英里会经过几处开阔的砾石岸，' +
+          '视野完全打开而且离山墙更近。地势平缓，不算徒步。</strong>' +
+          '<strong>（三）3–4 小时版</strong>：环湖一圈约 7 英里。' +
+          '<strong>对只在谷地待两天的人不值得——后半圈的景色与前 30 分钟差别不大。</strong>',
+        '<strong>【必须提前知道的两件扫兴事，否则你到了会失望】</strong>' +
+          '<strong>第一，这是一座灌溉水库，不是天然湖。</strong>' +
+          '官方对沙滩的描述是 “popular during the summer months when the lake is full, usually until August”——' +
+          '<strong>「湖满」通常只到 8 月</strong>，' +
+          '<strong>9 月下旬你会看到一条裸露的砾石与泥滩落水线，以及原本淹在水下的树桩和石头，' +
+          '水面比夏季照片小得多、也远得多。</strong>' +
+          '<strong>第二，Labor Day（2026 年 9 月 7 日）之后这里「无任何服务」</strong>：' +
+          '<strong>不清运垃圾、饮水已或将封闭过冬、部分卫生间关闭，官方要求垃圾全部自己带走。</strong>',
+        '<strong>餐饮与卫生间：请当成「完全没有」来准备。</strong>' +
+          '<strong>现场没有餐饮、没有小卖部、没有自动售货机</strong>，' +
+          '<strong>饮水在 Labor Day 后已封闭或即将封闭</strong>，' +
+          '<strong>卫生间只有旱厕且部分已关闭。请自带饮水，并在 Darby 解决卫生间</strong>' +
+          '（Darby 到湖边路口 4 英里／8 分钟，进湖再 4 英里／8 分钟）。' +
+          '<strong>另外这里没有手机信号，转入 Lake Como Road 之后基本即断，请提前下载离线地图。</strong>',
+        '<strong>人流：9 月下旬平日基本没人，这是本区最容易独占的地方。</strong>' +
+          '夏季周末这里是 Bitterroot 谷地最热闹的水上游憩区（沙滩、下水坡道、划船），' +
+          '<strong>但你的日期已过 Labor Day、又是周二周三，停车场大概率空着。</strong>' +
+          '<strong>代价是另一件事：没有人也意味着没有救援。' +
+          'Bitterroot 一带有灰熊与黑熊活动（官方标注 “Food storage Required”），' +
+          '只要走上北岸步道就应携带熊喷雾并出声行进，清晨天没亮时进林子尤其要注意。</strong>',
+        '<strong>什么时候来：清晨，而且只有清晨。</strong>' +
+          '<strong>湖就在山墙脚下，山体会在约 18:32 就掐断湖面的直射光，比 19:35 的日落早整整一小时</strong>——' +
+          '<strong>「傍晚去湖边看日落」这个计划在这里是不成立的，你会到达一个已经没有光的湖。</strong>' +
+          '<strong>正确时段是 07:00–08:30</strong>：无风、水面最平、对岸山脊刚被点亮。' +
+          '<strong>请注意湖畔海拔 4,242 英尺又是冷空气汇集的盆地，' +
+          '9 月下旬清晨出现白霜是常态，比 Missoula 低 2–4°C，请按接近冰点准备衣物。</strong>'
       ],
       photo: '风光 <strong>4/5</strong>，倒影／静水 <strong>4/5</strong>（水位好的话），人像 <strong>2.5/5</strong>。' +
         '「静水 + 紧贴其后的高山墙」这个配置在本区独一无二，清晨无风时的倒影上限很高。' +
@@ -797,15 +941,28 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1–1.5 小时是最合理的分配。</strong>' +
+          '拆开：<strong>停车与走到岸边 5 分钟 + 在东端岸边看湖与山墙 15–20 分钟 + ' +
+          '沿北岸步道往西单程 20–30 分钟、原路折返 20–30 分钟。</strong>' +
+          '<strong>只想看一眼：15–20 分钟，停车场到水边来回即可，这已经拿到主景。</strong>' +
+          '<strong>环湖一圈约 7 英里／3–4 小时，本次行程不建议。</strong>' +
+          '<strong>再加上从 Darby 或 Hamilton 过来的车程（单程 8–30 分钟）与末段 4 英里进场路，' +
+          '清晨专门来一趟请整体预留 2–2.5 小时。</strong>',
         book: '<strong>不需预约。</strong>三处营地全部<strong>先到先得、不接受预订</strong>' +
           '（官方原文 “First come/first serve, no reservations”），' +
           '但你只是白天来拍照，与营地无关',
-        ticket: '<strong>你的日期免费。</strong>官方规定日间使用费<strong>仅在 Memorial Day 至 Labor Day 期间收取</strong>' +
-          '（$5／车／天，$30／季，Bitterroot NF 各办公室与谷地内代售点有售），' +
-          '<strong>2026 年 Labor Day 为 9 月 7 日，9/22–9/23 已停收</strong>。' +
-          '（顺带一提，收费期内 <strong>America the Beautiful、Senior、Access 等 Interagency 通行证在本区所有收费点均被认可</strong>，' +
-          '你手上的年票本来也能覆盖）',
-        hours: '<strong>Lake Como 的日间使用区（野餐区、步道口、沙滩、下水坡道）官方口径为「全年开放」</strong>' +
+        ticket: '<strong>【2026-09-13 复核 Bitterroot NF 官方 Passes 页（页面标注 Last updated August 5, 2026）与各站点页，你的日期免费。】</strong>' +
+          '官方原文：<strong>“From Memorial Day weekend through Labor Day weekend, all vehicles parked within the recreation area ' +
+          'must display a valid Lake Como Day Pass. Day Passes are just $5, or … a Season Pass for $30.”</strong>' +
+          '<strong>2026 年 Labor Day 为 9 月 7 日，9/22–9/23 已过收费期，日间使用费停收。</strong>' +
+          'Ravalli County 转载的官方秋季安排写得更直接：' +
+          '<strong>“Lake Como Day Use Sites (Picnic Area, Trailhead, Beach, Boat Launch) = Day use fees no longer required, ' +
+          'no services, ‘pack it in, pack it out’. Open year-round.”</strong>' +
+          '<strong>（收费期内的付费方式与年票口径，供参考：现场有两处刷卡自助缴费机——' +
+          '一处在通往沙滩的 NFSR 1111 路口旁、一处在沙滩溢出停车场；' +
+          'Darby、Hamilton、Stevensville 三处 Forest Service 办公室与谷地内代售点也售卡。' +
+          'Bitterroot NF 明确 America the Beautiful 年票／Access／Military／Senior／Golden Age 均可覆盖此费。）</strong>',
+        hours: '<strong>【2026-09-13 复核】Lake Como 的日间使用区（野餐区、步道口、沙滩、下水坡道）官方口径为「全年开放」</strong>' +
           '（“Open year-round”，另一处表述为 “Site open yearlong until closed by snow”），' +
           '<strong>无门禁、无关门时间，9/22–9/23 确定可达。</strong>' +
           '<strong>但自 Labor Day 之后「无任何服务」（no services）</strong>：' +
@@ -870,6 +1027,7 @@ module.exports = {
       n: 4,
       name: 'Bitterroot 国家森林峡谷走廊（Blodgett Canyon 观景点）',
       en: 'Bitterroot National Forest Scenic Corridor — Blodgett Canyon Overlook',
+      must: 3,
       score: 4,
       tldr: '选它而不是 Lolo Pass——后者访客中心周二周三全闭，正好是你两天。花岗岩 U 形谷，1.5 英里步道，傍晚侧光打岩壁。',
       tags: [
@@ -932,6 +1090,52 @@ module.exports = {
           '<strong>Bitterroot National Forest 全区约 160 万英亩、1898 年设立，' +
           '境内含 Selway-Bitterroot Wilderness（130 万英亩，1964 年《荒野法》最初指定的最大一片）</strong>'
       ],
+      tour: [
+        '<strong>这是本区唯一一个需要真正走一段路才能拿到的景，先确认你愿不愿意走。</strong>' +
+          '<strong>Blodgett Overlook Trail #101：单程 1.4–1.5 英里、爬升约 500 英尺、往返 2.9 英里，' +
+          '官方给的平均往返时间约 1 小时 23 分钟，评级容易至中等。</strong>' +
+          '<strong>路面宽、维护良好、坡度均匀，不需要任何技术，普通体力的人走得下来</strong>——' +
+          '但它确实是一段持续上坡，<strong>膝盖不好或不想出汗的人请直接用停车场那个零步行的替代方案</strong>（见下）。' +
+          '<strong>沿途每隔一段有长椅，可以停下来喘气。</strong>',
+        '<strong>到了以后看什么：一条被冰川切出来的花岗岩 U 形谷，从侧上方正面看它的全貌。</strong>' +
+          '<strong>终点是南侧 Romney Ridge 上一个正对峡谷的悬崖平台</strong>，' +
+          '<strong>视野一次涵盖四样东西：Blodgett Canyon 全谷、身后的整条 Bitterroot Valley、' +
+          '谷地东侧的 Sapphire Mountains，以及 Selway-Bitterroot Wilderness 深处的群峰。</strong>' +
+          '<strong>核心看点是对面那道近乎垂直的花岗岩大墙</strong>——' +
+          '因为规模与形态，当地常拿它和 Yosemite 相比。' +
+          '<strong>这条步道的全部意义就是「用 1.5 英里换一个通常要走一整天进谷才有的视角」，' +
+          '这是它在本区不可替代的原因。</strong>',
+        '<strong>走法上的两个具体坑。</strong>' +
+          '<strong>（一）岔口不要走错</strong>：步道口与 Canyon Creek Trail 共用停车场，' +
+          '<strong>出发后在岔口要向右（北）走 Trail #101，直走进去的是峡谷底部那条长得多的路。</strong>' +
+          '<strong>（二）不要在正午（11:30–15:00）上去</strong>：' +
+          '太阳这时几乎在你背后正对岩壁，' +
+          '<strong>整面墙会变成一片没有起伏的灰白，看起来平淡得多。' +
+          '早晨或傍晚的侧光才能把花岗岩的节理与裂隙拉出立体感</strong>，' +
+          '<strong>其中傍晚最好——「谷底已暗、上部岩壁还亮着」是这里最有辨识度的画面。</strong>' +
+          '<strong>但傍晚上去就必须带头灯，你一定会在暮光中下山。</strong>',
+        '<strong>安全上真正需要注意的两件事，都不是体力问题。</strong>' +
+          '<strong>（一）观景点边缘就是陡崖</strong>，官方与当地的一致提醒是 “the ledges are steep and rocky”。' +
+          '<strong>有长椅与成形路径，但后退取景或让小孩跑动之前请先看脚下。</strong>' +
+          '<strong>（二）整条步道都在熊活动区内</strong>' +
+          '（Selway-Bitterroot 内有灰熊，黑熊全森林常见），' +
+          '<strong>必须带熊喷雾并放在随手可及处、出声行进。傍晚与清晨正是熊最活跃的时段。' +
+          '熊喷雾不能带上飞机（托运也不行），请在 Missoula 或 Hamilton 的户外店买。</strong>',
+        '<strong>不想走的人有一个完整的替代方案，而且不算将就。</strong>' +
+          '<strong>路尽头的停车场本身就在 Blodgett Canyon 的谷口</strong>，' +
+          '<strong>从这里向西（上游）看，两侧岩壁向内收拢，是很完整的「峡谷之门」视角，' +
+          '脚下还有 Blodgett Creek 的溪水。下车即到，零步行。</strong>' +
+          '<strong>另一个零风险的替代是 East Side Highway</strong>——' +
+          '沿谷地东侧贯通 Florence–Stevensville–Hamilton，' +
+          '<strong>以 Bitterroot 山墙为持续背景、沿 Bitterroot River 有成带的 cottonwood，' +
+          '视野比 US-93 开阔得多，是本走廊最好的车行风景路线。</strong>',
+        '<strong>餐饮、卫生间与路况：停车场只有旱厕，没有饮水、没有餐饮、没有手机信号。</strong>' +
+          '<strong>最近的补给在 Hamilton（约 5.5 英里，但含 4 英里林道，实际 30 分钟）。</strong>' +
+          '<strong>进场的末段 4 英里（FS 736／Canyon Creek Rd）是碎石林道</strong>，' +
+          '当地对它的评价是「雨天或泥泞时会有点难走」，' +
+          '<strong>干燥时普通轿车慢行没问题，雨雪后低底盘车请放弃上去、改走 East Side Highway。</strong>' +
+          '<strong>9 月下旬平日车位宽松，但这是 Hamilton 一带最受欢迎的短途步道，周末会满。</strong>'
+      ],
       photo: '风光 <strong>4.5/5</strong>，地质 <strong>4.5/5</strong>，秋色 <strong>3/5</strong>，人像 <strong>2.5/5</strong>。' +
         '花岗岩 U 形谷在低角度侧光下的表现极好，而且 1.5 英里就能拿到一个通常要走一整天才有的视角，性价比很高。' +
         '秋色只给 3 分是<strong>诚实的时机问题</strong>：' +
@@ -993,10 +1197,20 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>3–3.5 小时（从停车场算起，不含从 Hamilton 过来的 30 分钟车程）。</strong>' +
+          '分配：<strong>上行 40–50 分钟（官方往返均速约 1 小时 23 分，带背包与三脚架请按上行 50 分钟算）+ ' +
+          '在观景平台停留 60–90 分钟 + 下行 35–40 分钟。</strong>' +
+          '<strong>只想看一眼就走：上行 40 分钟 + 平台 20 分钟 + 下行 35 分钟，' +
+          '往返约 1 小时 40 分钟，这是不赶的最短方案。</strong>' +
+          '<strong>完全不想爬：停车场的谷口视角 15–20 分钟，下车即到。</strong>' +
+          '<strong>傍晚场次请整体预留 3.5–4 小时并在 16:00 前后离开 Hamilton，且必须带头灯。</strong>',
         book: '不需预约',
-        ticket: '<strong>免费</strong>。Blodgett Overlook Trail 与其停车场<strong>不属于收费游憩区，无需日间使用费，' +
-          '也不需要任何通行证</strong>（与 Lake Como 不同）',
-        hours: '<strong>步道与停车场无门禁、无关门时间，官方标注最佳季节 5–10 月，9/22–9/23 完全在季节内。</strong>' +
+        ticket: '<strong>【2026-09-13 复核 Bitterroot NF 官方 Passes 页】完全免费。</strong>' +
+          'Blodgett Overlook Trail 与其停车场<strong>不属于收费游憩区，无需日间使用费，也不需要任何通行证</strong>——' +
+          '<strong>该页当天只对 Lake Como Recreation Area 一处设日间使用费，Blodgett 不在收费站点名单内。</strong>' +
+          '<strong>停车免费不限时。</strong>',
+        hours: '<strong>【2026-09-13 复核】步道与停车场无门禁、无关门时间、无营业季节，' +
+          '官方标注最佳季节 5–10 月，9/22–9/23 完全在季节内。</strong>' +
           '<strong>但请注意「无门禁」不等于「一定能进」——这一带的真正变量是火情封路。</strong>' +
           '<strong>2026-09-05 逐条复核了 Bitterroot NF 的 alerts 页，结论是本景点仍然不受封闭令影响，' +
           '但原先「现有封闭令全在谷地东侧」这句话已经不准确，请看清楚下面第二条。</strong>' +
@@ -1086,6 +1300,7 @@ module.exports = {
       n: 5,
       name: '戴利公馆（兼记 St. Mary\u2019s Mission）',
       en: 'Daly Mansion, Hamilton (with St. Mary\u2019s Mission, Stevensville)',
+      must: 4,
       score: 3.5,
       tldr: '两处 9/22–9/23 都开门，已核实。选 Daly：24,000 平方英尺乔治复兴式大宅 + 40 英亩树木园。但园区 17:00 关门，黄金时段进不去。',
       tags: [
@@ -1151,6 +1366,54 @@ module.exports = {
           '<strong>它整体是「小、密、暗」的题材</strong>：' +
           '<strong>适合 35mm／50mm 定焦拍手工雕刻的家具细节与小教堂内部的光，不适合拍大场面。' +
           '而且它就在 US-93 边、Stevensville 镇内，正好是你 9/22 从 MSO 南下时的顺路点（MSO 出发 45 分钟）。</strong>'
+      ],
+      tour: [
+        '<strong>【Daly Mansion】先选参观方式，这一步决定你当天的全部节奏。</strong>' +
+          '<strong>两种：导览团（周二至周六 11:00–14:00，由志愿者带，讲解详细）' +
+          '与自助参观（周二至周六 10:00 与 15:00 两场、周日 10:00–15:00 全天，票价含一本自助手册）。</strong>' +
+          '<strong>想听故事就选导览团</strong>——Marcus Daly 这个人与这栋房子的关系全靠讲解才立得住；' +
+          '<strong>想按自己节奏慢慢看就选自助场。</strong>' +
+          '<strong>关键风险：官方明确写导览团 “based on volunteer tour guide availability”（取决于志愿者是否在岗），' +
+          '可能当天临时没有。出发前打 406-363-6004 问一句，这通电话很值。</strong>',
+        '<strong>屋里怎么逛、哪些别错过。</strong>' +
+          '<strong>这是一栋 24,000 平方英尺、24 间卧室、15 间浴室、7 座壁炉的乔治复兴式大宅，' +
+          '一间间走会走累，请按重点走。</strong>' +
+          '<strong>必看：一层的主楼梯与门厅（这是全宅最有气势的一处）、几座各不相同的壁炉、' +
+          '以及保留下来的原始家具与陈设</strong>。' +
+          '<strong>可以快走的：二三层大量功能相似的卧室</strong>——' +
+          '看过三四间之后信息量就重复了，<strong>省下的时间给楼下的公共空间与外面的树木园。</strong>' +
+          '<strong>理解这栋房子的关键不在房间数量，而在一句话：' +
+          '是先有这片庄园，后有 Hamilton 这座城——Marcus Daly 买下谷地建起自己的种马场与宅邸，' +
+          '再为工人建了整座镇。</strong>',
+        '<strong>【Daly Mansion】户外的 40 多英亩树木园值得单独留时间，很多人直接忽略了它。</strong>' +
+          '官方的说法是它<strong>“boasts one of the widest and rarest varieties of trees in the state of Montana”</strong>' +
+          '（拥有 Montana 最多样、最珍稀的树种之一）。' +
+          '<strong>9 月下旬部分树种已开始转色（未到盛期），草坪开阔、几乎没人，' +
+          '绕大宅与树木园走一圈约 30–45 分钟，是这一站最放松的一段。</strong>' +
+          '<strong>园区每周 7 天 10:00–17:00 开放，即使大宅内部当天没有导览，园区也照常能进。</strong>',
+        '<strong>【Daly Mansion】排队、人流、餐饮与卫生间。</strong>' +
+          '<strong>9 月下旬的平日几乎不存在排队</strong>，自助场与导览团都是现场买票即进，停车场紧邻大宅、免费且宽松。' +
+          '<strong>卫生间在游客接待区内，进门就有。</strong>' +
+          '<strong>但园内没有餐饮</strong>——没有咖啡厅、没有餐厅，' +
+          '<strong>请在 Hamilton 镇上解决（大宅到 Hamilton 市中心约 2 英里／5 分钟，' +
+          'Hamilton 是整条 Bitterroot 谷地最完整的补给点，超市、餐馆、药店都有）。</strong>' +
+          '<strong>另外记住园区 17:00 关门，这是一条硬边界，不要把它排在傍晚。</strong>',
+        '<strong>【St. Mary\u2019s Mission】它是另一种东西：分量极重、体量极小，' +
+          '请按「看一小时的浓缩历史」来安排，不要按「逛一个景点」。</strong>' +
+          '<strong>1841 年由耶稣会士 Fr. Pierre-Jean De Smet 创立，是 Montana 州历史的起点</strong>，' +
+          '当地的自我定位就是 “Where Montana Began”——农业、医药、教育与宗教都是从这里最先引入 Montana 的。' +
+          '<strong>参观内容是若干栋小型木构建筑</strong>：' +
+          '<strong>St. Mary\u2019s 小教堂及其附属住所、餐厅与厨房；Fr. Anthony Ravalli 的木屋与药房' +
+          '（Ravalli County 即以他命名）；Chief Victor 的木屋，内设 Salish 博物馆；一辆牛车复制品与旧鸽舍。</strong>',
+        '<strong>【St. Mary\u2019s Mission】现场三件别错过的具体东西，外加时间窗口的硬约束。</strong>' +
+          '<strong>（一）Fr. Ravalli 手工雕刻的原始家具</strong>——建筑内保留了大量他亲手做的木器，' +
+          '这是全区最有质感的手工细节；' +
+          '<strong>（二）园中那棵 1869 年由 Fr. Ravalli 亲手栽下、至今仍在结果的苹果树</strong>' +
+          '（官方原话 “While showing its age, the tree continues to bear fruit”）；' +
+          '<strong>（三）小教堂内部</strong>，这是本区唯一的宗教建筑内景。' +
+          '<strong>时间上它被锁死在周二至周六 11:00–15:00、最后一团 14:00</strong>——' +
+          '<strong>没有早晚可选，也就是说它只能放在白天行程的中段。' +
+          '现场无餐饮，Stevensville 镇上有几家小馆子，步行可达。</strong>'
       ],
       photo: '建筑 <strong>4/5</strong>，人文／室内 <strong>4/5</strong>，风光 <strong>2/5</strong>，秋色 <strong>3/5</strong>。' +
         'Daly Mansion 的体量、对称立面与 40 英亩树木园是本区唯一的正经建筑题材，室内陈设也完整。' +
@@ -1245,6 +1508,14 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>Daly Mansion：2–2.5 小时。</strong>' +
+          '分配：<strong>室内参观 60–75 分钟（导览团官方节奏约 1 小时；自助场按自己速度 45–75 分钟）+ ' +
+          '园区与 40 英亩树木园 30–45 分钟 + 买票与走动 15 分钟。</strong>' +
+          '<strong>只看重点 60 分钟</strong>：一层门厅与主楼梯 + 几座壁炉 + 绕大宅外墙走一圈，跳过楼上大部分卧室。' +
+          '<strong>St. Mary\u2019s Mission：1–1.5 小时</strong>，其中导览约 45–60 分钟，' +
+          '外加自己看苹果树与院子 15–20 分钟；<strong>只看小教堂与那棵树 30 分钟够了。</strong>' +
+          '<strong>两处合起来（含 30 英里／40 分钟的往返车程）约需 4.5–5 小时，同一天走完可行；' +
+          '但 St. Mary\u2019s 15:00 就关门，必须先走它、后走 Daly。</strong>',
         book: '<strong>两处均不强制预约。</strong>' +
           '<strong>Daly Mansion</strong>：官方原文' +
           '<strong>“Please call 406-363-6004 if you would like to make a reservation – they are not required, ' +
@@ -1252,13 +1523,18 @@ module.exports = {
           '<strong>——虽非强制，但由于导览团「取决于志愿者是否在岗」，建议出发前打这个电话确认当天有无导览。</strong>' +
           '<strong>St. Mary\u2019s Mission</strong>：可现场买票；' +
           '<strong>官网可在线订团，10 人以上团体与学校团必须提前电话预约（406-777-5734）</strong>',
-        ticket: '<strong>Daly Mansion：成人 $15、60 岁以上 $14、退伍军人与现役 $13、6–17 岁 $8、5 岁以下免费。</strong>' +
-          '（票价来源为官网与 Ravalli County 官方页，两处一致；' +
-          '其中「退伍军人 $13」与另一处「$14 seniors or military」的表述略有出入，' +
-          '<strong>以现场为准，差额 $1 不影响决策</strong>）' +
-          '<strong>St. Mary\u2019s Mission：$10／人，5 岁以下免费；博物馆与美术馆免费参观（欢迎捐赠）。</strong>' +
+        ticket: '<strong>【2026-09-13 复核 dalymansion.org 首页与 /tour/ 页，价格未变】</strong>' +
+          '<strong>Daly Mansion：成人 $15、60 岁以上 $14、退伍军人与现役 $13、6–17 岁 $8、5 岁以下免费。</strong>' +
+          '<strong>官网两页自相矛盾且当天仍未统一，两种口径都写在这里：' +
+          '首页列的是「$14 for Seniors (60+)」与「$13 for Veterans &amp; Military」两档；' +
+          '而 /tour/ 页把它们合并成一档「$14 for Seniors (60+) or Military」，没有 $13 这一档。' +
+          '差额 $1，不影响决策，以现场收银为准。</strong>' +
+          '<strong>St. Mary\u2019s Mission：$10／人，5 岁以下免费；博物馆与美术馆免费参观（欢迎捐赠）。' +
+          '2026-09-13 经 Bitterroot Valley Chamber of Commerce 的逐日活动页复核，' +
+          '9 月每一场导览仍标 $10，未涨价。</strong>' +
           '<strong>请注意这两处都不接受 America the Beautiful 年票</strong>——它们不是联邦产权',
-        hours: '<strong>Daly Mansion（官方「Summer Tour Season Hours (June – September)」原文口径，2026-09-05 复核未变，' +
+        hours: '<strong>【2026-09-13 复核官网，与 9 月 5 日那次核对结果一致，未变】</strong>' +
+          '<strong>Daly Mansion（官方「Summer Tour Season Hours (June – September)」原文口径，' +
           '官网与 Ravalli County 官方页两处一字不差）：</strong>' +
           '<strong>园区每周 7 天 10:00–17:00；导览团周二至周六 11:00–14:00（取决于志愿者在岗情况）；' +
           '自助参观周二至周六 10:00 与 15:00、周日 10:00–15:00 全天。</strong>' +

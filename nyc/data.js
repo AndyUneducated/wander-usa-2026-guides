@@ -358,6 +358,7 @@ var REGIONS = [
         "n": 1,
         "name": "哈佛大学 · 哈佛庭院",
         "en": "Harvard University · Harvard Yard",
+        "must": 4,
         "score": 4,
         "tldr": "Yard 已于 2025 年 6 月重新对公众开放，免费无证件，6 道门 24 小时；Art Museums 免票但周一闭馆。",
         "tags": [
@@ -384,6 +385,13 @@ var REGIONS = [
           "<strong>「三个谎言的雕像」——这才是 John Harvard 像值得拍的理由。</strong>OSM <strong>42.37446／-71.11720</strong>，Daniel Chester French（林肯纪念堂那尊林肯像的作者）1884 年作，在 University Hall 前。基座刻着「John Harvard, Founder, 1638」，<strong>而这三项信息全是错的</strong>：<strong>① 脸不是 John Harvard</strong>——1764 年的大火烧掉了所有他的肖像，French 只能找一名在校学生当模特；<strong>② 他不是创办人</strong>，他是 1638 年去世时捐出藏书与一半遗产的<strong>捐赠人</strong>，学校 1636 年就由 Massachusetts Bay Colony 立法成立；<strong>③ 年份应是 1636 而非 1638</strong>。<strong>实拍现实：游客排队摸那只左脚（据说带来好运），所以左脚被摸得金亮，与其余深色铜锈形成强烈反差——那只脚本身就是最好的特写题材。</strong>",
           "<strong>Tercentenary Theatre 是 Yard 内唯一的大空间，也是全区最好的建筑对话。</strong>这块草坪被四栋建筑围合：<strong>北面 Memorial Church（OSM 42.37492／-71.11603，1932 年，纪念一战阵亡校友，白色塔尖是 Yard 的垂直制高点）</strong>；<strong>南面 Widener Library 的巨型阶梯</strong>；东面是 H. H. Richardson 1880 年的 <strong>Sever Hall</strong>（<strong>与 Trinity Church 同一位建筑师</strong>，砖砌的 Richardsonian Romanesque，<strong>门廊有个著名的声学怪癖：两人站在拱门两侧低声说话可以互相听见</strong>）；西面是 Emerson Hall。<strong>Memorial Church 的白塔与 Widener 的灰石柱廊隔草坪正面相对，这是 Yard 内唯一能一次拍到两个量级建筑的位置。</strong><br><br><strong>Massachusetts Hall 是 Yard 里最老的建筑（1720 年），而它现在是校长办公室。</strong>在 Johnston Gate 内侧右手。<strong>它在美国革命期间被用作大陆军营房</strong>（<strong>容纳人数各来源不一，未能从校方渠道逐字核实</strong>）。现在一楼是校长与副校长办公室，<strong>不对外开放</strong>。<strong>拍摄价值在于「最老的砖」</strong>：三层红砖、极简、几乎无装饰，与旁边 19 世纪那些繁复立面对比强烈，是 35mm 正面平拍的好目标。",
           "<strong>Harvard Art Museums 已永久免票，这是本条目最大的实惠。</strong>OSM <strong>42.37410／-71.11411</strong>（32 Quincy Street）。<strong>官方原文「Admission is free to all visitors every day」</strong>，免票由 <strong>David Rockefeller 遗产</strong>捐赠与校长办公室支持实现（2023 年 7 月起的永久政策）。三馆合一（Fogg、Busch-Reisinger、Arthur M. Sackler），<strong>建筑本身是 Renzo Piano 2014 年的改造，中央玻璃屋顶下的多层庭院是绝佳的建筑摄影题材</strong>。<strong>另一个便宜的加分项：Adolphus Busch Hall（29 Kirkland Street）也免费，但只在周三 13:00–17:00 与周六 10:00–14:00 开放。</strong>"
+        ],
+        "tour": [
+          "<strong>怎么逛：Red Line 坐到「Harvard」站，出站就在 Yard 的门口，整个区域步行 15 分钟见方。</strong>标准路线是<strong>地铁站 → Johnston Gate（正门，砖柱铁门，1889 年，是 Yard 二十几道门里最正式的一道）→ Old Yard（John Harvard 像、Massachusetts Hall、Harvard Hall）→ 穿过去到 Tercentenary Theatre（Widener Library 的巨大列柱阶梯与 Memorial Church 隔草坪对望）→ 东门出到 Quincy Street → Harvard Art Museums</strong>。<strong>Yard 在 2025 年 6 月重新对公众开放，免费、不查证件、不需预约，六道门 24 小时</strong>，但它随时可能因校内活动临时整体关闭，而且没有规律。",
+          "<strong>不能错过的两件，一件免费一件也免费：</strong><strong>①Harvard Art Museums（32 Quincy Street）</strong>——这是 Harvard 之行真正的内容所在，很多人完全不知道它存在。<strong>三馆合一（Fogg、Busch-Reisinger、Arthur M. Sackler），25 万件藏品，三层五十多个展厅，2014 年 Renzo Piano 重建，中央是玻璃屋顶的 Calderwood Courtyard</strong>。重点：<strong>三楼的 Rothko 壁画室、印象派与后印象派（梵高的自画像、莫奈、德加）、四楼的 Lightbox Gallery、以及 Busch-Reisinger 的德国表现主义（全美最好的一批）</strong>。<strong>完全免费，周一闭馆。</strong><strong>②Widener Library 的外阶</strong>——1912 年由 Harry Elkins Widener 的母亲捐建，<strong>他 27 岁死于 Titanic 沉船</strong>，母亲要求学校永远不得改动这栋楼的外观；<strong>图书馆内部只对持 Harvard ID 者开放，游客上不去，站在阶梯上拍完就行</strong>。",
+          "<strong>关于 John Harvard 像，说三件事省得你被导游忽悠：</strong><strong>它被称为「三重谎言雕像」（Statue of Three Lies）</strong>——底座写着「John Harvard, Founder, 1638」，<strong>而三句话全错：这不是 John Harvard 本人（没有留下任何画像，1884 年雕塑家 Daniel Chester French 找了个学生当模特）、他不是创办人（只是第一位重要捐赠者，捐了藏书与一半遗产）、建校年份是 1636 不是 1638</strong>。<strong>摸左脚会带来好运是旅游业编出来的说法，没有任何校内传统依据</strong>；而<strong>那只被摸得锃亮的鞋每年都要清洗，因为学生半夜往上面撒尿是真实存在的恶作剧</strong>。知道这些之后你会发现排队摸脚这件事很没必要——拍一张就走。",
+          "<strong>可以跳过的、以及要不要花钱跟导览：</strong><strong>Harvard Square 本身（书店与连锁店）不值得专门逛</strong>，例外是 <strong>Harvard Book Store（1256 Massachusetts Avenue，独立书店，地下室有二手区）</strong>。<strong>Harvard Museum of Natural History（成人 $15）里的「Glass Flowers」玻璃花标本</strong>（Blaschka 父子花 50 年做的 4,300 件玻璃植物模型）是真正独一无二的东西，<strong>但它在 Yard 北边 600 米外，要额外 1 小时加门票，只在你对自然史有兴趣时才去</strong>。<strong>学生带队的付费校园导览（各家 $20–35）：内容基本是校园八卦与申请故事</strong>，<strong>官方的 Harvard Visitor Center 另有免费与付费选项，需在 harvard.edu 上提前登记</strong>；<strong>自己走完全没问题，Yard 不大，也没有讲解才能看懂的东西。</strong>",
+          "<strong>餐饮与卫生间：Yard 内部没有对游客开放的卫生间，这一点务必先想好。</strong><strong>最可靠的两处：①Harvard Art Museums 一楼（免费入馆，卫生间在 Calderwood Courtyard 旁）</strong>、<strong>②Harvard Square 地铁站与 Smith Campus Center（1350 Massachusetts Avenue，一楼是对公众开放的共享空间，有座位、咖啡与卫生间，是这一带最好用的休息点）</strong>。吃饭：<strong>Harvard Square 周边密度很高</strong>——Felipe's Taqueria（便宜快，屋顶有座）、Tatte、Clover（本地素食快餐连锁）、<strong>Mr. Bartley's Burger Cottage（1246 Massachusetts Avenue，1960 年开的汉堡老店，只收现金／刷卡加价，周日不开）</strong>。<strong>Harvard 的食堂（含著名的 Annenberg Hall）不对公众开放，别去敲门。</strong>"
         ],
         "photo": "建筑 <strong>4.5/5</strong>，风光 <strong>3.5/5</strong>（10/22 后升到 4.5），人文纪实 <strong>4/5</strong>，室内 <strong>4/5</strong>（Art Museums）。免费、大部分门 24 小时、砖石与秋叶的色调关系是 New England 的教科书；扣分在所有建筑内部都进不去，以及 Yard 有临时封闭的可能。",
         "shots": [
@@ -746,6 +754,7 @@ var REGIONS = [
         "n": 5,
         "name": "橡实街与灯塔山",
         "en": "Acorn Street & Beacon Hill",
+        "must": 3.5,
         "score": 4.5,
         "tldr": "巷宽约 5 米、房高约 11 米，秋季阳光永远打不到鹅卵石——所以阴天与 07:00 前才是正解，不是「等好光」。",
         "tags": [
@@ -772,6 +781,13 @@ var REGIONS = [
           "<strong>核心光线结论：秋季直射阳光永远到不了路面。</strong>巷道净宽约 <strong>5 米</strong>、两侧联排房约三层 <strong>10–12 米</strong>高，<strong>阳光要落到鹅卵石上需要太阳高度超过约 63–66°</strong>；而 Boston 的正午高度 <strong>9 月 25 日只有 46.6°、10 月 22 日只有 36.4°</strong>（Boston 全年最高也只有约 71°，只有仲夏正午才勉强够）。→ <strong>整条巷子在你到访的每一天都是柔光棚，不用等光。</strong><strong>但「柔光」不等于「随时都一样」，这里有一个必须避开的时段。</strong>巷道走向 73.7°，因此<strong>北侧那一排房子的立面朝 163.7°（南偏东），南侧那一排朝 343.7°（北偏西）</strong>。南侧朝北，秋季<strong>全天零直射光</strong>；北侧朝南，<strong>约 09:00–14:00 上部楼层会被直射光打亮</strong>，在画面上缘形成一条极亮的砖带，而路面还在阴影里——<strong>这条亮带与鹅卵石之间的光比常在 3–4 EV，是本机位唯一会毁片的技术问题。</strong>",
           "<strong>Louisburg Square 是全美最老的业主协会，中间那块草地你进不去。</strong>广场（OSM way/8646541，中心 <strong>42.35845／-71.06877</strong>，走向 <strong>350°／170°</strong>、南北向长约 94 米）由 <strong>Louisburg Square Proprietors 自 1844 年起私有</strong>，被普遍认为是<strong>全美最早的住宅业主组织</strong>——<strong>围栏内的椭圆形绿地是私产，只有周边住户有钥匙</strong>，两端各有一尊雕像（Aristides 与 Columbus）。<strong>Louisa May Alcott 在 10 号去世</strong>；街道本身是公共通行的，隔栏拍摄完全没问题。",
           "<strong>Massachusetts State House 的金顶有一个 11 月 3 日的期限。</strong>Charles Bulfinch 设计、<strong>1798 年 1 月 11 日完工，是 Beacon Hill 上最老的建筑</strong>。穹顶的材料史很值得知道：<strong>最初是木瓦刷白灰，1802 年由 Paul Revere and Sons 覆铜</strong>，后来刷灰、刷金，<strong>1874 年首次贴 23K 金箔（当年花了 $2,862.50）</strong>，<strong>二战期间为防月光反射引导轰炸而整个刷成黑色</strong>，<strong>1997 年最近一次重贴金箔，花了 $300,000</strong>。顶端一直是一颗松果，纪念殖民时期的木材业。还有一条冷知识：<strong>这个金顶是地图上「Boston」的官方坐标点</strong>——路牌上写「50 miles to Boston」指的是距这个金顶 50 英里。<strong>DCAMM 的 $1,110 万穹顶大修（BSB2403）开工日期是 2026 年 11 月 3 日，含穹顶周圈脚手架</strong>，所以你这一趟拍到的是最后一批无脚手架的金顶。"
+        ],
+        "tour": [
+          "<strong>普通游客的正确逛法是「一条 1.2 公里的下坡线」，不是「去看那条网红巷」。</strong>从 Red Line 的 <strong>Charles/MGH</strong> 站出来，沿 <strong>Charles Street</strong>（山脚的商业街，古董店、独立书店 Beacon Hill Books & Cafe、咖啡馆都在这条街上）走到 <strong>Mount Vernon Street</strong> 右转上坡，依次经过 <strong>Louisburg Square → Acorn Street → Chestnut Street</strong>，最后从 Beacon Street 顶端走到 <strong>Massachusetts State House</strong>，再下到 Boston Common。<strong>这条线全程上坡不到 40 米高差，但铺的全是砖与鹅卵石</strong>，穿硬底鞋、别穿高跟；推婴儿车的建议改走 Charles Street 与 Beacon Street 这两条平路。",
+          "<strong>真正不能错过的三样，按优先级排：</strong><strong>①Massachusetts State House 室内</strong>（免费、有讲解、是四者里唯一有实质内容的），重点看二楼 <strong>House Chamber 里挂的「Sacred Cod」</strong>——一条 1.5 米长的木雕鳕鱼，1784 年起挂在议事厅里代表鳕鱼贸易对麻州的立国意义，1933 年被哈佛《Lampoon》的学生偷走过，全城警察找了两天；还有 <strong>Doric Hall、Hall of Flags、Senate Chamber</strong>。<strong>②Louisburg Square</strong>（1844 年起的私有广场，全美最早的住宅业主组织，Louisa May Alcott 在 10 号去世，John Kerry 曾住 19 号）。<strong>③Acorn Street</strong>——说实话它只有 70 米，走完一分钟，<strong>它的价值全在「你见过这张照片」这件事上</strong>，对不拍照的人来说十分钟足够。",
+          "<strong>可以跳过的：Beacon Hill 没有任何「必须进去」的收费景点。</strong><strong>Nichols House Museum</strong>（55 Mount Vernon Street，成人 $15，<strong>只在周四至周六开、定时导览、需预约</strong>）是唯一的室内宅邸博物馆，房子本身漂亮但藏品普通，<strong>除非你专门喜欢 19 世纪室内装潢，否则这 60 分钟不如给 State House 或 Public Garden</strong>。<strong>Museum of African American History 与 Black Heritage Trail 则相反，值得留时间</strong>：African Meeting House（8 Smith Court）是<strong>全美现存最古老的黑人会堂（1806）</strong>，就在 Acorn Street 北边 400 米，历史分量远高于任何一栋豪宅。",
+          "<strong>人流与时段：这一带没有排队，但有「人挤到拍不了也走不动」的时段。</strong>Acorn Street <strong>09:00 之后开始有旅游团与婚纱／写真拍摄，10:00–16:00 基本是满的</strong>；State House 室内则完全相反，<strong>只在工作日 08:45–17:00 开、周末与法定假日全天不开</strong>，所以<strong>周末来 Beacon Hill 的人只能看外面</strong>。最省事的安排是<strong>工作日上午 09:00 先进 State House（人最少、不用等）</strong>，出来 10:30 再逛街区。",
+          "<strong>餐饮与卫生间：整个 Beacon Hill 街区里没有公共卫生间，这是实际约束。</strong>三个可用点：<strong>①State House 一楼（过安检后即可用，工作日）</strong>；<strong>②Boston Common 的 Visitor Information Center（139 Tremont Street，同时也是 Freedom Trail 导览的售票处与出发点）</strong>；<strong>③Charles Street 上的咖啡馆（需消费）</strong>。吃饭集中在 <strong>Charles Street</strong>：Tatte Bakery（早餐与轻食）、Beacon Hill Books & Cafe（书店地下的咖啡馆，位子少要等）、Paramount（71 Charles Street，1937 年开的老式点餐柜台，早午餐经典但周末排长队）。<strong>山上的住宅段一家店都没有，别指望走着走着能找到吃的。</strong>"
         ],
         "photo": "街拍 <strong>5/5</strong>，建筑 <strong>4/5</strong>，人像 <strong>4.5/5</strong>，风光 <strong>1/5</strong>。题材密度与色调统一度是全区第一（红砖加黑门加黄铜门牌加煤气灯），而且完全不受天气与开放时间限制；扣分只在两点：巷子太短、以及 09:00 之后你的构图里一定站着别人。",
         "shots": [
@@ -809,6 +825,7 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>整个 Beacon Hill 街区 1.5–2.5 小时。</strong>分配：<strong>Charles Street 走走看看 20–30 分钟</strong>、<strong>Louisburg Square 与 Mount Vernon／Chestnut Street 住宅段 20–30 分钟</strong>、<strong>Acorn Street 10–15 分钟</strong>（认真拍照的加到 40–60 分钟）、<strong>Massachusetts State House 室内 45–60 分钟</strong>（官方免费导览的口径是 <strong>40 分钟</strong>，自助看完 Doric Hall、Hall of Flags 与两个议事厅约 30 分钟）。<strong>只看重点 50 分钟</strong>：Charles/MGH 站出来直奔 Acorn Street 与 Louisburg Square，再走到 State House 拍金顶外景，不进楼。<strong>周末来的话上限就是 1 小时</strong>——室内不开，剩下的全是街景。实际排行程时把它与隔壁的 <strong>Public Garden</strong>（步行 7 分钟）算成同一个半天。",
           "book": "<strong>Acorn Street、Louisburg Square、Boston Common 全部是公共空间，不需预约、不需票。</strong>State House 室内<strong>自助参观不需预约</strong>；<strong>免费的 40 分钟导览需要提前电话预约</strong>——官方口径「We can only accept tour reservations by phone」，电话 <strong>617-727-3676</strong>，1–50 人皆可，<strong>10 人以上须提前至少三周</strong>。",
           "ticket": "<strong>Acorn Street、Louisburg Square、Boston Common、State House 全部免费。</strong>State House 导览官方原文「free of charge」，含 House 与 Senate Chambers、「Sacred Cod」与州昆虫瓢虫的典故。<strong>Louisburg Square 中央绿地是私产，任何票都进不去。</strong>",
           "hours": "<strong>Acorn Street 与 Louisburg Square：24 小时（公共街道）。</strong><strong>Boston Common：全年开放</strong>（Boston 市属公园，夜间不建议久留）。<strong>Massachusetts State House 官方原文：「Tours are given weekdays year-round from 10 a.m. to 3:30 p.m., free of charge. The building is open weekdays from 8:45 a.m. to 5 p.m., and closed on weekends and holidays.」</strong>→ <strong>周末与法定假日室内完全不开</strong>；你的窗口内 <strong>10 月 12 日（Indigenous Peoples Day）是假日，室内不开</strong>。<strong>金顶外景不受任何时段限制。</strong>注意 State House 室内<strong>全员过安检</strong>，入口在 Beacon Street 的 General Hooker Entrance，无障碍入口在 Bowdoin Street 一侧有坡道。",
@@ -845,6 +862,7 @@ var REGIONS = [
         "n": 6,
         "name": "公共花园与波士顿公园",
         "en": "Boston Public Garden & Boston Common",
+        "must": 4,
         "score": 4,
         "tldr": "天鹅船 9 月 7 日已收季，但空湖面反而给了干净的桥倒影；红叶要等到 10 月 22 日以后才成立。",
         "tags": [
@@ -871,6 +889,13 @@ var REGIONS = [
           "<strong>Lagoon Bridge 是全区最上镜的小型构筑物。</strong>横跨人工湖的这座小桥常被介绍为「世界上最小的悬索桥」（<strong>该称号广泛流传但未能从官方渠道核实</strong>；现存结构在 20 世纪已被改为实质上的梁桥）。<strong>它的价值在于尺度：桥很小，所以你可以用一支 35mm 就把「桥＋倒影＋两岸垂柳＋远处天际线」全收进来</strong>，这在别的城市要用长焦拼。",
           "<strong>《Make Way for Ducklings》铜像的位置与朝向值得先知道。</strong>OSM 节点 <strong>42.35552／-71.06975</strong>，在 Public Garden 东北角、靠 Charles Street 与 Beacon Street 那一侧。Nancy Schön 1987 年作，八只小鸭跟着 Mrs. Mallard 排成一列，取自 Robert McCloskey 1941 年的绘本。<strong>实拍要点：铜像贴地，所以唯一成立的机位是把相机放到地面高度</strong>，<strong>而且它总是被摸得发亮、常常被人套上季节性的小衣服</strong>（万圣节前后概率很高）——<strong>这不是干扰，是这座城市的一部分，值得拍下来。</strong>",
           "<strong>秋色的时间判断，直接决定这个点值几分。</strong>Boston 与东部沿海的峰期是 <strong>10 月 22 日–11 月 5 日</strong>，核心几天大概率在 <strong>10 月 25 日–11 月 1 日</strong>。→ <strong>如果你在 9 月末到 10 月中来，这里基本还是绿的，本条目应该降到 3 分；10 月 22 日以后来，它值 4.5 分。</strong>还有一个树种上的差别要知道：<strong>南部 New England 的秋色以橡树（oak）为主导，是深酒红与铁锈红，不是 Vermont 那种亮橙黄</strong>（Boston Globe 2026 年 9 月 4 日）；而 Public Garden 里大量的<strong>垂柳在整个秋季基本保持黄绿</strong>，所以这里的秋色是「红＋黄绿＋水面」的组合，而不是满屏火红。"
+        ],
+        "tour": [
+          "<strong>这是两座挨在一起但性质完全不同的公园，先分清楚，否则你会以为自己已经逛过了。</strong>以 <strong>Charles Street</strong> 为界：<strong>西边是 Public Garden（1837，全美第一座公共植物园）</strong>——有湖、有桥、有整齐的花坛与标牌树，是「精心设计的花园」；<strong>东边是 Boston Common（1634，全美最古老的公园）</strong>——大片草地与老树，历史上做过牧牛地、英军营地与绞刑场，是「城市广场」。<strong>普通游客真正要在意的是：Freedom Trail 的红砖线起点就在 Boston Common</strong>，<strong>Visitor Information Center 在 139 Tremont Street</strong>（官方导览的售票处与出发点，售票时间 08:30–16:45），所以这两座公园通常是你 Boston 第一天的第一站。",
+          "<strong>不能错过的五处，一条线串完：</strong><strong>①Make Way for Ducklings 铜像</strong>（Public Garden 东北角，靠 Beacon 与 Charles Street 路口）——Robert McCloskey 1941 年童书里的鸭妈妈与八只小鸭，1987 年立的，<strong>带孩子的话这是全城最高兴的十分钟；秋冬当地人会给鸭子们戴上针织帽与围巾</strong>。<strong>②Lagoon Bridge</strong>（1867，号称世界最小的悬索桥，后来改成了梁桥）。<strong>③George Washington 骑马像</strong>（Arlington Street 正门内，Public Garden 的主轴端点）。<strong>④The Embrace</strong>（Boston Common，2023 年立的 Martin Luther King Jr. 与 Coretta Scott King 拥抱的青铜手臂群像，6 米高、19 吨，是本市最新也最有争议的公共艺术）。<strong>⑤Robert Gould Shaw &amp; 54th Regiment Memorial</strong>（正对 State House，Augustus Saint-Gaudens 做了 14 年，纪念南北战争第一支北方黑人团，电影《Glory》讲的就是他们；<strong>2020–2024 大修后已重新揭幕</strong>）。",
+          "<strong>可以跳过的：天鹅船（本次根本没有）、Frog Pond、以及公园里绝大多数小纪念碑。</strong><strong>天鹅船 9 月 7 日已收季，湖面是空的，不用去船坞那边找</strong>。<strong>Frog Pond 在秋季既不是泳池也还没变成溜冰场，就是一个空水泥坑</strong>（溜冰季通常 11 月下旬才开），完全没有看头。<strong>Central Burying Ground</strong>（Common 东南角，Boylston Street 边）人少、氛围好，<strong>但如果你之后要走 Freedom Trail，Granary Burying Ground 的分量高得多（Paul Revere、John Hancock、Samuel Adams 都埋在那儿），这里可以直接省掉</strong>。",
+          "<strong>人流、安全与季节：白天随便逛，天黑后的 Boston Common 不要穿越。</strong><strong>Public Garden 全天人都不多，08:00 前几乎空场</strong>；Boston Common 在工作日午间会有大量上班族。<strong>入夜后 Common 的东侧（近 Tremont Street 与 Boylston Street 路口，俗称「Methadone Mile」外溢区）有明显的露宿与吸毒人群聚集，这是波士顿市政多年未解决的问题</strong>——晚上从 Beacon Hill 回市中心请绕 Beacon Street 或 Charles Street 走，不要抄近路穿公园。<strong>红叶：2026 年 Boston 市区峰期预计 10 月 25 日–11 月 1 日</strong>，也就是说 10 月 13–20 日来的话园子基本还是绿的，10 月 22 日之后才开始成立。",
+          "<strong>餐饮与卫生间：两座公园里的公共卫生间极少且不可靠，请提前解决。</strong><strong>最可靠的一处是 Boston Common Visitor Information Center（139 Tremont Street）</strong>，开放时段内可用、同时能拿免费地图与 Freedom Trail 导览票。Public Garden 内<strong>只有近 Charles Street 一侧船坞旁的一处季节性卫生间，天鹅船收季后通常一并关闭</strong>。餐饮：公园里只有几台季节性餐车（热狗、椒盐卷饼、冰淇淋），<strong>正经吃饭往 Charles Street（Beacon Hill 山脚，步行 2 分钟）或 Newbury Street（步行 6 分钟）走</strong>；<strong>Tremont Street 一侧出公园就是 Downtown Crossing，选择最多但也最吵</strong>。"
         ],
         "photo": "风光 <strong>4/5</strong>（10/22 后）／<strong>2.5/5</strong>（之前），城市公园 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>，建筑 <strong>3/5</strong>。免费、24 小时、天气容错高、且是唯一能同时拍到自然与 Back Bay 天际线的地方；扣分全在时间——天鹅船已走，红叶要等，两件事都不在你手上。",
         "shots": [
@@ -900,9 +925,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>两园合计 1–2 小时。</strong>分配：<strong>Public Garden 绕湖一圈加 Ducklings 铜像 30–45 分钟</strong>、<strong>Boston Common 穿过去看 The Embrace 与 Shaw Memorial 30–45 分钟</strong>。<strong>只看重点 35 分钟</strong>：Arlington 站进 → Washington 像 → Lagoon Bridge → Ducklings → 过 Charles Street → Shaw Memorial → Park Street 站出。<strong>10 月 22 日之后红叶起来了，值得加到 2–2.5 小时慢慢走</strong>。若你打算在这里接上 Freedom Trail 的官方导览，<strong>请额外留 90 分钟（Walk Into History 的官方时长），并提前到 139 Tremont Street 取票</strong>。",
           "book": "<strong>不需预约、不需票。</strong><strong>天鹅船 2026 季已于 9 月 7 日结束</strong>，本来也是现场买票、不接受预约（供明年参考：成人 $4.75、2–15 岁 $3.25、65 岁以上 $4.25、2 岁以下免费，单程约 12–15 分钟，接受现金与信用卡）。",
-          "ticket": "<strong>Public Garden 与 Boston Common 全部免费。</strong>园内所有雕像、桥、湖、草坪均无收费项目。",
-          "hours": "<strong>两座公园都是 Boston Parks and Recreation Department 管理的市属公园，全年开放</strong>，<strong>没有围栏关门的机制，实务上 24 小时可进入</strong>。<strong>但夜间不建议久留</strong>（尤其 Boston Common 靠 Tremont Street 一侧）。<strong>官方明确规定：Public Garden 内禁止喂任何鸟类</strong>（原文「The Boston Parks and Recreation Department restricts the feeding of all birds in the Boston Public Garden to maintain the health of the wildlife and the cleanliness of the Public Garden lagoon」）。<strong>湖面在天鹅船收季后是否会放水检修，未能从官方渠道确认</strong>——往年一般在入冬前才放，但如果你极度依赖倒影这张，<strong>建议出发前打 Boston Parks 或 617-522-1966 问一句</strong>。",
+          "ticket": "<strong>Public Garden 与 Boston Common 全部免费。</strong>园内所有雕像、桥、湖、草坪均无收费项目。<strong>【2026-09-13 核实：boston.gov 的 Boston Common 与 Public Garden 页面上均无任何门票条目，仍为免费市属公园。】</strong>",
+          "hours": "<strong>【2026-09-13 核实】两座公园都是 Boston Parks and Recreation Department 管理的市属公园，全年开放</strong>，<strong>没有围栏关门的机制，实务上 24 小时可进入</strong>。<strong>但夜间不建议久留</strong>（尤其 Boston Common 靠 Tremont Street 一侧）。<strong>官方明确规定：Public Garden 内禁止喂任何鸟类</strong>（原文「The Boston Parks and Recreation Department restricts the feeding of all birds in the Boston Public Garden to maintain the health of the wildlife and the cleanliness of the Public Garden lagoon」）。<strong>湖面在天鹅船收季后是否会放水检修，未能从官方渠道确认</strong>——往年一般在入冬前才放，但如果你极度依赖倒影这张，<strong>建议出发前打 Boston Parks 或 617-522-1966 问一句</strong>。",
           "parking": "<strong>Boston Common Garage 在 Boston Common 地下</strong>，是这一带唯一大型车库，<strong>费率未能从官方渠道确认</strong>。<strong>更好的方案是地铁</strong>：<strong>Green Line「Arlington」站</strong>（在 Arlington Street 与 Boylston Street 转角，过条街就进 Public Garden，官方说法是<strong>到天鹅船船坞约 4 分钟步行</strong>）；<strong>Red／Green Line「Park Street」站</strong>（Boston Common 东北角）；<strong>Green Line「Boylston」站</strong>（Common 东南角）。",
           "walk": "Arlington 站到 Lagoon Bridge 约 <strong>350 米 / 5 分钟</strong>；Arlington 站到 Make Way for Ducklings 约 <strong>500 米 / 7 分钟</strong>；Park Street 站到 Common 中心约 <strong>250 米 / 3 分钟</strong>。<strong>Public Garden 与 Boston Common 只隔一条 Charles Street，两园之间步行 3 分钟</strong>；<strong>到 Acorn Street 约 500 米 / 7 分钟</strong>，<strong>到 Newbury Street 西端约 400 米 / 5 分钟</strong>——这三个点适合排成一条线。"
         },
@@ -936,6 +962,7 @@ var REGIONS = [
         "n": 7,
         "name": "后湾褐石街区与纽伯里街",
         "en": "Back Bay Brownstones & Newbury Street",
+        "must": 2,
         "score": 3.5,
         "tldr": "街网实测 70°／250°：每条街只有北侧那排受光，南侧永久阴面；10 月 25 日落日几乎顺街轴落下。",
         "tags": [
@@ -962,6 +989,13 @@ var REGIONS = [
           "<strong>但十月有一个必须知道的削弱因素：太阳太低，只有上部楼层受光。</strong>Back Bay 的褐石多为四到五层、约 15–18 米高，街道连人行道宽约 20 米。<strong>正午时南侧房子向北投影的长度：9 月 25 日（高度 46.6°）约 16 米，10 月 22 日（高度 36.4°）约 22 米</strong>。→ <strong>九月正午时影子还没盖满街面，北侧立面的下部楼层与人行道仍有光；十月下旬影子已经超过街宽，北侧立面只有上面两三层受光，人行道与一二层全天在阴影里。</strong><strong>结论：想要「整面立面被阳光照亮」的照片，九月末明显优于十月末</strong>——这与本区大多数目标（十月优于九月）正好相反，是个反直觉的例外。",
           "<strong>Commonwealth Avenue Mall 是本区秋色与落日几何的交汇点。</strong>Comm Ave 中央是一条宽阔的林荫步道（Frederick Law Olmsted 的 Emerald Necklace 体系的东端起点），两侧各是行车道，<strong>整条走向 69.9°／249.9°</strong>。<strong>而 10 月 25 日日落方位为 254.1°、10 月 31 日为 251.4°</strong>——<strong>与街轴只差 2–4 度</strong>。→ <strong>10 月下旬站在 Mall 上朝西南望，落日几乎是顺着这条林荫轴线落进画面的</strong>，此时头顶的秋叶被完全逆光打透。<strong>这是整个 Back Bay 最强的一张，而且日期越靠后越准。</strong>Mall 上每隔一个街区有一尊铜像（Alexander Hamilton、William Lloyd Garrison、Samuel Eliot Morison 等），是天然的前景锚点。",
           "<strong>Newbury Street 的性质要先认清：它是商业街，不是住宅街。</strong>八个街区、约 300 家店，<strong>底层几乎全部被店面改造过（玻璃橱窗、雨棚、招牌、露天座位）</strong>，<strong>真正完整的维多利亚立面只存在于二层以上</strong>。→ <strong>实拍推论：在 Newbury Street 要么抬头拍（二层以上的凸窗、檐口、屋顶线），要么低头拍（橱窗、雨棚、露天座位的城市生活），中间那一段是最乱的。</strong><strong>想拍纯粹的褐石联排，请往北走一条街到 Marlborough Street 或 Beacon Street</strong>——那两条是安静的住宅街，立面完整、几乎没有商业改造，<strong>而且游客密度是 Newbury 的十分之一。这是本条目最实际的一条建议。</strong>"
+        ],
+        "tour": [
+          "<strong>诚实的定位：这不是一个「景点」，是一个你会顺路穿过好几次的漂亮街区。</strong><strong>如果你在 Boston 只有两三天，不需要为它单独安排时间</strong>——Boston Public Library、Trinity Church、Public Garden 都在它的边上，你去那三个地方的路上自然就走完了 Back Bay。它的真正价值是「城市本身」：<strong>1857–1890 年间用碎石填平一片潮汐湿地造出来的整片街区</strong>，<strong>是全美保存最完整、也最规整的维多利亚城市肌理</strong>，而且街名按 A 到 H 的字母顺序排（Arlington、Berkeley、Clarendon、Dartmouth、Exeter、Fairfield、Gloucester、Hereford），<strong>在 Boston 这座以路网混乱著称的城市里，这是唯一一块你不会迷路的地方</strong>。",
+          "<strong>要走哪条街，取决于你想要什么，这三条完全不一样：</strong><strong>①Commonwealth Avenue Mall</strong>——中央那条 32 米宽的林荫步道（仿巴黎林荫大道设计，是 Frederick Law Olmsted 的「Emerald Necklace」绿链的一段），<strong>两侧是整个街区最气派的大宅，10 月下旬两排榆树转黄时这是 Boston 最好看的一条街，没有之一</strong>。<strong>②Marlborough Street 与 Beacon Street</strong>——纯住宅，没有店，<strong>想看没被店招牌破坏的完整褐石立面只能来这两条</strong>。<strong>③Newbury Street</strong>——商业街，八个街区的店，<strong>但它一层全是店面、二层以上才是原来的褐石，所以「看建筑」的话它是三条里最差的一条</strong>；它的用处是购物、吃饭与人流气氛。<strong>只有一条的话，走 Commonwealth Avenue Mall。</strong>",
+          "<strong>能进去的室内只有两处，且都不是必须：</strong><strong>①Gibson House Museum（137 Beacon Street）</strong>——<strong>唯一一栋内部原封不动保留下来的 Back Bay 联排宅邸</strong>，1860 年的家具、壁纸、厨房全是原装，<strong>只能跟定时导览进（约 1 小时），成人票约 $15，开放日有限，须先查官网</strong>。喜欢老宅内装的人会觉得超值，其他人会觉得闷。<strong>②Prudential Center 的 View Boston 观景台（50 楼三层，成人票 $36 起）</strong>——<strong>诚实说：波士顿天际线不高、也不密，这张票的性价比明显低于纽约或芝加哥的同类</strong>，除非遇上阴雨天没别的可做，否则不建议。",
+          "<strong>人流与时段：没有排队、没有门票、没有闭馆时间，这是它最大的好处。</strong><strong>Newbury Street 的店大多 11:00 开、18:00–19:00 关，周日更晚开更早关</strong>；<strong>周六下午 13:00–17:00 是全周最挤的时候</strong>。住宅段（Marlborough、Beacon）任何时候都几乎没人。<strong>一个实际的季节提醒：Back Bay 的街道树以榆树与梧桐为主，2026 年市区峰期预计 10 月 25 日–11 月 1 日</strong>，10 月中来的话 Comm Ave Mall 还是绿的。<strong>另外这一带路边停车全是居民证限制，执法非常严，不要开车过来。</strong>",
+          "<strong>餐饮与卫生间：这是全区餐饮密度最高的地方，反过来卫生间却不好找。</strong><strong>街上没有公共卫生间</strong>；可靠的三处是<strong>①Boston Public Library（Copley Square，免费、不需消费）</strong>、<strong>②Prudential Center 商场</strong>、<strong>③Copley Place 商场</strong>。吃饭：<strong>Newbury Street 上从 $5 的 bagel 到米其林级别都有</strong>，经典的几家是 Trident Booksellers &amp; Cafe（书店咖啡馆，早午餐，常排队）、Tatte Bakery（多家分店）、Saltie Girl（海鲜，晚餐要订位）。<strong>想吃便宜又快的往 Prudential Center 的美食广场走</strong>。"
         ],
         "photo": "建筑 <strong>4/5</strong>，街拍 <strong>4/5</strong>，风光 <strong>3/5</strong>，人像 <strong>4/5</strong>。免费、24 小时、街网规整到可以精确计算光线，Comm Ave Mall 的落日轴线是真正的加分项；扣分在于「一条褐石街道」本身的辨识度不如 Acorn Street，而 Newbury 的底层商业改造削弱了立面的完整性。",
         "shots": [
@@ -991,6 +1025,7 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>45 分钟–1.5 小时，而且基本可以和别的行程合并，不必单算。</strong>分配：<strong>Commonwealth Avenue Mall 从 Arlington 走到 Hereford（约 1.2 公里）25–30 分钟</strong>、<strong>拐回 Newbury Street 逛街 30 分钟–2 小时（完全取决于你买不买东西）</strong>、<strong>Marlborough 或 Beacon Street 住宅段 15 分钟</strong>。<strong>只看重点 25 分钟</strong>：只走 Comm Ave Mall 从 Arlington 到 Dartmouth 这四个街区。<strong>加 Gibson House Museum 的话再加 1 小时（定时导览制）。</strong>实际排行程时建议把它挂在 <strong>Public Garden → Newbury Street → Copley Square（BPL + Trinity）</strong> 这条线里，不要当成独立的一站。",
           "book": "<strong>全部是公共街道，不需预约、不需票、无任何开放时间限制。</strong>Comm Ave Mall 是公共步道，Marlborough 与 Beacon 是公共街道（沿街建筑为私宅，不入内）。",
           "ticket": "<strong>完全免费。</strong>Newbury Street 上的店铺与餐厅另算，<strong>但拍摄本身不产生任何费用</strong>。",
           "hours": "<strong>24 小时。</strong><strong>唯一有时段性的是 Newbury Street 的商业氛围</strong>：多数店铺约 <strong>10:00 或 11:00 开门、18:00 或 19:00 关门</strong>（<strong>各店不同，未逐一核实</strong>），餐厅与露天座位到更晚。<strong>拍空街要 08:00–09:30，拍有人味要 16:30 之后。</strong>注意 <strong>10 月 22 日日落 17:52</strong>——<strong>「黄金时段的露天座位」与「蓝调的橱窗」在十月下旬只隔二十分钟，两张可以连着拍。</strong>",
@@ -1027,6 +1062,7 @@ var REGIONS = [
         "n": 8,
         "name": "三一教堂与科普利广场",
         "en": "Trinity Church & Copley Square",
+        "must": 3.5,
         "score": 4.5,
         "tldr": "Hancock 玻璃倒影的窗口是 10:30–14:30，15:00 后玻璃自己受光就废了；教堂周日周一不开、门票 $10。",
         "tags": [
@@ -1054,6 +1090,13 @@ var REGIONS = [
           "<strong>倒影机位的完整几何，这是本条目的核心。</strong>Trinity（OSM relation/64066，中心 <strong>42.35000／-71.07549</strong>）的<strong>西门廊（West Porch）朝西正对 Copley Square</strong>；<strong>200 Clarendon（原 John Hancock Tower）在它正南约 70 米</strong>（OSM <strong>42.34917／-71.07512</strong>），塔身是菱形平面，<strong>朝向 Copley 与 Trinity 的那面玻璃法向约 315°（西北）</strong>。<strong>推论一：Trinity 的南侧翼（法向约 180°）在秋季 09:00–15:00 都受光，正午 12:28–12:35 太阳正打（高度 36–47°）。</strong><strong>推论二：Hancock 的西北玻璃面要到太阳方位超过 225° 才开始受直射</strong>，实测时刻为 <strong>9 月 25 日 14:54、10 月 22 日 15:12</strong>。→ <strong>结论：倒影的黄金窗口是 10:30–14:30。</strong>此时<strong>被摄主体（Trinity）全亮、镜子（玻璃）在阴影里</strong>，这正是任何反射摄影需要的光比关系。<strong>15:00 之后玻璃自己被太阳打亮、整面泛白发雾，倒影会被冲掉</strong>——这是本机位唯一的硬性时段限制。",
           "<strong>Copley Square 刚修完，围挡已撤——这对构图是净利好。</strong>Boston 市政府的 Copley Square Park 改造工程<strong>2026 年 5 月完工并剪彩</strong>（Mayor Michelle Wu 出席），内容包括全面 ADA 无障碍步道、重建人行道、扩大树冠、透水铺装，<strong>最后一期正是「Trinity Church 一侧的扩大草坪」与「广场标志性喷泉的修复」</strong>（含机电与池底改造）。官方新闻稿明确提到改造「improved sightlines to the Boston Public Library and Trinity Church」。<strong>搜索缓存里 Trinity 官网还留着「currently behind the construction fence」的旧文案，但直接抓当前页面，那半句已经删掉了。</strong>→ <strong>现在是新铺装、新草坪、喷泉运行、无围挡的状态。</strong>"
         ],
+        "tour": [
+          "<strong>先回答「$10 到底值不值」：值，但前提是你进得去。</strong>这栋楼被 American Institute of Architects 列为<strong>「全美十大最重要建筑」之一</strong>，而且它是那份名单上少数几栋你能花十美元走进去的。<strong>但它每周日、周一不对游客开放</strong>——很多人是在 Copley Square 站着看了看外面就走了，那等于没看。门票含三种玩法任选：<strong>自助（给地图，15–30 分钟）、音频导览（扫 QR 或借机器，约 30 分钟）、docent 真人导览（45–60 分钟，只在特定时段，时间表在官网日历上）</strong>。<strong>第一次来、又只能待半小时的，选音频导览；有一小时的，等 docent 场次——这里的讲解质量是 Boston 收费景点里最好的之一。</strong>",
+          "<strong>进去之后盯住这四样：</strong><strong>①John La Farge 的彩绘玻璃与内壁画</strong>——这是整座教堂的核心。La Farge 在这里发明并首次大规模使用了<strong>「opalescent glass」（乳光玻璃）</strong>，把颜色做进玻璃本体而不是画在表面，<strong>比 Tiffany 用同类工艺早，而且 Tiffany 的两扇窗也在这座堂里，可以直接对比</strong>。<strong>②中殿抬头看的整体色调</strong>——Richardson 要求内部「像一幅画」，于是墙面通体做成暗红与金，这在新英格兰的清教传统里是极其反叛的一手。<strong>③西侧 William Morris &amp; Edward Burne-Jones 的窗</strong>（英国工艺美术运动的原作）。<strong>④地基的冷知识</strong>：Back Bay 是填海地，<strong>这栋 1.1 万吨重的石头建筑整个坐在 4,502 根打进泥里的木桩上</strong>，木桩必须永远泡在地下水位以下才不腐烂，教堂至今在监测水位。",
+          "<strong>可以跳过的：Copley Square 广场本身不需要专门留时间。</strong>广场 2026 年 5 月刚翻修完工，干净、没有围挡，但它就是一块草地加喷泉加一尊 Phillips Brooks 像，<strong>走过去顺便看两分钟就够，不要把它当一个「点」</strong>。<strong>真正该连起来的是「BPL + Trinity Church」这一组</strong>：两者隔着 Copley Square 相望，只有 250 米、3 分钟，<strong>一个免费一个 $10，加起来是 Boston 最划算的半天室内行程</strong>。广场另一侧的 Old South Church（1875，也是 Freedom Trail 上那个 Old South Meeting House 的后继堂区）免费可进，<strong>如果 Trinity 那天不开，这是最近的替代品</strong>。",
+          "<strong>排队与流程：基本不排队，没有安检。</strong>从<strong>正对 Copley Square 的 West Porch 主门</strong>进，票在 Narthex（门廊）的 Welcome Desk 现场买，刷卡即可。<strong>两个必须避开的时间点：每周二 12:00–12:45 因 Tuesday Holy Eucharist 全面暂停入场；每周五 12:15 有管风琴音乐会——这个反过来是好事，音乐会期间免票进场（建议捐 $10）。</strong><strong>人最少是工作日 10:00–11:30</strong>。另外这是活跃堂区，<strong>婚礼、葬礼随时可能整场清空，出发当天打 617-536-0944 转 102 问一句最稳。</strong>",
+          "<strong>餐饮与卫生间：教堂内部只有很小的一处卫生间，不要指望。</strong>正确做法是<strong>用马路对面 Boston Public Library 的卫生间</strong>（免费、干净、不需门票，250 米）。吃饭同理往 BPL 或 <strong>Copley Place / Prudential Center 商场</strong>走（各 3–5 分钟），两处都有大型美食广场；<strong>Newbury Street 上的餐厅步行 5 分钟内也全都够得着</strong>。<strong>教堂内明确禁止饮食，官方原文「food and drink are not consumed in the church」，进门前解决掉手里的咖啡。</strong>"
+        ],
         "photo": "建筑 <strong>5/5</strong>，室内 <strong>4.5/5</strong>，城市抽象 <strong>4.5/5</strong>，风光 <strong>1/5</strong>。「古典石构倒映在现代玻璃里」是 Boston 唯一无可替代的一张，而且刚修完的广场给了干净的前景；扣分在周日周一不开、时段窗口窄、以及官方摄影政策查不到。",
         "shots": [
           {
@@ -1078,9 +1121,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>Trinity Church 室内 30–60 分钟，连 Copley Square 与 Old South Church 共 1–1.5 小时。</strong>分配依据取自官方票务页对三种参观方式的时长口径：<strong>自助「usually within 15 to 30+ minutes」、音频导览「approximately 30 minutes」、docent 导览「approximately 45 to 60 minutes」</strong>。<strong>建议给 45 分钟</strong>：音频导览 30 分钟走完，再留 15 分钟自己回中殿坐着看 La Farge 的窗。<strong>只看外观 10 分钟</strong>（Copley Square 绕教堂一圈）。<strong>与 Boston Public Library 连做请整体留半天 3–4 小时</strong>，两者只隔 250 米。",
           "book": "<strong>广场不需预约。教堂个人参观也不需预约，现场在 Narthex 的 Welcome Desk 买票即可</strong>（入口是<strong>朝 Copley Square 的 West Porch 主门</strong>）。<strong>Guided Tour 由 docent 带领、45–60 分钟、只在特定时段发车</strong>，场次见官网 web calendar。<strong>团体私人导览需填表申请，且周日与周一不提供。</strong>最新时段请电话确认：<strong>617-536-0944 转 102</strong>。",
-          "ticket": "官方原文：<strong>「The price is $10 for Adults, or $8 for Seniors, Students, Educators, Military, First Responders, and Massachusetts Residents. Children younger than 14 and EBT &amp; WIC cardholders are free.」</strong><strong>门票含三种参观方式任选：自助（附地图，15–30 分钟）、音频导览（扫 QR 码或借设备，约 30 分钟）、docent 导览（45–60 分钟，限特定时段）。</strong><strong>省钱的一招（已核实）：官方写明「From September through May, join us on Fridays at 12:15 pm for our weekly Organ Recitals. There is no charge for admission during the recital」</strong>——<strong>也就是说每周五 12:15 的管风琴音乐会期间进堂是免费的，建议捐 $10</strong>。你的窗口内每个周五都有。<strong>另有完全免费的 Free Exterior Audio Tour</strong>：West Porch 上有 QR 码，或访问 trinitychurchboston.org/feat，不受开放时间限制。<strong>Copley Square、喷泉、Phillips Brooks 像全部免费、24 小时。</strong>",
-          "hours": "<strong>官方原文（trinitychurchboston.org/tours）：「Trinity Church is open for tours Tuesday through Saturday from 10 am to 4:30 pm (Guests who purchase admission by 4:30 pm will have until 5 pm in the Sanctuary)」。</strong>→ <strong>周日与周一不对游客开放，这是本条目最大的时段陷阱。</strong><strong>夏季的周日时段（11:00–15:30）官方写明只到 9 月 6 日为止</strong>（「Through Sun. Sept. 6, Trinity Church will also be open for tours on Sundays」），<strong>你的窗口全部在这之后，所以周日一定进不去。</strong>另有两条已公布的临时调整（都在你的窗口之前）：9 月 10 日 12:00 才开、9 月 19 日 16:00 提前关。<strong>每周二 12:00–12:45 因 Tuesday Holy Eucharist 暂停入场与导览</strong>（30 分钟的午间礼拜，欢迎参加）。<strong>官方明确警告「As an active Episcopal parish, visitor services hours may vary due to weddings, funerals, worship services, and other parish events」</strong>，并说恶劣天气可能临时调整。<strong>主日礼拜时间（9 月 13 日起恢复学年制）：8:00、10:00（含直播）、17:00。</strong>",
+          "ticket": "<strong>【2026-09-13 于 trinitychurchboston.org/visit/tours 重新核实，票价与免费条件均无变化】</strong>官方原文：<strong>「The price is $10 for Adults, or $8 for Seniors, Students, Educators, Military, First Responders, and Massachusetts Residents. Children younger than 14 and EBT &amp; WIC cardholders are free.」</strong><strong>门票含三种参观方式任选：自助（附地图，15–30 分钟）、音频导览（扫 QR 码或借设备，约 30 分钟）、docent 导览（45–60 分钟，限特定时段）。</strong><strong>省钱的一招（已核实）：官方写明「From September through May, join us on Fridays at 12:15 pm for our weekly Organ Recitals. There is no charge for admission during the recital」</strong>——<strong>也就是说每周五 12:15 的管风琴音乐会期间进堂是免费的，建议捐 $10</strong>。你的窗口内每个周五都有。<strong>另有完全免费的 Free Exterior Audio Tour</strong>：West Porch 上有 QR 码，或访问 trinitychurchboston.org/feat，不受开放时间限制。<strong>Copley Square、喷泉、Phillips Brooks 像全部免费、24 小时。</strong>",
+          "hours": "<strong>【2026-09-13 重新核实，官网仍是下列口径】</strong><strong>官方原文（trinitychurchboston.org/tours）：「Trinity Church is open for tours Tuesday through Saturday from 10 am to 4:30 pm (Guests who purchase admission by 4:30 pm will have until 5 pm in the Sanctuary)」。</strong>→ <strong>周日与周一不对游客开放，这是本条目最大的时段陷阱。</strong><strong>夏季的周日时段（11:00–15:30）官方写明只到 9 月 6 日为止</strong>（「Through Sun. Sept. 6, Trinity Church will also be open for tours on Sundays」），<strong>你的窗口全部在这之后，所以周日一定进不去。</strong>另有两条已公布的临时调整（都在你的窗口之前）：9 月 10 日 12:00 才开、9 月 19 日 16:00 提前关。<strong>每周二 12:00–12:45 因 Tuesday Holy Eucharist 暂停入场与导览</strong>（30 分钟的午间礼拜，欢迎参加）。<strong>官方明确警告「As an active Episcopal parish, visitor services hours may vary due to weddings, funerals, worship services, and other parish events」</strong>，并说恶劣天气可能临时调整。<strong>主日礼拜时间（9 月 13 日起恢复学年制）：8:00、10:00（含直播）、17:00。</strong>",
           "parking": "<strong>不建议自驾。</strong><strong>MBTA：Green Line「Copley」站出站即到；Orange Line「Back Bay」站步行 5 分钟。</strong>最近的车库是 <strong>Copley Place 与 Prudential Center 地下</strong>，<strong>费率未能从官方渠道确认</strong>。教堂地址 <strong>206 Clarendon Street</strong>，无自有停车场。",
           "walk": "Copley 站到 West Porch 约 <strong>200 米 / 3 分钟</strong>。<strong>到 Boston Public Library 只有 250 米 / 3 分钟（穿过 Copley Square）</strong>；<strong>到 Newbury Street 约 300 米 / 4 分钟</strong>；到 Public Garden 约 <strong>900 米 / 12 分钟</strong>（沿 Boylston Street 东行）。倒影机位与西立面机位相距不到 <strong>100 米</strong>，<strong>但两者最佳时段相差三小时，中间正好插进去拍 BPL 的室内</strong>。"
         },
@@ -1114,6 +1158,7 @@ var REGIONS = [
         "n": 9,
         "name": "波士顿公共图书馆 · McKim 楼",
         "en": "Boston Public Library · McKim Building",
+        "must": 4,
         "score": 5,
         "tldr": "Bates Hall 免票、无限制、每日开放；窗户朝东北，09:00–11:00 是唯一有直射光柱的窗口，三脚架明确禁止。",
         "tags": [
@@ -1141,6 +1186,13 @@ var REGIONS = [
           "<strong>三楼有四成面积已经关闭十年以上，但 Sargent Gallery 还开着。</strong>John Singer Sargent 的壁画组画 <strong>《Triumph of Religion》</strong>在三楼的 Sargent Gallery，<strong>他从 1890 年与建筑师 McKim 讨论构想开始，画了三十多年，1895 至 1919 年间分四次把在英国画好的画板运到 Boston 安装，1925 年去世时整套仍未完成</strong>。需要知道现状：<strong>McKim 楼约 40% 的面积、基本就是整个三楼，已对公众关闭十年以上</strong>（油漆剥落、灰泥碎裂、漏水导致暖气被关、大部分房间无温湿度控制），<strong>West Gallery、Wiggin Gallery、Cushman Room 都锁着，唯一还开放的就是 Sargent Gallery</strong>。BPL 在 2025 年 6 月启动了一个由匿名捐赠者 $550 万资助的五年期改造规划，<strong>但那是规划不是施工，本次行程不受影响。</strong>",
           "<strong>中庭现在还是露天的——想拍露天版本就趁现在。</strong>内院（Courtyard）仿罗马 Palazzo della Cancelleria 的回廊，中央是 Frederick MacMonnies 的铜像 <strong>《Bacchante and Infant Faun》</strong>。这尊像的故事值得知道：<strong>1890 年代送到图书馆时因「醉态、裸体、还抱着个婴儿」引发全城公愤，McKim 被迫撤回赠礼、把它送给了纽约的 Metropolitan Museum of Art</strong>；Museum of Fine Arts 买了一个复制品让 Boston 人还能看到；<strong>1990 年代内院翻修时，BPL 又照着 MFA 那个复制品再复制了一个，她才终于回到原位。</strong>改造方案里包含<strong>给中庭加透明顶棚</strong>（现方案称能把活动从「限于 6–8 月」扩展到全年），一旦实施，露天中庭就不存在了。"
         ],
+        "tour": [
+          "<strong>这是一座「进得去、不要钱、也没人管你」的国家历史地标，而且它有明确的最优路线。</strong><strong>务必从 Dartmouth Street 的老正门（McKim 楼）进，不要从 Boylston Street 的新楼（Johnson 楼）进</strong>——新楼是 1972 年的现代主义混凝土盒子，普通借还书用的，走错门你会以为这座图书馆平平无奇。正门路线：<strong>进门 → 门厅（Entrance Hall，头顶是 Guastavino 瓷砖拱顶）→ 大楼梯（黄褐色 Siena 大理石，两侧一对 Louis Saint-Gaudens 的石狮）→ 二楼 Puvis de Chavannes 壁画走廊 → 右转进 Bates Hall</strong>。全程不到 3 分钟。",
+          "<strong>绝对不能错过的四处，按顺序：</strong><strong>①Bates Hall（二楼）</strong>——<strong>66 米长、13 米高的筒形拱顶阅览室</strong>，成排的绿色玻璃灯罩台灯就是你见过的那张照片，<strong>它是一间在用的阅览室，请安静、不要占着桌子拍</strong>。<strong>②Sargent Gallery（三楼，从 Bates Hall 外再上一层窄楼梯）</strong>——John Singer Sargent 从 1890 年画到 1919 年、画了 29 年的《Triumph of Religion》壁画组，<strong>这是全馆最被游客错过的地方，九成人只到二楼就走了</strong>。<strong>③Abbey Room（二楼）</strong>——Edwin Austin Abbey 的《Quest for the Holy Grail》十五联画，橡木护墙加金箔天花，气氛比 Bates Hall 更浓。<strong>④Courtyard（一楼内院）</strong>——照着罗马 Palazzo della Cancelleria 做的意大利式回廊中庭，中央是 Frederick MacMonnies 的 Bacchante 铜像（1896 年因「裸体且醉酒」被波士顿舆论轰出去过，现在这尊是 1993 年的复制品）。<strong>天气好的时候这里是全馆最舒服的休息点，而且免费坐。</strong>",
+          "<strong>可以跳过的：Johnson 楼（新楼）整栋、以及地下的展览空间。</strong>新楼里只有 Newsfeed Café 与普通借阅区，建筑上没有任何可看的；地下的临时展规模很小（通常一到两个展柜），<strong>除非主题正好对你胃口，否则省下 15 分钟给三楼的 Sargent Gallery</strong>。<strong>Map Center（Leventhal 地图中心，一楼）则相反，值得进去 10 分钟</strong>——免费，常设展是波士顿填海造地的历史地图，能让你明白 Back Bay 这个名字为什么叫「后湾」。",
+          "<strong>排队与人流：完全不排队，没有安检，没有寄存要求。</strong>这是 Boston 室内景点里门槛最低的一个。<strong>人最少的时段是工作日 09:00–11:00 与 18:00 之后（周一至周四开到 20:00）</strong>；<strong>周末与下午 13:00–16:00 的 Bates Hall 几乎每张桌子都坐着人</strong>，想拍空荡荡的经典视角只有开门后那一小时。<strong>下雨天这里是全城最好的备案</strong>——免费、室内、能待三小时，而且离 Copley 站只有 150 米。",
+          "<strong>餐饮与卫生间：馆内两者都有，而且质量不差。</strong><strong>卫生间在一楼门厅左右两侧与二楼</strong>，免费公共使用，不需要出示任何东西。餐饮有三处：<strong>①Newsfeed Café（Johnson 楼一楼，三明治与咖啡，最快）</strong>；<strong>②Courtyard Restaurant（McKim 楼二楼，正对内院，供应正式午餐与英式下午茶，需预约）</strong>；<strong>③Map Room Tea Lounge（一楼，轻食）</strong>。<strong>三处都不需要买门票就能用，因为本来就没有门票。</strong>注意<strong>阅览室内禁止饮食</strong>，水也不行。"
+        ],
         "photo": "室内建筑 <strong>5/5</strong>，细节 <strong>4.5/5</strong>，人文 <strong>4/5</strong>，风光 <strong>0.5/5</strong>。这是本区摄影价值最高的单一目标：免费、每日开放、题材极强、且不受天气影响；扣分只在明确禁三脚架与「楼梯上不许拍照」这两条硬规则。",
         "shots": [
           {
@@ -1165,9 +1217,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>1.5–2.5 小时</strong>。分配：<strong>门厅与大楼梯 10 分钟、Bates Hall 30–40 分钟、Sargent Gallery 20 分钟、Abbey Room 15 分钟、Courtyard 内院 15–20 分钟、Map Center 10 分钟</strong>。<strong>只看重点 40 分钟</strong>：正门进 → 大楼梯 → Bates Hall → 内院，原路出来。<strong>参加官方免费建筑导览的话额外留 60 分钟</strong>（馆方 Art & Architecture Tour 的公布时长为约一小时，现场在正门 Dartmouth Street 门厅集合，时段以当天公告为准）。<strong>雨天或想坐下来歇脚的，这里可以撑到 3 小时以上</strong>，是全区性价比最高的室内时间。",
           "book": "<strong>不需预约、不需票、不需登记</strong>，直接走进去。<strong>但如果你打算做「正式拍摄」（带助手、换装、打灯、婚纱或订婚照），必须事先申请</strong>：官方原文<strong>「Unfortunately we cannot allow formal photography shoots during library hours」</strong>，只能安排在开馆前的工作日早晨（约 08:00–09:00），联系 Special Events Office：<strong>events@bpl.org / 617.859.2212</strong>。<strong>二手来源称许可费 $750 起，未在 bpl.org 上找到公布价格。</strong>",
-          "ticket": "<strong>免费</strong>。全馆所有公共区域（含 Bates Hall、内院、大楼梯、Abbey Room、Sargent Gallery）<strong>一律不收费</strong>。也有免费的馆方建筑导览，时段以现场公告为准。",
-          "hours": "官方原文（bpl.org/locations/central，Central Library in Copley Square）：<strong>「Monday–Thursday 9:00 am – 8:00 pm / Friday 9:00 am – 5:00 pm / Saturday 9:00 am – 5:00 pm / Sunday 11:00 am – 5:00 pm」</strong>。→ <strong>本区罕见的「每日开放、无每周闭馆日」的大馆</strong>。<strong>你的窗口内唯一的闭馆日是 10 月 12 日（Monday, October 12, 2026, Indigenous Peoples Day）</strong>，官方 Holiday Closures 页写明「The Library will be closed.」。<strong>请特别注意周五与周六只到 17:00</strong>——而 10 月 22 日日落 17:52，<strong>所以「纯人工光的 Bates Hall」只有周一至周四（开到 20:00）能拍到</strong>。（另：9 月 6 日与 9 月 7 日因 Labor Day 闭馆，已过。）",
+          "ticket": "<strong>免费</strong>。全馆所有公共区域（含 Bates Hall、内院、大楼梯、Abbey Room、Sargent Gallery）<strong>一律不收费</strong>。也有免费的馆方建筑导览，时段以现场公告为准。<strong>【2026-09-13 于 bpl.org 重新核实：全馆仍然免票，无任何收费区域。】</strong>",
+          "hours": "<strong>【2026-09-13 于 bpl.org/locations/central 重新核实，与下列口径一致】</strong>官方原文（bpl.org/locations/central，Central Library in Copley Square）：<strong>「Monday–Thursday 9:00 am – 8:00 pm / Friday 9:00 am – 5:00 pm / Saturday 9:00 am – 5:00 pm / Sunday 11:00 am – 5:00 pm」</strong>。→ <strong>本区罕见的「每日开放、无每周闭馆日」的大馆</strong>。<strong>你的窗口内唯一的闭馆日是 10 月 12 日（Monday, October 12, 2026, Indigenous Peoples Day）</strong>，官方 Holiday Closures 页写明「The Library will be closed.」。<strong>请特别注意周五与周六只到 17:00</strong>——而 10 月 22 日日落 17:52，<strong>所以「纯人工光的 Bates Hall」只有周一至周四（开到 20:00）能拍到</strong>。（另：9 月 6 日与 9 月 7 日因 Labor Day 闭馆，已过。）",
           "parking": "<strong>不建议自驾。</strong><strong>MBTA：Green Line「Copley」站出站步行 2 分钟；Orange Line「Back Bay」站步行 5 分钟</strong>，两条线都直达。<strong>Prudential Center 与 Copley Place 的地下车库最近</strong>，<strong>费率未能从官方渠道确认</strong>（Back Bay 商业车库日上限普遍在 $35–50）。",
           "walk": "Copley 站到 Dartmouth Street 正门约 <strong>150 米 / 2 分钟</strong>；Back Bay 站约 <strong>350 米 / 5 分钟</strong>。<strong>正门到 Bates Hall：进门后走大楼梯上二楼、右转，约 2 分钟</strong>；<strong>Bates Hall 到 Sargent Gallery 需再上一层窄楼梯</strong>。<strong>到 Trinity Church 只有 250 米 / 3 分钟（穿过 Copley Square）</strong>——这两个点必须连着做。"
         },
@@ -1237,6 +1290,7 @@ var REGIONS = [
         "n": 1,
         "name": "奥拉纳州立历史遗址",
         "en": "Olana State Historic Site, Hudson",
+        "must": 4.5,
         "score": 4.5,
         "tldr": "庭园免费开放到日落，是本区少数能合法拍黄金时段的地方；房子要买票且 11 月 2 日后停止导览。",
         "tags": [
@@ -1268,6 +1322,14 @@ var REGIONS = [
           "庭园免费且开放到日落，房子必须买票。<strong>2026 年导览季 5 月 19 日–11 月 2 日，周二至周日 10:00–16:00，周一不开导览</strong>；历史宅邸 16:30 准时关门",
           "Olana 海拔约 460 英尺，属于 mid-Hudson 那一段秋色，<strong>预期峰期 10 月 5–18 日</strong>；山下 Hudson 城区会再晚约一周"
         ],
+        "tour": [
+          "<strong>第一件事是决定买不买室内票，因为它决定了你从哪儿开始走。</strong>只逛庭园的话直接把车开到山顶停车场，下车 100 米就是主宅露台，零体力；买了导览票则必须先到山下的 Frederic Church Center 取票集合，<strong>那里到主宅是 1.2 公里上坡、走 20 分钟</strong>，官方要求提前 30 分钟到场，把这段时间算进去",
+          "<strong>绝对不能错过的是主宅西南露台。</strong>这是 Church 本人每天站的位置，越过 Hudson 直接看 Catskill 断崖，本区没有第二个地方能在一眼里同时看到大河、远山和一栋十九世纪宅邸。其次是主宅东南立面的<strong>波斯彩瓷与多色石板屋顶</strong>——这些花纹全是 Church 自己画的草图，凑近看比远看值钱",
+          "<strong>室内导览买哪一种：想看房子选 The Artist’s House: Main Floor（$20、45 分钟、全程无障碍）；周五至周日可以改买 Explore at Your Own Pace（$25、自己按节奏逛一二层、每间房有讲解员）</strong>，后者对不喜欢跟团的人明显更好。两小时组合票 $45 只有在你打算把一整天留给 Olana 时才划算",
+          "<strong>可以跳过的是 Landscape Walk（$12）。</strong>它走的就是 Ridge Road 那条马车道，而<strong>这条路本身免费、随便走</strong>，省下的钱和时间留给室内导览更值。Wagon House Education Center 也可以略过，那是教育用房不是展厅",
+          "<strong>停车是这里唯一的实际风险。</strong>山顶车位只有二十几个，<strong>秋季周末上午中段就满</strong>，满了就得退回山下的 Frederic Church Center 再走 20 分钟上坡。09:00–10:00 到山顶基本都有位；如果你是奔着导览来的，反正也要去山下集合，就别抢山顶了",
+          "<strong>园内没有餐厅，只有 Olana Shop 卖点小零食，务必提前吃或自带。</strong><strong>卫生间只有两处：Frederic Church Center 与山顶 Olana Shop 旁</strong>，马车道上一路没有。全园禁烟、无垃圾桶，垃圾必须自己带走；往北开 10 分钟就是 Hudson 市的 Warren Street，那一整条街都是餐馆"
+        ],
         "photo": "风光 <strong>5/5</strong>，建筑 <strong>4.5/5</strong>，人像 <strong>3.5/5</strong>。扣分只因房子本身白天多数时间背光（正立面朝东南、观景面朝西南），想同时拍到「彩瓷立面细节」和「远山」得分两个时段来。加分项是庭园免费开放到日落——<strong>本区四个主要收费景点里只有它不会在黄金时段把你赶走</strong>。",
         "shots": [
           {
@@ -1296,9 +1358,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>2–3 小时</strong>。拆开看：<strong>只上山顶看露台与庭园 60–75 分钟</strong>（含停车与走动）；<strong>加一场 The Artist’s House 主层导览 45 分钟，连同提前 30 分钟集合，合计约 2.5 小时</strong>；<strong>再走一趟 Ridge Road 马车道往返另加 50–60 分钟</strong>。想把庭园、室内和马车道全部走完，请留 4 小时以上，或者分上午与傍晚两次来（立面上午顺光、远山傍晚出彩，两者时段本来就相反）。依据为官方导览时长（45 分钟 / 60 分钟 / 两小时组合）与官方「提前 30 分钟到场、两场导览之间留 30 分钟」的建议",
           "book": "<strong>庭园不需预约</strong>。<strong>历史宅邸导览「strongly recommended」提前预约，官方明确说明 tours sell out quickly</strong>，10 月周末实际等同于必须预约。tickets.olana.org 在线购买，或致电 518-751-0344。10 人以上团体与任何第三方带团一律必须提前预约",
-          "ticket": "<strong>250 英亩庭园免费</strong>。导览分项计价：Landscape Walk（Ridge Road and Viewshed 或 The Early Years）各 <strong>$12</strong>、The Artist’s House: Main Floor <strong>$20</strong>、特展 Frederic Church: Global Artist <strong>$15</strong>、Explore at Your Own Pace（仅周五至周日）<strong>$25</strong>、电瓶车导览 <strong>$40</strong>、两小时组合票 <strong>$45</strong>。<strong>16 岁及以下参加步行景观与宅邸导览免费</strong>；现役军人、退伍军人与急救人员凭证减 $5",
-          "hours": "<strong>庭园：每日 08:00 至日落，全年免费开放</strong>（官方原文「Park: Open Daily, 8AM – Sunset」）。Frederic Church Center 周二至周日 09:30–16:30。<strong>导览时段周二至周日 10:00–16:00，2026 导览季为 5 月 19 日–11 月 2 日，周一不开导览</strong>；历史宅邸 16:30 准时关闭。需注意 NYS Parks 页面另给出「grounds 08:30 至日落」的口径，与 Olana 官网的 08:00 略有出入，以官网为准",
+          "ticket": "<strong>250 英亩庭园免费</strong>。导览分项计价：Landscape Walk（Ridge Road and Viewshed 或 The Early Years）各 <strong>$12</strong>、The Artist’s House: Main Floor <strong>$20</strong>、特展 Frederic Church: Global Artist <strong>$15</strong>、Explore at Your Own Pace（仅周五至周日）<strong>$25</strong>、电瓶车导览 <strong>$40</strong>、两小时组合票 <strong>$45</strong>。<strong>16 岁及以下参加步行景观与宅邸导览免费</strong>；现役军人、退伍军人与急救人员凭证减 $5。<strong>另有免费 Community Day：2026 年 6 月至 10 月每月第三个周四，即 10 月 15 日当天的景观与宅邸导览全部免费</strong>，当日 17:00–19:00 现场先到先得、不接受预约。（以上逐档价格于 <strong>2026 年 9 月 13 日</strong>在 olana.org 的 Individual Tours 票价表核对，与上一版一致。）",
+          "hours": "<strong>庭园：每日 08:00 至日落，全年免费开放</strong>（官方原文「Park: Open Daily, 8AM – Sunset」）。Frederic Church Center 周二至周日 09:30–16:30。<strong>导览时段周二至周日 10:00–16:00，2026 导览季为 5 月 19 日–11 月 2 日，周一不开导览</strong>；历史宅邸 16:30 准时关闭。需注意 NYS Parks 页面另给出「grounds 08:30 至日落」的口径，与 Olana 官网的 08:00 略有出入，以官网为准。<strong>对 10 月 13 日–10 月 26 日的直接结论（2026 年 9 月 13 日核实）：这两周完全在导览季内，室内与景观导览照常运行，唯一的空档是每周一不开导览（10 月 19 日与 10 月 26 日两个周一只能逛免费庭园）。</strong>本区几处宅邸里，Olana 是收季最晚的一个",
           "parking": "三处停车场：Frederic Church Center、Wagon House Education Center、以及山顶靠近 Olana Shop 处。<strong>庭园与停车免费</strong>。山顶车位数量有限，秋季周末建议 09:00 前到或停在山下步行上山",
           "walk": "山顶停车场到主宅露台约 100 米 / 2 分钟；Frederic Church Center 到主宅约 1.2 公里 / 20 分钟上坡；Ridge Road 单程约 1 英里 / 25–30 分钟"
         },
@@ -1331,6 +1394,7 @@ var REGIONS = [
         "n": 2,
         "name": "卡特斯基尔瀑布",
         "en": "Kaaterskill Falls, Catskills",
+        "must": 4,
         "score": 4.5,
         "tldr": "纽约州最高的分级瀑布，两级 260 英尺，完全免费；步道与观景台正常开放，但摆渡已停运、23A 全线禁停拖车。",
         "tags": [
@@ -1361,6 +1425,14 @@ var REGIONS = [
           "<strong>2015–2016 年 DEC 做过一次彻底重建</strong>：新建了一座悬挑在崖沿之上的观景平台（正对上级瀑布顶部同高度）、重砌了从 Route 23A 上来的石阶、并把 Laurel House Road 一侧改成了缓坡碎石路。<strong>这条 0.3 英里的碎石路最大坡度 10%、最小宽度 5 英尺，是符合无障碍标准的</strong>——在 Catskills 是绝无仅有的",
           "<strong>关键区分：观景平台看到的和明信片上的不是同一个画面。</strong>平台在上级瀑布的顶沿，看到的是「瀑布侧面加下方峡谷」；要拍到教科书式的「两级全景加岩壁圆形剧场」，必须从平台继续下切到瀑布底部水潭，那一段是石阶加不平整的天然路面，回程全是上坡",
           "<strong>限流提案已在桌面上。</strong>DEC 委托的顾问报告建议日客流上限 1,000 人、07:00–19:00 定时入场每小时 25 张票、设置闸口。DEC 强调发布报告不代表采纳，<strong>目前仍然免费、无需许可、无需预约</strong>"
+        ],
+        "tour": [
+          "<strong>从 Laurel House Road 停车场进是唯一轻松的走法：0.3 英里碎石缓坡，8–12 分钟到悬挑观景平台。</strong>这条路 2015–2016 年 DEC 重建时按无障碍标准做过，最大坡度 10%、最窄 5 英尺，<strong>推婴儿车和腿脚不便的人都能到</strong>——在 Catskills 这是绝无仅有的条件",
+          "<strong>但要知道平台看到的不是明信片上那张。</strong>平台在上级瀑布的顶沿，看的是瀑布侧面加下方峡谷；<strong>教科书式的「两级全景加铁杉圆形剧场」只有走到瀑布底部水潭才看得到</strong>，自停车场单程 0.7 英里、25–35 分钟，后半段离开碎石路转天然土石面、坡陡，<strong>回程全是上坡</strong>。体力一般的人请把这段算成一小时",
+          "<strong>可以直接放弃的是从 Route 23A 山脚 Bastion Falls 往上走的那条传统路线。</strong>它全程陡石阶、比上面那条累得多，而且<strong>5 月至 10 月整条 23A 禁停拖车，你根本没有合法的地方放车</strong>",
+          "<strong>秋季周末停车就是名额，09:00 前到位，并且提前想好第二第三选择。</strong>顺序：Laurel House Road（最近）→ Scutt Road → South Lake Campground →Mountain Top Historical Society（建议捐 $20，再走 Kaaterskill Rail Trail 往返约 3 英里）。<strong>路边 pull-off 一律禁停，罚单加拖车，扣车场在 5742 NY-23A, Tannersville</strong>。2023 年高峰日客流约 1,850 人、单日最高近 3,000 人，10:00 之后基本就是绕圈找位",
+          "<strong>步道上没有任何设施：没有水、没有吃的、没有正经卫生间</strong>（Laurel House Road 停车场只有季节性旱厕，有没有纸看运气）。<strong>吃饭与像样的卫生间在 Route 23A 上的 Haines Falls 与 Tannersville 两个小镇</strong>，车程 10–15 分钟，Tannersville 的选择多一些。峡谷内手机信号很差，离线地图必备",
+          "<strong>底部巨石在水雾里极滑，凉鞋与平底运动鞋在这里是真的会摔。</strong>带抓地好的鞋；另外<strong>不要跨过任何围栏去崖沿找「更好的角度」</strong>——这条瀑布历史上的致命事故几乎全是这么发生的，重建后的护栏就是为此而设"
         ],
         "photo": "风光 <strong>5/5</strong>，人像 <strong>2.5/5</strong>，建筑 <strong>0/5</strong>。两级落差、深切的铁杉圆形剧场、四周崖顶的枫树，<strong>是本区唯一一处「主体加环境色」能在同一画面里成立的自然题材</strong>。人像扣分因为底部全是湿滑巨石、空间狭窄且旺季人挤人。",
         "shots": [
@@ -1394,6 +1466,7 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>1.5–3 小时</strong>。<strong>只到悬挑观景平台往返 45–60 分钟</strong>（0.6 英里碎石缓坡，含在平台上停留）；<strong>加走到瀑布底部水潭，全程共 2–2.5 小时</strong>（往返 1.4 英里，回程全上坡）；<strong>从 Mountain Top Historical Society 走 Kaaterskill Rail Trail 那条备用路线往返约 3 英里，需 2.5–3 小时</strong>。<strong>秋季周末请在以上时间之外，额外预留 30–45 分钟找停车位</strong>。依据为 DEC 公布的步道里程与坡度，按普通步行速度推算",
           "book": "<strong>不需预约、不需许可</strong>。DEC 顾问报告建议的定时入场与日客流上限 1,000 人<strong>目前仅为提案，尚未实施</strong>，但这是本区 2026 年内最可能变动的规则，出发前请查 dec.ny.gov/places/kaaterskill-wild-forest",
           "ticket": "<strong>完全免费</strong>，无入园费、无停车费（Mountain Top Historical Society 周末为建议捐赠 $20）",
           "hours": "<strong>DEC 州立林地，无开闭园时间</strong>。实际限制来自天黑——峡谷内比空旷处早暗约 40 分钟，10 月下旬 17:00 后底部就已经很难看清落脚点",
@@ -2131,6 +2204,7 @@ var REGIONS = [
         "n": 1,
         "name": "洛克菲勒中心观景台",
         "en": "Top of the Rock",
+        "must": 4,
         "score": 5,
         "tldr": "70 层无玻璃，Empire State Building 在正南、Central Park 在正北，转身两题材全收。",
         "tags": [
@@ -2158,6 +2232,14 @@ var REGIONS = [
           "<strong>SKYLIFT 是 2024 年 10 月新增的开放式旋转平台</strong>，从 70 层再升高 9.1 米（离地约 268 米），单次 3.5 分钟。它<strong>不能单独预订</strong>：现场加购 $35，或选 SKYLIFT + Admission（$57 起）、All-Inclusive（$72 起）、VIP Pass（$185–207，含私人导览与专属 Beam）。平台上的禁带清单比观景台本身更严，<strong>三脚架、自拍杆、任何额外摄影器材、以及无法固定的松散物品全部禁止</strong>——把它当作一次没有相机的体验，别指望在上面拍到东西",
           "<strong>The Beam Experience 是 69 层的付费摆拍装置</strong>，复刻 1932 年那张「Lunch Atop a Skyscraper」（民工坐在钢梁上吃午饭）的构图，需 Beam Combo（$73 起）或 VIP Pass，身高门槛 42 英寸。<strong>它不包含在普通门票里，且经常售罄</strong>"
         ],
+        "tour": [
+          "<strong>动线：进门先过机场级安检，再穿一段 67 层的展览通道，然后换两段电梯。</strong>上去之后<strong>直接坐到 70 层，看完再往下走 69、67</strong>——反过来走会在 69 层被人流堵住，而且下行电梯永远比上行空",
+          "<strong>70 层只需要看两个方向，其余可以快速略过。</strong><strong>正南是 Empire State Building</strong>（1.29 公里）、<strong>正北是 Central Park</strong>（1.0 公里），站在平台上转身 180 度就是纽约最著名的两张俯瞰。东西两侧是普通的中城楼群，走一圈五分钟就够",
+          "<strong>可以直接跳过的部分</strong>：67 层的 Radiance Wall 与各种互动装置、以及出口处必经的礼品店与合影销售台。<strong>SKYLIFT（现场加购 $35、单次 3.5 分钟）与 The Beam（$73 起的摆拍装置）都是独立收费项目</strong>，带孩子或想要纪念照才值得，单纯看景的人省下这笔钱",
+          "<strong>人流：日落前 45 分钟到日落后 30 分钟是全天最挤的一段</strong>，70 层南北两侧栏杆会站满三排人，想靠到栏杆前得提前半小时占位。<strong>最松的是开门第一档 08:00–09:00 的工作日，平台上常常只有十几个人</strong>，票价也在动态定价的低点",
+          "<strong>卫生间在 67 层观景层内（每处都有无障碍隔间），上 70 层之前先解决</strong>——70 层是露天平台，来回一趟要重新挤电梯。<strong>观景区内没有餐饮，只有礼品店</strong>；吃喝请在 Rockefeller Center 地下层的餐饮区先解决，外带食物饮料一律不许带上去",
+          "<strong>70 层完全露天、没有任何挡风结构</strong>，259 米高度的风速常比地面高一个量级。10 月中下旬的傍晚体感明显低于地面气温，<strong>带一件防风外套与能扣住的帽子</strong>，否则在上面待不满 20 分钟就想下来"
+        ],
         "photo": "城市天际线 <strong>5/5</strong>，建筑 <strong>4.5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>3/5</strong>。无玻璃这一条足以让它成为纽约出片率最高的高处机位；扣分只因禁三脚架让长曝路线彻底走不通，且日落时段南栏基本挤不进去。",
         "shots": [
           {
@@ -2182,9 +2264,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>60–90 分钟</strong>。分配：入口到站上 70 层含安检与两段电梯 <strong>20–40 分钟</strong>，平台上看景 <strong>30–45 分钟</strong>（70 层 20 分钟、69 层 10 分钟、67 层 5 分钟足够）。<strong>门票当日全天有效、停留不限时</strong>，所以想完整看到金光、日落、蓝调三段请预留 <strong>2–2.5 小时</strong>；加 SKYLIFT 或 The Beam 各再加 20–30 分钟（含排队）。",
           "book": "<strong>必须网上预订定时票</strong>（rockefellercenter.com 或 topoftherocknyc.com），门票当日全天有效——<strong>订日落前 60 分钟的档，可以一票拍完金光、日落、蓝调三段</strong>。<strong>日落档是全天最先售罄的，平日建议提前 1–2 周、周末与假日提前 2–4 周</strong>。SKYLIFT 无法单独预订，只能现场加购 $35 或买含 SKYLIFT 的票种",
-          "ticket": "<strong>Timed Admission 成人 $42 起</strong>（第三方聚合站常报 $45，实为动态定价、周末与日落档浮到 $49–52）；儿童 $38 起、长者 $42 起、<strong>5 岁以下免费</strong>。Skip-the-line $82 起。Beam Combo $73 起。SKYLIFT + Admission $57 起，All-Inclusive $72 起，VIP Pass $185–207。RockMoMA 组合票 $63 起（含 MoMA）",
-          "hours": "官方：<strong>每日 08:00–24:00，末班电梯 23:10</strong>，全年 365 天开放。平安夜与跨年夜 22:00 关、末班电梯 21:10。<strong>这是本区四座观景台里营业最晚的一座（与 Summit 并列），比 Empire State Building 晚一小时</strong>",
+          "ticket": "<strong>核实日期 2026-09-13，来源 rockefellercenter.com 官方购票页。</strong><strong>Timed Admission 成人 $42 起、Skip-the-line Admission $82 起。</strong><strong>请注意官网自相矛盾，两种口径都写在这里：</strong>购票页写「Timed Admission From $42 / Skip-the-line From $82」，而同一站的「Compare Top of the Rock Ticket Prices」表格给的是 <strong>Timed Admission $42–$71、不限时段票 $115、VIP $200–$215</strong>，「Plan Your Visit」页则另写 <strong>$40</strong> 起。<strong>成因是全动态定价：同一天不同时段差价可达 $30，日落档最贵。</strong>儿童 $38 起、长者 $42 起、<strong>5 岁以下免费（仍需领票）</strong>。Beam Combo $73 起，SKYLIFT + Admission $57 起，All-Inclusive $72 起，RockMoMA 组合票 $63 起（含 MoMA 入场）。<strong>SKYLIFT 现场加购 $35，不含在任何通票内</strong>",
+          "hours": "<strong>核实日期 2026-09-13，官方原文「Daily from 8 AM – 12 AM，Last entry is at 11:10 PM」，全年 365 天开放。</strong>平安夜与跨年夜提前到 22:00 关、末班电梯 21:10。<strong>本窗口（10/13–10/26）适用上述常规时间，无季节性调整。</strong><strong>复核后的新结论：由于 SUMMIT One Vanderbilt 现在逢周二闭馆，Top of the Rock 是四座里唯一「每天都开、且开到 24:00」的一座</strong>，10/13 与 10/20 这两个周二尤其要记住这一点",
           "parking": "<strong>不要开车</strong>，中城路边表位与停车楼在这一带日间 $30–60 且极难找。地铁 <strong>B/D/F/M 线「47-50 Streets–Rockefeller Center」站</strong>，出站即达；N/Q/R/W 线「49 St」、1 线「50 St」亦在两个街区内",
           "walk": "<strong>入口在 50th Street、Fifth 与 Sixth Avenue 之间</strong>（30 Rock 南侧，认红地毯），另有 30 Rockefeller Plaza 地下层入口。地铁出站到入口 <strong>2 分钟</strong>；<strong>入口到 70 层平台含安检与两段电梯实测 20–40 分钟，请按 30 分钟预留</strong>"
         },
@@ -2217,6 +2300,7 @@ var REGIONS = [
         "n": 2,
         "name": "圣帕特里克主教座堂",
         "en": "St. Patrick's Cathedral",
+        "must": 3.5,
         "score": 3.5,
         "tldr": "免费、每天 06:30–20:45；正立面整季在阴影里，主风琴已拆走送修到 2027 春。",
         "tags": [
@@ -2244,6 +2328,14 @@ var REGIONS = [
           "2012–2015 年做过 <strong>1.77 亿美元</strong>的全面修复（Murphy Burnham & Buttrick 主持，起因是外立面开始掉石块），清洗了全部外墙大理石、修复了 3,000 片彩窗、重涂天顶、换了地面与台阶，<strong>脚手架 2016 年 7 月全部拆除</strong>。<strong>核实结果：目前教堂本体没有任何大面积围挡或脚手架</strong>（2026 年那份 1.9 亿元「St Patrick’s 修复计划」的新闻指的是墨尔本的同名教堂，不是纽约）",
           "它仍然是一座高强度运转的堂区教堂：<strong>周一至周五每天六台弥撒（07:00、07:30、08:00、12:00、13:00、17:30），周日八台（含 10:15 的大礼弥撒与 16:00 的西班牙语弥撒）</strong>。弥撒进行时中殿主通道不能站人拍照，这是本条目最实际的时间约束"
         ],
+        "tour": [
+          "<strong>免费直接进，不用票也不用预约，但有安检</strong>。第五大道正门（50th 与 51st Street 之间）排队时，<strong>绕到 50th 或 51st Street 的侧门，通常没人且更靠近中殿</strong>",
+          "<strong>逛法很简单：沿中殿主通道走到主祭台栏杆前（全长 124 米，走完约 5 分钟），再沿一侧侧廊绕回门口。</strong>侧廊两边一共 <strong>21 座小祭台</strong>，不必每座都停，挑三处：<strong>主祭台后方的 Pietà（体积是梵蒂冈米开朗基罗那尊的三倍）</strong>、东端 1901–1906 年增建的 <strong>Lady Chapel</strong>（彩窗由 Paul Vincent Woodroffe 于 1912–1930 年完成，光线比中殿柔和得多）、以及第五大道门内上方直径 8 米的玫瑰窗",
+          "<strong>本次看不到的一样东西，先说清楚：管风琴不在。</strong>Gallery Organ 与 Nave Organ 已于 2025 年 5 月 12 日拆走送往加拿大 Casavant Frères 修复，<strong>预计 2027 年春季才运回</strong>。玫瑰窗下那面风琴管立面目前是空的，<strong>也没有管风琴音乐可听</strong>——很多人是冲这个来的",
+          "<strong>时间上的硬约束是弥撒，不是开门时间。</strong>周一至周五每天六台（07:00、07:30、08:00、12:00、13:00、17:30），周六三台，<strong>周日八台几乎排满全天</strong>。弥撒进行时中殿主通道不能站人走动。<strong>最从容的窗口是工作日 08:45–11:45 与 14:00–17:00</strong>；纯参观请避开周日，尤其 10:15 的大礼弥撒",
+          "<strong>官方自助语音导览 $25（儿童 3–11 岁 $20），约 30–40 分钟</strong>，由 Timothy Dolan 枢机本人讲解，有英西意法葡五种语言（无中文），可在现场 Tour Desk 买，也可提前网上买省排队时间。<strong>只想看一眼建筑的人不需要它，20 分钟自己走一圈完全够</strong>",
+          "<strong>不要指望在这里上厕所。</strong>这是一座每天跑六台弥撒的运转中教堂，不是博物馆，<strong>游客可用卫生间的位置未能从官方渠道确认</strong>。最近的可靠选择是 <strong>200 米外 Rockefeller Center 的地下 concourse 层</strong>，那里有公共卫生间且不用消费"
+        ],
         "photo": "建筑 <strong>4/5</strong>，室内 <strong>4/5</strong>，人像 <strong>2/5</strong>，夜景 <strong>3.5/5</strong>。免费加长营业时间是它的最大优势；扣分因为立面整季无直射光、主风琴缺席、且弥撒时段会切掉大量可拍时间。",
         "shots": [
           {
@@ -2268,9 +2360,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "<strong>不需预约</strong>，直接进。官方自助语音导览另行售票（约 1 小时，现场取机）；10 人以上团体导览需提前电话预约",
-          "ticket": "<strong>免费</strong>（接受捐赠）。自助语音导览另收费",
-          "hours": "<strong>官方口径：每日 06:30–20:45，全年无休。</strong><strong>但「开门」不等于「可以随便拍」</strong>：弥撒时段（周一至周五 07:00、07:30、08:00、12:00、13:00、17:30；周六 08:00、12:00、17:30；<strong>周日 07:00、08:00、09:00、10:15 大礼、12:00、13:00、16:00 西班牙语、17:30</strong>）中殿主通道不得站人拍照。<strong>有第三方来源称周日不提供参观导览（Sunday closed for tours），该说法未能在教堂官网确认</strong>，但周日八台弥撒几乎排满全天，<strong>纯摄影目的请避开周日</strong>",
+          "visit": "<strong>20–45 分钟</strong>。分配：中殿主通道来回 10 分钟、Pietà 与 Lady Chapel 10 分钟、侧廊小祭台与玫瑰窗 10 分钟，安检 3–8 分钟。<strong>只想进去看一眼建筑 15 分钟足够。</strong><strong>买 $25 语音导览的话按 45–60 分钟算</strong>（导览音轨 30–40 分钟，加上自己停留）；想完整听一台弥撒另加 45–60 分钟。它就在 Rockefeller Center 对街 200 米，适合作为那一段的顺路一站。",
+          "book": "<strong>不需预约</strong>，直接进。官方自助语音导览另行售票（现场 Tour Desk 或网上买）；10 人以上团体导览需提前电话预约",
+          "ticket": "<strong>核实日期 2026-09-13。入场免费，无需门票，接受捐赠。</strong><strong>官方自助语音导览：成人 $25、儿童 3–11 岁 $20</strong>（含一次性耳塞），英、西、意、法、葡五语，<strong>没有中文</strong>；用自己的手机装 TourPatron app，或现场租平板。<strong>另有「Behind the Scenes」VIP 导览，第三方报价约 $50 起、每日 10:00 与 14:00</strong>，<strong>该项目的现行价格与场次未能从教堂官网确认</strong>（官网被反爬服务拦截，见下），请致电 <strong>+1 212-753-2261</strong> 核对",
+          "hours": "<strong>核实日期 2026-09-13。必须声明：saintpatrickscathedral.org 的访客页当天被 Cloudflare 反爬拦截，开放时间未能从官网原文直接复核</strong>，以下为多个第三方一致口径：<strong>周一至周六 06:30–20:45，周日 07:00–20:45，全年无休</strong>（另有来源写「每日 06:30–20:00」，差 45 分钟，晚间前往请预留余量）。<strong>能从官网直接确认的是弥撒时刻表</strong>（saintpatrickscathedral.org/masses 当天原文），而<strong>真正约束你的是弥撒而不是开门时间</strong>：弥撒时段（周一至周五 07:00、07:30、08:00、12:00、13:00、17:30；周六 08:00、12:00、17:30；<strong>周日 07:00、08:00、09:00、10:15 大礼、12:00、13:00、16:00 西班牙语、17:30</strong>）中殿主通道不得站人拍照。<strong>有第三方来源称周日不提供参观导览（Sunday closed for tours），该说法未能在教堂官网确认</strong>，但周日八台弥撒几乎排满全天，<strong>纯摄影目的请避开周日</strong>",
           "parking": "<strong>不要开车。</strong>地铁 E/M 线「Fifth Avenue–53 St」步行 3 分钟；B/D/F/M 线「47-50 Streets–Rockefeller Center」步行 4 分钟；6 线「51 St」步行 5 分钟",
           "walk": "第五大道正门在 50th 与 51st Street 之间（东侧）。<strong>正门排队时改走 50th 或 51st Street 的侧门，通常没人且更靠近中殿</strong>。有安检，高峰时段 3–8 分钟。从 Rockefeller Center 下沉广场步行 <strong>200 米 / 3 分钟</strong>"
         },
@@ -2302,6 +2395,7 @@ var REGIONS = [
         "n": 3,
         "name": "洛克菲勒中心与第五大道",
         "en": "Rockefeller Center and Fifth Avenue",
+        "must": 4,
         "score": 4,
         "tldr": "Channel Gardens 中轴线与 Prometheus 全天免费；冰场 10/10 开、树 11/7 到。",
         "tags": [
@@ -2328,6 +2422,14 @@ var REGIONS = [
           "Lee Lawrie 的 <strong>Atlas（1937）</strong>：4.5 米高青铜像，连基座总高 <strong>14 米（45 英尺）</strong>，立在 630 Fifth Avenue（International Building，1935 年落成、41 层、<strong>156 米</strong>、Raymond Hood 设计、<strong>只用 136 天建成</strong>）的前庭正中，肩上顶着一个镂空的黄道天球。<strong>它正对街的东侧就是 St Patrick’s Cathedral，「Atlas 前景 + 哥特尖塔背景」是这一带最有辨识度的街面构图</strong>",
           "<strong>冰场（The Rink at Rockefeller Center）2026 季于 10 月 10–11 日开放</strong>（多个来源分别给出 10/10 与 10/11，官方尚未固定单一日期），运营到次年 4 月初，每场 40–60 分钟、含租鞋 $40–70、同时只容 150 人。<strong>9 月下旬去只有一个空的下沉广场（夏季这里是露天餐座），10 月中旬之后才有冰</strong>",
           "<strong>圣诞树 11 月 7 日清晨运抵、当天 07:00 吊装，12 月 2 日点灯，所以整个 9/25–10/22 窗口都拍不到树。</strong>请把这一点当作既定事实来规划构图——不要按网上那些「冰场 + 巨树 + 金色 Prometheus」的照片设定目标"
+        ],
+        "tour": [
+          "<strong>这一片其实是一条约 300 米的直线步道，照这个顺序走一遍就够</strong>：Fifth Avenue 入口 → 沿 Channel Gardens 下坡 60 米 → 下沉广场栏杆看 Prometheus → 折回 Fifth Avenue 看 630 号楼前的 Atlas → 过街进 St Patrick’s Cathedral。<strong>全程步行 10 分钟，连看带停 30–40 分钟</strong>",
+          "<strong>四件不要错过的：</strong>下沉广场的镀金 <strong>Prometheus</strong>（5.5 米、8 吨，全美被拍最多的公共雕塑之一）；630 Fifth Avenue 门前连基座 14 米的 <strong>Atlas</strong> 与他肩上的镂空天球；30 Rock 正门上方 Lee Lawrie 的巨幅彩饰浮雕 <strong>「Wisdom」</strong>（铭文 “Wisdom and Knowledge Shall Be the Stability of Thy Times”，多数人只顾拍楼、直接从它下面走过去了）；以及下沉广场周圈那约 200 面万国旗",
+          "<strong>可以直接跳过的部分</strong>：地下 concourse 的连锁商场、<strong>NBC Studio Tour（另行收费、以演播室为主，对不看美国电视的人几乎没有信息量）</strong>、以及 Today Show 的窗外围观（只有工作日清晨 07:00–09:00 才有，且隔着栏杆离主持人很远）",
+          "<strong>本窗口（10/13–10/26）的现场实况要先知道</strong>：<strong>圣诞树 11 月 7 日才运抵、12 月 2 日才点灯，你一定看不到树</strong>；冰场 2026–27 季的开季日<strong>截至 2026-09-13 官方仍写「will be announced soon」</strong>，第三方普遍传 10 月 10 日。<strong>请把这里当成一个 Art Deco 广场来逛，而不是照着网上的圣诞照片来</strong>",
+          "<strong>卫生间与餐饮都在地下 concourse 层</strong>（从 Channel Gardens 尽头的楼梯或 30 Rock 大堂下去）：<strong>这是第五大道这一段少数不用消费就能上厕所的地方</strong>，同层的快餐与咖啡也比街面店便宜一截。街面上的餐位几乎都是高价游客餐厅",
+          "<strong>骚扰与小钱陷阱：广场周边常年有扮装人物、举牌导游与「免费送你一张 CD」的人。</strong>合影与收下东西之后都会被索取 $5–20。<strong>不接、不停、不合影是唯一有效的应对</strong>，这里的密度虽不如 Times Square，但手法完全一样"
         ],
         "photo": "建筑 <strong>4.5/5</strong>，雕塑 <strong>4.5/5</strong>，人像 <strong>3.5/5</strong>，夜景 <strong>4/5</strong>。免费、24 小时、夜间打灯，是本区性价比最高的街面点位；扣分因为这个季节缺了冰面与圣诞树两个最强元素，且白天人流极密。",
         "shots": [
@@ -2365,9 +2467,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>45–90 分钟</strong>。分配：Channel Gardens 与下沉广场 20 分钟、Atlas 与 630 Fifth Avenue 前庭 10 分钟、地下 concourse 上洗手间与补给 15 分钟。<strong>只看重点 30 分钟足够。</strong>如果冰场已开季并要下场滑，<strong>另加 1.5 小时</strong>（60 分钟一场，加换鞋与排队）；与 Top of the Rock 连着安排请再加 1.5–2 小时。",
           "book": "<strong>不需预约</strong>（广场、步道、雕塑全为开放空间）。滑冰需另行网上预约时段票，12 月起必须提前订，10 月现场买通常有位",
-          "ticket": "<strong>免费</strong>（广场、Channel Gardens、Prometheus、Atlas 全部免费）。滑冰含租鞋 $40–70/人",
-          "hours": "<strong>广场与步道为开放城市空间，实际上 24 小时可拍</strong>，夜间泛光照明整夜开启。冰场约 09:00–24:00（<strong>2026 季 10 月 10–11 日开放，具体开季日期官方尚未固定</strong>）。Atlas 所在的 630 Fifth Avenue 前庭为室外，同样全天可进；<strong>各楼大堂内部按办公楼时间，且不欢迎摄影</strong>",
+          "ticket": "<strong>核实日期 2026-09-13。广场、Channel Gardens、Prometheus、Atlas、「Wisdom」浮雕全部免费，无需门票。</strong><strong>滑冰另行收费，而官方 2026–27 季的票价页当天仍未上线。</strong>上一季的实际区间是<strong>一般入场 $11–79、VIP $47–125（一般 60 分钟一场、VIP 90 分钟），租鞋约 $12</strong>，按日期与时段动态浮动，工作日上午最便宜。<strong>本季确切价格未能从官方渠道确认</strong>，请查 rockefellercenter.com，或致电 The Rink 挂牌电话 <strong>+1 212-771-7200</strong>",
+          "hours": "<strong>核实日期 2026-09-13。广场与步道为开放城市空间，实际 24 小时可进</strong>，夜间泛光照明整夜开启。<strong>冰场：官方页面当天原文「The Rink is currently closed for the season. Hours for the 2026–2027 season will be announced soon.」——也就是说开季日与营业时间官方都还没公布。</strong>第三方普遍传 <strong>10 月 10 日开季</strong>、常规时段约 09:00–24:00，<strong>但这与官方当日口径不一致，两种说法都列在这里，出发前请以官网为准</strong>。Atlas 所在的 630 Fifth Avenue 前庭为室外，同样全天可进；<strong>各楼大堂内部按办公楼时间，且不欢迎摄影</strong>",
           "parking": "<strong>不要开车。</strong>地铁 B/D/F/M 线「47-50 Streets–Rockefeller Center」站直达广场地下层；E/M 线「Fifth Avenue–53 St」步行 5 分钟",
           "walk": "地铁出站到 Channel Gardens 与下沉广场 <strong>2–3 分钟</strong>；Channel Gardens 东端（Fifth Avenue）到西端下沉广场约 <strong>60 米</strong>；下沉广场到 Atlas 前庭约 <strong>170 米 / 3 分钟</strong>；到 St Patrick’s 正门约 <strong>200 米 / 3 分钟</strong>"
         },
@@ -2399,6 +2502,7 @@ var REGIONS = [
         "n": 4,
         "name": "Edge 悬空观景台",
         "en": "Edge at Hudson Yards",
+        "must": 3,
         "score": 4.5,
         "tldr": "西半球最高室外平台，朝南无遮挡，下城与自由女神方向最强；但全周斜面玻璃必须隔着拍。",
         "tags": [
@@ -2951,6 +3055,7 @@ var REGIONS = [
         "n": 1,
         "name": "高线公园",
         "en": "The High Line",
+        "must": 4.5,
         "score": 4.5,
         "tldr": "1.45 英里高架线性公园，免费 7:00–22:00；Oudolf 草本 10 月下旬最佳，10th Avenue Square 取景窗是招牌；Rail Yards 段封闭。",
         "tags": [
@@ -2977,6 +3082,14 @@ var REGIONS = [
           "景观由 Field Operations、Diller Scofidio + Renfro 与 <strong>Piet Oudolf</strong> 三方完成。Oudolf 的核心设计原则是<strong>把植物的整个生命周期都算进方案里</strong>——按官方园艺博客的说法，「凋谢的花序、种穗与干枯的茎稈在他的方案里和春天的新芽同等重要」，园丁团队从春天就开始为秋天的样子做取舍，且<strong>要到 11 月底至 12 月的 cutback 才修剪</strong>",
           "→ <strong>这意味着 10 月下旬对本条目是加分项，不是减分项。</strong>Chelsea Grasslands 的五种基质草（Andropogon gerardii、Sorghastrum nutans、Panicum virgatum、Schizachyrium scoparium、Sporobolus heterolepis）此时转成酒红与铁锈色，种穗逆光时呈半透明。<strong>这是全年最适合拍这条公园的两周，而且不依赖枫树变色</strong>",
           "真正成立的三个建筑取景点：<strong>10th Avenue Square</strong>（下沉式阶梯剧场加嵌在栏杆里的巨幅取景窗，俯视 Tenth Avenue 车流）、<strong>Chelsea Thicket</strong>（20th–22nd St 之间的密植林荫隧道，全天柔光）、以及 <strong>The Spur</strong>（30th St 与 Tenth Avenue 交口的支线，尽端是 High Line Plinth 大型雕塑基座）"
+        ],
+        "tour": [
+          "<strong>怎么走：从南端 Gansevoort Street 上、一路向北走到 30th Street 下，全程单向不回头。</strong>这是线性公园，原路折返等于白花 35 分钟。南段（Gansevoort 到 23rd St）景观密度最高，北段 Western Rail Yards 已封闭，<strong>实际可走约 1.1 英里、纯步行 35 分钟</strong>",
+          "<strong>四样别错过</strong>：14th Street 的 Sundeck 木质躺椅段（唯一能躺下来看 Hudson 的地方）、<strong>10th Avenue Square</strong> 的下沉阶梯剧场与嵌在栏杆里的巨幅玻璃取景窗（正对 Tenth Avenue 车流，是全线最出名的一处）、20th–22nd Street 的 <strong>Chelsea Thicket</strong> 密植林荫隧道、以及北端 30th Street 的 <strong>The Spur</strong> 与 High Line Plinth 雕塑基座（轮换展示委约作品）",
+          "<strong>可以跳过的：沿线的纪念品摊与 23rd Street Lawn。</strong>那片草坪每年入秋后经常拉绳养护，10 月多半进不去；省下的时间留给北端接 Moynihan Connector（沿 31st Street／Dyer Avenue 一路走进 Manhattan West 与 Moynihan Train Hall，全程只过一次马路）",
+          "<strong>没有安检、没有票口、不用排队</strong>，但出入口不能乱选：设电梯的只有 Gansevoort St、14th St、23rd St、30th St 与 31st St／Dyer Ave 五处，其余全是楼梯。<strong>34th Street 那个唯一下到街面的北端出口随 Rail Yards 段一起关闭，7 号线 Hudson Yards 站现在进不了园</strong>",
+          "<strong>卫生间只有三处：Gansevoort Street、16th Street 与 30th Street</strong>（NYC Parks 官方页面口径，16th Street 那处最大）。园内餐饮摊位是季节性的，官方 FAQ 写明「Food and beverage vendors are open between May and October, and Shake Shack is open year-round」，集中在 15th Street 的 Chelsea Market Passage 与 22nd Street；<strong>要正经吃饭请从 15th Street 出口下到 Chelsea Market</strong>，选择远比园内多",
+          "<strong>人流：7:00–9:00 几乎没人，11:00–17:00（尤其周末）步道最窄处只有约 3 米，会走走停停。</strong>全线禁自行车、滑板、轮滑与宠物（工作犬除外），也不许踩草坪"
         ],
         "photo": "建筑 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>，风光 <strong>3/5</strong>。取景窗、林荫隧道与秋草三类素材互不重复，且全部免费；扣分是步道最窄处仅约 3 米、9:00 之后基本无法从容构图。",
         "shots": [
@@ -3018,9 +3131,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>1.5–2 小时</strong>：Gansevoort Street 到 30th Street 单向走完（约 1.1 英里）纯步行 35 分钟，加上在 10th Avenue Square、Chelsea Thicket 与 The Spur 三处各停 10–15 分钟。<strong>只想打卡取景窗与南段：45 分钟（Gansevoort 上、23rd Street 下）。</strong>想再接 Moynihan Connector 走到 Moynihan Train Hall，另加 20 分钟。（依据：官方不给建议时长，此为按实际步道长度与三处停留点推算）",
           "book": "<strong>不需预约。</strong>免费的 docent 导览团需另行报名。<strong>官方 FAQ 逐月列出了导览日，措辞是「on Tuesdays, Wednesdays, and Saturdays in September and October」——9–10 月是周二、周三与周六，不含周日</strong>（此前本条写「周末」，已按官方原文改正）。<strong>落到实际日期：10/16 周五与 10/18 周日都没有导览，只有 10/17 周六有</strong>",
           "ticket": "<strong>免费</strong>",
-          "hours": "官方原文：<strong>4 月 1 日–11 月 30 日 7:00–22:00；12 月 1 日–3 月 31 日 7:00–20:00</strong>（2026 年 9 月 5 日在官网 Visitor Info 与 FAQ 两处复核一致）。<strong>10/16–10/18 三天整段落在 7:00–22:00 内，闭园时间对本行程毫无约束</strong>——这三天日落 18:12–18:16、民用昏影 18:40–18:43 结束，园子还要再开三个多小时。<strong>但官网仍在 Interim Walkway 分区页与 Park Features 页把 Western Rail Yards 段标为「Temporarily closed」——30th–33rd St、11th–12th Ave 之间那三分之一英里自 2024 年 10 月起封闭改建，连 34th Street 那个下到街面的出入口也一并关闭。</strong>官网 2026 年 1 月 9 日的博客只给到「late 2026」这个模糊目标（与新的 34th Street 花园同步开放），<strong>没有具体日期，请按封闭计划</strong>。Gansevoort St 到 30th St／The Spur 的主线与 Moynihan Connector 均正常开放",
+          "hours": "官方原文：<strong>4 月 1 日–11 月 30 日 7:00–22:00；12 月 1 日–3 月 31 日 7:00–20:00</strong>（<strong>2026 年 9 月 13 日在 thehighline.org 的 Visitor Info 与 FAQ 两处第三次复核，一字未变</strong>）。<strong>10/13–10/26 整个东岸窗口全部落在 7:00–22:00 这一档内，闭园时间对本行程毫无约束</strong>——这两周日落在 18:20 到 18:03 之间、民用昏影约 27 分钟后结束，园子还要再开三个多小时。<strong>但官网仍在 Interim Walkway 分区页与 Park Features 页把 Western Rail Yards 段标为「Temporarily closed」——30th–33rd St、11th–12th Ave 之间那三分之一英里自 2024 年 10 月起封闭改建，连 34th Street 那个下到街面的出入口也一并关闭。</strong>官网 2026 年 1 月 9 日的博客只给到「late 2026」这个模糊目标（与新的 34th Street 花园同步开放），<strong>没有具体日期，请按封闭计划</strong>。Gansevoort St 到 30th St／The Spur 的主线与 Moynihan Connector 均正常开放",
           "parking": "<strong>不要开车。</strong>Chelsea 一带路边表价约 $4.50–5.50/小时且极难找位，停车楼日价 $35–55。地铁替代方案完善",
           "walk": "南端 <strong>A/C/E 线 14th Street 站</strong>步行约 700 米／9 分钟到 Gansevoort 入口；中段 <strong>C/E 线 23rd Street 站</strong>步行约 600 米／8 分钟；<strong>北端注意：34th Street 入口随 Interim Walkway 一起关闭，7 号线 34th Street–Hudson Yards 站现在进不了园</strong>，要从北边上请走 30th Street 或 31st Street／Dyer Avenue（Moynihan Connector）。<strong>因此实际可走的长度不是名义上的 1.45 英里，而是约 1.1 英里／35 分钟</strong>（1.45 英里减去封闭的那三分之一英里，推算）"
         },
@@ -3052,6 +3166,7 @@ var REGIONS = [
         "n": 2,
         "name": "小岛公园与 Hudson River Park 码头",
         "en": "Little Island & Hudson River Park Piers",
+        "must": 3,
         "score": 4.5,
         "tldr": "免费、不需预约、9/8–10/31 为 6:00–23:00；132 根混凝土「郁金香盆」把公园端在水面之上，日落正对 Hudson 对岸。",
         "tags": [
@@ -3078,6 +3193,14 @@ var REGIONS = [
           "<strong>季节性开放时间（官网 Rules &amp; FAQ 原文照抄，2026 年 9 月 5 日逐行复核无变化）：3/8–5/24 为 6:00–23:00；5/25–9/7 为 6:00–24:00；9/8–10/31 为 6:00–23:00；11/1–12/31 为 6:00–21:00。</strong><strong>10/16–10/18 落在 6:00–23:00 这一档，蓝调结束（18:40–18:43）之后还有四个多小时余量，闭园时间在这三天完全不构成约束</strong>；但只要跨到 10 月 31 日之后，闭园就提前两小时",
           "2026 年的演出季只跑了 <strong>7 月 29 日–9 月 6 日的六周、约 56 场</strong>（比上年的约 110 场腰斩）。<strong>已从官网 2026 Season 页面确认：The Amph 的最后一档是 9 月 2–6 日的 Thomas Bartlett，此后整个十月没有任何排期</strong>——也就是说 <strong>10/16–10/18 三天 The Amph 一定是空的，「演出时全场禁摄」这条规则在本行程里不会被触发</strong>。这对摄影是好事：圆形剧场空着的时候才拍得到它的木构座席弧线与背后的混凝土桩",
           "相邻的 Hudson River Park 码头才是这一区真正的日落资产群，全部免费：<strong>Pier 57 屋顶公园</strong>（Little Island 北侧约 200 米，视角更高更开阔）、<strong>Gansevoort Peninsula</strong> 的人造沙滩（2023 年开放，<strong>Manhattan 唯一的河滨沙滩</strong>）、以及 <strong>Pier 45</strong>（Christopher Street 尽头的大平台）"
+        ],
+        "tour": [
+          "<strong>这是个只有 2.4 英亩的小公园，不要按「景点」的心态安排</strong>：两条人行桥进出（北桥在 13th Street、南桥在 Little West 12th Street 附近），园内步道绕一圈 15 分钟就走完了。<strong>它的价值在于坐下来看水，不在于走完。</strong>第一次来请顺时针走：从北桥进 → 中央的 The Play Ground 广场 → 南侧 The Amph 圆形剧场 → 西南角最高的那处观景平台（全园视野最好）→ 从南桥出",
+          "<strong>别错过：西南角的高点观景平台与 The Amph 的木构座席。</strong>桩顶高度做得刻意不一致，走上高点会明显感觉在爬一座小丘，<strong>那里是全园唯一能同时看到 Hudson 开阔水面、对岸 New Jersey 与身后 Manhattan 楼群的位置</strong>。The Amph 是 687 座的半圆形露天剧场，没有演出时可以随便坐",
+          "<strong>可以跳过的：园内的餐饮摊位。</strong>The Play Ground 那几家季节性档口价格偏高、选择有限，<strong>更好的做法是往北走 200 米到 Pier 57 屋顶</strong>——那里楼下有 Market 57 的美食广场（多家小店），买了带上屋顶草坪吃，视野比 Little Island 更开阔且有座位",
+          "<strong>没有票口、没有安检、不需预约</strong>（2021 年开园初期的 timed entry 制度已取消，大量二手攻略仍在写「高峰期需免费预约」，那是过时信息）。<strong>唯一会排队的情形是极端拥挤时入口做人流管控</strong>，通常是夏季周末傍晚；10 月的平日基本走进去就是",
+          "<strong>卫生间在园内北侧靠近入口桥处</strong>，规模小、日落时段会排队；<strong>更稳的是 Pier 57 内部的公共卫生间</strong>（Market 57 楼层，数量多得多）。两处都在步行 3 分钟内，日落前先解决掉",
+          "<strong>顺路的另外三个免费点值得一起排：</strong>Pier 57 屋顶公园（北侧 200 米，视野更高）、Gansevoort Peninsula 的人造沙滩（南侧 300 米，Manhattan 唯一的河滨沙滩，能踩到沙子）、Pier 45（南侧约 900 米，Christopher Street 尽头的大平台，草坪可躺）。<strong>四处连起来是一条 1.5 公里的滨水散步线，是这一区最舒服的两小时。</strong>"
         ],
         "photo": "风光日落 <strong>5/5</strong>，建筑 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>。本区乃至整个 Manhattan 最好的免费日落机位群；扣分是阴天时混凝土桩会显得灰白平淡、毫无层次。",
         "shots": [
@@ -3123,9 +3246,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "<strong>不需预约</strong>（2026 年 9 月 5 日再次在官网 Rules & FAQ 逐条核实，全文无 timed entry 条款）。仅 The Amph 的付费演出需要票（座票 $25、站栏 $15，经官网或 TodayTix），<strong>而 2026 演出季已于 9 月 6 日收官，10/16–10/18 无任何排期，这三天不存在需要买票的情形</strong>",
-          "ticket": "<strong>免费。</strong>Hudson River Park 的 Pier 57 屋顶、Gansevoort Peninsula 与 Pier 45 同样免费",
-          "hours": "官方原文：Little Island「opens at 6:00 am, 365 days a year unless weather conditions dictate otherwise」。分季时刻：<strong>3/8–5/24 为 6:00–23:00；5/25–9/7 为 6:00–24:00；9/8–10/31 为 6:00–23:00；11/1–12/31 为 6:00–21:00</strong>（2026 年 9 月 5 日在官网 Rules &amp; FAQ 复核，四档时刻一字未变）。<strong>10/16–10/18 为 6:00–23:00。</strong>恶劣天气会整园清场（官方原文「the entire park will close for extreme weather」），出发前查官网",
+          "visit": "<strong>Little Island 本身 45–60 分钟</strong>：绕园步道 15 分钟走完，西南角高点与 The Amph 各坐 15–20 分钟。<strong>只是路过打卡：25 分钟。</strong><strong>把相邻的 Pier 57 屋顶、Gansevoort Peninsula 沙滩与 Pier 45 一起串成滨水散步线：2–2.5 小时</strong>（含在 Pier 57 楼下 Market 57 吃一顿的时间）。想看日落的话请把结束时刻定在日落后 30 分钟，而不是日落时。（依据：官方不给建议时长，此为按 2.4 英亩园区规模与四处相邻码头的步行距离推算）",
+          "book": "<strong>不需预约</strong>（<strong>2026 年 9 月 13 日在 littleisland.org 的 Rules &amp; FAQ 逐条第三次核实，全文仍无 timed entry 条款</strong>，官方原文只有一句「Yes, the park is free and open to the public. The only activity that requires a paid ticket to attend are all performances in The Amph.」）。仅 The Amph 的付费演出需要票（座票 $25、站栏 $15，经官网或 TodayTix），<strong>而 2026 演出季已于 9 月 6 日收官，10/13–10/26 整个窗口无任何排期，这两周不存在需要买票的情形</strong>",
+          "ticket": "<strong>免费</strong>（2026 年 9 月 13 日复核）。Hudson River Park 的 Pier 57 屋顶、Gansevoort Peninsula 与 Pier 45 同样免费",
+          "hours": "官方原文：Little Island「opens at 6:00 am, 365 days a year unless weather conditions dictate otherwise」。分季时刻：<strong>3/8–5/24 为 6:00–23:00；5/25–9/7 为 6:00–24:00；9/8–10/31 为 6:00–23:00；11/1–12/31 为 6:00–21:00</strong>（<strong>2026 年 9 月 13 日在官网 Rules &amp; FAQ 复核，四档时刻一字未变</strong>）。<strong>10/13–10/26 全部落在 9/8–10/31 这一档，即 6:00–23:00；注意 11 月 1 日起闭园提前两小时到 21:00，但那已在行程之后。</strong>恶劣天气会整园清场（官方原文「the entire park will close for extreme weather」），出发前查官网",
           "parking": "无自有停车场。West Street（West Side Highway）沿线路边位少，Chelsea 停车楼日价 $35–50。建议地铁或步行",
           "walk": "<strong>A/C/E 与 L 线 14th Street／8th Avenue 站</strong>步行约 1.0 公里／13 分钟；<strong>1 号线 Christopher Street 站</strong>到 Pier 45 约 600 米／8 分钟。从 Whitney 或 High Line 南端步行到 Little Island 入口约 500 米／7 分钟"
         },
@@ -3158,6 +3282,7 @@ var REGIONS = [
         "n": 3,
         "name": "惠特尼美国艺术博物馆",
         "en": "Whitney Museum of American Art",
+        "must": 3,
         "score": 4,
         "tldr": "每周五 17:00–22:00 全馆免费且免费票要提前 5 周领；三天里只有 10/16 周五能在露台上拍到日落，周六日 18:00 就闭馆。",
         "tags": [
@@ -3184,6 +3309,14 @@ var REGIONS = [
           "一层（Floor 1 gallery、大堂、Whitney Shop、Frenchette Bakery）<strong>任何时候都免票</strong>，不需要门票就能进。<strong>但露台不在免票范围内</strong>——官方 FAQ 明确：「Visitors do need tickets to access the Museum's terraces, which are located on Floors 5–8 on the east side of the Museum.」",
           "<strong>露台朝东，这条决定了它全部的光线逻辑：</strong>日落时露台上看到的不是太阳，而是<strong>被落日正面打亮的 Manhattan 楼群与脚下的 High Line</strong>；真正的 Hudson 日落要从西侧展厅的整面落地玻璃看，那里有双层玻璃与天花板灯的反光。把这两件事搞混是这一栏最常见的失误"
         ],
+        "tour": [
+          "<strong>从顶楼往下逛。</strong>电梯直接上 8 层，再沿外置钢楼梯一层层走下来——这是 Renzo Piano 设计时就想好的动线，也避免了「先在低层耗光体力」。<strong>5–8 层是展厅与外挑露台，1 层是免票区。</strong>大展通常放在 5 层（层高最大、无柱的一整层），常设的美国艺术馆藏放在 7 层",
+          "<strong>别错过的三样</strong>：7 层与 8 层的<strong>常设馆藏陈列</strong>（Edward Hopper 的收藏是全球最完整的一批——Whitney 拿到了他遗孀 Josephine 的全部遗赠，另有 Georgia O'Keeffe、Jacob Lawrence、Alexander Calder）；<strong>5–8 层的四层外挑露台</strong>（免费夜也含，是这栋楼最独特的体验）；以及<strong>东侧的外置钢楼梯</strong>，走一遍比坐电梯值得",
+          "<strong>可以跳过的：如果时间只有一小时，直接放弃 5 层的大型临展</strong>——临展轮换、常常需要 40 分钟以上才看得出所以然，而馆藏层与露台是不管哪年来都成立的部分。反过来，如果你本来就是冲着某个临展来的，那就只看 5 层，其余全跳",
+          "<strong>入馆流程：所有包都要查</strong>（官方原文「All bags will be inspected upon arrival」），<strong>任何尺寸的行李箱一律不准带入</strong>，−1 层有免费寄存与衣帽间。安检不是机场式，正常情况下 2–5 分钟通过；<strong>但周五 17:00 免费夜开门那一刻队伍最长，建议 16:45 就在门口排，或者干脆 18:30 之后再进（那时第一波已经上楼）</strong>",
+          "<strong>餐饮与卫生间：</strong>1 层是 Frenchette Bakery（免票即可进，咖啡与面包）、8 层是 Studio Bar（露台边上，有酒水与小食，周五营业到较晚）、3 层是 Untitled 餐厅。<strong>卫生间在 −1 层与各展厅层都有，人最少的是 −1 层那一处</strong>",
+          "<strong>25 岁及以下常年免费</strong>（官方新政，每天 10:30–18:00 都适用，18 岁以下需订免费票、19–25 岁可申请 Anytime Pass 免每次订票）——同行有年轻人的话这条能直接省掉一张 $30"
+        ],
         "photo": "建筑 <strong>4.5/5</strong>，风光 <strong>3.5/5</strong>，人像 <strong>4/5</strong>。外置钢楼梯与外挑板是一流的几何素材；扣分是禁三脚架、露台面积小、且周五免费夜正是全周最挤的时候。",
         "shots": [
           {
@@ -3208,9 +3341,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "<strong>免费时段也需要票。</strong>官方原文：「though admission is free, tickets are required and capacity is limited」。<strong>Free Friday Nights 的免费票提前 5 周放出</strong>（「free tickets are available up to five weeks in advance」），线上先领；现场也发但容量有限。平日票可现场买或线上买。<strong>对 10/16 这一晚的具体动作：往前推五周落在 9 月 11 日（周五）</strong>——2026 年 9 月 5 日复核时官网 Free Friday Nights 页面的「This week」还停在 9 月 11 日，<strong>说明 10/16 的免费票当时还没开放，请在 9 月 11 日当天就去领</strong>（五周为官方原文推算，官网不公布逐日放票时刻，也不公布每场的余量）。每月第二个周日的免费票只提前一个月放出，10 月那天是 10 月 11 日，不在行程里",
-          "ticket": "官方票价：<strong>成人 $30，65 岁以上与学生 $24，25 岁及以下免费</strong>。<strong>每周五 17:00–22:00 全馆对所有人免费</strong>，每月第二个周日全天免费。一层展厅、大堂、商店与 Frenchette Bakery 常年免票",
-          "hours": "官方原文：<strong>周一 10:30–18:00；周二闭馆；周三 10:30–18:00；周四 10:30–18:00；周五 10:30–22:00；周六 10:30–18:00；周日 10:30–18:00</strong>。<strong>周二闭馆已核实</strong>（官网 Plan your visit 页与 2026 年 6 月 2 日新闻稿口径一致，2026 年 9 月 5 日再次逐行比对无变化）。注：2026 年 6 月 16 日–8 月 18 日曾临时改为每周七天开放，该临时安排在行程窗口内已结束。<strong>这张时刻表对实际日期有一个决定性后果：10/16 周五开到 22:00，而 10/17 周六与 10/18 周日都是 18:00 闭馆，早于当天日落（18:14／18:12）。也就是说「站在 5–8 层露台上拍日落与蓝调」这件事在这三天里只有 10/16 一个晚上做得到</strong>——而 10/16 恰好又是免费夜，两件好事撞在同一天，<strong>请不要把 10/16 傍晚安排给别的点位</strong>。8 层的 Studio Bar 周五开到 21:00（周六日 17:00 收），也在这一晚可用",
+          "visit": "<strong>2–3 小时</strong>：8 层往下逐层看，5 层大展 40–60 分钟、7 层与 8 层馆藏 40 分钟、四层露台合计 20–30 分钟、1 层免票展厅与商店 15 分钟。<strong>只看重点 75 分钟：直接上 8 层露台 15 分钟 → 7 层馆藏 30 分钟 → 5 层大展快走 30 分钟。</strong><strong>只想上露台看城市：40 分钟足够</strong>（但露台需要门票，不在 1 层免票区内）。（依据：官方不给建议时长，此为按 5–8 层展厅规模推算）",
+          "book": "<strong>免费时段也需要票。</strong>官方原文：「though admission is free, tickets are required and capacity is limited」。<strong>Free Friday Nights 的免费票提前 5 周放出</strong>（官方原文「free tickets are available up to five weeks in advance」，2026 年 9 月 13 日在 whitney.org 的 Free and Discounted Admission 页复核，措辞未变），线上先领；现场也发但容量有限。平日票可现场买或线上买。<strong>落到 10/13–10/26 这个窗口：里面有两个周五，10 月 16 日与 10 月 23 日。</strong><strong>10/16 往前推五周是 9 月 11 日，今天（9 月 13 日）已经过了这个点，10/16 的免费票现在就应该已经能领——请立刻去领，不要再等。</strong><strong>10/23 的五周线落在 9 月 18 日（周五），请在那天补领第二张作为备份</strong>（五周为官方原文推算，官网不公布逐日放票时刻，也不公布每场余量）。每月第二个周日的免费票只提前一个月放出，10 月那天是 10 月 11 日，早于行程首日，用不上",
+          "ticket": "官方票价（<strong>2026 年 9 月 13 日在 whitney.org／visit 与 tickets 两页复核</strong>）：<strong>成人 $30，65 岁以上与学生 $24，25 岁及以下免费，会员免费</strong>。<strong>每周五 17:00–22:00 全馆对所有人免费</strong>，每月第二个周日全天免费。<strong>「25 岁及以下每天免费」是现行官方政策而不是限时活动</strong>（原文「Admission to the Whitney is now free every day for visitors aged 25 and under」；18 岁以下需订免费定时票，19–25 岁可申请 Anytime Pass 免去每次订票）。一层展厅、大堂、Whitney Shop 与 Frenchette Bakery 常年免票",
+          "hours": "官方原文（<strong>2026 年 9 月 13 日在 whitney.org／visit 逐行复核，与 6 月 2 日新闻稿一致，无变化</strong>）：<strong>周一 10:30–18:00；周二闭馆；周三 10:30–18:00；周四 10:30–18:00；周五 10:30–22:00；周六 10:30–18:00；周日 10:30–18:00</strong>。注：2026 年 6 月 16 日–8 月 18 日曾临时改为每周七天开放，该临时安排早于行程窗口已结束。<strong>这张时刻表对 10/13–10/26 有一个决定性后果：整整两周里，只有周五（10/16 与 10/23）开到 22:00，其余每天都是 18:00 关门，而这两周日落在 18:20–18:03 之间。</strong><strong>也就是说「站在 5–8 层露台上看日落与蓝调」在整个东岸窗口里只有这两个周五做得到，而这两天恰好又都是免费夜。请把 10/16 或 10/23 的傍晚锁给 Whitney，别安排给别的点位。</strong>另注意 <strong>10/13、10/20 两个周二全天闭馆</strong>，而 <strong>10/14（周三）、10/21（周三）等平日 18:00 就关，进去只能看白天</strong>。8 层的 Studio Bar 周五开到 21:00（周六日 17:00 收），也在这两晚可用",
           "parking": "无自有停车场。Meatpacking 一带路边位极少且多为装卸区，停车楼日价 $40–60。建议地铁",
           "walk": "<strong>A/C/E 与 L 线 14th Street／8th Avenue 站</strong>步行约 700 米／9 分钟；<strong>从 High Line 南端 Gansevoort 入口下楼梯即到，约 80 米／1 分钟</strong>"
         },
@@ -3242,6 +3376,7 @@ var REGIONS = [
         "n": 4,
         "name": "华盛顿广场公园与 Greenwich Village",
         "en": "Washington Square Park & Greenwich Village",
+        "must": 3.5,
         "score": 4,
         "tldr": "免费，6:00–24:00；招牌是拱门框住 2.1 公里外的帝国大厦，需 135–200mm；喷泉 10 月中旬多半已停水，别把它算进构图。",
         "tags": [
@@ -3268,6 +3403,14 @@ var REGIONS = [
           "<strong>招牌构图的几何（这是本条目的核心）：</strong>从拱门南侧沿 Fifth Avenue 轴线向北看，<strong>Empire State Building 在 2.1 公里外、方位角约 26.8°，而 Fifth Avenue 轴线约 28.0°</strong>（由 OSM 实体坐标算得）。也就是说帝国大厦只偏离轴线 1.2°，<strong>在拱门开口里落在中央偏左一点</strong>——这是全城最容易执行、也最好认的「地标套地标」构图",
           "喷泉在 2009 年完成的一期改造里被整体移位并对齐到拱门轴线上，所以「喷泉—拱门—Fifth Avenue—Empire State Building」现在是一条直线。同一期改造还把中央广场做平以实现无障碍，并让绿地面积增加约 20%",
           "<strong>2026 年施工状态：没有在建工程。</strong>2026 年 5 月 21 日社区委员会 CB2 全体会议通过决议（50 票中仅 6 票反对），要求公园管理处提出替代目前那套每晚人工搬移 NYPD 铁马围栏的方案——选项从简单的链条到与历史铁栅栏风格一致的永久铁门都有。<strong>但截至目前无正式设计、无成本估算、无施工，且因公园位于历史保护区还要过 Landmarks 委员会。行程窗口内不会有围挡或脚手架。</strong>"
+        ],
+        "tour": [
+          "<strong>这是一座 9.75 英亩的街区公园，不是景区：没有门、没有票、没有讲解，看的是人。</strong>标准逛法是从北面 Fifth Avenue 走进拱门 → 穿到中央喷泉 → 绕喷泉一圈看街头表演 → 东南角看街头象棋 → 从 MacDougal Street 出去接 Greenwich Village。<strong>全程 30–45 分钟，不需要更久</strong>",
+          "<strong>别错过：喷泉圆池边的街头表演。</strong>这是全纽约最密集的街头艺人据点，常年有钢琴（真的有人把立式钢琴推来）、爵士小编制、杂技与即兴喜剧；<strong>下沉式的圆形喷泉池在没水时会变成滑板与表演的天然舞台</strong>。另外东南角（近 MacDougal 与 West 4th）是纽约有名的<strong>街头象棋角</strong>，老棋手会主动邀战——<strong>那是收费的（通常 $5 一局起），不想玩就别坐下</strong>",
+          "<strong>拱门本身 5 分钟就看完，但两侧基座上的两尊华盛顿像值得走近</strong>：西侧是「Washington as Commander-in-Chief」、东侧是「Washington as President」。<strong>公园里另有 Giuseppe Garibaldi 与 Alexander Lyman Holley 两座纪念像</strong>，属于「顺路看一眼」级别，不用专门找",
+          "<strong>可以跳过的：绕公园外圈走一整圈。</strong>北面 Washington Square North 那排联排住宅（The Row）确实好看，但从拱门就能看到全貌；<strong>把省下的时间给公园东北角的 Washington Mews</strong>——一条铺弹石的私人马厩巷（现属 NYU），与拱门西侧的 MacDougal Alley 是同类型，安静得像另一个城市（<strong>Washington Mews 是私产，铁门有时锁着，只能从 Fifth Avenue 一侧向内看，请不要翻门</strong>）",
+          "<strong>卫生间：公园内有公共厕所</strong>（NYC Parks 官方设施清单列有 Public Restrooms，位置在西南侧靠近儿童游乐场处），<strong>但状况一般且日间常排队</strong>；更稳的是走到 MacDougal Street 或 Bleecker Street 上任一家咖啡馆消费后借用。<strong>餐饮：不要在公园周边找饭</strong>，往南两个街区的 MacDougal Street（老牌意大利咖啡馆、中东菜、通宵餐馆）与 Bleecker Street 密度和水准都高得多",
+          "<strong>安全与时段：白天人多时很安全，公园 0:00–6:00 闭园</strong>（每晚由 NYPD 与公园执法队人工摆铁马封住 11 个入口）。<strong>东南角一带（MacDougal 与 West 4th）夜间有毒品交易与酒精聚集</strong>，深夜不建议独自停留。最舒服的时段是 09:00–11:00 与 15:00–17:00"
         ],
         "photo": "人像 <strong>5/5</strong>，建筑 <strong>4/5</strong>，风光 <strong>2.5/5</strong>。街头人文与人像的密度是全区最高（街头象棋、跳水池的滑板与即兴演奏常年不断）；扣分是没有任何一个方向能拍到干净的天际线。",
         "shots": [
@@ -3301,9 +3444,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>45–60 分钟</strong>：拱门 5 分钟、喷泉与街头表演 20–30 分钟、东南角象棋区 10 分钟、Washington Mews 与 MacDougal Alley 各 5 分钟。<strong>只是穿过打卡：15 分钟。</strong><strong>把 Greenwich Village 的街区散步一起算进来：2–2.5 小时</strong>（公园 45 分钟 + MacDougal／Bleecker／Grove Street 一带 1–1.5 小时）。（依据：NYC Parks 不给建议时长，此为按 9.75 英亩园区规模与步行距离推算）",
           "book": "不需预约",
-          "ticket": "<strong>免费</strong>",
-          "hours": "<strong>每天 6:00 至次日 0:00</strong>（0:00–6:00 闭园，由 NYPD 与公园执法队每晚人工摆放铁马围栏封闭 11 个入口，包括拱门一侧那道 100 英尺宽的开口）。<strong>喷泉停水日期：2026 年 9 月 5 日再查一轮，仍然未能从官方渠道确认，而且坏消息是风险比原先写的更高。</strong>NYC Parks 的公园页面（nycgovparks.org／washington-square-park）根本不公布喷泉的启停日期，311 也不提供逐个水景的状态查询（Parks 已明确表示不再逐项追踪）。能查到的最接近官方的口径是公园管理方对流程的说明：<strong>每季末由 NYC Parks 的管道工来把喷泉、饮水器与喷淋一起做冬季化处理——排空管线与水箱，并把喷泉中央那组水下灯一并关掉（灯在空气中会很快烧坏）</strong>，也就是说停水与「池中灯灭」是同一个动作，停了就没有夜间亮水池可拍。<strong>而多年的实际记录是「一般在 10 月中旬关」（个别年份拖到 11 月上旬）——10 月 16–18 日正好压在这个典型关停点上，不是「有可能」，而是相当可能已经停了。</strong><strong>请把「喷泉喷水 + 拱门」当成运气，不要当成行程的支点</strong>；真正稳的是拱门本身与 Fifth Avenue 轴线上的帝国大厦，那两样与喷泉无关。出发前唯一可做的核实是打 <strong>311</strong>（市外 212-639-9675）问 Washington Square Park 的喷泉当天是否在运行",
+          "ticket": "<strong>免费</strong>（2026 年 9 月 13 日在 NYC Parks 的 Washington Square Park 页复核，公园无任何收费项目；该页同时显示「No recent capital investment」，<strong>与「园内无在建工程」的判断一致</strong>）",
+          "hours": "<strong>每天 6:00 至次日 0:00</strong>（0:00–6:00 闭园，由 NYPD 与公园执法队每晚人工摆放铁马围栏封闭 11 个入口，包括拱门一侧那道 100 英尺宽的开口）。<strong>NYC Parks 的公园页面本身不列每日开放时刻，此为公园规章与现场告示牌口径</strong>，要确认当天可打公园管理处或 311。<strong>10/13–10/26 两周内该园无任何已公告的活动性封闭。</strong><strong>喷泉停水日期：2026 年 9 月 13 日再查一轮，仍然未能从官方渠道确认，而且坏消息是风险比原先写的更高。</strong>NYC Parks 的公园页面（nycgovparks.org／washington-square-park）根本不公布喷泉的启停日期，311 也不提供逐个水景的状态查询（Parks 已明确表示不再逐项追踪）。能查到的最接近官方的口径是公园管理方对流程的说明：<strong>每季末由 NYC Parks 的管道工来把喷泉、饮水器与喷淋一起做冬季化处理——排空管线与水箱，并把喷泉中央那组水下灯一并关掉（灯在空气中会很快烧坏）</strong>，也就是说停水与「池中灯灭」是同一个动作，停了就没有夜间亮水池可拍。<strong>而多年的实际记录是「一般在 10 月中旬关」（个别年份拖到 11 月上旬）——10 月 13–26 日整段正好骑在这个典型关停点上，越往后概率越高，不是「有可能」，而是相当可能已经停了。</strong><strong>请把「喷泉喷水 + 拱门」当成运气，不要当成行程的支点</strong>；真正稳的是拱门本身与 Fifth Avenue 轴线上的帝国大厦，那两样与喷泉无关。出发前唯一可做的核实是打 <strong>311</strong>（市外 212-639-9675）问 Washington Square Park 的喷泉当天是否在运行",
           "parking": "<strong>不要开车。</strong>Greenwich Village 路边表价约 $4.50–5.50/小时且几乎找不到位，停车楼日价 $40–60",
           "walk": "<strong>A/B/C/D/E/F/M 线 West 4th Street–Washington Square 站</strong>步行约 350 米／5 分钟；<strong>N/Q/R/W 与 4/5/6 线 8th Street–NYU 站</strong>步行约 500 米／7 分钟。从喷泉到拱门约 50 米／1 分钟，到 Washington Mews 约 250 米／4 分钟"
         },
@@ -3825,6 +3969,7 @@ var REGIONS = [
         "n": 1,
         "name": "Gantry Plaza 州立公园与 Pepsi-Cola 招牌",
         "en": "Gantry Plaza State Park · Pepsi-Cola Sign · Long Island City",
+        "must": 2,
         "score": 4.5,
         "tldr": "免费、地面高度、正对 Midtown 的最佳正面机位；但太阳会提前 30 分钟沉进天际线，真正的价值在蓝调——<strong>而州立公园官网对闭园钟点有两个打架的口径（22:00 与「dusk」），出发前先打电话问</strong>。",
         "tags": [
@@ -3851,6 +3996,13 @@ var REGIONS = [
           "北段那块 <strong>Pepsi-Cola 霓虹招牌，120 英尺长、60 英尺高</strong>，1939 年由 General Outdoor Advertising Company 制造，1993 年由 Artkraft Strauss 重建，原本立在 PepsiCo 装瓶厂屋顶上（厂 1999 年关）。<strong>2009 年整体拆解后在公园里重新装配，2016 年 4 月 12 日被定为纽约市地标</strong>——一块广告牌拿到地标身份，这在纽约是很少见的",
           "<strong>本区唯一一个「十月下旬明显优于九月底」的点位。</strong>原因是 Midtown 的写字楼灯是按下班时间亮的，不是按太阳。9/25 日落 18:48、暮光结束 19:16，灯还没怎么亮天就黑透了；10/22 日落 18:06、暮光结束 18:34，<strong>而办公楼在 17:30–18:00 之间就陆续亮灯</strong>，于是「窗光密度」和「天空还有蓝」这两件事重叠得多得多",
           "南邻的 <strong>Hunters Point South Park</strong>（2013 年一期、2018 年二期）是同一条岸线的延伸，设计上更现代，有一处不能下水的「城市沙滩」、螺旋观景平台和 NYC Ferry 码头。它的角度更偏南，能把 Empire State Building 和 One World Trade Center 同时收进一张横幅"
+        ],
+        "tour": [
+          "<strong>先认清这是什么：一个 12 英亩的滨水草坪，本身没有可参观的内容，全部价值在「对岸」。</strong>园内只有两样实物值得走近看——<strong>1939 年的 Pepsi-Cola 霓虹招牌</strong>与<strong>两座 1925 年的货运龙门架</strong>，其余是草地、长椅、球场和喷水池。因此它适合当作「顺路半小时」，不适合专程过河",
+          "<strong>逛法，从北往南一条直线走完即可</strong>：7 号线 Vernon Blvd–Jackson Av 站出来往西 8 分钟到园区北端 → Pepsi 招牌（停 10 分钟）→ 龙门架栈道与四座伸入河里的木栈桥（15 分钟，栈桥端头是全园视野最好的位置）→ 沿 Center Boulevard 往南 600 米进 Hunters Point South Park，那里有一座<strong>螺旋坡道观景平台</strong>，能把 Empire State Building 与 One World Trade Center 一次看全，是整段岸线最值得多走的十分钟",
+          "<strong>可以直接跳过的：</strong>篮球场、手球场、运动场、儿童游乐区、喷水池（Labor Day 后已停用）与两处狗公园。省下的时间要么往南给 Hunters Point South Park，要么坐 NYC Ferry 过河去 DUMBO——<strong>从园内的 Hunters Point South 渡轮码头有直达 DUMBO／Fulton Ferry 的航线，这是把 Queens 与 Brooklyn 两边串起来最省事的方式</strong>",
+          "<strong>人流与安全：</strong>这里是密集住宅区的后花园，白天到夜里都有大量居民遛狗、跑步、推婴儿车，治安属纽约市里较好的一档，单独前往没有问题。<strong>但傍晚 17:00 之后临水的长椅与 Adirondack 椅会被本地人坐满</strong>，想有位置坐下来看天际线，要么早到，要么往南走到人少的 Hunters Point South Park",
+          "<strong>餐饮与卫生间：</strong>Center Boulevard 沿街（46th–48th Avenue 之间）是一整排咖啡馆、面包房与餐厅，吃饭完全不成问题，且价格明显低于对岸 Manhattan。<strong>公厕最可靠的一处是 47-40 Center Boulevard 的 Hunters Point Library</strong>（Steven Holl 设计的那栋白色方盒子，本身也值得进去看一眼，二至五层的阶梯式书架正对天际线，免费）；<strong>园内公厕的具体位置与季节性开放钟点未能在州立公园官方页面找到——未能从官方渠道确认</strong>"
         ],
         "photo": "城市天际线 <strong>5/5</strong>，工业遗构 <strong>4/5</strong>，人像 <strong>4.5/5</strong>。扣分只扣在一件事上：<strong>太阳不会在这里落到海平线</strong>——它会提前沉进 Manhattan 的楼群，所以别指望「日落挂在天际线上」的画面，这里的钱都在蓝调那 28 分钟里。人像给高分是因为 Pepsi 招牌那种红霓虹在人脸上是极好的边缘光，而且背景就是全世界最好认的天际线。",
         "shots": [
@@ -3884,9 +4036,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>45–90 分钟</strong>。分配：Pepsi 招牌 10 分钟 + 龙门架与四座木栈桥 15–20 分钟 + 往南走到 Hunters Point South Park 的螺旋观景台来回 20–30 分钟。<strong>只想看一眼天际线与招牌，25 分钟足够</strong>；想坐下来等灯亮（办公楼 17:30–18:00 陆续亮灯），再加 40–60 分钟。官方没有给建议时长，以上按 12 英亩的园区规模与岸线长度推算",
           "book": "不需预约",
-          "ticket": "<strong>免费</strong>",
-          "hours": "<strong>这一条要当心：纽约州立公园官网在同一个页面上给出了两个互相矛盾的闭园口径，而本条目的全部价值都在蓝调，所以这个矛盾必须写出来，不能替你二选一。</strong>parks.ny.gov 的 Gantry Plaza State Park 页面里，<strong>「Hours of Operation」栏写的是「Open daily, dawn to dusk」（日出到日落／黄昏），而同一页讲遛狗规定那一段写的却是「during regular park hours --- 8 AM to 10 PM daily」（每日 08:00–22:00）。</strong>原先本条只采信了后者。<strong>两者的差别对拍摄是决定性的：真实日期 10/16–10/18 日落 18:13 前后、民用暮光 18:38–18:41 结束。按 22:00 口径，你在蓝调结束后还有三个多小时，完全从容；按「dusk」口径，园子大约在蓝调收尾的同时就该清场，你能不能站在园内拍完整段蓝调就得看当天护园员怎么执行。</strong><strong>未能从官方渠道判定哪一个是现行口径</strong>——出发前请打园方电话 <strong>(347) 935-3039</strong> 问准当天的闭园钟点。<strong>好在这个点位有一条现成的退路，风险因此可控：Pepsi-Cola 招牌的霓虹整夜都亮、不受闭园时间限制，从园外的 Center Boulevard 人行道上照样拍得到（角度差一些、少了栈桥前景）；紧邻的 Hunters Point South Park 属 NYC Parks，按一般市属公园口径开到 01:00，真被请出 Gantry Plaza 就往南挪几十米继续拍。</strong><strong>稳妥的排法是把到场时间提早：金光 17:33–17:36 起，在 18:13 日落前就把主构图拍完，蓝调当加分而不是当计划。</strong>",
+          "ticket": "<strong>免费</strong>。parks.ny.gov 的园区页面在「Hours and Fees」栏未列任何 vehicle use fee 或入园费，园区本身与 Hunters Point South Park 均为免费开放（2026 年 9 月 13 日复核）",
+          "hours": "<strong>这一条要当心：纽约州立公园官网在同一个页面上给出了两个互相矛盾的闭园口径，而本条目的全部价值都在蓝调，所以这个矛盾必须写出来，不能替你二选一。</strong>parks.ny.gov 的 Gantry Plaza State Park 页面里，<strong>「Hours of Operation」栏写的是「Open daily, dawn to dusk」（日出到日落／黄昏），而同一页讲遛狗规定那一段写的却是「during regular park hours --- 8 AM to 10 PM daily」（每日 08:00–22:00）。</strong>原先本条只采信了后者。<strong>两者的差别对拍摄是决定性的：真实日期 10/16–10/18 日落 18:13 前后、民用暮光 18:38–18:41 结束。按 22:00 口径，你在蓝调结束后还有三个多小时，完全从容；按「dusk」口径，园子大约在蓝调收尾的同时就该清场，你能不能站在园内拍完整段蓝调就得看当天护园员怎么执行。</strong><strong>2026 年 9 月 13 日再查一轮，parks.ny.gov 的 Gantry Plaza State Park 页面两句原话仍然同时挂在站上、一字未改：「Hours and Fees — Open daily, dawn to dusk.」与「Effective October 4, 2018: Leashed dogs will be permitted on paved pathways and plazas throughout the park during regular park hours --- 8:00 am to 10:00 pm daily.」也就是说这个矛盾到今天仍未消除，官方没有做过澄清。</strong><strong>未能从官方渠道判定哪一个是现行口径</strong>——出发前请打园方电话 <strong>(347) 935-3039</strong> 问准当天的闭园钟点。<strong>好在这个点位有一条现成的退路，风险因此可控：Pepsi-Cola 招牌的霓虹整夜都亮、不受闭园时间限制，从园外的 Center Boulevard 人行道上照样拍得到（角度差一些、少了栈桥前景）；紧邻的 Hunters Point South Park 属 NYC Parks，按一般市属公园口径开到 01:00，真被请出 Gantry Plaza 就往南挪几十米继续拍。</strong><strong>稳妥的排法是把到场时间提早：金光 17:33–17:36 起，在 18:13 日落前就把主构图拍完，蓝调当加分而不是当计划。</strong>",
           "parking": "<strong>强烈建议不要开车。</strong>Hunters Point 是密集住宅区，Center Boulevard 与 47th Road 沿线路边车位极少且多为居民占用，停车楼按 Manhattan 价格收费。<strong>公共交通是压倒性的更优解</strong>：<strong>7 号线 Vernon Blvd–Jackson Av 站</strong>（最近，出站往西走 8 分钟即到园区北入口，从 Grand Central 或 Times Square 乘 7 号线只需 10–15 分钟）；<strong>E／M 线 Court Sq–23 St 站</strong>；<strong>G 线 21 St 或 Court Sq 站</strong>（步行略远）；<strong>NYC Ferry East River 线 Hunters Point South 站</strong>直接停在南园里，而且从 DUMBO／Fulton Ferry 有直达船——如果你同一天要拍 Brooklyn Bridge Park，坐船是最省事的接法",
           "walk": "Vernon Blvd–Jackson Av 站到 Pepsi 招牌约 <strong>650 米／8 分钟</strong>，全程平路；招牌到龙门架约 150 米／2 分钟；招牌到 Hunters Point South Park 南端约 700 米／9 分钟"
         },
@@ -3918,6 +4071,7 @@ var REGIONS = [
         "n": 2,
         "name": "Brooklyn Bridge Park · Pebble Beach 与各码头",
         "en": "Brooklyn Bridge Park · Pebble Beach · Granite Prospect · Jane’s Carousel",
+        "must": 4.5,
         "score": 5,
         "tldr": "一条岸线上五个完全不同的机位，免费且 06:00–01:00 开放；<strong>选清晨</strong>，因为傍晚桥与天际线全在逆光里。",
         "tags": [
@@ -3944,6 +4098,14 @@ var REGIONS = [
           "<strong>Pier 1 的 Granite Prospect</strong> 是用 Brooklyn Bridge 改造工程拆下来的<strong>再生花岗岩条石</strong>砌成的一段宽阶梯（OSM 直接标为 viewpoint）。它的价值是<strong>抬高了约 4–5 米并且面朝西北</strong>，从这里 One WTC 的方位是 311.6°、1,800 米，能把 Lower Manhattan 完整摊开而不被前景栈道切断。阶梯本身是极好的人像台阶",
           "<strong>Jane’s Carousel</strong>：1922 年 Philadelphia Toboggan Company 造的旋转木马，原名 Idora Park Merry-Go-Round，在 Ohio 州 Youngstown 的 Idora Park 转了大半辈子，<strong>1984 年 Walentas 夫妇在拍卖会上以 $385,000 买下</strong>，Jane Walentas 亲手修复了 48 匹木马与两辆马车，<strong>2011 年 9 月 16 日在 Jean Nouvel 设计的 900 万美元玻璃亭里重新开转</strong>。<strong>必须更正一个流传极广的说法</strong>：Nouvel 原设计里那个「每到整点把木马的影子投在四面幕布上、像一台城市时钟」的 magic lantern 效果，<strong>从 2011 年开园起就从来没有真正运行过</strong>——Jane Walentas 当时的说法是打这个效果需要的强光灯太热，会烤坏刚修好的丙烯颜料木马。所以别为了看马影专门等整点。<strong>但玻璃亭本身在关门后仍整夜发光</strong>，木马外圈的灯泡也亮着，「发光玻璃盒子 + 两座桥」这张照片照样成立",
           "<strong>Pier 2 与 Pier 3</strong> 往南走会把视线转得更正：从 Pier 3 看 One WTC 是 324.9°、2,008 米。这两个码头的实际用途是<strong>把 Brooklyn Bridge 从画面里拿掉</strong>，让 Lower Manhattan 单独成为主体，同时 Pier 3 的 Labyrinth 石阵和 Pier 2 的旱冰场／篮球场给你完全不同的人文前景。全园 3,750 棵树，Pier 2 与 Pier 3 的 berm 土丘上有小片林地，秋色虽然不如 Prospect Park，但胜在有天际线当背景"
+        ],
+        "tour": [
+          "<strong>这是绝大多数人走完 Brooklyn Bridge 之后的落脚点，也是本区唯一一个「就算什么都不干也值得待两小时」的地方。</strong>标准逛法是<strong>从北往南一条线</strong>：Main Street／Empire Fulton Ferry 入园 → Jane’s Carousel → Pebble Beach（走到水边卵石上，正对 Brooklyn Bridge 与 Lower Manhattan，这是全园最该站的一处）→ Fulton Ferry Landing 的栈桥 → Pier 1 的 Granite Prospect 大台阶 → Pier 2 → Pier 3 → Pier 6。<strong>全程 2 公里、全平路无台阶，可轮椅通行。</strong>时间不够就在 Pier 1 打住，前半段的看点密度远高于后半段",
+          "<strong>四样别错过：</strong>①<strong>Jane’s Carousel</strong>，1922 年的旋转木马装在 Jean Nouvel 设计的玻璃亭里，$4 一次，成年人也能坐，是全纽约性价比最高的四美元；②<strong>Pebble Beach 的卵石岸</strong>，全园唯一能走到水边的地方；③<strong>Pier 1 的 Granite Prospect</strong>，用 Brooklyn Bridge 拆下来的旧花岗岩条石砌的宽台阶，抬高 4–5 米面朝西北，是坐下来吃东西看天际线的最佳位置；④<strong>Empire Stores</strong>，1870 年代的咖啡仓库改成的商场，<strong>顶层有一个免费的屋顶花园</strong>，视野比地面高一层，下雨或太冷时这里是唯一的室内退路",
+          "<strong>可以跳过的：</strong>Pier 2 的旱冰场／篮球场／乒乓球、Pier 5 的足球场、Pier 6 的沙坑游乐区与排球场——这些是给本地居民用的运动设施，对游客没有意义。<strong>Pier 3 与 Pier 6 除非你要走完全程，否则不必去</strong>，风景与 Pier 1 是同类，只是角度更偏南。省下的时间建议留给 DUMBO 的街区本身",
+          "<strong>人流与安全：</strong>周六日 12:00–17:00 是全园峰值，Pebble Beach 与木马前会排队，Jane’s Carousel 周末下午要等 15–20 分钟。<strong>清晨 07:00–09:00 几乎没人，是体验感最好的时段</strong>。园区治安良好、有 Park Enforcement Police 驻点（99 Plymouth St），夜间也有人流，<strong>唯一实际的危险是 Pebble Beach 的卵石：涨潮时可站的范围会缩到两三米，且湿卵石极滑</strong>，园方官网首页每天挂当日高低潮时刻，出门前看一眼",
+          "<strong>餐饮与卫生间（全天行程的硬约束，这里写全）：</strong>园内公厕共七处——<strong>Pier 1 Pavilion、Pier 2 的橙色小屋、Pier 5 Boathouse、Pier 6 的 Fornino、Pier 6 的 Quay Tower、Squibb Park、Main Street 的 Education Center，以及 Empire Stores 里</strong>；<strong>官方钟点：3–10 月 07:00–23:00，11–3 月 07:00–22:00</strong>。吃饭最集中的地方是<strong>北端 Empire Stores 里的 Time Out Market New York</strong>（55 Water Street，24,000 平方英尺的美食广场，多家摊位加三个吧台与五层屋顶平台，有座位与洗手间，雨天首选；<strong>官方钟点周一至周四与周日 08:00–22:00、周五周六 08:00–23:00</strong>，2026 年 9 月 13 日复核），以及 Old Fulton Street 一带的 Grimaldi’s 与 Juliana’s 两家老字号披萨（两家隔壁，同源不同人，排队都不短）、14 Old Fulton Street 的 Brooklyn Ice Cream Factory（<strong>注意它已经不在 Fulton Ferry Landing 那座 1922 年消防船屋里了</strong>：老铺 2019 年迁出，那栋消防船屋现在是 Van Leeuwen 冰淇淋，老铺搬到了马路对面）。<strong>南段（Pier 5／Pier 6）只有 Fornino 一家，且为季节性营业</strong>，别指望走到南边才吃饭",
+          "<strong>Pier 2 十月起提前两小时关门，这是今年新查到的一条</strong>：官方写明「Pier 2: May–September 8am–11pm | October–April 8am–9pm」，十月来的话 21:00 之后 Pier 2 就进不去了。另外<strong>连通 Brooklyn Heights Promenade 与 Pier 1 的 Squibb Park & Bridge 现行钟点是 08:00–22:00</strong>，想靠它上下 Brooklyn Heights 的话请在这个窗口内"
         ],
         "photo": "城市风光 <strong>5/5</strong>，建筑 <strong>5/5</strong>，人像 <strong>5/5</strong>，秋色 <strong>2.5/5</strong>。五个机位在 2 公里岸线内，题材从卵石滩、花岗岩阶梯、玻璃亭夜景到石阵，密度是本区最高的。秋色低分是实话：这里的树都是 2010 年后新栽的，成色远不如 Green-Wood。人像满分因为背景选择太多——桥、天际线、发光木马亭、旧码头木桩，四类背景互不重复。",
         "shots": [
@@ -3985,9 +4147,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>2–3 小时走完全园（Main Street 到 Pier 6 的 2 公里岸线，含沿途停留）；只看北段精华 60–75 分钟</strong>——Jane’s Carousel 15 分钟（含排队与坐一圈）+ Pebble Beach 20 分钟 + Fulton Ferry Landing 10 分钟 + Pier 1 的 Granite Prospect 20 分钟。<strong>加上在 Time Out Market 吃一顿，请留半天（3.5–4 小时）</strong>。公园官方未给建议时长，以上按 85 英亩的园区规模与 2 公里岸线步行时间推算；<strong>要拍清晨光线请另外把到场时间提前到日出前 30 分钟</strong>",
           "book": "不需预约。<strong>Jane’s Carousel 也不需预约</strong>，现场买票即可",
-          "ticket": "公园<strong>免费</strong>。Jane’s Carousel 单次 <strong>$4</strong>；一名 42 英寸以下儿童可与一名成人共用一张票，额外的 42 英寸以下儿童每人 $4；接受 SNAP／EBT 折扣。<strong>另有 12 张联票 $20</strong>（官方原文「12 Tickets – $20.00」，折合每张约 $1.67，两个人各转三圈就已经比单买划算——原先本条漏了这一档）。学校团体另有预约团价。以上票价 2026 年 9 月 6 日在 janescarousel.org 的 Hours &amp; Tickets 页复核无变化。木马是 501(c)(3) 非营利机构运营",
-          "hours": "<strong>Brooklyn Bridge Park 每日 06:00–01:00</strong>（官方口径 365 天开放）。分区例外：Pier 2 为 08:00–23:00（季节性）、Pier 5 为 06:00–23:00、Pier 6 排球场 06:00–23:00、<strong>各儿童游乐场为日出至日落</strong>、洗手间 3–10 月 07:00–23:00、11–3 月 07:00–22:00。（以上主时段与三处码头例外已于 2026 年 9 月 6 日在 brooklynbridgepark.org 官方页面复核，原文为「We Are Open 7 Days a Week | 6AM - 1AM」、「Pier 2 - 8AM–11PM」、「Pier 5 - 6AM–11PM」、「Pier 6 Volleyball Courts - 6AM–11PM」，与本条一致。洗手间的分季钟点未能在现行官方页面找到出处，保留原记录但请勿据此规划。）<strong>对真实日期的结论：10/16–10/18 日落 18:11–18:14、民用暮光 18:38–18:41 结束，离 01:00 闭园还有六个多小时，公园本身的开放时间完全不构成约束</strong>——这一区真正卡时间的是下面的木马，不是公园。<strong>Jane’s Carousel 秋季时刻表已逐字核实（2026 年 9 月 6 日取自 janescarousel.org 官方页面数据）：「Fall Hours — September 14, 2026 to December 31, 2026 / Closed Monday and Tuesday / 11:00 AM–5:50 PM」，即周一、周二闭馆，周三至周日 11:00–17:50</strong>——这个 17:50 早于本窗口每一天的日落（最早的 10/25 也是 18:01），<strong>意味着蓝调时段木马一定是停着的</strong>（玻璃亭仍发光）。<strong>落到真实日期：10/16 周五、10/17 周六、10/18 周日三天木马都开，但都是 11:00–17:50，当天日落 18:11–18:14——木马比太阳早收工二十多分钟，「亮着灯还在转的木马 + 蓝调天空」这一帧三天都拿不到。</strong>想拍转动的木马请安排在 17:00–17:50 这段，天还亮着，要蓝调就只能拍熄了灯／停转的木马与仍然发光的 Jean Nouvel 玻璃亭。<strong>一处官方自相矛盾要照实说明：同一个官网首页与 Hours 页顶部挂着一句「The Carousel is closed on Thursdays」，与上面那张「周一、周二闭馆」的季节表对不上（9 月 6 日当天两句话同时挂在站上，夏季表写的又是「closed Tuesdays」）。本条不替你二选一——如果你的计划正好落在周三、周四或周一、周二，出发前请打 (718) 222-2502 或写信 info@janescarousel.org 问准当天开不开。真实日期 10/16–10/18 是周五至周日，两种口径下都在营业日内，这个矛盾不影响本次行程。</strong>",
+          "ticket": "公园<strong>免费</strong>（官方 Plan Your Visit 页原文「Entry is Free!」）。Jane’s Carousel 单次 <strong>$4</strong>；一名 42 英寸以下儿童可与一名成人共用一张票，额外的 42 英寸以下儿童每人 $4；接受 SNAP／EBT 折扣。<strong>以上于 2026 年 9 月 13 日在 janescarousel.com 的 Hours 页复核。需要更正一条：该页现在只列「Tickets are $4」这一档，原先本条记录的「12 Tickets – $20.00」联票已从官方页面撤下，本次核实时找不到——请按 $4 单次准备，不要指望买到联票。</strong>木马是 501(c)(3) 非营利机构运营",
+          "hours": "<strong>Brooklyn Bridge Park 每日 06:00–01:00</strong>（官方口径 365 天开放，原文「Brooklyn Bridge Park is open 6am – 1am every day」）。<strong>2026 年 9 月 13 日在 brooklynbridgepark.org/about 逐行复核，分区例外有两处与原记录不同，都要改：</strong><strong>① Pier 2 十月起提前两小时关门</strong>——官方原文「Pier 2: May–September: 8am–11pm | October–April: 8am–9pm」，原先本条只写了「08:00–23:00（季节性）」，对十月的行程是错的；<strong>② Squibb Park &amp; Bridge 现行钟点为 08:00–22:00</strong>（原文「Squibb Park &amp; Bridge: 8am–10pm」），也就是说这座桥现在有明确公布的开放时间、不再是「状态不明」，但夜里 22:00 后就下不去 Pier 1 了。其余分区：<strong>各儿童游乐场日出至日落</strong>、Pier 6 排球场 08:00–23:00、Pier 5 野餐半岛烧烤区 06:00–22:00、Environmental Education Center 周四周五 15:00–17:00／周六日 13:00–17:00。<strong>洗手间的分季钟点这次找到了官方出处，原先标注的「未能找到出处」可以撤销：官方 Visiting The Park 与 FAQ 两页都写「Restrooms Hours: March–October: 7am–11pm | November–March: 7am–10pm」，与本条原记录一致。</strong><strong>一处官方自相矛盾照实写出、不替你二选一：Pier 5 的钟点，brooklynbridgepark.org/about 写的是「Pier 5: 7am–11pm」，而 Plan Your Visit 与 FAQ 页写的是「Pier 5 - 6AM–11PM」，两页差一个小时；Pier 6 排球场同样一页 8AM 起、一页 6AM 起。这两处都不影响本条目的机位。</strong><strong>对真实日期的结论：10/16–10/18 日落 18:11–18:14、民用暮光 18:38–18:41 结束，离 01:00 闭园还有六个多小时，公园本身的开放时间完全不构成约束</strong>——这一区真正卡时间的是下面的木马，不是公园。<strong>Jane’s Carousel 秋季时刻表已逐字核实（2026 年 9 月 13 日再次取自 janescarousel.com/hours，未变）：「Fall Hours — September 14, 2026 to December 31, 2026 / Closed Monday and Tuesday / 11:00 AM–5:50 PM」，即周一、周二闭馆，周三至周日 11:00–17:50</strong>——这个 17:50 早于本窗口每一天的日落（最早的 10/25 也是 18:01），<strong>意味着蓝调时段木马一定是停着的</strong>（玻璃亭仍发光）。<strong>落到真实日期：10/16 周五、10/17 周六、10/18 周日三天木马都开，但都是 11:00–17:50，当天日落 18:11–18:14——木马比太阳早收工二十多分钟，「亮着灯还在转的木马 + 蓝调天空」这一帧三天都拿不到。</strong>想拍转动的木马请安排在 17:00–17:50 这段，天还亮着，要蓝调就只能拍熄了灯／停转的木马与仍然发光的 Jean Nouvel 玻璃亭。<strong>原先记录的那处官方矛盾已经消失，这次要撤销：9 月 6 日官网首页与 Hours 页顶部曾同时挂着一句「The Carousel is closed on Thursdays」，与季节表的「周一、周二闭馆」对不上；2026 年 9 月 13 日再查，该页只剩四段季节时刻表（春／夏／秋／冬）加一句「Tickets are $4」，那句「closed on Thursdays」已不在页面上。现行唯一口径就是秋季表：周一、周二闭馆，周三至周日 11:00–17:50。</strong><strong>木马的钟点仍是这一区最容易撞的坑，出发前请打 (718) 222-2502 或写信 info@janescarousel.org 再确认一次当天开不开。</strong>",
           "parking": "<strong>DUMBO 与 Brooklyn Heights 一带的停车不值得尝试</strong>：路边表位少、限时 2 小时、周末几乎无空位，园内本身<strong>不提供任何访客停车</strong>（官方明确「不为制作车辆或房车提供停车」）。地铁：<strong>F 线 York Street 站</strong>（离 Pebble Beach 与木马最近）、<strong>A／C 线 High Street–Brooklyn Bridge 站</strong>、南端 Pier 6 走 <strong>2／3／4／5／R 线 Borough Hall／Court St 站</strong>。渡轮：<strong>NYC Ferry 停 DUMBO／Fulton Ferry 与 Pier 6／Atlantic Avenue 两处</strong>，其中 DUMBO／Fulton Ferry 站有到 Long Island City（Hunters Point South）的直达航线",
           "walk": "York Street 站到 Pebble Beach 约 <strong>600 米／8 分钟</strong>；Pebble Beach 到 Jane’s Carousel 约 200 米／3 分钟；木马到 Pier 1 Granite Prospect 约 700 米／9 分钟；Granite Prospect 到 Pier 3 端头约 700 米／9 分钟。<strong>全岸线从 Main Street 走到 Pier 6 约 2 公里／25–30 分钟</strong>，全程平坦无障碍"
         },

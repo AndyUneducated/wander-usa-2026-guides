@@ -403,6 +403,7 @@ var REGIONS = [
         "n": 5,
         "name": "自由钟中心",
         "en": "Liberty Bell Center",
+        "must": 4.5,
         "score": 3.5,
         "tldr": "免票免预约，钟后玻璃墙确实能看到 Independence Hall；但玻璃朝南、全天逆光，避开 12:00–13:30。",
         "tags": [
@@ -429,6 +430,14 @@ var REGIONS = [
           "<strong>最难拍的时段可以精确到分钟：正午前后太阳方位落在 180° 左右</strong>（9/25 为 12:52，10/22 为 12:45），此时太阳就在独立厅正上方、正对镜头，直接进光造成鬼影与雾化。<strong>12:00–13:30 请回避。</strong>",
           "钟本身的细节值得单独拍：<strong>1752 年由伦敦 Whitechapel 的 Lester & Pack 铸造，运抵后即开裂，1753 年由本地铸工 Pass and Stow 重铸</strong>，重约 2,080 磅。<strong>铭文上「Pensylvania」少了一个 n</strong>——这个 18 世纪的拼写错误是最容易被忽略的特写题材。现在那道宽缝并非原始裂纹，而是 1840 年代为恢复音色而钻扩的修复痕迹，钻完之后又裂出一道细纹，钟从此哑了，<strong>最后一次敲响是 1846 年 2 月 23 日</strong>。",
           "<strong>不进馆也能拍：钟从 Chestnut Street 一侧的玻璃外墙 24 小时可见</strong>，不用排安检。夜间馆内有照明、街上没人，是拍「玻璃盒里的钟」这种冷调城市构图的时段。"
+        ],
+        "tour": [
+          "<strong>动线是单向的，走错一次要重排安检。</strong>入口在 <strong>6th & Market</strong>（不是 Chestnut Street 那一头），过安检后沿一条上百米的长廊往南走，<strong>展览全部在走廊左侧</strong>，钟在<strong>最尽头的玻璃展室</strong>，<strong>出口在南端近 Chestnut Street</strong>。也就是说：<strong>你是先看展、最后才见到钟的</strong>，而且出去之后不能原路返回。心里有这个次序，就不会在前半段因为「怎么还没看到钟」而急着快走。",
+          "<strong>展廊真正的内容不是钟的铸造史，而是它怎么变成一个符号。</strong>这口钟原本只是宾州州议会大厦的一口普通报时钟，<strong>「Liberty Bell」这个名字是 1830 年代废奴主义者起的</strong>——他们看中的是钟身那句《利未记》铭文「Proclaim Liberty Throughout All the Land Unto All the Inhabitants Thereof」，把它拿来做废奴的象征；此后妇女参政运动与民权运动接力使用同一个符号。<strong>这条线索是本馆唯一值得慢看的东西</strong>，它解释了为什么一口裂了的哑钟会成为国家象征。展区里有一块<strong>可以用手触摸的铭文复制件</strong>，以及一段带开放式字幕与口述影像的影片。",
+          "<strong>每日 10:00 在钟的观景窗前有 ranger 讲解</strong>（官方 Operating Hours 页列出的固定项目，在 Liberty Bell Center 的 viewing window 集合）。<strong>如果你 9:00 第一批进场，正好可以先安静看完展、10:00 在钟前听这一场</strong>，这是把「20 分钟打卡」变成「值得的一小时」的唯一办法。不听讲解的话，钟本身看两样：<strong>铭文里少一个 n 的「Pensylvania」</strong>，以及那道<strong>宽缝其实是 1840 年代为救音色钻扩出来的修复痕迹、不是原始裂纹</strong>。",
+          "<strong>时间紧就大胆跳过前半段。</strong>展廊是自助式的图文面板加少量实物，<strong>没有必看的原件</strong>（真正的文献原件在 Independence Hall 西翼的 Great Essentials）。赶时间的话直接沿走廊走到底，<strong>10 分钟解决</strong>，不会有实质损失。反过来，如果你已经决定要排 15–55 分钟的队进来，那就别只花 10 分钟。",
+          "<strong>排队与安检</strong>：官方口径等待 <strong>15–55 分钟</strong>，春夏与节假日更长，<strong>9:00 开门那一刻是全天最短的队</strong>。安检要求所有随身物品过 X 光或目视检查，<strong>包括口袋里的东西、医疗设备、婴儿车与轮椅下方</strong>；禁刀具与一切开口食物饮料（旋盖瓶可以）。<strong>安检截止时间三个官方页面不一致（5 分钟 / 10 分钟 / 16:45），按 16:45 规划最安全。</strong>",
+          "<strong>馆内没有洗手间，一间都没有。</strong>这是 NPS 在两个页面上专门加粗提示的事（原文「There are NO restrooms (accessible or otherwise) in the Liberty Bell Center」）。最近的在 <strong>Independence Visitor Center（6th & Market，每日 9:00–18:00）</strong>，就在马路对面；另有 <strong>5th & Chestnut 西北角（每日 9:30–20:00）</strong>与<strong>Franklin Court 的 Benjamin Franklin Museum（每日 9:00–20:00）</strong>。<strong>馆内也没有餐饮</strong>，排队前先在 Visitor Center 解决。"
         ],
         "photo": "建筑 <strong>3.5/5</strong>，静物特写 <strong>4/5</strong>，风光 <strong>0.5/5</strong>。题材唯一且免费，但光线条件先天不利、可站位窄、人流不断，扣分主要是「同一张照片全世界已经拍过两千万遍」。",
         "shots": [
@@ -458,9 +467,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>建议 45–60 分钟</strong>，分配：排队与安检 15–30 分钟；展廊 20 分钟；钟室 10 分钟。<strong>赶时间的最短方案：排队之外只要 10–15 分钟</strong>（直接走到底看钟）。<strong>想听 10:00 的 ranger 讲解则整体按 75 分钟预留。</strong><strong>NPS 未给出官方建议时长</strong>，以上按单一走廊加一间展室的规模推算，排队区间取自官方公布的 15–55 分钟等待口径。",
           "book": "<strong>不需预约、不需票</strong>，先到先得，但必须先过安检。",
-          "ticket": "<strong>免费</strong>",
-          "hours": "官方原文（nps.gov/inde/planyourvisit/libertybellcenter.htm）：<strong>「Open daily 9 am–5 pm」</strong>，<strong>秋季无每周闭馆日</strong>，全年只闭 Thanksgiving、Christmas Day、New Year's Day。<strong>安检截止时间三个官方页面口径不一</strong>：NPS 主页写「闭馆前至少 5 分钟」、NPS 的 Things To Do 页写「10 分钟」、Philadelphia Visitor Center 写「16:45」。<strong>按 16:45 规划最安全。</strong>有第三方来源提到夏季延长到 19:00，秋季不适用。",
+          "ticket": "<strong>免费</strong>（官方原文「Admission is FREE」「There is no fee to visit the Liberty Bell Center」）。<strong>2026-09-13 在 nps.gov/inde/planyourvisit/libertybellcenter.htm 与 nps.gov/places/000/liberty-bell-center.htm 重新核实，无任何收费或预约化的迹象。</strong>",
+          "hours": "官方原文（nps.gov/inde/planyourvisit/libertybellcenter.htm，<strong>2026-09-13 重新核实</strong>）：<strong>「Open daily 9 am–5 pm」</strong>，<strong>秋季无每周闭馆日</strong>，全年只闭 Thanksgiving、Christmas Day、New Year's Day。<strong>安检截止时间三个官方页面口径不一</strong>：NPS 主页写「闭馆前至少 5 分钟」、NPS 的 Things To Do 页写「10 分钟」、Philadelphia Visitor Center 写「16:45」。<strong>按 16:45 规划最安全。</strong>有第三方来源提到夏季延长到 19:00，秋季不适用。",
           "parking": "同 Independence Hall：<strong>建议地铁</strong>，SEPTA Market–Frankford Line「5th Street/Independence Hall」站出站即到。自驾可停 5th & Market 的 AutoPark at Independence Mall，<strong>费率未能从官方渠道确认</strong>。",
           "walk": "入口在 <strong>6th & Market</strong>，出口在南端近 Chestnut Street。地铁站到入口约 <strong>400 米 / 5–6 分钟</strong>；从 Independence Hall 的 5th Street 安检口走过来约 <strong>450 米 / 6 分钟</strong>（两处安检独立，不能互通）。"
         },
@@ -492,6 +502,7 @@ var REGIONS = [
         "n": 6,
         "name": "独立厅",
         "en": "Independence Hall",
+        "must": 5,
         "score": 4.5,
         "tldr": "9:00–9:50 免票 open house 已核实仍在，是最佳拍摄窗口；但主立面朝正北，10 月 11 日后全天不受光。",
         "tags": [
@@ -518,6 +529,14 @@ var REGIONS = [
           "<strong>正立面（Chestnut Street 一侧）朝向方位角约 9°，即几乎正北。</strong>朝北立面要受光，太阳方位必须落在 279°–99° 之间；9 月 25 日日出方位 91°、日落方位 269°，只有清晨那不到一小时能擦到极其掠射的光；<strong>10 月 11 日起日出方位超过 99°，这面墙全天零直射光。</strong>钟塔从 Chestnut Street 看到的也是它的北面，同样不受光——<strong>「从正面拍到被阳光照亮的独立厅」在秋季是做不到的。</strong>",
           "受光的那一面在 <strong>Independence Square（南侧）</strong>：南立面法向约 189°，正午太阳方位 183°、高度 49°（9/25）或 39°（10/22），几乎正打。南侧还有 Congress Hall 与 Old City Hall 两栋同期建筑围成三合院。",
           "<strong>2025 年 3 月启动的 Independence Square Improvement Project 已按计划在 2026 年 7 月前完工</strong>（含 2025/11/13–2026/1/28 的整楼闭馆），内容包括无障碍坡道、木构与砖石修复、按史料复原的天花与墙面漆色。<strong>也就是说你现在看到的室内是刚修完的状态，无脚手架。</strong>"
+        ],
+        "tour": [
+          "<strong>先搞清楚你买的票只管一栋楼。</strong>过完 5th Street 安检后，你身处的 Independence Square 安检区里有<strong>四个可看的地方</strong>：Independence Hall（需票或 open house）、<strong>Congress Hall</strong>、<strong>Old City Hall</strong>、以及西翼的 <strong>Great Essentials Exhibit</strong>——<strong>后三个全部免票、自由进出</strong>。很多人拿着票进来只看了 20 分钟就走了，等于把同一趟安检的三分之二浪费掉。合理顺序是：<strong>Independence Hall（按你的票时间）→ 西翼 Great Essentials → Congress Hall → Old City Hall</strong>。",
+          "<strong>Assembly Room 里只有三样东西值得你把眼睛停下来。</strong>① <strong>Rising Sun Chair</strong>——Washington 主持制宪会议时坐的那把，在房间正前方，椅背顶端刻着半个太阳，Franklin 在闭幕时说他终于确定那是旭日而不是落日；② 铺着<strong>绿呢桌布的代表桌</strong>与桌上的文具，房间是按 1787 年的清单复原的，不是原样保存；③ 隔壁的 <strong>Supreme Court Chamber</strong>（宾州最高法院庭），大多数人只顾着看 Assembly Room 就走过去了。<strong>注意：房间只能站在栏杆外看，不能走进去。</strong>",
+          "<strong>真正的原件不在 Independence Hall 里，在西翼。</strong>Great Essentials Exhibit 展出《独立宣言》《邦联条例》《宪法》的<strong>存世早期印本</strong>，以及签署《独立宣言》与《宪法》时实际使用的 <strong>Syng inkstand（银质墨水台）</strong>。<strong>这是全区最容易被漏掉、却最有实物分量的一处</strong>，而且免票、不用排队、几乎没人。给它 15 分钟。",
+          "<strong>Congress Hall 值 25 分钟，Old City Hall 十分钟就够。</strong>Congress Hall 是 1790–1800 年费城当首都期间<strong>美国国会的实际所在地</strong>——一楼众议院、二楼参议院，<strong>Washington 的第二次就职与 John Adams 的就职都在这栋楼里</strong>，室内陈设的完整度其实超过 Independence Hall，而且<strong>可以走进房间</strong>。Old City Hall 是 1791–1800 年美国最高法院的办公处，房间小、展陈简单，<strong>时间紧的话这一栋可以直接跳过</strong>。",
+          "<strong>排队与安检的实际流程</strong>：安检口在<strong>建筑南侧的 5th Street 上</strong>（Chestnut 与 Walnut 之间），不是 Chestnut Street 的正门。<strong>8:45 开检</strong>；想赶 9:00–9:50 的免票 open house 请 <strong>8:40 前到</strong>，官方明确说明<strong>受容量限制不保证所有人都能进</strong>。持票者须<strong>提前 30 分钟</strong>到。安检是机场级：过金属探测门、<strong>禁一切刀具与开口食物饮料</strong>（旋盖水瓶可以），<strong>园区内没有寄存柜</strong>，大包有被拒风险。",
+          "<strong>吃饭与洗手间：安检区内一样都没有。</strong><strong>安检区内没有洗手间</strong>，这是很多人当场才发现的问题——最近的公共洗手间在 <strong>5th & Chestnut 西北角</strong>（每日 9:30–20:00）与 <strong>Independence Visitor Center（6th & Market，每日 9:00–18:00）</strong>。<strong>进安检前先解决</strong>。餐饮在区内完全没有，最近的正经选择是走 10 分钟到 Reading Terminal Market，或 Old City 沿 Market Street 的连锁店。"
         ],
         "photo": "建筑 <strong>4/5</strong>，人文纪实 <strong>4.5/5</strong>，风光 <strong>1/5</strong>。加分在 open house 那 50 分钟能自由控制站位；扣分全在朝向——正立面秋季永远是阴面，只能靠阴天均匀光、蓝调补光或改拍南侧。",
         "shots": [
@@ -551,9 +570,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "<strong>9:00–9:50 的 open house 不需预约、不需票</strong>；10:00 之后的每场导览<strong>必须持定时票</strong>。票在 <strong>recreation.gov</strong> 或电话 1-877-444-6777（10:00–24:00）预订，<strong>每账号最多 10 张</strong>。放票分两批：<strong>① 提前批按 30 天滚动窗口放</strong>（官方举例：9 月 1 日的票在 8 月 3 日放）；<strong>② 次日批在前一天 17:00 放</strong>，先到先得，未订完的票会一直挂到开团时间。<strong>没抢到票怎么办：直接去赶 9:00 open house</strong>，这是官方制度而不是漏洞；或者当天 17:00 盯次日批；或者反复刷 recreation.gov 捡退单（<strong>但票一经预订不退不改</strong>）。持票者须<strong>提前 30 分钟</strong>到安检口，迟到不保证入场。",
-          "ticket": "<strong>门票本身免费</strong>，但需票时收 <strong>$1.00／张的手续费</strong>，<strong>Interagency Pass（美国国家公园年票）不覆盖这笔费用</strong>。外景与 Independence Square 完全免费。",
-          "hours": "官方原文（nps.gov/inde/planyourvisit/hours.htm，2026 年 8 月 17 日更新）：<strong>「9 am–9:50 am: Open house (no tickets required) / 10 am–4 pm: Tours every 20 minutes (tickets required) / 4:20 pm: Expanded tour (tickets required and not wheelchair accessible)」</strong>。<strong>安检 8:45 开门，闭馆前至少 15 分钟停止安检，团满亦可能提前停</strong>。<strong>秋季无每周固定闭馆日</strong>；全年只在 Thanksgiving、Christmas Day、New Year's Day 闭园。16:20 那场是<strong>加长团、可上二楼</strong>，但无障碍不可达。安检区内<strong>没有洗手间</strong>。",
+          "visit": "<strong>整个 Independence Square 安检区建议 2–2.5 小时</strong>，分配：安检排队 15–30 分钟；<strong>Independence Hall 本体 20 分钟</strong>（ranger 团按每 20 分钟一场发团，团长约 20 分钟——由发团间隔推算）；<strong>9:00–9:50 的 open house 自助时段可以自己控制，实际 30–50 分钟</strong>；西翼 Great Essentials 15 分钟；Congress Hall 25 分钟；Old City Hall 10 分钟。<strong>只看 Independence Hall 一栋、含安检，预留 60 分钟。</strong><strong>NPS 官方没有给出建议时长</strong>，以上为按建筑数量与导览团时长的合理推算。",
+          "book": "<strong>9:00–9:50 的 open house 不需预约、不需票</strong>；10:00 之后的每场导览<strong>必须持定时票</strong>。票在 <strong>recreation.gov</strong> 或电话 1-877-444-6777（10:00–24:00）预订，<strong>每账号最多 10 张</strong>。放票分两批：<strong>① 提前批按 30 天滚动窗口放</strong>（官方举例：9 月 1 日的票在 8 月 3 日放）；<strong>② 次日批在前一天 17:00 放</strong>，先到先得，未订完的票会一直挂到开团时间。<strong>没抢到票怎么办：直接去赶 9:00 open house</strong>，这是官方制度而不是漏洞；或者当天 17:00 盯次日批；或者反复刷 recreation.gov 捡退单（<strong>但票一经预订不退不改</strong>）。持票者须<strong>提前 30 分钟</strong>到安检口，迟到不保证入场。<strong>2026-09-13 重新核实：上述两批放票规则、每账号 10 张上限、$1 手续费、以及「未订完的票会一直挂到开团时间」这几条在 recreation.gov 与 nps.gov 上均一字未改，2026 年十月适用。</strong><strong>唯一的例外是七月（7/1–7/4 与 7/14 不需票），与十月无关。</strong>换算到本次行程：<strong>10 月 13 日的提前批在 9 月 13 日放，10 月 26 日的在 9 月 26 日放</strong>（按官方举例的 30 天滚动窗口推算）。",
+          "ticket": "<strong>门票本身免费</strong>，但需票时收 <strong>$1.00／张的手续费</strong>，<strong>Interagency Pass（美国国家公园年票）不覆盖这笔费用</strong>，<strong>且一经预订不退不改（官方原文「There are no refunds under any circumstances」）</strong>。外景与 Independence Square 完全免费。<strong>已于 2026-09-13 在 nps.gov/inde/planyourvisit/independencehalltickets.htm（页面标注最后更新 2026 年 2 月 17 日）与 recreation.gov 设施页 234639 重新核实，2026 年十月口径不变。</strong>",
+          "hours": "官方原文（nps.gov/inde/planyourvisit/hours.htm，2026 年 8 月 17 日更新；<strong>2026-09-13 重新核实，与 independencehall.htm（2026 年 5 月 14 日更新）一致</strong>）：<strong>「9 am–9:50 am: Open house (no tickets required) / 10 am–4 pm: Tours every 20 minutes (tickets required) / 4:20 pm: Expanded tour (tickets required and not wheelchair accessible)」</strong>。<strong>安检 8:45 开门，闭馆前至少 15 分钟停止安检，团满亦可能提前停</strong>。<strong>秋季无每周固定闭馆日</strong>；全年只在 Thanksgiving、Christmas Day、New Year's Day 闭园。16:20 那场是<strong>加长团、可上二楼</strong>，但无障碍不可达。安检区内<strong>没有洗手间</strong>。",
           "parking": "不建议自驾。最近的公共车库是 <strong>AutoPark at Independence Mall</strong>（5th & Market，<strong>具体费率未能从官方渠道确认</strong>，Center City 车库日上限普遍在 $20–35）。更好的方案是 <strong>SEPTA Market–Frankford Line「5th Street/Independence Hall」站</strong>，出站即到 Independence Mall。",
           "walk": "5th Street 地铁站到 5th Street 安检口约 <strong>250 米 / 3–4 分钟</strong>；安检口到 Chestnut Street 正立面机位需绕行 Independence Square，约 <strong>300 米 / 5 分钟</strong>。"
         },
@@ -564,7 +584,9 @@ var REGIONS = [
           "<strong>正立面秋季不受光这件事请当成前提而不是意外</strong>。把 Chestnut Street 排到阴天或蓝调，把晴天的正午留给 Independence Square 南侧，这是唯一正确的排法",
           "开馆时段无票者 9:50 必须离楼，但<strong>不必离开安检区</strong>——Congress Hall、Old City Hall 与西翼的 Great Essentials Exhibit（《宣言》与《宪法》的早期印本）都在同一个安检区内，<strong>同样不需票</strong>，可以顺路一并拍完",
           "<strong>2026 年 7 月的建国 250 周年活动期间曾多次封闭 Market Street 5th–6th 段与人行道</strong>，这类临时封路在纪念年内仍可能零星出现，出发前刷一下 nps.gov/inde 的 Alerts 页",
-          "同一园区内的 <strong>Edgar Allan Poe National Historic Site 因公用设施改造工程闭馆</strong>（截至 nps.gov 8 月 17 日的口径），如原本想串这一站请删掉"
+          "同一园区内的 <strong>Edgar Allan Poe National Historic Site 因公用设施改造工程闭馆</strong>（截至 nps.gov 8 月 17 日的口径），如原本想串这一站请删掉",
+          "<strong>联邦停摆：若十月发生停摆，本点位会直接关闭。</strong>Independence Hall 由 National Park Service 运营，<strong>拨款中断即锁门</strong>，连同 Congress Hall、Old City Hall、Great Essentials 与整个 Independence Square 安检区一起关，<strong>已预订的 recreation.gov 定时票不会自动退款也不会改期</strong>。<strong>2026-09-13 核实的结论是本次行程窗口（10/13–10/26）风险极低</strong>：FY2027 临时拨款决议 <strong>H.R. 6500 已于 2026 年 9 月 2 日签署成为 Public Law 119-103</strong>，按 FY2026 水平续拨到 <strong>2026 年 12 月 11 日</strong>，也就是说 10 月 1 日的财年切换不会触发停摆。<strong>官方查询渠道（出发前与当天各查一次）</strong>：① 园区实时通告 <strong>nps.gov/inde</strong> 的 Alerts 栏；② 停摆期间 NPS 全站会挂 <strong>doi.gov/shutdown</strong> 的应急告示；③ 拨款进度看 <strong>congress.gov/crs-appropriations-status-table/2027</strong>；④ 园区电话 <strong>215-965-2305</strong>；⑤ 订票问题 recreation.gov <strong>1-877-444-6777</strong>（10:00–24:00）",
+          "<strong>万一停摆，同一天的替代方案全部在步行范围内</strong>：Museum of the American Revolution（私立）、National Constitution Center（私立非营利）、Betsy Ross House（Historic Philadelphia, Inc.）、Christ Church 与墓园（教会）、Reading Terminal Market、City Hall 与 Dilworth Park、Elfreth's Alley（公共街道）。<strong>Independence Hall 的外景在 Chestnut Street 人行道上照常可看可拍</strong>"
         ],
         "images": [
           {
@@ -806,6 +828,7 @@ var REGIONS = [
         "n": 2,
         "name": "东州监狱",
         "en": "Eastern State Penitentiary",
+        "must": 4.5,
         "score": 5,
         "tldr": "本区最强的室内摄影目标，也是唯一允许三脚架的地方（$10 现场加购）；但 10 月牢房里会有 Halloween 布景。",
         "tags": [
@@ -833,6 +856,14 @@ var REGIONS = [
           "<strong>关于三脚架政策，请把官方原文记牢：白天允许，但要另买 $10 的 photography equipment pass，而且这个 pass 只能在现场售票窗口买，线上买不到。</strong>官方措辞是「non-members must purchase a daily photography equipment pass if they wish to use a tripod, monopod, or easel while on site... photography equipment passes can only be purchased at the admissions window on site」。<strong>会员则白天入场与 equipment pass 全年都免费。</strong>反过来，<strong>Halloween Nights 夜场明文「Tripods, monopods, easels, lights, and other photography equipment are not permitted」「No flash photography」，且五座鬼屋内完全禁拍</strong>。→ <strong>结论：拍这个地方只有白天一条路，而且到了先去窗口买 pass。</strong>",
           "<strong>秋季的时间成本必须说清：Halloween Nights 在 2026 年 10 月 2 日至 11 月 7 日的「select nights」运营。</strong>白天的历史参观<strong>不受影响、照常每日 10:00–17:00</strong>，但两件事会变：<strong>① 五座鬼屋（Dark Tides、Big Top Terror、Machine Shop、Nightmares、The Crypt）的「Hollywood-quality sets and props」整月留在牢房与工场空间内</strong>——官方从未公布白天哪些区域因此关闭，也从未承认体验降级，<strong>但布景不可能每天装拆，这属于合理推断而非官方确认</strong>；<strong>② 白天导览团自 9 月 8 日起从每天三场缩到一场</strong>（工作日 12:00、周六日 11:00），自助音频导览不受影响。<strong>要拍纯粹的废墟状态，唯一的办法是排在 9 月 30 日之前——这是本区唯一一条真正影响日期选择的硬约束。</strong>",
           "<strong>另一件实务上很重要的事：这里有铅漆。</strong>馆方在官网提供了一份关于 lead-based paint hazard 的公开声明。那些著名的、层层剥落的墙面就是铅漆。<strong>不要用手去摸剥落面、拍完洗手再吃东西。</strong>另外全场地面高低不平、石缘锐利，官方明确要求<strong>不穿凉鞋、人字拖、露趾鞋与高跟鞋</strong>。"
+        ],
+        "tour": [
+          "<strong>进门先领音频设备，按官方推荐从主线 1–10 站走完再说，约 40 分钟。</strong>旁白是 Steve Buscemi。<strong>全场是一条单向路线，主线全长 2,300 英尺（约 700 米，官方数字）</strong>，<strong>走回头路要绕整圈，所以想细看的地方第一次经过时就看完。</strong>主线终点是 The Big Graph 与 Prisons Today 两个现代展——<strong>那是「这座 1829 年的监狱和今天的美国有什么关系」的答案，别因为赶时间就跳掉。</strong>",
+          "<strong>五样绝对不能错过：</strong><strong>① 中央看守塔（rotunda）</strong>——站在圆心往七条牢房翼各望一眼，Haviland 的放射状平面是用眼睛而不是用图纸才懂的；<strong>② Cellblock 7 的二层走马廊（catwalk）</strong>，18 级台阶上去，是唯一能从高处俯看一整条原始牢房翼的位置，也是全场塌顶天窗最集中的一段；<strong>③ Al Capone 的牢房（在 Cellblock 8）</strong>，按 1929 年他服刑时的样子复原，有地毯、家具与收音机；<strong>④ Cellblock 15 的 Death Row 与「Klondike」惩戒牢房</strong>；<strong>⑤ Alfred W. Fleisher Memorial Synagogue</strong>（1929 年在监狱里落成的犹太会堂，连同 Freedom Through Faith 展，有一级小台阶）。<strong>此外还有 14 件当代艺术装置散布全场，挑一两件看即可。</strong>",
+          "<strong>可以跳过的部分：14 件艺术装置里的大多数、Making Headlines 这类小型专题展、以及每天临时排的 Mini Tours（5–20 分钟的小段讲解，主题每天变）。</strong><strong>体力不够或推轮椅的，Cellblock 7 的 18 级走马廊台阶官方明说「可以直接绕过」。</strong>省下的时间留给中央看守塔与牢房翼本身——<strong>这里的价值在空间，不在展板。</strong>",
+          "<strong>排队与人流：10:00 一开门进场是全天最空的一小时，周六日 12:00–15:00 最挤；最后入场 16:00，16:00 之后场内人会明显变少。</strong><strong>10 月是这里全年最忙的月份（Halloween Nights 的外溢人流），周末尤其明显。</strong>入场安检禁武器、防狼喷雾、折刀、打火机与手电筒；<strong>白天票线上买便宜 $2、且是定时票，现场买要看当日余量。</strong><strong>想慢慢逛就买 Self-Guided Audio Tour，不限停留时长；买 Guide-Led 会被 45 分钟的固定路线绑住。</strong>",
+          "<strong>餐饮与卫生间，这一条必须提前知道：场内没有任何餐饮设施（官方 FAQ 原文）。</strong><strong>卫生间只有两处：入口附近一座三格的活动厕所拖车（有冲水与自来水），以及主线终点 The Big Graph 旁边的两个移动厕所——各有一格无障碍</strong>（官方无障碍页原文）。<strong>也就是说全场十英亩、两个街区大的范围里只有这两个点，进场前先解决。</strong>吃饭请出门就近在 Fairmount 街区解决，那一带餐厅密度很高。",
+          "<strong>体感与安全：全场没有空调也没有暖气（官方原文「the building does not have climate control」），10 月的石头建筑里明显比室外冷，多带一层。</strong><strong>地面石板高低不平、石缘锐利，官方明文不建议穿凉鞋、人字拖、露趾鞋与高跟鞋。</strong><strong>墙面剥落的是铅漆（馆方有正式的 lead-based paint hazard 声明）——不要用手摸，出来洗手再吃东西。</strong>"
         ],
         "photo": "建筑与废墟 <strong>5/5</strong>，纪实 <strong>4.5/5</strong>，细节质感 <strong>5/5</strong>，人像 <strong>3/5</strong>，风光 <strong>1/5</strong>。题材独一无二、允许三脚架、可以慢慢磨（音频导览票不限停留时长）；扣分只在 10 月的 Halloween 布景污染与受限的外墙机位。",
         "shots": [
@@ -862,9 +893,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>2–3 小时；只看重点 60–75 分钟。</strong>官方 FAQ 原文两处：<strong>「Most visitors spend about two hours on site」</strong>与<strong>主音频线「includes ten audio stops and lasts about 40 minutes total」</strong>，主线步行距离官方给的是 <strong>2,300 英尺（0.44 英里）</strong>。分配建议：<strong>主线 1–10 站 40 分钟 ＋ Cellblock 7 走马廊、Al Capone 牢房与 Death Row 30 分钟 ＋ 会堂与 The Big Graph／Prisons Today 两展 30 分钟</strong>。<strong>Self-Guided Audio Tour 票不限停留时长，认真拍可以从 10:00 待到 17:00 闭馆；Guide-Led 则是固定 45 分钟一场。</strong>",
           "book": "<strong>强烈建议线上预约（便宜 $2 且是定时票）</strong>，现场也可买但受当日余量限制。两种白天票二选一：<strong>Self-Guided Audio Tour</strong>（Steve Buscemi 旁白，主线 10 站约 40 分钟，之后可自由探索，<strong>停留时长不限</strong>）或 <strong>Guide-Led Tour &amp; Discussion</strong>（45 分钟带讲，<strong>2026 年 9 月 8 日起只有工作日 12:00 与周六日 11:00 各一场</strong>）。<strong>拍照请选 Self-Guided</strong>——跟团会被时间与路线绑死。白天票<strong>可在到访前 24 小时免费改期或退款</strong>（发邮件到 support@easternstate.org）；<strong>Halloween Nights 等特别活动一律不退不换</strong>。<strong>$10 的 photography equipment pass 无法线上购买，必须现场窗口买。</strong>",
-          "ticket": "官方 FAQ 原文：<strong>线上 成人 $21、老年 $19、大学生与 7–17 岁 $17；现场 分别为 $23、$21、$19</strong>。会员白天免费。<strong>三脚架／独脚架／画架另需 $10／人／天的 photography equipment pass（仅现场窗口售、当日有效）；会员免费。</strong>优惠：Museums for All／ACCESS Card／SEPTA Key REDUCED FARE 持卡人白天 <strong>$2</strong>（可带 4 人）；残障访客白天 $2，付费陪护人免费；费城高中生凭学生证白天免费（STAMP 项目）；持 SEPTA Key 卡线上买成人票减 $2。<strong>以上优惠一律不适用于 Halloween Nights。</strong><strong>Halloween Nights 夜场「Tickets start at $49」</strong>，按夜别与场次浮动；加购 The Speakeasy $20（线上或现场）、Hospital Flashlight Tour $13（仅现场）、停车＋摆渡 $22 线上／$30 现场。<strong>外墙与瞭望塔在 Fairmount Avenue 人行道上拍摄完全免费。</strong>",
-          "hours": "官方原文（easternstate.org/historic-site/hours-of-operation）：<strong>「March – November: Open Daily, 10:00 a.m. to 5:00 p.m.」</strong>，官网首页另注明音频导览<strong>「Available every day from 10 am to 5 pm (last entry 4 pm)」</strong>。→ <strong>9 月末至 10 月末每日开放，秋季没有每周闭馆日。</strong>全年只闭 New Year's Day、Thanksgiving、Christmas Eve、Christmas Day。<strong>Halloween Nights 为 2026 年 10 月 2 日–11 月 7 日的 select nights 夜场，「Opening and closing times vary each night, based on demand」，与白天时段不重叠。</strong>大多数访客在场约两小时，<strong>但音频导览票不限停留时长，认真拍可以待到闭馆。</strong>",
+          "ticket": "官方 FAQ 原文：<strong>线上 成人 $21、老年 $19、大学生与 7–17 岁 $17；现场 分别为 $23、$21、$19</strong>。会员白天免费。<strong>三脚架／独脚架／画架另需 $10／人／天的 photography equipment pass（仅现场窗口售、当日有效）；会员免费。</strong>优惠：Museums for All／ACCESS Card／SEPTA Key REDUCED FARE 持卡人白天 <strong>$2</strong>（可带 4 人）；残障访客白天 $2，付费陪护人免费；费城高中生凭学生证白天免费（STAMP 项目）；持 SEPTA Key 卡线上买成人票减 $2。<strong>以上优惠一律不适用于 Halloween Nights。</strong><strong>Halloween Nights 夜场「Tickets start at $49」</strong>，按夜别与场次浮动；加购 The Speakeasy $20（线上或现场）、Hospital Flashlight Tour $13（仅现场）、停车＋摆渡 $22 线上／$30 现场。<strong>外墙与瞭望塔在 Fairmount Avenue 人行道上拍摄完全免费。</strong><strong>以上票价于 2026 年 9 月 13 日在 easternstate.org 的 Know Before You Go 页逐条复核，与上一版完全一致。</strong>",
+          "hours": "官方原文（easternstate.org/historic-site/hours-of-operation）：<strong>「March – November: Open Daily, 10:00 a.m. to 5:00 p.m.」</strong>，官网首页另注明音频导览<strong>「Available every day from 10 am to 5 pm (last entry 4 pm)」</strong>。→ <strong>9 月末至 10 月末每日开放，秋季没有每周闭馆日。</strong>全年只闭 New Year's Day、Thanksgiving、Christmas Eve、Christmas Day。<strong>Halloween Nights 为 2026 年 10 月 2 日–11 月 7 日的 select nights 夜场，「Opening and closing times vary each night, based on demand」，与白天时段不重叠。</strong><strong>→ 针对 10/13–10/26 这两周的明确结论（2026 年 9 月 13 日复核官方 Hours of Operation 页与 Halloween FAQ 页）：白天的历史参观这十四天每天都正常开放，10:00–17:00、最后入场 16:00，没有任何一天因 Halloween Nights 而停开或缩短，也不需要另买 Halloween 的票。唯一的变化是导览团缩到每天一场（工作日 12:00、周六日 11:00）——自助音频导览不受影响。</strong><strong>官方 Halloween FAQ 还反过来鼓励白天再来一次：「Add daytime historic site admission to your Halloween Nights ticket purchase and save up to $5」，这本身就证明白天场次在整个 10 月照常售票运营。</strong>大多数访客在场约两小时，<strong>但音频导览票不限停留时长，认真拍可以待到闭馆。</strong>",
           "parking": "<strong>官方明确说明自己没有停车场。</strong><strong>最好用的是免费路边车位：官方原文指出 22nd Street（面对入口时的左侧）与 Brown Street（后墙一侧）「on the Eastern State side of the street, parallel parking is free and unlimited」</strong>——注意只有<strong>贴监狱那一侧</strong>免费不限时，对面不行。另有商业停车场在 22nd &amp; Fairmount，<strong>费率需致电 Parkway Corporation (267) 765-3665</strong>。<strong>Halloween Nights 夜场停车另设在 Philadelphia Zoo 车库（3500 W. Girard Ave）＋摆渡，$22／$30。</strong>公共交通：多条 SEPTA 巴士可达，Philly PHLASH 观光巴士停靠。",
           "walk": "<strong>从 Philadelphia Museum of Art 走过来约 770 米 / 10 分钟</strong>（方位 66°，官方口径「五个街区」）。22nd Street 免费车位到 Fairmount Avenue 入口约 <strong>150–250 米 / 3 分钟</strong>。<strong>入口到 Cellblock 7 沿单向参观动线走约 5 分钟</strong>；全场是一条单向路线，<strong>走回头路要绕，进场前先想好拍摄顺序。</strong>"
         },
@@ -900,6 +932,7 @@ var REGIONS = [
         "n": 3,
         "name": "费城艺术博物馆与「洛奇台阶」",
         "en": "Philadelphia Museum of Art · East Terrace & the \"Rocky Steps\"",
+        "must": 5,
         "score": 5,
         "tldr": "东阶与东露台露天免费 24 小时；顶上回望 Parkway 的轴线视野是全美最好的城市轴景之一，最佳 10:00–10:45。",
         "tags": [
@@ -926,6 +959,14 @@ var REGIONS = [
           "建筑本身是 <strong>1928 年落成的 Greek Revival 神庙群</strong>，Horace Trumbauer 事务所（实际主设计者是首位取得美国建筑师执照的非裔美国人 <strong>Julian Abele</strong>）与 Zantzinger, Borie and Medary 合作完成。<strong>一个反直觉的细节：那些屋顶不是石头，是上釉的彩色赤陶</strong>——蓝、金、红的多彩瓦面直接照抄古希腊神庙原本的彩绘做法，而这正是它在低角度光下比一般灰白色古典建筑更「上色」的原因。整栋楼坐在 Faire Mount 这座小山包上，也就是 1812 年 Fairmount Water Works 蓄水池的原址。",
           "<strong>Rocky 那件事的真实版本比传说有意思：那座铜像本来不该在这里。</strong>A. Thomas Schomberg 的雕像是 <strong>1980 年为《Rocky III》做的道具</strong>，Sylvester Stallone 拍完把它捐给费城，随即引发一场关于「电影道具算不算公共艺术」的多年争论；馆方一度把它挪去 Spectrum 体育馆，1990 年代才被安置到<strong>东阶底部东北侧的地面小广场上（不在台阶上）</strong>。<strong>1976 年《Rocky》里跑的那 72 级台阶本身没有任何标记</strong>，只有台阶顶的地面上嵌着一对铜脚印。<strong>这一点决定了两个机位是分开的</strong>：拍雕像要下到台阶底，拍轴线要上到台阶顶，两者不在同一张照片里。",
           "<strong>Frank Gehry 的改造已经完全结束，现场没有工程。</strong>$2.33 亿的 Core Project <strong>2021 年 5 月 7 日开放</strong>，恢复了封闭近 50 年的 <strong>640 英尺长 Vaulted Walkway</strong>（Guastavino 拱砖天花，是室内最强的摄影目标）并新增约 2 万平方英尺展厅。<strong>原计划在东露台地下再挖一层的下一期已被无限期搁置</strong>（2026 年 7 月馆长口径，背景是约 $3 亿递延维护欠账）。<strong>好消息：这意味着东露台在你到访时是干净的、没有围挡的。</strong>"
+        ],
+        "tour": [
+          "<strong>路线：从西入口（连停车场）或北入口进，先到 Great Stair Hall 抬头看 Saint-Gaudens 的镀金《Diana》（1892），然后直接上二楼，不要从一楼开始。</strong>二楼是这座馆真正独一无二的部分——<strong>它把整栋建筑搬进了展厅</strong>：一座 16 世纪南印度 Madurai 的石柱神庙厅、一间 1917 年从日本运来的茶室 Sunkaraku（「暂得楼」）、一座中国宫殿厅、一段中世纪法国修道院回廊，以及全美最好的盔甲收藏之一（Kienbusch 收藏，在天窗大厅里）。<strong>这些「period rooms」是别的美术馆给不了的东西，没时间也要留 40 分钟给它们。</strong>",
+          "<strong>一楼是名画层，两件东西别错过：Vincent van Gogh 的《Sunflowers》（该系列在费城的这一幅）与 Paul Cézanne 的《The Large Bathers》（他最大的一幅浴女，也是本馆的镇馆之一）</strong>，两者都在印象派／后印象派展厅。同层的现代艺术区有 <strong>Marcel Duchamp 的《Nude Descending a Staircase (No. 2)》（1912）与《The Large Glass》</strong>——全世界最大的 Duchamp 收藏就在这里。<strong>《Étant donnés》（1946–66）是不可移动的装置，在 Arensberg 收藏一带的专用小室里，只能推开一扇旧木门、从门上两个窥孔往里看</strong>，很多人从门前走过去都没发现。<strong>不要排队，门口没有队，直接上前把眼睛贴上去就行。</strong>",
+          "<strong>你的日期正好撞上一个大展，这会改变你的时间与预算：「Marcel Duchamp」回顾展 2026 年 10 月 10 日开幕、展到 2027 年 1 月 31 日，是超过 50 年来全美第一次 Duchamp 大型回顾展，逾 300 件作品，刚从纽约 MoMA 巡展过来，在 Dorrance Galleries 与 281–283 号厅。</strong><strong>票价 $35（已含全馆门票），也就是比普通票只多 $5</strong>——想看就直接买这一张，不要先买 $30 的普通票再补。<strong>反过来，如果你对概念艺术完全没兴趣，那就买 $30 的普通票，常设展里本来就有 Nude Descending a Staircase 与 Large Glass，不亏。</strong>开幕头两周（正好是你的窗口）大展人会很多，<strong>请一开门 10:00 先进大展，看完再回头看常设。</strong>",
+          "<strong>可以跳过的部分：三楼与一楼的当代艺术区、以及绝大多数临时小型专题展。</strong>这座馆有 20 多万件藏品、走完全部展厅超过 3 公里，<strong>按「二楼 period rooms ＋ 一楼印象派与现代」两层做，就拿到了八成价值。</strong>省下的时间给东阶顶的 Parkway 轴线视野与走下坡去 Fairmount Water Works。",
+          "<strong>人流与流程：周一与周四上午 10:00–11:30 是全周最空的时段；周五 17:00 之后的 Pay What You Wish 是全周最挤的时段</strong>（官方自己公布周五晚客流较 2025 年同期涨 87%）。<strong>大背包与行李箱不得带进展厅，入口有免费寄存（coat check），雨伞与超大件必须存。</strong>展厅内禁饮食。<strong>馆里有免费 Wi-Fi 与电子地图，这栋楼很容易迷路，进门先下载。</strong>",
+          "<strong>餐饮与卫生间（这是全天行程的实际约束）：一楼有快餐式的 Café（工作日 11:00–14:30、周六日 11:00–15:00）与 Frank Gehry 设计的正餐厅 Stir（可订位）；二楼 Balcony Café 周五至周日 11:00–16:00、周五晚开到 20:00；地面层有 Ellis Coffee Bar，周四至周一 10:00–16:00。</strong><strong>主卫生间在 Great Stair Hall 旁的电梯／楼梯下到下层（lower level），还有育婴室与饮水机</strong>，各层另有分散的卫生间。<strong>周二周三闭馆，别指望在这里解决吃饭问题。</strong>"
         ],
         "photo": "建筑 <strong>5/5</strong>，城市轴景 <strong>5/5</strong>，夜景 <strong>4.5/5</strong>，室内 <strong>4/5</strong>，人像 <strong>4/5</strong>。本区唯一一个「免费、24 小时、且拿得出全美级别构图」的点位；扣分只在室内禁三脚架与东露台白天人流（跑台阶拍照的人从早到晚不断）。",
         "shots": [
@@ -963,10 +1004,11 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>室内 2.5–4 小时；只看重点 90 分钟。</strong>分配建议：<strong>二楼 period rooms 与盔甲厅 40 分钟 ＋ 一楼印象派与现代 40 分钟 ＋ Great Stair Hall 与 Vaulted Walkway 10 分钟</strong>。<strong>加看 Marcel Duchamp 回顾展（逾 300 件）请再加 60–90 分钟，也就是全天型的 4–5 小时。</strong>第三方旅行资料给的典型时长是 2–4 小时，与上述一致。<strong>室外部分（东阶、东露台回望 Parkway、Rocky 铜像）只要 20–30 分钟</strong>，这是「不买票也能拿到本条目一半价值」的那半。<strong>门票含两天，把大展与常设拆成两天是官方明说支持的走法。</strong>",
           "book": "<strong>东阶、东露台、Eakins Oval 与 Rocky 铜像不需预约、不需票、24 小时可拍。</strong>室内建议线上买定时票（philamuseum.org），现场也可买；<strong>周五 17:00 之后的 Pay What You Wish 时段现场即可按自己出价入场</strong>，旺季周五晚人流大（较 2025 年同期涨 87%），建议 17:00 就到。",
-          "ticket": "<strong>室外全部免费。</strong>室内：<strong>成人 $30、老年（65+）$28、持证学生 $14、18 岁及以下免费、会员免费</strong>；会员携客 $15。<strong>票含当日与次日两天，并含同日 Rodin Museum 入场</strong>（名义上也含 Perelman Building 与 Mount Pleasant／Cedar Grove，<strong>但 Perelman Building 自疫情起关闭至今未重开</strong>）。<strong>每周五 17:00–20:45 为 Pay What You Wish，已延长至 2027 年 6 月 25 日。</strong>",
-          "hours": "官方原文（philamuseum.org/main-building）：<strong>「Monday 10am–5pm / Tuesday Closed / Wednesday Closed / Thursday 10am–5pm / Friday 10am–8:45pm / Saturday 10am–5pm / Sunday 10am–5pm」</strong>。→ <strong>周二与周三闭馆，周五是唯一开到 20:45 的一天。</strong><strong>东阶、东露台与 Eakins Oval 是室外公共空间，24 小时开放、不受上述时间约束。</strong>",
-          "parking": "<strong>Philadelphia Museum of Art Parking Garage</strong>（OSM way/61131910，39.96715／-75.18202，在主馆北侧 Anne d'Harnoncourt Drive 上）。<strong>周五晚官方公告的车库价格是 $10</strong>，<strong>其余时段费率未能从官方渠道确认</strong>。Benjamin Franklin Parkway、N 21st Street 与 N 22nd Street 上有路边计时表位，秋季周末极难找。公共交通：SEPTA 巴士 7、32、38、43、48 路可达；<strong>最近的地铁站都在 1.5 公里以外，不推荐。</strong>",
+          "ticket": "<strong>室外全部免费。</strong>室内：<strong>成人 $30、老年（65+）$28、持证学生 $14、18 岁及以下免费、会员免费</strong>；会员携客 $15。<strong>票含当日与次日两天，并含同日 Rodin Museum 入场</strong>（名义上也含 Perelman Building 与 Mount Pleasant／Cedar Grove，<strong>但 Perelman Building 自疫情起关闭至今未重开</strong>）。<strong>每周五 17:00–20:45 为 Pay What You Wish，已延长至 2027 年 6 月 25 日。</strong><strong>特展另计：「Marcel Duchamp」（2026/10/10–2027/1/31）票价 $35，已含全馆门票</strong>（官方展览页原文「$35; includes museum admission」）。<strong>以上票价于 2026 年 9 月 13 日在 philamuseum.org/main-building 与展览页逐条核实，与上一版一致。</strong>",
+          "hours": "官方原文（philamuseum.org/main-building，<strong>2026 年 9 月 13 日复核，未变</strong>）：<strong>「Monday 10am–5pm / Tuesday Closed / Wednesday Closed / Thursday 10am–5pm / Friday 10am–8:45pm / Saturday 10am–5pm / Sunday 10am–5pm」</strong>。→ <strong>周二与周三闭馆，周五是唯一开到 20:45 的一天。</strong><strong>对应你的东岸窗口（10/13–10/26）：10/13、10/14、10/20、10/21 四天是周二／周三，闭馆。</strong><strong>东阶、东露台与 Eakins Oval 是室外公共空间，24 小时开放、不受上述时间约束。</strong>",
+          "parking": "<strong>Philadelphia Museum of Art Parking Garage</strong>（OSM way/61131910，39.96715／-75.18202，在主馆北侧 Anne d'Harnoncourt Drive 上，另有 Water Works Drive 一侧的入口）。<strong>官方费率（2026 年 9 月 13 日于 philamuseum.org/main-building 核实）：车库与 West Terrace 停车场一律 $9／小时；周五 17:00–21:00 全场 $10 一口价；会员 $4／小时（首小时免费）。</strong><strong>这一项补上了上一版「未能确认」的空缺。</strong>Benjamin Franklin Parkway、N 21st Street 与 N 22nd Street 上有路边计时表位，秋季周末极难找。公共交通：SEPTA 巴士 7、32、38、43、48 路可达；<strong>最近的地铁站都在 1.5 公里以外，不推荐。</strong>",
           "walk": "车库到东露台顶约 <strong>350 米 / 5 分钟</strong>（走建筑北侧绕到东面，不用爬台阶）。<strong>Eakins Oval 到台阶顶要爬完 72 级，约 3–4 分钟</strong>；台阶底到 Rocky 铜像约 <strong>80 米 / 1 分钟</strong>。到 Eastern State Penitentiary 约 <strong>770 米 / 10 分钟</strong>（方位 66°）；到 Boathouse Row 约 <strong>700 米 / 9 分钟</strong>（方位 308°）；到 Swann Memorial Fountain 沿 Parkway 约 <strong>1.22 公里 / 15 分钟</strong>。"
         },
         "notes": [
@@ -1000,6 +1042,7 @@ var REGIONS = [
         "n": 4,
         "name": "罗丹博物馆",
         "en": "The Rodin Museum",
+        "must": 3,
         "score": 4,
         "tldr": "花园是主角，《地狱之门》与《思想者》在门口；票含在美术馆票内，但周二三四连闭三天、周五不延时。",
         "tags": [
@@ -1165,6 +1208,7 @@ var REGIONS = [
         "n": 6,
         "name": "斯旺纪念喷泉与洛根圆环",
         "en": "Swann Memorial Fountain · Logan Square",
+        "must": 2.5,
         "score": 4.5,
         "tldr": "2023 年起故障、2025 年 9 月全面停水，但已于 2026 年 5 月修复重新运行；秋季通常开到 10 月下旬。",
         "tags": [
@@ -1192,6 +1236,13 @@ var REGIONS = [
           "<strong>三尊铜像代表本地的三条水系，各有明确的可辨识细节，拍特写时要认对：</strong><strong>Delaware River</strong> 是一名手持弓的壮年男性，有一条鱼朝他喷水；<strong>Schuylkill River</strong> 是一名成年女性，手握一只天鹅的颈部；<strong>Wissahickon Creek</strong> 是一名少女，倚着一只喷水的天鹅。池中另有<strong>喷水的青铜蛙与龟</strong>——它们是最容易被忽略的前景元素，低机位贴近水面时可以当成画面的第一层。<strong>那些天鹅是双关：既是 Swann 的姓氏谐音，也暗指 Leda and the Swan 的古典母题。</strong>纪念对象 Dr. Wilson Cary Swann 是 Philadelphia Fountain Society 的创办人，该会在 19 世纪装了逾 80 座饮水泉，目的是给人和役畜提供干净水源以替代受污染的水与酒。",
           "<strong>Logan Circle 本身的历史很黑：它原名 Northwest Square，是 18 世纪的公开处刑场</strong>，1825 年改名 Logan Square，<strong>1917 年由 Jacques Gréber 在设计 Parkway 时把方形广场改成圆形环岛</strong>，喷泉 1924 年 7 月在一个酷热的日子里落成（当时现场有人在跳探戈）。2007 年由景观事务所 OLIN 做过一次整体复兴。<strong>环岛外圈的梧桐与泡桐是 Gréber 原始设计的一部分，也是本机位秋色的主要来源。</strong>"
         ],
+        "tour": [
+          "<strong>先说定位：这是一个「路过时花十五分钟」的点，不值得专程打车过来。</strong>它的真正用处是<strong>把 Cathedral（184 米）、Barnes（350 米）、Rodin（530 米）与美术馆（1.22 公里）串成一条直线的中转站</strong>——这四个点都在 Parkway 上，Logan Circle 正好在中间，<strong>你几乎一定会经过它，那就顺便走进去绕一圈。</strong>",
+          "<strong>绕池走一整圈，认三尊铜像：Delaware River 是持弓的壮年男性，有鱼朝他喷水；Schuylkill River 是握着天鹅脖颈的成年女性；Wissahickon Creek 是倚着喷水天鹅的少女。</strong>这三条正是费城的三条水系。<strong>最容易被漏掉的是池子里喷水的青铜蛙与龟</strong>，蹲下来看一眼。<strong>知道一件事会让这一站完全不同：喷泉作者 Alexander Stirling Calder、轴线另一端 City Hall 塔顶 William Penn 像的作者（他父亲）、以及美术馆一带现代动态雕塑的作者（他儿子 Sandy Calder），是祖孙三代。</strong>",
+          "<strong>怎么进去：这是一个真正在跑车的多车道环岛，必须走信号灯过街口，不要横穿。</strong><strong>2026 年 5 月市政府刚完成一次改造，外圈 15 英尺宽的人行道整体重铺、八处路缘坡道升级到 ADA 标准、混凝土路缘换成花岗岩，官方项目页状态已标为「Completed」</strong>——<strong>也就是说你到访时围挡与施工都已撤场，这是上一版没能确认、本次已确认的一项。</strong>推婴儿车与轮椅现在没问题。",
+          "<strong>唯一真正的不确定因素是「有没有水」。</strong>Parks &amp; Recreation 的口径是通常开到 10 月中至下旬，无霜冻可延到 Thanksgiving，<strong>而且官方从不公布确切关停日。</strong>你的窗口 10/13–10/26 正好压在这个边界上：<strong>前半段（10/13–10/19）几乎肯定有水，后半段属于看天。</strong><strong>干池不是灾难，只是从「会动的水景」变成「三尊站在空盆里的铜像」，十分钟就看完。</strong>",
+          "<strong>没有卫生间、没有餐饮、没有座椅以外的任何设施。</strong><strong>最近的公共卫生间在 Parkway 对面的 Free Library of Philadelphia 总馆（1901 Vine St，约 250 米）</strong>，或进 Barnes／Cathedral。<strong>人最少的是 08:00 以前；午后到傍晚池沿上常坐满人，夏季有人下水、秋季少见但仍有。</strong>"
+        ],
         "photo": "建筑环境 <strong>4.5/5</strong>，雕塑细节 <strong>4.5/5</strong>，慢门水景 <strong>5/5</strong>，人像 <strong>4/5</strong>。免费、24 小时、且是全区唯一能做「慢门水流」的题材，还能同框 Cathedral 的圆顶与 Parkway 的轴线；扣分全在「水可能没了」这个不可控因素，以及它位于一个真正在跑车的环岛中央。",
         "shots": [
           {
@@ -1216,9 +1267,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>15–25 分钟；绕池走一整圈约 10 分钟。</strong>分配：<strong>绕圈一周、三尊铜像各看一眼 10 分钟 ＋ 在池西北侧朝东南看一眼 Cathedral 圆顶与 Parkway 轴线 5 分钟。</strong><strong>这是本区唯一一个「不需要留时间预算」的点</strong>——它在 Barnes／Rodin／Cathedral 的步行路线正中间，走过去的路上就顺带看完了。<strong>没有官方建议时长（这是公共环岛而非场馆），以上按场地规模推算。</strong>",
           "book": "<strong>不需预约、不需票</strong>",
-          "ticket": "<strong>免费</strong>",
-          "hours": "<strong>公共环岛与广场，24 小时开放。</strong><strong>但「有没有水」是季节性的</strong>：Parks &amp; Recreation 官方口径为<strong>「通常 4 月底或 5 月初开始运行，一般至少开到 10 月中至下旬，若无霜冻可延续到 Thanksgiving」</strong>。<strong>官方不公布确切关停日期（按气温临时决定），这一项无法提前锁定。</strong>喷泉在 2023–2025 年间因人为破坏与泵故障长期不完整、2025 年 9 月完全停水，<strong>已于 2026 年 5 月修复并由市政府官方确认恢复运行。</strong>夜间有照明。",
+          "ticket": "<strong>免费</strong>（2026 年 9 月 13 日复核：公共公园，无任何收费项目）",
+          "hours": "<strong>公共环岛与广场，24 小时开放。</strong><strong>但「有没有水」是季节性的</strong>：Parks &amp; Recreation 官方口径为<strong>「通常 4 月底或 5 月初开始运行，一般至少开到 10 月中至下旬，若无霜冻可延续到 Thanksgiving」</strong>。<strong>官方不公布确切关停日期（按气温临时决定），这一项无法提前锁定。</strong>喷泉在 2023–2025 年间因人为破坏与泵故障长期不完整、2025 年 9 月完全停水，<strong>已于 2026 年 5 月修复并由市政府官方确认恢复运行。</strong><strong>2026 年 9 月 13 日复核：市政府 Logan Square Sidewalk Improvement 项目页状态为「Completed」，完工时间 2026 年 5 月，页面并注明「While Logan Circle was closed during construction, Philadelphia Parks and Recreation also completed work on the Swann Fountain and nearby landscaping」——围挡已撤、喷泉修复属同一批工程，此项已确认。</strong>夜间有照明。",
           "parking": "<strong>不要在这里找车位。</strong>Logan Circle 周围是多车道环岛与 Parkway 主线，路边计时表位极少。<strong>SEPTA Broad Street Line 或 Market–Frankford Line 到 「15th Street」／「City Hall」站，再沿 Parkway 西北行 858 米（约 11 分钟）</strong>是最实际的方案；多条 SEPTA 巴士（2、7、32、33、38、48 等）沿 Parkway 与 19th／20th Street 通行。<strong>周边商业车库费率未能从官方渠道确认。</strong>",
           "walk": "<strong>到 The Barnes Foundation 约 350 米 / 5 分钟</strong>（方位 329°）；<strong>到 Rodin Museum 约 530 米 / 7 分钟</strong>（方位 327°）；<strong>到 Cathedral Basilica 约 184 米 / 3 分钟</strong>（方位 109°）；<strong>到 Philadelphia Museum of Art 沿 Parkway 约 1.22 公里 / 15 分钟</strong>（方位 314°）；到 City Hall 约 858 米 / 11 分钟（方位 136°）。<strong>Cathedral、Barnes、Rodin 与美术馆几乎排在一条直线上，是本区唯一可以纯步行连做的一串。</strong>环岛四周有多个信号灯过街口，绕行整圈约 400 米。"
         },
