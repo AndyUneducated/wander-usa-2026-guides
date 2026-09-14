@@ -154,6 +154,7 @@ module.exports = {
       n: 1,
       name: '洛克菲勒中心观景台',
       en: 'Top of the Rock',
+      must: 4,
       score: 5,
       tldr: '70 层无玻璃，Empire State Building 在正南、Central Park 在正北，转身两题材全收。',
       tags: [
@@ -182,6 +183,28 @@ module.exports = {
         '<strong>The Beam Experience 是 69 层的付费摆拍装置</strong>，复刻 1932 年那张「Lunch Atop a Skyscraper」' +
           '（民工坐在钢梁上吃午饭）的构图，需 Beam Combo（$73 起）或 VIP Pass，' +
           '身高门槛 42 英寸。<strong>它不包含在普通门票里，且经常售罄</strong>'
+      ],
+      tour: [
+        '<strong>动线：进门先过机场级安检，再穿一段 67 层的展览通道，然后换两段电梯。</strong>' +
+          '上去之后<strong>直接坐到 70 层，看完再往下走 69、67</strong>——反过来走会在 69 层被人流堵住，' +
+          '而且下行电梯永远比上行空',
+        '<strong>70 层只需要看两个方向，其余可以快速略过。</strong>' +
+          '<strong>正南是 Empire State Building</strong>（1.29 公里）、<strong>正北是 Central Park</strong>（1.0 公里），' +
+          '站在平台上转身 180 度就是纽约最著名的两张俯瞰。' +
+          '东西两侧是普通的中城楼群，走一圈五分钟就够',
+        '<strong>可以直接跳过的部分</strong>：67 层的 Radiance Wall 与各种互动装置、' +
+          '以及出口处必经的礼品店与合影销售台。' +
+          '<strong>SKYLIFT（现场加购 $35、单次 3.5 分钟）与 The Beam（$73 起的摆拍装置）都是独立收费项目</strong>，' +
+          '带孩子或想要纪念照才值得，单纯看景的人省下这笔钱',
+        '<strong>人流：日落前 45 分钟到日落后 30 分钟是全天最挤的一段</strong>，' +
+          '70 层南北两侧栏杆会站满三排人，想靠到栏杆前得提前半小时占位。' +
+          '<strong>最松的是开门第一档 08:00–09:00 的工作日，平台上常常只有十几个人</strong>，票价也在动态定价的低点',
+        '<strong>卫生间在 67 层观景层内（每处都有无障碍隔间），上 70 层之前先解决</strong>——' +
+          '70 层是露天平台，来回一趟要重新挤电梯。' +
+          '<strong>观景区内没有餐饮，只有礼品店</strong>；吃喝请在 Rockefeller Center 地下层的餐饮区先解决，外带食物饮料一律不许带上去',
+        '<strong>70 层完全露天、没有任何挡风结构</strong>，259 米高度的风速常比地面高一个量级。' +
+          '10 月中下旬的傍晚体感明显低于地面气温，<strong>带一件防风外套与能扣住的帽子</strong>，' +
+          '否则在上面待不满 20 分钟就想下来'
       ],
       photo: '城市天际线 <strong>5/5</strong>，建筑 <strong>4.5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>3/5</strong>。' +
         '无玻璃这一条足以让它成为纽约出片率最高的高处机位；扣分只因禁三脚架让长曝路线彻底走不通，且日落时段南栏基本挤不进去。',
@@ -217,17 +240,31 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>60–90 分钟</strong>。分配：入口到站上 70 层含安检与两段电梯 <strong>20–40 分钟</strong>，' +
+          '平台上看景 <strong>30–45 分钟</strong>（70 层 20 分钟、69 层 10 分钟、67 层 5 分钟足够）。' +
+          '<strong>门票当日全天有效、停留不限时</strong>，所以想完整看到金光、日落、蓝调三段请预留 <strong>2–2.5 小时</strong>；' +
+          '加 SKYLIFT 或 The Beam 各再加 20–30 分钟（含排队）。',
         book: '<strong>必须网上预订定时票</strong>（rockefellercenter.com 或 topoftherocknyc.com），' +
           '门票当日全天有效——<strong>订日落前 60 分钟的档，可以一票拍完金光、日落、蓝调三段</strong>。' +
           '<strong>日落档是全天最先售罄的，平日建议提前 1–2 周、周末与假日提前 2–4 周</strong>。' +
           'SKYLIFT 无法单独预订，只能现场加购 $35 或买含 SKYLIFT 的票种',
-        ticket: '<strong>Timed Admission 成人 $42 起</strong>（第三方聚合站常报 $45，' +
-          '实为动态定价、周末与日落档浮到 $49–52）；儿童 $38 起、长者 $42 起、<strong>5 岁以下免费</strong>。' +
-          'Skip-the-line $82 起。Beam Combo $73 起。SKYLIFT + Admission $57 起，All-Inclusive $72 起，' +
-          'VIP Pass $185–207。RockMoMA 组合票 $63 起（含 MoMA）',
-        hours: '官方：<strong>每日 08:00–24:00，末班电梯 23:10</strong>，全年 365 天开放。' +
-          '平安夜与跨年夜 22:00 关、末班电梯 21:10。' +
-          '<strong>这是本区四座观景台里营业最晚的一座（与 Summit 并列），比 Empire State Building 晚一小时</strong>',
+        ticket: '<strong>核实日期 2026-09-13，来源 rockefellercenter.com 官方购票页。</strong>' +
+          '<strong>Timed Admission 成人 $42 起、Skip-the-line Admission $82 起。</strong>' +
+          '<strong>请注意官网自相矛盾，两种口径都写在这里：</strong>' +
+          '购票页写「Timed Admission From $42 / Skip-the-line From $82」，' +
+          '而同一站的「Compare Top of the Rock Ticket Prices」表格给的是 ' +
+          '<strong>Timed Admission $42–$71、不限时段票 $115、VIP $200–$215</strong>，' +
+          '「Plan Your Visit」页则另写 <strong>$40</strong> 起。' +
+          '<strong>成因是全动态定价：同一天不同时段差价可达 $30，日落档最贵。</strong>' +
+          '儿童 $38 起、长者 $42 起、<strong>5 岁以下免费（仍需领票）</strong>。' +
+          'Beam Combo $73 起，SKYLIFT + Admission $57 起，All-Inclusive $72 起，RockMoMA 组合票 $63 起（含 MoMA 入场）。' +
+          '<strong>SKYLIFT 现场加购 $35，不含在任何通票内</strong>',
+        hours: '<strong>核实日期 2026-09-13，官方原文「Daily from 8 AM – 12 AM，Last entry is at 11:10 PM」，全年 365 天开放。</strong>' +
+          '平安夜与跨年夜提前到 22:00 关、末班电梯 21:10。' +
+          '<strong>本窗口（10/13–10/26）适用上述常规时间，无季节性调整。</strong>' +
+          '<strong>复核后的新结论：由于 SUMMIT One Vanderbilt 现在逢周二闭馆，' +
+          'Top of the Rock 是四座里唯一「每天都开、且开到 24:00」的一座</strong>，' +
+          '10/13 与 10/20 这两个周二尤其要记住这一点',
         parking: '<strong>不要开车</strong>，中城路边表位与停车楼在这一带日间 $30–60 且极难找。' +
           '地铁 <strong>B/D/F/M 线「47-50 Streets–Rockefeller Center」站</strong>，出站即达；' +
           'N/Q/R/W 线「49 St」、1 线「50 St」亦在两个街区内',
@@ -266,6 +303,7 @@ module.exports = {
       n: 2,
       name: '洛克菲勒中心与第五大道',
       en: 'Rockefeller Center and Fifth Avenue',
+      must: 4,
       score: 4,
       tldr: 'Channel Gardens 中轴线与 Prometheus 全天免费；冰场 10/10 开、树 11/7 到。',
       tags: [
@@ -295,6 +333,31 @@ module.exports = {
         '<strong>圣诞树 11 月 7 日清晨运抵、当天 07:00 吊装，12 月 2 日点灯，' +
           '所以整个 9/25–10/22 窗口都拍不到树。</strong>' +
           '请把这一点当作既定事实来规划构图——不要按网上那些「冰场 + 巨树 + 金色 Prometheus」的照片设定目标'
+      ],
+      tour: [
+        '<strong>这一片其实是一条约 300 米的直线步道，照这个顺序走一遍就够</strong>：' +
+          'Fifth Avenue 入口 → 沿 Channel Gardens 下坡 60 米 → 下沉广场栏杆看 Prometheus → ' +
+          '折回 Fifth Avenue 看 630 号楼前的 Atlas → 过街进 St Patrick’s Cathedral。' +
+          '<strong>全程步行 10 分钟，连看带停 30–40 分钟</strong>',
+        '<strong>四件不要错过的：</strong>' +
+          '下沉广场的镀金 <strong>Prometheus</strong>（5.5 米、8 吨，全美被拍最多的公共雕塑之一）；' +
+          '630 Fifth Avenue 门前连基座 14 米的 <strong>Atlas</strong> 与他肩上的镂空天球；' +
+          '30 Rock 正门上方 Lee Lawrie 的巨幅彩饰浮雕 <strong>「Wisdom」</strong>' +
+          '（铭文 “Wisdom and Knowledge Shall Be the Stability of Thy Times”，多数人只顾拍楼、直接从它下面走过去了）；' +
+          '以及下沉广场周圈那约 200 面万国旗',
+        '<strong>可以直接跳过的部分</strong>：地下 concourse 的连锁商场、' +
+          '<strong>NBC Studio Tour（另行收费、以演播室为主，对不看美国电视的人几乎没有信息量）</strong>、' +
+          '以及 Today Show 的窗外围观（只有工作日清晨 07:00–09:00 才有，且隔着栏杆离主持人很远）',
+        '<strong>本窗口（10/13–10/26）的现场实况要先知道</strong>：' +
+          '<strong>圣诞树 11 月 7 日才运抵、12 月 2 日才点灯，你一定看不到树</strong>；' +
+          '冰场 2026–27 季的开季日<strong>截至 2026-09-13 官方仍写「will be announced soon」</strong>，' +
+          '第三方普遍传 10 月 10 日。<strong>请把这里当成一个 Art Deco 广场来逛，而不是照着网上的圣诞照片来</strong>',
+        '<strong>卫生间与餐饮都在地下 concourse 层</strong>（从 Channel Gardens 尽头的楼梯或 30 Rock 大堂下去）：' +
+          '<strong>这是第五大道这一段少数不用消费就能上厕所的地方</strong>，' +
+          '同层的快餐与咖啡也比街面店便宜一截。街面上的餐位几乎都是高价游客餐厅',
+        '<strong>骚扰与小钱陷阱：广场周边常年有扮装人物、举牌导游与「免费送你一张 CD」的人。</strong>' +
+          '合影与收下东西之后都会被索取 $5–20。<strong>不接、不停、不合影是唯一有效的应对</strong>，' +
+          '这里的密度虽不如 Times Square，但手法完全一样'
       ],
       photo: '建筑 <strong>4.5/5</strong>，雕塑 <strong>4.5/5</strong>，人像 <strong>3.5/5</strong>，夜景 <strong>4/5</strong>。' +
         '免费、24 小时、夜间打灯，是本区性价比最高的街面点位；扣分因为这个季节缺了冰面与圣诞树两个最强元素，且白天人流极密。',
@@ -346,12 +409,22 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45–90 分钟</strong>。分配：Channel Gardens 与下沉广场 20 分钟、Atlas 与 630 Fifth Avenue 前庭 10 分钟、' +
+          '地下 concourse 上洗手间与补给 15 分钟。<strong>只看重点 30 分钟足够。</strong>' +
+          '如果冰场已开季并要下场滑，<strong>另加 1.5 小时</strong>（60 分钟一场，加换鞋与排队）；' +
+          '与 Top of the Rock 连着安排请再加 1.5–2 小时。',
         book: '<strong>不需预约</strong>（广场、步道、雕塑全为开放空间）。' +
           '滑冰需另行网上预约时段票，12 月起必须提前订，10 月现场买通常有位',
-        ticket: '<strong>免费</strong>（广场、Channel Gardens、Prometheus、Atlas 全部免费）。' +
-          '滑冰含租鞋 $40–70/人',
-        hours: '<strong>广场与步道为开放城市空间，实际上 24 小时可拍</strong>，夜间泛光照明整夜开启。' +
-          '冰场约 09:00–24:00（<strong>2026 季 10 月 10–11 日开放，具体开季日期官方尚未固定</strong>）。' +
+        ticket: '<strong>核实日期 2026-09-13。广场、Channel Gardens、Prometheus、Atlas、「Wisdom」浮雕全部免费，无需门票。</strong>' +
+          '<strong>滑冰另行收费，而官方 2026–27 季的票价页当天仍未上线。</strong>' +
+          '上一季的实际区间是<strong>一般入场 $11–79、VIP $47–125（一般 60 分钟一场、VIP 90 分钟），租鞋约 $12</strong>，' +
+          '按日期与时段动态浮动，工作日上午最便宜。<strong>本季确切价格未能从官方渠道确认</strong>，' +
+          '请查 rockefellercenter.com，或致电 The Rink 挂牌电话 <strong>+1 212-771-7200</strong>',
+        hours: '<strong>核实日期 2026-09-13。广场与步道为开放城市空间，实际 24 小时可进</strong>，夜间泛光照明整夜开启。' +
+          '<strong>冰场：官方页面当天原文「The Rink is currently closed for the season. ' +
+          'Hours for the 2026–2027 season will be announced soon.」——也就是说开季日与营业时间官方都还没公布。</strong>' +
+          '第三方普遍传 <strong>10 月 10 日开季</strong>、常规时段约 09:00–24:00，' +
+          '<strong>但这与官方当日口径不一致，两种说法都列在这里，出发前请以官网为准</strong>。' +
           'Atlas 所在的 630 Fifth Avenue 前庭为室外，同样全天可进；<strong>各楼大堂内部按办公楼时间，且不欢迎摄影</strong>',
         parking: '<strong>不要开车。</strong>地铁 B/D/F/M 线「47-50 Streets–Rockefeller Center」站直达广场地下层；' +
           'E/M 线「Fifth Avenue–53 St」步行 5 分钟',
@@ -388,6 +461,7 @@ module.exports = {
       n: 3,
       name: '圣帕特里克主教座堂',
       en: 'St. Patrick\'s Cathedral',
+      must: 3.5,
       score: 3.5,
       tldr: '免费、每天 06:30–20:45；正立面整季在阴影里，主风琴已拆走送修到 2027 春。',
       tags: [
@@ -421,6 +495,33 @@ module.exports = {
         '它仍然是一座高强度运转的堂区教堂：<strong>周一至周五每天六台弥撒（07:00、07:30、08:00、12:00、13:00、17:30），' +
           '周日八台（含 10:15 的大礼弥撒与 16:00 的西班牙语弥撒）</strong>。' +
           '弥撒进行时中殿主通道不能站人拍照，这是本条目最实际的时间约束'
+      ],
+      tour: [
+        '<strong>免费直接进，不用票也不用预约，但有安检</strong>。' +
+          '第五大道正门（50th 与 51st Street 之间）排队时，<strong>绕到 50th 或 51st Street 的侧门，通常没人且更靠近中殿</strong>',
+        '<strong>逛法很简单：沿中殿主通道走到主祭台栏杆前（全长 124 米，走完约 5 分钟），' +
+          '再沿一侧侧廊绕回门口。</strong>' +
+          '侧廊两边一共 <strong>21 座小祭台</strong>，不必每座都停，挑三处：' +
+          '<strong>主祭台后方的 Pietà（体积是梵蒂冈米开朗基罗那尊的三倍）</strong>、' +
+          '东端 1901–1906 年增建的 <strong>Lady Chapel</strong>（彩窗由 Paul Vincent Woodroffe 于 1912–1930 年完成，光线比中殿柔和得多）、' +
+          '以及第五大道门内上方直径 8 米的玫瑰窗',
+        '<strong>本次看不到的一样东西，先说清楚：管风琴不在。</strong>' +
+          'Gallery Organ 与 Nave Organ 已于 2025 年 5 月 12 日拆走送往加拿大 Casavant Frères 修复，' +
+          '<strong>预计 2027 年春季才运回</strong>。玫瑰窗下那面风琴管立面目前是空的，' +
+          '<strong>也没有管风琴音乐可听</strong>——很多人是冲这个来的',
+        '<strong>时间上的硬约束是弥撒，不是开门时间。</strong>' +
+          '周一至周五每天六台（07:00、07:30、08:00、12:00、13:00、17:30），周六三台，' +
+          '<strong>周日八台几乎排满全天</strong>。弥撒进行时中殿主通道不能站人走动。' +
+          '<strong>最从容的窗口是工作日 08:45–11:45 与 14:00–17:00</strong>；' +
+          '纯参观请避开周日，尤其 10:15 的大礼弥撒',
+        '<strong>官方自助语音导览 $25（儿童 3–11 岁 $20），约 30–40 分钟</strong>，' +
+          '由 Timothy Dolan 枢机本人讲解，有英西意法葡五种语言（无中文），' +
+          '可在现场 Tour Desk 买，也可提前网上买省排队时间。' +
+          '<strong>只想看一眼建筑的人不需要它，20 分钟自己走一圈完全够</strong>',
+        '<strong>不要指望在这里上厕所。</strong>这是一座每天跑六台弥撒的运转中教堂，不是博物馆，' +
+          '<strong>游客可用卫生间的位置未能从官方渠道确认</strong>。' +
+          '最近的可靠选择是 <strong>200 米外 Rockefeller Center 的地下 concourse 层</strong>，' +
+          '那里有公共卫生间且不用消费'
       ],
       photo: '建筑 <strong>4/5</strong>，室内 <strong>4/5</strong>，人像 <strong>2/5</strong>，夜景 <strong>3.5/5</strong>。' +
         '免费加长营业时间是它的最大优势；扣分因为立面整季无直射光、主风琴缺席、且弥撒时段会切掉大量可拍时间。',
@@ -464,11 +565,24 @@ module.exports = {
         }
       ],
       access: {
-        book: '<strong>不需预约</strong>，直接进。官方自助语音导览另行售票（约 1 小时，现场取机）；' +
+        visit: '<strong>20–45 分钟</strong>。分配：中殿主通道来回 10 分钟、Pietà 与 Lady Chapel 10 分钟、' +
+          '侧廊小祭台与玫瑰窗 10 分钟，安检 3–8 分钟。<strong>只想进去看一眼建筑 15 分钟足够。</strong>' +
+          '<strong>买 $25 语音导览的话按 45–60 分钟算</strong>（导览音轨 30–40 分钟，加上自己停留）；' +
+          '想完整听一台弥撒另加 45–60 分钟。它就在 Rockefeller Center 对街 200 米，适合作为那一段的顺路一站。',
+        book: '<strong>不需预约</strong>，直接进。官方自助语音导览另行售票（现场 Tour Desk 或网上买）；' +
           '10 人以上团体导览需提前电话预约',
-        ticket: '<strong>免费</strong>（接受捐赠）。自助语音导览另收费',
-        hours: '<strong>官方口径：每日 06:30–20:45，全年无休。</strong>' +
-          '<strong>但「开门」不等于「可以随便拍」</strong>：' +
+        ticket: '<strong>核实日期 2026-09-13。入场免费，无需门票，接受捐赠。</strong>' +
+          '<strong>官方自助语音导览：成人 $25、儿童 3–11 岁 $20</strong>（含一次性耳塞），' +
+          '英、西、意、法、葡五语，<strong>没有中文</strong>；用自己的手机装 TourPatron app，或现场租平板。' +
+          '<strong>另有「Behind the Scenes」VIP 导览，第三方报价约 $50 起、每日 10:00 与 14:00</strong>，' +
+          '<strong>该项目的现行价格与场次未能从教堂官网确认</strong>（官网被反爬服务拦截，见下），' +
+          '请致电 <strong>+1 212-753-2261</strong> 核对',
+        hours: '<strong>核实日期 2026-09-13。必须声明：saintpatrickscathedral.org 的访客页当天被 Cloudflare 反爬拦截，' +
+          '开放时间未能从官网原文直接复核</strong>，以下为多个第三方一致口径：' +
+          '<strong>周一至周六 06:30–20:45，周日 07:00–20:45，全年无休</strong>' +
+          '（另有来源写「每日 06:30–20:00」，差 45 分钟，晚间前往请预留余量）。' +
+          '<strong>能从官网直接确认的是弥撒时刻表</strong>（saintpatrickscathedral.org/masses 当天原文），' +
+          '而<strong>真正约束你的是弥撒而不是开门时间</strong>：' +
           '弥撒时段（周一至周五 07:00、07:30、08:00、12:00、13:00、17:30；' +
           '周六 08:00、12:00、17:30；<strong>周日 07:00、08:00、09:00、10:15 大礼、12:00、13:00、16:00 西班牙语、17:30</strong>）' +
           '中殿主通道不得站人拍照。' +
@@ -509,6 +623,7 @@ module.exports = {
       n: 4,
       name: 'Edge 悬空观景台',
       en: 'Edge at Hudson Yards',
+      must: 3,
       score: 4.5,
       tldr: '西半球最高室外平台，朝南无遮挡，下城与自由女神方向最强；但全周斜面玻璃必须隔着拍。',
       tags: [

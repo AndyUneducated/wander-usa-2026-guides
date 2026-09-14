@@ -193,6 +193,7 @@ module.exports = {
       n: 1,
       name: '费城艺术博物馆与「洛奇台阶」',
       en: 'Philadelphia Museum of Art · East Terrace & the "Rocky Steps"',
+      must: 5,
       score: 5,
       tldr: '东阶与东露台露天免费 24 小时；顶上回望 Parkway 的轴线视野是全美最好的城市轴景之一，最佳 10:00–10:45。',
       tags: [
@@ -235,6 +236,46 @@ module.exports = {
           '<strong>原计划在东露台地下再挖一层的下一期已被无限期搁置</strong>' +
           '（2026 年 7 月馆长口径，背景是约 $3 亿递延维护欠账）。' +
           '<strong>好消息：这意味着东露台在你到访时是干净的、没有围挡的。</strong>'
+      ],
+      tour: [
+        '<strong>路线：从西入口（连停车场）或北入口进，先到 Great Stair Hall 抬头看 Saint-Gaudens 的镀金《Diana》（1892），' +
+          '然后直接上二楼，不要从一楼开始。</strong>二楼是这座馆真正独一无二的部分——' +
+          '<strong>它把整栋建筑搬进了展厅</strong>：一座 16 世纪南印度 Madurai 的石柱神庙厅、' +
+          '一间 1917 年从日本运来的茶室 Sunkaraku（「暂得楼」）、一座中国宫殿厅、' +
+          '一段中世纪法国修道院回廊，以及全美最好的盔甲收藏之一（Kienbusch 收藏，在天窗大厅里）。' +
+          '<strong>这些「period rooms」是别的美术馆给不了的东西，没时间也要留 40 分钟给它们。</strong>',
+        '<strong>一楼是名画层，两件东西别错过：Vincent van Gogh 的《Sunflowers》（该系列在费城的这一幅）' +
+          '与 Paul Cézanne 的《The Large Bathers》（他最大的一幅浴女，也是本馆的镇馆之一）</strong>，' +
+          '两者都在印象派／后印象派展厅。' +
+          '同层的现代艺术区有 <strong>Marcel Duchamp 的《Nude Descending a Staircase (No. 2)》（1912）' +
+          '与《The Large Glass》</strong>——全世界最大的 Duchamp 收藏就在这里。' +
+          '<strong>《Étant donnés》（1946–66）是不可移动的装置，在 Arensberg 收藏一带的专用小室里，' +
+          '只能推开一扇旧木门、从门上两个窥孔往里看</strong>，很多人从门前走过去都没发现。' +
+          '<strong>不要排队，门口没有队，直接上前把眼睛贴上去就行。</strong>',
+        '<strong>你的日期正好撞上一个大展，这会改变你的时间与预算：' +
+          '「Marcel Duchamp」回顾展 2026 年 10 月 10 日开幕、展到 2027 年 1 月 31 日，' +
+          '是超过 50 年来全美第一次 Duchamp 大型回顾展，逾 300 件作品，' +
+          '刚从纽约 MoMA 巡展过来，在 Dorrance Galleries 与 281–283 号厅。</strong>' +
+          '<strong>票价 $35（已含全馆门票），也就是比普通票只多 $5</strong>——' +
+          '想看就直接买这一张，不要先买 $30 的普通票再补。' +
+          '<strong>反过来，如果你对概念艺术完全没兴趣，那就买 $30 的普通票，' +
+          '常设展里本来就有 Nude Descending a Staircase 与 Large Glass，不亏。</strong>' +
+          '开幕头两周（正好是你的窗口）大展人会很多，<strong>请一开门 10:00 先进大展，看完再回头看常设。</strong>',
+        '<strong>可以跳过的部分：三楼与一楼的当代艺术区、以及绝大多数临时小型专题展。</strong>' +
+          '这座馆有 20 多万件藏品、走完全部展厅超过 3 公里，' +
+          '<strong>按「二楼 period rooms ＋ 一楼印象派与现代」两层做，就拿到了八成价值。</strong>' +
+          '省下的时间给东阶顶的 Parkway 轴线视野与走下坡去 Fairmount Water Works。',
+        '<strong>人流与流程：周一与周四上午 10:00–11:30 是全周最空的时段；' +
+          '周五 17:00 之后的 Pay What You Wish 是全周最挤的时段</strong>' +
+          '（官方自己公布周五晚客流较 2025 年同期涨 87%）。' +
+          '<strong>大背包与行李箱不得带进展厅，入口有免费寄存（coat check），雨伞与超大件必须存。</strong>' +
+          '展厅内禁饮食。<strong>馆里有免费 Wi-Fi 与电子地图，这栋楼很容易迷路，进门先下载。</strong>',
+        '<strong>餐饮与卫生间（这是全天行程的实际约束）：' +
+          '一楼有快餐式的 Café（工作日 11:00–14:30、周六日 11:00–15:00）与 Frank Gehry 设计的正餐厅 Stir（可订位）；' +
+          '二楼 Balcony Café 周五至周日 11:00–16:00、周五晚开到 20:00；' +
+          '地面层有 Ellis Coffee Bar，周四至周一 10:00–16:00。</strong>' +
+          '<strong>主卫生间在 Great Stair Hall 旁的电梯／楼梯下到下层（lower level），还有育婴室与饮水机</strong>，' +
+          '各层另有分散的卫生间。<strong>周二周三闭馆，别指望在这里解决吃饭问题。</strong>'
       ],
       photo: '建筑 <strong>5/5</strong>，城市轴景 <strong>5/5</strong>，夜景 <strong>4.5/5</strong>，室内 <strong>4/5</strong>，人像 <strong>4/5</strong>。' +
         '本区唯一一个「免费、24 小时、且拿得出全美级别构图」的点位；' +
@@ -317,6 +358,15 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>室内 2.5–4 小时；只看重点 90 分钟。</strong>' +
+          '分配建议：<strong>二楼 period rooms 与盔甲厅 40 分钟 ＋ 一楼印象派与现代 40 分钟 ＋ ' +
+          'Great Stair Hall 与 Vaulted Walkway 10 分钟</strong>。' +
+          '<strong>加看 Marcel Duchamp 回顾展（逾 300 件）请再加 60–90 分钟，' +
+          '也就是全天型的 4–5 小时。</strong>' +
+          '第三方旅行资料给的典型时长是 2–4 小时，与上述一致。' +
+          '<strong>室外部分（东阶、东露台回望 Parkway、Rocky 铜像）只要 20–30 分钟</strong>，' +
+          '这是「不买票也能拿到本条目一半价值」的那半。' +
+          '<strong>门票含两天，把大展与常设拆成两天是官方明说支持的走法。</strong>',
         book: '<strong>东阶、东露台、Eakins Oval 与 Rocky 铜像不需预约、不需票、24 小时可拍。</strong>' +
           '室内建议线上买定时票（philamuseum.org），现场也可买；' +
           '<strong>周五 17:00 之后的 Pay What You Wish 时段现场即可按自己出价入场</strong>，' +
@@ -326,15 +376,22 @@ module.exports = {
           '<strong>票含当日与次日两天，并含同日 Rodin Museum 入场</strong>' +
           '（名义上也含 Perelman Building 与 Mount Pleasant／Cedar Grove，' +
           '<strong>但 Perelman Building 自疫情起关闭至今未重开</strong>）。' +
-          '<strong>每周五 17:00–20:45 为 Pay What You Wish，已延长至 2027 年 6 月 25 日。</strong>',
-        hours: '官方原文（philamuseum.org/main-building）：<strong>「Monday 10am–5pm / Tuesday Closed / ' +
+          '<strong>每周五 17:00–20:45 为 Pay What You Wish，已延长至 2027 年 6 月 25 日。</strong>' +
+          '<strong>特展另计：「Marcel Duchamp」（2026/10/10–2027/1/31）票价 $35，已含全馆门票</strong>' +
+          '（官方展览页原文「$35; includes museum admission」）。' +
+          '<strong>以上票价于 2026 年 9 月 13 日在 philamuseum.org/main-building 与展览页逐条核实，与上一版一致。</strong>',
+        hours: '官方原文（philamuseum.org/main-building，<strong>2026 年 9 月 13 日复核，未变</strong>）：' +
+          '<strong>「Monday 10am–5pm / Tuesday Closed / ' +
           'Wednesday Closed / Thursday 10am–5pm / Friday 10am–8:45pm / Saturday 10am–5pm / Sunday 10am–5pm」</strong>。' +
           '→ <strong>周二与周三闭馆，周五是唯一开到 20:45 的一天。</strong>' +
+          '<strong>对应你的东岸窗口（10/13–10/26）：10/13、10/14、10/20、10/21 四天是周二／周三，闭馆。</strong>' +
           '<strong>东阶、东露台与 Eakins Oval 是室外公共空间，24 小时开放、不受上述时间约束。</strong>',
         parking: '<strong>Philadelphia Museum of Art Parking Garage</strong>（OSM way/61131910，' +
-          '39.96715／-75.18202，在主馆北侧 Anne d\'Harnoncourt Drive 上）。' +
-          '<strong>周五晚官方公告的车库价格是 $10</strong>，' +
-          '<strong>其余时段费率未能从官方渠道确认</strong>。' +
+          '39.96715／-75.18202，在主馆北侧 Anne d\'Harnoncourt Drive 上，' +
+          '另有 Water Works Drive 一侧的入口）。' +
+          '<strong>官方费率（2026 年 9 月 13 日于 philamuseum.org/main-building 核实）：' +
+          '车库与 West Terrace 停车场一律 $9／小时；周五 17:00–21:00 全场 $10 一口价；会员 $4／小时（首小时免费）。</strong>' +
+          '<strong>这一项补上了上一版「未能确认」的空缺。</strong>' +
           'Benjamin Franklin Parkway、N 21st Street 与 N 22nd Street 上有路边计时表位，秋季周末极难找。' +
           '公共交通：SEPTA 巴士 7、32、38、43、48 路可达；' +
           '<strong>最近的地铁站都在 1.5 公里以外，不推荐。</strong>',
@@ -380,6 +437,7 @@ module.exports = {
       n: 2,
       name: '东州监狱',
       en: 'Eastern State Penitentiary',
+      must: 4.5,
       score: 5,
       tldr: '本区最强的室内摄影目标，也是唯一允许三脚架的地方（$10 现场加购）；但 10 月牢房里会有 Halloween 布景。',
       tags: [
@@ -438,6 +496,43 @@ module.exports = {
           '那些著名的、层层剥落的墙面就是铅漆。<strong>不要用手去摸剥落面、拍完洗手再吃东西。</strong>' +
           '另外全场地面高低不平、石缘锐利，' +
           '官方明确要求<strong>不穿凉鞋、人字拖、露趾鞋与高跟鞋</strong>。'
+      ],
+      tour: [
+        '<strong>进门先领音频设备，按官方推荐从主线 1–10 站走完再说，约 40 分钟。</strong>' +
+          '旁白是 Steve Buscemi。<strong>全场是一条单向路线，主线全长 2,300 英尺（约 700 米，官方数字）</strong>，' +
+          '<strong>走回头路要绕整圈，所以想细看的地方第一次经过时就看完。</strong>' +
+          '主线终点是 The Big Graph 与 Prisons Today 两个现代展——' +
+          '<strong>那是「这座 1829 年的监狱和今天的美国有什么关系」的答案，别因为赶时间就跳掉。</strong>',
+        '<strong>五样绝对不能错过：</strong>' +
+          '<strong>① 中央看守塔（rotunda）</strong>——站在圆心往七条牢房翼各望一眼，' +
+          'Haviland 的放射状平面是用眼睛而不是用图纸才懂的；' +
+          '<strong>② Cellblock 7 的二层走马廊（catwalk）</strong>，18 级台阶上去，' +
+          '是唯一能从高处俯看一整条原始牢房翼的位置，也是全场塌顶天窗最集中的一段；' +
+          '<strong>③ Al Capone 的牢房（在 Cellblock 8）</strong>，按 1929 年他服刑时的样子复原，有地毯、家具与收音机；' +
+          '<strong>④ Cellblock 15 的 Death Row 与「Klondike」惩戒牢房</strong>；' +
+          '<strong>⑤ Alfred W. Fleisher Memorial Synagogue</strong>（1929 年在监狱里落成的犹太会堂，' +
+          '连同 Freedom Through Faith 展，有一级小台阶）。' +
+          '<strong>此外还有 14 件当代艺术装置散布全场，挑一两件看即可。</strong>',
+        '<strong>可以跳过的部分：14 件艺术装置里的大多数、Making Headlines 这类小型专题展、' +
+          '以及每天临时排的 Mini Tours（5–20 分钟的小段讲解，主题每天变）。</strong>' +
+          '<strong>体力不够或推轮椅的，Cellblock 7 的 18 级走马廊台阶官方明说「可以直接绕过」。</strong>' +
+          '省下的时间留给中央看守塔与牢房翼本身——<strong>这里的价值在空间，不在展板。</strong>',
+        '<strong>排队与人流：10:00 一开门进场是全天最空的一小时，' +
+          '周六日 12:00–15:00 最挤；最后入场 16:00，16:00 之后场内人会明显变少。</strong>' +
+          '<strong>10 月是这里全年最忙的月份（Halloween Nights 的外溢人流），周末尤其明显。</strong>' +
+          '入场安检禁武器、防狼喷雾、折刀、打火机与手电筒；' +
+          '<strong>白天票线上买便宜 $2、且是定时票，现场买要看当日余量。</strong>' +
+          '<strong>想慢慢逛就买 Self-Guided Audio Tour，不限停留时长；' +
+          '买 Guide-Led 会被 45 分钟的固定路线绑住。</strong>',
+        '<strong>餐饮与卫生间，这一条必须提前知道：场内没有任何餐饮设施（官方 FAQ 原文）。</strong>' +
+          '<strong>卫生间只有两处：入口附近一座三格的活动厕所拖车（有冲水与自来水），' +
+          '以及主线终点 The Big Graph 旁边的两个移动厕所——各有一格无障碍</strong>（官方无障碍页原文）。' +
+          '<strong>也就是说全场十英亩、两个街区大的范围里只有这两个点，进场前先解决。</strong>' +
+          '吃饭请出门就近在 Fairmount 街区解决，那一带餐厅密度很高。',
+        '<strong>体感与安全：全场没有空调也没有暖气（官方原文「the building does not have climate control」），' +
+          '10 月的石头建筑里明显比室外冷，多带一层。</strong>' +
+          '<strong>地面石板高低不平、石缘锐利，官方明文不建议穿凉鞋、人字拖、露趾鞋与高跟鞋。</strong>' +
+          '<strong>墙面剥落的是铅漆（馆方有正式的 lead-based paint hazard 声明）——不要用手摸，出来洗手再吃东西。</strong>'
       ],
       photo: '建筑与废墟 <strong>5/5</strong>，纪实 <strong>4.5/5</strong>，细节质感 <strong>5/5</strong>，人像 <strong>3/5</strong>，风光 <strong>1/5</strong>。' +
         '题材独一无二、允许三脚架、可以慢慢磨（音频导览票不限停留时长）；' +
@@ -502,6 +597,14 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>2–3 小时；只看重点 60–75 分钟。</strong>' +
+          '官方 FAQ 原文两处：<strong>「Most visitors spend about two hours on site」</strong>与' +
+          '<strong>主音频线「includes ten audio stops and lasts about 40 minutes total」</strong>，' +
+          '主线步行距离官方给的是 <strong>2,300 英尺（0.44 英里）</strong>。' +
+          '分配建议：<strong>主线 1–10 站 40 分钟 ＋ Cellblock 7 走马廊、Al Capone 牢房与 Death Row 30 分钟 ' +
+          '＋ 会堂与 The Big Graph／Prisons Today 两展 30 分钟</strong>。' +
+          '<strong>Self-Guided Audio Tour 票不限停留时长，认真拍可以从 10:00 待到 17:00 闭馆；' +
+          'Guide-Led 则是固定 45 分钟一场。</strong>',
         book: '<strong>强烈建议线上预约（便宜 $2 且是定时票）</strong>，现场也可买但受当日余量限制。' +
           '两种白天票二选一：<strong>Self-Guided Audio Tour</strong>（Steve Buscemi 旁白，主线 10 站约 40 分钟，' +
           '之后可自由探索，<strong>停留时长不限</strong>）或 <strong>Guide-Led Tour &amp; Discussion</strong>' +
@@ -519,7 +622,8 @@ module.exports = {
           '<strong>Halloween Nights 夜场「Tickets start at $49」</strong>，按夜别与场次浮动；' +
           '加购 The Speakeasy $20（线上或现场）、Hospital Flashlight Tour $13（仅现场）、' +
           '停车＋摆渡 $22 线上／$30 现场。' +
-          '<strong>外墙与瞭望塔在 Fairmount Avenue 人行道上拍摄完全免费。</strong>',
+          '<strong>外墙与瞭望塔在 Fairmount Avenue 人行道上拍摄完全免费。</strong>' +
+          '<strong>以上票价于 2026 年 9 月 13 日在 easternstate.org 的 Know Before You Go 页逐条复核，与上一版完全一致。</strong>',
         hours: '官方原文（easternstate.org/historic-site/hours-of-operation）：' +
           '<strong>「March – November: Open Daily, 10:00 a.m. to 5:00 p.m.」</strong>，' +
           '官网首页另注明音频导览<strong>「Available every day from 10 am to 5 pm (last entry 4 pm)」</strong>。' +
@@ -527,6 +631,13 @@ module.exports = {
           '全年只闭 New Year\'s Day、Thanksgiving、Christmas Eve、Christmas Day。' +
           '<strong>Halloween Nights 为 2026 年 10 月 2 日–11 月 7 日的 select nights 夜场，' +
           '「Opening and closing times vary each night, based on demand」，与白天时段不重叠。</strong>' +
+          '<strong>→ 针对 10/13–10/26 这两周的明确结论（2026 年 9 月 13 日复核官方 Hours of Operation 页与 Halloween FAQ 页）：' +
+          '白天的历史参观这十四天每天都正常开放，10:00–17:00、最后入场 16:00，没有任何一天因 Halloween Nights 而停开或缩短，' +
+          '也不需要另买 Halloween 的票。' +
+          '唯一的变化是导览团缩到每天一场（工作日 12:00、周六日 11:00）——自助音频导览不受影响。</strong>' +
+          '<strong>官方 Halloween FAQ 还反过来鼓励白天再来一次：' +
+          '「Add daytime historic site admission to your Halloween Nights ticket purchase and save up to $5」，' +
+          '这本身就证明白天场次在整个 10 月照常售票运营。</strong>' +
           '大多数访客在场约两小时，<strong>但音频导览票不限停留时长，认真拍可以待到闭馆。</strong>',
         parking: '<strong>官方明确说明自己没有停车场。</strong>' +
           '<strong>最好用的是免费路边车位：官方原文指出 22nd Street（面对入口时的左侧）与 Brown Street（后墙一侧）' +
@@ -578,6 +689,7 @@ module.exports = {
       n: 3,
       name: '斯旺纪念喷泉与洛根圆环',
       en: 'Swann Memorial Fountain · Logan Square',
+      must: 2.5,
       score: 4.5,
       tldr: '2023 年起故障、2025 年 9 月全面停水，但已于 2026 年 5 月修复重新运行；秋季通常开到 10 月下旬。',
       tags: [
@@ -628,6 +740,35 @@ module.exports = {
           '喷泉 1924 年 7 月在一个酷热的日子里落成（当时现场有人在跳探戈）。' +
           '2007 年由景观事务所 OLIN 做过一次整体复兴。' +
           '<strong>环岛外圈的梧桐与泡桐是 Gréber 原始设计的一部分，也是本机位秋色的主要来源。</strong>'
+      ],
+      tour: [
+        '<strong>先说定位：这是一个「路过时花十五分钟」的点，不值得专程打车过来。</strong>' +
+          '它的真正用处是<strong>把 Cathedral（184 米）、Barnes（350 米）、Rodin（530 米）与美术馆（1.22 公里）串成一条直线的中转站</strong>——' +
+          '这四个点都在 Parkway 上，Logan Circle 正好在中间，' +
+          '<strong>你几乎一定会经过它，那就顺便走进去绕一圈。</strong>',
+        '<strong>绕池走一整圈，认三尊铜像：' +
+          'Delaware River 是持弓的壮年男性，有鱼朝他喷水；' +
+          'Schuylkill River 是握着天鹅脖颈的成年女性；' +
+          'Wissahickon Creek 是倚着喷水天鹅的少女。</strong>' +
+          '这三条正是费城的三条水系。<strong>最容易被漏掉的是池子里喷水的青铜蛙与龟</strong>，' +
+          '蹲下来看一眼。<strong>知道一件事会让这一站完全不同：' +
+          '喷泉作者 Alexander Stirling Calder、轴线另一端 City Hall 塔顶 William Penn 像的作者（他父亲）、' +
+          '以及美术馆一带现代动态雕塑的作者（他儿子 Sandy Calder），是祖孙三代。</strong>',
+        '<strong>怎么进去：这是一个真正在跑车的多车道环岛，必须走信号灯过街口，不要横穿。</strong>' +
+          '<strong>2026 年 5 月市政府刚完成一次改造，外圈 15 英尺宽的人行道整体重铺、八处路缘坡道升级到 ADA 标准、' +
+          '混凝土路缘换成花岗岩，官方项目页状态已标为「Completed」</strong>——' +
+          '<strong>也就是说你到访时围挡与施工都已撤场，这是上一版没能确认、本次已确认的一项。</strong>' +
+          '推婴儿车与轮椅现在没问题。',
+        '<strong>唯一真正的不确定因素是「有没有水」。</strong>' +
+          'Parks &amp; Recreation 的口径是通常开到 10 月中至下旬，无霜冻可延到 Thanksgiving，' +
+          '<strong>而且官方从不公布确切关停日。</strong>' +
+          '你的窗口 10/13–10/26 正好压在这个边界上：' +
+          '<strong>前半段（10/13–10/19）几乎肯定有水，后半段属于看天。</strong>' +
+          '<strong>干池不是灾难，只是从「会动的水景」变成「三尊站在空盆里的铜像」，十分钟就看完。</strong>',
+        '<strong>没有卫生间、没有餐饮、没有座椅以外的任何设施。</strong>' +
+          '<strong>最近的公共卫生间在 Parkway 对面的 Free Library of Philadelphia 总馆（1901 Vine St，约 250 米）</strong>，' +
+          '或进 Barnes／Cathedral。' +
+          '<strong>人最少的是 08:00 以前；午后到傍晚池沿上常坐满人，夏季有人下水、秋季少见但仍有。</strong>'
       ],
       photo: '建筑环境 <strong>4.5/5</strong>，雕塑细节 <strong>4.5/5</strong>，慢门水景 <strong>5/5</strong>，人像 <strong>4/5</strong>。' +
         '免费、24 小时、且是全区唯一能做「慢门水流」的题材，还能同框 Cathedral 的圆顶与 Parkway 的轴线；' +
@@ -693,8 +834,13 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>15–25 分钟；绕池走一整圈约 10 分钟。</strong>' +
+          '分配：<strong>绕圈一周、三尊铜像各看一眼 10 分钟 ＋ 在池西北侧朝东南看一眼 Cathedral 圆顶与 Parkway 轴线 5 分钟。</strong>' +
+          '<strong>这是本区唯一一个「不需要留时间预算」的点</strong>——' +
+          '它在 Barnes／Rodin／Cathedral 的步行路线正中间，走过去的路上就顺带看完了。' +
+          '<strong>没有官方建议时长（这是公共环岛而非场馆），以上按场地规模推算。</strong>',
         book: '<strong>不需预约、不需票</strong>',
-        ticket: '<strong>免费</strong>',
+        ticket: '<strong>免费</strong>（2026 年 9 月 13 日复核：公共公园，无任何收费项目）',
         hours: '<strong>公共环岛与广场，24 小时开放。</strong>' +
           '<strong>但「有没有水」是季节性的</strong>：Parks &amp; Recreation 官方口径为' +
           '<strong>「通常 4 月底或 5 月初开始运行，一般至少开到 10 月中至下旬，' +
@@ -702,6 +848,10 @@ module.exports = {
           '<strong>官方不公布确切关停日期（按气温临时决定），这一项无法提前锁定。</strong>' +
           '喷泉在 2023–2025 年间因人为破坏与泵故障长期不完整、2025 年 9 月完全停水，' +
           '<strong>已于 2026 年 5 月修复并由市政府官方确认恢复运行。</strong>' +
+          '<strong>2026 年 9 月 13 日复核：市政府 Logan Square Sidewalk Improvement 项目页状态为「Completed」，' +
+          '完工时间 2026 年 5 月，页面并注明「While Logan Circle was closed during construction, ' +
+          'Philadelphia Parks and Recreation also completed work on the Swann Fountain and nearby landscaping」' +
+          '——围挡已撤、喷泉修复属同一批工程，此项已确认。</strong>' +
           '夜间有照明。',
         parking: '<strong>不要在这里找车位。</strong>Logan Circle 周围是多车道环岛与 Parkway 主线，' +
           '路边计时表位极少。<strong>SEPTA Broad Street Line 或 Market–Frankford Line 到 ' +
@@ -750,6 +900,7 @@ module.exports = {
       n: 4,
       name: '罗丹博物馆',
       en: 'The Rodin Museum',
+      must: 3,
       score: 4,
       tldr: '花园是主角，《地狱之门》与《思想者》在门口；票含在美术馆票内，但周二三四连闭三天、周五不延时。',
       tags: [

@@ -303,6 +303,7 @@ module.exports = {
       n: 1,
       name: '橡实街与灯塔山',
       en: 'Acorn Street & Beacon Hill',
+      must: 3.5,
       score: 4.5,
       tldr: '巷宽约 5 米、房高约 11 米，秋季阳光永远打不到鹅卵石——所以阴天与 07:00 前才是正解，不是「等好光」。',
       tags: [
@@ -355,6 +356,47 @@ module.exports = {
           '路牌上写「50 miles to Boston」指的是距这个金顶 50 英里。' +
           '<strong>DCAMM 的 $1,110 万穹顶大修（BSB2403）开工日期是 2026 年 11 月 3 日，含穹顶周圈脚手架</strong>，' +
           '所以你这一趟拍到的是最后一批无脚手架的金顶。'
+      ],
+      tour: [
+        '<strong>普通游客的正确逛法是「一条 1.2 公里的下坡线」，不是「去看那条网红巷」。</strong>' +
+          '从 Red Line 的 <strong>Charles/MGH</strong> 站出来，沿 <strong>Charles Street</strong>（山脚的商业街，' +
+          '古董店、独立书店 Beacon Hill Books & Cafe、咖啡馆都在这条街上）走到 <strong>Mount Vernon Street</strong> 右转上坡，' +
+          '依次经过 <strong>Louisburg Square → Acorn Street → Chestnut Street</strong>，' +
+          '最后从 Beacon Street 顶端走到 <strong>Massachusetts State House</strong>，再下到 Boston Common。' +
+          '<strong>这条线全程上坡不到 40 米高差，但铺的全是砖与鹅卵石</strong>，' +
+          '穿硬底鞋、别穿高跟；推婴儿车的建议改走 Charles Street 与 Beacon Street 这两条平路。',
+        '<strong>真正不能错过的三样，按优先级排：</strong>' +
+          '<strong>①Massachusetts State House 室内</strong>（免费、有讲解、是四者里唯一有实质内容的），' +
+          '重点看二楼 <strong>House Chamber 里挂的「Sacred Cod」</strong>——一条 1.5 米长的木雕鳕鱼，' +
+          '1784 年起挂在议事厅里代表鳕鱼贸易对麻州的立国意义，' +
+          '1933 年被哈佛《Lampoon》的学生偷走过，全城警察找了两天；' +
+          '还有 <strong>Doric Hall、Hall of Flags、Senate Chamber</strong>。' +
+          '<strong>②Louisburg Square</strong>（1844 年起的私有广场，全美最早的住宅业主组织，' +
+          'Louisa May Alcott 在 10 号去世，John Kerry 曾住 19 号）。' +
+          '<strong>③Acorn Street</strong>——说实话它只有 70 米，走完一分钟，' +
+          '<strong>它的价值全在「你见过这张照片」这件事上</strong>，对不拍照的人来说十分钟足够。',
+        '<strong>可以跳过的：Beacon Hill 没有任何「必须进去」的收费景点。</strong>' +
+          '<strong>Nichols House Museum</strong>（55 Mount Vernon Street，成人 $15，' +
+          '<strong>只在周四至周六开、定时导览、需预约</strong>）是唯一的室内宅邸博物馆，' +
+          '房子本身漂亮但藏品普通，<strong>除非你专门喜欢 19 世纪室内装潢，否则这 60 分钟不如给 State House 或 Public Garden</strong>。' +
+          '<strong>Museum of African American History 与 Black Heritage Trail 则相反，值得留时间</strong>：' +
+          'African Meeting House（8 Smith Court）是<strong>全美现存最古老的黑人会堂（1806）</strong>，' +
+          '就在 Acorn Street 北边 400 米，历史分量远高于任何一栋豪宅。',
+        '<strong>人流与时段：这一带没有排队，但有「人挤到拍不了也走不动」的时段。</strong>' +
+          'Acorn Street <strong>09:00 之后开始有旅游团与婚纱／写真拍摄，10:00–16:00 基本是满的</strong>；' +
+          'State House 室内则完全相反，<strong>只在工作日 08:45–17:00 开、周末与法定假日全天不开</strong>，' +
+          '所以<strong>周末来 Beacon Hill 的人只能看外面</strong>。' +
+          '最省事的安排是<strong>工作日上午 09:00 先进 State House（人最少、不用等）</strong>，' +
+          '出来 10:30 再逛街区。',
+        '<strong>餐饮与卫生间：整个 Beacon Hill 街区里没有公共卫生间，这是实际约束。</strong>' +
+          '三个可用点：<strong>①State House 一楼（过安检后即可用，工作日）</strong>；' +
+          '<strong>②Boston Common 的 Visitor Information Center（139 Tremont Street，' +
+          '同时也是 Freedom Trail 导览的售票处与出发点）</strong>；' +
+          '<strong>③Charles Street 上的咖啡馆（需消费）</strong>。' +
+          '吃饭集中在 <strong>Charles Street</strong>：Tatte Bakery（早餐与轻食）、' +
+          'Beacon Hill Books & Cafe（书店地下的咖啡馆，位子少要等）、' +
+          'Paramount（71 Charles Street，1937 年开的老式点餐柜台，早午餐经典但周末排长队）。' +
+          '<strong>山上的住宅段一家店都没有，别指望走着走着能找到吃的。</strong>'
       ],
       photo: '街拍 <strong>5/5</strong>，建筑 <strong>4/5</strong>，人像 <strong>4.5/5</strong>，风光 <strong>1/5</strong>。' +
         '题材密度与色调统一度是全区第一（红砖加黑门加黄铜门牌加煤气灯），' +
@@ -429,6 +471,16 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>整个 Beacon Hill 街区 1.5–2.5 小时。</strong>' +
+          '分配：<strong>Charles Street 走走看看 20–30 分钟</strong>、' +
+          '<strong>Louisburg Square 与 Mount Vernon／Chestnut Street 住宅段 20–30 分钟</strong>、' +
+          '<strong>Acorn Street 10–15 分钟</strong>（认真拍照的加到 40–60 分钟）、' +
+          '<strong>Massachusetts State House 室内 45–60 分钟</strong>' +
+          '（官方免费导览的口径是 <strong>40 分钟</strong>，自助看完 Doric Hall、Hall of Flags 与两个议事厅约 30 分钟）。' +
+          '<strong>只看重点 50 分钟</strong>：Charles/MGH 站出来直奔 Acorn Street 与 Louisburg Square，' +
+          '再走到 State House 拍金顶外景，不进楼。' +
+          '<strong>周末来的话上限就是 1 小时</strong>——室内不开，剩下的全是街景。' +
+          '实际排行程时把它与隔壁的 <strong>Public Garden</strong>（步行 7 分钟）算成同一个半天。',
         book: '<strong>Acorn Street、Louisburg Square、Boston Common 全部是公共空间，不需预约、不需票。</strong>' +
           'State House 室内<strong>自助参观不需预约</strong>；' +
           '<strong>免费的 40 分钟导览需要提前电话预约</strong>——' +
@@ -498,6 +550,7 @@ module.exports = {
       n: 2,
       name: '波士顿公共图书馆 · McKim 楼',
       en: 'Boston Public Library · McKim Building',
+      must: 4,
       score: 5,
       tldr: 'Bates Hall 免票、无限制、每日开放；窗户朝东北，09:00–11:00 是唯一有直射光柱的窗口，三脚架明确禁止。',
       tags: [
@@ -552,6 +605,44 @@ module.exports = {
           '<strong>1990 年代内院翻修时，BPL 又照着 MFA 那个复制品再复制了一个，她才终于回到原位。</strong>' +
           '改造方案里包含<strong>给中庭加透明顶棚</strong>（现方案称能把活动从「限于 6–8 月」扩展到全年），' +
           '一旦实施，露天中庭就不存在了。'
+      ],
+      tour: [
+        '<strong>这是一座「进得去、不要钱、也没人管你」的国家历史地标，而且它有明确的最优路线。</strong>' +
+          '<strong>务必从 Dartmouth Street 的老正门（McKim 楼）进，不要从 Boylston Street 的新楼（Johnson 楼）进</strong>——' +
+          '新楼是 1972 年的现代主义混凝土盒子，普通借还书用的，走错门你会以为这座图书馆平平无奇。' +
+          '正门路线：<strong>进门 → 门厅（Entrance Hall，头顶是 Guastavino 瓷砖拱顶）→ ' +
+          '大楼梯（黄褐色 Siena 大理石，两侧一对 Louis Saint-Gaudens 的石狮）→ ' +
+          '二楼 Puvis de Chavannes 壁画走廊 → 右转进 Bates Hall</strong>。全程不到 3 分钟。',
+        '<strong>绝对不能错过的四处，按顺序：</strong>' +
+          '<strong>①Bates Hall（二楼）</strong>——<strong>66 米长、13 米高的筒形拱顶阅览室</strong>，' +
+          '成排的绿色玻璃灯罩台灯就是你见过的那张照片，' +
+          '<strong>它是一间在用的阅览室，请安静、不要占着桌子拍</strong>。' +
+          '<strong>②Sargent Gallery（三楼，从 Bates Hall 外再上一层窄楼梯）</strong>——' +
+          'John Singer Sargent 从 1890 年画到 1919 年、画了 29 年的《Triumph of Religion》壁画组，' +
+          '<strong>这是全馆最被游客错过的地方，九成人只到二楼就走了</strong>。' +
+          '<strong>③Abbey Room（二楼）</strong>——Edwin Austin Abbey 的《Quest for the Holy Grail》十五联画，' +
+          '橡木护墙加金箔天花，气氛比 Bates Hall 更浓。' +
+          '<strong>④Courtyard（一楼内院）</strong>——照着罗马 Palazzo della Cancelleria 做的意大利式回廊中庭，' +
+          '中央是 Frederick MacMonnies 的 Bacchante 铜像（1896 年因「裸体且醉酒」被波士顿舆论轰出去过，' +
+          '现在这尊是 1993 年的复制品）。<strong>天气好的时候这里是全馆最舒服的休息点，而且免费坐。</strong>',
+        '<strong>可以跳过的：Johnson 楼（新楼）整栋、以及地下的展览空间。</strong>' +
+          '新楼里只有 Newsfeed Café 与普通借阅区，建筑上没有任何可看的；' +
+          '地下的临时展规模很小（通常一到两个展柜），<strong>除非主题正好对你胃口，否则省下 15 分钟给三楼的 Sargent Gallery</strong>。' +
+          '<strong>Map Center（Leventhal 地图中心，一楼）则相反，值得进去 10 分钟</strong>——' +
+          '免费，常设展是波士顿填海造地的历史地图，能让你明白 Back Bay 这个名字为什么叫「后湾」。',
+        '<strong>排队与人流：完全不排队，没有安检，没有寄存要求。</strong>' +
+          '这是 Boston 室内景点里门槛最低的一个。' +
+          '<strong>人最少的时段是工作日 09:00–11:00 与 18:00 之后（周一至周四开到 20:00）</strong>；' +
+          '<strong>周末与下午 13:00–16:00 的 Bates Hall 几乎每张桌子都坐着人</strong>，' +
+          '想拍空荡荡的经典视角只有开门后那一小时。' +
+          '<strong>下雨天这里是全城最好的备案</strong>——免费、室内、能待三小时，而且离 Copley 站只有 150 米。',
+        '<strong>餐饮与卫生间：馆内两者都有，而且质量不差。</strong>' +
+          '<strong>卫生间在一楼门厅左右两侧与二楼</strong>，免费公共使用，不需要出示任何东西。' +
+          '餐饮有三处：<strong>①Newsfeed Café（Johnson 楼一楼，三明治与咖啡，最快）</strong>；' +
+          '<strong>②Courtyard Restaurant（McKim 楼二楼，正对内院，供应正式午餐与英式下午茶，需预约）</strong>；' +
+          '<strong>③Map Room Tea Lounge（一楼，轻食）</strong>。' +
+          '<strong>三处都不需要买门票就能用，因为本来就没有门票。</strong>' +
+          '注意<strong>阅览室内禁止饮食</strong>，水也不行。'
       ],
       photo: '室内建筑 <strong>5/5</strong>，细节 <strong>4.5/5</strong>，人文 <strong>4/5</strong>，风光 <strong>0.5/5</strong>。' +
         '这是本区摄影价值最高的单一目标：免费、每日开放、题材极强、且不受天气影响；' +
@@ -622,6 +713,13 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1.5–2.5 小时</strong>。分配：' +
+          '<strong>门厅与大楼梯 10 分钟、Bates Hall 30–40 分钟、Sargent Gallery 20 分钟、' +
+          'Abbey Room 15 分钟、Courtyard 内院 15–20 分钟、Map Center 10 分钟</strong>。' +
+          '<strong>只看重点 40 分钟</strong>：正门进 → 大楼梯 → Bates Hall → 内院，原路出来。' +
+          '<strong>参加官方免费建筑导览的话额外留 60 分钟</strong>（馆方 Art & Architecture Tour 的公布时长为约一小时，' +
+          '现场在正门 Dartmouth Street 门厅集合，时段以当天公告为准）。' +
+          '<strong>雨天或想坐下来歇脚的，这里可以撑到 3 小时以上</strong>，是全区性价比最高的室内时间。',
         book: '<strong>不需预约、不需票、不需登记</strong>，直接走进去。' +
           '<strong>但如果你打算做「正式拍摄」（带助手、换装、打灯、婚纱或订婚照），必须事先申请</strong>：' +
           '官方原文<strong>「Unfortunately we cannot allow formal photography shoots during library hours」</strong>，' +
@@ -629,8 +727,10 @@ module.exports = {
           '联系 Special Events Office：<strong>events@bpl.org / 617.859.2212</strong>。' +
           '<strong>二手来源称许可费 $750 起，未在 bpl.org 上找到公布价格。</strong>',
         ticket: '<strong>免费</strong>。全馆所有公共区域（含 Bates Hall、内院、大楼梯、Abbey Room、Sargent Gallery）' +
-          '<strong>一律不收费</strong>。也有免费的馆方建筑导览，时段以现场公告为准。',
-        hours: '官方原文（bpl.org/locations/central，Central Library in Copley Square）：' +
+          '<strong>一律不收费</strong>。也有免费的馆方建筑导览，时段以现场公告为准。' +
+          '<strong>【2026-09-13 于 bpl.org 重新核实：全馆仍然免票，无任何收费区域。】</strong>',
+        hours: '<strong>【2026-09-13 于 bpl.org/locations/central 重新核实，与下列口径一致】</strong>' +
+          '官方原文（bpl.org/locations/central，Central Library in Copley Square）：' +
           '<strong>「Monday–Thursday 9:00 am – 8:00 pm / Friday 9:00 am – 5:00 pm / ' +
           'Saturday 9:00 am – 5:00 pm / Sunday 11:00 am – 5:00 pm」</strong>。' +
           '→ <strong>本区罕见的「每日开放、无每周闭馆日」的大馆</strong>。' +
@@ -691,6 +791,7 @@ module.exports = {
       n: 3,
       name: '三一教堂与科普利广场',
       en: 'Trinity Church & Copley Square',
+      must: 3.5,
       score: 4.5,
       tldr: 'Hancock 玻璃倒影的窗口是 10:30–14:30，15:00 后玻璃自己受光就废了；教堂周日周一不开、门票 $10。',
       tags: [
@@ -747,6 +848,48 @@ module.exports = {
           '<strong>搜索缓存里 Trinity 官网还留着「currently behind the construction fence」的旧文案，' +
           '但直接抓当前页面，那半句已经删掉了。</strong>' +
           '→ <strong>现在是新铺装、新草坪、喷泉运行、无围挡的状态。</strong>'
+      ],
+      tour: [
+        '<strong>先回答「$10 到底值不值」：值，但前提是你进得去。</strong>' +
+          '这栋楼被 American Institute of Architects 列为<strong>「全美十大最重要建筑」之一</strong>，' +
+          '而且它是那份名单上少数几栋你能花十美元走进去的。' +
+          '<strong>但它每周日、周一不对游客开放</strong>——' +
+          '很多人是在 Copley Square 站着看了看外面就走了，那等于没看。' +
+          '门票含三种玩法任选：<strong>自助（给地图，15–30 分钟）、音频导览（扫 QR 或借机器，约 30 分钟）、' +
+          'docent 真人导览（45–60 分钟，只在特定时段，时间表在官网日历上）</strong>。' +
+          '<strong>第一次来、又只能待半小时的，选音频导览；有一小时的，等 docent 场次——' +
+          '这里的讲解质量是 Boston 收费景点里最好的之一。</strong>',
+        '<strong>进去之后盯住这四样：</strong>' +
+          '<strong>①John La Farge 的彩绘玻璃与内壁画</strong>——这是整座教堂的核心。' +
+          'La Farge 在这里发明并首次大规模使用了<strong>「opalescent glass」（乳光玻璃）</strong>，' +
+          '把颜色做进玻璃本体而不是画在表面，' +
+          '<strong>比 Tiffany 用同类工艺早，而且 Tiffany 的两扇窗也在这座堂里，可以直接对比</strong>。' +
+          '<strong>②中殿抬头看的整体色调</strong>——Richardson 要求内部「像一幅画」，' +
+          '于是墙面通体做成暗红与金，这在新英格兰的清教传统里是极其反叛的一手。' +
+          '<strong>③西侧 William Morris &amp; Edward Burne-Jones 的窗</strong>（英国工艺美术运动的原作）。' +
+          '<strong>④地基的冷知识</strong>：Back Bay 是填海地，' +
+          '<strong>这栋 1.1 万吨重的石头建筑整个坐在 4,502 根打进泥里的木桩上</strong>，' +
+          '木桩必须永远泡在地下水位以下才不腐烂，教堂至今在监测水位。',
+        '<strong>可以跳过的：Copley Square 广场本身不需要专门留时间。</strong>' +
+          '广场 2026 年 5 月刚翻修完工，干净、没有围挡，但它就是一块草地加喷泉加一尊 Phillips Brooks 像，' +
+          '<strong>走过去顺便看两分钟就够，不要把它当一个「点」</strong>。' +
+          '<strong>真正该连起来的是「BPL + Trinity Church」这一组</strong>：' +
+          '两者隔着 Copley Square 相望，只有 250 米、3 分钟，' +
+          '<strong>一个免费一个 $10，加起来是 Boston 最划算的半天室内行程</strong>。' +
+          '广场另一侧的 Old South Church（1875，也是 Freedom Trail 上那个 Old South Meeting House 的后继堂区）免费可进，' +
+          '<strong>如果 Trinity 那天不开，这是最近的替代品</strong>。',
+        '<strong>排队与流程：基本不排队，没有安检。</strong>' +
+          '从<strong>正对 Copley Square 的 West Porch 主门</strong>进，' +
+          '票在 Narthex（门廊）的 Welcome Desk 现场买，刷卡即可。' +
+          '<strong>两个必须避开的时间点：每周二 12:00–12:45 因 Tuesday Holy Eucharist 全面暂停入场；' +
+          '每周五 12:15 有管风琴音乐会——这个反过来是好事，音乐会期间免票进场（建议捐 $10）。</strong>' +
+          '<strong>人最少是工作日 10:00–11:30</strong>。' +
+          '另外这是活跃堂区，<strong>婚礼、葬礼随时可能整场清空，出发当天打 617-536-0944 转 102 问一句最稳。</strong>',
+        '<strong>餐饮与卫生间：教堂内部只有很小的一处卫生间，不要指望。</strong>' +
+          '正确做法是<strong>用马路对面 Boston Public Library 的卫生间</strong>（免费、干净、不需门票，250 米）。' +
+          '吃饭同理往 BPL 或 <strong>Copley Place / Prudential Center 商场</strong>走（各 3–5 分钟），' +
+          '两处都有大型美食广场；<strong>Newbury Street 上的餐厅步行 5 分钟内也全都够得着</strong>。' +
+          '<strong>教堂内明确禁止饮食，官方原文「food and drink are not consumed in the church」，进门前解决掉手里的咖啡。</strong>'
       ],
       photo: '建筑 <strong>5/5</strong>，室内 <strong>4.5/5</strong>，城市抽象 <strong>4.5/5</strong>，风光 <strong>1/5</strong>。' +
         '「古典石构倒映在现代玻璃里」是 Boston 唯一无可替代的一张，' +
@@ -818,13 +961,21 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>Trinity Church 室内 30–60 分钟，连 Copley Square 与 Old South Church 共 1–1.5 小时。</strong>' +
+          '分配依据取自官方票务页对三种参观方式的时长口径：' +
+          '<strong>自助「usually within 15 to 30+ minutes」、音频导览「approximately 30 minutes」、' +
+          'docent 导览「approximately 45 to 60 minutes」</strong>。' +
+          '<strong>建议给 45 分钟</strong>：音频导览 30 分钟走完，再留 15 分钟自己回中殿坐着看 La Farge 的窗。' +
+          '<strong>只看外观 10 分钟</strong>（Copley Square 绕教堂一圈）。' +
+          '<strong>与 Boston Public Library 连做请整体留半天 3–4 小时</strong>，两者只隔 250 米。',
         book: '<strong>广场不需预约。教堂个人参观也不需预约，现场在 Narthex 的 Welcome Desk 买票即可</strong>' +
           '（入口是<strong>朝 Copley Square 的 West Porch 主门</strong>）。' +
           '<strong>Guided Tour 由 docent 带领、45–60 分钟、只在特定时段发车</strong>，' +
           '场次见官网 web calendar。' +
           '<strong>团体私人导览需填表申请，且周日与周一不提供。</strong>' +
           '最新时段请电话确认：<strong>617-536-0944 转 102</strong>。',
-        ticket: '官方原文：<strong>「The price is $10 for Adults, or $8 for Seniors, Students, Educators, ' +
+        ticket: '<strong>【2026-09-13 于 trinitychurchboston.org/visit/tours 重新核实，票价与免费条件均无变化】</strong>' +
+          '官方原文：<strong>「The price is $10 for Adults, or $8 for Seniors, Students, Educators, ' +
           'Military, First Responders, and Massachusetts Residents. Children younger than 14 and EBT &amp; WIC cardholders are free.」</strong>' +
           '<strong>门票含三种参观方式任选：自助（附地图，15–30 分钟）、' +
           '音频导览（扫 QR 码或借设备，约 30 分钟）、docent 导览（45–60 分钟，限特定时段）。</strong>' +
@@ -835,7 +986,8 @@ module.exports = {
           '<strong>另有完全免费的 Free Exterior Audio Tour</strong>：' +
           'West Porch 上有 QR 码，或访问 trinitychurchboston.org/feat，不受开放时间限制。' +
           '<strong>Copley Square、喷泉、Phillips Brooks 像全部免费、24 小时。</strong>',
-        hours: '<strong>官方原文（trinitychurchboston.org/tours）：「Trinity Church is open for tours ' +
+        hours: '<strong>【2026-09-13 重新核实，官网仍是下列口径】</strong>' +
+          '<strong>官方原文（trinitychurchboston.org/tours）：「Trinity Church is open for tours ' +
           'Tuesday through Saturday from 10 am to 4:30 pm (Guests who purchase admission by 4:30 pm will have until 5 pm in the Sanctuary)」。</strong>' +
           '→ <strong>周日与周一不对游客开放，这是本条目最大的时段陷阱。</strong>' +
           '<strong>夏季的周日时段（11:00–15:30）官方写明只到 9 月 6 日为止</strong>' +
@@ -900,6 +1052,7 @@ module.exports = {
       n: 4,
       name: '公共花园与波士顿公园',
       en: 'Boston Public Garden & Boston Common',
+      must: 4,
       score: 4,
       tldr: '天鹅船 9 月 7 日已收季，但空湖面反而给了干净的桥倒影；红叶要等到 10 月 22 日以后才成立。',
       tags: [
@@ -951,6 +1104,50 @@ module.exports = {
           '（Boston Globe 2026 年 9 月 4 日）；' +
           '而 Public Garden 里大量的<strong>垂柳在整个秋季基本保持黄绿</strong>，' +
           '所以这里的秋色是「红＋黄绿＋水面」的组合，而不是满屏火红。'
+      ],
+      tour: [
+        '<strong>这是两座挨在一起但性质完全不同的公园，先分清楚，否则你会以为自己已经逛过了。</strong>' +
+          '以 <strong>Charles Street</strong> 为界：' +
+          '<strong>西边是 Public Garden（1837，全美第一座公共植物园）</strong>——有湖、有桥、有整齐的花坛与标牌树，' +
+          '是「精心设计的花园」；' +
+          '<strong>东边是 Boston Common（1634，全美最古老的公园）</strong>——大片草地与老树，' +
+          '历史上做过牧牛地、英军营地与绞刑场，是「城市广场」。' +
+          '<strong>普通游客真正要在意的是：Freedom Trail 的红砖线起点就在 Boston Common</strong>，' +
+          '<strong>Visitor Information Center 在 139 Tremont Street</strong>（官方导览的售票处与出发点，' +
+          '售票时间 08:30–16:45），所以这两座公园通常是你 Boston 第一天的第一站。',
+        '<strong>不能错过的五处，一条线串完：</strong>' +
+          '<strong>①Make Way for Ducklings 铜像</strong>（Public Garden 东北角，靠 Beacon 与 Charles Street 路口）——' +
+          'Robert McCloskey 1941 年童书里的鸭妈妈与八只小鸭，1987 年立的，' +
+          '<strong>带孩子的话这是全城最高兴的十分钟；秋冬当地人会给鸭子们戴上针织帽与围巾</strong>。' +
+          '<strong>②Lagoon Bridge</strong>（1867，号称世界最小的悬索桥，后来改成了梁桥）。' +
+          '<strong>③George Washington 骑马像</strong>（Arlington Street 正门内，Public Garden 的主轴端点）。' +
+          '<strong>④The Embrace</strong>（Boston Common，2023 年立的 Martin Luther King Jr. 与 Coretta Scott King 拥抱的青铜手臂群像，' +
+          '6 米高、19 吨，是本市最新也最有争议的公共艺术）。' +
+          '<strong>⑤Robert Gould Shaw &amp; 54th Regiment Memorial</strong>（正对 State House，' +
+          'Augustus Saint-Gaudens 做了 14 年，纪念南北战争第一支北方黑人团，电影《Glory》讲的就是他们；' +
+          '<strong>2020–2024 大修后已重新揭幕</strong>）。',
+        '<strong>可以跳过的：天鹅船（本次根本没有）、Frog Pond、以及公园里绝大多数小纪念碑。</strong>' +
+          '<strong>天鹅船 9 月 7 日已收季，湖面是空的，不用去船坞那边找</strong>。' +
+          '<strong>Frog Pond 在秋季既不是泳池也还没变成溜冰场，就是一个空水泥坑</strong>（溜冰季通常 11 月下旬才开），' +
+          '完全没有看头。' +
+          '<strong>Central Burying Ground</strong>（Common 东南角，Boylston Street 边）人少、氛围好，' +
+          '<strong>但如果你之后要走 Freedom Trail，Granary Burying Ground 的分量高得多（Paul Revere、John Hancock、' +
+          'Samuel Adams 都埋在那儿），这里可以直接省掉</strong>。',
+        '<strong>人流、安全与季节：白天随便逛，天黑后的 Boston Common 不要穿越。</strong>' +
+          '<strong>Public Garden 全天人都不多，08:00 前几乎空场</strong>；' +
+          'Boston Common 在工作日午间会有大量上班族。' +
+          '<strong>入夜后 Common 的东侧（近 Tremont Street 与 Boylston Street 路口，俗称「Methadone Mile」外溢区）' +
+          '有明显的露宿与吸毒人群聚集，这是波士顿市政多年未解决的问题</strong>——' +
+          '晚上从 Beacon Hill 回市中心请绕 Beacon Street 或 Charles Street 走，不要抄近路穿公园。' +
+          '<strong>红叶：2026 年 Boston 市区峰期预计 10 月 25 日–11 月 1 日</strong>，' +
+          '也就是说 10 月 13–20 日来的话园子基本还是绿的，10 月 22 日之后才开始成立。',
+        '<strong>餐饮与卫生间：两座公园里的公共卫生间极少且不可靠，请提前解决。</strong>' +
+          '<strong>最可靠的一处是 Boston Common Visitor Information Center（139 Tremont Street）</strong>，' +
+          '开放时段内可用、同时能拿免费地图与 Freedom Trail 导览票。' +
+          'Public Garden 内<strong>只有近 Charles Street 一侧船坞旁的一处季节性卫生间，天鹅船收季后通常一并关闭</strong>。' +
+          '餐饮：公园里只有几台季节性餐车（热狗、椒盐卷饼、冰淇淋），' +
+          '<strong>正经吃饭往 Charles Street（Beacon Hill 山脚，步行 2 分钟）或 Newbury Street（步行 6 分钟）走</strong>；' +
+          '<strong>Tremont Street 一侧出公园就是 Downtown Crossing，选择最多但也最吵</strong>。'
       ],
       photo: '风光 <strong>4/5</strong>（10/22 后）／<strong>2.5/5</strong>（之前），' +
         '城市公园 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>，建筑 <strong>3/5</strong>。' +
@@ -1020,13 +1217,22 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>两园合计 1–2 小时。</strong>分配：' +
+          '<strong>Public Garden 绕湖一圈加 Ducklings 铜像 30–45 分钟</strong>、' +
+          '<strong>Boston Common 穿过去看 The Embrace 与 Shaw Memorial 30–45 分钟</strong>。' +
+          '<strong>只看重点 35 分钟</strong>：Arlington 站进 → Washington 像 → Lagoon Bridge → Ducklings → ' +
+          '过 Charles Street → Shaw Memorial → Park Street 站出。' +
+          '<strong>10 月 22 日之后红叶起来了，值得加到 2–2.5 小时慢慢走</strong>。' +
+          '若你打算在这里接上 Freedom Trail 的官方导览，' +
+          '<strong>请额外留 90 分钟（Walk Into History 的官方时长），并提前到 139 Tremont Street 取票</strong>。',
         book: '<strong>不需预约、不需票。</strong>' +
           '<strong>天鹅船 2026 季已于 9 月 7 日结束</strong>，' +
           '本来也是现场买票、不接受预约（供明年参考：成人 $4.75、2–15 岁 $3.25、' +
           '65 岁以上 $4.25、2 岁以下免费，单程约 12–15 分钟，接受现金与信用卡）。',
         ticket: '<strong>Public Garden 与 Boston Common 全部免费。</strong>' +
-          '园内所有雕像、桥、湖、草坪均无收费项目。',
-        hours: '<strong>两座公园都是 Boston Parks and Recreation Department 管理的市属公园，全年开放</strong>，' +
+          '园内所有雕像、桥、湖、草坪均无收费项目。' +
+          '<strong>【2026-09-13 核实：boston.gov 的 Boston Common 与 Public Garden 页面上均无任何门票条目，仍为免费市属公园。】</strong>',
+        hours: '<strong>【2026-09-13 核实】两座公园都是 Boston Parks and Recreation Department 管理的市属公园，全年开放</strong>，' +
           '<strong>没有围栏关门的机制，实务上 24 小时可进入</strong>。' +
           '<strong>但夜间不建议久留</strong>（尤其 Boston Common 靠 Tremont Street 一侧）。' +
           '<strong>官方明确规定：Public Garden 内禁止喂任何鸟类</strong>' +
@@ -1089,6 +1295,7 @@ module.exports = {
       n: 5,
       name: '后湾褐石街区与纽伯里街',
       en: 'Back Bay Brownstones & Newbury Street',
+      must: 2,
       score: 3.5,
       tldr: '街网实测 70°／250°：每条街只有北侧那排受光，南侧永久阴面；10 月 25 日落日几乎顺街轴落下。',
       tags: [
@@ -1144,6 +1351,49 @@ module.exports = {
           '<strong>想拍纯粹的褐石联排，请往北走一条街到 Marlborough Street 或 Beacon Street</strong>——' +
           '那两条是安静的住宅街，立面完整、几乎没有商业改造，' +
           '<strong>而且游客密度是 Newbury 的十分之一。这是本条目最实际的一条建议。</strong>'
+      ],
+      tour: [
+        '<strong>诚实的定位：这不是一个「景点」，是一个你会顺路穿过好几次的漂亮街区。</strong>' +
+          '<strong>如果你在 Boston 只有两三天，不需要为它单独安排时间</strong>——' +
+          'Boston Public Library、Trinity Church、Public Garden 都在它的边上，' +
+          '你去那三个地方的路上自然就走完了 Back Bay。' +
+          '它的真正价值是「城市本身」：<strong>1857–1890 年间用碎石填平一片潮汐湿地造出来的整片街区</strong>，' +
+          '<strong>是全美保存最完整、也最规整的维多利亚城市肌理</strong>，' +
+          '而且街名按 A 到 H 的字母顺序排（Arlington、Berkeley、Clarendon、Dartmouth、Exeter、Fairfield、Gloucester、Hereford），' +
+          '<strong>在 Boston 这座以路网混乱著称的城市里，这是唯一一块你不会迷路的地方</strong>。',
+        '<strong>要走哪条街，取决于你想要什么，这三条完全不一样：</strong>' +
+          '<strong>①Commonwealth Avenue Mall</strong>——中央那条 32 米宽的林荫步道（仿巴黎林荫大道设计，' +
+          '是 Frederick Law Olmsted 的「Emerald Necklace」绿链的一段），' +
+          '<strong>两侧是整个街区最气派的大宅，10 月下旬两排榆树转黄时这是 Boston 最好看的一条街，没有之一</strong>。' +
+          '<strong>②Marlborough Street 与 Beacon Street</strong>——纯住宅，没有店，' +
+          '<strong>想看没被店招牌破坏的完整褐石立面只能来这两条</strong>。' +
+          '<strong>③Newbury Street</strong>——商业街，八个街区的店，' +
+          '<strong>但它一层全是店面、二层以上才是原来的褐石，所以「看建筑」的话它是三条里最差的一条</strong>；' +
+          '它的用处是购物、吃饭与人流气氛。<strong>只有一条的话，走 Commonwealth Avenue Mall。</strong>',
+        '<strong>能进去的室内只有两处，且都不是必须：</strong>' +
+          '<strong>①Gibson House Museum（137 Beacon Street）</strong>——' +
+          '<strong>唯一一栋内部原封不动保留下来的 Back Bay 联排宅邸</strong>，' +
+          '1860 年的家具、壁纸、厨房全是原装，' +
+          '<strong>只能跟定时导览进（约 1 小时），成人票约 $15，开放日有限，须先查官网</strong>。' +
+          '喜欢老宅内装的人会觉得超值，其他人会觉得闷。' +
+          '<strong>②Prudential Center 的 View Boston 观景台（50 楼三层，成人票 $36 起）</strong>——' +
+          '<strong>诚实说：波士顿天际线不高、也不密，这张票的性价比明显低于纽约或芝加哥的同类</strong>，' +
+          '除非遇上阴雨天没别的可做，否则不建议。',
+        '<strong>人流与时段：没有排队、没有门票、没有闭馆时间，这是它最大的好处。</strong>' +
+          '<strong>Newbury Street 的店大多 11:00 开、18:00–19:00 关，周日更晚开更早关</strong>；' +
+          '<strong>周六下午 13:00–17:00 是全周最挤的时候</strong>。' +
+          '住宅段（Marlborough、Beacon）任何时候都几乎没人。' +
+          '<strong>一个实际的季节提醒：Back Bay 的街道树以榆树与梧桐为主，2026 年市区峰期预计 10 月 25 日–11 月 1 日</strong>，' +
+          '10 月中来的话 Comm Ave Mall 还是绿的。' +
+          '<strong>另外这一带路边停车全是居民证限制，执法非常严，不要开车过来。</strong>',
+        '<strong>餐饮与卫生间：这是全区餐饮密度最高的地方，反过来卫生间却不好找。</strong>' +
+          '<strong>街上没有公共卫生间</strong>；可靠的三处是' +
+          '<strong>①Boston Public Library（Copley Square，免费、不需消费）</strong>、' +
+          '<strong>②Prudential Center 商场</strong>、<strong>③Copley Place 商场</strong>。' +
+          '吃饭：<strong>Newbury Street 上从 $5 的 bagel 到米其林级别都有</strong>，' +
+          '经典的几家是 Trident Booksellers &amp; Cafe（书店咖啡馆，早午餐，常排队）、' +
+          'Tatte Bakery（多家分店）、Saltie Girl（海鲜，晚餐要订位）。' +
+          '<strong>想吃便宜又快的往 Prudential Center 的美食广场走</strong>。'
       ],
       photo: '建筑 <strong>4/5</strong>，街拍 <strong>4/5</strong>，风光 <strong>3/5</strong>，人像 <strong>4/5</strong>。' +
         '免费、24 小时、街网规整到可以精确计算光线，Comm Ave Mall 的落日轴线是真正的加分项；' +
@@ -1217,6 +1467,14 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45 分钟–1.5 小时，而且基本可以和别的行程合并，不必单算。</strong>分配：' +
+          '<strong>Commonwealth Avenue Mall 从 Arlington 走到 Hereford（约 1.2 公里）25–30 分钟</strong>、' +
+          '<strong>拐回 Newbury Street 逛街 30 分钟–2 小时（完全取决于你买不买东西）</strong>、' +
+          '<strong>Marlborough 或 Beacon Street 住宅段 15 分钟</strong>。' +
+          '<strong>只看重点 25 分钟</strong>：只走 Comm Ave Mall 从 Arlington 到 Dartmouth 这四个街区。' +
+          '<strong>加 Gibson House Museum 的话再加 1 小时（定时导览制）。</strong>' +
+          '实际排行程时建议把它挂在 <strong>Public Garden → Newbury Street → Copley Square（BPL + Trinity）</strong> 这条线里，' +
+          '不要当成独立的一站。',
         book: '<strong>全部是公共街道，不需预约、不需票、无任何开放时间限制。</strong>' +
           'Comm Ave Mall 是公共步道，Marlborough 与 Beacon 是公共街道（沿街建筑为私宅，不入内）。',
         ticket: '<strong>完全免费。</strong>' +
@@ -1285,6 +1543,7 @@ module.exports = {
       n: 6,
       name: '哈佛大学 · 哈佛庭院',
       en: 'Harvard University · Harvard Yard',
+      must: 4,
       score: 4,
       tldr: 'Yard 已于 2025 年 6 月重新对公众开放，免费无证件，6 道门 24 小时；Art Museums 免票但周一闭馆。',
       tags: [
@@ -1347,6 +1606,52 @@ module.exports = {
           '<strong>建筑本身是 Renzo Piano 2014 年的改造，中央玻璃屋顶下的多层庭院是绝佳的建筑摄影题材</strong>。' +
           '<strong>另一个便宜的加分项：Adolphus Busch Hall（29 Kirkland Street）也免费，' +
           '但只在周三 13:00–17:00 与周六 10:00–14:00 开放。</strong>'
+      ],
+      tour: [
+        '<strong>怎么逛：Red Line 坐到「Harvard」站，出站就在 Yard 的门口，整个区域步行 15 分钟见方。</strong>' +
+          '标准路线是<strong>地铁站 → Johnston Gate（正门，砖柱铁门，1889 年，是 Yard 二十几道门里最正式的一道）→ ' +
+          'Old Yard（John Harvard 像、Massachusetts Hall、Harvard Hall）→ ' +
+          '穿过去到 Tercentenary Theatre（Widener Library 的巨大列柱阶梯与 Memorial Church 隔草坪对望）→ ' +
+          '东门出到 Quincy Street → Harvard Art Museums</strong>。' +
+          '<strong>Yard 在 2025 年 6 月重新对公众开放，免费、不查证件、不需预约，六道门 24 小时</strong>，' +
+          '但它随时可能因校内活动临时整体关闭，而且没有规律。',
+        '<strong>不能错过的两件，一件免费一件也免费：</strong>' +
+          '<strong>①Harvard Art Museums（32 Quincy Street）</strong>——' +
+          '这是 Harvard 之行真正的内容所在，很多人完全不知道它存在。' +
+          '<strong>三馆合一（Fogg、Busch-Reisinger、Arthur M. Sackler），25 万件藏品，三层五十多个展厅，' +
+          '2014 年 Renzo Piano 重建，中央是玻璃屋顶的 Calderwood Courtyard</strong>。' +
+          '重点：<strong>三楼的 Rothko 壁画室、印象派与后印象派（梵高的自画像、莫奈、德加）、' +
+          '四楼的 Lightbox Gallery、以及 Busch-Reisinger 的德国表现主义（全美最好的一批）</strong>。' +
+          '<strong>完全免费，周一闭馆。</strong>' +
+          '<strong>②Widener Library 的外阶</strong>——' +
+          '1912 年由 Harry Elkins Widener 的母亲捐建，' +
+          '<strong>他 27 岁死于 Titanic 沉船</strong>，母亲要求学校永远不得改动这栋楼的外观；' +
+          '<strong>图书馆内部只对持 Harvard ID 者开放，游客上不去，站在阶梯上拍完就行</strong>。',
+        '<strong>关于 John Harvard 像，说三件事省得你被导游忽悠：</strong>' +
+          '<strong>它被称为「三重谎言雕像」（Statue of Three Lies）</strong>——' +
+          '底座写着「John Harvard, Founder, 1638」，' +
+          '<strong>而三句话全错：这不是 John Harvard 本人（没有留下任何画像，1884 年雕塑家 Daniel Chester French 找了个学生当模特）、' +
+          '他不是创办人（只是第一位重要捐赠者，捐了藏书与一半遗产）、建校年份是 1636 不是 1638</strong>。' +
+          '<strong>摸左脚会带来好运是旅游业编出来的说法，没有任何校内传统依据</strong>；' +
+          '而<strong>那只被摸得锃亮的鞋每年都要清洗，因为学生半夜往上面撒尿是真实存在的恶作剧</strong>。' +
+          '知道这些之后你会发现排队摸脚这件事很没必要——拍一张就走。',
+        '<strong>可以跳过的、以及要不要花钱跟导览：</strong>' +
+          '<strong>Harvard Square 本身（书店与连锁店）不值得专门逛</strong>，' +
+          '例外是 <strong>Harvard Book Store（1256 Massachusetts Avenue，独立书店，地下室有二手区）</strong>。' +
+          '<strong>Harvard Museum of Natural History（成人 $15）里的「Glass Flowers」玻璃花标本</strong>' +
+          '（Blaschka 父子花 50 年做的 4,300 件玻璃植物模型）是真正独一无二的东西，' +
+          '<strong>但它在 Yard 北边 600 米外，要额外 1 小时加门票，只在你对自然史有兴趣时才去</strong>。' +
+          '<strong>学生带队的付费校园导览（各家 $20–35）：内容基本是校园八卦与申请故事</strong>，' +
+          '<strong>官方的 Harvard Visitor Center 另有免费与付费选项，需在 harvard.edu 上提前登记</strong>；' +
+          '<strong>自己走完全没问题，Yard 不大，也没有讲解才能看懂的东西。</strong>',
+        '<strong>餐饮与卫生间：Yard 内部没有对游客开放的卫生间，这一点务必先想好。</strong>' +
+          '<strong>最可靠的两处：①Harvard Art Museums 一楼（免费入馆，卫生间在 Calderwood Courtyard 旁）</strong>、' +
+          '<strong>②Harvard Square 地铁站与 Smith Campus Center（1350 Massachusetts Avenue，' +
+          '一楼是对公众开放的共享空间，有座位、咖啡与卫生间，是这一带最好用的休息点）</strong>。' +
+          '吃饭：<strong>Harvard Square 周边密度很高</strong>——' +
+          'Felipe\'s Taqueria（便宜快，屋顶有座）、Tatte、Clover（本地素食快餐连锁）、' +
+          '<strong>Mr. Bartley\'s Burger Cottage（1246 Massachusetts Avenue，1960 年开的汉堡老店，只收现金／刷卡加价，周日不开）</strong>。' +
+          '<strong>Harvard 的食堂（含著名的 Annenberg Hall）不对公众开放，别去敲门。</strong>'
       ],
       photo: '建筑 <strong>4.5/5</strong>，风光 <strong>3.5/5</strong>（10/22 后升到 4.5），' +
         '人文纪实 <strong>4/5</strong>，室内 <strong>4/5</strong>（Art Museums）。' +

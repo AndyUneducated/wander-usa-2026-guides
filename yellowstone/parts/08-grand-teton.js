@@ -150,6 +150,7 @@ module.exports = {
       n: 1,
       name: 'Oxbow Bend 牛轭湾',
       en: 'Oxbow Bend',
+      must: 4.5,
       score: 5,
       tldr: '全园第一机位：Mount Moran 在死水面上的完整倒影，路边下车即到。但只在日出成立，且 10 月中旬后棉白杨落光。',
       tags: [
@@ -172,6 +173,25 @@ module.exports = {
         '<strong>致命的时段限制：Mount Moran 从这里看方位角 259°，仰角 5.5°；而 9 月 25 日日落方位 269°。</strong>' +
           '也就是说太阳几乎正好沉进 Moran 背后，<strong>直射光比日历日落早约 30 分钟就结束，之后山体是纯逆光剪影</strong>。' +
           '这里的傍晚不是没得拍（暮色剪影与倒影仍有画面），但<strong>「Oxbow Bend 拍日落」是一个被大量旅游文章重复的错误建议</strong>。'
+      ],
+      tour: [
+        '<strong>这是一个路边观景点，不是景区，也不需要走步道。</strong>从 US-89/191/287 的铺装 turnout 下车，走 20–30 米平坦地面就到水边，普通鞋即可，铺装段轮椅可达。' +
+          '所谓「逛」就是沿岸线来回挪两三百米换角度，看的是同一座山。',
+        '<strong>标准逛法：</strong>先在主 turnout 正对水面看 Mount Moran 的完整立面——认它的两个特征，' +
+          '<strong>山体中央那条几乎垂直的黑色岩脉（the Black Dike）</strong>与<strong>东壁上形似平底锅的 Skillet Glacier</strong>；' +
+          '然后沿岸往西北走那条土路 10–15 分钟，水面更开阔、人少一个量级，原路折返。全套 30–40 分钟，只看一眼 10 分钟够了。',
+        '<strong>停车是这里唯一的实际难点：turnout 只有 20–30 个车位。</strong>' +
+          '<strong>日出前 45 分钟就开始满，08:00–10:00 是全天最挤的时段，11:00 之后明显松动。</strong>' +
+          '满位时不要停在行车道上、也不要把车开下路肩草地；往西 1 英里的 Jackson Lake Junction 一带空间大得多，等一轮再回来。',
+        '<strong>厕所与餐饮：这里什么都没有——没有厕所、没有垃圾桶、没有饮水、没有手机信号。</strong>' +
+          '最近的设施是 <strong>Jackson Lake Lodge（往西约 5 分钟车程，有洗手间与 Pioneer Grill 快餐，2026 年营业到 10 月 4 日）</strong>' +
+          '与 <strong>Colter Bay（约 15 分钟车程，便利店与洗手间，2026 年 9 月底陆续关闭）</strong>。出发前先解决，别指望现场。',
+        '<strong>野生动物的规矩要当硬性规定守：法定距离是熊与狼 100 码（约 91 米）、其他一切动物（含驼鹿、麋鹿、bison）25 码（约 23 米）</strong>，' +
+          '车内车外一视同仁，禁止投喂与引诱。这里驼鹿、白头海雕、水獭、白鹈鹕都常见，但都请在岸上远远看。' +
+          '<strong>岸线是软泥且正是驼鹿的核心觅食区，不要为了看清楚下到泥岸。</strong>',
+        '<strong>熊喷雾：西侧岸线那条土路两侧全是柳丛、视线完全被挡，是典型的近距离遭遇地形，单独走请带 EPA 注册的熊喷雾并持续出声。</strong>' +
+          '9 月下旬正是熊的增食期（hyperphagia），全年冲突概率最高。<strong>喷雾不能带上飞机</strong>，在 Jackson 的户外店购买或租用。' +
+          '另外这一带「动物堵车」是日常：看到前车突然停下先减速，把车完全停进 turnout 再下车，不要站在行车道上。'
       ],
       photo: '风光 <strong>5/5</strong>，野生动物 <strong>4.5/5</strong>，人像 <strong>3/5</strong>。' +
         '正面受光的雪山 + 镜面死水 + 前景金树 + 零步行距离，构图元素齐备到近乎作弊，这是本区唯一无条件给 5 分的点。' +
@@ -212,9 +232,18 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>30–45 分钟</strong>（下车看山 10–15 分钟 + 西侧岸线土路往返 20–30 分钟）。' +
+          '<strong>只想打卡：10 分钟。</strong>' +
+          '<strong>要等日出或蹲野生动物：预留 1.5–2 小时</strong>——日出前 45 分钟到位，日出后 75 分钟内收工（起风后水面就碎了）。',
         book: '不需预约。Grand Teton 全园无 timed entry、无车辆预约。',
-        ticket: '园区门票 <strong>$35 / 车 / 7 天</strong>；<strong>持 America the Beautiful 年票免费</strong>，且免掉非美居民 $100/人的附加费。园区不收现金。',
-        hours: '<strong>24 小时开放，全年无休。</strong>turnout 无门禁、无关闭时间，可以在天黑前到位等日出。所在的 US-89/191/287 是全年开放的主干道。',
+        ticket: '园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 16 岁以上 $20，同为 7 天）；' +
+          '<strong>Grand Teton 单园年票 $70</strong>；<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。' +
+          '<strong>非美国居民 16 岁以上每人另付 $100 nonresident fee，官方原文「unless admitted with an Annual or America the Beautiful Pass」——持任一年票即免。</strong>' +
+          '<strong>与 Yellowstone 的关系：两园各收各的，Grand Teton 的 $35 七日票与 $70 单园年票都进不了 Yellowstone；只有 America the Beautiful 年票一票通吃。</strong>' +
+          '<strong>2026 年 5 月 1 日起全园不收现金</strong>，只收刷卡、tap-to-pay 与手机钱包；七日票与年票也可先在 recreation.gov 买电子版。' +
+          '（<strong>2026-09-13 核实于 nps.gov/grte 官方 Fees &amp; Passes 与 Fee FAQ 页</strong>）',
+        hours: '<strong>24 小时开放，全年无休。</strong>turnout 无门禁、无关闭时间，可以在天黑前到位等日出。' +
+          '所在的 US-89/191/287 是全年开放的主干道。（2026-09-13 核实于 nps.gov/grte Park Roads 页）',
         parking: '路侧铺装 turnout，<strong>免费</strong>，约 20–30 个车位。<strong>秋季日出前 45 分钟基本会满</strong>，10 月下旬压力小很多。严禁停在行车道上。',
         walk: '<strong>不到 1 分钟 / 约 20–30 米</strong>，平坦。西侧岸线机位需另走 10–15 分钟土路。'
       },
@@ -238,6 +267,7 @@ module.exports = {
       n: 2,
       name: 'Schwabacher Landing 河岸下水点',
       en: 'Schwabacher Landing',
+      must: 3,
       score: 4.5,
       tldr: '海狸坝把河水拦成静水，能拍到整条 Teton 山脊的完整倒影。碎石支路 10 月中旬后可能已封，出发前必查。',
       tags: [
@@ -258,6 +288,23 @@ module.exports = {
         'NPS 官方把这里列为可申请的婚礼场地，页面里给出了几项对拍摄有用的硬数据：' +
           '<strong>约 20 个车位、有旱厕、地面平整、步道为土路、「早晨非常繁忙、中午中等、傍晚非常繁忙」</strong>，' +
           '以及关键的一句——<strong>「Typically closed mid-October to mid-May」</strong>。'
+      ],
+      tour: [
+        '<strong>先在 US-191 的路口确认闸门开着再拐进去。</strong>支路是约 1 英里的压实碎石路、两侧无护栏、下坡且无处掉头，' +
+          '两驱轿车在干燥时没问题，雨后或初雪后会车辙泥泞。<strong>闸门锁着就是真的进不去，不要试图弃车步行。</strong>',
+        '<strong>到了之后的逛法很简单：把车停在尽头的北侧停车场，沿河岸土路往北走。</strong>' +
+          '3–10 分钟内会依次经过几处被海狸坝拦出来的静水塘，走到哪儿觉得水面好看就停在哪儿。' +
+          '<strong>往返 30–45 分钟</strong>，全程几乎无爬升。' +
+          '<strong>海狸坝的位置和水位每年都不同</strong>，所以别照着网上的老照片找位置，到现场自己走一遍再决定停在哪一段。',
+        '<strong>体力与路面：土路平整但有树根、碎石与河边软泥，落差很小，属于「随便谁都能走」的级别</strong>——' +
+          '但<strong>不适合轮椅与婴儿推车</strong>，天没亮时必须带头灯。穿防水的鞋，河边草上常有露水或霜。',
+        '<strong>停车只有约 20 个车位</strong>，分南北两个小场。NPS 自己给这里的人流口径是<strong>「早晨非常繁忙、中午中等、傍晚非常繁忙」</strong>；' +
+          '<strong>秋季日出前 40 分钟就会满，满了只能沿原路倒回 US-191，路上没有掉头点。</strong>中午来最容易停。',
+        '<strong>厕所有，餐饮没有：停车场旁有旱厕（无水、无洗手池），全区无饮水、无垃圾桶、无手机信号。</strong>' +
+          '最近的餐饮是往南约 4 英里 Moose 路口的 <strong>Dornan\u2019s</strong>（杂货、披萨、咖啡，全年营业），或再往南进 Jackson 镇。',
+        '<strong>河岸柳丛是驼鹿的核心地形，9 月中到 10 月上旬是发情期，公驼鹿具有真实攻击性。</strong>' +
+          '<strong>法定距离：熊与狼 100 码、其他动物 25 码。</strong>看到驼鹿就退回步道、绕开走，不要为了看清楚钻进灌木，也不要挡在它和河之间。' +
+          '带熊喷雾、结伴、出声——这条河岸和 Oxbow Bend 西侧一样是视线受阻的遭遇地形。'
       ],
       photo: '风光 <strong>5/5</strong>，人像 <strong>3.5/5</strong>，野生动物 <strong>3.5/5</strong>。' +
         '完整山脊 + 河面高度 + 静水倒影，构图密度高于 Oxbow Bend；扣分在于车位极少、路况季节性不稳、机位窄导致人挤人。' +
@@ -287,9 +334,15 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45 分钟 – 1.5 小时</strong>（从 US-191 拐进来到开回主路的全程）：碎石路单程 5 分钟车程 + 河岸步行往返 30–45 分钟。' +
+          '<strong>只想下车看一眼：25–30 分钟。</strong><strong>等日出：预留 2 小时</strong>（日出前 40 分钟必须已经停好车）。',
         book: '不需预约（举办仪式才需 NPS 许可，每天仅发一张、全年上限 60 张）。',
-        ticket: '园区门票 <strong>$35 / 车 / 7 天</strong>；<strong>持 America the Beautiful 年票免费</strong>。',
-        hours: '<strong>24 小时开放</strong>，但<strong>支路按季节关闭，NPS 口径「typically closed mid-October to mid-May」</strong>。9 月下旬可靠，10 月下旬有实质概率已封。',
+        ticket: '园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 $20）；<strong>Grand Teton 单园年票 $70</strong>；' +
+          '<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。<strong>非美居民 16 岁以上每人另付 $100，持任一年票即免。</strong>' +
+          '<strong>Grand Teton 与 Yellowstone 各收各的，$35 与 $70 都不通用。</strong><strong>全园不收现金。</strong>此处本身不另收费。' +
+          '（2026-09-13 核实于 nps.gov/grte 官方 Fees &amp; Passes 页）',
+        hours: '<strong>24 小时开放、无门禁</strong>，但<strong>支路按季节关闭，NPS 官方口径「typically closed mid-October to mid-May」，不公布确切日期</strong>。' +
+          '<strong>9 月 22–29 日的窗口内可靠</strong>，10 月下旬有实质概率已封。（2026-09-13 核实于 nps.gov/grte 场地页与 Park Roads 页）',
         parking: '<strong>约 20 个车位</strong>，免费，分南北两个小场。<strong>秋季日出前 40 分钟满位</strong>，满了只能原路退出去，路上无处掉头。',
         walk: '停车到最近的海狸塘 <strong>3–10 分钟 / 200–600 米</strong>，土路平坦，天黑需头灯。'
       },
@@ -312,6 +365,7 @@ module.exports = {
       n: 3,
       name: 'Snake River Overlook 蛇河观景台',
       en: 'Snake River Overlook',
+      must: 3,
       score: 3,
       tldr: 'Ansel Adams 1942 年那张的原址，但树长高了——他拍的那个前景已经不存在，河湾的 S 形现在被挡住大半。',
       tags: [
@@ -336,6 +390,23 @@ module.exports = {
         '几何上它其实还不错：<strong>Grand Teton 方位 265°、距 14.4 公里、仰角 8.3°</strong>，' +
           '日出时整排山脊正面受光，前景鼠尾草滩在低角度侧光下纹理很好。' +
           '<strong>但仰角 8.3° 意味着直射光比日历日落早约 45 分钟结束</strong>，傍晚同样不成立。'
+      ],
+      tour: [
+        '<strong>它是 US-89/191 路侧的一个大型铺装观景台，没有步道、没有门、没有高差，下车走十几米就到栏杆</strong>，' +
+          '房车与拖挂可停，<strong>全程轮椅可达</strong>。要做的事只有两件：站在栏杆边看整排 Teton 山脊，' +
+          '以及读观景区偏右侧的那块 NPS 解说牌——它讲的就是 Ansel Adams 1942 年在这里拍下《The Tetons and the Snake River》的经过。',
+        '<strong>去之前先把期望调好，否则现场只会失望：Adams 那张照片的画面已经不存在了。</strong>' +
+          '八十多年里观景台与河之间的松树长了上来，<strong>原作里那条蜿蜒进纵深的蛇河 S 形曲线，下半段已经被树冠完全挡住</strong>，这是永久性的。' +
+          '<strong>你现在实际会看到：一片开阔的鼠尾草台地、中景一条深色针叶林带、林带上方一小段发亮的河面（偏画面右侧）、再往上是从 Buck Mountain 到 Mount Moran 的完整山脊。</strong>' +
+          '当成「视野很宽的免费山景台」它是合格的；当成「朝圣 Adams」它一定让你失望。',
+        '<strong>建议和往南 3 英里的 Teton Point Overlook 连着看。</strong>那里同样是路侧铺装 turnout、同样不用走路，' +
+          '<strong>但前景树的遮挡情况不同，某些年份能看到更完整的一段河道</strong>，而且山更近（Grand Teton 约 12.5 公里）。' +
+          '两个点开车相距 5 分钟，看完选自己更喜欢的那个多待一会儿。',
+        '<strong>停车场大且直接在主干道边，秋季几乎不会满</strong>，是本区少数适合房车、行动不便者与「不想下车走路」的人的点位。' +
+          '<strong>但 turnout 是否设有旱厕，未能从官方渠道确认——请按「没有厕所、没有饮水、没有垃圾桶」准备。</strong>' +
+          '最近的正规洗手间是往南约 9 英里 Moose 的 Craig Thomas 访客中心（开到 10 月 31 日），往北是 Jackson Lake Lodge 一带。',
+        '<strong>台地上的风比河谷大得多，清晨体感温度会明显低于气温</strong>，即使只待 20 分钟也请带防风外层与帽子。' +
+          '不要为了角度跨过栏杆踩进鼠尾草滩——这是受保护的植被，也常有响尾蛇以外的小动物；同时守住野生动物 25 码（熊与狼 100 码）的法定距离。'
       ],
       photo: '风光 <strong>3.5/5</strong>，人像 <strong>2.5/5</strong>，纪实 <strong>4/5</strong>。' +
         '给 3 分不是因为难看，而是因为<strong>大多数人来这里是为了复刻 Adams，而这件事已经做不到了</strong>，落差本身会毁掉体验。' +
@@ -365,9 +436,16 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>15–25 分钟</strong>（下车看山 + 读解说牌）。' +
+          '<strong>加上南边 3 英里的 Teton Point Overlook 连看：合计 40–50 分钟</strong>（含两点之间 5 分钟车程）。' +
+          '<strong>要等日出：预留 1 小时</strong>，日出前 30 分钟到位即可，这里从不抢车位。',
         book: '不需预约',
-        ticket: '园区门票 <strong>$35 / 车 / 7 天</strong>；<strong>持 America the Beautiful 年票免费</strong>。',
-        hours: '<strong>24 小时开放。</strong>位于全年开放的 US-26/89/191 上，冬季也能到。',
+        ticket: '园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 $20）；<strong>Grand Teton 单园年票 $70</strong>；' +
+          '<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。<strong>非美居民 16 岁以上每人另付 $100，持任一年票即免。</strong>' +
+          '<strong>与 Yellowstone 各收各的，$35 与 $70 都不通用。</strong><strong>全园不收现金。</strong>观景台本身完全免费。' +
+          '（2026-09-13 核实于 nps.gov/grte 官方 Fees &amp; Passes 页）',
+        hours: '<strong>24 小时开放、无门禁、全年无休。</strong>位于全年开放的 US-26/89/191 上，冬季铲雪，是本区最稳的点位之一。' +
+          '（2026-09-13 核实于 nps.gov/grte Park Roads 页）',
         parking: '<strong>大型铺装停车场，免费</strong>，房车与拖挂可停。秋季几乎不会满。',
         walk: '<strong>0–1 分钟</strong>，停车场直接连观景平台，无高差，轮椅可达。'
       },
@@ -390,6 +468,7 @@ module.exports = {
       n: 4,
       name: 'Mormon Row 摩门排屋历史区（Moulton 谷仓）',
       en: 'Mormon Row Historic District',
+      must: 4.5,
       score: 5,
       tldr: '木谷仓正对 Teton 山脊、日出正面顺光，秋天鼠尾草滩挂霜是决定性加分。2026 全季施工，机器和噪音会入镜。',
       tags: [
@@ -420,6 +499,29 @@ module.exports = {
           '<strong>翻译过来就是：机械设备可能进画，噪音一定有。</strong>' +
           '好消息：<strong>历史区全季保持开放，没有任何封闭</strong>，而且项目内容正是修一个铺装停车场（含大巴位）、旱厕、遮阳棚与规范化的步道观景点，' +
           '2027 年还会加一个 Grand Teton Association 的设施。'
+      ],
+      tour: [
+        '<strong>路线很简单：从 US-26/89/191 拐进 Antelope Flats Road 往东约 1.5 英里，再右转进南北向的 Mormon Row 土路。</strong>' +
+          '核心只有两组建筑、相距约 300 米：<strong>南边是 T. A. Moulton Barn（那张你见过一百次的照片）</strong>，' +
+          '<strong>北边是 John Moulton Barn 加那栋粉色住宅（Pink House）与几座附属棚屋</strong>。' +
+          '<strong>从南走到北再折回，全程约 600–700 米平坦土路，30–45 分钟看完。</strong>',
+        '<strong>建筑内部一律不开放，只能在外面绕着看，也没有讲解员或售票处。</strong>' +
+          '真正值得站住的是北边那一组——方正的谷仓、粉色住宅与棚屋凑在一起，能读出「一户人家」而不只是「一座谷仓」，' +
+          '<strong>而且人通常只有南边的三分之一</strong>。时间紧的话，南边拍完照就直接往北走，别在南边排队。',
+        '<strong>2026 年全区施工，这件事必须先知道：工期 6 月至 11 月，NPS 原文「Visitors will likely hear and see construction equipment in the vicinity of the historic district」。</strong>' +
+          '<strong>好消息是历史区全季不关闭</strong>，施工内容正是在修一个带大巴位的铺装停车场、旱厕、遮阳棚与规范化步道。' +
+          '实际影响是<strong>噪音全天存在、机械可能出现在视野里、可用车位的位置随时变动</strong>。往北走 200 米通常能避开大部分机械。',
+        '<strong>停车目前仍是沿土路的非正式路侧停车，免费，没有划线。</strong>' +
+          '<strong>日出前 40 分钟车位就开始紧张</strong>，上午 09:00–11:00 次紧张，下午最松。' +
+          '<strong>严禁把车开进草地或压到鼠尾草上</strong>；土路在雨后或融雪后会泥泞，两驱轿车慢行没问题但别停在软路肩。',
+        '<strong>厕所与餐饮：现场原本就没有正规洗手间、没有饮水、没有商店。</strong>' +
+          '<strong>施工期间是否设了临时厕所，未能从官方渠道确认，请按「没有」准备。</strong>' +
+          '最近的固定设施是 <strong>Gros Ventre Campground（往南约 15 分钟车程，2026 年 10 月 10 日关闭）</strong>' +
+          '与 <strong>Moose 的 Craig Thomas 访客中心（往西约 20 分钟车程，开到 10 月 31 日）</strong>；Jackson 镇车程约 30 分钟。',
+        '<strong>bison 是这里比熊更现实的危险。</strong>Antelope Flats 一带常有成群 bison 穿过土路、走到建筑之间，' +
+          '<strong>它们看起来迟钝，实际时速可达 35 英里，每年在黄石—提顿一带撞伤的人比熊多。法定距离 25 码（约 23 米），熊与狼 100 码。</strong>' +
+          '<strong>遇上就退回车里，车是最好的掩体；不要为了合影绕到它身后，也不要挡在牛群的行进方向上。</strong>' +
+          '另外这些是 1997 年列入 National Register of Historic Places 的登录建筑，<strong>不要触碰、攀爬或跨进围栏。</strong>'
       ],
       photo: '建筑 <strong>5/5</strong>，风光 <strong>5/5</strong>，人像 <strong>4/5</strong>。' +
         '风化木质纹理 + 雪山 + 平坦鼠尾草前景 + 完美的日出方位，这是全园人文与自然结合得最好的一处。' +
@@ -457,9 +559,18 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45 分钟 – 1.5 小时</strong>：南北两组建筑各看 15–20 分钟 + 之间步行往返 10 分钟。' +
+          '<strong>只看 T. A. Moulton Barn 一处：20–25 分钟。</strong>' +
+          '<strong>等日出：预留 1.5–2 小时</strong>——日出前 45 分钟到位（这时车位才好停），日出后 60 分钟光线转平就可以走。',
         book: '不需预约',
-        ticket: '园区门票 <strong>$35 / 车 / 7 天</strong>；<strong>持 America the Beautiful 年票免费</strong>。',
-        hours: '<strong>24 小时开放，历史区 2026 年全季不关闭。</strong>但建筑内部不对外开放，只能外部拍摄。',
+        ticket: '园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 $20）；<strong>Grand Teton 单园年票 $70</strong>；' +
+          '<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。<strong>非美居民 16 岁以上每人另付 $100，持任一年票即免。</strong>' +
+          '<strong>与 Yellowstone 各收各的，$35 与 $70 都不通用。</strong><strong>全园不收现金。</strong>历史区本身免费、无单独门票。' +
+          '（2026-09-13 核实于 nps.gov/grte 官方 Fees &amp; Passes 页）',
+        hours: '<strong>24 小时开放、无门禁，历史区 2026 年全季不关闭</strong>（NPS 施工公告明确不设封闭）。' +
+          '<strong>但建筑内部全年不对外开放，只能在外面看。</strong>' +
+          '通往这里的 <strong>Antelope Flats Road 属于「按条件季节性关闭」的次级道路，无公布日期</strong>，惯例 11 月 1 日前后关。' +
+          '（2026-09-13 核实于 nps.gov/grte Park Roads 与 Mormon Row 施工公告）',
         parking: '<strong>免费。</strong>目前是沿 Mormon Row 土路的非正式路侧停车，<strong>2026 年正在施工新建铺装停车场（含大巴位与旱厕），工期到 11 月</strong>，' +
           '施工期间可用车位与位置可能临时变动。<strong>日出前 40 分钟车位就开始紧张</strong>（10 月下旬明显缓解）。严禁把车开进草地。',
         walk: '<strong>0–5 分钟。</strong>停车即在谷仓旁；从 T.A. 谷仓走到 John Moulton 一组约 300 米 / 4 分钟，土路平坦。'
@@ -484,6 +595,7 @@ module.exports = {
       n: 5,
       name: 'Jenny Lake · String Lake · Hidden Falls 与 Inspiration Point',
       en: 'Jenny Lake · String Lake · Hidden Falls · Inspiration Point',
+      must: 5,
       score: 4.5,
       tldr: '渡船 9/30 停航，之后去 Hidden Falls 往返多走 4 英里；观景环路开到 10/31。',
       tags: [
@@ -511,6 +623,36 @@ module.exports = {
           '它极浅、几乎不流动，<strong>正对 Mount Moran（方位 325°、距 6.9 公里、仰角 14.4°）</strong>，' +
           '清晨无风时倒影质量不输 Oxbow Bend，而且<strong>因为山近，Moran 在画面里的体量大得多</strong>。' +
           '游客绝大多数在夏天来这里泡水，秋天几乎没人。<strong>Jenny Lake Scenic Drive 与 String Lake 一带的通行取决于 Teton Park Road，10 月 31 日之后全部封闭。</strong>'
+      ],
+      tour: [
+        '<strong>这是全区唯一值得排半天的地方，标准玩法是一条固定动线：</strong>' +
+          '把车停在 South Jenny Lake → 在 Jenny Lake Visitor Center 一带解决厕所 → 走 100–150 码铺装小径到<strong>东岸码头</strong> → ' +
+          '<strong>坐渡船 10 分钟到西岸码头</strong> → 上行 <strong>0.5 英里到 Hidden Falls（落差约 100 英尺）</strong> → ' +
+          '再上行 <strong>0.5 英里、爬升约 400 英尺到 Inspiration Point</strong>（岩台，俯瞰整个 Jackson Hole 河谷与 Jenny Lake 全貌）→ 原路下来坐船回东岸。' +
+          '<strong>这一整套 3–4 小时。</strong>',
+        '<strong>渡船怎么坐（2026-09-13 核实于 jennylakeboating.com 官方页）：不接受预订，到东岸码头现场排队买票上船。</strong>' +
+          '<strong>9 月 8 日至 9 月 30 日运营 09:00–17:00，每 10–15 分钟一班、单程约 10 分钟，末班船在挂牌关门时刻（17:00）从码头开出。</strong>' +
+          '<strong>票价：成人（13–61 岁）往返 $20 / 单程 $15；62 岁以上往返 $18 / 单程 $15；2–12 岁往返 $15 / 单程 $12。单程票两岸都能买。</strong>' +
+          '<strong>排队诀窍是官方自己写的：早上东岸排最长、下午西岸排最长——想躲早上的队就先走过去、坐船回来；想躲下午的队就先坐船、走回来。</strong>' +
+          '另有 10:00 与 12:00 两班 scenic cruise（成人 $30 / 62+ $27 / 2–11 岁 $25，建议预订，307-734-9227）。',
+        '<strong>体力与路面分两段，差别很大。</strong>' +
+          '<strong>西岸码头到 Hidden Falls 的 0.5 英里是坡度平缓的压实碎石路</strong>，绝大多数人都能走，但不适合婴儿推车。' +
+          '<strong>Hidden Falls 再往上到 Inspiration Point 的 0.5 英里是石阶与岩坡、爬升约 400 英尺、单程 30–40 分钟，体力要求明显跳一档，轮椅与推车完全不可行。</strong>' +
+          '<strong>9 月下旬清晨背阴的岩阶可能挂霜或薄冰，微钉鞋套值得带。</strong>体力一般就只到 Hidden Falls 折返，那也已经值回票价。',
+        '<strong>不想花钱或不想排队的两个替代：</strong>' +
+          '（1）<strong>沿 Jenny Lake Loop Trail 绕南岸走过去，单程 2–2.5 英里、平坦、约 1 小时</strong>，往返比坐船多花 2 小时左右；' +
+          '（2）<strong>直接放弃西岸，去 String Lake</strong>——从 North Jenny Lake Junction 西转北行，停车即到湖岸，' +
+          '<strong>水极浅、正对 Mount Moran（仅 6.9 公里）、秋天几乎没人</strong>，是本条目里性价比最高、最省力的一站，20–30 分钟就能看完。',
+        '<strong>停车与满位：South Jenny Lake 停车场 09:00–15:00 会满，最佳到达时间是 08:00 前或 16:00 后</strong>；' +
+          'String Lake 停车场压力小得多。' +
+          '<strong>Jenny Lake Scenic Drive 是单行观景环路（5 月 1 日 – 10 月 31 日开放），错过出口只能绕回 Teton Park Road 重新进。</strong>' +
+          '另外<strong>从 Jackson 走内环过来会撞上 Moose 入口环岛的 20 分钟施工延误（5/1–11/15，不含入口站排队）</strong>，出门请多留半小时。',
+        '<strong>厕所与餐饮的位置要记住，因为西岸什么吃的都没有。</strong>' +
+          '东岸：<strong>Jenny Lake Visitor Center（2026 年开到 10 月 12 日）</strong>与码头一带有洗手间；' +
+          '<strong>Jenny Lake General Store 与 Jenny Lake Lodge 餐厅 10 月 4 日关闭</strong>。' +
+          '西岸：<strong>只有厕所，没有任何餐饮与饮水，请自带水和干粮上山。</strong>' +
+          '最近的正经餐饮是往南约 20 分钟车程 Moose 路口的 <strong>Dornan\u2019s</strong>（全年营业）。' +
+          '<strong>Cascade Canyon 一带是黑熊与灰熊的高频活动区，NPS 明确要求三人以上结队、持续出声、随身带熊喷雾</strong>，9 月下旬是增食期，风险更高。'
       ],
       photo: '风光 <strong>4.5/5</strong>，人像 <strong>4/5</strong>，野生动物 <strong>3/5</strong>。' +
         '山近、湖静、可选机位多；扣分在于 <strong>Jenny Lake 东岸虽然在日出时是顺光，但岸线被密林封住、开阔机位极少，湖又窄，构图很受限</strong>，' +
@@ -552,13 +694,26 @@ module.exports = {
         }
       ],
       access: {
-        book: '园区不需预约。<strong>渡船不接受预订</strong>（现场买票）；scenic cruise 建议预订，307-734-9227。',
-        ticket: '园区门票 <strong>$35 / 车 / 7 天</strong>，<strong>年票覆盖</strong>。' +
-          '<strong>渡船另收：成人往返 $20 / 单程 $15；62+ 往返 $18 / 单程 $15；2–12 岁往返 $15 / 单程 $12。Scenic cruise 成人 $30 / 老人 $27 / 儿童 $25。</strong>',
-        hours: '<strong>湖区与步道 24 小时开放。</strong>' +
-          '<strong>Jenny Lake Boating 2026 年 9 月 30 日为本季最后一天</strong>，9/8–9/30 运营时间 09:00–17:00。' +
+        visit: '<strong>半天：3–4 小时</strong>（渡船往返 40 分钟含排队 + Hidden Falls 与 Inspiration Point 徒步 2–2.5 小时 + 湖岸机动 30 分钟）。' +
+          '<strong>只坐船到西岸看 Hidden Falls 就回：2–2.5 小时。</strong>' +
+          '<strong>只在东岸湖边与游客中心转转：45 分钟 – 1 小时。</strong>' +
+          '<strong>单独加 String Lake：再加 30–45 分钟</strong>（含 10 分钟车程）。' +
+          '<strong>渡船停航后（10 月 1 日起）走全程：5–6 小时，往返 5–6 英里。</strong>',
+        book: '园区不需预约，无 timed entry。<strong>渡船不接受预订，只能到东岸码头现场买票</strong>；scenic cruise 建议预订，307-734-9227。',
+        ticket: '园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 $20）；<strong>Grand Teton 单园年票 $70</strong>；' +
+          '<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。<strong>非美居民 16 岁以上每人另付 $100，持任一年票即免。</strong>' +
+          '<strong>与 Yellowstone 各收各的，$35 与 $70 都不通用。</strong><strong>全园不收现金。</strong>' +
+          '<strong>渡船由特许经营商 Jenny Lake Boating 另收，与园区门票无关、年票不覆盖：' +
+          '成人（13–61）往返 $20 / 单程 $15；62 岁以上往返 $18 / 单程 $15；2–12 岁往返 $15 / 单程 $12；2 岁以下免费。' +
+          'Scenic cruise 成人 $30 / 62+ $27 / 2–11 岁 $25。</strong>' +
+          '（2026-09-13 核实于 nps.gov/grte Fees &amp; Passes 页与 jennylakeboating.com 官方票价页）',
+        hours: '<strong>湖区与步道 24 小时开放、无门禁。</strong>' +
+          '<strong>Jenny Lake Boating 官方原文「September 30 will be the last day of our 2026 operating season. This includes all services.」；' +
+          '9 月 8 日 – 9 月 30 日运营 09:00–17:00，每 10–15 分钟一班，末班船在挂牌关门时刻从码头开出（即 17:00）。' +
+          'Scenic cruise 同期为 10:00 与 12:00 两班。</strong>' +
           '<strong>Jenny Lake Visitor Center 10 月 12 日关闭；Jenny Lake General Store 与 Jenny Lake Lodge 10 月 4 日关闭；Jenny Lake Campground 已于 9 月 27 日关闭。</strong>' +
-          '<strong>Jenny Lake Scenic Drive 5 月 1 日 – 10 月 31 日开放；整个区域随 Teton Park Road 于 11 月 1 日封闭。</strong>',
+          '<strong>Jenny Lake Scenic Drive 5 月 1 日 – 10 月 31 日开放；整个区域随 Teton Park Road 于 11 月 1 日封闭。</strong>' +
+          '（2026-09-13 核实于 jennylakeboating.com 与 nps.gov/grte Operating Hours 页）',
         parking: 'South Jenny Lake 与 String Lake 均为免费铺装／碎石停车场。夏季中午必满，<strong>10 月下旬基本随到随停</strong>。',
         walk: '游客中心到东岸码头 <strong>100–150 码 / 2 分钟</strong>；西岸码头到 Hidden Falls <strong>0.5 英里</strong>、到 Inspiration Point <strong>1 英里 / 爬升 400 英尺</strong>；' +
           '<strong>渡船停航后从东岸绕行单程 2.5–3 英里</strong>。String Lake 停车即到湖岸。'
@@ -584,6 +739,7 @@ module.exports = {
       n: 6,
       name: 'Signal Mountain Summit Road 与 Jackson Point Overlook',
       en: 'Signal Mountain Summit Road · Jackson Point Overlook',
+      must: 4,
       score: 4.5,
       tldr: '本区唯一真正成立的日落点：从 800 英尺高处俯瞰蛇河曲流与整个河谷。11 月 1 日封路，早雪会提前关。',
       tags: [

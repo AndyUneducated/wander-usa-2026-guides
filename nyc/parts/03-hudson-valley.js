@@ -223,6 +223,7 @@ module.exports = {
       n: 1,
       name: '奥拉纳州立历史遗址',
       en: 'Olana State Historic Site, Hudson',
+      must: 4.5,
       score: 4.5,
       tldr: '庭园免费开放到日落，是本区少数能合法拍黄金时段的地方；房子要买票且 11 月 2 日后停止导览。',
       tags: [
@@ -251,6 +252,34 @@ module.exports = {
           + '历史宅邸 16:30 准时关门',
         'Olana 海拔约 460 英尺，属于 mid-Hudson 那一段秋色，'
           + '<strong>预期峰期 10 月 5–18 日</strong>；山下 Hudson 城区会再晚约一周'
+      ],
+      tour: [
+        '<strong>第一件事是决定买不买室内票，因为它决定了你从哪儿开始走。</strong>'
+          + '只逛庭园的话直接把车开到山顶停车场，下车 100 米就是主宅露台，零体力；'
+          + '买了导览票则必须先到山下的 Frederic Church Center 取票集合，'
+          + '<strong>那里到主宅是 1.2 公里上坡、走 20 分钟</strong>，'
+          + '官方要求提前 30 分钟到场，把这段时间算进去',
+        '<strong>绝对不能错过的是主宅西南露台。</strong>'
+          + '这是 Church 本人每天站的位置，越过 Hudson 直接看 Catskill 断崖，'
+          + '本区没有第二个地方能在一眼里同时看到大河、远山和一栋十九世纪宅邸。'
+          + '其次是主宅东南立面的<strong>波斯彩瓷与多色石板屋顶</strong>——'
+          + '这些花纹全是 Church 自己画的草图，凑近看比远看值钱',
+        '<strong>室内导览买哪一种：想看房子选 The Artist\u2019s House: Main Floor（$20、45 分钟、全程无障碍）；'
+          + '周五至周日可以改买 Explore at Your Own Pace（$25、自己按节奏逛一二层、每间房有讲解员）</strong>，'
+          + '后者对不喜欢跟团的人明显更好。'
+          + '两小时组合票 $45 只有在你打算把一整天留给 Olana 时才划算',
+        '<strong>可以跳过的是 Landscape Walk（$12）。</strong>'
+          + '它走的就是 Ridge Road 那条马车道，而<strong>这条路本身免费、随便走</strong>，'
+          + '省下的钱和时间留给室内导览更值。'
+          + 'Wagon House Education Center 也可以略过，那是教育用房不是展厅',
+        '<strong>停车是这里唯一的实际风险。</strong>'
+          + '山顶车位只有二十几个，<strong>秋季周末上午中段就满</strong>，'
+          + '满了就得退回山下的 Frederic Church Center 再走 20 分钟上坡。'
+          + '09:00–10:00 到山顶基本都有位；如果你是奔着导览来的，反正也要去山下集合，就别抢山顶了',
+        '<strong>园内没有餐厅，只有 Olana Shop 卖点小零食，务必提前吃或自带。</strong>'
+          + '<strong>卫生间只有两处：Frederic Church Center 与山顶 Olana Shop 旁</strong>，'
+          + '马车道上一路没有。全园禁烟、无垃圾桶，垃圾必须自己带走；'
+          + '往北开 10 分钟就是 Hudson 市的 Warren Street，那一整条街都是餐馆'
       ],
       photo: '风光 <strong>5/5</strong>，建筑 <strong>4.5/5</strong>，人像 <strong>3.5/5</strong>。'
         + '扣分只因房子本身白天多数时间背光（正立面朝东南、观景面朝西南），'
@@ -297,6 +326,14 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>2–3 小时</strong>。'
+          + '拆开看：<strong>只上山顶看露台与庭园 60–75 分钟</strong>（含停车与走动）；'
+          + '<strong>加一场 The Artist\u2019s House 主层导览 45 分钟，连同提前 30 分钟集合，合计约 2.5 小时</strong>；'
+          + '<strong>再走一趟 Ridge Road 马车道往返另加 50–60 分钟</strong>。'
+          + '想把庭园、室内和马车道全部走完，请留 4 小时以上，或者分上午与傍晚两次来'
+          + '（立面上午顺光、远山傍晚出彩，两者时段本来就相反）。'
+          + '依据为官方导览时长（45 分钟 / 60 分钟 / 两小时组合）与官方「提前 30 分钟到场、'
+          + '两场导览之间留 30 分钟」的建议',
         book: '<strong>庭园不需预约</strong>。'
           + '<strong>历史宅邸导览「strongly recommended」提前预约，官方明确说明 tours sell out quickly</strong>，'
           + '10 月周末实际等同于必须预约。tickets.olana.org 在线购买，或致电 518-751-0344。'
@@ -308,12 +345,20 @@ module.exports = {
           + 'Explore at Your Own Pace（仅周五至周日）<strong>$25</strong>、'
           + '电瓶车导览 <strong>$40</strong>、两小时组合票 <strong>$45</strong>。'
           + '<strong>16 岁及以下参加步行景观与宅邸导览免费</strong>；'
-          + '现役军人、退伍军人与急救人员凭证减 $5',
+          + '现役军人、退伍军人与急救人员凭证减 $5。'
+          + '<strong>另有免费 Community Day：2026 年 6 月至 10 月每月第三个周四，'
+          + '即 10 月 15 日当天的景观与宅邸导览全部免费</strong>，'
+          + '当日 17:00–19:00 现场先到先得、不接受预约。'
+          + '（以上逐档价格于 <strong>2026 年 9 月 13 日</strong>在 olana.org 的 Individual Tours 票价表核对，与上一版一致。）',
         hours: '<strong>庭园：每日 08:00 至日落，全年免费开放</strong>（官方原文「Park: Open Daily, 8AM – Sunset」）。'
           + 'Frederic Church Center 周二至周日 09:30–16:30。'
           + '<strong>导览时段周二至周日 10:00–16:00，2026 导览季为 5 月 19 日–11 月 2 日，周一不开导览</strong>；'
           + '历史宅邸 16:30 准时关闭。'
-          + '需注意 NYS Parks 页面另给出「grounds 08:30 至日落」的口径，与 Olana 官网的 08:00 略有出入，以官网为准',
+          + '需注意 NYS Parks 页面另给出「grounds 08:30 至日落」的口径，与 Olana 官网的 08:00 略有出入，以官网为准。'
+          + '<strong>对 10 月 13 日–10 月 26 日的直接结论（2026 年 9 月 13 日核实）：'
+          + '这两周完全在导览季内，室内与景观导览照常运行，唯一的空档是每周一不开导览'
+          + '（10 月 19 日与 10 月 26 日两个周一只能逛免费庭园）。</strong>'
+          + '本区几处宅邸里，Olana 是收季最晚的一个',
         parking: '三处停车场：Frederic Church Center、Wagon House Education Center、'
           + '以及山顶靠近 Olana Shop 处。<strong>庭园与停车免费</strong>。'
           + '山顶车位数量有限，秋季周末建议 09:00 前到或停在山下步行上山',
@@ -348,6 +393,7 @@ module.exports = {
       n: 2,
       name: '卡特斯基尔瀑布',
       en: 'Kaaterskill Falls, Catskills',
+      must: 4,
       score: 4.5,
       tldr: '纽约州最高的分级瀑布，两级 260 英尺，完全免费；步道与观景台正常开放，但摆渡已停运、23A 全线禁停拖车。',
       tags: [
@@ -377,6 +423,32 @@ module.exports = {
         '<strong>限流提案已在桌面上。</strong>DEC 委托的顾问报告建议日客流上限 1,000 人、'
           + '07:00–19:00 定时入场每小时 25 张票、设置闸口。'
           + 'DEC 强调发布报告不代表采纳，<strong>目前仍然免费、无需许可、无需预约</strong>'
+      ],
+      tour: [
+        '<strong>从 Laurel House Road 停车场进是唯一轻松的走法：0.3 英里碎石缓坡，8–12 分钟到悬挑观景平台。</strong>'
+          + '这条路 2015–2016 年 DEC 重建时按无障碍标准做过，最大坡度 10%、最窄 5 英尺，'
+          + '<strong>推婴儿车和腿脚不便的人都能到</strong>——在 Catskills 这是绝无仅有的条件',
+        '<strong>但要知道平台看到的不是明信片上那张。</strong>'
+          + '平台在上级瀑布的顶沿，看的是瀑布侧面加下方峡谷；'
+          + '<strong>教科书式的「两级全景加铁杉圆形剧场」只有走到瀑布底部水潭才看得到</strong>，'
+          + '自停车场单程 0.7 英里、25–35 分钟，后半段离开碎石路转天然土石面、坡陡，'
+          + '<strong>回程全是上坡</strong>。体力一般的人请把这段算成一小时',
+        '<strong>可以直接放弃的是从 Route 23A 山脚 Bastion Falls 往上走的那条传统路线。</strong>'
+          + '它全程陡石阶、比上面那条累得多，'
+          + '而且<strong>5 月至 10 月整条 23A 禁停拖车，你根本没有合法的地方放车</strong>',
+        '<strong>秋季周末停车就是名额，09:00 前到位，并且提前想好第二第三选择。</strong>'
+          + '顺序：Laurel House Road（最近）→ Scutt Road → South Lake Campground →'
+          + 'Mountain Top Historical Society（建议捐 $20，再走 Kaaterskill Rail Trail 往返约 3 英里）。'
+          + '<strong>路边 pull-off 一律禁停，罚单加拖车，扣车场在 5742 NY-23A, Tannersville</strong>。'
+          + '2023 年高峰日客流约 1,850 人、单日最高近 3,000 人，10:00 之后基本就是绕圈找位',
+        '<strong>步道上没有任何设施：没有水、没有吃的、没有正经卫生间</strong>'
+          + '（Laurel House Road 停车场只有季节性旱厕，有没有纸看运气）。'
+          + '<strong>吃饭与像样的卫生间在 Route 23A 上的 Haines Falls 与 Tannersville 两个小镇</strong>，'
+          + '车程 10–15 分钟，Tannersville 的选择多一些。峡谷内手机信号很差，离线地图必备',
+        '<strong>底部巨石在水雾里极滑，凉鞋与平底运动鞋在这里是真的会摔。</strong>'
+          + '带抓地好的鞋；'
+          + '另外<strong>不要跨过任何围栏去崖沿找「更好的角度」</strong>——'
+          + '这条瀑布历史上的致命事故几乎全是这么发生的，重建后的护栏就是为此而设'
       ],
       photo: '风光 <strong>5/5</strong>，人像 <strong>2.5/5</strong>，建筑 <strong>0/5</strong>。'
         + '两级落差、深切的铁杉圆形剧场、四周崖顶的枫树，'
@@ -424,6 +496,12 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1.5–3 小时</strong>。'
+          + '<strong>只到悬挑观景平台往返 45–60 分钟</strong>（0.6 英里碎石缓坡，含在平台上停留）；'
+          + '<strong>加走到瀑布底部水潭，全程共 2–2.5 小时</strong>（往返 1.4 英里，回程全上坡）；'
+          + '<strong>从 Mountain Top Historical Society 走 Kaaterskill Rail Trail 那条备用路线往返约 3 英里，需 2.5–3 小时</strong>。'
+          + '<strong>秋季周末请在以上时间之外，额外预留 30–45 分钟找停车位</strong>。'
+          + '依据为 DEC 公布的步道里程与坡度，按普通步行速度推算',
         book: '<strong>不需预约、不需许可</strong>。'
           + 'DEC 顾问报告建议的定时入场与日客流上限 1,000 人<strong>目前仅为提案，尚未实施</strong>，'
           + '但这是本区 2026 年内最可能变动的规则，出发前请查 dec.ny.gov/places/kaaterskill-wild-forest',

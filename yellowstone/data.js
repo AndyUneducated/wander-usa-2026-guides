@@ -332,6 +332,7 @@ var REGIONS = [
         "n": 4,
         "name": "Bitterroot 国家森林峡谷走廊（Blodgett Canyon 观景点）",
         "en": "Bitterroot National Forest Scenic Corridor — Blodgett Canyon Overlook",
+        "must": 3,
         "score": 4,
         "tldr": "选它而不是 Lolo Pass——后者访客中心周二周三全闭，正好是你两天。花岗岩 U 形谷，1.5 英里步道，傍晚侧光打岩壁。",
         "tags": [
@@ -363,6 +364,14 @@ var REGIONS = [
           "<strong>【光线上的关键判断，这一条决定你几点上去】</strong><strong>观景点在峡谷南侧，你实际是朝北／西北看向对面那道朝南的花岗岩大墙。</strong><strong>朝南的岩壁在秋季全天都有光，所以问题不是「有没有光」，而是「哪个时段的光有方向性」。</strong>9/22 的太阳轨迹是：09:00 高度 15.6°／方位 106.7°（东南偏东），13:00 高度 43.4°／方位 170°（近正南），17:00 高度 24.8°／方位 241°（西南偏西）。<strong>正午太阳几乎在你背后正对岩壁，是最平的顶光／正面光，岩壁会拍成一片没有起伏的灰白，请避开 11:30–15:00。</strong><strong>早晨与傍晚的光沿岩壁横向掠过，才能把花岗岩的节理、裂隙与冰川磨蚀面拉出立体感。</strong><strong>而在早晚之间，我建议选傍晚，理由有三条：</strong>（一）<strong>烟霾在午后混合层抬升后能见度最好，清晨最差</strong>；（二）你的清晨已经排给了 Trapper Peak 与 Lake Como，那两个点只有清晨成立；（三）<strong>观景点海拔约 5,200 英尺、比谷底高约 1,600 英尺，因此它自己的直射光会比 Hamilton 谷底的 18:59 更晚结束，约到 19:05–19:15（推算）；而对面更高的岩壁顶部会保持受光到最后一刻</strong>——<strong>「峡谷底部已陷入黑暗、上部岩壁还亮着暖光」正是这个机位最好的一张片子。</strong>",
           "<strong>同一条走廊上另外两个可以顺路加的选项（都不需要额外徒步）</strong>：<strong>East Side Highway</strong>（沿谷地东侧南北贯通，连接 Florence–Stevensville–Hamilton）是本区最好的<strong>车行秋色路线</strong>，沿 Bitterroot River 有成带的 cottonwood，<strong>而且它以 Bitterroot 山墙为持续背景，比 US-93 视野开阔得多</strong>；<strong>Lost Horse Road</strong>（Hamilton 与 Darby 之间向西切入）能把车开进峡谷内部，<strong>但它是狭窄的碎石林道，本次不建议在时间紧的情况下进入</strong>。<strong>Bitterroot National Forest 全区约 160 万英亩、1898 年设立，境内含 Selway-Bitterroot Wilderness（130 万英亩，1964 年《荒野法》最初指定的最大一片）</strong>"
         ],
+        "tour": [
+          "<strong>这是本区唯一一个需要真正走一段路才能拿到的景，先确认你愿不愿意走。</strong><strong>Blodgett Overlook Trail #101：单程 1.4–1.5 英里、爬升约 500 英尺、往返 2.9 英里，官方给的平均往返时间约 1 小时 23 分钟，评级容易至中等。</strong><strong>路面宽、维护良好、坡度均匀，不需要任何技术，普通体力的人走得下来</strong>——但它确实是一段持续上坡，<strong>膝盖不好或不想出汗的人请直接用停车场那个零步行的替代方案</strong>（见下）。<strong>沿途每隔一段有长椅，可以停下来喘气。</strong>",
+          "<strong>到了以后看什么：一条被冰川切出来的花岗岩 U 形谷，从侧上方正面看它的全貌。</strong><strong>终点是南侧 Romney Ridge 上一个正对峡谷的悬崖平台</strong>，<strong>视野一次涵盖四样东西：Blodgett Canyon 全谷、身后的整条 Bitterroot Valley、谷地东侧的 Sapphire Mountains，以及 Selway-Bitterroot Wilderness 深处的群峰。</strong><strong>核心看点是对面那道近乎垂直的花岗岩大墙</strong>——因为规模与形态，当地常拿它和 Yosemite 相比。<strong>这条步道的全部意义就是「用 1.5 英里换一个通常要走一整天进谷才有的视角」，这是它在本区不可替代的原因。</strong>",
+          "<strong>走法上的两个具体坑。</strong><strong>（一）岔口不要走错</strong>：步道口与 Canyon Creek Trail 共用停车场，<strong>出发后在岔口要向右（北）走 Trail #101，直走进去的是峡谷底部那条长得多的路。</strong><strong>（二）不要在正午（11:30–15:00）上去</strong>：太阳这时几乎在你背后正对岩壁，<strong>整面墙会变成一片没有起伏的灰白，看起来平淡得多。早晨或傍晚的侧光才能把花岗岩的节理与裂隙拉出立体感</strong>，<strong>其中傍晚最好——「谷底已暗、上部岩壁还亮着」是这里最有辨识度的画面。</strong><strong>但傍晚上去就必须带头灯，你一定会在暮光中下山。</strong>",
+          "<strong>安全上真正需要注意的两件事，都不是体力问题。</strong><strong>（一）观景点边缘就是陡崖</strong>，官方与当地的一致提醒是 “the ledges are steep and rocky”。<strong>有长椅与成形路径，但后退取景或让小孩跑动之前请先看脚下。</strong><strong>（二）整条步道都在熊活动区内</strong>（Selway-Bitterroot 内有灰熊，黑熊全森林常见），<strong>必须带熊喷雾并放在随手可及处、出声行进。傍晚与清晨正是熊最活跃的时段。熊喷雾不能带上飞机（托运也不行），请在 Missoula 或 Hamilton 的户外店买。</strong>",
+          "<strong>不想走的人有一个完整的替代方案，而且不算将就。</strong><strong>路尽头的停车场本身就在 Blodgett Canyon 的谷口</strong>，<strong>从这里向西（上游）看，两侧岩壁向内收拢，是很完整的「峡谷之门」视角，脚下还有 Blodgett Creek 的溪水。下车即到，零步行。</strong><strong>另一个零风险的替代是 East Side Highway</strong>——沿谷地东侧贯通 Florence–Stevensville–Hamilton，<strong>以 Bitterroot 山墙为持续背景、沿 Bitterroot River 有成带的 cottonwood，视野比 US-93 开阔得多，是本走廊最好的车行风景路线。</strong>",
+          "<strong>餐饮、卫生间与路况：停车场只有旱厕，没有饮水、没有餐饮、没有手机信号。</strong><strong>最近的补给在 Hamilton（约 5.5 英里，但含 4 英里林道，实际 30 分钟）。</strong><strong>进场的末段 4 英里（FS 736／Canyon Creek Rd）是碎石林道</strong>，当地对它的评价是「雨天或泥泞时会有点难走」，<strong>干燥时普通轿车慢行没问题，雨雪后低底盘车请放弃上去、改走 East Side Highway。</strong><strong>9 月下旬平日车位宽松，但这是 Hamilton 一带最受欢迎的短途步道，周末会满。</strong>"
+        ],
         "photo": "风光 <strong>4.5/5</strong>，地质 <strong>4.5/5</strong>，秋色 <strong>3/5</strong>，人像 <strong>2.5/5</strong>。花岗岩 U 形谷在低角度侧光下的表现极好，而且 1.5 英里就能拿到一个通常要走一整天才有的视角，性价比很高。秋色只给 3 分是<strong>诚实的时机问题</strong>：峡谷内的 western larch 与谷底 cottonwood 在 9/22 都还没转色（详见前面的秋色提醒），<strong>你拿到的是「花岗岩 + 常绿针叶 + 干金色草坡」，不是网上那种满谷金黄。</strong>总分扣在两处：末段 4 英里林道在雨后会很难走，以及火情封路的不确定性。",
         "shots": [
           {
@@ -387,9 +396,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>3–3.5 小时（从停车场算起，不含从 Hamilton 过来的 30 分钟车程）。</strong>分配：<strong>上行 40–50 分钟（官方往返均速约 1 小时 23 分，带背包与三脚架请按上行 50 分钟算）+ 在观景平台停留 60–90 分钟 + 下行 35–40 分钟。</strong><strong>只想看一眼就走：上行 40 分钟 + 平台 20 分钟 + 下行 35 分钟，往返约 1 小时 40 分钟，这是不赶的最短方案。</strong><strong>完全不想爬：停车场的谷口视角 15–20 分钟，下车即到。</strong><strong>傍晚场次请整体预留 3.5–4 小时并在 16:00 前后离开 Hamilton，且必须带头灯。</strong>",
           "book": "不需预约",
-          "ticket": "<strong>免费</strong>。Blodgett Overlook Trail 与其停车场<strong>不属于收费游憩区，无需日间使用费，也不需要任何通行证</strong>（与 Lake Como 不同）",
-          "hours": "<strong>步道与停车场无门禁、无关门时间，官方标注最佳季节 5–10 月，9/22–9/23 完全在季节内。</strong><strong>但请注意「无门禁」不等于「一定能进」——这一带的真正变量是火情封路。</strong><strong>2026-09-05 逐条复核了 Bitterroot NF 的 alerts 页，结论是本景点仍然不受封闭令影响，但原先「现有封闭令全在谷地东侧」这句话已经不准确，请看清楚下面第二条。</strong><strong>（一）东侧、针对 Nature Grove Fire 的那一批仍在：Forest Order 01-03-02-26-09 封闭 NFSR 75（自 MT-38 Skalkaho Highway 起至 NFSR 720 路口）与 NFSR 720（自该路口至 NFSR 718 路口），另 NFSR 711、Black Bear Campground 与 714 号路关闭，效期自 7 月 27 日至 12 月 31 日。MT-38（Skalkaho Highway）本身官方原文仍是 “open at this time for necessary traffic”，重新开放的路段是 mile marker 13 至 17。这些都在谷地东侧的 Sapphire Mountains 一带，与西侧的 Blodgett（FS 735／736）不是同一批路。</strong><strong>（二）西侧现在也有一条封闭，这是新出现的：alerts 页上写着 “Road closures are in place on Lost Horse at the Lick Creek Road (FS 5621) junction. Lick Creek Rd. remains open.”Lost Horse 在 Hamilton 以南、Lake Como 一带向西进山，也就是和 Blodgett 同在谷地西侧的 Bitterroot Range 这一侧。官方在列表里没有给这条封闭标注原因或日期。它不涉及 FS 735／736，因此 Blodgett Canyon Overlook 仍然可达——但它说明「西侧没有封闭」这个假设已经不成立，出发当天必须自己看这一页。</strong><strong>（三）Nature Grove 的官方 alert 本身把 Alert End Date 设在 2026 年 9 月 28 日，也就是官方预期这条警报会一直挂过你的 9/22–9/23。同一页 8 月 23 日起对 Skalkaho Highway 1800 号地址以东两侧居民发出的疏散警告仍在。另外提醒一句关于这一页的读法：它的 “Size” 栏到 2026-09-05 仍写着 175 英亩、页面 Last updated 是 8 月 27 日，而 9 月初的 IMSR 已经是一千多英亩——这一页要用来看封闭与疏散，不要用来看火场面积。</strong><strong>Cooper（310 英亩，0% 控制）与 Scimitar（334 英亩，0% 控制）两把火仍在 Bitterroot NF 的荒野区内燃烧，新增封闭随时可能发布。出发当天必须复查官方 alerts 页：fs.usda.gov/r01/bitterroot/alerts，或致电 Bitterroot NF 总部 406-363-7100 / Darby Ranger Station 406-821-3913。Nature Grove 的火情信息专线是 406-420-3096（邮箱 2026.naturegrove@firenet.gov），问「今天有没有新封闭」用这个号最直接。</strong><strong>（作为对照：Lolo Pass Visitor Center 周二与周三全天关闭，你的 9/22 与 9/23 两天都闭馆，24 小时卫生间仍可用；该中心按太平洋时区运作。）</strong>",
+          "ticket": "<strong>【2026-09-13 复核 Bitterroot NF 官方 Passes 页】完全免费。</strong>Blodgett Overlook Trail 与其停车场<strong>不属于收费游憩区，无需日间使用费，也不需要任何通行证</strong>——<strong>该页当天只对 Lake Como Recreation Area 一处设日间使用费，Blodgett 不在收费站点名单内。</strong><strong>停车免费不限时。</strong>",
+          "hours": "<strong>【2026-09-13 复核】步道与停车场无门禁、无关门时间、无营业季节，官方标注最佳季节 5–10 月，9/22–9/23 完全在季节内。</strong><strong>但请注意「无门禁」不等于「一定能进」——这一带的真正变量是火情封路。</strong><strong>2026-09-05 逐条复核了 Bitterroot NF 的 alerts 页，结论是本景点仍然不受封闭令影响，但原先「现有封闭令全在谷地东侧」这句话已经不准确，请看清楚下面第二条。</strong><strong>（一）东侧、针对 Nature Grove Fire 的那一批仍在：Forest Order 01-03-02-26-09 封闭 NFSR 75（自 MT-38 Skalkaho Highway 起至 NFSR 720 路口）与 NFSR 720（自该路口至 NFSR 718 路口），另 NFSR 711、Black Bear Campground 与 714 号路关闭，效期自 7 月 27 日至 12 月 31 日。MT-38（Skalkaho Highway）本身官方原文仍是 “open at this time for necessary traffic”，重新开放的路段是 mile marker 13 至 17。这些都在谷地东侧的 Sapphire Mountains 一带，与西侧的 Blodgett（FS 735／736）不是同一批路。</strong><strong>（二）西侧现在也有一条封闭，这是新出现的：alerts 页上写着 “Road closures are in place on Lost Horse at the Lick Creek Road (FS 5621) junction. Lick Creek Rd. remains open.”Lost Horse 在 Hamilton 以南、Lake Como 一带向西进山，也就是和 Blodgett 同在谷地西侧的 Bitterroot Range 这一侧。官方在列表里没有给这条封闭标注原因或日期。它不涉及 FS 735／736，因此 Blodgett Canyon Overlook 仍然可达——但它说明「西侧没有封闭」这个假设已经不成立，出发当天必须自己看这一页。</strong><strong>（三）Nature Grove 的官方 alert 本身把 Alert End Date 设在 2026 年 9 月 28 日，也就是官方预期这条警报会一直挂过你的 9/22–9/23。同一页 8 月 23 日起对 Skalkaho Highway 1800 号地址以东两侧居民发出的疏散警告仍在。另外提醒一句关于这一页的读法：它的 “Size” 栏到 2026-09-05 仍写着 175 英亩、页面 Last updated 是 8 月 27 日，而 9 月初的 IMSR 已经是一千多英亩——这一页要用来看封闭与疏散，不要用来看火场面积。</strong><strong>Cooper（310 英亩，0% 控制）与 Scimitar（334 英亩，0% 控制）两把火仍在 Bitterroot NF 的荒野区内燃烧，新增封闭随时可能发布。出发当天必须复查官方 alerts 页：fs.usda.gov/r01/bitterroot/alerts，或致电 Bitterroot NF 总部 406-363-7100 / Darby Ranger Station 406-821-3913。Nature Grove 的火情信息专线是 406-420-3096（邮箱 2026.naturegrove@firenet.gov），问「今天有没有新封闭」用这个号最直接。</strong><strong>（作为对照：Lolo Pass Visitor Center 周二与周三全天关闭，你的 9/22 与 9/23 两天都闭馆，24 小时卫生间仍可用；该中心按太平洋时区运作。）</strong>",
           "parking": "<strong>路尽头有免费停车场，空间充足，另有旱厕。</strong><strong>进场的 4 英里为碎石林道（FS 736／Canyon Creek Rd），当地对它的评价是「雨天或泥泞时会有点难走（a little sketchy）」，低底盘车请谨慎；干燥条件下普通轿车慢行可进。</strong><strong>9 月下旬平日车位宽松</strong>，但这条步道是 Hamilton 一带最受欢迎的短途路线，周末会满",
           "walk": "<strong>观景点单程 1.4–1.5 英里、爬升约 500 英尺，往返 2.9 英里／约 1 小时 23 分钟</strong>（不含拍摄时间；带三脚架与长焦请按上行 40–50 分钟计算）。路宽、维护好、有长椅，官方评级为容易至中等。<strong>谷口机位零步行。</strong><strong>傍晚场次建议预留 3.5–4 小时</strong>：从 Hamilton 出发 30 分钟车程 + 上行 50 分钟 + 在观景点停留 1.5 小时（17:00 拍到 19:15）+ 下行 40 分钟。<strong>也就是说你需要在 16:00 前后离开 Hamilton，并且必须带头灯。</strong>"
         },
@@ -423,6 +433,7 @@ var REGIONS = [
         "n": 5,
         "name": "戴利公馆（兼记 St. Mary’s Mission）",
         "en": "Daly Mansion, Hamilton (with St. Mary’s Mission, Stevensville)",
+        "must": 4,
         "score": 3.5,
         "tldr": "两处 9/22–9/23 都开门，已核实。选 Daly：24,000 平方英尺乔治复兴式大宅 + 40 英亩树木园。但园区 17:00 关门，黄金时段进不去。",
         "tags": [
@@ -454,6 +465,14 @@ var REGIONS = [
           "<strong>【必须提前知道的摄影硬伤】园区 17:00 关门，而当天的黄金时段是 17:30–18:59。</strong><strong>也就是说，你无法在黄金光下拍 Daly Mansion——这一点没有变通办法，请不要按黄金时段排计划。</strong><strong>你能拿到的最好的光是 15:30–17:00 关门前那一个半小时</strong>：此时太阳从高度 39.7°／方位 210°（15:00）降到 24.8°／方位 241°（17:00），<strong>光从西南方斜切进来，已经有明显方向性，足以给柱廊与檐口做出立体感</strong>，虽然还不是暖金色。<strong>另一个可用窗口是 10:00 刚开门时</strong>（太阳高度 25.1°／方位 119.1°，东南偏东），<strong>如果大宅有朝东或朝南的立面，这是它的正面光时段</strong>——<strong>但各立面的具体朝向未能从官方渠道确认，请到现场绕一圈自行判断，并优先选择当时受光的那一面。</strong><strong>唯一完全不受这个限制的是室内</strong>：室内不吃外部光线也不吃烟霾，<strong>所以「烟大的那一天」这里是本区最好的去处之一</strong>",
           "<strong>关于另一处 St. Mary’s Mission：它在历史分量上其实更重，只是摄影体量小得多，所以我把它写在这里而不是单列。</strong><strong>1841 年由耶稣会士 Fr. Pierre-Jean De Smet 创立，是 Montana 州历史的起点，当地的自我定位就是「Where Montana Began」</strong>——Stevensville 镇与 Montana 州都是从这个最初叫 St. Mary’s 的聚落长出来的，<strong>农业、医药、教育与宗教都是从这里最先引入 Montana 的</strong>。参观内容包括：<strong>St. Mary’s 小教堂及其附属住所、餐厅与厨房；Fr. Anthony Ravalli 的木屋与药房（Ravalli County 即以他命名）；Chief Victor 的木屋（内设 Salish 博物馆）；一辆牛车复制品与旧鸽舍。</strong><strong>最好的一个细节：园中有一棵 Fr. Ravalli 于 1869 年亲手栽下的苹果树，至今仍在结果</strong>（官方原话 “While showing its age, the tree continues to bear fruit”）。<strong>建筑内还有大量 Fr. Ravalli 手工雕刻的原始家具。门票 $10，5 岁以下免费；博物馆与美术馆免费参观。</strong><strong>它整体是「小、密、暗」的题材</strong>：<strong>适合 35mm／50mm 定焦拍手工雕刻的家具细节与小教堂内部的光，不适合拍大场面。而且它就在 US-93 边、Stevensville 镇内，正好是你 9/22 从 MSO 南下时的顺路点（MSO 出发 45 分钟）。</strong>"
         ],
+        "tour": [
+          "<strong>【Daly Mansion】先选参观方式，这一步决定你当天的全部节奏。</strong><strong>两种：导览团（周二至周六 11:00–14:00，由志愿者带，讲解详细）与自助参观（周二至周六 10:00 与 15:00 两场、周日 10:00–15:00 全天，票价含一本自助手册）。</strong><strong>想听故事就选导览团</strong>——Marcus Daly 这个人与这栋房子的关系全靠讲解才立得住；<strong>想按自己节奏慢慢看就选自助场。</strong><strong>关键风险：官方明确写导览团 “based on volunteer tour guide availability”（取决于志愿者是否在岗），可能当天临时没有。出发前打 406-363-6004 问一句，这通电话很值。</strong>",
+          "<strong>屋里怎么逛、哪些别错过。</strong><strong>这是一栋 24,000 平方英尺、24 间卧室、15 间浴室、7 座壁炉的乔治复兴式大宅，一间间走会走累，请按重点走。</strong><strong>必看：一层的主楼梯与门厅（这是全宅最有气势的一处）、几座各不相同的壁炉、以及保留下来的原始家具与陈设</strong>。<strong>可以快走的：二三层大量功能相似的卧室</strong>——看过三四间之后信息量就重复了，<strong>省下的时间给楼下的公共空间与外面的树木园。</strong><strong>理解这栋房子的关键不在房间数量，而在一句话：是先有这片庄园，后有 Hamilton 这座城——Marcus Daly 买下谷地建起自己的种马场与宅邸，再为工人建了整座镇。</strong>",
+          "<strong>【Daly Mansion】户外的 40 多英亩树木园值得单独留时间，很多人直接忽略了它。</strong>官方的说法是它<strong>“boasts one of the widest and rarest varieties of trees in the state of Montana”</strong>（拥有 Montana 最多样、最珍稀的树种之一）。<strong>9 月下旬部分树种已开始转色（未到盛期），草坪开阔、几乎没人，绕大宅与树木园走一圈约 30–45 分钟，是这一站最放松的一段。</strong><strong>园区每周 7 天 10:00–17:00 开放，即使大宅内部当天没有导览，园区也照常能进。</strong>",
+          "<strong>【Daly Mansion】排队、人流、餐饮与卫生间。</strong><strong>9 月下旬的平日几乎不存在排队</strong>，自助场与导览团都是现场买票即进，停车场紧邻大宅、免费且宽松。<strong>卫生间在游客接待区内，进门就有。</strong><strong>但园内没有餐饮</strong>——没有咖啡厅、没有餐厅，<strong>请在 Hamilton 镇上解决（大宅到 Hamilton 市中心约 2 英里／5 分钟，Hamilton 是整条 Bitterroot 谷地最完整的补给点，超市、餐馆、药店都有）。</strong><strong>另外记住园区 17:00 关门，这是一条硬边界，不要把它排在傍晚。</strong>",
+          "<strong>【St. Mary’s Mission】它是另一种东西：分量极重、体量极小，请按「看一小时的浓缩历史」来安排，不要按「逛一个景点」。</strong><strong>1841 年由耶稣会士 Fr. Pierre-Jean De Smet 创立，是 Montana 州历史的起点</strong>，当地的自我定位就是 “Where Montana Began”——农业、医药、教育与宗教都是从这里最先引入 Montana 的。<strong>参观内容是若干栋小型木构建筑</strong>：<strong>St. Mary’s 小教堂及其附属住所、餐厅与厨房；Fr. Anthony Ravalli 的木屋与药房（Ravalli County 即以他命名）；Chief Victor 的木屋，内设 Salish 博物馆；一辆牛车复制品与旧鸽舍。</strong>",
+          "<strong>【St. Mary’s Mission】现场三件别错过的具体东西，外加时间窗口的硬约束。</strong><strong>（一）Fr. Ravalli 手工雕刻的原始家具</strong>——建筑内保留了大量他亲手做的木器，这是全区最有质感的手工细节；<strong>（二）园中那棵 1869 年由 Fr. Ravalli 亲手栽下、至今仍在结果的苹果树</strong>（官方原话 “While showing its age, the tree continues to bear fruit”）；<strong>（三）小教堂内部</strong>，这是本区唯一的宗教建筑内景。<strong>时间上它被锁死在周二至周六 11:00–15:00、最后一团 14:00</strong>——<strong>没有早晚可选，也就是说它只能放在白天行程的中段。现场无餐饮，Stevensville 镇上有几家小馆子，步行可达。</strong>"
+        ],
         "photo": "建筑 <strong>4/5</strong>，人文／室内 <strong>4/5</strong>，风光 <strong>2/5</strong>，秋色 <strong>3/5</strong>。Daly Mansion 的体量、对称立面与 40 英亩树木园是本区唯一的正经建筑题材，室内陈设也完整。<strong>扣分集中在一件事上：园区 17:00 关门，把最好的光整段挡在门外</strong>，而 10:00–17:00 的可用光又以平光和顶光为主。另一处 St. Mary’s Mission 的历史分量更高但体量小，<strong>它的评分应单独理解为「细节 4/5、大场面 1.5/5」。</strong><strong>两处最大的共同优势是：完全不受烟霾影响，是坏天气日的保底选择。</strong>",
         "shots": [
           {
@@ -482,9 +501,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>Daly Mansion：2–2.5 小时。</strong>分配：<strong>室内参观 60–75 分钟（导览团官方节奏约 1 小时；自助场按自己速度 45–75 分钟）+ 园区与 40 英亩树木园 30–45 分钟 + 买票与走动 15 分钟。</strong><strong>只看重点 60 分钟</strong>：一层门厅与主楼梯 + 几座壁炉 + 绕大宅外墙走一圈，跳过楼上大部分卧室。<strong>St. Mary’s Mission：1–1.5 小时</strong>，其中导览约 45–60 分钟，外加自己看苹果树与院子 15–20 分钟；<strong>只看小教堂与那棵树 30 分钟够了。</strong><strong>两处合起来（含 30 英里／40 分钟的往返车程）约需 4.5–5 小时，同一天走完可行；但 St. Mary’s 15:00 就关门，必须先走它、后走 Daly。</strong>",
           "book": "<strong>两处均不强制预约。</strong><strong>Daly Mansion</strong>：官方原文<strong>“Please call 406-363-6004 if you would like to make a reservation – they are not required, but our tour guides look forward to knowing guests will be visiting!”</strong><strong>——虽非强制，但由于导览团「取决于志愿者是否在岗」，建议出发前打这个电话确认当天有无导览。</strong><strong>St. Mary’s Mission</strong>：可现场买票；<strong>官网可在线订团，10 人以上团体与学校团必须提前电话预约（406-777-5734）</strong>",
-          "ticket": "<strong>Daly Mansion：成人 $15、60 岁以上 $14、退伍军人与现役 $13、6–17 岁 $8、5 岁以下免费。</strong>（票价来源为官网与 Ravalli County 官方页，两处一致；其中「退伍军人 $13」与另一处「$14 seniors or military」的表述略有出入，<strong>以现场为准，差额 $1 不影响决策</strong>）<strong>St. Mary’s Mission：$10／人，5 岁以下免费；博物馆与美术馆免费参观（欢迎捐赠）。</strong><strong>请注意这两处都不接受 America the Beautiful 年票</strong>——它们不是联邦产权",
-          "hours": "<strong>Daly Mansion（官方「Summer Tour Season Hours (June – September)」原文口径，2026-09-05 复核未变，官网与 Ravalli County 官方页两处一字不差）：</strong><strong>园区每周 7 天 10:00–17:00；导览团周二至周六 11:00–14:00（取决于志愿者在岗情况）；自助参观周二至周六 10:00 与 15:00、周日 10:00–15:00 全天。</strong><strong>9/22 周二与 9/23 周三均在开放窗口内，已核实。</strong><strong>但这里有一件原先没写清、而且直接决定 10 月下旬那个备用窗口的事：官网的 Tour 页上另有一整套「Fall &amp; Winter Hours」，原文是 “Fall/Winter Grounds: Open 10 AM – 4 PM Monday – Friday”、“Mansion: Closed for Walk-In Tours”、“Tours: Based on availability – call for more information and to make a reservation”，并要求「导览须至少提前 48 小时电话预约」，还说明“Due to weather and preparation for our indoor events, we may not be able to accommodate all requests”。官网从来没有公布夏季转秋冬的具体日期。</strong><strong>实操结论分两种情况：你的 9/22–9/23 在官方明确写着的「June – September」里，按夏季时段走；但只要行程滑到 10 月，园区就变成周一至周五 10:00–16:00、大宅不接受走进去参观、导览要提前 48 小时约且可能被拒——那是完全不同的一个景点。换季日期未能从官方渠道确认，凡是 10 月的日期都必须先打 406-363-6004。</strong>（另：<strong>10 月 14–23 日临时闭馆</strong>；第三方资料称导览季 10 月 8 日结束，<strong>与官网夏季口径不一致，未能核实</strong>，但均在你的 9 月日期之后）<strong>St. Mary’s Mission：周二至周六 11:00–15:00，最后一团 14:00，季节为 4 月中至 10 月中（另一处官方表述为 4 月 15 日至 10 月 15 日）。9/22 周二开放；9/23 周三亦在「周二至周六」窗口内。已核实。</strong><strong>【关键提醒】Daly Mansion 园区 17:00 关门，而当天日落 19:35、直射光到 18:59。也就是说黄金时段你一定在园外，这一点没有变通办法。</strong>",
+          "ticket": "<strong>【2026-09-13 复核 dalymansion.org 首页与 /tour/ 页，价格未变】</strong><strong>Daly Mansion：成人 $15、60 岁以上 $14、退伍军人与现役 $13、6–17 岁 $8、5 岁以下免费。</strong><strong>官网两页自相矛盾且当天仍未统一，两种口径都写在这里：首页列的是「$14 for Seniors (60+)」与「$13 for Veterans &amp; Military」两档；而 /tour/ 页把它们合并成一档「$14 for Seniors (60+) or Military」，没有 $13 这一档。差额 $1，不影响决策，以现场收银为准。</strong><strong>St. Mary’s Mission：$10／人，5 岁以下免费；博物馆与美术馆免费参观（欢迎捐赠）。2026-09-13 经 Bitterroot Valley Chamber of Commerce 的逐日活动页复核，9 月每一场导览仍标 $10，未涨价。</strong><strong>请注意这两处都不接受 America the Beautiful 年票</strong>——它们不是联邦产权",
+          "hours": "<strong>【2026-09-13 复核官网，与 9 月 5 日那次核对结果一致，未变】</strong><strong>Daly Mansion（官方「Summer Tour Season Hours (June – September)」原文口径，官网与 Ravalli County 官方页两处一字不差）：</strong><strong>园区每周 7 天 10:00–17:00；导览团周二至周六 11:00–14:00（取决于志愿者在岗情况）；自助参观周二至周六 10:00 与 15:00、周日 10:00–15:00 全天。</strong><strong>9/22 周二与 9/23 周三均在开放窗口内，已核实。</strong><strong>但这里有一件原先没写清、而且直接决定 10 月下旬那个备用窗口的事：官网的 Tour 页上另有一整套「Fall &amp; Winter Hours」，原文是 “Fall/Winter Grounds: Open 10 AM – 4 PM Monday – Friday”、“Mansion: Closed for Walk-In Tours”、“Tours: Based on availability – call for more information and to make a reservation”，并要求「导览须至少提前 48 小时电话预约」，还说明“Due to weather and preparation for our indoor events, we may not be able to accommodate all requests”。官网从来没有公布夏季转秋冬的具体日期。</strong><strong>实操结论分两种情况：你的 9/22–9/23 在官方明确写着的「June – September」里，按夏季时段走；但只要行程滑到 10 月，园区就变成周一至周五 10:00–16:00、大宅不接受走进去参观、导览要提前 48 小时约且可能被拒——那是完全不同的一个景点。换季日期未能从官方渠道确认，凡是 10 月的日期都必须先打 406-363-6004。</strong>（另：<strong>10 月 14–23 日临时闭馆</strong>；第三方资料称导览季 10 月 8 日结束，<strong>与官网夏季口径不一致，未能核实</strong>，但均在你的 9 月日期之后）<strong>St. Mary’s Mission：周二至周六 11:00–15:00，最后一团 14:00，季节为 4 月中至 10 月中（另一处官方表述为 4 月 15 日至 10 月 15 日）。9/22 周二开放；9/23 周三亦在「周二至周六」窗口内。已核实。</strong><strong>【关键提醒】Daly Mansion 园区 17:00 关门，而当天日落 19:35、直射光到 18:59。也就是说黄金时段你一定在园外，这一点没有变通办法。</strong>",
           "parking": "<strong>Daly Mansion：园内有免费停车场，紧邻大宅（251 Eastside Highway）</strong>，9 月下旬平日非常宽松。<strong>St. Mary’s Mission：镇内街边免费停车</strong>，Stevensville 是小镇，车位不紧张。两处均无停车费",
           "walk": "<strong>Daly Mansion：停车到大宅 1–2 分钟／不到 100 米，全程平地。走完园区与树木园另需 30–45 分钟。含室内参观建议预留 2–2.5 小时。</strong><strong>St. Mary’s Mission：停车即到，园区很小，含导览与拍摄 1–1.5 小时足够。</strong><strong>两处相距约 30 英里／40 分钟（Hamilton ↔ Stevensville，沿 US-93 或 East Side Highway）</strong>，同一天走完两处在时间上完全可行，但请注意 St. Mary’s 15:00 就关门"
         },
@@ -518,6 +538,7 @@ var REGIONS = [
         "n": 6,
         "name": "科莫湖",
         "en": "Lake Como, Darby",
+        "must": 2.5,
         "score": 3.5,
         "tldr": "913 英亩水库，紧贴 Bitterroot 主脊之下。9/22 起日间使用费已免收。清晨湖面倒影 + 山脊金光是主菜，但秋季水位已被放光，岸线会露出泥滩。",
         "tags": [
@@ -548,6 +569,14 @@ var REGIONS = [
           "<strong>【必须提前知道的减分项】这是一座灌溉水库，到 9 月下旬水已经被放掉相当一部分。</strong>官方对沙滩的描述是 <strong>“The beach is popular during the summer months when the lake is full, usually until August.”</strong>——即<strong>「湖满」通常只到 8 月</strong>。<strong>所以 9/22 你大概率会看到一条裸露的、由砾石与泥滩组成的落水线，以及原本淹在水下的树桩与石头。倒影的水面会比夏季照片里小得多、也远得多。</strong><strong>但这不全是坏事，请换个思路利用它</strong>：露出的树桩、龟裂的泥面与被水磨圆的石头<strong>是极好的近景前景锚点</strong>，而这正是本区其他机位最缺的东西。<strong>把落水线当成引导线、用 16–35mm 贴地拍「前景石 + 水面 + 山脊」的三段式构图，会比夏季满水时更有层次。</strong><strong>（水位的具体下降幅度未能从官方渠道确认，出发前可致电 Darby Ranger Station 406-821-3913 询问。）</strong>",
           "<strong>环湖步道</strong>：湖岸有一条环绕全湖的步道（<strong>约 7 英里一圈</strong>），沿北岸与南岸走，西端连到湖尾的 Rock Creek 溪谷。<strong>对本次两天的行程来说，走完一圈（3–4 小时）性价比不高</strong>，<strong>合理用法是从东端的日间使用区沿北岸走 20–30 分钟</strong>，足够走到几个视野开阔、没有岸边树木遮挡的点。<strong>请注意 Selway-Bitterroot 一带有灰熊与黑熊活动，任何离开停车场的步行都应携带熊喷雾并出声</strong>（Bitterroot NF 官方明确 “Food storage Required”）",
           "<strong>营地情况（2026 年官方日期，与你的日期直接相关）</strong>：Lake Como Recreation Area 有三处营地。<strong>Lower Como Campground（12 个带水电的铺装车位，$25／晚，先到先得不接受预订）提供服务至 9 月 24 日、9 月 25 日关闭</strong>；<strong>Three Frogs Campground（$15／晚）提供服务至 9 月 24 日、10 月 16 日关闭</strong>；另有 Rock Creek Horse Camp。<strong>也就是说 9/22–9/23 两处营地都还开着，但官方提示「若气温开始下降，供水会提前封闭过冬」（“water will be winterized sooner if temperatures start dropping”）——而 9 月下旬清晨已在冰点附近，请不要指望现场有水。</strong>"
+        ],
+        "tour": [
+          "<strong>怎么进去：从 Darby 沿 US-93 北行 4 英里到 Lake Como Road，西行约 4 英里到底。路口处向右（北）通往沙滩、野餐区与步道口，向左（南）通往营地与下水坡道。</strong><strong>普通游客请走右边那条</strong>——日间使用区有铺装停车场，<strong>停好车走 2–3 分钟就到水边，湖正对面就是 Bitterroot 主脊，这是整个谷地里唯一能同时看到「静水 + 紧贴其后的高山」的地方。</strong><strong>进场道路为铺装，普通轿车没有问题。</strong>",
+          "<strong>怎么逛：三种强度，按你有多少时间选。</strong><strong>（一）15 分钟版</strong>：在日间使用区停车场下车、走到岸边看一眼、拍张照就走。<strong>这已经拿到了这里 80% 的东西</strong>，因为主景就是「湖 + 山」这一眼。<strong>（二）1 小时版（推荐）</strong>：沿北岸步道向西走 20–30 分钟再折返。<strong>东端岸边松杉很多、视线常被挡，往西走 1–1.5 英里会经过几处开阔的砾石岸，视野完全打开而且离山墙更近。地势平缓，不算徒步。</strong><strong>（三）3–4 小时版</strong>：环湖一圈约 7 英里。<strong>对只在谷地待两天的人不值得——后半圈的景色与前 30 分钟差别不大。</strong>",
+          "<strong>【必须提前知道的两件扫兴事，否则你到了会失望】</strong><strong>第一，这是一座灌溉水库，不是天然湖。</strong>官方对沙滩的描述是 “popular during the summer months when the lake is full, usually until August”——<strong>「湖满」通常只到 8 月</strong>，<strong>9 月下旬你会看到一条裸露的砾石与泥滩落水线，以及原本淹在水下的树桩和石头，水面比夏季照片小得多、也远得多。</strong><strong>第二，Labor Day（2026 年 9 月 7 日）之后这里「无任何服务」</strong>：<strong>不清运垃圾、饮水已或将封闭过冬、部分卫生间关闭，官方要求垃圾全部自己带走。</strong>",
+          "<strong>餐饮与卫生间：请当成「完全没有」来准备。</strong><strong>现场没有餐饮、没有小卖部、没有自动售货机</strong>，<strong>饮水在 Labor Day 后已封闭或即将封闭</strong>，<strong>卫生间只有旱厕且部分已关闭。请自带饮水，并在 Darby 解决卫生间</strong>（Darby 到湖边路口 4 英里／8 分钟，进湖再 4 英里／8 分钟）。<strong>另外这里没有手机信号，转入 Lake Como Road 之后基本即断，请提前下载离线地图。</strong>",
+          "<strong>人流：9 月下旬平日基本没人，这是本区最容易独占的地方。</strong>夏季周末这里是 Bitterroot 谷地最热闹的水上游憩区（沙滩、下水坡道、划船），<strong>但你的日期已过 Labor Day、又是周二周三，停车场大概率空着。</strong><strong>代价是另一件事：没有人也意味着没有救援。Bitterroot 一带有灰熊与黑熊活动（官方标注 “Food storage Required”），只要走上北岸步道就应携带熊喷雾并出声行进，清晨天没亮时进林子尤其要注意。</strong>",
+          "<strong>什么时候来：清晨，而且只有清晨。</strong><strong>湖就在山墙脚下，山体会在约 18:32 就掐断湖面的直射光，比 19:35 的日落早整整一小时</strong>——<strong>「傍晚去湖边看日落」这个计划在这里是不成立的，你会到达一个已经没有光的湖。</strong><strong>正确时段是 07:00–08:30</strong>：无风、水面最平、对岸山脊刚被点亮。<strong>请注意湖畔海拔 4,242 英尺又是冷空气汇集的盆地，9 月下旬清晨出现白霜是常态，比 Missoula 低 2–4°C，请按接近冰点准备衣物。</strong>"
         ],
         "photo": "风光 <strong>4/5</strong>，倒影／静水 <strong>4/5</strong>（水位好的话），人像 <strong>2.5/5</strong>。「静水 + 紧贴其后的高山墙」这个配置在本区独一无二，清晨无风时的倒影上限很高。扣分有两处且都很具体：<strong>（一）9 月下旬水位已降，岸线不干净、倒影面积缩小</strong>；<strong>（二）它是全区受「山墙提前遮光」影响最严重的点——18:32 之后湖面就没有直射光了，比日落时刻早了整整 63 分钟，实际上等于没有傍晚场次。</strong>所以它是一个<strong>纯粹的清晨点位</strong>。",
         "shots": [
@@ -581,9 +610,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>1–1.5 小时是最合理的分配。</strong>拆开：<strong>停车与走到岸边 5 分钟 + 在东端岸边看湖与山墙 15–20 分钟 + 沿北岸步道往西单程 20–30 分钟、原路折返 20–30 分钟。</strong><strong>只想看一眼：15–20 分钟，停车场到水边来回即可，这已经拿到主景。</strong><strong>环湖一圈约 7 英里／3–4 小时，本次行程不建议。</strong><strong>再加上从 Darby 或 Hamilton 过来的车程（单程 8–30 分钟）与末段 4 英里进场路，清晨专门来一趟请整体预留 2–2.5 小时。</strong>",
           "book": "<strong>不需预约。</strong>三处营地全部<strong>先到先得、不接受预订</strong>（官方原文 “First come/first serve, no reservations”），但你只是白天来拍照，与营地无关",
-          "ticket": "<strong>你的日期免费。</strong>官方规定日间使用费<strong>仅在 Memorial Day 至 Labor Day 期间收取</strong>（$5／车／天，$30／季，Bitterroot NF 各办公室与谷地内代售点有售），<strong>2026 年 Labor Day 为 9 月 7 日，9/22–9/23 已停收</strong>。（顺带一提，收费期内 <strong>America the Beautiful、Senior、Access 等 Interagency 通行证在本区所有收费点均被认可</strong>，你手上的年票本来也能覆盖）",
-          "hours": "<strong>Lake Como 的日间使用区（野餐区、步道口、沙滩、下水坡道）官方口径为「全年开放」</strong>（“Open year-round”，另一处表述为 “Site open yearlong until closed by snow”），<strong>无门禁、无关门时间，9/22–9/23 确定可达。</strong><strong>但自 Labor Day 之后「无任何服务」（no services）</strong>：不清运垃圾、供水已或将被封闭过冬、部分卫生间关闭，<strong>官方要求 “pack it in, pack it out”，垃圾必须全部带走。</strong>营地日期：<strong>Lower Como 提供服务至 9/24、9 月 25 日关闭；Three Frogs 提供服务至 9/24、10 月 16 日关闭。</strong><strong>一条 2026-09-05 新查到的邻近封闭，与本景点无关但就在旁边：Bitterroot NF 的 alerts 页写着 “Road closures are in place on Lost Horse at the Lick Creek Road (FS 5621) junction. Lick Creek Rd. remains open.”Lost Horse 就在 Lake Como 北侧同样向西进山，这条封闭不涉及 Lake Como Road 与湖区日间使用区，本景点仍然可达；但如果你原本打算顺 Lost Horse 往里开，请先看这一页。</strong>咨询：<strong>Darby Ranger Station 406-821-3913，周一至周五 08:00–16:30（联邦假日休息）</strong>",
+          "ticket": "<strong>【2026-09-13 复核 Bitterroot NF 官方 Passes 页（页面标注 Last updated August 5, 2026）与各站点页，你的日期免费。】</strong>官方原文：<strong>“From Memorial Day weekend through Labor Day weekend, all vehicles parked within the recreation area must display a valid Lake Como Day Pass. Day Passes are just $5, or … a Season Pass for $30.”</strong><strong>2026 年 Labor Day 为 9 月 7 日，9/22–9/23 已过收费期，日间使用费停收。</strong>Ravalli County 转载的官方秋季安排写得更直接：<strong>“Lake Como Day Use Sites (Picnic Area, Trailhead, Beach, Boat Launch) = Day use fees no longer required, no services, ‘pack it in, pack it out’. Open year-round.”</strong><strong>（收费期内的付费方式与年票口径，供参考：现场有两处刷卡自助缴费机——一处在通往沙滩的 NFSR 1111 路口旁、一处在沙滩溢出停车场；Darby、Hamilton、Stevensville 三处 Forest Service 办公室与谷地内代售点也售卡。Bitterroot NF 明确 America the Beautiful 年票／Access／Military／Senior／Golden Age 均可覆盖此费。）</strong>",
+          "hours": "<strong>【2026-09-13 复核】Lake Como 的日间使用区（野餐区、步道口、沙滩、下水坡道）官方口径为「全年开放」</strong>（“Open year-round”，另一处表述为 “Site open yearlong until closed by snow”），<strong>无门禁、无关门时间，9/22–9/23 确定可达。</strong><strong>但自 Labor Day 之后「无任何服务」（no services）</strong>：不清运垃圾、供水已或将被封闭过冬、部分卫生间关闭，<strong>官方要求 “pack it in, pack it out”，垃圾必须全部带走。</strong>营地日期：<strong>Lower Como 提供服务至 9/24、9 月 25 日关闭；Three Frogs 提供服务至 9/24、10 月 16 日关闭。</strong><strong>一条 2026-09-05 新查到的邻近封闭，与本景点无关但就在旁边：Bitterroot NF 的 alerts 页写着 “Road closures are in place on Lost Horse at the Lick Creek Road (FS 5621) junction. Lick Creek Rd. remains open.”Lost Horse 就在 Lake Como 北侧同样向西进山，这条封闭不涉及 Lake Como Road 与湖区日间使用区，本景点仍然可达；但如果你原本打算顺 Lost Horse 往里开，请先看这一页。</strong>咨询：<strong>Darby Ranger Station 406-821-3913，周一至周五 08:00–16:30（联邦假日休息）</strong>",
           "parking": "<strong>免费（你的日期已停收费用）。</strong>日间使用区、沙滩与步道口均有铺装停车场，<strong>9 月下旬平日基本空无一人，随到随停</strong>。<strong>进场路线：Darby 沿 US-93 北行 4 英里至 Lake Como Road，西行约 4 英里；路口向右（北）通往沙滩与日间使用区，向左（南）通往营地与下水坡道。</strong>进场道路为铺装，但<strong>雨雪后末段可能湿滑</strong>",
           "walk": "<strong>东端主机位零步行</strong>——停车场就在岸边，走 2–3 分钟即到水边。<strong>北岸步道前段单程 20–30 分钟／约 1–1.5 英里，地势平缓。</strong><strong>环湖全程约 7 英里，往返 3–4 小时，本次行程不建议。</strong>清晨场次建议预留 2–2.5 小时（含从 Darby 或 Hamilton 过来的车程）"
         },
@@ -617,6 +647,7 @@ var REGIONS = [
         "n": 7,
         "name": "约瑟夫酋长牧场（剧中 Dutton Ranch）",
         "en": "Chief Joseph Ranch, Darby",
+        "must": 1,
         "score": 2,
         "tldr": "《Yellowstone》Dutton 主宅实景地，但<strong>主宅在公共路上看不到</strong>。能拍的只有大门与谷仓顶。2026 住客季 8/31 已结束，你的日期租不到房。",
         "tags": [
@@ -649,6 +680,14 @@ var REGIONS = [
           "<strong>越界会有真实后果，不要试。</strong>这是私人住宅，门内即为宅院，<strong>Montana 的私闯民宅（criminal trespass）是可以直接报警处理的</strong>，而门口本身就装有安保设施。当地报道里对这一点的表述很直白：<strong>“a ‘No Trespassing’ sign still means what it says.”</strong><strong>请不要为了「再往里走两步拍到主宅」而进入车道——从车道上也一样看不到主宅，你会在冒着报警风险的同时什么都没多拍到。</strong>也请不要停在车道口——那是牧场日常出入的通道，堵住它是最容易招来冲突的行为",
           "<strong>历史背景值得知道，它比影视本身有分量。</strong>主宅是 1914 年建成的原木大宅（约 6,000 平方英尺），最初的主人是来自 Ohio 的实业家 William Ford；Ford 去世后其家族把它改成了<strong>西部最早的 guest ranch 之一</strong>；<strong>1950 年代初改名为 Chief Joseph Ranch</strong>——名字来自 <strong>1877 年 Nez Perce 族在 Chief Joseph 率领下为躲避美军而穿越这片土地</strong>的历史事件（这条逃亡路线即今日的 Nez Perce National Historic Trail，<strong>你之后往 Butte 若走 Lost Trail Pass 一线，会经过同一事件的 Big Hole National Battlefield</strong>）。这片谷地在此之前已被 Salish 人使用了数千年，Lewis and Clark 于 1805 年经过。<strong>牧场被选为拍摄地的过程也很偶然</strong>：官方 FAQ 说<strong>“it was a cold call. We did not have the ranch listed as a film location.”</strong>——是 Paramount 主动打来的电话，牧场自己从未把自己挂牌为影视场地"
         ],
+        "tour": [
+          "<strong>先建立正确预期：这里没有「参观」这件事。</strong>你能看到的全部内容是路边的一道门——两根石柱、门楣上 “Yellowstone Dutton Ranch” 的招牌、一尊猎野牛的青铜雕像、门后几座白色谷仓的顶部（其中一座带 Dutton 烙印）。<strong>没有售票处、没有讲解牌、没有纪念品店、没有卫生间，也没有任何可以走进去的地方。</strong><strong>看完就是 10 分钟，这个数字不是压缩出来的，是现场内容的上限。</strong>",
+          "<strong>下车后的正确动线：把车完全停进 US-93 路肩 → 站在路肩上、正对大门看 →走到大门正前方（但不越过门线）拍两张 → 上车走。</strong><strong>不要走进车道</strong>：一来那是牧场日常出入的通道，二来从车道上也一样看不到主宅，三来门内即为私人宅院，Montana 的私闯民宅可直接报警处理。<strong>门上装有安保设施，主人一家就住在里面。</strong>",
+          "<strong>剩下的时间请花在门外那几英里路上，那才是真正值得看的东西。</strong><strong>Darby 到 Conner 这约 4 英里的 US-93，西侧是 Trapper Peak 群峰组成的山墙、东侧是 Sapphire Mountains、中间是带木栅栏的牧场与成群的牛马</strong>——<strong>剧里那种「Montana 牧场感」的视觉来源其实是这一段公路，而不是那道门。</strong>开慢一点、在宽路肩上停两次，比在门口多站 20 分钟有价值得多。",
+          "<strong>人流与时机：完全不需要担心排队。</strong>夏季旺季门口常年有零星粉丝停车，但<strong>9 月下旬的平日几乎没有人</strong>，你大概率是现场唯一一辆车。<strong>唯一会让你白跑的情况是剧组开机</strong>——官方 FAQ 明确写 “During filming, there will be security at the gates. The Security company will not allow photos at that time”，<strong>届时连停留都不允许。2026 年 9 月是否有拍摄活动未能从官方渠道确认。</strong>",
+          "<strong>餐饮与卫生间：现场一律没有，请在 Darby 解决。</strong><strong>Darby 在大门以北 1 英里、开车 2 分钟</strong>，镇上有三家餐馆、People’s Market 杂货店与加油站（加油站有卫生间），是 Bitterroot 谷地南段唯一的补给点。<strong>再往北 25 分钟的 Hamilton 才有完整的超市与连锁服务。</strong>",
+          "<strong>值得知道的背景，它比电视剧有分量</strong>：主宅是 1914 年建成的原木大宅，最初属于 Ohio 实业家 William Ford，后来成为西部最早的 guest ranch 之一；<strong>1950 年代改名 Chief Joseph Ranch，纪念 1877 年 Nez Perce 族在 Chief Joseph 率领下为躲避美军而和平穿过这片谷地的那段历史</strong>。<strong>如果你对这段历史有兴趣，往南翻 Lost Trail Pass 一线的 Big Hole National Battlefield 才是这个故事真正的现场</strong>，那里有完整的国家纪念地与解说系统。"
+        ],
         "photo": "风光 <strong>1.5/5</strong>，建筑 <strong>1/5</strong>，纪念／打卡 <strong>4/5</strong>。<strong>请按「情感价值高、摄影价值低」来理解这个分数。</strong>给 2 分不是因为它不重要，而是因为<strong>可拍摄的画面确实只有一道门</strong>：一块招牌、两根石柱、一尊青铜的猎野牛雕像、门后几个白色谷仓顶，再加上背景里的 Bitterroot 山墙。构图变化极少，光线也谈不上讲究。<strong>如果你是《Yellowstone》的粉丝，这一张照片对你的意义无法用评分衡量，那就来；如果你是为了拍到剧里那座大宅而来，请现在就调整计划——那张照片在公共土地上不存在。</strong>",
         "shots": [
           {
@@ -669,9 +708,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>10–15 分钟，这是上限不是建议下限。</strong>分配：<strong>停车与走到门前 2 分钟 + 在门口看与拍 8–10 分钟 + 上车 2 分钟。</strong><strong>没有第二项内容可看，站得再久也不会多出什么。</strong><strong>如果你想让这一趟（从 Missoula 单程 1 小时 25 分钟）划得来，请把它和 Trapper Peak 观景牌（往南 3 英里）、Lake Como（往北 8 英里）排在同一趟里</strong>——<strong>三个点连在一起约需半天，单独为这道门跑一趟 3 小时来回是不值的。</strong>",
           "book": "<strong>不需预约，也无法预约——因为不存在任何形式的参观。</strong>官方 FAQ 原文：<strong>“Chief Joseph Ranch does not offer tours without a cabin reservation.”</strong><strong>唯一的进入方式是租两间小木屋之一（$1,600／$1,900 一晚，含牧场与场景导览），而 2026 年住客季的官方接单范围是「March 15 through August 31, 2026」，已在 8 月 31 日结束——你的 9/22–9/23 确定无房，这不是「订满了」而是「季节已关闭」。</strong>官网目前开放的是 <strong>2027 年 3 月 1 日至 11 月 1 日</strong>的预订；预订电话 406-821-0894，官网 chiefjosephranch.net 为唯一渠道（不上任何第三方平台），<strong>热门日期需提前约一年</strong>",
-          "ticket": "<strong>在 US-93 路肩拍摄大门：免费</strong>，且为牧场主人明确欢迎的行为。进入牧场：无票可买，只有房费（$1,600／$1,900 每晚起）",
-          "hours": "<strong>大门位于 US-93 公共路肩旁，路本身 24 小时通行，因此「拍大门」没有营业时间限制。</strong>但请注意两件事：（一）<strong>这是私人住宅的门口，深夜或清晨过早在门口活动、开大灯照射门内，既不礼貌也容易引来安保或警方</strong>，建议在正常白天时段（07:30 之后）前往，这也正好是光线最好的时候；（二）<strong>剧组开机期间门口有安保并会禁止拍照</strong>（官方原文 “During filming, there will be security at the gates. The Security company will not allow photos at that time”），<strong>2026 年 9 月是否有拍摄活动未能从官方渠道确认</strong>",
+          "ticket": "<strong>【2026-09-13 复核官网，以下为当天口径】</strong><strong>在 US-93 路肩看与拍大门：完全免费</strong>，且为牧场主人明确欢迎的行为。<strong>没有任何门票可买——进入牧场的唯一途径是租小木屋。</strong><strong>官网 Cabins 页当天挂出的房价是：Fisherman Cabin $1,600／晚、Ben Cook Cabin $1,900／晚，均含 4 人，每加一人 $75／晚，房费含一次牧场与拍摄场景导览。</strong><strong>但请注意这是官网正在接单的 2027 季价格</strong>——<strong>2026 年 6 月的多家报道给出的 2026 季价格是 Fisherman $1,400／晚、Ben Cook $1,700／晚，两种口径都存在，差别来自年份而非同期矛盾。</strong><strong>另外官网 Reservation Policies 页写明三条会显著抬高实际支出的条款：最少住 3 晚（“Minimum 3 Night Stay”）、报价不含 8% 的 Montana Lodging &amp; Facility Tax、刷卡另加 3% 手续费。按 2027 价算，最低一次成交额约 $4,800 加税费。</strong>",
+          "hours": "<strong>【2026-09-13 复核】大门位于 US-93 公共路肩旁，路本身 24 小时通行，因此「看大门」没有营业时间限制，也不存在季节关闭。</strong>但请注意两件事：（一）<strong>这是私人住宅的门口，深夜或清晨过早在门口活动、开大灯照射门内，既不礼貌也容易引来安保或警方</strong>，建议在正常白天时段（07:30 之后）前往，这也正好是光线最好的时候；（二）<strong>剧组开机期间门口有安保并会禁止拍照</strong>（官方原文 “During filming, there will be security at the gates. The Security company will not allow photos at that time”），<strong>2026 年 9 月是否有拍摄活动未能从官方渠道确认</strong>",
           "parking": "<strong>没有停车场。</strong>US-93 在大门附近有可以停车的路肩，<strong>但这是限速 65–70 mph、重卡频繁的主干道，必须把车完全停进路肩之内并打开危险警示灯。</strong><strong>绝对不要停在通往牧场的车道口</strong>——官方唯一的请求就是 “do not block the driveway”，这也是最容易招来冲突的行为。需要正规停车与卫生间的话，<strong>往北 1 英里的 Darby 镇上有街边停车、加油站与餐馆</strong>",
           "walk": "<strong>零步行</strong>——下车即到，从车到机位不超过 20 米。<strong>建议停留时间 10–15 分钟</strong>。这是本区唯一一个「可拍内容极其有限、请不要为它安排超过 15 分钟」的点位；把时间留给同一趟里的 Trapper Peak 与 Lake Como"
         },
@@ -704,6 +744,7 @@ var REGIONS = [
         "n": 8,
         "name": "特拉珀峰与 Bitterroot 山墙（谷底视角）",
         "en": "Trapper Peak & the Bitterroot Range from the Valley Floor",
+        "must": 3.5,
         "score": 4.5,
         "tldr": "10,157 英尺的山墙从谷底陡拔 6,270 英尺。秋分日太阳正东升起、正对东坡——07:23–07:50 山顶已亮而谷底仍在蓝影，是本区上限最高的一张。",
         "tags": [
@@ -734,6 +775,14 @@ var REGIONS = [
           "<strong>你实际会看到的是三座峰而不是一座</strong>，从左到右（南到北）是<strong>East Trapper（9,928 英尺）、Trapper Peak（10,157 英尺）、North Trapper（9,801 英尺）</strong>，当地统称 <strong>the Trapper Group</strong>。<strong>用长焦时请认准中间那座最高、最尖的</strong>——三座在一起时很容易认错",
           "<strong>关于最佳观景点，本地登山圈有一条很有用的意见，值得照做：</strong>SummitPost 的原文是 <strong>“Though most people stop at the Trapper Peak point-of-interest sign beside Highway 93 a couple of miles south of Darby to take in the view, a better viewpoint is along the highway just a couple of miles farther south (closer to Connor).”</strong><strong>即官方那块观景牌只是「大多数人停的地方」，再往南两英里（靠近 Conner）视角更好。</strong>原因是往南走会把观察角度从「斜看」变成「正看」山脊，三座峰的分离度更高、不会互相重叠",
           "<strong>山名的来历很实在</strong>：1876 年由 Anaconda 矿业公司的测量员 <strong>Granville Lee Shook</strong> 命名，<strong>理由就是这一带捕兽（trapping）收成好</strong>。同一块解说牌还提到这片谷地的人类活动至少有 <strong>8,000 年</strong>，Bitterroot Salish 人一直生活到 <strong>1891 年被迁往 Flathead Indian Reservation</strong>，<strong>1877 年 Nez Perce 族逃亡时也和平穿过这里</strong>——和 Chief Joseph Ranch 的名字是同一段历史"
+        ],
+        "tour": [
+          "<strong>这是一个「开车看风景」的点位，不是需要走进去的景区，先把这件事说清楚。</strong><strong>US-93 路东侧有一处正式观景点（邮政地址 3965 U.S. 93, Darby，南行时在右手边），带路肩停车与一块解说牌</strong>，停车即到，<strong>零步行</strong>。<strong>整个「参观」的内容就是：把车停好、下车、读那块解说牌、朝西南看那道山墙。没有游客中心、没有卫生间、没有饮水，也不需要门票或通行证。</strong>",
+          "<strong>看什么：认出是三座峰而不是一座，这是现场唯一需要「学」的东西。</strong>从左到右（南到北）依次是 <strong>East Trapper（9,928 英尺）、Trapper Peak（10,157 英尺）、North Trapper（9,801 英尺）</strong>，当地统称 the Trapper Group。<strong>中间那座最高、最尖的才是 Trapper Peak，也是整条 Bitterroot Range 的最高点。</strong><strong>真正震撼的不是高度而是落差</strong>：你脚下的谷底只有约 3,900 英尺，<strong>这道墙在不到 11 英里内拔起 6,270 英尺，中间几乎没有过渡的丘陵地带</strong>——这种「农田直接接冰川峭壁」的地形在美国本土很少见。再看山脚那一排平行的凹口，<strong>那是 30 多条冰川切出的 U 形峡谷</strong>，从北往南依次是 Bass、Sweathouse、Blodgett、Mill、Lost Horse、Bear、Boulder、Como。",
+          "<strong>不要只停在官方观景牌那一处，往南再开两英里。</strong><strong>本地登山圈的一致意见是：官方观景牌只是「大多数人停的地方」，再往南两英里（靠近 Conner）的视角明显更好</strong>——越往南你与山脊的相对角度越接近正交，<strong>三座峰不再互相叠压，轮廓分得开。</strong>这一段没有正式观景点，但有多处能把整辆车停进去的宽路肩。<strong>加上这两英里，全程也只多花 10 分钟。</strong>",
+          "<strong>什么时候来，差别极大，这是本点位最需要照做的一条。</strong><strong>清晨 07:23–09:30 山墙被正面光打亮、峡谷一条条投出阴影，立体感全天最强；傍晚太阳落到山墙背后，整道山变成没有细节的黑色剪影。</strong><strong>如果你一天里只能来一次，必须是早上。</strong><strong>傍晚要看山的话请反过来朝东看 Sapphire Mountains——那一侧此时正被暖光整面打亮，而大多数人这时还在朝西看一堆灰黑色的山。</strong>",
+          "<strong>人流与安全：几乎不用担心人，要担心的是车。</strong><strong>9 月下旬平日这处观景点通常只有一两辆车，随到随停，不存在排队。</strong><strong>但 US-93 是限速 65–70 mph、重型卡车频繁的主干道</strong>，停车务必把整车开出行车道、打开危险警示灯，下车后走向路侧而不是路中，<strong>带小孩的话请从副驾一侧下车。这里唯一的真实危险是交通。</strong>",
+          "<strong>餐饮与卫生间：现场都没有，Darby 在观景牌以北约 3 英里、开车 6 分钟。</strong>Darby 有三家餐馆、一家杂货店与加油站（加油站卫生间是这一带最方便的）。<strong>清晨来的话请注意：Darby 的餐馆多数 07:00 之后才开门，而你最好的观景时段是 07:23 开始，所以早饭请前一晚在 Hamilton 买好带上。</strong>"
         ],
         "photo": "风光 <strong>5/5</strong>，地质 <strong>4.5/5</strong>，人像 <strong>2/5</strong>。<strong>这是本子地区摄影上限最高的一个点，而且几乎零门槛——全部在 US-93 路边，下车即拍。</strong>扣掉半分只有两个原因，但都很硬：<strong>（一）它只在清晨成立</strong>，傍晚朝西是纯逆光剪影，拍不到山体质感（详见下方机位与前面的秋分几何提醒）；<strong>（二）它完全依赖能见度，烟霾会把它降到 0 分</strong>——9 英里外的山在中度烟霾下就会糊成一片灰白，长焦尤其惨。这个 5 分是给「晴朗清晨」的。",
         "shots": [
@@ -767,9 +816,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>30–45 分钟（不含往返车程）。</strong>分配：<strong>官方观景牌处 15–20 分钟（读解说牌 + 看山 + 认三座峰）+ 往南两英里换一处宽路肩再看 15–20 分钟 + 转场 10 分钟。</strong><strong>只想看一眼就走：15 分钟足够，就停官方观景牌那一处。</strong><strong>清晨专门来拍的话请整体预留 1.5–2 小时</strong>（含从 Hamilton 或 Darby 过来的车程、07:05 前到位、拍到 09:30 收工）。<strong>本点位没有任何「内容量」可以撑更长时间——它是看一眼就懂的地形，多出来的时间请给同一趟里的 Lake Como 与 Chief Joseph Ranch 大门。</strong>",
           "book": "不需预约",
-          "ticket": "<strong>免费</strong>。全部机位均在 US-93 公共路肩与正式观景点上，无任何费用，也不需要国家森林通行证（观景牌所在处不属于收费游憩区）",
-          "hours": "<strong>US-93 为全年 24 小时通行的主干道，观景点无门禁、无关门时间</strong>，任何时刻都可以到。<strong>这是本区唯一一个「完全不受任何营业时间、季节关闭、预约制度影响」的高分点位</strong>，也因此是烟霾散去后随时可以补拍的备选。路况（冬季或恶劣天气）查 <strong>Montana DOT：511mt.net</strong>",
+          "ticket": "<strong>【2026-09-13 复核】完全免费。</strong>全部机位均在 US-93 公共路肩与正式观景点上，<strong>无门票、无日间使用费、无停车费</strong>，<strong>也不需要国家森林通行证或 America the Beautiful 年票</strong>——<strong>Bitterroot National Forest 当天的官方 Passes 页只对 Lake Como Recreation Area 一处设日间使用费，Trapper Peak 观景牌不在其列。</strong>",
+          "hours": "<strong>【2026-09-13 复核】US-93 为全年 24 小时通行的主干道，观景点无门禁、无关门时间、无季节关闭</strong>，任何时刻都可以到。<strong>这是本区唯一一个「完全不受任何营业时间、季节关闭、预约制度影响」的高分点位</strong>，也因此是烟霾散去后随时可以补拍的备选。路况（冬季或恶劣天气）查 <strong>Montana DOT：511mt.net</strong>",
           "parking": "<strong>Trapper Peak 官方观景牌处有正式路肩停车与解说牌（45.98130, −114.15970），免费不限时。</strong>Darby–Conner 之间的 US-93 沿线另有多处可完全停进去的宽路肩。<strong>US-93 限速 65–70 mph 且重型卡车频繁，必须把车完全停出行车道并开危险警示灯；这是本点位唯一的实际危险。</strong>需要卫生间与补给请到 Darby（观景牌以北约 3 英里）",
           "walk": "<strong>全部机位零步行</strong>——停车即拍，从车门到机位不超过 20 米。<strong>这个属性在 9/22 清晨 −2°C、又要在 07:23 准时开拍的条件下价值极高。</strong>建议清晨预留 1.5–2 小时（含从 Darby 或 Hamilton 过来的车程与两个机位的转场）"
         },
@@ -838,6 +888,7 @@ var REGIONS = [
         "n": 1,
         "name": "Butte 矿井架（绞架）",
         "en": "Butte Headframes (Gallows Frames)",
+        "must": 3,
         "score": 4,
         "tldr": "14 座钢制矿井架立在城市上方，其中 7–8 座缀有红色 LED、天黑即亮。9/23 蓝调窗口 19:35–19:55。哪几座今年亮着无官方名单，需现场确认。",
         "tags": [
@@ -868,6 +919,13 @@ var REGIONS = [
           "<strong>近年的换新工程与 2026 年的现状（这是本条最需要现场核实的部分）：</strong>2003 年那批红色 LED 绳灯已老化，Mainstreet Uptown Butte 联合 <strong>Town Pump Charitable Foundation</strong> 在做逐座翻新：<strong>Travona 获约 $37,000 赞助率先换新，Original 与 Steward 各获约 $45,000 在夏季音乐节前完成，Belmont 在暗了十多年后重新点亮；下一批点名的是 Mountain Con 与 Bell Diamond。项目目标是总共点亮 10 座。</strong>新系统不再是单色绳灯，而是<strong>可变色、可做节庆图案的灯具（圣帕特里克节、独立日、圣诞等）</strong>。<strong>但没有任何官方渠道公布「2026 年 9 月哪几座在亮」的名单，也没有公布开灯时刻。这一点未能核实，只能到现场看。</strong>现场问询与赞助联系人是 Mainstreet Uptown Butte 的 George Everett（406-565-2249）",
           "<strong>可公开接近的几座与它们的坐标（全部取自 OSM 实体，已核实）：</strong><strong>Anselmo Mine（46.01790, −112.54584，海拔 1,768 米）</strong>——OSM 标为 tourism=attraction，位于 Caledonia Street，<strong>是 Butte 保存最完整的矿场院落之一，从街上就能拍到完整的架体加院内附属建筑</strong>；<strong>Original Mine（46.01715, −112.53752，W Woolman St）</strong>——就在 Main Street 北端尽头，<strong>Original Mine Yard 是对外开放的活动场地（Montana Folk Festival 的主舞台之一在这里）</strong>，离 Uptown 步行可达；<strong>Steward Mine（46.01818, −112.53507，E Woolman St）</strong>——紧贴 Uptown 北缘，最容易顺路；<strong>Mountain Con Mine（46.02316, −112.53216，Wells St，海拔约 6,096 英尺）</strong>——有停车场与开阔视野，<strong>是「矿井架 + 全城」同框的最佳位置</strong>；<strong>Belmont Mine（46.01270, −112.52197，Shields Ave）</strong>——在去 Berkeley Pit 的路上；<strong>Travona Mine（46.00493, −112.54558，S Crystal St）</strong>——西侧较低处，第一座亮灯的",
           "<strong>哪几座拍不到，说清楚免得白跑：</strong><strong>Kelley Mine</strong> 的架子立在 <strong>Berkeley Pit 北高墙上方</strong>，那是在管的 Superfund 复垦区，<strong>不能靠近，只能从 Berkeley Pit 观景台隔着一英里用长焦拍</strong>；<strong>Orphan Girl</strong> 在 World Museum of Mining 院内，<strong>要买门票并在营业时间内（9:30–17:00）才拍得到，也就是说它是唯一一座你拍不到蓝调时段的</strong>；<strong>Granite Mountain Mine</strong> 的架子在 Granite Mountain Memorial 一带（见下一景点）。<strong>其余各座周边多为封闭矿区，围栏、竖井盖板与旧基础都在——一律从公共道路或已开放的矿场院落内拍摄，不要越过任何围栏。</strong>"
+        ],
+        "tour": [
+          "<strong>先摆正期望：这不是一个「景点」，是一组散在城市各处的露天构筑物。</strong><strong>没有售票处、没有解说中心、没有游客服务，你能做的就是开车或步行到几座架子下面，抬头看，读一下路边的解说牌（不是每座都有）。</strong><strong>因此它的正确用法是「顺路串起来」，而不是单独安排半天。</strong>",
+          "<strong>最省事的走法：一条 25–35 分钟的开车串联线。</strong>从 Uptown 出发 → <strong>Anselmo Mine（Caledonia St，保存最完整的一座，有成套地面设施，值得下车走一圈）</strong> → <strong>Mountain Con Mine Yard（Wells St，有停车场、地势最高，能一眼看到全城加好几座架子，这是全组唯一的「观景点」）</strong> → 顺 Shields Ave 下到 <strong>Belmont Mine</strong>（正好在去 Berkeley Pit 的路上）。<strong>如果懒得开车，Original Mine 与 Steward Mine 从 Broadway 步行 5–8 分钟就到，两座相距约 200 米。</strong>",
+          "<strong>别错过 Mountain Con Mine Yard；其余可以按时间砍。</strong>它是唯一能同时看到「密集的历史街区 + 山坡上的钢架」的位置，开车直达、几乎零步行，<strong>只在这一处停 20 分钟，也算把这个题材看明白了。</strong>相反，<strong>Travona（城西较低处）与 Bell Diamond 单看意义不大，时间紧就跳过</strong>；<strong>Kelley Mine 根本去不了</strong>（在 Berkeley Pit 北高墙上方的 Superfund 管制区，只能从矿坑观景台隔一英里远看）；<strong>Orphan Girl 在 World Museum of Mining 院内，要买票才进得去</strong>，已包含在那个条目里。",
+          "<strong>晚上值得再来一趟，而且这是本条最实在的建议。</strong>14 座里有 <strong>7–8 座缀着红色 LED</strong>，现场的说法是「太阳下山灯就亮」——<strong>整座城市上方浮着一排红色钢架轮廓，这个景象在别处看不到，比白天看一根铁架子有意思得多。</strong>实操：<strong>天黑前先开车绕一圈记下哪几座亮着</strong>（没有官方名单），然后回 Mountain Con 或走到 Original／Steward 下面看。<strong>Butte 9 月下旬天黑在 19:30 前后，看完正好去吃晚饭。</strong>",
+          "<strong>安全：这是本子地区唯一有实质危险的点位类型。</strong>矿场遗址地面是碎石、旧混凝土基础、外露钢件与<strong>真实存在的竖井盖板</strong>，<strong>任何围栏、封板与 “No Trespassing” 标示一律不越过。</strong><strong>穿硬底鞋，天黑后必带手电或头灯</strong>；<strong>没有任何一座架子附近有卫生间</strong>，上一个厕所在 Uptown 的餐馆或 Berkeley Pit 观景台（17:00 关）。"
         ],
         "photo": "工业／建筑 <strong>4.5/5</strong>，夜景与蓝调 <strong>5/5</strong>，白天单拍 <strong>3/5</strong>，人像 <strong>1.5/5</strong>。<strong>这是本子地区最独特、也最不可能在别处复制的题材</strong>：黑色钢桁架的剪影本身就是极强的图形元素，<strong>而「天黑后被红灯勾出轮廓的钢架立在一座半空的老矿城上方」这个画面在全世界几乎没有第二处。</strong>白天单拍扣分是因为架体是深色钢结构、逆着亮天空容易只剩剪影，缺少中间调；<strong>所以本景点的价值高度集中在日落后那二十分钟。这也让它成为完美的「烟大照样能拍」的备选</strong>——烟霾会把暮色天空压成橙红，反而和红色 LED 呼应。",
         "shots": [
@@ -909,9 +967,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>作为白天顺路项目 45–75 分钟</strong>：开车串 Anselmo → Mountain Con → Belmont 约 <strong>35 分钟</strong>（含在每处下车 5–10 分钟），只去 Mountain Con 一处 <strong>20 分钟</strong>。<strong>晚上看亮灯另算 30–45 分钟</strong>（19:20 出门，19:30 前后灯亮，看两三座）。<strong>摄影者的节奏完全不同：单个蓝调机位就要 45–60 分钟，想串三四座请把整个 17:30–20:00 都留出来。</strong>",
           "book": "<strong>不需预约。</strong>全部为公共道路或已对外开放的矿场院落",
-          "ticket": "<strong>免费。</strong>Anselmo、Original、Steward、Mountain Con、Belmont、Travona 均无门票。<strong>例外只有 Orphan Girl——它在 World Museum of Mining 院内，需门票且只能在 9:30–17:00 拍</strong>",
-          "hours": "<strong>路边与开放矿场院落 24 小时可达，全年开放，不受季节性关闭影响。</strong><strong>夜间亮灯的官方口径只有一句现场观察：“The lights come on when the sun goes down.”</strong><strong>2026 年 9 月具体哪几座在亮、几点开灯、是否有固定关灯时间，全部未能从官方渠道确认</strong>——实操办法是<strong>天黑前先开车绕一圈把亮着的几座记下来</strong>，或联系 Mainstreet Uptown Butte 的 George Everett（406-565-2249）",
+          "ticket": "<strong>免费（2026-09-13 复核）。</strong>Anselmo、Original、Steward、Mountain Con、Belmont、Travona 均无门票、无停车费。<strong>例外只有 Orphan Girl——它在 World Museum of Mining 院内，需门票（成人 $12）且只能在 9:30–17:00 进去看</strong>",
+          "hours": "<strong>路边与开放矿场院落 24 小时可达，全年开放，不受季节性关闭影响（2026-09-13 复核）。</strong><strong>夜间亮灯的官方口径只有一句现场观察：“The lights come on when the sun goes down.”</strong><strong>2026 年 9 月具体哪几座在亮、几点开灯、是否有固定关灯时间，全部未能从官方渠道确认</strong>——实操办法是<strong>天黑前先开车绕一圈把亮着的几座记下来</strong>，或联系 Mainstreet Uptown Butte 的 George Everett（406-565-2249）",
           "parking": "<strong>Mountain Con Mine Yard 有独立免费停车场（46.02316, −112.53216）</strong>；Anselmo 在 Caledonia Street 路边免费停车；Original 与 Steward 从 Uptown 街边车位步行 5–8 分钟即到。<strong>Butte 山坡街道坡度陡，夜间路面可能结霜，停车打死方向拉手刹</strong>",
           "walk": "Anselmo、Mountain Con、Belmont、Travona 均为<strong>停车即拍（零至 50 米）</strong>；Original 与 Steward 从 Broadway 步行 <strong>5–8 分钟</strong>。<strong>蓝调时段单个机位建议留 45–60 分钟</strong>（含等灯亮与连续包围曝光）；若想串起三四座，整个傍晚（17:30–20:00）都要留给它们"
         },
@@ -944,6 +1003,7 @@ var REGIONS = [
         "n": 2,
         "name": "Butte 上城历史街区",
         "en": "Uptown Butte Historic District",
+        "must": 4,
         "score": 4.5,
         "tldr": "全美最大的国家历史地标街区之一，半衰败半修复的采矿暴发城。街道全年免费。9/23 太阳最高只有 43.7°，街面受光窗口仅 11:35–15:10；阴天反而更好。",
         "tags": [
@@ -978,6 +1038,14 @@ var REGIONS = [
           "<strong>《1923》：Uptown Butte 整个被改造成了 1920 年代的 Bozeman，这是本景点对你的额外意义。</strong>制作方的取景逻辑来自 Taylor Sheridan 自己的说法——<strong>“I don’t build a world with visual effects. I go shoot these corners of the world that people haven’t seen.”</strong>已确认出现在剧中的 Butte 实体建筑（地址与用途）：<strong>Thornton Block（65 E Broadway，1901 年开业的五层 Thornton Hotel）→ “First Bank of Montana” 门面</strong>；<strong>Kenwood Building（63 W Broadway）→ “Hotel Bozeman” 立面</strong>；<strong>Piccadilly Museum of Transportation（20 W Broadway）→ “Dodge Brothers Motor Vehicles” 车行门面</strong>；<strong>Butte Water Company Building（124 W Granite，新古典立面）→ “Bozeman Town Hall”</strong>；<strong>Butte-Silver Bow Courthouse / City Court（155 W Granite）→ 季终集 Banner Creighton 受审的法院</strong>；<strong>Carpenters Union Hall（156 W Granite，1906 年建，内有 Butte 最老的电台 KMBF）→ Livestock Association 会议的内景</strong>；<strong>Silver House（106 W Broadway）→ 竞选总部</strong>；以及 <strong>Butte Sheriff’s Department（225 N Alaska St）→ Bozeman 警长办公室外景</strong>。W Broadway 一整排空置店面被改成 Opal’s Diner（62 W Broadway）、Silver Dollar Soda 与 Honest Jim’s Pawnshop（45 W Broadway）、Mary Foley’s Flowers（53 W Broadway）、Broadway Dry Goods、Two Bits &amp; A Nick Barbershop、Heine Fine Fur；Shuman’s Consignment 的真身是 27 W Broadway 的 Beautiful Things on Broadway；拳击赛的擂台搭在 <strong>Broadway 与 Hamilton 街口的一处停车场</strong>；老巴士站被改成 “Bozeman Civic Center”。",
           "<strong>关于《1923》必须说清的三件事，否则你会白跑：</strong><strong>（一）布景已经全部拆掉复原。</strong>当地报纸的原话是 “The buildings were restored to their former look after filming.”——<strong>你到 W Broadway 看到的是真实的 Butte 店面，不是剧中的 Opal’s Diner。能拍到的是「这些戏是在这条街上拍的」，不是「这些戏的场景还在」。</strong><strong>（二）内景基本都进不去，但有一个重要例外。</strong>Carpenters Union Hall 是工会与电台自用建筑，Butte Water Company Building 是自来水公司办公楼，Thornton Block 的银行内景其实根本不在 Butte——<strong>那场戏拍在 Pony 镇的 Morris State Bank</strong>。<strong>例外是那座法院：Butte-Silver Bow Courthouse 平日 08:00–17:00 欢迎公众自助参观，所以剧中审判 Banner Creighton 那栋建筑的内部你是真的进得去的（详见 hours 一栏）。</strong><strong>（三）Butte Civic Center（1340 Harrison Ave）不是可参观的景点。</strong>剧组租下这座场馆在里面搭了银行内景与舞厅等大量摄影棚布景，<strong>它本身是一座市政体育／活动场馆，没有布景遗留，也没有对外的参观项目，不要专程去。</strong><strong>好消息是：真正值得拍的九处外景全部在 Uptown 步行 10 分钟范围内，且全部可以从公共人行道自由拍摄。</strong>",
           "<strong>除了《1923》，Uptown 本身有几处分量更重的单体，顺路就在同几条街上：</strong><strong>Copper King Mansion（219 W Granite）</strong>——铜业巨头 W. A. Clark 建于 1888 年的 34 间房大宅，现为博物馆与民宿；<strong>Hotel Finlen（100 E Broadway 一带）</strong>——1924 年建，据称仿纽约 Hotel Astor，是 Uptown 天际线上最好认的一栋；<strong>Mai Wah Museum（W Mercury St）</strong>——Butte 唐人街遗存，提醒你这座矿城曾有相当规模的华人社区；<strong>Dumas Brothel（E Mercury St）</strong>——1890 年开业、1982 年才停业，常被称为全美连续经营时间最长的妓院建筑。<strong>这四处加上《1923》的九处，构成一条不到 1.5 公里的步行拍摄线。</strong>"
+        ],
+        "tour": [
+          "<strong>怎么逛：一条环线，不要瞎走。</strong>从 <strong>Broadway 与 Main 街口</strong>起步，沿 <strong>W Broadway 向西走到 Montana 街</strong>（这一段是《1923》的主街，也是店面最密的一段），右转上 <strong>W Granite 街向东折回</strong>（法院、Butte Water Company、Carpenters Union Hall、Copper King Mansion 都在这条街上），再往南绕一个街区到 <strong>W Mercury 街</strong>看 Mai Wah 与 Dumas Brothel。<strong>全程不到 1.5 公里，纯走路 25 分钟，正常节奏 1.5–2 小时。</strong><strong>Uptown 建在山坡上，南北向街道很陡，东西向街道基本平——所以按上面这个「先走东西街、最后再上下一次」的顺序会省很多力气。</strong>",
+          "<strong>别错过的三样（按优先级）：</strong><strong>① Butte-Silver Bow Courthouse（155 W Granite）的室内</strong>——这是 Uptown 唯一一处免费且能自由进的大型历史内景，看点是 1912 年的中庭、中庭顶上的彩绘玻璃穹顶、成片室内壁画，以及本地人 Bill Burns 花 38 年做的 <strong>Belmont Mine 可动模型</strong>（很多人专程为这个来）；<strong>② Copper King Mansion（219 W Granite）的导览</strong>——本页另有独立条目，是 Uptown 唯一能进去看内部装修的豪宅，需买票并按整点场次；<strong>③ Broadway 与 Granite 两条街的整体立面</strong>——这里的价值是「一整条街没有一栋现代建筑」，要连着看而不是挑单栋看。",
+          "<strong>可以直接跳过的：</strong><strong>Butte Civic Center（1340 Harrison Ave）</strong>——《1923》在里面搭过摄影棚布景，但布景早已拆除，它就是一座普通的市政体育馆，没有任何参观项目，而且在山下平地城区、离 Uptown 车程 8–10 分钟；<strong>Harrison Avenue 一带的平地城区</strong>——连锁酒店与快餐带，没有可看的东西。<strong>省下的这一小时给法院中庭和 Mai Wah Museum，回报高得多。</strong>",
+          "<strong>人流与营业时间：人不是问题，营业时间才是。</strong>9 月下旬平日的 Uptown 街上几乎没有游客，任何时候来都不用排队。<strong>但这里大多数小店、咖啡馆与博物馆是 10:00 或 11:00 才开、17:00 就关，周日与周一有相当比例闭门。</strong><strong>法院自助参观只在周一至周五 08:00–17:00</strong>，所以「想进室内」的话，把 Uptown 排在工作日的白天，不要排在周日或傍晚。",
+          "<strong>餐饮与卫生间（这条会影响你半天的安排）：</strong>餐饮集中在 <strong>E/W Broadway 与 W Park 街这两条街</strong>，Hotel Finlen 大堂的酒吧、Broadway 上的几家咖啡馆与餐馆是最稳的选择，<strong>但晚餐时段之外不少店会歇业，下午 14:00–17:00 之间可能只剩咖啡馆开着</strong>。<strong>街面上没有公共厕所</strong>——平日可用法院一层（08:00–17:00），其余时间只能靠餐馆与咖啡馆，出发前在山下加油站或酒店先解决一次比较稳妥。",
+          "<strong>安全与礼节：</strong>Uptown 有相当比例的空置物业，<strong>任何有围栏、封板或 “No Trespassing” 标示的建筑一律不要进</strong>——产权明确而且结构状况不明。街区本身白天治安正常，但入夜后空置街段行人很少，<strong>晚上尽量结伴并留在有灯的主街上</strong>。"
         ],
         "photo": "建筑 <strong>5/5</strong>，人文／街拍 <strong>4.5/5</strong>，细节与质感 <strong>5/5</strong>，风光 <strong>2.5/5</strong>。这是本次整趟行程里<strong>唯一一个「衰败工业城市美学」题材</strong>，而且是最高级别的那种：完整的历史街区、没有现代建筑污染画面、大量剥落的砖与陶饰面、背景里还立着钢制矿井架。<strong>长焦压缩街景和微距拍砖面都能拍一整天。</strong>扣分只有两处，而且都是光的问题：<strong>山坡密集棋盘格 + 9 月下旬太阳最高只有 43.7°，导致街面受光窗口极短（11:35–15:10）；而且街道南侧那一整排朝北的立面在 9 月下旬全天拿不到直射光。</strong>风光分低是因为这里就是城市，没有开阔景观（要视野请去 Mountain Con 或 Granite Mountain Memorial）。",
         "shots": [
@@ -1027,9 +1095,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "<strong>不需预约。</strong>街区是公共街道，全部机位都从人行道拍摄。（Copper King Mansion 的室内导览需另行预约与付费，<strong>其 2026 年 9 月下旬的具体开放时间未能从官方渠道确认</strong>）",
-          "ticket": "<strong>免费。</strong>街道、人行道与所有外立面拍摄均无费用。Mountain Con Mine Yard 也是免费的公共场地",
-          "hours": "<strong>街区 24 小时开放，无门禁，全年可达，不受任何季节性关闭影响（2026-09-05 复核，仍然成立）</strong>——这是本子地区最可靠的一个点，也是烟大或天气坏时的保底方案。<strong>但要注意大部分内景不可进入</strong>：Carpenters Union Hall（工会与 KMBF 电台自用）、Butte Water Company Building（自来水公司办公楼）、Kenwood 与 Thornton Block（私有商业物业）、Butte Civic Center（市政场馆，无参观项目）。<strong>这五处在 2026-09-05 复核时依然查不到任何对外开放的参观项目或公示时段</strong>；Butte Civic Center 在 Butte-Silver Bow 县政府自己的 Government Buildings 页上是一个市政设施条目（1340 Harrison Ave，(406) 497-6573），没有游客项目这一栏。<strong>唯一的例外是 Butte-Silver Bow Courthouse，它确实可以进，但请注意这条信息的来源层级：</strong><strong>「平日 08:00–17:00 可自助参观」这句话的出处是 Mainstreet Uptown Butte（街区商会组织）：“Although the building remains in use as office space for county staff, visitors are welcome to take self-guided tours Monday through Friday from 8 am to 5 pm.”</strong><strong>而真正的产权与管理方 Butte-Silver Bow 县政府在自己的官方页面上并没有公布任何参观时段——它只是把中庭、彩绘玻璃穹顶与 Bill Burns 那座 Belmont Mine 可动模型描述成 “Visitors to the Butte Courthouse can see…”，即确认公众可以看，但不给时间。</strong><strong>两级来源不冲突，但严格说「8 am to 5 pm」不是运营方自己的口径。9/23（周三）与 9/24（周四）都是平日，按这个时段进去拍中庭在实操上是可行的；如果这是你当天唯一的室内机位，出发前打县政府总机 (406) 497-6200 问一句更稳。</strong><strong>安检规定官方未公布（这是在办公的法院，安检完全可能存在）；县政府官方页面明确写了「除服务犬外不得带动物入内」。</strong>其余市政办公楼请只拍外立面",
+          "visit": "<strong>2.5–4 小时</strong>（含法院中庭与随走随看的店面）。<strong>拆开来算：</strong>只沿 Broadway 与 Granite 走一圈、不进任何室内 <strong>60–75 分钟</strong>；进法院看中庭、穹顶与 Belmont Mine 模型 <strong>+20–30 分钟</strong>；Mai Wah Museum 与 Dumas Brothel 外观 <strong>+20 分钟</strong>；开车上 Mountain Con Mine Yard 眺望全城 <strong>+30 分钟</strong>（含来回车程）。<strong>另加 Copper King Mansion 导览要再留 1.5 小时（见该条目）。</strong><strong>时间只够一小时的话：就走 W Broadway 与 W Granite 这两个街区，其余全部舍掉。</strong>",
+          "book": "<strong>不需预约。</strong>街区是公共街道，全部机位都从人行道拍摄。（Copper King Mansion 的室内导览需另行购票，<strong>2026-09-13 已向官方页面核实：每日 10:00／12:30／14:00／15:30 四场，开到 9 月 30 日，详见该条目</strong>）",
+          "ticket": "<strong>免费（2026-09-13 复核）。</strong>街道、人行道与所有外立面拍摄均无费用，<strong>Butte-Silver Bow Courthouse 的自助参观也不收费</strong>。Mountain Con Mine Yard 同样是免费的公共场地",
+          "hours": "<strong>街区 24 小时开放，无门禁，全年可达，不受任何季节性关闭影响（2026-09-13 复核，仍然成立）</strong>——这是本子地区最可靠的一个点，也是烟大或天气坏时的保底方案。<strong>但要注意大部分内景不可进入</strong>：Carpenters Union Hall（工会与 KMBF 电台自用）、Butte Water Company Building（自来水公司办公楼）、Kenwood 与 Thornton Block（私有商业物业）、Butte Civic Center（市政场馆，无参观项目）。<strong>这五处在 2026-09-13 复核时依然查不到任何对外开放的参观项目或公示时段</strong>；Butte Civic Center 在 Butte-Silver Bow 县政府自己的 Government Buildings 页上是一个市政设施条目（1340 Harrison Ave，(406) 497-6573），没有游客项目这一栏。<strong>唯一的例外是 Butte-Silver Bow Courthouse，它确实可以进，但请注意这条信息的来源层级：</strong><strong>「平日 08:00–17:00 可自助参观」这句话的出处是 Mainstreet Uptown Butte（街区商会组织）：“Although the building remains in use as office space for county staff, visitors are welcome to take self-guided tours Monday through Friday from 8 am to 5 pm.”</strong><strong>而真正的产权与管理方 Butte-Silver Bow 县政府在自己的官方页面上并没有公布任何参观时段——它只是把中庭、彩绘玻璃穹顶与 Bill Burns 那座 Belmont Mine 可动模型描述成 “Visitors to the Butte Courthouse can see…”，即确认公众可以看，但不给时间。</strong><strong>两级来源不冲突，但严格说「8 am to 5 pm」不是运营方自己的口径。9/23（周三）与 9/24（周四）都是平日，按这个时段进去拍中庭在实操上是可行的；如果这是你当天唯一的室内机位，出发前打县政府总机 (406) 497-6200 问一句更稳。</strong><strong>安检规定官方未公布（这是在办公的法院，安检完全可能存在）；县政府官方页面明确写了「除服务犬外不得带动物入内」。</strong>其余市政办公楼请只拍外立面",
           "parking": "<strong>Uptown 街边停车免费</strong>，Broadway、Granite、Park 各街均有路边车位；9 月下旬平日车位宽松。<strong>Mountain Con Mine Yard 有独立免费停车场（46.02316, −112.53216）。</strong>注意 <strong>Uptown 的南北向街道坡度很陡</strong>（Butte 建在山坡上），停车请打死方向、拉手刹",
           "walk": "<strong>《1923》的九处外景加 Copper King Mansion、Mai Wah、Dumas 全部在一条不到 1.5 公里的步行线上</strong>，端到端步行 <strong>20–25 分钟</strong>，含拍摄建议留 <strong>2.5–4 小时</strong>。<strong>但请把坡度算进去</strong>：从 Mercury 街（较低）走到 Woolman／Copper 街（较高）要爬升约 50 米。Mountain Con 需另外开车上去，单程 5 分钟"
         },
@@ -1062,6 +1131,7 @@ var REGIONS = [
         "n": 3,
         "name": "伯克利矿坑",
         "en": "Berkeley Pit",
+        "must": 4,
         "score": 4,
         "tldr": "一英里宽的酸性露天铜矿湖，Superfund 场址。观景台 9/23–9/24 开门（每日 10:00–17:00），门票金额官方从未公布、非官方口径 $3 与 $7 并存，带 $10 现金。只能在 10:00–17:00 拍，没有晨昏光。",
         "tags": [
@@ -1093,6 +1163,14 @@ var REGIONS = [
           "<strong>雪雁事件说明这水到底有多毒，而且它有一个你能听到的后果。</strong><strong>1995 年约 342 只雪雁降落在坑里后死亡；2016 年 11 月末约一万只雪雁同时降落，数千只死亡。</strong>此后场址常年运行<strong>驱鸟设施（鸣笛与声响装置）</strong>——<strong>你在观景台上会听到定时的喇叭声，那不是施工，是在赶鸟。</strong>这个细节值得放进照片的语境里",
           "<strong>抵达方式本身就是这个点的一部分：你要穿过一条在坑缘岩体里开凿的隧道。</strong>观景平台在<strong>西南缘（OSM viewpoint 节点 46.01172, −112.51783，海拔 1,710 米）</strong>，从停车场走一条穿过坑壁的短隧道出来才到平台。<strong>有实地访客的原话是「走隧道过去花的时间比看坑本身还长」</strong>——这话说明了两件事：<strong>一是路程真的很短；二是很多人对这个点期望过高。它是一个「站在固定栏杆后看一个大坑」的点位，没有第二个角度，也不能沿坑缘移动。</strong>平台有解说展板、卫生间与礼品店"
         ],
+        "tour": [
+          "<strong>流程极简，全程照抄即可：</strong>开到 <strong>Shields Avenue 尽头</strong>的免费停车场 → 在小屋买票（<strong>带现金，金额见票价一栏</strong>）→ <strong>穿过一条开凿在坑壁里的短隧道</strong>（照明良好、平地，2–3 分钟）→ 出隧道就是观景平台。<strong>平台是固定的，只有一个视角，不能沿坑缘移动，走到头就这些。</strong><strong>先别急着看坑</strong>——平台上有一排解说展板讲矿坑的开挖史、水化学与治理现状，<strong>不读展板的话，这里就真的只是一个大水坑；读了它才成立。</strong>",
+          "<strong>必看的三样：</strong><strong>① 水的颜色</strong>——强酸溶出铁、铜、砷、钴、镉，水面在不同光线与水深下呈红、黄、橙到近乎荧光绿的色带，这是这里唯一「别处没有」的东西；<strong>② 对岸北高墙的水平开采台阶</strong>，一层层的开采痕迹是理解「一英里宽、1,600 英尺深」这个尺度的唯一参照；<strong>③ 北高墙顶上的 Kelley Mine 矿井架</strong>——它在管制区里进不去，这里是唯一能看到它的地方。<strong>顺便留意定时响起的喇叭声：那是驱鸟装置，不是施工</strong>（1995 年约 342 只、2016 年数千只雪雁在此死亡之后加装的）。",
+          "<strong>可以跳过的：礼品店。</strong>东西不多、价格一般，<strong>Uptown 的几家店与 World Museum of Mining 的礼品店选择都更好</strong>。<strong>另外不要为了「看久一点」硬留</strong>——这是一个视角固定的点位，现场访客最常见的评价就是「走隧道过去花的时间比看坑本身还长」，<strong>看完 30–45 分钟就该走，把时间给 Uptown 或 World Museum of Mining。</strong>",
+          "<strong>人流与排队：基本不存在。</strong>9 月下旬平日这里人很少，买票不用排队，平台也不会挤。<strong>唯一会撞上的是 Butte 的观光电车（trolley）团</strong>——电车团把这里当固定停靠点、门票包含在车票里，一车人到了平台会瞬间站满，<strong>等 10 分钟他们就走了</strong>。",
+          "<strong>餐饮与卫生间：平台上有卫生间与野餐桌，这是这一带唯一的公共厕所</strong>（<strong>但 17:00 关门，之后整个矿区一带没有厕所</strong>）。<strong>没有任何餐饮</strong>，最近的吃饭地方在 Uptown，车程 5–8 分钟。通道与平台是铺装步道加坡道，<strong>轮椅与推车可达</strong>。",
+          "<strong>安全边界很硬：水是强酸性且富含重金属，栏杆之外是不稳定的坑壁。</strong><strong>不要翻越护栏、不要试图接近水面、不要伸手取水或扔东西下去。</strong>这里是在管的 Superfund 场址，场内所有管制标识都必须遵守。坑缘海拔约 5,610 英尺、完全暴露，<strong>风大且干燥，9 月下旬中午也建议带一件外套。</strong>"
+        ],
         "photo": "地景／工业 <strong>4/5</strong>，抽象与色彩 <strong>4.5/5</strong>，风光 <strong>2.5/5</strong>，人像 <strong>1/5</strong>。<strong>加分全在两处：水的非自然色彩，以及一英里宽台阶状高墙的尺度</strong>——用长焦压北高墙上那些水平的开采台阶（bench），可以拍出近乎抽象的地层线条。扣分很实在：<strong>只有一个固定平台、一个固定视角，构图自由度极低；而且营业时间 10:00–17:00 把日出、日落与蓝调时段全部排除在外，这是一个你在物理上无法拍到好光的景点。</strong>接受这一点之后再去，它仍然值得，因为主体本来就不靠光。",
         "shots": [
           {
@@ -1109,9 +1187,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>30–60 分钟</strong>，这就是这个点的全部容量。<strong>分配：</strong>停车场穿隧道到平台 <strong>单程 3–5 分钟</strong>（往返约 8 分钟）；在平台看坑、读完一排解说展板 <strong>20–30 分钟</strong>；礼品店与卫生间 <strong>5–10 分钟</strong>。<strong>只想看一眼就走：25 分钟足够。</strong><strong>超过 75 分钟没有意义</strong>——视角单一、不能沿坑缘移动，看到的东西不会再增加（摄影者压长焦拍高墙台阶可以留到 75 分钟，但也就到顶了）。<strong>请把它排在中午</strong>：营业时间只有 10:00–17:00，本来也拿不到晨昏。",
           "book": "<strong>不需预约。</strong>散客直接到场买票即可。（团体与教育参观可另约，Tours available March through November，联系 info@pitwatch.org，建议提前一周）",
-          "ticket": "<strong>需付费，但金额到 2026-09-05 仍然没有任何官方数字，而且非官方数字互相矛盾——这一条比原先写的更不确定，请按最坏情况带现金。</strong><strong>运营方官网（pitwatch.org/visit）2026-09-05 复核，Admission 一栏只有 “Admission Fee” 三个字，没有金额；Butte Chamber of Commerce 作为实际运营方也没有公示价目。</strong><strong>非官方口径至少有两个版本：一批访客报告为每人 $7，另一批第三方页面写 $3</strong>（历史金额曾是 $2，后为 $5）。<strong>两个数字差一倍以上，说明没有一个能当准。请按每人 $10 备现金，并在电话里直接问价：(406) 723-3177，或 (406) 497-5045。</strong><strong>停车免费。</strong>",
-          "hours": "<strong>2026-09-05 复核，运营方（Butte Chamber of Commerce）的官方口径一字未变，原文：“Open daily, 10 A.M.- 5 P.M.” 与 “Open May – October (weather permitting)”。据此 9 月 23 日（周三）与 9 月 24 日（周四）均在营业期内，每日 10:00–17:00 开放。</strong><strong>但必须指出口径冲突：</strong>区域旅游局 southwestmt.com 写的是“The Berkeley Pit Viewing Stand is typically open from mid-May through mid-September”，<strong>即九月中旬就可能收季</strong>，只补充说可能延后到秋季更晚。<strong>两个渠道不一致。本页采信运营方自己的 May–October</strong>（Montana Tech 的 Butte 景点页也写 “The Viewing Stand and Gift Shop are open May – October”，算是第三个站在 May–October 一边的口径，虽然它同样不是运营方），<strong>但这仍然是本子地区第一优先要电话确认的项：(406) 723-3177（或 (406) 497-5045）。</strong>另注意 “weather permitting”——降雪或结冰可临时闭站。<strong>如果行程落在 10 月下旬那个备用窗口，这一条的风险明显更高：按运营方口径十月仍在期内，但那正好是两个口径分歧最大的时段，而且十月的降雪足以让 “weather permitting” 真的生效——那种日期务必先打电话再开车过去。</strong>",
+          "ticket": "<strong>需付费，但到 2026-09-13 再次复核，官方仍然没有公布任何金额，而非官方数字依旧两说——这一条请按最坏情况带现金。</strong><strong>运营方官网（pitwatch.org/visit）2026-09-13 复核，Admission 一栏仍然只有 “Admission Fee” 三个字，一个数字都没有；实际运营方 Butte Chamber of Commerce 也没有公示价目。也就是说「官方从未公布门票金额」这个判断在今天依然成立。</strong><strong>非官方口径两个版本，这次复核后可以说清它们的来源与新旧：</strong><strong>（甲）$7 每人</strong>——来自 <strong>2026 年 6 月 24 日与 7 月 9 日两条独立的实地访客评论</strong>，两人都明确写出 “$7 per person”，是目前<strong>时间最近、彼此独立印证</strong>的数字；<strong>（乙）$3 每人</strong>——出现在若干第三方旅游与媒体页面上（这些页面同时还写着「mid-May 到 mid-September」的旧营业期，<strong>与运营方官网的 May–October 不符，因此整批内容有较明显的过时嫌疑</strong>）。<strong>历史金额曾为 $2，后为 $5。</strong><strong>本页的判断：$7 更可能是 2026 年的现价，$3 更像是尚未更新的旧价——但这只是推断，官方一个字都没说，所以两个数字都照实写在这里。请按每人 $10 备现金，并在出发前直接电话问价：(406) 723-3177 或 (406) 497-5045。</strong><strong>停车免费。</strong>",
+          "hours": "<strong>2026-09-13 复核，运营方（Butte Chamber of Commerce）的官方口径一字未变，原文：“Open daily, 10 A.M.- 5 P.M.” 与 “Open May – October (weather permitting)”。据此 <strong>2026 年 9 月 22 日至 9 月 29 日整个窗口都在营业期内，每日 10:00–17:00，不分周几</strong>（原先按 9/23–9/24 两天做的判定同样成立）。</strong><strong>但必须指出口径冲突：</strong>区域旅游局 southwestmt.com 写的是“The Berkeley Pit Viewing Stand is typically open from mid-May through mid-September”，<strong>即九月中旬就可能收季</strong>，只补充说可能延后到秋季更晚。<strong>两个渠道不一致。本页采信运营方自己的 May–October</strong>（Montana Tech 的 Butte 景点页也写 “The Viewing Stand and Gift Shop are open May – October”，算是第三个站在 May–October 一边的口径，虽然它同样不是运营方），<strong>但这仍然是本子地区第一优先要电话确认的项：(406) 723-3177（或 (406) 497-5045）。</strong>另注意 “weather permitting”——降雪或结冰可临时闭站。<strong>如果行程落在 10 月下旬那个备用窗口，这一条的风险明显更高：按运营方口径十月仍在期内，但那正好是两个口径分歧最大的时段，而且十月的降雪足以让 “weather permitting” 真的生效——那种日期务必先打电话再开车过去。</strong>",
           "parking": "<strong>免费专用停车场</strong>，位于 Shields Avenue 尽头，车位充足。<strong>2026 年的好消息：Shields Avenue 跨铁路桥的 MDT 修复工程已于 6 月完工</strong>，这正是通往观景台的那条路，9 月不会再受影响",
           "walk": "<strong>从停车场穿一条开凿在坑壁里的短隧道到平台，约 3–5 分钟、平地。</strong>平台有解说展板、卫生间、礼品店与野餐桌，无障碍通道（铺装步道与坡道）齐备。<strong>建议停留 45–75 分钟</strong>——视角单一，超过这个时间没有更多可拍"
         },
@@ -1144,6 +1223,7 @@ var REGIONS = [
         "n": 4,
         "name": "世界矿业博物馆与 Granite Mountain 纪念地",
         "en": "World Museum of Mining & Granite Mountain Memorial",
+        "must": 4,
         "score": 3.5,
         "tldr": "博物馆 9/23–9/24 确定开门（季节到 10 月 29 日，周二至周日 9:30–17:00）。建在真实矿场上，含 1890 年代复原矿镇。纪念地是另一处免费点位，纪念 1917 年 168 死。",
         "tags": [
@@ -1174,6 +1254,14 @@ var REGIONS = [
           "<strong>Granite Mountain Memorial 是一个必须单独说明的点：它不在博物馆里，是城市另一头的独立场地。</strong><strong>坐标 46.02632, −112.52445（Alexander Street，OSM 实体 way/1216089515，historic=memorial）</strong>，而博物馆在 <strong>46.00910, −112.56476</strong>——<strong>两者直线相距约 4 公里，在 Uptown 的两侧，开车约 10–12 分钟。很多攻略把它们并列，容易让人以为是同一处，这里说清楚。</strong>纪念地在 Uptown 东北的山坡上，<strong>完全免费、24 小时开放、无人值守</strong>，有解说展板，<strong>并且因为地势高，是俯瞰 Butte 与矿井架天际线的另一个好位置</strong>",
           "<strong>纪念的是 1917 年 6 月 8 日的 Granite Mountain–Speculator 矿难：168 名矿工死亡，是美国历史上最惨重的硬岩矿难。</strong>起因是一条正在下放的电缆的绝缘层被点燃，火与有毒气体沿竖井蔓延到相互连通的巷道网络中。<strong>这场灾难直接引发了 Butte 的大罢工，并成为二十世纪初美国矿业劳工史的转折点之一。</strong><strong>Granite Mountain Mine 的矿井架就在纪念地一带</strong>，<strong>所以这一处同时满足了「矿井架题材」与「有分量的人文语境」——它是本子地区里单位时间信息密度最高的免费点位。</strong>",
           "<strong>地下矿井团（Underground Mine Tour）的实际情况，先把摄影期望调低：</strong><strong>每日运行、约 90 分钟、下到地下 100 英尺</strong>，<strong>强烈建议提前网上订票</strong>。规定很硬：<strong>必须穿包头鞋（明确禁止 Crocs、Tevas 与拖鞋式鞋类，建议运动鞋或登山靴）、所有参观者必须能自行走完全程、不允许抱着孩子走、5 岁以下不可参加</strong>。<strong>摄影上：光线极暗、空间狭窄、要戴安全帽、跟队行进不能停下架三脚架——这是一个体验项目而不是摄影项目，请用高感手持并接受出片率很低。</strong>真正能出片的是地面的矿场院落与 Hell Roarin’ Gulch"
+        ],
+        "tour": [
+          "<strong>这是 Butte 唯一一个「买票进去、能待上半天」的正经景点，也是本区最适合带家人去的一处。</strong><strong>进门顺序建议：先在入口确认当天的地下团时间并订好位（容量有限、每日运行），再按「Hell Roarin’ Gulch → Orphan Girl 矿场院落 → 室内陈列」的顺序逛，把地下团夹在中间。</strong><strong>场地约二十多英亩、95% 在户外</strong>，官方自己写着 “The Museum is 95% outdoors.”——<strong>穿舒服的鞋、带外套，别穿裙子和凉鞋。</strong>",
+          "<strong>绝对不能错过的两样：</strong><strong>① Hell Roarin’ Gulch</strong>——一整条复原的 1890 年代矿业营镇，几十栋建筑按当年街道排布，屋里塞满世纪之交的真实器物。<strong>逛的时候请特意注意这几家店的组合：Chinese Laundry（华人洗衣房）、Sauerkraut Factory（酸菜厂）、Union Hall（工会礼堂）、单间校舍、First National Bank、General Store、Saloon——它本身就是一份 Butte 的移民名单</strong>，华人矿工、中东欧移民、爱尔兰与康沃尔矿工各占一栋，这比任何解说牌都直观；<strong>② Orphan Girl 的 100 英尺钢制矿井架</strong>——矿工曾在它下方 3,200 多英尺处开采银、铅、锌（1875–1956 年），这是全 Butte 唯一一座你能走到脚下、从容绕一圈细看的矿井架。",
+          "<strong>地下矿井团（Underground Mine Tour）：值得参加，但先看清硬规定。</strong><strong>每日运行、约 90 分钟、下到地下 100 英尺</strong>，官方原话是 “We strongly recommend purchasing your Underground Tour Tickets in Advance.”，<strong>请提前在 miningmuseum.org 订。</strong><strong>规定是硬的：必须穿包头鞋（明确禁止 Crocs、Tevas 与拖鞋式鞋类，建议运动鞋或登山靴）；所有人必须能自行走完全程，不允许抱着孩子走；5 岁以下不可参加。</strong><strong>洞内常年约 10°C 左右、潮湿、要戴安全帽</strong>，即使外面是晴天也得加一层。<strong>幽闭恐惧或膝盖不好的人可以跳过——地面部分本来就是这个博物馆的主体。</strong>",
+          "<strong>可以跳过的：</strong>若时间只有一小时，<strong>直接舍掉地下团与部分室内陈列柜，只走 Hell Roarin’ Gulch 加矿井架院落</strong>，这两样占了这里八成的价值。<strong>另外请注意 Granite Mountain Memorial 不在博物馆里</strong>——它在城市另一头（相距约 4 公里、开车 10–12 分钟），是完全独立的一趟，<strong>很多攻略把两者并列，容易让人以为走两步就到。</strong>那处是免费、24 小时、无人值守的纪念场地，纪念 1917 年 6 月 8 日 Granite Mountain–Speculator 矿难的 168 名死者（美国史上最惨重的硬岩矿难），<strong>有解说展板与遇难者名录，地势高、能俯瞰全城，值得单独留 30–45 分钟。</strong>",
+          "<strong>人流、排队与时段：</strong>9 月下旬平日人很少，普通入场不用排队；<strong>唯一会卡你的是两条时间线——普通门票「闭馆前 1 小时停售」（即 16:00 截止），以及地下团的场次容量。</strong><strong>另有一条季节性提醒直接关系到 9 月下旬：官方写 “Snow or frost can delay Museum opening hours.”，Butte 这个时候清晨已在冰点附近，所以 9:30 开门在有霜的早上可能推迟，不要把它排成当天第一个硬时点。</strong>",
+          "<strong>餐饮与卫生间：博物馆内有卫生间（入口一带），但没有正经餐厅。</strong><strong>请在进门前吃完饭或自带水与零食</strong>——最近的餐饮在 Montana Tech 校园一带与山下的 Harrison Avenue，车程 5–10 分钟。<strong>Granite Mountain Memorial 完全无人值守，没有卫生间、没有照明、没有饮水。</strong><strong>另外普通门票「连续两天有效」（good for two consecutive days），在 Butte 待两天的话买一次就够，这一点很划算。</strong>"
         ],
         "photo": "工业细节／静物 <strong>4.5/5</strong>，建筑（复原矿镇）<strong>4/5</strong>，人文 <strong>4/5</strong>，风光 <strong>2/5</strong>，地下部分 <strong>1.5/5</strong>。<strong>加分在「密度」：二十多英亩的场地里堆满了锈蚀的绞车、矿车、钢缆、木构与世纪之交的器物，拿一支微距或 70–200mm 进去可以拍一整个下午都不重复。</strong>Hell Roarin’ Gulch 的木板街与店面立面在柔光下极好。扣分三处：<strong>场区是开阔的，9 月下旬中午的直射光对锈铁与旧木头反差太大（阴天明显更好）；复原矿镇终究是复原的，不像 Uptown 那样是原址原物；地下团几乎无法拍摄。</strong>",
         "shots": [
@@ -1211,9 +1299,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>博物馆 2–3 小时（只看地面）；加地下矿井团 3.5–4.5 小时。</strong><strong>分配：</strong>Hell Roarin’ Gulch 复原矿镇 <strong>60–90 分钟</strong>（这是主体，别压缩）；Orphan Girl 矿场院落与矿井架 <strong>30–40 分钟</strong>；室内陈列与礼品店 <strong>20–30 分钟</strong>；地下团固定 <strong>90 分钟</strong>（另加提前 15 分钟集合换装）。<strong>只有 60–75 分钟的话：走 Hell Roarin’ Gulch 加矿井架院落，其余全舍。</strong><strong>Granite Mountain Memorial 另算 30–45 分钟</strong>（停车即到，但它在城市另一头，来回车程还要再加 20–25 分钟）。<strong>提醒：普通门票 16:00 停售，想完整逛完请 14:30 之前进门。</strong>",
           "book": "<strong>博物馆普通入场不需预约，走进去买票即可。</strong><strong>地下矿井团强烈建议提前在 miningmuseum.org 订票</strong>（官网原话 “We strongly recommend purchasing your Underground Tour Tickets in Advance.”），容量有限。<strong>Granite Mountain Memorial 无需预约。</strong>",
-          "ticket": "<strong>官网 Admission &amp; Tours 页（2026-09-05 复核）：普通入场成人 $12.00；Orphan Girl 地下矿井团 $30.00，周二 $25.00。</strong><strong>但这里有一个原先写错的关键点：地下团不是「另收费」，而是含普通入场——官网 Underground Tour 页原文 “General admission included in purchase of underground tour ticket.”。所以要下矿的话不要买两张票，直接买地下团那一张。</strong><strong>而且同一个官网上有两套金额，差在手续费：Underground Tour 页写的是 “All Ages: $31.20 (Tuesdays $26.00)”、“Member: $15.60”，并自己注明 “* Price includes a 4% booking fee.”——也就是说 $30／$25 是牌价，网上订票实付 $31.20／$26.00。两个数字都是官方的，不是矛盾，按 $31.20 备预算即可。</strong><strong>普通入场票「good for two consecutive days」，连续两天有效——你 9/23 与 9/24 两天都在 Butte，买一次就够，这一点很值。</strong>另提供 AAA、儿童、团体、军人、老年优惠（各档金额官网未逐项公布）。<strong>Granite Mountain Memorial 完全免费。</strong>",
-          "hours": "<strong>已确认：博物馆 9/23（周三）与 9/24（周四）均开门，时间 9:30–17:00。</strong>官网口径：<strong>“Regular Museum season ends October 29th.”</strong>；<strong>周一 10:00–17:00，周二至周日 9:30–17:00</strong>；<strong>“Last General Admission Ticket Sold One Hour Prior to Closing”，即最晚 16:00 售票</strong>。2026 年 3 月 31 日开季，<strong>daily operations through fall</strong>。<strong>地下矿井团每日运行。</strong><strong>那个赛事缩时的问题，2026-09-05 复核后可以放下了：官网首页当前挂的公告是 “SEPTEMBER 1-11, 2026, HOURS — Due to the Montana Tech Football on Sept 5, the Museum hours will be 9:30 am - 3:00 PM. Last General Admission will be sold at 2:00 PM.”——这条公告自己划定的窗口是 9 月 1 至 11 日，够不到你的 9/23–9/24，而且到今天为止官网没有针对 9 月下旬发布任何缩时公告。</strong>官网仍然自己标注 “Hours subject to change”，进门前还是看一眼首页公告栏。<strong>另一条官方提醒对你的日期直接相关，原先没写进来：“The Museum is 95% outdoors. Please be prepared for inclement weather. Snow or frost can delay Museum opening hours.”——9 月下旬 Butte 清晨已在冰点附近，所以 9:30 那个开门时间在有霜的早上是可能被推迟的，不要把它排成当天第一个硬时点。</strong><strong>Granite Mountain Memorial 为无人值守的开放场地，24 小时、全年可达。</strong>",
+          "ticket": "<strong>官网 Admission &amp; Tours 页（2026-09-13 复核，金额与上次一致）：普通入场成人 $12.00；Orphan Girl 地下矿井团 $30.00，周二 $25.00。</strong><strong>但这里有一个原先写错的关键点：地下团不是「另收费」，而是含普通入场——官网 Underground Tour 页原文 “General admission included in purchase of underground tour ticket.”。所以要下矿的话不要买两张票，直接买地下团那一张。</strong><strong>而且同一个官网上有两套金额，差在手续费：Underground Tour 页写的是 “All Ages: $31.20 (Tuesdays $26.00)”、“Member: $15.60”，并自己注明 “* Price includes a 4% booking fee.”——也就是说 $30／$25 是牌价，网上订票实付 $31.20／$26.00。两个数字都是官方的，不是矛盾，按 $31.20 备预算即可。</strong><strong>普通入场票「good for two consecutive days」，连续两天有效——你 9/23 与 9/24 两天都在 Butte，买一次就够，这一点很值。</strong>另提供 AAA、儿童、团体、军人、老年优惠（各档金额官网未逐项公布）。<strong>Granite Mountain Memorial 完全免费。</strong>",
+          "hours": "<strong>2026-09-13 官网首页复核，口径一字未变。已确认：2026 年 9 月 22 日至 9 月 29 日整个窗口天天开门。</strong>官网口径：<strong>“Regular Museum season ends October 29th.”</strong>；<strong>周一 10:00–17:00，周二至周日 9:30–17:00</strong>（<strong>对应到你的日期：9/28 周一是 10:00–17:00，其余各天 9:30–17:00</strong>）；<strong>“Last General Admission Ticket Sold One Hour Prior to Closing”，即最晚 16:00 售票</strong>。2026 年 3 月 31 日开季，<strong>daily operations through fall</strong>。<strong>地下矿井团每日运行；周一 9:00 另有 “Miney’s Shift Change”。</strong><strong>那个赛事缩时的问题，2026-09-13 复核后可以放下了：官网首页当前挂的公告是 “SEPTEMBER 1-11, 2026, HOURS — Due to the Montana Tech Football on Sept 5, the Museum hours will be 9:30 am - 3:00 PM. Last General Admission will be sold at 2:00 PM.”——这条公告自己划定的窗口是 9 月 1 至 11 日，够不到你的 9/22–9/29，<strong>而且 2026-09-13 复核时该公告虽然还挂在首页上，其适用期已经过去，官网没有针对 9 月下旬发布任何新的缩时公告。</strong></strong>官网仍然自己标注 “Hours subject to change”，进门前还是看一眼首页公告栏。<strong>另一条官方提醒对你的日期直接相关，原先没写进来：“The Museum is 95% outdoors. Please be prepared for inclement weather. Snow or frost can delay Museum opening hours.”——9 月下旬 Butte 清晨已在冰点附近，所以 9:30 那个开门时间在有霜的早上是可能被推迟的，不要把它排成当天第一个硬时点。</strong><strong>Granite Mountain Memorial 为无人值守的开放场地，24 小时、全年可达。</strong>",
           "parking": "<strong>博物馆有免费专用停车场</strong>（46.00964, −112.56530），位于 Montana Tech 校园后方，<strong>官网提示遇校园活动时会为博物馆客人预留入口处车位</strong>。<strong>Granite Mountain Memorial 在 Alexander Street 边有免费停车。</strong>两处 9 月下旬平日都很宽松",
           "walk": "<strong>博物馆停车场到场区入口 2–3 分钟</strong>；场区约二十多英亩，走完地面全部展区加 Hell Roarin’ Gulch 步行约 1.5–2 公里、<strong>含拍摄建议留 2–3 小时</strong>；加地下团再加 1.5 小时。<strong>地下团不可乘轮椅、必须自行走完全程。</strong><strong>Granite Mountain Memorial 停车即到（零至 50 米），建议 30–45 分钟</strong>"
         },
@@ -1246,6 +1335,7 @@ var REGIONS = [
         "n": 5,
         "name": "落基山圣母像",
         "en": "Our Lady of the Rockies",
+        "must": 2,
         "score": 2.5,
         "tldr": "大陆分水岭上 90 英尺高的雕像，只能坐巴士上去。9 月「天气允许才发车」，9/23–24 是否有车无法确认，必须先打电话。山下用 600mm 也只是个小白点。",
         "tags": [
@@ -1277,6 +1367,13 @@ var REGIONS = [
           "<strong>巴士团的实际参数：从礼品店发车，全程约 3 小时，可以走进雕像内部。</strong>集合点是 <strong>1707 Continental Dr. Suite C（紧邻 Butte Floral，Hardesty Complex）</strong>，<strong>必须在礼品店与团队会合，出发前会放一段介绍雕像历史的短片</strong>。车程中经过 Berkeley Pit、Copper King Mansion 等地标并有讲解，<strong>山顶有时间自由活动、可进入雕像内部，并能看到最远约 100 英里的山谷与山峰。</strong><strong>票价：成人 $28，老人与 12–17 岁 $25，11 岁及以下 $10，儿童座椅另收 $10。所有团必须预约，所有团都是「天气允许」。</strong>",
           "<strong>不坐团时官方指定的观看点，以及一段你需要先算清的数学。</strong>官方 FAQ 原文：<strong>“The best place to view the statue without taking a tour is from the designated pull-out along I-15.”</strong><strong>但这个 I-15 路肩在 OSM 上没有对应实体，我无法给出可核对的坐标，因此下面的机位省略了 view 字段。</strong>至于用长焦从城里拍：<strong>从 Uptown Butte 到雕像的方位是 102°、距离 7.1 公里；从 Berkeley Pit 观景台是 103°、距离 5.7 公里。</strong><strong>在 6 公里处用全画幅 600mm，画面宽度约 360 米，一座 27.4 米高的雕像只占画面宽度的约 7.6%；换 400mm 只有约 5%。</strong><strong>结论请提前接受：从山下拍到的是「山脊线上一个白色小人形」，这是一张环境照，不是雕像的肖像。600mm 是起步焦段，而不是够用的焦段。</strong>"
         ],
+        "tour": [
+          "<strong>先做决定，再谈怎么逛：这是一个要吃掉大半天、而且可能根本发不了车的项目。</strong><strong>官方口径是 9 月「天气允许才发车」，不是固定班期</strong>，而一趟往返是 <strong>2.5–3 小时</strong>。<strong>建议的判断标准很直接：如果你在 Butte 只有一天，跳过它</strong>——同样的三小时给 Uptown 加 World Museum of Mining，回报明显更高。<strong>如果有两天、而且电话确认当天有车，那它值得去</strong>：山顶能看到约 100 英里外的山谷与山峰，而且<strong>你是真的可以走进那座 27 米高的雕像内部的</strong>，这个体验在别处没有。",
+          "<strong>流程（照抄）：</strong>先打 <strong>(406) 782-1221</strong> 预约（<strong>所有团都必须预约，没有现场上车这回事</strong>）→ 提前到礼品店集合（<strong>官网地址是 1707 Continental Dr. Suite C，紧邻 Butte Floral</strong>；<strong>但区域旅游局与 Visit Butte 都把地址列为 3100 Harrison Ave 的 Butte Plaza Mall，两处不一致，订票时务必在电话里问准集合点</strong>）→ <strong>出发前在店里先放一段介绍雕像历史的短片</strong> → 上大巴 → 沿途经过 Berkeley Pit、Copper King Mansion 等地标，导游一路讲 Butte 矿业史 → 山顶自由活动 → 原路返回礼品店。",
+          "<strong>山顶别错过的两样：</strong><strong>① 走进雕像内部</strong>——这是全程的核心，很多人以为只能在外面绕；<strong>② 观景台基座周围的女性纪念墙</strong>，上面刻着来自世界各地<strong>约 13,000 位已故女性的名字</strong>。<strong>雕像是无教派的，献给所有女性与母亲</strong>，而它的来历是一个人的还愿——当地一名男子在妻子从癌症中康复后立下许诺，<strong>1979 年动工、全部由志愿者建造、1985 年 12 月由 Sky Crane 重型直升机分段吊上山</strong>。<strong>知道这段来历再去看，和不知道是两种东西。</strong>",
+          "<strong>山下的替代方案，以及它有多不值：</strong>官方指定的免费观看点是 <strong>I-15 沿线一处专设路肩</strong>；城里任何朝东开阔处也能看到它（<strong>从 Uptown 是方位 102°、7.1 公里</strong>）。<strong>但请提前接受：肉眼看过去就是山脊线上一个白色小人形，望远镜或 600mm 以上长焦才勉强看出是个人。</strong><strong>换句话说「在山下看一眼」等于没看，不必为此专门找地方停车。</strong><strong>倒是夜里值得抬头看一眼</strong>：雕像有照明，从城里看是暗山脊上一个发光的人形，这是当地公认的景象（<strong>但开灯时间与是否全年运行未能从官方渠道确认</strong>）。",
+          "<strong>实际条件：山顶海拔 7,841 英尺，比 Butte 城区高约 2,000 英尺，完全暴露在大陆分水岭的风里。</strong><strong>9 月下旬傍晚那班（18:00）回程时天已黑，体感会明显低于城里，务必带防风外层与手套。</strong><strong>这是团队行程：山顶停留时间有限，不能自己决定待多久</strong>，想看的东西要先想好。<strong>卫生间在礼品店，山顶设施极简——上车前解决。</strong><strong>另外这是宗教与纪念性场所，现场可能有人在祭奠，请保持安静并避开。</strong>"
+        ],
         "photo": "人文／地标 <strong>3.5/5</strong>（若坐上团）／<strong>1.5/5</strong>（若只能在山下），风光 <strong>4/5</strong>（山顶视野确实开阔，可看百英里），人像 <strong>2/5</strong>。<strong>评分之所以只有 2.5，不是因为主体不好，而是因为「能不能拍到」这件事在 9/23–9/24 是未知的，而拍不到时的替代方案（山下长焦）在摄影上几乎没有价值。</strong>一个可能扑空、且扑空后没有像样 B 计划的点位不该拿高分。<strong>如果电话确认有车，山顶的开阔视野与「走进一座 27 米雕像内部」的体验值得那 3 小时；如果没有车，就把这 3 小时给 Uptown 或矿井架，损失很小。</strong>",
         "shots": [
           {
@@ -1293,9 +1390,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>巴士团 2.5–3 小时，这个时长是固定的，你无法压缩。</strong><strong>官方与两个旅游局的口径略有出入：运营方自己说「about 3 hours」，Visit Butte 写 “The 2.5 to 3-hour tour”，区域旅游局 southwestmt.com 写 “about two and a half hours”——按 3 小时留时间最稳。</strong><strong>分配（按 2.5–3 小时估）：</strong>礼品店集合与观看介绍短片 <strong>15–20 分钟</strong>；上山车程含沿途讲解 <strong>单程 40–50 分钟</strong>；山顶自由活动（进雕像内部、女性纪念墙、远眺）<strong>30–40 分钟</strong>；下山 40–50 分钟。<strong>另请在前后各留 15 分钟的缓冲——发车点与停车都在礼品店。</strong><strong>不坐团、只在山下看一眼：5 分钟，且基本等于没看（见 tour 一栏）。</strong>",
           "book": "<strong>必须预约，且必须打电话确认 9 月是否发车。电话 (406) 782-1221。</strong>官网原文 “All tours require reservations” 与 “All tours are weather permitting”。<strong>发车时刻表在 Buy Tickets 页面的动态日历里，该日历是订票插件，我无法读取，因此 9/23–9/24 是否有班次未能确认。</strong><strong>所有团从 1707 Continental Dr. Suite C 的礼品店集合发车，必须在礼品店与团队会合。</strong>",
-          "ticket": "<strong>成人 $28；老人与 12–17 岁 $25；11 岁及以下 $10；儿童座椅另收 $10（2026-09-05 复核，官网多处一致，已核实）。</strong>官网注明 “Prices and times are subject to change”，并把最新价格指向 Buy Tickets 页的日历。<strong>从山下用长焦拍摄免费。</strong>",
-          "hours": "<strong>2026-09-05 复核，官方口径原文未变：“We try to offer up to three tours daily June, July and August. September and October are weather permitting.”</strong><strong>也就是说 9 月已经不是固定班期，只在天气允许时发车——9/23（周三）与 9/24（周四）是否有车，未能从官方渠道确认，这是本景点的决定性未知项。（10 月下旬那个备用窗口同样只有 “weather permitting”，而且更靠后、更冷，风险只会更大。）</strong>现有班次时刻为 <strong>10:00、14:00、18:00</strong>（官网 2026-09-05 仍列这三班），<strong>全程约 3 小时（往返含山顶停留）</strong>。<strong>礼品店时段官网自己有两个版本，都在同一个官方网站上，这里两个都给你：站内通栏写的是 “Tuesday-Friday 11am – 5pm. Closed Saturday, Sunday and Monday”（标注为淡季），而 Contact 页写的是 “Office/Store Hours Tuesday – saturday 11am – 6pm”。好消息是 9/23 与 9/24 是周三、周四，落在两个版本的交集里，店一定开；差别只在几点关门（17:00 还是 18:00）。要卡傍晚那班车就打 (406) 782-1221 问准。</strong><strong>雕像本身在私人土地，不存在「自行前往的开放时间」。</strong>",
+          "ticket": "<strong>成人 $28；老人与 12–17 岁 $25；11 岁及以下 $10；儿童座椅另收 $10（2026-09-13 再次复核，官网首页、Buy Tickets 页与 Donate 页三处金额完全一致，未变）。</strong>官网注明 “Prices and times are subject to change”，并把最新价格指向 Buy Tickets 页的日历。<strong>从山下用长焦拍摄免费。</strong>",
+          "hours": "<strong>2026-09-13 复核，官方口径原文未变：“Tour season is weather dependent. We try to offer up to three tours daily June, July and August. September and October are weather permitting.”</strong><strong>也就是说 9 月已经不是固定班期，只在天气允许时发车——2026 年 9 月 22 日至 9 月 29 日这八天是否有车，未能从官方渠道确认，这是本景点的决定性未知项。（10 月同样只有 “weather permitting”，而且更靠后、更冷，风险只会更大。）</strong>现有班次时刻为 <strong>10:00、14:00、18:00</strong>（官网原文 “Tours are currently available at 10:00am, 2:00pm, and 6:00pm.”，2026-09-13 仍列这三班），<strong>全程 2.5–3 小时（往返含山顶停留）</strong>。<strong>发车时刻表在 Buy Tickets 页的动态日历里，官方自己把最新排班与价格都指向那个日历，而该日历是订票插件、读不到内容，因此具体到某一天有没有车只能靠电话。</strong><strong>礼品店时段：同一个官方网站上现在有三个版本，这里全部列出，不替你选。</strong><strong>（甲）首页与 Buy Tickets 页通栏：“Tuesday-Friday 11am – 5pm. Closed Saturday, Sunday and Monday”（标注为淡季 off season）；（乙）Contact 页：“Office/Store Hours Tuesday – saturday 11am – 6pm”；（丙）Donate 页：“Wednesday-Sunday 9:00am-6:00pm，Monday-Tuesday 9:00am-5:00pm”。</strong><strong>三者互相矛盾，其中（甲）最严格：按它算，9/26（周六）、9/27（周日）、9/28（周一）三天礼品店闭店，而 9/22、9/23、9/24、9/25、9/29 落在所有版本的交集里，店一定开。要卡周末或傍晚那班车，必须打 (406) 782-1221 问准。</strong><strong>雕像本身在私人土地，不存在「自行前往的开放时间」。</strong>",
           "parking": "<strong>巴士团：在礼品店（1707 Continental Dr. Suite C）停车，免费。</strong><strong>山顶没有任何公共停车位，这也是禁止自驾的原因之一。</strong>从山下长焦拍摄可用 Uptown 街边免费车位，或官方指定的 I-15 专设路肩（<strong>无 OSM 实体，坐标未能核实</strong>）",
           "walk": "<strong>巴士团：山顶为平缓的铺装／碎石场地，从下车点到雕像与纪念墙步行 3–5 分钟。</strong>全程约 3 小时，其中山顶停留时间有限。<strong>从山下长焦拍摄：零步行。</strong><strong>严禁徒步上山（私人土地）。</strong>"
         },
@@ -1328,6 +1426,7 @@ var REGIONS = [
         "n": 6,
         "name": "Livingston 老城与北太平洋铁路车站",
         "en": "Livingston Downtown Historic District & Northern Pacific Depot",
+        "must": 3,
         "score": 3.5,
         "tldr": "1902 年北太平洋车站，设计者是纽约 Grand Central 的同一家事务所。博物馆 9 月 4 日已闭馆，但外立面、庭院与整个老城全年免费。风大，慎用三脚架。",
         "tags": [
@@ -1359,6 +1458,14 @@ var REGIONS = [
           "<strong>老城的密度与格局：车站是整个 downtown 的建筑锚点，而且它就在主街的一端。</strong>官方指路原文很实用：<strong>“a large brick building to the north side of Park Street along the tracks, just east of Depot Rotary Park and directly across from the Murray at Second Street”</strong>。<strong>正对面就是 1904 年的 Murray Hotel</strong>——导演 Sam Peckinpah 曾长期住在这家旅馆里。Livingston 从上世纪七十年代起聚了一批作家与电影人（Jim Harrison、Thomas McGuane、Richard Brautigan、Peter Fonda 等都与这里有关），<strong>这解释了为什么一个八千人的小镇会有这么多画廊、书店与老酒吧门面——对街拍来说，这里的招牌与橱窗密度远高于同规模的蒙大拿小镇。</strong>",
           "<strong>它在这趟行程里的实际定位：这是 Paradise Valley 的谷口，也是进园前最后一个「有城市功能」的地方。</strong>Livingston 海拔约 4,501 英尺，人口约八千。<strong>往南 54 英里就是 Gardiner，而那一路上没有加油站密集区、没有大型超市、也没有熊喷雾专卖。</strong><strong>所以除了拍照，这里是你补给、加油、买熊喷雾（不能随飞机携带）的最后合理机会。</strong>往南 5 英里就是 East River Road 的入口"
         ],
+        "tour": [
+          "<strong>定位先说清：博物馆已经关季，所以这里现在是「一个小时的老城散步 + 一次补给」，不是一个参观项目。</strong><strong>官网原文 “Last Museum Day September 4th, 2026”，你到的时候它已经关了快三周</strong>，关掉的是室内那三个铁路史与地方史展览。<strong>但车站的外立面、柱廊、庭院与旁边的 Depot Rotary Park 全年免费开放、无门禁</strong>——而这座建筑最值得看的本来就是外面：<strong>1902 年由 Reed and Stem 设计（就是设计纽约 Grand Central Terminal 的那家事务所），在一个当时只有几千人的铁路小镇上盖出这个规格。</strong>",
+          "<strong>怎么逛（一条 40–60 分钟的步行线）：</strong>把车停在车站自带的免费停车场 → <strong>绕车站走一圈看柱廊与陶饰面</strong>（Park Street 一侧是正立面） → 穿过 <strong>Depot Rotary Park</strong>（有树、草坪与长椅，是全镇最舒服的休息点） → 看车站正对面的 <strong>1904 年 Murray Hotel</strong>（导演 Sam Peckinpah 曾长期住在里面，大堂可以进去看看） → <strong>沿 W Park Street 与 Main Street 往西南走进老城核心</strong>。<strong>全程平地、不到 1 公里。</strong>",
+          "<strong>老城值得慢慢看的是店，不是建筑。</strong>Livingston 只有约八千人，<strong>但从上世纪七十年代起聚了一批作家与电影人（Jim Harrison、Thomas McGuane、Richard Brautigan、Peter Fonda 等都与这里有关）</strong>，<strong>结果是这个规模的蒙大拿小镇里极罕见的画廊、独立书店与老酒吧密度</strong>。<strong>随便推门进两家画廊和那家独立书店，是这里最好的一小时</strong>；相反，<strong>如果你只是绕着车站拍两张就走，这个点确实不值得停。</strong>",
+          "<strong>这里真正不可替代的功能：进园前最后一次像样的补给。</strong><strong>往南 54 英里到 Gardiner 之间没有大型超市、没有连锁药店、加油站也稀疏。</strong><strong>要在 Livingston 解决的四件事：加满油、买够水和干粮、买药品、以及买熊喷雾（不能随飞机携带，托运也不行，必须落地后买）。</strong><strong>超市与加油站在城北 I-90 出口一带，不在老城里</strong>，所以逛完老城别急着上 US-89，先绕去补给。",
+          "<strong>人流、餐饮与卫生间：</strong>9 月下旬平日老城很安静，不存在排队。<strong>餐饮集中在 W Park Street 与 Main Street 交口一带</strong>，几家咖啡馆、Murray Hotel 的餐厅与老酒吧都在步行范围内，<strong>这是 Livingston 到 Gardiner 之间最后一顿正经饭的地方。</strong><strong>卫生间：车站庭院与 Depot Rotary Park 一带的公共厕所是否常年开放未能确认，最稳的是餐馆与咖啡馆，或城北加油站。</strong>",
+          "<strong>一条会影响体感的现场提醒：风。</strong><strong>Livingston 是全蒙大拿风最大的城市</strong>（月均风速可达 13.4–18.6 mph，45–60 mph 阵风属于日常，机场历史极值 94 mph），<strong>而且清晨最弱、午后到傍晚增强</strong>。<strong>要在街上慢慢逛，请尽量选上午；下午在这里散步会被风吹得很不舒服。</strong>另外<strong>横风会让 I-90 在这一带对高厢车辆限行乃至封闭</strong>，出发前查 511mt.net。"
+        ],
         "photo": "建筑 <strong>4/5</strong>，街拍与招牌 <strong>4/5</strong>，人文 <strong>3.5/5</strong>，风光 <strong>2/5</strong>。<strong>车站的柱廊在掠射光下极好，而且它有一个 Uptown Butte 没有的优势：正立面朝南，9 月下旬全天都有直射光可用</strong>（Butte 那边一半的立面这个季节根本晒不到）。老城的街道尺度小、招牌与橱窗质感好，适合 35–85mm 街拍。扣分两处：<strong>一是博物馆闭季，室内那批铁路史料与展陈拍不到；二是风——这是全蒙大拿最出名的风口，而车站柱廊与老城街景恰恰是最适合慢门与三脚架的题材，两者直接冲突。</strong>",
         "shots": [
           {
@@ -1383,9 +1490,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>1–2 小时（博物馆已闭季的前提下）。</strong><strong>分配：</strong>绕车站看外立面、柱廊与庭院 <strong>20–25 分钟</strong>；Depot Rotary Park 与 Murray Hotel 街口 <strong>10–15 分钟</strong>；Park Street／Main Street 老城核心的画廊、书店与橱窗 <strong>30–60 分钟</strong>；喝杯咖啡或吃顿饭再加 <strong>45–60 分钟</strong>。<strong>纯路过只想看一眼车站：20 分钟够了。</strong><strong>补给（加油、超市、药店、熊喷雾）请另算 30–45 分钟，而且在城北 I-90 出口一带、不在老城里。</strong>（<strong>Livingston Depot Foundation 没有公布过建议参观时长，以上为按街区规模与步行距离推算</strong>；博物馆闭季，其室内部分不计入。）",
           "book": "<strong>不需预约。</strong>街区、车站外立面、庭院与 Depot Rotary Park 均为公共或免费开放空间。<strong>博物馆已闭季，无需也无法预约。</strong>（闭季期间车站可租作活动场地，<strong>因此有可能撞上包场，前庭会有布置</strong>）",
-          "ticket": "<strong>免费。</strong>街区与外立面拍摄无任何费用。<strong>博物馆在开季时收门票（“Admission charged”，金额官网未公布），但 9/23–9/24 已闭季，此项不适用。</strong>",
-          "hours": "<strong>明确判定，2026-09-05 复核仍然成立：Livingston Depot Center 博物馆在 9/23–9/24 已关闭。</strong>官网首页当前原文 <strong>“Museum Open Monday - Saturday 10am - 5pm”</strong> 与<strong>“Last Museum Day September 4th, 2026”</strong>，2026 年季节为 5 月 26 日 – 9 月 4 日。FAQ 补充其常规闭季期为「大约 9 月中到次年 5 月初或中」。<strong>所以整个「9 月下旬到 10 月下旬」的窗口里，室内都进不去，不存在挑日子的余地。</strong><strong>但车站外立面、庭院、遮荫公园与 Depot Rotary Park 全年无门禁、免费开放，所以本景点的摄影内容基本不受影响。</strong>办公室仍为<strong>周一至周五 10:00–16:00</strong>（电话 406.222.2300），<strong>老城街区 24 小时开放、全年可达</strong>",
+          "ticket": "<strong>免费（2026-09-13 复核）。</strong>街区、车站外立面、庭院与 Depot Rotary Park 均无任何费用。<strong>博物馆在开季时收门票（“Admission charged”，金额官网始终未公布），但你的日期已闭季，此项不适用。</strong>",
+          "hours": "<strong>明确判定，2026-09-13 复核官网首页原文未变：Livingston Depot Center 博物馆在 2026 年 9 月 22 日至 9 月 29 日整个窗口都已关闭。</strong>官网首页当前原文 <strong>“Museum Open Monday - Saturday 10am - 5pm”</strong> 与<strong>“Last Museum Day September 4th, 2026”</strong>，2026 年季节为 5 月 26 日 – 9 月 4 日，<strong>也就是说你到的时候它已经关了 18 至 25 天</strong>。FAQ 补充其常规闭季期为「大约 9 月中到次年 5 月初或中」。<strong>所以整个「9 月下旬到 10 月下旬」的窗口里，室内都进不去，不存在挑日子的余地。</strong><strong>但车站外立面、庭院、遮荫公园与 Depot Rotary Park 全年无门禁、免费开放，所以本景点的摄影内容基本不受影响。</strong>办公室仍为<strong>周一至周五 10:00–16:00</strong>（电话 406.222.2300），<strong>老城街区 24 小时开放、全年可达</strong>",
           "parking": "<strong>车站自带免费停车场，沿 Depot Rotary Park 一侧</strong>（官方描述 “with our own parking lot along the park”），另可停 RV 并有野餐设施。老城街边停车免费。<strong>抵达方式：I-90 任一 Livingston 出口进城即可。但注意 2026 年 MDT 的 Livingston Area Bridges 项目——I-90 Exit 337 与 Exit 340 的跨线桥都在施工范围内，曾有匝道临时封闭与改道，出发当天查 511mt.net</strong>",
           "walk": "<strong>停车场到车站正立面 1–2 分钟；到 Depot Rotary Park 与 Murray 街口 2–3 分钟。老城核心（Park Street 与 Main Street）从车站步行 5–10 分钟可走完。</strong>全程平地铺装。<strong>含街拍建议留 1.5–2.5 小时</strong>"
         },
@@ -1414,6 +1522,7 @@ var REGIONS = [
         "n": 7,
         "name": "Pine Creek 瀑布",
         "en": "Pine Creek Falls",
+        "must": 2,
         "score": 3.5,
         "tldr": "East River Road 侧谷里的一小时来回步道，Absaroka 山脚的林中瀑布。营地营业期 5/15–9/25，9/23–24 卡在末尾。烟大或正午光烂时它是本区最好的备选。",
         "tags": [
@@ -1442,8 +1551,16 @@ var REGIONS = [
           "<strong>先说为什么在这里选 Pine Creek Falls 而不是 Gallatin Canyon（US-191）——这是一个路线判断，不是审美判断。</strong><strong>Gallatin Canyon 是 Bozeman 通往 West Yellowstone 的通道，也就是通往公园西门的路。而这次是从 Livingston 南下 Gardiner 进北门。走 US-191 意味着彻底放弃 Paradise Valley、放弃 Gardiner，并且把自己送到公园的另一侧——那是一个九十多英里、方向完全不同的承诺，不是一个「顺路」。</strong><strong>Pine Creek Falls 恰好相反：它挂在 East River Road 这条走廊的侧面</strong>（US-89 南下 9 英里，转东上 Pine Creek Road 6 英里），<strong>来回徒步一小时左右，是一个真正能塞进赶路日的点。</strong>（顺带一提，<strong>《A River Runs Through It》确实是在 Gallatin 河上拍的</strong>——如果哪天不是赶往北门的行程，那条峡谷值得单独安排。）",
           "<strong>它在这个子地区里承担一个别人替不了的功能：填补正午与坏天气。</strong>Paradise Valley 的一切都依赖远景与低角度光——<strong>而 9/23–24 的正午（11:23–15:07 太阳仰角超过 38°）恰恰是谷地风光最难看的时段，烟霾天更是整片山景作废。</strong><strong>Pine Creek 是一条深切进 Absaroka 西坡的林间溪谷：主体是水、苔石与云杉冷杉的树冠，这类题材在阴天与散射光下最好，在烟霾里也几乎不受影响。一句话——谷地拍不了的时候，这里正好能拍。</strong>",
           "<strong>步道的实际参数，以及一处口径不一致：</strong>Forest Service 的说法是 <strong>“A mile up the trail from the campground, hikers are awarded beautiful views of Pine Creek Falls.”</strong>，当地徒步指南写<strong>往返 2.5 英里</strong>，但也有实走者记录<strong>接近往返 3 英里</strong>。<strong>按往返 2.5–3 英里、含拍摄 1.5–2 小时来算比较稳。</strong>路面是维护良好的林道，<strong>前段平缓、末段变得多石且略窄，并要过一道小溪</strong>，但整体属于本区门槛最低的一段山径。<strong>不要跟 Pine Creek Lake 搞混——那条继续往上走 4–5 英里、爬升约 3,000 英尺，是完全不同量级的一天。</strong>营地里另有一条<strong>半英里的无障碍 Creekside Trail</strong> 沿溪而行",
-          "<strong>季节性时间点刚好卡在你的日期上：Pine Creek Campground 的营业期是 5/15 – 9/25（weather dependent）。</strong><strong>也就是说 9/23 与 9/24 你还赶得上，9 月 25 日它就关季了——这是本子地区几个季节性设施里唯一「差两天就错过」的。</strong>营地设施：<strong>17 个营位、旱厕、可饮用水</strong>，并有无障碍的钓鱼平台。<strong>徒步本身不收费</strong>（Absaroka-Beartooth Wilderness 的日间徒步免费），营地过夜收费，<strong>但 Forest Service 官网与 recreation.gov 的金额不一致（$20/晚含 2 车 + $8 额外车 vs $26/晚 + $9），这一点未能确定以哪个为准</strong>",
+          "<strong>季节性时间点刚好卡在你的日期上：Pine Creek Campground 的营业期是 5/15 – 9/25（weather dependent）。</strong><strong>也就是说 9/23 与 9/24 你还赶得上，9 月 25 日它就关季了——这是本子地区几个季节性设施里唯一「差两天就错过」的。</strong>营地设施：<strong>25 个营位</strong>（Forest Service 官网 General Information 一栏原文 “Camp sites: 25”；<strong>另有 17 处标注为无障碍设施——本页此前写的「17 个营位」是把无障碍数量误当成了总数，已更正</strong>）、<strong>旱厕、可饮用水、$10 一捆的柴火</strong>，并有无障碍的钓鱼平台。<strong>徒步本身不收费</strong>（Absaroka-Beartooth Wilderness 的日间徒步免费），营地过夜收费，<strong>但 Forest Service 官网与 recreation.gov 的金额不一致（$20/晚含 2 车 + $8 额外车 vs $26/晚 + $9），这一点未能确定以哪个为准</strong>",
           "<strong>它同时是本区找秋色最对的地方，而这有一个具体的海拔理由。</strong><strong>Yellowstone River 河岸的棉白杨要到 10 月中下旬才盛期，9/23–24 只是初变色；但高处的白杨（quaking aspen）盛期正是 9 月下旬。</strong><strong>Pine Creek 这条侧谷正是从谷底 4,700 英尺一路爬进 7,000 英尺以上的通道——也就是说你想在 9/23 看到真正黄透的树，就得往侧谷里、往高处走，而这条步道就是最省力的那条。</strong>营地一带（约 5,600 英尺，OSM 与 Forest Service 均给出 45.49843, −110.5236）已经能见到转色的白杨与落叶灌木"
+        ],
+        "tour": [
+          "<strong>先摆正定位：这是一道中等规模的林中瀑布，不是必看景点。</strong>在一个有 Emigrant Peak 和整条 Paradise Valley 的子地区里，<strong>它的价值是「补位」——天阴、有烟、或者正午谷地远景全废的时候，它是唯一还能好好走一趟的地方。</strong><strong>如果当天天气好、能见度高，请把时间给谷地，不要来这里。</strong>反过来说，<strong>它也是本区门槛最低的一段山径，一小时多就能来回，带老人小孩都走得动。</strong>",
+          "<strong>路线与实际强度：</strong>US-89 南下 Livingston 9 英里，转东上 <strong>Pine Creek Road 6 英里</strong>（Forest Service 原文 “narrow winding road”，<strong>窄、弯、穿过私人土地，请慢行并全程留在路面上</strong>）到营地，步道口紧邻营地。<strong>单程约 1 英里、20–30 分钟；往返 2.5–3 英里（不同来源口径 2.5 至 3 英里）。</strong><strong>前段平缓好走，末段变得多石且略窄，并要过一道小溪</strong>——<strong>穿有抓地力的鞋，运动鞋可以，凉鞋不行。</strong><strong>千万不要和 Pine Creek Lake 搞混：那条要继续往上 4–5 英里、爬升约 3,000 英尺，是完全不同量级的一整天。</strong>",
+          "<strong>沿途该看什么：</strong>这条步道真正的看点不止终点那道水。<strong>① 营地一带（约 5,600 英尺）是成熟的花旗松与云杉林，Absaroka 的山壁就在头顶</strong>；<strong>② 越往上走白杨（quaking aspen）越黄</strong>——河岸的棉白杨要到 10 月中下旬才盛期，<strong>但这条侧谷从谷底 4,700 英尺一路爬进 7,000 英尺以上，高处的白杨 9 月下旬正当盛期，这是本区 9 月下旬唯一能看到真正黄透林子的方向</strong>；<strong>③ 瀑布本体是一处林中跌水</strong>，<strong>9 月下旬是全年水量最低的时候，请把「壮观」两个字先放下</strong>，它好看在水流结构、湿岩与苔藓，不在体量。",
+          "<strong>体力不够或带轮椅的替代方案：营地内另有一条半英里的无障碍 Creekside Trail 沿溪而行。</strong><strong>平地、铺装、不需要过溪</strong>，能看到同一条溪和同一片林子，只是到不了瀑布。<strong>时间紧的话走这条也算来过。</strong>",
+          "<strong>熊：这一条不是走过场，请当真。</strong>步道通往 Absaroka-Beartooth Wilderness，<strong>9 月下旬正是熊入蛰前的疯狂进食期，而低海拔溪谷正是它们的活动区</strong>；Recreation.gov 在这个营地的页面上明确写着 “Bears frequent the area”。<strong>必带熊喷雾，并挂在腰上或背带上、而不是塞进背包深处</strong>；<strong>熊喷雾不能随飞机携带（托运也不行），必须落地后在 Bozeman 或 Livingston 买。</strong><strong>走路时出声、不要戴耳机、不要独自走在队伍前面很远。</strong>",
+          "<strong>人流、卫生间与停车：</strong>9 月下旬平日这条步道人很少，基本随到随走。<strong>步道口停车场车位不多（约 6–7 辆，路边另可停几辆），但这个季节的平日基本随到随停。</strong><strong>卫生间与可饮用水在营地里——但请注意营业期 9 月 25 日结束：9/22 至 9/25 这几天设施还在运行，9/26 起旱厕与饮用水停用。</strong><strong>这是 Livingston 一路南下到 Gardiner 之间少数几个公共卫生间之一，别错过。</strong>"
         ],
         "photo": "瀑布与溪流 <strong>3.5/5</strong>，林间细节 <strong>4/5</strong>，秋色 <strong>4/5</strong>，风光 <strong>2.5/5</strong>。<strong>加分在「可靠性」而不是「上限」</strong>：它是本子地区唯一一个<strong>在阴天、正午顶光和烟霾天都照样能出片</strong>的点位，而这三种情况在 9 月下旬的西南蒙大拿加起来概率不低。林中溪流的慢门、苔石与转色白杨的局部特写都很稳。扣分是<strong>题材分量有限</strong>——这是一道中等规模的林中瀑布，在一个有 Emigrant Peak 和整条 Paradise Valley 的子地区里，它的定位是补位而不是主角；而且<strong>9 月下旬是全年水量最低的时候，流量会明显小于网上的夏季照片。</strong>",
         "shots": [
@@ -1469,9 +1586,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>1.5–2 小时（往返步道口到瀑布，含在瀑布边停留）。</strong><strong>分配：</strong>上行 <strong>20–30 分钟</strong>，瀑布边停留 <strong>20–30 分钟</strong>，下行 <strong>15–25 分钟</strong>；走得快、只到瀑布看一眼就回头 <strong>60–75 分钟</strong>；想边走边看秋色、往上多走一段 <strong>2.5 小时</strong>。<strong>只走营地里那条半英里的无障碍 Creekside Trail：25–35 分钟。</strong><strong>另请把车程算进去</strong>——从 US-89 转进来单程 6 英里的 Pine Creek Road 又窄又弯，<strong>来回车程要留 30–40 分钟</strong>，<strong>所以这个点从离开 US-89 到回到 US-89，整体要留 2.5–3 小时。</strong>（Forest Service 未公布建议时长，以上按官方里程与常规徒步速度推算。）",
           "book": "<strong>徒步不需预约。</strong>（Pine Creek Campground 的营位可在 recreation.gov 预订，<strong>但营业期 9 月 25 日结束</strong>）",
-          "ticket": "<strong>日间徒步免费</strong>——Custer Gallatin National Forest 与 Absaroka-Beartooth Wilderness 的日间徒步不收门票，也不需许可。<strong>营地过夜收费，但两个官方渠道金额不一致：Forest Service 官网写单个营位 $20/晚（含 2 辆车）、额外车辆 $8/辆；recreation.gov 一侧出现 $26/晚与 $9/辆。哪个为准未能确认。</strong><strong>注意：这里是国家森林，不是州立 Fishing Access Site，所以不需要 Montana Conservation License</strong>（那是 Paradise Valley 那些河岸停车点才需要的，见下一景点）",
-          "hours": "<strong>步道本身无门禁、无关门时间。</strong><strong>Pine Creek Campground 的营业期是 5/15 – 9/25（Forest Service 原文标注 “Weather Dependent”），所以 9/23（周三）与 9/24（周四）在营业期内，9 月 25 日关季。</strong><strong>营地关季后步道通常仍可徒步，但卫生间与饮用水会停用，且 Pine Creek Road 的冬季维护状况未能从官方渠道确认。</strong>管理单位是 Yellowstone Ranger District（5242 Highway 89 South, Livingston；406-222-1892；周一至周五 8:00–16:30）",
+          "ticket": "<strong>日间徒步免费（2026-09-13 复核）</strong>——Custer Gallatin National Forest 与 Absaroka-Beartooth Wilderness 的日间徒步不收门票、不需许可、停车也不收费。<strong>营地过夜收费，而这一次复核后要更正一点：两个互相矛盾的金额其实印在同一张 Forest Service 官方页面上，不是「两个渠道不一致」。</strong><strong>该页 “Fee Site and Info” 一栏先写 “Single Site: $20 (includes 2 driving vehicles) Extra Vehicle Fee: $8 per additional vehicle”，紧接着下一行又写 “Single Site: $26 per night Additional Vehicle Fee: $9 per night”。</strong><strong>recreation.gov 一侧与后者一致（额外车辆 $9/晚）。</strong><strong>两种口径都照实写在这里；按 $26 备预算比较稳，但官方页面自相矛盾这一点未能消除。柴火 $10 一捆。要问准打 Yellowstone Ranger District：406-222-1892。</strong><strong>注意：这里是国家森林，不是州立 Fishing Access Site，所以不需要 Montana Conservation License</strong>（那是 Paradise Valley 那些河岸停车点才需要的，见下一景点）",
+          "hours": "<strong>步道本身无门禁、无关门时间，全年 24 小时可走。</strong><strong>Pine Creek Campground 的营业期是 5/15 – 9/25（Forest Service 原文标注 “Weather Dependent”，页面注明 2026-05-01 更新，2026-09-13 复核未变）。</strong><strong>对应到 2026/9/22–9/29 这个窗口，这里正好被切成两半：9 月 22、23、24、25 日营地仍在运行（旱厕与可饮用水可用）；9 月 26 日起关季，步道通常仍可徒步，但卫生间与饮用水停用。也就是说本区唯一「差几天就错过」的设施就是它——想用到厕所和水，请把这个点排在 9/25 之前。</strong><strong>营地关季后步道通常仍可徒步，但卫生间与饮用水会停用，且 Pine Creek Road 的冬季维护状况未能从官方渠道确认。</strong>管理单位是 Yellowstone Ranger District（5242 Highway 89 South, Livingston；406-222-1892；周一至周五 8:00–16:30）",
           "parking": "<strong>步道口有免费停车场，紧邻营地</strong>（45.49843, −110.5236）。车位不多（当地记录约 6–7 辆在步道口、路边另可停几辆），<strong>但 9 月下旬平日基本随到随停</strong>。<strong>Pine Creek Road 窄而弯、穿过私人土地，请全程留在路面上</strong>",
           "walk": "<strong>瀑布单程约 1 英里 / 20–30 分钟，往返 2.5–3 英里（不同来源口径 2.5 至 3 英里）。</strong>前段平缓，末段多石略窄并需过一道小溪。<strong>含拍摄建议留 1.5–2 小时。</strong>营地内另有<strong>半英里的无障碍 Creekside Trail</strong>。<strong>切勿与 Pine Creek Lake 混淆——那条要再往上 4–5 英里、爬升约 3,000 英尺</strong>"
         },
@@ -1501,6 +1619,7 @@ var REGIONS = [
         "n": 8,
         "name": "Paradise Valley 与 East River Road",
         "en": "Paradise Valley & East River Road (Secondary 540)",
+        "must": 4.5,
         "score": 4.5,
         "tldr": "进园前 54 英里的走廊。East River Road（东岸 32 英里）明确比 US-89 好拍。谷地正南北向，Absaroka 在东是傍晚正面光，Gallatin 在西是清晨正面光。FWP 停车点需 $10 保育证。",
         "tags": [
@@ -1755,6 +1874,7 @@ var REGIONS = [
         "n": 1,
         "name": "罗斯福门",
         "en": "Roosevelt Arch, Gardiner (North Entrance)",
+        "must": 3.5,
         "score": 3.5,
         "tldr": "1903 年玄武岩拱门，刻着「For the Benefit and Enjoyment of the People」。全年可开车穿过，秋季 rut 期门下常有公麋鹿。",
         "tags": [
@@ -1781,6 +1901,13 @@ var REGIONS = [
           "为什么会有这么一座门：<strong>1903 年之前火车只到 Gardiner 西北几英里外的 Cinnabar, Montana</strong>，游客得在那里换乘马车进园。1903 年 Northern Pacific 铁路终于修进 Gardiner，需要一个够气派的仪式性门户。恰好 <strong>Theodore Roosevelt 当时正在园内游览，于是被请去为奠基石揭幕</strong>，拱门便随他的名字",
           "<strong>秋季 rut 期这里不是空景</strong>：Arch Park 的草坪是 Mammoth 之外第二个公麋鹿聚集点，傍晚常有单只公鹿在门前的草地上鸣叫。「公麋鹿 + 拱门」是本区辨识度最高的一张片子",
           "<strong>汽车全年可以直接开过拱门下方</strong>（NPS 原文 “Visitors can drive through the Roosevelt Arch year-round”），这一点在国家公园里相当罕见"
+        ],
+        "tour": [
+          "<strong>这是一个「停车 20 分钟、看完就走」的点，不要按景区的思路安排。</strong>标准动作只有三步：把车停进拱门西北侧的 <strong>Arch Park</strong> 免费停车场，走到门前读一遍门楣上的 “FOR THE BENEFIT AND ENJOYMENT OF THE PEOPLE”，再走到门洞下方看一眼 1903 年 Theodore Roosevelt 揭幕的奠基石（在门洞内侧墙基上）。三件事做完就够了",
+          "<strong>开车穿门是很多人专程来的理由，但请注意它是实际通行的双向路面。</strong>想拍「车穿门」就把车停好、由同行的人开过去，不要停在门洞里。进园的车流在 <strong>09:00–11:00</strong> 最密集，9 月下旬的 <strong>07:00 之前与 17:00 之后</strong>基本没车，是最从容的时段",
+          "<strong>可以跳过的部分：</strong>Arch Park 的野餐区与那一小段步道没什么内容，拱门本身也只有一个正面值得看。省下的时间建议花在 Gardiner 镇上——本区真正需要在这里完成的是<strong>加油、买熊喷雾、吃饭、补给</strong>，因为园内 Mammoth 加油站 10 月 4 日就关，Gardiner 全年营业",
+          "<strong>傍晚多留 15 分钟是划算的。</strong>9 月下旬正是 elk rut 的峰值，Arch Park 的灌溉草坪是 Mammoth 之外第二个公麋鹿聚集点，傍晚常有单只公鹿在门前草地上鸣叫。<strong>看到鹿一律退到 25 码（23 米）以外，或者干脆回车里看</strong>",
+          "<strong>厕所与餐饮：</strong>拱门旁没有公共厕所。最近的是 <strong>Gardiner 镇内的公共厕所与各家餐馆</strong>（步行 5–10 分钟），以及 5 英里外 Mammoth 的 Albright Visitor Center（全年开放，有厕所）。<strong>Arch Park 停车场秋季平日随到随停</strong>，只有傍晚 rut 围观时会短暂满位"
         ],
         "photo": "建筑 <strong>4/5</strong>，人文 <strong>4/5</strong>，风光 <strong>2.5/5</strong>。主体本身极上镜且有历史分量，背后是 Gallatin Range 的天际线；扣分在于它就是一个孤立物件，绕来绕去构图变化有限，而且周边是 Gardiner 的镇区与停车场，背景不干净。加分项全在光和麋鹿上。",
         "shots": [
@@ -1814,9 +1941,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "不需预约。Yellowstone 全园不需要车辆预约（NPS 原文：“vehicle reservations are not needed”）",
-          "ticket": "<strong>持 America the Beautiful 年票免费</strong>。年票直接覆盖入园费，并且<strong>豁免非美国居民 16 岁以上每人 $100 的附加费</strong>（NPS 原文：该附加费 “unless admitted with an Annual or America the Beautiful Pass”）。未持票者私家车 $35／7 天。<strong>持票人必须本人在场并出示带照片的证件</strong>，收据或照片不能替代实体票",
-          "hours": "官方口径：<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，入口在开放季不设夜间关卡，可 24 小时进出。拱门本身在北门外的 Gardiner 镇内，<strong>不受任何园内路段季节封闭影响，全年可达</strong>",
+          "visit": "<strong>20–45 分钟</strong>；只是下车拍照并穿门而过 <strong>15 分钟</strong>足够。<strong>傍晚想碰运气等 rut 期的公麋鹿再加 30 分钟</strong>，但不建议为此死等。如果把 Gardiner 镇的加油与补给算进来，整站预留 1–1.5 小时",
+          "book": "不需预约。<strong>Yellowstone 没有 timed entry，也不需要车辆预约</strong>（2026-09-13 核实于 NPS Fees & Passes 与 Park Roads 页）",
+          "ticket": "<strong>拱门本身不收费；园内景点一律没有独立门票，只收一次 Yellowstone 入园费。</strong>以下 <strong>2026-09-13 核实于 NPS 官方 Fees &amp; Passes 页</strong>：<strong>私家车七日通行证 $35</strong>（原文 “Unlimited entry for one vehicle and all passengers for seven consecutive days, beginning on the day of purchase”，限 15 座以下非商用车）；摩托车／雪地摩托 $30（7 天，最多 2 辆 4 人）；步行／自行车／滑雪每人 $20（<strong>16 岁以下免费</strong>）。<strong>Yellowstone 年卡 $70</strong>（一年内不限次）；<strong>America the Beautiful 年卡自 2026-01-01 起分两档：美国居民 $80，非美国居民 $250</strong>（$250 版覆盖整车，或 2 辆摩托，或持卡人加 3 名成人）。<strong>2026 年新增：非美国居民 16 岁以上每人加收 $100 附加费</strong>，NPS 原文 “unless admitted with an Annual or America the Beautiful Pass”——<strong>持年卡即豁免</strong>，所以对非美籍游客来说 $80／$250 的年卡几乎一定比 $35 单次划算。<strong>持票人必须本人在场并出示带照片的证件</strong>，收据或照片不能替代实体票。五个入口站均收现金与信用卡／借记卡",
+          "hours": "NPS 官方原文：<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，且 Park Roads 页补充 <strong>“When open, roads are not gated at night and people may enter/exit the park 24 hours a day, seven days a week.”</strong>（2026-09-13 核实，该页最后更新 2026-09-01）。拱门本身在北门外的 Gardiner 镇内，<strong>不受任何园内路段季节封闭影响，全年 24 小时可达</strong>。<strong>9/22–9/29 行程窗口内完全不受影响</strong>",
           "parking": "<strong>Arch Park 有免费停车与野餐区</strong>（45.03012, −110.70981），紧邻拱门。Gardiner 镇内街边停车免费。旺季与 rut 期傍晚车位会满，但 10 月已明显宽松",
           "walk": "停车到拱门 <strong>1–2 分钟／约 80 米</strong>，全程平地铺装。建议停留 30–45 分钟"
         },
@@ -1847,6 +1975,7 @@ var REGIONS = [
         "n": 2,
         "name": "猛犸村 · 麋鹿发情季",
         "en": "Mammoth Hot Springs Village · Elk Rut",
+        "must": 4,
         "score": 4.5,
         "tldr": "9 月至 10 月中，公麋鹿在 Fort Yellowstone 的草坪上占群鸣叫。全球最容易接近的大型有蹄类求偶场，但 25 码红线由 ranger 现场执法。",
         "tags": [
@@ -1877,6 +2006,13 @@ var REGIONS = [
           "<strong>硬性距离是 25 码（23 米），NPS 的比喻是「两辆全尺寸巴士的长度」</strong>，在 Mammoth 与 Gardiner 同样适用，包括你停车的位置。<strong>rut 期 ranger 会现场管控</strong>：疏导车流、划定观看范围、要求人群后退或转移，必须服从",
           "<strong>NPS 对摄影者的官方建议是使用 300mm 或更长的镜头</strong>（原文 “Lenses with focal lengths of 300mm or greater are recommended for adequate reach”），并明确 “Give them room, use your zoom.”。这不是客气话——<strong>公鹿在 rut 期会主动冲撞车辆和行人，攻击可以毫无预兆</strong>，NPS 提示从建筑物出来前要先看拐角",
           "主要聚集点有三处：<strong>Albright Visitor Center 与 Officer’s Row 前的草坪</strong>、<strong>Mammoth Hot Springs Hotel 与邮局周边</strong>、以及园外 <strong>Gardiner 的 Arch Park</strong>；Gardner River 沿岸也常见"
+        ],
+        "tour": [
+          "<strong>这不是一个「景点」，是一片你要在里面慢慢走的村子，最好的看法是绕一圈步行环线。</strong>推荐走法（逆时针，全程平地铺装，约 1.5 公里）：从 <strong>Albright Visitor Center</strong> 门前出发 → 沿 <strong>Officer’s Row</strong> 那排红顶石砌营房前的草坪走到头 → 折向 <strong>Mammoth Hot Springs Hotel</strong> 与邮局一带 → 经 <strong>Mammoth Chapel</strong> 后侧的草坡回到访客中心。<strong>鹿群一天里会在这三块草坪之间换位置，走完一圈才不会扑空</strong>；开车绕反而看不全，因为很多鹿就趴在建筑物之间",
+          "<strong>时间点比走法更重要：日出后 1 小时内与日落前 1 小时到暮光。</strong>9 月下旬对应 <strong>07:10–08:15</strong> 与 <strong>18:10–19:45</strong>。鸣叫（bugle）在晨昏与夜里最频繁，<strong>正午基本只剩趴着反刍的鹿，值得看的行为几乎为零</strong>——中午这段时间请去走台地或进访客中心，不要耗在草坪上",
+          "<strong>最安全也最好用的观察位是你自己的车。</strong>NPS 的原则是 “The safest (and often best) view of wildlife is from inside a car.”，在 Mammoth 尤其成立：村里到处是停车位，摇下车窗就能看，既满足 25 码（23 米）的硬性距离，又不会把鹿群逼走。<strong>rut 期 ranger 会在现场拉警戒、疏导车流甚至临时封停车位，一律服从</strong>",
+          "<strong>可以跳过的：不要为了「找更好的角度」绕到鹿群背后或包抄，也不要跟着鹿走。</strong>这是 ranger 现场制止最多的行为，而且 rut 期公鹿处于高度应激状态，NPS 明确写 “They are highly stressed and unpredictable during this period and may charge cars and people who get too close.”",
+          "<strong>厕所、餐饮与停车：全部在步行 3 分钟内，这是本区设施最齐的地方。</strong>厕所在 Albright Visitor Center（全年开放）与 Mammoth Hot Springs Hotel 大堂；热食有 Terrace Grill（到 10/12）与酒店餐厅（到 2027/3/8）；Mammoth General Store 与邮局、诊所均全年开放。<strong>停车 09:00–16:00 会紧张，早晚反而宽松</strong>"
         ],
         "photo": "野生动物 <strong>5/5</strong>，人文 <strong>4/5</strong>，风光 <strong>2/5</strong>。这是全世界少有的「可以从停车场用长焦拍到完整求偶行为」的地点，行为密度极高，而且历史建筑做背景让画面有别处没有的叙事性。扣分在于背景经常出现汽车、路灯、垃圾桶和游客——<strong>本机位真正的难点不是拍到鹿，是找到一个背景干净的角度</strong>。",
         "shots": [
@@ -1910,14 +2046,16 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "不需预约",
-          "ticket": "<strong>持 America the Beautiful 年票免费</strong>",
-          "hours": "<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，草坪与街区无门禁。<strong>Albright Visitor Center 全年开放</strong>（每日营业时间随季节调整，进园当天可在门口确认，也是问询台地活跃度与路况的最佳地点）。Mammoth 邮局、Mammoth General Store、Mammoth Medical Clinic 均<strong>全年开放</strong>",
+          "visit": "<strong>晨昏各 1–2 小时，是本区唯一值得「去两次」的点。</strong><strong>只看一次、走完步行环线并等一段鸣叫，75–90 分钟</strong>；<strong>路过瞥一眼 20 分钟</strong>也能看到鹿，但大概率看不到角斗或占群行为。若把 Albright Visitor Center 与 Fort Yellowstone 历史街区一起走，整片区域预留半天最舒服",
+          "book": "不需预约。<strong>Yellowstone 没有 timed entry，也不需要车辆预约</strong>（2026-09-13 核实）",
+          "ticket": "<strong>无独立门票，只收一次 Yellowstone 入园费</strong>（2026-09-13 核实于 NPS Fees &amp; Passes 官方页）：<strong>私家车七日通行证 $35</strong>、摩托车／雪地摩托 $30、步行／自行车每人 $20（16 岁以下免费）；<strong>Yellowstone 年卡 $70</strong>，<strong>America the Beautiful 年卡美国居民 $80 / 非美国居民 $250</strong>；<strong>非美国居民 16 岁以上另加 $100／人，持年卡豁免</strong>",
+          "hours": "<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>（NPS 官方原文，2026-09-13 核实），草坪与街区无门禁，晨昏两个最佳时段都不受任何开放时间限制。<strong>Albright Visitor Center：NPS Operating Dates 表（最后更新 2026-09-03）明确标注 “Open Year-round”</strong>。每日营业钟点由 NPS 页面的动态组件加载，<strong>抓取不到官方原文，未能从官方渠道确认；第三方长期公布的口径是 9 月 6 日–10 月 31 日每日 08:00–17:00</strong>，请以现场或电话 <strong>307-344-2263</strong> 为准。<strong>同址楼下的 Mammoth Backcountry Office 为 5/15–10/12</strong>（官方表，在 9/22–9/29 窗口内开着）。Mammoth 邮局、Mammoth General Store、Mammoth Medical Clinic 均<strong>全年开放</strong>（官方表已核实）",
           "parking": "Albright Visitor Center 门前、酒店周边与村内各处均有免费停车。<strong>rut 期高峰 ranger 可能封闭部分路段与停车位以疏散人群</strong>，按现场指示停放，绝对不要为了拍照停在行车道上",
           "walk": "<strong>基本为零</strong>——各机位都在停车位视线范围内，步行 1–3 分钟。这是本区唯一一个「可以全程在车边完成」的野生动物机位"
         },
         "notes": [
-          "<strong>25 码（23 米）是硬性规定，不是建议。</strong>若麋鹿主动向你靠近，你有义务后退——「是它过来的」不构成免责",
+          "<strong>9/22–9/29 这个窗口正落在 rut 之内，这一点 2026-09-13 已按 NPS 官方页核实。</strong>NPS 的 Elk 页原文是 <strong>“The mating season (rut) generally occurs from early September to mid-October.”</strong>，Safety 页则写 <strong>“During the fall (September - October), bull elk battle for access to cows and challenge other males…”</strong>。<strong>注意：NPS 官方从不公布「峰值日」，「9 月中下旬为峰值」是长期观察与特许经营方的说法，不是官方口径。</strong>可以确定的是 9 月下旬占群与鸣叫都在进行中，<strong>而园外 Gardiner 的公路与草坪上同样会有鹿</strong>",
+          "<strong>25 码（23 米）是硬性规定，不是建议。</strong>NPS 原文 “Keep at least 25 yards (23 meters) from elk at all times and never approach an elk to take a photo.”，并明确 “It’s illegal to willfully remain near or approach wildlife… within any distance that disturbs or displaces the animal.”——<strong>也就是说「只要你的存在让动物改变了行为」就已经违法，25 码只是下限。</strong>若麋鹿主动向你靠近，你有义务后退，「是它过来的」不构成免责",
           "<strong>被公鹿冲锋时：找一个坚实屏障（车辆、树木、建筑）挡在中间。附近没有屏障时 NPS 的建议是跑</strong>（这与遇熊的处置完全相反，不要混淆）",
           "<strong>严禁使用任何鹿哨或播放鸣叫录音。</strong>模仿 bugle 会把公鹿直接引到你面前，既违法又极度危险，而且会干扰整个鹿群的繁殖行为",
           "<strong>不要为了拍摄绕到鹿群背后或包抄。</strong>包围与追逐会造成应激，在 rut 期还会触发公鹿的防御性攻击；这也是 ranger 现场最常制止的行为",
@@ -1945,6 +2083,7 @@ var REGIONS = [
         "n": 3,
         "name": "猛犸热泉台地（下台地栈道 + 上台地环路）",
         "en": "Mammoth Hot Springs Terraces (Lower Terraces & Upper Terrace Drive)",
+        "must": 5,
         "score": 4.5,
         "tldr": "世界最大的碳酸钙沉积泉。白色石灰华在直射光下是严重曝光陷阱，傍晚与阴天远好于正午；活跃泉眼逐年变，出发前必须现场确认。",
         "tags": [
@@ -1974,7 +2113,15 @@ var REGIONS = [
           "<strong>这里的活跃状态每年都不一样，而这直接决定你能拍到什么。</strong>NPS 官方 FAQ 的说法是：泉水总量基本恒定，只是「水走阻力最小的路」，<strong>任何时刻大约只有 10% 的水在地表，另外 90% 在地下</strong>，所以某个泉眼干掉不等于系统衰退，只是水改道了",
           "<strong>具体到几个著名泉眼（这是本条最需要现场核实的信息）：</strong><strong>Minerva Terrace</strong>——1885 年 Frank J. Haynes 拍下它时就在流，长期是台地上最上镜的一处，但<strong>自 1980 年代起活动持续衰退，2000 年代初完全停止，此后基本维持干涸</strong>，NPS 官方页对它的措辞是 “Some years, they are dry.”；<strong>Canary Spring</strong>——以反复无常著称，历史记录里 1884 年 7 月活跃、10 月停摆、1885 年又复活，1914–1924 停、1954–1984 活，NPS 近年也公开发布过它突然转为休眠的对比照；<strong>Palette Spring 与 Cleopatra Spring</strong> 是下台地近二十年<strong>最稳定的两处</strong>，通常仍有明显水流与热噬菌群的橙褐色条带。<strong>以上为历史趋势，不等于你到访当天的状态——请把 Albright Visitor Center 的现场问询当成必做项。</strong>",
           "<strong>Liberty Cap</strong>：下台地入口处那根 37 英尺高的灰白色石柱，是一个<strong>已经死亡的热泉喷口</strong>——泉水常年从同一个小口垂直上涌，把石灰华一圈圈堆成塔状，直到水源断掉。它是整个台地区最容易构图的单体，且<strong>形态不会年年变</strong>，是活跃度不佳时的保底题材",
-          "两个台地在体验和光线上完全是两回事：<strong>下台地（Lower Terraces）</strong>是几百级栈道台阶，整体朝北／西北，从村子边缘往上爬；<strong>上台地环路（Upper Terrace Drive）</strong>是一条<strong>1 英里（1.6 公里）单行铺装环路</strong>，可以开车贴到 Orange Spring Mound 这类特征旁边，还能俯瞰 Fort Yellowstone 与 Gardner River。NPS 明确提示两个台地之间的栈道<strong>陡且有数百级台阶，心肺不佳者建议改为开车走上台地环路</strong>"
+          "两个台地在体验和光线上完全是两回事：<strong>下台地（Lower Terraces）</strong>是几百级栈道台阶，整体朝北／西北，从村子边缘往上爬；<strong>上台地环路（Upper Terrace Drive）</strong>是一条<strong>1.5 英里（2.4 公里）单行铺装环路</strong>（NPS 原文 “a one-way, scenic, 1.5-mile (2.4-km) long road”，2026-09-13 核实），可以开车贴到 Orange Spring Mound 这类特征旁边，还能俯瞰 Fort Yellowstone 与 Gardner River。NPS 明确提示两个台地之间的栈道<strong>陡且有数百级台阶，心肺不佳者建议改为开车走上台地环路</strong>；<strong>环路禁止拖挂车、大巴与房车通行</strong>，这类车辆须停在环路入口的停车场后步行"
+        ],
+        "tour": [
+          "<strong>最省力也最不吃亏的走法是「先开上面、再走下面」，不要从村子边缘一路往上爬台阶。</strong>具体顺序：先把车开到村子上方 2 英里的 <strong>Upper Terrace Drive</strong> 入口停车场，顺时针（单行只有这一个方向）开完 1.5 英里环路，中途在 <strong>Orange Spring Mound</strong> 下车（距入口 0.7 英里／1.1 公里，有无障碍车位与一小段栈道）；然后回到环路西侧停车场，沿栈道下行 <strong>8–12 分钟</strong>到 <strong>Canary Spring 大观景平台</strong>，原路返回；最后把车开到下台地东北停车场，平走 <strong>2–3 分钟</strong>看 <strong>Liberty Cap</strong> 与 <strong>Palette Spring</strong>。<strong>这样全程没有一段需要爬那几百级台阶，而三个最值得看的东西一个都不少。</strong>",
+          "<strong>绝对不能错过的是 Canary Spring 的大观景平台</strong>——整片阶梯状石灰华坡面向东铺开，正对 Gardner River 谷地与对面的 Mount Everts，是全区规模感最强的一处，也是明信片上那个画面。其次是 <strong>Liberty Cap</strong>（下台地入口那根 37 英尺高的死泉柱，形态不会年年变，永远在）与 <strong>Palette Spring</strong>（近二十年最稳定的活跃泉之一，橙褐色的热噬菌群条带最好看）",
+          "<strong>可以直接跳过的两处：Minerva Terrace 与两个台地之间的连接台阶。</strong>Minerva 自 2000 年代初起基本干涸，NPS 自己的措辞就是 “Some years, they are dry.”，没有水时它只是一堆灰白色的层理；连接台阶是数百级陡梯、单程 25–35 分钟，爬完看到的东西和你开车上去看到的完全一样。<strong>省下的 40 分钟拿去走 Fort Yellowstone 历史街区或进 Albright Visitor Center，回报高得多。</strong>",
+          "<strong>活跃度每年都变，这一点必须到现场才能确认。</strong>进园当天先到全年开放的 <strong>Albright Visitor Center</strong> 问一句「哪几处泉现在在流」，再决定把时间放在上台地还是下台地。顺便在同一个柜台把 <strong>Upper Terrace Drive 与 Blacktail Plateau Drive 今天开不开</strong>一起问掉",
+          "<strong>停车与人流：</strong>秋季平日四个下台地停车场基本随到随停，<strong>10:00–15:00 是唯一会满的时段</strong>，上台地环路的几个小 turnout 更容易被占。9 月下旬清晨 08:00 前和 16:00 之后几乎没人",
+          "<strong>厕所与餐饮：栈道沿线没有任何设施，全部在半英里外的 Mammoth 村里。</strong>厕所最可靠的是 <strong>Albright Visitor Center（全年开放）</strong>与 Mammoth Hot Springs Hotel 大堂；热食有 <strong>Mammoth Terrace Grill（营业到 10 月 12 日）</strong>与酒店餐厅（营业到 2027 年 3 月 8 日）；<strong>Mammoth General Store 全年开放</strong>，买水、零食和熊喷雾都在这里。上栈道之前先解决掉，中途折返一趟要多花 20 分钟"
         ],
         "photo": "风光 <strong>4.5/5</strong>，微距／细节 <strong>5/5</strong>，人像 <strong>2/5</strong>。石灰华的层理、鳞片状边坝（rimstone dam）与热噬菌群的橙黄条带是极难得的抽象题材，长焦局部几乎拍不完。扣分有两处：<strong>白色石灰华在直射日光下的动态范围超出传感器能力</strong>（详见下方机位说明），以及活跃度不确定导致「网上那张照片」经常复刻不了。人像分低是因为栈道窄、背景是滚烫的泉水，不适合摆拍。",
         "shots": [
@@ -2020,13 +2167,14 @@ var REGIONS = [
               44.96648,
               -110.71491
             ],
-            "desc": "1 英里单行铺装环路，沿途几处小停车位，<strong>可以把车开到离特征几十米的地方</strong>——在 10 月下旬 −10°C 的清晨，这个「不用走远」的属性价值很高。Orange Spring Mound 是一个覆满橙色藻膜的圆丘状泉体，形态独特且长期稳定。环路上还能俯瞰 Fort Yellowstone 的红顶建筑群与 Gardner River 谷地，<strong>是本区唯一能把「人文建筑 + 地热地貌」放进同一张画面的位置</strong>，用 70–200mm 压缩。<strong>关闭日期是本页最大的不确定项：NPS 只说 “open only during the summer season”，没有公布 2026 年的具体关闭日期，未能从官方渠道确认。</strong>已知的是一旦季节性除雪停止，这条路就转为滑雪／雪鞋线路。<strong>请把它当成「10 月中之后随时可能关」来规划</strong>，出发当天在 Albright Visitor Center 问一句即可，关了的话下台地栈道完全可以替代。"
+            "desc": "1.5 英里（2.4 公里）单行铺装环路，沿途几处小停车位，<strong>可以把车开到离特征几十米的地方</strong>——在 10 月下旬 −10°C 的清晨，这个「不用走远」的属性价值很高。Orange Spring Mound 是一个覆满橙色藻膜的圆丘状泉体，形态独特且长期稳定。环路上还能俯瞰 Fort Yellowstone 的红顶建筑群与 Gardner River 谷地，<strong>是本区唯一能把「人文建筑 + 地热地貌」放进同一张画面的位置</strong>，用 70–200mm 压缩。<strong>关闭日期仍是本页的不确定项，2026-09-13 又重查了一遍：</strong>NPS 的 Upper Terrace Drive 官方页（最后更新 2024-12-03）只写 “The Upper Terrace Drive becomes a groomed, cross-country ski trail in winter.”，不给日期；Park Roads 页（最后更新 2026-09-01）的 2026 年开关日期表里<strong>根本不列这条支线</strong>；Current Conditions 页当天也没有任何关于它的临时关闭通告。<strong>仍然未能从官方渠道拿到具体关闭日期。</strong><strong>但对 9/22–9/29 这个窗口来说这件事其实不构成风险——除雪停止要到 10 月以后，9 月下旬它开着是接近确定的事</strong>（唯一变数是突发降雪临时挂牌）。出发当天在 Albright Visitor Center 问一句即可，关了的话下台地栈道完全可以替代。"
           }
         ],
         "access": {
-          "book": "不需预约",
-          "ticket": "<strong>持 America the Beautiful 年票免费</strong>，无额外费用",
-          "hours": "官方口径 <strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，台地栈道本身无门禁、无关门时间，可以拍到暮光再走。所在的 Mammoth 位于全年开放的北环上，<strong>不受 10/12 与 10/31 两个封路节点影响</strong>。<strong>Upper Terrace Drive 为季节性开放，2026 年具体关闭日期未能从官方渠道确认</strong>——NPS 的 Mammoth 区页面只有一句「open only during the summer season」，Park Roads 与 Operating Dates 两张表都不列这条支线。<strong>能确定的上限是 11 月 1 日</strong>：2026 版 Superintendent’s Compendium 的年度开放路段清单写的是「Mammoth Hot Springs <em>to</em> Upper Terrace Drive」，即通到环路口的那段主路全年开放，<strong>但环路本身不在清单内</strong>。<strong>出发当天请拨路况录音 (307) 344-2117，或到全年开放的 Albright Visitor Center 问一句——环路口就在村子上方 2 英里，闸门锁没锁一问即知</strong>",
+          "visit": "<strong>2.5–3.5 小时</strong>把下台地全部栈道加上台地环路走完（这是完整版）。<strong>只看重点 60–75 分钟</strong>：上台地环路开一圈含 Orange Spring Mound 下车 20–25 分钟，Canary Spring 观景平台往返 25 分钟，下台地 Liberty Cap／Palette Spring 往返 20 分钟。<strong>时间极紧或体力有限，就只开 1.5 英里的 Upper Terrace Drive，30 分钟</strong>。<strong>反过来，若从下台地一路爬台阶上到主台地，单程就要 25–35 分钟，请把总时长按 3.5 小时算</strong>",
+          "book": "不需预约。<strong>Yellowstone 没有 timed entry，也不需要车辆预约</strong>（2026-09-13 核实）",
+          "ticket": "<strong>台地没有独立门票，只收一次 Yellowstone 入园费</strong>（2026-09-13 核实于 NPS Fees &amp; Passes 官方页）：<strong>私家车七日通行证 $35</strong>（一车连同全部乘客，自购买当日起连续 7 天）；摩托车／雪地摩托 $30；步行／自行车每人 $20，16 岁以下免费。<strong>Yellowstone 年卡 $70</strong>；<strong>America the Beautiful 年卡 2026 年起美国居民 $80、非美国居民 $250</strong>。<strong>非美国居民 16 岁以上另加 $100／人，持年卡豁免</strong>。<strong>持 America the Beautiful 年票则本景点全程零支出</strong>",
+          "hours": "NPS 官方原文 <strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>（2026-09-13 核实）。台地栈道本身<strong>无门禁、无关门时间</strong>，可以待到暮光再走。所在的 Mammoth 位于全年开放的北环上，<strong>不受 10/12 与 10/31 两个封路节点影响</strong>，<strong>9/22–9/29 行程窗口内全程可达</strong>。<strong>Upper Terrace Drive 为季节性开放，2026 年具体关闭日期仍未能从官方渠道确认</strong>——2026-09-13 复查：NPS 的 Upper Terrace Drive 官方页（更新于 2024-12-03）只有“becomes a groomed, cross-country ski trail in winter”，Park Roads 页（更新于 2026-09-01）的 2026 年开关日期表与 Operating Dates 表都不列这条支线，Current Conditions 页当天亦无相关通告。<strong>能确定的上限仍是 11 月 1 日</strong>：2026 版 Superintendent’s Compendium 的年度开放路段清单写的是「Mammoth Hot Springs <em>to</em> Upper Terrace Drive」，即通到环路口的那段主路全年开放，<strong>但环路本身不在清单内</strong>。<strong>对 9 月下旬而言实际风险很低（除雪停止在 10 月以后），只要不遇上突发降雪就开着。</strong>出发当天可拨路况录音 <strong>(307) 344-2117</strong>，或到全年开放的 Albright Visitor Center 问一句——环路口就在村子上方 2 英里，闸门锁没锁一问即知",
           "parking": "下台地沿栈道有四处免费停车场（东北 44.97278/−110.70386、东 44.97140/−110.70316、东南 44.96946/−110.70211、西 44.96839/−110.70775），均免费不限时。<strong>秋季平日基本随到随停</strong>，Upper Terrace Drive 沿线另有数个小型 turnout",
           "walk": "Liberty Cap／Palette Spring <strong>2–3 分钟／约 150 米</strong>；Minerva Terrace 约 <strong>8 分钟</strong>；从上台地西停车场下到 Canary Spring 观景台 <strong>8–12 分钟</strong>；<strong>若从下台地一路爬到上台地，是数百级陡台阶、约 25–35 分钟，NPS 明确不建议心肺疾病者尝试</strong>。走完下台地全部栈道加上台地环路，建议预留 2.5–3.5 小时"
         },
@@ -2160,6 +2308,7 @@ var REGIONS = [
         "n": 5,
         "name": "温蒂瀑布与幽灵瀑布",
         "en": "Undine Falls & Wraith Falls",
+        "must": 2,
         "score": 3,
         "tldr": "Mammoth–Tower 路上的两处顺路瀑布：Undine 零步行即到，Wraith 单程 0.5 英里。都朝西，午后到傍晚是正面光。",
         "tags": [
@@ -2184,6 +2333,13 @@ var REGIONS = [
           "<strong>Undine Falls</strong>：Lava Creek 上的三级跌水，总落差 <strong>60 英尺（18.3 米）</strong>，<strong>观景台就在路边，下车走几十米即到</strong>。名字来自欧洲民间传说中的水精灵 undine。在 10 月下旬清晨零下十度、你还要赶 Lamar 日出的现实条件下，「不用走路」这个属性本身就是它最大的价值",
           "<strong>Wraith Falls</strong>：Lupine Creek 上一道贴着岩板下滑的长条形斜瀑，落差 <strong>79 英尺（24 米）</strong>。NPS 的描述是 “a short 1/2-mile (0.8-km) hike”，实测停车场到观景平台直线约 540 米、步行约 10 分钟，坡度平缓，<strong>是本区门槛最低的一段步道</strong>",
           "<strong>两处都在 Mammoth–Tower 路段上，而这条路全年开放</strong>，不受 10/12（Dunraven）与 10/31（主环）两个封闭节点影响。缺点也很实在：两者都是中小型瀑布，<strong>在一个有 Lamar Valley 和 Mammoth 台地的子地区里，它们的定位是「顺路补一张」而不是「专程去」</strong>"
+        ],
+        "tour": [
+          "<strong>先把定位说清楚：这两处是「顺路停 10 分钟」的点，不值得专程从 Mammoth 开过来。</strong>在只有八天的行程里，如果某天时间紧，<strong>这是本子地区第一个该被砍掉的条目</strong>。真要去，就安排在从 Lamar 拍完清晨、往回开的路上顺手停",
+          "<strong>Undine Falls 的正确用法是「不下路」：</strong>从停车场到观景台不到 50 米、全程铺装无爬升，看完三级跌水就走，<strong>整站 10 分钟</strong>。观景台是唯一的角度，没有别的路可走，不要试图沿崖边找别的位置——护栏外就是陡崖",
+          "<strong>Wraith Falls 要走 0.5 英里（NPS 原文 “a short 1/2-mile (0.8-km) hike”），单程约 10 分钟。</strong>从停车场向正南穿过一小片草甸和疏林，末段有木栈道和观景平台，<strong>坡度平缓，是本区门槛最低的一段步道</strong>，普通运动鞋即可。<strong>但它穿过草甸与灌丛，是典型的熊活动地形——熊喷雾必须带，而且要出声行进。</strong>两处里只有这一段需要这么做",
+          "<strong>两处都可以跳过的情况：如果你 9 月下旬看到的是枯水期的细流。</strong>秋季正是黄石水量最低的时候，<strong>Wraith Falls 在枯水期会明显比网上的夏季照片单薄</strong>。在 Undine 的路边看一眼水量，觉得不行就别再走 Wraith 那 20 分钟往返",
+          "<strong>厕所与补给：两处都没有卫生间、没有饮水、没有手机信号。</strong>最近的设施在西边 5–6 英里的 Mammoth（Albright Visitor Center 全年开放，有厕所）。停车各约十几个车位，<strong>9 月下旬平日随到随停</strong>，不存在满位问题"
         ],
         "photo": "风光 <strong>3/5</strong>，细节 <strong>3.5/5</strong>，人像 <strong>2/5</strong>。Undine 的三级结构在长焦下有层次，Wraith 的宽幅岩板斜瀑适合竖构图配周围的黄叶。扣分是两者的观景点都固定、可选角度极少，而且秋季正是黄石水量最低的时候，<strong>10 月的流量会明显小于夏季照片给你的印象</strong>。",
         "shots": [
@@ -2213,9 +2369,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "不需预约",
-          "ticket": "<strong>持 America the Beautiful 年票免费</strong>",
-          "hours": "<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，两处均为无门禁的路边点位。<strong>所在的 Mammoth–Tower 路段全年开放</strong>，但请注意从 Mammoth 过来必须经过施工中的 Gardner River High Bridge（单车道，最长等 15 分钟，24 小时）",
+          "visit": "<strong>两处合计 1–1.5 小时</strong>。分配：<strong>Undine Falls 10 分钟</strong>（停车即到，看完就走）；<strong>Wraith Falls 往返含停留 40 分钟</strong>（单程 10 分钟步行 + 平台上 15–20 分钟）；两处之间开车 3 分钟。<strong>只停 Undine 一处则 15 分钟解决</strong>，这是时间紧时最划算的取舍",
+          "book": "不需预约。<strong>Yellowstone 没有 timed entry，也不需要车辆预约</strong>（2026-09-13 核实）",
+          "ticket": "<strong>无独立门票，只收一次 Yellowstone 入园费</strong>（2026-09-13 核实于 NPS Fees &amp; Passes 官方页）：<strong>私家车七日通行证 $35</strong>、摩托车／雪地摩托 $30、步行／自行车每人 $20（16 岁以下免费）；<strong>Yellowstone 年卡 $70</strong>，<strong>America the Beautiful 年卡美国居民 $80 / 非美国居民 $250</strong>；<strong>非美国居民 16 岁以上另加 $100／人，持年卡豁免</strong>",
+          "hours": "<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>（NPS 官方原文，2026-09-13 核实），两处均为无门禁、无关门时间的路边点位。<strong>所在的 Mammoth–Tower 路段全年开放</strong>（Park Roads 页 2026 年表：North Entrance to Northeast Entrance “Open year-round”，该页最后更新 2026-09-01），<strong>9/22–9/29 窗口内确定可达</strong>。但请注意从 Mammoth 过来必须经过施工中的 <strong>Gardner River High Bridge</strong>：NPS 原文 “expect a single lane of traffic with up to 15-minute delays, 24 hours a day, seven days a week, from April 13 through late October 2026”，且 <strong>9 月 7 日之后会有 5 次整夜完全封闭（21:00–04:00）</strong>，会提前通知",
           "parking": "两处均有免费路边停车场（Undine 44.94330/−110.64040，Wraith 44.94237/−110.62351），各约十几个车位，<strong>秋季平日随到随停</strong>",
           "walk": "Undine <strong>1 分钟／不到 50 米</strong>；Wraith <strong>单程 10 分钟／约 540 米</strong>，往返含拍摄建议预留 40 分钟。两处合计 1 小时到 1.5 小时足够"
         },
@@ -2342,6 +2499,7 @@ var REGIONS = [
         "n": 7,
         "name": "塔瀑",
         "en": "Tower Fall",
+        "must": 3.5,
         "score": 3.5,
         "tldr": "132 英尺瀑布配火山岩尖峰。通往瀑底的步道自 2004 年山体滑坡后永久关闭，只能在观景台拍——北侧 1.5 英里的 Calcite Springs 其实更值得。",
         "tags": [
@@ -2367,6 +2525,13 @@ var REGIONS = [
           "<strong>瀑顶那块著名的悬石</strong>：一百多年里它都看似摇摇欲坠地卡在瀑布口，早期探险者甚至下注赌它哪一小时会掉下去。<strong>它最终在 1986 年 6 月才真的掉了下来</strong>。写着「When will the boulder fall?」的解说牌又立了好几年，园区员工于是改问「那牌子什么时候拆」",
           "<strong>通往瀑布底部的步道自 2004 年起永久关闭，这一点必须说清楚。</strong>当年的岩崩与泥石流摧毁了下方观景平台，并破坏了沿 Tower Creek 那最后三分之一段步道的结构完整性。NPS 当时的公告措辞是「危险状况已超出常规修缮范畴」。<strong>二十多年过去仍无重开计划，末段已用围栏封死。所以「站在瀑布底下」这个画面在 2026 年是不可能实现的</strong>——网上很多攻略仍在推荐这条路线，那些内容全部过期",
           "<strong>仍然开放的两条：</strong>停车场到主观景台的 <strong>150 码铺装步道</strong>（这是唯一能看到瀑布的位置）；以及从观景台旁下切到 Yellowstone River 河岸的<strong>约 0.5 英里陡坡土路，落差约 250–300 英尺</strong>。后者在岔口处向左（通往瀑底）的那一支被封，<strong>向右到河边的那一支照常开放</strong>——河边看得到 Grand Canyon of the Yellowstone 的下游段与对岸 700 英尺高的 Specimen Ridge 山壁"
+        ],
+        "tour": [
+          "<strong>先管理预期：这里只有一个观景台、一个角度，看完就没有了。</strong>从停车场沿铺装步道走 <strong>150 码／约 3 分钟</strong>到主观景台，几乎无爬升，看完瀑布和两侧的火山岩尖峰，<strong>15 分钟就够</strong>。很多攻略推荐的「走到瀑布底下」在 2026 年做不到——<strong>那条步道自 2004 年岩崩后永久关闭，末段有围栏，无重开计划</strong>",
+          "<strong>真正值得多花时间的是北边 1.5 英里的 Calcite Springs Overlook，不要开车路过就算了。</strong>那里有独立停车场、一圈短栈道、2–3 分钟步行，看的是 Yellowstone River 切出的峡谷与对岸整片柱状玄武岩崖壁（当地称 “the palisades”），<strong>画面分量明显高于 Tower Fall 本身</strong>。本手册已把它单列为独立景点，两处放在同一次停留里走最顺",
+          "<strong>可以跳过的：下切到 Yellowstone River 河岸那条 0.5 英里陡坡土路。</strong>往返 1 小时、落差 250–300 英尺，起点海拔就有 6,500 英尺，<strong>下去容易上来难</strong>，而看到的东西在 Calcite Springs Overlook 上能看到八成。<strong>只有在时间充裕、且当天 Lamar 那边没戏时才值得走</strong>，且必须带熊喷雾。另外注意岔口处向左（沿 Tower Creek 通往瀑底）的那一支是封闭的，不要走错",
+          "<strong>厕所与餐饮：这是 Mammoth 与 Cooke City 之间唯一有商店和厕所的地方，别错过。</strong><strong>Tower Fall General Store 2026 年营业到 10 月 4 日</strong>，所以<strong>在 9/22–9/29 的行程窗口内它是开着的</strong>，停车场旁有厕所。但请注意 <strong>Tower Fall Campground 9 月 27 日关闭</strong>、<strong>Tower-Roosevelt 加油站 9 月 6 日就已关闭</strong>——<strong>这一带没有油，进园前必须在 Gardiner 或 Cooke City 加满</strong>",
+          "<strong>人流与停车：停车场很大，9 月下旬平日基本随到随停</strong>，唯一会挤的是 <strong>10:30–15:00</strong>（Dunraven Pass 在 10/12 前仍通，从 Canyon 方向过来的车会在这里停）。观景台空间不大，人多时排队看一眼就好，不要长时间占位"
         ],
         "photo": "风光 <strong>3.5/5</strong>，地质 <strong>4/5</strong>，人像 <strong>1.5/5</strong>。瀑布加尖峰的组合确实上镜，但<strong>只有一个固定观景台、一个固定角度，几乎没有构图余地</strong>，这是扣分的主因。真正的加分项在 1.5 英里以北的 <strong>Calcite Springs Overlook</strong>——那里的柱状玄武岩「palisades」峡谷壁比瀑布本身更有分量，很多人开车路过就错过了。",
         "shots": [
@@ -2400,9 +2565,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "不需预约",
-          "ticket": "<strong>持 America the Beautiful 年票免费</strong>",
-          "hours": "<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，观景台无门禁。<strong>关键是路段日期：Tower-Roosevelt ↔ Tower Fall 段 2026 年开放至 10 月 31 日</strong>，所以从北侧（Tower Junction 方向）来，整个 9 月底至 10 月底窗口都到得了。<strong>但从 Canyon 方向经 Dunraven Pass 过来的那条路 10 月 12 日就关</strong>，两个日期极易混淆，请按你的来向确认",
+          "visit": "<strong>含 Calcite Springs Overlook 共 1–1.5 小时。</strong>分配：<strong>Tower Fall 主观景台 20–30 分钟</strong>（步行往返 6 分钟 + 观看 15 分钟 + 商店厕所）；<strong>Calcite Springs Overlook 20–30 分钟</strong>；两处之间开车 4 分钟。<strong>只看 Tower Fall 一处 20 分钟足够</strong>；<strong>要加走河岸那条 0.5 英里陡坡土路则整站按 2.5 小时算</strong>（往返 1 小时且相当耗体力）",
+          "book": "不需预约。<strong>Yellowstone 没有 timed entry，也不需要车辆预约</strong>（2026-09-13 核实）",
+          "ticket": "<strong>无独立门票，只收一次 Yellowstone 入园费</strong>（2026-09-13 核实于 NPS Fees &amp; Passes 官方页）：<strong>私家车七日通行证 $35</strong>、摩托车／雪地摩托 $30、步行／自行车每人 $20（16 岁以下免费）；<strong>Yellowstone 年卡 $70</strong>，<strong>America the Beautiful 年卡美国居民 $80 / 非美国居民 $250</strong>；<strong>非美国居民 16 岁以上另加 $100／人，持年卡豁免</strong>",
+          "hours": "<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>（NPS 官方原文，2026-09-13 核实），观景台无门禁、无关门时间。<strong>关键是路段日期（NPS Park Roads 页 2026 年表，最后更新 2026-09-01）：Tower-Roosevelt ↔ Tower Fall 段 5 月 8 日 – 10 月 31 日；Canyon Village ↔ Tower Fall（Dunraven Pass）5 月 22 日 – 10 月 12 日。</strong><strong>9/22–9/29 的行程窗口内两条路都开着，从哪边来都行</strong>——这两个日期在 10 月才会开始咬人，届时极易混淆，请按来向确认。道路当天 08:00 开放，关闭日期随天气可提前",
           "parking": "Tower Fall 有大型免费停车场（44.89023, −110.38648），紧邻 Tower Fall General Store。Calcite Springs Overlook 另有独立免费停车场。<strong>Tower Fall General Store 10 月 4 日关门，Tower Fall Campground 9 月 27 日关门；Tower-Roosevelt 加油站 9 月 6 日就已关闭</strong>",
           "walk": "主观景台 <strong>3 分钟／150 码</strong>，铺装；Calcite Springs <strong>2–3 分钟</strong>；河岸步道<strong>往返约 1 小时／1 英里，落差 250–300 英尺</strong>。含 Calcite Springs 建议预留 1.5 小时"
         },
@@ -2582,6 +2748,7 @@ var REGIONS = [
         "n": 1,
         "name": "岩溪观景点",
         "en": "Rock Creek Vista Point",
+        "must": 3.5,
         "score": 4,
         "tldr": "9,190 英尺的正式观景区，俯瞰冰川刻出的 U 形 Rock Creek 谷。有铺装无障碍步道与厕所，是全线唯一设施齐全的一站。清晨优于傍晚。",
         "tags": [
@@ -2611,6 +2778,14 @@ var REGIONS = [
           "<strong>主体是一条教科书级的冰川 U 形谷。</strong>Rock Creek 上游的谷地被更新世冰川从 V 形河谷刻成宽底陡壁的 U 形，<strong>观景台正站在谷肩上，比 Red Lodge 高出近 3,700 英尺</strong>。往东北顺谷望出去可以一直看到 <strong>20.2 公里外的 Red Lodge 方向（方位 39°）</strong>，往西看是 <strong>Hellroaring Plateau 的整面高原崖壁（方位 285°，直线 5.7 公里，高原顶 10,388 英尺／3,166 米）</strong>",
           "<strong>Hellroaring Plateau 这个名字不是形容风景，是形容风。</strong>有意思的是<strong>上那片高原有一条不设护栏的土路，用一半的距离爬到和 Beartooth Highway 相同的海拔</strong>，入口是 OSM 核实的 <strong>Hellroaring Plateau Trailhead（45.03802, −109.45226）</strong>。<strong>本页不推荐开进去</strong>——它对车辆和心理的要求都远超本行程的必要；但从这里用长焦把那条土路的白线压在深色高原壁上，是一张很好的照片",
           "<strong>这里的 ground squirrel 与 chipmunk 出名地不怕人</strong>，几乎每一份到访记录都会提到它们主动凑到脚边讨食。<strong>这是本子地区唯一一个用 70–200mm 就能把野生动物拍满画面的机位</strong>（其余全部需要 400mm 以上）。<strong>但请不要投喂</strong>——被投喂的高山啮齿类冬季存活率反而下降，而且它们会开始翻背包"
+        ],
+        "tour": [
+          "<strong>这是 64 英里里唯一一处「什么都有」的正式休息区，路过必停，哪怕你对风景没兴趣。</strong><strong>它有铺装停车场、厕所、垃圾桶、解说牌和一条 270 米的无障碍步道</strong>，而这条路上其余的停车点全是没有任何设施的碎石路肩。<strong>实际的用法是：把它当成这段路的服务区——上厕所、喝水、活动腿脚、让晕车的人缓一缓，顺便看一眼冰川谷。</strong>位置在 Red Lodge 以西 20.4 英里／38 分钟，正好是从镇上开上来后身体最需要停一下的距离。",
+          "<strong>怎么逛：停车场（45.04312, −109.40717）→ 铺装步道 270 米缓上坡 → 观景平台（45.04550, −109.40766）。</strong><strong>平地条件下 3–5 分钟，但这里是 9,190 英尺，请按 6–8 分钟走，不要一口气冲上去。</strong>平台上向东北顺着 Rock Creek 的 U 形冰川谷能一直望到 20 公里外的 Red Lodge 方向，向西是 Hellroaring Plateau 的整面崖壁。<strong>两块解说牌讲的是冰川如何把 V 形河谷刻成 U 形，值得花两分钟读完再抬头看——知道了再看和不知道就看，是两回事。</strong><strong>这里也是全区唯一一处轮椅与婴儿推车能到达观景点的地方。</strong>",
+          "<strong>高海拔不适在这里已经开始了，虽然只有 9,190 英尺。</strong>从 Red Lodge（5,568 英尺）开上来只用了 38 分钟，身体完全没有适应时间，<strong>很多人就是在这 270 米的缓坡上第一次意识到自己在喘。</strong><strong>这其实是件好事：把这里当成上垭口前的体检站——如果在这里走 270 米就头痛心慌，那么继续上到 10,947 英尺一定会更难受，应当考虑缩短在垭口停留的时间或者干脆改走 Chief Joseph。</strong>晕车的人也一样：从 Red Lodge 上来的发卡弯已经走完一半，<strong>在这里下车走十分钟远比在车里硬扛有效。</strong>",
+          "<strong>厕所在这里，这是本条最实用的一句。</strong><strong>观景区有 pit toilet，是 Cooke City 与 Red Lodge 之间 64 英里内唯一一处正式厕所</strong>（垭口一带的 vault toilet 状态不定，不要依赖）。<strong>但要有心理准备：这是旱厕，没有自来水、没有洗手池，请自带免洗洗手液与纸巾；9 月底是否因上冻而封闭未能从官方渠道确认。</strong><strong>没有饮用水、没有任何售卖点、没有加油。</strong>最近能买到东西的地方是东边 20.4 英里的 Red Lodge。",
+          "<strong>地面上的小动物会主动凑过来，但请不要喂。</strong>这里的 ground squirrel 与 chipmunk 出名地不怕人，会跳上野餐桌翻背包。<strong>被投喂的高山啮齿类冬季存活率反而下降，而且它们会咬破包。把食物收进车里，规定的距离是距一切非熊类野生动物 25 码（23 米）。</strong><strong>这一带同时是 grizzly 分布区，观景台本身人多风险低，但任何离开铺装区的走动都应带熊喷雾。</strong>",
+          "<strong>天气突变时这里是最好的避风点，也是最好的折返决策点。</strong><strong>它有铺装停车场和固定建筑，能见度差时在这里等比在垭口的碎石路肩上等安全得多。</strong><strong>更重要的是：从这里往西就要进入树线以上、结冰与雪的概率陡增；而往东回 Red Lodge 只有 38 分钟且一路下降。</strong><strong>所以如果上山途中天气明显变坏，这里就是那个「还来得及体面地放弃」的位置。</strong>注意此处已经没有手机信号，决定要靠眼睛看，不能靠查天气。"
         ],
         "photo": "风光 <strong>4.5/5</strong>，地质 <strong>4.5/5</strong>，小型野生动物 <strong>4/5</strong>，人像 <strong>3/5</strong>。一个有护栏、有铺装、有解说牌的正式观景台俯瞰一条完整的 U 形冰川谷，构图稳定可重复，而且<strong>护栏与步道本身可以当前景引导线用</strong>，这在本区极难得。<strong>扣分在两处：一是角度固定、可选构图不多；二是傍晚主视向（西北的 Hellroaring 高原壁）会变成逆光，而这恰好和 Beartooth Pass 的最佳时段冲突——两者只能选一个。</strong>人像分不低是因为这里风相对小、有平整地面和护栏可倚，是全线最适合拍到访纪念照的地方。",
         "shots": [
@@ -2652,9 +2827,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>45–75 分钟（含走完步道、在平台上看完两个方向、读解说牌、上厕所）。</strong>分配：<strong>停车场往返步道 15 分钟（270 米×2，高海拔已计入）、平台停留 20–40 分钟、厕所与休息 10 分钟。</strong><strong>只当服务区用、不看风景：15–20 分钟</strong>（上厕所加活动腿脚）。<strong>如果要加拍西侧那个大发卡弯（45.04340, −109.41570）与 Hellroaring Plateau Trailhead 路口，再加 30–45 分钟。</strong>（依据：270 米铺装步道按 9,190 英尺的实际步速推算，非官方建议时长——Forest Service 未对本观景区发布过建议停留时间。）",
           "book": "<strong>不需预约</strong>",
-          "ticket": "<strong>免费。</strong>观景区、停车场、步道与厕所均不收费，<strong>也不需要国家森林日票或 America the Beautiful 年票</strong>",
-          "hours": "<strong>无门禁，公路开放期内 24 小时可进入</strong>（多个来源标注 “Open 24 hours”）。<strong>2026 年公路开放期 5 月 22 日 – 10 月 12 日（NPS 官方口径），9 月 22–29 日在期内。</strong><strong>但随时可能因雪临时封路</strong>——本站在 Montana 一侧，状态查 <strong>MDT 511</strong>；从 Cooke City 方向过来还要查 <strong>Wyoming 511</strong>。<strong>厕所（pit toilet）9 月底是否仍开放、是否已上冻封闭，未能从官方渠道确认</strong>",
+          "ticket": "<strong>免费（2026-09-13 复核）。</strong>观景区、停车场、步道与厕所均不收费，<strong>也不需要国家森林日票或 America the Beautiful 年票</strong>。<strong>官方从未对 Rock Creek Vista Point 单独发布过费率页——「免费」的依据是它属于 US-212 公路设施、且 Custer Gallatin National Forest 的收费点清单里不含本观景区。</strong>",
+          "hours": "<strong>无门禁，公路开放期内 24 小时可进入</strong>（多个来源标注 “Open 24 hours”）。<strong>2026 年公路开放期 5 月 22 日 – 10 月 12 日，2026-09-13 在 NPS 官方 Park Roads 页复核未变；9 月 22–29 日在期内。</strong><strong>但随时可能因雪临时封路</strong>——本站在 Montana 一侧，状态查 <strong>MDT 511</strong>；从 Cooke City 方向过来还要查 <strong>Wyoming 511</strong>。<strong>厕所（pit toilet）9 月底是否仍开放、是否已上冻封闭，未能从官方渠道确认</strong>",
           "parking": "<strong>免费沥青停车场（45.04312, −109.40717），车位充足，含无障碍车位。</strong>这是全线唯一一处铺装的正式观景区停车场，<strong>9 月下旬平日随到随停</strong>。<strong>它同时是从 Red Lodge 上来后第一个可靠的休息点</strong>（距 Red Lodge 20.4 英里／38 分钟）",
           "walk": "<strong>停车场到观景平台约 270 米、铺装、无障碍设计、缓上坡。</strong>平地条件下 3–5 分钟，<strong>但在 9,190 英尺请按 6–8 分钟算，扛三脚架会更慢也会明显喘。</strong><strong>轮椅与推车可以通行，这是本子地区唯一一处。</strong>含拍摄建议预留 <strong>45–75 分钟</strong>"
         },
@@ -2687,6 +2863,7 @@ var REGIONS = [
         "n": 2,
         "name": "熊牙盘山发卡弯（Red Lodge 一侧）",
         "en": "The Beartooth Switchbacks above Red Lodge",
+        "must": 3,
         "score": 4,
         "tldr": "mile 14–22 之间 8 英里爬升 1,500 英尺的成堆发卡弯。四个弯顶已从 OSM 逐个核实；要俯拍必须开到 Rock Creek Vista 上方，清晨光最好，且必须用长焦。",
         "tags": [
@@ -2716,6 +2893,14 @@ var REGIONS = [
           "<strong>数字：mile 14 起从 8,000 英尺开始，8 英里内爬升 1,500 英尺</strong>（有些资料写「12 英里爬 5,200 英尺」，那是从 Red Lodge 镇算起的总爬升，不是这一段）。<strong>原始设计比现在更狂：1919 年 Montana 公路委员会最早的方案是从 Bearcreek 爬上 Mt Maurice，含 13 道发卡弯</strong>，由驻地工程师 <strong>Red Thatcher</strong> 主持。这个方案在 1924 年因联邦经费改向而彻底停工，<strong>留下一条爬到高原顶就无处可去的断头路</strong>——今天这条路是 1930 年代按完全不同的路线重修的",
           "<strong>Montana 这一段当年在全国出名，就是因为这些弯。</strong>施工的工人给它们起的绰号是 <strong>Dead Man’s Curve</strong> 与 <strong>Mae West Curve</strong>。通车初期<strong>既没有护栏也没有中央分道线</strong>，谨慎的司机本能地离外侧远一点，结果开到对向车道上去，反而更危险；<strong>1933 年才加宽，Montana 段 1934–1935 铺装完成</strong>",
           "<strong>摄影上唯一重要的判断：这是长焦题材，不是广角题材。</strong>发卡弯之所以好看，靠的是<strong>一层层路面在同一个视野里叠起来</strong>，而这种叠压效果<strong>只有长焦压缩才能产生</strong>。<strong>用 24mm 拍下去，弯道会被透视拉开、彼此分离，结果是一片灰色山坡上几条不相干的细线。</strong>所以本景点的主力焦段是 <strong>70–200mm，甚至 100–400mm</strong>"
+        ],
+        "tour": [
+          "<strong>先摆正这一条的性质：它不是一个「景点」，是你从 Red Lodge 上山时必然要开的 8 英里路。</strong><strong>问题从来不是「要不要去」，而是「怎么安全地开过去，以及要不要停」。</strong><strong>范围是 mile 14 到 mile 22，从 8,000 英尺爬升 1,500 英尺，中间有四个转角超过 145° 的真发卡弯。</strong><strong>如果你是从 Cooke City 方向过来，这一段是下坡，体验完全不同也更轻松；从 Red Lodge 上来才是它最狠的那一面。</strong>",
+          "<strong>怎么开：这一段的正确速度比你以为的慢一半。</strong><strong>限速本身不高，但路肩窄、大部分路段没有中央护栏、弯内侧对来车是完全的盲区。</strong><strong>具体规则：上坡用低挡保持动力不要频繁换挡；下坡一律用低挡控速，不要连续踩刹车（1,500 英尺的连续下降足以让刹车过热）；进弯前减速、弯中不变道、出弯再给油；看到后面有车贴近就找最近的 pullout 让行——这条路上摩托车队和本地车速度都不慢。</strong><strong>不要在行车道上停车拍照，一秒都不行。</strong>",
+          "<strong>晕车：这 8 英里是全行程最容易吐的一段，没有之一。</strong>连续大角度回头弯加持续爬升，<strong>后排乘客、看手机的人和空腹或刚吃饱的人几乎必中。</strong><strong>对策：易晕者坐副驾、提前 30–60 分钟吃晕车药、视线固定在远处山脊、车窗留缝通风、不要在这一段吃东西或看屏幕。</strong><strong>难受就在下一个路肩停 5 分钟下车站着——OSM 上这一段核实的路肩有十几处，不需要硬撑到 Rock Creek Vista。</strong>同时这一段已经到 8,000–9,500 英尺，<strong>晕车与轻度高原反应会叠加，别把两者搞混。</strong>",
+          "<strong>停车看风景的话，只有两处值得下车，其余路肩看看就走。</strong><strong>（一）弯群上方的沥青路肩（45.03349, −109.42532）</strong>——这是唯一能一眼看到下方一整组弯道层层叠起来的位置，<strong>关键在于它比 Rock Creek Vista 更高。很多人在观景台上找不到「那张明信片」的画面，就是因为站得太低。</strong><strong>（二）弯群下方（45.06056, −109.40370）</strong>——从低处仰看那面被公路横切了好几道的山壁，最能说明这条路到底爬了多少；<strong>附近还有一处厕所（45.05851, −109.41251）。</strong><strong>两处都是路肩，多数只容 2–5 辆车，必须把车完全停进去、车轮不压线、开危险警告灯。</strong>",
+          "<strong>加油与厕所：这一段两样都没有，而且两头距离都不近。</strong><strong>最近的厕所往上是 Rock Creek Vista Point，往下是弯群底部 45.05851／−109.41251 那处以及 Red Lodge 镇上。</strong><strong>加油只有 Red Lodge（北 14–20 英里）与 Cooke City（西 43 英里以上）两端，中间 64 英里只有一家营业状态不明的 Top of the World Store。</strong><strong>从 Red Lodge 上山前在镇上加满、上厕所、买水，这是这一段唯一需要记住的后勤动作。</strong>手机信号在离开 Red Lodge 几英里后就没有了。",
+          "<strong>天气突变时这一段的处置与别处不同：立刻往下走，不要停在弯里等。</strong><strong>这里最大的危险不是雪而是清晨的暗冰</strong>——白天融的雪水夜里在背阴弯道和桥面上重新冻成看不见的冰层，<strong>这一段有大量北向与东向的背阴弯，是全线结冰最集中的地方。</strong><strong>处置：路面开始发亮发暗、或者过弯时方向盘轻飘，就把速度降到 20 mph 以下，在最近的直道路肩停下评估，然后调头下山——往下 1,500 英尺气温就回到冰点以上。</strong><strong>不要在起雾或飘雪时停在弯道附近的路肩上，后车看不见你。</strong><strong>清晨天黑时在这一段上山是本子地区最不推荐的单一行为。</strong>"
         ],
         "photo": "风光 <strong>3.5/5</strong>，「路」题材 <strong>4.5/5</strong>，人像 <strong>1.5/5</strong>。这是本子地区唯一一个以人造物为主体的机位，而且它做得很好——沥青的深灰、黄色中线、白色雪杆与护栏，在秋季的枯黄山坡上对比极强。<strong>扣分有三：一是必须找到正确的高度，站错了什么都叠不起来；二是路肩窄、有车流，安全边界很紧；三是这堆弯所在的坡面朝东北，只有上午有好光，午后整片进入自身阴影。</strong>人像分低是因为这里没有一处能安全站定摆拍的地方。",
         "shots": [
@@ -2757,9 +2942,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>纯通过（不停车）：25–35 分钟。</strong>这 8 英里官方无建议时长，按实际可跑的速度推算——<strong>OSRM 给 Rock Creek Vista 到 Red Lodge 20.4 英里／38 分钟，本段是其中最慢的一半，请按 25–35 分钟算，绝不要按平均车速估。</strong><strong>要停两处路肩看风景：1–1.5 小时</strong>（弯群上方 45.03349／−109.42532 停 30–40 分钟、弯群下方 45.06056／−109.40370 停 20–30 分钟、路上换点 15 分钟）。<strong>晕车或不适应高海拔的同行者请额外预留 15–20 分钟的中途下车时间，这一段几乎一定会用到。</strong>",
           "book": "<strong>不需预约</strong>",
-          "ticket": "<strong>免费。</strong>全部为公共公路路肩，无任何费用或许可要求",
-          "hours": "<strong>无门禁，公路开放期内 24 小时通行。</strong><strong>2026 年 5 月 22 日 – 10 月 12 日（NPS 官方口径），9 月 22–29 日在期内。</strong>本段在 Montana 一侧、由 MDT 养护，<strong>状态查 MDT 511</strong>；<strong>随时可能因雪临时封闭</strong>，MDT 原文 “unpredictable weather conditions may cause temporary closures throughout the summer”",
+          "ticket": "<strong>免费（2026-09-13 复核）。</strong>全部为公共公路路肩，无任何费用或许可要求。<strong>本段没有任何官方设施，因此也没有对应的官方费率页；「免费」的依据是它是 US-212 的公路路权。</strong>",
+          "hours": "<strong>无门禁，公路开放期内 24 小时通行。</strong><strong>2026 年 5 月 22 日 – 10 月 12 日，2026-09-13 在 NPS 官方 Park Roads 页复核未变；9 月 22–29 日在期内。</strong>本段在 Montana 一侧、由 MDT 养护，<strong>状态查 MDT 511</strong>；<strong>随时可能因雪临时封闭</strong>，MDT 原文 “unpredictable weather conditions may cause temporary closures throughout the summer”",
           "parking": "<strong>全部为免费路肩，OSM 上核实的有十几处，沥青与碎石混杂：</strong>沥青 45.03349／−109.42532、45.03954／−109.41027、45.03970／−109.40693、45.03556／−109.41208、45.03668／−109.42141；碎石 45.03433／−109.42510、45.03830／−109.41305、45.03676／−109.40956、45.04111／−109.40623、45.03108／−109.41182、45.04751／−109.41864。<strong>都不大，多数只容 2–5 辆车。必须完全停进路肩，任何车轮压在行车道上都非常危险——弯后的来车看不到你。</strong><strong>9 月下旬平日车少，但摩托车队仍然常见且速度快</strong>",
           "walk": "<strong>全部零步行——停车即拍。</strong>在几个路肩之间移动请开车而不是沿路面步行（路肩不连续、弯道盲区多）。整段含选位与等车建议预留 <strong>1–1.5 小时</strong>"
         },
@@ -2899,6 +3085,7 @@ var REGIONS = [
         "n": 4,
         "name": "熊牙垭口与 West Summit 观景区",
         "en": "Beartooth Pass & West Summit Overlook (10,947 ft)",
+        "must": 5,
         "score": 5,
         "tldr": "全 Wyoming 最高的公路点，树线以上的高山苔原与冰斗湖。本指南唯一能拿到完整黄金时刻（07:08 / 19:12）的地方，且 9/24 日落方位 270° 几乎正对 32 公里外的 Pilot Peak。",
         "tags": [
@@ -2929,6 +3116,14 @@ var REGIONS = [
           "<strong>地形是怎么来的：这是一片被冰川削平的 Archean（太古宙）花岗片麻岩高原</strong>，岩石年龄超过 25 亿年，是北美最古老的地表岩石之一。冰川把顶面刮成波状缓丘，在边缘挖出一连串<strong>冰斗（cirque）与冰斗湖（tarn）</strong>。周围的 Beartooth 山群里<strong>有 20 座超过 12,000 英尺的峰</strong>，而且<strong>几乎每一座 11,500 英尺以上的峰的北坡都还挂着冰川</strong>——这是 lower 48 里冰川密度最高的区域之一。最近的大个子是 <strong>Beartooth Mountain（12,346 英尺／3,763 米，OSM 核实于 45.06078, −109.56850），从垭口方位 323°、直线 12.8 公里</strong>",
           "<strong>这条路本身就是主体，而它的来历很反直觉：它最初不是为了风景修的，是为了把矿车赶出黄石。</strong>1920 年代 Cooke City 的矿主运矿只能走黄石园内的路到北门 Gardiner，<strong>园方受不了重载矿车压坏路面又威胁游客，于是站到了修路派一边</strong>。1931 年 Hoover 总统签署 <strong>National Parks Approach Act</strong>，拨了三百万美元修通往 Yosemite、Yellowstone、Sequoia 的景观进园路，<strong>而当时另外两条根本还没构想，这笔钱实际上就是为 Beartooth 准备的</strong>。法案限定路长不得超过 60 英里且必须在国家森林界内，<strong>为此把起点从 Bearcreek 改到 Red Lodge、砍掉了 8 英里</strong>。1936 年 6 月 14 日通车；<strong>2014 年其中 60 英里以 “Red Lodge—Cooke City Approach Road Historic District” 列入国家史迹名录</strong>",
           "<strong>Beartooth Basin 是全北美唯一常规夏季营业的滑雪场，就在垭口东侧 3 公里。</strong>海拔 10,737 英尺，1960 年代中期创立时叫 Red Lodge International Ski and Snowboard Camp，<strong>是北美最老的高山滑雪训练基地之一，通常能滑到 7 月 4 日前后</strong>。OSM 核实位置 <strong>44.97715, −109.43530</strong>。<strong>9 月下旬它已经停业，但缆车塔架和陡峭的雪沟地形还在，是这一段少见的能给画面提供人工尺度参照的元素。</strong>"
+        ],
+        "tour": [
+          "<strong>怎么开、朝哪个方向开：这一段是 US-212 的最高部分，从 Cooke City 往东或从 Red Lodge 往西都能走到。两个方向的体验不一样——从 Cooke City 上来是缓坡爬升，垭口几乎不知不觉就到了；从 Red Lodge 上来要先连闯 8 英里发卡弯，爬升感强得多，也更容易晕车。</strong><strong>Cooke City → 垭口 33.2 英里，OSRM 算 60 分钟，实际按 70–80 分钟；Red Lodge → 垭口 31 英里，实际 60–70 分钟。</strong><strong>无论从哪头来，单程都要预留半天，不要算成「两小时穿过去」。</strong>",
+          "<strong>必停的三处，按重要性排：</strong><strong>（一）West Summit Overlook</strong>——标海拔的牌子和真正的观景平台在这里，从 US-212 路边沥青停车场（44.96903, −109.47123）拐上 180 米碎石支路，再走 90 米土径到平台。<strong>这是唯一一处「站定了看四周 360°」的地方，绝不能只在车里开过去。</strong><strong>（二）Gardner Lake 路肩（44.97301, −109.45219）</strong>——下车就能俯看一个冰斗湖，也是全线看到 mountain goat 概率最高的位置。<strong>（三）Beartooth Basin 一带的 pullout（44.97503, −109.43477）</strong>——北美唯一常规夏季营业的滑雪场就在对面，9 月已停业，但缆车塔架还在，是这段路上少见的能看出「这里有多空旷」的参照物。<strong>其余十几处 pullout 随心情停，全部免费、不限时。</strong>",
+          "<strong>高海拔不适是这一段最常见的身体问题，而且大多数人没有心理准备。</strong>从 Cooke City（7,650 英尺）一小时内升到 10,947 英尺，<strong>净爬升 3,300 英尺、完全没有适应时间</strong>。典型表现是头痛、气短、心跳快、轻微恶心与判断力下降，<strong>平地走 200 米就会明显喘</strong>。<strong>对策：上山前一小时开始多喝水、不要喝酒；在垭口上走路慢一半、不要提重物；症状明显就直接往下开，降 1,000 英尺通常十几分钟内就好转。</strong>有高血压、心脏病或呼吸道疾病的同行者应当在行前咨询医生。",
+          "<strong>晕车在这条路上是真问题，尤其 Red Lodge 一侧。</strong>8 英里内连续 8 个以上大角度发卡弯，<strong>后排乘客与低头看手机的人几乎必晕</strong>。<strong>对策：容易晕车的人坐副驾、上车前 30–60 分钟服晕车药、视线固定在远处山脊而不是车内、车窗留一条缝、不要在爬坡途中吃东西。</strong><strong>如果开始不舒服就在下一个 pullout 停 5 分钟下车走走——这条路上 pullout 很密，没有必要硬撑。</strong>",
+          "<strong>加油与厕所，这一段最关键的两件后勤事。</strong><strong>加油：Cooke City 到 Red Lodge 64 英里只有 Top of the World Store（mile 38.8）一处卖油，而它 9 月底是否营业无法确认。硬规则是在 Cooke City Exxon 加满再上山，那里油泵 24/7、全年营业。</strong><strong>厕所：垭口一带只有 vault toilet（状态不定），全线唯一可靠的厕所在东侧 10.4 英里的 Rock Creek Vista Point，以及两端的 Cooke City 与 Red Lodge。上山前一定先解决，中间 64 英里基本等于野外。</strong>同理，<strong>水与食物请在镇上买齐，垭口上没有任何售卖点</strong>。",
+          "<strong>天气突变怎么办——这一段的标准处置。</strong><strong>9 月下旬垭口清晨 −6 至 −2°C、白天 3–9°C，随时可能起雾、刮 20–30 mph 大风或飘雪。在 Red Lodge 是晴天，垭口上是白毛风，这不是意外而是常态。</strong><strong>处置顺序：（一）能见度掉到看不清前车尾灯就开雾灯、减速到 20 mph 以下，在下一个 pullout 停下等 20–30 分钟——高山上的雪团过得很快；（二）路面开始发白发亮（结冰）就不要再往上，掉头往低处走；（三）车上常备保暖层、水、食物和一条毯子，因为你无法叫救援：整条路没有手机信号。</strong><strong>最重要的一条是时间上的：不要把这条路排在行程最后一天，它需要一个可以整体换到别的日子去的位置。</strong>"
         ],
         "photo": "风光 <strong>5/5</strong>，地质／抽象 <strong>4.5/5</strong>，野生动物 <strong>3.5/5</strong>，人像 <strong>2/5</strong>。完整的黄金时刻、360° 无遮挡的地平线、苔原色块加冰斗湖加残雪的组合，这几样加在一起是整份指南里上限最高的风光机位。<strong>扣分只在两处：一是「显不出大」的构图陷阱（缺少尺度参照）；二是大风——20–30 mph 的风在长焦下会让三脚架也糊掉，而这里几乎没有可以避风的地方。</strong>人像分低是因为风太大、光太硬、而且这个海拔上人会喘。",
         "shots": [
@@ -2982,9 +3177,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>只走垭口核心段：2.5–3.5 小时。</strong>这是指从 Beartooth Basin（垭口以东 3 公里）到 Long Lake（以西 3 公里）这 6 公里范围内把 West Summit 观景台、Gardner Lake 路肩、Long Lake／Frozen Lake 一带跑完，<strong>其中 West Summit 平台 40–60 分钟、其余各 20–30 分钟、路上换点 30 分钟。</strong><strong>只想「到此一游」拍张海拔牌：40 分钟足够</strong>（停车 10 分钟、走 90 米上平台看一圈 20 分钟、回车 10 分钟）。<strong>如果要等日落加 alpenglow：从 16:30 待到 19:45，约 3.5 小时。</strong><strong>但真正要预留的是整条路的通过时间，而不是垭口本身：Cooke City → Red Lodge 全程 64 英里／OSRM 116 分钟，算上沿途停车实际是 4–5 小时，请按半天规划。</strong>（依据：OSRM 按 OSM 路网计算的行车时间，加各机位的现场停留推算；与 Custer Gallatin National Forest「至少两小时不停车」的口径一致。）",
           "book": "<strong>不需预约。</strong>Beartooth Highway 是公共高速公路（US-212），沿线的观景点与 pullout 均无任何预约或许可要求",
-          "ticket": "<strong>免费。</strong>整条 Beartooth Highway 与全部观景点、pullout、厕所都不收费，也<strong>不需要国家森林的日票或 America the Beautiful 年票</strong>（收费只发生在开发营地）。注意：这里已经在 Yellowstone 国家公园界外，园区门票与本景点无关",
-          "hours": "<strong>公路本身 24 小时通行，无门禁、无夜间关闭。</strong><strong>季节性开放期 2026 年为 5 月 22 日 – 10 月 12 日</strong>（NPS 官方口径；Custer Gallatin National Forest 写 “Memorial Day to October 15”、MDT 写 “through mid-October”，<strong>三者不一致但都在 10 月中旬，均不影响 9 月下旬</strong>）。<strong>关键风险是临时封路：MDT 原文 “unpredictable weather conditions may cause temporary closures throughout the summer”，NPS 原文 “temporary travel restrictions or closures can occur at any time without notice”。出发当天早上必须查 MDT 511 与 Wyoming 511 两个系统（两州各管一段）。</strong>本页所有机位在开放期内均<strong>可 24 小时进入，包括拍星空</strong>",
+          "ticket": "<strong>免费（2026-09-13 复核）。</strong>整条 Beartooth Highway 与全部观景点、pullout、厕所都不收费，也<strong>不需要国家森林的日票或 America the Beautiful 年票</strong>（收费只发生在开发营地）。注意：这里已经在 Yellowstone 国家公园界外，园区门票与本景点无关",
+          "hours": "<strong>公路本身 24 小时通行，无门禁、无夜间关闭。</strong><strong>季节性开放期 2026 年为 5 月 22 日 – 10 月 12 日，2026-09-13 在 NPS 官方 Park Roads 页重新核实，日期未变</strong>（原文 “Open May 22 – October 12, 2026: Beartooth Highway (US-212), Chief Joseph Scenic Byway (WY-296). This is a high elevation highway that generally experiences more winter weather than roads in the park—as with all other roads, the closing date is subject to change.”；同日复核 MDT 的 Beartooth 专页仍写 “generally open from the Friday of Memorial Day weekend through mid-October, weather permitting”；Custer Gallatin National Forest 则写 “Memorial Day to October 15”。<strong>三者不一致但都在 10 月中旬，均不影响 9 月下旬</strong>）。<strong>关键风险是临时封路：MDT 原文 “unpredictable weather conditions may cause temporary closures throughout the summer”，NPS 原文 “temporary travel restrictions or closures can occur at any time without notice”。出发当天早上必须查 MDT 511 与 Wyoming 511 两个系统（两州各管一段）。</strong>本页所有机位在开放期内均<strong>可 24 小时进入，包括拍星空</strong>",
           "parking": "<strong>全线免费、不限时、无需缴费。</strong>West Summit 有沥青停车场（44.96903, −109.47123）与上方观景台的碎石场（44.96888, −109.47415）；Gardner Lake 有大型碎石场（44.97301, −109.45219）；垭口以西 3 公里内 OSM 上还有<strong>十几处碎石路肩</strong>。<strong>9 月下旬平日基本随到随停</strong>。<strong>但请注意：多数 pullout 是碎石或土面且有轻微下沉，雨雪后低底盘车进出要慢；下过雪的早晨路肩与路面的界线会被雪盖住，不要贴边停。</strong>公厕：West Summit 一带有 vault toilet（<strong>9 月底是否仍开放未能核实</strong>），最可靠的厕所在 Rock Creek Vista Point 与 Cooke City",
           "walk": "<strong>本景点四个机位全部是零步行到 2 分钟。</strong>West Summit 观景台是唯一需要走路的一处：碎石停车场到观景点<strong>约 90 米、2 分钟、几乎无爬升</strong>。<strong>在 3,337 米上请把所有步行时间乘以 1.5</strong>——平地 90 米在这里也会让人明显喘气，扛三脚架更甚。整个垭口区域（含四个机位与沿途 pullout）建议预留 <strong>2.5–3.5 小时</strong>，要等日落加 alpenglow 则从 16:30 待到 19:45"
         },
@@ -3018,6 +3214,7 @@ var REGIONS = [
         "n": 5,
         "name": "熊牙湖与岛湖",
         "en": "Beartooth Lake & Island Lake (with Beartooth Butte)",
+        "must": 3,
         "score": 4,
         "tldr": "两个紧贴公路的高山湖，背后是 Beartooth Butte 的红色崖壁（内含 4 亿年前的鱼化石）。两个营地官方定于 2026 年 9 月 13 日收季，你到时已关，但官方允许步行进入且不收费，湖岸机位仍可达。",
         "tags": [
@@ -3048,6 +3245,14 @@ var REGIONS = [
           "<strong>Beartooth Lake 曾经是这条路上最热闹的地方，而且早于公路存在。</strong><strong>Top of the World Store 1934 年最初就开在 Beartooth Lake，比 1936 年通车还早两年</strong>；当时这里还有<strong>两个营地、一座 lodge 和若干商业与私人小屋</strong>，客人要<strong>骑马走 40 英里的矿工与猎人小径</strong>才能到自己的夏季别墅。<strong>1964 年商店搬到现址（44.94297, −109.55982，海拔 9,396 英尺）</strong>",
           "<strong>营地状态已核实到具体日期，而结论对摄影者反而是好消息。</strong><strong>Island Lake Campground 与 Beartooth Lake Campground（各 21 个营位，Shoshone National Forest，先到先得、不接受预订）的官方页面在 2026-09-05 复核时状态都是 “Site Open”，“Current Conditions” 栏写的是 “Expected to close for the season on September 13, 2026”，页面 Last updated 2026 年 7 月 6 日——这是本景点原先唯一的实质不确定项，现在有了 2026 年的官方日期：9 月 13 日收季，你的 9/24–9/25 在那之后 11 到 12 天。</strong>（对照口径：同页 “Operational Hours” 仍是笼统的 “Typically from late June through early/mid September”，<strong>要用的是 Current Conditions 里那个带年份的日期，不是这句笼统话。</strong>）但 Forest Service 同时明确：<strong>“When the campground is listed as closed, no services will be available, no fees will be collected, however walk-in camping is permitted.”</strong><strong>换句话说场地并未被当成禁区，只是没有服务、不收费。实操含义是：湖岸机位仍然可达，而且完全没有人。代价是没有水、没有垃圾清运（Island Lake 页原文 “No garbage collection, pack it in, pack it out”），vault toilet 的实际状态未能核实；车辆能否驶入营地支路（而非只能步行）也未能从官方渠道确认，请以现场路障为准。</strong>",
           "<strong>顺路还有两处被大多数人直接开过去的东西。</strong><strong>Beartooth Falls（OSM 节点 44.93713, −109.60323）</strong>与<strong>2022 年完工的 Beartooth Ravine Bridge</strong>：这座 <strong>420 英尺长、造价 2,500 万美元的三跨桥</strong>是<strong>Beartooth Highway 自 1970 年代开始的整体重建工程的最后一项</strong>，同时为野生动物提供了桥下通道。<strong>它带来两个新的观景 pullout：桥上一处能看到 Beartooth Falls，过桥后一处能回望峡谷与桥体本身。</strong><strong>这两个 pullout 在 OSM 上没有独立实体，本页因此不给它们的坐标</strong>"
+        ],
+        "tour": [
+          "<strong>这两个湖的正确用法是「在开 64 英里的路上下车走十分钟」，不是「专程来玩一天」。</strong><strong>它们都紧贴 US-212，各有一条几百米的支路直通湖岸与船坡，Beartooth Lake 在 mile 8 附近（44.94581, −109.59417，约 9,000 英尺），Island Lake 在再往东 4 公里（44.94787, −109.54087，9,518 英尺）。</strong><strong>两个湖相距 6 分钟车程，看一个就够了的话选 Beartooth Lake</strong>——它北岸就是 Beartooth Butte 的红色崖壁，是这段路上最好认的一块地标。",
+          "<strong>9 月下旬的实际情况：两个营地都已关，这对你其实是好事，但要知道代价。</strong><strong>Shoshone National Forest 官方页写明两个营地 2026 年 9 月 13 日收季，你的日期在其后 11 天以上。</strong><strong>好处是完全没有人、不收费；代价是没有饮用水、没有垃圾清运（所有垃圾自己带走）、vault toilet 是否还开着不确定。</strong><strong>另一个要预设的变数：车辆能不能开进营地支路未能从官方渠道确认。请按「可能要把车停在支路口、步行 300–800 米进去」来准备，并且不要把车堵在支路口挡住护林车。</strong>",
+          "<strong>看什么：Beartooth Butte 那层红岩里有约 4 亿年前的鱼化石，而且可能是已知最古老的一批。</strong><strong>这座 10,483 英尺的孤立台状山紧贴 Beartooth Lake 北岸升起，崖壁上那条显眼的红色岩层（当地叫 Red Talus）里已经辨认出 15 种鱼类化石，而它下面压着的是 25 亿年的太古宙结晶基底。</strong><strong>换句话说你站在湖边一眼看到的，是北美最古老的岩石和最古老的鱼叠在一起。</strong><strong>不要爬上去找化石</strong>——崖壁陡、岩石松，而且国家森林内采集古生物化石有法律限制。想看解说就去 Clay Butte 路口方向那块官方牌子 “Beartooth Butte: Seabed to Mountaintop”。",
+          "<strong>厕所与补给：这一段是 64 英里里最靠近「有东西」的位置，但没有一样是可靠的。</strong><strong>Top of the World Store（44.94297, −109.55982，9,396 英尺）就在两个湖之间，号称是 Red Lodge 与 Cooke City 之间唯一的加油与零食点，夏季时段周一至周六 08:00–19:00、周日 08:00–18:00——但它 9 月底是否还营业、是否还有油，完全无法从官方渠道确认。</strong><strong>请把它当成「开着算运气」，既不要算进油量计划，也不要算进厕所计划。</strong><strong>可靠的厕所：往东 Rock Creek Vista Point，往西 Cooke City。</strong>",
+          "<strong>熊：这里是本子地区最需要认真对待熊的一个点，而 9 月下旬正是最糟的时候。</strong><strong>Forest Service 在邻近页面上直接写 “Grizzly bear frequent the meadows and forest below the lookout”，而 9 月下旬是熊的 hyperphagia（拼命进食）期。</strong><strong>叠加的风险是：营地已经空了，湖岸草甸和林缘一个人都没有。</strong><strong>规则：熊喷雾挂在腰上或胸前而不是背包里、出声行进、不要独自沿湖岸走远、不要在车外留任何食物。距熊与狼 100 码（91 米），距其他动物 25 码（23 米）。</strong>",
+          "<strong>天气与地面状况：9 月下旬这里夜间常在 −5°C 上下，早上湖岸会结霜甚至薄冰。</strong><strong>覆霜的圆石非常滑，换位置时不要抱着东西跳石头。</strong><strong>风是这一带的常态，湖面起浪就说明谷风已经起来了。</strong><strong>如果起雾、飘雪或能见度变差，这一段的好处是海拔比垭口低 1,500 英尺、而且离主路只有几百米——直接回到 US-212 往低处走就行，不需要犹豫。</strong><strong>这一整片区域没有手机信号，包括 Top of the World。</strong>"
         ],
         "photo": "风光 <strong>4.5/5</strong>，地质 <strong>4/5</strong>，倒影 <strong>4.5/5</strong>，人像 <strong>2.5/5</strong>。Beartooth Butte 的红色崖壁配深蓝湖面是本子地区最容易出「一眼片」的组合，而且<strong>因为位置在树线附近，这里是全区唯一同时具备水、树、岩壁三层的地方</strong>。扣分在于<strong>倒影完全取决于风</strong>——这一带风大，一天里真正无风的窗口往往只有日出后那半小时；而<strong>9 月下旬湖面还可能已经开始出现晨冰</strong>，这既是风险也是题材。",
         "shots": [
@@ -3085,9 +3290,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>只停 Beartooth Lake 一处：30–45 分钟</strong>（从主路拐进支路、走到湖南岸、看 Beartooth Butte 与倒影、回到车上）。<strong>两个湖都停：1.5–2 小时</strong>（各 30–45 分钟，中间 6 分钟车程）。<strong>再加 Top of the World Store 与 Beartooth Falls／Beartooth Ravine Bridge 一带：2–3 小时。</strong><strong>如果营地支路被路障封住、需要从主路步行进入，请在上述每一项上再加 20–30 分钟</strong>（单程 300–800 米，9,000–9,500 英尺，步行时间要乘 1.5）。（依据：官方未对这两个湖发布过建议停留时间；以上按 OSM 实测距离与高海拔步速推算。）",
           "book": "<strong>不需预约。</strong>两个营地都是<strong>先到先得、不接受预订（first-come, first-served, no advance reservations）</strong>，而且在你的窗口里已经关闭。日间的湖岸拍摄本来就不需要任何预约",
-          "ticket": "<strong>免费。</strong>湖岸与观景不收费；<strong>营地关闭期间 Forest Service 明确 “no fees will be collected”</strong>，开放季的营位费在本行程里不适用。（供参考：Beartooth Lake 官方页写 “Single Site: $25 per night”，<strong>Island Lake 官方页同时印着 “$25 per night” 与 “$20/night” 两个数字、官方自己没统一</strong>，两页都注明只收现金或支票。这与你的日期无关，但说明这两页的费用栏本身不完全可靠——要用的是它们的 Current Conditions 日期。）",
-          "hours": "<strong>公路开放期内 24 小时可进入，无门禁。2026 年公路开放期 5 月 22 日 – 10 月 12 日（NPS 官方口径）。</strong><strong>两个营地的 2026 年日期已核实：Shoshone National Forest 官方页（2026-09-05 复核，页面 Last updated 2026 年 7 月 6 日）状态 “Site Open”，Current Conditions 原文 “Expected to close for the season on September 13, 2026”——因此 9 月 24–25 日两个营地都已关闭 11 到 12 天。</strong>官方同时说明关闭期间无服务、不收费、但 “walk-in camping is permitted”。<strong>「车辆是否仍可驶入营地支路（而非只能步行）」仍未能从官方渠道确认，这是本景点剩下的唯一不确定项。</strong>出发前可打 Shoshone National Forest 的 Clarks Fork Ranger District <strong>(307) 527-6921</strong> 问一句，或到现场看路障。<strong>若走到 10 月下旬那个备用窗口：公路本身仍在 10 月 12 日前开放，但 10/12 之后整条 Beartooth 关闭，本景点随之完全不可达。</strong>",
+          "ticket": "<strong>免费（2026-09-13 复核）。</strong>湖岸与观景不收费；<strong>营地关闭期间 Forest Service 明确 “no fees will be collected”</strong>，开放季的营位费在本行程里不适用。（供参考：Beartooth Lake 官方页写 “Single Site: $25 per night”，<strong>Island Lake 官方页同时印着 “$25 per night” 与 “$20/night” 两个数字、官方自己没统一</strong>，两页都注明只收现金或支票。这与你的日期无关，但说明这两页的费用栏本身不完全可靠——要用的是它们的 Current Conditions 日期。）",
+          "hours": "<strong>公路开放期内 24 小时可进入，无门禁。2026 年公路开放期 5 月 22 日 – 10 月 12 日（NPS 官方口径，2026-09-13 复核未变）。</strong><strong>两个营地的 2026 年日期已二次核实：Shoshone National Forest 官方页（2026-09-05 首次核实、2026-09-13 再次复核，两次一致，页面 Last updated 2026 年 7 月 6 日）Current Conditions 原文 “Expected to close for the season on September 13, 2026”，Beartooth Lake 与 Island Lake 两页写的是同一个日期——因此 9 月 24–25 日两个营地都已关闭 11 到 12 天。</strong><strong>补一条对照，它说明这套官方状态系统确实有人维护：同区的 Fox Creek 营地写的是 9 月 20 日、Hunter Peak 与 Eagle Creek 写的是 10 月 13 日，各页日期彼此不同而不是一刀切，所以 9 月 13 日这个日期是可信的。</strong>官方同时说明关闭期间无服务、不收费、但 “walk-in camping is permitted”。<strong>「车辆是否仍可驶入营地支路（而非只能步行）」仍未能从官方渠道确认，这是本景点剩下的唯一不确定项。</strong>出发前可打 Shoshone National Forest 的 Clarks Fork Ranger District <strong>(307) 527-6921</strong> 问一句，或到现场看路障。<strong>若走到 10 月下旬那个备用窗口：公路本身仍在 10 月 12 日前开放，但 10/12 之后整条 Beartooth 关闭，本景点随之完全不可达。</strong>",
           "parking": "<strong>免费。</strong>Beartooth Lake 营地／船坡（44.94513, −109.58747）与 Island Lake 营地／船坡（支路尽头，OSM 无独立停车实体）各有场地；Top of the World Store（44.94297, −109.55982）门前有停车。US-212 主路在这一段还有若干无名碎石路肩。<strong>如果营地支路被路障封住，请把车完全停进主路路肩再步行进入，不要停在支路口挡住护林车。9 月下旬这一带几乎没有人。</strong>",
           "walk": "<strong>营地开放时基本零步行——车能开到离湖岸几十米。</strong><strong>但在 9 月下旬营地已关的情况下，请预设需要从路口步行 5–15 分钟／300–800 米</strong>（<strong>这是基于「支路可能被封」的保守估计，实际情况未能核实</strong>）。<strong>海拔 9,000–9,500 英尺，所有步行时间请乘 1.5。</strong>两个湖加 Top of the World 与 Beartooth Falls，建议预留 <strong>2–3 小时</strong>"
         },
@@ -3458,6 +3664,7 @@ var REGIONS = [
         "n": 1,
         "name": "Artist Point（南缘）",
         "en": "Artist Point, South Rim",
+        "must": 5,
         "score": 5,
         "tldr": "全园最著名的单一画面，但 10 月 15 日之后 Lower Falls 整天都晒不到太阳；9 月下旬的正确窗口是 08:15–09:15。",
         "tags": [
@@ -3488,6 +3695,14 @@ var REGIONS = [
           "<strong>Lower Falls 中央那条绿色条纹是水本身的颜色。</strong>瀑布唇口有一处凹槽，使那一段水流更深、不与空气混合、不起白沫，所以透出水体的本色。这是长焦压缩瀑布时唯一值得放大的细节，也是判断你的曝光有没有把高光推爆的现场标尺",
           "<strong>它不是 Thomas Moran 作画的地点</strong>——NPS 明确否认了这个流传很广的说法。一般认为 Moran 的速写取自 Moran Point，最终那幅《Grand Canyon of the Yellowstone》（1872 年由国会买下、直接促成了 Yellowstone 建园）是多个视角的合成",
           "秋季<strong>水量只有春季峰值的十二分之一</strong>：NPS 给出的范围是春季融雪期 63,500 加仑/秒、晚秋 5,000 加仑/秒。后果有两个——瀑布更细更「优雅」但气势弱，<strong>而且水雾几乎消失，这直接决定了本季看不到彩虹</strong>（见下）"
+        ],
+        "tour": [
+          "<strong>如果你在 Canyon 只有半天，顺序就是：Artist Point → Lookout Point → Brink of the Lower Falls，别的都可以砍。</strong>Artist Point 在 South Rim（南缘），是那张明信片本身；Lookout Point 在 North Rim（北缘），隔着峡谷从另一侧正对瀑布。<strong>南北两缘不是重复，是同一条瀑布的两个半场</strong>，各看一个点就够，不必把两边的观景台全刷一遍",
+          "<strong>South Rim 与 North Rim 的取舍，按体力分：只想坐车看风景就全走南缘</strong>（Artist Point 与 Upper Falls View 都是铺装缓坡、5 分钟内到位、可推轮椅与婴儿车）；<strong>愿意出汗才去北缘</strong>——北缘的精华 Brink of the Lower Falls 与 Red Rock Point 都要下切几百英尺再爬回来。还要记住 <strong>North Rim Drive 是单向通行</strong>，开过头的点必须绕回 Grand Loop Road 重进一次，约 10 分钟",
+          "<strong>Artist Point 本身零门槛</strong>：停车场到观景台 5 分钟、约 150 米铺装缓上坡，全程有护栏，不需要爬任何台阶。想多走的人可以从观景台继续沿 South Rim Trail 往东到 Point Sublime，往返约 3 公里、1 小时，土路有起伏，<strong>那边看不到瀑布但几乎没人</strong>",
+          "<strong>停车场满位时段是 09:00–16:00，峰值在 10:30–14:30。</strong>这个停车场在 South Rim Drive 尽头、只有一个出入口，满了之后车会在路上排队等位，排到车位平均要 15–25 分钟。<strong>08:00 前或 16:30 后来基本随便停</strong>；9 月下旬的人流比 7–8 月低一档，但周末仍然会满",
+          "<strong>厕所在停车场（旱厕，季节性开放），观景台上没有；这里没有任何餐饮与饮水。</strong>最近的正经补给是 <strong>Canyon Village</strong>（车程约 10 分钟）——那里有 Canyon Lodge Eatery 自助餐厅、Falls Café、杂货店、加油站与全区唯一有暖气的室内卫生间。<strong>把吃饭与上厕所统一放在 Canyon Village 解决</strong>，不要指望峡谷缘的任何一个观景台",
+          "<strong>bison jam（野牛堵车）：从 Canyon Village 开到这里只有 3.5 英里，但请预留 25 分钟而不是 10 分钟。</strong>野牛会直接走在行车道中央，时速约 3 英里，一群能堵 15–20 分钟。<strong>正确做法是留在车里、熄火等、不要按喇叭、不要下车拍、更不要从草地上绕过去</strong>（绕行会惊动牛群，也是罚单事由）。野牛贴着车身走过时收起后视镜、关好车窗即可"
         ],
         "photo": "风光 <strong>5/5</strong>，人像 <strong>2/5</strong>，建筑 <strong>—</strong>。构图元素完备、机位无障碍、朝向正确（视线方位 255°，太阳从背后左肩来），这是本区唯一一个「站定不动就能出片」的点。扣分只在人像：观景台狭窄、栏杆入画、正午人挤人，且背景太强会吃掉主体。<strong>真正的难点全在时间，不在构图</strong>——见下面每个机位的钟点。",
         "shots": [
@@ -3537,9 +3752,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "不需预约",
-          "ticket": "含在园区门票内。<strong>America the Beautiful 年卡直接覆盖</strong>，另免 $100/人 的非居民附加费",
-          "hours": "观景台<strong>全天开放、不设门禁</strong>（园区 24 小时开放，路段开放期内不夜间关闭）。<strong>唯一的时间限制是道路季节：South Rim Drive 所属的主段 2026 年通车至 10/31</strong>，NPS 未单独公布 South Rim Drive 的开闭日期，降雪后可能先于主路临时封闭",
+          "visit": "<strong>30–45 分钟</strong>（停车 → 观景台 → 拍照 → 返回）。<strong>只看一眼 15 分钟足够</strong>，这是一个「站定就看完」的观景台，没有动线可走。<strong>加上 Point Sublime 往返则为 1.5–2 小时。</strong>把整个 South Rim（Artist Point + Upper Falls View + Brink of the Upper Falls）串完算 <strong>2–2.5 小时</strong>，含路上的野牛堵车。（NPS 未对单个观景台发布建议时长，此为按步行距离与观景台规模推算。）",
+          "book": "不需预约。Yellowstone 2026 年<strong>没有 timed-entry 或车辆预约制度</strong>，直接开到入口付费即可",
+          "ticket": "<strong>景点本身免费，含在园区门票内；园内所有观景台与步道都不单独售票。</strong><strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>（覆盖车上全部乘客，连续 7 天）、摩托车／雪地摩托 <strong>$30</strong>、步行／自行车 <strong>$20/人</strong>（16 岁以上，15 岁及以下免费）。<strong>自 2026-01-01 起，16 岁及以上的非美国居民须在标准门票之外另付 $100/人</strong>，<strong>但持 America the Beautiful 年卡或 Yellowstone Annual Pass（$70）入园者免除该附加费</strong>。ATB 年卡 2026 年美国居民 $80、非居民 $250。五个入口均收现金与刷卡",
+          "hours": "观景台<strong>全天开放、不设门禁</strong>（园区 24 小时开放，路段开放期内不夜间关闭）。<strong>唯一的时间限制是道路季节。2026-09-13 核实 NPS Park Roads 页原文</strong>：<em>「Open April 17 – October 31, 2026: … Norris to Canyon Village」</em>、<em>「Open May 1 – October 31, 2026: … Canyon Village to Bridge Bay」</em>。<strong>9/22–9/29 这一周所有相关路段均正常通车，本点无季节性风险。</strong>NPS 未单独公布 South Rim Drive 的开闭日期，降雪后支线可能先于主路临时封闭",
           "parking": "South Rim Drive 尽头的大型免费停车场，<strong>不收费</strong>。10 月人流已大幅下降，但 09:00–15:00 仍会满；07:00 前到场基本随便停，这与最佳拍摄时段正好一致",
           "walk": "停车场到主观景台 <strong>5 分钟／约 150 米</strong>，铺装、缓上坡、可轮椅通行；延伸到 Point Sublime 单程约 1.5 公里、30 分钟，土路有起伏"
         },
@@ -3571,6 +3787,7 @@ var REGIONS = [
         "n": 2,
         "name": "北缘观景带（Lookout Point · Grand View · Inspiration Point）",
         "en": "North Rim Drive: Lookout Point · Grand View · Inspiration Point",
+        "must": 4.5,
         "score": 4.5,
         "tldr": "三处均开放，Inspiration Point 已于 2018 年翻修后重开；单向环路一趟串完，光线窗口比 Artist Point 宽得多。",
         "tags": [
@@ -3601,6 +3818,14 @@ var REGIONS = [
           "<strong>Red Rock Point 是一条独立的陡下切步道，从 Lookout Point 分出去</strong>，不到半英里内下降近 500 英尺：先是碎石路，然后变成土石，接一段栈道，最后近 100 级台阶到观景平台（海拔 2,282 米，比北缘低约 90 米）。<strong>NPS 不建议心脏、肺部或其他健康状况不佳者前往。</strong>它是 Uncle Tom’s Trail 关闭后最接近那种「低位、贴近瀑布」体验的替代，且人比 Lookout Point 少得多",
           "<strong>North Rim Drive 是单向的</strong>，从南往北单方向通行，Inspiration Point 在一条支路上（Inspiration Point Road）。这意味着<strong>如果你在 Lookout Point 拍完想回头补 Brink of the Lower Falls，必须绕回 Grand Loop Road 重新进一次</strong>，清晨这一趟绕行大约 10 分钟——安排顺序时先想清楚",
           "<strong>Lookout Point 是「看整条瀑布」的最佳单点。</strong>它与 Artist Point 的差别不只是角度：Artist Point 看的是「瀑布 + 峡谷两侧收拢」的经典构图，Lookout Point 更正对瀑布、更接近、并能看到落水潭。两者的受光时刻也不同，一个上午可以都吃到"
+        ],
+        "tour": [
+          "<strong>先记住一条硬规则：North Rim Drive 是单向通行，从南往北只能开一遍。</strong>顺序是固定的——<strong>Brink of the Lower Falls → Lookout Point（Red Rock Point 支线从这里下）→ Grand View → Inspiration Point 支路 → 出口回 Canyon Village</strong>。<strong>开过头的点必须绕回 Grand Loop Road 重进一圈，约 10 分钟</strong>，所以进去之前就把「今天要停哪几个」定好",
+          "<strong>三个观景台不重复，但赶时间可以只选一个：想看瀑布选 Lookout Point，想看峡谷本身选 Grand View，想看峡谷有多长选 Inspiration Point。</strong>Lookout Point 是北缘看 Lower Falls 的主位、比 Artist Point 更正对更近；Grand View 是全区最高的台子（2,385 米）但看不到瀑布；Inspiration Point 在最下游，2018 年翻修后平台最宽、护栏最矮、最适合一群人站着聊天",
+          "<strong>这三处全部是「停车即到」级别：Lookout Point 2–3 分钟／120 米，Grand View 2 分钟／100 米，Inspiration Point 3–4 分钟／150 米，全部铺装、可推轮椅与婴儿车。</strong>Lookout Point 与 Grand View 之间还有一段无障碍步道相连，可以把车停在一头走过去。<strong>真正费腿的只有 Red Rock Point 这条支线</strong>：从 Lookout Point 分出去，不到 0.5 英里下降近 500 英尺，碎石路转土石路接栈道，<strong>最后是近 100 级台阶</strong>，下行 15–20 分钟、上行 30–45 分钟。<strong>NPS 明确不建议心肺状况不佳者下去</strong>",
+          "<strong>North Rim 与 South Rim 怎么取舍：只有半天就走南缘</strong>（Artist Point 一个点解决问题，全程铺装）；<strong>有一整天才做北缘</strong>——北缘的价值在于「多个不同视角 + 两条下切步道」，但它同时也是单向路、停车位少、需要爬升。<strong>两缘都做的话，先南后北</strong>：南缘的 Artist Point 上午光线窗口窄（08:15–09:15），北缘这几处从日出后一小时到中午都有光，弹性大得多",
+          "<strong>停车：四处各有免费停车场，Lookout Point 与 Grand View 的最大、Inspiration Point 中等。满位时段 10:00–15:30</strong>，其中 Lookout Point 因为兼作 Red Rock Point 的停车场压力最大。<strong>09:00 前来全部空着</strong>。注意支路尽头的 Inspiration Point 掉头空间有限，大车谨慎",
+          "<strong>厕所：四处停车场都有季节性旱厕，但都没有饮水、没有餐饮、没有手机信号。</strong>从 Canyon Village 到 North Rim Drive 入口只有 1.5 英里，<strong>把吃饭、灌水、用暖气卫生间全部放在 Canyon Village 做掉再进来</strong>。路上遇 bison jam 时留在车里熄火等，这条单向单车道没有任何绕行余地，一堵就是 10–20 分钟"
         ],
         "photo": "风光 <strong>4.5/5</strong>，人像 <strong>3/5</strong>。Lookout Point 与 Red Rock Point 是本区最强的两个 Lower Falls 机位（仅次于 Artist Point 的辨识度）；Grand View 的纯峡谷题材在阴天里比任何瀑布机位都好用；Inspiration Point 的平台够宽、栏杆低，是本区唯一勉强能拍环境人像的地方。<strong>关键优势：这三处的主体（黄色崖壁与河道）朝南至东南，从日出后一小时到中午都有光</strong>，不像 Artist Point 那样卡在一个几十分钟的窗口里。",
         "shots": [
@@ -3654,9 +3879,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "不需预约",
-          "ticket": "含在园区门票内，<strong>年卡覆盖</strong>",
-          "hours": "四处观景台均<strong>全天开放、不设门禁</strong>。<strong>Red Rock Point 步道无官方公布的秋季关闭日期</strong>，与 Brink of the Lower Falls 同属冬季关闭的下切步道，霜期与雨后可能临时封闭，且本区域可能因熊活动关闭。North Rim Drive 所属主段 2026 年通车至 <strong>10/31</strong>（NPS 未单独公布 North Rim Drive 的开闭日期）",
+          "visit": "<strong>三个观景台串完 1.5–2 小时</strong>（每处 20–30 分钟，含转场开车）。<strong>加上 Red Rock Point 下切支线再加 45–65 分钟，整条 North Rim Drive 变成 2.5–3 小时。</strong><strong>只挑一个点看 25 分钟</strong>——选 Lookout Point。把北缘与 Brink of the Lower Falls 合起来做完整半天，算 <strong>3.5–4.5 小时</strong>。（NPS 未对观景台发布建议时长；按各处 100–150 米步行距离、Red Rock Point 官方难度评级与实测爬升推算。）",
+          "book": "不需预约，四处均无人数限制",
+          "ticket": "<strong>免费</strong>，含在园区门票内，四处观景台与 Red Rock Point 步道均不单独收费。<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>／7 天（覆盖全车乘客）、摩托或雪地摩托 <strong>$30</strong>、步行／自行车 <strong>$20/人</strong>（16 岁以上，15 岁及以下免费）。<strong>非美国居民 16 岁及以上须另付 $100/人（2026-01-01 起），持 America the Beautiful 年卡（美居民 $80／非居民 $250）或 Yellowstone Annual Pass（$70）者免除</strong>",
+          "hours": "四处观景台均<strong>全天开放、不设门禁</strong>，无开闭钟点。<strong>2026-09-13 核实：NPS Backcountry Conditions 报告 <em>Canyon Rim Trails</em> 一节写 <em>「Trails open.（8/26/26）」</em>，即北缘各步道现为开放状态。</strong><strong>Red Rock Point 步道仍无官方公布的秋季关闭日期</strong>——与 Brink of the Lower Falls 同属冬季关闭的下切步道，霜期与雨后可能临时封闭，且本区域可能因熊活动关闭。North Rim Drive 所属主段（Norris↔Canyon Village）2026 年通车 <strong>4/17 – 10/31</strong>，<strong>9/22–9/29 正常通车</strong>；NPS 未单独公布 North Rim Drive 支线本身的开闭日期",
           "parking": "四处各有免费停车场／停车带，均在观景台旁。Lookout Point 与 Grand View 的场地最大；Inspiration Point 在支路尽头，场地中等。10 月清晨全部空着",
           "walk": "Lookout Point 2–3 分钟／120 米；Grand View 2 分钟／100 米；Inspiration Point 3–4 分钟／150 米，以上均铺装可轮椅；<strong>Red Rock Point 单程不到 0.5 英里但落差近 500 英尺，往返 45–65 分钟</strong>"
         },
@@ -3688,6 +3914,7 @@ var REGIONS = [
         "n": 3,
         "name": "Brink of the Lower Falls（瀑布唇口）",
         "en": "Brink of the Lower Falls Trail, North Rim",
+        "must": 4,
         "score": 4,
         "tldr": "开放。0.4 英里下切到 308 英尺瀑布的唇口正上方，回程爬升是本区最累的 25–40 分钟；水雾会糊镜。",
         "tags": [
@@ -3718,6 +3945,14 @@ var REGIONS = [
           "这里能验证「绿条纹」的成因：<strong>唇口有一处凹槽让那一段水更深、不掺气、不起沫</strong>，在唇口正上方能直接看到凹槽形状与那段深绿色水体的对应关系。这是长焦在 Artist Point 拍到的那条绿带的物理来源",
           "<strong>步道起点附近有一段短支线可以看到 Upper Falls</strong>，所以哪怕不打算下切（或步道因结霜封闭），来这个停车场也不算白来。这段支线是铺装、无障碍的。此外 2021 年这条步道完成了路面与护栏翻新，是 Canyon 峡谷缘长期改造计划的最后阶段之一（与 Red Rock Point 同批）"
         ],
+        "tour": [
+          "<strong>这是 Canyon 区最值得花体力的一件事：全园只有这里能站在 308 英尺瀑布正上方往下看。</strong>Artist Point 给你的是远景明信片，这里给你的是「水从脚下掉下去」的实感。<strong>如果你在北缘只做一件事，做这件。</strong>体力不允许就老实跳过，不要硬撑",
+          "<strong>体力要求说清楚：往返 0.7 英里，NPS 口径落差 600 英尺（实测数据更接近 360–400 英尺），十余个之字形急弯，下行 15–20 分钟、回程上行 25–40 分钟。</strong><strong>路面是铺装坡道而不是台阶</strong>（真正的长台阶在 Red Rock Point，最后近 100 级），但它是连续无平台的陡坡、中途没有一把长椅。难点在海拔——这里 7,400–7,800 英尺，平地走得动的人在这里也会喘。<strong>NPS 原文注明「不建议心脏、肺部或其他健康状况不佳者前往」，这句话要当真。</strong>空手下去，别背整包东西",
+          "<strong>就算不下切，来这个停车场也不亏</strong>：步道最开始有一段铺装、无障碍的短支线，走 2–3 分钟就能看到 Upper Falls（109 英尺）。<strong>步道因结霜或熊活动临时封闭时，这段仍然开放</strong>，这是同行者里走不动的人的去处",
+          "<strong>停车是本点最大的实际障碍：North Rim Drive 这段只有约 20–30 个路侧车位，10:00–15:00 常年满位，而且 North Rim Drive 是单向的——错过就得绕回 Grand Loop Road 重进一次，约 10 分钟。</strong><strong>08:30 前到基本空着</strong>，9 月下旬的清晨尤其宽松。进入 North Rim Drive 后的正确顺序是：Brink of the Lower Falls → Lookout Point（含 Red Rock Point 支线）→ Grand View → Inspiration Point 支路 → 出口",
+          "<strong>厕所在停车区（季节性旱厕），步道上没有；全程无饮水、无餐饮、无手机信号。</strong><strong>下切前先上厕所、先灌水</strong>——这条路上折返一趟的代价是 25–40 分钟的爬升。最近的正经餐饮与室内卫生间在 Canyon Village，车程约 5 分钟",
+          "<strong>bison jam 在 North Rim Drive 同样常见，而且这条路是单向单车道、没有超车空间。</strong>一头牛走在路中间就能让整条支线停 10–20 分钟。<strong>留在车里等，不要下车、不要鸣笛、不要试图从路肩挤过去</strong>（路肩外就是峡谷缘的松软土层）。把从 Canyon Village 过来的这 1.5 英里预留成 20 分钟"
+        ],
         "photo": "风光 <strong>4/5</strong>，人像 <strong>2/5</strong>。视角独特性满分——俯视瀑布纵剖面是别处拿不到的画面；扣分在两点：<strong>广角装不下这个尺度、长焦又没有退路</strong>，实际最好用的是 16–24mm 贴着栏杆向下拍；以及平台被水雾持续打湿，器材维护成本高。本季有个额外好处：<strong>秋季流量只有峰值的 8%，水雾比夏季少很多，拍摄难度实际上是全年最低的</strong>——夏天这里根本没法架机。",
         "shots": [
           {
@@ -3746,9 +3981,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "不需预约",
-          "ticket": "含在园区门票内，<strong>年卡覆盖</strong>，步道本身无额外费用",
-          "hours": "NPS 明确标注该步道 <strong>Season: Summer, Fall；This trail is closed in winter</strong>，未公布具体的秋季关闭日期——实际以降雪结霜为准，且 <strong>NPS 与 AllTrails 均标注「本区域可能因熊活动临时关闭」</strong>。所属路段（North Rim Drive）随主段通车至 10/31",
+          "visit": "<strong>45–75 分钟</strong>：下行 15–20 分钟 + 唇口平台停留 10–15 分钟 + 回程上行 25–40 分钟。<strong>不下切、只走起点那段 Upper Falls 支线约 10 分钟。</strong>把这条与同在 North Rim Drive 上的 Lookout Point、Grand View、Inspiration Point 串成一趟，整条北缘算 <strong>3–4 小时</strong>（含 Red Rock Point 则 4–5 小时）。（NPS 官方给出的是距离与「Strenuous」难度评级，未发布建议时长；此处按 0.7 英里往返 + 600 英尺落差 + 7,400 英尺海拔推算。）",
+          "book": "不需预约，步道无人数限制也无许可要求",
+          "ticket": "<strong>步道本身完全免费，无额外费用</strong>，含在园区门票内。<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>／7 天（覆盖全车乘客）、摩托 <strong>$30</strong>、步行或自行车 <strong>$20/人</strong>（15 岁及以下免费）。<strong>16 岁及以上非美国居民自 2026-01-01 起另付 $100/人，持 America the Beautiful 年卡或 Yellowstone Annual Pass（$70）者免除</strong>",
+          "hours": "<strong>步道无门禁、无开放钟点，白天随时可下</strong>（但 NPS 明确建议不要在黄昏后或天黑时徒步，熊）。<strong>2026-09-13 核实，NPS 该步道页原文：<em>Season: Summer, Fall</em>；<em>This trail is closed in winter</em></strong>，<strong>官方未公布具体的秋季关闭日期</strong>——实际以降雪结霜为准。NPS 的 Backcountry Conditions 报告在 <em>Canyon Rim Trails</em> 一节写 <em>「Trails open.（8/26/26）」</em>，<strong>即 9 月下旬本步道正常开放</strong>。<strong>但 NPS 与 AllTrails 均标注本区域可能因熊活动临时封闭</strong>，且霜冻后陡坡会被临时关闭。所属的 Norris↔Canyon Village 路段 2026 年通车至 <strong>10/31</strong>，9/22–9/29 无季节性风险",
           "parking": "North Rim Drive 沿线的免费路侧停车带，车位有限（约 20–30 辆）；10 月清晨基本空着",
           "walk": "往返 0.7 英里／1.1 公里。<strong>下行 15–20 分钟、上行 25–40 分钟</strong>，全程之字形陡坡，铺装但结霜后极滑；无中途座椅"
         },
@@ -3781,6 +4017,7 @@ var REGIONS = [
         "gone": "已被 NPS 永久关闭",
         "name": "Uncle Tom’s Trail（328 级台阶）",
         "en": "Uncle Tom’s Trail, South Rim",
+        "must": 0.5,
         "score": 4,
         "tldr": "不是季节性关闭、不是维修中——NPS 已确认永久关闭并计划拆除楼梯，自 2019 年夏起无人通行。",
         "tags": [
@@ -3808,6 +4045,13 @@ var REGIONS = [
           "<strong>2019 年的翻修估价 300–350 万美元，因造价上涨被从峡谷整体改造工程中剔除。</strong>Yellowstone 公共事务办公室的正式表述是「permanently closed」，并称 NPS 计划在未来拆除整座楼梯、「不打算再对这座楼梯投入」。",
           "<strong>2026-09-05 核实结论：维持「永久关闭」。</strong>nps.gov 现行的 Canyon 区页面与官方 Grand Canyon of the Yellowstone 条目在逐条列举峡谷观景台与步道时，<strong>South Rim Drive 一节只列 Upper Falls Viewpoints 与 Artist Point，Uncle Tom’s Trail 已完全不再出现</strong>。<strong>需要如实交代的一点</strong>：「永久」二字出自公园公共事务办公室对媒体的答复，<strong>nps.gov 上并没有一句成文的「permanently closed」</strong>——想要官方口头确认只能打 (307) 344-7381。但无论措辞如何，<strong>现场进不去这一点没有疑问</strong>"
         ],
+        "tour": [
+          "<strong>这一条唯一的行动建议是：把它从行程里划掉，不要去找。</strong>2026-09-13 再次复核，结论不变——步道封闭、无重开时间表、NPS 计划拆除楼梯。本条留在手册里只为一个目的：<strong>让你在现场看到「Uncle Tom’s Parking Area」的路牌时不会以为步道开着</strong>",
+          "<strong>那个停车场本身仍然要用，但它现在的身份是 Upper Falls Viewpoints 的停车场。</strong>从这里走 3–5 分钟／约 200 米铺装缓坡就到 Upper Falls View（即原来的 Uncle Tom’s Point 观景台，开放）。<strong>停车、看 Upper Falls、走一段 South Rim Trail，这才是这个停车场现在的正确用法</strong>",
+          "<strong>想要「下到峡谷里、近距离仰看瀑布」这个体验，现在有两个替代，都在 North Rim（北缘）</strong>：<strong>Brink of the Lower Falls Trail</strong>（往返 0.7 英里，下到 308 英尺瀑布的唇口正上方，之字形陡坡，下 15–20 分钟、上 25–40 分钟）与 <strong>Red Rock Point</strong>（不到 0.5 英里下降近 500 英尺、最后近 100 级台阶，对岸低位视角）。<strong>两条的体力要求都和当年的 328 级台阶相当，心肺不好的人 NPS 明确不建议下去</strong>",
+          "<strong>不要试图从 South Rim Trail 上找绕行下切的野路。</strong>Superintendent’s Compendium 规定 Upper Falls 与 Inspiration Point 之间的峡谷内步行仅限栈道与步道，违规会被开罚单；而且那是被热液蚀变成酥松状的岩石，边缘随时会塌",
+          "<strong>这个停车场有季节性旱厕，没有餐饮与饮水</strong>；要吃饭和用有暖气的卫生间请回 Canyon Village（车程约 8 分钟）"
+        ],
         "photo": "<strong>本次为 0。</strong>正常年份它是 4/5 的独特低位机位（近距离仰拍瀑布、水雾入画），但那个画面在可预见的未来不会再有。把这条替换成 <strong>Red Rock Point</strong>（对岸低位，同样下切约 500 英尺）与 <strong>Brink of the Lower Falls Trail</strong>（瀑布唇口正上方），两者合起来覆盖了它的大部分价值。",
         "shots": [
           {
@@ -3824,9 +4068,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "—",
-          "ticket": "—",
-          "hours": "<strong>永久关闭，无重开时间表，NPS 计划拆除。</strong>2026-09-05 复核：nps.gov 现行的峡谷观景台／步道清单里已完全没有这条步道；「永久」的措辞出自公园公共事务办公室，未见于 nps.gov 成文页面，<strong>要口头确认请拨公园信息线 (307) 344-7381</strong>",
+          "visit": "<strong>0 分钟——无法进入，不要为它安排时间。</strong>如果你已经停在 Uncle Tom’s Parking Area，把原本给它的时间改配给同一个停车场的 <strong>Upper Falls Viewpoints（20–30 分钟）</strong>与<strong>东侧 South Rim Trail 上的 Crystal Falls 视角（再加 20 分钟）</strong>",
+          "book": "—（无法进入）",
+          "ticket": "<strong>—。</strong>该步道不单独售票也无法进入；所在的 South Rim 区域含在园区门票内（2026-09-13 核实：私家车 $35/7 天，非美居民 16 岁以上另加 $100/人，持 ATB 年卡免附加费）",
+          "hours": "<strong>永久关闭，无重开时间表，NPS 计划拆除。</strong><strong>2026-09-13 复核，结论维持不变</strong>：nps.gov 现行的峡谷观景台／步道清单里仍然完全没有这条步道；NPS 的 Backcountry Conditions 报告（Canyon Rim Trails 一节，8/26/26 更新）只写「Trails open」而从未列出这一条；AllTrails 该条目仍标注 <em>Trail closed</em>。<strong>「永久」的措辞出自公园公共事务办公室（Linda Veress）对 Cowboy State Daily 的答复，至今仍未见于 nps.gov 的成文页面</strong>——这是本条唯一的证据缺口，<strong>要官方口头确认请拨公园信息线 (307) 344-7381</strong>",
           "parking": "Uncle Tom’s Parking Area 仍开放（44.71491, −110.49578），是 Upper Falls Viewpoints 与 South Rim Trail 的正规停车场，免费",
           "walk": "不可进入"
         },
@@ -3856,6 +4101,7 @@ var REGIONS = [
         "n": 5,
         "name": "Upper Falls View 与 Brink of the Upper Falls",
         "en": "Upper Falls View · Brink of the Upper Falls",
+        "must": 2.5,
         "score": 3.5,
         "tldr": "两个低成本、几乎不用走路的点，合起来 40 分钟；朝向决定了它们是全区唯一适合正午与阴天拍的地方。",
         "tags": [
@@ -3882,6 +4128,14 @@ var REGIONS = [
           "<strong>Brink of the Upper Falls 有自己独立的支路</strong>，在 Grand Loop Road 上、位于 North Rim Drive 与 South Rim Drive 两个路口之间，很多人从主路一冲而过就漏掉了。停车场到唇口只有一两分钟平路",
           "<strong>顺手能带上 Crystal Falls</strong>：Cascade Creek 以 129 英尺的落差汇入峡谷，位于 Upper 与 Lower 两瀑之间，<strong>从 Upper Falls Viewpoints 东侧的 South Rim Trail 上可见</strong>。这是峡谷里第三条瀑布，绝大多数游客不知道它存在"
         ],
+        "tour": [
+          "<strong>先摆正期待：这两个点不是「必去」，是「顺路、便宜、不费腿」。</strong>Upper Falls 只有 109 英尺，是 Lower Falls 的三分之一，看过 Artist Point 或 Lookout Point 之后再来会明显觉得小。<strong>时间紧张的人完全可以只去 Brink of the Upper Falls 这一个（5 分钟），把 Upper Falls View 砍掉</strong>；时间宽裕再两个都做",
+          "<strong>Brink of the Upper Falls 是全区性价比最高的一站：从停车场到唇口只有 1–2 分钟、约 80 米平路，零爬升、零台阶，站上去就是水从脚下跌进峡谷。</strong>它在 Grand Loop Road 上有自己独立的支路，位置夹在 North Rim Drive 与 South Rim Drive 两个路口之间，<strong>路牌不显眼，从主路一冲就过去了</strong>——从 Canyon Junction 南下时提前减速看右手边",
+          "<strong>Upper Falls View 走的是另一个停车场</strong>（South Rim Drive 进去第一个左转，路牌仍写 Uncle Tom’s Parking Area），到观景台 3–5 分钟／约 200 米铺装缓坡。<strong>这个观景台就是旧攻略里的「Uncle Tom’s Point」，它是开放的；关闭的是从它下方下切的 328 级台阶。</strong>顺路往东多走几百米上 South Rim Trail，能看到 129 英尺的 Crystal Falls，绝大多数人不知道它存在",
+          "<strong>这两处是整个 Canyon 区唯一适合放在正午与阴天的点。</strong>峡谷在这一段浅得多，不像 Lower Falls 那样整天卡在阴影里。<strong>行程上应当把它们当作弹性缓冲</strong>：早上抢完 Artist Point 与北缘，中午人最多、光最硬的时候来这里，正好错峰",
+          "<strong>停车：Brink of the Upper Falls 的场地很小（约 15–20 个车位），10:00–15:00 会满</strong>，满了只能在支路上绕一圈重来，没有路边停车空间；Upper Falls Viewpoints 的场地大得多（原 Uncle Tom’s 大停车场），基本不会满。9 月下旬两处的压力都比盛夏低一档，08:00 前或 16:00 后完全宽松",
+          "<strong>两处停车场都有季节性旱厕，都没有餐饮与饮水，都没有手机信号。</strong>餐饮统一回 Canyon Village 解决（车程 5–8 分钟）。路上遇 bison jam 是常态——<strong>留在车里等，别下车、别鸣笛</strong>，把 Canyon Village 到这里的车程按 20 分钟预留"
+        ],
         "photo": "风光 <strong>3.5/5</strong>，人像 <strong>2/5</strong>。题材本身不如 Lower Falls，但有两个实际优势：<strong>其一，投入产出比最高</strong>——两个点合起来 40 分钟、几乎零爬升；<strong>其二，它们不依赖那个狭窄的受光窗口</strong>。Upper Falls 位置比 Lower Falls 靠上游、峡谷在此浅得多（唇口 2,324 米 vs 下游 2,266 米），受阴影影响远小，<strong>所以这是本区唯一在 10 月下旬和阴天里都还能正常出片的瀑布</strong>。当 Artist Point 那边彻底没戏的时候，这里是唯一的瀑布备案。",
         "shots": [
           {
@@ -3906,9 +4160,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>两处合计 40–55 分钟</strong>：Brink of the Upper Falls <strong>10–15 分钟</strong>（含步行来回与停留）、Upper Falls View <strong>20–30 分钟</strong>，中间转场开车约 5 分钟。<strong>只做 Brink of the Upper Falls 一处，10 分钟就够。</strong>加上往东走 South Rim Trail 看 Crystal Falls 再加 <strong>20–30 分钟</strong>。（NPS 未对这两个观景台发布建议时长；按步行距离 80 米与 200 米、均为铺装缓坡推算。）",
           "book": "不需预约",
-          "ticket": "含在园区门票内，<strong>年卡覆盖</strong>",
-          "hours": "两处均<strong>全天开放、不设门禁</strong>。限制来自道路季节：所属主段 2026 年通车至 <strong>10/31</strong>；<strong>NPS 未单独公布 South Rim Drive 与 Brink of the Upper Falls Drive 的开闭日期</strong>",
+          "ticket": "<strong>免费</strong>，含在园区门票内，两处观景台均不单独售票。<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>／7 天、摩托 <strong>$30</strong>、步行或自行车 <strong>$20/人</strong>（15 岁及以下免费）。<strong>16 岁及以上非美国居民另付 $100/人（2026-01-01 起施行），持 ATB 年卡或 Yellowstone Annual Pass（$70）免除</strong>",
+          "hours": "两处均<strong>全天开放、不设门禁</strong>，无开闭钟点。<strong>2026-09-13 核实 NPS Park Roads 页</strong>：所属主段（Norris↔Canyon Village、Canyon Village↔Bridge Bay）2026 年通车至 <strong>10/31</strong>，<strong>9/22–9/29 期间正常通车</strong>。<strong>NPS 未单独公布 South Rim Drive 与 Brink of the Upper Falls Drive 这两条支线的开闭日期</strong>，降雪后支线可能先于主路临时封闭",
           "parking": "两处各有免费停车场。Upper Falls Viewpoints 的场地较大（原 Uncle Tom’s 停车场）；Brink of the Upper Falls 的场地较小，夏季常满，10 月不成问题",
           "walk": "Brink of the Upper Falls <strong>1–2 分钟／80 米</strong>；Upper Falls View <strong>3–5 分钟／200 米</strong>，均为铺装缓坡"
         },
@@ -3940,6 +4195,7 @@ var REGIONS = [
         "n": 6,
         "name": "Hayden Valley（海登谷）",
         "en": "Hayden Valley",
+        "must": 5,
         "score": 5,
         "tldr": "公路在河的西侧，所以日出时你正对着太阳与河雾——这是全园最好的逆光野生动物机位，且整季都在。",
         "tags": [
@@ -3970,6 +4226,14 @@ var REGIONS = [
           "<strong>物种清单与出现规律</strong>：野牛是全季常驻，8 月发情期（rut）后仍成群；灰熊在春季与初夏最常见（捕食新生牛犊与麋鹿犊），但秋季 hyperphagia 期仍频繁出现；狼常见（NPS 用词是「wolves are often seen as well」）；郊狼与狐狸几乎天天有；<strong>Alum Creek 一带的泥滩是水鸟区</strong>——鸭、雁、American white pelican 在河上，各种滨鸟在泥滩，以及白头海雕、northern harrier 与 <strong>sandhill crane（沙丘鹤）</strong>。沙丘鹤是这个季节的加分项：它们在秋季南迁前会在谷地停留，叫声在几公里外就能听到",
           "<strong>Hayden Valley 是被冰川湖沉积填平的谷底。</strong>最近一次冰期结束时这里是 Yellowstone Lake 向北延伸的一部分，湖底沉积的细粒黏土层至今仍不透水——这就是为什么这片谷地几乎没有树、只有连绵的草甸与蜿蜒的曲流河：<strong>树扎不下根，水下不去，河只能在软沉积里反复摆动</strong>。摄影上的直接后果是「没有任何东西遮挡视线」，你在路肩上就能看到几公里外的动物",
           "<strong>但这也是全园最危险的谷地。</strong>NPS 原文：1970 年以来 Hayden Valley 最近 10 起灰熊致人受伤事件中有 8 起发生在现划为 Bear Management Area 的范围内；园方生物学家曾在单具野牛尸体上记录到 23 只灰熊。2024 年新设的 <strong>Hayden Valley BMA（16,453 英亩）在公路以西</strong>，离径禁令期为 7/15–9/15——<strong>本季（9 月下旬起）该禁令已失效，但这只意味着法规不禁止，不意味着应该走进去</strong>"
+        ],
+        "tour": [
+          "<strong>Hayden Valley 是「开车看动物」，不是「下车走景点」。这里没有观景台、没有步道、没有任何设施，全部活动就是在 Grand Loop Road 沿线十余处 pullout 之间停停走走。</strong>正确用法是<strong>先从北到南慢慢开一遍（约 15 分钟）把当天动物的位置找出来，再掉头回去停</strong>，而不是见一个 pullout 停一个",
+          "<strong>时段决定一切：清晨与傍晚有动物，中午基本看不到什么。</strong>9 月下旬的实操窗口是<strong>日出前 30 分钟到日出后 2 小时（约 06:45–09:15）</strong>与<strong>日落前 2 小时到天黑（约 17:15–19:15）</strong>。中午来只会看到远处几个黑点和一条空谷，<strong>如果只能来一次，来早上</strong>——冷夜之后河面会起雾，那是这里最好看的时候",
+          "<strong>必须带双筒望远镜，这是本条最实际的一句建议。</strong>动物通常在 <strong>200–800 米外</strong>，肉眼只能看到黑点。8×42 或 10×42 的双筒能把体验从「看到有东西」变成「看清是什么」。没带的话，<strong>路边支着大炮的人通常很乐意让你看一眼他们的镜头</strong>，这是这里的常态社交",
+          "<strong>bison jam 在这里不是意外，是日程的一部分。</strong>野牛成群走在行车道上，时速约 3 英里，一次能堵 15–30 分钟。<strong>做法：留在车里、熄火、不要鸣笛、不要下车绕到牛前面拍照、绝不要开上草地绕行。</strong>牛贴着车走过来时收起后视镜、关窗、不要盯着它看。<strong>从 Canyon Village 到谷地北端只有 5 英里，但请一律按 25 分钟预留</strong>；想赶日出就再往前提 15 分钟",
+          "<strong>安全线要当真，这里是全园灰熊密度最高的地方之一。</strong>与熊、狼保持 <strong>100 码（91 米）</strong>，与野牛等其他动物保持 <strong>25 码（23 米）</strong>。<strong>所有停留都应在铺装 pullout 上、贴着车</strong>，不要走进草甸——NPS 的统计是 1970 年以来 Hayden Valley 最近 10 起灰熊伤人有 8 起发生在公路以西的草甸里。防熊喷雾握在手上或挂腰带，不要放包里。<strong>看到新鲜动物尸体立刻回车并上报</strong>",
+          "<strong>整段谷地没有厕所、没有饮水、没有餐饮、没有手机信号，长度约 7 英里。</strong><strong>北端最近的厕所与餐饮在 Canyon Village（车程 12 分钟）</strong>，<strong>南端最近的厕所在 Mud Volcano 停车场（季节性旱厕，车程 8 分钟）</strong>。打算在这里守两小时日出的人，出发前务必在 Canyon Village 解决，并自带热饮与食物"
         ],
         "photo": "风光 <strong>4.5/5</strong>，野生动物 <strong>5/5</strong>，人像 <strong>2/5</strong>。本区分量最重的一条。加分项：<strong>朝向正确（东向 = 日出逆光）、视线无遮挡、pullout 密集（十几处）、整季开放到 10/31、且冷夜必出河雾</strong>。扣分只在两点：<strong>动物距离通常在 200–800 米，600mm 才是舒服的焦段</strong>；以及安全上限制了你只能在路肩活动，构图机动性远不如看起来那么大。人像基本不用考虑——这里不是拍人的地方，是拍晨雾与动物的地方。",
         "shots": [
@@ -4019,9 +4283,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "不需预约",
-          "ticket": "含在园区门票内，<strong>年卡覆盖</strong>。所有 pullout 免费",
-          "hours": "<strong>全天开放、不设门禁</strong>，园区 24 小时可进出。唯一限制是道路季节：Canyon Village ↔ Bridge Bay 路段 2026 年通车 <strong>5/1 – 10/31</strong>。此路段无夜间关闭，可以在天黑前就位",
+          "visit": "<strong>1.5–3 小时</strong>，而且应当<strong>集中在清晨或傍晚</strong>，中午来时长再久也没用。分配：<strong>先慢速开一遍全段找动物 15 分钟</strong>，<strong>在当天动物最集中的 1–2 处 pullout 各守 30–60 分钟</strong>，<strong>路上的 bison jam 预留 20–30 分钟</strong>。<strong>只是开车穿过、随手停两脚，45 分钟。</strong>想看到熊或狼则需要「连续几个清晨都来」，单次概率不高。（NPS 未对本区发布建议时长；按谷地约 7 英里长度、十余处 pullout 与野生动物观察的实际节奏推算。）",
+          "book": "不需预约，无人数限制",
+          "ticket": "<strong>免费</strong>，含在园区门票内，所有 pullout 与路边观察点均不收费。<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>／7 天（覆盖全车乘客）、摩托 <strong>$30</strong>、步行／自行车 <strong>$20/人</strong>（15 岁及以下免费）。<strong>16 岁及以上非美国居民自 2026-01-01 起另付 $100/人，持 America the Beautiful 年卡或 Yellowstone Annual Pass（$70）者免除该附加费</strong>",
+          "hours": "<strong>全天开放、不设门禁</strong>，园区 24 小时可进出，此路段无夜间关闭，可以在天亮前就位。<strong>2026-09-13 核实 NPS Park Roads 页原文：<em>「Open May 1 – October 31, 2026: East Entrance to Fishing Bridge (Sylvan Pass), Canyon Village to Bridge Bay」</em></strong>——穿越 Hayden Valley 的正是 Canyon Village↔Bridge Bay 这一段，<strong>9/22–9/29 期间正常通车，无季节性风险</strong>。另注意 NPS Backcountry Conditions 报告（5/27/26）标注 <em>Hayden Valley 内的 Crater Hills 因野生动物保护关闭</em>，但该处不在公路沿线，不影响 pullout 观察",
           "parking": "沿 Grand Loop Road 有十余处铺装／碎石 pullout，全部免费。<strong>只能停在划定的 pullout 内，不得停在行车道或路肩草地上</strong>；10 月清晨基本空着，但一旦有熊或狼被发现会瞬间形成 bear jam",
           "walk": "<strong>全部机位为「停车即拍」，步行 0–20 米。</strong>本区所有拍摄都应在 pullout 铺装面上完成，不建议离开路肩"
         },
@@ -4055,6 +4320,7 @@ var REGIONS = [
         "n": 7,
         "name": "Mud Volcano 与 Sulphur Caldron",
         "en": "Mud Volcano Area · Sulphur Caldron",
+        "must": 2.5,
         "score": 3,
         "tldr": "园内最酸、最臭的热区，pH 1–2 相当于电瓶酸；冷早晨的蒸汽最壮观，但硫化氢也最浓。",
         "tags": [
@@ -4084,6 +4350,14 @@ var REGIONS = [
           "<strong>Mud Volcano 位于 Yellowstone Caldera 底板抬升与沉降幅度最大的位置。</strong>多条断层在此交汇，地震频繁。Mud Volcano 喷口与 Old Faithful 附近的另一个主喷口所在的构造被称为 <strong>resurgent dome（复活穹丘）</strong>——地面随下方岩浆房的涨落而升降，科学家用它监测火山活动。<strong>换句话说，你站在的这块地是在肉眼看不见地呼吸的</strong>",
           "<strong>栈道全长约 0.9 英里（1.4 公里），环线</strong>，北段平缓可推轮椅，<strong>南段有台阶与陡坡，不适合轮椅与行动不便者</strong>。沿线主要看点：Dragon’s Mouth Spring（洞穴里发出低吼与拍水声的喷气孔，本区最有辨识度的单点）、Grizzly Fumarole、Mud Volcano、以及爬上坡顶后向右的 Sour Lake。<strong>坡上被蒸汽「煮死」的枯立木是这里最好的构图元素</strong>",
           "<strong>Sulphur Caldron 在 Mud Volcano 停车场以北、公路的另一侧</strong>，是一个独立的路侧观景点，两处之间可以走过去（有人行道与斑马线）。它的名字来自水中大量的游离硫。这是本条里唯一一个「看一眼就够」的点，但那种翻滚的灰黄浑水在近景里质感很强"
+        ],
+        "tour": [
+          "<strong>先说结论：这是 Canyon–Hayden 一带最该被砍掉的一站，除非你对地质有兴趣或者正好路过。</strong>它不好看——没有 Grand Prismatic 的颜色，主体是灰浆、灰白土和枯木，而且很臭。<strong>它的价值在于「Yellowstone 的另一副面孔」：这是全园最酸的一片地（pH 1–2，相当于电瓶酸）</strong>，看完你会明白这座火山不只是漂亮的温泉",
+          "<strong>如果只有 20 分钟，就走北段到 Dragon’s Mouth Spring 然后原路返回，这是全区最值得看的单点，也是最省力的。</strong>从停车场沿栈道平走 3–5 分钟／约 200 米就到：一个洞穴状喷气孔，水在洞里来回拍打发出低沉的吼声。<strong>它的声音比画面更有冲击力</strong>，站在栏杆边闭眼听半分钟比拍十张照片值得",
+          "<strong>体力与动线：整条栈道环线约 0.9 英里／1.4 公里，走完 40–60 分钟。</strong><strong>北段平缓、铺装、可推轮椅与婴儿车；南段要爬上山坡、有台阶与陡坡，轮椅与行动不便者到此为止。</strong>南段上去之后是 Grizzly Fumarole 与坡顶的 Sour Lake，那片被蒸汽「煮死」的枯立木是这里最有记忆点的画面。<strong>不想爬坡就走北段折返，不会错过太多</strong>",
+          "<strong>Sulphur Caldron 在停车场以北约 250 米、公路的另一侧（东侧），是一个独立的路侧观景点。</strong><strong>过马路要走人行道与斑马线，这段是园内限速 45 mph 的主路，车速很快。</strong>看一眼 5–10 分钟就够，主体是不断翻滚的灰黄色酸水",
+          "<strong>臭味不是玩笑，是实际的健康问题。</strong>硫化氢（H₂S）会刺激呼吸道与眼睛，浓度高时引起头痛、恶心、咽喉刺痛。<strong>它比空气重，会在无风的冷早晨积在栈道低洼处</strong>——也就是蒸汽最壮观的时候恰好气体最浓。<strong>有哮喘或呼吸道疾病的人应当缩短停留或直接跳过这一站</strong>；带小孩的注意孩子个子矮、吸到的浓度更高。感到头晕就往高处和上风向走",
+          "<strong>停车场有季节性旱厕（这是 Hayden Valley 南端唯一的厕所，很重要），但没有饮水、没有餐饮、没有手机信号。</strong>最近的餐饮往北是 Canyon Village（9.7 英里／20 分钟）、往南是 Fishing Bridge 一带。<strong>这一段路的 bison jam 与 Hayden Valley 同样频繁</strong>，留在车里等，把车程按 30 分钟预留"
         ],
         "photo": "风光 <strong>2/5</strong>，细节／抽象 <strong>4/5</strong>，人像 <strong>1/5</strong>。<strong>诚实说：这里不好看。</strong>没有 Grand Prismatic 那样的色彩，主体是灰浆、灰白土、枯木与蒸汽。但它在两件事上是本区最强的：<strong>一是冷早晨的蒸汽——气温越低蒸汽柱越高越密，逆光下是极好的氛围题材</strong>；二是微距／中焦的抽象细节（泥浆气泡破裂的瞬间、硫结晶、被煮白的枯木纹理）。把它当作「广角出不了片、长焦和微距能出片」的地方来安排。",
         "shots": [
@@ -4121,9 +4395,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>完整环线 40–60 分钟</strong>（0.9 英里栈道，含南段爬坡与沿途停留）<strong>+ Sulphur Caldron 5–10 分钟</strong>，合计约 <strong>1 小时</strong>。<strong>只走北段到 Dragon’s Mouth Spring 折返：20–25 分钟。</strong><strong>时间紧张的最短方案是停车 → Dragon’s Mouth → 回车，15 分钟。</strong>（NPS 未对本热区发布建议时长；按官方公布的 0.9 英里环线长度与南段台阶爬升推算。）",
           "book": "不需预约",
-          "ticket": "含在园区门票内，<strong>年卡覆盖</strong>",
-          "hours": "<strong>栈道全天开放、不设门禁</strong>。所属路段（Canyon Village ↔ Bridge Bay）2026 年通车 <strong>5/1 – 10/31</strong>。<strong>热区栈道无独立的季节关闭日期</strong>，但降雪结冰后木栈道会极滑，园方可能临时封闭部分路段",
+          "ticket": "<strong>免费</strong>，含在园区门票内，热区栈道与 Sulphur Caldron 均不单独收费。<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>／7 天、摩托 <strong>$30</strong>、步行／自行车 <strong>$20/人</strong>（15 岁及以下免费）。<strong>16 岁及以上非美国居民另付 $100/人（2026-01-01 起施行），持 America the Beautiful 年卡或 Yellowstone Annual Pass（$70）者免除</strong>",
+          "hours": "<strong>栈道全天开放、不设门禁，无开闭钟点</strong>。<strong>2026-09-13 核实 NPS Park Roads 页</strong>：所属路段 Canyon Village↔Bridge Bay 2026 年通车 <strong>5/1 – 10/31</strong>，<strong>9/22–9/29 正常通车</strong>。<strong>NPS 未给热区栈道公布独立的季节关闭日期</strong>——降雪结冰后木栈道会极滑，园方可能临时封闭部分路段（南段陡坡最先封）。要确认当天栈道状态只能到现场看标识，或拨公园信息线 <strong>(307) 344-7381</strong>",
           "parking": "Mud Volcano 有铺装停车场（44.62472, −110.43315），免费，容量中等，10 月不紧张；Sulphur Caldron 为公路东侧路侧 pullout",
           "walk": "Mud Volcano 环线 <strong>约 0.9 英里／1.4 公里，40–60 分钟</strong>。<strong>北段平缓可轮椅，南段有台阶与陡坡不可轮椅。</strong>Sulphur Caldron 为停车即到"
         },
@@ -4156,6 +4431,7 @@ var REGIONS = [
         "n": 8,
         "name": "Lake Butte Overlook",
         "en": "Lake Butte Overlook, East Entrance Road",
+        "must": 3,
         "score": 4,
         "tldr": "朝向确认正确：正西俯瞰 Yellowstone Lake、西侧天际线几乎为零，是纯净日落点；但 Teton 在左后方 50 度外，不同框。",
         "tags": [
@@ -4186,6 +4462,14 @@ var REGIONS = [
           "<strong>Teton Range 确实能看到，但不在日落画面里。</strong>实测方位：<strong>Grand Teton 在方位 206°、直线距离 95 公里（59 英里）</strong>；Mount Moran 在 208°、85 公里；更近的 Mount Sheridan 在 218°、34 公里。<strong>而落日在 255°–269°——两者相差 50–65 度。</strong>结论：普通镜头下不可能同框；<strong>只有 14mm 级别的超广角（水平视角约 114°）才能勉强把 206° 与 260° 同时收进一格</strong>，但那样两者都会小得看不出是什么。正确做法是<strong>用 200–400mm 单拍压缩在湖面之上的 Teton 山脊线，再转身拍日落</strong>",
           "<strong>Teton 的可见性有物理基础：</strong>95 公里距离上地球曲率加折射的下沉约 630 米，Grand Teton 海拔 4,199 米扣掉后仍高出观景台约 1,030 米，<strong>即视高约 0.6° 以上——晴朗且低层大气通透时清晰可见</strong>。但秋季山火烟霾与逆温层会把这条山脊线糊掉，这是「有些日子看得见有些看不见」的真实原因"
         ],
+        "tour": [
+          "<strong>这是一个「专门为看日落而来」的地方，别的时段来价值会掉一半。</strong>白天来看到的就是一片很大的湖，和湖岸边任何一处的差别没那么大；<strong>日落前 40 分钟到天黑这一小时才是它的全部意义</strong>——高出湖面 590 英尺俯瞰、正西朝向、西侧没有任何山体挡光。9 月下旬的窗口大致是 <strong>18:35–19:45</strong>",
+          "<strong>零体力：支路开到顶，停车场到观景台 1–2 分钟／约 40 米铺装平路，基本停车即到。</strong>不需要爬任何坡或台阶，老人小孩都能上。<strong>注意 Lake Butte 本身是一座山峰，观景台在它西南侧的路边平台上，不需要也没有登顶步道</strong>——不要在现场找「上山的路」",
+          "<strong>这一站的真实风险不是体力，是进不来。</strong>它挂在 East Entrance Road 的 Sylvan Pass 一线，<strong>那是海拔约 8,500 英尺、有主动雪崩控制作业的路段，NPS 历史上多次在 9 月因降雪预报临时关闭它。</strong><strong>行程里必须把它排成「可放弃项」而不是压轴项</strong>，出发当天先查路况地图或拨 (307) 344-2117 录音。关了的替代方案是 Lake Village / Fishing Bridge 一带的湖岸日落——方向一样正确，只是没有俯瞰感",
+          "<strong>距离要算清楚：从 Canyon Village 过来约 25 英里／50 分钟，从 Fishing Bridge 路口约 9 英里／20 分钟。</strong>这意味着<strong>「Hayden Valley 看日出 + Mud Volcano + Lake Butte 看日落」可以排在同一天</strong>，是这一片最顺的一条动线。<strong>但回程是夜路</strong>：East Entrance Road 与 Lake 一带秋夜有大量麋鹿与野牛，园内限速 45 mph、没有路灯，拍完暮光回 Canyon 要开近一小时，请把车速再降一档",
+          "<strong>停车场约 20–30 个车位，全天几乎都空着，唯一会有人的时段就是日落前那半小时。</strong>想占最好的位置提前 30 分钟到即可，这里不存在抢车位的问题",
+          "<strong>没有厕所、没有饮水、没有餐饮、没有手机信号——这是本区设施最差的一站。</strong>最近的厕所在 Fishing Bridge 一带（车程 20 分钟），<strong>而 Fishing Bridge Visitor Center 2026 年 10/3 就关、加油站店面 10/11 关</strong>（9 月下旬仍在营业）。<strong>上来之前先在 Fishing Bridge 解决厕所与补给，并且穿够衣服</strong>：这里 8,331 英尺、无遮挡、风大，日落后气温断崖式下降"
+        ],
         "photo": "风光 <strong>4/5</strong>，人像 <strong>3/5</strong>。加分：<strong>高位俯瞰 + 正西朝向 + 西侧天际线为零 + 停车即到 + 有 Teton 作远景锚点</strong>，这是本区唯一一个纯粹的日落点（其余七个点全部偏向清晨）。扣分两处：<strong>Teton 与落日不同框</strong>，以及<strong>它挂在一条随时可能因雪提前关闭的路上</strong>，在行程里必须当作「可放弃项」而不是「压轴项」。",
         "shots": [
           {
@@ -4214,9 +4498,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>日落场 60–75 分钟</strong>：日落前 40 分钟到位 + 日落 + 之后 25–30 分钟的暮光（9 月下旬约 18:35–19:45）。<strong>非日落时段路过看一眼，15–20 分钟足够。</strong><strong>连往返车程一起算，从 Canyon Village 出发要为这一站留 2.5–3 小时</strong>（单程 50 分钟 × 2 + 现场 1 小时）。（NPS 未对该观景台发布建议时长；按 40 米步行距离与日落／暮光的天文时段推算。）",
           "book": "不需预约",
-          "ticket": "含在园区门票内，<strong>年卡覆盖</strong>",
-          "hours": "观景台<strong>全天开放、不设门禁</strong>。<strong>唯一且关键的限制是 East Entrance Road（Sylvan Pass）：2026 年通车 5/1 – 10/31。</strong>该路段海拔高、有主动雪崩控制作业，NPS 历史上曾在 9 月因预报 5–9 英寸降雪而临时关闭它，<strong>并明确表示会「视情况关闭 East Entrance Road 至 Sylvan Pass 及其他路段」</strong>。出发当天务必先查路况地图或拨 (307) 344-2117",
+          "ticket": "<strong>免费</strong>，含在园区门票内，观景台不单独收费。<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>／7 天（覆盖全车乘客）、摩托 <strong>$30</strong>、步行／自行车 <strong>$20/人</strong>（15 岁及以下免费）。<strong>16 岁及以上非美国居民自 2026-01-01 起另付 $100/人，持 America the Beautiful 年卡或 Yellowstone Annual Pass（$70）者免除</strong>。<strong>提醒：从 South Entrance 进出会经过 Grand Teton，两园分别收费，ATB 年卡两园通用</strong>",
+          "hours": "观景台<strong>全天开放、不设门禁</strong>，无开闭钟点。<strong>唯一且关键的限制是 East Entrance Road（Sylvan Pass）。2026-09-13 核实 NPS Park Roads 页原文：<em>「Open May 1 – October 31, 2026: East Entrance to Fishing Bridge (Sylvan Pass)」</em>。</strong><strong>9/22–9/29 按官方日期正常通车，但这一段是本区最不可靠的一格</strong>——该路段海拔高、有主动雪崩控制作业，NPS 历史上曾在 9 月因预报 5–9 英寸降雪而临时关闭它，<strong>并明确表示会「视情况关闭 East Entrance Road 至 Sylvan Pass 及其他路段」</strong>。出发当天务必先查路况地图或拨 (307) 344-2117",
           "parking": "Lake Butte 支路尽头的铺装停车场（44.51010, −110.27474），免费，容量约 20–30 辆；日落时段是这里唯一会有人的时候，但 10 月很宽松",
           "walk": "<strong>1–2 分钟／约 40 米</strong>，铺装平路，基本停车即到"
         },
@@ -4285,6 +4570,7 @@ var REGIONS = [
         "n": 1,
         "name": "诺里斯间歇泉盆地",
         "en": "Norris Geyser Basin",
+        "must": 4,
         "score": 4.5,
         "tldr": "全园最热、最酸、变化最快的盆地，栈道无封闭；Porcelain Basin 的白色酸壳是最好的抽象素材，但 Steamboat 基本别指望。",
         "tags": [
@@ -4316,6 +4602,14 @@ var REGIONS = [
           "<strong>2026 年 Norris 本身有两条新鲜变化值得知道。</strong>其一，<strong>Echinus Geyser（世界最大的酸性间歇泉，pH 约 3.5）于 2026 年 2 月 7 日喷发，这是它自 2020 年 12 月以来的第一次</strong>，此后到 2 月下旬进入频繁喷发期；其二，USGS 3 月简报报告 <strong>Norris 出现了一处新的热泉，附带一个 2024 年末形成的爆炸坑</strong>，同时那个从 2025 年 7 月开始的 Norris 地面抬升异常在 <strong>2026 年初已停止或暂停</strong>。<strong>这类变化正是来这里的理由——它是全园唯一一个「每年都不一样」的盆地</strong>",
           "<strong>两条环线的角色完全不同。Porcelain Basin</strong>（NPS 口径 <strong>3/4 英里／1.2 公里</strong>，裸地加木栈道）是一片几乎无树的白色酸性荒原，<strong>视觉上是全园最「外星」的地方</strong>；<strong>Back Basin</strong>（<strong>1.5 英里／2.4 公里</strong>，林间穿行）是 Steamboat、Echinus、Emerald Spring 所在的那条。NPS 给的总游览时长是 30–90 分钟，走全两条要 1.5–2 小时",
           "<strong>颜色直接对应水温，拍局部时这套关系很有用。</strong><strong>黄色含硫（60–83 °C，也就是那股臭鸡蛋味的来源）、红棕色含铁与高浓度砷（60 °C 以下）、翠绿色藻垫（56 °C 以下）、墨绿至黑色的 Zygogonium 藻（更凉）。</strong>换句话说你拍的每一道彩色径流沟都是一条温度梯度"
+        ],
+        "tour": [
+          "<strong>动线：从停车场先下博物馆西侧的坡，进 Porcelain Basin。</strong>两条环线都是<strong>单向回到起点的环（loop），不是折返路</strong>，走完一圈自然回到博物馆。<strong>时间只够一条就走 Porcelain Basin</strong>（3/4 英里／1.2 公里，无树的白色酸壳荒原，视觉冲击是全园最强的，30–40 分钟）；<strong>Back Basin（1.5 英里／2.4 公里，林间）可以跳过</strong>——它最值得看的 Steamboat 几乎不会喷，省下的 40 分钟建议留给 Old Faithful 或 Grand Prismatic",
+          "<strong>Back Basin 如果走，只有三个点值得停：Emerald Spring（进环线约 200 米，黄色硫黄池底叠深水蓝，是全园最好看的小池之一）、Steamboat（世界最高的活间歇泉，再往南约 300 米）、Echinus（世界最大的酸性间歇泉，Steamboat 以东约 200 米，2026 年 2 月刚复活）。</strong>其余泉眼可以边走边看不必停",
+          "<strong>关于 Steamboat 的期待管理，先说清楚免得白等：它没有预报、大喷相隔常常数年，2026 年迄今只在 2 月 27 日大喷过一次。</strong>你看到的几乎一定是 10–40 英尺的 minor phase 或单纯的蒸汽柱。<strong>不要在它旁边守着，看两眼就走</strong>",
+          "<strong>停车场 143 个车位 + 17 个加长位，夏季 10:00–15:00 会满并有 ranger 指挥；9 月下旬的实际情况是上午 10 点前和下午 4 点后基本随到随停，中午偶尔需要绕一圈。</strong>停车场路面本身有地热造成的沉降坑，进出慢行",
+          "<strong>厕所与饮水只在博物馆（Norris Geyser Basin Museum，最后营业日 10/3）一处，本区没有任何餐饮</strong>——这一带最近的热食在 Old Faithful（30 英里）或 Canyon Village（12 英里），来之前先解决吃喝",
+          "<strong>安全规定不是建议：全程必须留在木栈道与指定步道上，这是可罚款可监禁的联邦规定</strong>（2021 年一名游客在 Norris 走下栈道，被判 7 天监禁加 2,000 美元罚金赔偿）。<strong>热区内禁止饮食（喝水不限）、禁止带宠物上栈道、闻到刺鼻臭鸡蛋味并感到头痛恶心就立刻往高处上风向走</strong>——Norris 是全园硫化氢浓度最高的地方"
         ],
         "photo": "风光 <strong>4.5/5</strong>，抽象／局部 <strong>5/5</strong>，人像 <strong>2/5</strong>。<strong>Porcelain Basin 那片白色酸壳配彩色径流是全园最强的抽象素材</strong>，而且它是本区唯一一个广角与长焦都成立的盆地。扣分在于<strong>没有一个可靠的标志性单体可拍</strong>（Steamboat 基本不喷），以及博物馆 10 月 3 日就关门，之后连厕所都没有。",
         "shots": [
@@ -4353,9 +4647,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>1.5–2 小时走全两条环线</strong>（NPS 步道页给的官方口径是 30 分钟至 1.5 小时，那是不含拍摄的净走路时间）。<strong>分配建议：Porcelain Basin 环线 40 分钟、Back Basin 环线 50 分钟、博物馆与解说牌 15 分钟。</strong><strong>时间紧就只走 Porcelain Basin，45 分钟足够，是本区性价比最高的取舍。</strong>停车到下坡进盆地另算 5 分钟",
           "book": "不需预约",
-          "ticket": "含在园区门票内，<strong>年票覆盖</strong>",
-          "hours": "<strong>盆地本身没有门禁、全天可入</strong>（NPS 步道页标注 Season: Spring, Summer, Fall；Time of Day: Any Time）。<strong>已核实：2026 年秋季 Norris 的木栈道没有公布的封闭段</strong>，NPS 步道页只有一条注记——<em>「Thermal activity throughout this entire area. Stay on the boardwalks and designated trails at all times.」</em><strong>Norris Geyser Basin Museum 与 Norris Park Store 最后营业日均为 10/3</strong>，之后厕所与讲解台全部关闭。所在的 Mammoth ↔ Norris、Norris ↔ Canyon、Madison ↔ Norris 三段公路 2026 年均通车至 <strong>10/31</strong>，且这三段本年度无施工项目",
+          "ticket": "含在园区门票内，<strong>园内点位无独立门票，年票覆盖</strong>。<strong>2026-09-13 核对 NPS Fees &amp; Passes 官方页</strong>：私家车（载客 15 人以下）7 日票 <strong>$35</strong>、摩托车／雪地车 $30、徒步或骑行入园每人 <strong>$20</strong>（未满 16 岁免费）；Yellowstone 年票与 America the Beautiful 年票均 <strong>$80</strong>。<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100 nonresident fee，持任一年票者豁免</strong>（持卡人须本人在场并出示带照片证件）",
+          "hours": "<strong>2026-09-13 复核，本行程窗口 9/22–9/29 内全部正常开放。</strong><strong>盆地本身没有门禁、全天可入</strong>（NPS 步道页标注 Season: Spring, Summer, Fall；Time of Day: Any Time）。<strong>已核实：2026 年秋季 Norris 的木栈道没有公布的封闭段</strong>，NPS 步道页只有一条注记——<em>「Thermal activity throughout this entire area. Stay on the boardwalks and designated trails at all times.」</em><strong>Norris Geyser Basin Museum 与 Norris Park Store 最后营业日均为 10/3</strong>（2026-09-13 于 NPS Operating Dates 页复核，该页最后更新 2026-09-03；<strong>9 月下旬两者都还开着</strong>），之后厕所与讲解台全部关闭。所在的 Mammoth ↔ Norris、Norris ↔ Canyon、Madison ↔ Norris 三段公路 2026 年均通车至 <strong>10/31</strong>，且这三段本年度无施工项目",
           "parking": "博物馆东侧的免费停车场，<strong>NPS 标注 143 个车位 + 17 个加长车位</strong>，夏季常满并有 ranger 指挥，<strong>10 月完全不紧张</strong>。本条采用 OSM 停车面中心 <strong>44.72622, −110.70074</strong>（<strong>NPS 该页同时给出的一组停车场经纬度落在 Old Faithful，与 Norris 不符，疑为页面错误，故不采用</strong>）。注意<strong>停车场本身是已知的地热破坏点之一，路面有沉降坑，慢行</strong>",
           "walk": "停车场到 Porcelain Basin 观景平台约 <strong>150 米／3 分钟</strong>，但<strong>从博物馆下到盆地那段坡陡且不平</strong>（NPS 无障碍说明明确提示）。<strong>Porcelain Basin 环线 3/4 英里／1.2 公里；Back Basin 环线 1.5 英里／2.4 公里；两条走全约 2.25 英里／3.6 公里、1.5–2 小时。</strong>路面是木栈道、铺装路与土路的混合"
         },
@@ -4388,6 +4683,7 @@ var REGIONS = [
         "n": 2,
         "name": "火洞峡谷车道与 Firehole Falls",
         "en": "Firehole Canyon Drive & Firehole Falls",
+        "must": 2,
         "score": 3.5,
         "tldr": "已核实：单行道、由北向南、全长 2.21 英里，正常开放。40 英尺瀑布配 800 英尺厚的流纹岩崖壁，20 分钟拍完。",
         "tags": [
@@ -4418,6 +4714,14 @@ var REGIONS = [
           "<strong>Compendium 明文禁止大巴、拖挂车与房车驶入</strong>，限速 <strong>25 mph</strong>，路窄、可停车的路肩非常少。<strong>这里最大的执行障碍不是能不能进，是能不能停</strong>",
           "<strong>关于那个游泳洞：Firehole Swim Area 目前关闭。</strong>NPS Current Conditions 页原文 <em>「Closed. Estimated opening date: no earlier than late summer/early fall.」</em><strong>本窗口内是否重开未能确认</strong>，但对摄影没有影响——真正的影响是那一段的停车位也用不了，而它本来是这条路上最大的一片路肩。（顺带说一句：10 月的水温在个位数摄氏度，就算开了也不该下水）"
         ],
+        "tour": [
+          "<strong>先说定位：这是一条「顺路开一遍」的支线，不值得为它专程改路线。</strong>如果你的时间已经排满，<strong>直接跳过它去 Fountain Paint Pot 或 Midway 是正确的取舍</strong>——它全程只有一个 40 英尺的瀑布和一段岩壁，20 分钟就看完了",
+          "<strong>方向是这条路唯一的硬规则：单行道，只能由北向南开。</strong><strong>入口在 Madison Junction 以南约 0.6 英里（44.63888, −110.85856），从 Madison 往 Old Faithful 方向开正好顺路。</strong><strong>反方向（从 Old Faithful 北上）会先撞上南端出口、进不去</strong>，必须多开到 Madison Junction 再折回来，来回约 10 分钟。<strong>限速 25 mph，禁止大巴、拖挂车与房车进入</strong>",
+          "<strong>停车是这里真正的问题，不是路。</strong>全线<strong>没有正式停车场，只有几处极小的路肩</strong>，Firehole Falls 正对面那片最大也只容几台车。<strong>满位时段是 11:00–16:00</strong>（大家都在同一时段从 Madison 往 Old Faithful 走）；<strong>9 点前或 17 点后几乎一定有位</strong>。<strong>没位就继续开，不要在单行道上停车等或倒车</strong>——后车看不见你，也没有超车空间",
+          "<strong>值得停的只有两处：Firehole Falls 观景路肩（下车走几步就到栏杆前，看落差 40 英尺的瀑布切进 800 英尺厚的流纹岩崖壁）和峡谷中段任意一处能停的路肩（看两侧的柱状节理岩壁，其实比瀑布更有看头）。</strong>其余路段在车里看就够了",
+          "<strong>全线没有厕所、没有饮水、没有餐饮、没有手机信号。</strong>最近的厕所在 Madison Information Station（开到 10/3）或 Madison Campground（开到 10/17），再远是 Old Faithful（16 英里）与 West Yellowstone（14 英里）。<strong>Firehole Swim Area 目前关闭</strong>（NPS Current Conditions 原文「Closed. Estimated opening date: no earlier than late summer/early fall.」），连带那一段最大的路肩也用不了",
+          "<strong>这条路上没有热区，是本区唯一不用担心薄壳与硫化氢的点位</strong>，但它在 Firehole River 边的林子里、弯道多且视线被崖壁挡住，<strong>秋季常有麋鹿与野牛上路，慢开</strong>；<strong>栏杆外的岩壁是陡崖，不要为了看瀑布翻过去</strong>"
+        ],
         "photo": "风光 <strong>3.5/5</strong>，长曝水流 <strong>4/5</strong>，人像 <strong>2/5</strong>。<strong>加分项是它反规则：峡谷东西两侧崖壁很高，直射光只在中午前后短暂进入谷底，所以阴天与清晨的全阴影状态反而是这里最好的光线</strong>——这让它成为「颜色题材还没到点、蒸汽题材已经过点」那段空档里最合适的去处。扣分在于规模不大、机位单一、且几乎没有可站位的空间。",
         "shots": [
           {
@@ -4442,9 +4746,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>20–40 分钟</strong>：开完 2.21 英里单行道本身约 8–10 分钟（限速 25 mph），<strong>Firehole Falls 观景点停 10 分钟、峡谷中段岩壁再停 10 分钟就够了</strong>。<strong>算上从 Old Faithful 方向北上折返的额外 10 分钟，最多 50 分钟。</strong>（按路长、限速与两处停车点推算，NPS 未给官方建议时长）",
           "book": "不需预约",
-          "ticket": "含在园区门票内，<strong>年票覆盖</strong>",
-          "hours": "无门禁。<strong>NPS 没有为 Firehole Canyon Drive 单独公布 2026 年季节性关闭日期</strong>——按 2026 版 Superintendent’s Compendium 的通则（<em>「Starting November 1st ... the Grand Loop Road and park entrance roads are closed to wheeled motor vehicle use」</em>），它应与主环路同步在 <strong>10/31 结束通车</strong>；<strong>但这一点未能从官方渠道单独确认</strong>，且它是低海拔窄路、遇早雪临时封闭完全可能。<strong>它也不在 NPS 实时路况地图上</strong>，只能打 (307) 344-2117 或到访客中心问",
+          "ticket": "含在园区门票内，<strong>园内点位无独立门票，年票覆盖</strong>。<strong>2026-09-13 核对 NPS Fees &amp; Passes 官方页</strong>：私家车 7 日票 <strong>$35</strong>、摩托车／雪地车 $30、徒步或骑行每人 <strong>$20</strong>（未满 16 岁免费）；Yellowstone 年票与 America the Beautiful 年票均 <strong>$80</strong>。<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100，持任一年票者豁免</strong>",
+          "hours": "<strong>2026-09-13 复核：无门禁、9 月下旬正常通行。</strong><strong>NPS 没有为 Firehole Canyon Drive 单独公布 2026 年季节性关闭日期</strong>——按 2026 版 Superintendent’s Compendium 的通则（<em>「Starting November 1st ... the Grand Loop Road and park entrance roads are closed to wheeled motor vehicle use」</em>），它应与主环路同步在 <strong>10/31 结束通车</strong>；<strong>但这一点未能从官方渠道单独确认</strong>，且它是低海拔窄路、遇早雪临时封闭完全可能。<strong>它也不在 NPS 实时路况地图上</strong>，只能打 (307) 344-2117 或到访客中心问",
           "parking": "<strong>没有正式停车场，只有若干极小的路肩</strong>。瀑布处那片最大，也只容几台车。<strong>禁止大巴、拖挂与房车进入</strong>",
           "walk": "停车即到，全程步行不超过 30 米。<strong>开完整条路加拍摄约 20–40 分钟</strong>"
         },
@@ -4476,6 +4781,7 @@ var REGIONS = [
         "n": 3,
         "name": "喷泉泥浆池与火洞湖车道",
         "en": "Fountain Paint Pot & Firehole Lake Drive",
+        "must": 3.5,
         "score": 4,
         "tldr": "已核实：Firehole Lake Drive 因路面被地热烤化，2026 年对机动车关闭、仅可步行与骑行——Great Fountain 得走 1.5 公里进去。Fountain Paint Pot 栈道正常。",
         "tags": [
@@ -4508,6 +4814,14 @@ var REGIONS = [
           "<strong>Great Fountain Geyser 是这条路上真正的目标，也是本区上限最高的一张照片。</strong>它从一圈层层叠叠的硅华台阶（sinter terraces）中央喷出，<strong>平常 75–100 英尺，偶发的「superburst」可达 200 英尺</strong>；NPS 给的预报间隔是 <strong>约 11 小时 30 分 ± 2 小时</strong>——<strong>误差窗口四小时宽，而且现在你还得走进去</strong>，所以现实做法是：先在 Old Faithful Visitor Education Center 问当天预报时间，只有当它落在日落前后一两小时内才值得专程去。<strong>那些「喷泉映在台阶浅水里、背后是紫红色晚霞」的经典照片，就是在这个预报窗口刚好碰上日落时拍到的</strong>",
           "<strong>White Dome Geyser 是另一种题材：一个 12 英尺高的巨大泉锥。</strong>它是全园最大的间歇泉锥之一，喷发只有 30 英尺高、持续 2 分钟，<strong>但那个厚重的锥体本身就是极好的剪影主体</strong>，不喷也能拍",
           "<strong>栈道上的 bobby socks trees 是被低估的题材。</strong>热泉的矿化水被树根吸上去，在树干下部沉积成白色硅质外壳，形成「穿了白袜子的死树」。<strong>Silex Spring 一带成片站着这样的枯树，清晨逆光配蒸汽是本区最有气氛的一组画面</strong>"
+        ],
+        "tour": [
+          "<strong>主环线是 0.5 英里／0.8 公里的木栈道单向环（loop），全程无障碍、有缓坡，</strong><strong>按逆时针方向走（下车后沿右手边上坡）是官方标示的顺序，也是看点排列最合理的方向</strong>：先热泉（Silex、Celestine）→ 再爬到最高处的泥浆池 → 下坡到间歇泉群（Clepsydra、Fountain）→ 回停车场。<strong>30 分钟到 1 小时走完，是全园最划算的一段栈道</strong>",
+          "<strong>四个绝不能错过的点，按栈道顺序：</strong><strong>①Silex Spring</strong>（一上坡就到，深蓝的近沸点热泉，旁边成片的「白袜子枯树」bobby socks trees 是本站的招牌）；<strong>②Fountain Paint Pot 本体</strong>（环线最高处的泥浆池，<strong>9 月是它一年里最稠、泡最大的时候</strong>，春天融雪期反而只是一锅稀汤，值得站三五分钟看它炸泡）；<strong>③Red Spouter</strong>（一个季节性变身的洞，秋天多半已从泥浆池变成一个吼着蒸汽的干喷气孔）；<strong>④Clepsydra Geyser</strong>（下坡段，<strong>1959 年 Hebgen Lake 7.3 级地震之后它就几乎不间断地喷，是全园唯一不用等的间歇泉</strong>）",
+          "<strong>Firehole Lake Drive 在 2026 年对机动车关闭，这决定了你要不要去 Great Fountain。</strong><strong>结论：普通游客不建议去。</strong>把车停在 Fountain Paint Pot 停车场，沿被地热烤坏的旧沥青路走 <strong>单程 1.2–1.5 公里／约 20 分钟</strong>才能到 Great Fountain Geyser，而<strong>它的预报误差是 ± 2 小时（全园最宽）</strong>——<strong>除非你在 Old Faithful 游客中心问到的预报时间刚好落在你能等的那一两小时里，否则这 3 公里往返大概率白走</strong>。沿途没有栈道、没有厕所、没有信号，且是熊乡，喷雾要握在手里",
+          "<strong>停车场满位时段是 10:30–15:30</strong>，因为它正好卡在 Madison 与 Old Faithful 之间、是所有人午间必经的一站。<strong>9 月下旬 9:30 前或 16:00 后基本随到随停</strong>，即使在高峰时段绕一圈通常也能等到位",
+          "<strong>厕所在停车场（秋季可能关闭），全站没有餐饮也没有饮水机。</strong><strong>最近的热食与可靠厕所在 Old Faithful（10 英里／约 20 分钟），Madison 方向 6 英里只有营地厕所</strong>。这一带完全没有手机信号，导航要提前离线下载",
+          "<strong>安全：全程必须留在木栈道上，这是联邦规定不是建议。</strong><strong>泥浆池会甩出几米远的酸性泥点，不要把脸和衣服凑到最活跃的那个点上方</strong>；<strong>栈道旁常有野牛群卧着晒太阳，挡路时唯一正确的做法是原路退回等，绝不能绕下栈道</strong>（法定最小距离 25 码／23 米）。热区内禁止饮食，喝水不限"
         ],
         "photo": "风光 <strong>4/5</strong>，微距／细节 <strong>4.5/5</strong>，人像 <strong>2/5</strong>。<strong>它是本区题材密度第二高的盆地（仅次于 Upper Geyser Basin），而且人比 Midway 与 Old Faithful 少得多。</strong>泥浆池的高速抓拍、Clepsydra 的持续喷发、bobby socks trees 的逆光剪影是三个各自独立成立的方向。扣分只在 Firehole Lake Drive 禁车这一条上——它把 Great Fountain 从「顺路」变成了「远征」。",
         "shots": [
@@ -4557,9 +4871,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>只走 Fountain Paint Pot 环线：40 分钟到 1 小时</strong>（NPS 步道页官方口径「30 minutes to 1 hour」，那是净走路时间；<strong>停下来看泥浆池炸泡与 Clepsydra 至少要加 15 分钟</strong>）。<strong>分配：Silex Spring 与白袜树 10 分钟、泥浆池 10–15 分钟、Clepsydra 与 Fountain 一带 15 分钟。</strong><strong>如果决定步行去 Great Fountain Geyser，整站要按 2.5–3 小时算</strong>（往返约 3 公里步行 40–50 分钟，加上等喷发的不确定时间）",
           "book": "不需预约",
-          "ticket": "含在园区门票内，<strong>年票覆盖</strong>",
-          "hours": "Fountain Paint Pot 栈道无门禁、全天可入，<strong>2026 年秋季无公布的封闭段</strong>。<strong>Firehole Lake Drive：对机动车关闭，步行与自行车允许通行。</strong>依据是 2026 版 Superintendent’s Compendium 在 36 CFR §4.11 项下的成文规定<em>「Firehole Lake Drive is closed to vehicles.」</em>（同一份文件 §1.5 另有一句旧条文只写「六吨以上禁行」，两句冲突，见上方说明；本页按无条件禁车准备）。网络上有一则关于北段部分恢复通车的说法，<strong>未能从官方渠道确认；这条支线也不在 NPS 实时路况地图上，出发当天请拨 (307) 344-2117 或到 Old Faithful Visitor Education Center 向 ranger 核实</strong>。所在的 Madison ↔ Old Faithful 路段 2026 年通车至 <strong>10/31</strong>",
+          "ticket": "含在园区门票内，<strong>园内点位无独立门票，年票覆盖</strong>。<strong>2026-09-13 核对 NPS Fees &amp; Passes 官方页</strong>：私家车 7 日票 <strong>$35</strong>、摩托车／雪地车 $30、徒步或骑行每人 <strong>$20</strong>（未满 16 岁免费）；Yellowstone 年票与 America the Beautiful 年票均 <strong>$80</strong>。<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100，持任一年票者豁免</strong>",
+          "hours": "<strong>2026-09-13 复核，9/22–9/29 窗口内栈道正常开放。</strong>Fountain Paint Pot 栈道无门禁、全天可入，<strong>2026 年秋季无公布的封闭段</strong>。<strong>Firehole Lake Drive：对机动车关闭，步行与自行车允许通行。</strong>依据是 2026 版 Superintendent’s Compendium 在 36 CFR §4.11 项下的成文规定<em>「Firehole Lake Drive is closed to vehicles.」</em>（同一份文件 §1.5 另有一句旧条文只写「六吨以上禁行」，两句冲突，见上方说明；本页按无条件禁车准备）。网络上有一则关于北段部分恢复通车的说法，<strong>未能从官方渠道确认；这条支线也不在 NPS 实时路况地图上，出发当天请拨 (307) 344-2117 或到 Old Faithful Visitor Education Center 向 ranger 核实</strong>。所在的 Madison ↔ Old Faithful 路段 2026 年通车至 <strong>10/31</strong>",
           "parking": "Fountain Paint Pot 有正式停车场（OSM 停车面中心 <strong>44.54792, −110.80788</strong>），10 月车位充裕。<strong>Firehole Lake Drive 的南端入口在主路旁，把车停在 Fountain Paint Pot 停车场步行进入最稳</strong>（到 Great Fountain 约 1.2–1.5 公里）",
           "walk": "Fountain Paint Pot 环线 <strong>0.5 英里／0.8 公里木栈道，全程无障碍、有缓坡</strong>，30 分钟到 1 小时。<strong>加上 Firehole Lake Drive 的步行段，往返约 3 公里、总计 2–3 小时</strong>"
         },
@@ -4592,6 +4907,7 @@ var REGIONS = [
         "n": 4,
         "name": "中途间歇泉盆地",
         "en": "Midway Geyser Basin",
+        "must": 5,
         "score": 4.5,
         "tldr": "橙色径流扇流进 Firehole River 是本区最好的清晨题材，而且它是唯一一个「蒸汽越厚越好」的机位；Excelsior 每分钟往河里倒 4,000 加仑热水。",
         "tags": [
@@ -5362,6 +5678,7 @@ var REGIONS = [
         "n": 2,
         "name": "Oxbow Bend 牛轭湾",
         "en": "Oxbow Bend",
+        "must": 4.5,
         "score": 5,
         "tldr": "全园第一机位：Mount Moran 在死水面上的完整倒影，路边下车即到。但只在日出成立，且 10 月中旬后棉白杨落光。",
         "tags": [
@@ -5392,6 +5709,14 @@ var REGIONS = [
           "<strong>10 月中旬前，对岸密集的 narrowleaf cottonwood 与 quaking aspen 会形成一条金色带，正好压在深色水面与灰白山体之间</strong>，这三层色阶是这张照片被称作「全园最好的一张」的真正原因。物候模型给出的典型峰值是 9 月 17 日，<strong>10 月 1 日以后进入落叶期</strong>。",
           "这里同时是全园密度最高的野生动物点之一：<strong>驼鹿在柳丛里觅食、白鹈鹕与号手天鹅停歇、白头海雕在对岸枯木顶上定点、水獭在浅滩活动</strong>。带 400mm 以上的话，日出后一小时是最好的动物时段——但请守住 100 码（熊、狼）与 25 码（其他）的法定距离。",
           "<strong>致命的时段限制：Mount Moran 从这里看方位角 259°，仰角 5.5°；而 9 月 25 日日落方位 269°。</strong>也就是说太阳几乎正好沉进 Moran 背后，<strong>直射光比日历日落早约 30 分钟就结束，之后山体是纯逆光剪影</strong>。这里的傍晚不是没得拍（暮色剪影与倒影仍有画面），但<strong>「Oxbow Bend 拍日落」是一个被大量旅游文章重复的错误建议</strong>。"
+        ],
+        "tour": [
+          "<strong>这是一个路边观景点，不是景区，也不需要走步道。</strong>从 US-89/191/287 的铺装 turnout 下车，走 20–30 米平坦地面就到水边，普通鞋即可，铺装段轮椅可达。所谓「逛」就是沿岸线来回挪两三百米换角度，看的是同一座山。",
+          "<strong>标准逛法：</strong>先在主 turnout 正对水面看 Mount Moran 的完整立面——认它的两个特征，<strong>山体中央那条几乎垂直的黑色岩脉（the Black Dike）</strong>与<strong>东壁上形似平底锅的 Skillet Glacier</strong>；然后沿岸往西北走那条土路 10–15 分钟，水面更开阔、人少一个量级，原路折返。全套 30–40 分钟，只看一眼 10 分钟够了。",
+          "<strong>停车是这里唯一的实际难点：turnout 只有 20–30 个车位。</strong><strong>日出前 45 分钟就开始满，08:00–10:00 是全天最挤的时段，11:00 之后明显松动。</strong>满位时不要停在行车道上、也不要把车开下路肩草地；往西 1 英里的 Jackson Lake Junction 一带空间大得多，等一轮再回来。",
+          "<strong>厕所与餐饮：这里什么都没有——没有厕所、没有垃圾桶、没有饮水、没有手机信号。</strong>最近的设施是 <strong>Jackson Lake Lodge（往西约 5 分钟车程，有洗手间与 Pioneer Grill 快餐，2026 年营业到 10 月 4 日）</strong>与 <strong>Colter Bay（约 15 分钟车程，便利店与洗手间，2026 年 9 月底陆续关闭）</strong>。出发前先解决，别指望现场。",
+          "<strong>野生动物的规矩要当硬性规定守：法定距离是熊与狼 100 码（约 91 米）、其他一切动物（含驼鹿、麋鹿、bison）25 码（约 23 米）</strong>，车内车外一视同仁，禁止投喂与引诱。这里驼鹿、白头海雕、水獭、白鹈鹕都常见，但都请在岸上远远看。<strong>岸线是软泥且正是驼鹿的核心觅食区，不要为了看清楚下到泥岸。</strong>",
+          "<strong>熊喷雾：西侧岸线那条土路两侧全是柳丛、视线完全被挡，是典型的近距离遭遇地形，单独走请带 EPA 注册的熊喷雾并持续出声。</strong>9 月下旬正是熊的增食期（hyperphagia），全年冲突概率最高。<strong>喷雾不能带上飞机</strong>，在 Jackson 的户外店购买或租用。另外这一带「动物堵车」是日常：看到前车突然停下先减速，把车完全停进 turnout 再下车，不要站在行车道上。"
         ],
         "photo": "风光 <strong>5/5</strong>，野生动物 <strong>4.5/5</strong>，人像 <strong>3/5</strong>。正面受光的雪山 + 镜面死水 + 前景金树 + 零步行距离，构图元素齐备到近乎作弊，这是本区唯一无条件给 5 分的点。扣分只在时段极窄（一天里只有日出后 60–90 分钟真正成立）与人多。人像 3 分是因为岸边站位窄、背景是山不是人，只能拍环境肖像。",
         "shots": [
@@ -5429,9 +5754,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>30–45 分钟</strong>（下车看山 10–15 分钟 + 西侧岸线土路往返 20–30 分钟）。<strong>只想打卡：10 分钟。</strong><strong>要等日出或蹲野生动物：预留 1.5–2 小时</strong>——日出前 45 分钟到位，日出后 75 分钟内收工（起风后水面就碎了）。",
           "book": "不需预约。Grand Teton 全园无 timed entry、无车辆预约。",
-          "ticket": "园区门票 <strong>$35 / 车 / 7 天</strong>；<strong>持 America the Beautiful 年票免费</strong>，且免掉非美居民 $100/人的附加费。园区不收现金。",
-          "hours": "<strong>24 小时开放，全年无休。</strong>turnout 无门禁、无关闭时间，可以在天黑前到位等日出。所在的 US-89/191/287 是全年开放的主干道。",
+          "ticket": "园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 16 岁以上 $20，同为 7 天）；<strong>Grand Teton 单园年票 $70</strong>；<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。<strong>非美国居民 16 岁以上每人另付 $100 nonresident fee，官方原文「unless admitted with an Annual or America the Beautiful Pass」——持任一年票即免。</strong><strong>与 Yellowstone 的关系：两园各收各的，Grand Teton 的 $35 七日票与 $70 单园年票都进不了 Yellowstone；只有 America the Beautiful 年票一票通吃。</strong><strong>2026 年 5 月 1 日起全园不收现金</strong>，只收刷卡、tap-to-pay 与手机钱包；七日票与年票也可先在 recreation.gov 买电子版。（<strong>2026-09-13 核实于 nps.gov/grte 官方 Fees &amp; Passes 与 Fee FAQ 页</strong>）",
+          "hours": "<strong>24 小时开放，全年无休。</strong>turnout 无门禁、无关闭时间，可以在天黑前到位等日出。所在的 US-89/191/287 是全年开放的主干道。（2026-09-13 核实于 nps.gov/grte Park Roads 页）",
           "parking": "路侧铺装 turnout，<strong>免费</strong>，约 20–30 个车位。<strong>秋季日出前 45 分钟基本会满</strong>，10 月下旬压力小很多。严禁停在行车道上。",
           "walk": "<strong>不到 1 分钟 / 约 20–30 米</strong>，平坦。西侧岸线机位需另走 10–15 分钟土路。"
         },
@@ -5464,6 +5790,7 @@ var REGIONS = [
         "n": 3,
         "name": "Signal Mountain Summit Road 与 Jackson Point Overlook",
         "en": "Signal Mountain Summit Road · Jackson Point Overlook",
+        "must": 4,
         "score": 4.5,
         "tldr": "本区唯一真正成立的日落点：从 800 英尺高处俯瞰蛇河曲流与整个河谷。11 月 1 日封路，早雪会提前关。",
         "tags": [
@@ -5558,6 +5885,7 @@ var REGIONS = [
         "n": 4,
         "name": "Jenny Lake · String Lake · Hidden Falls 与 Inspiration Point",
         "en": "Jenny Lake · String Lake · Hidden Falls · Inspiration Point",
+        "must": 5,
         "score": 4.5,
         "tldr": "渡船 9/30 停航，之后去 Hidden Falls 往返多走 4 英里；观景环路开到 10/31。",
         "tags": [
@@ -5588,6 +5916,14 @@ var REGIONS = [
           "<strong>渡船停航后的实际后果要说清楚：</strong>渡船省掉的是<strong>单程 2 英里的环湖步行</strong>。<strong>10 月 1 日起，从东岸游客中心走到 Hidden Falls 变成单程约 2.5 英里、到 Inspiration Point 单程约 3 英里</strong>，往返 5–6 英里、爬升约 400–1,000 英尺，而 10 月的日照只有 10 小时出头。<strong>这不是「难」，是要多花 2–3 小时，且要在天黑前下山。</strong>",
           "<strong>Hidden Falls 落差约 100 英尺，藏在 Cascade Creek 的峡口里；Inspiration Point 再往上约 0.5 英里、爬升约 400 英尺，是一处岩台，能俯瞰整个 Jackson Hole 河谷与 Jenny Lake 全貌。</strong>瀑布本身在<strong>上午 09:00–11:00</strong>是柔和的漫射光（峡口深、直射光进不去），是最好的时段。",
           "<strong>String Lake 是本区被低估的一处。</strong>它极浅、几乎不流动，<strong>正对 Mount Moran（方位 325°、距 6.9 公里、仰角 14.4°）</strong>，清晨无风时倒影质量不输 Oxbow Bend，而且<strong>因为山近，Moran 在画面里的体量大得多</strong>。游客绝大多数在夏天来这里泡水，秋天几乎没人。<strong>Jenny Lake Scenic Drive 与 String Lake 一带的通行取决于 Teton Park Road，10 月 31 日之后全部封闭。</strong>"
+        ],
+        "tour": [
+          "<strong>这是全区唯一值得排半天的地方，标准玩法是一条固定动线：</strong>把车停在 South Jenny Lake → 在 Jenny Lake Visitor Center 一带解决厕所 → 走 100–150 码铺装小径到<strong>东岸码头</strong> → <strong>坐渡船 10 分钟到西岸码头</strong> → 上行 <strong>0.5 英里到 Hidden Falls（落差约 100 英尺）</strong> → 再上行 <strong>0.5 英里、爬升约 400 英尺到 Inspiration Point</strong>（岩台，俯瞰整个 Jackson Hole 河谷与 Jenny Lake 全貌）→ 原路下来坐船回东岸。<strong>这一整套 3–4 小时。</strong>",
+          "<strong>渡船怎么坐（2026-09-13 核实于 jennylakeboating.com 官方页）：不接受预订，到东岸码头现场排队买票上船。</strong><strong>9 月 8 日至 9 月 30 日运营 09:00–17:00，每 10–15 分钟一班、单程约 10 分钟，末班船在挂牌关门时刻（17:00）从码头开出。</strong><strong>票价：成人（13–61 岁）往返 $20 / 单程 $15；62 岁以上往返 $18 / 单程 $15；2–12 岁往返 $15 / 单程 $12。单程票两岸都能买。</strong><strong>排队诀窍是官方自己写的：早上东岸排最长、下午西岸排最长——想躲早上的队就先走过去、坐船回来；想躲下午的队就先坐船、走回来。</strong>另有 10:00 与 12:00 两班 scenic cruise（成人 $30 / 62+ $27 / 2–11 岁 $25，建议预订，307-734-9227）。",
+          "<strong>体力与路面分两段，差别很大。</strong><strong>西岸码头到 Hidden Falls 的 0.5 英里是坡度平缓的压实碎石路</strong>，绝大多数人都能走，但不适合婴儿推车。<strong>Hidden Falls 再往上到 Inspiration Point 的 0.5 英里是石阶与岩坡、爬升约 400 英尺、单程 30–40 分钟，体力要求明显跳一档，轮椅与推车完全不可行。</strong><strong>9 月下旬清晨背阴的岩阶可能挂霜或薄冰，微钉鞋套值得带。</strong>体力一般就只到 Hidden Falls 折返，那也已经值回票价。",
+          "<strong>不想花钱或不想排队的两个替代：</strong>（1）<strong>沿 Jenny Lake Loop Trail 绕南岸走过去，单程 2–2.5 英里、平坦、约 1 小时</strong>，往返比坐船多花 2 小时左右；（2）<strong>直接放弃西岸，去 String Lake</strong>——从 North Jenny Lake Junction 西转北行，停车即到湖岸，<strong>水极浅、正对 Mount Moran（仅 6.9 公里）、秋天几乎没人</strong>，是本条目里性价比最高、最省力的一站，20–30 分钟就能看完。",
+          "<strong>停车与满位：South Jenny Lake 停车场 09:00–15:00 会满，最佳到达时间是 08:00 前或 16:00 后</strong>；String Lake 停车场压力小得多。<strong>Jenny Lake Scenic Drive 是单行观景环路（5 月 1 日 – 10 月 31 日开放），错过出口只能绕回 Teton Park Road 重新进。</strong>另外<strong>从 Jackson 走内环过来会撞上 Moose 入口环岛的 20 分钟施工延误（5/1–11/15，不含入口站排队）</strong>，出门请多留半小时。",
+          "<strong>厕所与餐饮的位置要记住，因为西岸什么吃的都没有。</strong>东岸：<strong>Jenny Lake Visitor Center（2026 年开到 10 月 12 日）</strong>与码头一带有洗手间；<strong>Jenny Lake General Store 与 Jenny Lake Lodge 餐厅 10 月 4 日关闭</strong>。西岸：<strong>只有厕所，没有任何餐饮与饮水，请自带水和干粮上山。</strong>最近的正经餐饮是往南约 20 分钟车程 Moose 路口的 <strong>Dornan’s</strong>（全年营业）。<strong>Cascade Canyon 一带是黑熊与灰熊的高频活动区，NPS 明确要求三人以上结队、持续出声、随身带熊喷雾</strong>，9 月下旬是增食期，风险更高。"
         ],
         "photo": "风光 <strong>4.5/5</strong>，人像 <strong>4/5</strong>，野生动物 <strong>3/5</strong>。山近、湖静、可选机位多；扣分在于 <strong>Jenny Lake 东岸虽然在日出时是顺光，但岸线被密林封住、开阔机位极少，湖又窄，构图很受限</strong>，真正好用的是 String Lake（水更浅更静、角度更开）与地势更高的 Jenny Lake Overlook。西岸的 Hidden Falls 与 Inspiration Point 是本区少数适合上午拍的目标。人像 4 分：湖岸砾石滩、栈桥、林间步道都好用。",
         "shots": [
@@ -5625,9 +5961,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "园区不需预约。<strong>渡船不接受预订</strong>（现场买票）；scenic cruise 建议预订，307-734-9227。",
-          "ticket": "园区门票 <strong>$35 / 车 / 7 天</strong>，<strong>年票覆盖</strong>。<strong>渡船另收：成人往返 $20 / 单程 $15；62+ 往返 $18 / 单程 $15；2–12 岁往返 $15 / 单程 $12。Scenic cruise 成人 $30 / 老人 $27 / 儿童 $25。</strong>",
-          "hours": "<strong>湖区与步道 24 小时开放。</strong><strong>Jenny Lake Boating 2026 年 9 月 30 日为本季最后一天</strong>，9/8–9/30 运营时间 09:00–17:00。<strong>Jenny Lake Visitor Center 10 月 12 日关闭；Jenny Lake General Store 与 Jenny Lake Lodge 10 月 4 日关闭；Jenny Lake Campground 已于 9 月 27 日关闭。</strong><strong>Jenny Lake Scenic Drive 5 月 1 日 – 10 月 31 日开放；整个区域随 Teton Park Road 于 11 月 1 日封闭。</strong>",
+          "visit": "<strong>半天：3–4 小时</strong>（渡船往返 40 分钟含排队 + Hidden Falls 与 Inspiration Point 徒步 2–2.5 小时 + 湖岸机动 30 分钟）。<strong>只坐船到西岸看 Hidden Falls 就回：2–2.5 小时。</strong><strong>只在东岸湖边与游客中心转转：45 分钟 – 1 小时。</strong><strong>单独加 String Lake：再加 30–45 分钟</strong>（含 10 分钟车程）。<strong>渡船停航后（10 月 1 日起）走全程：5–6 小时，往返 5–6 英里。</strong>",
+          "book": "园区不需预约，无 timed entry。<strong>渡船不接受预订，只能到东岸码头现场买票</strong>；scenic cruise 建议预订，307-734-9227。",
+          "ticket": "园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 $20）；<strong>Grand Teton 单园年票 $70</strong>；<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。<strong>非美居民 16 岁以上每人另付 $100，持任一年票即免。</strong><strong>与 Yellowstone 各收各的，$35 与 $70 都不通用。</strong><strong>全园不收现金。</strong><strong>渡船由特许经营商 Jenny Lake Boating 另收，与园区门票无关、年票不覆盖：成人（13–61）往返 $20 / 单程 $15；62 岁以上往返 $18 / 单程 $15；2–12 岁往返 $15 / 单程 $12；2 岁以下免费。Scenic cruise 成人 $30 / 62+ $27 / 2–11 岁 $25。</strong>（2026-09-13 核实于 nps.gov/grte Fees &amp; Passes 页与 jennylakeboating.com 官方票价页）",
+          "hours": "<strong>湖区与步道 24 小时开放、无门禁。</strong><strong>Jenny Lake Boating 官方原文「September 30 will be the last day of our 2026 operating season. This includes all services.」；9 月 8 日 – 9 月 30 日运营 09:00–17:00，每 10–15 分钟一班，末班船在挂牌关门时刻从码头开出（即 17:00）。Scenic cruise 同期为 10:00 与 12:00 两班。</strong><strong>Jenny Lake Visitor Center 10 月 12 日关闭；Jenny Lake General Store 与 Jenny Lake Lodge 10 月 4 日关闭；Jenny Lake Campground 已于 9 月 27 日关闭。</strong><strong>Jenny Lake Scenic Drive 5 月 1 日 – 10 月 31 日开放；整个区域随 Teton Park Road 于 11 月 1 日封闭。</strong>（2026-09-13 核实于 jennylakeboating.com 与 nps.gov/grte Operating Hours 页）",
           "parking": "South Jenny Lake 与 String Lake 均为免费铺装／碎石停车场。夏季中午必满，<strong>10 月下旬基本随到随停</strong>。",
           "walk": "游客中心到东岸码头 <strong>100–150 码 / 2 分钟</strong>；西岸码头到 Hidden Falls <strong>0.5 英里</strong>、到 Inspiration Point <strong>1 英里 / 爬升 400 英尺</strong>；<strong>渡船停航后从东岸绕行单程 2.5–3 英里</strong>。String Lake 停车即到湖岸。"
         },
@@ -5660,6 +5997,7 @@ var REGIONS = [
         "n": 5,
         "name": "Snake River Overlook 蛇河观景台",
         "en": "Snake River Overlook",
+        "must": 3,
         "score": 3,
         "tldr": "Ansel Adams 1942 年那张的原址，但树长高了——他拍的那个前景已经不存在，河湾的 S 形现在被挡住大半。",
         "tags": [
@@ -5686,6 +6024,13 @@ var REGIONS = [
           "<strong>现在你实际能看到什么：</strong>台地上一片开阔的鼠尾草滩，中景是一条深色的针叶林带，林带上方<strong>能看到蛇河的一小段亮面（大致在画面中偏右），但看不到完整的 S</strong>，再往上是从 Buck Mountain 到 Mount Moran 的完整山脊。换句话说：<strong>它现在是一个「不错的宽幅山景 + 一小段河」的观景台，而不是一个可复制经典的机位。</strong>现场右侧有 NPS 的解说牌讲这段历史，也算一个题材。",
           "几何上它其实还不错：<strong>Grand Teton 方位 265°、距 14.4 公里、仰角 8.3°</strong>，日出时整排山脊正面受光，前景鼠尾草滩在低角度侧光下纹理很好。<strong>但仰角 8.3° 意味着直射光比日历日落早约 45 分钟结束</strong>，傍晚同样不成立。"
         ],
+        "tour": [
+          "<strong>它是 US-89/191 路侧的一个大型铺装观景台，没有步道、没有门、没有高差，下车走十几米就到栏杆</strong>，房车与拖挂可停，<strong>全程轮椅可达</strong>。要做的事只有两件：站在栏杆边看整排 Teton 山脊，以及读观景区偏右侧的那块 NPS 解说牌——它讲的就是 Ansel Adams 1942 年在这里拍下《The Tetons and the Snake River》的经过。",
+          "<strong>去之前先把期望调好，否则现场只会失望：Adams 那张照片的画面已经不存在了。</strong>八十多年里观景台与河之间的松树长了上来，<strong>原作里那条蜿蜒进纵深的蛇河 S 形曲线，下半段已经被树冠完全挡住</strong>，这是永久性的。<strong>你现在实际会看到：一片开阔的鼠尾草台地、中景一条深色针叶林带、林带上方一小段发亮的河面（偏画面右侧）、再往上是从 Buck Mountain 到 Mount Moran 的完整山脊。</strong>当成「视野很宽的免费山景台」它是合格的；当成「朝圣 Adams」它一定让你失望。",
+          "<strong>建议和往南 3 英里的 Teton Point Overlook 连着看。</strong>那里同样是路侧铺装 turnout、同样不用走路，<strong>但前景树的遮挡情况不同，某些年份能看到更完整的一段河道</strong>，而且山更近（Grand Teton 约 12.5 公里）。两个点开车相距 5 分钟，看完选自己更喜欢的那个多待一会儿。",
+          "<strong>停车场大且直接在主干道边，秋季几乎不会满</strong>，是本区少数适合房车、行动不便者与「不想下车走路」的人的点位。<strong>但 turnout 是否设有旱厕，未能从官方渠道确认——请按「没有厕所、没有饮水、没有垃圾桶」准备。</strong>最近的正规洗手间是往南约 9 英里 Moose 的 Craig Thomas 访客中心（开到 10 月 31 日），往北是 Jackson Lake Lodge 一带。",
+          "<strong>台地上的风比河谷大得多，清晨体感温度会明显低于气温</strong>，即使只待 20 分钟也请带防风外层与帽子。不要为了角度跨过栏杆踩进鼠尾草滩——这是受保护的植被，也常有响尾蛇以外的小动物；同时守住野生动物 25 码（熊与狼 100 码）的法定距离。"
+        ],
         "photo": "风光 <strong>3.5/5</strong>，人像 <strong>2.5/5</strong>，纪实 <strong>4/5</strong>。给 3 分不是因为难看，而是因为<strong>大多数人来这里是为了复刻 Adams，而这件事已经做不到了</strong>，落差本身会毁掉体验。把它当成「一个视野宽、停车方便、日出光很好的台地机位」，评价会公道很多。纪实 4 分是因为「摄影史地标 + 已被时间改变」这个主题本身就值得拍一张对照。",
         "shots": [
           {
@@ -5710,9 +6055,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>15–25 分钟</strong>（下车看山 + 读解说牌）。<strong>加上南边 3 英里的 Teton Point Overlook 连看：合计 40–50 分钟</strong>（含两点之间 5 分钟车程）。<strong>要等日出：预留 1 小时</strong>，日出前 30 分钟到位即可，这里从不抢车位。",
           "book": "不需预约",
-          "ticket": "园区门票 <strong>$35 / 车 / 7 天</strong>；<strong>持 America the Beautiful 年票免费</strong>。",
-          "hours": "<strong>24 小时开放。</strong>位于全年开放的 US-26/89/191 上，冬季也能到。",
+          "ticket": "园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 $20）；<strong>Grand Teton 单园年票 $70</strong>；<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。<strong>非美居民 16 岁以上每人另付 $100，持任一年票即免。</strong><strong>与 Yellowstone 各收各的，$35 与 $70 都不通用。</strong><strong>全园不收现金。</strong>观景台本身完全免费。（2026-09-13 核实于 nps.gov/grte 官方 Fees &amp; Passes 页）",
+          "hours": "<strong>24 小时开放、无门禁、全年无休。</strong>位于全年开放的 US-26/89/191 上，冬季铲雪，是本区最稳的点位之一。（2026-09-13 核实于 nps.gov/grte Park Roads 页）",
           "parking": "<strong>大型铺装停车场，免费</strong>，房车与拖挂可停。秋季几乎不会满。",
           "walk": "<strong>0–1 分钟</strong>，停车场直接连观景平台，无高差，轮椅可达。"
         },
@@ -5744,6 +6090,7 @@ var REGIONS = [
         "n": 6,
         "name": "Schwabacher Landing 河岸下水点",
         "en": "Schwabacher Landing",
+        "must": 3,
         "score": 4.5,
         "tldr": "海狸坝把河水拦成静水，能拍到整条 Teton 山脊的完整倒影。碎石支路 10 月中旬后可能已封，出发前必查。",
         "tags": [
@@ -5770,6 +6117,14 @@ var REGIONS = [
           "和 Oxbow Bend 相比，这里的<strong>山更近（Grand Teton 距离 11.1 公里，Oxbow 是 24.7 公里）、山体在画面里更大、山脊层次更完整</strong>，但代价是仰角高达 <strong>11.2°</strong>——<strong>直射光比日历日落早约 60 分钟结束（推算）</strong>，9 月下旬也就是 18:15 前后就没光了。这里比 Oxbow Bend 更彻底地只属于早晨。",
           "NPS 官方把这里列为可申请的婚礼场地，页面里给出了几项对拍摄有用的硬数据：<strong>约 20 个车位、有旱厕、地面平整、步道为土路、「早晨非常繁忙、中午中等、傍晚非常繁忙」</strong>，以及关键的一句——<strong>「Typically closed mid-October to mid-May」</strong>。"
         ],
+        "tour": [
+          "<strong>先在 US-191 的路口确认闸门开着再拐进去。</strong>支路是约 1 英里的压实碎石路、两侧无护栏、下坡且无处掉头，两驱轿车在干燥时没问题，雨后或初雪后会车辙泥泞。<strong>闸门锁着就是真的进不去，不要试图弃车步行。</strong>",
+          "<strong>到了之后的逛法很简单：把车停在尽头的北侧停车场，沿河岸土路往北走。</strong>3–10 分钟内会依次经过几处被海狸坝拦出来的静水塘，走到哪儿觉得水面好看就停在哪儿。<strong>往返 30–45 分钟</strong>，全程几乎无爬升。<strong>海狸坝的位置和水位每年都不同</strong>，所以别照着网上的老照片找位置，到现场自己走一遍再决定停在哪一段。",
+          "<strong>体力与路面：土路平整但有树根、碎石与河边软泥，落差很小，属于「随便谁都能走」的级别</strong>——但<strong>不适合轮椅与婴儿推车</strong>，天没亮时必须带头灯。穿防水的鞋，河边草上常有露水或霜。",
+          "<strong>停车只有约 20 个车位</strong>，分南北两个小场。NPS 自己给这里的人流口径是<strong>「早晨非常繁忙、中午中等、傍晚非常繁忙」</strong>；<strong>秋季日出前 40 分钟就会满，满了只能沿原路倒回 US-191，路上没有掉头点。</strong>中午来最容易停。",
+          "<strong>厕所有，餐饮没有：停车场旁有旱厕（无水、无洗手池），全区无饮水、无垃圾桶、无手机信号。</strong>最近的餐饮是往南约 4 英里 Moose 路口的 <strong>Dornan’s</strong>（杂货、披萨、咖啡，全年营业），或再往南进 Jackson 镇。",
+          "<strong>河岸柳丛是驼鹿的核心地形，9 月中到 10 月上旬是发情期，公驼鹿具有真实攻击性。</strong><strong>法定距离：熊与狼 100 码、其他动物 25 码。</strong>看到驼鹿就退回步道、绕开走，不要为了看清楚钻进灌木，也不要挡在它和河之间。带熊喷雾、结伴、出声——这条河岸和 Oxbow Bend 西侧一样是视线受阻的遭遇地形。"
+        ],
         "photo": "风光 <strong>5/5</strong>，人像 <strong>3.5/5</strong>，野生动物 <strong>3.5/5</strong>。完整山脊 + 河面高度 + 静水倒影，构图密度高于 Oxbow Bend；扣分在于车位极少、路况季节性不稳、机位窄导致人挤人。人像 3.5 分：河岸有几段干净的砾石滩可以站人，但清晨低温加逆着人流，实操不轻松。",
         "shots": [
           {
@@ -5794,9 +6149,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>45 分钟 – 1.5 小时</strong>（从 US-191 拐进来到开回主路的全程）：碎石路单程 5 分钟车程 + 河岸步行往返 30–45 分钟。<strong>只想下车看一眼：25–30 分钟。</strong><strong>等日出：预留 2 小时</strong>（日出前 40 分钟必须已经停好车）。",
           "book": "不需预约（举办仪式才需 NPS 许可，每天仅发一张、全年上限 60 张）。",
-          "ticket": "园区门票 <strong>$35 / 车 / 7 天</strong>；<strong>持 America the Beautiful 年票免费</strong>。",
-          "hours": "<strong>24 小时开放</strong>，但<strong>支路按季节关闭，NPS 口径「typically closed mid-October to mid-May」</strong>。9 月下旬可靠，10 月下旬有实质概率已封。",
+          "ticket": "园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 $20）；<strong>Grand Teton 单园年票 $70</strong>；<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。<strong>非美居民 16 岁以上每人另付 $100，持任一年票即免。</strong><strong>Grand Teton 与 Yellowstone 各收各的，$35 与 $70 都不通用。</strong><strong>全园不收现金。</strong>此处本身不另收费。（2026-09-13 核实于 nps.gov/grte 官方 Fees &amp; Passes 页）",
+          "hours": "<strong>24 小时开放、无门禁</strong>，但<strong>支路按季节关闭，NPS 官方口径「typically closed mid-October to mid-May」，不公布确切日期</strong>。<strong>9 月 22–29 日的窗口内可靠</strong>，10 月下旬有实质概率已封。（2026-09-13 核实于 nps.gov/grte 场地页与 Park Roads 页）",
           "parking": "<strong>约 20 个车位</strong>，免费，分南北两个小场。<strong>秋季日出前 40 分钟满位</strong>，满了只能原路退出去，路上无处掉头。",
           "walk": "停车到最近的海狸塘 <strong>3–10 分钟 / 200–600 米</strong>，土路平坦，天黑需头灯。"
         },
@@ -6020,6 +6376,7 @@ var REGIONS = [
         "n": 9,
         "name": "Mormon Row 摩门排屋历史区（Moulton 谷仓）",
         "en": "Mormon Row Historic District",
+        "must": 4.5,
         "score": 5,
         "tldr": "木谷仓正对 Teton 山脊、日出正面顺光，秋天鼠尾草滩挂霜是决定性加分。2026 全季施工，机器和噪音会入镜。",
         "tags": [
@@ -6051,6 +6408,14 @@ var REGIONS = [
           "<strong>方位几何完美：从谷仓看 Grand Teton 方位 309°、Mount Moran 方位 335°，都在西北；而 9 月 25 日日出方位 91°、10 月 22 日 105°。</strong>摄影者站在土路上朝西北拍，<strong>太阳从背后偏南方向打过来，同时照亮谷仓朝东的木板墙面和整排山体，是彻头彻尾的顺光</strong>。<strong>反过来在日落时，太阳在方位 255–269°，位于山脊的南侧偏低处，谷仓朝向镜头的那一面完全落在阴影里</strong>——所以<strong>结论明确：Mormon Row 是日出题材，黄昏在这里只能拍剪影，不能拍谷仓的木质纹理。</strong>",
           "<strong>2026 年的坏消息与好消息各一条。</strong>坏消息：<strong>Mormon Row 历史区正在进行多年改建项目的最后一期，工期 2026 年 6 月至 11 月</strong>，NPS 原文「Visitors will likely hear and see construction equipment in the vicinity of the historic district impacting the viewshed and soundscape」——<strong>翻译过来就是：机械设备可能进画，噪音一定有。</strong>好消息：<strong>历史区全季保持开放，没有任何封闭</strong>，而且项目内容正是修一个铺装停车场（含大巴位）、旱厕、遮阳棚与规范化的步道观景点，2027 年还会加一个 Grand Teton Association 的设施。"
         ],
+        "tour": [
+          "<strong>路线很简单：从 US-26/89/191 拐进 Antelope Flats Road 往东约 1.5 英里，再右转进南北向的 Mormon Row 土路。</strong>核心只有两组建筑、相距约 300 米：<strong>南边是 T. A. Moulton Barn（那张你见过一百次的照片）</strong>，<strong>北边是 John Moulton Barn 加那栋粉色住宅（Pink House）与几座附属棚屋</strong>。<strong>从南走到北再折回，全程约 600–700 米平坦土路，30–45 分钟看完。</strong>",
+          "<strong>建筑内部一律不开放，只能在外面绕着看，也没有讲解员或售票处。</strong>真正值得站住的是北边那一组——方正的谷仓、粉色住宅与棚屋凑在一起，能读出「一户人家」而不只是「一座谷仓」，<strong>而且人通常只有南边的三分之一</strong>。时间紧的话，南边拍完照就直接往北走，别在南边排队。",
+          "<strong>2026 年全区施工，这件事必须先知道：工期 6 月至 11 月，NPS 原文「Visitors will likely hear and see construction equipment in the vicinity of the historic district」。</strong><strong>好消息是历史区全季不关闭</strong>，施工内容正是在修一个带大巴位的铺装停车场、旱厕、遮阳棚与规范化步道。实际影响是<strong>噪音全天存在、机械可能出现在视野里、可用车位的位置随时变动</strong>。往北走 200 米通常能避开大部分机械。",
+          "<strong>停车目前仍是沿土路的非正式路侧停车，免费，没有划线。</strong><strong>日出前 40 分钟车位就开始紧张</strong>，上午 09:00–11:00 次紧张，下午最松。<strong>严禁把车开进草地或压到鼠尾草上</strong>；土路在雨后或融雪后会泥泞，两驱轿车慢行没问题但别停在软路肩。",
+          "<strong>厕所与餐饮：现场原本就没有正规洗手间、没有饮水、没有商店。</strong><strong>施工期间是否设了临时厕所，未能从官方渠道确认，请按「没有」准备。</strong>最近的固定设施是 <strong>Gros Ventre Campground（往南约 15 分钟车程，2026 年 10 月 10 日关闭）</strong>与 <strong>Moose 的 Craig Thomas 访客中心（往西约 20 分钟车程，开到 10 月 31 日）</strong>；Jackson 镇车程约 30 分钟。",
+          "<strong>bison 是这里比熊更现实的危险。</strong>Antelope Flats 一带常有成群 bison 穿过土路、走到建筑之间，<strong>它们看起来迟钝，实际时速可达 35 英里，每年在黄石—提顿一带撞伤的人比熊多。法定距离 25 码（约 23 米），熊与狼 100 码。</strong><strong>遇上就退回车里，车是最好的掩体；不要为了合影绕到它身后，也不要挡在牛群的行进方向上。</strong>另外这些是 1997 年列入 National Register of Historic Places 的登录建筑，<strong>不要触碰、攀爬或跨进围栏。</strong>"
+        ],
         "photo": "建筑 <strong>5/5</strong>，风光 <strong>5/5</strong>，人像 <strong>4/5</strong>。风化木质纹理 + 雪山 + 平坦鼠尾草前景 + 完美的日出方位，这是全园人文与自然结合得最好的一处。<strong>加分项是这个季节独有的霜</strong>：晴朗无风的夜后，鼠尾草滩会挂一层白，侧光下整片发亮。扣分只在施工与人多。人像 4 分：谷仓可以做背景框，但清晨机位前站人会挡住其他摄影者，请自觉。",
         "shots": [
           {
@@ -6075,9 +6440,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>45 分钟 – 1.5 小时</strong>：南北两组建筑各看 15–20 分钟 + 之间步行往返 10 分钟。<strong>只看 T. A. Moulton Barn 一处：20–25 分钟。</strong><strong>等日出：预留 1.5–2 小时</strong>——日出前 45 分钟到位（这时车位才好停），日出后 60 分钟光线转平就可以走。",
           "book": "不需预约",
-          "ticket": "园区门票 <strong>$35 / 车 / 7 天</strong>；<strong>持 America the Beautiful 年票免费</strong>。",
-          "hours": "<strong>24 小时开放，历史区 2026 年全季不关闭。</strong>但建筑内部不对外开放，只能外部拍摄。",
+          "ticket": "园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 $20）；<strong>Grand Teton 单园年票 $70</strong>；<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。<strong>非美居民 16 岁以上每人另付 $100，持任一年票即免。</strong><strong>与 Yellowstone 各收各的，$35 与 $70 都不通用。</strong><strong>全园不收现金。</strong>历史区本身免费、无单独门票。（2026-09-13 核实于 nps.gov/grte 官方 Fees &amp; Passes 页）",
+          "hours": "<strong>24 小时开放、无门禁，历史区 2026 年全季不关闭</strong>（NPS 施工公告明确不设封闭）。<strong>但建筑内部全年不对外开放，只能在外面看。</strong>通往这里的 <strong>Antelope Flats Road 属于「按条件季节性关闭」的次级道路，无公布日期</strong>，惯例 11 月 1 日前后关。（2026-09-13 核实于 nps.gov/grte Park Roads 与 Mormon Row 施工公告）",
           "parking": "<strong>免费。</strong>目前是沿 Mormon Row 土路的非正式路侧停车，<strong>2026 年正在施工新建铺装停车场（含大巴位与旱厕），工期到 11 月</strong>，施工期间可用车位与位置可能临时变动。<strong>日出前 40 分钟车位就开始紧张</strong>（10 月下旬明显缓解）。严禁把车开进草地。",
           "walk": "<strong>0–5 分钟。</strong>停车即在谷仓旁；从 T.A. 谷仓走到 John Moulton 一组约 300 米 / 4 分钟，土路平坦。"
         },

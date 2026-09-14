@@ -169,6 +169,7 @@ module.exports = {
       n: 1,
       name: 'Gantry Plaza 州立公园与 Pepsi-Cola 招牌',
       en: 'Gantry Plaza State Park · Pepsi-Cola Sign · Long Island City',
+      must: 2,
       score: 4.5,
       tldr: '免费、地面高度、正对 Midtown 的最佳正面机位；但太阳会提前 30 分钟沉进天际线，真正的价值在蓝调——<strong>而州立公园官网对闭园钟点有两个打架的口径（22:00 与「dusk」），出发前先打电话问</strong>。',
       tags: [
@@ -200,6 +201,29 @@ module.exports = {
         '南邻的 <strong>Hunters Point South Park</strong>（2013 年一期、2018 年二期）是同一条岸线的延伸，' +
           '设计上更现代，有一处不能下水的「城市沙滩」、螺旋观景平台和 NYC Ferry 码头。' +
           '它的角度更偏南，能把 Empire State Building 和 One World Trade Center 同时收进一张横幅'
+      ],
+      tour: [
+        '<strong>先认清这是什么：一个 12 英亩的滨水草坪，本身没有可参观的内容，全部价值在「对岸」。</strong>' +
+          '园内只有两样实物值得走近看——<strong>1939 年的 Pepsi-Cola 霓虹招牌</strong>与<strong>两座 1925 年的货运龙门架</strong>，' +
+          '其余是草地、长椅、球场和喷水池。因此它适合当作「顺路半小时」，不适合专程过河',
+        '<strong>逛法，从北往南一条直线走完即可</strong>：7 号线 Vernon Blvd–Jackson Av 站出来往西 8 分钟到园区北端 → ' +
+          'Pepsi 招牌（停 10 分钟）→ 龙门架栈道与四座伸入河里的木栈桥（15 分钟，栈桥端头是全园视野最好的位置）→ ' +
+          '沿 Center Boulevard 往南 600 米进 Hunters Point South Park，' +
+          '那里有一座<strong>螺旋坡道观景平台</strong>，能把 Empire State Building 与 One World Trade Center 一次看全，' +
+          '是整段岸线最值得多走的十分钟',
+        '<strong>可以直接跳过的：</strong>篮球场、手球场、运动场、儿童游乐区、喷水池（Labor Day 后已停用）与两处狗公园。' +
+          '省下的时间要么往南给 Hunters Point South Park，要么坐 NYC Ferry 过河去 DUMBO——' +
+          '<strong>从园内的 Hunters Point South 渡轮码头有直达 DUMBO／Fulton Ferry 的航线，' +
+          '这是把 Queens 与 Brooklyn 两边串起来最省事的方式</strong>',
+        '<strong>人流与安全：</strong>这里是密集住宅区的后花园，白天到夜里都有大量居民遛狗、跑步、推婴儿车，' +
+          '治安属纽约市里较好的一档，单独前往没有问题。' +
+          '<strong>但傍晚 17:00 之后临水的长椅与 Adirondack 椅会被本地人坐满</strong>，' +
+          '想有位置坐下来看天际线，要么早到，要么往南走到人少的 Hunters Point South Park',
+        '<strong>餐饮与卫生间：</strong>Center Boulevard 沿街（46th–48th Avenue 之间）是一整排咖啡馆、面包房与餐厅，' +
+          '吃饭完全不成问题，且价格明显低于对岸 Manhattan。' +
+          '<strong>公厕最可靠的一处是 47-40 Center Boulevard 的 Hunters Point Library</strong>' +
+          '（Steven Holl 设计的那栋白色方盒子，本身也值得进去看一眼，二至五层的阶梯式书架正对天际线，免费）；' +
+          '<strong>园内公厕的具体位置与季节性开放钟点未能在州立公园官方页面找到——未能从官方渠道确认</strong>'
       ],
       photo: '城市天际线 <strong>5/5</strong>，工业遗构 <strong>4/5</strong>，人像 <strong>4.5/5</strong>。' +
         '扣分只扣在一件事上：<strong>太阳不会在这里落到海平线</strong>——它会提前沉进 Manhattan 的楼群，' +
@@ -243,8 +267,14 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45–90 分钟</strong>。分配：Pepsi 招牌 10 分钟 + 龙门架与四座木栈桥 15–20 分钟 ' +
+          '+ 往南走到 Hunters Point South Park 的螺旋观景台来回 20–30 分钟。' +
+          '<strong>只想看一眼天际线与招牌，25 分钟足够</strong>；' +
+          '想坐下来等灯亮（办公楼 17:30–18:00 陆续亮灯），再加 40–60 分钟。' +
+          '官方没有给建议时长，以上按 12 英亩的园区规模与岸线长度推算',
         book: '不需预约',
-        ticket: '<strong>免费</strong>',
+        ticket: '<strong>免费</strong>。parks.ny.gov 的园区页面在「Hours and Fees」栏未列任何 vehicle use fee 或入园费，' +
+          '园区本身与 Hunters Point South Park 均为免费开放（2026 年 9 月 13 日复核）',
         hours: '<strong>这一条要当心：纽约州立公园官网在同一个页面上给出了两个互相矛盾的闭园口径，' +
           '而本条目的全部价值都在蓝调，所以这个矛盾必须写出来，不能替你二选一。</strong>' +
           'parks.ny.gov 的 Gantry Plaza State Park 页面里，' +
@@ -255,6 +285,11 @@ module.exports = {
           '按 22:00 口径，你在蓝调结束后还有三个多小时，完全从容；' +
           '按「dusk」口径，园子大约在蓝调收尾的同时就该清场，' +
           '你能不能站在园内拍完整段蓝调就得看当天护园员怎么执行。</strong>' +
+          '<strong>2026 年 9 月 13 日再查一轮，parks.ny.gov 的 Gantry Plaza State Park 页面两句原话仍然同时挂在站上、' +
+          '一字未改：「Hours and Fees — Open daily, dawn to dusk.」与' +
+          '「Effective October 4, 2018: Leashed dogs will be permitted on paved pathways and plazas throughout the park ' +
+          'during regular park hours --- 8:00 am to 10:00 pm daily.」' +
+          '也就是说这个矛盾到今天仍未消除，官方没有做过澄清。</strong>' +
           '<strong>未能从官方渠道判定哪一个是现行口径</strong>——' +
           '出发前请打园方电话 <strong>(347) 935-3039</strong> 问准当天的闭园钟点。' +
           '<strong>好在这个点位有一条现成的退路，风险因此可控：' +
@@ -302,6 +337,7 @@ module.exports = {
       n: 2,
       name: 'Brooklyn Bridge Park · Pebble Beach 与各码头',
       en: 'Brooklyn Bridge Park · Pebble Beach · Granite Prospect · Jane\u2019s Carousel',
+      must: 4.5,
       score: 5,
       tldr: '一条岸线上五个完全不同的机位，免费且 06:00–01:00 开放；<strong>选清晨</strong>，因为傍晚桥与天际线全在逆光里。',
       tags: [
@@ -346,6 +382,49 @@ module.exports = {
           '让 Lower Manhattan 单独成为主体，同时 Pier 3 的 Labyrinth 石阵和 Pier 2 的旱冰场／篮球场' +
           '给你完全不同的人文前景。全园 3,750 棵树，Pier 2 与 Pier 3 的 berm 土丘上有小片林地，' +
           '秋色虽然不如 Prospect Park，但胜在有天际线当背景'
+      ],
+      tour: [
+        '<strong>这是绝大多数人走完 Brooklyn Bridge 之后的落脚点，也是本区唯一一个「就算什么都不干也值得待两小时」的地方。</strong>' +
+          '标准逛法是<strong>从北往南一条线</strong>：Main Street／Empire Fulton Ferry 入园 → Jane\u2019s Carousel → ' +
+          'Pebble Beach（走到水边卵石上，正对 Brooklyn Bridge 与 Lower Manhattan，' +
+          '这是全园最该站的一处）→ Fulton Ferry Landing 的栈桥 → Pier 1 的 Granite Prospect 大台阶 → ' +
+          'Pier 2 → Pier 3 → Pier 6。<strong>全程 2 公里、全平路无台阶，可轮椅通行。</strong>' +
+          '时间不够就在 Pier 1 打住，前半段的看点密度远高于后半段',
+        '<strong>四样别错过：</strong>①<strong>Jane\u2019s Carousel</strong>，1922 年的旋转木马装在 Jean Nouvel 设计的玻璃亭里，' +
+          '$4 一次，成年人也能坐，是全纽约性价比最高的四美元；' +
+          '②<strong>Pebble Beach 的卵石岸</strong>，全园唯一能走到水边的地方；' +
+          '③<strong>Pier 1 的 Granite Prospect</strong>，用 Brooklyn Bridge 拆下来的旧花岗岩条石砌的宽台阶，' +
+          '抬高 4–5 米面朝西北，是坐下来吃东西看天际线的最佳位置；' +
+          '④<strong>Empire Stores</strong>，1870 年代的咖啡仓库改成的商场，' +
+          '<strong>顶层有一个免费的屋顶花园</strong>，视野比地面高一层，' +
+          '下雨或太冷时这里是唯一的室内退路',
+        '<strong>可以跳过的：</strong>Pier 2 的旱冰场／篮球场／乒乓球、Pier 5 的足球场、Pier 6 的沙坑游乐区与排球场——' +
+          '这些是给本地居民用的运动设施，对游客没有意义。' +
+          '<strong>Pier 3 与 Pier 6 除非你要走完全程，否则不必去</strong>，' +
+          '风景与 Pier 1 是同类，只是角度更偏南。省下的时间建议留给 DUMBO 的街区本身',
+        '<strong>人流与安全：</strong>周六日 12:00–17:00 是全园峰值，Pebble Beach 与木马前会排队，' +
+          'Jane\u2019s Carousel 周末下午要等 15–20 分钟。' +
+          '<strong>清晨 07:00–09:00 几乎没人，是体验感最好的时段</strong>。' +
+          '园区治安良好、有 Park Enforcement Police 驻点（99 Plymouth St），夜间也有人流，' +
+          '<strong>唯一实际的危险是 Pebble Beach 的卵石：涨潮时可站的范围会缩到两三米，且湿卵石极滑</strong>，' +
+          '园方官网首页每天挂当日高低潮时刻，出门前看一眼',
+        '<strong>餐饮与卫生间（全天行程的硬约束，这里写全）：</strong>' +
+          '园内公厕共七处——<strong>Pier 1 Pavilion、Pier 2 的橙色小屋、Pier 5 Boathouse、Pier 6 的 Fornino、' +
+          'Pier 6 的 Quay Tower、Squibb Park、Main Street 的 Education Center，以及 Empire Stores 里</strong>；' +
+          '<strong>官方钟点：3–10 月 07:00–23:00，11–3 月 07:00–22:00</strong>。' +
+          '吃饭最集中的地方是<strong>北端 Empire Stores 里的 Time Out Market New York</strong>' +
+          '（55 Water Street，24,000 平方英尺的美食广场，多家摊位加三个吧台与五层屋顶平台，有座位与洗手间，雨天首选；' +
+          '<strong>官方钟点周一至周四与周日 08:00–22:00、周五周六 08:00–23:00</strong>，2026 年 9 月 13 日复核），' +
+          '以及 Old Fulton Street 一带的 Grimaldi\u2019s 与 Juliana\u2019s 两家老字号披萨' +
+          '（两家隔壁，同源不同人，排队都不短）、14 Old Fulton Street 的 Brooklyn Ice Cream Factory' +
+          '（<strong>注意它已经不在 Fulton Ferry Landing 那座 1922 年消防船屋里了</strong>：' +
+          '老铺 2019 年迁出，那栋消防船屋现在是 Van Leeuwen 冰淇淋，老铺搬到了马路对面）。' +
+          '<strong>南段（Pier 5／Pier 6）只有 Fornino 一家，且为季节性营业</strong>，别指望走到南边才吃饭',
+        '<strong>Pier 2 十月起提前两小时关门，这是今年新查到的一条</strong>：' +
+          '官方写明「Pier 2: May–September 8am–11pm | October–April 8am–9pm」，' +
+          '十月来的话 21:00 之后 Pier 2 就进不去了。' +
+          '另外<strong>连通 Brooklyn Heights Promenade 与 Pier 1 的 Squibb Park & Bridge 现行钟点是 08:00–22:00</strong>，' +
+          '想靠它上下 Brooklyn Heights 的话请在这个窗口内'
       ],
       photo: '城市风光 <strong>5/5</strong>，建筑 <strong>5/5</strong>，人像 <strong>5/5</strong>，秋色 <strong>2.5/5</strong>。' +
         '五个机位在 2 公里岸线内，题材从卵石滩、花岗岩阶梯、玻璃亭夜景到石阵，密度是本区最高的。' +
@@ -404,25 +483,44 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>2–3 小时走完全园（Main Street 到 Pier 6 的 2 公里岸线，含沿途停留）；' +
+          '只看北段精华 60–75 分钟</strong>——' +
+          'Jane\u2019s Carousel 15 分钟（含排队与坐一圈）+ Pebble Beach 20 分钟 + ' +
+          'Fulton Ferry Landing 10 分钟 + Pier 1 的 Granite Prospect 20 分钟。' +
+          '<strong>加上在 Time Out Market 吃一顿，请留半天（3.5–4 小时）</strong>。' +
+          '公园官方未给建议时长，以上按 85 英亩的园区规模与 2 公里岸线步行时间推算；' +
+          '<strong>要拍清晨光线请另外把到场时间提前到日出前 30 分钟</strong>',
         book: '不需预约。<strong>Jane\u2019s Carousel 也不需预约</strong>，现场买票即可',
-        ticket: '公园<strong>免费</strong>。Jane\u2019s Carousel 单次 <strong>$4</strong>；' +
+        ticket: '公园<strong>免费</strong>（官方 Plan Your Visit 页原文「Entry is Free!」）。' +
+          'Jane\u2019s Carousel 单次 <strong>$4</strong>；' +
           '一名 42 英寸以下儿童可与一名成人共用一张票，额外的 42 英寸以下儿童每人 $4；接受 SNAP／EBT 折扣。' +
-          '<strong>另有 12 张联票 $20</strong>（官方原文「12 Tickets – $20.00」，' +
-          '折合每张约 $1.67，两个人各转三圈就已经比单买划算——原先本条漏了这一档）。' +
-          '学校团体另有预约团价。以上票价 2026 年 9 月 6 日在 janescarousel.org 的 Hours &amp; Tickets 页复核无变化。' +
+          '<strong>以上于 2026 年 9 月 13 日在 janescarousel.com 的 Hours 页复核。' +
+          '需要更正一条：该页现在只列「Tickets are $4」这一档，' +
+          '原先本条记录的「12 Tickets – $20.00」联票已从官方页面撤下，本次核实时找不到——' +
+          '请按 $4 单次准备，不要指望买到联票。</strong>' +
           '木马是 501(c)(3) 非营利机构运营',
-        hours: '<strong>Brooklyn Bridge Park 每日 06:00–01:00</strong>（官方口径 365 天开放）。' +
-          '分区例外：Pier 2 为 08:00–23:00（季节性）、Pier 5 为 06:00–23:00、' +
-          'Pier 6 排球场 06:00–23:00、<strong>各儿童游乐场为日出至日落</strong>、' +
-          '洗手间 3–10 月 07:00–23:00、11–3 月 07:00–22:00。' +
-          '（以上主时段与三处码头例外已于 2026 年 9 月 6 日在 brooklynbridgepark.org 官方页面复核，' +
-          '原文为「We Are Open 7 Days a Week | 6AM - 1AM」、「Pier 2 - 8AM–11PM」、' +
-          '「Pier 5 - 6AM–11PM」、「Pier 6 Volleyball Courts - 6AM–11PM」，与本条一致。' +
-          '洗手间的分季钟点未能在现行官方页面找到出处，保留原记录但请勿据此规划。）' +
+        hours: '<strong>Brooklyn Bridge Park 每日 06:00–01:00</strong>（官方口径 365 天开放，' +
+          '原文「Brooklyn Bridge Park is open 6am – 1am every day」）。' +
+          '<strong>2026 年 9 月 13 日在 brooklynbridgepark.org/about 逐行复核，' +
+          '分区例外有两处与原记录不同，都要改：</strong>' +
+          '<strong>① Pier 2 十月起提前两小时关门</strong>——官方原文' +
+          '「Pier 2: May–September: 8am–11pm | October–April: 8am–9pm」，' +
+          '原先本条只写了「08:00–23:00（季节性）」，对十月的行程是错的；' +
+          '<strong>② Squibb Park &amp; Bridge 现行钟点为 08:00–22:00</strong>（原文「Squibb Park &amp; Bridge: 8am–10pm」），' +
+          '也就是说这座桥现在有明确公布的开放时间、不再是「状态不明」，但夜里 22:00 后就下不去 Pier 1 了。' +
+          '其余分区：<strong>各儿童游乐场日出至日落</strong>、Pier 6 排球场 08:00–23:00、' +
+          'Pier 5 野餐半岛烧烤区 06:00–22:00、Environmental Education Center 周四周五 15:00–17:00／周六日 13:00–17:00。' +
+          '<strong>洗手间的分季钟点这次找到了官方出处，原先标注的「未能找到出处」可以撤销：' +
+          '官方 Visiting The Park 与 FAQ 两页都写「Restrooms Hours: March–October: 7am–11pm | November–March: 7am–10pm」，' +
+          '与本条原记录一致。</strong>' +
+          '<strong>一处官方自相矛盾照实写出、不替你二选一：Pier 5 的钟点，' +
+          'brooklynbridgepark.org/about 写的是「Pier 5: 7am–11pm」，' +
+          '而 Plan Your Visit 与 FAQ 页写的是「Pier 5 - 6AM–11PM」，两页差一个小时；' +
+          'Pier 6 排球场同样一页 8AM 起、一页 6AM 起。这两处都不影响本条目的机位。</strong>' +
           '<strong>对真实日期的结论：10/16–10/18 日落 18:11–18:14、民用暮光 18:38–18:41 结束，' +
           '离 01:00 闭园还有六个多小时，公园本身的开放时间完全不构成约束</strong>——' +
           '这一区真正卡时间的是下面的木马，不是公园。' +
-          '<strong>Jane\u2019s Carousel 秋季时刻表已逐字核实（2026 年 9 月 6 日取自 janescarousel.org 官方页面数据）：' +
+          '<strong>Jane\u2019s Carousel 秋季时刻表已逐字核实（2026 年 9 月 13 日再次取自 janescarousel.com/hours，未变）：' +
           '「Fall Hours — September 14, 2026 to December 31, 2026 / Closed Monday and Tuesday / 11:00 AM–5:50 PM」' +
           '，即周一、周二闭馆，周三至周日 11:00–17:50</strong>——' +
           '这个 17:50 早于本窗口每一天的日落（最早的 10/25 也是 18:01），' +
@@ -432,12 +530,14 @@ module.exports = {
           '「亮着灯还在转的木马 + 蓝调天空」这一帧三天都拿不到。</strong>' +
           '想拍转动的木马请安排在 17:00–17:50 这段，天还亮着，' +
           '要蓝调就只能拍熄了灯／停转的木马与仍然发光的 Jean Nouvel 玻璃亭。' +
-          '<strong>一处官方自相矛盾要照实说明：同一个官网首页与 Hours 页顶部挂着一句' +
-          '「The Carousel is closed on Thursdays」，与上面那张「周一、周二闭馆」的季节表对不上' +
-          '（9 月 6 日当天两句话同时挂在站上，夏季表写的又是「closed Tuesdays」）。' +
-          '本条不替你二选一——如果你的计划正好落在周三、周四或周一、周二，' +
-          '出发前请打 (718) 222-2502 或写信 info@janescarousel.org 问准当天开不开。' +
-          '真实日期 10/16–10/18 是周五至周日，两种口径下都在营业日内，这个矛盾不影响本次行程。</strong>',
+          '<strong>原先记录的那处官方矛盾已经消失，这次要撤销：' +
+          '9 月 6 日官网首页与 Hours 页顶部曾同时挂着一句「The Carousel is closed on Thursdays」，' +
+          '与季节表的「周一、周二闭馆」对不上；' +
+          '2026 年 9 月 13 日再查，该页只剩四段季节时刻表（春／夏／秋／冬）加一句「Tickets are $4」，' +
+          '那句「closed on Thursdays」已不在页面上。' +
+          '现行唯一口径就是秋季表：周一、周二闭馆，周三至周日 11:00–17:50。</strong>' +
+          '<strong>木马的钟点仍是这一区最容易撞的坑，出发前请打 (718) 222-2502 ' +
+          '或写信 info@janescarousel.org 再确认一次当天开不开。</strong>',
         parking: '<strong>DUMBO 与 Brooklyn Heights 一带的停车不值得尝试</strong>：' +
           '路边表位少、限时 2 小时、周末几乎无空位，' +
           '园内本身<strong>不提供任何访客停车</strong>（官方明确「不为制作车辆或房车提供停车」）。' +

@@ -176,6 +176,7 @@ module.exports = {
       n: 1,
       name: '罗斯福门',
       en: 'Roosevelt Arch, Gardiner (North Entrance)',
+      must: 3.5,
       score: 3.5,
       tldr: '1903 年玄武岩拱门，刻着「For the Benefit and Enjoyment of the People」。全年可开车穿过，秋季 rut 期门下常有公麋鹿。',
       tags: [
@@ -196,6 +197,26 @@ module.exports = {
           '傍晚常有单只公鹿在门前的草地上鸣叫。「公麋鹿 + 拱门」是本区辨识度最高的一张片子',
         '<strong>汽车全年可以直接开过拱门下方</strong>（NPS 原文 “Visitors can drive through the Roosevelt Arch year-round”），' +
           '这一点在国家公园里相当罕见'
+      ],
+      tour: [
+        '<strong>这是一个「停车 20 分钟、看完就走」的点，不要按景区的思路安排。</strong>' +
+          '标准动作只有三步：把车停进拱门西北侧的 <strong>Arch Park</strong> 免费停车场，' +
+          '走到门前读一遍门楣上的 “FOR THE BENEFIT AND ENJOYMENT OF THE PEOPLE”，' +
+          '再走到门洞下方看一眼 1903 年 Theodore Roosevelt 揭幕的奠基石（在门洞内侧墙基上）。三件事做完就够了',
+        '<strong>开车穿门是很多人专程来的理由，但请注意它是实际通行的双向路面。</strong>' +
+          '想拍「车穿门」就把车停好、由同行的人开过去，不要停在门洞里。' +
+          '进园的车流在 <strong>09:00–11:00</strong> 最密集，' +
+          '9 月下旬的 <strong>07:00 之前与 17:00 之后</strong>基本没车，是最从容的时段',
+        '<strong>可以跳过的部分：</strong>Arch Park 的野餐区与那一小段步道没什么内容，' +
+          '拱门本身也只有一个正面值得看。' +
+          '省下的时间建议花在 Gardiner 镇上——本区真正需要在这里完成的是<strong>加油、买熊喷雾、吃饭、补给</strong>，' +
+          '因为园内 Mammoth 加油站 10 月 4 日就关，Gardiner 全年营业',
+        '<strong>傍晚多留 15 分钟是划算的。</strong>9 月下旬正是 elk rut 的峰值，' +
+          'Arch Park 的灌溉草坪是 Mammoth 之外第二个公麋鹿聚集点，' +
+          '傍晚常有单只公鹿在门前草地上鸣叫。<strong>看到鹿一律退到 25 码（23 米）以外，或者干脆回车里看</strong>',
+        '<strong>厕所与餐饮：</strong>拱门旁没有公共厕所。最近的是 <strong>Gardiner 镇内的公共厕所与各家餐馆</strong>' +
+          '（步行 5–10 分钟），以及 5 英里外 Mammoth 的 Albright Visitor Center（全年开放，有厕所）。' +
+          '<strong>Arch Park 停车场秋季平日随到随停</strong>，只有傍晚 rut 围观时会短暂满位'
       ],
       photo: '建筑 <strong>4/5</strong>，人文 <strong>4/5</strong>，风光 <strong>2.5/5</strong>。' +
         '主体本身极上镜且有历史分量，背后是 Gallatin Range 的天际线；' +
@@ -237,13 +258,29 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约。Yellowstone 全园不需要车辆预约（NPS 原文：“vehicle reservations are not needed”）',
-        ticket: '<strong>持 America the Beautiful 年票免费</strong>。年票直接覆盖入园费，' +
-          '并且<strong>豁免非美国居民 16 岁以上每人 $100 的附加费</strong>（NPS 原文：该附加费 “unless admitted with an Annual or America the Beautiful Pass”）。' +
-          '未持票者私家车 $35／7 天。<strong>持票人必须本人在场并出示带照片的证件</strong>，收据或照片不能替代实体票',
-        hours: '官方口径：<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，' +
-          '入口在开放季不设夜间关卡，可 24 小时进出。' +
-          '拱门本身在北门外的 Gardiner 镇内，<strong>不受任何园内路段季节封闭影响，全年可达</strong>',
+        visit: '<strong>20–45 分钟</strong>；只是下车拍照并穿门而过 <strong>15 分钟</strong>足够。' +
+          '<strong>傍晚想碰运气等 rut 期的公麋鹿再加 30 分钟</strong>，但不建议为此死等。' +
+          '如果把 Gardiner 镇的加油与补给算进来，整站预留 1–1.5 小时',
+        book: '不需预约。<strong>Yellowstone 没有 timed entry，也不需要车辆预约</strong>' +
+          '（2026-09-13 核实于 NPS Fees & Passes 与 Park Roads 页）',
+        ticket: '<strong>拱门本身不收费；园内景点一律没有独立门票，只收一次 Yellowstone 入园费。</strong>' +
+          '以下 <strong>2026-09-13 核实于 NPS 官方 Fees &amp; Passes 页</strong>：' +
+          '<strong>私家车七日通行证 $35</strong>（原文 “Unlimited entry for one vehicle and all passengers for seven consecutive days, beginning on the day of purchase”，' +
+          '限 15 座以下非商用车）；摩托车／雪地摩托 $30（7 天，最多 2 辆 4 人）；' +
+          '步行／自行车／滑雪每人 $20（<strong>16 岁以下免费</strong>）。' +
+          '<strong>Yellowstone 年卡 $70</strong>（一年内不限次）；' +
+          '<strong>America the Beautiful 年卡自 2026-01-01 起分两档：美国居民 $80，非美国居民 $250</strong>' +
+          '（$250 版覆盖整车，或 2 辆摩托，或持卡人加 3 名成人）。' +
+          '<strong>2026 年新增：非美国居民 16 岁以上每人加收 $100 附加费</strong>，' +
+          'NPS 原文 “unless admitted with an Annual or America the Beautiful Pass”——<strong>持年卡即豁免</strong>，' +
+          '所以对非美籍游客来说 $80／$250 的年卡几乎一定比 $35 单次划算。' +
+          '<strong>持票人必须本人在场并出示带照片的证件</strong>，收据或照片不能替代实体票。' +
+          '五个入口站均收现金与信用卡／借记卡',
+        hours: 'NPS 官方原文：<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，' +
+          '且 Park Roads 页补充 <strong>“When open, roads are not gated at night and people may enter/exit the park 24 hours a day, seven days a week.”</strong>' +
+          '（2026-09-13 核实，该页最后更新 2026-09-01）。' +
+          '拱门本身在北门外的 Gardiner 镇内，<strong>不受任何园内路段季节封闭影响，全年 24 小时可达</strong>。' +
+          '<strong>9/22–9/29 行程窗口内完全不受影响</strong>',
         parking: '<strong>Arch Park 有免费停车与野餐区</strong>（45.03012, −110.70981），紧邻拱门。' +
           'Gardiner 镇内街边停车免费。旺季与 rut 期傍晚车位会满，但 10 月已明显宽松',
         walk: '停车到拱门 <strong>1–2 分钟／约 80 米</strong>，全程平地铺装。建议停留 30–45 分钟'
@@ -273,6 +310,7 @@ module.exports = {
       n: 2,
       name: '猛犸热泉台地（下台地栈道 + 上台地环路）',
       en: 'Mammoth Hot Springs Terraces (Lower Terraces & Upper Terrace Drive)',
+      must: 5,
       score: 4.5,
       tldr: '世界最大的碳酸钙沉积泉。白色石灰华在直射光下是严重曝光陷阱，傍晚与阴天远好于正午；活跃泉眼逐年变，出发前必须现场确认。',
       tags: [
@@ -301,9 +339,42 @@ module.exports = {
           '它是整个台地区最容易构图的单体，且<strong>形态不会年年变</strong>，是活跃度不佳时的保底题材',
         '两个台地在体验和光线上完全是两回事：<strong>下台地（Lower Terraces）</strong>是几百级栈道台阶，' +
           '整体朝北／西北，从村子边缘往上爬；<strong>上台地环路（Upper Terrace Drive）</strong>是一条' +
-          '<strong>1 英里（1.6 公里）单行铺装环路</strong>，可以开车贴到 Orange Spring Mound 这类特征旁边，' +
+          '<strong>1.5 英里（2.4 公里）单行铺装环路</strong>（NPS 原文 “a one-way, scenic, 1.5-mile (2.4-km) long road”，' +
+          '2026-09-13 核实），可以开车贴到 Orange Spring Mound 这类特征旁边，' +
           '还能俯瞰 Fort Yellowstone 与 Gardner River。' +
-          'NPS 明确提示两个台地之间的栈道<strong>陡且有数百级台阶，心肺不佳者建议改为开车走上台地环路</strong>'
+          'NPS 明确提示两个台地之间的栈道<strong>陡且有数百级台阶，心肺不佳者建议改为开车走上台地环路</strong>；' +
+          '<strong>环路禁止拖挂车、大巴与房车通行</strong>，这类车辆须停在环路入口的停车场后步行'
+      ],
+      tour: [
+        '<strong>最省力也最不吃亏的走法是「先开上面、再走下面」，不要从村子边缘一路往上爬台阶。</strong>' +
+          '具体顺序：先把车开到村子上方 2 英里的 <strong>Upper Terrace Drive</strong> 入口停车场，' +
+          '顺时针（单行只有这一个方向）开完 1.5 英里环路，中途在 <strong>Orange Spring Mound</strong> 下车' +
+          '（距入口 0.7 英里／1.1 公里，有无障碍车位与一小段栈道）；' +
+          '然后回到环路西侧停车场，沿栈道下行 <strong>8–12 分钟</strong>到 <strong>Canary Spring 大观景平台</strong>，原路返回；' +
+          '最后把车开到下台地东北停车场，平走 <strong>2–3 分钟</strong>看 <strong>Liberty Cap</strong> 与 <strong>Palette Spring</strong>。' +
+          '<strong>这样全程没有一段需要爬那几百级台阶，而三个最值得看的东西一个都不少。</strong>',
+        '<strong>绝对不能错过的是 Canary Spring 的大观景平台</strong>——' +
+          '整片阶梯状石灰华坡面向东铺开，正对 Gardner River 谷地与对面的 Mount Everts，' +
+          '是全区规模感最强的一处，也是明信片上那个画面。' +
+          '其次是 <strong>Liberty Cap</strong>（下台地入口那根 37 英尺高的死泉柱，形态不会年年变，永远在）' +
+          '与 <strong>Palette Spring</strong>（近二十年最稳定的活跃泉之一，橙褐色的热噬菌群条带最好看）',
+        '<strong>可以直接跳过的两处：Minerva Terrace 与两个台地之间的连接台阶。</strong>' +
+          'Minerva 自 2000 年代初起基本干涸，NPS 自己的措辞就是 “Some years, they are dry.”，' +
+          '没有水时它只是一堆灰白色的层理；' +
+          '连接台阶是数百级陡梯、单程 25–35 分钟，爬完看到的东西和你开车上去看到的完全一样。' +
+          '<strong>省下的 40 分钟拿去走 Fort Yellowstone 历史街区或进 Albright Visitor Center，回报高得多。</strong>',
+        '<strong>活跃度每年都变，这一点必须到现场才能确认。</strong>' +
+          '进园当天先到全年开放的 <strong>Albright Visitor Center</strong> 问一句「哪几处泉现在在流」，' +
+          '再决定把时间放在上台地还是下台地。' +
+          '顺便在同一个柜台把 <strong>Upper Terrace Drive 与 Blacktail Plateau Drive 今天开不开</strong>一起问掉',
+        '<strong>停车与人流：</strong>秋季平日四个下台地停车场基本随到随停，' +
+          '<strong>10:00–15:00 是唯一会满的时段</strong>，上台地环路的几个小 turnout 更容易被占。' +
+          '9 月下旬清晨 08:00 前和 16:00 之后几乎没人',
+        '<strong>厕所与餐饮：栈道沿线没有任何设施，全部在半英里外的 Mammoth 村里。</strong>' +
+          '厕所最可靠的是 <strong>Albright Visitor Center（全年开放）</strong>与 Mammoth Hot Springs Hotel 大堂；' +
+          '热食有 <strong>Mammoth Terrace Grill（营业到 10 月 12 日）</strong>与酒店餐厅（营业到 2027 年 3 月 8 日）；' +
+          '<strong>Mammoth General Store 全年开放</strong>，买水、零食和熊喷雾都在这里。' +
+          '上栈道之前先解决掉，中途折返一趟要多花 20 分钟'
       ],
       photo: '风光 <strong>4.5/5</strong>，微距／细节 <strong>5/5</strong>，人像 <strong>2/5</strong>。' +
         '石灰华的层理、鳞片状边坝（rimstone dam）与热噬菌群的橙黄条带是极难得的抽象题材，长焦局部几乎拍不完。' +
@@ -355,32 +426,52 @@ module.exports = {
           name: 'Upper Terrace Drive · Orange Spring Mound',
           park: [44.96538, -110.70807],
           view: [44.96648, -110.71491],
-          desc: '1 英里单行铺装环路，沿途几处小停车位，<strong>可以把车开到离特征几十米的地方</strong>——' +
+          desc: '1.5 英里（2.4 公里）单行铺装环路，沿途几处小停车位，<strong>可以把车开到离特征几十米的地方</strong>——' +
             '在 10 月下旬 −10°C 的清晨，这个「不用走远」的属性价值很高。' +
             'Orange Spring Mound 是一个覆满橙色藻膜的圆丘状泉体，形态独特且长期稳定。' +
             '环路上还能俯瞰 Fort Yellowstone 的红顶建筑群与 Gardner River 谷地，' +
             '<strong>是本区唯一能把「人文建筑 + 地热地貌」放进同一张画面的位置</strong>，用 70–200mm 压缩。' +
-            '<strong>关闭日期是本页最大的不确定项：NPS 只说 “open only during the summer season”，' +
-            '没有公布 2026 年的具体关闭日期，未能从官方渠道确认。</strong>' +
-            '已知的是一旦季节性除雪停止，这条路就转为滑雪／雪鞋线路。' +
-            '<strong>请把它当成「10 月中之后随时可能关」来规划</strong>，' +
+            '<strong>关闭日期仍是本页的不确定项，2026-09-13 又重查了一遍：</strong>' +
+            'NPS 的 Upper Terrace Drive 官方页（最后更新 2024-12-03）只写 ' +
+            '“The Upper Terrace Drive becomes a groomed, cross-country ski trail in winter.”，不给日期；' +
+            'Park Roads 页（最后更新 2026-09-01）的 2026 年开关日期表里<strong>根本不列这条支线</strong>；' +
+            'Current Conditions 页当天也没有任何关于它的临时关闭通告。' +
+            '<strong>仍然未能从官方渠道拿到具体关闭日期。</strong>' +
+            '<strong>但对 9/22–9/29 这个窗口来说这件事其实不构成风险——除雪停止要到 10 月以后，' +
+            '9 月下旬它开着是接近确定的事</strong>（唯一变数是突发降雪临时挂牌）。' +
             '出发当天在 Albright Visitor Center 问一句即可，关了的话下台地栈道完全可以替代。',
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '<strong>持 America the Beautiful 年票免费</strong>，无额外费用',
-        hours: '官方口径 <strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，' +
-          '台地栈道本身无门禁、无关门时间，可以拍到暮光再走。' +
-          '所在的 Mammoth 位于全年开放的北环上，<strong>不受 10/12 与 10/31 两个封路节点影响</strong>。' +
-          '<strong>Upper Terrace Drive 为季节性开放，2026 年具体关闭日期未能从官方渠道确认</strong>——' +
-          'NPS 的 Mammoth 区页面只有一句「open only during the summer season」，' +
-          'Park Roads 与 Operating Dates 两张表都不列这条支线。' +
-          '<strong>能确定的上限是 11 月 1 日</strong>：2026 版 Superintendent\u2019s Compendium 的年度开放路段清单写的是' +
+        visit: '<strong>2.5–3.5 小时</strong>把下台地全部栈道加上台地环路走完（这是完整版）。' +
+          '<strong>只看重点 60–75 分钟</strong>：上台地环路开一圈含 Orange Spring Mound 下车 20–25 分钟，' +
+          'Canary Spring 观景平台往返 25 分钟，下台地 Liberty Cap／Palette Spring 往返 20 分钟。' +
+          '<strong>时间极紧或体力有限，就只开 1.5 英里的 Upper Terrace Drive，30 分钟</strong>。' +
+          '<strong>反过来，若从下台地一路爬台阶上到主台地，单程就要 25–35 分钟，请把总时长按 3.5 小时算</strong>',
+        book: '不需预约。<strong>Yellowstone 没有 timed entry，也不需要车辆预约</strong>（2026-09-13 核实）',
+        ticket: '<strong>台地没有独立门票，只收一次 Yellowstone 入园费</strong>' +
+          '（2026-09-13 核实于 NPS Fees &amp; Passes 官方页）：' +
+          '<strong>私家车七日通行证 $35</strong>（一车连同全部乘客，自购买当日起连续 7 天）；' +
+          '摩托车／雪地摩托 $30；步行／自行车每人 $20，16 岁以下免费。' +
+          '<strong>Yellowstone 年卡 $70</strong>；' +
+          '<strong>America the Beautiful 年卡 2026 年起美国居民 $80、非美国居民 $250</strong>。' +
+          '<strong>非美国居民 16 岁以上另加 $100／人，持年卡豁免</strong>。' +
+          '<strong>持 America the Beautiful 年票则本景点全程零支出</strong>',
+        hours: 'NPS 官方原文 <strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>' +
+          '（2026-09-13 核实）。台地栈道本身<strong>无门禁、无关门时间</strong>，可以待到暮光再走。' +
+          '所在的 Mammoth 位于全年开放的北环上，<strong>不受 10/12 与 10/31 两个封路节点影响</strong>，' +
+          '<strong>9/22–9/29 行程窗口内全程可达</strong>。' +
+          '<strong>Upper Terrace Drive 为季节性开放，2026 年具体关闭日期仍未能从官方渠道确认</strong>——' +
+          '2026-09-13 复查：NPS 的 Upper Terrace Drive 官方页（更新于 2024-12-03）只有' +
+          '“becomes a groomed, cross-country ski trail in winter”，' +
+          'Park Roads 页（更新于 2026-09-01）的 2026 年开关日期表与 Operating Dates 表都不列这条支线，' +
+          'Current Conditions 页当天亦无相关通告。' +
+          '<strong>能确定的上限仍是 11 月 1 日</strong>：2026 版 Superintendent\u2019s Compendium 的年度开放路段清单写的是' +
           '「Mammoth Hot Springs <em>to</em> Upper Terrace Drive」，即通到环路口的那段主路全年开放，' +
           '<strong>但环路本身不在清单内</strong>。' +
-          '<strong>出发当天请拨路况录音 (307) 344-2117，或到全年开放的 Albright Visitor Center 问一句——' +
-          '环路口就在村子上方 2 英里，闸门锁没锁一问即知</strong>',
+          '<strong>对 9 月下旬而言实际风险很低（除雪停止在 10 月以后），只要不遇上突发降雪就开着。</strong>' +
+          '出发当天可拨路况录音 <strong>(307) 344-2117</strong>，或到全年开放的 Albright Visitor Center 问一句——' +
+          '环路口就在村子上方 2 英里，闸门锁没锁一问即知',
         parking: '下台地沿栈道有四处免费停车场（东北 44.97278/−110.70386、东 44.97140/−110.70316、' +
           '东南 44.96946/−110.70211、西 44.96839/−110.70775），均免费不限时。' +
           '<strong>秋季平日基本随到随停</strong>，Upper Terrace Drive 沿线另有数个小型 turnout',
@@ -424,6 +515,7 @@ module.exports = {
       n: 3,
       name: '猛犸村 · 麋鹿发情季',
       en: 'Mammoth Hot Springs Village · Elk Rut',
+      must: 4,
       score: 4.5,
       tldr: '9 月至 10 月中，公麋鹿在 Fort Yellowstone 的草坪上占群鸣叫。全球最容易接近的大型有蹄类求偶场，但 25 码红线由 ranger 现场执法。',
       tags: [
@@ -451,6 +543,31 @@ module.exports = {
         '主要聚集点有三处：<strong>Albright Visitor Center 与 Officer\u2019s Row 前的草坪</strong>、' +
           '<strong>Mammoth Hot Springs Hotel 与邮局周边</strong>、以及园外 <strong>Gardiner 的 Arch Park</strong>；' +
           'Gardner River 沿岸也常见'
+      ],
+      tour: [
+        '<strong>这不是一个「景点」，是一片你要在里面慢慢走的村子，最好的看法是绕一圈步行环线。</strong>' +
+          '推荐走法（逆时针，全程平地铺装，约 1.5 公里）：' +
+          '从 <strong>Albright Visitor Center</strong> 门前出发 → 沿 <strong>Officer\u2019s Row</strong> 那排红顶石砌营房前的草坪走到头 → ' +
+          '折向 <strong>Mammoth Hot Springs Hotel</strong> 与邮局一带 → 经 <strong>Mammoth Chapel</strong> 后侧的草坡回到访客中心。' +
+          '<strong>鹿群一天里会在这三块草坪之间换位置，走完一圈才不会扑空</strong>；开车绕反而看不全，' +
+          '因为很多鹿就趴在建筑物之间',
+        '<strong>时间点比走法更重要：日出后 1 小时内与日落前 1 小时到暮光。</strong>' +
+          '9 月下旬对应 <strong>07:10–08:15</strong> 与 <strong>18:10–19:45</strong>。' +
+          '鸣叫（bugle）在晨昏与夜里最频繁，<strong>正午基本只剩趴着反刍的鹿，值得看的行为几乎为零</strong>——' +
+          '中午这段时间请去走台地或进访客中心，不要耗在草坪上',
+        '<strong>最安全也最好用的观察位是你自己的车。</strong>' +
+          'NPS 的原则是 “The safest (and often best) view of wildlife is from inside a car.”，' +
+          '在 Mammoth 尤其成立：村里到处是停车位，摇下车窗就能看，' +
+          '既满足 25 码（23 米）的硬性距离，又不会把鹿群逼走。' +
+          '<strong>rut 期 ranger 会在现场拉警戒、疏导车流甚至临时封停车位，一律服从</strong>',
+        '<strong>可以跳过的：不要为了「找更好的角度」绕到鹿群背后或包抄，也不要跟着鹿走。</strong>' +
+          '这是 ranger 现场制止最多的行为，而且 rut 期公鹿处于高度应激状态，' +
+          'NPS 明确写 “They are highly stressed and unpredictable during this period and may charge cars and people who get too close.”',
+        '<strong>厕所、餐饮与停车：全部在步行 3 分钟内，这是本区设施最齐的地方。</strong>' +
+          '厕所在 Albright Visitor Center（全年开放）与 Mammoth Hot Springs Hotel 大堂；' +
+          '热食有 Terrace Grill（到 10/12）与酒店餐厅（到 2027/3/8）；' +
+          'Mammoth General Store 与邮局、诊所均全年开放。' +
+          '<strong>停车 09:00–16:00 会紧张，早晚反而宽松</strong>'
       ],
       photo: '野生动物 <strong>5/5</strong>，人文 <strong>4/5</strong>，风光 <strong>2/5</strong>。' +
         '这是全世界少有的「可以从停车场用长焦拍到完整求偶行为」的地点，行为密度极高，' +
@@ -495,12 +612,25 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '<strong>持 America the Beautiful 年票免费</strong>',
-        hours: '<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，草坪与街区无门禁。' +
-          '<strong>Albright Visitor Center 全年开放</strong>（每日营业时间随季节调整，' +
-          '进园当天可在门口确认，也是问询台地活跃度与路况的最佳地点）。' +
-          'Mammoth 邮局、Mammoth General Store、Mammoth Medical Clinic 均<strong>全年开放</strong>',
+        visit: '<strong>晨昏各 1–2 小时，是本区唯一值得「去两次」的点。</strong>' +
+          '<strong>只看一次、走完步行环线并等一段鸣叫，75–90 分钟</strong>；' +
+          '<strong>路过瞥一眼 20 分钟</strong>也能看到鹿，但大概率看不到角斗或占群行为。' +
+          '若把 Albright Visitor Center 与 Fort Yellowstone 历史街区一起走，整片区域预留半天最舒服',
+        book: '不需预约。<strong>Yellowstone 没有 timed entry，也不需要车辆预约</strong>（2026-09-13 核实）',
+        ticket: '<strong>无独立门票，只收一次 Yellowstone 入园费</strong>' +
+          '（2026-09-13 核实于 NPS Fees &amp; Passes 官方页）：' +
+          '<strong>私家车七日通行证 $35</strong>、摩托车／雪地摩托 $30、步行／自行车每人 $20（16 岁以下免费）；' +
+          '<strong>Yellowstone 年卡 $70</strong>，' +
+          '<strong>America the Beautiful 年卡美国居民 $80 / 非美国居民 $250</strong>；' +
+          '<strong>非美国居民 16 岁以上另加 $100／人，持年卡豁免</strong>',
+        hours: '<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>（NPS 官方原文，2026-09-13 核实），' +
+          '草坪与街区无门禁，晨昏两个最佳时段都不受任何开放时间限制。' +
+          '<strong>Albright Visitor Center：NPS Operating Dates 表（最后更新 2026-09-03）明确标注 “Open Year-round”</strong>。' +
+          '每日营业钟点由 NPS 页面的动态组件加载，' +
+          '<strong>抓取不到官方原文，未能从官方渠道确认；第三方长期公布的口径是 9 月 6 日–10 月 31 日每日 08:00–17:00</strong>，' +
+          '请以现场或电话 <strong>307-344-2263</strong> 为准。' +
+          '<strong>同址楼下的 Mammoth Backcountry Office 为 5/15–10/12</strong>（官方表，在 9/22–9/29 窗口内开着）。' +
+          'Mammoth 邮局、Mammoth General Store、Mammoth Medical Clinic 均<strong>全年开放</strong>（官方表已核实）',
         parking: 'Albright Visitor Center 门前、酒店周边与村内各处均有免费停车。' +
           '<strong>rut 期高峰 ranger 可能封闭部分路段与停车位以疏散人群</strong>，' +
           '按现场指示停放，绝对不要为了拍照停在行车道上',
@@ -508,8 +638,17 @@ module.exports = {
           '这是本区唯一一个「可以全程在车边完成」的野生动物机位'
       },
       notes: [
+        '<strong>9/22–9/29 这个窗口正落在 rut 之内，这一点 2026-09-13 已按 NPS 官方页核实。</strong>' +
+          'NPS 的 Elk 页原文是 <strong>“The mating season (rut) generally occurs from early September to mid-October.”</strong>，' +
+          'Safety 页则写 <strong>“During the fall (September - October), bull elk battle for access to cows and challenge other males…”</strong>。' +
+          '<strong>注意：NPS 官方从不公布「峰值日」，「9 月中下旬为峰值」是长期观察与特许经营方的说法，不是官方口径。</strong>' +
+          '可以确定的是 9 月下旬占群与鸣叫都在进行中，' +
+          '<strong>而园外 Gardiner 的公路与草坪上同样会有鹿</strong>',
         '<strong>25 码（23 米）是硬性规定，不是建议。</strong>' +
-          '若麋鹿主动向你靠近，你有义务后退——「是它过来的」不构成免责',
+          'NPS 原文 “Keep at least 25 yards (23 meters) from elk at all times and never approach an elk to take a photo.”，' +
+          '并明确 “It\u2019s illegal to willfully remain near or approach wildlife… within any distance that disturbs or displaces the animal.”——' +
+          '<strong>也就是说「只要你的存在让动物改变了行为」就已经违法，25 码只是下限。</strong>' +
+          '若麋鹿主动向你靠近，你有义务后退，「是它过来的」不构成免责',
         '<strong>被公鹿冲锋时：找一个坚实屏障（车辆、树木、建筑）挡在中间。' +
           '附近没有屏障时 NPS 的建议是跑</strong>（这与遇熊的处置完全相反，不要混淆）',
         '<strong>严禁使用任何鹿哨或播放鸣叫录音。</strong>模仿 bugle 会把公鹿直接引到你面前，' +
@@ -539,6 +678,7 @@ module.exports = {
       n: 4,
       name: '温蒂瀑布与幽灵瀑布',
       en: 'Undine Falls & Wraith Falls',
+      must: 2,
       score: 3,
       tldr: 'Mammoth–Tower 路上的两处顺路瀑布：Undine 零步行即到，Wraith 单程 0.5 英里。都朝西，午后到傍晚是正面光。',
       tags: [
@@ -559,6 +699,26 @@ module.exports = {
           '不受 10/12（Dunraven）与 10/31（主环）两个封闭节点影响。' +
           '缺点也很实在：两者都是中小型瀑布，' +
           '<strong>在一个有 Lamar Valley 和 Mammoth 台地的子地区里，它们的定位是「顺路补一张」而不是「专程去」</strong>'
+      ],
+      tour: [
+        '<strong>先把定位说清楚：这两处是「顺路停 10 分钟」的点，不值得专程从 Mammoth 开过来。</strong>' +
+          '在只有八天的行程里，如果某天时间紧，<strong>这是本子地区第一个该被砍掉的条目</strong>。' +
+          '真要去，就安排在从 Lamar 拍完清晨、往回开的路上顺手停',
+        '<strong>Undine Falls 的正确用法是「不下路」：</strong>从停车场到观景台不到 50 米、全程铺装无爬升，' +
+          '看完三级跌水就走，<strong>整站 10 分钟</strong>。' +
+          '观景台是唯一的角度，没有别的路可走，不要试图沿崖边找别的位置——护栏外就是陡崖',
+        '<strong>Wraith Falls 要走 0.5 英里（NPS 原文 “a short 1/2-mile (0.8-km) hike”），单程约 10 分钟。</strong>' +
+          '从停车场向正南穿过一小片草甸和疏林，末段有木栈道和观景平台，' +
+          '<strong>坡度平缓，是本区门槛最低的一段步道</strong>，普通运动鞋即可。' +
+          '<strong>但它穿过草甸与灌丛，是典型的熊活动地形——熊喷雾必须带，而且要出声行进。</strong>' +
+          '两处里只有这一段需要这么做',
+        '<strong>两处都可以跳过的情况：如果你 9 月下旬看到的是枯水期的细流。</strong>' +
+          '秋季正是黄石水量最低的时候，' +
+          '<strong>Wraith Falls 在枯水期会明显比网上的夏季照片单薄</strong>。' +
+          '在 Undine 的路边看一眼水量，觉得不行就别再走 Wraith 那 20 分钟往返',
+        '<strong>厕所与补给：两处都没有卫生间、没有饮水、没有手机信号。</strong>' +
+          '最近的设施在西边 5–6 英里的 Mammoth（Albright Visitor Center 全年开放，有厕所）。' +
+          '停车各约十几个车位，<strong>9 月下旬平日随到随停</strong>，不存在满位问题'
       ],
       photo: '风光 <strong>3/5</strong>，细节 <strong>3.5/5</strong>，人像 <strong>2/5</strong>。' +
         'Undine 的三级结构在长焦下有层次，Wraith 的宽幅岩板斜瀑适合竖构图配周围的黄叶。' +
@@ -594,11 +754,25 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '<strong>持 America the Beautiful 年票免费</strong>',
-        hours: '<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，两处均为无门禁的路边点位。' +
-          '<strong>所在的 Mammoth–Tower 路段全年开放</strong>，' +
-          '但请注意从 Mammoth 过来必须经过施工中的 Gardner River High Bridge（单车道，最长等 15 分钟，24 小时）',
+        visit: '<strong>两处合计 1–1.5 小时</strong>。分配：' +
+          '<strong>Undine Falls 10 分钟</strong>（停车即到，看完就走）；' +
+          '<strong>Wraith Falls 往返含停留 40 分钟</strong>（单程 10 分钟步行 + 平台上 15–20 分钟）；' +
+          '两处之间开车 3 分钟。' +
+          '<strong>只停 Undine 一处则 15 分钟解决</strong>，这是时间紧时最划算的取舍',
+        book: '不需预约。<strong>Yellowstone 没有 timed entry，也不需要车辆预约</strong>（2026-09-13 核实）',
+        ticket: '<strong>无独立门票，只收一次 Yellowstone 入园费</strong>' +
+          '（2026-09-13 核实于 NPS Fees &amp; Passes 官方页）：' +
+          '<strong>私家车七日通行证 $35</strong>、摩托车／雪地摩托 $30、步行／自行车每人 $20（16 岁以下免费）；' +
+          '<strong>Yellowstone 年卡 $70</strong>，' +
+          '<strong>America the Beautiful 年卡美国居民 $80 / 非美国居民 $250</strong>；' +
+          '<strong>非美国居民 16 岁以上另加 $100／人，持年卡豁免</strong>',
+        hours: '<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>（NPS 官方原文，2026-09-13 核实），' +
+          '两处均为无门禁、无关门时间的路边点位。' +
+          '<strong>所在的 Mammoth–Tower 路段全年开放</strong>（Park Roads 页 2026 年表：North Entrance to Northeast Entrance “Open year-round”，该页最后更新 2026-09-01），' +
+          '<strong>9/22–9/29 窗口内确定可达</strong>。' +
+          '但请注意从 Mammoth 过来必须经过施工中的 <strong>Gardner River High Bridge</strong>：' +
+          'NPS 原文 “expect a single lane of traffic with up to 15-minute delays, 24 hours a day, seven days a week, from April 13 through late October 2026”，' +
+          '且 <strong>9 月 7 日之后会有 5 次整夜完全封闭（21:00–04:00）</strong>，会提前通知',
         parking: '两处均有免费路边停车场（Undine 44.94330/−110.64040，Wraith 44.94237/−110.62351），' +
           '各约十几个车位，<strong>秋季平日随到随停</strong>',
         walk: 'Undine <strong>1 分钟／不到 50 米</strong>；Wraith <strong>单程 10 分钟／约 540 米</strong>，' +
@@ -630,6 +804,7 @@ module.exports = {
       n: 5,
       name: '塔瀑',
       en: 'Tower Fall',
+      must: 3.5,
       score: 3.5,
       tldr: '132 英尺瀑布配火山岩尖峰。通往瀑底的步道自 2004 年山体滑坡后永久关闭，只能在观景台拍——北侧 1.5 英里的 Calcite Springs 其实更值得。',
       tags: [
@@ -658,6 +833,31 @@ module.exports = {
           '以及从观景台旁下切到 Yellowstone River 河岸的<strong>约 0.5 英里陡坡土路，落差约 250–300 英尺</strong>。' +
           '后者在岔口处向左（通往瀑底）的那一支被封，<strong>向右到河边的那一支照常开放</strong>——' +
           '河边看得到 Grand Canyon of the Yellowstone 的下游段与对岸 700 英尺高的 Specimen Ridge 山壁'
+      ],
+      tour: [
+        '<strong>先管理预期：这里只有一个观景台、一个角度，看完就没有了。</strong>' +
+          '从停车场沿铺装步道走 <strong>150 码／约 3 分钟</strong>到主观景台，几乎无爬升，' +
+          '看完瀑布和两侧的火山岩尖峰，<strong>15 分钟就够</strong>。' +
+          '很多攻略推荐的「走到瀑布底下」在 2026 年做不到——<strong>那条步道自 2004 年岩崩后永久关闭，末段有围栏，无重开计划</strong>',
+        '<strong>真正值得多花时间的是北边 1.5 英里的 Calcite Springs Overlook，不要开车路过就算了。</strong>' +
+          '那里有独立停车场、一圈短栈道、2–3 分钟步行，' +
+          '看的是 Yellowstone River 切出的峡谷与对岸整片柱状玄武岩崖壁（当地称 “the palisades”），' +
+          '<strong>画面分量明显高于 Tower Fall 本身</strong>。' +
+          '本手册已把它单列为独立景点，两处放在同一次停留里走最顺',
+        '<strong>可以跳过的：下切到 Yellowstone River 河岸那条 0.5 英里陡坡土路。</strong>' +
+          '往返 1 小时、落差 250–300 英尺，起点海拔就有 6,500 英尺，<strong>下去容易上来难</strong>，' +
+          '而看到的东西在 Calcite Springs Overlook 上能看到八成。' +
+          '<strong>只有在时间充裕、且当天 Lamar 那边没戏时才值得走</strong>，且必须带熊喷雾。' +
+          '另外注意岔口处向左（沿 Tower Creek 通往瀑底）的那一支是封闭的，不要走错',
+        '<strong>厕所与餐饮：这是 Mammoth 与 Cooke City 之间唯一有商店和厕所的地方，别错过。</strong>' +
+          '<strong>Tower Fall General Store 2026 年营业到 10 月 4 日</strong>，' +
+          '所以<strong>在 9/22–9/29 的行程窗口内它是开着的</strong>，停车场旁有厕所。' +
+          '但请注意 <strong>Tower Fall Campground 9 月 27 日关闭</strong>、' +
+          '<strong>Tower-Roosevelt 加油站 9 月 6 日就已关闭</strong>——' +
+          '<strong>这一带没有油，进园前必须在 Gardiner 或 Cooke City 加满</strong>',
+        '<strong>人流与停车：停车场很大，9 月下旬平日基本随到随停</strong>，' +
+          '唯一会挤的是 <strong>10:30–15:00</strong>（Dunraven Pass 在 10/12 前仍通，从 Canyon 方向过来的车会在这里停）。' +
+          '观景台空间不大，人多时排队看一眼就好，不要长时间占位'
       ],
       photo: '风光 <strong>3.5/5</strong>，地质 <strong>4/5</strong>，人像 <strong>1.5/5</strong>。' +
         '瀑布加尖峰的组合确实上镜，但<strong>只有一个固定观景台、一个固定角度，几乎没有构图余地</strong>，' +
@@ -706,13 +906,26 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '<strong>持 America the Beautiful 年票免费</strong>',
-        hours: '<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>，观景台无门禁。' +
-          '<strong>关键是路段日期：Tower-Roosevelt ↔ Tower Fall 段 2026 年开放至 10 月 31 日</strong>，' +
-          '所以从北侧（Tower Junction 方向）来，整个 9 月底至 10 月底窗口都到得了。' +
-          '<strong>但从 Canyon 方向经 Dunraven Pass 过来的那条路 10 月 12 日就关</strong>，' +
-          '两个日期极易混淆，请按你的来向确认',
+        visit: '<strong>含 Calcite Springs Overlook 共 1–1.5 小时。</strong>分配：' +
+          '<strong>Tower Fall 主观景台 20–30 分钟</strong>（步行往返 6 分钟 + 观看 15 分钟 + 商店厕所）；' +
+          '<strong>Calcite Springs Overlook 20–30 分钟</strong>；两处之间开车 4 分钟。' +
+          '<strong>只看 Tower Fall 一处 20 分钟足够</strong>；' +
+          '<strong>要加走河岸那条 0.5 英里陡坡土路则整站按 2.5 小时算</strong>（往返 1 小时且相当耗体力）',
+        book: '不需预约。<strong>Yellowstone 没有 timed entry，也不需要车辆预约</strong>（2026-09-13 核实）',
+        ticket: '<strong>无独立门票，只收一次 Yellowstone 入园费</strong>' +
+          '（2026-09-13 核实于 NPS Fees &amp; Passes 官方页）：' +
+          '<strong>私家车七日通行证 $35</strong>、摩托车／雪地摩托 $30、步行／自行车每人 $20（16 岁以下免费）；' +
+          '<strong>Yellowstone 年卡 $70</strong>，' +
+          '<strong>America the Beautiful 年卡美国居民 $80 / 非美国居民 $250</strong>；' +
+          '<strong>非美国居民 16 岁以上另加 $100／人，持年卡豁免</strong>',
+        hours: '<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>（NPS 官方原文，2026-09-13 核实），' +
+          '观景台无门禁、无关门时间。' +
+          '<strong>关键是路段日期（NPS Park Roads 页 2026 年表，最后更新 2026-09-01）：' +
+          'Tower-Roosevelt ↔ Tower Fall 段 5 月 8 日 – 10 月 31 日；' +
+          'Canyon Village ↔ Tower Fall（Dunraven Pass）5 月 22 日 – 10 月 12 日。</strong>' +
+          '<strong>9/22–9/29 的行程窗口内两条路都开着，从哪边来都行</strong>——' +
+          '这两个日期在 10 月才会开始咬人，届时极易混淆，请按来向确认。' +
+          '道路当天 08:00 开放，关闭日期随天气可提前',
         parking: 'Tower Fall 有大型免费停车场（44.89023, −110.38648），紧邻 Tower Fall General Store。' +
           'Calcite Springs Overlook 另有独立免费停车场。' +
           '<strong>Tower Fall General Store 10 月 4 日关门，Tower Fall Campground 9 月 27 日关门；' +

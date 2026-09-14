@@ -225,6 +225,7 @@ module.exports = {
       n: 1,
       name: 'Artist Point（南缘）',
       en: 'Artist Point, South Rim',
+      must: 5,
       score: 5,
       tldr: '全园最著名的单一画面，但 10 月 15 日之后 Lower Falls 整天都晒不到太阳；9 月下旬的正确窗口是 08:15–09:15。',
       tags: [
@@ -252,6 +253,31 @@ module.exports = {
         '秋季<strong>水量只有春季峰值的十二分之一</strong>：NPS 给出的范围是春季融雪期 63,500 加仑/秒、' +
           '晚秋 5,000 加仑/秒。后果有两个——瀑布更细更「优雅」但气势弱，' +
           '<strong>而且水雾几乎消失，这直接决定了本季看不到彩虹</strong>（见下）'
+      ],
+      tour: [
+        '<strong>如果你在 Canyon 只有半天，顺序就是：Artist Point → Lookout Point → Brink of the Lower Falls，别的都可以砍。</strong>' +
+          'Artist Point 在 South Rim（南缘），是那张明信片本身；Lookout Point 在 North Rim（北缘），' +
+          '隔着峡谷从另一侧正对瀑布。<strong>南北两缘不是重复，是同一条瀑布的两个半场</strong>，' +
+          '各看一个点就够，不必把两边的观景台全刷一遍',
+        '<strong>South Rim 与 North Rim 的取舍，按体力分：只想坐车看风景就全走南缘</strong>' +
+          '（Artist Point 与 Upper Falls View 都是铺装缓坡、5 分钟内到位、可推轮椅与婴儿车）；' +
+          '<strong>愿意出汗才去北缘</strong>——北缘的精华 Brink of the Lower Falls 与 Red Rock Point 都要下切几百英尺再爬回来。' +
+          '还要记住 <strong>North Rim Drive 是单向通行</strong>，开过头的点必须绕回 Grand Loop Road 重进一次，约 10 分钟',
+        '<strong>Artist Point 本身零门槛</strong>：停车场到观景台 5 分钟、约 150 米铺装缓上坡，' +
+          '全程有护栏，不需要爬任何台阶。想多走的人可以从观景台继续沿 South Rim Trail 往东到 Point Sublime，' +
+          '往返约 3 公里、1 小时，土路有起伏，<strong>那边看不到瀑布但几乎没人</strong>',
+        '<strong>停车场满位时段是 09:00–16:00，峰值在 10:30–14:30。</strong>' +
+          '这个停车场在 South Rim Drive 尽头、只有一个出入口，满了之后车会在路上排队等位，' +
+          '排到车位平均要 15–25 分钟。<strong>08:00 前或 16:30 后来基本随便停</strong>；' +
+          '9 月下旬的人流比 7–8 月低一档，但周末仍然会满',
+        '<strong>厕所在停车场（旱厕，季节性开放），观景台上没有；这里没有任何餐饮与饮水。</strong>' +
+          '最近的正经补给是 <strong>Canyon Village</strong>（车程约 10 分钟）——那里有 Canyon Lodge Eatery 自助餐厅、' +
+          'Falls Café、杂货店、加油站与全区唯一有暖气的室内卫生间。<strong>把吃饭与上厕所统一放在 Canyon Village 解决</strong>，' +
+          '不要指望峡谷缘的任何一个观景台',
+        '<strong>bison jam（野牛堵车）：从 Canyon Village 开到这里只有 3.5 英里，但请预留 25 分钟而不是 10 分钟。</strong>' +
+          '野牛会直接走在行车道中央，时速约 3 英里，一群能堵 15–20 分钟。' +
+          '<strong>正确做法是留在车里、熄火等、不要按喇叭、不要下车拍、更不要从草地上绕过去</strong>' +
+          '（绕行会惊动牛群，也是罚单事由）。野牛贴着车身走过时收起后视镜、关好车窗即可'
       ],
       photo: '风光 <strong>5/5</strong>，人像 <strong>2/5</strong>，建筑 <strong>—</strong>。' +
         '构图元素完备、机位无障碍、朝向正确（视线方位 255°，太阳从背后左肩来），' +
@@ -338,11 +364,25 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '含在园区门票内。<strong>America the Beautiful 年卡直接覆盖</strong>，另免 $100/人 的非居民附加费',
+        visit: '<strong>30–45 分钟</strong>（停车 → 观景台 → 拍照 → 返回）。' +
+          '<strong>只看一眼 15 分钟足够</strong>，这是一个「站定就看完」的观景台，没有动线可走。' +
+          '<strong>加上 Point Sublime 往返则为 1.5–2 小时。</strong>' +
+          '把整个 South Rim（Artist Point + Upper Falls View + Brink of the Upper Falls）串完算 <strong>2–2.5 小时</strong>，' +
+          '含路上的野牛堵车。（NPS 未对单个观景台发布建议时长，此为按步行距离与观景台规模推算。）',
+        book: '不需预约。Yellowstone 2026 年<strong>没有 timed-entry 或车辆预约制度</strong>，直接开到入口付费即可',
+        ticket: '<strong>景点本身免费，含在园区门票内；园内所有观景台与步道都不单独售票。</strong>' +
+          '<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：' +
+          '私家车 <strong>$35</strong>（覆盖车上全部乘客，连续 7 天）、摩托车／雪地摩托 <strong>$30</strong>、' +
+          '步行／自行车 <strong>$20/人</strong>（16 岁以上，15 岁及以下免费）。' +
+          '<strong>自 2026-01-01 起，16 岁及以上的非美国居民须在标准门票之外另付 $100/人</strong>，' +
+          '<strong>但持 America the Beautiful 年卡或 Yellowstone Annual Pass（$70）入园者免除该附加费</strong>。' +
+          'ATB 年卡 2026 年美国居民 $80、非居民 $250。五个入口均收现金与刷卡',
         hours: '观景台<strong>全天开放、不设门禁</strong>（园区 24 小时开放，路段开放期内不夜间关闭）。' +
-          '<strong>唯一的时间限制是道路季节：South Rim Drive 所属的主段 2026 年通车至 10/31</strong>，' +
-          'NPS 未单独公布 South Rim Drive 的开闭日期，降雪后可能先于主路临时封闭',
+          '<strong>唯一的时间限制是道路季节。2026-09-13 核实 NPS Park Roads 页原文</strong>：' +
+          '<em>「Open April 17 – October 31, 2026: … Norris to Canyon Village」</em>、' +
+          '<em>「Open May 1 – October 31, 2026: … Canyon Village to Bridge Bay」</em>。' +
+          '<strong>9/22–9/29 这一周所有相关路段均正常通车，本点无季节性风险。</strong>' +
+          'NPS 未单独公布 South Rim Drive 的开闭日期，降雪后支线可能先于主路临时封闭',
         parking: 'South Rim Drive 尽头的大型免费停车场，<strong>不收费</strong>。' +
           '10 月人流已大幅下降，但 09:00–15:00 仍会满；' +
           '07:00 前到场基本随便停，这与最佳拍摄时段正好一致',
@@ -379,6 +419,7 @@ module.exports = {
       gone: '已被 NPS 永久关闭',
       name: 'Uncle Tom\u2019s Trail（328 级台阶）',
       en: 'Uncle Tom\u2019s Trail, South Rim',
+      must: 0.5,
       score: 4,
       tldr: '不是季节性关闭、不是维修中——NPS 已确认永久关闭并计划拆除楼梯，自 2019 年夏起无人通行。',
       tags: [
@@ -408,6 +449,24 @@ module.exports = {
           '<strong>nps.gov 上并没有一句成文的「permanently closed」</strong>——' +
           '想要官方口头确认只能打 (307) 344-7381。但无论措辞如何，<strong>现场进不去这一点没有疑问</strong>'
       ],
+      tour: [
+        '<strong>这一条唯一的行动建议是：把它从行程里划掉，不要去找。</strong>' +
+          '2026-09-13 再次复核，结论不变——步道封闭、无重开时间表、NPS 计划拆除楼梯。' +
+          '本条留在手册里只为一个目的：<strong>让你在现场看到「Uncle Tom\u2019s Parking Area」的路牌时不会以为步道开着</strong>',
+        '<strong>那个停车场本身仍然要用，但它现在的身份是 Upper Falls Viewpoints 的停车场。</strong>' +
+          '从这里走 3–5 分钟／约 200 米铺装缓坡就到 Upper Falls View（即原来的 Uncle Tom\u2019s Point 观景台，开放）。' +
+          '<strong>停车、看 Upper Falls、走一段 South Rim Trail，这才是这个停车场现在的正确用法</strong>',
+        '<strong>想要「下到峡谷里、近距离仰看瀑布」这个体验，现在有两个替代，都在 North Rim（北缘）</strong>：' +
+          '<strong>Brink of the Lower Falls Trail</strong>（往返 0.7 英里，下到 308 英尺瀑布的唇口正上方，' +
+          '之字形陡坡，下 15–20 分钟、上 25–40 分钟）与 <strong>Red Rock Point</strong>' +
+          '（不到 0.5 英里下降近 500 英尺、最后近 100 级台阶，对岸低位视角）。' +
+          '<strong>两条的体力要求都和当年的 328 级台阶相当，心肺不好的人 NPS 明确不建议下去</strong>',
+        '<strong>不要试图从 South Rim Trail 上找绕行下切的野路。</strong>' +
+          'Superintendent\u2019s Compendium 规定 Upper Falls 与 Inspiration Point 之间的峡谷内步行仅限栈道与步道，' +
+          '违规会被开罚单；而且那是被热液蚀变成酥松状的岩石，边缘随时会塌',
+        '<strong>这个停车场有季节性旱厕，没有餐饮与饮水</strong>；' +
+          '要吃饭和用有暖气的卫生间请回 Canyon Village（车程约 8 分钟）'
+      ],
       photo: '<strong>本次为 0。</strong>正常年份它是 4/5 的独特低位机位（近距离仰拍瀑布、水雾入画），' +
         '但那个画面在可预见的未来不会再有。' +
         '把这条替换成 <strong>Red Rock Point</strong>（对岸低位，同样下切约 500 英尺）' +
@@ -424,12 +483,20 @@ module.exports = {
         }
       ],
       access: {
-        book: '—',
-        ticket: '—',
+        visit: '<strong>0 分钟——无法进入，不要为它安排时间。</strong>' +
+          '如果你已经停在 Uncle Tom\u2019s Parking Area，把原本给它的时间改配给同一个停车场的 ' +
+          '<strong>Upper Falls Viewpoints（20–30 分钟）</strong>与' +
+          '<strong>东侧 South Rim Trail 上的 Crystal Falls 视角（再加 20 分钟）</strong>',
+        book: '—（无法进入）',
+        ticket: '<strong>—。</strong>该步道不单独售票也无法进入；所在的 South Rim 区域含在园区门票内' +
+          '（2026-09-13 核实：私家车 $35/7 天，非美居民 16 岁以上另加 $100/人，持 ATB 年卡免附加费）',
         hours: '<strong>永久关闭，无重开时间表，NPS 计划拆除。</strong>' +
-          '2026-09-05 复核：nps.gov 现行的峡谷观景台／步道清单里已完全没有这条步道；' +
-          '「永久」的措辞出自公园公共事务办公室，未见于 nps.gov 成文页面，' +
-          '<strong>要口头确认请拨公园信息线 (307) 344-7381</strong>',
+          '<strong>2026-09-13 复核，结论维持不变</strong>：nps.gov 现行的峡谷观景台／步道清单里仍然完全没有这条步道；' +
+          'NPS 的 Backcountry Conditions 报告（Canyon Rim Trails 一节，8/26/26 更新）只写「Trails open」' +
+          '而从未列出这一条；AllTrails 该条目仍标注 <em>Trail closed</em>。' +
+          '<strong>「永久」的措辞出自公园公共事务办公室（Linda Veress）对 Cowboy State Daily 的答复，' +
+          '至今仍未见于 nps.gov 的成文页面</strong>——这是本条唯一的证据缺口，' +
+          '<strong>要官方口头确认请拨公园信息线 (307) 344-7381</strong>',
         parking: 'Uncle Tom\u2019s Parking Area 仍开放（44.71491, −110.49578），' +
           '是 Upper Falls Viewpoints 与 South Rim Trail 的正规停车场，免费',
         walk: '不可进入'
@@ -460,6 +527,7 @@ module.exports = {
       n: 3,
       name: 'Brink of the Lower Falls（瀑布唇口）',
       en: 'Brink of the Lower Falls Trail, North Rim',
+      must: 4,
       score: 4,
       tldr: '开放。0.4 英里下切到 308 英尺瀑布的唇口正上方，回程爬升是本区最累的 25–40 分钟；水雾会糊镜。',
       tags: [
@@ -485,6 +553,33 @@ module.exports = {
           '所以哪怕不打算下切（或步道因结霜封闭），来这个停车场也不算白来。' +
           '这段支线是铺装、无障碍的。此外 2021 年这条步道完成了路面与护栏翻新，' +
           '是 Canyon 峡谷缘长期改造计划的最后阶段之一（与 Red Rock Point 同批）'
+      ],
+      tour: [
+        '<strong>这是 Canyon 区最值得花体力的一件事：全园只有这里能站在 308 英尺瀑布正上方往下看。</strong>' +
+          'Artist Point 给你的是远景明信片，这里给你的是「水从脚下掉下去」的实感。' +
+          '<strong>如果你在北缘只做一件事，做这件。</strong>体力不允许就老实跳过，不要硬撑',
+        '<strong>体力要求说清楚：往返 0.7 英里，NPS 口径落差 600 英尺（实测数据更接近 360–400 英尺），' +
+          '十余个之字形急弯，下行 15–20 分钟、回程上行 25–40 分钟。</strong>' +
+          '<strong>路面是铺装坡道而不是台阶</strong>（真正的长台阶在 Red Rock Point，最后近 100 级），' +
+          '但它是连续无平台的陡坡、中途没有一把长椅。' +
+          '难点在海拔——这里 7,400–7,800 英尺，平地走得动的人在这里也会喘。' +
+          '<strong>NPS 原文注明「不建议心脏、肺部或其他健康状况不佳者前往」，这句话要当真。</strong>' +
+          '空手下去，别背整包东西',
+        '<strong>就算不下切，来这个停车场也不亏</strong>：步道最开始有一段铺装、无障碍的短支线，' +
+          '走 2–3 分钟就能看到 Upper Falls（109 英尺）。' +
+          '<strong>步道因结霜或熊活动临时封闭时，这段仍然开放</strong>，这是同行者里走不动的人的去处',
+        '<strong>停车是本点最大的实际障碍：North Rim Drive 这段只有约 20–30 个路侧车位，' +
+          '10:00–15:00 常年满位，而且 North Rim Drive 是单向的——错过就得绕回 Grand Loop Road 重进一次，约 10 分钟。</strong>' +
+          '<strong>08:30 前到基本空着</strong>，9 月下旬的清晨尤其宽松。' +
+          '进入 North Rim Drive 后的正确顺序是：Brink of the Lower Falls → Lookout Point（含 Red Rock Point 支线）→ ' +
+          'Grand View → Inspiration Point 支路 → 出口',
+        '<strong>厕所在停车区（季节性旱厕），步道上没有；全程无饮水、无餐饮、无手机信号。</strong>' +
+          '<strong>下切前先上厕所、先灌水</strong>——这条路上折返一趟的代价是 25–40 分钟的爬升。' +
+          '最近的正经餐饮与室内卫生间在 Canyon Village，车程约 5 分钟',
+        '<strong>bison jam 在 North Rim Drive 同样常见，而且这条路是单向单车道、没有超车空间。</strong>' +
+          '一头牛走在路中间就能让整条支线停 10–20 分钟。' +
+          '<strong>留在车里等，不要下车、不要鸣笛、不要试图从路肩挤过去</strong>' +
+          '（路肩外就是峡谷缘的松软土层）。把从 Canyon Village 过来的这 1.5 英里预留成 20 分钟'
       ],
       photo: '风光 <strong>4/5</strong>，人像 <strong>2/5</strong>。' +
         '视角独特性满分——俯视瀑布纵剖面是别处拿不到的画面；' +
@@ -524,12 +619,24 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '含在园区门票内，<strong>年卡覆盖</strong>，步道本身无额外费用',
-        hours: 'NPS 明确标注该步道 <strong>Season: Summer, Fall；This trail is closed in winter</strong>，' +
-          '未公布具体的秋季关闭日期——实际以降雪结霜为准，' +
-          '且 <strong>NPS 与 AllTrails 均标注「本区域可能因熊活动临时关闭」</strong>。' +
-          '所属路段（North Rim Drive）随主段通车至 10/31',
+        visit: '<strong>45–75 分钟</strong>：下行 15–20 分钟 + 唇口平台停留 10–15 分钟 + 回程上行 25–40 分钟。' +
+          '<strong>不下切、只走起点那段 Upper Falls 支线约 10 分钟。</strong>' +
+          '把这条与同在 North Rim Drive 上的 Lookout Point、Grand View、Inspiration Point 串成一趟，' +
+          '整条北缘算 <strong>3–4 小时</strong>（含 Red Rock Point 则 4–5 小时）。' +
+          '（NPS 官方给出的是距离与「Strenuous」难度评级，未发布建议时长；此处按 0.7 英里往返 + 600 英尺落差 + 7,400 英尺海拔推算。）',
+        book: '不需预约，步道无人数限制也无许可要求',
+        ticket: '<strong>步道本身完全免费，无额外费用</strong>，含在园区门票内。' +
+          '<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>／7 天（覆盖全车乘客）、' +
+          '摩托 <strong>$30</strong>、步行或自行车 <strong>$20/人</strong>（15 岁及以下免费）。' +
+          '<strong>16 岁及以上非美国居民自 2026-01-01 起另付 $100/人，持 America the Beautiful 年卡或 ' +
+          'Yellowstone Annual Pass（$70）者免除</strong>',
+        hours: '<strong>步道无门禁、无开放钟点，白天随时可下</strong>（但 NPS 明确建议不要在黄昏后或天黑时徒步，熊）。' +
+          '<strong>2026-09-13 核实，NPS 该步道页原文：<em>Season: Summer, Fall</em>；<em>This trail is closed in winter</em></strong>，' +
+          '<strong>官方未公布具体的秋季关闭日期</strong>——实际以降雪结霜为准。' +
+          'NPS 的 Backcountry Conditions 报告在 <em>Canyon Rim Trails</em> 一节写 <em>「Trails open.（8/26/26）」</em>，' +
+          '<strong>即 9 月下旬本步道正常开放</strong>。' +
+          '<strong>但 NPS 与 AllTrails 均标注本区域可能因熊活动临时封闭</strong>，且霜冻后陡坡会被临时关闭。' +
+          '所属的 Norris↔Canyon Village 路段 2026 年通车至 <strong>10/31</strong>，9/22–9/29 无季节性风险',
         parking: 'North Rim Drive 沿线的免费路侧停车带，车位有限（约 20–30 辆）；' +
           '10 月清晨基本空着',
         walk: '往返 0.7 英里／1.1 公里。<strong>下行 15–20 分钟、上行 25–40 分钟</strong>，' +
@@ -565,6 +672,7 @@ module.exports = {
       n: 4,
       name: 'Upper Falls View 与 Brink of the Upper Falls',
       en: 'Upper Falls View · Brink of the Upper Falls',
+      must: 2.5,
       score: 3.5,
       tldr: '两个低成本、几乎不用走路的点，合起来 40 分钟；朝向决定了它们是全区唯一适合正午与阴天拍的地方。',
       tags: [
@@ -586,6 +694,33 @@ module.exports = {
         '<strong>顺手能带上 Crystal Falls</strong>：Cascade Creek 以 129 英尺的落差汇入峡谷，' +
           '位于 Upper 与 Lower 两瀑之间，<strong>从 Upper Falls Viewpoints 东侧的 South Rim Trail 上可见</strong>。' +
           '这是峡谷里第三条瀑布，绝大多数游客不知道它存在'
+      ],
+      tour: [
+        '<strong>先摆正期待：这两个点不是「必去」，是「顺路、便宜、不费腿」。</strong>' +
+          'Upper Falls 只有 109 英尺，是 Lower Falls 的三分之一，' +
+          '看过 Artist Point 或 Lookout Point 之后再来会明显觉得小。' +
+          '<strong>时间紧张的人完全可以只去 Brink of the Upper Falls 这一个（5 分钟），把 Upper Falls View 砍掉</strong>；' +
+          '时间宽裕再两个都做',
+        '<strong>Brink of the Upper Falls 是全区性价比最高的一站：从停车场到唇口只有 1–2 分钟、约 80 米平路，' +
+          '零爬升、零台阶，站上去就是水从脚下跌进峡谷。</strong>' +
+          '它在 Grand Loop Road 上有自己独立的支路，位置夹在 North Rim Drive 与 South Rim Drive 两个路口之间，' +
+          '<strong>路牌不显眼，从主路一冲就过去了</strong>——从 Canyon Junction 南下时提前减速看右手边',
+        '<strong>Upper Falls View 走的是另一个停车场</strong>（South Rim Drive 进去第一个左转，' +
+          '路牌仍写 Uncle Tom\u2019s Parking Area），到观景台 3–5 分钟／约 200 米铺装缓坡。' +
+          '<strong>这个观景台就是旧攻略里的「Uncle Tom\u2019s Point」，它是开放的；关闭的是从它下方下切的 328 级台阶。</strong>' +
+          '顺路往东多走几百米上 South Rim Trail，能看到 129 英尺的 Crystal Falls，绝大多数人不知道它存在',
+        '<strong>这两处是整个 Canyon 区唯一适合放在正午与阴天的点。</strong>' +
+          '峡谷在这一段浅得多，不像 Lower Falls 那样整天卡在阴影里。' +
+          '<strong>行程上应当把它们当作弹性缓冲</strong>：早上抢完 Artist Point 与北缘，' +
+          '中午人最多、光最硬的时候来这里，正好错峰',
+        '<strong>停车：Brink of the Upper Falls 的场地很小（约 15–20 个车位），10:00–15:00 会满</strong>，' +
+          '满了只能在支路上绕一圈重来，没有路边停车空间；' +
+          'Upper Falls Viewpoints 的场地大得多（原 Uncle Tom\u2019s 大停车场），基本不会满。' +
+          '9 月下旬两处的压力都比盛夏低一档，08:00 前或 16:00 后完全宽松',
+        '<strong>两处停车场都有季节性旱厕，都没有餐饮与饮水，都没有手机信号。</strong>' +
+          '餐饮统一回 Canyon Village 解决（车程 5–8 分钟）。' +
+          '路上遇 bison jam 是常态——<strong>留在车里等，别下车、别鸣笛</strong>，' +
+          '把 Canyon Village 到这里的车程按 20 分钟预留'
       ],
       photo: '风光 <strong>3.5/5</strong>，人像 <strong>2/5</strong>。' +
         '题材本身不如 Lower Falls，但有两个实际优势：' +
@@ -626,11 +761,22 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>两处合计 40–55 分钟</strong>：Brink of the Upper Falls <strong>10–15 分钟</strong>' +
+          '（含步行来回与停留）、Upper Falls View <strong>20–30 分钟</strong>，中间转场开车约 5 分钟。' +
+          '<strong>只做 Brink of the Upper Falls 一处，10 分钟就够。</strong>' +
+          '加上往东走 South Rim Trail 看 Crystal Falls 再加 <strong>20–30 分钟</strong>。' +
+          '（NPS 未对这两个观景台发布建议时长；按步行距离 80 米与 200 米、均为铺装缓坡推算。）',
         book: '不需预约',
-        ticket: '含在园区门票内，<strong>年卡覆盖</strong>',
-        hours: '两处均<strong>全天开放、不设门禁</strong>。' +
-          '限制来自道路季节：所属主段 2026 年通车至 <strong>10/31</strong>；' +
-          '<strong>NPS 未单独公布 South Rim Drive 与 Brink of the Upper Falls Drive 的开闭日期</strong>',
+        ticket: '<strong>免费</strong>，含在园区门票内，两处观景台均不单独售票。' +
+          '<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>／7 天、摩托 <strong>$30</strong>、' +
+          '步行或自行车 <strong>$20/人</strong>（15 岁及以下免费）。' +
+          '<strong>16 岁及以上非美国居民另付 $100/人（2026-01-01 起施行），持 ATB 年卡或 Yellowstone Annual Pass（$70）免除</strong>',
+        hours: '两处均<strong>全天开放、不设门禁</strong>，无开闭钟点。' +
+          '<strong>2026-09-13 核实 NPS Park Roads 页</strong>：所属主段' +
+          '（Norris↔Canyon Village、Canyon Village↔Bridge Bay）2026 年通车至 <strong>10/31</strong>，' +
+          '<strong>9/22–9/29 期间正常通车</strong>。' +
+          '<strong>NPS 未单独公布 South Rim Drive 与 Brink of the Upper Falls Drive 这两条支线的开闭日期</strong>，' +
+          '降雪后支线可能先于主路临时封闭',
         parking: '两处各有免费停车场。Upper Falls Viewpoints 的场地较大（原 Uncle Tom\u2019s 停车场）；' +
           'Brink of the Upper Falls 的场地较小，夏季常满，10 月不成问题',
         walk: 'Brink of the Upper Falls <strong>1–2 分钟／80 米</strong>；' +
@@ -663,6 +809,7 @@ module.exports = {
       n: 5,
       name: '北缘观景带（Lookout Point · Grand View · Inspiration Point）',
       en: 'North Rim Drive: Lookout Point · Grand View · Inspiration Point',
+      must: 4.5,
       score: 4.5,
       tldr: '三处均开放，Inspiration Point 已于 2018 年翻修后重开；单向环路一趟串完，光线窗口比 Artist Point 宽得多。',
       tags: [
@@ -698,6 +845,37 @@ module.exports = {
           '它与 Artist Point 的差别不只是角度：Artist Point 看的是「瀑布 + 峡谷两侧收拢」的经典构图，' +
           'Lookout Point 更正对瀑布、更接近、并能看到落水潭。' +
           '两者的受光时刻也不同，一个上午可以都吃到'
+      ],
+      tour: [
+        '<strong>先记住一条硬规则：North Rim Drive 是单向通行，从南往北只能开一遍。</strong>' +
+          '顺序是固定的——<strong>Brink of the Lower Falls → Lookout Point（Red Rock Point 支线从这里下）→ ' +
+          'Grand View → Inspiration Point 支路 → 出口回 Canyon Village</strong>。' +
+          '<strong>开过头的点必须绕回 Grand Loop Road 重进一圈，约 10 分钟</strong>，' +
+          '所以进去之前就把「今天要停哪几个」定好',
+        '<strong>三个观景台不重复，但赶时间可以只选一个：想看瀑布选 Lookout Point，' +
+          '想看峡谷本身选 Grand View，想看峡谷有多长选 Inspiration Point。</strong>' +
+          'Lookout Point 是北缘看 Lower Falls 的主位、比 Artist Point 更正对更近；' +
+          'Grand View 是全区最高的台子（2,385 米）但看不到瀑布；' +
+          'Inspiration Point 在最下游，2018 年翻修后平台最宽、护栏最矮、最适合一群人站着聊天',
+        '<strong>这三处全部是「停车即到」级别：Lookout Point 2–3 分钟／120 米，Grand View 2 分钟／100 米，' +
+          'Inspiration Point 3–4 分钟／150 米，全部铺装、可推轮椅与婴儿车。</strong>' +
+          'Lookout Point 与 Grand View 之间还有一段无障碍步道相连，可以把车停在一头走过去。' +
+          '<strong>真正费腿的只有 Red Rock Point 这条支线</strong>：从 Lookout Point 分出去，' +
+          '不到 0.5 英里下降近 500 英尺，碎石路转土石路接栈道，<strong>最后是近 100 级台阶</strong>，' +
+          '下行 15–20 分钟、上行 30–45 分钟。<strong>NPS 明确不建议心肺状况不佳者下去</strong>',
+        '<strong>North Rim 与 South Rim 怎么取舍：只有半天就走南缘</strong>' +
+          '（Artist Point 一个点解决问题，全程铺装）；' +
+          '<strong>有一整天才做北缘</strong>——北缘的价值在于「多个不同视角 + 两条下切步道」，' +
+          '但它同时也是单向路、停车位少、需要爬升。' +
+          '<strong>两缘都做的话，先南后北</strong>：南缘的 Artist Point 上午光线窗口窄（08:15–09:15），' +
+          '北缘这几处从日出后一小时到中午都有光，弹性大得多',
+        '<strong>停车：四处各有免费停车场，Lookout Point 与 Grand View 的最大、Inspiration Point 中等。' +
+          '满位时段 10:00–15:30</strong>，其中 Lookout Point 因为兼作 Red Rock Point 的停车场压力最大。' +
+          '<strong>09:00 前来全部空着</strong>。注意支路尽头的 Inspiration Point 掉头空间有限，大车谨慎',
+        '<strong>厕所：四处停车场都有季节性旱厕，但都没有饮水、没有餐饮、没有手机信号。</strong>' +
+          '从 Canyon Village 到 North Rim Drive 入口只有 1.5 英里，' +
+          '<strong>把吃饭、灌水、用暖气卫生间全部放在 Canyon Village 做掉再进来</strong>。' +
+          '路上遇 bison jam 时留在车里熄火等，这条单向单车道没有任何绕行余地，一堵就是 10–20 分钟'
       ],
       photo: '风光 <strong>4.5/5</strong>，人像 <strong>3/5</strong>。' +
         'Lookout Point 与 Red Rock Point 是本区最强的两个 Lower Falls 机位（仅次于 Artist Point 的辨识度）；' +
@@ -764,14 +942,25 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '含在园区门票内，<strong>年卡覆盖</strong>',
-        hours: '四处观景台均<strong>全天开放、不设门禁</strong>。' +
-          '<strong>Red Rock Point 步道无官方公布的秋季关闭日期</strong>，' +
-          '与 Brink of the Lower Falls 同属冬季关闭的下切步道，' +
-          '霜期与雨后可能临时封闭，且本区域可能因熊活动关闭。' +
-          'North Rim Drive 所属主段 2026 年通车至 <strong>10/31</strong>' +
-          '（NPS 未单独公布 North Rim Drive 的开闭日期）',
+        visit: '<strong>三个观景台串完 1.5–2 小时</strong>（每处 20–30 分钟，含转场开车）。' +
+          '<strong>加上 Red Rock Point 下切支线再加 45–65 分钟，整条 North Rim Drive 变成 2.5–3 小时。</strong>' +
+          '<strong>只挑一个点看 25 分钟</strong>——选 Lookout Point。' +
+          '把北缘与 Brink of the Lower Falls 合起来做完整半天，算 <strong>3.5–4.5 小时</strong>。' +
+          '（NPS 未对观景台发布建议时长；按各处 100–150 米步行距离、Red Rock Point 官方难度评级与实测爬升推算。）',
+        book: '不需预约，四处均无人数限制',
+        ticket: '<strong>免费</strong>，含在园区门票内，四处观景台与 Red Rock Point 步道均不单独收费。' +
+          '<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>／7 天（覆盖全车乘客）、' +
+          '摩托或雪地摩托 <strong>$30</strong>、步行／自行车 <strong>$20/人</strong>（16 岁以上，15 岁及以下免费）。' +
+          '<strong>非美国居民 16 岁及以上须另付 $100/人（2026-01-01 起），' +
+          '持 America the Beautiful 年卡（美居民 $80／非居民 $250）或 Yellowstone Annual Pass（$70）者免除</strong>',
+        hours: '四处观景台均<strong>全天开放、不设门禁</strong>，无开闭钟点。' +
+          '<strong>2026-09-13 核实：NPS Backcountry Conditions 报告 <em>Canyon Rim Trails</em> 一节写 ' +
+          '<em>「Trails open.（8/26/26）」</em>，即北缘各步道现为开放状态。</strong>' +
+          '<strong>Red Rock Point 步道仍无官方公布的秋季关闭日期</strong>——' +
+          '与 Brink of the Lower Falls 同属冬季关闭的下切步道，霜期与雨后可能临时封闭，' +
+          '且本区域可能因熊活动关闭。' +
+          'North Rim Drive 所属主段（Norris↔Canyon Village）2026 年通车 <strong>4/17 – 10/31</strong>，' +
+          '<strong>9/22–9/29 正常通车</strong>；NPS 未单独公布 North Rim Drive 支线本身的开闭日期',
         parking: '四处各有免费停车场／停车带，均在观景台旁。' +
           'Lookout Point 与 Grand View 的场地最大；' +
           'Inspiration Point 在支路尽头，场地中等。10 月清晨全部空着',
@@ -810,6 +999,7 @@ module.exports = {
       n: 6,
       name: 'Hayden Valley（海登谷）',
       en: 'Hayden Valley',
+      must: 5,
       score: 5,
       tldr: '公路在河的西侧，所以日出时你正对着太阳与河雾——这是全园最好的逆光野生动物机位，且整季都在。',
       tags: [
@@ -849,6 +1039,36 @@ module.exports = {
           '2024 年新设的 <strong>Hayden Valley BMA（16,453 英亩）在公路以西</strong>，' +
           '离径禁令期为 7/15–9/15——<strong>本季（9 月下旬起）该禁令已失效，' +
           '但这只意味着法规不禁止，不意味着应该走进去</strong>'
+      ],
+      tour: [
+        '<strong>Hayden Valley 是「开车看动物」，不是「下车走景点」。这里没有观景台、没有步道、没有任何设施，' +
+          '全部活动就是在 Grand Loop Road 沿线十余处 pullout 之间停停走走。</strong>' +
+          '正确用法是<strong>先从北到南慢慢开一遍（约 15 分钟）把当天动物的位置找出来，再掉头回去停</strong>，' +
+          '而不是见一个 pullout 停一个',
+        '<strong>时段决定一切：清晨与傍晚有动物，中午基本看不到什么。</strong>' +
+          '9 月下旬的实操窗口是<strong>日出前 30 分钟到日出后 2 小时（约 06:45–09:15）</strong>' +
+          '与<strong>日落前 2 小时到天黑（约 17:15–19:15）</strong>。' +
+          '中午来只会看到远处几个黑点和一条空谷，' +
+          '<strong>如果只能来一次，来早上</strong>——冷夜之后河面会起雾，那是这里最好看的时候',
+        '<strong>必须带双筒望远镜，这是本条最实际的一句建议。</strong>' +
+          '动物通常在 <strong>200–800 米外</strong>，肉眼只能看到黑点。' +
+          '8×42 或 10×42 的双筒能把体验从「看到有东西」变成「看清是什么」。' +
+          '没带的话，<strong>路边支着大炮的人通常很乐意让你看一眼他们的镜头</strong>，这是这里的常态社交',
+        '<strong>bison jam 在这里不是意外，是日程的一部分。</strong>' +
+          '野牛成群走在行车道上，时速约 3 英里，一次能堵 15–30 分钟。' +
+          '<strong>做法：留在车里、熄火、不要鸣笛、不要下车绕到牛前面拍照、绝不要开上草地绕行。</strong>' +
+          '牛贴着车走过来时收起后视镜、关窗、不要盯着它看。' +
+          '<strong>从 Canyon Village 到谷地北端只有 5 英里，但请一律按 25 分钟预留</strong>；' +
+          '想赶日出就再往前提 15 分钟',
+        '<strong>安全线要当真，这里是全园灰熊密度最高的地方之一。</strong>' +
+          '与熊、狼保持 <strong>100 码（91 米）</strong>，与野牛等其他动物保持 <strong>25 码（23 米）</strong>。' +
+          '<strong>所有停留都应在铺装 pullout 上、贴着车</strong>，不要走进草甸——' +
+          'NPS 的统计是 1970 年以来 Hayden Valley 最近 10 起灰熊伤人有 8 起发生在公路以西的草甸里。' +
+          '防熊喷雾握在手上或挂腰带，不要放包里。<strong>看到新鲜动物尸体立刻回车并上报</strong>',
+        '<strong>整段谷地没有厕所、没有饮水、没有餐饮、没有手机信号，长度约 7 英里。</strong>' +
+          '<strong>北端最近的厕所与餐饮在 Canyon Village（车程 12 分钟）</strong>，' +
+          '<strong>南端最近的厕所在 Mud Volcano 停车场（季节性旱厕，车程 8 分钟）</strong>。' +
+          '打算在这里守两小时日出的人，出发前务必在 Canyon Village 解决，并自带热饮与食物'
       ],
       photo: '风光 <strong>4.5/5</strong>，野生动物 <strong>5/5</strong>，人像 <strong>2/5</strong>。' +
         '本区分量最重的一条。' +
@@ -933,11 +1153,26 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '含在园区门票内，<strong>年卡覆盖</strong>。所有 pullout 免费',
-        hours: '<strong>全天开放、不设门禁</strong>，园区 24 小时可进出。' +
-          '唯一限制是道路季节：Canyon Village ↔ Bridge Bay 路段 2026 年通车 ' +
-          '<strong>5/1 – 10/31</strong>。此路段无夜间关闭，可以在天黑前就位',
+        visit: '<strong>1.5–3 小时</strong>，而且应当<strong>集中在清晨或傍晚</strong>，中午来时长再久也没用。' +
+          '分配：<strong>先慢速开一遍全段找动物 15 分钟</strong>，' +
+          '<strong>在当天动物最集中的 1–2 处 pullout 各守 30–60 分钟</strong>，' +
+          '<strong>路上的 bison jam 预留 20–30 分钟</strong>。' +
+          '<strong>只是开车穿过、随手停两脚，45 分钟。</strong>' +
+          '想看到熊或狼则需要「连续几个清晨都来」，单次概率不高。' +
+          '（NPS 未对本区发布建议时长；按谷地约 7 英里长度、十余处 pullout 与野生动物观察的实际节奏推算。）',
+        book: '不需预约，无人数限制',
+        ticket: '<strong>免费</strong>，含在园区门票内，所有 pullout 与路边观察点均不收费。' +
+          '<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>／7 天（覆盖全车乘客）、' +
+          '摩托 <strong>$30</strong>、步行／自行车 <strong>$20/人</strong>（15 岁及以下免费）。' +
+          '<strong>16 岁及以上非美国居民自 2026-01-01 起另付 $100/人，' +
+          '持 America the Beautiful 年卡或 Yellowstone Annual Pass（$70）者免除该附加费</strong>',
+        hours: '<strong>全天开放、不设门禁</strong>，园区 24 小时可进出，此路段无夜间关闭，可以在天亮前就位。' +
+          '<strong>2026-09-13 核实 NPS Park Roads 页原文：<em>「Open May 1 – October 31, 2026: ' +
+          'East Entrance to Fishing Bridge (Sylvan Pass), Canyon Village to Bridge Bay」</em></strong>——' +
+          '穿越 Hayden Valley 的正是 Canyon Village↔Bridge Bay 这一段，' +
+          '<strong>9/22–9/29 期间正常通车，无季节性风险</strong>。' +
+          '另注意 NPS Backcountry Conditions 报告（5/27/26）标注 <em>Hayden Valley 内的 Crater Hills ' +
+          '因野生动物保护关闭</em>，但该处不在公路沿线，不影响 pullout 观察',
         parking: '沿 Grand Loop Road 有十余处铺装／碎石 pullout，全部免费。' +
           '<strong>只能停在划定的 pullout 内，不得停在行车道或路肩草地上</strong>；' +
           '10 月清晨基本空着，但一旦有熊或狼被发现会瞬间形成 bear jam',
@@ -983,6 +1218,7 @@ module.exports = {
       n: 7,
       name: 'Mud Volcano 与 Sulphur Caldron',
       en: 'Mud Volcano Area · Sulphur Caldron',
+      must: 2.5,
       score: 3,
       tldr: '园内最酸、最臭的热区，pH 1–2 相当于电瓶酸；冷早晨的蒸汽最壮观，但硫化氢也最浓。',
       tags: [
@@ -1014,6 +1250,33 @@ module.exports = {
           '它的名字来自水中大量的游离硫。' +
           '这是本条里唯一一个「看一眼就够」的点，' +
           '但那种翻滚的灰黄浑水在近景里质感很强'
+      ],
+      tour: [
+        '<strong>先说结论：这是 Canyon–Hayden 一带最该被砍掉的一站，除非你对地质有兴趣或者正好路过。</strong>' +
+          '它不好看——没有 Grand Prismatic 的颜色，主体是灰浆、灰白土和枯木，而且很臭。' +
+          '<strong>它的价值在于「Yellowstone 的另一副面孔」：这是全园最酸的一片地（pH 1–2，相当于电瓶酸）</strong>，' +
+          '看完你会明白这座火山不只是漂亮的温泉',
+        '<strong>如果只有 20 分钟，就走北段到 Dragon\u2019s Mouth Spring 然后原路返回，' +
+          '这是全区最值得看的单点，也是最省力的。</strong>' +
+          '从停车场沿栈道平走 3–5 分钟／约 200 米就到：一个洞穴状喷气孔，' +
+          '水在洞里来回拍打发出低沉的吼声。' +
+          '<strong>它的声音比画面更有冲击力</strong>，站在栏杆边闭眼听半分钟比拍十张照片值得',
+        '<strong>体力与动线：整条栈道环线约 0.9 英里／1.4 公里，走完 40–60 分钟。</strong>' +
+          '<strong>北段平缓、铺装、可推轮椅与婴儿车；南段要爬上山坡、有台阶与陡坡，轮椅与行动不便者到此为止。</strong>' +
+          '南段上去之后是 Grizzly Fumarole 与坡顶的 Sour Lake，那片被蒸汽「煮死」的枯立木是这里最有记忆点的画面。' +
+          '<strong>不想爬坡就走北段折返，不会错过太多</strong>',
+        '<strong>Sulphur Caldron 在停车场以北约 250 米、公路的另一侧（东侧），是一个独立的路侧观景点。</strong>' +
+          '<strong>过马路要走人行道与斑马线，这段是园内限速 45 mph 的主路，车速很快。</strong>' +
+          '看一眼 5–10 分钟就够，主体是不断翻滚的灰黄色酸水',
+        '<strong>臭味不是玩笑，是实际的健康问题。</strong>硫化氢（H₂S）会刺激呼吸道与眼睛，' +
+          '浓度高时引起头痛、恶心、咽喉刺痛。<strong>它比空气重，会在无风的冷早晨积在栈道低洼处</strong>——' +
+          '也就是蒸汽最壮观的时候恰好气体最浓。' +
+          '<strong>有哮喘或呼吸道疾病的人应当缩短停留或直接跳过这一站</strong>；' +
+          '带小孩的注意孩子个子矮、吸到的浓度更高。感到头晕就往高处和上风向走',
+        '<strong>停车场有季节性旱厕（这是 Hayden Valley 南端唯一的厕所，很重要），' +
+          '但没有饮水、没有餐饮、没有手机信号。</strong>' +
+          '最近的餐饮往北是 Canyon Village（9.7 英里／20 分钟）、往南是 Fishing Bridge 一带。' +
+          '<strong>这一段路的 bison jam 与 Hayden Valley 同样频繁</strong>，留在车里等，把车程按 30 分钟预留'
       ],
       photo: '风光 <strong>2/5</strong>，细节／抽象 <strong>4/5</strong>，人像 <strong>1/5</strong>。' +
         '<strong>诚实说：这里不好看。</strong>没有 Grand Prismatic 那样的色彩，' +
@@ -1070,12 +1333,23 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>完整环线 40–60 分钟</strong>（0.9 英里栈道，含南段爬坡与沿途停留）' +
+          '<strong>+ Sulphur Caldron 5–10 分钟</strong>，合计约 <strong>1 小时</strong>。' +
+          '<strong>只走北段到 Dragon\u2019s Mouth Spring 折返：20–25 分钟。</strong>' +
+          '<strong>时间紧张的最短方案是停车 → Dragon\u2019s Mouth → 回车，15 分钟。</strong>' +
+          '（NPS 未对本热区发布建议时长；按官方公布的 0.9 英里环线长度与南段台阶爬升推算。）',
         book: '不需预约',
-        ticket: '含在园区门票内，<strong>年卡覆盖</strong>',
-        hours: '<strong>栈道全天开放、不设门禁</strong>。' +
-          '所属路段（Canyon Village ↔ Bridge Bay）2026 年通车 <strong>5/1 – 10/31</strong>。' +
-          '<strong>热区栈道无独立的季节关闭日期</strong>，但降雪结冰后木栈道会极滑，' +
-          '园方可能临时封闭部分路段',
+        ticket: '<strong>免费</strong>，含在园区门票内，热区栈道与 Sulphur Caldron 均不单独收费。' +
+          '<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>／7 天、' +
+          '摩托 <strong>$30</strong>、步行／自行车 <strong>$20/人</strong>（15 岁及以下免费）。' +
+          '<strong>16 岁及以上非美国居民另付 $100/人（2026-01-01 起施行），' +
+          '持 America the Beautiful 年卡或 Yellowstone Annual Pass（$70）者免除</strong>',
+        hours: '<strong>栈道全天开放、不设门禁，无开闭钟点</strong>。' +
+          '<strong>2026-09-13 核实 NPS Park Roads 页</strong>：所属路段 Canyon Village↔Bridge Bay ' +
+          '2026 年通车 <strong>5/1 – 10/31</strong>，<strong>9/22–9/29 正常通车</strong>。' +
+          '<strong>NPS 未给热区栈道公布独立的季节关闭日期</strong>——' +
+          '降雪结冰后木栈道会极滑，园方可能临时封闭部分路段（南段陡坡最先封）。' +
+          '要确认当天栈道状态只能到现场看标识，或拨公园信息线 <strong>(307) 344-7381</strong>',
         parking: 'Mud Volcano 有铺装停车场（44.62472, −110.43315），免费，' +
           '容量中等，10 月不紧张；Sulphur Caldron 为公路东侧路侧 pullout',
         walk: 'Mud Volcano 环线 <strong>约 0.9 英里／1.4 公里，40–60 分钟</strong>。' +
@@ -1119,6 +1393,7 @@ module.exports = {
       n: 8,
       name: 'Lake Butte Overlook',
       en: 'Lake Butte Overlook, East Entrance Road',
+      must: 3,
       score: 4,
       tldr: '朝向确认正确：正西俯瞰 Yellowstone Lake、西侧天际线几乎为零，是纯净日落点；但 Teton 在左后方 50 度外，不同框。',
       tags: [
@@ -1148,6 +1423,36 @@ module.exports = {
           '<strong>即视高约 0.6° 以上——晴朗且低层大气通透时清晰可见</strong>。' +
           '但秋季山火烟霾与逆温层会把这条山脊线糊掉，' +
           '这是「有些日子看得见有些看不见」的真实原因'
+      ],
+      tour: [
+        '<strong>这是一个「专门为看日落而来」的地方，别的时段来价值会掉一半。</strong>' +
+          '白天来看到的就是一片很大的湖，和湖岸边任何一处的差别没那么大；' +
+          '<strong>日落前 40 分钟到天黑这一小时才是它的全部意义</strong>——' +
+          '高出湖面 590 英尺俯瞰、正西朝向、西侧没有任何山体挡光。' +
+          '9 月下旬的窗口大致是 <strong>18:35–19:45</strong>',
+        '<strong>零体力：支路开到顶，停车场到观景台 1–2 分钟／约 40 米铺装平路，基本停车即到。</strong>' +
+          '不需要爬任何坡或台阶，老人小孩都能上。' +
+          '<strong>注意 Lake Butte 本身是一座山峰，观景台在它西南侧的路边平台上，不需要也没有登顶步道</strong>——' +
+          '不要在现场找「上山的路」',
+        '<strong>这一站的真实风险不是体力，是进不来。</strong>' +
+          '它挂在 East Entrance Road 的 Sylvan Pass 一线，' +
+          '<strong>那是海拔约 8,500 英尺、有主动雪崩控制作业的路段，NPS 历史上多次在 9 月因降雪预报临时关闭它。</strong>' +
+          '<strong>行程里必须把它排成「可放弃项」而不是压轴项</strong>，' +
+          '出发当天先查路况地图或拨 (307) 344-2117 录音。' +
+          '关了的替代方案是 Lake Village / Fishing Bridge 一带的湖岸日落——方向一样正确，只是没有俯瞰感',
+        '<strong>距离要算清楚：从 Canyon Village 过来约 25 英里／50 分钟，从 Fishing Bridge 路口约 9 英里／20 分钟。</strong>' +
+          '这意味着<strong>「Hayden Valley 看日出 + Mud Volcano + Lake Butte 看日落」可以排在同一天</strong>，' +
+          '是这一片最顺的一条动线。' +
+          '<strong>但回程是夜路</strong>：East Entrance Road 与 Lake 一带秋夜有大量麋鹿与野牛，' +
+          '园内限速 45 mph、没有路灯，拍完暮光回 Canyon 要开近一小时，请把车速再降一档',
+        '<strong>停车场约 20–30 个车位，全天几乎都空着，唯一会有人的时段就是日落前那半小时。</strong>' +
+          '想占最好的位置提前 30 分钟到即可，这里不存在抢车位的问题',
+        '<strong>没有厕所、没有饮水、没有餐饮、没有手机信号——这是本区设施最差的一站。</strong>' +
+          '最近的厕所在 Fishing Bridge 一带（车程 20 分钟），' +
+          '<strong>而 Fishing Bridge Visitor Center 2026 年 10/3 就关、加油站店面 10/11 关</strong>' +
+          '（9 月下旬仍在营业）。' +
+          '<strong>上来之前先在 Fishing Bridge 解决厕所与补给，并且穿够衣服</strong>：' +
+          '这里 8,331 英尺、无遮挡、风大，日落后气温断崖式下降'
       ],
       photo: '风光 <strong>4/5</strong>，人像 <strong>3/5</strong>。' +
         '加分：<strong>高位俯瞰 + 正西朝向 + 西侧天际线为零 + 停车即到 + 有 Teton 作远景锚点</strong>，' +
@@ -1192,10 +1497,24 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>日落场 60–75 分钟</strong>：日落前 40 分钟到位 + 日落 + 之后 25–30 分钟的暮光' +
+          '（9 月下旬约 18:35–19:45）。' +
+          '<strong>非日落时段路过看一眼，15–20 分钟足够。</strong>' +
+          '<strong>连往返车程一起算，从 Canyon Village 出发要为这一站留 2.5–3 小时</strong>' +
+          '（单程 50 分钟 × 2 + 现场 1 小时）。' +
+          '（NPS 未对该观景台发布建议时长；按 40 米步行距离与日落／暮光的天文时段推算。）',
         book: '不需预约',
-        ticket: '含在园区门票内，<strong>年卡覆盖</strong>',
-        hours: '观景台<strong>全天开放、不设门禁</strong>。' +
-          '<strong>唯一且关键的限制是 East Entrance Road（Sylvan Pass）：2026 年通车 5/1 – 10/31。</strong>' +
+        ticket: '<strong>免费</strong>，含在园区门票内，观景台不单独收费。' +
+          '<strong>2026-09-13 核实 NPS Fees &amp; Passes 页</strong>：私家车 <strong>$35</strong>／7 天（覆盖全车乘客）、' +
+          '摩托 <strong>$30</strong>、步行／自行车 <strong>$20/人</strong>（15 岁及以下免费）。' +
+          '<strong>16 岁及以上非美国居民自 2026-01-01 起另付 $100/人，' +
+          '持 America the Beautiful 年卡或 Yellowstone Annual Pass（$70）者免除</strong>。' +
+          '<strong>提醒：从 South Entrance 进出会经过 Grand Teton，两园分别收费，ATB 年卡两园通用</strong>',
+        hours: '观景台<strong>全天开放、不设门禁</strong>，无开闭钟点。' +
+          '<strong>唯一且关键的限制是 East Entrance Road（Sylvan Pass）。' +
+          '2026-09-13 核实 NPS Park Roads 页原文：<em>「Open May 1 – October 31, 2026: ' +
+          'East Entrance to Fishing Bridge (Sylvan Pass)」</em>。</strong>' +
+          '<strong>9/22–9/29 按官方日期正常通车，但这一段是本区最不可靠的一格</strong>——' +
           '该路段海拔高、有主动雪崩控制作业，' +
           'NPS 历史上曾在 9 月因预报 5–9 英寸降雪而临时关闭它，' +
           '<strong>并明确表示会「视情况关闭 East Entrance Road 至 Sylvan Pass 及其他路段」</strong>。' +
