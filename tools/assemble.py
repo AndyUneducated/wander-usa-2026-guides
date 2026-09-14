@@ -54,7 +54,7 @@ def load_parts(region: str):
     if not parts_dir.is_dir():
         sys.exit(f'找不到 {parts_dir}')
     res = subprocess.run(['node', '-e', NODE_SCRIPT, str(parts_dir)],
-                         capture_output=True, text=True)
+                         capture_output=True, text=True, encoding='utf-8')
     if res.returncode != 0:
         sys.exit(f'读取 {region} 的片段失败：\n{res.stderr}')
     return json.loads(res.stdout)

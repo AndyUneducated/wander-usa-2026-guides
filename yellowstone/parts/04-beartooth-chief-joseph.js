@@ -1422,7 +1422,7 @@ module.exports = {
       images: [
         { url: 'img/beartooth-highway-view-from-clay-butte-lookout-nara-7717267-fec0e577.jpg',
           cap: '自 Clay Butte Lookout 望出的高原全景 \u00b7 NARA / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Beartooth_Highway_-_Pilot_Peak_-_NARA_-_7717278.jpg',
+        { url: 'img/beartooth-highway-pilot-peak-nara-7717278-695a53c3.jpg',
           cap: 'Pilot Peak\u2014\u2014替代机位的主要拍摄对象 \u00b7 NARA / Public domain' }
       ]
     },
@@ -2051,7 +2051,7 @@ module.exports = {
           '白天在 Exxon 便利店把补给买齐</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/5d/Beartooth_Highway_-_Cooke_City_-_NARA_-_7717221.jpg',
+        { url: 'img/beartooth-highway-cooke-city-nara-7717221-3525b043.jpg',
           cap: 'Cooke City 主街与补给点 \u00b7 NARA / Public domain' },
         { url: 'img/silver-gate-montana-50436895092-d4d011a3.jpg',
           cap: 'Silver Gate 的 General Store 与原木住宿 \u00b7 Larry Lamsa / CC BY 2.0' },

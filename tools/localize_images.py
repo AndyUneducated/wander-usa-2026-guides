@@ -425,7 +425,16 @@ def main() -> int:
                  "--region", args.region],
                 check=False)
 
-    # 生成署名文件，满足 CC 协议的署名要求
+    # 生成署名文件，满足 CC 协议的署名要求。
+    # 合并已有行，避免只处理剩余几张时把整份 CREDITS 覆盖掉。
+    existing_rows: dict[str, str] = {}
+    if credits.exists():
+        for line in credits.read_text(encoding="utf-8").splitlines():
+            m = re.match(r"\| `([^`]+)` \| <([^>]+)> \|", line)
+            if m:
+                existing_rows[m.group(1)] = m.group(2)
+    for url, local in mapping.items():
+        existing_rows[Path(local).name] = url
     lines = [
         f"# 图片来源与署名 · {args.region}",
         "",
@@ -436,9 +445,9 @@ def main() -> int:
         "| 本地文件 | 原始地址 |",
         "| --- | --- |",
     ]
-    for url, local in sorted(mapping.items(), key=lambda kv: kv[1]):
-        lines.append(f"| `{Path(local).name}` | <{url}> |")
-    credits.write_text("\n".join(lines) + "\n")
+    for name, url in sorted(existing_rows.items()):
+        lines.append(f"| `{name}` | <{url}> |")
+    credits.write_text("\n".join(lines) + "\n", encoding="utf-8")
     log(f"署名清单已写入 {credits.relative_to(ROOT)}")
 
     if failures:

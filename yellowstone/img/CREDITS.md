@@ -13,8 +13,10 @@
 | `along-the-chief-joseph-scenic-byway-sunlight-creek-wy-051120-bccd087c.jpg` | <https://upload.wikimedia.org/wikipedia/commons/a/a8/Along-the-chief-joseph-scenic-byway-sunlight-creek-wy-05112011-rogermpeterson-001_%286097422328%29.jpg> |
 | `beartooth-highway-alpine-tundra-on-top-of-beartooth-pass-nar-29c54b72.jpg` | <https://upload.wikimedia.org/wikipedia/commons/6/6d/Beartooth_Highway_-_Alpine_Tundra_on_Top_of_Beartooth_Pass_-_NARA_-_7717205.jpg> |
 | `beartooth-highway-beartooth-butte-reflection-nara-7717238-ff4855d8.jpg` | <https://upload.wikimedia.org/wikipedia/commons/6/65/Beartooth_Highway_-_Beartooth_Butte_Reflection_-_NARA_-_7717238.jpg> |
+| `beartooth-highway-cooke-city-nara-7717221-3525b043.jpg` | <https://upload.wikimedia.org/wikipedia/commons/5/5d/Beartooth_Highway_-_Cooke_City_-_NARA_-_7717221.jpg> |
 | `beartooth-highway-fly-fishing-the-beartooth-mountains-nara-7-be1a9670.jpg` | <https://upload.wikimedia.org/wikipedia/commons/a/ac/Beartooth_Highway_-_Fly_Fishing_the_Beartooth_Mountains_-_NARA_-_7717225.jpg> |
 | `beartooth-highway-overlook-mt1-5fcd47b4.jpg` | <https://upload.wikimedia.org/wikipedia/commons/5/57/Beartooth_Highway_overlook_MT1.jpg> |
+| `beartooth-highway-pilot-peak-nara-7717278-695a53c3.jpg` | <https://upload.wikimedia.org/wikipedia/commons/f/ff/Beartooth_Highway_-_Pilot_Peak_-_NARA_-_7717278.jpg> |
 | `beartooth-highway-rock-creek-canyon-beartooth-mountains-mont-d80d1258.jpg` | <https://upload.wikimedia.org/wikipedia/commons/a/a4/Beartooth_Highway_%28Rock_Creek_Canyon%2C_Beartooth_Mountains%2C_Montana%2C_USA%29_6.jpg> |
 | `beartooth-highway-rock-creek-valley-mt1-b019c2c2.jpg` | <https://upload.wikimedia.org/wikipedia/commons/a/a6/Beartooth_Highway_-_Rock_Creek_Valley_MT1.jpg> |
 | `beartooth-highway-stunning-view-from-rock-creek-vista-point--ff8821d2.jpg` | <https://upload.wikimedia.org/wikipedia/commons/f/f9/Beartooth_Highway_-_Stunning_View_from_Rock_Creek_Vista_Point_-_NARA_-_7717207.jpg> |
@@ -32,6 +34,7 @@
 | `emigrant-peak-paradise-valley-631c4a71.jpg` | <https://upload.wikimedia.org/wikipedia/commons/8/85/Emigrant_Peak%2C_Paradise_Valley.jpg> |
 | `emigrantpeakeastriverrd2009-19158498.jpg` | <https://upload.wikimedia.org/wikipedia/commons/6/68/EmigrantPeakEastRiverRd2009.jpg> |
 | `granite-mountain-mine-headframe-butte-montana-usa-1-8f2bb954.jpg` | <https://upload.wikimedia.org/wikipedia/commons/c/ca/Granite_Mountain_Mine_headframe_%28Butte%2C_Montana%2C_USA%29_1.jpg> |
+| `hotel-finlen-uptown-butte-c99b4d2f.jpg` | <https://upload.wikimedia.org/wikipedia/commons/f/f3/Hotel_Finlen-Uptown_Butte.JPG> |
 | `lexington-mine-headframe-butte-montana-usa-7c710f62.jpg` | <https://upload.wikimedia.org/wikipedia/commons/9/95/Lexington_Mine_headframe_%28Butte%2C_Montana%2C_USA%29.jpg> |
 | `livingston-montana-53bc2deb.jpg` | <https://upload.wikimedia.org/wikipedia/commons/1/17/Livingston%2C_Montana.jpg> |
 | `livingstonmontananpprdepot-haynes1894-13e96802.jpg` | <https://upload.wikimedia.org/wikipedia/commons/3/3b/LivingstonMontanaNPPRDepot-Haynes1894.jpg> |
@@ -45,6 +48,7 @@
 | `rock-creek-vista-point-beartooth-mountains-montana-usa-0ad82daf.jpg` | <https://upload.wikimedia.org/wikipedia/commons/4/49/Rock_Creek_Vista_Point_%28Beartooth_Mountains%2C_Montana%2C_USA%29.jpg> |
 | `silver-gate-montana-50436895092-d4d011a3.jpg` | <https://upload.wikimedia.org/wikipedia/commons/6/6b/Silver_Gate%2C_Montana_%2850436895092%29.jpg> |
 | `southoflivingston-39026998932-b38e6f04.jpg` | <https://upload.wikimedia.org/wikipedia/commons/1/18/SouthofLivingston_%2839026998932%29.jpg> |
+| `st-mary-s-mission-to-the-salish-flathead-stevensville-montan-159c9290.png` | <https://upload.wikimedia.org/wikipedia/commons/9/96/St._Mary%27s_Mission_to_the_Salish_%28Flathead%29%2C_Stevensville%2C_Montana.png> |
 | `steward-mine-headframe-butte-montana-usa-b0ee7405.jpg` | <https://upload.wikimedia.org/wikipedia/commons/1/11/Steward_Mine_headframe_%28Butte%2C_Montana%2C_USA%29.jpg> |
 | `sunlight-bridge-22ac2448.jpg` | <https://upload.wikimedia.org/wikipedia/commons/b/b4/Sunlight_bridge.jpg> |
 | `sunlight-creek-gorge-along-the-chief-joseph-scenic-byway-wy--179f132b.jpg` | <https://upload.wikimedia.org/wikipedia/commons/8/8d/Sunlight-creek-gorge-along-the-chief-joseph-scenic-byway-WY-October-2010-joni-packard-40620015_%285864414413%29.jpg> |

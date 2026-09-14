@@ -1323,7 +1323,7 @@ module.exports = {
           cap: 'Daly Mansion 正立面全景 · Montanabw / CC BY-SA 4.0' },
         { url: 'img/hamilton-mt-daly-mansion-4-eacb6b1c.jpg',
           cap: '大宅与前草坪的尺度关系 · DAN / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/96/St._Mary%27s_Mission_to_the_Salish_%28Flathead%29%2C_Stevensville%2C_Montana.png',
+        { url: 'img/st-mary-s-mission-to-the-salish-flathead-stevensville-montan-159c9290.png',
           cap: 'St. Mary\u2019s Mission 与背后的 Bitterroot 山体 · Indianertosset / CC0' }
       ]
     },

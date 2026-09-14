@@ -61,7 +61,7 @@ def load(region: str):
          'const src=fs.readFileSync(process.argv[1],"utf8");'
          'const out=new Function(src+"; return REGIONS;")();'
          'process.stdout.write(JSON.stringify(out));',
-         str(data)], capture_output=True, text=True)
+                         str(data)], capture_output=True, text=True, encoding='utf-8')
     if res.returncode != 0:
         print(f'⚠️ {region}/data.js 读取失败', file=sys.stderr)
         return []
