@@ -508,7 +508,7 @@ var REGIONS = [
             "cap": "大宅与前草坪的尺度关系 · DAN / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/St._Mary%27s_Mission_to_the_Salish_%28Flathead%29%2C_Stevensville%2C_Montana.png",
+            "url": "img/st-mary-s-mission-to-the-salish-flathead-stevensville-montan-159c9290.png",
             "cap": "St. Mary’s Mission 与背后的 Bitterroot 山体 · Indianertosset / CC0"
           }
         ]
@@ -1044,7 +1044,7 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Hotel_Finlen-Uptown_Butte.JPG",
+            "url": "img/hotel-finlen-uptown-butte-c99b4d2f.jpg",
             "cap": "Uptown Butte 的 Hotel Finlen 立面 · J.K.Wise / CC BY-SA 3.0"
           },
           {
@@ -2881,7 +2881,7 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Beartooth_Highway_-_Cooke_City_-_NARA_-_7717221.jpg",
+            "url": "img/beartooth-highway-cooke-city-nara-7717221-3525b043.jpg",
             "cap": "Cooke City 主街与补给点 · NARA / Public domain"
           },
           {
@@ -3200,7 +3200,7 @@ var REGIONS = [
             "cap": "自 Clay Butte Lookout 望出的高原全景 · NARA / Public domain"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Beartooth_Highway_-_Pilot_Peak_-_NARA_-_7717278.jpg",
+            "url": "img/beartooth-highway-pilot-peak-nara-7717278-695a53c3.jpg",
             "cap": "Pilot Peak——替代机位的主要拍摄对象 · NARA / Public domain"
           }
         ]

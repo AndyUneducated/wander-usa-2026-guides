@@ -523,7 +523,7 @@ module.exports = {
           '历史街区在山上的 Uptown，两者车程约 8–10 分钟。<strong>不要把住在山下当成「住在历史街区」</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Hotel_Finlen-Uptown_Butte.JPG',
+        { url: 'img/hotel-finlen-uptown-butte-c99b4d2f.jpg',
           cap: 'Uptown Butte 的 Hotel Finlen 立面 · J.K.Wise / CC BY-SA 3.0' },
         { url: 'img/view-to-the-west-on-broadway-butte-historic-district-bounded-56ed7c0c.jpg',
           cap: 'Broadway 向西的街轴视角 · Historic American Engineering Record (HAER) / 公有领域' },

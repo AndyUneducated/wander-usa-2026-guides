@@ -44,7 +44,7 @@ def load_region(region: str):
         'process.stdout.write(JSON.stringify(R));'
     )
     res = subprocess.run(['node', '-e', script, str(path)],
-                         capture_output=True, text=True)
+                         capture_output=True, text=True, encoding='utf-8')
     if res.returncode != 0:
         return None, f'{region}/data.js 无法解析：{res.stderr.strip().splitlines()[:1]}'
     try:
