@@ -6,24 +6,36 @@ module.exports = {
   name: 'Manhattan · Uptown 与 Museum Mile',
   navName: 'Uptown',
   color: '#4da3ff',
-  lead: '这一区和 Midtown 的性质完全相反：<strong>Midtown 你买的是高度，这里你买的是时间。</strong>' +
+  lead: '这一区和 Midtown 的性质完全相反：<strong>Midtown 卖的是高度，这里卖的是时间。</strong>' +
     '本区的四个核心项目——Central Park、The Met、American Museum of Natural History、Guggenheim——' +
     '<strong>全部集中在 Fifth Avenue 与 Central Park West 之间那条 3 公里长的走廊上，彼此步行 10–20 分钟可达</strong>，' +
-    '所以交通不是问题，<strong>问题是这四个地方合起来需要 12–16 小时，而你不可能在一天里做完。</strong>' +
+    '所以交通不是问题，<strong>问题是这四个地方合起来需要 12–16 小时，而本区的博物馆平日只开到 17:00，' +
+    '一天的有效时间只有七小时——四项放不进一天，这是本区最硬的约束。</strong>' +
     '结论先给：<strong>Central Park 与 The Met 是本区不可省的两项</strong>（各 must 5），' +
-    'AMNH 只在带孩子或本人对自然史有兴趣时才值得那 3 小时，' +
-    'Guggenheim 的价值一半在建筑本身而不在藏品——<strong>Frank Lloyd Wright 那条螺旋坡道是展品，走一遍 90 分钟就够。</strong>' +
-    '<strong>票价上本区有一条全纽约最重要的规则：The Met 与 AMNH 对「纽约州居民」实行自定金额，' +
-    '外地游客是固定票价，二者相差 $30–37。这条规则对你不适用，请按全价做预算</strong>（详见下方第一条提醒）。' +
-    '三件必须先知道的现场事实：<strong>Bethesda Fountain 自 2026 年 8 月起停水并围挡施工到 2027 年夏</strong>' +
-    '（全园最著名的那座天使喷泉，本次看不到水）；' +
-    '<strong>The Met 每周三闭馆，而 10/13–10/26 这个窗口里有 10/14 与 10/21 两个周三</strong>；' +
-    '<strong>纽约市的秋色要到 11 月第一周才进入盛期，10 月中下旬的 Central Park 以绿色为主</strong>，' +
-    '想要满树金红的请把期待降下来。',
+    'AMNH 适合带孩子或本人对自然史有兴趣的人，' +
+    'Guggenheim 的价值一半在建筑本身而不在藏品——<strong>Frank Lloyd Wright 那条螺旋坡道就是展品，走一遍 90 分钟。</strong>' +
+    '<strong>本区的分数梯度往下还有一层，值得按兴趣取舍：</strong>' +
+    'must 3.5 的 <strong>The Met Cloisters</strong>（曼哈顿最北端的中世纪分馆，往返加参观要 4–5 小时）、' +
+    '<strong>Cathedral of Saint John the Divine</strong>（开工 134 年仍未完工的世界最大主教座堂）、' +
+    '<strong>Harlem 与 Apollo Theater</strong>（街区型条目），' +
+    'must 3 的 <strong>Columbia University 校园</strong>、<strong>Neue Galerie</strong>与 ' +
+    '<strong>Riverside Church</strong>（北美最高教堂塔楼，$20 登塔看 360° 露天全景）。' +
+    '<strong>票价上本区有一条全纽约最重要的规则：The Met（含 Cloisters）与 AMNH 对「纽约州居民」实行自定金额，' +
+    '州外游客是固定票价，二者相差 $30–37</strong>（逐馆口径详见下方第一条提醒）。' +
+    '<strong>闭馆日在本区不统一，排序时必须先看这一项：The Met 与 The Met Cloisters 周三闭馆、' +
+    'Neue Galerie 周二闭馆、Studio Museum in Harlem 周一与周二闭馆，' +
+    '而 Central Park、AMNH 与那座座堂每天开。</strong>' +
+    '<strong>十月的两条季节性事实：一是这半个月气温多在 15–20°C、蚊虫已过季，' +
+    '而人流比 11 月第一周「全城涌进公园」的密度松得多；' +
+    '二是纽约市是全州变色最晚的一批，秋色盛期预测在 11 月 1–9 日，' +
+    '十月中下旬的 Central Park 仍以绿色为主</strong>——想要满树金红的请把期待放到 11 月。' +
+    '<strong>另有两项 2026 年的临时状态会明显改变体验：Bethesda Fountain 自 2026 年 8 月起停水围挡到 2027 年夏；' +
+    'Neue Galerie 的展厅要到 2026 年 11 月 12 日才随 25 周年特展重开</strong>（咖啡馆与商店 10 月 1 日先开）。' +
+    '<strong>以上均以 2026-09-14 的官方页面为准，出行前请复查。</strong>',
   callouts: [
     {
       type: 'warn',
-      title: '「纽约州居民自定金额」：三馆口径核实结论（对你都不适用）',
+      title: '「纽约州居民自定金额」：三馆口径逐条核实',
       html: '<p><strong>核实日期 2026-09-14。这是本区最容易被中文攻略写错的一条，逐馆给官方原文口径：</strong></p>' +
         '<ul>' +
         '<li><strong>The Met（含 The Met Cloisters）——范围最宽的一家。</strong>' +
@@ -49,63 +61,100 @@ module.exports = {
         '提前票<strong>当天上午 10:00 才放出、数量很少、很快售罄</strong>，' +
         '其余名额留给时段内的现场排队。<strong>此类票不可退、不可改期</strong></li>' +
         '</ul>' +
-        '<p><strong>对你的实际意义：The Met 与 AMNH 的自定金额你都用不上，请按 The Met $30 + AMNH $37 做预算。' +
-        '唯一能省的是 Guggenheim——把它排在窗口内的周日（10/18、10/25）或周二（10/13、10/20）下午 16:00，' +
-        '$30 的票按 $1–10 付，这是本区唯一对外地游客成立的官方折扣。</strong></p>'
+        '<p><strong>对州外与海外游客的实际意义：The Met 与 AMNH 的自定金额都用不上，' +
+        '预算请按 The Met $30 + AMNH $37 计。' +
+        '唯一能省的是 Guggenheim——把它排在周日或周二下午 16:00 进场，$30 的票按 $1–10 付，' +
+        '这是本区唯一对所有人成立的官方折扣，不限居住地。</strong></p>' +
+        '<p><strong>还有两项与居住地无关的免费或减免通道，同样值得知道：' +
+        'Neue Galerie 在部分周五 17:00–20:00 免费（First Fridays，先到先入），' +
+        '并对 SNAP／EBT 持卡人本人加三位同行者免费；' +
+        'Studio Museum in Harlem 每周日（Studio Sundays）对所有人免费，' +
+        '其余日为建议金额制（成人建议 $16）。</strong></p>'
     },
     {
       type: 'warn',
-      title: '10/13–10/26 窗口内的闭馆日与施工：照这张表排',
-      html: '<p><strong>本窗口的星期分布：10/13 周二、10/14 周三、10/15 周四、10/16 周五、10/17 周六、10/18 周日、' +
-        '10/19 周一、10/20 周二、10/21 周三、10/22 周四、10/23 周五、10/24 周六、10/25 周日、10/26 周一。</strong></p>' +
+      title: '本区按星期排，不按顺路排：闭馆日与施工一览',
+      html: '<p><strong>本区九个条目的闭馆日彼此错开，而且没有哪一天是全部开门的。' +
+        '先定星期、再定路线，顺序反了必然有一项白跑。以下核实日期 2026-09-14。</strong></p>' +
         '<ul>' +
-        '<li><strong>The Met Fifth Avenue 每周三闭馆</strong>，本窗口即 <strong>10/14 与 10/21 去不了</strong>。' +
-        '周五与周六开到 21:00（其余日 17:00），<strong>这是本区唯一的晚间博物馆时段，也是全周人最少的时段</strong></li>' +
-        '<li><strong>The Met Cloisters 的闭馆日与本馆不同</strong>：官方两处页面（metmuseum.org 首页与购票系统）' +
-        '均写 <strong>Thursday–Tuesday 10 am–5 pm、Closed Wednesday</strong>；' +
-        '但第三方导览站普遍写「周四至周一 10:00–16:30，周二与周三闭馆」。' +
-        '<strong>两种口径都列在这里，去之前务必按你的日期在官网复核</strong>，' +
-        '<strong>照官方口径则 10/14、10/21 闭馆，照第三方口径则 10/13、10/14、10/20、10/21 都去不了</strong></li>' +
-        '<li><strong>AMNH 与 Central Park 在本窗口内每天开</strong>' +
+        '<li><strong>周一：Studio Museum in Harlem 闭馆</strong>（周一与周二均闭）。' +
+        'The Met、Cloisters、Neue Galerie、Guggenheim、Central Park、AMNH、座堂、Columbia 正常</li>' +
+        '<li><strong>周二：Neue Galerie 闭馆、Studio Museum in Harlem 闭馆。</strong>' +
+        '<strong>这一天 Museum Mile 上稳开的大馆只有 The Met</strong>；' +
+        '同时这一天下午 16:00–17:30 是 Guggenheim 的自定金额时段</li>' +
+        '<li><strong>周三：The Met Fifth Avenue 与 The Met Cloisters 同日闭馆。</strong>' +
+        '<strong>两馆星期完全重叠，不能用「一馆关门就去另一馆」互补，这是本区最容易踩的一条。</strong>' +
+        '周三可去的是 Guggenheim、Studio Museum、座堂、Neue Galerie 与公园；' +
+        'Apollo 的导览周三有 11:00 与 13:00 两场</li>' +
+        '<li><strong>周五与周六：The Met Fifth Avenue 开到 21:00（其余日 17:00）。</strong>' +
+        '<strong>这是本区唯一的晚间大馆时段，也是全周人最少的时段</strong>，' +
+        '把 The Met 排在这两天的收益最大</li>' +
+        '<li><strong>周日：Studio Museum in Harlem 全场免费（Studio Sundays）；' +
+        'Guggenheim 下午 16:00–17:30 为自定金额时段；座堂 12:00 才开（其余日 09:30）。</strong>' +
+        '想听 Harlem 的 gospel 也只有周日，且 09:30 前就要到场排队</li>' +
+        '<li><strong>The Met Cloisters 的时间口径已经核实清楚，这里给出结论：' +
+        '官方为 Thursday–Tuesday 10 am–5 pm、Closed Wednesday；' +
+        '而 The Met 官方团体参观页的注脚写「The Met Cloisters closes at 4:30 pm November–February」。</strong>' +
+        '<strong>也就是说第三方页面上那个「16:30 关门」的说法是冬季口径，不是全年口径——' +
+        '3 月至 10 月按 17:00、11 月至次年 2 月按 16:30。</strong>' +
+        '闭馆日只有周三这一天</li>' +
+        '<li><strong>AMNH 与 Central Park 每天开</strong>' +
         '（AMNH 官方原文「Open daily, 10 am–5:30 pm」，只在 Thanksgiving 与 12/25 闭馆；' +
-        '公园每日 06:00–01:00、全年 365 天）</li>' +
-        '<li><strong>Guggenheim 的营业日存在官方与第三方的直接矛盾，这是本区最需要你自己复核的一项。</strong>' +
-        '一派口径是「每日 10:30–17:30、全周无休」（多个票务与目录站，并称museum自家订票系统里到 2027 年 3 月都是这个时间）；' +
+        '公园每日 06:00–01:00、全年 365 天）。' +
+        '<strong>Cathedral of Saint John the Divine 也无固定闭馆日</strong>' +
+        '（周一至周六 09:30–17:00、周日 12:00–17:00），' +
+        '<strong>是本区唯一周二与周三都开的大型室内项目</strong></li>' +
+        '<li><strong>Guggenheim 的营业日存在官方与第三方的直接矛盾，这是本区最需要自行复核的一项。</strong>' +
+        '一派口径是「每日 10:30–17:30、全周无休」（多个票务与目录站，并称馆方自家订票系统里到 2027 年 3 月都是这个时间）；' +
         '另一派仍写「每周四闭馆、11:00–18:00、周六到 20:00」（旧口径）。' +
         '<strong>guggenheim.org 本身是 JS 动态渲染，2026-09-14 无法直接取到原文，未能定案。</strong>' +
-        '窗口内 10/15 与 10/22 是周四——<strong>如果你打算周四去 Guggenheim，出发前必须打 ' +
-        '<strong>+1 212-423-3500</strong> 确认，否则有白跑一趟的风险</strong></li>' +
-        '<li><strong>施工：Bethesda Fountain 自 2026 年 8 月起停水、围挡，预计 2027 年夏完工。</strong>' +
-        'Bethesda Terrace 与地下 Arcade 全程照常开放，<strong>只有喷泉本体被围起来且没有水</strong>。' +
-        '同一笔 $3,700 万工程还包括 <strong>Conservatory Water（模型船池）的整体重建，官方说「late 2026」开工</strong>——' +
-        '<strong>是否会在 10 月下旬就开始围挡，未能从官方渠道确认</strong></li>' +
+        '<strong>打算周四去 Guggenheim 的，出发前务必打 +1 212-423-3500 确认，否则有白跑的风险</strong></li>' +
+        '<li><strong>施工与临时关闭（2026 年）：</strong>' +
+        '<strong>①&nbsp;Bethesda Fountain 自 2026 年 8 月起停水、围挡，预计 2027 年夏完工</strong>——' +
+        'Bethesda Terrace 与地下 Arcade 全程照常开放，只有喷泉本体被围起来且没有水；' +
+        '同一笔 $3,700 万工程还包括 <strong>Conservatory Water（模型船池）的整体重建，官方说「late 2026」开工</strong>，' +
+        '<strong>具体围挡起始日未能从官方渠道确认</strong>。' +
+        '<strong>②&nbsp;Neue Galerie 分两步重开：咖啡馆与商店 2026 年 10 月 1 日、' +
+        '二三楼展厅 2026 年 11 月 12 日</strong>——' +
+        '<strong>10 月来看不到 Klimt。</strong>' +
+        '<strong>③&nbsp;Apollo 的历史剧院整修中，官方称预计 2026 年底重开</strong>，' +
+        '期间演出移到街对面 199 座的 The Apollo Stages at The Victoria</li>' +
         '</ul>'
     },
     {
       type: 'tip',
-      title: '一天塞不下四项：本区的时间账与两种排法',
+      title: '本区的时间账：核心四项放不进一天',
       html: '<p><strong>把官方与合理推算的时长加起来：Central Park 主线 2.5–3.5 小时、The Met 3–4 小时（走马观花 2 小时）、' +
         'AMNH 3–4 小时、Guggenheim 1.5–2 小时。合计 10–13 小时，加上馆间步行与排队就是 12–16 小时。</strong>' +
-        '而本区的博物馆平日只开到 17:00，也就是说<strong>一天的有效时间只有 7 小时</strong>。</p>' +
-        '<p><strong>两种可执行的排法：</strong></p>' +
+        '而本区的博物馆平日只开到 17:00，<strong>一天的有效时间只有七小时</strong>。' +
+        '<strong>结论：核心四项至少要两天；只有一天的话必须砍掉两项。</strong></p>' +
+        '<p><strong>两种成立的分法：</strong></p>' +
         '<ul>' +
-        '<li><strong>两天版（推荐）。</strong>' +
-        '第一天：上午 Central Park 主线（从 Grand Army Plaza 往北走到 Conservatory Water），' +
-        '中午在公园里吃，<strong>下午直接从 Conservatory Water 往北 660 米进 The Met</strong>，' +
-        '<strong>挑周五或周六，博物馆开到 21:00，你能在里面待满 5 小时且后半段几乎没人</strong>。' +
-        '第二天：上午 AMNH（在公园西侧），下午沿 Fifth Avenue 走到 Guggenheim' +
-        '（若为周日或周二，压到 16:00 进去用自定金额时段）</li>' +
-        '<li><strong>一天版（只有一天时）。</strong>' +
-        '<strong>放弃 AMNH，Central Park 减到 90 分钟。</strong>' +
-        '09:00 从 Grand Army Plaza 进公园 → The Mall → Bethesda Terrace → Conservatory Water → ' +
-        '10:30 到 The Met 门口排队 → 10:00–14:00 在 Met（照下面 Met 条目里的三小时路线走）→ ' +
-        '步行 15 分钟到 Guggenheim → 15:00–16:30 螺旋坡道。' +
-        '<strong>这一天不要再加任何项目，本区的步行距离会比你预想的更耗体力</strong></li>' +
+        '<li><strong>两天版。</strong>' +
+        '第一天做公园东侧：上午 Central Park 南段主线（Grand Army Plaza 北行到 Conservatory Water），' +
+        '中午在公园里吃，<strong>下午从 Conservatory Water 往北 660 米直接进 The Met</strong>；' +
+        '<strong>这一天挑周五或周六，The Met 开到 21:00，能在里面待满五小时且后半段几乎没人。</strong>' +
+        '第二天做公园西侧与 Museum Mile 上段：上午 AMNH，下午沿 Fifth Avenue 走到 Guggenheim' +
+        '（<strong>若为周日或周二，压到 16:00 进场用自定金额时段</strong>）</li>' +
+        '<li><strong>一天版。</strong>' +
+        '<strong>放弃 AMNH，Central Park 压到 90 分钟</strong>：' +
+        '开园后从 Grand Army Plaza 进园 → The Mall → Bethesda Terrace 与地下 Arcade → Conservatory Water → ' +
+        '开门时段进 The Met（照 Met 条目里的三小时路线走）→ 步行 12 分钟到 Guggenheim 走螺旋坡道。' +
+        '<strong>这一天不要再加任何项目，本区的步行距离比多数人预想的更耗体力</strong></li>' +
         '</ul>' +
-        '<p><strong>Museum Mile 的实际距离（按 OSM 坐标算）：The Met（82 街）到 Guggenheim（89 街）' +
-        '沿 Fifth Avenue <strong>约 900 米 / 步行 12 分钟</strong>；' +
-        'The Met 到 AMNH 需横穿公园 <strong>约 1.1 公里 / 步行 15–20 分钟</strong>' +
-        '（走 79 街横穿道，不要指望有直达地铁——这两馆分属公园东西两侧的不同线路）。</strong></p>'
+        '<p><strong>把 must 3–3.5 的那几项加进来时，请按「另开半天」算，不要塞进上面两种分法：</strong>' +
+        '<strong>The Met Cloisters 往返加参观 4–5 小时（在曼哈顿最北端，距本馆 8 公里）；' +
+        'Cathedral of Saint John the Divine 与 Columbia 校园可合成一个下午（两者步行 10 分钟）；' +
+        'Harlem 的 125 街步行线 1.5–2 小时；Neue Galerie 展厅 60–90 分钟，' +
+        '但 Café Sabarsky 的排队要另算 30–40 分钟。</strong></p>' +
+        '<p><strong>本区的实际步行距离（按 OSM 坐标推算）：</strong>' +
+        'The Met（82 街）→ Neue Galerie（86 街）<strong>约 400 米 / 5 分钟</strong>；' +
+        'Neue Galerie → Guggenheim（89 街）<strong>约 300 米 / 4 分钟</strong>；' +
+        'The Met → Guggenheim 沿 Fifth Avenue <strong>约 900 米 / 12 分钟</strong>；' +
+        'The Met → AMNH 需横穿公园 <strong>约 1.1 公里 / 15–20 分钟</strong>' +
+        '（走 79 街横穿道，不要指望有直达地铁——这两馆分属公园东西两侧的不同线路）；' +
+        'Cathedral of Saint John the Divine（112 街）→ Columbia 主门（116 街）<strong>约 800 米 / 10 分钟</strong>；' +
+        'Columbia → Harlem 的 125 街 <strong>1 号线北行两站</strong>。</p>'
     }
   ],
   spots: [
@@ -1070,6 +1119,1335 @@ module.exports = {
           cap: '第五大道上的倒金字塔外立面 · Bmzuckerman / CC BY 4.0' },
         { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b0/Frank_Lloyd_Wright_-_New_York%2C_NY_-_Solomon_R._Guggenheim_Museum_%28I%29.jpg',
           cap: '坡道外墙的曲面与仅五英寸厚的 Gunite 外壳 · Bmzuckerman / CC BY 4.0' }
+      ]
+    },
+    {
+      id: 'met-cloisters',
+      n: 5,
+      name: '修道院博物馆',
+      en: 'The Met Cloisters',
+      must: 3.5,
+      score: 4,
+      tldr: '曼哈顿最北端山崖上的中世纪分馆，藏 Unicorn Tapestries。周三闭馆；Met 门票只管当天两馆通用。',
+      tags: [
+        { t: '$30（与本馆同票）', c: 'paid' },
+        { t: '周三闭馆', c: 'risk' },
+        { t: '只当天通用', c: 'risk' },
+        { t: '免费停车', c: 'free' }
+      ],
+      highlights: [
+        '<strong>这是全美唯一一座专门只做中世纪欧洲艺术的博物馆</strong>，' +
+          '1938 年 5 月 10 日开馆，约 <strong>5,000 件藏品</strong>，重心在 <strong>12–15 世纪</strong>。' +
+          '<strong>整栋楼不是一座真的修道院，而是一栋 1930 年代的新建筑，' +
+          '把五处法国修道院回廊的原石构件拆运过来重新砌进去</strong>：' +
+          'Saint-Michel-de-Cuxa、Saint-Guilhem-le-Désert、Bonnefont-en-Comminges、' +
+          'Trie-sur-Baïse、Froville。' +
+          '建筑师 <strong>Charles Collens</strong>——同一个人设计了本区的 Riverside Church。' +
+          '雕塑家 <strong>George Grey Barnard</strong> 二十世纪初在法国乡下收购这些被当废石卖掉的回廊柱头，' +
+          '1914 年在附近自办了一间小博物馆，<strong>1925 年 John D. Rockefeller Jr. 花约 60 万美元买下他的全部收藏捐给 The Met</strong>',
+        '<strong>最反直觉的一条：对面那片新泽西山崖之所以至今没有房子，是因为 Rockefeller 把它买下来了。</strong>' +
+          '他捐地建馆时同时买下 <strong>哈德逊河对岸 Palisades 约 700 英亩</strong>并转赠新泽西州，' +
+          '目的只有一个——<strong>保证从修道院窗口往西看出去永远是林崖而不是公寓楼</strong>。' +
+          '这是美国历史上少见的「为了一个博物馆的视野而买下另一个州的一整条山脊」',
+        '<strong>Unicorn Tapestries（The Hunt of the Unicorn）是本馆的绝对核心，' +
+          '七幅一组，约 1495–1505 年南尼德兰织造</strong>，' +
+          '羊毛经线配羊毛、丝、银线与金银包丝纬线。' +
+          '<strong>Rockefeller 1922 年从法国 La Rochefoucauld 家族手中买下，1937 年捐给 The Met</strong>。' +
+          '<strong>一个具体的细节值得站近看：其中多幅的织纹里反复出现字母组合「A」与倒写的「E」，' +
+          '至今没人能确定它指的是哪一对订制者</strong>。' +
+          '另有一组更早的 <strong>Nine Heroes Tapestries（约 1400 年）</strong>，' +
+          '是现存最古老的一批世俗题材大型挂毯之一',
+        '<strong>Fuentidueña Chapel 是进门后第一个会让人愣住的空间：' +
+          '一整座 12 世纪西班牙罗马式教堂后殿，约 3,300 块石头逐块编号拆运重砌。</strong>' +
+          '<strong>它在法律上并不属于 The Met——这是与西班牙政府之间的长期互借</strong>' +
+          '（西班牙出借这座后殿，The Met 出借六幅 San Baudelio 壁画），' +
+          '协议 1957 年达成、1961 年装好',
+        '<strong>三座真正种着植物的园子，是本馆区别于一般博物馆的地方，也是它秋天仍然好看的原因。</strong>' +
+          'Cuxa Cloister 的中庭园（粉色 Languedoc 大理石柱廊）、' +
+          '<strong>Bonnefont Cloister 的药草园种着 250 余种中世纪文献里实际记载过的植物</strong>，' +
+          '以及 Trie Cloister 园。' +
+          '绘画方面最重要的一件是 <strong>Robert Campin 的 Mérode Altarpiece（约 1427–1432 年）</strong>，' +
+          '把《天使报喜》搬进了一间尼德兰市民家的起居室'
+      ],
+      tour: [
+        '<strong>先把最容易犯的错说清楚：这里不是 The Met 本馆的一个展厅，而是在曼哈顿最北端、' +
+          '距本馆 8 公里的独立馆区，单程地铁 35–45 分钟。</strong>' +
+          '<strong>而 2026 年的门票规则是「同一张票只管当天两馆通用」</strong>' +
+          '（详见 access.ticket，这一条近年改过），' +
+          '<strong>所以想用一张票把两馆都看完，必须同一天做，并且这一天会非常赶——' +
+          '合理的做法是把本馆排在上午、修道院排在下午，或者干脆分两天各买一张票</strong>',
+        '<strong>逛法：这馆不大，一层一圈、地下一圈，按「进门先左转」的顺时针顺序一遍走完就行，不需要攻略。</strong>' +
+          '主厅（Main Hall）出来先进 <strong>Fuentidueña Chapel</strong>，' +
+          '再沿 <strong>Saint-Guilhem Cloister → Cuxa Cloister（中庭，全馆的中心）→ ' +
+          'Early Gothic Hall → Unicorn Tapestries Room（Gallery 17）</strong> 走，' +
+          '然后下到地下层看 <strong>Treasury（珍宝室）</strong>、' +
+          '<strong>Bonnefont 与 Trie 两座园子（地下层向外开门，是室外露台，能看到哈德逊河）</strong>。' +
+          '<strong>不能错过的四件：Unicorn Tapestries、Fuentidueña 后殿、Mérode Altarpiece、' +
+          'Treasury 里的 Belles Heures of Jean de France, Duc de Berry（Limbourg 兄弟 1405–1408 年绘的时祷书）</strong>',
+        '<strong>可以跳过的：一层若干只放建筑构件的小过厅（柱头、门楣、洗礼盆）</strong>——' +
+          '这些东西量大、标签学术、对没有中世纪艺术背景的人回报很低。' +
+          '<strong>省下的时间给两处：一是 Cuxa 中庭坐十分钟，二是出馆后的 Fort Tryon Park。</strong>' +
+          '<strong>公园本身值得单独留 30–45 分钟</strong>：' +
+          'Frederick Law Olmsted Jr. 设计，<strong>Heather Garden 是纽约市最大的公共石楠园</strong>，' +
+          '崖顶平台正对哈德逊河与对岸 Palisades（就是上面说的那片被买下来的山崖）。' +
+          '<strong>十月中下旬这一带的变色比中央公园早、也更明显，' +
+          '因为地势高、树种以栎树与枫树为主</strong>',
+        '<strong>排队与安检：这是 The Met 系统里最不用排队的一个点。</strong>' +
+          '入口在内院（Postern 进去后的 courtyard），' +
+          '<strong>包检有但队伍通常是个位数，工作日上午 10:00 开门时往往门口只有十几个人</strong>。' +
+          '<strong>人最少的是周四与周五上午 10:00–11:30</strong>；' +
+          '周末下午是本地家庭与散步人群的高峰，Unicorn Tapestries 那间屋子会挤到要等位。' +
+          '<strong>回程注意：A 线周末常有轨道施工与跳站，出发前查 MTA</strong>，' +
+          '官方页面自己也挂着这条提醒',
+        '<strong>餐饮与卫生间：这是本条最实际的约束——馆内没有正式餐厅。</strong>' +
+          '<strong>只有 Trie Cloister 一侧的 Trie Café（季节性营业，供应咖啡、三明治一类轻食），' +
+          '规模很小、冬季常关</strong>；' +
+          '<strong>馆外最近的成规模餐饮要下山到 Dyckman Street 或 Broadway 一带，步行 15–20 分钟</strong>。' +
+          '合理做法是进馆前在地铁站附近买好东西，或者把这一站压在午饭之后。' +
+          '<strong>卫生间在主厅与地下层各有，干净且不排队。</strong>' +
+          '公园里另有公厕，但开放时间不稳定',
+        '<strong>额外一句，关于「值不值得专程」：如果只有三四天在纽约，这一站排不进去也不必遗憾。</strong>' +
+          '<strong>但如果对中世纪艺术、建筑或安静的园子有兴趣，这是全纽约气质最特殊的一座博物馆</strong>——' +
+          '它和 The Met 本馆的拥挤程度、噪音、人群密度完全是两个世界。' +
+          '<strong>往返交通加参观要算 4–5 小时，这是决定要不要去的真正门槛，不是门票</strong>'
+      ],
+      photo: '建筑与庭园 <strong>4.5/5</strong>，室内展品 <strong>3/5</strong>，风光 <strong>4/5</strong>。' +
+        '回廊拱券与药草园在侧光下极好，加分项是人少、不必抢机位；扣分是室内光线暗且禁三脚架。',
+      shots: [
+        {
+          name: 'Cuxa Cloister 中庭回廊',
+          desc: '<strong>开门后 10:00–11:00 是唯一能拍到空廊的时段。</strong>' +
+            '站在粉色 Languedoc 大理石柱廊的一角，' +
+            '<strong>24–35mm 沿柱列方向斜拍，让重复的双柱与柱头雕刻形成透视纵深</strong>；' +
+            '中庭是露天的，<strong>上午侧光会在拱下投出整排柱影，这是这里最好的光</strong>。' +
+            '<strong>馆内全程禁止三脚架与自拍杆</strong>，手持即可，室内段 ISO 1600–3200。' +
+            '坐标为 OSM The Met Cloisters 建筑节点（中庭无独立实体节点）。',
+          view: [40.864868, -73.931923]
+        }
+      ],
+      access: {
+        visit: '<strong>1.5–2.5 小时看馆，另加 30–45 分钟走 Fort Tryon Park 与 Heather Garden；' +
+          '算上往返地铁，从中城出发这一站要占掉 4–5 小时。</strong>' +
+          '分配（<strong>按展厅规模与藏品数量推算，The Met 官方未给建议时长</strong>）：' +
+          'Fuentidueña Chapel 与一层各回廊 40 分钟、' +
+          '<strong>Unicorn Tapestries Room 20–25 分钟（本馆唯一值得站久的一间）</strong>、' +
+          'Treasury 与地下层 25 分钟、Bonnefont 与 Trie 两园 20 分钟。' +
+          '<strong>只看重点 60 分钟</strong>：Fuentidueña → Cuxa 中庭 → Unicorn Tapestries → Treasury，' +
+          '其余一层过厅一律快走',
+        book: '<strong>不需预约，但建议先在 metmuseum.org 买好定时票</strong>——' +
+          '不是为了抢位（这里基本不满），而是门口现场购票窗口只有一两个，' +
+          '<strong>而且买票时要选好日期，这张票同时也是本馆的票</strong>。' +
+          'Met 会员与 Patron 免票直入。' +
+          '<strong>10 人以上团体须提前联系团体部门</strong>；' +
+          '官方导览（Guided visits）在 <strong>周四至周二 11:00–15:00</strong> 时段内安排，需另约',
+        ticket: '<strong>核实日期 2026-09-14，metmuseum.org 官方票价页与 The Met Cloisters 页口径一致：' +
+          '成人 $30、老年（65 岁及以上）$22、学生 $17、残障访客 $22、' +
+          '12 岁及以下儿童免费、会员与 Patron 免费、残障访客的陪同者免费（仅现场办理）。</strong>' +
+          '<strong>纽约州居民与 NY／NJ／CT 三州在读学生为自定金额（每张票最低 $00.01）</strong>，' +
+          '网上买自定金额票需纽约州账单地址，NJ／CT 学生只能现场凭学生证买。' +
+          '<strong>【通票规则，这是本条最需要注意的一项】' +
+          '官方票价页 2026 年当前原文为「All tickets include exhibitions and same-day entry to ' +
+          'both Met locations for the date on your ticket.」——' +
+          '即一张票含特展，并且覆盖 The Met Fifth Avenue 与 The Met Cloisters 两馆，' +
+          '但仅限票面当天。</strong>' +
+          '<strong>与此并存的是 2018 年 1 月 4 日 The Met 新闻稿与官方说明文的旧口径：' +
+          '「All full-priced admissions tickets will be honored for three consecutive days ' +
+          "at The Met's three locations」（三个连续日、三处馆区）。" +
+          '两种口径都列在这里：旧口径已不出现在 2026 年的购票页上，' +
+          '而 Met 的《Ticketing and Admission Policies》页写' +
+          '「A valid admission ticket includes the date and location of the visit... ' +
+          'shall become invalid upon the expiration of the time or period stated on the ticket」，' +
+          '也就是以票面标注为准。<strong>请按「只管当天」做计划，' +
+          '若确实想分两天用一张票，出行前打 +1 212-535-7710 确认</strong></strong>',
+        hours: '<strong>核实日期 2026-09-14。metmuseum.org 的 The Met Cloisters 页与多家目录站口径一致：' +
+          '<strong>Thursday–Tuesday 10 am–5 pm，Closed Wednesday</strong>。</strong>' +
+          '<strong>另有一条季节性调整，来自 The Met 官方团体参观页的注脚原文' +
+          '「The Met Cloisters closes at 4:30 pm November–February」——' +
+          '即 11 月至次年 2 月提前到 16:30 关门。' +
+          '这条正好解释了为什么不少第三方页面把本馆写成「16:30 关门」：' +
+          '那是冬季口径，不是全年口径。</strong>' +
+          '<strong>十月适用的是 10:00–17:00。周三闭馆这一点与本馆相同，' +
+          '所以本馆与修道院无法用「一馆闭馆日去另一馆」互补</strong>。' +
+          '<strong>Trie Café 为季节性营业、时间不固定，未能从官方渠道确认十月的具体营业时段</strong>，' +
+          '可打 +1 212-923-3700 问当天情况',
+        parking: '<strong>官方页面原文「Free public parking is available in Fort Tryon Park around ' +
+          'The Met Cloisters」——公园内围绕馆区有免费公共停车，这在曼哈顿极为罕见</strong>，' +
+          '但车位数量有限，周末上午容易满。' +
+          '<strong>自驾者可直接开到内院的无台阶入口下客。</strong>' +
+          '不自驾则完全不必考虑停车，地铁直达',
+        walk: '<strong>标准走法：A 线到 190 Street 站，出站必须坐电梯（站台在地下约 43 米，' +
+          '这是纽约地铁最深的车站之一，没有扶梯直通地面），' +
+          '出地面后沿 Margaret Corbin Drive 向北穿 Fort Tryon Park 步行约 10 分钟。</strong>' +
+          '<strong>不想走的可以在地铁站门口换 M4 公交向北坐一站到 ' +
+          '「Margaret Corbin Dr/Cloisters」，车站就在馆门口。</strong>' +
+          '<strong>需要全程无障碍的走法（官方口径）：A 线到 181 Street 站，坐电梯出站，' +
+          '换 M4 向北坐 7 站到 Margaret Corbin Dr/Cloisters。</strong>' +
+          '<strong>官方页面另挂一条提醒：周末 A 线常有轨道维护与线路封闭，出发前查 MTA。</strong>' +
+          '从 The Met 本馆过来：4／5／6 线 86 街站 → 换 A 线（需经 125 街或中城换乘），' +
+          '<strong>实际 35–45 分钟，不是十几分钟能到的距离</strong>'
+      },
+      notes: [
+        '<strong>周三闭馆，与 The Met 本馆同一天闭馆。</strong>' +
+          '这意味着两馆在星期上完全重叠，安排时不要指望「本馆关门就去修道院」',
+        '<strong>三脚架、镜头伸缩杆与自拍杆禁止，手持非商业拍摄允许（与 The Met 本馆同一套政策）。</strong>' +
+          '<strong>Unicorn Tapestries Room 的照度刻意压得很低（挂毯的天然染料怕光），' +
+          '室内段基本要 ISO 1600 以上，且禁止闪光灯</strong>',
+        '<strong>这是一栋 1930 年代仿中世纪建筑，台阶、坡道、石板地面多，' +
+          '官方明确说「Accessibility... is somewhat limited for wheelchair users」。</strong>' +
+          '需要无台阶通行的可用<strong>免费接驳车，上车点在 Postern 入口附近，' +
+          '送到内院的无障碍入口</strong>',
+        '<strong>两座园子（Bonnefont、Trie）是露天的，下雨或大风会关</strong>，' +
+          '而它们恰好是本馆最值得看的部分之一——' +
+          '<strong>雨天来这里的回报会明显打折，可换到天气好的一天</strong>',
+        '<strong>Fort Tryon Park 是 1776 年 Fort Washington 战役的战场遗址</strong>，' +
+          '公园名来自当时的英军据点；' +
+          'Margaret Corbin Drive 纪念的 <strong>Margaret Corbin 是美国历史上第一位领到军人抚恤金的女性</strong>' +
+          '——她在丈夫阵亡后接手他的火炮继续作战。' +
+          '<strong>公园白天治安正常，但入夜后崖边小径没有照明，不要天黑后在园内穿行</strong>',
+        '<strong>免费官方数字导览在 Bloomberg Connects app 里（The Met 频道内含 Cloisters 专门内容），' +
+          '进馆前先下载</strong>；馆内手机信号在石墙建筑里时有时无'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6f/The_Met_Cloisters%2C_NY_%2817%29.jpg',
+          cap: '回廊与中庭园 · Polka0505 / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Cloisters_Hudson_River_crop.jpg',
+          cap: '从哈德逊河方向看 Fort Tryon 崖顶上的馆体 · Paweł Drozd，Beyond My Ken 裁切 / CC BY-SA 3.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/The_Unicorn_Surrenders_to_a_Maiden_The_Unicorn_Tapestries_South_Netherlands_The_Met_Cloisters_Unicorn_Tapestries_Room_Gallery_17.jpg',
+          cap: 'Unicorn Tapestries 之《独角兽向少女屈服》 · EgorovaSvetlana / CC BY-SA 4.0' }
+      ]
+    },
+    {
+      id: 'st-john-the-divine',
+      n: 6,
+      name: '圣约翰神明座堂',
+      en: 'Cathedral Church of Saint John the Divine',
+      must: 3.5,
+      score: 4,
+      tldr: '全长 601 英尺、世界最大主教座堂，开工 134 年至今未完工。观光票 $15；登塔导览 $20，只在个别周六。',
+      tags: [
+        { t: '观光 $15', c: 'paid' },
+        { t: '祈祷免费入内', c: 'free' },
+        { t: '登塔需抢场次', c: 'risk' },
+        { t: '周一至周五院子关闭', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>全长 601 英尺（183 米），官方与自身页面均称「the largest cathedral in the world」' +
+          '（按建筑面积计，约 121,000 平方英尺）。</strong>' +
+          '<strong>1892 年 12 月 27 日奠基，到 2026 年已经开工 134 年，至今没有完工——' +
+          '本地人叫它「St. John the Unfinished」，而这不是玩笑，是它真实的建筑状态。</strong>' +
+          '官方 FAQ 自己的回答很坦白：' +
+          '「Like the great Medieval cathedrals... St. John the Divine will continue to be ' +
+          'constructed over many centuries. Currently, funding is directed to prioritize ' +
+          'serving the community through our programming and social initiatives」——' +
+          '<strong>也就是钱现在优先花在社区项目和维护上，不在建造上</strong>',
+        '<strong>「未完工」具体是哪几处，到场能亲眼看出来，这是本条最值得知道的事：</strong>' +
+          '<strong>①&nbsp;南耳堂（south transept）完全不存在</strong>，北耳堂<strong>只建了一半</strong>；' +
+          '<strong>②&nbsp;中殿交叉部（the Crossing）头顶那座穹顶本来是临时的</strong>——' +
+          '西班牙建筑师 <strong>Rafael Guastavino 1909 年 5 至 8 月只用 15 周砌成的陶砖薄壳穹顶</strong>，' +
+          '原计划等耳堂建好后拆掉换成正式的塔楼与尖顶，' +
+          '<strong>结果这座「临时屋顶」用到今天已经 117 年，还成了世界上最大的自承重穹顶之一</strong>' +
+          '（官方描述：底下能塞进一整座自由女神像；壳体顶部仅 4 英寸厚、底部 7.5 英寸）；' +
+          '<strong>③&nbsp;西立面的南塔（St. Paul Tower）只砌到约设计高度的三分之二，' +
+          '官方自己的说法是「停在了半句话上（stopped "in mid-sentence"）」</strong>',
+        '<strong>为什么停了：两次中断的时间点都非常具体。</strong>' +
+          '<strong>1941 年 11 月 30 日全长落成祝圣，一周之后珍珠港事件爆发，美国参战，工程当场停止。</strong>' +
+          '此后 1969 年 Donegan 主教明确宣布任内不再动工；' +
+          '<strong>1978 年 Morton 院长宣布复工，1979 年开设自己的石作场（Stoneyard），' +
+          '招募本地青年做石匠学徒、由英国石匠师傅带教</strong>' +
+          '（因为美国本土已经找不到会砌大教堂的石匠大师）。' +
+          '<strong>1982 年，走钢丝的 Philippe Petit 从 Amsterdam Avenue 对面走钢索到西立面，' +
+          '作为南塔工程的开工仪式</strong>。' +
+          '<strong>到 1992–1993 年建造预算耗尽，石作场关闭，南塔又长高了约 50 英尺就再没动过</strong>，' +
+          '部分脚手架在上面锈了十五年',
+        '<strong>建筑风格在中途换过一次，这是它外观显得「不太统一」的原因。</strong>' +
+          '1891 年设计竞赛由 <strong>Heins &amp; LaFarge</strong> 以罗马式–拜占庭方案获胜；' +
+          '<strong>George Heins 1907 年去世后合约作废，1911 年 Ralph Adams Cram 接手，改成法国哥特式。</strong>' +
+          '<strong>所以高坛（chancel）周围那八根整料花岗岩巨柱与筒形拱顶是原来的罗马式设计，' +
+          '而中殿与西立面是哥特式的</strong>——站在交叉部往东西两头各看一眼，就能看出两套语言的接缝。' +
+          '<strong>西立面的 Rose Window 直径 40 英尺、约 10,000 片玻璃，是全美最大的彩绘玻璃玫瑰窗</strong>',
+        '<strong>2001 年 12 月 18 日的一场大火烧掉了礼品店、烧坏了北耳堂与两幅 17 世纪 Barberini 挂毯，' +
+          '整座座堂关闭做全面清洗，2008 年 11 月才重新开放。</strong>' +
+          '<strong>Guastavino 穹顶又在 2019–2022 年做了一笔约 1,700 万美元的三年大修</strong>' +
+          '（修补砖壳裂缝、加了新的铜屋面）。' +
+          '也就是说<strong>现在看到的室内是 2008 年之后清洗过的状态，比老照片上干净得多</strong>'
+      ],
+      tour: [
+        '<strong>先决定去哪一种：这座堂有三种完全不同的进法，价格与体验差很远。</strong>' +
+          '<strong>①&nbsp;自助观光（$15）</strong>——自己进去走一圈，看中殿、交叉部、七座 Chapels of the Tongues 与 Rose Window；' +
+          '<strong>②&nbsp;Highlights Tour（$16／学生老年 $14，每天 13:00 一场、约 1 小时）</strong>，' +
+          '有讲解员从 Great Bronze Doors 讲到七座小圣堂，' +
+          '<strong>对这种「半成品」建筑来说，讲解的价值明显高于自己看</strong>；' +
+          '<strong>③&nbsp;Vertical Tour（$20／$18）</strong>——本条最值得排的一项，' +
+          '<strong>沿旋转楼梯往上爬超过 124 英尺、走到飞扶壁上、最后登屋顶看曼哈顿</strong>，' +
+          '<strong>但只在个别周六开一场，必须提前抢</strong>（详见 access.book）',
+        '<strong>自己逛的顺序与不能错过的几件：</strong>' +
+          '从 Amsterdam Avenue 的 <strong>Great Bronze Doors</strong> 进去（门上浮雕是新旧约场景），' +
+          '<strong>先沿中殿走到底站在交叉部正中抬头看 Guastavino 穹顶——这是全堂第一位的一件东西</strong>，' +
+          '也是能看懂「这座堂为什么没完工」的唯一位置：' +
+          '<strong>头顶就是那个用了 117 年的临时屋顶，左右两侧本该是耳堂的地方一边是墙、一边只有半个</strong>。' +
+          '然后回头看西端的 <strong>Rose Window</strong>（从堂内往西看才是正面），' +
+          '再走侧廊尽头的 <strong>七座 Chapels of the Tongues</strong>' +
+          '（分别献给不同移民族群，这个设置在全世界的主教座堂里很少见）。' +
+          '<strong>另外两件容易漏掉的：Poets\' Corner（美国作家纪念地砖）' +
+          '与 Keith Haring 的三联作《The Life of Christ》——那是他 1990 年去世前完成的最后一件作品</strong>',
+        '<strong>可以跳过的：侧廊上大量的纪念碑铭与近年的装置艺术展。</strong>' +
+          '这座堂常年在中殿里放当代艺术装置（2026 年秋季的排期见官网 press release），' +
+          '<strong>喜欢就看，不喜欢完全可以直接走过——它们不是这座建筑的主体</strong>。' +
+          '<strong>省下的时间强烈建议用在两处：一是交叉部多站十分钟，二是如果日期对得上就去登塔。</strong>' +
+          '<strong>登塔是全纽约少见的「爬进一座哥特式建筑的骨架内部」的机会</strong>，' +
+          '比在中殿里走一圈的信息量大得多',
+        '<strong>排队、安检与院子：这里几乎不排队，但院子的开放时间是个坑。</strong>' +
+          '<strong>官方页面原文：「Please note that the Cathedral grounds are closed Monday – Friday ' +
+          'to ensure a safe environment for students at the Cathedral School and ACT Programs.」' +
+          '——周一至周五院子（close）关闭，因为里面有学校。</strong>' +
+          '<strong>这意味着 Greg Wyatt 1985 年的 Peace Fountain 与院里常年放养的几只孔雀，' +
+          '工作日看不到，只有周末能进院子</strong>。' +
+          '想同时看堂内与院子，<strong>请排周六（堂内 09:30–17:00，院子开）</strong>；' +
+          '周日堂内 12:00 才开，上午是礼拜时间',
+        '<strong>如果碰上礼拜：任何人都可以免费进来祈祷或静坐（官方原文' +
+          '「All those who are seeking a place for prayer or meditation will be welcomed without charge」），' +
+          '但这时进去要按礼仪规矩来。</strong>' +
+          '<strong>做法：进门后在后排入座，不要沿中殿向前走动；' +
+          '手机静音；礼拜进行中不要拍照，尤其不要拍领受圣餐的人与祭坛方向；' +
+          '不必跟着跪拜或唱诵，安静坐着即可</strong>。' +
+          '<strong>着装：不要求正装，但不要穿无袖上衣、短裤与人字拖，帽子进堂要脱。</strong>' +
+          '<strong>周日主礼拜通常在交叉部举行，此时交叉部与中殿不对观光开放</strong>',
+        '<strong>餐饮与卫生间：堂内没有餐厅。</strong>' +
+          '<strong>卫生间在 Visitor Center（进门后）一侧，数量不多，周末大活动时会排队。</strong>' +
+          '<strong>吃饭往西走两个街区到 Broadway 与 110–112 街一带，那是哥大南缘的学生餐饮区，' +
+          '便宜、选择多、步行 5 分钟</strong>——' +
+          '这一带和下面 Columbia 那条可以合成一个下午'
+      ],
+      photo: '建筑外观 <strong>3.5/5</strong>，室内 <strong>4.5/5</strong>，彩窗 <strong>4/5</strong>。' +
+        '中殿进深 183 米加上高侧窗的光柱是全纽约最好的教堂内景之一；外观扣分是因为南塔未完工、西立面长期显得不完整。',
+      shots: [
+        {
+          name: '中殿轴线与交叉部穹顶',
+          desc: '<strong>站在中殿西端正中沿轴线向东，把 601 英尺的进深一次收进画面。</strong>' +
+            '<strong>晴天 11:00–14:00 高侧窗会在中殿地面打出成排光斑，这是这里最好的光</strong>；' +
+            '<strong>14–24mm 超广、机身水平、尽量贴轴线中心以免柱列歪斜</strong>。' +
+            '交叉部下抬头拍 Guastavino 穹顶用 16–24mm 近垂直上仰。' +
+            '<strong>室内很暗，ISO 3200–6400、f/2.8、1/30s 起，靠机身防抖；' +
+            '三脚架需事先申请，散客不要带</strong>。礼拜进行中一律收起相机。' +
+            '坐标为 OSM 座堂建筑实体（中殿内无独立节点）。',
+          view: [40.803766, -73.961784]
+        }
+      ],
+      access: {
+        visit: '<strong>自助观光 45–75 分钟；加 Highlights Tour 约 2 小时；' +
+          '若参加 Vertical Tour 另加 1 小时（导览本身 60 分钟）。</strong>' +
+          '分配：中殿与交叉部 20–25 分钟（<strong>穹顶下至少站 10 分钟</strong>）、' +
+          'Rose Window 与西端 10 分钟、七座 Chapels of the Tongues 15 分钟、' +
+          'Poets\' Corner 与 Keith Haring 三联作 10 分钟、' +
+          '周末再加院子与 Peace Fountain 15 分钟。' +
+          '<strong>只看重点 30 分钟</strong>：进门直走到交叉部抬头，回身看 Rose Window，走两座小圣堂出来。' +
+          '<strong>时长为按建筑规模与官方导览时长推算，官方未给建议参观时长</strong>',
+        book: '<strong>核实日期 2026-09-14。自助观光官方口径是' +
+          '「It is strongly encouraged that sightseeing visitors purchase timed tickets in advance」' +
+          '——强烈建议提前在 stjohndivine.org/visit/timed-tickets 买定时票，但不是强制。</strong>' +
+          '<strong>Vertical Tour 必须提前订，而且这是本条最需要提前规划的一项：' +
+          '它不是每天都有，官方日历上是零散的周六单场</strong>' +
+          '（<strong>2026 年已挂出的例子：10 月 3 日 12:00–13:00、10 月 24 日 14:00–15:00</strong>），' +
+          '在 stjohndivine.org/visit/public-guided-tours 订。' +
+          '<strong>年龄限制口径不一致：导览总览页把 Vertical Tour 标为「All Ages」，' +
+          '而官方日历的每一场单页都写「All participants must be 12 years or older」。' +
+          '两种口径都列出，按 12 岁下限准备更稳妥。</strong>' +
+          'Highlights Tour 每天 13:00 一场，现场或网上买均可。' +
+          '<strong>10 人以上团体须提前联系 groups@stjohndivine.org 或 +1 212-932-7347</strong>',
+        ticket: '<strong>核实日期 2026-09-14。这里有一处官方页面自相矛盾，两种口径都列出：</strong>' +
+          '<strong>①&nbsp;《Plan Your Visit》与《Hours &amp; Admission》页、以及购票页原文：' +
+          '「Admission is $15 for adults, $12 for seniors and students」' +
+          '（成人 $15、老年与学生同为 $12）；' +
+          '②&nbsp;《Hours and Information》页原文：' +
+          '「Admission is $15 for adults, $12 for seniors and $10 for students」' +
+          '（学生 $10）。</strong>' +
+          '学生按 $10–12 之间准备，现场以窗口为准。' +
+          '<strong>免费条件写得很明确：' +
+          '「All those who are seeking a place for prayer or meditation will be welcomed without charge」' +
+          '——为祈祷或静坐而来的人免费入内</strong>，' +
+          '这不是含糊的客套，是写进官方票价页的正式条款，' +
+          '<strong>但它对应的是安静入座祈祷，不是绕一圈观光</strong>。' +
+          '<strong>导览另计：Highlights／Cathedral Arts／Stained Glass／Architecture 四种均为 $16 成人、' +
+          '$14 大学生与老年；Vertical Tour $20 成人、$18 大学生与老年。</strong>' +
+          '此前部分资料写的「建议捐赠」已不是当前口径——' +
+          '<strong>2026 年是明码固定票价 $15，只是同时保留了祈祷者免费入内这一条</strong>',
+        hours: '<strong>核实日期 2026-09-14，stjohndivine.org 官方原文：' +
+          '「Monday – Friday 9:30 am – 5 pm；Saturday 9:30 am – 5 pm；Sunday 12 pm – 5 pm」。</strong>' +
+          '<strong>也就是周一至周六 09:30–17:00、周日 12:00–17:00，全周无固定闭馆日</strong>' +
+          '（这一点与本区各博物馆不同，是本区唯一周三也开的大型室内项目）。' +
+          '<strong>另有两条官方附注：' +
+          '一是「Cathedral grounds are closed Monday – Friday」——院子工作日关闭；' +
+          '二是「Due to cleaning and ongoing conservation at the Cathedral, ' +
+          'some areas may occasionally be inaccessible」——局部区域可能临时关闭。</strong>' +
+          '<strong>节假日与大型礼拜日的时间会变，未能就 2026 年具体节假日特例取得官方逐日清单</strong>，' +
+          '可打 <strong>+1 212-316-7490</strong> 确认',
+        parking: '<strong>无自有停车场。</strong>周边 Amsterdam Avenue 与 Morningside Drive 是路边计时车位，' +
+          '<strong>工作日上学时段（08:00–09:00、14:30–15:30）门前会因接送而堵</strong>。' +
+          '这一带路边停车比上东区宽松，但仍建议坐地铁',
+        walk: '<strong>地铁 1 号线「Cathedral Pkwy–110 St」站下，沿 110 街东行到 Amsterdam Avenue 再北行两个街区，' +
+          '步行约 7–9 分钟</strong>；' +
+          '或 B／C 线「Cathedral Pkwy（110 St）」站（在公园西侧），步行约 12 分钟。' +
+          '<strong>正门在 1047 Amsterdam Avenue（112 街口）</strong>，' +
+          '建筑从 Amsterdam Avenue 一直横跨到 Morningside Drive，占满一整个街区。' +
+          '<strong>到 Columbia University 的 Low Library 台阶步行约 10 分钟（沿 Amsterdam Avenue 北行到 116 街）</strong>，' +
+          '两条可以连着走'
+      },
+      notes: [
+        '<strong>这里是仍在使用的活教堂，不是遗址。</strong>' +
+          '礼拜、音乐会、葬礼与社区活动随时可能占用中殿或交叉部，' +
+          '<strong>官方也明说部分区域可能临时不可进入</strong>——' +
+          '碰上了不要和工作人员争，这是它作为教堂的本职',
+        '<strong>十月第一个周日是本堂全年最大的一场活动：' +
+          'Feast of St. Francis 与 Blessing of the Animals。</strong>' +
+          '官方 FAQ 原文「The St. Francis Day Blessing of the Animals occurs on the ' +
+          'first Sunday of October」，' +
+          '服务 10:30 开始（管风琴前奏 10:20），含 Procession of the Animals——' +
+          '<strong>真的会有大型动物被牵进中殿</strong>；' +
+          '之后的户外市集与宠物祝福「rain or shine」。' +
+          '<strong>按官方规则推算，2026 年即 10 月 4 日（周日）</strong>；' +
+          '<strong>2026 年的具体时间、是否需要免费入场券（往年有几年需要、有几年不需要）' +
+          '未能从官方渠道确认</strong>，' +
+          '要去请提前在 stjohndivine.org/calendar 查当年的页面。' +
+          '<strong>这一天不适合当作普通观光日来</strong>',
+        '<strong>手持非商业拍摄允许，三脚架需事先申请。</strong>' +
+          '<strong>礼拜与音乐会进行中禁止拍摄</strong>；' +
+          'Vertical Tour 途中楼梯狭窄且黑，<strong>建议一机一镜、双手要能抓扶手，不要带大包</strong>',
+        '<strong>Vertical Tour 的体力门槛要如实看：124 英尺以上的旋转石梯、无电梯、' +
+          '中途要在飞扶壁上行走。</strong>' +
+          '<strong>怕高、膝关节不好、有心肺问题的不要报</strong>；' +
+          '穿抓地的平底鞋，<strong>裙装与硬底皮鞋会很难受</strong>',
+        '<strong>免费的官方数字导览在 Bloomberg Connects app 里（搜 Cathedral of St. John the Divine），' +
+          '另有纸质导览手册。</strong>' +
+          '<strong>对这座堂来说数字导览的性价比很高</strong>——' +
+          '因为它「哪里没建完、原计划是什么样」这类信息，光看现场是看不出来的',
+        '<strong>治安：Morningside Heights 白天正常，是哥大的校区外围。</strong>' +
+          '<strong>但座堂东侧的 Morningside Park 是一片陡坡地形，入夜后不要穿行</strong>，' +
+          '要从东边过来请走 110 街或 116 街的正规台阶路'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Cathedral_Church_of_St._John_the_Divine_-_the-groundview.jpg',
+          cap: 'Amsterdam Avenue 一侧的西立面与未完工的南塔 · The groundview / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/46/The_Cathedral_Church_of_Saint_John_the_Divine_Choir.jpg',
+          cap: '高坛与罗马式花岗岩巨柱 · Jpapanestor007 / CC BY 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/St_John_The_Divine_Rose_Window_from_inside.JPG',
+          cap: '堂内西望直径 40 英尺的 Rose Window · Gesalbte / Public domain' }
+      ]
+    },
+    {
+      id: 'harlem-apollo',
+      n: 7,
+      name: '哈莱姆与阿波罗剧院',
+      en: 'Harlem &amp; the Apollo Theater',
+      must: 3.5,
+      score: 3.5,
+      tldr: '125 街文化带。Apollo 剧院整修中，预计 2026 年底重开；导览 $17 须预约。Studio Museum 已重开。',
+      tags: [
+        { t: '街区免费', c: 'free' },
+        { t: '历史剧院整修中', c: 'risk' },
+        { t: '导览须预约', c: 'risk' },
+        { t: '周日博物馆免费', c: 'free' }
+      ],
+      highlights: [
+        '<strong>125th Street 不是一条普通商业街，它在 1811 年 Commissioners\' Plan 里就被划成曼哈顿 15 条' +
+          '「宽幅横街」之一，而且是其中连通性最好的一条</strong>——' +
+          '<strong>从哈德逊河一直通到东河，同时接上 Henry Hudson Parkway、FDR Drive 与 Triborough Bridge</strong>。' +
+          '二十世纪初这一带剧院密集，被叫做「Harlem\'s 42nd Street」；' +
+          '<strong>2007 年美国规划协会（APA）把它列为全美「十条伟大街道」之一</strong>。' +
+          '现在的实际面貌是：<strong>连锁店（Whole Foods、H&amp;M、Red Lobster）与老店、教堂、' +
+          '街头布道者和音响摊混在同一条街上</strong>——' +
+          '这条街的价值在于它仍然是活的黑人商业与文化主街，不是被整理好的历史街区',
+        '<strong>Apollo Theater 的建筑本身 1913–14 年由 George Keister 设计，' +
+          '而它最初的名字叫 Hurtig and Seamon\'s New Burlesque Theater——' +
+          '一家黑人既不能进场也不能上台的滑稽歌舞剧院。</strong>' +
+          '<strong>1933 年 Fiorello La Guardia 发起取缔 burlesque 的运动，这家剧院随之关门；' +
+          '1934 年 Sidney Cohen 与 Morris Sussman 把它改名为 125th Street Apollo Theatre 重开，' +
+          '节目改为综艺，并把营销对象转向哈莱姆日益增长的黑人社区。</strong>' +
+          '<strong>也就是说这座「黑人音乐圣殿」是从一家排斥黑人的剧院改过来的，' +
+          '转向只发生在 1934 年那一年</strong>。' +
+          '现有约 1,500 个座位，<strong>1983 年获得州与市两级地标身份</strong>',
+        '<strong>Amateur Night 同样起于 1934 年，创办人 Ralph Cooper，而它最有名的道具有一个很实在的来历。</strong>' +
+          '舞台边放着一段树桩叫 <strong>Tree of Hope</strong>：' +
+          '原树长在附近 Lafayette Theatre 对面，<strong>失业的艺人聚在树下表演，' +
+          '希望被 Lafayette 的经理看上，久而久之被认为能带来好运</strong>；' +
+          '<strong>1934 年那棵树被砍掉后，Cooper 把一段搬进 Apollo，让参赛者上台前摸一下求不被观众嘘下去</strong>。' +
+          '观众可以直接把人「嘘走」这件事是正式的比赛规则（be good or be gone），' +
+          '<strong>大奖最高 $20,000，另有 18 岁以下的 Child Stars of Tomorrow 组、奖金 $5,000</strong>',
+        '<strong>Walk of Fame 就在 Apollo 那块招牌雨棚底下的人行道上，2010 年才做，' +
+          '而且刻意不做成好莱坞那种星形——是长方形铜牌嵌进人行道。</strong>' +
+          '<strong>首批七块（2010 年 5 月装）是 Quincy Jones、Patti LaBelle、Smokey Robinson、' +
+          'James Brown、Little Richard、Ella Fitzgerald、Gladys Knight and the Pips</strong>，' +
+          'Michael Jackson 与 Aretha Franklin 的在同年 6 月补上。' +
+          '<strong>经费里有 Harlem Community Development Corporation 的 $75,000 拨款。</strong>' +
+          '另有一条更早的「Striver\'s Walk of Fame」在 135 街 7 至 8 大道之间，名单与 Apollo 的多有重叠',
+        '<strong>Studio Museum in Harlem 是本条最大的一个变化：' +
+          '它 2018 年拆掉旧楼后闭馆七年，2025 年 11 月 15 日在原址 144 West 125th Street 重开。</strong>' +
+          '<strong>新馆由 Adjaye Associates 设计（Cooper Robertson 为执行建筑师），' +
+          '七层、82,000 平方英尺，是这家 1968 年成立的机构 57 年历史上第一栋专为自己的功能建造的房子</strong>，' +
+          '募款总额超过 3 亿美元。' +
+          '<strong>它的定位是「非洲裔艺术家的艺术」，并且有一个在美国博物馆里很少见的驻馆艺术家项目（Artist-in-Residence）</strong>——' +
+          '这个项目是它名字里 Studio 的来源',
+        '<strong>值得多走五个街区的是 Striver\'s Row（正式名 St. Nicholas Historic District）。</strong>' +
+          '位置在 <strong>West 138 与 139 街、Adam Clayton Powell Jr. Boulevard（七大道）至 ' +
+          'Frederick Douglass Boulevard（八大道）之间</strong>，' +
+          '<strong>1891–93 年由开发商 David H. King, Jr. 建造，原名 King Model Houses，' +
+          '而且一次请了三组建筑师做三种风格</strong>：' +
+          '138 街南侧的红砖褐石为 James Brown Lord 的 Georgian Revival；' +
+          '138 街北侧与 139 街南侧的黄砖白石灰石为 Bruce Price 与 Clarence S. Luce 的 Colonial Revival；' +
+          '<strong>139 街北侧的深色砖与陶饰是 McKim, Mead &amp; White 的 Stanford White 做的意大利文艺复兴复兴式</strong>。' +
+          '<strong>1919 年之后成为哈莱姆黑人专业人士与艺术家的聚居地，「Striver」（奋斗者）的绰号由此而来；' +
+          '楼间的马车后巷至今还挂着「Private Road, Walk Your Horses」的老牌子</strong>'
+      ],
+      tour: [
+        '<strong>先把 2026 年最关键的一条说清楚：Apollo 的历史剧院正在整修，进不去。</strong>' +
+          '<strong>官方网站页首原文「The Apollo\'s Historic Theater is currently closed for renovation ' +
+          'and is expected to reopen in late 2026.」——一笔约 6,500 万美元的整修，预计 2026 年底重开</strong>' +
+          '（核实日期 2026-09-14）。' +
+          '<strong>期间所有演出移到街对面的 The Apollo Stages at The Victoria，233 West 125th Street 三楼</strong>，' +
+          '<strong>那里的主厅 Victoria Theater 1 只有 199 个座位，是个黑盒剧场，' +
+          '和 1,500 座的历史剧院完全不是一回事</strong>。' +
+          '<strong>如果到访时间在重开之后，请重新核实——本条按「整修中」状态写</strong>',
+        '<strong>散客能不能参加导览：可以，但必须提前订，不能到了门口临时买。</strong>' +
+          '<strong>官方导览页原文「Tours MUST be scheduled in advance — Date and times are based on ' +
+          'calendar availability」，并且明确列出「Individuals &amp; Groups of 19 or less：' +
+          'Mon, Wed &amp; Sat，$17 Per Person」——散客有正式价目，不是只做团体。</strong>' +
+          '<strong>场次：周一 11:00 与 13:00、周三 11:00 与 13:00、周六 11:00。</strong>' +
+          '<strong>整修期间的版本叫 Apollo Experience tour，' +
+          '由驻馆历史学家 Billy「Mr. Apollo」Mitchell 本人带</strong>——' +
+          '他讲 James Brown、Stevie Wonder、Mary J. Blige 的后台故事，' +
+          '<strong>官方形容为「part performance and part historical lecture」，' +
+          '这是本条真正的看点，不是那栋楼</strong>。' +
+          '<strong>订法：打 +1 212-531-5337 或写 historic.tour@apollotheater.org。' +
+          '全英文进行，票售出不退不换</strong>',
+        '<strong>一条 90 分钟的步行线，按这个顺序走：</strong>' +
+          '<strong>地铁 A／B／C／D 线「125 St」站出来（就在 St. Nicholas Avenue 与 125 街口）→ ' +
+          '东行到 253 West 125th Street 的 Apollo：看那块 1940 年代式样的招牌雨棚与脚下的 Walk of Fame ' +
+          '（铜牌在雨棚正下方的人行道上，容易走过头，要低头找）→ ' +
+          '再东行到 144 West 125th Street 的 Studio Museum（40 分钟）→ ' +
+          '继续东行看沿街的老剧院立面与商业带，到 Adam Clayton Powell Jr. Boulevard 路口 → ' +
+          '北行 13 个街区到 Striver\'s Row（138–139 街）</strong>。' +
+          '<strong>Striver\'s Row 这一段是全线最安静也最出乎意料的部分——' +
+          '从 125 街那种喧闹一下切换到两排 1890 年代联排住宅，落差很大</strong>',
+        '<strong>Studio Museum 怎么逛与怎么省钱：七层楼但展览面积不算大，60–90 分钟够。</strong>' +
+          '<strong>票价是建议金额（pay what you can）：官方建议成人 $16、' +
+          '65 岁以上老年与学生及残障访客 $9、陪同者免费、16 岁及以下免费。</strong>' +
+          '<strong>每周日全场免费（Studio Sundays 项目），但仍需领票</strong>——' +
+          '<strong>这是本区性价比最高的一条，周日来这里等于零成本</strong>。' +
+          '<strong>周一、周二闭馆（周二只接受预约的学校团体）。</strong>' +
+          '下层有<strong>免费寄存（Coat Check），对走了一天的人很实用</strong>；' +
+          '入展厅前部分物品必须寄存',
+        '<strong>如果想听 gospel：这是本区最容易失手的一件事，规矩比大多数人以为的严得多。</strong>' +
+          '最有名的是 <strong>Abyssinian Baptist Church（132 Odell Clark Place，即 138 街，' +
+          'Lenox Avenue 与 Adam Clayton Powell Jr. Blvd 之间）</strong>，' +
+          '<strong>官方游客政策原文逐条如下：免费；游客只能参加周日 10:00 的礼拜；' +
+          '「Visitors should arrive no later than 9:30 a.m.」并且「admitted on a first-come, ' +
+          'first-served basis」「Admittance is not guaranteed」；' +
+          '游客入口在 West 138th Street 与 Adam Clayton Powell Jr. Blvd 的东南角，' +
+          '是露天的，官方明说要做好长时间站立与风雨的准备。</strong>' +
+          '<strong>着装硬性规定：「Visitors wearing tank tops, flip-flops, shorts or leggings ' +
+          'will not be allowed to enter」，且「Women and men are required to cover their ' +
+          'shoulders upon entering」——背心、人字拖、短裤、紧身裤一律不得入内，男女都必须遮住肩膀。' +
+          '背包不得带进礼拜堂，且教会不提供寄存。</strong>' +
+          '<strong>礼仪上最重要的一条：官方要求游客「remain in the Sanctuary until the end of the ' +
+          'Worship Service」——进去了就要待到礼拜结束，不能听几首歌就走。</strong>' +
+          '<strong>官方页面开头那句话定了性质：「Worship at the Abyssinian Baptist Church ' +
+          'IS NOT A GOSPEL PERFORMANCE or entertainment of any kind.」' +
+          '——这不是演出，按去教堂而不是按看表演准备</strong>',
+        '<strong>餐饮与卫生间：125 街沿线餐饮很多，但公共卫生间极少，这是这条线最实际的约束。</strong>' +
+          '<strong>可靠的三处：Studio Museum 馆内（有票即可用）、' +
+          '125 街上的 Whole Foods（100 West 125th Street）与 Harlem 各连锁咖啡店（需消费）。</strong>' +
+          '吃饭的经典选择是 <strong>Sylvia\'s Restaurant（328 Malcolm X Boulevard，1962 年开业的 soul food 老店，' +
+          '周日有 gospel brunch、需排队）</strong>' +
+          '与 <strong>Red Rooster（310 Lenox Avenue）</strong>；' +
+          '<strong>两家周末都要等位，想省时间就吃 125 街上的快餐</strong>。' +
+          '<strong>2026 年具体营业时间未逐家核实，去前请自行确认</strong>'
+      ],
+      photo: '街景 <strong>3.5/5</strong>，建筑 <strong>3.5/5</strong>，人文纪实 <strong>4/5</strong>。' +
+        'Apollo 的招牌雨棚是全区最有辨识度的一件东西；扣分是整条 125 街杂乱、电线与脚手架多，且整修期间剧院立面可能有围挡。',
+      shots: [
+        {
+          name: 'Apollo 招牌雨棚与 Walk of Fame',
+          desc: '<strong>站在 125 街对面（北侧）人行道上拍雨棚全貌，' +
+            '35–50mm 横构图把「APOLLO」竖招牌与雨棚一起收进来。</strong>' +
+            '<strong>傍晚 18:00 之后霓虹点亮、天光未尽的那 20 分钟是这里最好的时段</strong>；' +
+            '白天顶光会让雨棚下方全黑。' +
+            '<strong>Walk of Fame 的铜牌要低头拍，35mm 以下贴近地面斜拍，避开自己的影子。</strong>' +
+            '<strong>整修期间立面可能有围挡或防护网，到场以实际状况为准。</strong>' +
+            '坐标为 OSM Apollo Theater 建筑实体。',
+          view: [40.810090, -73.949995]
+        }
+      ],
+      access: {
+        visit: '<strong>街区步行线 1.5–2 小时（Apollo 外观与 Walk of Fame 20 分钟 + ' +
+          'Studio Museum 60–90 分钟 + 125 街商业带 20 分钟）；' +
+          '加 Striver\'s Row 再加 45–60 分钟（含往返步行）。</strong>' +
+          '<strong>参加 Apollo Experience tour 另加约 60–75 分钟。</strong>' +
+          '<strong>想听 gospel 请单独留出周日上午 09:30–12:30 整段三小时</strong>' +
+          '（排队一小时 + 礼拜必须待到结束）。' +
+          '<strong>只看重点 45 分钟</strong>：地铁出来直奔 Apollo 拍外观与 Walk of Fame，' +
+          '东行到 Studio Museum 看一层与一个展厅，原路返回地铁。' +
+          '<strong>时长为按步行距离与馆方规模推算</strong>',
+        book: '<strong>核实日期 2026-09-14。街区本身不需预约。</strong>' +
+          '<strong>Apollo Experience tour 必须提前预约</strong>' +
+          '（+1 212-531-5337 或 historic.tour@apollotheater.org，' +
+          '场次周一／周三 11:00 与 13:00、周六 11:00，' +
+          '官方另注「The Apollo is a working theater and tours are often scheduled around ' +
+          'the various productions」，即场次随演出档期变动）。' +
+          '<strong>Studio Museum 建议提前在 studiomuseum.org/visit 订票，周日免费票也要领。</strong>' +
+          '<strong>演出票（含 Amateur Night）走 Ticketmaster.com，' +
+          '或到 The Apollo Stages at the Victoria 的售票窗口现买（开演前两小时开窗）；' +
+          '10 人以上团体联系 group.sales@apollotheater.org。</strong>' +
+          '<strong>Abyssinian Baptist Church 散客不需预约（也无法预约），' +
+          '10 人以上团体须提前至少两周联系 info@abyssinian.org</strong>',
+        ticket: '<strong>核实日期 2026-09-14。逐项列：</strong>' +
+          '<strong>①&nbsp;街区、Walk of Fame、Striver\'s Row：免费。</strong>' +
+          '<strong>②&nbsp;Apollo Experience tour（官方页原文）：散客与 19 人以下小团 ' +
+          '周一／周三／周六均 $17 每人；20–55 人团体周一与周三 $15、周六 $17。' +
+          '全英文，票售出不退不换。</strong>' +
+          '<strong>③&nbsp;Studio Museum in Harlem：建议金额制，成人 $16、' +
+          '老年（65 岁及以上）／学生／残障访客 $9、陪同者免费、16 岁及以下免费，' +
+          '每周日（Studio Sundays）对所有人免费。</strong>' +
+          '<strong>④&nbsp;Abyssinian Baptist Church 周日礼拜：' +
+          '官方原文「There are no fees to worship at Abyssinian Baptist Church」，免费。</strong>' +
+          '<strong>⑤&nbsp;Amateur Night：2026 年的场次日期与票价未能从官方渠道确认。' +
+          '官方 2026 季页面只写「Amateur Night... 继续在 The Apollo Stages at The Victoria 上演」，' +
+          '没有挂出日历与价目；可查到的最近具体价格是 2025 年在历史剧院的场次' +
+          '「Start at $30」与「Start at $33」（周三 19:30 开演、18:30 开门）。' +
+          '<strong>由于演出已移到 199 座的小厅，票价与放票方式都可能改变，' +
+          '请打 +1 212-531-5305 或查 Ticketmaster</strong></strong>',
+        hours: '<strong>核实日期 2026-09-14。</strong>' +
+          '<strong>①&nbsp;125th Street 是公共街道，全天可走；' +
+          '商业带的实际活跃时段约 10:00–20:00，入夜后店铺陆续关门。</strong>' +
+          '<strong>②&nbsp;Apollo 历史剧院：整修中不对外开放，官方原文「expected to reopen in late 2026」。' +
+          '票务办公室时间为 WEEKDAYS 10AM–6PM、SATURDAY 12PM–5PM、SUNDAY Closed。</strong>' +
+          '<strong>③&nbsp;Studio Museum in Harlem：官方原文' +
+          '「open Wednesday through Sunday, from 11:00 am to 6:00 pm」，周一与周二闭馆，' +
+          '会员专属时段为周六 10:00–11:00。' +
+          '延长开放时间这一项官方两处口径不一致：2025 年 11 月的开馆新闻稿写' +
+          '「with extended hours on Friday and Saturday, from 11:00 am to 9:00 pm」（周五与周六到 21:00），' +
+          '而 2026 年秋季季目发布稿写「with extended hours on Friday, from 11:00 am to 9:00 pm」' +
+          '（只有周五到 21:00）。两种口径都列出，想赶晚间时段请先在 studiomuseum.org/visit 复核。</strong>' +
+          '<strong>④&nbsp;Abyssinian Baptist Church：游客只能参加周日 10:00 的礼拜，09:30 前必须到。</strong>',
+        parking: '<strong>不要开车来。</strong>125 街沿线是商业带，路边车位少、' +
+          '双排停车与送货车常年占道，<strong>车位周转极慢且有清扫日限制</strong>。' +
+          '<strong>商业停车场集中在 125 街与 Frederick Douglass Boulevard、Lenox Avenue 交口附近，' +
+          '按小时计费，2026 年具体费率未核实。</strong>' +
+          '这一站地铁覆盖极好，没有自驾的必要',
+        walk: '<strong>地铁选择是本条的优势：125 街被四组线路横向串起来。</strong>' +
+          '<strong>A／B／C／D 线「125 St」站在 St. Nicholas Avenue 口，出站往东走 3 分钟就是 Apollo（253 W 125th）；' +
+          '2／3 线「125 St」站在 Lenox Avenue 口，出站往西走 5 分钟到 Studio Museum（144 W 125th）；' +
+          '4／5／6 线「125 St」站在 Lexington Avenue 口，偏东，走到 Apollo 约 15 分钟。</strong>' +
+          '<strong>Apollo 到 Studio Museum 沿 125 街东行约 550 米 / 步行 7 分钟</strong>（按 OSM 坐标推算）；' +
+          '<strong>Apollo 到 Striver\'s Row（138–139 街）北行约 1.5 公里 / 步行 18–20 分钟</strong>，' +
+          '或坐 B／C 线一站到 135 St 再走 4 个街区。' +
+          '<strong>从本区南缘的 Columbia University（116 街）过来：1 号线两站到 125 St（在 Broadway 口），' +
+          '再东行 700 米；或 B／C 线同样两站</strong>'
+      },
+      notes: [
+        '<strong>Studio Museum in Harlem 已经重开——这一条请覆盖任何 2025 年 11 月之前写的攻略。</strong>' +
+          '它<strong>从 2018 年拆旧楼起闭馆了七年，原定 2022 年重开，实际是 2025 年 11 月 15 日</strong>。' +
+          '中文与英文网上仍有大量「长期闭馆、展览在合作场馆巡回」的旧信息，' +
+          '<strong>2026 年的状态是正常开放的七层新馆</strong>',
+        '<strong>十月有一个具体的日子游客进不去 Abyssinian：官方游客政策列出了一张' +
+          '「Tourists will not be admitted」的日期表，其中包括「Men\'s Day – 2nd Sunday in October」。</strong>' +
+          '<strong>按此规则推算 2026 年即 10 月 11 日（周日）游客不得入场</strong>；' +
+          '同一张表还包括元旦、三月第二个周日的 Women\'s Day、Palm Sunday、母亲节、' +
+          '九月第二个周日的 Homecoming。' +
+          '<strong>撞上这些日子只能改期，现场不会通融</strong>',
+        '<strong>礼拜堂内拍照：Abyssinian 的官方游客政策没有写摄影条款，' +
+          '但按普通教会礼仪，礼拜进行中不要拍照、录像或录音，尤其不要拍唱诗班与讲道者。</strong>' +
+          '<strong>摄影政策未能从官方渠道确认，可去前写 info@abyssinian.org 或打 ' +
+          '+1 212-862-7474 问清；现场看不到明确标识时，按「不拍」处理最稳妥。</strong>' +
+          '<strong>Studio Museum 的具体摄影政策也未在官方页面查到</strong>，' +
+          '按一般美术馆惯例即手持无闪光可拍、特展可能另有限制',
+        '<strong>治安：125 街商业带白天人多、警力常驻，正常注意随身物品即可。</strong>' +
+          '<strong>入夜后不建议在 125 街以北的住宅街区无目的闲逛</strong>，' +
+          '要去 Striver\'s Row 请安排在白天；' +
+          '<strong>Marcus Garvey Park 与 Morningside Park 天黑后不要穿行</strong>。' +
+          '街上偶有推销「hip-hop tour」或索要小费的自称导游，不必理会',
+        '<strong>这是一个人们真正生活的社区，不是景区，' +
+          '拍街上的人（尤其教堂门口做礼拜的人、店主、坐在门廊上的老人）之前请先问一句。</strong>' +
+          '<strong>被拒绝就收起相机</strong>——这一条在本区比在中城重要得多',
+        '<strong>Apollo 整修的另一面：如果到访时间落在 2026 年底重开之后，' +
+          '这一条的分量会明显上升</strong>——' +
+          '<strong>届时历史剧院与舞台重新可看，导览内容也会从「Apollo Experience」回到实地版本，' +
+          '值得把 must 分往上调</strong>。' +
+          '出行前请查 apollotheater.org/visit-the-apollo 的页首公告',
+        '<strong>无障碍：125 街的四个地铁站里，A／B／C／D 线的 125 St 站与 2／3 线的 125 St 站' +
+          '设施情况不一，部分只有楼梯。</strong>' +
+          '<strong>Studio Museum 新馆是 2025 年落成的新建筑，无障碍设施完整，' +
+          '并提供辅助设备与感官友好材料；Apollo 的历史剧院无障碍条件受限</strong>'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c6/Apollo_Theater_Harlem_NYC_2010.JPG',
+          cap: 'Apollo Theater 的招牌雨棚与竖招牌 · Hans Joachim Dudeck / CC BY-SA 3.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/4a/Studio_Museum_in_Harlem%2C_Nov_2025.jpg',
+          cap: 'Studio Museum in Harlem 新馆立面，2025 年 11 月开馆后摄 · 19h00s / CC BY 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/2014_Striver%27s_Row_219-203_W_138_%26_2360_ACP_by_Bruce_Price_%26_Clarence_S._Luce.jpg',
+          cap: "Striver's Row：138 街 219–203 号的 Colonial Revival 联排 · Beyond My Ken / CC BY-SA 3.0" }
+      ]
+    },
+    {
+      id: 'columbia-morningside',
+      n: 8,
+      name: '哥伦比亚大学与晨边高地',
+      en: 'Columbia University &amp; Morningside Heights',
+      must: 3,
+      score: 3.5,
+      tldr: '2024 年抗议后校园收紧门禁。2026 年 9 月状态：普通游客不能凭证件自行进入，须预约导览或由校内人员登记。',
+      tags: [
+        { t: '免费但有门禁', c: 'risk' },
+        { t: '须预约导览', c: 'risk' },
+        { t: '官方口径互相矛盾', c: 'risk' },
+        { t: '街区免费可逛', c: 'free' }
+      ],
+      highlights: [
+        '<strong>这是本区最容易白跑的一个地方，原因不是开放时间，而是门禁。</strong>' +
+          '<strong>2024 年 4 月校园抗议（南草坪扎营、4 月 30 日 Hamilton Hall 被占领后由纽约警方清场）之后，' +
+          '哥大把 Morningside 校园从「城市里的开放中庭」改成了刷卡与预登记制</strong>，' +
+          '并建立了一套 <strong>Green／Yellow／Orange／Red 四级校园状态</strong>加' +
+          '<strong>「I」（ID Only）级别</strong>的管理体系。' +
+          '<strong>这套制度到 2026 年 9 月仍在运行，而且级别是按天调整的</strong>——' +
+          '这意味着「上周有人进去了」不能作为当天能否进入的依据（详见 access.book 与 access.ticket）',
+        '<strong>Low Memorial Library 是全校的视觉中心，而它已经九十多年不是图书馆了。</strong>' +
+          '<strong>1895–97 年建成，Charles Follen McKim（McKim, Mead &amp; White）设计，' +
+          '资金来自校长 Seth Low 为纪念其父 Abiel Abbot Low 的个人捐款</strong>，' +
+          '<strong>圆顶是全美最大的全花岗岩穹顶</strong>，形制远祖是罗马万神殿。' +
+          '<strong>1934 年藏书全部搬去 Butler Library 之后，它就只做行政楼用了</strong>——' +
+          '现在里面是校长办公室与礼仪空间，<strong>普通人进不去，值得看的是它前面那片台阶</strong>。' +
+          '这片台阶是全校的社交客厅，天气好时坐满学生',
+        '<strong>台阶上那尊青铜坐像 Alma Mater 是 Daniel Chester French 1903 年作品' +
+          '（同一位雕塑家做了华盛顿的林肯坐像）。</strong>' +
+          '<strong>两个具体细节：一是 1962 年她被镀了金，但因抗议而把镀金去掉了，所以现在是青铜本色；' +
+          '二是她袍子的褶皱里藏着一只小猫头鹰</strong>，' +
+          '<strong>校内传说第一个找到它的新生会成为毕业生代表</strong>——' +
+          '找它是到这片台阶上唯一值得做的「任务」。' +
+          '1968 年校园抗议期间这尊像曾被炸伤过，底座至今留有修补痕迹',
+        '<strong>Butler Library（1931–34 年，James Gamble Rogers 设计，原名 South Hall）' +
+          '正对 Low 的台阶，是哥大最大的单体图书馆。</strong>' +
+          '<strong>它的立面檐壁上刻着一排西方古典作者的名字——Homer、Herodotus、Sophocles、' +
+          'Plato、Aristotle、Demosthenes、Cicero、Vergil</strong>，' +
+          '<strong>这份名单本身在 20 世纪后期成了校内反复争论的对象（谁被刻上、谁没有）</strong>，' +
+          '是理解美国大学通识教育史的一个实物注脚。' +
+          '<strong>馆内对非校内人员不开放，能看的只有立面</strong>',
+        '<strong>整个 Morningside Heights 被叫做「学术卫城（Academic Acropolis）」，' +
+          '密度在全美绝无仅有：</strong>' +
+          '<strong>Columbia、Barnard College、Teachers College、Union Theological Seminary、' +
+          'Jewish Theological Seminary、Manhattan School of Music、Riverside Church、' +
+          '以及本区那座未完工的 Cathedral of Saint John the Divine，全部挤在南北不到 20 个街区里。</strong>' +
+          '<strong>校园总体规划由 McKim, Mead &amp; White 于 1894 年做成，' +
+          '是美国 Beaux-Arts／American Renaissance 校园规划的范本</strong>' +
+          '（原址是 Bloomingdale Insane Asylum 的地块）。' +
+          '哥大本身<strong>1754 年以 King\'s College 之名创办，是美国第五古老的高等院校，1897 年迁到此地</strong>'
+      ],
+      tour: [
+        '<strong>先解决「能不能进」这个问题，这是本条存在的主要理由。</strong>' +
+          '<strong>2026-09-14 核实，哥大官方三处页面的口径互相矛盾，全部列出：</strong>' +
+          '<strong>①&nbsp;Public Safety 的校园出入页写当前级别是「Access Level "I" – ID Only：' +
+          'CUID holders, alumni, and approved guests only」——只有在校证件持有者、已登记校友、' +
+          '以及被批准的客人；' +
+          '②&nbsp;Visitors Center 首页横幅写「Access to Columbia\'s Morningside Heights campus is ' +
+          'currently limited to CUID holders and registered guests, including visitors who have ' +
+          'registered ahead of time for tours. At this time, the Visitors Center cannot accommodate ' +
+          'walk-on tour registrations, self-guided tours, or other visitors to campus.」' +
+          '——明确说不接受现场报名、不接受自助参观；' +
+          '③&nbsp;同一站点的 Tours 页与 Explore the Highlights 页横幅却写' +
+          '「Access... is currently open between 7:00 a.m. and 5:00 p.m. daily」' +
+          '——每日 07:00–17:00 开放。</strong>' +
+          '<strong>三种口径同时挂在官网上。保守做法是按①与②准备，即「不要假设能走进去」</strong>',
+        '<strong>实际可行的进校路径只有两条，都要提前做：</strong>' +
+          '<strong>①&nbsp;报名官方导览。</strong>' +
+          'Visitors Center 有历史／建筑／雕塑主题的校园步行导览，' +
+          '本科招生办另有面向申请者的校园游；' +
+          '<strong>招生办页面原文「Prior registration is required for all tours」' +
+          '且「cannot accommodate walk-on tour registrations or other visitors to campus」，' +
+          '名额满了页面上就不显示该日期</strong>。' +
+          '<strong>②&nbsp;由校内人员代为登记。</strong>' +
+          '<strong>哥大／Barnard／Teachers College 的学生、教职员可通过 guest registration portal ' +
+          '代为登记，每人每天最多两位当日客人；超过两人的申请必须在到访前一天 17:00 前提交。</strong>' +
+          '<strong>登记后访客会收到带二维码的确认邮件，进校时要同时出示二维码与姓名一致的政府签发证件；' +
+          '二维码只能扫一次，多日到访要分日分别登记。</strong>' +
+          '<strong>没有校内关系又没报上导览的人，2026 年 9 月的现实是进不去</strong>',
+        '<strong>进得去的话，校园核心区 40 分钟就能走完，顺序是：</strong>' +
+          '<strong>从 116 街与 Broadway 的 College Walk 主门进 →（正前方）Low Memorial Library 的台阶，' +
+          '在台阶上找 Alma Mater 袍褶里的猫头鹰 → 回身看正对面的 Butler Library 檐壁作者名 → ' +
+          '（Low 东侧）St. Paul\'s Chapel</strong>。' +
+          '<strong>St. Paul\'s Chapel（1904–07 年，Howells &amp; Stokes 设计）是校内最值得进去的一栋房子</strong>：' +
+          '<strong>它的拱顶也是 Guastavino 陶砖工艺——和本区那座座堂的临时穹顶同一家公司的手艺，' +
+          '两处对着看很有意思</strong>。' +
+          '<strong>Low 与 Butler 两栋楼的内部对非校内人员都不开放，' +
+          '不要把「进楼」写进计划</strong>',
+        '<strong>进不去也不等于白来——校园外这一圈本身就值得走，而且完全没有门禁。</strong>' +
+          '<strong>可行的替代线（全程公共人行道，60–75 分钟）：</strong>' +
+          '<strong>Cathedral of Saint John the Divine（112 街）→ 沿 Broadway 北行看 116 街主门的立面与铁门 → ' +
+          'Barnard College 一侧（Broadway 西侧）→ 120 街的 Teachers College 与 Union Theological Seminary 的' +
+          '哥特式立面 → Riverside Church（120 街与 Riverside Drive）</strong>。' +
+          '<strong>Riverside Church 的塔楼是纽约最高的教堂钟塔（392 英尺），' +
+          '而它的建筑师 Charles Collens 正是本区 The Met Cloisters 的设计者</strong>——' +
+          '<strong>这两栋房子出自同一个人之手，对着看是本区的一条隐藏线索</strong>' +
+          '（Riverside Church 的 2026 年开放时间与登塔是否开放未核实，去前请查 trcnyc.org）',
+        '<strong>餐饮与卫生间：这是本区餐饮性价比最高的一段，因为是学生商圈。</strong>' +
+          '<strong>Broadway 的 110–116 街之间密布平价餐馆、面包店与咖啡店，' +
+          '比上东区便宜一半以上</strong>。' +
+          '<strong>其中 Tom\'s Restaurant（2880 Broadway，112 街口）是《Seinfeld》里 ' +
+          '「Monk\'s Café」的外景地，也是 Suzanne Vega 那首 Tom\'s Diner 的题目来源</strong>——' +
+          '<strong>只有外立面出镜、店内和剧里毫无关系，当成一家普通通宵餐馆看就对了</strong>。' +
+          '<strong>卫生间的实际约束要说清：校园内的洗手间都在需要刷卡的楼里，' +
+          '进校后基本用不到；请在 Broadway 沿街的咖啡店解决（需消费）</strong>',
+        '<strong>如果只有半天，这一条的定位要放准：它是「顺路看建筑」而不是「专程景点」。</strong>' +
+          '<strong>合理组合是与本区的 Cathedral of Saint John the Divine 连成一个下午</strong>' +
+          '（两者相距 10 分钟步行），' +
+          '或者从 Harlem 的 125 街坐 1 号线两站下来收个尾。' +
+          '<strong>为了看 Low 的台阶而单独跑一趟、又没预约，回报与风险都不划算</strong>'
+      ],
+      photo: '建筑 <strong>4/5</strong>，人文氛围 <strong>3.5/5</strong>，风光 <strong>2/5</strong>。' +
+        'Low 的花岗岩穹顶与 Butler 的檐壁列名是典型的 Beaux-Arts 对称构图；扣分主要是进不去校园时只能拍铁门外的立面。',
+      shots: [
+        {
+          name: 'College Walk 轴线上的 Low Memorial Library 台阶',
+          desc: '<strong>站在 College Walk 中轴线（116 街延长线）朝北，' +
+            '把 Alma Mater、台阶与花岗岩穹顶叠在一条中轴上。</strong>' +
+            '<strong>上午 09:00–11:00 是最好的光（东南侧光打在立柱上）</strong>；' +
+            '正午顶光会让柱廊下方死黑。' +
+            '<strong>24–35mm 横构图收全立面，85mm 单拍 Alma Mater 的面部与袍褶</strong>' +
+            '（找猫头鹰要凑近到两三米内）。' +
+            '<strong>两条硬性提醒：一是校园需预登记才能进，拍不到就在 116 街铁门外拍立面；' +
+            '二是官方明文「filming of our Information Sessions and Campus Tours is not permitted」' +
+            '——参加导览时不得录制，工作人员会要求删除。</strong>' +
+            '坐标为 OSM Low Memorial Library 建筑实体。',
+          view: [40.808223, -73.961835]
+        }
+      ],
+      access: {
+        visit: '<strong>校园核心区（Low 台阶、Butler 立面、St. Paul\'s Chapel）40–60 分钟；' +
+          '官方历史导览约 60–75 分钟；' +
+          '加校园外的 Morningside Heights 建筑线（Barnard、Teachers College、Riverside Church）再 60–75 分钟。</strong>' +
+          '分配：Low 台阶与 Alma Mater 20 分钟、Butler 立面 10 分钟、St. Paul\'s Chapel 15 分钟、' +
+          '校园漫步 15 分钟。' +
+          '<strong>只看重点 20 分钟</strong>：从 116 街主门进，台阶上站一会儿，回身看 Butler，原路出。' +
+          '<strong>务必额外预留 15–30 分钟给门口的核验排队</strong>' +
+          '（116 街与 Broadway 北门的二维码访客专用通道只在周一至周五 07:00–19:00 开）。' +
+          '<strong>时长为按校园尺度与官方导览时长推算</strong>',
+        book: '<strong>核实日期 2026-09-14。这是本条的关键项：普通游客实际上必须预约。</strong>' +
+          '<strong>Visitors Center 原文：「the Visitors Center cannot accommodate walk-on tour ' +
+          'registrations, self-guided tours, or other visitors to campus」；' +
+          '本科招生办原文：「Prior registration is required for all tours」。</strong>' +
+          '<strong>两条路径：①&nbsp;在 visit.columbia.edu 或 undergrad.admissions.columbia.edu/visit ' +
+          '提前报名导览（名额有限，满了日历上就不显示）；' +
+          '②&nbsp;找哥大／Barnard／Teachers College 的在校人员通过 guest registration portal ' +
+          '（academic.cuit.columbia.edu/guestaccess）代为登记。</strong>' +
+          '<strong>登记规则的官方原文要点：每位在校人员每天可登记最多两位当日客人；' +
+          '超过两人须于前一日 17:00 前提交；' +
+          '客人凭确认邮件里的二维码加姓名一致的政府签发证件入校；' +
+          '「QR codes can only be scanned once for valid entry」，多日需分日登记。</strong>' +
+          '<strong>2026 年已公布的导览停办日（因校历与校内活动）：10 月 6 日与 7 日、' +
+          '11 月 2 日与 3 日、11 月 25 日</strong>——' +
+          '<strong>十月上旬要来的请特别注意 10/6 与 10/7 这两天没有导览</strong>',
+        ticket: '<strong>核实日期 2026-09-14。<strong>进校园与参加 Visitors Center 的校园导览均免费</strong>，' +
+          '没有门票这回事——本条的门槛全部是门禁与预约，不是钱。</strong>' +
+          '<strong>校园内各图书馆、实验室、宿舍一律需要 CUID 刷卡，不对公众开放，也不售票。</strong>' +
+          '<strong>校园外的 Morningside Heights 建筑线全部是公共街道，免费。</strong>' +
+          '<strong>Riverside Church 的参观与登塔是否收费，2026 年未能从官方渠道确认</strong>' +
+          '（可打 <strong>+1 212-870-6700</strong> 问）',
+        hours: '<strong>核实日期 2026-09-14。此项官方两种口径直接冲突，两种都列出，不替使用者选：</strong>' +
+          '<strong>①&nbsp;Public Safety 校园出入页：当前为「Access Level "I" – ID Only」，' +
+          '即「Campus open to active affiliate Columbia University ID (CUID) holders and ' +
+          'approved guests only」，并未给出「对公众开放的钟点」；' +
+          '可用出入口为 116 街与 Broadway（24/7，北门另设二维码访客专用通道，周一至周五 07:00–19:00）、' +
+          '116 街与 Amsterdam Avenue（24/7）、Wien Gate（116 街，Amsterdam 与 Morningside Drive 之间，24/7）、' +
+          'Earl Gate（117 街与 Broadway，周一至周五 07:00–19:00）。' +
+          '②&nbsp;Visitors Center 的 Tours 页与 Explore the Highlights 页横幅：' +
+          '「Access to Columbia\'s Morningside Heights campus is currently open between ' +
+          '7:00 a.m. and 5:00 p.m. daily」，即每日 07:00–17:00。</strong>' +
+          '<strong>官方同时强调「restrictions may change day-to-day」——限制按天变动。' +
+          '因此这一条不存在一个稳定答案：出行当天必须查 publicsafety.columbia.edu 的校园出入页，' +
+          '或打 Public Safety +1 212-854-2797 确认</strong>',
+        parking: '<strong>不要开车。</strong>Morningside Heights 是校区加住宅区，' +
+          '<strong>路边车位极紧、且多为居民优先与清扫日限制</strong>；' +
+          '<strong>校内停车场只供校内人员</strong>。' +
+          'Broadway 与 Amsterdam Avenue 上有少量商业停车库，按小时计费，' +
+          '<strong>2026 年具体费率未核实</strong>',
+        walk: '<strong>地铁 1 号线「116 St–Columbia University」站出来就是 116 街与 Broadway 的 College Walk 主门，' +
+          '出站步行 1 分钟——这是全纽约离大学正门最近的地铁站之一。</strong>' +
+          '<strong>Low Memorial Library 的台阶在主门正前方约 150 米。</strong>' +
+          '<strong>到 Cathedral of Saint John the Divine：沿 Amsterdam Avenue 南行到 112 街，约 800 米 / 10 分钟；' +
+          '到 Riverside Church：沿 Broadway 北行到 120 街再西行，约 700 米 / 9 分钟；' +
+          '到 Tom\'s Restaurant（112 街与 Broadway）：南行约 500 米 / 6 分钟</strong>' +
+          '（距离按 OSM 坐标推算）。' +
+          '<strong>到 Harlem 的 125 街：1 号线北行两站</strong>'
+      },
+      notes: [
+        '<strong>这一条最实际的建议只有一句：出发前当天查一次校园出入级别，' +
+          '并且不要把「进校园」当成计划里的必成项。</strong>' +
+          '<strong>级别按天调整，历史上出现过从对所有人开放（Green）到只准住校者进入（Red）的全区间</strong>，' +
+          '触发条件通常是校内外的抗议风险。' +
+          '<strong>publicsafety.columbia.edu 的校园出入页是唯一权威来源，' +
+          '第三方攻略与旅行社页面在这件事上普遍过时</strong>',
+        '<strong>进校后要注意：校园是私有财产，出入管理由 Public Safety 执行，' +
+          '登记访客的那位校内人员要为该访客的行为负责（官方原文：' +
+          '「Anyone registering a guest assumes responsibility for their registered guest(s) ' +
+          'and their guest(s)\' actions」）。</strong>' +
+          '<strong>不要在草坪上扎营式久坐、不要进需要刷卡的楼、被要求出示证件时配合。</strong>' +
+          '需要紧急协助或在限制时段需入校，官方电话 <strong>+1 212-854-2797</strong>',
+        '<strong>摄影：校园内手持拍摄建筑与公共空间一般不受限，但有一条明文禁止——' +
+          '官方原文「Due to University Policy, filming of our Information Sessions and Campus Tours ' +
+          'is not permitted. Guests who do not comply with this policy will be asked to delete ' +
+          'any unauthorized recordings.」</strong>' +
+          '<strong>也就是招生说明会与校园导览不得录制，违规会被要求删除。</strong>' +
+          '<strong>校园内是否允许三脚架未能从官方渠道确认</strong>，' +
+          '按门禁校园的惯例，不要带',
+        '<strong>校友身份是一条容易被忽略的通道：官方把「registered alumni」与在校生并列，' +
+          '而校友「once on campus」还可以进图书馆。</strong>' +
+          '<strong>如果同行者中有哥大校友，先去做校友登记，进校会顺得多</strong>',
+        '<strong>St. Paul\'s Chapel 是否对访客开放要单独确认。</strong>' +
+          '它属于校园内建筑，<strong>在校园门禁状态下，即使进了校园也可能因活动或礼拜而关闭；' +
+          '2026 年的具体开放时间未能从官方渠道确认</strong>',
+        '<strong>治安：Morningside Heights 白天是全曼哈顿上城最安稳的一段，' +
+          '晚间 Broadway 沿线也一直有学生流动。</strong>' +
+          '<strong>需要避开的是两侧的两座坡地公园——东边的 Morningside Park 与西边通往 Riverside Park 的坡道，' +
+          '天黑后不要穿行</strong>；' +
+          '从东边（Harlem）过来请走 116 街的正规台阶路',
+        '<strong>Barnard College 是与哥大隔 Broadway 相望的独立女子学院，' +
+          '有自己的一套出入规定，同样不保证公众可进。</strong>' +
+          '<strong>想进 Barnard 校园请单独查 barnard.edu 的访客页面，' +
+          '不要以为哥大的访客登记同时适用</strong>'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Low_Memorial_Library_at_Columbia_University_12-17-2025.jpg',
+          cap: 'Low Memorial Library 的台阶与全花岗岩穹顶，2025 年摄 · Magpieturtle / CC BY 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Butler_Library_Columbia_University.jpg',
+          cap: 'Butler Library 北立面与檐壁上的古典作者名 · JSquish / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/2014_Columbia_University_Alma_Mater.jpg',
+          cap: 'Daniel Chester French 1903 年的 Alma Mater 坐像 · Beyond My Ken / CC BY-SA 4.0' }
+      ]
+    },
+    {
+      id: 'neue-galerie',
+      n: 9,
+      name: '新画廊',
+      en: 'Neue Galerie New York',
+      must: 3,
+      score: 2.5,
+      tldr: 'Klimt「金衣女人」所在。展厅要到 2026-11-12 才随整修重开；$28，周二闭馆，12 岁以下禁入。',
+      tags: [
+        { t: '$28 固定票价', c: 'paid' },
+        { t: '周二闭馆', c: 'risk' },
+        { t: '12 岁以下禁入', c: 'risk' },
+        { t: '展厅 11/12 才重开', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>这里只有一件东西是真正的理由：Gustav Klimt 1907 年的 ' +
+          '《Adele Bloch-Bauer I》，通称「金衣女人（Woman in Gold）」。</strong>' +
+          '<strong>Ronald Lauder 2006 年以 1.35 亿美元买下它，当时是全世界画作成交价的最高记录</strong>。' +
+          '而它之所以能被买卖，是因为<strong>同一年奥地利仲裁庭把它判还给 Adele 的侄女 ' +
+          'Maria Altmann——这幅画 1938 年被纳粹从 Bloch-Bauer 家族没收，' +
+          '此后在维也纳 Belvedere 挂了六十年</strong>。' +
+          '<strong>这场返还诉讼就是 2015 年电影《Woman in Gold》的原型</strong>。' +
+          '同馆还有 Klimt 的《Adele Bloch-Bauer II》曾经展出过的位置' +
+          '（该画已由 Lauder 出售，<strong>是否在馆内展出请到场确认</strong>）',
+        '<strong>本馆的定位很窄，这是它值不值得去的关键：只做 20 世纪初的奥地利与德国艺术与设计。</strong>' +
+          '<strong>二楼是维也纳 1900（Klimt、Schiele、Kokoschka，以及 Wiener Werkstätte 的家具、银器、玻璃）；' +
+          '三楼是德国部分（Die Brücke、Der Blaue Reiter、Bauhaus、新客观主义）。</strong>' +
+          '<strong>Egon Schiele 的素描与水彩收藏在美国是最强的一批</strong>。' +
+          '<strong>如果对这个时期没有兴趣，这里没有第二条理由——它不是「小型 Met」，' +
+          '而是一家专题馆</strong>',
+        '<strong>房子本身是 1914 年的 William Starr Miller House，' +
+          'Carrère &amp; Hastings 设计（同一家事务所做了纽约公共图书馆总馆）</strong>，' +
+          '法国新古典风格的五大道私邸，<strong>后来是 Cornelius Vanderbilt III 夫人的住所</strong>。' +
+          '<strong>Neue Galerie 2001 年由 Ronald Lauder 与 Serge Sabarsky 创办</strong>，' +
+          '两人都是奥地利裔，Sabarsky 在开馆前去世。' +
+          '<strong>2026 年秋天正好是创馆 25 周年</strong>',
+        '<strong>Café Sabarsky 在一楼，它不是博物馆的附属餐厅，而是很多人来这里的主要目的。</strong>' +
+          '<strong>整间咖啡馆是按世纪之交维也纳咖啡馆复原的，而且用的是真东西：' +
+          'Josef Hoffmann 的灯具、Adolf Loos 的家具、' +
+          '用 1912 年 Otto Wagner 织物做面的长排座椅，角落里一台 Bösendorfer 三角钢琴。</strong>' +
+          '<strong>菜单是维也纳菜（Executive Chef Christopher Engel）</strong>，' +
+          '甜点里 Sachertorte、Apfelstrudel、Milchrahmstrudel、Kaiserschmarren 是招牌。' +
+          '那台钢琴用于馆内的 Cabaret at Café Sabarsky 与室内乐演出'
+      ],
+      tour: [
+        '<strong>2026 年最关键的一条，先说，否则容易白跑：整栋楼在 2026 年夏季因整修关闭，' +
+          '而重开是分两步走的。</strong>' +
+          '<strong>官方原文：Café Sabarsky、Book Store 与 Design Shop ' +
+          '「will resume regular hours of operation on Thursday, October 1」（2026 年 10 月 1 日）；' +
+          '而「The museum\'s galleries, which are located on the second and third floors of the building, ' +
+          'will reopen to the public with the "25th Anniversary Exhibition," ' +
+          'which debuts on Thursday, November 12, 2026.」</strong>' +
+          '<strong>换句话说：2026 年 10 月 1 日至 11 月 11 日这段时间，' +
+          '咖啡馆与商店可以进，但二三楼的展厅不开，看不到「金衣女人」。' +
+          '11 月 12 日起展厅才恢复，首展是 25 周年特展（2026-11-12 至 2027-01-11）。</strong>' +
+          '<strong>十月来这一站只能当成「维也纳咖啡馆」来，不要当成美术馆</strong>（核实日期 2026-09-14）',
+        '<strong>展厅恢复之后怎么逛：这馆很小，两层展厅，90 分钟到顶，路线几乎没有选择余地。</strong>' +
+          '<strong>进门后直接上二楼，先找《Adele Bloch-Bauer I》——' +
+          '它有自己的一个主位，不用满屋子找。</strong>' +
+          '<strong>不能错过的三件：①&nbsp;《Adele Bloch-Bauer I》；' +
+          '②&nbsp;Egon Schiele 的素描与水彩（本馆最有分量的一批纸上作品）；' +
+          '③&nbsp;二楼的 Wiener Werkstätte 设计品陈列</strong>' +
+          '——<strong>这部分容易被当成「配角」走过去，但维也纳工坊的银器与家具是这馆区别于任何美国美术馆的地方</strong>。' +
+          '<strong>可以快走的是三楼的德国部分</strong>：' +
+          '如果不专门对 Die Brücke 与 Bauhaus 有兴趣，20 分钟足够',
+        '<strong>票价与省钱的门道：这里的票价是固定的，不是建议金额（官方 FAQ 明确说 ' +
+          '「No, the admission price is fixed」），但有两条正式的免费通道。</strong>' +
+          '<strong>①&nbsp;First Fridays：部分周五 17:00–20:00 免费开放，' +
+          '官方注明「Admission is granted on a first-come, first-served basis」，' +
+          '而且是「select Fridays」不是每个周五——要去请先在 neuegalerie.org 查具体日期。</strong>' +
+          '<strong>②&nbsp;SNAP／EBT 持卡人本人加三位同行者免费，无需预约，入场时出示卡即可。</strong>' +
+          '<strong>没有「纽约州居民自定金额」这类优惠——本馆与 The Met、AMNH 不同，' +
+          '外地游客与本地人同价</strong>',
+        '<strong>Café Sabarsky 的排队要按最坏情况准备，这是本条最实际的一段。</strong>' +
+          '<strong>官方规则原文：「Guests are seated on a first-come, first-served basis for ' +
+          'breakfast and lunch. Dinner reservations are available via Resy.」' +
+          '——早餐与午餐一律现场排队、不接受预订，只有晚餐可以在 Resy 上订。</strong>' +
+          '<strong>唯一的插队办法写在官方页面上：' +
+          '「Neue Galerie Members at the Sustaining level and above may make reservations ' +
+          'for breakfast, lunch, and dinner」——Sustaining 级别及以上的会员可以预订。</strong>' +
+          '<strong>实际排队情况（来自访客反馈，非官方数据）：' +
+          '11:00 前后就开始排队，午餐等位 30–40 分钟，周日更长；' +
+          '楼下另有一间同菜单的副厅，等位会快一些但没有原厅的氛围。</strong>' +
+          '<strong>官方另有一条提醒：16:00 之后开始备晚餐，此时的 walk-in 名额很有限。</strong>' +
+          '<strong>合理做法：把它排在 09:00–10:30 的早餐时段（同样的厅、同样的甜点、几乎不用等），' +
+          '或 14:00–15:30 的午后</strong>',
+        '<strong>寄存、安检与馆内规矩：这是一栋 1914 年的私邸改的馆，空间窄、楼梯陡，' +
+          '所以对随身物品的限制比大馆更严。</strong>' +
+          '<strong>大包、背包与伞须在入口寄存；官方明文「shirts and shoes are required to enter」' +
+          '（含博物馆、商店与咖啡馆）。</strong>' +
+          '<strong>安检队伍很短——这里的日常客流远小于 The Met 与 Guggenheim，' +
+          '进门几乎不排队</strong>，' +
+          '<strong>真正要排的是咖啡馆</strong>。' +
+          '<strong>卫生间在馆内，规模小、午餐时段会排队</strong>',
+        '<strong>怎么把它排进本区：它在 1048 Fifth Avenue（86 街口），' +
+          '在 The Met（82 街）与 Guggenheim（89 街）正中间，三家在同一条街上、彼此步行 5–7 分钟。</strong>' +
+          '<strong>最省事的组合是：上午 The Met → 中午 Café Sabarsky 吃维也纳菜 → ' +
+          '下午 Neue Galerie 展厅 90 分钟 → 步行到 Guggenheim。</strong>' +
+          '<strong>但要注意闭馆日不重叠：The Met 周三闭馆，Neue Galerie 周二闭馆</strong>——' +
+          '<strong>周二来 Museum Mile 的话本馆去不了，周三来则 The Met 去不了</strong>'
+      ],
+      photo: '建筑与室内 <strong>3/5</strong>，藏品 <strong>不适合拍照</strong>。' +
+        '这是一家以观看为主的小馆，展厅摄影政策未能核实且空间狭窄，篇幅应该放在看什么与排队上。',
+      shots: [
+        {
+          name: '1048 Fifth Avenue 的立面与入口',
+          desc: '<strong>唯一可靠的机位在馆外：站在第五大道对面（中央公园一侧的人行道）' +
+            '拍这栋 1914 年 Carrère &amp; Hastings 法国新古典私邸的立面。</strong>' +
+            '<strong>下午 15:00–17:00 西斜光正打在立面上（房子朝西对着公园）</strong>，' +
+            '<strong>35–50mm 横构图，把 86 街转角的两个立面一起收进来</strong>。' +
+            '<strong>展厅内的摄影政策未能从官方渠道确认</strong>——' +
+            '按维也纳分离派与表现主义作品的普遍借展条件，' +
+            '<strong>应假定展厅禁止拍照，到场以门口标识与工作人员指示为准；三脚架不要带</strong>。' +
+            '坐标为 OSM Neue Galerie 建筑实体。',
+          view: [40.781224, -73.960237]
+        }
+      ],
+      access: {
+        visit: '<strong>展厅 60–90 分钟（二楼维也纳 45–60 分钟、三楼德国 20–30 分钟）；' +
+          '加 Café Sabarsky 请另算 1.5–2 小时（等位 30–40 分钟 + 用餐 60 分钟）。</strong>' +
+          '<strong>只看重点 40 分钟</strong>：直上二楼看《Adele Bloch-Bauer I》、' +
+          'Schiele 的纸上作品与 Wiener Werkstätte 陈列，三楼跳过。' +
+          '<strong>官方未给建议参观时长，以上为按两层展厅规模推算。</strong>' +
+          '<strong>注意官方硬性截止：「Final entry to the galleries is at 5:30 p.m.」' +
+          '——展厅最后入场 17:30，比 18:00 闭馆早半小时，别按闭馆时间掐</strong>',
+        book: '<strong>核实日期 2026-09-14。不需预约。</strong>' +
+          '官方原文「While you are always welcome to purchase same-day admission at the museum, ' +
+          'Advance Admission tickets are also available for purchase online」' +
+          '——现场买当日票与网上提前买都行，<strong>提前票的唯一好处是省去窗口排队</strong>。' +
+          '<strong>会员可免排队入场（skip the line）。</strong>' +
+          '<strong>Café Sabarsky：早餐与午餐不接受预订，只能现场排队；' +
+          '晚餐走 Resy 预订；Cabaret at Café Sabarsky 是另行售票的演出。' +
+          'Sustaining 级别及以上会员可预订全部三餐（联系 membership@neuegalerie.org）。</strong>' +
+          '另有自助数字导览、私人导览与学校团体参观三类选项',
+        ticket: '<strong>核实日期 2026-09-14，neuegalerie.org 官方票价页与 FAQ 口径一致：' +
+          '<strong>General Admission $28、Seniors（65 岁及以上）$18、' +
+          'Students 与 Educators $15（须出示有效证件）、' +
+          'Visitors with Disabilities $15、会员免费。</strong></strong>' +
+          '<strong>官方 FAQ 明确这是固定价而非建议价：' +
+          '「No, the admission price is fixed at a price of $28, regular admission; $18, seniors; ' +
+          'and $15, students, educators and persons with disabilities.」' +
+          '——注意此前部分资料写 $30，2026 年的官方数字是 $28。</strong>' +
+          '<strong>儿童政策（这是本馆最特殊的一条，2026 年仍然有效）：' +
+          '官方原文「Children under the age of 12 years old are not admitted to the galleries ' +
+          'during regular museum hours」——12 岁以下在常规开放时段不得进入展厅；' +
+          '「those aged 12 to 16 must be accompanied by an adult」，' +
+          '且 12–16 岁按 Students 档 $15；' +
+          '「Infants may be brought into the galleries at no charge, provided they are in a ' +
+          'carrier or sling on the front of an adult」——婴儿须用前挂式背带或吊带方可免费带入。' +
+          '官方解释这项政策的理由是保护展出作品与维持这栋房子的时代陈设。</strong>' +
+          '<strong>两条免费通道：First Fridays 部分周五 17:00–20:00 免费（先到先入）；' +
+          'SNAP／EBT 持卡人本人加三位同行者免费、无需预约。</strong>' +
+          '<strong>Café Sabarsky 与商店可单独进入、不需博物馆门票</strong>',
+        hours: '<strong>核实日期 2026-09-14。本条需要分「整修前后」两段看，' +
+          '这是 2026 年最容易搞错的一项：</strong>' +
+          '<strong>①&nbsp;当前（2026 年夏）状态，官方原文：' +
+          '「Neue Galerie New York – including the galleries, shops, and Café Sabarsky – ' +
+          'is closed for the summer. We are undertaking a multi-phased construction project ' +
+          'to enhance our historic building and fortify it for the future. ' +
+          'Our doors will reopen in Autumn 2026.」——全馆关闭。</strong>' +
+          '<strong>②&nbsp;2026 年 10 月 1 日（周四）起：Café Sabarsky、Book Store、Design Shop 恢复营业。' +
+          '商店为 Monday, Wednesday–Sunday, 10 a.m. to 6 p.m.（Closed Tuesday）；' +
+          '餐饮为 Monday, 9 a.m. to 6 p.m.、Wednesday–Sunday, 9 a.m. to 9 p.m.（Closed Tuesday）。</strong>' +
+          '<strong>③&nbsp;2026 年 11 月 12 日（周四）起：二三楼展厅随 25 周年特展重开。' +
+          '博物馆常规时间为 Wednesday–Monday 10 a.m. to 6 p.m.（Closed Tuesday），' +
+          '展厅最后入场 17:30。</strong>' +
+          '<strong>也就是每周二闭馆——官方 FAQ 解释每周只开六天是为了维护这栋历史建筑。</strong>' +
+          '<strong>官方另注「The Neue Galerie is closed or has modified hours on select holidays」' +
+          '与「Café Sabarsky also has modified hours on evenings when we host special events」；' +
+          '2026 年具体的节假日调整清单未能逐日核实</strong>，' +
+          '可打 <strong>+1 212-628-6200</strong>（博物馆）或 <strong>+1 212-288-0665</strong>（咖啡馆）确认',
+        parking: '<strong>无自有停车场，第五大道与 86 街一带是上东区最难停车的路段之一。</strong>' +
+          '<strong>商业停车库在 Madison Avenue 与 Park Avenue 之间的 85–87 街上，' +
+          '按小时计费且价格高，2026 年具体费率未核实。</strong>' +
+          '地铁直达，不必自驾',
+        walk: '<strong>地铁 4／5／6 线「86 St」站（Lexington Avenue 口）下，' +
+          '沿 86 街西行三个街区到第五大道，步行约 8–10 分钟；' +
+          'Q 线「86 St」站（Second Avenue 口）更远，约 14 分钟。</strong>' +
+          '<strong>馆址 1048 Fifth Avenue，就在 86 街东北角，正对中央公园。</strong>' +
+          '<strong>到 The Met（82 街）沿第五大道南行约 400 米 / 步行 5 分钟；' +
+          '到 Guggenheim（89 街）沿第五大道北行约 300 米 / 步行 4 分钟</strong>' +
+          '（按 OSM 坐标推算）。' +
+          '<strong>出门过一条马路就是中央公园的 Reservoir 一带</strong>，' +
+          '走完这三家馆想喘口气的话，公园就在对面'
+      },
+      notes: [
+        '<strong>2026 年 10 月至 11 月初来的人请特别注意：能吃到 Café Sabarsky，但看不到 Klimt。</strong>' +
+          '<strong>展厅 11 月 12 日才随 25 周年特展重开</strong>，' +
+          '<strong>如果「金衣女人」是来这一站的唯一理由，那就不要在 11/12 之前来</strong>。' +
+          '出发前请复核 neuegalerie.org 的首页公告——' +
+          '<strong>整修工期是分阶段的，日期有可能再变</strong>',
+        '<strong>12 岁以下儿童不得进入展厅这一条是硬规定，2026 年仍然有效，现场不通融。</strong>' +
+          '<strong>带小孩的家庭要么改去本区的 AMNH，要么只进一楼的 Café Sabarsky 与商店</strong>' +
+          '（<strong>咖啡馆与商店不受此限，且不需要博物馆门票</strong>）。' +
+          '<strong>12–16 岁须成人陪同；婴儿只有在前挂式背带里才能免费带进展厅，' +
+          '推车与后背式背带不行</strong>',
+        '<strong>展厅摄影政策未能从官方渠道确认。</strong>' +
+          '<strong>这类馆的通例是常设可手持拍摄、借展作品禁拍，而本馆藏品多涉借展与私人收藏</strong>，' +
+          '<strong>请按「先看标识、不确定就不拍」处理，并且不要带三脚架</strong>' +
+          '（这栋房子的展厅极窄，三脚架实际也无法展开）。' +
+          '要确认可打 +1 212-628-6200',
+        '<strong>周二闭馆这一点要和本区其它馆对齐来排：' +
+          'The Met 与 The Met Cloisters 周三闭馆、Neue Galerie 周二闭馆、' +
+          'Studio Museum in Harlem 周一与周二闭馆。</strong>' +
+          '<strong>周二在 Museum Mile 上唯一稳开的大馆是 The Met；' +
+          '周三则是 Guggenheim 与 Studio Museum</strong>',
+        '<strong>Café Sabarsky 想少排队就吃早餐。</strong>' +
+          '<strong>09:00 开门时同一间厅、同一份甜点单，几乎不用等；' +
+          '而 11:00 之后门口就开始排队</strong>。' +
+          '<strong>16:00 之后开始备晚餐，此时 walk-in 只看有无空位与取消；' +
+          '晚餐要吃就提前在 Resy 上订</strong>（<strong>官方与第三方均提到有 no-show 费用，' +
+          '订了别忘</strong>）',
+        '<strong>这一站的性质要说清：它是一家专题小馆，不是「必去」清单上的项目。</strong>' +
+          '<strong>对维也纳 1900、Klimt、Schiele 或 Wiener Werkstätte 有兴趣的人，' +
+          '它在美国是不可替代的；如果没有，$28 看两层小展厅的回报有限</strong>，' +
+          '<strong>同样的钱与时间放在 The Met 上更划算</strong>。' +
+          '反过来说，<strong>Café Sabarsky 本身值得专程</strong>——' +
+          '这是把它排进行程的另一个独立理由'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Entrance_to_the_Neue_Galerie_New_York.jpg',
+          cap: '1048 Fifth Avenue 的入口立面 · Mike Peel（www.mikepeel.net） / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Gustav_Klimt%2C_1907%2C_Adele_Bloch-Bauer_I%2C_Neue_Galerie_New_York.jpg',
+          cap: 'Gustav Klimt《Adele Bloch-Bauer I》，1907 年 · Gustav Klimt / Public domain' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Shop_in_the_Neue_Galerie_New_York.jpg',
+          cap: '一楼 Design Shop 与 Book Store 所在的主层空间 · Mike Peel（www.mikepeel.net） / CC BY-SA 4.0' }
+      ]
+    },
+    {
+      id: 'riverside-church',
+      n: 10,
+      name: '河滨教堂',
+      en: 'The Riverside Church',
+      must: 3,
+      score: 4,
+      tldr: '北美最高的教堂塔楼，塔顶 360° 露天观景廊 + 74 口钟的世界最大调音钟。登塔 $20，周三至周六两场。',
+      tags: [
+        { t: '登塔 $20', c: 'paid' },
+        { t: '中殿周日免费', c: 'free' },
+        { t: '塔楼须 12 岁以上', c: 'risk' },
+        { t: '周一周二不开', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>官方口径是「the tallest church tower in North America」——' +
+          '392 英尺、24 层，而这座塔真正的身份是一栋钢框架高楼外面包了一层哥特石壳。</strong>' +
+          '<strong>1930 年落成，仿的是法国 13 世纪的 Chartres 主教座堂</strong>，' +
+          '但内部结构是同时代摩天楼的做法，塔里有电梯——' +
+          '<strong>这也是它能让普通游客登顶、而本区那座 St. John the Divine 只能徒步爬 124 英尺的原因</strong>。' +
+          '<strong>主要出资人是 John D. Rockefeller Jr.</strong>，' +
+          '教堂从创立起就标榜 interdenominational、interracial、international 三条原则',
+        '<strong>建筑师是 Charles Collens——本区 The Met Cloisters 的同一位设计者。</strong>' +
+          '<strong>这两栋房子出自同一人之手：一栋在曼哈顿最北端把五座法国修道院回廊拼起来，' +
+          '一栋在 120 街仿了 Chartres</strong>；' +
+          '<strong>两者相隔 6 公里、都在哈德逊河东岸的崖线上，对着看是本区最有意思的一条建筑线索</strong>',
+        '<strong>塔里那套钟是这一站真正不可替代的东西：Laura Spelman Rockefeller Memorial Carillon，' +
+          '74 口钟，以 Rockefeller 的母亲命名。</strong>' +
+          '<strong>其中最大的一口重 20 吨，官方称是世界上最大的调音钟（largest tuned bell）；' +
+          '最小的一口只有 10 磅</strong>——' +
+          '<strong>同一套乐器里最大与最小的钟相差四千倍，这个对比在塔梯上是能亲眼看到的，' +
+          '因为登塔路线会经过钟室</strong>',
+        '<strong>1967 年 4 月 4 日，Martin Luther King Jr. 在这里发表了 ' +
+          '《Beyond Vietnam: A Time to Break Silence》——他第一次公开全面反对越战的演讲，' +
+          '当时被包括民权运动内部在内的各方广泛批评。</strong>' +
+          '<strong>整整一年之后的同一天，他在孟菲斯被刺杀。</strong>' +
+          '1990 年 Nelson Mandela 出狱后访美也在这里讲过话。' +
+          '<strong>这座教堂在 20 世纪美国公共生活里的位置，' +
+          '比它作为一栋建筑的知名度要高得多</strong>'
+      ],
+      tour: [
+        '<strong>这一站的核心是 Tower Tour，不是教堂本身——先把场次记住，因为它一天只有两场。</strong>' +
+          '<strong>官方排期：周三至周六 11:00 与 14:00 各一场；周日只有 13:30 一场，' +
+          '而周日那场「oftentimes featuring a live carillon performance」——常常带现场钟乐演奏。</strong>' +
+          '<strong>周一与周二没有导览，教堂也不对访客开放。</strong>' +
+          '每场约 1 小时，<strong>名额有限（官方写「limited on each tour」），旺季建议提前在 trcnyc.org 买票</strong>',
+        '<strong>Tower Tour 的实际内容与顺序（官方描述）：' +
+          '先讲一段教堂简史并看中殿（Nave），然后上塔，' +
+          '途中经过钟室看那 74 口钟，最后到塔顶的露天观景廊（outdoor penthouse gallery）看 360° 全景。</strong>' +
+          '<strong>塔顶能看到的四样东西值得先知道：哈德逊河与对岸新泽西、' +
+          '街对面的 Grant\'s Tomb、南边的 Columbia University 校园、以及东边的 West Harlem。</strong>' +
+          '<strong>这是本区唯一一个能从高处俯看整个 Morningside Heights 的位置</strong>，' +
+          '而且<strong>是露天的，没有玻璃</strong>——' +
+          '这一点和帝国大厦、洛克中心那种收费观景台的体验完全不同',
+        '<strong>不想付钱登塔的话，中殿有一条免费的路，但只在周日成立。</strong>' +
+          '<strong>官方原文「If you wish to view the Nave without attending the service, ' +
+          'you are welcome to enter before or after worship at no charge」' +
+          '——周日礼拜前后可免费进中殿看，不必参加礼拜。</strong>' +
+          '<strong>礼拜时间是 11:00（10:30 起有管风琴与钟乐前奏），' +
+          '全程约 1 小时 15 分至 1 小时 30 分、最晚 12:30 结束；每月第一个周日有圣餐。</strong>' +
+          '<strong>也就是说周日 09:00–10:30 与 12:30–15:00 这两段是免费看中殿的窗口</strong>' +
+          '（<strong>周三至周六中殿不单独开放，只能通过 Tower Tour 看到</strong>，' +
+          '这一点见 access.hours 里的两种官方口径）',
+        '<strong>参加礼拜的礼仪与着装：这是一间以社会议题讲道著称的自由派教堂，' +
+          '气氛比多数游客想象的松，但基本规矩仍在。</strong>' +
+          '<strong>做法：从 490 Riverside Drive 主门进（周日才开），在安保台问中殿方向；' +
+          '晚到的从后排入座，不要沿中殿向前走动；手机静音；' +
+          '礼拜进行中不要拍照，尤其不要拍唱诗班与讲道者。</strong>' +
+          '<strong>着装不要求正装，但不要穿无袖上衣、短裤与人字拖，帽子进堂要脱。</strong>' +
+          '<strong>官方没有对游客单列着装条款（与 Harlem 的 Abyssinian 不同，那边是硬性规定）</strong>，' +
+          '但按去教堂而不是按看表演准备',
+        '<strong>怎么和本区其它条目串起来：这一站最省事的排法是与 Columbia 校园连成一条线。</strong>' +
+          '<strong>地铁 1 号线「116 St–Columbia University」站出来，先看哥大主门与 Low 台阶' +
+          '（能进则进，进不去就看立面），沿 Broadway 北行到 120 街再西行，约 700 米 / 9 分钟到本堂；' +
+          '出来过一条街就是 Grant\'s Tomb（General Grant National Memorial，' +
+          '美国国家公园管理局管辖、免费）。</strong>' +
+          '<strong>整条线加上 112 街的 Cathedral of Saint John the Divine，' +
+          '是一个结构完整的半天——两座大教堂加一所常春藤校园，全部在 Morningside Heights 之内</strong>',
+        '<strong>餐饮与卫生间：堂内没有餐厅，Welcome Center 一侧有礼品店。</strong>' +
+          '<strong>卫生间在 91 Claremont Avenue 入口进去的一层，数量不多。</strong>' +
+          '<strong>吃饭往南走到 Broadway 的 110–116 街学生商圈，步行 10 分钟、便宜且选择多</strong>' +
+          '——和 Columbia 那一条是同一片餐饮区',
+        '<strong>体力与恐高要如实评估：塔顶观景廊是露天的，登塔过程有电梯但也有石梯段。</strong>' +
+          '<strong>官方硬性规定参加者须满 12 岁</strong>，' +
+          '<strong>怕高或不愿意走窄梯的人，把钱省下来只看周日的免费中殿就够</strong>'
+      ],
+      photo: '城市全景 <strong>4.5/5</strong>，建筑 <strong>4/5</strong>，室内 <strong>3.5/5</strong>。' +
+        '塔顶是露天无玻璃的 360° 廊道，这在纽约的付费高点里极少见；扣分是场次少、必须跟团上去，没法自由选时段。',
+      shots: [
+        {
+          name: '塔顶露天观景廊的 360° 全景',
+          desc: '<strong>这是本区唯一能俯看 Morningside Heights 全貌的位置，而且没有玻璃反光的问题。</strong>' +
+            '<strong>两场里选 14:00 那场：西斜光照亮哈德逊河与对岸 Palisades，' +
+            '11:00 那场朝西是逆光</strong>。' +
+            '<strong>24–35mm 拍全景带前景的石栏与滴水兽；' +
+            '70–200mm 单拍街对面 Grant\'s Tomb 的圆顶与南侧 Columbia 的校园屋顶群。</strong>' +
+            '<strong>廊道很窄且是跟团上去的，停留时间有限，' +
+            '换镜头的时间不够——建议一机一变焦。三脚架不要带。</strong>' +
+            '坐标为 OSM Riverside Church 建筑实体（塔顶无独立节点）。',
+          view: [40.811787, -73.963145]
+        }
+      ],
+      access: {
+        visit: '<strong>Tower Tour 约 1 小时（官方口径「Hour-long tours」），' +
+          '含中殿讲解、钟室与塔顶观景廊。</strong>' +
+          '<strong>只看周日的免费中殿：20–30 分钟。</strong>' +
+          '<strong>加上街对面的 Grant\'s Tomb（免费）再 30 分钟；' +
+          '与 Columbia 校园连成一条线按 2.5–3 小时算。</strong>' +
+          '分配（<strong>按官方导览时长与建筑规模推算</strong>）：' +
+          '中殿与简史 15 分钟、上塔与钟室 15 分钟、<strong>塔顶观景廊 20–25 分钟（本站重点）</strong>、下塔 10 分钟。' +
+          '<strong>务必提前 15 分钟到 Welcome Center 集合</strong>',
+        book: '<strong>核实日期 2026-09-14。中殿（周日）免费进入，不需预约。</strong>' +
+          '<strong>Tower Tour 建议提前在 trcnyc.org/tours 买票</strong>——' +
+          '官方注明每场名额有限，也可到 Welcome Center / Gift Shop 现场买' +
+          '（<strong>该店周三至周六 10:00–16:00、周日 10:00–14:30，主要节假日关门</strong>）。' +
+          '<strong>场次：周三至周六 11:00 与 14:00；周日 13:30 一场（常带现场钟乐演奏）。' +
+          '周一与周二无导览。</strong>' +
+          '<strong>官方另挂过一条季节性停办公告：2026 年 7 月 20 日至 8 月 19 日期间无导览、礼品店关闭' +
+          '——该时段已过，但说明这家会有整段停办期，出行前请查官网</strong>',
+        ticket: '<strong>核实日期 2026-09-14，trcnyc.org 官方导览页原文：' +
+          '<strong>「Cost: $20 per person Wednesday-Saturday / $25 per person on Sundays」' +
+          '——登塔导览周三至周六每人 $20，周日每人 $25</strong>' +
+          '（周日贵 $5，换来的是常有的现场钟乐演奏）。</strong>' +
+          '<strong>年龄下限：参加者须满 12 岁。</strong>' +
+          '<strong>免费部分：周日礼拜前后进中殿参观免费，官方原文' +
+          '「you are welcome to enter before or after worship at no charge」；' +
+          '参加周日 11:00 礼拜本身也免费，「All are welcome to attend」。</strong>' +
+          '<strong>街对面的 Grant\'s Tomb 由美国国家公园管理局管辖，免费。</strong>' +
+          '<strong>是否有老年、学生或儿童折扣票，官方页面未列出、未能从官方渠道确认</strong>，' +
+          '可打 <strong>+1 212-870-6700</strong> 或写 welcome@trcnyc.org 问',
+        hours: '<strong>核实日期 2026-09-14。此项官方两处页面口径不完全一致，两种都列出：</strong>' +
+          '<strong>①&nbsp;Visit 页原文：「The Riverside Church is open to visitors Wednesday through ' +
+          'Sunday from 9:00 a.m. – 5:00 p.m. except for major holidays. Please note our Nave ' +
+          'sanctuary is closed except on Sundays 9:00 a.m. – 3:00 p.m., except worship from ' +
+          '10:30 a.m. – 12:30 p.m.」' +
+          '——教堂周三至周日 09:00–17:00 对访客开放，但中殿只在周日 09:00–15:00 开，' +
+          '且 10:30–12:30 的礼拜时段除外。</strong>' +
+          '<strong>②&nbsp;FAQ 页原文：中殿「Open every Sunday during worship，10:30 AM–12:30 PM，' +
+          'Free to visit before or after service」' +
+          '——把 10:30–12:30 列为中殿的开放时段。</strong>' +
+          '<strong>两者的差别在于礼拜进行中访客能不能进去看。' +
+          '稳妥的做法是把参观安排在周日 09:00–10:30 或 12:30–15:00，' +
+          '这两段在两种口径下都成立。</strong>' +
+          '<strong>周一与周二不对访客开放。</strong>' +
+          '<strong>入口两个且开放时间不同：主入口 490 Riverside Drive ' +
+          '（官方一处写「opens at 9:30 AM, doors close at 2:00 PM」，另一处写「Open Sundays and ' +
+          'during major events」——即平日可能不开）；' +
+          '无障碍入口与首选送达地址为 91 Claremont Avenue，Welcome Center 就在这个门里侧。</strong>' +
+          '<strong>平日到访请直接走 91 Claremont Avenue 那个门。</strong>' +
+          '<strong>2026 年主要节假日的逐日安排未能从官方渠道确认</strong>',
+        parking: '<strong>这是本区少见的有自有停车安排的点。官方原文：' +
+          '「The Claremont Avenue Garage is operated by iPark, and is accessed from 120th Street ' +
+          'between Riverside Drive and Claremont Avenue. Normal hours of operation are daily from ' +
+          '6:00 a.m. to 12:00 midnight. There is a fee for parking, with reduced rates available ' +
+          'for most worship services. A limited amount of street parking may also be available.」</strong>' +
+          '<strong>即 120 街上的 Claremont Avenue 车库，每日 06:00–24:00，收费，' +
+          '多数礼拜时段有折扣费率；周边另有少量路边车位。</strong>' +
+          '<strong>2026 年具体费率未核实</strong>',
+        walk: '<strong>地铁 1 号线「125 St」站（在 Broadway 上，是高架站）下，' +
+          '南行并西行约 700 米 / 步行 9–10 分钟；' +
+          '或 1 号线「116 St–Columbia University」站下，沿 Broadway 北行到 120 街再西行，' +
+          '同样约 700 米 / 9 分钟。</strong>' +
+          '<strong>教堂地址 490 Riverside Drive（120 街口），无障碍入口在 91 Claremont Avenue。</strong>' +
+          '<strong>到 Grant\'s Tomb：出门过 Riverside Drive 即到，步行 2 分钟；' +
+          '到 Columbia 主门（116 街与 Broadway）：约 700 米 / 9 分钟；' +
+          '到 Cathedral of Saint John the Divine（112 街与 Amsterdam Avenue）：约 1.2 公里 / 15 分钟；' +
+          '到 Harlem 的 125 街商业带：1 号线一站，或东行步行 15 分钟</strong>' +
+          '（距离按 OSM 坐标推算）'
+      },
+      notes: [
+        '<strong>周一与周二完全不开，这是本条最容易踩空的一点</strong>——' +
+          '<strong>而本区周一与周二恰好也是 Studio Museum in Harlem 与 Neue Galerie 的闭馆日</strong>，' +
+          '所以这两天的上城室内项目选择很少，能开的主要是 The Met 与那座未完工的座堂',
+        '<strong>Tower Tour 的年龄下限是 12 岁，与 St. John the Divine 的 Vertical Tour 相同。</strong>' +
+          '<strong>带小孩的家庭请不要指望到场通融</strong>；' +
+          '替代方案是周日免费看中殿，或去街对面的 Grant\'s Tomb',
+        '<strong>塔顶是露天的，风、雨与低温会直接影响体验，也可能导致临时不开。</strong>' +
+          '<strong>十月中下旬在 392 英尺高处的实际体感会明显低于地面，风也更大——' +
+          '外套要比街上多一层</strong>；' +
+          '<strong>恶劣天气下是否取消当场导览，未能从官方渠道确认</strong>，' +
+          '可当天打 +1 212-870-6700 问',
+        '<strong>这仍然是一间在使用中的教堂，礼拜、音乐会、葬礼与社区活动会占用中殿。</strong>' +
+          '<strong>礼拜与音乐会进行中禁止拍摄；' +
+          '塔顶与钟室的摄影政策未在官方页面列出、未能从官方渠道确认</strong>，' +
+          '按导览员现场指示为准，<strong>三脚架不要带</strong>',
+        '<strong>钟乐是可以只听不登塔的：教堂全年有 Carillon Recitals（钟乐演奏会），' +
+          '而钟声在户外整个 Morningside Heights 都听得到。</strong>' +
+          '<strong>周日 10:30 起的礼拜前奏含钟乐，这是不花钱听那 74 口钟最简单的办法</strong>；' +
+          '<strong>2026 年的演奏会具体排期请查 trcnyc.org</strong>',
+        '<strong>治安：120 街与 Riverside Drive 一带白天正常，是哥大与教堂的势力范围。</strong>' +
+          '<strong>但西侧通往 Riverside Park 的坡道与台阶入夜后没有人，不要天黑后走</strong>；' +
+          '<strong>Grant\'s Tomb 周边的绿地入夜后同样不要停留</strong>'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Riverside_Church_Mar_2026_27.jpg',
+          cap: '从 Riverside Drive 看教堂与塔楼，2026 年 3 月摄 · Epicgenius / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Riverside_Church_Mar_2026_21.jpg',
+          cap: '392 英尺的塔楼立面细部 · Epicgenius / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Riverside_Church_Mar_2026_40.jpg',
+          cap: '仿 Chartres 的哥特石作与入口一带 · Epicgenius / CC BY-SA 4.0' }
       ]
     }
   ]
