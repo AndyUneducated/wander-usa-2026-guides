@@ -1514,8 +1514,9 @@ var REGIONS = [
         "n": 2,
         "name": "越战阵亡将士纪念碑",
         "en": "Vietnam Veterans Memorial (The Wall)",
+        "must": 5,
         "score": 4.5,
-        "tldr": "21 岁本科生 Maya Lin 的黑色花岗岩墙，唯一的正解是拍「反射」而不是拍「墙」；顶点 Apex 禁三脚架。",
+        "tldr": "21 岁本科生 Maya Lin 的黑色花岗岩墙，全 Mall 情感冲击最强的一处，免费 24 小时开放；名字按阵亡日期排，查人要用名册。",
         "tags": [
           {
             "t": "24 小时免费",
@@ -1539,6 +1540,14 @@ var REGIONS = [
           "两道墙各长 246 英尺 9 英寸，用<strong>产自印度 Bangalore 的黑色辉长岩</strong>（gabbro）——选这种石头的唯一理由就是它抛光后能像镜子一样反射。<strong>东臂指向 Washington Monument（方位约 99°），西臂指向 Lincoln Memorial（方位约 224°）</strong>，两墙在最深处相交，交点（Apex）高 10.1 英尺",
           "<strong>58,000 余个名字不按字母排序，而是按阵亡日期排列</strong>：从 Apex 东侧第 1 面板向东走到尽头，再从最西端折回、一路走到 Apex 西侧——<strong>于是战争的第一天与最后一天在同一点相遇</strong>。这是整个设计的核心，也是构图上唯一值得强调的东西",
           "<strong>墙面自西南向东北切入地面，抛光面朝北</strong>，因此<strong>全天大部分时间处于自身阴影中</strong>，光线极其均匀——这对拍反射是天赐条件，对拍「有立体感的建筑」则是灾难。不要试图把这里当建筑拍，它没有立面"
+        ],
+        "tour": [
+          "<strong>动线：从东端（Washington Monument 那一侧）入口进，沿缓坡一路走到 Apex，再从西端出来。</strong>这个方向才对得上时间顺序：<strong>墙从 Apex 东侧起（1959 年第一批阵亡）向东排到尽头，再从最西端折回、一路排到 Apex 西侧（1975 年最后一批）</strong>。走到 Apex 时你脚下正是战争的第一天与最后一天相遇的位置，<strong>同时地面也降到最低、墙面最高（10.1 英尺）——这是整座纪念碑的情绪顶点，别匆匆走过</strong>。反方向走完全不影响通行，但叙事会散掉。",
+          "<strong>查人：名字不按字母排序，硬找是找不到的，必须先用名册。</strong><strong>两端步道入口处各有一座台座式的印刷名册（directory），按姓氏字母排序</strong>，每条记录给出「面板号 + 行号」，例如 <strong>14E 就是 Apex 东侧第 14 面板，W 代表西墙、E 代表东墙</strong>；<strong>面板号刻在每块石板底部，从 Apex 向两端递增</strong>。找到面板后<strong>从最高一行往下数行号，每行五个名字</strong>（后来补刻过名字的行会有六个）。现场查不动就去信息亭：<strong>NPS 有电子名册，可按名、姓、军种、生日、阵亡日期、入伍州检索</strong>。",
+          "<strong>拓印（rubbing）：纸和铅笔在 Vietnam Veterans Memorial 信息亭免费领，不要自带油墨或胶带。</strong>亭子就在墙西端靠 Lincoln Memorial 一侧的步道旁，<strong>有人值守时（NPS 工作人员或 VVMF 志愿者）会帮你查名字、也会帮你完成拓印</strong>；志愿者常戴黄色帽子，认这个标志就行。<strong>但要有心理准备：亭子的值守时间不固定，无人时拿不到纸</strong>（Ranger 值守时段为 9:30–22:00）。",
+          "<strong>别错过的两件加建物，也是这一站可以自行决定跳不跳的部分</strong>：墙西南侧树丛边的 <strong>Three Servicemen 铜像</strong>（1984 年为平息设计争议加建，三人视线朝向墙）与再往西的 <strong>Vietnam Women’s Memorial</strong>（1993 年加建，纪念服役女性）。两者各花 5 分钟；<strong>时间极紧的话可以只走墙本体，那是这里 80% 的价值所在</strong>。",
+          "<strong>步行、体力与卫生间：全程无台阶、缓坡下沉式，轮椅与推车可通行，墙体全长约 150 米、走完单程 10 分钟。</strong>两侧步道很窄，人多时会排成单向队列。<strong>最近的公共厕所有两处：南侧 100 Daniel French Drive SW（绕过 Lincoln Memorial，约 500 米）与北侧 Constitution Gardens 步道上那一座（约 400 米，在本墙与园内池塘之间）</strong>，墙本身与信息亭都没有厕所。",
+          "<strong>夜间：24 小时开放，有地面投射照明，名字可读，是全 Mall 夜访体验最好的一处之一。</strong><strong>白天 10:00–16:00 旅行团密集、步道会堵</strong>；想要安静，<strong>清晨 07:00–08:30 与 21:00 之后</strong>是两个窗口。这一段夜间有巡逻与稳定人流，安全性尚可，但从这里往北进入 Constitution Gardens 林地后照明骤降，别单独绕。"
         ],
         "photo": "人文 <strong>5/5</strong>，建筑 <strong>3/5</strong>，风光 <strong>1/5</strong>。「名字 + 参观者倒影 + 天空」的三层叠加是本站唯一成立的画面语言；扣分因为它几乎没有第二种拍法。",
         "shots": [
@@ -1572,9 +1581,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>40–60 分钟</strong>。分配：东端入口读名册 5 分钟、沿墙走到 Apex 并停留 20–25 分钟、Three Servicemen 铜像与 Vietnam Women’s Memorial 各 5 分钟。<strong>要查具体某个人的名字并做拓印，另加 20–30 分钟</strong>（含在信息亭排队）。<strong>只想走一遍墙：20 分钟。</strong>",
           "book": "不需预约",
-          "ticket": "<strong>免费</strong>",
-          "hours": "<strong>24 小时开放</strong>（NPS：outdoor areas open 24 hours a day 7 days a week）。Ranger 值守 9:30–22:00。夜间有地面投射照明，墙面可读，<strong>但夜间灯位很低、反射面会出现明显的灯斑</strong>，夜拍效果远不如清晨",
+          "ticket": "<strong>免费</strong>，无任何分档与门票。印刷名册、电子名册检索、拓印用纸与铅笔<strong>一律免费</strong>。（据 nps.gov/vive，<strong>2026-09-14 核实</strong>）",
+          "hours": "<strong>NPS 官方原文：「The public may visit the Vietnam Veterans Memorial 24 hours a day. Rangers are on duty to answer questions from 9:30 a.m. to 10:00 p.m. daily」</strong>——<strong>场地 24 小时无门禁，但有人可问、能领拓印纸的时段只有 9:30–22:00</strong>，这两者要分开算。信息亭的实际值守时间比 Ranger 时段更短且不固定，<strong>未能从官方渠道确认具体钟点</strong>；要办拓印建议 10:00–16:00 到场。（<strong>2026-09-14 核实</strong>）夜间有地面投射照明，墙面可读，<strong>但夜间灯位很低、反射面会出现明显的灯斑</strong>，夜拍效果远不如清晨",
           "parking": "同 Lincoln Memorial：Henry Bacon Drive NW 与 Constitution Ave NW 路边表位，<strong>$2.30/小时，7:00–20:00 收费，3 小时上限</strong>。20:00 后与 07:00 前免费",
           "walk": "Metro <strong>Foggy Bottom–GWU 站</strong>直线 1.11 公里，实际步行约 <strong>1.3 公里 / 16 分钟</strong>；从 Lincoln Memorial 台阶走过来仅 <strong>250 米 / 4 分钟</strong>"
         },
@@ -1606,8 +1616,9 @@ var REGIONS = [
         "n": 3,
         "name": "华盛顿纪念碑",
         "en": "Washington Monument",
+        "must": 4,
         "score": 4.5,
-        "tldr": "外部随便拍，顶层 500 英尺观景台要抢定时票；观景台 17:00 关门，本窗口内永远拍不到日落。",
+        "tldr": "外部是 DC 的定位锚点、随时免费可看；登顶要抢定时票，而顶上只有 8 扇小窗，内部体验远不如名气——外部 5 分、内部 3 分。",
         "tags": [
           {
             "t": "外部 24 小时免费",
@@ -1622,7 +1633,7 @@ var REGIONS = [
             "c": "risk"
           },
           {
-            "t": "10/5 全天闭馆",
+            "t": "每月一天闭馆",
             "c": "risk"
           }
         ],
@@ -1632,6 +1643,14 @@ var REGIONS = [
           "观景台在 <strong>500 英尺处，四面各有两扇窗共 8 扇</strong>；下一层 490 英尺是博物馆层，从这里搭电梯下行。<strong>电梯单程 70 秒</strong>。内部楼梯（897 级）永久对公众关闭",
           "<strong>关键的坏消息：观景台每天 17:00 关闭。</strong>9/25 日落 19:00、10/22 日落 18:19——<strong>本行程窗口内不存在从顶上拍日落的任何可能</strong>。能拿到的最好光线是 10 月下旬 16:00–16:30 那一场（此时太阳高度约 15–18°，已经明显偏暖）",
           "碑体外部整夜泛光，<strong>顶部还有一对红色航空障碍灯持续闪烁</strong>——拍长曝光时这两点会拖成红色断续线，构图时要么接受它、要么用短快门"
+        ],
+        "tour": [
+          "<strong>先决定要不要登顶，这是本站唯一真正的决策。</strong>碑体外部与整片草坪 24 小时免费开放、不需要任何票；内部只有 <strong>500 英尺观景台</strong>与下一层 <strong>490 英尺博物馆层</strong>两处，<strong>观景台四面各有两扇窗、共 8 扇，窗很小、玻璃很厚且不可开启，没有露台</strong>。<strong>换句话说「内部体验有限」是实话</strong>：视野确实是全城最高最中心的，但只能透过小窗看。<strong>行程紧、不想为抢票折腾的人，跳过登顶并不可惜</strong>，把时间给 Lincoln Memorial 与 WWII Memorial 更划算。",
+          "<strong>抢票规则（2026-09-14 核实，这一关比参观本身难）：全员 2 岁以上需票。</strong><strong>① 30 天提前票：每日 10:00 ET 整点放出 30 天后那一天的全部库存</strong>（例：5 月 7 日 10:00 放 6 月 6 日的票），recreation.gov 或 877-444-6777，每张收 <strong>$1.00 不可退手续费</strong>。<strong>② 前一日票：另有一批在参观前一天 15:00 ET 放出</strong>。<strong>③ 当日免费票：Washington Monument Lodge（15th St，Madison 与 Jefferson Drive 之间）8:45 起发放</strong>，一人（16 岁以上）最多领 6 张、可挑时段，先到先得。NPS 自己写「demand far exceeds availability」，春夏秋放票后常常几分钟售光——<strong>务必提前注册好 recreation.gov 账号并在放票前登录</strong>。票是每半小时一场（9:00–16:00）。",
+          "<strong>安检与禁带物：入内必过机场式安检，这是最容易在门口被拦下的环节。</strong>Superintendent’s Compendium 明列禁带：<strong>超过 18\"×16\"×8\" 的行李箱、旅行袋或背包；婴儿车；食物（少量密封食品除外）；饮料（水、牛奶、婴儿配方奶需装在透明塑料容器内除外）</strong>；螺丝刀、扳手、锤子等工具明确禁止。<strong>大件行李与大三脚架请别带，现场没有寄存</strong>。NPS 建议提前 15 分钟到安检区，<strong>迟到者由工作人员酌情决定是否放行，且末班入场 16:30 之后一律不放</strong>。",
+          "<strong>上去以后怎么看（总共 30–45 分钟就够）：出电梯先绕观景台走一圈认四个方向</strong>——<strong>西窗看 Lincoln Memorial 与 Reflecting Pool 的中轴线、南窗看 Tidal Basin 与 Jefferson Memorial、东窗看 Capitol 与整条 Mall、北窗看白宫</strong>。<strong>两层都有 Ranger 值守，可以直接提问</strong>，这是理解「为什么 DC 没有高楼」最快的一课。然后走楼梯（轮椅可搭电梯）下到 490 英尺博物馆层看展板，那里也是排队等下行电梯的地方，<strong>顺序上先看完展再排队，不要一下楼就站队</strong>。电梯单程 70 秒。停留时间没有硬性上限，但闭馆前会清场。",
+          "<strong>外部三样别错过，都不需要票。</strong>一是 <strong>约 150 英尺高度处那道横向色差线</strong>——1854–1877 年停工 23 年，复工后换了采石场，颜色永远对不上，晴天侧光下最明显。二是碑体西北约 120 米草地上那块不起眼的 <strong>Jefferson Pier Stone</strong>，它标记的才是 L’Enfant 规划里白宫南北轴与国会东西轴的理论交点——<strong>方尖碑因为地基太软撑不住 8 万吨石头，被迫往东南挪了位置</strong>。三是围绕碑体的旗阵（50 面州旗）。",
+          "<strong>卫生间：Washington Monument Lodge 内有公共厕所与书店，这是 15th St 一带唯一一处，也是当日票发放点。</strong>从 Lodge 走到碑体入口约 <strong>170 米 / 3 分钟</strong>。<strong>再往东（整条 Mall 直到国会大厦）没有任何公共厕所</strong>，往东走之前请在这里解决。步行：<strong>Metro Smithsonian 站 650 米 / 8 分钟，是本区离地铁最近的点</strong>；到 WWII Memorial <strong>约 450 米 / 6 分钟</strong>，到 Jefferson Memorial 绕 Tidal Basin 约 <strong>1.2 公里 / 16 分钟</strong>。草坪有起伏但坡度平缓，<strong>结霜、积水或土壤饱和时禁止进入草坪</strong>（Compendium 明文），请走铺装路。"
         ],
         "photo": "建筑 <strong>4/5</strong>，风光 <strong>4/5</strong>（登顶后的城市俯瞰），人像 <strong>3.5/5</strong>。外部作为背景元素几乎万能；扣分因为碑体本身是一根没有细节的柱子，而顶层观景台窗户小、玻璃厚且脏，隔窗拍摄的画质天花板很低。",
         "shots": [
@@ -1649,7 +1668,7 @@ var REGIONS = [
           },
           {
             "name": "500 英尺观景台（需票）",
-            "desc": "<strong>本窗口内最好的场次是 10 月下旬的 16:00 或 16:30（末班票）。</strong>17:00 闭馆，日落 18:19，<strong>拍不到日落，但 16:30 的低角度阳光已足够暖</strong>；9 月下旬同样时段太阳仍高（日落 19:00），画面会偏平。<strong>窗户小、玻璃厚且有明显反光</strong>：唯一解法是<strong>带一只橡胶遮光罩直接压在玻璃上</strong>，或用外套罩住镜头与玻璃之间的缝隙。24–70mm 足够，广角会把窗框拍进去。<strong>西窗看 Lincoln Memorial 与 Reflecting Pool 轴线（围挡期间会看到明显工地）、南窗看 Tidal Basin 与 Jefferson Memorial、东窗看 Capitol 与 Mall 中央草坪（目前大面积封闭围挡）、北窗看白宫</strong>。三脚架在此毫无意义也不被允许，靠玻璃稳住即可。坐标为纪念碑 OSM 节点。",
+            "desc": "<strong>秋季最好的场次是 16:00 那一场（也就是末班票；16:30 停止入场、17:00 闭馆）。</strong><strong>观景台 17:00 关门，而十月下旬日落已在 18:19 之后——从顶上拍日落在任何季节都不成立</strong>，十月下旬 16:00 进场时的低角度阳光已足够暖，是全年最接近的替代；九月下旬同样时段太阳仍高（日落约 19:00），画面会偏平。<strong>窗户小、玻璃厚且有明显反光</strong>：唯一解法是<strong>带一只橡胶遮光罩直接压在玻璃上</strong>，或用外套罩住镜头与玻璃之间的缝隙。24–70mm 足够，广角会把窗框拍进去。<strong>西窗看 Lincoln Memorial 与 Reflecting Pool 轴线（围挡期间会看到明显工地）、南窗看 Tidal Basin 与 Jefferson Memorial、东窗看 Capitol 与 Mall 中央草坪（目前大面积封闭围挡）、北窗看白宫</strong>。三脚架在此毫无意义也不被允许，靠玻璃稳住即可。坐标为纪念碑 OSM 节点。",
             "view": [
               38.889475,
               -77.035243
@@ -1665,13 +1684,15 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "<strong>登顶必须定时票。</strong>recreation.gov 或 877-444-6777。<strong>提前票：参观日前 30 天的上午 10:00 ET 整点放出，每张收 $1.00 不可退手续费</strong>；<strong>另有一批「前一日票」在参观前一天 15:00 ET 放出</strong>（部分官方页面写作「前一日 10:00」，<strong>两种口径同时存在于 NPS 与 recreation.gov 页面，未能确认哪个为准，建议两个时间点都盯</strong>）。<strong>当日免费票在 Washington Monument Lodge（15th St，Madison 与 Jefferson Drive 之间）8:45 起发放</strong>，一人（16 岁以上）最多领 6 张、可指定时段，先到先得。旺季秒光，务必提前注册好账号并预先登录",
-          "ticket": "<strong>门票免费</strong>；提前预订收 <strong>$1.00/张</strong> 不可退服务费。当日现场票完全免费",
-          "hours": "<strong>纪念碑内部：每日 9:00–17:00。</strong>末班参观时间官方两处口径不一（NPS 基础信息页写 16:30，recreation.gov 写 16:00），<strong>建议按 16:00 规划</strong>。<strong>碑体外部与整片 Washington Monument 草坪 24 小时开放</strong>。<strong>2026 年闭馆日（每月首周一天例行维护）：9 月 10 日、10 月 5 日、11 月 11 日、11 月 26 日、12 月 25 日</strong>——<strong>10 月 5 日（周一）落在本行程窗口内，那天登不了顶</strong>。另外雷暴与大风会临时关闭并作废该时段票",
+          "visit": "<strong>只看外部：20–30 分钟</strong>（绕碑体一圈 10 分钟、找 Jefferson Pier Stone 与停工色差线 10–15 分钟）。<strong>含登顶：共 1.5–2 小时</strong>——安检排队 15–30 分钟、电梯上行 70 秒、500 英尺观景台 20–30 分钟、490 英尺博物馆层 10 分钟、排队下行 5–15 分钟。<strong>顶上真正值得待的时间只有 30–45 分钟，票面时段外没有额外弹性。</strong>",
+          "book": "<strong>登顶必须定时票，2 岁以上全员需票；外部草坪不需预约。</strong>recreation.gov（facility 234635）或 877-444-6777。票是每半小时一场，<strong>9:00–16:00</strong>。<strong>① 30 天提前票：每日 10:00 ET 放出 30 天后那一天的库存</strong>（recreation.gov 原文：「on May 7 at 10 a.m., tickets will become available for visits on June 6」），每张收 <strong>$1.00 不可退手续费</strong>。<strong>② 前一日票：recreation.gov 的 facility 页面与 NPS 页面均写「a limited number of additional tickets are made available at 3 p.m. each day for the next day’s visits」，即前一日 15:00 ET</strong>；但 recreation.gov 的 tour 子页面另有一处写作「available one-day before the tour date at 10 a.m. Eastern Time」。<strong>两种口径同时存在于官方页面，未能确认哪个为准，建议 10:00 与 15:00 两个时间点都盯</strong>。<strong>③ 当日免费票：Washington Monument Lodge 8:45 起发放</strong>，一人（16 岁以上）最多领 6 张、可指定时段，先到先得，旺季在开窗前很久就排起队。NPS 建议提前注册账号并在放票前登录。（<strong>2026-09-14 核实</strong>）",
+          "ticket": "<strong>门票免费，无成人／老年／学生／儿童分档</strong>；<strong>2 岁以上须持票</strong>，2 岁以下免票。网上提前票收 <strong>$1.00/张</strong> 不可退服务费，<strong>当日现场票 $0.00</strong>。（据 nps.gov/wamo 与 recreation.gov，<strong>2026-09-14 核实</strong>）",
+          "hours": "<strong>纪念碑内部官方原文：「The Washington Monument is open daily from 9:00 a.m. to 5:00 p.m. The last timed entry ticket into the Washington Monument is 4:00 p.m. with entrances ceasing at 4:30 p.m. Any visitor arriving after 4:30 p.m. will NOT be granted entrance.」</strong>——<strong>末班票 16:00、16:30 停止入场、17:00 闭馆，这三个数字是三件事，不矛盾</strong>。<strong>碑体外部与整片 Washington Monument 草坪 24 小时开放，Ranger 值守 9:30–22:00。</strong><strong>2026 年全年闭馆日（官网原文列表）：1/8、2/3、3/4、4/6、5/7、6/2、7/4、7/8、8/3、9/10、10/5、11/11、11/26、12/25</strong>；规律是每月第一周一天例行维护，外加独立日与圣诞。<strong>十月上旬出行请特别注意 10 月 5 日（周一）全天不开放。</strong>另外雷暴与大风会临时关闭并作废该时段票。（<strong>2026-09-14 核实</strong>）",
           "parking": "<strong>Washington Monument Lodge 旁 15th St 与 Jefferson Drive SW 路边表位最近</strong>，$2.30/小时，7:00–20:00 收费，3 小时上限。免费选项仍是 Hains Point（约 520 位），步行 2.5 公里以上",
           "walk": "Metro <strong>Smithsonian 站</strong>出站直线约 620 米，实际步行 <strong>650 米 / 8 分钟</strong>，是全区离地铁最近的一个点。Washington Monument Lodge 到碑体入口约 <strong>170 米 / 3 分钟</strong>"
         },
         "notes": [
+          "<strong>电梯状态（2026-09-14 核实）：正常运行。</strong>NPS 与 recreation.gov 当前页面均写明游客乘电梯上到 500 英尺观景台、<strong>单程不停约 70 秒，途中播放一段介绍影片</strong>，nps.gov/wamo 的 Alerts & Conditions 页无任何在效的电梯故障公告。<strong>但这部电梯历史上多次长期故障（2016–2019 年曾为电梯现代化改造整体关闭近三年）</strong>，且 <strong>内部 897 级楼梯永久对公众关闭，电梯是唯一上下手段——一旦电梯停摆就等于全塔关闭</strong>。出发当天请查 nps.gov/wamo 的 Alerts 页，或电 202-426-6841",
           "<strong>入内必过安检</strong>。Superintendent’s Compendium 明列禁带物：<strong>超过 18\"×16\"×8\" 的行李箱、旅行袋或背包；婴儿车；食物（少量密封食品除外）；饮料（水、牛奶、婴儿配方奶需装在透明塑料容器内除外）</strong>；另有一份长长的危险品清单（刀具、工具、三脚架式的钝器不在其中，但螺丝刀、扳手、锤子明确禁止）。<strong>大三脚架很可能因尺寸被拦，别带上去</strong>",
           "<strong>旗阵（circle of flags）以内是 Memorial Restricted Area，三脚架禁止</strong>；旗阵以外的整片草坡随便架",
           "<strong>草坪在结霜、积水或土壤饱和时禁止进入</strong>（Compendium 明文），10 月清晨常有重霜，若见到临时围绳请走铺装路",
@@ -1699,8 +1720,9 @@ var REGIONS = [
         "n": 4,
         "name": "二战纪念碑",
         "en": "National World War II Memorial",
+        "must": 4,
         "score": 4,
-        "tldr": "喷泉水池 + 56 根石柱构成 Mall 上最好的对称构图，也是全区唯一能同时框进方尖碑与林肯堂的位置。",
+        "tldr": "中轴线上的下沉椭圆广场，免费 24 小时开放；56 根州名立柱、4,048 颗金星墙与 24 块青铜浮雕，是 Mall 上信息量最大的一座纪念碑。",
         "tags": [
           {
             "t": "24 小时免费",
@@ -1725,6 +1747,14 @@ var REGIONS = [
           "西侧的 <strong>Freedom Wall 上镶着 4,048 颗金星，每颗代表 100 名阵亡美军</strong>，合计 404,800 人。墙前铭文只有一句：「Here we mark the price of freedom.」这面墙正前方是 NPS 明列的限制区",
           "两处不显眼的地方刻着 <strong>「Kilroy Was Here」涂鸦</strong>——那个探头看墙的秃头小人是二战美军最著名的都市传说，设计者把它藏进了纪念碑里。<strong>分别在 Atlantic 与 Pacific 拱门附近的封闭铁门后侧</strong>，需要蹲下来找",
           "<strong>这是全 Mall 唯一一个「站在中轴线上，一次收进 Washington Monument 与 Lincoln Memorial」的点位</strong>。缺点是它太受欢迎了：白天几乎不可能拍到没有人的画面"
+        ],
+        "tour": [
+          "<strong>动线：从 17th St 的正式入口（西侧）沿中轴走下去，这是设计好的序列，别从侧面切进来。</strong>顺序：<strong>入口两侧坡道栏板上的 24 块青铜浮雕</strong> → 下到椭圆广场 → <strong>绕 Rainbow Pool 走一圈看 56 根立柱</strong>（柱上刻州名与领地名，按 1945 年加入联邦的顺序交替排在南北两侧，可以找找自己去过的州）→ 南北两端的 <strong>Pacific 与 Atlantic 拱门</strong> → 西端的 <strong>Freedom Wall</strong>。一圈 25–40 分钟，全程平地加缓坡，无台阶，轮椅可通行。",
+          "<strong>最容易被跳过、却最值得花时间的是入口那 24 块浮雕。</strong>Ray Kaskey 作，每块 2 英尺高 × 5 英尺长，<strong>北侧 12 块讲大西洋／欧洲战场与后方，南侧 12 块讲太平洋战场与后方</strong>，内容从征兵体检、造船厂女工一直排到胜利。<strong>Home Front Drive 上的 visitor contact station 备有这 24 块浮雕的说明单页，免费拿</strong>，拿一张再看，效果和不拿完全是两回事。大多数游客只在水池边拍照就走了。",
+          "<strong>Freedom Wall 是这里的情绪核心，请留 5 分钟站定。</strong>西侧墙上 <strong>4,048 颗金星，每颗代表 100 名阵亡美军，合计 404,800 人</strong>；墙前铭文只有一句「Here we mark the price of freedom.」<strong>这面墙正前方是 NPS 明列的限制区，不要越过低护栏走进水池一侧。</strong>",
+          "<strong>找 Kilroy：NPS 官方原文说「There are two Kilroy inscriptions hidden in the memorial tucked in the corners of both the Atlantic and Pacific sides of the memorial. Can you find them?」</strong>——那个探头看墙的秃头小人是二战美军最著名的涂鸦，两处都<strong>藏在拱门附近金色铁门后的角落里，需要蹲下来找</strong>。这是全 Mall 唯一一个官方鼓励的「找彩蛋」，带孩子来非常好用。<strong>不要翻越或撬动铁门</strong>，它就在门后可视范围内。",
+          "<strong>卫生间与餐饮：最近的公共厕所在西北侧树林里的 Ash Woods，地址 15 Home Front Drive，步行约 200–300 米</strong>；同一处就是 visitor contact station。<strong>往东走的人请务必在这里解决——15th St 以东（Washington Monument 到国会大厦之间整条 Mall）没有任何公共厕所</strong>，这是 NPS 自己承认的现状（全 Mall 仅 9 座公共卫生间，全部在 15th St NW 以西）。这一带也没有餐厅，只有路边食品车。",
+          "<strong>人流与时段：10:00–16:00 是全 National Mall 人流密度最高的一处</strong>，旅行团、Honor Flight 老兵团与毕业旅行团都必到，喷泉边几乎无立足之地。<strong>想安静只有 07:00 前与 21:00 后两个窗口</strong>，且 24 小时开放、夜间水景打灯。<strong>顺路提示：本站以东的 Mall 中央草坪（3rd–14th St SW）自 2026 年 9 月 1 日起封闭至 2027 年 1 月 24 日做草皮修复</strong>，沿线有连续围挡，但不影响本纪念碑本体与步道通行。"
         ],
         "photo": "建筑 <strong>4/5</strong>，夜景 <strong>4.5/5</strong>，人像 <strong>3/5</strong>，风光 <strong>3/5</strong>。对称几何加喷泉水面加夜间打灯，出片率很高；扣分因人流密度全区第一，且构图选择相对单一。",
         "shots": [
@@ -1758,9 +1788,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>40–60 分钟</strong>。分配：入口 24 块浮雕 10–15 分钟（拿了说明单页再看）、绕 Rainbow Pool 看 56 根立柱 15 分钟、两座拱门各 5 分钟、Freedom Wall 5 分钟、找两处 Kilroy 5–10 分钟。<strong>只走一圈拍照：20 分钟。</strong>这是本区「多花 20 分钟就能多看到一倍内容」最明显的一站。",
           "book": "不需预约",
-          "ticket": "<strong>免费</strong>",
-          "hours": "<strong>24 小时开放</strong>。Ranger 值守 9:30–22:00。<strong>喷泉的运行时段官网未明示</strong>，实务上春秋两季白天与前半夜运行、深夜与冬季停机排空，<strong>未能从官方渠道确认 9–10 月的具体停机钟点</strong>——想拍喷泉请别把凌晨 03:00 当成机会",
+          "ticket": "<strong>免费</strong>，无任何分档。24 块浮雕的说明单页在 Home Front Drive 的 visitor contact station 免费领取。（据 nps.gov/wwii，<strong>2026-09-14 核实</strong>）",
+          "hours": "<strong>场地 24 小时开放</strong>；<strong>Ranger 值守 9:30–22:00</strong>。Home Front Drive 上的 visitor contact station 与 Ash Woods 卫生间为白天营业，<strong>具体钟点官网未列，未能从官方渠道确认</strong>（可电 202-426-6841 询问）。<strong>喷泉的运行时段官网同样未明示</strong>，实务上春秋两季白天与前半夜运行、深夜与冬季停机排空，<strong>未能从官方渠道确认具体停机钟点</strong>。（<strong>2026-09-14 核实</strong>）",
           "parking": "<strong>17th St NW 沿线与 Constitution Ave NW（15th–23rd St）路边表位最近</strong>，$2.30/小时，7:00–20:00 收费，3 小时上限。20:00 后免费",
           "walk": "Metro <strong>Smithsonian 站（Blue/Orange/Silver）</strong>直线约 1.06 公里，实际步行约 <strong>1.1 公里 / 14 分钟</strong>；<strong>Federal Triangle 站</strong>亦可，距离相近"
         },
@@ -1792,8 +1823,9 @@ var REGIONS = [
         "n": 5,
         "name": "林肯纪念堂",
         "en": "Lincoln Memorial",
+        "must": 5,
         "score": 5,
-        "tldr": "全 DC 最强夜景，正立面朝东是日出正面光；2026 年 6 月新开的地下 Undercroft 博物馆需定时票，别和主殿混为一谈。",
+        "tldr": "National Mall 的头号必去项，主殿免票 24 小时开放；2026 年 6 月新开的地下 Undercroft 博物馆需定时票，别和主殿混为一谈。",
         "tags": [
           {
             "t": "24 小时免费",
@@ -1818,6 +1850,14 @@ var REGIONS = [
           "<strong>东侧台阶自顶层平台往下数第 18 级</strong>，正中嵌着一块刻字石板：「I HAVE A DREAM / MARTIN LUTHER KING, JR. / THE MARCH ON WASHINGTON FOR JOBS AND FREEDOM / AUGUST 28, 1963」。2003 年 8 月 22 日（演讲 40 周年）揭幕，Coretta Scott King 到场。<strong>石板齐平地面、字未上色，晴天几乎看不见</strong>——老办法是往刻痕里倒一点水，字立刻显形，这也是唯一能拍出可读效果的方法",
           "<strong>2026 年 6 月 25 日，尘封 104 年的地下空间 Undercroft 首次对公众开放</strong>：$6,800 万工程、15,000 平方英尺、<strong>122 根支撑整座纪念堂的混凝土拱柱</strong>，Burgum 称之为「一座大教堂」。这是本区域<strong>今年唯一的全新拍摄对象</strong>，但需要定时票 + 机场级安检，且与参观主殿完全是两回事",
           "正立面朝正东（法线约 89°），<strong>意味着日出时整面柱廊被正面暖光打亮，而日落时它是纯逆光剪影</strong>。大多数人只在傍晚来这里，因此清晨的正面光机位反而常常空无一人"
+        ],
+        "tour": [
+          "<strong>动线：从正东的大台阶正面上去，不要从侧门抄近路。</strong>顺序是台阶顶平台（回望中轴线）→ 主殿 19 英尺坐像 → <strong>南墙第二次就职演说铭文</strong> → <strong>北墙葛底斯堡演说铭文</strong>（全文只有 272 词，站着读完不到两分钟，值得读）→ 下台阶。<strong>行动不便者：台阶左侧（南侧）有免票电梯直达平台</strong>，不需要任何票。",
+          "<strong>下台阶时别错过「I HAVE A DREAM」刻字石板</strong>：在正东台阶自顶层平台往下数第 18 级正中，标记 1963 年 8 月 28 日 Martin Luther King, Jr. 发表演讲的站位。<strong>石板齐平地面、字未上色，晴天几乎看不见，九成游客直接踩过去</strong>；找不到就往刻痕里倒一点水，字会立刻显形。",
+          "<strong>Undercroft 地下博物馆（2026 年 6 月 25 日首次开放）是可选项，不是必须项。</strong>15,000 平方英尺、122 根支撑纪念堂的混凝土拱柱，讲的是「这座建筑怎么盖起来的」；<strong>但它需要定时票 + 机场级安检，票面有效期 120 分钟</strong>。只想看林肯坐像的人完全可以跳过——<strong>主殿本身永远不需要票</strong>。对建筑与工程有兴趣、或带孩子需要一个室内空调空间落脚的，值得排。",
+          "<strong>卫生间（Mall 上的硬约束，这一区最关键的实用信息）：主殿内没有厕所。</strong>最近的公共厕所在南侧 <strong>100 Daniel French Drive SW</strong>，从台阶下方绕过 Lincoln Memorial Circle 步行约 300 米，<strong>一般 8:00–22:00 开放（11–2 月 8:00–20:00，关门时间由 US Park Police 决定）</strong>。Undercroft 里有新建的厕所，但要凭票进。餐饮：南侧 Daniel Chester French Drive 与北侧 Henry Bacon Drive 各有一个 NPS 特许经营的餐饮／零售 kiosk，<strong>约 10:25–18:25 营业（季节性浮动）</strong>，除此之外这一带没有任何吃饭的地方。",
+          "<strong>步行与体力：这里是整个 Mall 西端的枢纽，串联距离都在这里起算。</strong>到 Vietnam Veterans Memorial <strong>250 米 / 4 分钟</strong>、Korean War Veterans Memorial <strong>350 米 / 5 分钟</strong>、MLK Memorial <strong>800 米 / 10 分钟</strong>、WWII Memorial 沿 Reflecting Pool 走 <strong>约 860 米 / 12 分钟</strong>、Washington Monument <strong>约 1.3 公里 / 18 分钟</strong>。台阶本身约四层楼高，是全区唯一需要爬的地方。",
+          "<strong>夜间：24 小时开放、整夜泛光照明，不存在「闭馆」。</strong>Ranger 值守 9:30–22:00，此后没有讲解但场地照常开放。<strong>人最少的时段是 21:30 之后与清晨 05:00–06:30</strong>，后者主殿基本空场。安全性在 Mall 上属于最好的一档：整夜有 US Park Police 巡逻、游客也不断；但 Constitution Ave 以北与 Rock Creek Parkway 沿线夜间空旷，不建议单独绕行。"
         ],
         "photo": "建筑 <strong>5/5</strong>，夜景 <strong>5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>3.5/5</strong>。整夜泛光照明加 24 小时开放，是全美最容易出片的夜间建筑；扣分只因 Reflecting Pool 围挡期间少了倒影这一半的价值。",
         "shots": [
@@ -1859,9 +1899,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>45–60 分钟（不含 Undercroft）；含 Undercroft 共 1.5–2 小时</strong>。分配：台阶与东侧平台回望中轴线 10 分钟、主殿坐像与南北两面铭文 20 分钟、下台阶找「I Have a Dream」刻字 5–10 分钟。<strong>只想看坐像、拍一张就走：20 分钟足够。</strong>Undercroft 票面有效期 120 分钟，实际看完约 45–60 分钟，另留 15 分钟排安检。",
           "book": "<strong>主殿与台阶：不需预约。</strong><strong>Undercroft 博物馆：必须定时票</strong>（2 岁以上全员需票）。提前票 recreation.gov 或 877-444-6777，<strong>可提前 30 天预订，每日 11:00 ET 放出 30 天后那一天的库存</strong>，每单最多 6 张，票免费但收 <strong>$1.00/单</strong> 手续费；另有一部分提前票在<strong>参观前一日 16:00 ET</strong> 释出。当日免费票在 <strong>Korean War Veterans Memorial 售票亭（Daniel Chester French Drive）8:45 起</strong>先到先得，一人（16 岁以上）最多领 6 张，周末与旺季会提前排队",
-          "ticket": "<strong>全部免费</strong>（Undercroft 提前票仅收 $1 手续费）",
-          "hours": "NPS 官方原文：「The public may visit the sites of National Mall and Memorial Parks <strong>24 hours per day</strong>. Rangers are on duty at the sites to answer questions from <strong>9:30 a.m. to 10:00 p.m. daily</strong>.」Superintendent’s Compendium 另载：「Outdoor areas within the park are open 24 hours a day 7 days a week unless otherwise noted.」<strong>主殿与台阶全天候无门禁，凌晨可进</strong>。<strong>Undercroft 每日 9:00–21:00（3–10 月）</strong>，末班票为闭馆前 1 小时、闭馆前 45 分钟停止入场，每月固定闭馆一天做例行维护（具体日期未在官网列出，<strong>未能确认 9–10 月的闭馆日</strong>，建议订票时看 recreation.gov 库存）",
+          "ticket": "<strong>全部免费</strong>：主殿、台阶、铭文一律无门票；Undercroft 当日现场票 <strong>$0.00</strong>，网上提前票仅收 <strong>$1.00/张</strong> 不可退手续费。无任何成人／老年／学生／儿童分档；<strong>2 岁以上进 Undercroft 需持票</strong>，2 岁以下免票。（票价据 nps.gov/linc 与 recreation.gov，<strong>2026-09-14 核实</strong>）",
+          "hours": "NPS 官方原文：「The public may visit the sites of National Mall and Memorial Parks <strong>24 hours per day</strong>. Rangers are on duty at the sites to answer questions from <strong>9:30 a.m. to 10:00 p.m. daily</strong>.」Superintendent’s Compendium 另载：「Outdoor areas within the park are open 24 hours a day 7 days a week unless otherwise noted.」<strong>主殿与台阶全天候无门禁，凌晨可进</strong>。<strong>Undercroft 官方原文：「Open daily from 9 a.m. to 9 p.m. ET (March–October) and from 9 a.m. to 8 p.m. (November–February)」</strong>，末班定时票为闭馆前 1 小时、闭馆前 45 分钟停止入场；<strong>7 月 4 日与 12 月 25 日闭馆</strong>。另有每月一天的例行维护闭馆，<strong>具体日期官网未列出，未能从官方渠道确认</strong>——订票时以 recreation.gov 当天库存为准，或电 202-426-6841 询问。（开放时间据 recreation.gov 与 nps.gov/linc，<strong>2026-09-14 核实</strong>）",
           "parking": "<strong>没有专用停车场。</strong>最近的路边表位在 Parkway Drive NW、Henry Bacon Drive NW 与 Constitution Ave NW（15th–23rd St），<strong>$2.30/小时，每日 7:00–20:00 收费（12/25 除外），3 小时封顶且同一位置不可续费</strong>，只收卡或 ParkMobile，不收现金硬币。<strong>拍日出与夜景的人有个便宜可占：20:00 后与 07:00 前表位不收费</strong>。免费车位只有 Hains Point（East Potomac Park）约 520 个，离这里 3 公里以上。<strong>注意 Ohio Drive SW 在 Independence Ave 与 West Basin Drive 之间因 Potomac River Tunnel 工程封闭至 2030 年，Ohio Drive 上的 B、C 号停车场同样关闭至 2030 年</strong>",
           "walk": "<strong>Metro Foggy Bottom–GWU 站（Blue/Orange/Silver）</strong>是最近的地铁，直线 1.28 公里，实际步行约 <strong>1.5 公里 / 18–20 分钟</strong>。<strong>DC Circulator 的 National Mall 线已于 2024 年 12 月 31 日永久停运且无替代班车</strong>，别再照着旧攻略等那趟红色巴士。Capital Bikeshare 在 Henry Bacon Dr 与 Lincoln Memorial Circle 路口有站"
         },
@@ -1894,8 +1935,9 @@ var REGIONS = [
         "n": 6,
         "name": "朝鲜战争老兵纪念碑",
         "en": "Korean War Veterans Memorial",
+        "must": 4,
         "score": 4,
-        "tldr": "19 座不锈钢士兵在雾气与低光下最像鬼魂，清晨与夜间是仅有的两个正确时段；2022 年新增的 Wall of Remembrance 改变了动线。",
+        "tldr": "19 座不锈钢士兵是全 Mall 最令人不安的一组雕像，免费 24 小时开放；2022 年加建的 Wall of Remembrance 值得看，但上面的名字有上千处错误。",
         "tags": [
           {
             "t": "24 小时免费",
@@ -1919,6 +1961,14 @@ var REGIONS = [
           "右侧 164 英尺长的花岗岩壁上，Louis Nelson 用喷砂工艺蚀刻了 <strong>约 2,500 张取自档案照片的面孔</strong>——不是装饰，是真实的人。<strong>19 座雕像映在这面抛光壁上就变成 38 座</strong>，通常被解读为呼应三八线与 38 个月的战期",
           "<strong>2022 年 7 月 27 日增建的 Wall of Remembrance 是本站近年最大的变化</strong>：环绕 Pool of Remembrance 的低矮弧墙上刻着 <strong>36,634 名美军与 7,174 名 KATUSA</strong> 阵亡者姓名。施工同时对已 25 岁的原纪念碑做了整体翻修，<strong>目前状态良好，无脚手架、无围挡</strong>",
           "不锈钢是这里全部技术难点的来源：<strong>它既不吸光也不是纯镜面，晴天正午会同时出现死白高光与漆黑阴影</strong>，任何测光模式都救不回来。这也是为什么这个地方在阴天、雨天、雾天、雪天的照片质量远高于晴天"
+        ],
+        "tour": [
+          "<strong>动线是一个环，从 Daniel Chester French Drive 一侧（靠 Lincoln Memorial）进最顺。</strong>顺序：<strong>Field of Service 的 19 座雕像</strong>（沿铺装步道走，不要下到碎石地面）→ 右手边的 <strong>Mural Wall</strong>（164 英尺长、蚀刻约 2,500 张真实档案面孔）→ 尽头的 <strong>Pool of Remembrance</strong> 与环绕它的 <strong>Wall of Remembrance</strong> → <strong>UN Curb</strong>（低矮石缘，刻着 22 个派兵参战国）。一圈 15–25 分钟，全程平地无台阶。",
+          "<strong>三样绝对别错过</strong>：一是站在雕像与 Mural Wall 之间的位置——<strong>19 座实体雕像映在抛光石壁上变成 38 座，对应三八线与 38 个月的战期</strong>，这是整座纪念碑的设计核心，走错位置就看不到。二是 Pool of Remembrance 旁刻的那句 <strong>「FREEDOM IS NOT FREE」</strong>。三是 Mural Wall 上的面孔要<strong>贴近到一米内、让视线与壁面成小夹角</strong>才看得见，正面直视、正午顶光下几乎完全消失。",
+          "<strong>要在 Wall of Remembrance 上找具体某个人，先知道这件事：这面墙的名字有大量已知错误。</strong>据独立机构 Korean War Project 与 2023 年《纽约时报》的核查，<strong>已刻上的 36,634 名美军与 7,174 名 KATUSA 名单中，至少 1,015 个名字拼写有误、245 人并非在此战中阵亡、另约 500 个应列的名字被漏掉</strong>。成因是建设方直接采用了未清理的国防部伤亡数据库。国会已于 2023 年要求订正，<strong>但截至 2026-09-14 石刻本体尚未见公开的更正完成通告</strong>——<strong>找不到亲人的名字很可能不是你找错了</strong>。",
+          "<strong>这一站有个全区独有的实际功能：Lincoln Memorial Undercroft 的当日免费票就在本纪念碑旁的信息亭发放。</strong>亭子在 Daniel French Drive SW 上，<strong>8:45 起先到先得，一人（16 岁以上）最多领 6 张</strong>。<strong>合理的用法是：早上先来这里排票，拿到票后就地把这座纪念碑逛完，再走 350 米去 Lincoln Memorial</strong>，时间完全不浪费。代价是 <strong>08:30–09:30 东侧步道会有一条排队人龙</strong>。信息亭还可凭政府签发的证件免费借用轮椅（先到先得）。",
+          "<strong>卫生间就在本站旁边，是 Mall 西端最靠得住的一处</strong>：<strong>100 Daniel French Drive SW</strong>，距纪念碑约 150 米，<strong>一般 8:00–22:00（11–2 月 8:00–20:00）</strong>。同一条路上还有一个餐饮 kiosk（约 10:25–18:25）。<strong>逛完 Lincoln 一带再往 Tidal Basin 方向走之前，建议在这里上一次厕所</strong>——往南下一处要到 MLK Memorial（约 500 米）。",
+          "<strong>可以跳过的部分与最少人的时段。</strong>UN Curb 与 Wall of Remembrance 上逐个读名字，除非你有明确要找的人，否则可以只扫一眼；<strong>省下的时间放在雕像与 Mural Wall 之间那几米</strong>。24 小时开放、地灯从雕像脚下向上打，<strong>夜间气场远强于白天，也几乎没人</strong>；白天 10:00–16:00 与 Lincoln Memorial 的人流完全重叠。<strong>每年 9–10 月这里常有老兵团体与献花仪式，遇到时请退到外圈，不要越过绳线。</strong>"
         ],
         "photo": "人文 <strong>4.5/5</strong>，建筑 <strong>3.5/5</strong>，风光 <strong>2/5</strong>。夜间地灯从下方打亮雨披与面孔，是全 Mall 最具戏剧性的一组雕塑；扣分因为晴天正午几乎不可用。",
         "shots": [
@@ -1952,9 +2002,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>30–40 分钟</strong>。分配：19 座雕像与 Mural Wall 的反射关系 15 分钟、Pool of Remembrance 与 Wall of Remembrance 10 分钟、UN Curb 与外圈 5 分钟。<strong>只看雕像阵列：15 分钟。</strong>若要在 Wall of Remembrance 上找特定姓名，另加 20–30 分钟（名单无字母索引牌，按军种分区排列）。",
           "book": "不需预约",
-          "ticket": "<strong>免费</strong>",
-          "hours": "<strong>24 小时开放</strong>。Ranger 值守 9:30–22:00。<strong>注意：本纪念碑旁 Daniel Chester French Drive 上的售票亭自 8:45 起发放 Lincoln Memorial Undercroft 当日票</strong>，清晨 08:30–09:30 这里会有一条排队人龙，拍摄请避开这个时段的东侧步道",
+          "ticket": "<strong>免费</strong>，无任何分档。轮椅可在信息亭凭政府签发证件免费借用（先到先得）。（据 nps.gov/kowa，<strong>2026-09-14 核实</strong>）",
+          "hours": "<strong>场地 24 小时开放</strong>（NPS：outdoor areas open 24 hours a day 7 days a week）；<strong>Ranger 值守 9:30–22:00</strong>——无门禁与有人值守是两件事，深夜来只有场地和地灯。（<strong>2026-09-14 核实</strong>）<strong>注意：本纪念碑旁 Daniel Chester French Drive 上的信息亭自 8:45 起发放 Lincoln Memorial Undercroft 当日票</strong>，清晨 08:30–09:30 这里会有一条排队人龙，占住东侧步道",
           "parking": "Daniel French Drive SW 与 Independence Ave SW 路边表位，<strong>$2.30/小时，7:00–20:00 收费</strong>；West Basin Drive SW 亦有表位。20:00 后免费",
           "walk": "Metro <strong>Foggy Bottom–GWU 站</strong>步行约 <strong>1.6 公里 / 20 分钟</strong>；从 Lincoln Memorial 走过来 <strong>350 米 / 5 分钟</strong>，从 MLK Memorial 走过来约 <strong>500 米 / 7 分钟</strong>"
         },
@@ -1986,8 +2037,9 @@ var REGIONS = [
         "n": 7,
         "name": "马丁·路德·金纪念碑",
         "en": "Martin Luther King, Jr. Memorial",
+        "must": 3.5,
         "score": 4,
-        "tldr": "30 英尺高的 Stone of Hope 面朝东南，只有清晨的侧光能打亮那张脸；内圈禁三脚架且涉及肖像版权。",
+        "tldr": "全 Mall 尺度最大的单体人像，免费 24 小时开放；建筑序列设计得极好，但位置在 Tidal Basin 西岸、离地铁 1.7 公里，属于「顺着环湖路走就一定要进」的一站。",
         "tags": [
           {
             "t": "24 小时免费",
@@ -2011,6 +2063,14 @@ var REGIONS = [
           "<strong>Stone of Hope 高 30 英尺，由中国雕塑家雷宜锌（Lei Yixin）雕刻</strong>，石材为花岗岩。选用中国雕塑家在当年引发过争议，但雷最终完成了这件全 Mall 尺度最大的单体人像",
           "纪念碑的门牌号是 <strong>1964 Independence Ave SW</strong>——这个号码是特意申请的，指向 1964 年《民权法案》。同理，MLK Memorial 与 Lincoln Memorial 之间的连线穿过 Tidal Basin，<strong>King 的视线朝东南、正对 Jefferson Memorial（实测方位约 129°）</strong>，整个位置是被精确安排过的",
           "环绕的花岗岩弧墙上刻着 14 段 King 的语录（原有的一句「drum major」引言因断章取义争议已于 2013 年铲除重整）。<strong>引文墙的版权与 King 的肖像、文字一并由 King 家族通过 Intellectual Properties Management 管理</strong>，这是 NPS 官方明列需要版权授权的少数几处之一"
+        ],
+        "tour": [
+          "<strong>务必从 Independence Ave / West Basin Drive 一侧的正门进，不要从 Tidal Basin 岸边抄进来。</strong>整座纪念碑就是一句话的空间化：<strong>「Out of the mountain of despair, a stone of hope.」</strong>正确序列是<strong>先穿过被劈开的两块巨石（Mountain of Despair）</strong>，走出裂口时<strong>正面迎上 30 英尺高的 Stone of Hope</strong>，再沿两侧弧形引文墙走一圈，最后出到水边回望。<strong>从岸边进来等于先看结局，整个设计就白费了</strong>——这是本区最值得守规矩的一条动线。",
+          "<strong>引文墙上的 14 段语录值得慢慢读，这是本站真正的内容量所在。</strong>环绕的花岗岩弧墙约 450 英尺长，按主题而非时间排列。<strong>其中有一处「空白」值得知道：原来刻的一句 “drum major” 引言因断章取义引发争议，已于 2013 年整段铲除重整</strong>，所以你在墙上找不到它。<strong>不要只拍雕像就走——那是很多人 10 分钟结束这一站的原因，但也是他们什么都没看到的原因。</strong>",
+          "<strong>三个别错过的细节。</strong>一是 <strong>King 像的视线朝东南、实测方位约 129°，正对 Tidal Basin 对岸的 Jefferson Memorial</strong>——站到他的视线方向上看一眼，整个选址的用意就明白了。二是<strong>门牌号 1964 Independence Ave SW</strong>，这个号码是特意申请的，指向 1964 年《民权法案》。三是<strong>半身像尚未完全脱离石体、双臂交抱、眉头微蹙</strong>，走到雕像侧面看会更清楚这种「推出来一半」的处理。",
+          "<strong>时段上有一个硬约束，会影响你怎么安排这一天：雕像正面朝东南，过了正午整张脸进入自身阴影。</strong><strong>清晨到中午前来，脸是被光打亮的；下午与傍晚来，只看得到一块灰石头。</strong>下午到场的人建议改看引文墙与石材质感，或者干脆等到天黑——<strong>入夜后地灯从下方打亮雕像，是另一种很好的版本，而且几乎没人</strong>。",
+          "<strong>卫生间与书店：121 West Basin Drive SW 的书店建筑，无障碍厕所在该建筑南侧。</strong>这是 Tidal Basin 西岸唯一一处，往北到 Korean War Veterans Memorial（约 500 米）、往南到 FDR Memorial（约 450 米）才有下一处。书店可凭州政府签发的证件免费借用轮椅。<strong>书店官方钟点为全年每日 10:00–18:00，厕所随之在夜间关闭</strong>（NPS 总口径：「Restrooms, museums and elevators close in the evenings」），<strong>夜访这一带等于没有厕所</strong>。这一带也没有餐厅。",
+          "<strong>步行与体力：这是本区步行成本最高的一段，务必把它排进环湖动线里，不要单独专程来。</strong><strong>Metro Smithsonian 站步行 1.7 公里 / 21 分钟</strong>，全区第二远；到 Lincoln Memorial <strong>800 米 / 10 分钟</strong>、FDR Memorial <strong>450 米 / 6 分钟</strong>、Jefferson Memorial 沿 Tidal Basin 约 <strong>1.1 公里 / 15 分钟</strong>。园内全程平地铺装、无台阶，轮椅可通行。<strong>夜间这一带（West Potomac Park）照明明显暗于 Lincoln 一侧、人也少，不建议单独夜访。</strong>"
         ],
         "photo": "人像/雕塑 <strong>4.5/5</strong>，建筑 <strong>3.5/5</strong>，风光 <strong>2.5/5</strong>。一张 30 英尺高、有明确视线方向的脸，是全 Mall 最上镜的雕塑；扣分因为它朝东南，<strong>过了中午整张脸就进入自身阴影，下午来等于白来</strong>。",
         "shots": [
@@ -2044,9 +2104,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>30–45 分钟</strong>。分配：穿过 Mountain of Despair 与正面看 Stone of Hope 10 分钟、沿引文墙读 14 段语录 15–20 分钟、走到水边回望并看 King 的视线方向 5–10 分钟。<strong>只看雕像拍张照：10 分钟</strong>（但那样会错过这一站一半以上的内容）。",
           "book": "不需预约",
-          "ticket": "<strong>免费</strong>",
-          "hours": "<strong>24 小时开放</strong>。Ranger 值守 9:30–22:00。书店（West Basin Drive 一侧）为白天营业，<strong>具体钟点官网未列，未能确认</strong>",
+          "ticket": "<strong>免费</strong>，无任何分档。书店可凭州政府签发证件免费借用轮椅。（据 nps.gov/mlkm，<strong>2026-09-14 核实</strong>）",
+          "hours": "<strong>场地 24 小时开放</strong>（NPS：outdoor areas open 24 hours a day 7 days a week）；<strong>Ranger 值守 9:30–22:00</strong>。<strong>书店（America’s National Parks Store，121 West Basin Drive SW）：NPS 官网原文「Martin Luther King, Jr. Memorial store 10 am – 6 pm year-round」，即全年每日 10:00–18:00</strong>（官网另注「Hours are subject to change without notice」）。厕所随书店建筑在夜间关闭——NPS 总口径是「Restrooms, museums and elevators close in the evenings」。（<strong>2026-09-14 核实</strong>）",
           "parking": "<strong>West Basin Drive SW 与 Independence Ave SW 路边表位</strong>，$2.30/小时，7:00–20:00 收费。<strong>注意 Ohio Drive SW 在 Independence Ave 与 West Basin Drive 之间封闭至 2030 年</strong>（Potomac River Tunnel 工程），导航可能仍给出旧路线，请按现场指示绕行",
           "walk": "Metro <strong>Smithsonian 站</strong>直线 1.43 公里，实际步行约 <strong>1.7 公里 / 21 分钟</strong>；从 Lincoln Memorial 走过来约 <strong>800 米 / 10 分钟</strong>，从 FDR Memorial 北端过来约 <strong>450 米 / 6 分钟</strong>"
         },
@@ -2078,8 +2139,9 @@ var REGIONS = [
         "n": 8,
         "name": "罗斯福纪念公园",
         "en": "Franklin Delano Roosevelt Memorial",
+        "must": 3,
         "score": 4,
-        "tldr": "四个露天「房间」串成 800 米叙事线，全区唯一的水景与质感题材；但全域禁三脚架且雕塑另有版权。",
+        "tldr": "四个露天「房间」串成 800 米叙事线，做得很好也很耐看；但它是全区离地铁最远（1.9 公里）、最容易被时间挤掉的一站，属于有兴趣再去。",
         "tags": [
           {
             "t": "24 小时免费",
@@ -2104,6 +2166,14 @@ var REGIONS = [
           "雕塑阵容罕见地豪华且分属不同作者：Neil Estern 的罗斯福与 Fala 犬、Eleanor 像；George Segal 的 <strong>Depression Breadline（排队领救济的五个人）</strong>与 Fireside Chat；Leonard Baskin 的 Funeral Cortege 浮雕；Robert Graham 的 Prologue。<strong>Breadline 那五个青铜人是全 DC 最好的人像摄影道具</strong>——真人尺寸、可并肩站立",
           "<strong>入口处那尊坐轮椅的罗斯福像不是原设计。</strong>1997 年落成时全场没有一处显示他残疾，残障权益团体强烈抗议，<strong>2001 年 1 月才在前厅补建了这尊 Robert Graham 的轮椅像</strong>。知道这段以后再去拍它，画面的意义完全不同",
           "<strong>全园被大树覆盖，是常年柔散射光环境。</strong>这意味着它<strong>不依赖日出日落</strong>，反而是本页唯一一个「阴天来比晴天来好」的地点"
+        ],
+        "tour": [
+          "<strong>必须从北侧（MLK Memorial 方向）入口进，按第一室到第四室的顺序走一遍，全程单向约 800 米。</strong>这不是挑剔：四个房间分别对应罗斯福的四届任期，<strong>反着走等于把 1933–1945 这十二年倒着读，整条叙事会彻底散掉</strong>。园内有导览牌但动线不够直觉，岔路多，<strong>认准「沿红色 Dakota 花岗岩墙一直往南走」就不会错</strong>。",
+          "<strong>看懂这里的关键是看水，而不是看雕像。</strong>四个房间的水景是有语法的：<strong>第一室水流平静（大萧条前）；第二室水从高处跌落成阶（新政）；第三室水被打乱成互相冲撞的乱流（二战）；第四室水面重新归于平静（罗斯福逝世与和平）</strong>。<strong>知道这一层之后，第三室那片无序堆叠的巨石与对冲水流是全园最震撼的一处</strong>，不知道的人会觉得「就是个假山瀑布」。",
+          "<strong>五组必看雕塑，都可以走近。</strong><strong>George Segal 的 Depression Breadline</strong>（五个真人尺寸青铜人排队领救济，<strong>这是全 DC 唯一一处你可以站进队伍里当「第六个人」的地方</strong>，带孩子来的首选）；Fireside Chat（听收音机的男人）；Neil Estern 的罗斯福与 Fala 犬；<strong>Eleanor Roosevelt 立像</strong>（常被指出是美国总统纪念碑中唯一为第一夫人立的像）；以及入口前厅那尊坐轮椅的罗斯福——<strong>1997 年落成时全园没有一处显示他残疾，残障权益团体抗议后才在 2001 年 1 月补建这一尊</strong>。知道这段再去看它，意义完全不同。",
+          "<strong>时间紧就只走第二室与第三室。</strong>Breadline 与乱流瀑布是全园信息密度最高的两处，20 分钟能拿下；第一室与第四室内容相对薄，路过即可。<strong>反过来说，如果这一天已经走了 5 公里、脚开始疼，直接跳过整座 FDR Memorial 是合理决定</strong>——它值得去，但不值得硬撑（这也是它 must 只给 3 分的原因）。",
+          "<strong>卫生间：园区南北两端各有一处（400 West Basin Drive SW 一带），是本区少见的「两头都有」。</strong>书店与信息中心在北侧入口附近，可取纸质导览手册（讲水景设计的那一份值得拿），<strong>书店官方钟点为每日 10:00–18:00</strong>；厕所随之在夜间关闭（NPS 总口径：「Restrooms, museums and elevators close in the evenings」）。这一带没有餐厅，最近的食品车在 West Basin Drive 路边，且不一定出摊。",
+          "<strong>步行与体力：这是全区离地铁最远的一站，Metro Smithsonian 站步行 1.9 公里 / 24 分钟。</strong>到 MLK Memorial <strong>450 米 / 6 分钟</strong>，到 Jefferson Memorial 沿 Tidal Basin 约 <strong>900 米 / 12 分钟</strong>。<strong>园内从北入口走到南出口 800 米，若还要折回北端取车再加 800 米，请留够 45–60 分钟。</strong>全程平地无台阶、轮椅可通行，但<strong>水景旁的花岗岩地面常年潮湿有青苔，穿防滑鞋</strong>。<strong>24 小时开放，但园内树冠茂密、入夜后照明偏暗且遮蔽多，不建议单独夜访</strong>；要夜访就走靠 Tidal Basin 岸边的开阔段。"
         ],
         "photo": "雕塑 <strong>4.5/5</strong>，人像 <strong>4/5</strong>，建筑 <strong>3.5/5</strong>，风光 <strong>2.5/5</strong>。水、粗糙花岗岩、青铜三种质感的对照极强；<strong>扣分主要因为全域禁三脚架——想拍慢门丝滑水流在这里基本不可行</strong>。",
         "shots": [
@@ -2137,9 +2207,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>45–75 分钟</strong>（园区单向 800 米，是本区占地最大的一站）。分配：四个房间依次各 10–15 分钟，其中第三室乱流瀑布与第二室 Breadline 各值得多留 5 分钟；若要折回北端取车另加 10–15 分钟。<strong>只走第二室与第三室：20–25 分钟</strong>，这是时间紧时的正确取舍。",
           "book": "不需预约",
-          "ticket": "<strong>免费</strong>",
-          "hours": "<strong>24 小时开放</strong>。Ranger 值守 9:30–22:00。<strong>水景（四室瀑布）在冬季会放空停机，秋季通常运行</strong>，但 <strong>NPS 未公布具体的季节性开关机日期，未能确认 10 月下旬是否仍在运行</strong>——若水景停机，本条目一大半价值会消失，建议出发当天先看 nps.gov/frde 的 Alerts",
+          "ticket": "<strong>免费</strong>，无任何分档。北侧书店可取免费纸质导览手册。（据 nps.gov/frde，<strong>2026-09-14 核实</strong>）",
+          "hours": "<strong>场地 24 小时开放</strong>；<strong>Ranger 值守 9:30–22:00</strong>。<strong>书店官方钟点为每日 10:00–18:00</strong>（官网另注 hours subject to change without notice），卫生间随之在夜间关闭。<strong>水景（四室瀑布）在冬季会放空停机，春、夏、秋通常运行</strong>，但 <strong>NPS 未公布季节性开关机的具体日期，未能从官方渠道确认某一天是否在运行</strong>——<strong>若水景停机，这一站一大半价值会消失</strong>，出发当天先看 nps.gov/frde 的 Alerts 页，或电 202-426-6841。（<strong>2026-09-14 核实</strong>）",
           "parking": "<strong>West Basin Drive SW 路边表位</strong>最近，$2.30/小时，7:00–20:00 收费。<strong>Ohio Drive SW 在 Independence Ave 与 West Basin Drive 之间封闭至 2030 年</strong>，沿 Ohio Drive 的 B、C 号停车场同样关闭至 2030 年；A 号场与 Buckeye Drive 的 D 号场仍开放（表位 6 小时上限）",
           "walk": "<strong>这是全区离地铁最远的一个点。</strong>Metro Smithsonian 站直线 1.40 公里，实际步行约 <strong>1.9 公里 / 24 分钟</strong>。从 MLK Memorial 走过来约 <strong>450 米 / 6 分钟</strong>。园区本身南北纵深约 800 米，<strong>从入口走到出口再走回来要留 45–60 分钟</strong>"
         },
@@ -2171,8 +2242,9 @@ var REGIONS = [
         "n": 9,
         "name": "杰斐逊纪念堂",
         "en": "Thomas Jefferson Memorial & Tidal Basin",
+        "must": 4.5,
         "score": 5,
-        "tldr": "隔 Tidal Basin 拍日出是 DC 第一名的风光机位；海堤工程已完工全线重开，10 月下旬太阳几乎从圆顶正后方升起。",
+        "tldr": "2026 年夏天地下展厅整体重做后重开，这一站从「看一眼圆顶」升级成有实质内容的博物馆；免费 24 小时开放，殿内不设门。",
         "tags": [
           {
             "t": "24 小时免费",
@@ -2274,17 +2346,17 @@ var REGIONS = [
     "name": "Washington DC · Capitol Hill 立法与司法建筑群",
     "navName": "Capitol Hill",
     "color": "#4da3ff",
-    "lead": "这一区和 National Mall 的露天纪念碑是两种完全不同的游戏。National Mall 24 小时免费无门槛，Capitol Hill 的五个点<strong>全部是要过安检的联邦建筑，全部有闭馆日，两个要抢定时票，而且全部会在联邦政府停摆时关闭</strong>。好消息是停摆风险这次基本被拆掉了——2026 年 9 月 2 日签署的 Public Law 119-103 把联邦拨款延到 <strong>2026 年 12 月 11 日</strong>，覆盖整个 9 月底至 10 月底窗口。坏消息是另一件事：<strong>国会大厦 East Front 从 2026 年夏天起被脚手架和防尘罩包住，要到 2028 年秋天才拆</strong>，所以东立面这次基本报废，全部重心要压到 West Front 的日落。摄影上真正的两个硬目标是 <strong>Library of Congress 的 Main Reading Room</strong>（全美最美室内空间之一，需 30 天前放的定时票，且禁三脚架）与 <strong>West Front 的日落加蓝调穹顶</strong>；Supreme Court 与 Union Station 是稳定的补充；Botanic Garden Conservatory 是本区唯一像样的雨天备案。",
+    "lead": "这一区和 National Mall 的露天纪念碑是两种完全不同的游戏。National Mall 24 小时免费无门槛，<strong>Capitol Hill 的核心是五座要过安检的联邦建筑——全部有闭馆日，其中 Library of Congress 无票不得入楼、Capitol 强烈建议提前 90 天订导览，而且五座全部会在联邦政府停摆时关闭</strong>。<strong>必去的是两个：U.S. Capitol（导览免费，Rotunda 与 National Statuary Hall 只能跟团进）与 Library of Congress 的 Thomas Jefferson Building（全美最美室内空间之一，免费但必须先抢定时票）</strong>；Supreme Court 是稳定的第三站，<strong>不开庭日可以进法庭听 25 分钟讲座，这是普通游客进入法庭的唯一方式</strong>。Union Station 属顺路可看的交通枢纽兼 Beaux-Arts 车站大厅，也是这一区唯一能吃饭、上卫生间与寄存行李的地方；Botanic Garden Conservatory 与 Eastern Market 则是本区最好用的两个「每天都开」的备案。<strong>排日子有两条铁律：周日 Capitol、Library of Congress、Supreme Court 三个全关；周一 Library of Congress 关、Eastern Market 也关。想一次吃下全部核心，只能挑周二至周五</strong>。另有一条长期外观限制：<strong>国会大厦 East Front 自 2026 年夏起被脚手架与防尘罩包住，官方预计 2028 年秋才拆</strong>，这段工期内东立面只适合当通道，外观欣赏请走 West Front 一侧。",
     "callouts": [
       {
         "type": "good",
-        "title": "联邦政府停摆：本次窗口内风险已解除（拨款已延续至 12/11）",
-        "html": "<p>这五个点<strong>全部依赖联邦拨款</strong>（Capitol、Library of Congress、Botanic Garden 属立法机构，Supreme Court 属司法机构，Union Station 的联邦部分由 USRC/FRA 管），和露天的 Lincoln、Jefferson 纪念堂不一样——<strong>一旦拨款中断，这五个点全部关闭或大幅缩减</strong>：Capitol 停止全部导览、Library of Congress 关闭 Thomas Jefferson Building、Supreme Court 通常仅维持法庭开庭而关闭参观项目、Botanic Garden 直接关门。</p><p><strong>当前状态（截至 2026 年 9 月 5 日）：风险已基本解除。</strong>H.R.6500《Continuing Appropriations and Extensions Act, 2027》已于 <strong>2026 年 9 月 2 日签署成为 Public Law 119-103</strong>，按 FY2026 水平延续拨款，<strong>有效期至 2026 年 12 月 11 日</strong>。参议院 8 月 8 日以 90–6 通过、众议院 9 月 1 日以 370–48 通过，两党票数悬殊，这是近年来罕见的提前一个月完成 CR。原本 FY2026 拨款将于 <strong>9 月 30 日</strong>到期、10 月 1 日进入 FY2027，那才是本区的高危日；现在这个断点已被跨过。</p><p>→ <strong>结论：9 月下旬至 10 月下旬的任何日期，停摆导致关门的概率很低。</strong>真正的下一个断点是 <strong>12 月 11 日</strong>，与本次行程无关。需要注意的是 FY2027 的 12 部拨款法案至今众议院只通过 3 部、参议院 0 部，众议院拨款委员会主席 Tom Cole 已公开表示 12 月「要么全年 CR，要么停摆」——如果你的行程有任何可能推到 12 月中之后，请重新评估。</p><p>出发前一周自查：<a href=\"https://www.congress.gov/bill/119th-congress/house-bill/6500\">congress.gov H.R.6500 法案状态页</a>、<a href=\"https://www.visitthecapitol.gov/\">visitthecapitol.gov</a> 与 <a href=\"https://www.loc.gov/visit/\">loc.gov/visit</a> 的首页公告条。</p>"
+        "title": "联邦政府停摆会让这一区集体关门——出行前必查的一件事",
+        "html": "<p>这五座联邦建筑<strong>全部依赖联邦拨款</strong>（Capitol、Library of Congress、Botanic Garden 属立法机构，Supreme Court 属司法机构，Union Station 的联邦部分由 USRC/FRA 管），和露天的 Lincoln、Jefferson 纪念堂不一样——<strong>一旦拨款中断，这五个点全部关闭或大幅缩减</strong>：Capitol 停止全部导览、Library of Congress 关闭 Thomas Jefferson Building、Supreme Court 通常仅维持法庭开庭而关闭参观项目、Botanic Garden 直接关门。<strong>这是规划 Capitol Hill 一天行程时唯一可能让全盘落空的风险，也是唯一必须在出发前逐次复查的事。</strong></p><p><strong>截至 2026-09-14 的状态：临时拨款决议已覆盖至 2026 年 12 月 11 日。</strong>H.R.6500《Continuing Appropriations and Extensions Act, 2027》于 <strong>2026 年 9 月 2 日签署成为 Public Law 119-103</strong>，按 FY2026 水平延续拨款，<strong>有效期至 2026 年 12 月 11 日</strong>。参议院 8 月 8 日以 90–6 通过、众议院 9 月 1 日以 370–48 通过，两党票数悬殊，这是近年来罕见的提前一个月完成的 CR，原本 10 月 1 日进入 FY2027 的那个断点已被跨过。</p><p>→ <strong>结论：2026 年 9 月中旬至 12 月 11 日之间，停摆导致关门的概率很低；此后的状态请出行前自行复查。</strong>背景供判断：FY2027 的 12 部拨款法案至 2026 年 9 月只有众议院通过 3 部、参议院 0 部，众议院拨款委员会主席 Tom Cole 已公开表示 12 月「要么全年 CR，要么停摆」。<strong>12 月 11 日之后的任何日期，都应把停摆当成一个真实存在的可能性来准备备案</strong>（备案就是 National Mall 的露天纪念碑与 Eastern Market，这些不受联邦拨款影响）。</p><p>出发前一周自查：<a href=\"https://www.congress.gov/bill/119th-congress/house-bill/6500\">congress.gov H.R.6500 法案状态页</a>、<a href=\"https://www.visitthecapitol.gov/\">visitthecapitol.gov</a> 与 <a href=\"https://www.loc.gov/visit/\">loc.gov/visit</a> 的首页公告条。</p>"
       },
       {
         "type": "warn",
-        "title": "East Front 被脚手架包住，到 2028 年秋——东立面这次放弃",
-        "html": "<p>AOC 的 <strong>Capitol Exterior Preservation – Stone and Metal</strong> 项目第 4 期针对 <strong>East Front</strong>，官方口径：<strong>「Phase 4 has begun and is anticipated to be completed fall 2028」，2026 年夏季开工</strong>。AOC 自己的 FAQ 写明「The project will require scaffolding to execute the work… <strong>A scrim will cover the scaffolding</strong> to control dust and water spray」，并且<strong>夜间会给脚手架与建筑打工作照明</strong>（多数施工安排在周一至周六夜间）。</p><p>→ 实际后果：<strong>East Front Plaza 的东立面、山花雕塑、以及从东侧拍穹顶的机位这次基本不可用</strong>，穹顶本体虽不在施工范围，但下方立面会有防尘罩与钢管入镜，夜景还会有非常难看的施工射灯。<strong>Capitol Visitor Center 的入口仍在东侧地下，进出不受影响</strong>（AOC：「Most doors will remain open」）。</p><p>好消息：<strong>Phase 3 – West Front 已于 2024 年完工</strong>，西立面是干净的。所以本区所有外景重心请全部压到 West Front / Union Square 一侧。</p><p>另外南侧同期在建 <strong>Capitol South Screening Facility</strong>（新的众议院侧安检设施，2026 年刚发包，工期约两年），Capitol 南面也会有围挡。</p>"
+        "title": "East Front 被脚手架包住，官方预计 2028 年秋才拆",
+        "html": "<p>AOC 的 <strong>Capitol Exterior Preservation – Stone and Metal</strong> 项目第 4 期针对 <strong>East Front</strong>，官方口径：<strong>「Phase 4 has begun and is anticipated to be completed fall 2028」，2026 年夏季开工</strong>。AOC 自己的 FAQ 写明「The project will require scaffolding to execute the work… <strong>A scrim will cover the scaffolding</strong> to control dust and water spray」，并且<strong>夜间会给脚手架与建筑打工作照明</strong>（多数施工安排在周一至周六夜间）。</p><p>→ 实际后果：<strong>在这段工期内，East Front Plaza 的东立面、山花雕塑、以及从东侧看穹顶的视角基本不可用</strong>，穹顶本体虽不在施工范围，但下方立面会有防尘罩与钢管入镜，夜景还会有非常难看的施工射灯。<strong>Capitol Visitor Center 的入口仍在东侧地下，进出不受影响</strong>（AOC：「Most doors will remain open」）。</p><p>好消息：<strong>Phase 3 – West Front 已于 2024 年完工</strong>，西立面是干净的。所以本区所有外景重心请全部压到 West Front / Union Square 一侧。</p><p>另外南侧同期在建 <strong>Capitol South Screening Facility</strong>（新的众议院侧安检设施，2026 年刚发包，工期约两年），Capitol 南面也会有围挡。</p>"
       },
       {
         "type": "warn",
@@ -2308,6 +2380,7 @@ var REGIONS = [
         "n": 1,
         "name": "联合车站",
         "en": "Union Station",
+        "must": 2,
         "score": 4,
         "tldr": "Beaux-Arts 金箔藻井拱顶，免费且每天开到 23:00；南向高窗光柱 11:00–14:00 最好。",
         "tags": [
@@ -2331,8 +2404,16 @@ var REGIONS = [
         "highlights": [
           "Daniel Burnham 设计、1907 年启用，是 McMillan Plan 之下 City Beautiful 运动在华盛顿最完整的实现。<strong>启用时它是全世界最大的火车站</strong>，正立面的白色 Vermont granite 拱廊直接照搬罗马 Arch of Constantine 的三拱构成，Main Hall 的桶形拱顶抄的是 Baths of Diocletian",
           "Main Hall 的<strong>格状藻井拱顶高 96 英尺</strong>，是本站唯一真正的摄影目标。<strong>2011 年 8 月那场 5.8 级地震把这块历史石灰泥拱顶震裂</strong>，随后是一场长达数年的修复：五个 bay 逐个做石膏修补、重新上漆并<strong>重铺 23 克拉金箔（超过 12 万张）</strong>，同时在拱顶上方加装了一整套钢支撑系统做抗震加固。<strong>五个 bay 全部于 2016 年春完工，脚手架已全部拆除</strong>",
-          "<strong>关于当前施工状态，这次的核实结果是好消息：Main Hall 现在是干净的、没有脚手架。</strong>2016 年修复完成时同步拆掉了 Main Hall 中央的 Center Café 与两个圆形花池，<strong>把拱顶下方的空间恢复成 1907 年原始设计的无遮挡状态、这是近 50 年来第一次</strong>。至于那个长期悬着的重建计划：<strong>USDOT 已于 2026 年 7 月 24 日正式作废那个已获联邦批准的 88 亿美元扩建方案</strong>，改为投 2,400 万美元研究公私合营的新方案，另有 4.66 亿美元用于结构维修、concourse 改造与安保升级。<strong>新方案至今没有设计、造价与工期，所以短期内不会有影响 Main Hall 的大工程</strong>",
+          "<strong>施工状态（2026-09-14 核实）：Main Hall 现在是干净的、没有脚手架。</strong>2016 年修复完成时同步拆掉了 Main Hall 中央的 Center Café 与两个圆形花池，<strong>把拱顶下方的空间恢复成 1907 年原始设计的无遮挡状态、这是近 50 年来第一次</strong>。至于那个长期悬着的重建计划：<strong>USDOT 已于 2026 年 7 月 24 日正式作废那个已获联邦批准的 88 亿美元扩建方案</strong>，改为投 2,400 万美元研究公私合营的新方案，另有 4.66 亿美元用于结构维修、concourse 改造与安保升级。<strong>新方案至今没有设计、造价与工期，所以短期内不会有影响 Main Hall 的大工程</strong>",
           "需要清楚的期待管理：<strong>这里首先是一个运营中的车站加商场</strong>（Amtrak、MARC、VRE、Metro Red 线、长途巴士总站，年客流四千余万）。Main Hall 与 East Hall 很美，但<strong>其余部分是彻底的普通商场</strong>；本条目的价值集中在一个空间、一个题材上，40 分钟足够"
+        ],
+        "tour": [
+          "<strong>先明确期待：这不是一个「景点」，是一座还在运营的车站加商场，顺路进去看一眼 Main Hall 就够了。</strong>免费、不需要票、不需要预约、<strong>每天 5:00–23:00 对公众开放且全年无闭馆日</strong>——是本区规则上最宽松的点，也因此适合塞进 Capitol Hill 这一天的任何空档。<strong>Metro Union Station 站（Red 线）出站到 Main Hall 只有 140 米</strong>，不进楼也会路过",
+          "<strong>真正值得停下来的只有两个厅，其余可以直接跳过。</strong>（1）<strong>Main Hall</strong>：Daniel Burnham 1907 年的桶形拱顶高 96 英尺，格状藻井在 2011 年地震后逐个 bay 修复、重铺 23 克拉金箔（超过 12 万张），2016 年春全部完工并拆除脚手架，同时拆掉了厅中央的 Center Café 与两个圆形花池，<strong>把拱顶下方恢复成 1907 年的无遮挡状态——这是近 50 年来第一次</strong>；（2）<strong>East Hall</strong>：原候车厅，柱廊环绕，<strong>彩绘天花与柱头细节比 Main Hall 更密而且人少得多</strong>。<strong>三层零售区与美食广场是彻底的普通商场，不必逛</strong>，省下的时间给 400 米外的 Capitol 或 Supreme Court",
+          "<strong>它在一天行程里的真正用途是「补给站」，这比它的建筑价值更实际。</strong>本区五个联邦建筑<strong>全部禁带或限带食品饮料、且只有 Capitol 有一个小餐厅</strong>，Library of Congress 楼内一口吃的都没有。<strong>Union Station 是这一带唯一有大量餐饮、充足卫生间、能坐下来歇脚的地方</strong>：美食广场周一至周六 7:00–21:00、周日 7:00–18:00，另有若干正餐厅（各自营业时间不同）。<strong>建议把 Capitol Hill 这一天的午餐或收尾放在这里</strong>",
+          "<strong>行李寄存：本区唯一一处，在 Amtrak 月台层的 Gate A 旁（parcel check）。</strong><strong>每天 6:30–21:45，持 Amtrak／MARC／VRE 车票 $10 一件、无车票 $20 一件</strong>（2026-09-14 核实于 unionstationdc.com 与 Amtrak 页面）；到访前可打 (202) 898-1592 确认当天是否开门。<strong>这一点很关键：Capitol 与 Supreme Court 楼内都没有大件寄存柜，包超过 18\" × 14\" × 8.5\" 就只能原路拿回去</strong>——带大件行李又要进联邦建筑的话，先来这里寄掉",
+          "<strong>交通枢纽的实际含义：Amtrak 全线（含 Acela）、MARC 与 VRE 通勤铁路、Metro Red 线、华盛顿的长途巴士总站，以及大量旅游巴士的上下客点都在这里，年客流四千余万。</strong><strong>站台区与 Amtrak 候车区需持车票才能进</strong>，Main Hall、East Hall 与商业区不需要。<strong>Amtrak Metropolitan Lounge 仅限特定会员与头等舱客人</strong>（单次通行证 $35）。这也是「开车来 Capitol Hill」最现实的落脚点：站体北侧有四层停车楼，停好后步行或坐一站 Metro 去 Capitol",
+          "<strong>人流是这里唯一的体验障碍，而且没有任何时段是空的。</strong>想看相对安静的 Main Hall，<strong>只有清晨 5:00–6:30 与 21:30–23:00</strong>；East Hall 则在 10:00 商店开门前与 20:00 之后明显清静。<strong>安检完全没有</strong>（这是本区唯一不过安检的点），但反过来<strong>夜间站前广场与周边（尤其 H Street 与 Massachusetts Avenue 一带）人流复杂，21:00 之后不建议独自带显眼行李或器材在站外逗留</strong>——站内有警力，站外没有"
         ],
         "photo": "建筑 <strong>4/5</strong>，人像 <strong>4/5</strong>，风光 <strong>1/5</strong>。拱顶与拱廊是干净的对称几何、又免费又开得晚，人像用大堂做背景非常出片；扣分是可拍范围只有一两个厅、且人流永不间断。",
         "shots": [
@@ -2366,9 +2447,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>30–50 分钟</strong>：Main Hall 15–20 分钟 ＋ East Hall 10–15 分钟 ＋ 站前 Columbus Circle 与南立面 10–15 分钟。<strong>只看 Main Hall 拱顶：10 分钟</strong>。<strong>把它当补给站用（吃饭、卫生间、歇脚）则另加 45–60 分钟</strong>；<strong>要寄存行李再加 15 分钟</strong>（Gate A 旁的 parcel check 常有队）。三层零售区不建议逛。官方未给出建议参观时长，以上按可看空间数量推算",
           "book": "<strong>不需预约</strong>",
-          "ticket": "<strong>免费</strong>",
-          "hours": "官方原文：<strong>「Washington Union Station is open 7 days a week」，「Union Station is closed to the public daily from 11PM to 5AM. During that time, the station will only be accessible to ticketed passengers.」</strong>→ <strong>公众每天 5:00–23:00，全年无闭馆日</strong>，是本区时间上最宽松的点。零售店铺周一至周六 10:00–21:00、周日 12:00–18:00；美食广场周一至周六 7:00–21:00、周日 7:00–18:00；正餐厅各自不同。<strong>Main Hall 与 East Hall 的建筑空间在 5:00–23:00 全程可进，不受店铺营业时间限制</strong>",
+          "ticket": "<strong>免费，且完全不需要票。</strong>Main Hall、East Hall 与全部商业区对任何人开放，不过安检——<strong>这是本区五个点里唯一既不要票也不要安检的地方</strong>。<strong>但「免费进站」不等于「免费进月台」：Amtrak 站台区与候车区需持当日车票</strong>，Metropolitan Lounge 另限特定会员与头等舱客人（单次通行证 $35）。行李寄存收费（见下）。<strong>2026-09-14 核实于 unionstationdc.com</strong>",
+          "hours": "官方原文：<strong>「Washington Union Station is open 7 days a week」，「Please be advised that Union Station is closed to the public daily from 11PM to 5AM. During that time, the station will only be accessible to ticketed passengers.」</strong>（2026-09-14 核实于 unionstationdc.com）→ <strong>公众每天 5:00–23:00，全年无闭馆日</strong>，是本区时间上最宽松的点。<strong>Amtrak parcel check（行李寄存）每天 6:30–21:45。</strong>零售店铺周一至周六 10:00–21:00、周日 12:00–18:00；美食广场周一至周六 7:00–21:00、周日 7:00–18:00；正餐厅各自不同。<strong>Main Hall 与 East Hall 的建筑空间在 5:00–23:00 全程可进，不受店铺营业时间限制</strong>",
           "parking": "<strong>本区唯一有正规大型停车场的点</strong>：Union Station Parking Garage（站体北侧，4 层，入口在 1st Street NE / H Street NE 一侧）。<strong>具体费率未能从官方渠道核实</strong>，请现场看牌。也因此这里是「开车来 Capitol Hill」最现实的落脚点——停这里再步行或坐一站 Metro 去 Capitol",
           "walk": "Metro <strong>Union Station</strong> 站（Red 线）出站到 Main Hall 约 <strong>140 米 / 2 分钟</strong>，是本区最省力的点。停车楼到 Main Hall 约 200 米 / 3 分钟。步行去 Capitol 约 900 米 / 12 分钟，去 Supreme Court 约 850 米 / 11 分钟"
         },
@@ -2401,6 +2483,7 @@ var REGIONS = [
         "n": 2,
         "name": "美国最高法院",
         "en": "Supreme Court of the United States",
+        "must": 3.5,
         "score": 4,
         "tldr": "免费不预约，西立面铭文与 Great Hall 可拍；周末全关、15:00 关门，法庭内禁拍。",
         "tags": [
@@ -2432,6 +2515,14 @@ var REGIONS = [
           "<strong>Courtroom Lecture 是普通游客进入法庭的唯一方式</strong>（官方原文：「Other than attending a Court session, Courtroom Lectures are the only way visitors may enter the Courtroom」）。25 分钟，全程在法庭内进行，由志愿讲解员带。<strong>时段为周一至周五 10:30、11:30、12:30、13:30、14:30；但联邦假日与「法院开庭日」不办。</strong>→ 已核实 <strong>October Term 2026 的 10 月庭期为 10 月 5、6、7 日与 10 月 13、14 日</strong>（10 月 12 日 Columbus Day 为假日）。<strong>所以：9 月下旬本届庭期尚未开始、10 月 19 日之后 10 月已无排庭，这两段时间讲座应正常运行；10 月 5–14 那一周半是空档区</strong>",
           "<strong>摄影规则很干净：公共区域可以拍，法庭内任何时候都不行。</strong>官方原文「Visitors may take non-flash photographs and videos for personal use in the public portions of the ground and first floors. Photography and audio/video recording is not permitted inside the Courtroom at any time.」→ <strong>Courtroom Lecture 你能进去听、但一张都不能拍</strong>；能拍的是 Great Hall、大台阶、以及一层与地下层的公共走廊与展览"
         ],
+        "tour": [
+          "<strong>本区最省事的一个点：免费、不需要票、不需要预约。</strong>官方原文「No, the building is open to the public and all visitor programming is free and available on a first-come, first-served basis」（2026-09-14 核实）。<strong>但它换了另一种代价：周一至周五 9:00–15:00，周末与全部联邦假日闭馆，而且开庭日不对一般参观者开放</strong>——五个字总结就是「门槛低、窗口窄」。<strong>入口不在正面那排大台阶上</strong>，而在 plaza 层大台阶左右两侧的门（Northwest Door / Southwest Door），无障碍入口在 Maryland Avenue 一侧",
+          "<strong>不开庭日的正确走法，一小时就能走完：</strong>进门先上一层到 <strong>Great Hall</strong>（双排大理石巨柱夹一条纵深走廊，两侧壁龛是历任首席大法官胸像）→ 在 Great Hall 法庭门外排队等 <strong>Courtroom Lecture</strong> → 听完下到<strong>地下层</strong>看常设展览、Cass Gilbert 设计的双螺旋大理石楼梯、Café 与礼品店。<strong>出门后别忘了绕到西立面看檐部那句「EQUAL JUSTICE UNDER LAW」，以及大台阶两侧 James Earle Fraser 的两座坐像</strong>——外景在公共人行道上不受 15:00 关门限制",
+          "<strong>Courtroom Lecture 是普通游客走进法庭的唯一方式，一定要安排上。</strong>官方原文「Other than attending a Court session, Courtroom Lectures are the only way visitors may enter the Courtroom」。<strong>25–30 分钟，全程在法庭内，由受训的志愿讲解员带，讲司法职能、建筑史与法庭本身的设计</strong>。<strong>场次通常为周一至周五 10:30、11:30、12:30、13:30、14:30；联邦假日与法院开庭日不办</strong>，且明确「subject to cancellation due to Court business and… volunteer docent availability」。<strong>不预约，队伍在一层 Great Hall 法庭门外现场排，官方建议提前至少 15 分钟到（春夏更早）；迟到不予入场</strong>。出发前务必查一次官网的 30 天滚动日历——<strong>法庭还有年度封闭期（例如 2026 年 8 月 3–31 日全月无讲座，当时展览、Café 与礼品店照常）</strong>",
+          "<strong>开庭日旁听：能去，但要做好抢不到座的准备，而且那天进不了楼参观。</strong>庭辩 10:00 开始，<strong>目前是「网上抽签试点 ＋ 当日先到先坐」两条路并行</strong>（官方原文「a pilot program in which members of the public may apply for Courtroom seating through an online lottery. During the pilot program, Courtroom seating will also be available to the public on a first-come, first-seated basis」）。<strong>第一场的入座 9:30 开始，官方要求不得替未到场者占位；座位极少，热门案件的队伍会在开门前很早就排起来</strong>。<strong>关键的一条：官方明说「The Supreme Court Building will otherwise be closed to the public when the Court is in session」——开庭日就是开庭日，没抢到座也不能改成普通参观</strong>。<strong>排队地点官方两处说法不一致</strong>：Visitor's Guide 写「a line forms on the sidewalk on East Capitol Street adjacent to the Court building」，而 2026 年 5 月版 Pre-Visit Narrative 写「a line forming on the front plaza」——两种口径都记下，到场看警员指引。<strong>下午另有场次的话须重新排一次队</strong>。<strong>2026 年 10 月的开庭日为 10/5、10/6、10/7、10/13、10/14（10/12 Columbus Day 为法定假日全馆闭馆），11 月的庭期自 11/2 起，12 月自 11/30 起；2026-09-14 核实于 supremecourt.gov 的 Monthly Argument Calendar</strong>。庭期逐年公布，出行前请自行复查",
+          "<strong>安检、寄存与禁带物品是本条目最容易踩的坑。</strong>全员过磁力门加行李 X 光，<strong>包尺寸上限同为 18\" × 14\" × 8.5\"</strong>。<strong>楼内完全禁止带入食品与饮料，官方原文点名「including bottled water」</strong>——只能在地下层的 Café 与自动售货机凹间内吃喝。<strong>开庭期间法庭内另禁一切电子设备（相机、手机、平板、智能手表）、包袋、帽子、外套、墨镜、书刊（纸质笔记本可以）</strong>，大衣与雨伞须寄存（checkroom）。<strong>4–6 月是客流高峰、安检排队明显更长；9 月下旬至 10 月是这栋楼一年里人最少的时段之一</strong>",
+          "<strong>餐饮与卫生间都在地下层</strong>：Café（可以坐下来吃，是楼内唯一允许饮食的地方）、礼品店与卫生间集中在 ground floor，和常设展览在同一层，动线上顺。<strong>但 15:00 就关门，比本区任何点都早</strong>——如果这一天还要去 Library of Congress（步行 400 米，17:00 关，周四 20:00）或 Capitol（16:30 关），<strong>把最高法院放在上午或 13:30 前后，其余时间留给另外两栋楼，是唯一顺得过来的顺序</strong>"
+        ],
         "photo": "建筑 <strong>4.5/5</strong>，人像 <strong>3/5</strong>，风光 <strong>1/5</strong>。西立面是纯正的古典主义正面构图、且日落顺光；Great Hall 的柱廊纵深很强。扣分是开放时间短、周末全关、法庭这个最强空间完全不能拍。",
         "shots": [
           {
@@ -2448,7 +2539,7 @@ var REGIONS = [
               38.890494,
               -77.005221
             ],
-            "desc": "坐标为 OSM 的 Authority of Law 雕像实体点，在大台阶南侧。<strong>70–200mm，200mm 端最好</strong>，从 plaza 后退到 1st Street NE 人行道上向上抽檐部。<strong>时段与上一机位一致（日落前 1 小时到日落）</strong>：斜射光能在浮雕字母的凿痕里留下阴影，字才立得起来；<strong>正午顶光会把字打平、几乎读不出来</strong>。构图两种：一是只留檐部铭文加上方 Robert Aitken 的山花群像做满幅，二是把 Authority of Law 的头肩剪影放在画面下缘、铭文在其上方，形成「法典—铭文」的双层呼应。<strong>注意 2025 年 1 月起法院在西立面做过一轮工程</strong>（加装照明、West Portico 防鸟系统、大理石清洗，官方公告称约八个月），<strong>本次未能确认脚手架是否已完全拆除</strong>——出发前请刷一眼近期照片。"
+            "desc": "坐标为 OSM 的 Authority of Law 雕像实体点，在大台阶南侧。<strong>70–200mm，200mm 端最好</strong>，从 plaza 后退到 1st Street NE 人行道上向上抽檐部。<strong>时段与上一机位一致（日落前 1 小时到日落）</strong>：斜射光能在浮雕字母的凿痕里留下阴影，字才立得起来；<strong>正午顶光会把字打平、几乎读不出来</strong>。构图两种：一是只留檐部铭文加上方 Robert Aitken 的山花群像做满幅，二是把 Authority of Law 的头肩剪影放在画面下缘、铭文在其上方，形成「法典—铭文」的双层呼应。<strong>注意 2025 年 1 月起法院在西立面做过一轮工程</strong>（加装照明、West Portico 防鸟系统、大理石清洗，官方公告称约八个月），<strong>截至 2026-09-14 未能从官方渠道确认脚手架是否已完全拆除</strong>——出发前请刷一眼近期照片。"
           },
           {
             "name": "Great Hall 内部柱廊",
@@ -2464,9 +2555,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>官方建议 1–1.5 小时</strong>，原文「A suggested visit would last approximately 1 - 1 1/2 hours: 30 minutes for the Courtroom Lecture and 30-60 minutes to view the Exhibitions and public areas of the building」（2026-09-14 核实）。分配：<strong>Courtroom Lecture 30 分钟（含排队 15 分钟）＋ Great Hall 与一层公共走廊 15 分钟 ＋ 地下层展览与螺旋楼梯 20–40 分钟</strong>。<strong>只看 Great Hall 与地下层展览、不听讲座：约 35 分钟</strong>。<strong>西立面外景另加 20–30 分钟</strong>（不受 15:00 关门限制）。旁听庭辩则完全是另一种量级：<strong>排队加入场加一场庭辩约 2.5–4 小时，且那天进不了楼参观</strong>。4–6 月高峰期安检另加 20–30 分钟",
           "book": "<strong>不需预约。</strong>Courtroom Lecture 也不预约，<strong>队伍在一层 Great Hall、法庭门外现场排</strong>，官方建议提前至少 15 分钟到（春夏更早）。若想旁听庭辩（10 月 5、6、7、13、14 日 10:00 开庭），目前是「在线抽签＋当日先到先坐」的试点并行：当日队伍在 East Capitol Street 一侧人行道排，约 9:30 开始放人入座",
-          "ticket": "<strong>免费</strong>",
-          "hours": "官方原文：<strong>「The Supreme Court Building is open Monday to Friday from 9 a.m. to 3 p.m. It is closed on weekends and all federal holidays.」</strong><strong>Courtroom Lecture：周一至周五 10:30、11:30、12:30、13:30、14:30，联邦假日与法院开庭日不办</strong>，且「subject to cancellation due to Court business and… volunteer docent availability」。<strong>2026 年 10 月开庭日为 10/5、10/6、10/7、10/13、10/14；10/12 Columbus Day 全馆闭馆。</strong>官方另有一句必须照做的话：<strong>「the business of the Court may affect public access to the building and visitor programs. Please check Today at the Court on the homepage」</strong>——出发当天刷 supremecourt.gov 首页的 Today at the Court",
+          "ticket": "<strong>免费，而且不需要任何票。</strong>官方原文「Admission is free」「No, the building is open to the public and all visitor programming is free and available on a first-come, first-served basis」——<strong>建筑参观、Courtroom Lecture、展览与旁听庭辩全部不售票、不发票、不预约，一律现场先到先得</strong>。<strong>2026-09-14 核实于 supremecourt.gov</strong>",
+          "hours": "官方原文：<strong>「The Supreme Court Building is open Monday to Friday from 9 a.m. to 3 p.m. It is closed on weekends and all federal holidays.」</strong>（2026-09-14 核实）<strong>另有一条同等重要：「The Supreme Court Building will otherwise be closed to the public when the Court is in session.」——开庭日不对一般参观者开放。</strong><strong>Courtroom Lecture：周一至周五 10:30、11:30、12:30、13:30、14:30，联邦假日与法院开庭日不办</strong>，且「subject to cancellation due to Court business and… volunteer docent availability」。<strong>2026 年 10 月开庭日为 10/5、10/6、10/7、10/13、10/14；10/12 Columbus Day 全馆闭馆。</strong>官方另有一句必须照做的话：<strong>「the business of the Court may affect public access to the building and visitor programs. Please check Today at the Court on the homepage」</strong>——出发当天刷 supremecourt.gov 首页的 Today at the Court",
           "parking": "<strong>无游客停车场</strong>，周边为 Capitol Hill 居民区限时表位。Metro <strong>Capitol South</strong>（Blue／Orange／Silver 线）或 <strong>Union Station</strong>（Red 线）",
           "walk": "Metro Capitol South 站步行约 <strong>620 米 / 8 分钟</strong>；Union Station 站约 <strong>850 米 / 11 分钟</strong>。<strong>入口不在正面大台阶上</strong>，而在 plaza 层大台阶左右两侧的门（Northwest Door 与 Southwest Door），无障碍入口在 Maryland Avenue 一侧。开庭日 7:30 起对公务与旁听者开门"
         },
@@ -2499,6 +2591,7 @@ var REGIONS = [
         "n": 3,
         "name": "美国国会大厦",
         "en": "United States Capitol",
+        "must": 5,
         "score": 5,
         "tldr": "West Front 日落是本区第一机位；East Front 脚手架报废至 2028；导览免费但建议提前 90 天订。",
         "tags": [
@@ -2527,8 +2620,16 @@ var REGIONS = [
           "穹顶是 1855–1866 年在南北战争期间建成的<strong>铸铁</strong>结构，8,909,200 磅、由 Thomas U. Walter 设计，用来替换 Charles Bulfinch 那个矮而扁的木石穹顶。<strong>林肯坚持在战争最激烈的时候继续施工</strong>，理由是「如果人们看到穹顶继续建下去，就会知道联邦会继续存在下去」——顶端的 Statue of Freedom 最后一块在 1863 年 12 月 2 日安装完成",
           "Rotunda 直径 96 英尺、地面到穹顶内壁 180 英尺，顶部是 Constantino Brumidi 1865 年完成的《The Apotheosis of Washington》壁画，<strong>面积 4,664 平方英尺，画在距地面 180 英尺的凹面上；Brumidi 当年 65 岁，吊在脚手架上画了 11 个月</strong>。这块壁画是全楼唯一值得带广角来的目标",
           "National Statuary Hall 是 1807–1857 年的旧众议院议场，半圆形加希腊复兴式穹顶。<strong>它有一个著名的声学缺陷：穹顶把声音聚焦到特定几个点上，站在某些位置能听清房间对面的私下交谈</strong>——据说当年 John Quincy Adams 就是靠这一点在自己座位上偷听政敌。现在 50 个州各出两座雕像的收藏散布全楼，Statuary Hall 内只放 38 座",
-          "<strong>本次最关键的坏消息：East Front 从 2026 年夏起进入 AOC 石材保护工程第 4 期，脚手架加防尘罩，官方预计 2028 年秋完工。</strong>而 West Front（Phase 3）已于 2024 年完工、立面干净。→ <strong>把全部外景预算压到西侧，东侧只当作走进 Visitor Center 的通道</strong>",
-          "<strong>国会是否开会，对拍照几乎没有意义。</strong>官方禁止在 House／Senate Gallery 携带 <strong>「battery operated electronic devices」</strong>——相机与手机全部要在旁听席门口的寄存台交出。所以旁听席只是「看」的价值，不是机位。参考数据：<strong>众议院选前的最后一个投票日是 9 月 17 日</strong>——领导层已于 9 月 3 日取消了 9/21 与 9/28 两周的投票，之后一路休会到 11 月 9 日复会（11 月 3 日中期选举）；<strong>参议院 10 月 5 日至 11 月 6 日为 State Work Period</strong>。→ <strong>你 10/21–10/25 在 DC 的整段时间，两院都不开会。</strong>好处是这段休会长于一周，因此<strong>参议院旁听席按规定应当开放</strong>（平日 9:00 至 16:00–16:15），众议院旁听席在不开会时也照常开放（平日 9:00–16:00）——两边都进得去，只是里面空着。既然相机本来就要寄存，空场反而没有损失"
+          "<strong>2026 至 2028 年间最关键的一条外观限制：East Front 从 2026 年夏起进入 AOC 石材保护工程第 4 期，脚手架加防尘罩，官方预计 2028 年秋完工。</strong>而 West Front（Phase 3）已于 2024 年完工、立面干净。→ <strong>在这段工期内，东立面只适合当作走进 Visitor Center 的通道，外观欣赏与取景重心全部在西侧</strong>",
+          "<strong>旁听席（House／Senate Gallery）是导览之外的第二层体验，规则完全独立。</strong>它不含在 Capitol 导览里、需要单独的通行证，而且<strong>官方禁止在旁听席携带「battery operated electronic devices」</strong>——相机、手机、平板、智能手表全部要在门口的寄存台交出，所以这是一段纯观看的行程。能不能看到真正的议事，取决于两院会期：<strong>以 2026 年秋季为例（2026-09-14 核实），众议院选前最后一个投票日为 9 月 17 日，之后休会至 11 月 9 日复会（11 月 3 日中期选举）；参议院 10 月 5 日至 11 月 6 日为 State Work Period</strong>。→ <strong>休会期间旁听席通常照常开放但议场空着</strong>：众议院不开会时平日 9:00–16:00 开放，参议院则只在长于一周的休会期内平日 9:00 至 16:00–16:15 开放。会期年年不同，出行前请查 house.gov 与 senate.gov 的日程表"
+        ],
+        "tour": [
+          "<strong>第一件事是搞清楚「免费」和「要不要票」是两件事：导览完全免费，但强烈建议提前订。</strong>官方原文是「Reservations are recommended for a tour」与「We welcome visitors without reservations. Our staff will put you on the next available tour」（2026-09-14 核实）——<strong>即预约非强制，无预约者会被安排进下一个有空位的场次，但官方要求「最迟 14:30 前入场」</strong>。免费定时票滚动提前 90 天在 visitthecapitol.gov 放出。<strong>3–7 月是旺季，那段时间不订基本等于赌运气；9–10 月当天票拿到的概率不低，代价是排队时间</strong>",
+          "<strong>历史厅室只能跟导览进，没有自由参观。</strong>官方原文「Visitors wishing to see the rooms of the historic Capitol must be on a guided tour. We do not offer self-guided tours.」导览全程约 45–60 分钟，由官方讲解员带，固定走 <strong>Crypt → Rotunda → National Statuary Hall</strong> 三处（路线随时可能调整）。<strong>Rotunda 的 Brumidi 穹顶壁画与 Statuary Hall 的声学奇观是全程两个真正的高光</strong>；Crypt 相对平淡，但它是导览的必经起点。此外还有约 12 分钟的介绍影片《Out of Many, One》，通常安排在导览之前",
+          "<strong>旁听参议院／众议院议事需要另外的通行证，而且外国游客有专门渠道。</strong>美国公民向本国国会议员（本选区众议员／本州参议员）办公室索取；<strong>外国游客持本国有效身份证件（护照即可）到 Visitor Center 上层的 House 与 Senate Appointment Desk 现场索取，无需事先申请</strong>（官方原文「International visitors with a valid international ID should request Gallery Passes from the House and Senate Appointment Desks in the Capitol Visitor Center」，2026-09-14 核实）。通行证不可转让但<strong>可以反复使用</strong>。旁听席入口在上层，需二次安检",
+          "<strong>不跟导览也有值得看的部分，而且不需要票：Exhibition Hall</strong>（下层，Statue of Freedom 石膏原模后方，8:30–16:30）有国会立法史的互动展与可触摸模型，还展出林肯第二次就职典礼用过的桌子；Emancipation Hall 本身是一个 20 米高的地下大厅。<strong>只逛 Visitor Center 而不参加导览完全可行，约 45–60 分钟</strong>",
+          "<strong>流程上的坑集中在安检与「没有寄存」这两点。</strong>入口在东侧地下的 Capitol Visitor Center，全员过磁力门加行李 X 光；<strong>包的尺寸上限 18\" 宽 × 14\" 高 × 8.5\" 深，而楼内没有大件寄存柜</strong>，超尺寸的包只能拿回车上或酒店。<strong>食品与饮料在 Capitol 与 Visitor Center 内一律禁带</strong>（连未开封的都不行，餐厅买的食物也不许带出餐厅），<strong>空水瓶可以带、进去再灌</strong>。安检 9–10 月通常 10–20 分钟、旺季 30–45 分钟，请在场次前 45–60 分钟到",
+          "<strong>餐饮与卫生间：Capitol Cafe 在下层（周一至六 8:30–16:00），礼品店在上层（9:00–16:30），全馆共八处卫生间且全部无障碍，哺乳室在 Capitol Cafe 南侧。</strong>这是本区少数能坐下来吃东西的联邦建筑（Library of Congress 楼内完全没有餐饮），值得把这一天的午餐放在这里。<strong>另外上层 House Appointment Desk 附近有直通 Library of Congress 的地下通道</strong>，雨天串这两个点不必出到地面"
         ],
         "photo": "建筑 <strong>5/5</strong>，风光 <strong>3.5/5</strong>，人像 <strong>3/5</strong>。西立面加反射池是华盛顿最经典的建筑构图之一，且日落方位几乎正对轴线；扣分是东立面施工、三脚架要许可、以及室内只能跟团走。",
         "shots": [
@@ -2578,9 +2679,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "<strong>强烈建议预约，但不是强制。</strong>免费定时导览票<strong>滚动提前 90 天</strong>在 <a href=\"https://www.visitthecapitol.gov/visit/book-a-tour\">visitthecapitol.gov/visit/book-a-tour</a> 自助预订，或通过参众议员办公室（公众申请窗口 7–90 天）；也可电话 202.226.8000。<strong>官方要求参观前至少 2 天补齐每位参观者姓名。</strong>没预约照样能进：Emancipation Hall 的 Information Desk 每天发放限量当天票，<strong>官方建议最迟 14:30 前到场</strong>。<strong>House／Senate Gallery 不含在导览内，需另领通行证</strong>——外国访客<strong>持本国有效身份证件（护照）到 Visitor Center 上层的 House 与 Senate Appointment Desk 现场索取</strong>，无需事先申请。中文导览每日 8:40 一场，需提前预约",
-          "ticket": "<strong>完全免费</strong>，进 Visitor Center 与参加导览都不收费",
-          "hours": "官方原文：<strong>「The Capitol Visitor Center is open Monday-Saturday from 8:30 a.m.-4:30 p.m.」，周日闭馆</strong>，另于 Thanksgiving、Christmas Day、New Year's Day、Inauguration Day 闭馆。<strong>导览场次 8:40–15:20，最后一场 15:20 开始</strong>。Exhibition Hall 8:30–16:30，Capitol Cafe 8:30–16:00，礼品店 9:00–16:30。旁听席：<strong>House Gallery 在众议院不开会时平日 9:00–16:00 开放</strong>、周末与假日闭馆（除非在开会），且「subject to unplanned, temporary closures」；<strong>Senate Gallery 仅在一周以上的休会期内平日 9:00–16:15 开放</strong>，不足一周的休会期不开。<strong>官方另有一句必须记住的话：「The U.S. Capitol is subject to the unscheduled suspension of tours」</strong>——临时停团随时可能，出发当天再刷一次首页",
+          "visit": "<strong>2–3 小时</strong>（安检 15–30 分钟 ＋ 介绍影片 12 分钟 ＋ 导览 45–60 分钟 ＋ Exhibition Hall 30–45 分钟）。<strong>只参加导览、不看展：约 90 分钟</strong>，含到场缓冲。<strong>加上旁听席：再加 45–60 分钟</strong>（另领通行证、二次安检、门口寄存电子设备）。<strong>不进楼、只在 West Front 与 Capitol Grounds 外围走一圈：40–60 分钟</strong>。官方未给出建议时长，以上按导览 45–60 分钟的官方口径加展厅规模推算",
+          "book": "<strong>强烈建议预约，但不是强制。</strong>免费定时导览票<strong>滚动提前 90 天</strong>在 <a href=\"https://www.visitthecapitol.gov/visit/book-a-tour\">visitthecapitol.gov/visit/book-a-tour</a> 自助预订，或通过参众议员办公室（公众申请窗口 7–90 天）；也可电话 202.226.8000。<strong>官方要求参观前至少 2 天补齐每位参观者姓名。</strong>没预约照样能进：Emancipation Hall 的 Information Desk 每天发放限量当天票，<strong>官方建议最迟 14:30 前到场</strong>。<strong>House／Senate Gallery 不含在导览内，需另领通行证</strong>——外国访客<strong>持本国有效身份证件（护照）到 Visitor Center 上层的 House 与 Senate Appointment Desk 现场索取</strong>，无需事先申请。中文导览每日 8:40 一场，需提前预约。<strong>以上于 2026-09-14 核实于 visitthecapitol.gov</strong>",
+          "ticket": "<strong>完全免费</strong>，进 Visitor Center 与参加导览都不收费（官方原文「All tours, programs and activities are free of charge」）。<strong>但「免费」不等于「不用票」：导览要占一个定时场次的名额</strong>——提前订是免费定时票，没订则由工作人员现场安排进下一个有空位的场次。<strong>Exhibition Hall、Emancipation Hall 与 Capitol Cafe 完全不需要任何票。旁听席另需免费通行证。2026-09-14 核实于 visitthecapitol.gov</strong>",
+          "hours": "官方原文：<strong>「The Capitol Visitor Center is open Monday-Saturday from 8:30 a.m.-4:30 p.m.」，周日闭馆</strong>（2026-09-14 核实），另于 Thanksgiving、Christmas Day、New Year's Day、Inauguration Day 闭馆。<strong>导览场次 8:40–15:20，最后一场 15:20 开始</strong>。Exhibition Hall 8:30–16:30，Capitol Cafe 8:30–16:00，礼品店 9:00–16:30。旁听席：<strong>House Gallery 在众议院不开会时平日 9:00–16:00 开放</strong>、周末与假日闭馆（除非在开会），且「subject to unplanned, temporary closures」；<strong>Senate Gallery 仅在一周以上的休会期内平日 9:00–16:15 开放</strong>，不足一周的休会期不开。<strong>官方另有一句必须记住的话：「The U.S. Capitol is subject to the unscheduled suspension of tours」</strong>——临时停团随时可能，出发当天再刷一次首页",
           "parking": "<strong>Capitol Grounds 内没有游客停车场，不要开车来。</strong>周边 Capitol Hill 街边为居民区限时表位，执法很严。若必须开车，Union Station 停车楼（50 Massachusetts Ave NE）是最近的大型车库，步行约 15 分钟。<strong>公共交通是唯一合理方案</strong>：Metro <strong>Capitol South</strong> 站（Blue／Orange／Silver 线）最近；反射池一侧用 Federal Center SW 或 Smithsonian 站更近",
           "walk": "Metro Capitol South 站到 Visitor Center 东侧入口约 <strong>530 米 / 7 分钟</strong>；到 Capitol Reflecting Pool 约 <strong>830 米 / 11 分钟</strong>（绕行 Capitol Grounds，实际更远，建议改走 Federal Center SW）。<strong>安检队伍在旺季可排 30–45 分钟，9–10 月通常 10–20 分钟，请在场次前 45–60 分钟到场</strong>"
         },
@@ -2613,6 +2715,7 @@ var REGIONS = [
         "n": 4,
         "name": "国会图书馆 · 杰斐逊大楼",
         "en": "Library of Congress · Thomas Jefferson Building",
+        "must": 4.5,
         "score": 5,
         "tldr": "全美最美室内空间之一；免费但需 30 天前抢定时票，周日周一闭馆，法规明文禁三脚架。",
         "tags": [
@@ -2643,6 +2746,14 @@ var REGIONS = [
           "Great Hall 是入口大厅：<strong>双层柱廊、彩色大理石地面上镶嵌黄铜的黄道十二宫，天花是彩色玻璃加金箔的格状藻井</strong>，二层回廊能俯视整个大厅。这里没有 Main Reading Room 的时段限制，是本楼<strong>唯一可以慢慢磨构图的空间</strong>",
           "<strong>Main Reading Room 有两种看法，规则完全不同：</strong>（1）<strong>二层 Overlook</strong>——从 Great Hall 二层进入，隔玻璃俯拍整个阅览室，随定时票开放；（2）<strong>地面 5 分钟 walkthrough</strong>——官方原文「short, 5-minute walkthroughs around the center desk」，绕中央出纳台走一圈，<strong>仅周二至周五 10:30–11:30 与 14:00–15:00，加周四晚 17:00–19:00；周六不办</strong>。免费票在 Great Hall 现场发，<strong>每场开始前 10 分钟起、先到先得</strong>",
           "<strong>关于「限制摄影日」：没有查到任何针对特定日期的摄影禁令，但有一条 2026 年新生效的联邦法规必须知道。</strong>2026 年 3 月 19 日生效的 36 C.F.R. 702.4 把参观者的手持拍摄定义为「informal photography for personal use」并明确允许，但<strong>把 tripods 与任何「rest on surfaces」的支撑装置、外置补光、外接麦克风、道具、背景布全部归为禁用的 supplemental equipment</strong>。要用这些只能申请 formal photography 许可，而<strong>许可只在周一发放——也就是大楼对公众关闭的日子</strong>"
+        ],
+        "tour": [
+          "<strong>进门前必须先解决票：这里是本区唯一「无票不得入楼」的点。</strong>官方原文「Free timed-entry tickets are required to enter the Library's Thomas Jefferson Building」「Every Library of Congress visitor, regardless of age, must reserve timed-entry passes」（2026-09-14 核实）。<strong>票免费，滚动提前 30 天在 loc.gov/visit 放出，单人最多订 20 张；另有免费当天票，每个开放日 9:00 ET 在线释放</strong>——当天票是最可靠的补救路径，没订到的话定好闹钟比排队有用。<strong>入口在 1st Street SE 侧、正面大台阶下方的地面层门</strong>，不是台阶顶上那扇；在这里扫码验票并过机场式安检",
+          "<strong>四件绝对不能错过的东西，按楼层排好路线走：</strong>（1）<strong>Great Hall</strong>（一层入口大厅）——双层柱廊、黄道十二宫黄铜地面镶嵌、金箔藻井，这是全楼第一印象也是最自由的空间；（2）<strong>Gutenberg Bible</strong>（一层，Great Hall 旁的 Evolution of the Written Word 展廊，常设）——全世界少数几部完整犊皮纸本之一，为保护书页会定期换页，上方六幅 1897 年壁画讲文字载体的演变；（3）<strong>Main Reading Room</strong>（见下条）；（4）<strong>David M. Rubenstein Treasures Gallery</strong>（二层）——2024 年新开的常设珍品厅，<strong>2026 年 7 月 3 日至 2027 年 7 月 3 日的展览是「The Declaration's Promise: A Revolutionary Idea」，121 件展品，核心是 Thomas Jefferson 亲笔的《独立宣言》初稿（带 John Adams 与 Benjamin Franklin 的修改痕迹）</strong>。二层还有常设的 Thomas Jefferson's Library（西南馆，杰斐逊卖给国会的藏书原物环形陈列）",
+          "<strong>Main Reading Room 有两种看法，规则完全不同，别搞混：</strong>（1）<strong>二层 Visitor Gallery / Overlook</strong>——从 Great Hall 上二层，隔玻璃俯视整个八角形阅览室，<strong>凭定时票即可，全开放时段都在</strong>；（2）<strong>一层地面 walkthrough</strong>——官方原文「short, 5-minute walkthroughs around the center desk」，真正走进房间绕中央出纳台一圈，<strong>仅周二至周五 10:30–11:30 与 14:00–15:00，另加周四晚 17:00–19:00；周六不办</strong>（2026-09-14 核实）。<strong>walkthrough 的免费票在 Great Hall 现场发、每场开始前 10 分钟起先到先得</strong>，请提前 20 分钟去排；校团不得参加。→ <strong>想真正进阅览室，就只能挑周二至周五来，且必须卡住那两个时段</strong>",
+          "<strong>Capitol 与这里之间有地下通道，不必出到地面。</strong>从 Capitol Visitor Center <strong>上层、House Appointment Desk 附近</strong>下入通道，穿过后从 Jefferson Building 地下层上来。全程室内，雨天或酷暑时比地面绕行舒服得多。<strong>但注意：走通道过来仍要在 LOC 一侧独立安检并出示定时票</strong>，通道不能代替票。地面走法是从 Capitol Visitor Center 东出口沿 1st Street SE 南行约 400 米",
+          "<strong>可以跳过的部分与省时办法：</strong>没有官方导览，馆内靠巡场志愿者答疑；<strong>官方另有免费的手机音频导览（loc.gov/visit/audio-guide），是自助逛这栋楼最有效率的工具</strong>。时间紧的话，<strong>Great Hall ＋ Gutenberg Bible ＋ 二层 Overlook 三站约 45 分钟就能拿下全楼八成价值</strong>，Treasures Gallery 与 Jefferson's Library 属于「有兴趣再看」。<strong>客流高峰是 10:00–12:00，官方明说这段时间 Main Reading Room Overlook 会排长队</strong>；<strong>14:00–16:00 与周四 17:00–20:00 的延长时段人最少</strong>",
+          "<strong>寄存有、餐饮完全没有，这是安排一天行程时的硬约束。</strong>地下层（Ground Floor）有<strong>免费 coat check，背包、外套、婴儿车可免费寄放</strong>，包尺寸上限与 Capitol 同为 18\" × 14\" × 8.5\"。<strong>与 Capitol 不同，LOC 允许带入原包装的食品饮料</strong>，但<strong>楼内没有任何餐饮设施</strong>，官方直接建议进楼前吃饱喝足——午饭请放在 Capitol Visitor Center 的 Capitol Cafe 或 Union Station。周四晚的「Live! at the Library」是例外：Great Hall 有付费酒饮与小食。卫生间在地下层与一层，走完全部公共空间约 0.8 公里"
         ],
         "photo": "建筑 <strong>5/5</strong>，人像 <strong>3.5/5</strong>（法规禁止摆拍与「directing subjects」），风光 <strong>0.5/5</strong>。本区乃至全华盛顿最强的室内建筑摄影目标；扣分全部来自规则：定时票、闭馆日、5 分钟限时、禁三脚架。",
         "shots": [
@@ -2684,9 +2795,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>1.5–2.5 小时</strong>：Great Hall 20–30 分钟 ＋ Gutenberg Bible 与 Written Word 展廊 10–15 分钟 ＋ 二层 Overlook 15–25 分钟（含排队）＋ Treasures Gallery 30–45 分钟 ＋ Thomas Jefferson's Library 15 分钟。<strong>只看重点（Great Hall ＋ Gutenberg Bible ＋ Overlook）约 45 分钟</strong>。<strong>官方口径是走完全部公共空间约 90 分钟、步行约 0.8 公里</strong>；想赶上一层 Main Reading Room 的 5 分钟 walkthrough，请在票面时段之外再留 30 分钟（提前 20 分钟排队领票 ＋ 5 分钟入场）。安检另计 5–15 分钟",
           "book": "<strong>必须有免费定时票（timed-entry ticket）才能进楼，无票不得入内</strong>，官方原文：「Every Library of Congress visitor, regardless of age, must reserve timed-entry passes」。放票规则：<strong>滚动提前 30 天</strong>在 <a href=\"https://www.loc.gov/visit/\">loc.gov/visit</a> 经 Etix 系统预订，单次最多 20 人；<strong>另有当天票，每个开放日 9:00 ET 在线释放</strong>，这是最可靠的补救路径。票不可转让、不可改期，取消需发信 visit@loc.gov。20 人以上团体走 group registration form，可提前 60 天、需约 3 个工作日审核。<strong>周四晚 17:00 起的「Live! at the Library」需另一张专用票，白天的定时票在周四 16:30 后失效</strong>。Main Reading Room 地面 walkthrough 不预约，现场先到先得",
-          "ticket": "<strong>免费</strong>（定时票也免费）",
-          "hours": "官方原文：<strong>「The Thomas Jefferson Building is open to visitors Tuesday through Saturday from 10 a.m. to 5 p.m.」，「Closed: Sundays, Mondays, and select federal holidays」，周四延长至 20:00</strong>。<strong>最后入场 16:30</strong>（周四晚场另计）。<strong>Main Reading Room 地面 walkthrough：周二至周五 10:30–11:30 与 14:00–15:00，周四另有 17:00–19:00；周六不办。</strong>Library Store 周二至周三、周五至周六 10:00–17:00，周四 10:00–20:00。<strong>注意：阅览室对持证研究者是另一套时间表（含周一开放），与游客时段无关</strong>。10 月 12 日 Columbus Day 属联邦假日，预计闭馆，请以官网首页公告为准",
+          "ticket": "<strong>免费，但必须持票——这两件事在这里是分开的。</strong>参观不收一分钱（定时票本身也免费），可是<strong>没有票就进不了楼</strong>，这一点和 Capitol（无票只需排队等场次）、Supreme Court、Union Station、Botanic Garden（完全不需要票）都不一样，是全区唯一的硬门槛。官方给出的理由是「as part of a greater congestion management strategy」。<strong>2026-09-14 核实于 loc.gov/visit</strong>",
+          "hours": "官方原文：<strong>「The Thomas Jefferson Building is open to visitors Tuesday through Saturday from 10 a.m. to 5 p.m.」，「Closed: Sundays, Mondays, and select federal holidays」，周四延长至 20:00</strong>（2026-09-14 核实于 loc.gov/visit）。<strong>最后入场 16:30</strong>（官方原文「Last entry for visitors is 30 minutes prior to closing」，周四晚场另计）。<strong>Main Reading Room 地面 walkthrough：周二至周五 10:30–11:30 与 14:00–15:00，周四另有 17:00–19:00；周六不办。</strong>Library Store 周二至周三、周五至周六 10:00–17:00，周四 10:00–20:00。<strong>注意：阅览室对持证研究者是另一套时间表（含周一开放），与游客时段无关</strong>。10 月 12 日 Columbus Day 属联邦假日，预计闭馆，请以官网首页公告为准",
           "parking": "<strong>无游客停车场。</strong>周边 Capitol Hill 为居民区限时表位，执法严格，不建议开车。Metro <strong>Capitol South</strong> 站（Blue／Orange／Silver 线）最近；也可从 Union Station（Red 线）步行约 1.1 公里",
           "walk": "Metro Capitol South 站到大楼西侧游客入口约 <strong>410 米 / 5–6 分钟</strong>。<strong>入口在 1st Street SE、Independence Ave 与 East Capitol Street 之间的大台阶下方</strong>（不是正面大台阶上的门），定时票在这里扫码，出入同一个口。安检为「airport-like」，9–10 月通常 5–15 分钟（旺季 3–7 月会明显更久）。<strong>也可从 Capitol Visitor Center 上层走地下隧道过来</strong>"
         },
@@ -2719,6 +2831,7 @@ var REGIONS = [
         "n": 5,
         "name": "美国植物园温室",
         "en": "United States Botanic Garden Conservatory",
+        "must": 3,
         "score": 3.5,
         "tldr": "本区唯一雨天备案：免费不预约、每天 10:00–17:00；三脚架需提前一周申请许可。",
         "tags": [
@@ -2746,7 +2859,15 @@ var REGIONS = [
         "highlights": [
           "<strong>1820 年设立，是北美持续运营时间最长的植物园</strong>，构想直接来自 George Washington、Thomas Jefferson 与 James Madison。现在的玻璃温室（Conservatory）建于 1933 年、2001 年完成大修，馆藏超过 <strong>9,500 个登录号、44,000 余株植物</strong>，从沙漠到热带雨林到兰花分区展示。它由 Architect of the Capitol 管理，行政上属立法机构",
           "<strong>本条目在这一区的真正价值不是植物，而是三件事：它是唯一每天开放的点（仅 12 月 25 日闭馆）、唯一完全不需要票或预约的室内空间、以及唯一像样的雨天与阴天备案。</strong>Capitol 周日关、Library of Congress 周日周一关、Supreme Court 周末关——这里永远开着",
-          "选点说明：<strong>任务里给的备选是 Bartholdi Fountain 或 Capitol Reflecting Pool，我选择保留 Botanic Garden Conservatory 为主条目，并把 Bartholdi Fountain 收进本条目做一个机位</strong>（两者相距仅 240 米、同属 USBG 管辖、Bartholdi 独立成条太单薄）；Capitol Reflecting Pool 则已作为 U.S. Capitol 条目的第一机位处理。<strong>Bartholdi Fountain 是 Frédéric Auguste Bartholdi 为 1876 年费城百年博览会所作，同一位作者八年后完成了自由女神像</strong>，这座「Fountain of Light and Water」1877 年由联邦买下移来华盛顿"
+          "<strong>本条目把南侧的 Bartholdi Fountain and Gardens 一并收入</strong>：它与温室相距仅 240 米、同属 USBG 管辖，不必当成两个点分别安排。<strong>这座「Fountain of Light and Water」是 Frédéric Auguste Bartholdi 为 1876 年费城百年博览会所作，同一位作者八年后完成了自由女神像</strong>，1877 年由联邦买下移来华盛顿。<strong>它开放到 dusk，比温室的 17:00 关门宽得多，是这一区最安静、也最少人知道的角落</strong>"
+        ],
+        "tour": [
+          "<strong>先把定位说清楚：这是「有兴趣再去」的一档，不是必去。</strong>如果一趟华盛顿只有一两天，Capitol 与 Library of Congress 的优先级远在它之上。<strong>但它有三个别处没有的功能：唯一每天开放（仅 12 月 25 日闭馆）、唯一完全不需要票也不需要预约的室内空间、唯一像样的雨天与酷暑备案。</strong>Capitol 周日关、Library of Congress 周日周一关、Supreme Court 周末与假日关——<strong>周日到 Capitol Hill 的话，这里和 Union Station 就是仅剩的两个选择</strong>",
+          "<strong>Conservatory 的走法：从 West Gallery 进，顺时针一圈，重点是中央的 Tropics。</strong><strong>Tropics（热带雨林房）是全馆最高的空间，有一条环绕上层的高架步道，可以走到棕榈冠层的高度俯看整个房间——这是全馆唯一不可替代的体验</strong>，别只在地面绕。其余分区按主题排：<strong>Desert（沙漠）、Orchids（兰花，馆藏五千余株、常年轮换开花个体）、Medicinal Plants、Garden Primeval（古植物）、Hawaii、Plant Adaptations</strong>。<strong>馆藏超过 9,500 个登录号、44,000 余株植物。整馆不大，半小时能走完一圈，一小时算逛得仔细</strong>",
+          "<strong>三处户外附属区域开放时间各不相同，别按同一个时间安排：</strong>（1）<strong>National Garden</strong>（温室西侧的围栏花园，含 Rose Garden、Regional Garden、Butterfly Garden 与一个下沉式圆形石阶 Amphitheater）；（2）<strong>Bartholdi Fountain and Gardens</strong>（温室南侧、跨过 Independence Avenue 约 240 米，<strong>dawn to dusk 开放，时间最宽</strong>）——<strong>这座 1876 年费城百年博览会的「Fountain of Light and Water」出自 Frédéric Auguste Bartholdi，同一位作者八年后完成了自由女神像</strong>，1877 年由联邦买下移来华盛顿，是这一带最冷清也最安静的角落；（3）温室本体。<strong>想一次看完，把 Bartholdi 放在最前或最后（它不受温室 17:00 关门限制）</strong>",
+          "<strong>流程上几乎没有坑，这是它最大的优点。</strong><strong>安检比本区其他四个联邦建筑轻得多、通常不排队</strong>，不需要票、不需要预约、没有定时场次。<strong>没有寄存服务，但也没有包尺寸限制</strong>。<strong>可以带食品饮料进园</strong>，户外有桌椅（<strong>但户外垃圾桶很少，官方要求自行带走垃圾</strong>）。<strong>无人机与外置闪光灯、大件配件设备明确禁止；三脚架与画架需提前至少一周申请许可</strong>，高峰时段即便有许可也不得使用",
+          "<strong>餐饮、卫生间与饮水：园内没有正式餐厅</strong>——官方口径是夏季周末有第三方 Vintage Views 售卖咖啡、柠檬水与轻食（<strong>「through the end of summer」，九月下旬起可能已停，2026-09-14 核实</strong>）。<strong>卫生间在 Conservatory 南侧，附近有饮水机与灌瓶点；男女卫生间都有无障碍设施与婴儿换洗台。</strong>另外 <strong>West Gallery、East Gallery 与 South Transition 三处是空调区</strong>，夏天可以进去降温。礼品店在 West Gallery",
+          "<strong>湿度是这里最实际的技术障碍，对相机和眼镜一样。</strong>Tropics 与 Jungle 房间常年高湿高温，<strong>从室外直接进去镜头与眼镜必然起雾、需 5–15 分钟恢复</strong>。对策：<strong>进门先逛干燥的 Desert 区过渡，把相机装包内静置，随身两三块超细纤维布</strong>。<strong>官方建议平日 10:00–11:00 到（避开学生团）</strong>；人最少的是平日午后"
         ],
         "photo": "建筑 <strong>3.5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>2.5/5</strong>。温室的钢骨玻璃结构加高架步道能出不错的室内建筑构图，热带区的柔散射光对人像非常友好；扣分是空间不大、玻璃结构本身不如本区其他四栋建筑有分量。",
         "shots": [
@@ -2772,13 +2893,14 @@ var REGIONS = [
               38.888102,
               -77.014182
             ],
-            "desc": "坐标为 OSM 的 National Garden 实体（relation/12300247），在温室西侧。<strong>开放时间 7:30–17:00</strong>——注意<strong>4 月 1 日至 9 月 15 日才延长到 19:00，本次窗口（9 月下旬起）已恢复 17:00 关门</strong>，也就是说<strong>整个 9 月下旬至 10 月下旬，这个户外花园都赶不上日落</strong>（日落 19:00 / 18:19），请不要按黄金时段规划。<strong>可用的最佳时段是 15:30–17:00</strong>，斜射光加 Rose Garden 与 Regional Garden 的植栽、背景是 Capitol 穹顶。<strong>35–85mm</strong>，用花做前景虚化、穹顶压在背景。园内的 Amphitheater（38.8879, -77.0147）是一个下沉式圆形石阶空间，可作封闭式人像背景。<strong>10 月下旬 DC 的多年生植栽已过盛期</strong>，别期待花墙。"
+            "desc": "坐标为 OSM 的 National Garden 实体（relation/12300247），在温室西侧。<strong>开放时间 7:30–17:00</strong>——注意<strong>官方正文口径是 4 月 1 日至 9 月 15 日才延长到 19:00，其余时间 17:00 关门</strong>（同页页首另有「7:30 到 19:00 全年」的矛盾写法，见 access.hours），也就是说<strong>九月中旬至次年三月底这个户外花园赶不上日落</strong>（十月下旬日落 18:19），秋冬季请不要按黄金时段规划。<strong>可用的最佳时段是 15:30–17:00</strong>，斜射光加 Rose Garden 与 Regional Garden 的植栽、背景是 Capitol 穹顶。<strong>35–85mm</strong>，用花做前景虚化、穹顶压在背景。园内的 Amphitheater（38.8879, -77.0147）是一个下沉式圆形石阶空间，可作封闭式人像背景。<strong>10 月下旬 DC 的多年生植栽已过盛期</strong>，别期待花墙。"
           }
         ],
         "access": {
-          "book": "<strong>不需预约。</strong>官方原文：「Admission to the U.S. Botanic Garden is free. No tickets required.」<strong>唯一需要提前申请的是三脚架许可</strong>：提前至少一周写信给 Visitor Services Coordinator Victoria Gesell（victoria.gesell@aoc.gov），或到 Conservatory 服务台现场申请，<strong>官方明说「same-day permit requests are not guaranteed」</strong>",
-          "ticket": "<strong>完全免费</strong>",
-          "hours": "官方原文：<strong>Conservatory「10 a.m. to 5 p.m. daily (closed Dec. 25)」</strong>；<strong>Bartholdi Fountain and Gardens「Dawn to dusk」</strong>；<strong>National Garden（gated outdoor gardens）7:30–17:00，仅 4/1–9/15 延长至 19:00</strong>——本次窗口内按 17:00 关门计。2026 年的四个夏季延长开放日（6/18、7/16、8/20 或 8/27、9/17，开到 20:00）<strong>全部早于 9 月下旬，本次窗口内没有延长开放日</strong>。礼品店在 West Gallery，随温室时间",
+          "visit": "<strong>1–1.5 小时</strong>：Conservatory 40–60 分钟（含 Tropics 高架步道 15 分钟、兰花房 10 分钟）＋ National Garden 20–30 分钟 ＋ Bartholdi Fountain 10–15 分钟。<strong>只逛 Conservatory 走一圈：30 分钟</strong>。<strong>雨天当备案用、慢慢泡在温室里：2 小时也不难打发。</strong>官方未给出建议参观时长，以上按展区数量与馆内动线推算；<strong>安检轻、通常不排队，几乎不必留缓冲时间</strong>",
+          "book": "<strong>不需预约，也不需要票——官方原文「The Conservatory… is open 10:00 a.m. to 5:00 p.m. daily (closed Dec. 25). Tickets are not required.」（2026-09-14 核实）。</strong><strong>唯一需要提前申请的是三脚架许可</strong>：提前至少一周写信给 Visitor Services Coordinator Victoria Gesell（victoria.gesell@aoc.gov），或到 Conservatory 服务台现场申请，<strong>官方明说「same-day permit requests are not guaranteed」</strong>",
+          "ticket": "<strong>完全免费，而且不需要任何票。</strong>官方原文「Tickets are not required」——<strong>和 Library of Congress 形成本区最鲜明的对照：那边免费但无票不得入楼，这边免费且不设任何入场门槛</strong>，Conservatory、National Garden 与 Bartholdi Gardens 全部随到随进。<strong>唯一需要提前申请的是三脚架／画架许可</strong>（不是入场票）。<strong>2026-09-14 核实于 usbg.gov/visit</strong>",
+          "hours": "官方原文（2026-09-14 核实于 usbg.gov/visit）：<strong>Conservatory「10 a.m. to 5 p.m. daily (closed Dec. 25)」</strong>；<strong>Bartholdi Fountain and Gardens「Dawn to dusk」</strong>。<strong>Gated Outdoor Gardens（即 National Garden）官方同一页面自相矛盾，两种口径都记下：</strong>页首的 Hours 栏写<strong>「7:30 a.m. to 7:00 daily (closed Dec. 25)」</strong>，而同页正文写<strong>「The gated outdoor gardens (\"National Garden\") are open 7:30 a.m. to 5:00 p.m. daily. These gardens have extended spring-summer hours April 1 – September 15, staying open until 7:00 p.m.」</strong>——<strong>后者更具体、也与历年惯例一致，即 9 月 16 日至 3 月 31 日按 17:00 关门；但页首那句没有季节条件，存在全年 19:00 关门的可能</strong>。<strong>9 月中旬至次年 3 月底来访请按 17:00 关门准备，到场再看门口告示</strong>。按 17:00 计的话，<strong>秋冬季这个户外花园赶不上日落</strong>（华盛顿 10 月下旬日落约 18:19）。此外 <strong>USBG 每年夏季有数个延长至 20:00 的开放日（2026 年为 6/18、7/16、8/20 或 8/27、9/17）</strong>，秋冬无此安排。礼品店在 West Gallery，随温室时间。<strong>不确定时请打 (202) 225-8333 确认</strong>",
           "parking": "<strong>无游客停车场</strong>（官方 FAQ 明确「Can I park at the Garden?」为否）。周边 Independence Avenue 与 Washington Avenue SW 有少量街边表位。Metro <strong>Federal Center SW</strong>（Blue／Orange／Silver 线）最近，<strong>Capitol South</strong> 次近，L'Enfant Plaza 也可用",
           "walk": "Metro Federal Center SW 站到 Conservatory 约 <strong>430 米 / 6 分钟</strong>；Capitol South 站约 <strong>660 米 / 9 分钟</strong>。<strong>温室到 Bartholdi Fountain 约 240 米 / 3 分钟</strong>（穿过 Independence Avenue）；温室到 Capitol Reflecting Pool 约 <strong>300 米 / 4 分钟</strong>，到 Capitol Visitor Center 约 <strong>800 米 / 11 分钟</strong>。<strong>安检比本区其他点轻得多</strong>"
         },
@@ -2787,8 +2909,8 @@ var REGIONS = [
           "<strong>「摆拍」被明确禁止</strong>：官方原文「We do not allow visitors to do photoshoots or video shoots at the Garden」，并点名婚纱、时装、孕妇、毕业、订婚与全家福。<strong>带模特来这里拍人像组图是违规的</strong>，随手抓拍同行者不受影响。专业或收费摄影一律不允许，照片不得商用",
           "<strong>湿度是本条目最实际的技术障碍。</strong>Tropics 与 Jungle 房间常年高湿高温，<strong>从室外直接进去镜头必然起雾，且需 5–15 分钟才能恢复</strong>。对策：进门前把相机装包内静置、先逛干燥的 Desert 区过渡、随身两三块超细纤维布。<strong>玻璃与叶面反光很强，一片偏振镜会明显有用</strong>",
           "<strong>无人机明确禁止</strong>（在禁带清单上），闪光灯类的「external flash equipment or bulky accessory equipment」同样不允许",
-          "<strong>本园与 Capitol、Library of Congress 一样属立法机构拨款范围，联邦停摆时会直接关门</strong>。本次窗口内因 Public Law 119-103 已覆盖至 12 月 11 日，风险很低",
-          "<strong>可以带食品饮料进园</strong>，户外有桌椅（但垃圾桶少，官方要求自行带走）；<strong>园内没有正式餐厅</strong>，仅夏季周末有第三方饮品摊，本次窗口内可能已停。有饮水机与灌瓶点",
+          "<strong>本园与 Capitol、Library of Congress 一样属立法机构拨款范围，联邦停摆时会直接关门</strong>。截至 2026-09-14，临时拨款决议（Public Law 119-103）覆盖至 2026 年 12 月 11 日；此后的状态请出行前自行复查",
+          "<strong>可以带食品饮料进园</strong>，户外有桌椅（但垃圾桶少，官方要求自行带走）；<strong>园内没有正式餐厅</strong>，官方口径是夏季周末有第三方 Vintage Views 饮品与轻食摊、「through the end of summer」，<strong>九月下旬起可能已停</strong>。有饮水机与灌瓶点（在 Conservatory 南侧卫生间附近）",
           "园内当前特展是「America's State Flowers: An America250 Celebration」（各州与属地的官方州花，活体植栽加植物插画加标本），<strong>是 2026 年独有的题材，值得顺手拍</strong>"
         ],
         "images": [
@@ -2845,8 +2967,9 @@ var REGIONS = [
       {
         "id": "dc-whitehouse",
         "n": 1,
-        "name": "白宫外景 + The People's House",
-        "en": "White House Exterior + The People's House",
+        "name": "白宫外景 + 白宫游客中心 + The People's House",
+        "en": "White House Exterior + White House Visitor Center + The People's House",
+        "must": 3.5,
         "score": 2.5,
         "tldr": "北侧 Lafayette Park、南侧 Ellipse、Pennsylvania Ave 广场目前全部封闭；The People's House 是唯一可靠的替代。",
         "tags": [
@@ -2873,6 +2996,14 @@ var REGIONS = [
           "<strong>更长期的变化正在发生：</strong>Secret Service 与 NPS、Executive Office of the President 提交了一份 79 页方案，要给这片 8 英亩的广场<strong>装一圈永久钢围栏</strong>，南北两端设大门，并封住 15th–17th 街之间 Pennsylvania Avenue 的两端。National Capital Planning Commission 已于 <strong>9 月 3 日</strong>听取反对意见并接受了多个版本，最终表决在未来几个月，<strong>希望 2027 年动工</strong>。<strong>Lafayette Square 上一次有永久围栏是 1800 年代末</strong>",
           "<strong>The People's House: A White House Experience</strong>（1700 Pennsylvania Avenue NW）是 2024 年开的免费票制博物馆，<strong>由 White House Historical Association 私营</strong>，用等比复原的 Oval Office、Cabinet Room、State Dining Room 等场景讲行政官邸的故事。<strong>它明确不提供进入白宫、西翼或白宫园区的通道</strong>，但这是现实中唯一稳定可行的「白宫内部」体验",
           "<strong>真正的白宫参观基本不用考虑。</strong>外国公民必须通过<strong>本国驻美使馆</strong>在<strong>行前 21 至 90 天</strong>提交申请，而<strong>绝大多数使馆并不为旅游目的受理此类请求</strong>。请直接按「进不去」规划，把 The People's House 当作正式替代，而不是备胎"
+        ],
+        "tour": [
+          "<strong>最重要的一条先写在最前面：外国游客实际上进不了白宫，请不要把它列进计划。</strong>白宫的公众参观<strong>不售票、不接受个人申请</strong>，只有两条通道：<strong>（1）美国公民通过本人所属的国会议员办公室（Congressional Tour Coordinator）提交</strong>，窗口是<strong>行前 21 至 90 天，早于 90 天或晚于 21 天一律不受理</strong>，先到先得；<strong>（2）外国公民必须通过本国驻华盛顿使馆提交</strong>，按使馆操作指引每份申请<strong>最多 6 人</strong>，由使馆礼宾人员经 eGov 系统代为提交。<strong>问题在于绝大多数使馆并不为旅游目的受理此类请求</strong>——没有任何机制保证一个普通外国游客能排上。<strong>请直接按「进不去」来规划，把下面几条当作正式方案，而不是退路。</strong>万一真的排上了：参观时段官方口径为 <strong>周二至周六 8:00–12:30</strong>（house.gov），联邦假日除外；<strong>入口在 Lafayette Square 东北角、H Street NW 与 Madison Place NW 交口</strong>；<strong>外国公民不论年龄都必须出示有效护照</strong>，外国驾照、身份证、过期护照、复印件与电子件一律不认，信息与登记不一致会被当场拒入；参观全程<strong>没有卫生间</strong>，且可能临时取消，当天请打 24 小时的 Visitors Office 信息线 <strong>(202) 456-7041</strong> 确认",
+          "<strong>真正该去的替代是 White House Visitor Center，而且它被严重低估了。</strong>地址 <strong>1450 Pennsylvania Avenue NW（15th Street 与 E Street NW 交口，Herbert C. Hoover Building 内）</strong>，由 <strong>NPS 运营、完全免费、不需票、不需预约</strong>，<strong>每天 7:30–16:00</strong>——是本区开门最早的地方，比所有博物馆早两个半小时。里面有<strong>白宫藏品的 90 多件实物</strong>、白宫室内的互动触屏导览、一部 <strong>14 分钟的影片《White House: Reflections From Within》</strong>，以及 White House Historical Association 的商店。<strong>另一个纯实务的理由：这是这一带唯一确定有公共卫生间的地方</strong>（白宫参观本身全程无卫生间，官方也直接把访客指向这里）。看完约 <strong>45–60 分钟</strong>",
+          "<strong>第二个替代是 The People's House: A White House Experience，这是最接近「进了白宫」的体验。</strong>地址 <strong>1700 Pennsylvania Avenue NW</strong>，2024 年开馆，<strong>由 White House Historical Association 私营</strong>，免费但建议每人捐 $15（自愿）。内容是<strong>等比复原的 Oval Office、Cabinet Room、State Dining Room</strong> 等场景，配三层楼的行政官邸史。<strong>它明确不提供进入白宫、西翼或白宫园区的任何通道</strong>，别误会。看完约 <strong>60–90 分钟</strong>；<strong>建议提前订免费定时票，放票规则很特殊：每月第一个工作日 17:00 ET 之前释放次月全月的票</strong>；现场也有少量先到先得的 walk-up 票，但热门时段靠不住。这里<strong>不需过金属探测门</strong>（截至 2026-09-14 官方未列明该要求），入场比 Smithsonian 各馆快得多",
+          "<strong>外景：先接受一个坏消息——最好的三个观看位置目前都封着。</strong>NPS 于 2026 年 9 月 1 日签发的 Record of Determination，应 Secret Service 要求关闭 <strong>Lafayette Park、Ellipse、Sherman Park、First Division Monument、E Street 及其人行道，以及 White House Sidewalk（Pennsylvania Avenue 步行广场）</strong>，期限至 <strong>9 月 22 日 23:59</strong>，而这已是 8 月同类命令的续期、Lafayette Park 自 2026 年 1 月起就被临时钢围栏圈着。<strong>ACLU 指出这道围栏是「一个月一决定」，过去八个月的记录是连续续期</strong>，所以<strong>到期日不能当成恢复开放日</strong>。<strong>仍然开放的是外围人行道：H Street NW（Lafayette Park 北缘）、15th Street、17th Street、Constitution Avenue</strong>，请把走动范围限制在这几条街上。<strong>出发当天务必先查一次官方封闭页再决定要不要走过去</strong>：nps.gov/whho 的 temporary area closures",
+          "<strong>把这四件事串起来的实际走法。</strong>地铁坐 <strong>McPherson Square 或 Farragut West 站（Blue/Orange/Silver）</strong>出来，先去 <strong>The People's House（1700 Pennsylvania Ave NW）</strong>，再走 350 米到 <strong>H Street NW 北侧人行道</strong>看白宫北立面，然后沿 15th Street 南下 500 米到 <strong>White House Visitor Center（1450 Pennsylvania Ave NW）</strong>。<strong>全程步行不到 1.2 公里，两个室内点加一段外景，合计 2.5–3 小时</strong>，是这一带在封闭状态下唯一说得通的安排。因为 Visitor Center 7:30 就开，<strong>这一串很适合放在早上先走掉</strong>，再去 Mall 上 10:00 开门的各馆",
+          "<strong>三条会影响体验的现场事实。</strong>第一，<strong>这一带 Secret Service、Park Police 与 Uniformed Division 密度极高</strong>，久留不动或使用看起来像专业摄制的器材很可能被上前询问；配合、别争论就好。第二，<strong>Ellipse 被整体围起来作为 Marine One 的临时起降场</strong>（据 Fox 5 DC 报道），<strong>不要抱着「运气好能看到直升机」的期待去等</strong>——起降时段管控只会更严。第三，<strong>这一带基本无法停车</strong>：多条街道封闭、其余是执法严格的限时表位，<strong>请一律坐地铁</strong>"
         ],
         "photo": "建筑 <strong>2.5/5</strong>，人像 <strong>1/5</strong>，风光 <strong>1/5</strong>。评分低不是因为建筑不好，而是<strong>能站的位置几乎全被封了</strong>：剩下的 H Street 长焦机位距离近 290 米、隔着树，出片难度陡增。The People's House 室内布景照明规整、拍起来轻松，是本条目实际的得分来源。",
         "shots": [
@@ -2910,9 +3041,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>三部分合计 2.5–3 小时。</strong>分配：<strong>White House Visitor Center 45–60 分钟</strong>（含 14 分钟影片）、<strong>The People's House 60–90 分钟</strong>（三层）、<strong>H Street 一侧的外景 20–30 分钟</strong>。三点之间步行合计不到 1.2 公里。<strong>只有一小时的话就只去 White House Visitor Center</strong>——它免费、不需票、7:30 就开，且有卫生间。<strong>如果真的排上了白宫参观本身，自助参观约 30–45 分钟</strong>，但须另加提前到场与安检的时间。<strong>官方未对 Visitor Center 与外景给出建议时长，以上按展陈规模与实地距离推算；The People's House 的 60–90 分钟为按三层展陈规模推算。</strong>",
           "book": "<strong>白宫外景不需任何预约</strong>，但出发前<strong>必须</strong>查一次 <a href=\"https://www.nps.gov/whho/learn/management/temporary-area-closures.htm\" target=\"_blank\" rel=\"noopener\">NPS 临时封闭公告页</a>，那里会挂当期的 Record of Determination 与封闭地图。<br><strong>The People's House 建议提前订免费定时票。</strong>放票规则很特殊：<strong>每月第一个工作日 17:00 ET 之前，释放次月全月的票</strong>（官方例子：11 月的票在 10 月第一个工作日 17:00 ET 前放出）。换算过来：<strong>要去 10 月下旬，票在 9 月 1 日就已经放出；要去 9 月下旬，票在 8 月初已放出。</strong><strong>现场也有少量 walk-up 票，先到先得</strong>，但热门时段靠不住。16 人以上团体<strong>必须提前 6 周</strong>申请团体票。订票 <a href=\"https://www.thepeopleshouse.com/passes\" target=\"_blank\" rel=\"noopener\">thepeopleshouse.com/passes</a>。<br><strong>真正的白宫参观</strong>：外国公民须经<strong>本国驻美使馆</strong>于行前 <strong>21–90 天</strong>提交，<strong>多数使馆不受理旅游申请，请视为不会发生</strong>",
-          "ticket": "外景 <strong>免费</strong>。The People's House <strong>免费</strong>，官方建议每人捐 <strong>$15</strong>（自愿，非强制）",
-          "hours": "外景区域理论上 24 小时，<strong>但实际以 NPS／Secret Service 的临时封闭令为准</strong>，且官方警告「areas often close without any advance notice」。<br><strong>The People's House：每周七天 9:00–17:00，最后入场 16:00</strong>（闭馆前 1 小时）；<strong>Thanksgiving、圣诞节、元旦闭馆</strong>；官方注明「with some exceptions」，偶尔会因特别活动或预定维护关闭，会在官网公告。<strong>附设的 History Shop 同为 9:00–17:00，无需票即可进</strong>",
+          "ticket": "外景 <strong>免费</strong>。<strong>White House Visitor Center 免费，且「no ticket required」</strong>（NPS 官方原文）。The People's House <strong>免费</strong>，官方建议每人捐 <strong>$15</strong>（自愿，非强制）。<strong>白宫参观本身也是免费的（「All White House tours are free of charge」），收费从来不是门槛——门槛是名额与申请通道。</strong>核实日期 <strong>2026-09-14</strong>，来源 nps.gov/whho、house.gov、thepeopleshouse.com",
+          "hours": "<strong>White House Visitor Center（1450 Pennsylvania Ave NW）：每日 7:30–16:00</strong>（NPS 官方原文「Every Day: 7:30 AM–4:00 PM」）；NPS 公布的闭馆日为 <strong>2026 年 11 月 26 日（Thanksgiving）、2026 年 12 月 25 日（Christmas）、2027 年 1 月 1 日（New Year's Day）</strong>。<strong>这是本区开门最早的点位，比所有博物馆早两个半小时。</strong><br>白宫参观本身：<strong>周二至周六 8:00–12:30</strong>（house.gov 口径），联邦假日除外。<strong>此处官方口径不一致，两种都列出</strong>：使馆用的 White House Tour Guide for Embassies 写的是<strong>周二至周四 7:30–11:30、周五与周六 7:30–13:30</strong>。申请窗口也有出入：house.gov 说<strong>提前 21–90 天</strong>，使馆指引说<strong>提前 90 天开放、最晚提前 7 天提交</strong>。两者均为官方来源，请按自己的申请通道对应的那一套执行。<br>外景区域理论上 24 小时，<strong>但实际以 NPS／Secret Service 的临时封闭令为准</strong>，且官方警告「areas often close without any advance notice」。<br><strong>The People's House：每周七天 9:00–17:00，最后入场 16:00</strong>（闭馆前 1 小时）；<strong>Thanksgiving、圣诞节、元旦闭馆</strong>；官方注明「with some exceptions」，偶尔会因特别活动或预定维护关闭，会在官网公告。<strong>附设的 History Shop 同为 9:00–17:00，无需票即可进</strong>",
           "parking": "<strong>这一带基本无法停车</strong>：多条街道封闭、其余为限时表位且执法严格。地铁 <strong>McPherson Square 站或 Farragut West 站（Blue/Orange/Silver）</strong>离 The People's House 与 Lafayette Park 北侧都最近；南侧机位走 <strong>Federal Triangle 站</strong>",
           "walk": "McPherson Square 站到 1700 Pennsylvania Ave 约 <strong>400 米 / 6 分钟</strong>；到 H Street 长焦机位约 <strong>500 米 / 7 分钟</strong>。The People's House 到 H Street 机位约 <strong>350 米 / 5 分钟</strong>，<strong>两者可以串成一站</strong>"
         },
@@ -2921,7 +3053,8 @@ var REGIONS = [
           "<strong>这一带 Secret Service、Park Police 与 Uniformed Division 密度极高。</strong>长焦镜头指向白宫是完全合法的，但<strong>架三脚架、久留不动、或使用看起来像专业摄制的器材很可能被上前询问</strong>。保持配合、别争论、器材尽量低调",
           "<strong>Lafayette Park 内部即便开放，也已经过 2026 年初的修复施工</strong>，网上 2019 年前那种绿草如茵、能走到南缘栏杆前的照片<strong>不代表现状</strong>",
           "<strong>The People's House 不需要过金属探测门</strong>（截至研究时官方未列明该要求），相比 Smithsonian 各馆入场快得多。<strong>官方未公布馆内摄影政策细则，未能从官方渠道确认是否禁三脚架</strong>；按同类私营博物馆惯例请自行假定禁止",
-          "<strong>停摆情形下的唯一幸存者就是 The People's House</strong>——由 White House Historical Association 私营、不依赖联邦拨款。而白宫周边的 NPS 户外区域在停摆时通常物理上仍可通行但无人值守",
+          "<strong>联邦拨款中断（政府停摆）时，本区唯一确定仍开的就是 The People's House</strong>——由 White House Historical Association 私营、不依赖联邦拨款。<strong>White House Visitor Center 由 NPS 运营，停摆时会关</strong>；白宫周边的 NPS 户外区域在停摆时通常物理上仍可通行但无人值守。<strong>截至 2026-09-14，临时拨款决议（H.R. 6500）覆盖至 2026 年 12 月 11 日；此后的拨款状态请自行复查。</strong>",
+          "<strong>白宫参观全程没有卫生间</strong>，官方直接把访客指向 White House Visitor Center；<strong>这也是整个白宫一带唯一确定有公共卫生间的地方</strong>，安排这一段行程时请把它算进去",
           "<strong>不要指望「运气好能看到 Marine One」。</strong>Ellipse 作为起降场正是它被围起来的原因，起降时段周边管控会更严而不是更松"
         ],
         "images": [
@@ -2944,6 +3077,7 @@ var REGIONS = [
         "n": 2,
         "name": "国立肖像画廊 + 美国艺术博物馆（Kogod 中庭）",
         "en": "National Portrait Gallery + Smithsonian American Art Museum",
+        "must": 4,
         "score": 5,
         "tldr": "Norman Foster 的波浪玻璃顶中庭，免费、不需预约、开到 19:00——本区性价比最高的建筑机位。",
         "tags": [
@@ -2970,6 +3104,14 @@ var REGIONS = [
           "<strong>最反直觉的一个细节：屋顶里塞了 9,000 条被撕碎的牛仔裤。</strong>玻璃中庭的混响时间通常在 9–11 秒，完全没法办活动。解法是在钢制斜交网格的每个面横向固定一排 15 毫米钢棒，<strong>钢棒后面填进 9,000 双撕碎的牛仔裤作吸声材料</strong>，把混响压到约 <strong>3 秒</strong>。你抬头看到的那层网格纹理，一半是结构，一半是吸音棉",
           "地面是黑色花岗岩，配白色大理石种植池，种的是<strong>榕树与黑橄榄树</strong>。<strong>四道「water scrim」——每道仅 1/4 英寸深的水膜</strong>——是 Gustafson 的设计，<strong>办活动时可以排干</strong>。地板下埋了辐射式冷暖系统",
           "这个方案的结构与环境思路直接延续自 Foster 在 <strong>British Museum Great Court</strong> 的屋顶，设计口号是「do the most with the least」。如果你去过伦敦那个，会立刻认出同一套语汇——但这里的曲面更软、更像一块被吹起的布"
+        ],
+        "tour": [
+          "<strong>两小时的最优路线：11:30 进门 → 二层 America's Presidents（总统画廊）→ 三层 Great Hall 与 Luce Center → 下到 Kogod Courtyard 坐下喝一杯。</strong>这栋楼里装着两个独立的馆——<strong>楼的北半边是 National Portrait Gallery（NPG）、南半边是 Smithsonian American Art Museum（SAAM）</strong>，中间由 Kogod Courtyard 连通，不用出门、不用二次安检。<strong>两馆合起来的完整藏量远超半天能看的量，所以必须挑。</strong>如果只有 90 分钟，就只做总统画廊加中庭这两件事",
+          "<strong>总统画廊是这栋楼里第一位的必看，而且 2026 年刚整体翻新过。</strong>展厅名「America's Presidents」，在<strong>二层西侧展厅（West Gallery 210）</strong>，<strong>这是白宫之外唯一一套完整的历届总统肖像收藏</strong>。为建国 250 周年，官方于 <strong>2026 年 5 月 15 日</strong>推出改陈版本：<strong>展出 60 幅以上总统肖像</strong>，新增解读区、原始文献、视频龛，还放了<strong>Lincoln 生前面模的可触摸复制件</strong>，并可用 QR 码或 Bloomberg Connects app 听导览。镇馆之作是 <strong>Gilbert Stuart 的 George Washington「Lansdowne」全身像</strong>。<strong>Kehinde Wiley 画的 Barack Obama 肖像（2018）截至 2026-09-14 在 West Gallery 210 正常展出</strong>（官方藏品页标注 On View）",
+          "<strong>但 Michelle Obama 那幅不在——这一条要特别讲清楚，否则一定白跑。</strong><strong>Amy Sherald 画的 Michelle Obama 肖像（2018）截至 2026-09-14 处于「Currently not on view」状态</strong>（NPG 官方藏品页原文）。它平时的位置是<strong>三层「20th-Century Americans」展厅</strong>，但该馆的 si.edu 展项页现在把这件展示标为「February 13, 2018 – Closed」。原因是它被借去个展<strong>「Amy Sherald: American Sublime」（2025 年 9 月 19 日至 2026 年 2 月 22 日）</strong>，展期结束后尚未回到常设展线。<strong>结论：两幅 Obama 肖像目前只能看到 Barack 那一幅。</strong>这一点会随时间变化，<strong>出发前请查一次 npg.si.edu 的藏品页</strong>，或打 <strong>(202) 633-8300</strong> 问当日是否在展",
+          "<strong>Kogod Courtyard 不是「顺便走过的天井」，它是这栋楼最值得停留的房间。</strong>Norman Foster 2007 年加的波浪玻璃顶，864 块玻璃无一形状相同，荷载全由周边 8 根柱子承担、刻意不压到 19 世纪的老墙上。地面是黑花岗岩配四道各仅 1/4 英寸深的水膜，种着榕树与黑橄榄。<strong>关键实务：这里有一个 Courtyard Café，可以点咖啡坐下</strong>——在本区所有馆里，<strong>这是唯一能让你在最好的空间里坐着休息的地方</strong>，中途歇脚请安排在这里而不是硬撑。<strong>中庭常被租出去办音乐会与晚宴，布场时水膜会被排干、地面摆满桌椅</strong>；想看空场就 11:30 一开门先进来",
+          "<strong>三层的两个房间值得多走一趟，而且几乎总是空的。</strong>NPG 一侧是<strong>Great Hall</strong>——文艺复兴复兴式的彩瓷地砖大厅，连续尖拱配彩色天窗，和楼下 Foster 的现代曲面正好构成一组新旧对照；SAAM 一侧是<strong>Luce Foundation Center</strong>，开放式储藏展示区，<strong>3,300 多件作品密密麻麻塞在通高玻璃柜里</strong>，是很多人心里这栋楼最惊喜的一处。隔壁 <strong>Lincoln Gallery</strong> 就是 <strong>1865 年 3 月 4 日 Lincoln 第二次就职舞会</strong>的那个大厅，现在挂当代艺术。<strong>可以跳过的是各类临时特展</strong>，除非正好碰上感兴趣的题目——时间紧就直接放弃",
+          "<strong>流程与设施：这是本区门槛最低的一个馆。</strong>不需票、不需预约、直接走进去；<strong>G Street 与 F Street 两个入口都要过金属探测门</strong>，保安可能要求把双肩包改为手提或背在身前。<strong>最大的坑是 11:30 才开门</strong>，比其他 Smithsonian 晚 90 分钟，<strong>千万别把这里排成上午第一站</strong>；作为补偿它<strong>开到 19:00</strong>，是本区唯一能安排在傍晚、甚至在其他馆 17:00–17:30 关门之后还能继续逛的馆。餐饮除中庭的 Courtyard Café 外，出门就是 Penn Quarter 与 Chinatown，是本区晚餐选择最多的位置。卫生间在<strong>一层与三层电梯厅附近</strong>各有一组，中庭旁边也有"
         ],
         "photo": "建筑 <strong>5/5</strong>，人像 <strong>4.5/5</strong>，风光 <strong>1/5</strong>。本区综合评分最高的一个：免费、不需预约、开到 19:00、有咖啡座可以坐着等光，而且中庭那层网格在任何天气下都成立。唯一扣分是禁三脚架加光线偏平。",
         "shots": [
@@ -3007,9 +3149,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>两馆合计 2.5–4 小时；只看重点 90 分钟。</strong>90 分钟版的分配：<strong>二层 America's Presidents 总统画廊 40 分钟</strong>、<strong>三层 Great Hall 与 Luce Foundation Center 25 分钟</strong>、<strong>Kogod Courtyard 坐下休息 25 分钟</strong>。想认真看完 NPG 的人像展线加 SAAM 的美国艺术常设展，<strong>4 小时仍然看不完，请接受挑着看</strong>。<strong>官方未公布建议时长，以上按展厅数量与两馆规模推算。</strong>安检排队通常只要 5 分钟，是本区最快的。<strong>因为 11:30 才开、19:00 才关，这个馆最适合放在下午或傍晚</strong>，用来收容 Mall 各馆 17:30 关门之后的时间",
           "book": "<strong>不需预约</strong>，没有任何票务系统，直接走进去",
-          "ticket": "<strong>免费</strong>",
-          "hours": "<strong>这是本区开得最晚的馆，也是唯一能拍到日落后室内的馆。</strong>Smithsonian American Art Museum 官网首页现行口径是<strong>「Open Daily, 11:30 a.m.–7:00 p.m.」</strong>，Smithsonian Gardens 官方页面对中庭的口径是<strong>「The Robert and Arlene Kogod Courtyard … is open 11:30 a.m. to 7 p.m. daily and closed on December 25」</strong>，两处一致。National Portrait Gallery 同楼同时段。<strong>请注意 11:30 才开门</strong>，比其他 Smithsonian 晚 90 分钟，别把上午第一站排在这里；作为补偿它比别人晚关 90 分钟",
+          "ticket": "<strong>免费</strong>（核实日期 <strong>2026-09-14</strong>，americanart.si.edu 与 npg.si.edu）。<strong>本馆是「免费且不需定时票」，与 NMAAHC、National Air and Space Museum 那种「免费但必须有定时票」完全不同，不要混为一谈</strong>",
+          "hours": "<strong>这是本区开得最晚的馆，也是唯一能拍到日落后室内的馆。</strong>核实日期 <strong>2026-09-14</strong>。Smithsonian American Art Museum 官网首页现行口径是<strong>「Open Daily, 11:30 a.m.–7:00 p.m.」</strong>，Smithsonian Gardens 官方页面对中庭的口径是<strong>「The Robert and Arlene Kogod Courtyard … is open 11:30 a.m. to 7 p.m. daily and closed on December 25」</strong>，两处一致。National Portrait Gallery 同楼同时段。<strong>请注意 11:30 才开门</strong>，比其他 Smithsonian 晚 90 分钟，别把上午第一站排在这里；作为补偿它比别人晚关 90 分钟",
           "parking": "<strong>无自有停车场</strong>，Penn Quarter 一带路边表位竞争激烈。周边商业停车楼日均 $18–30。地铁最方便：<strong>Gallery Place–Chinatown 站（Red/Green/Yellow 线）出口就在楼的东北角</strong>",
           "walk": "Gallery Place–Chinatown 站到 F Street 或 G Street 入口 <strong>约 80 米 / 1–2 分钟</strong>。进门后到 Kogod Courtyard 约 1 分钟，<strong>是本区从地铁到主机位最快的一个</strong>"
         },
@@ -3041,6 +3184,7 @@ var REGIONS = [
         "n": 3,
         "name": "福特剧院与 Petersen House",
         "en": "Ford's Theatre and Petersen House",
+        "must": 3,
         "score": 3,
         "tldr": "林肯遇刺现场，免费但需 $5 手续费的定时票；剧场不含在每一张票里，且今年刚做过维修封闭。",
         "tags": [
@@ -3066,6 +3210,14 @@ var REGIONS = [
           "整个「campus」由四部分组成，是理解票务的关键：<strong>Theatre（重建的剧场内景）、Museum（地下层展厅）、Petersen House、以及 Aftermath Exhibits</strong>（后者在 Center for Education and Leadership 内，讲刺杀后的追捕、审判与灵柩专列一路回到 Springfield）",
           "<strong>剧场至今仍是运营中的演出场地</strong>，这直接决定了你能不能进去看。NPS 官方原文：「Ford's Theatre is an active theater, and there are times when the theater is closed for matinee performances, rehearsals and special events.」Ford's Theatre Society 更直接：<strong>「The Theatre is not included in every ticket. Certain entries only include visits to the Petersen House and Aftermath Exhibits.」</strong>",
           "<strong>总统包厢内部长期封闭</strong>，官方理由是防止文物损坏，只能从剧场地面层或二层向上拍。包厢按 1865 年原样布置：美国国旗加一幅 George Washington 肖像"
+        ],
+        "tour": [
+          "<strong>动线是单向的，四段固定顺序，中途不能回头：Museum（地下层）→ Theatre（剧场）→ 过 10th Street 到 Petersen House → Aftermath Exhibits。</strong>这四段分别在三栋楼里，全部靠步行串起来，<strong>最远两点之间也不到 50 米</strong>，是全美最紧凑的一组历史现场。官方建议留 <strong>2–3 小时</strong>走完全程。<strong>因为不能回头，每一段想看的东西请一次看够</strong>",
+          "<strong>四段里分量最重的是 Petersen House 的那间后卧室，把体力和注意力留给它。</strong>1865 年 4 月 14 日晚 Booth 开枪后，Lincoln 被抬过 10th Street 送进这栋寄宿公寓，<strong>次日清晨 7:22 在这张床上去世</strong>。屋子极小、宽度不到 3 米，靠绳索隔开，<strong>你实际只能在门口站十几秒就被后面的人推着走</strong>。想多看一会儿的办法是<strong>刻意走在自己那批人的最后</strong>，前一批走完、下一批还没进来的那半分钟是唯一能安静看的窗口。同楼还有 Stanton 当晚临时改作审问室的房间",
+          "<strong>剧场本体是第二重点，但要先搞清一件事：它不在每一张票里。</strong>Ford's Theatre <strong>至今仍是运营中的演出场地</strong>，NPS 原文是「Ford's Theatre is an active theater, and there are times when the theater is closed for matinee performances, rehearsals and special events」，Ford's Theatre Society 说得更直接：<strong>「The Theatre is not included in every ticket. Certain entries only include visits to the Petersen House and Aftermath Exhibits.」</strong><strong>所以订票前必须打开官网日历、逐个时段确认你那一档到底含不含 Theatre 与 Museum——这是这个景点唯一真正需要动脑的一步。</strong>进了剧场，看点是二层左侧那个<strong>总统包厢</strong>，按 1865 年原样布置（美国国旗加一幅 George Washington 肖像）；<strong>包厢内部长期封闭，只能从下面或侧面看</strong>，场内有 ranger 值守答问，每批停留约 15–20 分钟",
+          "<strong>地下层的 Museum 值得 30 分钟，Aftermath Exhibits 是可以压缩的那一段。</strong>Museum 是自助参观，官方标注约 30 分钟，最值得看的是<strong>Booth 用的那支 Deringer 手枪与匕首实物</strong>，以及 Lincoln 任内与 Frederick Douglass 会面、内战决策的展线。Aftermath Exhibits 在对街的 Center for Education and Leadership 里，讲 12 天追捕、同谋审判与灵柩专列一路回 Springfield，<strong>内容不差但密度低、以图文和互动装置为主，时间紧就快走或直接跳过</strong>，省下的时间给 Petersen House 和剧场",
+          "<strong>票、手续费与同日票的实际操作。</strong>票本身免费，但<strong>网上每张收 $5.00 预订手续费，每单限 6 张</strong>；<strong>这笔钱在 NPS 免费入园日也不豁免，国家公园年卡不能抵扣</strong>。不想付手续费的话，<strong>同日免费票当天 8:30 起在现场 box office 发放，每人限 6 张、数量有限</strong>，热门时段可能完全没有；官方建议当天先打 <strong>(202) 347-4833</strong> 问余票再跑过来。NPS 的建议是<strong>至少提前一天买</strong>。入场是<strong>每半小时一档、9:00 至 16:00</strong>",
+          "<strong>人流、餐饮与卫生间。</strong>这里每年接待<strong>超过 65 万人</strong>，而剧场一次只放一批，<strong>所以「挤」的感觉比大博物馆更明显</strong>；最空的是<strong>9:00–10:00 的头两档</strong>与 15:00 之后。<strong>馆内没有餐厅</strong>，但这里位于 Penn Quarter 中心，出门几步就是大量餐馆，午餐不成问题。<strong>卫生间在剧场楼的地下层（Museum 入口附近）与对街的 Aftermath 展馆内</strong>；<strong>Petersen House 内部没有卫生间，通道也极窄</strong>，过街之前先解决，并把大件行李和大背包留在酒店——那栋楼的楼梯和走廊<strong>实际上背不动大包</strong>"
         ],
         "photo": "建筑 <strong>3/5</strong>，人像 <strong>1.5/5</strong>，风光 <strong>0.5/5</strong>。剧场内景与 Petersen House 后卧室都是有分量的历史画面，但空间小、光线暗、人流按半小时一批灌进来，而且剧场不保证开放。属于「值得去但不要抱摄影期待」的一类。",
         "shots": [
@@ -3095,19 +3247,19 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>2–3 小时（官方口径）；只看剧场与 Petersen House 约 75 分钟。</strong>Ford's Theatre Society 官网在「Historic Site Visit」下直接标注<strong>「Approximately 2 – 3 hours」</strong>，Museum 单独标注<strong>「Approximately 30 minutes」</strong>。建议分配：<strong>Museum 30 分钟、Theatre 20 分钟（含 ranger 讲解）、Petersen House 15 分钟、Aftermath Exhibits 30–45 分钟</strong>。<strong>时间紧就砍 Aftermath Exhibits</strong>，剧场与 Petersen House 这两段是不可替代的，其余都可以压缩",
           "book": "<strong>每人都必须有票，票本身免费，但网上订每张收 $5.00 手续费</strong>（NPS 原文：「The Ford's Theatre Society charges a $5.00 reservation fee for each ticket」）。<strong>每单限 6 张</strong>；该手续费<strong>在 NPS 免费入园日也不豁免，国家公园年卡不能抵扣</strong>。<strong>同日免费票当天 8:30 起在 box office 现场发放，每人限 6 张、数量有限</strong>，热门时段可能完全没有。NPS 建议<strong>至少提前一天买</strong>。20 人以上团体写 groups@fords.org。订票与班次日历：<a href=\"https://fords.org/visit-us/historic-site-visit/\" target=\"_blank\" rel=\"noopener\">fords.org</a>。<strong>关键操作：订票前必须打开 Ford's Theatre Society 的日历，逐个时段确认你那一档到底含不含 Theatre 与 Museum</strong>——这是本景点唯一真正需要动脑的一步",
           "ticket": "<strong>免费</strong>；网上订票每张 <strong>$5.00</strong> 手续费；Acoustiguide 语音导览另加 <strong>$5/台</strong>",
-          "hours": "官方口径：<strong>每日开放，入场时段 9:00–16:00、每半小时一档</strong>；<strong>Thanksgiving 与 12 月 25 日闭馆</strong>。官方建议留 <strong>2–3 小时</strong>走完四个部分，其中 Museum 约 30 分钟。<strong>但「每日开放」不等于「四个部分每天都开」</strong>：NPS 明确说明剧场本体可能因演出、装台、排练而关闭，且「The schedule varies considerably … please check the reservations schedule on the Ford's Theatre Society site for specific details on what is available on any given day or entry time」",
+          "hours": "官方口径（核实日期 <strong>2026-09-14</strong>，nps.gov/foth 与 fords.org）：<strong>每日开放，入场时段 9:00–16:00、每半小时一档</strong>；<strong>Thanksgiving 与 12 月 25 日闭馆</strong>（2026 年即 11 月 26 日与 12 月 25 日）。官方建议留 <strong>2–3 小时</strong>走完四个部分，其中 Museum 约 30 分钟。<strong>但「每日开放」不等于「四个部分每天都开」</strong>：NPS 明确说明剧场本体可能因演出、装台、排练而关闭，且「The schedule varies considerably … please check the reservations schedule on the Ford's Theatre Society site for specific details on what is available on any given day or entry time」",
           "parking": "<strong>无自有停车场</strong>，Penn Quarter 路边表位难找，周边停车楼日均 $18–30。地铁 <strong>Metro Center 站（Red/Blue/Orange/Silver）或 Gallery Place–Chinatown 站</strong>",
           "walk": "Metro Center 站到 511 10th Street NW 约 <strong>350 米 / 5 分钟</strong>；Gallery Place 站约 <strong>500 米 / 7 分钟</strong>。Ford's 到 Petersen House 只需<strong>过一条街，不到 1 分钟</strong>"
         },
         "notes": [
-          "<strong>今年的维修封闭必须交代清楚。</strong>NPS 依 36 CFR §1.5 自 <strong>2026 年 6 月 3 日</strong>起对 Theatre 与 Museum 实施临时封闭以做消防与生命安全改造，<strong>Theatre 计划 7 月 31 日 9:00 重开、Museum 计划 8 月 15 日 9:00 重开</strong>；Atlantic Lobby、Petersen House 与 Center for Experiential Learning 全程未关",
-          "<strong>但截至本次研究时，fords.org 的 Plan Your Visit 页面仍挂着「the historic theatre and museum are temporarily closed for maintenance work」的横幅，并写着「Tickets … through August 31, 2026, are now on sale」。这与 NPS 的重开日期相矛盾，最可能是官网横幅未及时撤下</strong>。<strong>该矛盾未能从官方渠道得到确认</strong>——请在订票时以日历上实际可选的时段为准，必要时打 (202) 347-4833 问清楚",
+          "<strong>2026 年的维修封闭已经结束，这一条是对早前说法的更正。</strong>NPS 依 36 CFR §1.5 自 <strong>2026 年 6 月 3 日</strong>起对 Theatre 与 Museum 实施临时封闭以做消防与生命安全改造（Atlantic Lobby、Petersen House 与 Center for Experiential Learning 全程未关）。<strong>截至 2026-09-14 复核，fords.org 上那条「temporarily closed for maintenance work」的横幅已撤下，Theatre 与 Museum 均标为「Open Daily」，官网写明「Tickets to visit Ford's Theatre and Museum through December 31, 2026 are now on sale」。</strong>也就是说<strong>两部分都已重开，且售票已开到 2026 年年底</strong>。但这不改变上一条的结论：<strong>剧场仍会因演出、排练、装台而在某些时段关闭</strong>，订票前仍必须查日历，必要时打 (202) 347-4833",
           "<strong>总统包厢内部不开放</strong>，任何时候都只能从外面拍。剧场内有 ranger 值守答问",
           "<strong>剧场内禁三脚架</strong>；Petersen House 空间极窄，<strong>大三脚架与大背包实际上无法通行</strong>，建议只带机身加一支广角",
           "<strong>动线是单向的</strong>：Museum → Theatre → 过街到 Petersen House → Aftermath Exhibits，中途不能回头补拍。想拍什么请一次拍够",
-          "<strong>停摆情形下这里会关。</strong>Ford's Theatre National Historic Site 是 NPS 属地、由 Ford's Theatre Society 合作运营，拨款中断时按 NPS 惯例闭馆。本次行程窗口已由 CR 覆盖，但这一点值得知道"
+          "<strong>联邦拨款中断（政府停摆）时这里会关。</strong>Ford's Theatre National Historic Site 是 NPS 属地、由 Ford's Theatre Society 合作运营，拨款中断时按 NPS 惯例闭馆。<strong>截至 2026-09-14，临时拨款决议（H.R. 6500）覆盖至 2026 年 12 月 11 日；此后的拨款状态请自行复查。</strong>这不是理论风险——2025 年 10 月的停摆就真的关过"
         ],
         "images": [
           {
@@ -3129,6 +3281,7 @@ var REGIONS = [
         "n": 4,
         "name": "国家档案馆博物馆",
         "en": "National Archives Museum",
+        "must": 4.5,
         "score": 3.5,
         "tldr": "Rotunda 的摄影禁令已废止，现在官方鼓励无闪光拍摄；免费不需票，$1 定时票可跳队。",
         "tags": [
@@ -3155,6 +3308,14 @@ var REGIONS = [
           "建筑是 <strong>John Russell Pope</strong> 设计的新古典主义大楼，Constitution Avenue 一侧的南立面是主入口，柯林斯柱廊配三角楣。Rotunda 内两侧是 <strong>Barry Faulkner 1936 年的两幅巨型壁画</strong>（《Declaration of Independence》与《Constitution》）——<strong>这两幅壁画其实比那几张文件好拍得多</strong>，尺幅大、有内容、不反光",
           "下层 <strong>David M. Rubenstein Gallery</strong> 入口处放着一份<strong>1297 年的《大宪章》原件</strong>，后面接「Records of Rights」常设展。另有新的「The American Story」签名展厅与 Discovery Center"
         ],
+        "tour": [
+          "<strong>一句话动线：进门上主楼层的 Rotunda 看三份原件，再下楼看 1297 年《大宪章》，全程 45–75 分钟就够。</strong>这是本区节奏最快的一个馆，不要按「大博物馆」来排时间。Rotunda 里的观看方式是<strong>单向绕行</strong>：沿半圆形高台从一端走到另一端，依次是<strong>《独立宣言》（Declaration of Independence）、《宪法》（Constitution，四页中通常展出第一页与签名页）、《权利法案》（Bill of Rights）</strong>，同一空间还有<strong>《解放奴隶宣言》与宪法第 19 修正案</strong>。高峰时段台前会形成缓慢移动的队列，工作人员会催促前进，<strong>每份文件实际只有大约 30–60 秒的停留时间</strong>",
+          "<strong>先把心理预期调对，否则一定会失望。</strong>三份文件封在 2003 年换装的密封展柜里，<strong>柜内照度被严格控制在 3 英尺烛光（foot-candle）以下</strong>并加紫外滤片，所以展厅很暗、文件字迹很淡。<strong>《独立宣言》褪色最严重，肉眼几乎读不出内容，只能看出版式与那些签名的轮廓</strong>；《宪法》与《权利法案》的可读性明显好一些。这里的价值在于「你正站在这三张纸前面」这件事本身，而不是辨认字句。想看清内容，官方在网站上提供三份文件的免费高清扫描，事先看一遍再来，现场体验会好得多",
+          "<strong>Rotunda 里真正被大多数人忽略的是两侧那两幅巨型壁画。</strong><strong>Barry Faulkner 1936 年的《Declaration of Independence》与《Constitution》</strong>，各高约 14 英尺，画的是签署现场的群像，人物可逐个辨认；抬头则是带方格藻井的半球穹顶。排队等着看文件时，<strong>把视线放到墙上和头顶，这部分不用排队、也没人和你抢位置</strong>",
+          "<strong>下层的 David M. Rubenstein Gallery 是这个馆第二个不该错过的地方，人流比 Rotunda 少得多。</strong>入口处独立展出一份<strong>1297 年的《大宪章》（Magna Carta）原件</strong>——这是美国境内仅有的几份中世纪大宪章之一，后面接常设展「Records of Rights」，讲公民权、移民与言论自由的档案史。同层另有<strong>「The American Story」签名展厅与 Discovery Center</strong>（适合带孩子的家庭）。2026 年还加了一个特展<strong>「Free and Independent: A Celebration of the Declaration」，展期 2026 年 4 月 25 日至 2027 年 7 月 5 日</strong>，配合建国 250 周年，这一档在本手册的有效期内都能看到",
+          "<strong>排队、安检、包与「$1 跳队」的实际算法。</strong>不订票可以直接来，但官方明说<strong>「It can take up to an hour or more to enter the building without a timed-entry ticket during heavy visitor traffic periods」</strong>，并点名了这些高峰：公共假日（含 7 月 4 日）、<strong>3、4、5 月整月</strong>、Thanksgiving 周末、圣诞到元旦那一周。<strong>落在这些时段就花那 $1 订定时票，落在其他时段并且能 10:00 开门就到，则完全不必订。</strong>安检的<strong>包尺寸限制是本区最严也最具体的：每人限一个包，不得超过 17 × 26 英寸（43 × 66 厘米）</strong>，登机箱级别会被直接拦下；<strong>而且没有寄存，所有东西必须全程随身</strong>",
+          "<strong>餐饮、卫生间与接驳的三个实务点。</strong>第一，<strong>官方 Plan Your Visit 页面没有列出任何馆内餐饮设施</strong>，只有 National Archives Store；<strong>请不要把午餐指望在这里</strong>，出门往西走十分钟就是 National Gallery of Art 的两个咖啡座，那是最近的正规选择。第二，<strong>展厅与影院内禁止食物、饮料与口香糖</strong>，水也不例外。第三，<strong>地铁出站后不能直接进门</strong>：Archives–Navy Memorial–Penn Quarter 站出口在 Pennsylvania Avenue 一侧，官方指引是「walk around the building and enter on the Constitution Avenue side」——<strong>唯一的游客入口在 Constitution Avenue 那一面</strong>，绕行要多走 3–5 分钟，别在 Pennsylvania Avenue 那侧的研究者入口排错队"
+        ],
         "photo": "建筑 <strong>4/5</strong>，风光 <strong>1/5</strong>，人像 <strong>1.5/5</strong>。Rotunda 的穹顶与两幅壁画是扎实的建筑／室内目标，且刚刚从「完全禁拍」变成「可拍」；扣分是空间极暗、禁独脚架、文件本身在低反射玻璃后面很难拍出好看的样子。",
         "shots": [
           {
@@ -3179,9 +3340,10 @@ var REGIONS = [
           }
         ],
         "access": {
-          "book": "<strong>不需预约，所有人都可以直接来。</strong>但官方「鼓励」订票以启用馆内新的个性化系统，共三种：<strong>（1）免费 general admission 票</strong>；<strong>（2）$1 定时票（timed-entry），唯一作用是跳过现场排队</strong>，入场时段 10:15–16:30、每 15 分钟一档；<strong>（3）6 人以上团体 $1 定时票</strong>。$1 是不可退的手续费，改期免费、取消不退。<strong>10 月、11 月、12 月 2026 的票已于 9 月 1 日 11:00 ET 开始释放。</strong>订票走 Etix，入口在 <a href=\"https://visit.archives.gov/visit/tickets\" target=\"_blank\" rel=\"noopener\">visit.archives.gov/visit/tickets</a>。实务判断：<strong>旺季正午现场队伍可能排 30–60 分钟，$1 非常值得花</strong>；若你按建议在 10:00 开馆时到，则完全不必订",
-          "ticket": "<strong>免费</strong>（$1 仅为定时票手续费）",
-          "hours": "官方原文：展区 <strong>每日 10:00–17:30</strong>，<strong>最后入场为闭馆前 30 分钟（即 17:00）</strong>；<strong>除 Thanksgiving 与 12 月 25 日外全年开放</strong>。定时票时段止于 16:30，官方解释是要留足时间让人看完 Rotunda。（注：今年夏天曾有到 7 月 5 日为止的 10:00–22:00 延长开放，<strong>该延长已结束</strong>，10 月不要指望晚场）",
+          "visit": "<strong>45–75 分钟；只看 Rotunda 的三份原件 30 分钟。</strong>建议分配：<strong>Rotunda（三份原件 + 两幅 Faulkner 壁画 + 穹顶）25–35 分钟</strong>、<strong>East／West Rotunda Galleries 的轮换文件展 10 分钟</strong>、<strong>下层 Rubenstein Gallery（1297 年《大宪章》与 Records of Rights）20–30 分钟</strong>。带孩子的加 Discovery Center 30 分钟。<strong>官方未给出建议时长，以上按展厅数量与单向动线的实际通过速度推算。</strong>另需预留安检排队：订了 $1 定时票约 15 分钟，没订票在高峰期官方说可能「一小时以上」。<strong>这是本区唯一可以塞进半天行程缝隙里的大馆</strong>，和隔街的 National Gallery of Art 串成一个上午非常合适",
+          "book": "<strong>不需预约，所有人都可以直接来。</strong>但官方「鼓励」订票以启用馆内新的个性化系统，共三种：<strong>（1）免费 general admission 票</strong>；<strong>（2）$1 定时票（timed-entry），唯一作用是跳过现场排队</strong>，官方现行口径是<strong>「Every 15 minutes between 10:00 a.m. - 5:00 p.m.」（每 15 分钟一档，10:00 至 17:00）</strong>；<strong>（3）6 人以上团体 $1 定时票</strong>。持免费 general admission 票者<strong>可在当日 10:00 至 17:00 之间任意时间到</strong>，并可留到 17:30 闭馆。$1 是不可退的手续费，改期免费、取消不退。<strong>10 月、11 月、12 月 2026 的票已于 9 月 1 日 11:00 ET 开始释放。</strong>订票走 Etix，入口在 <a href=\"https://visit.archives.gov/visit/tickets\" target=\"_blank\" rel=\"noopener\">visit.archives.gov/visit/tickets</a>。实务判断：<strong>旺季正午现场队伍可能排 30–60 分钟，$1 非常值得花</strong>；若你按建议在 10:00 开馆时到，则完全不必订",
+          "ticket": "<strong>免费</strong>（$1 仅为定时票手续费，不可退；改期免费、取消不退）。核实日期 <strong>2026-09-14</strong>，来源 visit.archives.gov 官方 Tickets 页",
+          "hours": "官方原文（核实日期 <strong>2026-09-14</strong>，visit.archives.gov 与 archives.gov）：展区 <strong>「10 a.m.–5:30 p.m.」每日开放</strong>，<strong>「Last admission is at 5 p.m.」（最后入场为闭馆前 30 分钟）</strong>；<strong>「Open every day except Thanksgiving and December 25」——2026 年即 11 月 26 日与 12 月 25 日两天闭馆</strong>。注意这与 Smithsonian 各馆不同：<strong>本馆 Thanksgiving 也关</strong>。（另注：2026 年夏季曾有到 7 月 5 日为止的 10:00–22:00 延长开放，<strong>该延长已结束，秋冬不要指望晚场</strong>）",
           "parking": "<strong>周边只有零星路边计时表位，官方明确建议不要开车。</strong>地铁 <strong>Archives–Navy Memorial–Penn Quarter 站（Green/Yellow 线）</strong>就在门口",
           "walk": "Archives 地铁站出口到博物馆入口约 <strong>100 米 / 2 分钟</strong>，是本区通达性最好的一个点。个人或 6 人以下请<strong>提前 15 分钟</strong>到以过安检，7 人以上提前 30 分钟"
         },
@@ -3213,6 +3375,7 @@ var REGIONS = [
         "n": 5,
         "name": "国家美术馆（西馆 + 东馆）",
         "en": "National Gallery of Art (West Building + East Building)",
+        "must": 4.5,
         "score": 5,
         "tldr": "I.M. Pei 东馆天光中庭配 Calder 动态雕塑，加西馆穹顶与雕塑花园；免费、不需票、屋顶平台开放。",
         "tags": [
@@ -3239,6 +3402,14 @@ var REGIONS = [
           "<strong>Roof Terrace 目前正常开放</strong>，位于 East Building 的 Tower Level，是 2016 年那轮改造新增的（同时在原有轮廓内加了 12,250 平方英尺展厅与两个塔楼展室，常设展出作品从 350 件增到 500 件）。平台上站着 <strong>Katharina Fritsch 的《Hahn/Cock》</strong>——一只约 <strong>4.7 米高的亮蓝色公鸡</strong>，2013 年首展于伦敦 Trafalgar Square 的第四基座，2016 年 7 月移到这里，<strong>2021 年由 Glenstone Museum 正式捐赠</strong>成为永久藏品。它<strong>没有底座、直接立在平台上</strong>，正对 Pennsylvania Avenue，东望国会山",
           "<strong>West Building</strong> 是 <strong>John Russell Pope</strong> 设计、1941 年开放的新古典主义大馆。Rotunda 是穹顶圆厅，<strong>一圈深绿色托斯卡纳大理石柱</strong>围着中央的 Mercury 喷泉，穹顶有藻井与圆形天眼。<strong>与东馆的锐角几何形成本区最强的一组建筑对照</strong>——同一座美术馆，两种完全相反的空间语言",
           "<strong>Sculpture Garden</strong> 是 6 英亩的独立街区，20 多件现代雕塑加一座中央大喷泉（冬天改成溜冰场），有 Louise Bourgeois、Alexander Calder、Marc Chagall 等人的作品，还有 Pavilion Café"
+        ],
+        "tour": [
+          "<strong>如果全馆只看一件东西，就是西馆主层 Gallery M6 的Leonardo da Vinci《Ginevra de' Benci》（约 1474–1478）。</strong><strong>这是西半球唯一的一幅达芬奇油画</strong>——不是「唯一的达芬奇作品之一」，是整个美洲大陆就这一幅，1967 年 NGA 从列支敦士登亲王手中买下，也是达芬奇作品在 20 世纪唯一一次易手。官方藏品页标注的位置是 <strong>West Building Main Floor, Gallery M6</strong>（核实日期 2026-09-14），语音导览站号 <strong>611</strong>。<strong>一个多数人不知道的细节：这幅画是双面的</strong>，画框做成可看背面，背面是一圈月桂、棕叶与杜松（意大利语 <em>ginepro</em>，暗指她的名字 Ginevra），配拉丁文箴言 <strong>VIRTVTEM FORMA DECORAT（「美饰德」）</strong>。<strong>务必绕到背面看，不然等于只看了一半。</strong>画尺寸只有约 38 × 37 厘米，比大多数人想的小得多，<strong>人一多就完全看不到，请在 10:00 开门后先直奔这里</strong>",
+          "<strong>西馆的其余看点与一条走法。</strong>西馆是 John Russell Pope 设计、1941 年开放的新古典主义大馆，进门是 <strong>Rotunda 圆厅</strong>——一圈深绿色托斯卡纳大理石柱围着中央的 Mercury 喷泉，穹顶有藻井与圆形天眼，<strong>这是全馆的动线枢纽，从这里向东西两翼分头走</strong>。主层西侧是意大利与文艺复兴（M6 的达芬奇就在这一侧），往东依次是荷兰、法国与美国部分。<strong>效率最高的走法是「只走主层、不下地面层」</strong>：地面层（Ground Floor）主要是素描、版画、雕塑与小件装饰艺术，<strong>分量与主层完全不在一个量级，半天行程可以整层跳过</strong>",
+          "<strong>东馆是完全不同的一栋楼，值得单独 60–90 分钟。</strong>I. M. Pei 设计、1978 年开放，场地是个梯形余角，Pei 把它切成两个咬合的三角形，<strong>整栋楼没有一个直角房间，墙角是 19.5 度的锐角</strong>（外墙那个著名的锐角被几十年游客摸得发亮）。进门的天光中庭悬着 <strong>Calder 1976 年的巨型动态雕塑</strong>，地面有 Noguchi 的《Great Rock of Inner Seeking》、Serra 的《Five Plates, Two Poles》。<strong>东馆装的是现代与当代部分</strong>：Rothko、Pollock、Matisse 的剪纸、Calder 的其余作品。<strong>顶层 Tower Level 的 Roof Terrace 目前正常开放</strong>，上面立着 <strong>Katharina Fritsch 的《Hahn/Cock》</strong>——一只约 4.7 米高、没有底座直接站在铺装上的亮蓝色公鸡，2013 年首展于伦敦 Trafalgar Square 第四基座，2016 年移来，2021 年成为永久藏品。<strong>平台正对 Pennsylvania Avenue、东望国会山，是这栋楼最好的户外空间，很多人不知道能上去</strong>",
+          "<strong>两馆之间的地下通道本身就是一个看点，不要为了省事跑到地面过马路。</strong>西馆与东馆由 <strong>Concourse 层的地下通道</strong>相连，通道里装着 <strong>Leo Villareal 的 LED 灯光装置《Multiverse》</strong>（沿自动步道两侧的光带，图案持续变化），通道一端还有一道人工瀑布的采光井。<strong>步行约 5 分钟，不用出门、不用二次安检、不用淋雨</strong>。第三部分 <strong>Sculpture Garden</strong> 则在西馆西边、需出馆过 7th Street，约 3 分钟：6 英亩的独立街区、20 多件现代雕塑加一座中央大喷泉（<strong>11 月中至 3 月初改成溜冰场</strong>），有 Bourgeois、Calder、Chagall 等人的作品",
+          "<strong>餐饮是这个馆的一大优势，全区最好，共五处（核实日期 2026-09-14）。</strong>主力是<strong>地下 Concourse 层的 Cascade Café，11:00–15:00</strong>，美食广场式、有披萨与现烤，座位多，紧邻那道瀑布与礼品店；同层的 <strong>Espresso & Gelato Bar 10:00–16:30</strong> 是全馆关得最晚的，<strong>下午三点以后只有它和 Pavilion Café 还在营业，这一点很关键</strong>。另有<strong>东馆上层中庭的 Terrace Café（周一至周五 12:00–16:00、周六日 10:00–16:00）</strong>，看得到 Mall；<strong>雕塑花园的 Pavilion Café 10:00–16:00</strong>，可室外就座、可在线预点；西馆还有 Garden Café。<strong>卫生间在西馆 Rotunda 两侧、东馆各层与 Concourse 层均有</strong>，<strong>Concourse 层那一组是全区最干净、排队最短的</strong>，值得记住",
+          "<strong>三个流程上的坑。</strong>第一，<strong>17:00 就闭馆</strong>，是本区关得最早的大馆之一，<strong>不要把它排在下午晚段</strong>——15:30 才进门基本只够看西馆一层。第二，<strong>双肩包不能背进展厅</strong>，需寄存或改为手提／前抱，入馆时所有随身物品要接受检查；三脚架、独脚架、画架与墨水粉笔类绘画材料未经事先许可禁止。第三，<strong>特展通常单独禁止拍摄且可能需要另外排队</strong>，而<strong>常设展全部免费不需票</strong>——时间紧就别碰特展，这个馆的价值几乎全在常设展线上"
         ],
         "photo": "建筑 <strong>5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>2.5/5</strong>。东馆中庭、西馆穹顶、雕塑花园三种完全不同的空间，全部免费且不需预约，再加上一个开放的屋顶平台——这是本区可拍内容最丰富的一个点位。扣分只有禁三脚架与 17:00 早闭。",
         "shots": [
@@ -3276,9 +3447,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>3–4 小时看三个部分；只看重点 2 小时；只为达芬奇一件 30 分钟。</strong>建议分配：<strong>西馆主层 90 分钟</strong>（其中 Gallery M6 的《Ginevra de' Benci》与 Rotunda 圆厅各 15 分钟，<strong>地面层可整层跳过</strong>）、<strong>地下通道与 Concourse 层 15 分钟</strong>、<strong>东馆含 Roof Terrace 60–90 分钟</strong>、<strong>Sculpture Garden 30 分钟</strong>。<strong>官方未公布建议时长，以上按三栋建筑的展厅数量与常设展规模推算</strong>（官方 Fact Sheet 载东馆含艺术品空间逾 1 万平方英尺、雕塑花园 264,000 平方英尺、22 件雕塑）。<strong>务必倒推着排：17:00 闭馆，所以最晚 13:30 要进门才够看两栋楼</strong>",
           "book": "<strong>不需预约</strong>，无票务系统",
-          "ticket": "<strong>免费</strong>（官方口径「Always free」）",
-          "hours": "官方原文：<strong>East Building 与 West Building 每日 10:00–17:00；Sculpture Garden 每日 10:00–17:00</strong>。全年仅 12 月 25 日与 1 月 1 日闭馆。East Building 的 Terrace Café 每日 10:00–16:00。<strong>17:00 早闭是这个点位最大的结构性缺陷</strong>：9 月下旬闭馆后还有 2 小时日光、10 月下旬还有 1 小时 15 分，<strong>请把这段时间预留给别处的室外机位，不要指望在馆内拍黄金时段</strong>",
+          "ticket": "<strong>免费</strong>（官方口径「Admission is always free」、「No timed passes are required」）。核实日期 <strong>2026-09-14</strong>，来源 nga.gov 官方 Plan Your Visit 页与官方 Fact Sheet。<strong>这是本区门槛最低的世界级美术馆：既免费、又不需任何票</strong>",
+          "hours": "官方原文（核实日期 <strong>2026-09-14</strong>，nga.gov）：<strong>East Building 与 West Building 每日 10:00–17:00；Sculpture Garden 每日 10:00–17:00</strong>。<strong>全年仅 12 月 25 日与 1 月 1 日闭馆</strong>（<strong>与 Smithsonian 各馆不同，本馆元旦也关</strong>）。餐饮时间比展厅更短，请一并算进来：<strong>Cascade Café 11:00–15:00、Espresso & Gelato Bar 10:00–16:30、Pavilion Café 10:00–16:00、Terrace Café 周一至周五 12:00–16:00／周六日 10:00–16:00</strong>。<strong>17:00 早闭是这个点位最大的结构性缺陷</strong>：9 月下旬闭馆后还有 2 小时日光、10 月下旬还有 1 小时 15 分，<strong>请把这段时间预留给别处的室外机位，不要指望在馆内拍黄金时段</strong>",
           "parking": "<strong>无自有停车场</strong>，Constitution Avenue 与 Madison Drive 有路边表位但极难找。地铁 <strong>Archives–Navy Memorial–Penn Quarter 站（Green/Yellow）</strong>离西馆与雕塑花园最近；<strong>Judiciary Square 或 L'Enfant Plaza</strong> 也可",
           "walk": "Archives 站到 Sculpture Garden 入口约 <strong>200 米 / 3 分钟</strong>，到 West Building 约 <strong>350 米 / 5 分钟</strong>。<strong>West Building 与 East Building 之间有地下通道相连</strong>（沿途是 Leo Villareal 的灯光装置《Multiverse》），不用出门过马路，步行约 <strong>5 分钟</strong>；Sculpture Garden 则需出馆过 7th Street，约 3 分钟"
         },
@@ -3287,7 +3459,7 @@ var REGIONS = [
           "<strong>特展区通常禁止拍摄</strong>，且教育团体页面注明手持相机「allowed in the permanent collection areas but not in special exhibitions」。请看现场标示",
           "<strong>双肩包不能背进展厅</strong>，需寄存或改为手提／前抱；入馆时所有随身物品要接受检查。三脚架、画架、墨水与粉笔类绘画材料<strong>未经事先特别许可禁止</strong>",
           "<strong>East Building 的锐角外墙是免费的室外机位</strong>，不进馆也能拍；<strong>4th Street Plaza 的玻璃棱锥天窗</strong>（通道的采光井）在低角度光下也很好",
-          "<strong>NGA 在拨款中断时会关闭。</strong>本次行程窗口已由 CR 覆盖至 12 月 11 日，但若行程有变请重新确认",
+          "<strong>NGA 在联邦拨款中断（政府停摆）时会关闭。</strong><strong>截至 2026-09-14，临时拨款决议（H.R. 6500）覆盖至 2026 年 12 月 11 日；此后的拨款状态请自行复查。</strong>（NGA 不属 Smithsonian，但同样靠联邦拨款运作）",
           "<strong>East Building 中庭 2022 年换过天窗玻璃</strong>，现在比网上 2015–2020 年的照片明显更亮更通透，<strong>按那些老照片估曝光会低估 1–1.5 EV</strong>"
         ],
         "images": [
@@ -3395,6 +3567,7 @@ var REGIONS = [
         "n": 7,
         "name": "国立非裔美国人历史与文化博物馆",
         "en": "National Museum of African American History and Culture (NMAAHC)",
+        "must": 5,
         "score": 4.5,
         "tldr": "青铜格栅「corona」是 DC 最好的当代建筑摄影目标；免费但每人必须有定时票，同日票每早 8:15 放。",
         "tags": [
@@ -3421,6 +3594,14 @@ var REGIONS = [
           "格栅上的镂空纹样<strong>取自 19 世纪 New Orleans、Charleston 与 Savannah 的装饰铁艺</strong>，那些铁艺大量由被奴役与自由的非裔工匠打造。<strong>纹样密度是可以调节的</strong>，用来控制进光量与内外透视程度——这不是纯装饰，是一套被动遮阳系统，青铜壳与玻璃幕墙之间留有空腔",
           "<strong>建筑一半以上在地下</strong>，地上五层、地下四层，基坑最深处下挖约 65 英尺打进底下的沼泽层。历史展厅按时间倒序自下而上：Concourse 3「Slavery and Freedom」→ C2「Era of Segregation」→ C1「1968 and Beyond」，<strong>全靠坡道爬升</strong>，走完是一段体力活，也是设计上刻意安排的「往上走」叙事",
           "<strong>Contemplative Court</strong> 在 Concourse 0，是历史展厅出口处的静室：一圈圆柱形水幕从<strong>上方 45 英尺高的椭圆形 oculus</strong> 倾泻而下，天光被水打散。这是全馆最好的室内画面，也是唯一「安静到可以慢下来拍」的地方"
+        ],
+        "tour": [
+          "<strong>唯一正确的动线是坐电梯直下地下三层（Concourse 3），然后一路往上走。</strong>这不是攻略作者的偏好，是这栋楼被设计出来的读法，官方的自助导览资料也按 <strong>C3 → C2 → C1</strong> 编排：C3 是「Slavery and Freedom（1400s–1877）」，C2 是「Defending Freedom, Defining Freedom: The Era of Segregation（1876–1968）」，C1 是「A Changing America: 1968 and Beyond」。三层之间<strong>没有电梯可用，全靠环绕的长坡道爬升</strong>，从最黑暗的一层走到当代是刻意安排的体力与情绪曲线。<strong>进门先别上楼</strong>——地上三、四层的文化展厅灯亮、人多、随时可看，而历史展厅一旦过了中午就会在入口排长队",
+          "<strong>第一次来只有两小时，就把两小时全部给 C3 与 C2，一件上层展厅都别看。</strong>官方自己给的数字是「touring the History Galleries in their entirety will take approximately 2 hours, and will require about 1 mile of walking」——光是这三层就要两小时、走一英里。C3 必看四件：<strong>São José Paquete d'Africa 的沉船残骸</strong>（1794 年沉于开普敦外海的葡萄牙奴隶船，是极少数被打捞并公开展出的载奴沉船）、<strong>Point of Pines Plantation 的整座奴隶木屋</strong>（1853 年建于 South Carolina 的 Edisto Island，整栋拆解运来重装，可绕行细看）、<strong>Nat Turner 的圣经</strong>、以及<strong>那尊 Thomas Jefferson 立像</strong>——雕像背后砌着一道砖墙，每块砖上刻一个他名下被奴役者的名字，共 609 块。C2 必看两件：<strong>可以走进去的 Southern Railway 隔离客车 No. 1200</strong>（1922 年的 44 座车厢，车内两端隔间分白人与有色人种，进去站一分钟比读十块展板有用）与<strong>Emmett Till 纪念室</strong>——1955 年那具原棺就在里面，这是全馆唯一被官方称为「sacred object」的展品",
+          "<strong>历史展厅出口处的 Contemplative Court 一定要坐下来待五分钟。</strong>在 Concourse 0，一圈圆柱形水幕从上方 45 英尺高的椭圆天窗倾泻而下，是整栋楼里唯一安静、明亮、没有展板的空间，设计意图就是让人从 C3–C1 的情绪里缓出来。很多人从坡道出来直接被人流推去商店，<strong>会完全错过它</strong>",
+          "<strong>可以跳过的是地上三、四层的 Culture Galleries</strong>（Musical Crossroads 的音乐展厅、Sports、Visual Arts、Taking the Stage）。它们轻快好看，但内容是「成就陈列」式的，<strong>没有历史展厅那种不可替代性</strong>；两小时的人直接放弃，四小时以上的人留 60–90 分钟。<strong>四层展厅另有一个实际理由值得单独上去</strong>：沿 corona 青铜格栅内侧的走廊能透过镂空看整条 National Mall，视野在 DC 独一份",
+          "<strong>进门流程与放票：每人不论年龄都必须有免费定时票，现场几乎拿不到。</strong>两个渠道——<strong>提前票滚动提前 30 天释放</strong>，<strong>同日票每天上午 8:15 ET 之前在线放出、只在网上放、现场不发</strong>，旺季常在几分钟内清空。实务做法是先按 30 天窗口抢，抢不到就设 8:15 的闹钟、提前登录 Smithsonian 账号、人数预先填好等着刷。入口有两处（<strong>南侧 Madison Drive、北侧 Constitution Avenue</strong>），票在哪边都能扫；<strong>所有人要过金属探测门、包过 X 光或手检</strong>，旺季安检队伍另加 15–25 分钟，请按票面时间提前半小时到。<strong>但不要早于票面时间到</strong>，官方明写「Please do not arrive before the entry time」，早到会被请到一边等。<strong>最晚入场 16:00</strong>，退役与现役军人、急救人员凭证件免票入场并可带 4 人",
+          "<strong>人流、餐饮与卫生间：官方公布的最高峰是周五至周日的 12:00–16:00</strong>，这段时间历史展厅入口会排长队。想清静就订当天最早一档（周二至周日 10:00、周一 12:00）。餐饮只有一处：<strong>Concourse 层的 Sweet Home Café</strong>，做南方与非裔美国菜系，是 Smithsonian 里公认最好吃的馆内餐厅，<strong>正午会排队到 20 分钟以上，想吃就 11:00 一开门去或 14:00 之后去</strong>。（<strong>营业时间官方两处页面不一致</strong>：Plan Your Visit 页写 11:00–16:00、FAQ 页写 11:00–15:00，周一均推迟到 12:00 开始；请按较早的 15:00 打算。另有「Dine and Shop pass」可只进餐厅与商店、不进展厅，<strong>限 11:00–14:30、提前 7 天上午 8:00 ET 滚动放票、每天最多订 4 张</strong>。）卫生间在<strong>每一层电梯厅旁</strong>都有，但<strong>历史展厅 C3–C1 的坡道段中途没有卫生间</strong>，下去之前先解决。<strong>没有行李寄存</strong>，大件行李、食品饮料一律不得入馆，只能存在馆外"
         ],
         "photo": "建筑 <strong>5/5</strong>，风光 <strong>2.5/5</strong>，人像 <strong>3.5/5</strong>。外立面是本区第一梯队的建筑目标，青铜格栅在低角度侧光下会真的发光；扣分全在门槛——必须抢票、内部禁三脚架、艺术品展区禁拍。",
         "shots": [
@@ -3454,9 +3635,10 @@ var REGIONS = [
           }
         ],
         "access": {
+          "visit": "<strong>看完整馆 4–6 小时；只看历史展厅 2–2.5 小时；纯建筑与外立面 60 分钟。</strong>官方给出的硬数字是历史展厅本身「approximately 2 hours … about 1 mile of walking」。建议分配：<strong>C3–C1 历史展厅 120 分钟</strong>（其中 C3 至少 50 分钟，这是全馆分量最重的一层）、<strong>Contemplative Court 10 分钟</strong>、<strong>地上三／四层 Culture Galleries 60–90 分钟</strong>（时间不够可全部砍掉）、<strong>Sweet Home Café 用餐 40 分钟</strong>。加上安检与入场排队 15–25 分钟。<strong>这是本区唯一值得排掉半天以上的馆</strong>，不要和别的馆挤在同一个上午",
           "book": "<strong>必须持免费定时票（timed-entry pass），所有人不论年龄都要有，包括婴儿</strong>。官方已确认<strong>目前仍然要求定时票</strong>（这一点历史上反复变过，2019 年曾按淡旺季区分、9–2 月工作日可 walk-in，现在<strong>没有淡季豁免了</strong>）。放票有两个渠道：<strong>（1）提前票按滚动方式提前 30 天释放</strong>；<strong>（2）同日票每天上午 8:15 ET 之前在线释放</strong>，仅限网络、不在现场发。每个账号一次最多订 <strong>9 张</strong>，10 人以上须走 group passes。<strong>官方明确写「The museum cannot always accommodate walk-up visitors」，没票基本进不去。</strong>退役军人、现役军人与急救人员例外：无需提前订票，现场出示军方或工作证件并填表即可入场，<strong>可带最多 4 名同行者</strong>。订票入口 <a href=\"https://nmaahc.si.edu/visit/plan-your-visit\" target=\"_blank\" rel=\"noopener\">nmaahc.si.edu/visit</a>。实务建议：<strong>先按 30 天提前票抢，抢不到再蹲 8:15 同日票</strong>，旺季同日票常在几分钟内清空，请提前登录 Smithsonian 账号、把人数填好等着刷",
-          "ticket": "<strong>免费</strong>（定时票本身也免费，无手续费）",
-          "hours": "官方口径：<strong>周二至周日 10:00–17:30；周一 12:00–17:30</strong>；联邦假日当天 10:00 开门；<strong>仅 12 月 25 日闭馆</strong>。<strong>持票者可从票面时间起入场，最晚 16:00</strong>（团体票有 2 小时宽限期），之后按容量决定、不保证放行。<strong>周一晚开两小时是很容易踩的坑</strong>，别把周一上午安排到这里",
+          "ticket": "<strong>免费</strong>（定时票本身也免费，无手续费）。<strong>注意「免费」与「需定时票」是两件事</strong>：这个馆不收一分钱，但没有那张免费票就进不去，两者不能互相推论。核实日期 <strong>2026-09-14</strong>，来源 nmaahc.si.edu 官方 Plan Your Visit 页",
+          "hours": "官方口径（核实日期 <strong>2026-09-14</strong>，nmaahc.si.edu）：<strong>周二至周日 10:00–17:30；周一 12:00–17:30</strong>；<strong>逢联邦假日的周一改为 10:00 开门</strong>；<strong>全年仅 12 月 25 日闭馆</strong>。<strong>持票者可从票面时间起入场，最晚 16:00</strong>（团体票有 2 小时宽限期），之后按容量决定、不保证放行。闭馆是分段清场：<strong>商店 17:00 起开始关，展厅 17:15 起开始关</strong>，所以实际可看到 17:15 而不是 17:30。<strong>周一晚开两小时是很容易踩的坑</strong>，别把周一上午安排到这里",
           "parking": "<strong>无自有停车场。</strong>周边 Constitution Ave 与 15th Street 有路边计时表位但极难找；Ronald Reagan Building 停车楼日均约 $26，是最近的正规选择。强烈建议乘地铁：<strong>Federal Triangle 站（Blue/Orange/Silver）或 Smithsonian 站（走 Mall 出口）</strong>",
           "walk": "Federal Triangle 站到 Constitution Ave 入口约 <strong>500 米 / 7 分钟</strong>；Smithsonian 站到 Madison Drive 的 Porch 入口约 <strong>700 米 / 10 分钟</strong>。<strong>过安检排队旺季要另加 15–25 分钟</strong>，请按票面时间提前半小时到"
         },

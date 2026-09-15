@@ -130,6 +130,7 @@ module.exports = {
       n: 1,
       name: '国立非裔美国人历史与文化博物馆',
       en: 'National Museum of African American History and Culture (NMAAHC)',
+      must: 5,
       score: 4.5,
       tldr: '青铜格栅「corona」是 DC 最好的当代建筑摄影目标；免费但每人必须有定时票，同日票每早 8:15 放。',
       tags: [
@@ -157,6 +158,63 @@ module.exports = {
         '<strong>Contemplative Court</strong> 在 Concourse 0，是历史展厅出口处的静室：' +
           '一圈圆柱形水幕从<strong>上方 45 英尺高的椭圆形 oculus</strong> 倾泻而下，天光被水打散。' +
           '这是全馆最好的室内画面，也是唯一「安静到可以慢下来拍」的地方'
+      ],
+      tour: [
+        '<strong>唯一正确的动线是坐电梯直下地下三层（Concourse 3），然后一路往上走。</strong>' +
+          '这不是攻略作者的偏好，是这栋楼被设计出来的读法，官方的自助导览资料也按 ' +
+          '<strong>C3 → C2 → C1</strong> 编排：C3 是「Slavery and Freedom（1400s–1877）」，' +
+          'C2 是「Defending Freedom, Defining Freedom: The Era of Segregation（1876–1968）」，' +
+          'C1 是「A Changing America: 1968 and Beyond」。' +
+          '三层之间<strong>没有电梯可用，全靠环绕的长坡道爬升</strong>，' +
+          '从最黑暗的一层走到当代是刻意安排的体力与情绪曲线。' +
+          '<strong>进门先别上楼</strong>——地上三、四层的文化展厅灯亮、人多、随时可看，' +
+          '而历史展厅一旦过了中午就会在入口排长队',
+        '<strong>第一次来只有两小时，就把两小时全部给 C3 与 C2，一件上层展厅都别看。</strong>' +
+          '官方自己给的数字是「touring the History Galleries in their entirety will take ' +
+          'approximately 2 hours, and will require about 1 mile of walking」——' +
+          '光是这三层就要两小时、走一英里。C3 必看四件：' +
+          '<strong>São José Paquete d\'Africa 的沉船残骸</strong>（1794 年沉于开普敦外海的葡萄牙奴隶船，' +
+          '是极少数被打捞并公开展出的载奴沉船）、' +
+          '<strong>Point of Pines Plantation 的整座奴隶木屋</strong>' +
+          '（1853 年建于 South Carolina 的 Edisto Island，整栋拆解运来重装，可绕行细看）、' +
+          '<strong>Nat Turner 的圣经</strong>、以及<strong>那尊 Thomas Jefferson 立像</strong>' +
+          '——雕像背后砌着一道砖墙，每块砖上刻一个他名下被奴役者的名字，共 609 块。' +
+          'C2 必看两件：<strong>可以走进去的 Southern Railway 隔离客车 No. 1200</strong>' +
+          '（1922 年的 44 座车厢，车内两端隔间分白人与有色人种，进去站一分钟比读十块展板有用）' +
+          '与<strong>Emmett Till 纪念室</strong>——1955 年那具原棺就在里面，' +
+          '这是全馆唯一被官方称为「sacred object」的展品',
+        '<strong>历史展厅出口处的 Contemplative Court 一定要坐下来待五分钟。</strong>' +
+          '在 Concourse 0，一圈圆柱形水幕从上方 45 英尺高的椭圆天窗倾泻而下，' +
+          '是整栋楼里唯一安静、明亮、没有展板的空间，设计意图就是让人从 C3–C1 的情绪里缓出来。' +
+          '很多人从坡道出来直接被人流推去商店，<strong>会完全错过它</strong>',
+        '<strong>可以跳过的是地上三、四层的 Culture Galleries</strong>' +
+          '（Musical Crossroads 的音乐展厅、Sports、Visual Arts、Taking the Stage）。' +
+          '它们轻快好看，但内容是「成就陈列」式的，<strong>没有历史展厅那种不可替代性</strong>；' +
+          '两小时的人直接放弃，四小时以上的人留 60–90 分钟。' +
+          '<strong>四层展厅另有一个实际理由值得单独上去</strong>：' +
+          '沿 corona 青铜格栅内侧的走廊能透过镂空看整条 National Mall，视野在 DC 独一份',
+        '<strong>进门流程与放票：每人不论年龄都必须有免费定时票，现场几乎拿不到。</strong>' +
+          '两个渠道——<strong>提前票滚动提前 30 天释放</strong>，' +
+          '<strong>同日票每天上午 8:15 ET 之前在线放出、只在网上放、现场不发</strong>，' +
+          '旺季常在几分钟内清空。实务做法是先按 30 天窗口抢，抢不到就设 8:15 的闹钟、' +
+          '提前登录 Smithsonian 账号、人数预先填好等着刷。' +
+          '入口有两处（<strong>南侧 Madison Drive、北侧 Constitution Avenue</strong>），票在哪边都能扫；' +
+          '<strong>所有人要过金属探测门、包过 X 光或手检</strong>，' +
+          '旺季安检队伍另加 15–25 分钟，请按票面时间提前半小时到。' +
+          '<strong>但不要早于票面时间到</strong>，官方明写「Please do not arrive before the entry time」，' +
+          '早到会被请到一边等。<strong>最晚入场 16:00</strong>，退役与现役军人、急救人员凭证件免票入场并可带 4 人',
+        '<strong>人流、餐饮与卫生间：官方公布的最高峰是周五至周日的 12:00–16:00</strong>，' +
+          '这段时间历史展厅入口会排长队。想清静就订当天最早一档（周二至周日 10:00、周一 12:00）。' +
+          '餐饮只有一处：<strong>Concourse 层的 Sweet Home Café</strong>，' +
+          '做南方与非裔美国菜系，是 Smithsonian 里公认最好吃的馆内餐厅，' +
+          '<strong>正午会排队到 20 分钟以上，想吃就 11:00 一开门去或 14:00 之后去</strong>。' +
+          '（<strong>营业时间官方两处页面不一致</strong>：Plan Your Visit 页写 11:00–16:00、' +
+          'FAQ 页写 11:00–15:00，周一均推迟到 12:00 开始；请按较早的 15:00 打算。' +
+          '另有「Dine and Shop pass」可只进餐厅与商店、不进展厅，' +
+          '<strong>限 11:00–14:30、提前 7 天上午 8:00 ET 滚动放票、每天最多订 4 张</strong>。）' +
+          '卫生间在<strong>每一层电梯厅旁</strong>都有，' +
+          '但<strong>历史展厅 C3–C1 的坡道段中途没有卫生间</strong>，下去之前先解决。' +
+          '<strong>没有行李寄存</strong>，大件行李、食品饮料一律不得入馆，只能存在馆外'
       ],
       photo: '建筑 <strong>5/5</strong>，风光 <strong>2.5/5</strong>，人像 <strong>3.5/5</strong>。' +
         '外立面是本区第一梯队的建筑目标，青铜格栅在低角度侧光下会真的发光；' +
@@ -214,6 +272,14 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>看完整馆 4–6 小时；只看历史展厅 2–2.5 小时；纯建筑与外立面 60 分钟。</strong>' +
+          '官方给出的硬数字是历史展厅本身「approximately 2 hours … about 1 mile of walking」。' +
+          '建议分配：<strong>C3–C1 历史展厅 120 分钟</strong>（其中 C3 至少 50 分钟，这是全馆分量最重的一层）、' +
+          '<strong>Contemplative Court 10 分钟</strong>、' +
+          '<strong>地上三／四层 Culture Galleries 60–90 分钟</strong>（时间不够可全部砍掉）、' +
+          '<strong>Sweet Home Café 用餐 40 分钟</strong>。' +
+          '加上安检与入场排队 15–25 分钟。' +
+          '<strong>这是本区唯一值得排掉半天以上的馆</strong>，不要和别的馆挤在同一个上午',
         book: '<strong>必须持免费定时票（timed-entry pass），所有人不论年龄都要有，包括婴儿</strong>。' +
           '官方已确认<strong>目前仍然要求定时票</strong>（这一点历史上反复变过，2019 年曾按淡旺季区分、' +
           '9–2 月工作日可 walk-in，现在<strong>没有淡季豁免了</strong>）。' +
@@ -226,12 +292,18 @@ module.exports = {
           '订票入口 <a href="https://nmaahc.si.edu/visit/plan-your-visit" target="_blank" rel="noopener">nmaahc.si.edu/visit</a>。' +
           '实务建议：<strong>先按 30 天提前票抢，抢不到再蹲 8:15 同日票</strong>，' +
           '旺季同日票常在几分钟内清空，请提前登录 Smithsonian 账号、把人数填好等着刷',
-        ticket: '<strong>免费</strong>（定时票本身也免费，无手续费）',
-        hours: '官方口径：<strong>周二至周日 10:00–17:30；周一 12:00–17:30</strong>；' +
-          '联邦假日当天 10:00 开门；<strong>仅 12 月 25 日闭馆</strong>。' +
+        ticket: '<strong>免费</strong>（定时票本身也免费，无手续费）。' +
+          '<strong>注意「免费」与「需定时票」是两件事</strong>：这个馆不收一分钱，' +
+          '但没有那张免费票就进不去，两者不能互相推论。核实日期 <strong>2026-09-14</strong>，' +
+          '来源 nmaahc.si.edu 官方 Plan Your Visit 页',
+        hours: '官方口径（核实日期 <strong>2026-09-14</strong>，nmaahc.si.edu）：' +
+          '<strong>周二至周日 10:00–17:30；周一 12:00–17:30</strong>；' +
+          '<strong>逢联邦假日的周一改为 10:00 开门</strong>；<strong>全年仅 12 月 25 日闭馆</strong>。' +
           '<strong>持票者可从票面时间起入场，最晚 16:00</strong>（团体票有 2 小时宽限期），' +
-          '之后按容量决定、不保证放行。<strong>周一晚开两小时是很容易踩的坑</strong>，' +
-          '别把周一上午安排到这里',
+          '之后按容量决定、不保证放行。' +
+          '闭馆是分段清场：<strong>商店 17:00 起开始关，展厅 17:15 起开始关</strong>，' +
+          '所以实际可看到 17:15 而不是 17:30。' +
+          '<strong>周一晚开两小时是很容易踩的坑</strong>，别把周一上午安排到这里',
         parking: '<strong>无自有停车场。</strong>周边 Constitution Ave 与 15th Street 有路边计时表位但极难找；' +
           'Ronald Reagan Building 停车楼日均约 $26，是最近的正规选择。' +
           '强烈建议乘地铁：<strong>Federal Triangle 站（Blue/Orange/Silver）或 Smithsonian 站（走 Mall 出口）</strong>',
@@ -271,6 +343,7 @@ module.exports = {
       n: 2,
       name: '国家档案馆博物馆',
       en: 'National Archives Museum',
+      must: 4.5,
       score: 3.5,
       tldr: 'Rotunda 的摄影禁令已废止，现在官方鼓励无闪光拍摄；免费不需票，$1 定时票可跳队。',
       tags: [
@@ -300,6 +373,56 @@ module.exports = {
         '下层 <strong>David M. Rubenstein Gallery</strong> 入口处放着一份' +
           '<strong>1297 年的《大宪章》原件</strong>，后面接「Records of Rights」常设展。' +
           '另有新的「The American Story」签名展厅与 Discovery Center'
+      ],
+      tour: [
+        '<strong>一句话动线：进门上主楼层的 Rotunda 看三份原件，再下楼看 1297 年《大宪章》，' +
+          '全程 45–75 分钟就够。</strong>这是本区节奏最快的一个馆，' +
+          '不要按「大博物馆」来排时间。Rotunda 里的观看方式是<strong>单向绕行</strong>：' +
+          '沿半圆形高台从一端走到另一端，依次是' +
+          '<strong>《独立宣言》（Declaration of Independence）、《宪法》（Constitution，四页中通常展出第一页与签名页）、' +
+          '《权利法案》（Bill of Rights）</strong>，同一空间还有' +
+          '<strong>《解放奴隶宣言》与宪法第 19 修正案</strong>。' +
+          '高峰时段台前会形成缓慢移动的队列，工作人员会催促前进，' +
+          '<strong>每份文件实际只有大约 30–60 秒的停留时间</strong>',
+        '<strong>先把心理预期调对，否则一定会失望。</strong>' +
+          '三份文件封在 2003 年换装的密封展柜里，' +
+          '<strong>柜内照度被严格控制在 3 英尺烛光（foot-candle）以下</strong>并加紫外滤片，' +
+          '所以展厅很暗、文件字迹很淡。' +
+          '<strong>《独立宣言》褪色最严重，肉眼几乎读不出内容，只能看出版式与那些签名的轮廓</strong>；' +
+          '《宪法》与《权利法案》的可读性明显好一些。' +
+          '这里的价值在于「你正站在这三张纸前面」这件事本身，而不是辨认字句。' +
+          '想看清内容，官方在网站上提供三份文件的免费高清扫描，事先看一遍再来，现场体验会好得多',
+        '<strong>Rotunda 里真正被大多数人忽略的是两侧那两幅巨型壁画。</strong>' +
+          '<strong>Barry Faulkner 1936 年的《Declaration of Independence》与《Constitution》</strong>，' +
+          '各高约 14 英尺，画的是签署现场的群像，人物可逐个辨认；' +
+          '抬头则是带方格藻井的半球穹顶。' +
+          '排队等着看文件时，<strong>把视线放到墙上和头顶，这部分不用排队、也没人和你抢位置</strong>',
+        '<strong>下层的 David M. Rubenstein Gallery 是这个馆第二个不该错过的地方，人流比 Rotunda 少得多。</strong>' +
+          '入口处独立展出一份<strong>1297 年的《大宪章》（Magna Carta）原件</strong>' +
+          '——这是美国境内仅有的几份中世纪大宪章之一，' +
+          '后面接常设展「Records of Rights」，讲公民权、移民与言论自由的档案史。' +
+          '同层另有<strong>「The American Story」签名展厅与 Discovery Center</strong>（适合带孩子的家庭）。' +
+          '2026 年还加了一个特展<strong>「Free and Independent: A Celebration of the Declaration」，' +
+          '展期 2026 年 4 月 25 日至 2027 年 7 月 5 日</strong>，配合建国 250 周年，' +
+          '这一档在本手册的有效期内都能看到',
+        '<strong>排队、安检、包与「$1 跳队」的实际算法。</strong>' +
+          '不订票可以直接来，但官方明说<strong>「It can take up to an hour or more to enter the building ' +
+          'without a timed-entry ticket during heavy visitor traffic periods」</strong>，' +
+          '并点名了这些高峰：公共假日（含 7 月 4 日）、<strong>3、4、5 月整月</strong>、' +
+          'Thanksgiving 周末、圣诞到元旦那一周。' +
+          '<strong>落在这些时段就花那 $1 订定时票，落在其他时段并且能 10:00 开门就到，则完全不必订。</strong>' +
+          '安检的<strong>包尺寸限制是本区最严也最具体的：每人限一个包，不得超过 17 × 26 英寸（43 × 66 厘米）</strong>，' +
+          '登机箱级别会被直接拦下；<strong>而且没有寄存，所有东西必须全程随身</strong>',
+        '<strong>餐饮、卫生间与接驳的三个实务点。</strong>' +
+          '第一，<strong>官方 Plan Your Visit 页面没有列出任何馆内餐饮设施</strong>，' +
+          '只有 National Archives Store；<strong>请不要把午餐指望在这里</strong>，' +
+          '出门往西走十分钟就是 National Gallery of Art 的两个咖啡座，那是最近的正规选择。' +
+          '第二，<strong>展厅与影院内禁止食物、饮料与口香糖</strong>，水也不例外。' +
+          '第三，<strong>地铁出站后不能直接进门</strong>：' +
+          'Archives–Navy Memorial–Penn Quarter 站出口在 Pennsylvania Avenue 一侧，' +
+          '官方指引是「walk around the building and enter on the Constitution Avenue side」' +
+          '——<strong>唯一的游客入口在 Constitution Avenue 那一面</strong>，绕行要多走 3–5 分钟，' +
+          '别在 Pennsylvania Avenue 那侧的研究者入口排错队'
       ],
       photo: '建筑 <strong>4/5</strong>，风光 <strong>1/5</strong>，人像 <strong>1.5/5</strong>。' +
         'Rotunda 的穹顶与两幅壁画是扎实的建筑／室内目标，且刚刚从「完全禁拍」变成「可拍」；' +
@@ -341,23 +464,38 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45–75 分钟；只看 Rotunda 的三份原件 30 分钟。</strong>' +
+          '建议分配：<strong>Rotunda（三份原件 + 两幅 Faulkner 壁画 + 穹顶）25–35 分钟</strong>、' +
+          '<strong>East／West Rotunda Galleries 的轮换文件展 10 分钟</strong>、' +
+          '<strong>下层 Rubenstein Gallery（1297 年《大宪章》与 Records of Rights）20–30 分钟</strong>。' +
+          '带孩子的加 Discovery Center 30 分钟。' +
+          '<strong>官方未给出建议时长，以上按展厅数量与单向动线的实际通过速度推算。</strong>' +
+          '另需预留安检排队：订了 $1 定时票约 15 分钟，没订票在高峰期官方说可能「一小时以上」。' +
+          '<strong>这是本区唯一可以塞进半天行程缝隙里的大馆</strong>，' +
+          '和隔街的 National Gallery of Art 串成一个上午非常合适',
         book: '<strong>不需预约，所有人都可以直接来。</strong>' +
           '但官方「鼓励」订票以启用馆内新的个性化系统，共三种：' +
           '<strong>（1）免费 general admission 票</strong>；' +
           '<strong>（2）$1 定时票（timed-entry），唯一作用是跳过现场排队</strong>，' +
-          '入场时段 10:15–16:30、每 15 分钟一档；<strong>（3）6 人以上团体 $1 定时票</strong>。' +
+          '官方现行口径是<strong>「Every 15 minutes between 10:00 a.m. - 5:00 p.m.」' +
+          '（每 15 分钟一档，10:00 至 17:00）</strong>；<strong>（3）6 人以上团体 $1 定时票</strong>。' +
+          '持免费 general admission 票者<strong>可在当日 10:00 至 17:00 之间任意时间到</strong>，' +
+          '并可留到 17:30 闭馆。' +
           '$1 是不可退的手续费，改期免费、取消不退。' +
           '<strong>10 月、11 月、12 月 2026 的票已于 9 月 1 日 11:00 ET 开始释放。</strong>' +
           '订票走 Etix，入口在 <a href="https://visit.archives.gov/visit/tickets" target="_blank" rel="noopener">visit.archives.gov/visit/tickets</a>。' +
           '实务判断：<strong>旺季正午现场队伍可能排 30–60 分钟，$1 非常值得花</strong>；' +
           '若你按建议在 10:00 开馆时到，则完全不必订',
-        ticket: '<strong>免费</strong>（$1 仅为定时票手续费）',
-        hours: '官方原文：展区 <strong>每日 10:00–17:30</strong>，' +
-          '<strong>最后入场为闭馆前 30 分钟（即 17:00）</strong>；' +
-          '<strong>除 Thanksgiving 与 12 月 25 日外全年开放</strong>。' +
-          '定时票时段止于 16:30，官方解释是要留足时间让人看完 Rotunda。' +
-          '（注：今年夏天曾有到 7 月 5 日为止的 10:00–22:00 延长开放，<strong>该延长已结束</strong>，' +
-          '10 月不要指望晚场）',
+        ticket: '<strong>免费</strong>（$1 仅为定时票手续费，不可退；改期免费、取消不退）。' +
+          '核实日期 <strong>2026-09-14</strong>，来源 visit.archives.gov 官方 Tickets 页',
+        hours: '官方原文（核实日期 <strong>2026-09-14</strong>，visit.archives.gov 与 archives.gov）：' +
+          '展区 <strong>「10 a.m.–5:30 p.m.」每日开放</strong>，' +
+          '<strong>「Last admission is at 5 p.m.」（最后入场为闭馆前 30 分钟）</strong>；' +
+          '<strong>「Open every day except Thanksgiving and December 25」' +
+          '——2026 年即 11 月 26 日与 12 月 25 日两天闭馆</strong>。' +
+          '注意这与 Smithsonian 各馆不同：<strong>本馆 Thanksgiving 也关</strong>。' +
+          '（另注：2026 年夏季曾有到 7 月 5 日为止的 10:00–22:00 延长开放，' +
+          '<strong>该延长已结束，秋冬不要指望晚场</strong>）',
         parking: '<strong>周边只有零星路边计时表位，官方明确建议不要开车。</strong>' +
           '地铁 <strong>Archives–Navy Memorial–Penn Quarter 站（Green/Yellow 线）</strong>就在门口',
         walk: 'Archives 地铁站出口到博物馆入口约 <strong>100 米 / 2 分钟</strong>，' +
@@ -392,6 +530,7 @@ module.exports = {
       n: 3,
       name: '国立肖像画廊 + 美国艺术博物馆（Kogod 中庭）',
       en: 'National Portrait Gallery + Smithsonian American Art Museum',
+      must: 4,
       score: 5,
       tldr: 'Norman Foster 的波浪玻璃顶中庭，免费、不需预约、开到 19:00——本区性价比最高的建筑机位。',
       tags: [
@@ -423,6 +562,63 @@ module.exports = {
         '这个方案的结构与环境思路直接延续自 Foster 在 <strong>British Museum Great Court</strong> 的屋顶，' +
           '设计口号是「do the most with the least」。' +
           '如果你去过伦敦那个，会立刻认出同一套语汇——但这里的曲面更软、更像一块被吹起的布'
+      ],
+      tour: [
+        '<strong>两小时的最优路线：11:30 进门 → 二层 America\'s Presidents（总统画廊）→ ' +
+          '三层 Great Hall 与 Luce Center → 下到 Kogod Courtyard 坐下喝一杯。</strong>' +
+          '这栋楼里装着两个独立的馆——<strong>楼的北半边是 National Portrait Gallery（NPG）、' +
+          '南半边是 Smithsonian American Art Museum（SAAM）</strong>，中间由 Kogod Courtyard 连通，' +
+          '不用出门、不用二次安检。' +
+          '<strong>两馆合起来的完整藏量远超半天能看的量，所以必须挑。</strong>' +
+          '如果只有 90 分钟，就只做总统画廊加中庭这两件事',
+        '<strong>总统画廊是这栋楼里第一位的必看，而且 2026 年刚整体翻新过。</strong>' +
+          '展厅名「America\'s Presidents」，在<strong>二层西侧展厅（West Gallery 210）</strong>，' +
+          '<strong>这是白宫之外唯一一套完整的历届总统肖像收藏</strong>。' +
+          '为建国 250 周年，官方于 <strong>2026 年 5 月 15 日</strong>推出改陈版本：' +
+          '<strong>展出 60 幅以上总统肖像</strong>，新增解读区、原始文献、视频龛，' +
+          '还放了<strong>Lincoln 生前面模的可触摸复制件</strong>，' +
+          '并可用 QR 码或 Bloomberg Connects app 听导览。' +
+          '镇馆之作是 <strong>Gilbert Stuart 的 George Washington「Lansdowne」全身像</strong>。' +
+          '<strong>Kehinde Wiley 画的 Barack Obama 肖像（2018）截至 2026-09-14 在 West Gallery 210 正常展出</strong>' +
+          '（官方藏品页标注 On View）',
+        '<strong>但 Michelle Obama 那幅不在——这一条要特别讲清楚，否则一定白跑。</strong>' +
+          '<strong>Amy Sherald 画的 Michelle Obama 肖像（2018）截至 2026-09-14 处于「Currently not on view」状态</strong>' +
+          '（NPG 官方藏品页原文）。它平时的位置是<strong>三层「20th-Century Americans」展厅</strong>，' +
+          '但该馆的 si.edu 展项页现在把这件展示标为「February 13, 2018 – Closed」。' +
+          '原因是它被借去个展<strong>「Amy Sherald: American Sublime」（2025 年 9 月 19 日至 2026 年 2 月 22 日）</strong>，' +
+          '展期结束后尚未回到常设展线。' +
+          '<strong>结论：两幅 Obama 肖像目前只能看到 Barack 那一幅。</strong>' +
+          '这一点会随时间变化，<strong>出发前请查一次 npg.si.edu 的藏品页</strong>，' +
+          '或打 <strong>(202) 633-8300</strong> 问当日是否在展',
+        '<strong>Kogod Courtyard 不是「顺便走过的天井」，它是这栋楼最值得停留的房间。</strong>' +
+          'Norman Foster 2007 年加的波浪玻璃顶，864 块玻璃无一形状相同，' +
+          '荷载全由周边 8 根柱子承担、刻意不压到 19 世纪的老墙上。' +
+          '地面是黑花岗岩配四道各仅 1/4 英寸深的水膜，种着榕树与黑橄榄。' +
+          '<strong>关键实务：这里有一个 Courtyard Café，可以点咖啡坐下</strong>——' +
+          '在本区所有馆里，<strong>这是唯一能让你在最好的空间里坐着休息的地方</strong>，' +
+          '中途歇脚请安排在这里而不是硬撑。' +
+          '<strong>中庭常被租出去办音乐会与晚宴，布场时水膜会被排干、地面摆满桌椅</strong>；' +
+          '想看空场就 11:30 一开门先进来',
+        '<strong>三层的两个房间值得多走一趟，而且几乎总是空的。</strong>' +
+          'NPG 一侧是<strong>Great Hall</strong>——文艺复兴复兴式的彩瓷地砖大厅，连续尖拱配彩色天窗，' +
+          '和楼下 Foster 的现代曲面正好构成一组新旧对照；' +
+          'SAAM 一侧是<strong>Luce Foundation Center</strong>，开放式储藏展示区，' +
+          '<strong>3,300 多件作品密密麻麻塞在通高玻璃柜里</strong>，' +
+          '是很多人心里这栋楼最惊喜的一处。' +
+          '隔壁 <strong>Lincoln Gallery</strong> 就是 <strong>1865 年 3 月 4 日 Lincoln 第二次就职舞会</strong>的那个大厅，' +
+          '现在挂当代艺术。<strong>可以跳过的是各类临时特展</strong>，' +
+          '除非正好碰上感兴趣的题目——时间紧就直接放弃',
+        '<strong>流程与设施：这是本区门槛最低的一个馆。</strong>' +
+          '不需票、不需预约、直接走进去；' +
+          '<strong>G Street 与 F Street 两个入口都要过金属探测门</strong>，' +
+          '保安可能要求把双肩包改为手提或背在身前。' +
+          '<strong>最大的坑是 11:30 才开门</strong>，比其他 Smithsonian 晚 90 分钟，' +
+          '<strong>千万别把这里排成上午第一站</strong>；' +
+          '作为补偿它<strong>开到 19:00</strong>，是本区唯一能安排在傍晚、' +
+          '甚至在其他馆 17:00–17:30 关门之后还能继续逛的馆。' +
+          '餐饮除中庭的 Courtyard Café 外，出门就是 Penn Quarter 与 Chinatown，' +
+          '是本区晚餐选择最多的位置。卫生间在<strong>一层与三层电梯厅附近</strong>各有一组，' +
+          '中庭旁边也有'
       ],
       photo: '建筑 <strong>5/5</strong>，人像 <strong>4.5/5</strong>，风光 <strong>1/5</strong>。' +
         '本区综合评分最高的一个：免费、不需预约、开到 19:00、有咖啡座可以坐着等光，' +
@@ -480,9 +676,22 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>两馆合计 2.5–4 小时；只看重点 90 分钟。</strong>' +
+          '90 分钟版的分配：<strong>二层 America\'s Presidents 总统画廊 40 分钟</strong>、' +
+          '<strong>三层 Great Hall 与 Luce Foundation Center 25 分钟</strong>、' +
+          '<strong>Kogod Courtyard 坐下休息 25 分钟</strong>。' +
+          '想认真看完 NPG 的人像展线加 SAAM 的美国艺术常设展，' +
+          '<strong>4 小时仍然看不完，请接受挑着看</strong>。' +
+          '<strong>官方未公布建议时长，以上按展厅数量与两馆规模推算。</strong>' +
+          '安检排队通常只要 5 分钟，是本区最快的。' +
+          '<strong>因为 11:30 才开、19:00 才关，这个馆最适合放在下午或傍晚</strong>，' +
+          '用来收容 Mall 各馆 17:30 关门之后的时间',
         book: '<strong>不需预约</strong>，没有任何票务系统，直接走进去',
-        ticket: '<strong>免费</strong>',
+        ticket: '<strong>免费</strong>（核实日期 <strong>2026-09-14</strong>，americanart.si.edu 与 npg.si.edu）。' +
+          '<strong>本馆是「免费且不需定时票」，与 NMAAHC、National Air and Space Museum ' +
+          '那种「免费但必须有定时票」完全不同，不要混为一谈</strong>',
         hours: '<strong>这是本区开得最晚的馆，也是唯一能拍到日落后室内的馆。</strong>' +
+          '核实日期 <strong>2026-09-14</strong>。' +
           'Smithsonian American Art Museum 官网首页现行口径是' +
           '<strong>「Open Daily, 11:30 a.m.–7:00 p.m.」</strong>，' +
           'Smithsonian Gardens 官方页面对中庭的口径是' +
@@ -527,6 +736,7 @@ module.exports = {
       n: 4,
       name: '福特剧院与 Petersen House',
       en: "Ford's Theatre and Petersen House",
+      must: 3,
       score: 3,
       tldr: '林肯遇刺现场，免费但需 $5 手续费的定时票；剧场不含在每一张票里，且今年刚做过维修封闭。',
       tags: [
@@ -551,6 +761,61 @@ module.exports = {
           'Certain entries only include visits to the Petersen House and Aftermath Exhibits.」</strong>',
         '<strong>总统包厢内部长期封闭</strong>，官方理由是防止文物损坏，' +
           '只能从剧场地面层或二层向上拍。包厢按 1865 年原样布置：美国国旗加一幅 George Washington 肖像'
+      ],
+      tour: [
+        '<strong>动线是单向的，四段固定顺序，中途不能回头：' +
+          'Museum（地下层）→ Theatre（剧场）→ 过 10th Street 到 Petersen House → Aftermath Exhibits。</strong>' +
+          '这四段分别在三栋楼里，全部靠步行串起来，' +
+          '<strong>最远两点之间也不到 50 米</strong>，是全美最紧凑的一组历史现场。' +
+          '官方建议留 <strong>2–3 小时</strong>走完全程。' +
+          '<strong>因为不能回头，每一段想看的东西请一次看够</strong>',
+        '<strong>四段里分量最重的是 Petersen House 的那间后卧室，把体力和注意力留给它。</strong>' +
+          '1865 年 4 月 14 日晚 Booth 开枪后，Lincoln 被抬过 10th Street 送进这栋寄宿公寓，' +
+          '<strong>次日清晨 7:22 在这张床上去世</strong>。' +
+          '屋子极小、宽度不到 3 米，靠绳索隔开，' +
+          '<strong>你实际只能在门口站十几秒就被后面的人推着走</strong>。' +
+          '想多看一会儿的办法是<strong>刻意走在自己那批人的最后</strong>，' +
+          '前一批走完、下一批还没进来的那半分钟是唯一能安静看的窗口。' +
+          '同楼还有 Stanton 当晚临时改作审问室的房间',
+        '<strong>剧场本体是第二重点，但要先搞清一件事：它不在每一张票里。</strong>' +
+          'Ford\'s Theatre <strong>至今仍是运营中的演出场地</strong>，' +
+          'NPS 原文是「Ford\'s Theatre is an active theater, and there are times when the theater is ' +
+          'closed for matinee performances, rehearsals and special events」，' +
+          'Ford\'s Theatre Society 说得更直接：' +
+          '<strong>「The Theatre is not included in every ticket. Certain entries only include ' +
+          'visits to the Petersen House and Aftermath Exhibits.」</strong>' +
+          '<strong>所以订票前必须打开官网日历、逐个时段确认你那一档到底含不含 Theatre 与 Museum' +
+          '——这是这个景点唯一真正需要动脑的一步。</strong>' +
+          '进了剧场，看点是二层左侧那个<strong>总统包厢</strong>，按 1865 年原样布置' +
+          '（美国国旗加一幅 George Washington 肖像）；' +
+          '<strong>包厢内部长期封闭，只能从下面或侧面看</strong>，' +
+          '场内有 ranger 值守答问，每批停留约 15–20 分钟',
+        '<strong>地下层的 Museum 值得 30 分钟，Aftermath Exhibits 是可以压缩的那一段。</strong>' +
+          'Museum 是自助参观，官方标注约 30 分钟，' +
+          '最值得看的是<strong>Booth 用的那支 Deringer 手枪与匕首实物</strong>，' +
+          '以及 Lincoln 任内与 Frederick Douglass 会面、内战决策的展线。' +
+          'Aftermath Exhibits 在对街的 Center for Education and Leadership 里，' +
+          '讲 12 天追捕、同谋审判与灵柩专列一路回 Springfield，' +
+          '<strong>内容不差但密度低、以图文和互动装置为主，时间紧就快走或直接跳过</strong>，' +
+          '省下的时间给 Petersen House 和剧场',
+        '<strong>票、手续费与同日票的实际操作。</strong>' +
+          '票本身免费，但<strong>网上每张收 $5.00 预订手续费，每单限 6 张</strong>；' +
+          '<strong>这笔钱在 NPS 免费入园日也不豁免，国家公园年卡不能抵扣</strong>。' +
+          '不想付手续费的话，<strong>同日免费票当天 8:30 起在现场 box office 发放，' +
+          '每人限 6 张、数量有限</strong>，热门时段可能完全没有；' +
+          '官方建议当天先打 <strong>(202) 347-4833</strong> 问余票再跑过来。' +
+          'NPS 的建议是<strong>至少提前一天买</strong>。' +
+          '入场是<strong>每半小时一档、9:00 至 16:00</strong>',
+        '<strong>人流、餐饮与卫生间。</strong>' +
+          '这里每年接待<strong>超过 65 万人</strong>，而剧场一次只放一批，' +
+          '<strong>所以「挤」的感觉比大博物馆更明显</strong>；' +
+          '最空的是<strong>9:00–10:00 的头两档</strong>与 15:00 之后。' +
+          '<strong>馆内没有餐厅</strong>，' +
+          '但这里位于 Penn Quarter 中心，出门几步就是大量餐馆，午餐不成问题。' +
+          '<strong>卫生间在剧场楼的地下层（Museum 入口附近）与对街的 Aftermath 展馆内</strong>；' +
+          '<strong>Petersen House 内部没有卫生间，通道也极窄</strong>，' +
+          '过街之前先解决，并把大件行李和大背包留在酒店——' +
+          '那栋楼的楼梯和走廊<strong>实际上背不动大包</strong>'
       ],
       photo: '建筑 <strong>3/5</strong>，人像 <strong>1.5/5</strong>，风光 <strong>0.5/5</strong>。' +
         '剧场内景与 Petersen House 后卧室都是有分量的历史画面，但空间小、光线暗、人流按半小时一批灌进来，' +
@@ -590,6 +855,13 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>2–3 小时（官方口径）；只看剧场与 Petersen House 约 75 分钟。</strong>' +
+          'Ford\'s Theatre Society 官网在「Historic Site Visit」下直接标注' +
+          '<strong>「Approximately 2 – 3 hours」</strong>，Museum 单独标注<strong>「Approximately 30 minutes」</strong>。' +
+          '建议分配：<strong>Museum 30 分钟、Theatre 20 分钟（含 ranger 讲解）、' +
+          'Petersen House 15 分钟、Aftermath Exhibits 30–45 分钟</strong>。' +
+          '<strong>时间紧就砍 Aftermath Exhibits</strong>，' +
+          '剧场与 Petersen House 这两段是不可替代的，其余都可以压缩',
         book: '<strong>每人都必须有票，票本身免费，但网上订每张收 $5.00 手续费</strong>' +
           '（NPS 原文：「The Ford\'s Theatre Society charges a $5.00 reservation fee for each ticket」）。' +
           '<strong>每单限 6 张</strong>；该手续费<strong>在 NPS 免费入园日也不豁免，国家公园年卡不能抵扣</strong>。' +
@@ -602,8 +874,10 @@ module.exports = {
           '这是本景点唯一真正需要动脑的一步',
         ticket: '<strong>免费</strong>；网上订票每张 <strong>$5.00</strong> 手续费；' +
           'Acoustiguide 语音导览另加 <strong>$5/台</strong>',
-        hours: '官方口径：<strong>每日开放，入场时段 9:00–16:00、每半小时一档</strong>；' +
-          '<strong>Thanksgiving 与 12 月 25 日闭馆</strong>。' +
+        hours: '官方口径（核实日期 <strong>2026-09-14</strong>，nps.gov/foth 与 fords.org）：' +
+          '<strong>每日开放，入场时段 9:00–16:00、每半小时一档</strong>；' +
+          '<strong>Thanksgiving 与 12 月 25 日闭馆</strong>' +
+          '（2026 年即 11 月 26 日与 12 月 25 日）。' +
           '官方建议留 <strong>2–3 小时</strong>走完四个部分，其中 Museum 约 30 分钟。' +
           '<strong>但「每日开放」不等于「四个部分每天都开」</strong>：' +
           'NPS 明确说明剧场本体可能因演出、装台、排练而关闭，' +
@@ -617,24 +891,27 @@ module.exports = {
           'Ford\'s 到 Petersen House 只需<strong>过一条街，不到 1 分钟</strong>'
       },
       notes: [
-        '<strong>今年的维修封闭必须交代清楚。</strong>NPS 依 36 CFR §1.5 自 <strong>2026 年 6 月 3 日</strong>起' +
-          '对 Theatre 与 Museum 实施临时封闭以做消防与生命安全改造，' +
-          '<strong>Theatre 计划 7 月 31 日 9:00 重开、Museum 计划 8 月 15 日 9:00 重开</strong>；' +
-          'Atlantic Lobby、Petersen House 与 Center for Experiential Learning 全程未关',
-        '<strong>但截至本次研究时，fords.org 的 Plan Your Visit 页面仍挂着' +
-          '「the historic theatre and museum are temporarily closed for maintenance work」' +
-          '的横幅，并写着「Tickets … through August 31, 2026, are now on sale」。' +
-          '这与 NPS 的重开日期相矛盾，最可能是官网横幅未及时撤下</strong>。' +
-          '<strong>该矛盾未能从官方渠道得到确认</strong>——请在订票时以日历上实际可选的时段为准，' +
-          '必要时打 (202) 347-4833 问清楚',
+        '<strong>2026 年的维修封闭已经结束，这一条是对早前说法的更正。</strong>' +
+          'NPS 依 36 CFR §1.5 自 <strong>2026 年 6 月 3 日</strong>起' +
+          '对 Theatre 与 Museum 实施临时封闭以做消防与生命安全改造' +
+          '（Atlantic Lobby、Petersen House 与 Center for Experiential Learning 全程未关）。' +
+          '<strong>截至 2026-09-14 复核，fords.org 上那条「temporarily closed for maintenance work」' +
+          '的横幅已撤下，Theatre 与 Museum 均标为「Open Daily」，' +
+          '官网写明「Tickets to visit Ford\'s Theatre and Museum through December 31, 2026 are now on sale」。</strong>' +
+          '也就是说<strong>两部分都已重开，且售票已开到 2026 年年底</strong>。' +
+          '但这不改变上一条的结论：<strong>剧场仍会因演出、排练、装台而在某些时段关闭</strong>，' +
+          '订票前仍必须查日历，必要时打 (202) 347-4833',
         '<strong>总统包厢内部不开放</strong>，任何时候都只能从外面拍。剧场内有 ranger 值守答问',
         '<strong>剧场内禁三脚架</strong>；Petersen House 空间极窄，' +
           '<strong>大三脚架与大背包实际上无法通行</strong>，建议只带机身加一支广角',
         '<strong>动线是单向的</strong>：Museum → Theatre → 过街到 Petersen House → Aftermath Exhibits，' +
           '中途不能回头补拍。想拍什么请一次拍够',
-        '<strong>停摆情形下这里会关。</strong>Ford\'s Theatre National Historic Site 是 NPS 属地、' +
-          '由 Ford\'s Theatre Society 合作运营，拨款中断时按 NPS 惯例闭馆。' +
-          '本次行程窗口已由 CR 覆盖，但这一点值得知道'
+        '<strong>联邦拨款中断（政府停摆）时这里会关。</strong>' +
+          'Ford\'s Theatre National Historic Site 是 NPS 属地、由 Ford\'s Theatre Society 合作运营，' +
+          '拨款中断时按 NPS 惯例闭馆。' +
+          '<strong>截至 2026-09-14，临时拨款决议（H.R. 6500）覆盖至 2026 年 12 月 11 日；' +
+          '此后的拨款状态请自行复查。</strong>' +
+          '这不是理论风险——2025 年 10 月的停摆就真的关过'
       ],
       images: [
         { url: 'img/ford-s-theatre-interior-washington-d-c-6c8e4530.jpg',
@@ -648,8 +925,9 @@ module.exports = {
     {
       id: 'dc-whitehouse',
       n: 5,
-      name: '白宫外景 + The People\'s House',
-      en: "White House Exterior + The People's House",
+      name: '白宫外景 + 白宫游客中心 + The People\'s House',
+      en: "White House Exterior + White House Visitor Center + The People's House",
+      must: 3.5,
       score: 2.5,
       tldr: '北侧 Lafayette Park、南侧 Ellipse、Pennsylvania Ave 广场目前全部封闭；The People\'s House 是唯一可靠的替代。',
       tags: [
@@ -684,6 +962,73 @@ module.exports = {
         '<strong>真正的白宫参观基本不用考虑。</strong>外国公民必须通过<strong>本国驻美使馆</strong>' +
           '在<strong>行前 21 至 90 天</strong>提交申请，而<strong>绝大多数使馆并不为旅游目的受理此类请求</strong>。' +
           '请直接按「进不去」规划，把 The People\'s House 当作正式替代，而不是备胎'
+      ],
+      tour: [
+        '<strong>最重要的一条先写在最前面：外国游客实际上进不了白宫，请不要把它列进计划。</strong>' +
+          '白宫的公众参观<strong>不售票、不接受个人申请</strong>，只有两条通道：' +
+          '<strong>（1）美国公民通过本人所属的国会议员办公室（Congressional Tour Coordinator）提交</strong>，' +
+          '窗口是<strong>行前 21 至 90 天，早于 90 天或晚于 21 天一律不受理</strong>，先到先得；' +
+          '<strong>（2）外国公民必须通过本国驻华盛顿使馆提交</strong>，' +
+          '按使馆操作指引每份申请<strong>最多 6 人</strong>，由使馆礼宾人员经 eGov 系统代为提交。' +
+          '<strong>问题在于绝大多数使馆并不为旅游目的受理此类请求</strong>' +
+          '——没有任何机制保证一个普通外国游客能排上。' +
+          '<strong>请直接按「进不去」来规划，把下面几条当作正式方案，而不是退路。</strong>' +
+          '万一真的排上了：参观时段官方口径为 <strong>周二至周六 8:00–12:30</strong>（house.gov），' +
+          '联邦假日除外；<strong>入口在 Lafayette Square 东北角、H Street NW 与 Madison Place NW 交口</strong>；' +
+          '<strong>外国公民不论年龄都必须出示有效护照</strong>，' +
+          '外国驾照、身份证、过期护照、复印件与电子件一律不认，信息与登记不一致会被当场拒入；' +
+          '参观全程<strong>没有卫生间</strong>，且可能临时取消，' +
+          '当天请打 24 小时的 Visitors Office 信息线 <strong>(202) 456-7041</strong> 确认',
+        '<strong>真正该去的替代是 White House Visitor Center，而且它被严重低估了。</strong>' +
+          '地址 <strong>1450 Pennsylvania Avenue NW（15th Street 与 E Street NW 交口，Herbert C. Hoover Building 内）</strong>，' +
+          '由 <strong>NPS 运营、完全免费、不需票、不需预约</strong>，' +
+          '<strong>每天 7:30–16:00</strong>——是本区开门最早的地方，比所有博物馆早两个半小时。' +
+          '里面有<strong>白宫藏品的 90 多件实物</strong>、白宫室内的互动触屏导览、' +
+          '一部 <strong>14 分钟的影片《White House: Reflections From Within》</strong>，' +
+          '以及 White House Historical Association 的商店。' +
+          '<strong>另一个纯实务的理由：这是这一带唯一确定有公共卫生间的地方</strong>' +
+          '（白宫参观本身全程无卫生间，官方也直接把访客指向这里）。' +
+          '看完约 <strong>45–60 分钟</strong>',
+        '<strong>第二个替代是 The People\'s House: A White House Experience，这是最接近「进了白宫」的体验。</strong>' +
+          '地址 <strong>1700 Pennsylvania Avenue NW</strong>，2024 年开馆，' +
+          '<strong>由 White House Historical Association 私营</strong>，免费但建议每人捐 $15（自愿）。' +
+          '内容是<strong>等比复原的 Oval Office、Cabinet Room、State Dining Room</strong> 等场景，' +
+          '配三层楼的行政官邸史。' +
+          '<strong>它明确不提供进入白宫、西翼或白宫园区的任何通道</strong>，别误会。' +
+          '看完约 <strong>60–90 分钟</strong>；' +
+          '<strong>建议提前订免费定时票，放票规则很特殊：每月第一个工作日 17:00 ET 之前释放次月全月的票</strong>；' +
+          '现场也有少量先到先得的 walk-up 票，但热门时段靠不住。' +
+          '这里<strong>不需过金属探测门</strong>（截至 2026-09-14 官方未列明该要求），' +
+          '入场比 Smithsonian 各馆快得多',
+        '<strong>外景：先接受一个坏消息——最好的三个观看位置目前都封着。</strong>' +
+          'NPS 于 2026 年 9 月 1 日签发的 Record of Determination，' +
+          '应 Secret Service 要求关闭 <strong>Lafayette Park、Ellipse、Sherman Park、' +
+          'First Division Monument、E Street 及其人行道，以及 White House Sidewalk' +
+          '（Pennsylvania Avenue 步行广场）</strong>，期限至 <strong>9 月 22 日 23:59</strong>，' +
+          '而这已是 8 月同类命令的续期、Lafayette Park 自 2026 年 1 月起就被临时钢围栏圈着。' +
+          '<strong>ACLU 指出这道围栏是「一个月一决定」，过去八个月的记录是连续续期</strong>，' +
+          '所以<strong>到期日不能当成恢复开放日</strong>。' +
+          '<strong>仍然开放的是外围人行道：H Street NW（Lafayette Park 北缘）、15th Street、' +
+          '17th Street、Constitution Avenue</strong>，请把走动范围限制在这几条街上。' +
+          '<strong>出发当天务必先查一次官方封闭页再决定要不要走过去</strong>：' +
+          'nps.gov/whho 的 temporary area closures',
+        '<strong>把这四件事串起来的实际走法。</strong>' +
+          '地铁坐 <strong>McPherson Square 或 Farragut West 站（Blue/Orange/Silver）</strong>出来，' +
+          '先去 <strong>The People\'s House（1700 Pennsylvania Ave NW）</strong>，' +
+          '再走 350 米到 <strong>H Street NW 北侧人行道</strong>看白宫北立面，' +
+          '然后沿 15th Street 南下 500 米到 <strong>White House Visitor Center（1450 Pennsylvania Ave NW）</strong>。' +
+          '<strong>全程步行不到 1.2 公里，两个室内点加一段外景，合计 2.5–3 小时</strong>，' +
+          '是这一带在封闭状态下唯一说得通的安排。' +
+          '因为 Visitor Center 7:30 就开，<strong>这一串很适合放在早上先走掉</strong>，' +
+          '再去 Mall 上 10:00 开门的各馆',
+        '<strong>三条会影响体验的现场事实。</strong>' +
+          '第一，<strong>这一带 Secret Service、Park Police 与 Uniformed Division 密度极高</strong>，' +
+          '久留不动或使用看起来像专业摄制的器材很可能被上前询问；配合、别争论就好。' +
+          '第二，<strong>Ellipse 被整体围起来作为 Marine One 的临时起降场</strong>' +
+          '（据 Fox 5 DC 报道），' +
+          '<strong>不要抱着「运气好能看到直升机」的期待去等</strong>——起降时段管控只会更严。' +
+          '第三，<strong>这一带基本无法停车</strong>：多条街道封闭、其余是执法严格的限时表位，' +
+          '<strong>请一律坐地铁</strong>'
       ],
       photo: '建筑 <strong>2.5/5</strong>，人像 <strong>1/5</strong>，风光 <strong>1/5</strong>。' +
         '评分低不是因为建筑不好，而是<strong>能站的位置几乎全被封了</strong>：' +
@@ -754,6 +1099,17 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>三部分合计 2.5–3 小时。</strong>分配：' +
+          '<strong>White House Visitor Center 45–60 分钟</strong>（含 14 分钟影片）、' +
+          '<strong>The People\'s House 60–90 分钟</strong>（三层）、' +
+          '<strong>H Street 一侧的外景 20–30 分钟</strong>。' +
+          '三点之间步行合计不到 1.2 公里。' +
+          '<strong>只有一小时的话就只去 White House Visitor Center</strong>' +
+          '——它免费、不需票、7:30 就开，且有卫生间。' +
+          '<strong>如果真的排上了白宫参观本身，自助参观约 30–45 分钟</strong>，' +
+          '但须另加提前到场与安检的时间。' +
+          '<strong>官方未对 Visitor Center 与外景给出建议时长，以上按展陈规模与实地距离推算；' +
+          'The People\'s House 的 60–90 分钟为按三层展陈规模推算。</strong>',
         book: '<strong>白宫外景不需任何预约</strong>，但出发前<strong>必须</strong>查一次 ' +
           '<a href="https://www.nps.gov/whho/learn/management/temporary-area-closures.htm" target="_blank" rel="noopener">' +
           'NPS 临时封闭公告页</a>，那里会挂当期的 Record of Determination 与封闭地图。' +
@@ -767,8 +1123,23 @@ module.exports = {
           '<br><strong>真正的白宫参观</strong>：外国公民须经<strong>本国驻美使馆</strong>' +
           '于行前 <strong>21–90 天</strong>提交，<strong>多数使馆不受理旅游申请，请视为不会发生</strong>',
         ticket: '外景 <strong>免费</strong>。' +
-          'The People\'s House <strong>免费</strong>，官方建议每人捐 <strong>$15</strong>（自愿，非强制）',
-        hours: '外景区域理论上 24 小时，<strong>但实际以 NPS／Secret Service 的临时封闭令为准</strong>，' +
+          '<strong>White House Visitor Center 免费，且「no ticket required」</strong>（NPS 官方原文）。' +
+          'The People\'s House <strong>免费</strong>，官方建议每人捐 <strong>$15</strong>（自愿，非强制）。' +
+          '<strong>白宫参观本身也是免费的（「All White House tours are free of charge」），' +
+          '收费从来不是门槛——门槛是名额与申请通道。</strong>' +
+          '核实日期 <strong>2026-09-14</strong>，来源 nps.gov/whho、house.gov、thepeopleshouse.com',
+        hours: '<strong>White House Visitor Center（1450 Pennsylvania Ave NW）：' +
+          '每日 7:30–16:00</strong>（NPS 官方原文「Every Day: 7:30 AM–4:00 PM」）；' +
+          'NPS 公布的闭馆日为 <strong>2026 年 11 月 26 日（Thanksgiving）、' +
+          '2026 年 12 月 25 日（Christmas）、2027 年 1 月 1 日（New Year\'s Day）</strong>。' +
+          '<strong>这是本区开门最早的点位，比所有博物馆早两个半小时。</strong>' +
+          '<br>白宫参观本身：<strong>周二至周六 8:00–12:30</strong>（house.gov 口径），联邦假日除外。' +
+          '<strong>此处官方口径不一致，两种都列出</strong>：使馆用的 White House Tour Guide for Embassies ' +
+          '写的是<strong>周二至周四 7:30–11:30、周五与周六 7:30–13:30</strong>。' +
+          '申请窗口也有出入：house.gov 说<strong>提前 21–90 天</strong>，' +
+          '使馆指引说<strong>提前 90 天开放、最晚提前 7 天提交</strong>。' +
+          '两者均为官方来源，请按自己的申请通道对应的那一套执行。' +
+          '<br>外景区域理论上 24 小时，<strong>但实际以 NPS／Secret Service 的临时封闭令为准</strong>，' +
           '且官方警告「areas often close without any advance notice」。' +
           '<br><strong>The People\'s House：每周七天 9:00–17:00，最后入场 16:00</strong>' +
           '（闭馆前 1 小时）；<strong>Thanksgiving、圣诞节、元旦闭馆</strong>；' +
@@ -796,9 +1167,15 @@ module.exports = {
           '相比 Smithsonian 各馆入场快得多。' +
           '<strong>官方未公布馆内摄影政策细则，未能从官方渠道确认是否禁三脚架</strong>；' +
           '按同类私营博物馆惯例请自行假定禁止',
-        '<strong>停摆情形下的唯一幸存者就是 The People\'s House</strong>——' +
+        '<strong>联邦拨款中断（政府停摆）时，本区唯一确定仍开的就是 The People\'s House</strong>——' +
           '由 White House Historical Association 私营、不依赖联邦拨款。' +
-          '而白宫周边的 NPS 户外区域在停摆时通常物理上仍可通行但无人值守',
+          '<strong>White House Visitor Center 由 NPS 运营，停摆时会关</strong>；' +
+          '白宫周边的 NPS 户外区域在停摆时通常物理上仍可通行但无人值守。' +
+          '<strong>截至 2026-09-14，临时拨款决议（H.R. 6500）覆盖至 2026 年 12 月 11 日；' +
+          '此后的拨款状态请自行复查。</strong>',
+        '<strong>白宫参观全程没有卫生间</strong>，官方直接把访客指向 White House Visitor Center；' +
+          '<strong>这也是整个白宫一带唯一确定有公共卫生间的地方</strong>，' +
+          '安排这一段行程时请把它算进去',
         '<strong>不要指望「运气好能看到 Marine One」。</strong>' +
           'Ellipse 作为起降场正是它被围起来的原因，' +
           '起降时段周边管控会更严而不是更松'
@@ -817,6 +1194,7 @@ module.exports = {
       n: 6,
       name: '国家美术馆（西馆 + 东馆）',
       en: 'National Gallery of Art (West Building + East Building)',
+      must: 4.5,
       score: 5,
       tldr: 'I.M. Pei 东馆天光中庭配 Calder 动态雕塑，加西馆穹顶与雕塑花园；免费、不需票、屋顶平台开放。',
       tags: [
@@ -852,6 +1230,70 @@ module.exports = {
         '<strong>Sculpture Garden</strong> 是 6 英亩的独立街区，20 多件现代雕塑加一座中央大喷泉' +
           '（冬天改成溜冰场），有 Louise Bourgeois、Alexander Calder、Marc Chagall 等人的作品，' +
           '还有 Pavilion Café'
+      ],
+      tour: [
+        '<strong>如果全馆只看一件东西，就是西馆主层 Gallery M6 的' +
+          'Leonardo da Vinci《Ginevra de\' Benci》（约 1474–1478）。</strong>' +
+          '<strong>这是西半球唯一的一幅达芬奇油画</strong>' +
+          '——不是「唯一的达芬奇作品之一」，是整个美洲大陆就这一幅，' +
+          '1967 年 NGA 从列支敦士登亲王手中买下，也是达芬奇作品在 20 世纪唯一一次易手。' +
+          '官方藏品页标注的位置是 <strong>West Building Main Floor, Gallery M6</strong>' +
+          '（核实日期 2026-09-14），语音导览站号 <strong>611</strong>。' +
+          '<strong>一个多数人不知道的细节：这幅画是双面的</strong>，' +
+          '画框做成可看背面，背面是一圈月桂、棕叶与杜松（意大利语 <em>ginepro</em>，暗指她的名字 Ginevra），' +
+          '配拉丁文箴言 <strong>VIRTVTEM FORMA DECORAT（「美饰德」）</strong>。' +
+          '<strong>务必绕到背面看，不然等于只看了一半。</strong>' +
+          '画尺寸只有约 38 × 37 厘米，比大多数人想的小得多，' +
+          '<strong>人一多就完全看不到，请在 10:00 开门后先直奔这里</strong>',
+        '<strong>西馆的其余看点与一条走法。</strong>' +
+          '西馆是 John Russell Pope 设计、1941 年开放的新古典主义大馆，' +
+          '进门是 <strong>Rotunda 圆厅</strong>——一圈深绿色托斯卡纳大理石柱围着中央的 Mercury 喷泉，' +
+          '穹顶有藻井与圆形天眼，<strong>这是全馆的动线枢纽，从这里向东西两翼分头走</strong>。' +
+          '主层西侧是意大利与文艺复兴（M6 的达芬奇就在这一侧），' +
+          '往东依次是荷兰、法国与美国部分。' +
+          '<strong>效率最高的走法是「只走主层、不下地面层」</strong>：' +
+          '地面层（Ground Floor）主要是素描、版画、雕塑与小件装饰艺术，' +
+          '<strong>分量与主层完全不在一个量级，半天行程可以整层跳过</strong>',
+        '<strong>东馆是完全不同的一栋楼，值得单独 60–90 分钟。</strong>' +
+          'I. M. Pei 设计、1978 年开放，场地是个梯形余角，' +
+          'Pei 把它切成两个咬合的三角形，<strong>整栋楼没有一个直角房间，墙角是 19.5 度的锐角</strong>' +
+          '（外墙那个著名的锐角被几十年游客摸得发亮）。' +
+          '进门的天光中庭悬着 <strong>Calder 1976 年的巨型动态雕塑</strong>，' +
+          '地面有 Noguchi 的《Great Rock of Inner Seeking》、Serra 的《Five Plates, Two Poles》。' +
+          '<strong>东馆装的是现代与当代部分</strong>：Rothko、Pollock、Matisse 的剪纸、Calder 的其余作品。' +
+          '<strong>顶层 Tower Level 的 Roof Terrace 目前正常开放</strong>，' +
+          '上面立着 <strong>Katharina Fritsch 的《Hahn/Cock》</strong>' +
+          '——一只约 4.7 米高、没有底座直接站在铺装上的亮蓝色公鸡，' +
+          '2013 年首展于伦敦 Trafalgar Square 第四基座，2016 年移来，2021 年成为永久藏品。' +
+          '<strong>平台正对 Pennsylvania Avenue、东望国会山，是这栋楼最好的户外空间，很多人不知道能上去</strong>',
+        '<strong>两馆之间的地下通道本身就是一个看点，不要为了省事跑到地面过马路。</strong>' +
+          '西馆与东馆由 <strong>Concourse 层的地下通道</strong>相连，' +
+          '通道里装着 <strong>Leo Villareal 的 LED 灯光装置《Multiverse》</strong>' +
+          '（沿自动步道两侧的光带，图案持续变化），' +
+          '通道一端还有一道人工瀑布的采光井。' +
+          '<strong>步行约 5 分钟，不用出门、不用二次安检、不用淋雨</strong>。' +
+          '第三部分 <strong>Sculpture Garden</strong> 则在西馆西边、需出馆过 7th Street，约 3 分钟：' +
+          '6 英亩的独立街区、20 多件现代雕塑加一座中央大喷泉' +
+          '（<strong>11 月中至 3 月初改成溜冰场</strong>），有 Bourgeois、Calder、Chagall 等人的作品',
+        '<strong>餐饮是这个馆的一大优势，全区最好，共五处（核实日期 2026-09-14）。</strong>' +
+          '主力是<strong>地下 Concourse 层的 Cascade Café，11:00–15:00</strong>，' +
+          '美食广场式、有披萨与现烤，座位多，紧邻那道瀑布与礼品店；' +
+          '同层的 <strong>Espresso & Gelato Bar 10:00–16:30</strong> 是全馆关得最晚的，' +
+          '<strong>下午三点以后只有它和 Pavilion Café 还在营业，这一点很关键</strong>。' +
+          '另有<strong>东馆上层中庭的 Terrace Café（周一至周五 12:00–16:00、周六日 10:00–16:00）</strong>，' +
+          '看得到 Mall；<strong>雕塑花园的 Pavilion Café 10:00–16:00</strong>，' +
+          '可室外就座、可在线预点；西馆还有 Garden Café。' +
+          '<strong>卫生间在西馆 Rotunda 两侧、东馆各层与 Concourse 层均有</strong>，' +
+          '<strong>Concourse 层那一组是全区最干净、排队最短的</strong>，值得记住',
+        '<strong>三个流程上的坑。</strong>' +
+          '第一，<strong>17:00 就闭馆</strong>，是本区关得最早的大馆之一，' +
+          '<strong>不要把它排在下午晚段</strong>——15:30 才进门基本只够看西馆一层。' +
+          '第二，<strong>双肩包不能背进展厅</strong>，' +
+          '需寄存或改为手提／前抱，入馆时所有随身物品要接受检查；' +
+          '三脚架、独脚架、画架与墨水粉笔类绘画材料未经事先许可禁止。' +
+          '第三，<strong>特展通常单独禁止拍摄且可能需要另外排队</strong>，' +
+          '而<strong>常设展全部免费不需票</strong>——' +
+          '时间紧就别碰特展，这个馆的价值几乎全在常设展线上'
       ],
       photo: '建筑 <strong>5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>2.5/5</strong>。' +
         '东馆中庭、西馆穹顶、雕塑花园三种完全不同的空间，全部免费且不需预约，' +
@@ -919,12 +1361,28 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>3–4 小时看三个部分；只看重点 2 小时；只为达芬奇一件 30 分钟。</strong>' +
+          '建议分配：<strong>西馆主层 90 分钟</strong>' +
+          '（其中 Gallery M6 的《Ginevra de\' Benci》与 Rotunda 圆厅各 15 分钟，' +
+          '<strong>地面层可整层跳过</strong>）、' +
+          '<strong>地下通道与 Concourse 层 15 分钟</strong>、' +
+          '<strong>东馆含 Roof Terrace 60–90 分钟</strong>、' +
+          '<strong>Sculpture Garden 30 分钟</strong>。' +
+          '<strong>官方未公布建议时长，以上按三栋建筑的展厅数量与常设展规模推算</strong>' +
+          '（官方 Fact Sheet 载东馆含艺术品空间逾 1 万平方英尺、雕塑花园 264,000 平方英尺、22 件雕塑）。' +
+          '<strong>务必倒推着排：17:00 闭馆，所以最晚 13:30 要进门才够看两栋楼</strong>',
         book: '<strong>不需预约</strong>，无票务系统',
-        ticket: '<strong>免费</strong>（官方口径「Always free」）',
-        hours: '官方原文：<strong>East Building 与 West Building 每日 10:00–17:00；' +
+        ticket: '<strong>免费</strong>（官方口径「Admission is always free」、「No timed passes are required」）。' +
+          '核实日期 <strong>2026-09-14</strong>，来源 nga.gov 官方 Plan Your Visit 页与官方 Fact Sheet。' +
+          '<strong>这是本区门槛最低的世界级美术馆：既免费、又不需任何票</strong>',
+        hours: '官方原文（核实日期 <strong>2026-09-14</strong>，nga.gov）：' +
+          '<strong>East Building 与 West Building 每日 10:00–17:00；' +
           'Sculpture Garden 每日 10:00–17:00</strong>。' +
-          '全年仅 12 月 25 日与 1 月 1 日闭馆。' +
-          'East Building 的 Terrace Café 每日 10:00–16:00。' +
+          '<strong>全年仅 12 月 25 日与 1 月 1 日闭馆</strong>' +
+          '（<strong>与 Smithsonian 各馆不同，本馆元旦也关</strong>）。' +
+          '餐饮时间比展厅更短，请一并算进来：' +
+          '<strong>Cascade Café 11:00–15:00、Espresso & Gelato Bar 10:00–16:30、' +
+          'Pavilion Café 10:00–16:00、Terrace Café 周一至周五 12:00–16:00／周六日 10:00–16:00</strong>。' +
           '<strong>17:00 早闭是这个点位最大的结构性缺陷</strong>：' +
           '9 月下旬闭馆后还有 2 小时日光、10 月下旬还有 1 小时 15 分，' +
           '<strong>请把这段时间预留给别处的室外机位，不要指望在馆内拍黄金时段</strong>',
@@ -953,8 +1411,10 @@ module.exports = {
         '<strong>East Building 的锐角外墙是免费的室外机位</strong>，' +
           '不进馆也能拍；<strong>4th Street Plaza 的玻璃棱锥天窗</strong>' +
           '（通道的采光井）在低角度光下也很好',
-        '<strong>NGA 在拨款中断时会关闭。</strong>本次行程窗口已由 CR 覆盖至 12 月 11 日，' +
-          '但若行程有变请重新确认',
+        '<strong>NGA 在联邦拨款中断（政府停摆）时会关闭。</strong>' +
+          '<strong>截至 2026-09-14，临时拨款决议（H.R. 6500）覆盖至 2026 年 12 月 11 日；' +
+          '此后的拨款状态请自行复查。</strong>' +
+          '（NGA 不属 Smithsonian，但同样靠联邦拨款运作）',
         '<strong>East Building 中庭 2022 年换过天窗玻璃</strong>，' +
           '现在比网上 2015–2020 年的照片明显更亮更通透，' +
           '<strong>按那些老照片估曝光会低估 1–1.5 EV</strong>'
