@@ -39,7 +39,7 @@ var REGIONS = [
         type: 'info',
         title: '烟雾分布：越往南越干净',
         html: '<p>Cambria 一带空气质量在「中等 / 不健康」间波动，Paso Robles 与 Atascadero 受影响也重。' +
-          '而 <strong>Guadalupe、Oceano、Montaña de Oro 距火场 90–120 英里，是本次行程的「烟雾避难所」</strong>。' +
+          '而 <strong>Guadalupe、Oceano、Montaña de Oro 距火场 90–120 英里，是这条示例行程的「烟雾避难所」</strong>。' +
           '北边烟大时，把重心南移。带 CPL 和后期降霾预案；侧面看，烟尘也可能造就极浓烈的红色日落。</p>'
       },
       {
@@ -88,7 +88,7 @@ var REGIONS = [
         },
         notes: [
           '<strong>2026 年 9 月的通行前提：只能从北侧（Carmel / Monterey 方向）南下抵达，不能南北贯通。</strong>Hwy 1 南段（县界 PM0 至 Kirk Creek 一带）因 Plaskett Fire 仍然封闭，无 pilot car、无限时通行、无预计重开时间',
-          '<strong>另有一条独立的路权封闭令：Sycamore Canyon Road（Forest Road 19S05）从 Hwy 1 路口起向西约 2.5 英里必须待在机动车内，禁止步行。</strong>该令 2025 年 1 月 30 日生效、<strong>有效期至 2027 年 1 月 29 日</strong>，即本次行程期内有效。也就是不能把车停在 Hwy 1 路边走进去，必须开车进入',
+          '<strong>另有一条独立的路权封闭令：Sycamore Canyon Road（Forest Road 19S05）从 Hwy 1 路口起向西约 2.5 英里必须待在机动车内，禁止步行。</strong>该令 2025 年 1 月 30 日生效、<strong>有效期至 2027 年 1 月 29 日</strong>，即这条示例行程期内有效。也就是不能把车停在 Hwy 1 路边走进去，必须开车进入',
           '<strong>Plaskett Fire 至今控制率仅 1%，面积已达 29,521 英亩</strong>（8/30 至 9/2 两天内即从 15,479 英亩涨到 28,968 英亩）。森林封闭令在两场火「declared out」之前不会解除，而封闭范围随时可能再变——<strong>出发当天务必复查 Caltrans 实时路况与 Los Padres 森林封闭令</strong>',
           '北段解封本身也不是永久保证：这条路在 8 月就有过解封后又因火势重新封闭的先例',
           '若从 Carmel 南下，注意 <strong>Rocky Creek Bridge（Monterey 以南 15.7 英里）24 小时单向交通管制，持续到 2026 年 11 月 30 日</strong>，会产生等待，日落时段的时间预算要留余量',
@@ -115,7 +115,7 @@ var REGIONS = [
           '<strong>即便公园突然重开，经典机位也未必能拍到</strong>：通往观景点的 Overlook Trail 在火灾之前就已长期关闭（自 2024 年 11 月起即无 McWay Falls 通道），<strong>官方给出的理由是一项长期挡土墙修复工程</strong>（parks.ca.gov 公告 2025 年 4 月 16 日发布、2026 年 3 月 4 日更新，明写「预计持续到 2026 年」）。California Conservation Corps 2026 年 6 月的报道说队员过去一年一直吊在崖壁上重砌支撑步道的石墙，工程仍未完工',
           '<strong>正常年份公园关着这条步道时，官方指定的替代观看点是 Hwy 1 路边的一小块观景处</strong>；但在全园关闭期间那个路边位能否停车、是否也被封，<strong>未能从官方渠道确认</strong>。围栏之外的悬崖、沙滩、Saddle Rock 与瀑布区域则一律禁入（District Superintendent&rsquo;s Order No. 720-97-003(G)），违规可被引用甚至逮捕'
         ],
-        photo: '正常年份是 5/5 的顶级风光题材。<strong>但本次行程为 0——公园关闭，且观景步道本身已封闭近两年。</strong>',
+        photo: '正常年份是 5/5 的顶级风光题材。<strong>但这条示例行程为 0——公园关闭，且观景步道本身已封闭近两年。</strong>',
         shots: [
           {
             name: 'Overlook Trail（当前关闭）',
@@ -299,7 +299,7 @@ var REGIONS = [
         notes: [
           '<strong>17:00 关门，而 9 月 Paso Robles 日落约 19:20——你无法在正常预约中拍到日落</strong>，甚至拍不到完整暮金光。旧游记说这里日落极佳，那是营业时间更晚的时期',
           '应对方案：把 DAOU 定位为白天的建筑人文加高位风光点，日落另找 Cambria 或 Montaña de Oro；或预约当日最后一档（约 15:30–16:00 入场）拿到开始转暖的光',
-          '<strong>你的行程含劳工节长周末，9/5–7 的档位现在很可能已满，请立刻预订，或安排在 9/8、9/9</strong>',
+          '<strong>这条示例行程含劳工节长周末，9/5–7 的档位极易售罄，需尽早预订，或安排在长周末之后</strong>',
           '酒庄建议订上午场避热（多数座位在户外，海拔 2,200 英尺）',
           '<strong>品酒涉及饮酒，Hidden Mountain Road 是多弯盘山路，请安排不饮酒的驾驶员</strong>',
           '所有预约均为品酒 flight，不是单杯或单瓶',
@@ -554,7 +554,7 @@ var REGIONS = [
           '两个官方页面对营业日有矛盾记载（一处写周二至周六，一处写每日 12:00–16:00），已按较严格者规划，建议电话确认',
           '劳工节周末车辆通行证极可能启用线上预售制（闸口不售票，上限 1,800 辆/日，年票在预售日无效）。<strong>但如果你只是步行进沙滩拍照，这完全不影响你</strong>',
           'Pier Avenue 正在施工重铺，Beach 至 Norswing Drive 段由四车道缩为三车道，可能有临时延误',
-          '<strong>距火场约 100 英里，烟雾影响最小——这是本次行程的空气质量最优区</strong>'
+          '<strong>距火场约 100 英里，烟雾影响最小——这是这条示例行程的空气质量最优区</strong>'
         ],
         images: [
           { url: 'img/dunes-oceano-1936-by-edward-weston-27f1f153.jpg', cap: 'Dunes, Oceano, 1936 · Edward Weston / 公有领域' },
@@ -574,10 +574,10 @@ var REGIONS = [
           '<strong>西海岸最高的沙丘，高达 550 英尺</strong>，加上 Santa Maria River 河口湿地，构成生态学上极重要的复合体',
           '这里<strong>没有既成步道系统</strong>——官方原文「doesn\u2019t have a system of established trails」。主要徒步是沿海滩南行至 Mussel Rock',
           '<strong>Dunes Center</strong>（1055 Guadalupe St）是一栋修复过的 <strong>1910 年 Craftsman bungalow</strong>：外露椽头、宽门廊、低坡屋顶、粗壮方柱',
-          '中心展出 <strong>《十诫》考古文物</strong>——1923 年 Cecil B. DeMille 在这片沙丘拍摄默片，整套巨型埃及布景被就地掩埋，至今仍完整埋在沙下。这是本次行程唯一的电影史题材'
+          '中心展出 <strong>《十诫》考古文物</strong>——1923 年 Cecil B. DeMille 在这片沙丘拍摄默片，整套巨型埃及布景被就地掩埋，至今仍完整埋在沙下。这是这条示例行程唯一的电影史题材'
         ],
         photo: '风光 <strong>5/5</strong>（若无封闭）／人像 <strong>4/5</strong>／沙丘中心建筑 <strong>4/5</strong>。' +
-          '550 英尺沙丘加正西朝向海滩，是本次行程唯一的大型沙丘题材。沙丘的光影脊线与风纹在低角度光下极具雕塑感，' +
+          '550 英尺沙丘加正西朝向海滩，是这条示例行程唯一的大型沙丘题材。沙丘的光影脊线与风纹在低角度光下极具雕塑感，' +
           '这是海岸线摄影里完全不同的一种语言。纯净沙丘曲线做背景、无任何杂物入镜，是极高级的人像布景。',
         shots: [
           {
@@ -611,7 +611,7 @@ var REGIONS = [
           walk: '沙丘：<strong>1–3 分钟</strong>到沙滩与前沙丘；到 Mussel Rock 约 60–75 分钟单程。Dunes Center：0–2 分钟',
         },
         notes: [
-          '<strong>雪鸻／燕鸥繁殖季封闭：3 月 1 日至 9 月 30 日，你的行程完全落在封闭期内。</strong>内陆沙丘与河口被绳索围起禁止进入；仅海滩本身与入口道路沿线开放',
+          '<strong>雪鸻／燕鸥繁殖季封闭：3 月 1 日至 9 月 30 日，九月来访完全落在封闭期内。</strong>内陆沙丘与河口被绳索围起禁止进入；仅海滩本身与入口道路沿线开放',
           '<strong>实际影响</strong>：能拍到海滩、前缘沙丘和 550 英尺沙丘的远景，但不能走进沙丘深处拍那些最精彩的纯净风纹和脊线。绳索通常在季节正式结束前几天才撤，9 月上旬太早',
           '<strong>Dunes Center 在 9/6（周日）与 9/7（劳工节）关闭</strong>，可行日期只有 9/5、9/8、9/9，且必须 15:00 前到',
           '<strong>9/7 周一上午大门可能因清沙／道路维护关闭</strong>，通常 12:00 前重开。当日建议下午来，或电话 805-343-2354 确认',
@@ -1128,7 +1128,7 @@ var REGIONS = [
     name: '③ Los Angeles',
     navName: '洛杉矶',
     color: '#ff8a3d',
-    lead: '本次行程景点最密集的一区，建筑人文与海岸日落都集中在这里。难点全在交通、停车与闭馆日，而不是景点本身。',
+    lead: '这条示例行程景点最密集的一区，建筑人文与海岸日落都集中在这里。难点全在交通、停车与闭馆日，而不是景点本身。',
     callouts: [
       {
         type: 'warn',
@@ -1457,7 +1457,7 @@ var REGIONS = [
           walk: '停车楼到博物馆入口直线约 1.26 公里，<strong>需搭免费自动缆车上山，行程 4–5 分钟</strong>。从停好车到走进博物馆入口，含安检与候车请<strong>预留 15–20 分钟</strong>'
         },
         notes: [
-          '<strong>三脚架与独脚架全部明确禁止</strong>，且户外庭院也适用——这是本次行程最严格的三脚架禁令之一。若打算在 9/5 拍蓝调，必须完全手持：建议带 f/1.4–f/1.8 大光圈定焦，并善用石灰华护墙作为支撑面',
+          '<strong>三脚架与独脚架全部明确禁止</strong>，且户外庭院也适用——这是这条示例行程最严格的三脚架禁令之一。若打算在 9/5 拍蓝调，必须完全手持：建议带 f/1.4–f/1.8 大光圈定焦，并善用石灰华护墙作为支撑面',
           '<strong>专业拍摄一律不允许</strong>，官方明文包含婚纱与模特拍摄。不要带反光板、闪光灯架、助理团队或明显的拍摄阵仗',
           '自拍杆仅限户外使用。允许的是户外与常设展厅内手持设备加现场自然光拍摄，照片仅限个人用途',
           '<strong>展厅局部翻修中</strong>：South Pavilion 的 101、102、206 号，West Pavilion 的 102、103 号，以及 East 与 North Pavilion 全部展厅关闭。<strong>建筑与庭院、Central Garden、South Promontory 均不受影响</strong>',
@@ -1645,7 +1645,7 @@ var REGIONS = [
           'Gehry 2003 年完成的 <strong>6,500 块不锈钢板曲面外壳</strong>，是继 Hollywood Sign 之后洛杉矶被拍摄最多的建筑',
           '曲面钢板在低角度阳光下会产生强烈的高光带与<strong>色温分离</strong>——一侧冷蓝反射天空、一侧暖金反射落日，是「金属加光」题材的教科书',
           '屋顶的 Blue Ribbon Garden 近 4,000 平方米，藏在钢壳背面，内有 Gehry 设计的《A Rose for Lilly》——<strong>用数千片碎裂的 Royal Delft 青花瓷拼成的玫瑰喷泉</strong>，是极少人知道的免费机位',
-          '<strong>本次行程的好消息</strong>：2026/27 演出季在此的首场演出为 9 月 25 日，<strong>9/5–9/9 期间没有 LA Phil 音乐会</strong>，屋顶花园因演出被封的概率很低',
+          '<strong>这条示例行程的好消息</strong>：2026/27 演出季在此的首场演出为 9 月 25 日，<strong>9/5–9/9 期间没有 LA Phil 音乐会</strong>，屋顶花园因演出被封的概率很低',
           '外部广场、大台阶、Grand Lobby 与屋顶花园<strong>全部免费开放，无需门票或预约</strong>'
         ],
         photo: '建筑 <strong>5/5</strong>，人像 <strong>4.5/5</strong>，风光 <strong>2.5/5</strong>。钢板作为巨型反光板使人像轮廓光极干净；碎瓷玫瑰喷泉是独一无二的背景。',
@@ -1842,7 +1842,7 @@ var REGIONS = [
         },
         notes: [
           '<strong>完全无遮蔽、九月下午极热。</strong>务必带水、防晒、帽子。正午光线最差且最难受，不要在正午来',
-          '<strong>9/5、9/6、9/7 Labor Day 长周末会非常拥挤，停车场可能满位。</strong>工作日早上最清静——本次行程只有 <strong>9/8 周二</strong>符合，是拍这里的最佳日子',
+          '<strong>9/5、9/6、9/7 Labor Day 长周末会非常拥挤，停车场可能满位。</strong>工作日早上最清静——这条示例行程只有 <strong>9/8 周二</strong>符合，是拍这里的最佳日子',
           '实际执行建议：18:00 前入园以免赶不上黄金时段，18:10–19:05 密集拍摄，日落后立即下山',
           'Hetzler Rd 是一条窄的上山路，注意会车',
           '九月午后常有雾霾，会降低远距离天际线的通透度；清晨通透度显著优于午后'
@@ -2034,7 +2034,7 @@ var REGIONS = [
           '<strong>2024 年 2 月因 Portuguese Bend 滑坡复活而关闭</strong>——教堂地基出现大面积裂缝、结构失稳；<strong>2024 年 5 月起专业拆解，7 月拆解完成</strong>，绝大部分材料（含 Walk of Honor 刻名纪念砖）已编号入库',
           '<strong>官方已判定原址不可能重建。</strong>新址选在 City Hall 旁的 Battery Barnes（一处约 4 英亩、现属 U.S. Coast Guard 的二战海防用地，距原址西约 1 英里）',
           '<strong>卡点在于该地块转让需国会立法</strong>：Rep. Ted Lieu 于 2026 年 1 月表示将提案，但 RPV 市长明确表示「目前尚无任何承诺或协议」；<strong>截至 2026 年 8 月 1 日的官方新闻稿，Battery Barnes 仍被教会自己的材料称为 prospective / proposed（拟定）地点</strong>',
-          '<strong>官方没有给出任何开工日期。</strong>官网原话是「一旦能确保拟定新址并募齐重建资金，就可以开始重建」，没有时间表——<strong>本次行程期间既无教堂，也无工地可拍</strong>',
+          '<strong>官方没有给出任何开工日期。</strong>官网原话是「一旦能确保拟定新址并募齐重建资金，就可以开始重建」，没有时间表——<strong>这条示例行程期间既无教堂，也无工地可拍</strong>',
           '<strong>唯一的好消息与拍摄无关：</strong>2026 年 8 月的地质报告称 Portuguese Bend 滑坡已减速到约每周 1.1 英寸、比一年前慢约 60%，教会因此说原址「有朝一日或可作为历史景观保存下来」——但那是很多年之后的事'
         ],
         photo: '<strong>本次无法拍摄。</strong>请勿驱车前往原址——该处封闭，且位于滑坡活跃区。替代机位见上一条 Point Vicente。',
@@ -2281,7 +2281,7 @@ var REGIONS = [
             '你去的时候它可能是个清澈水池，也可能只是一圈埋在沙里的边缘',
           '塔身紧贴崖壁，<strong>必须绕过一段外凸的岩角才能抵达，只有低潮可行</strong>。这是它高门槛的全部原因'
         ],
-        photo: '建筑 <strong>5/5</strong>，人像 <strong>5/5</strong>，风光 3/5（<strong>本次行程无法在日落拍摄，已降级</strong>）。' +
+        photo: '建筑 <strong>5/5</strong>，人像 <strong>5/5</strong>，风光 3/5（<strong>这条示例行程无法在日落拍摄，已降级</strong>）。' +
           '童话塔楼与天然崖壁的组合无可替代，是橙县最高人气打卡点之一。',
         shots: [
           {
@@ -2523,7 +2523,7 @@ var REGIONS = [
         access: {
           book: '<strong>必须提前线上注册。</strong>公众团每周三、四、五 <strong>10:00 与 11:30</strong>，约 1 小时。私人团周一至周五 09:00–15:00，1–10 人 $250，须提前至少 10 个工作日申请',
           ticket: '<strong>$25 / 人</strong>',
-          hours: '<strong>周末、节假日、私人活动期间全部闭园。</strong>本次行程<strong>只有 9/9（周三）可行</strong>',
+          hours: '<strong>周末、节假日、私人活动期间全部闭园。</strong>这条示例行程<strong>只有 9/9（周三）可行</strong>',
           parking: '<strong>校园内无公共访客停车。</strong>最近的免费公共停车是 Torrey Pines Gliderport 土场',
           walk: 'Gliderport 到研究所直线约 450 米，<strong>实际步行绕行 600–700 米 / 8–10 分钟</strong>，但官方建议按 15–20 分钟预留',
         },
@@ -2688,7 +2688,7 @@ var REGIONS = [
           {
             name: '开顶海蚀洞（建议只远观）',
             desc: '位于 Sunset Cliffs Blvd 与 Monaco Street 路口附近，需从 Luscomb Point 一条陡而常打滑的小径下切。' +
-              '<strong>需要负潮才安全，而本次行程的负潮全在凌晨，白天最低只有 9/9 的 1.27 ft，属「可看不可深入」。建议只从崖顶远观，不要下切。</strong>OpenStreetMap 无此地物，精确坐标未能确认，故地图上不设标记；大致位于 Sunset Cliffs Blvd 与 Monaco Street 路口西侧崖沿。',
+              '<strong>需要负潮才安全，而这条示例行程的负潮全在凌晨，白天最低只有 9/9 的 1.27 ft，属「可看不可深入」。建议只从崖顶远观，不要下切。</strong>OpenStreetMap 无此地物，精确坐标未能确认，故地图上不设标记；大致位于 Sunset Cliffs Blvd 与 Monaco Street 路口西侧崖沿。',
             at: [32.72446, -117.25753]
           }
         ],
@@ -2918,7 +2918,7 @@ var REGIONS = [
             '<strong>目前已坍塌、禁止进入</strong>，只能从外部拍摄。周围还散落着数辆彩绘卡车'
         ],
         photo: '人文 <strong>5/5</strong>，人像 <strong>5/5</strong>，风光 <strong>2/5</strong>。' +
-          '高饱和色块加标语文字是极强的人像背景板，这是本次行程里人文与人像性价比最高的单点。' +
+          '高饱和色块加标语文字是极强的人像背景板，这是这条示例行程里人文与人像性价比最高的单点。' +
           '扣分项是周边为极平坦无特征的 Imperial Valley 荒地，没有地形层次可用。',
         shots: [
           {
