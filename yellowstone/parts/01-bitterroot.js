@@ -3,29 +3,40 @@ module.exports = {
   name: 'Missoula 与 Bitterroot Valley',
   navName: 'Bitterroot',
   color: '#ffb340',
-  lead: '这是整个行程的<strong>第一站，落地即拍</strong>：9/22（周二）上午飞抵 Missoula (MSO)，9/23（周三）整天，' +
-    '之后向东南经 Butte 进入 Yellowstone。两天，两个天气窗口，没有第三次机会。' +
-    '<strong>而这个子地区最需要你提前认清的事实有三条，全部与「期待值」有关。</strong>' +
-    '第一，<strong>9/22 恰好是 2026 年的秋分日</strong>（分点时刻 MDT 14:05）——' +
+  lead: '<strong>这一带的正确定位是「从 Missoula 机场进出 Yellowstone 时值得多留一到两天的地方」，' +
+    '不是专程飞来的目的地。</strong>' +
+    '<strong>普通游客在这里真正该看的东西按价值排是三样</strong>：' +
+    '<strong>（一）Hamilton 的 Daly Mansion</strong>——24,000 平方英尺的铜业大亨庄园加 40 多英亩树木园，' +
+    '是整条谷地分量最重的一个条目，顺带还有 Stevensville 的 St. Mary\u2019s Mission（1841 年，Montana 州历史的起点）；' +
+    '<strong>（二）Missoula 的市区河滨</strong>——一座桥、一个老剧院、一片河滨公园、' +
+    '一座全手工雕刻的旋转木马和一段市中心白水全挤在一个路口，停一次车走完，零体力门槛，' +
+    '想爬山的话再加上 Mount Sentinel 的「M」步道（620 英尺换一个完整的城市俯瞰）；' +
+    '<strong>（三）US-93 沿 Bitterroot Valley 南下这条风景公路本身</strong>——' +
+    '西侧是一道南北走向、被三十多条冰川峡谷切开的山墙（Trapper Peak 10,157 英尺是最高点），' +
+    '路边就有官方观景牌，Blodgett Canyon 观景点与 Lake Como 是两个值得下车的支线。' +
+    '<strong>剧集《Yellowstone》的取景地是这一带出名的原因，但对不追剧的人几乎没有可看内容</strong>——' +
+    '<strong>Chief Joseph Ranch 的主宅在公共道路上根本看不到，能看到的只有路边一道门</strong>，' +
+    '请把它当加分项而不是主线，详见下面那两个条目里写明的实情。' +
+    '<strong>两条会影响全局的实际约束</strong>：' +
+    '<strong>一是这条谷地只有 US-93 一条南北主干，Darby 到 Missoula 单程就要 1 小时 25 分钟</strong>，' +
+    '南端的几个点必须放在同一趟里走；' +
+    '<strong>二是野火烟霾是这里唯一能一票否决全部远景的因素</strong>' +
+    '（Missoula 与 Bitterroot 都是三面环山、夜间逆温的聚烟型河谷），' +
+    '<strong>烟重的那一天请果断把整天挪给市区、庄园与传教区这些近景与室内条目，它们几乎不受影响</strong>，' +
+    '详见下面的第一条提醒。' +
+    '<strong>摄影上这里是两套互不相干的题材：Bitterroot 谷地的大尺度山景吃天气与能见度，' +
+    'Missoula 的城市与人文题材不吃天气。</strong>' +
+    '<strong>秋分前后（九月下旬）有一个几何上的巧合值得利用</strong>（分点时刻以 2026 年 9 月 22 日 MDT 14:05 为例）——' +
     '太阳<strong>正东（方位 89°）升起、正西（方位 271°）落下</strong>，' +
     '而 Bitterroot Range 是一道<strong>南北走向、在谷地西侧陡然拔起</strong>的墙。' +
-    '<strong>这意味着这两天的光线方向与山墙走向完全垂直：早晨是教科书级的正面光，傍晚是教科书级的逆光剪影。</strong>' +
-    '本区所有风光机位的时段安排都是从这一条推出来的。' +
-    '第二，<strong>Chief Joseph Ranch（剧中 Dutton Ranch）的主宅在公共道路上看不到</strong>——' +
-    '能拍到的只有大门与门后几座白色谷仓的顶部，而且 <strong>2026 年的住客季在 8 月 31 日已经结束</strong>，' +
-    '你的日期租不到小木屋。这一条请务必在出发前读完下面那个景点的全文，' +
-    '<strong>一个专程开 1 小时 25 分钟过去、指望拍到那座木头大宅的粉丝，会失望</strong>。' +
-    '第三，<strong>野火烟霾是本区唯一能一票否决全部风光题材的因素</strong>，' +
-    '但 2026 年的消息意外地好：<strong>NIFC 已把 Northern Rockies 9–12 月的火险预期从「高于常年」下调为「常年水平」</strong>，' +
-    '详见下面的第一条提醒。' +
-    '摄影上本区其实是两套完全不同的题材：<strong>Bitterroot 谷地的大尺度山景（吃天气、吃能见度）</strong>，' +
-    '与 <strong>Missoula 的城市／人文／影视朝圣（不吃天气）</strong>。' +
-    '<strong>烟大的那一天，请果断把整天挪给后者——这是本区最重要的一条实操决策。</strong>',
+    '<strong>秋分那几天的光线方向与山墙走向完全垂直：早晨是教科书级的正面光，傍晚是教科书级的逆光剪影。</strong>' +
+    '<strong>本区所有风光机位的时段安排都是从这一条几何关系推出来的</strong>，' +
+    '其他季节请按当日的日出日落方位自行修正。',
   callouts: [
     {
       type: 'good',
       title: '野火与烟霾：2026 年的预报比往年计划里写的要好，但仍是头号风险',
-      html: '<p><strong>先说结论，因为这一条决定你两天怎么排：</strong>' +
+      html: '<p><strong>先说结论，因为这一条决定烟季里每一天怎么排：</strong>' +
         'Missoula 与 Bitterroot Valley 都是典型的<strong>「聚烟型」河谷</strong>——' +
         '三面环山、夜间逆温，一旦上游有火，烟会沉进谷底并且整夜出不去。' +
         '<strong>烟霾会让 Trapper Peak、Lake Como、Bitterroot 峡谷、M Trail 城市俯瞰这四个点全部报废</strong>' +
@@ -49,7 +60,7 @@ module.exports = {
         '<li><strong>但请不要把「常年水平」误读成「没有烟」。</strong>' +
         '同一份 NIFC 文件的<strong>全国章节</strong>与北美章节口径与 NRGA 章节并不完全一致——' +
         '前者仍把 9 月的「高于常年」范围划到 <strong>“all of Idaho and portions of western and northern Montana”</strong>。' +
-        '<strong>两处官方口径存在出入，我按更具体的 NRGA 区域评估为准，但你应当知道另一种说法存在。</strong>' +
+        '<strong>两处官方口径存在出入，本页按更具体的 NRGA 区域评估为准，但另一种说法同时存在，请知悉。</strong>' +
         '另外 <strong>2026 年 9 月 1 日全国戒备等级是 PL 5（最高级），Northern Rockies 区域为 PL 3</strong></li>' +
         '</ul>' +
         '<p><strong>截至 2026 年 9 月上旬本区周边仍在燃烧的火（这些是烟的实际来源）：</strong></p>' +
@@ -57,7 +68,7 @@ module.exports = {
         '<li><strong>Nature Grove Fire</strong>——Hamilton 东南 15 英里、Skalkaho Highway (MT-38) 以南，' +
         'Bitterroot National Forest 境内。9/1 官方数据 <strong>1,141 英亩、0% 控制、282 人在场、威胁建筑物</strong>，' +
         '9/4 已增至约 <strong>1,400 英亩</strong>，预计控制日期 <strong>10 月 30 日</strong>。' +
-        '<strong>这是距离你拍摄区域最近的一把火</strong>，Ravalli County 已对 Skalkaho Highway 东段 1800 号地址以东两侧居民发出<strong>疏散警告</strong></li>' +
+        '<strong>这是距离本区景点最近的一把火</strong>，Ravalli County 已对 Skalkaho Highway 东段 1800 号地址以东两侧居民发出<strong>疏散警告</strong></li>' +
         '<li><strong>Selway-Bitterroot 深处与 Idaho 一侧</strong>：Cooper（310 英亩，0%）、Scimitar（334 英亩，0%）' +
         '两把火都在 Bitterroot NF，位于 Conner 西南 22–29 英里的荒野区；' +
         'Idaho 一侧 Lowell 附近的 <strong>Grotto（3,849 英亩，0%，单日增长 2,649 英亩）</strong>、' +
@@ -74,13 +85,13 @@ module.exports = {
         '<p><strong>2026 年 9 月 5 日复核，上面这些数字仍然成立</strong>：' +
         'NIFC 9 月 2 日的 IMSR 仍把 <strong>Cooper（310 英亩，0%）与 Scimitar（334 英亩，0%）</strong>列为在燃，' +
         '两者的预计控制日期都是 <strong>10 月 31 日</strong>——' +
-        '<strong>也就是说这两把火按官方预期会一路烧过你的 9/22–9/23，请不要指望它们在你到之前熄掉。</strong>' +
+        '<strong>也就是说这两把火按官方预期会一路烧到 10 月底，九月下旬至十月出行的话不要指望它们提前熄掉。</strong>' +
         '同时 <strong>Forest Order 01-03-02-26-09（NFSR 75／720／711）仍挂在 Bitterroot NF 的 alerts 页上</strong>。' +
         '几个方向性的好消息：<strong>Sand Creek 控制率升到 21%、Bobcat Lakes 升到 61%</strong>' +
         '（但 <strong>Pioneer Scenic Byway 仍然封闭</strong>），' +
         'Bitterroot 一带 9 月 5 日的实测 <strong>AQI 约 58（Moderate，PM2.5 约 13 µg/m³）</strong>，' +
         '已明显好于 8 月那一个月 83 的均值。' +
-        '<strong>但这只是本页写作当天的快照，距你出发还有两周多——真正有效的动作仍然是出发前一晚自己查下面那三个链接。</strong></p>' +
+        '<strong>但这只是本页写作当天的快照，火情以周为单位变化——真正有效的动作是出发前一晚自己查下面那三个链接。</strong></p>' +
         '<p><strong>逐日烟霾的日变化规律（这一条最实用）：</strong>' +
         'Missoula 公共卫生局反复给出同一套描述——' +
         '<strong>“expect diurnal patterns of worsening air quality overnight as smoke settles into the valleys ' +
@@ -121,20 +132,22 @@ module.exports = {
     },
     {
       type: 'info',
-      title: '9/22 是秋分日：日出正东、日落正西，这是本区全部光线安排的出发点',
-      html: '<p><strong>时区 Mountain Daylight Time（UTC−6），2026 年夏令时到 11 月 1 日才结束，' +
-        '所以你的日期全程 MDT，不需要任何换算。</strong></p>' +
+      title: '秋分那几天日出正东、日落正西，这是本区全部光线安排的出发点',
+      html: '<p><strong>时区 Mountain Daylight Time（UTC−6）。2026 年夏令时到 11 月 1 日才结束，' +
+        '所以九月下旬至十月底全程 MDT，不需要任何换算。</strong></p>' +
         '<p><strong>一件很容易被忽略但影响全局的事：Montana 位于 Mountain Time 的最西缘。</strong>' +
         'Mountain Time 的中央经线是西经 105°，而 Bitterroot Valley 在<strong>西经 114°</strong>——' +
         '<strong>偏西整整 9 个经度，折合 36 分钟</strong>。' +
         '再叠加北纬 46.3° 这个较高纬度，结果就是：' +
         '<strong>日出晚到 07:23，日落晚到 19:35，而且太阳全天走得很低（秋分正午高度仅 44°）。</strong>' +
         '<strong>这对摄影是纯粹的好事，请认真利用</strong>：' +
-        '你不必在 05:00 起床就能赶上日出；' +
+        '不必在 05:00 起床就能赶上日出；' +
         '而低太阳高度意味着<strong>「金色时段」被拉得很长</strong>——' +
         '早晨 07:23–09:00 太阳只爬到 15.6°，傍晚 17:00–19:35 从 24.8° 一路降到 0°，' +
         '<strong>一天里有将近 4 小时可用的低角度光，这在低纬度地区是不可能的。</strong></p>' +
-        '<p><strong>钟点（经 NOAA 算法逐点计算，平地平线）：</strong></p>' +
+        '<p><strong>钟点（经 NOAA 算法逐点计算，平地平线）。' +
+        '以下以 2026 年 9 月 22 日与 23 日为例，其他日期请自行按同样方法换算</strong>' +
+        '——本区的光线逻辑靠的是方位角与山墙走向的关系，那个关系全年成立，变的只是钟点：</p>' +
         '<ul>' +
         '<li><strong>Bitterroot Valley（46.30°N, 114.10°W，Hamilton–Darby 一带）</strong>：' +
         '<strong>9/22</strong> 民用曙光 <strong>06:53</strong>／日出 <strong>07:23（方位 88.8°）</strong>／' +
@@ -148,7 +161,7 @@ module.exports = {
         '现场光线请一律用上面的 MDT 钟点）</li>' +
         '</ul>' +
         '<p><strong>秋分的几何意义（本区最重要的一条）：</strong>' +
-        '<strong>9/22 日出方位 88.8°、日落方位 271.2°，即几乎精确的正东与正西。</strong>' +
+        '<strong>秋分当天日出方位 88.8°、日落方位 271.2°，即几乎精确的正东与正西。</strong>' +
         '而 Bitterroot Range 是一道<strong>南北走向</strong>（山脊轴线约 0°／180°）的墙，' +
         '<strong>它的东坡法线正好朝正东</strong>。两者相加：</p>' +
         '<ul>' +
@@ -192,7 +205,7 @@ module.exports = {
         '（白天 10–27°C，入夜可低至 <strong>−1°C</strong>）。' +
         '<strong>请按「清晨 −2 至 +3°C、白天 15–22°C」准备</strong>：' +
         '谷地是冷空气汇集地形，Darby 与 Lake Como 比 Missoula 再低 2–4°C，' +
-        '<strong>Lake Como 与峡谷口在 9/22–9/23 的清晨出现白霜是常态。</strong></p>' +
+        '<strong>Lake Como 与峡谷口在九月下旬的清晨出现白霜是常态。</strong></p>' +
         '<p><strong>由此产生的两个器材动作：</strong>' +
         '（一）<strong>清晨拍完从 −1°C 的外面回到暖气车里之前，先把机身镜头装进密封袋</strong>，' +
         '否则冷镜片会立刻结满冷凝水，半小时内没法用；' +
@@ -202,12 +215,12 @@ module.exports = {
     {
       type: 'tip',
       title: '秋色时机：低海拔白杨还早，但高处的 alpine larch 正好——9/22 是它的窗口',
-      html: '<p><strong>这个子地区的秋色分成三层，而 9/22–9/23 对三层的答案完全不同。必须分开说。</strong></p>' +
+      html: '<p><strong>这个子地区的秋色分成三层，而九月下旬对三层的答案完全不同。必须分开说。</strong></p>' +
         '<ul>' +
         '<li><strong>【偏早约 1–2 周】谷底的 cottonwood（黑杨）与 aspen（白杨）</strong>：' +
         '沿 Bitterroot River 与 East Side Highway 成带分布，是谷地秋色的主体。' +
         '<strong>盛期通常在 10 月上旬至中旬</strong>，' +
-        '所以 <strong>9/22–9/23 你会看到的是「绿中带黄、局部转色」的状态，不是满金。</strong>' +
+        '所以 <strong>九月下旬看到的是「绿中带黄、局部转色」的状态，不是满金。</strong>' +
         '不要按网上 10 月中拍的照片设定期待。' +
         '<strong>可以利用的做法</strong>：转色初期树冠上黄绿混杂，' +
         '<strong>用 70–200mm 拍局部反而比拍全景好看</strong>，' +
@@ -220,7 +233,7 @@ module.exports = {
         '而<strong>全美国最大的一片 alpine larch 纯林（约 250 英亩）就在 Lolo Peak 东肩的 Carlton Ridge（8,252 英尺）</strong>，' +
         '当地资料的原话是：<strong>“By late September, the ribbon of burnished gold formed by this ridgeline grove ' +
         'becomes visible from downtown Missoula, almost 20 miles away.”</strong>' +
-        '<strong>换句话说，9 月下旬从 Missoula 市区就能看见那条金带——你的日期正好在这个窗口上。</strong>' +
+        '<strong>换句话说，9 月下旬从 Missoula 市区就能看见那条金带——这个窗口每年只有两三周。</strong>' +
         '这是本区一个「不用徒步、不用买票、只需要知道往哪看」的加分项：' +
         '<strong>从 M Trail 或市区河边朝西南方（Lolo Peak 方位约 221°、距 17.9 英里）用 200–400mm 压过去。</strong>' +
         '另外 Trapper Peak 近顶约 9,900 英尺处也有零散的 alpine larch，' +
@@ -228,21 +241,22 @@ module.exports = {
         '<li><strong>【偏早，基本赶不上】低海拔的 western larch（<em>Larix occidentalis</em>）</strong>：' +
         '就是通常说的「金色落叶松」，长在中低海拔的山坡林带。' +
         '<strong>核心分布区的盛期是 10 月上旬到中旬，多数年份集中在 10 月 8–18 日，峰值窗口只有 7–10 天。</strong>' +
-        '<strong>9/22–9/23 它基本还是绿的。</strong>' +
-        '如果你在旧计划里读到「Bitterroot 的金色落叶松」，' +
-        '<strong>请明确知道：那说的是 western larch，而你的日期比它早两三周。' +
-        '你能拿到的是山顶的 alpine larch，不是山坡的 western larch。</strong>' +
-        '（顺带一提，Montana 最有名的 western larch 走廊是 Missoula 东北的 Seeley-Swan / MT-83，' +
-        '盛期 10 月头两周，<strong>本次日期与路线都对不上，不建议专程绕过去</strong>）</li>' +
+        '<strong>九月下旬它基本还是绿的。</strong>' +
+        '常见的一处误读是把「Bitterroot 的金色落叶松」当成九月的看点，' +
+        '<strong>那说的其实是 western larch，而九月下旬比它的盛期早两三周。' +
+        '九月下旬能看到的是山顶的 alpine larch，不是山坡的 western larch。' +
+        '想看后者请把日期放到 10 月 8–18 日。</strong>' +
+        '（顺带一提，Montana 最有名的 western larch 走廊是 Missoula 东北的 Seeley-Swan／MT-83，' +
+        '盛期 10 月头两周，<strong>但它在 Bitterroot Valley 的反方向，除非专门为落叶松安排，否则不顺路</strong>）</li>' +
         '</ul>' +
-        '<p><strong>一句话总结：9/22–9/23 的 Bitterroot 秋色评级是「中等偏早」。' +
+        '<p><strong>一句话总结：九月下旬的 Bitterroot 秋色评级是「中等偏早」。' +
         '谷底黄叶尚未成气候，但高处的 alpine larch 金带正好，' +
         '而且此时草场已转成干燥的金褐色、山顶可能已有初雪——' +
         '「金褐色谷地 + 新雪山峰 + 山脊金色 larch 带」这个组合恰恰是 9 月下旬独有的，10 月中反而看不到。</strong></p>'
     },
     {
       type: 'info',
-      title: '车程与路线：落地 9/22 上午，以及之后往 Butte 的那一段',
+      title: '车程与路线：从 MSO 机场出发的里程表，以及东去 Butte 的三条路',
       html: '<p><strong>MSO 机场（46.9168, −114.0878）在 Missoula 市区西北，出机场即上 US-93 南下，全程铺装、四车道居多。' +
         '以下里程与耗时为按 US-93 实际路线与限速估算，非导航实测：</strong></p>' +
         '<ul>' +
@@ -262,12 +276,16 @@ module.exports = {
         '<strong>把 Chief Joseph Ranch、Trapper Peak、Lake Como 三个南端点位放在同一趟里走是唯一合理的安排</strong>，' +
         '它们彼此都在 10 英里内（Lake Como 路口—Darby 4 英里／8 分钟；Darby—Trapper 观景牌 4 英里／8 分钟）。' +
         'Glen\u2019s Café 与 St. Mary\u2019s Mission 在谷地北段，' +
-        '<strong>正好可以作为落地当天南下途中的顺路停留</strong>。</p>' +
-        '<p><strong>9/22 落地上午的现实排法（仅供判断可行性，不是给你排行程）：</strong>' +
-        '上午落地 + 取车 + 出机场按 1 小时算，' +
-        '<strong>Glen\u2019s Café 的营业时间是 09:00–15:00，所以「落地直奔 Florence 吃午饭」在时间上是成立的</strong>，' +
-        '这也是把它放在第一天的唯一理由——它 15:00 就关门，第二天从 Darby 折回来会很别扭。</p>' +
-        '<p><strong>之后往东南去 Butte 的那一段（这是本区结束后的衔接，请提前决定走哪条）：</strong></p>' +
+        '<strong>正好可以作为南下途中的顺路停留</strong>。</p>' +
+        '<p><strong>几条关门时间造成的硬排序（不是行程，是约束）：</strong>' +
+        '<strong>Glen\u2019s Café 平日 09:00–15:00、St. Mary\u2019s Mission 周二至周六 11:00–15:00（最后一团 14:00）' +
+        '——谷地北段这两个点的窗口几乎完全重合，而且都在下午三点前结束，只能放在白天的中段。</strong>' +
+        '<strong>Daly Mansion 园区 10:00–17:00。</strong>' +
+        '<strong>反过来 Trapper Peak 观景牌、Lake Como、Chief Joseph Ranch 大门与 Missoula 市区河滨都没有门禁</strong>，' +
+        '可以放在早晚。' +
+        '<strong>从 MSO 落地当天南下的话，机场到 Florence 只要 35 分钟，赶上 Glen\u2019s 的午饭窗口是成立的</strong>；' +
+        '但要注意它 15:00 关门，从谷地南端折回来（Darby 到 Florence 44 英里／55 分钟）很不划算。</p>' +
+        '<p><strong>往东南去 Butte（进 Yellowstone 的常规衔接，三条路差别很大，请提前决定）：</strong></p>' +
         '<ul>' +
         '<li><strong>方案一（推荐，也是唯一稳的）：Hamilton／Darby 沿 US-93 北回 Missoula，转 I-90 东行至 Butte。' +
         '从 Hamilton 起算约 170 英里／2 小时 50 分钟，从 Darby 起算约 185 英里／3 小时 10 分钟。</strong>' +
@@ -302,16 +320,16 @@ module.exports = {
       en: 'Chief Joseph Ranch, Darby',
       must: 1,
       score: 2,
-      tldr: '《Yellowstone》Dutton 主宅实景地，但<strong>主宅在公共路上看不到</strong>。能拍的只有大门与谷仓顶。2026 住客季 8/31 已结束，你的日期租不到房。',
+      tldr: '《Yellowstone》Dutton 主宅实景地，但<strong>主宅在公共道路上完全看不到，能看到的只有路边一道门与几座谷仓顶</strong>。<strong>不追剧的话没有任何可看内容。</strong>',
       tags: [
-        { t: '大门可免费拍摄', c: 'free' },
+        { t: '路边可免费拍大门', c: 'free' },
         { t: '主宅公共路不可见', c: 'risk' },
-        { t: '私人住宅，禁止进入', c: 'risk' },
-        { t: '2026 住客季 8/31 已结束', c: 'risk' },
-        { t: '摄影价值低，情感价值高', c: 'risk' }
+        { t: '私人住宅，不对外开放', c: 'risk' },
+        { t: '只能在路肩远看', c: 'risk' },
+        { t: '仅剧迷向，普通游客可跳过', c: 'risk' }
       ],
       highlights: [
-        '<strong>先把最重要的结论放在最前面，因为它会改变你要不要来：' +
+        '<strong>先把最重要的结论放在最前面，因为它决定这一趟到底要不要跑：' +
           '剧中 Dutton 家那座巨大的原木主宅（lodge），站在公共道路上是看不到的。</strong>' +
           '一位实地去过并写下记录的记者的原话是：' +
           '<strong>“When I pulled off the highway, I was disappointed by how little of the ranch could be seen. ' +
@@ -330,16 +348,16 @@ module.exports = {
           '“The lodge is now our family home.”（主宅现在是我们家自己住的房子）。</strong>' +
           '<strong>请把「有人正在里面生活」这件事当成理解这个点位的前提</strong>：' +
           '整片 2,500 英亩是一处运营中的肉牛牧场兼私人宅邸，不是开放的影视基地',
-        '<strong>唯一的进入方式是租那两间小木屋，而 2026 年这条路对你已经关闭了。</strong>' +
+        '<strong>唯一的进入方式是租那两间小木屋，而且只在住客季之内。</strong>' +
           '可租的是 <strong>Fisherman Cabin</strong>（1916 年为主宅仆役所建，剧中第一、二季 Lee Dutton 的小屋，' +
           '<strong>$1,600／晚</strong>含 4 人）与 <strong>Ben Cook Cabin</strong>' +
           '（剧中第一季 Rip、第二季 Kayce 的小屋，<strong>$1,900／晚</strong>含 4 人），' +
           '每加一人 $75／晚，<strong>房费含一次牧场与拍摄场景的导览</strong>' +
           '（涵盖主宅 Great Room、厨房、前后廊、直升机坪、Armory、bunkhouse、马厩、墓地与河边多处场景）。' +
-          '<strong>但牧场官网首页明确写着 2026 年的接单范围是「March 15 through August 31, 2026」——' +
-          '住客季在 8 月 31 日已经结束，9/22–9/23 不可能有房。' +
-          '官网 Cabins 页此刻正在接的是 2027 年 3 月 1 日至 11 月 1 日的预订。</strong>' +
-          '也就是说，<strong>本次行程完全不存在进入牧场的可能，这一点已核实且没有余地</strong>' +
+          '<strong>但住客季有明确的季节边界：牧场官网首页写明 2026 年的接单范围是「March 15 through August 31, 2026」，' +
+          '也就是说 9 月 1 日之后当年不再接待住客；官网 Cabins 页当时正在接的是 2027 年 3 月 1 日至 11 月 1 日的预订。' +
+          '（以上为 2026 年 9 月核实，年度档期每年公布，请自行复查。）</strong>' +
+          '<strong>结论很干脆：牧场不对外开放，不在住客季、又没有小木屋预订的话，任何时候都无法进入</strong>' +
           '（若要为将来打算：预订电话 406-821-0894，官网 chiefjosephranch.net 是<strong>唯一</strong>渠道，' +
           '不上任何第三方平台，且需要提前约一年）',
         '<strong>好消息是：在大门口拍照是牧场主人明确欢迎的，这一条也有官方原文。</strong>' +
@@ -365,7 +383,7 @@ module.exports = {
           '<strong>1950 年代初改名为 Chief Joseph Ranch</strong>——' +
           '名字来自 <strong>1877 年 Nez Perce 族在 Chief Joseph 率领下为躲避美军而穿越这片土地</strong>的历史事件' +
           '（这条逃亡路线即今日的 Nez Perce National Historic Trail，' +
-          '<strong>你之后往 Butte 若走 Lost Trail Pass 一线，会经过同一事件的 Big Hole National Battlefield</strong>）。' +
+          '<strong>往 Butte 若走 Lost Trail Pass 一线，会经过同一事件的 Big Hole National Battlefield</strong>）。' +
           '这片谷地在此之前已被 Salish 人使用了数千年，Lewis and Clark 于 1805 年经过。' +
           '<strong>牧场被选为拍摄地的过程也很偶然</strong>：官方 FAQ 说' +
           '<strong>“it was a cold call. We did not have the ranch listed as a film location.”</strong>——' +
@@ -411,8 +429,8 @@ module.exports = {
         '给 2 分不是因为它不重要，而是因为<strong>可拍摄的画面确实只有一道门</strong>：' +
         '一块招牌、两根石柱、一尊青铜的猎野牛雕像、门后几个白色谷仓顶，' +
         '再加上背景里的 Bitterroot 山墙。构图变化极少，光线也谈不上讲究。' +
-        '<strong>如果你是《Yellowstone》的粉丝，这一张照片对你的意义无法用评分衡量，那就来；' +
-        '如果你是为了拍到剧里那座大宅而来，请现在就调整计划——那张照片在公共土地上不存在。</strong>',
+        '<strong>对《Yellowstone》的粉丝来说，「站在那道门前」这一张的意义无法用评分衡量，那就值得来；' +
+        '但若目标是拍到剧里那座大宅，请现在就放弃——那张照片在公共土地上不存在。</strong>',
       shots: [
         {
           name: 'US-93 路肩，正对牧场大门（唯一合法机位）',
@@ -470,7 +488,7 @@ module.exports = {
           '官方 FAQ 原文：<strong>“Chief Joseph Ranch does not offer tours without a cabin reservation.”</strong>' +
           '<strong>唯一的进入方式是租两间小木屋之一（$1,600／$1,900 一晚，含牧场与场景导览），' +
           '而 2026 年住客季的官方接单范围是「March 15 through August 31, 2026」，' +
-          '已在 8 月 31 日结束——你的 9/22–9/23 确定无房，这不是「订满了」而是「季节已关闭」。</strong>' +
+          '已在 8 月 31 日结束——9 月之后当年确定无房，这不是「订满了」而是「季节已关闭」。</strong>' +
           '官网目前开放的是 <strong>2027 年 3 月 1 日至 11 月 1 日</strong>的预订；' +
           '预订电话 406-821-0894，官网 chiefjosephranch.net 为唯一渠道（不上任何第三方平台），' +
           '<strong>热门日期需提前约一年</strong>',
@@ -738,7 +756,7 @@ module.exports = {
           '如果你只能安排一个时段来这里，那必须是 07:00–09:30，没有第二个选择。</strong>',
         '<strong>烟霾是这个点位的一票否决项。</strong>' +
           '9 英里外的山在 AQI 超过 100 时基本拍不出对比。' +
-          '<strong>请在出发前一晚查 fire.airnow.gov，并记住烟霾的日变化规律恰好与你冲突——清晨是一天里烟最重的时候。' +
+          '<strong>请在出发前一晚查 fire.airnow.gov，并记住烟霾的日变化规律与这个点位的需求正好冲突——清晨是一天里烟最重的时候。' +
           '若清晨能见度差，正确应对是改到 11:00–15:00 用长焦拍局部山脊，而不是硬拍全景。</strong>',
         '<strong>US-93 的车流比山更危险。</strong>限速 65–70 mph、重卡密集、路肩有些地段偏窄。' +
           '停车完全进入路肩、开危险警示灯、下车走向路侧而非路中、架三脚架时不要背对车流',
@@ -749,9 +767,10 @@ module.exports = {
           '9 月下旬确实是金色的。' +
           '<strong>但距离 9 英里、目标只有几十棵矮曲的树，即使 400mm 也很难拍成画面，请不要为它设定期待</strong>——' +
           '想拍 alpine larch 金带请看 Missoula 方向的 Carlton Ridge（见前面的秋色提醒）',
-        '<strong>如果你想登顶：Trapper Peak Trail 单程约 4 英里、爬升约 3,700 英尺，往返 8 英里，属于全天强度</strong>，' +
+        '<strong>想登顶的话：Trapper Peak Trail 单程约 4 英里、爬升约 3,700 英尺，往返 8 英里，属于全天强度</strong>，' +
           '起点在 Darby 以南的 Troy Creek Road。' +
-          '<strong>这与本次两天的行程完全不兼容，本页所有内容都是谷底路边视角。</strong>' +
+          '<strong>这是一整天的高山徒步，和「路过谷地看一眼山墙」是两件完全不同的事——' +
+          '本条目写的全部内容都是谷底路边视角，登顶请另按高山徒步准备。</strong>' +
           '另外 Selway-Bitterroot Wilderness 内<strong>有灰熊活动，任何进山徒步都必须带熊喷雾</strong>',
         '<strong>路边观景牌一带没有卫生间、没有饮水。</strong>' +
           '手机信号在 US-93 主干道上通常可用，但一旦转入任何一条峡谷支路即消失'
@@ -789,7 +808,7 @@ module.exports = {
         '<strong>费用上有一个对你非常有利的时间点，必须知道：</strong>' +
           'Bitterroot National Forest 的官方口径是<strong>日间使用费只在 Memorial Day 至 Labor Day 期间收取</strong>' +
           '（$5／车／天或 $30／季）。' +
-          '<strong>2026 年的 Labor Day 是 9 月 7 日，而你是 9/22–9/23——费用已经停收了。</strong>' +
+          '<strong>2026 年的 Labor Day 是 9 月 7 日，此后当年不再收日间使用费。</strong>' +
           '官方对这个时段的完整描述是：' +
           '<strong>“Lake Como Day Use Sites (Picnic Area, Trailhead, Beach, Boat Launch) = Day use fees no longer required, ' +
           'no services, ‘pack it in, pack it out’. Open year-round.”</strong>' +
@@ -798,7 +817,7 @@ module.exports = {
         '<strong>【必须提前知道的减分项】这是一座灌溉水库，到 9 月下旬水已经被放掉相当一部分。</strong>' +
           '官方对沙滩的描述是 <strong>“The beach is popular during the summer months when the lake is full, usually until August.”</strong>' +
           '——即<strong>「湖满」通常只到 8 月</strong>。' +
-          '<strong>所以 9/22 你大概率会看到一条裸露的、由砾石与泥滩组成的落水线，' +
+          '<strong>所以九月下旬大概率会看到一条裸露的、由砾石与泥滩组成的落水线，' +
           '以及原本淹在水下的树桩与石头。倒影的水面会比夏季照片里小得多、也远得多。</strong>' +
           '<strong>但这不全是坏事，请换个思路利用它</strong>：' +
           '露出的树桩、龟裂的泥面与被水磨圆的石头<strong>是极好的近景前景锚点</strong>，' +
@@ -808,18 +827,18 @@ module.exports = {
           '<strong>（水位的具体下降幅度未能从官方渠道确认，出发前可致电 Darby Ranger Station 406-821-3913 询问。）</strong>',
         '<strong>环湖步道</strong>：湖岸有一条环绕全湖的步道（<strong>约 7 英里一圈</strong>），' +
           '沿北岸与南岸走，西端连到湖尾的 Rock Creek 溪谷。' +
-          '<strong>对本次两天的行程来说，走完一圈（3–4 小时）性价比不高</strong>，' +
-          '<strong>合理用法是从东端的日间使用区沿北岸走 20–30 分钟</strong>，' +
+          '<strong>走完一圈是 3–4 小时的半天强度，风景的边际回报却在前 30 分钟之后明显下降</strong>，' +
+          '<strong>所以除非本来就想走一趟长步道，合理用法是从东端的日间使用区沿北岸走 20–30 分钟</strong>，' +
           '足够走到几个视野开阔、没有岸边树木遮挡的点。' +
           '<strong>请注意 Selway-Bitterroot 一带有灰熊与黑熊活动，' +
           '任何离开停车场的步行都应携带熊喷雾并出声</strong>（Bitterroot NF 官方明确 “Food storage Required”）',
-        '<strong>营地情况（2026 年官方日期，与你的日期直接相关）</strong>：' +
+        '<strong>营地情况（2026 年官方日期，秋季前往请注意关闭时点）</strong>：' +
           'Lake Como Recreation Area 有三处营地。' +
           '<strong>Lower Como Campground（12 个带水电的铺装车位，$25／晚，先到先得不接受预订）' +
           '提供服务至 9 月 24 日、9 月 25 日关闭</strong>；' +
           '<strong>Three Frogs Campground（$15／晚）提供服务至 9 月 24 日、10 月 16 日关闭</strong>；' +
           '另有 Rock Creek Horse Camp。' +
-          '<strong>也就是说 9/22–9/23 两处营地都还开着，但官方提示「若气温开始下降，供水会提前封闭过冬」' +
+          '<strong>也就是说九月下旬两处营地都还开着，但官方提示「若气温开始下降，供水会提前封闭过冬」' +
           '（“water will be winterized sooner if temperatures start dropping”）——' +
           '而 9 月下旬清晨已在冰点附近，请不要指望现场有水。</strong>'
       ],
@@ -837,7 +856,7 @@ module.exports = {
           '<strong>东端岸边松杉很多、视线常被挡，往西走 1–1.5 英里会经过几处开阔的砾石岸，' +
           '视野完全打开而且离山墙更近。地势平缓，不算徒步。</strong>' +
           '<strong>（三）3–4 小时版</strong>：环湖一圈约 7 英里。' +
-          '<strong>对只在谷地待两天的人不值得——后半圈的景色与前 30 分钟差别不大。</strong>',
+          '<strong>只是路过谷地的话不值得——后半圈的景色与前 30 分钟差别不大。</strong>',
         '<strong>【必须提前知道的两件扫兴事，否则你到了会失望】</strong>' +
           '<strong>第一，这是一座灌溉水库，不是天然湖。</strong>' +
           '官方对沙滩的描述是 “popular during the summer months when the lake is full, usually until August”——' +
@@ -854,7 +873,7 @@ module.exports = {
           '<strong>另外这里没有手机信号，转入 Lake Como Road 之后基本即断，请提前下载离线地图。</strong>',
         '<strong>人流：9 月下旬平日基本没人，这是本区最容易独占的地方。</strong>' +
           '夏季周末这里是 Bitterroot 谷地最热闹的水上游憩区（沙滩、下水坡道、划船），' +
-          '<strong>但你的日期已过 Labor Day、又是周二周三，停车场大概率空着。</strong>' +
+          '<strong>但 Labor Day 之后的平日，停车场大概率空着。</strong>' +
           '<strong>代价是另一件事：没有人也意味着没有救援。' +
           'Bitterroot 一带有灰熊与黑熊活动（官方标注 “Food storage Required”），' +
           '只要走上北岸步道就应携带熊喷雾并出声行进，清晨天没亮时进林子尤其要注意。</strong>',
@@ -945,16 +964,21 @@ module.exports = {
           '拆开：<strong>停车与走到岸边 5 分钟 + 在东端岸边看湖与山墙 15–20 分钟 + ' +
           '沿北岸步道往西单程 20–30 分钟、原路折返 20–30 分钟。</strong>' +
           '<strong>只想看一眼：15–20 分钟，停车场到水边来回即可，这已经拿到主景。</strong>' +
-          '<strong>环湖一圈约 7 英里／3–4 小时，本次行程不建议。</strong>' +
+          '<strong>要走环湖步道（Lake Como National Recreation Trail）一整圈：约 7 英里、往返 3–4 小时</strong>，' +
+          '<strong>属于半天强度的正式徒步</strong>——沿岸地势平缓、没有技术难度，' +
+          '<strong>但要连续步行 3 小时以上、沿途无补给无手机信号，请按体力与时间自行决定是否值得</strong>；' +
+          '<strong>只想看风景的话前 20–30 分钟就已经给完了主要视角，越往里走视野越被树遮。</strong>' +
           '<strong>再加上从 Darby 或 Hamilton 过来的车程（单程 8–30 分钟）与末段 4 英里进场路，' +
           '清晨专门来一趟请整体预留 2–2.5 小时。</strong>',
         book: '<strong>不需预约。</strong>三处营地全部<strong>先到先得、不接受预订</strong>' +
           '（官方原文 “First come/first serve, no reservations”），' +
-          '但你只是白天来拍照，与营地无关',
-        ticket: '<strong>【2026-09-13 复核 Bitterroot NF 官方 Passes 页（页面标注 Last updated August 5, 2026）与各站点页，你的日期免费。】</strong>' +
+          '不过日间来访与营地无关，无需理会这一条',
+        ticket: '<strong>【2026-09-13 复核 Bitterroot NF 官方 Passes 页（页面标注 Last updated August 5, 2026）与各站点页：' +
+          '这是国家森林的游憩区收费，且只在夏季收，Labor Day 之后免费。】</strong>' +
           '官方原文：<strong>“From Memorial Day weekend through Labor Day weekend, all vehicles parked within the recreation area ' +
           'must display a valid Lake Como Day Pass. Day Passes are just $5, or … a Season Pass for $30.”</strong>' +
-          '<strong>2026 年 Labor Day 为 9 月 7 日，9/22–9/23 已过收费期，日间使用费停收。</strong>' +
+          '<strong>即：收费期为 Memorial Day 周末至 Labor Day 周末，日票 $5、季票 $30；' +
+          '此区间之外不收日间使用费。2026 年 Labor Day 为 9 月 7 日，此后至次年 Memorial Day 免费。</strong>' +
           'Ravalli County 转载的官方秋季安排写得更直接：' +
           '<strong>“Lake Como Day Use Sites (Picnic Area, Trailhead, Beach, Boat Launch) = Day use fees no longer required, ' +
           'no services, ‘pack it in, pack it out’. Open year-round.”</strong>' +
@@ -964,7 +988,7 @@ module.exports = {
           'Bitterroot NF 明确 America the Beautiful 年票／Access／Military／Senior／Golden Age 均可覆盖此费。）</strong>',
         hours: '<strong>【2026-09-13 复核】Lake Como 的日间使用区（野餐区、步道口、沙滩、下水坡道）官方口径为「全年开放」</strong>' +
           '（“Open year-round”，另一处表述为 “Site open yearlong until closed by snow”），' +
-          '<strong>无门禁、无关门时间，9/22–9/23 确定可达。</strong>' +
+          '<strong>无门禁、无关门时间，秋季确定可达，直到降雪封路为止。</strong>' +
           '<strong>但自 Labor Day 之后「无任何服务」（no services）</strong>：' +
           '不清运垃圾、供水已或将被封闭过冬、部分卫生间关闭，' +
           '<strong>官方要求 “pack it in, pack it out”，垃圾必须全部带走。</strong>' +
@@ -974,18 +998,21 @@ module.exports = {
           'Lick Creek Rd. remains open.”' +
           'Lost Horse 就在 Lake Como 北侧同样向西进山，' +
           '这条封闭不涉及 Lake Como Road 与湖区日间使用区，本景点仍然可达；' +
-          '但如果你原本打算顺 Lost Horse 往里开，请先看这一页。</strong>' +
+          '但打算顺 Lost Horse 往里开的话，请先看这一页。</strong>' +
           '咨询：<strong>Darby Ranger Station 406-821-3913，周一至周五 08:00–16:30（联邦假日休息）</strong>',
-        parking: '<strong>免费（你的日期已停收费用）。</strong>' +
+        parking: '<strong>Labor Day 之后免费；夏季收费期内需在车上放置 Lake Como Day Pass（见票价栏）。</strong>' +
           '日间使用区、沙滩与步道口均有铺装停车场，' +
-          '<strong>9 月下旬平日基本空无一人，随到随停</strong>。' +
+          '<strong>9 月下旬的平日基本空无一人，随到随停</strong>。' +
           '<strong>进场路线：Darby 沿 US-93 北行 4 英里至 Lake Como Road，西行约 4 英里；' +
           '路口向右（北）通往沙滩与日间使用区，向左（南）通往营地与下水坡道。</strong>' +
           '进场道路为铺装，但<strong>雨雪后末段可能湿滑</strong>',
-        walk: '<strong>东端主机位零步行</strong>——停车场就在岸边，走 2–3 分钟即到水边。' +
-          '<strong>北岸步道前段单程 20–30 分钟／约 1–1.5 英里，地势平缓。</strong>' +
-          '<strong>环湖全程约 7 英里，往返 3–4 小时，本次行程不建议。</strong>' +
-          '清晨场次建议预留 2–2.5 小时（含从 Darby 或 Hamilton 过来的车程）'
+        walk: '<strong>东端主景零步行</strong>——停车场就在岸边，走 2–3 分钟即到水边。' +
+          '<strong>北岸步道前段单程 20–30 分钟／约 1–1.5 英里，地势平缓，是性价比最高的一段。</strong>' +
+          '<strong>环湖全程约 7 英里、往返 3–4 小时</strong>：' +
+          '<strong>坡度平缓、路况良好，门槛纯粹是「能否连续走 3–4 小时」加上沿途无水、无厕所、无手机信号</strong>；' +
+          '<strong>风景的边际回报在前 20–30 分钟之后明显下降</strong>，' +
+          '愿意走完整圈请带足水与头灯，只想看湖的话在前段折返即可。' +
+          '清晨来一趟建议预留 2–2.5 小时（含从 Darby 或 Hamilton 过来的车程）'
       },
       notes: [
         '<strong>这是一个纯清晨点位。</strong>' +
@@ -1008,7 +1035,7 @@ module.exports = {
         '<strong>烟霾对这个点位的影响比 Trapper Peak 小但仍然明显。</strong>' +
           '好处是山墙只在 3.7 英里外，<strong>中度烟霾下依然拍得到，只是会损失一些远景层次</strong>；' +
           '<strong>所以在 AQI 51–100 的早晨，Lake Como 是比 Trapper Peak 更稳的选择</strong>',
-        '<strong>湖面结冰不在本次窗口内的考虑范围</strong>，但<strong>清晨浅水边缘可能出现薄冰</strong>，' +
+        '<strong>湖面完全封冻要到冬季，秋季不必考虑</strong>，但<strong>九、十月的清晨浅水边缘可能出现薄冰</strong>，' +
           '踩上去会滑；沿岸的圆石在有霜时非常滑，扛三脚架时请注意',
         '<strong>这里没有手机信号。</strong>离开 US-93 转入 Lake Como Road 之后基本即断，' +
           '请提前下载离线地图并把行程告诉别人'
@@ -1029,7 +1056,7 @@ module.exports = {
       en: 'Bitterroot National Forest Scenic Corridor — Blodgett Canyon Overlook',
       must: 3,
       score: 4,
-      tldr: '选它而不是 Lolo Pass——后者访客中心周二周三全闭，正好是你两天。花岗岩 U 形谷，1.5 英里步道，傍晚侧光打岩壁。',
+      tldr: '比 Lolo Pass 更值得选（后者访客中心每周二、周三全闭）。花岗岩 U 形谷，1.5 英里步道换一个悬崖平台，傍晚侧光打岩壁。',
       tags: [
         { t: '完全免费', c: 'free' },
         { t: '单程 1.5 英里／爬升 500 英尺', c: 'free' },
@@ -1038,13 +1065,13 @@ module.exports = {
         { t: '火情封路需当天复查', c: 'risk' }
       ],
       highlights: [
-        '<strong>先交代取舍理由，因为派活时让在 Lolo Pass 与 Bitterroot 峡谷走廊之间二选一。' +
-          '我选 Bitterroot 走廊，理由是四条，每一条都指向你的具体日期：</strong>' +
-          '<strong>（一）Lolo Pass 访客中心周二与周三全天关闭</strong>——' +
+        '<strong>先交代取舍理由：Lolo Pass 与 Bitterroot 峡谷走廊是这一带两条互斥的「进山看森林」路线，' +
+          '本页推荐后者，理由有四条：</strong>' +
+          '<strong>（一）Lolo Pass 访客中心每周二、周三全天关闭</strong>——' +
           '官方原文 <strong>“open Thursday-Monday from 8:30 AM–4:00 PM PST … It will be closed all day Tuesday and Wednesday.”</strong>' +
-          '而<strong>你的两天恰好就是 9/22 周二与 9/23 周三，两天都闭馆</strong>（24 小时卫生间仍开放）。' +
+          '<strong>周二或周三过去的话只能用到 24 小时卫生间</strong>（该中心按太平洋时区运作）。' +
           '<strong>（二）方向不对。</strong>Lolo Pass 在 Missoula 西南 53 英里、US-12 上，' +
-          '<strong>往返 2 小时 20 分钟，而且是朝西——与你之后往东南去 Butte 的方向完全相反</strong>；' +
+          '<strong>往返 2 小时 20 分钟，而且是朝西——与往东南进 Yellowstone 的方向完全相反</strong>；' +
           'Blodgett 在 Hamilton 西侧，就在谷地主线上。' +
           '<strong>（三）烟源全在 Lolo Pass 西侧。</strong>2026 年 Missoula 县最主要的外来烟源是' +
           '<strong>Lolo Pass 西北的 Moose Mountain Fire</strong>，以及 US-12 沿线 Lowell 一带的' +
@@ -1068,15 +1095,16 @@ module.exports = {
           '终点视野涵盖 <strong>Blodgett Canyon 全谷、Bitterroot Valley、东侧 Sapphire Mountains、' +
           '以及 Selway-Bitterroot Wilderness 深处的群峰</strong>',
         '<strong>【光线上的关键判断，这一条决定你几点上去】</strong>' +
-          '<strong>观景点在峡谷南侧，你实际是朝北／西北看向对面那道朝南的花岗岩大墙。</strong>' +
+          '<strong>观景点在峡谷南侧，视线是朝北／西北看向对面那道朝南的花岗岩大墙。</strong>' +
           '<strong>朝南的岩壁在秋季全天都有光，所以问题不是「有没有光」，而是「哪个时段的光有方向性」。</strong>' +
           '9/22 的太阳轨迹是：09:00 高度 15.6°／方位 106.7°（东南偏东），' +
           '13:00 高度 43.4°／方位 170°（近正南），17:00 高度 24.8°／方位 241°（西南偏西）。' +
-          '<strong>正午太阳几乎在你背后正对岩壁，是最平的顶光／正面光，岩壁会拍成一片没有起伏的灰白，请避开 11:30–15:00。</strong>' +
+          '<strong>正午太阳几乎从观景者背后正对岩壁，是最平的顶光／正面光，岩壁会拍成一片没有起伏的灰白，请避开 11:30–15:00。</strong>' +
           '<strong>早晨与傍晚的光沿岩壁横向掠过，才能把花岗岩的节理、裂隙与冰川磨蚀面拉出立体感。</strong>' +
-          '<strong>而在早晚之间，我建议选傍晚，理由有三条：</strong>' +
+          '<strong>而在早晚之间，本页推荐傍晚，理由有三条：</strong>' +
           '（一）<strong>烟霾在午后混合层抬升后能见度最好，清晨最差</strong>；' +
-          '（二）你的清晨已经排给了 Trapper Peak 与 Lake Como，那两个点只有清晨成立；' +
+          '（二）<strong>本区清晨最值得给 Trapper Peak 与 Lake Como，那两个点只有清晨成立</strong>，' +
+          '而这个观景点早晚皆可，让它让位是更优的排法；' +
           '（三）<strong>观景点海拔约 5,200 英尺、比谷底高约 1,600 英尺，' +
           '因此它自己的直射光会比 Hamilton 谷底的 18:59 更晚结束，约到 19:05–19:15（推算）；' +
           '而对面更高的岩壁顶部会保持受光到最后一刻</strong>——' +
@@ -1086,7 +1114,7 @@ module.exports = {
           '是本区最好的<strong>车行秋色路线</strong>，沿 Bitterroot River 有成带的 cottonwood，' +
           '<strong>而且它以 Bitterroot 山墙为持续背景，比 US-93 视野开阔得多</strong>；' +
           '<strong>Lost Horse Road</strong>（Hamilton 与 Darby 之间向西切入）能把车开进峡谷内部，' +
-          '<strong>但它是狭窄的碎石林道，本次不建议在时间紧的情况下进入</strong>。' +
+          '<strong>但它是狭窄的碎石林道，时间紧或开的是低底盘轿车时不建议进入</strong>。' +
           '<strong>Bitterroot National Forest 全区约 160 万英亩、1898 年设立，' +
           '境内含 Selway-Bitterroot Wilderness（130 万英亩，1964 年《荒野法》最初指定的最大一片）</strong>'
       ],
@@ -1188,7 +1216,7 @@ module.exports = {
             '<strong>【这里的最佳时段与观景点恰好相反，是清晨——而且 9/22 有一个特殊的几何巧合值得知道。】</strong>' +
             '<strong>Blodgett Canyon 大致东西走向、谷口朝东开；而 9/22 秋分日太阳从方位 88.8°（几乎精确的正东）升起。' +
             '也就是说这一天的日出光会沿着峡谷的轴线径直射进谷内，把整条峡谷从谷口一路照亮到深处的谷头。</strong>' +
-            '<strong>这种「日出光正轴灌入峡谷」的情形一年只在春分与秋分前后各出现几天，而你正好赶上。</strong>' +
+            '<strong>这种「日出光正轴灌入峡谷」的情形一年只在春分与秋分前后各出现几天，是这个点位最难得的窗口。</strong>' +
             '<strong>实际到位时间请算 07:50–09:00</strong>——' +
             '虽然 07:23 就日出了，但谷地东侧的 Sapphire Mountains 仰角约 3.9°，' +
             '<strong>阳光真正进到谷口要等到约 07:50（推算）</strong>。' +
@@ -1210,7 +1238,7 @@ module.exports = {
           '<strong>该页当天只对 Lake Como Recreation Area 一处设日间使用费，Blodgett 不在收费站点名单内。</strong>' +
           '<strong>停车免费不限时。</strong>',
         hours: '<strong>【2026-09-13 复核】步道与停车场无门禁、无关门时间、无营业季节，' +
-          '官方标注最佳季节 5–10 月，9/22–9/23 完全在季节内。</strong>' +
+          '官方标注最佳季节 5–10 月，九月下旬完全在季节内。</strong>' +
           '<strong>但请注意「无门禁」不等于「一定能进」——这一带的真正变量是火情封路。</strong>' +
           '<strong>2026-09-05 逐条复核了 Bitterroot NF 的 alerts 页，结论是本景点仍然不受封闭令影响，' +
           '但原先「现有封闭令全在谷地东侧」这句话已经不准确，请看清楚下面第二条。</strong>' +
@@ -1229,7 +1257,7 @@ module.exports = {
           '它不涉及 FS 735／736，因此 Blodgett Canyon Overlook 仍然可达——' +
           '但它说明「西侧没有封闭」这个假设已经不成立，出发当天必须自己看这一页。</strong>' +
           '<strong>（三）Nature Grove 的官方 alert 本身把 Alert End Date 设在 2026 年 9 月 28 日，' +
-          '也就是官方预期这条警报会一直挂过你的 9/22–9/23。' +
+          '也就是官方预期这条警报至少会挂到 9 月底。' +
           '同一页 8 月 23 日起对 Skalkaho Highway 1800 号地址以东两侧居民发出的疏散警告仍在。' +
           '另外提醒一句关于这一页的读法：它的 “Size” 栏到 2026-09-05 仍写着 175 英亩、页面 Last updated 是 8 月 27 日，' +
           '而 9 月初的 IMSR 已经是一千多英亩——' +
@@ -1240,8 +1268,8 @@ module.exports = {
           '或致电 Bitterroot NF 总部 406-363-7100 / Darby Ranger Station 406-821-3913。' +
           'Nature Grove 的火情信息专线是 406-420-3096（邮箱 2026.naturegrove@firenet.gov），' +
           '问「今天有没有新封闭」用这个号最直接。</strong>' +
-          '<strong>（作为对照：Lolo Pass Visitor Center 周二与周三全天关闭，' +
-          '你的 9/22 与 9/23 两天都闭馆，24 小时卫生间仍可用；该中心按太平洋时区运作。）</strong>',
+          '<strong>（作为对照：Lolo Pass Visitor Center 每周二与周三全天关闭，' +
+          '那两天只剩 24 小时卫生间可用；该中心按太平洋时区运作。）</strong>',
         parking: '<strong>路尽头有免费停车场，空间充足，另有旱厕。</strong>' +
           '<strong>进场的 4 英里为碎石林道（FS 736／Canyon Creek Rd），' +
           '当地对它的评价是「雨天或泥泞时会有点难走（a little sketchy）」，低底盘车请谨慎；' +
@@ -1271,7 +1299,7 @@ module.exports = {
         '<strong>Bitterroot 一带有灰熊与黑熊活动</strong>' +
           '（Selway-Bitterroot Wilderness 内有灰熊，黑熊全森林常见）。' +
           '<strong>整条步道都在熊活动区内，必须携带熊喷雾并放在随手可及处、出声行进</strong>；' +
-          '傍晚与清晨是熊最活跃的时段，而这恰好是你的拍摄时段。' +
+          '傍晚与清晨是熊最活跃的时段，而这恰好也是这个观景点光线最好的时段。' +
           '<strong>熊喷雾不能带上飞机（托运也不行），请在 Missoula 或 Hamilton 的户外店购买</strong>',
         '<strong>请对秋色管理期待。</strong>' +
           '9/22 峡谷内的 western larch 与谷底 cottonwood 都还没转色，' +
@@ -1302,31 +1330,33 @@ module.exports = {
       en: 'Daly Mansion, Hamilton (with St. Mary\u2019s Mission, Stevensville)',
       must: 4,
       score: 3.5,
-      tldr: '两处 9/22–9/23 都开门，已核实。选 Daly：24,000 平方英尺乔治复兴式大宅 + 40 英亩树木园。但园区 17:00 关门，黄金时段进不去。',
+      tldr: '<strong>整条 Bitterroot 谷地分量最重的一个条目</strong>：24,000 平方英尺乔治复兴式大宅 + 40 英亩树木园，另附 Montana 州历史起点 St. Mary\u2019s Mission。园区 17:00 关门。',
       tags: [
-        { t: '9/22–9/23 均开放', c: 'free' },
+        { t: '园区周七日 10:00–17:00', c: 'free' },
         { t: '$15（Daly）／$10（St. Mary\u2019s）', c: 'paid' },
         { t: '园区 17:00 关，拍不到黄金光', c: 'risk' },
         { t: '室内题材，不受烟霾影响', c: 'free' },
         { t: '导览依赖志愿者，可能临时无人', c: 'risk' }
       ],
       highlights: [
-        '<strong>先回答派活时最关心的问题：两处在 9/22（周二）与 9/23（周三）都开门，没有一处已经季节性关闭。已核实。</strong>' +
+        '<strong>先把两处的开放窗口说清楚，因为它们是这一带唯一有闭馆日的条目：' +
+          'Daly Mansion 园区每周七日 10:00–17:00；St. Mary\u2019s Mission 周二至周六 11:00–15:00、周日与周一闭馆。' +
+          '两处在周二至周六的白天都开门，九月内不存在季节性关闭。已核实。</strong>' +
           '<strong>Daly Mansion</strong> 的官方口径是<strong>「Summer Tour Season Hours (June – September)」</strong>——' +
           '<strong>园区（grounds）每周 7 天 10:00–17:00 开放；导览团周二至周六 11:00–14:00；' +
           '自助参观周二至周六 10:00 与 15:00 两场、周日全天 10:00–15:00。</strong>' +
           '<strong>St. Mary\u2019s Mission</strong> 的官方口径是<strong>「Open Tue-Sat 11:00 am – 3:00 pm, Mid April to Mid October」' +
           '（另一处官方表述为 4 月 15 日至 10 月 15 日），最后一团 14:00 出发。</strong>' +
-          '<strong>9/22 是周二、9/23 是周三，两处的「周二至周六」窗口都覆盖到了。</strong>' +
-          '（附带两个与你无关但值得知道的日期：Daly Mansion <strong>10 月 14–23 日临时闭馆</strong>；' +
+          '<strong>也就是说两处都要避开周一，St. Mary\u2019s 另外还要避开周日。</strong>' +
+          '（另有两个十月的日期值得记下：Daly Mansion <strong>10 月 14–23 日临时闭馆</strong>；' +
           '另有第三方资料称其导览季 <strong>10 月 8 日</strong>结束，' +
           '<strong>与官网「June–September」的夏季口径不完全一致，未能核实哪个为准</strong>——' +
-          '但这两个日期都在你的日期之后，不影响本次）',
+          '<strong>十月上旬前往请务必先打电话，这正是两种口径分歧的那一段</strong>）',
         '<strong>为什么选 Daly Mansion 作为主推：它是本子地区体量最大、最完整的单体建筑，没有对手。</strong>' +
           '<strong>1910 年落成，24,000 平方英尺，乔治复兴式（Georgian Revival），' +
           '24 间卧室、15 间浴室、7 座壁炉，坐落在 40 多英亩的草坪、花园与树木园中。</strong>' +
           '设计者是 Missoula 建筑师 <strong>A.J. Gibson</strong>。' +
-          '<strong>摄影上它给你的是本区别处没有的三样东西：' +
+          '<strong>摄影上它提供了本区别处没有的三样东西：' +
           '一个有对称轴与柱廊的正立面（可以拍严整的建筑几何）、' +
           '一片有纵深的前草坪（可以退到足够远拍全景）、' +
           '以及一批珍稀树木（可以拍局部与秋色）。</strong>' +
@@ -1365,10 +1395,10 @@ module.exports = {
           '门票 $10，5 岁以下免费；博物馆与美术馆免费参观。</strong>' +
           '<strong>它整体是「小、密、暗」的题材</strong>：' +
           '<strong>适合 35mm／50mm 定焦拍手工雕刻的家具细节与小教堂内部的光，不适合拍大场面。' +
-          '而且它就在 US-93 边、Stevensville 镇内，正好是你 9/22 从 MSO 南下时的顺路点（MSO 出发 45 分钟）。</strong>'
+          '而且它就在 US-93 边、Stevensville 镇内，是从 MSO 机场南下时的顺路点（MSO 出发 45 分钟）。</strong>'
       ],
       tour: [
-        '<strong>【Daly Mansion】先选参观方式，这一步决定你当天的全部节奏。</strong>' +
+        '<strong>【Daly Mansion】先选参观方式，这一步决定这半天的全部节奏。</strong>' +
           '<strong>两种：导览团（周二至周六 11:00–14:00，由志愿者带，讲解详细）' +
           '与自助参观（周二至周六 10:00 与 15:00 两场、周日 10:00–15:00 全天，票价含一本自助手册）。</strong>' +
           '<strong>想听故事就选导览团</strong>——Marcus Daly 这个人与这栋房子的关系全靠讲解才立得住；' +
@@ -1458,7 +1488,7 @@ module.exports = {
           name: 'Daly Mansion 室内（导览团或自助参观）',
           view: [46.26768, -114.14290],
           desc: '<strong>坐标同大宅 OSM 实体。</strong>' +
-            '<strong>【时间选择很关键，因为两种参观方式给你的拍摄条件完全不同】</strong>' +
+            '<strong>【时间选择很关键，因为两种参观方式的拍摄条件完全不同】</strong>' +
             '<strong>导览团：周二至周六 11:00–14:00</strong>，' +
             '但官方特别注明<strong>「based on volunteer tour guide availability」（取决于志愿者导览员是否在岗）</strong>——' +
             '<strong>这意味着它可能临时没有。' +
@@ -1466,7 +1496,7 @@ module.exports = {
             '虽非强制，但对摄影者来说值得打这个电话。</strong>' +
             '<strong>自助参观（self-guided）：周二至周六 10:00 与 15:00 两场</strong>，票价含自助手册。' +
             '<strong>拍照的话请优先选自助场——你可以按自己的节奏停留、架机器、等光，而不必跟着导览团走。' +
-            '9/22 与 9/23 都是周二／周三，两种方式都可用。</strong>' +
+            '周二至周六前往，两种方式都可用。</strong>' +
             '<strong>【拍摄要点】室内是典型的高动态范围环境</strong>：' +
             '深色木饰面 + 明亮的窗户，光比常在 6–8 档。' +
             '<strong>请拍 RAW，并优先考虑「以窗户为光源的侧光人文构图」而不是硬拍全屋</strong>——' +
@@ -1485,7 +1515,7 @@ module.exports = {
             '此处无 OSM 实体节点，因此本机位省略 view 字段，地图上不会有针脚。' +
             '参考：Stevensville 镇 OSM 中心为 46.51041, −114.09439。</strong>' +
             '<strong>【时段】开放 11:00–15:00（周二至周六），最后一团 14:00。' +
-            '所以你的可用时间被锁死在 11:00–15:00，没有早晚光可选。</strong>' +
+            '也就是说可用时间被锁死在 11:00–15:00，没有早晚光可选。</strong>' +
             '<strong>在这个区间内，请优先选 11:00 一开门就进</strong>——' +
             '此时太阳高度 33.5°／方位 133.4°（东南），' +
             '<strong>仍是斜光；而 13:00–14:00 太阳升到 43° 的近顶光，白墙会拍成一片死白，木构的质感全部消失。</strong>' +
@@ -1501,7 +1531,7 @@ module.exports = {
             '官方说这座 Mission「stands in the shadow of St. Mary\u2019s Peak」，' +
             '<strong>用 70–200mm 把小教堂的白色尖顶与背后的 Bitterroot 山体压在一起，是这里唯一带风光成分的构图。' +
             '但注意山在西侧，11:00–15:00 时段山体是正面光偏顶光，效果一般。</strong>' +
-            '<strong>【实操建议】把它放在 9/22 从 MSO 南下的路上</strong>' +
+            '<strong>【实操建议】把它放在从 MSO 南下进入谷地的路上</strong>' +
             '（MSO 出发 33 英里／45 分钟），' +
             '<strong>与 Glen\u2019s Café（Florence，再往北 8 英里）串成同一段，两者时间窗口也吻合。</strong>' +
             '<strong>门票 $10，5 岁以下免费；博物馆与美术馆免费。预约与团体（10 人以上）请电 406-777-5734。</strong>',
@@ -1538,7 +1568,7 @@ module.exports = {
           '官网与 Ravalli County 官方页两处一字不差）：</strong>' +
           '<strong>园区每周 7 天 10:00–17:00；导览团周二至周六 11:00–14:00（取决于志愿者在岗情况）；' +
           '自助参观周二至周六 10:00 与 15:00、周日 10:00–15:00 全天。</strong>' +
-          '<strong>9/22 周二与 9/23 周三均在开放窗口内，已核实。</strong>' +
+          '<strong>即园区无休日，但想跟导览团或走自助场必须避开周一。已核实。</strong>' +
           '<strong>但这里有一件原先没写清、而且直接决定 10 月下旬那个备用窗口的事：' +
           '官网的 Tour 页上另有一整套「Fall &amp; Winter Hours」，原文是 ' +
           '“Fall/Winter Grounds: Open 10 AM – 4 PM Monday – Friday”、' +
@@ -1547,17 +1577,17 @@ module.exports = {
           '并要求「导览须至少提前 48 小时电话预约」，还说明' +
           '“Due to weather and preparation for our indoor events, we may not be able to accommodate all requests”。' +
           '官网从来没有公布夏季转秋冬的具体日期。</strong>' +
-          '<strong>实操结论分两种情况：你的 9/22–9/23 在官方明确写着的「June – September」里，按夏季时段走；' +
-          '但只要行程滑到 10 月，园区就变成周一至周五 10:00–16:00、大宅不接受走进去参观、' +
+          '<strong>实操结论分两种情况：九月底之前在官方明确写着的「June – September」里，按夏季时段走；' +
+          '但只要落到 10 月，园区就变成周一至周五 10:00–16:00、大宅不接受走进去参观、' +
           '导览要提前 48 小时约且可能被拒——那是完全不同的一个景点。' +
           '换季日期未能从官方渠道确认，凡是 10 月的日期都必须先打 406-363-6004。</strong>' +
           '（另：<strong>10 月 14–23 日临时闭馆</strong>；第三方资料称导览季 10 月 8 日结束，' +
-          '<strong>与官网夏季口径不一致，未能核实</strong>，但均在你的 9 月日期之后）' +
+          '<strong>与官网夏季口径不一致，未能核实</strong>；这两个日期都落在十月，九月前往不受影响）' +
           '<strong>St. Mary\u2019s Mission：周二至周六 11:00–15:00，最后一团 14:00，' +
           '季节为 4 月中至 10 月中（另一处官方表述为 4 月 15 日至 10 月 15 日）。' +
-          '9/22 周二开放；9/23 周三亦在「周二至周六」窗口内。已核实。</strong>' +
-          '<strong>【关键提醒】Daly Mansion 园区 17:00 关门，而当天日落 19:35、直射光到 18:59。' +
-          '也就是说黄金时段你一定在园外，这一点没有变通办法。</strong>',
+          '周日与周一闭馆，已核实。</strong>' +
+          '<strong>【关键提醒】Daly Mansion 园区 17:00 关门，而九月下旬日落约 19:35、直射光到约 18:59。' +
+          '也就是说黄金时段一定在园外，这一点没有变通办法。</strong>',
         parking: '<strong>Daly Mansion：园内有免费停车场，紧邻大宅（251 Eastside Highway）</strong>，' +
           '9 月下旬平日非常宽松。' +
           '<strong>St. Mary\u2019s Mission：镇内街边免费停车</strong>，Stevensville 是小镇，车位不紧张。' +
@@ -1569,7 +1599,9 @@ module.exports = {
           '同一天走完两处在时间上完全可行，但请注意 St. Mary\u2019s 15:00 就关门'
       },
       notes: [
-        '<strong>两处在 9/22 与 9/23 都开门，这是本景点最需要确认的一项，已核实。</strong>' +
+        '<strong>开放日是这两处最需要提前确认的一项</strong>：' +
+          '<strong>Daly Mansion 园区每周七日 10:00–17:00；St. Mary\u2019s Mission 周二至周六 11:00–15:00、最后一团 14:00，周日与周一闭馆。' +
+          '也就是说周日或周一过来只能看 Daly 一处。</strong>' +
           '没有任何一处因为季节原因已经关闭——' +
           '<strong>Daly Mansion 的夏季季节涵盖整个 9 月，St. Mary\u2019s 的季节到 10 月中</strong>',
         '<strong>Daly Mansion 园区 17:00 关门，黄金时段（17:30–18:59）你必然在园外。</strong>' +
@@ -1587,9 +1619,9 @@ module.exports = {
           '（非联邦产权），请准备现金或信用卡。' +
           'Daly $15、St. Mary\u2019s $10',
         '<strong>St. Mary\u2019s Mission 的时间窗口很窄：11:00–15:00，最后一团 14:00。</strong>' +
-          '<strong>它最合理的位置是 9/22 从 MSO 南下的途中（MSO 出发 45 分钟）</strong>，' +
+          '<strong>它最合理的位置是从 MSO 南下进入谷地的途中（MSO 出发 45 分钟）</strong>，' +
           '与 Glen\u2019s Café（再往北 8 英里、15:00 关门）串成同一段；' +
-          '<strong>如果留到第二天从 Darby 折回来，会很别扭</strong>',
+          '<strong>从谷地南端折回来吃这一顿很不划算（Darby 到 Florence 44 英里／55 分钟）</strong>',
         '<strong>请对 St. Mary\u2019s 的体量管理期待</strong>：' +
           '它是若干栋小型木构建筑，<strong>历史分量远高于视觉分量</strong>。' +
           '如果你只有一处的时间，<strong>纯摄影角度选 Daly Mansion，历史兴趣角度选 St. Mary\u2019s</strong>'
@@ -1608,16 +1640,18 @@ module.exports = {
       n: 3,
       name: '格伦餐馆，Florence',
       en: 'Glen\u2019s Café, Florence',
+      must: 1.5,
       score: 2.5,
-      tldr: '剧中 John Dutton 那盘 Salisbury steak 的实景地，1972 年至今的家庭原木小馆。09:00–15:00，落地当天午饭正好。',
+      tldr: '一家 1972 年至今的家庭原木小馆，兼剧中那盘 Salisbury steak 的实景地。<strong>本质是顺路的一顿午饭，不是景点</strong>。平日 09:00–15:00。',
       tags: [
         { t: '进店免费，一餐约 $15', c: 'paid' },
-        { t: '9/22、9/23 均 09:00–15:00', c: 'free' },
+        { t: '平日 09:00–15:00', c: 'free' },
         { t: '不接受预订', c: 'free' },
-        { t: '室内小馆，非风光题材', c: 'risk' }
+        { t: '无官网，价格未官方核实', c: 'risk' },
+        { t: '一顿饭的分量，非景点', c: 'risk' }
       ],
       highlights: [
-        '<strong>这是本区第二个《Yellowstone》实景地，而且和 Chief Joseph Ranch 相反——它是你真的可以走进去、坐下来的那一个。</strong>' +
+        '<strong>这是本区第二个《Yellowstone》实景地，而且和 Chief Joseph Ranch 相反——它是可以真的走进去、坐下来的那一个。</strong>' +
           '<strong>剧中第四季季终集，John Dutton 请 Jamie 的生父 Garrett Randall 吃饭，' +
           '说了那句 “Best Salisbury steak in Montana. You enjoy. Because you never know which meal will be your last.”' +
           '——那场戏就是在这里拍的。</strong>' +
@@ -1634,7 +1668,7 @@ module.exports = {
           '<strong>一栋原木小屋、1972 年至今、一家人经营——' +
           '它不需要靠电视剧来成立，剧只是让更多人找到了它。</strong>' +
           '当地评价里反复出现的两件事是<strong>派（pie）和咖啡</strong>，' +
-          '不是牛排。<strong>如果你只点一样，本地人会让你点派。</strong>',
+          '不是牛排。<strong>只点一样东西的话，本地人的答案是派。</strong>',
         '<strong>店里有一面「剧集墙」，这是最值得拍的一处细节。</strong>' +
           '据实地到访者的记录，店内有一格架子专门放 Yellowstone 相关的东西——' +
           '<strong>包括一张 Kevin Costner 坐在店里吧台的合影，以及一件被装框挂起来的 Glen\u2019s Café T 恤。</strong>' +
@@ -1650,14 +1684,65 @@ module.exports = {
           '款式<strong>仿照剧中角色所穿的那一款</strong>。' +
           '<strong>所以「非到此不可」的理由不是 T 恤，而是那栋 1972 年的原木小屋、那面剧集墙、和那块自家牧场的牛肉。</strong>' +
           '（<strong>邮寄的具体方式与当前是否仍提供，未能从官方渠道确认</strong>，' +
-          '该店<strong>没有可靠的官方线上商店</strong>，请到店直接问）'
+          '          该店<strong>没有可靠的官方线上商店</strong>，请到店直接问）'
+      ],
+      tour: [
+        '<strong>先把定位说清楚：这是一家正在营业的路边家庭餐馆，不是一个可以「参观」的地方。</strong>' +
+          '<strong>正确的用法是把它当成一顿午饭</strong>——路过 Florence 的饭点，进去吃饭、顺便看一眼那面挂着剧组照片的墙，' +
+          '<strong>而不是为它单独安排一段行程。</strong>' +
+          '<strong>它值得停的真正理由是「一家人从 1972 年开到现在的原木小馆」这件事本身</strong>' +
+          '（Montana 官方旅游部门的原话是 “a small log cabin in the heart of Florence, ' +
+          'that\u2019s been family owned and operated since 1972”），' +
+          '<strong>剧集只是让更多人找到了它。' +
+          '如果不是剧迷、也不在饭点经过，跳过它没有任何损失。</strong>',
+        '<strong>点什么：本地人的答案和剧迷的答案不一样，两个都写在这里。</strong>' +
+          '<strong>本地评价里反复出现的是派（pie）和咖啡，不是牛排</strong>——' +
+          '<strong>只点一样东西的话，点派。</strong>' +
+          '早餐类（煎蛋卷、香肠）与汉堡、汤也是常被夸的项目。' +
+          '<strong>剧迷项目是常驻午餐菜单上的 “Famous Yellowstone Salisbury Steak”</strong>' +
+          '（可选薯条、洋葱圈或土豆泥），' +
+          '<strong>值得知道的一点是它在剧播出之前根本不在菜单上，是被剧带出来的</strong>；' +
+          '<strong>牛肉不是外购的，据店方说法来自店主 Glen 自家牧场</strong>' +
+          '（“all the beef served at Glen\u2019s … is homegrown on the owner Glen\u2019s ranch”）。' +
+          '<strong>菜品价格未能从官方渠道核实（该店没有官网、也没有官方线上菜单）</strong>，' +
+          '按同类小镇餐馆的量级人均 $10–20，出发前可打 406-273-2534 问当日菜单',
+        '<strong>店里唯一算「可看」的东西是那面剧集墙，看完只要五分钟，请对它的体量有数。</strong>' +
+          '据实地到访者的记录，店内有一格架子专门放剧集相关的东西，' +
+          '<strong>其中有一张 Kevin Costner 坐在店里吧台的合影，和一件被装框挂起来的 Glen\u2019s Café T 恤。</strong>' +
+          '<strong>除此之外就是一间普通的、坐满当地人吃午饭的小餐馆</strong>——' +
+          '没有展陈、没有布景、没有导览，<strong>也没有任何「片场」成分，因为剧组当年只是借这家店拍了一场戏。</strong>' +
+          '<strong>店里也卖仿剧中款的 T 恤（到访者记录价格约 $30）</strong>，' +
+          '但请注意<strong>它并非「只能到店买」</strong>——' +
+          'Montana 官方旅游博客写明它可以邮寄（“which is also available to be shipped”），' +
+          '<strong>不过邮寄目前是否仍提供未能从官方渠道确认，该店没有可靠的官方线上商店</strong>',
+        '<strong>营业时间与排队：15:00 关门是这里唯一真正的硬约束。</strong>' +
+          '<strong>不接受预订，直接进店等位</strong>；' +
+          '<strong>午市高峰 11:30–13:00 通常要等几分钟</strong>，' +
+          '<strong>想安静一点就选 09:00 刚开门或 14:00 之后</strong>。' +
+          '<strong>店面很小，赶在 14:30 之后进门有被告知「厨房要收了」的风险</strong>，' +
+          '要吃正餐请留出至少 40 分钟余量。' +
+          '<strong>另外这是家庭经营的小馆子，会因家里的事临时歇业</strong>——' +
+          '专程绕过来之前打一个电话（406-273-2534）比查任何网站都可靠',
+        '<strong>停车、卫生间与周边补给。</strong>' +
+          '<strong>店门口有免费停车场，路边也是免费街边停车，车位从不紧张</strong>' +
+          '（Florence 是 US-93 边的小聚落，不存在市区那种停车问题）。' +
+          '<strong>店内有卫生间。</strong>' +
+          '<strong>但要知道 Florence 镇上几乎没有第二个餐饮选择</strong>——' +
+          '<strong>Glen\u2019s 一关门，往北回 Missoula 要 35 分钟、往南到 Hamilton 要 30 分钟</strong>，' +
+          '中间只有加油站便利店。<strong>所以它其实是谷地北段唯一一个靠得住的午饭点，这比它的剧集身份更有实用价值。</strong>',
+        '<strong>怎么把它串进一天里（它太小，不足以独立成行）。</strong>' +
+          '<strong>往南 8 英里就是 Stevensville 的 St. Mary\u2019s Mission（11:00–15:00）</strong>，' +
+          '两者的时间窗口几乎完全重合，<strong>「中午在 Glen\u2019s 吃饭 + 下午看传教区」是这一段最自然的组合</strong>；' +
+          '再往南 22 英里是 Hamilton 的 Daly Mansion（10:00–17:00）。' +
+          '<strong>反过来，它和 Chief Joseph Ranch 大门（南下 44 英里／55 分钟）之间隔得太远</strong>，' +
+          '只有本来就要跑谷地南端的时候才顺'
       ],
       photo: '人文／街拍 <strong>3.5/5</strong>，美食 <strong>3/5</strong>，风光 <strong>1/5</strong>。' +
         '<strong>请按「一家路边小馆」而不是「一个景点」来对待它——这里没有风光可拍，' +
         '一栋原木小屋的外立面、一面挂着剧组照片的墙、一盘牛排和一块派，就是全部内容。</strong>' +
         '给 2.5 分是因为它在人文题材上确实成立：' +
         '<strong>1972 年至今的家庭小馆有真实的生活质感，室内的暖色调与窗光很好用，' +
-        '而且它是本区唯一一个你可以「进入」的剧集实景地。</strong>' +
+        '而且它是本区唯一一个可以「进入」的剧集实景地。</strong>' +
         '<strong>这一条请保持轻量：给它 45 分钟、吃一顿饭、拍三五张，就够了。</strong>',
       shots: [
         {
@@ -1666,7 +1751,7 @@ module.exports = {
           view: [46.64032, -114.07330],
           desc: '<strong>坐标为 OSM 的 Glen\u2019s Cafe 实体（way/473176769，amenity=cafe，已核实），' +
             '地址 157 Long Ave, Florence, MT 59833。店外有免费停车场与街边免费停车，坐标同点。</strong>' +
-            '<strong>【时段】就在你吃饭前后随手拍，不需要专门规划。</strong>' +
+            '<strong>【时段】就在吃饭前后随手拍，不需要专门规划。</strong>' +
             '若要挑：<strong>营业时间 09:00–15:00，其中 09:00–10:30 太阳仍在东南低空' +
             '（09:00 高度 15.6°／方位 106.7°），是全天唯一有斜光的时段</strong>，' +
             '<strong>而 12:00–15:00 是接近顶光的平光，原木外墙会拍得很闷。' +
@@ -1709,20 +1794,37 @@ module.exports = {
         }
       ],
       access: {
-        book: '<strong>不需预约，也不接受预订</strong>（多个信息源一致标注 “Reservations: Not accepted”）。' +
+        visit: '<strong>45 分钟到 1 小时</strong>，绝大部分时间是在吃饭：' +
+          '<strong>点单加等菜 10–15 分钟、吃 25–35 分钟、看那面剧集墙加拍几张 5–10 分钟。</strong>' +
+          '<strong>只想看一眼剧集墙、不吃饭的话 10–15 分钟就够</strong>，' +
+          '但那样基本没有意义——这家店的内容就是那顿饭。' +
+          '<strong>不要为它安排更多时间，它撑不起一个上午</strong>；' +
+          '<strong>午市高峰（11:30–13:00）请在上面的区间外再加 10–15 分钟等位。</strong>' +
+          '（按一顿简餐的正常流程与店面规模推算，该店未给官方建议时长）',
+        book: '<strong>不需预约，也不接受预订</strong>（多个第三方目录一致标注 “Reservations: Not accepted”）。' +
           '<strong>直接进店等位即可</strong>；这是一家小馆子，午市（11:30–13:00）可能需要等几分钟。' +
           '电话 <strong>406-273-2534</strong>',
-        ticket: '<strong>进店免费</strong>，消费即门票。' +
-          '<strong>人均 $10–20；Famous Yellowstone Salisbury Steak 约 $13；仿剧中款 T 恤约 $30。</strong>' +
-          '<strong>接受信用卡、借记卡、NFC 移动支付，也收支票（很 Montana 的一件事）</strong>',
-        hours: '<strong>周一至周五 09:00–15:00；周六、周日部分信息源标注 08:30–14:00，另一些标注同为 09:00–15:00。</strong>' +
-          '<strong>你的 9/22（周二）与 9/23（周三）都是平日，营业时间 09:00–15:00，已核实。</strong>' +
-          '<strong>所以「9/22 落地后直奔 Florence 吃午饭」在时间上完全成立</strong>' +
-          '（MSO 到店 26 英里／35 分钟）。' +
-          '<strong>但请注意它 15:00 就关门，是本区最早关门的点位之一——' +
-          '如果第一天上午耽误了，第二天从 Darby 折回来会很别扭（Darby 到 Florence 约 44 英里／55 分钟）。</strong>' +
-          '<strong>周末营业时间的两种口径未能统一，但与你的日期无关。' +
-          '出发前建议打 406-273-2534 确认当天营业</strong>——小馆子会因家庭原因临时休息',
+        ticket: '<strong>进店免费</strong>，消费即门票——这是一家餐馆，没有门票概念。' +
+          '<strong>【2026-09-15 复核结论：价格未能从官方渠道核实。' +
+          '该店没有官网，也没有官方线上菜单，因此以下数字全部来自第三方目录与到访者记录，' +
+          '请以到店菜单为准。】</strong>' +
+          '<strong>参考量级：人均 $10–20；Famous Yellowstone Salisbury Steak 约 $13；仿剧中款 T 恤约 $30。</strong>' +
+          '<strong>要准确价格只能打 406-273-2534 问。</strong>' +
+          '<strong>支付方式（同样来自第三方目录，未官方核实）：接受信用卡、借记卡、NFC 移动支付，也收支票。</strong>' +
+          '<strong>小镇小馆请务必带一点现金备用</strong>',
+        hours: '<strong>【2026-09-15 复核：平日口径一致，周末口径不一致，且本项无官方来源。</strong>' +
+          '<strong>该店没有官方网站，开放时间只能从第三方目录交叉比对，因此严格说属于' +
+          '「<strong>未能从官方渠道确认</strong>」，唯一权威渠道是电话 406-273-2534。】</strong>' +
+          '<strong>平日（周一至周五）09:00–15:00</strong>——' +
+          'restaurantji、wherevi、Tripadvisor、Yahoo Local 四处口径完全一致，可以按这个安排。' +
+          '<strong>周末（周六、周日）有两种并存的说法，两边都写在这里：' +
+          '一种是 08:30–14:00（wherevi、Yahoo Local），一种是与平日相同的 09:00–15:00' +
+          '（restaurantji、Tripadvisor、foodeist）。' +
+          '两说差 30 分钟到 1 小时，周末前往请先打电话。</strong>' +
+          '<strong>无论哪种口径，它都在 14:00–15:00 之间关门，是全区最早关门的点位之一——' +
+          '这家店没有晚市，把它当晚饭是不成立的。</strong>' +
+          '<strong>另外家庭经营的小馆会因家里的事临时歇业，第三方目录不会反映这一点。</strong>' +
+          '<strong>顺路参考：MSO 机场到店 26 英里／35 分钟；Darby 到 Florence 约 44 英里／55 分钟。</strong>',
         parking: '<strong>免费停车场 + 免费街边停车</strong>，就在店门口。' +
           'Florence 是 US-93 边的小镇，<strong>车位从不紧张</strong>',
         walk: '<strong>零步行</strong>——停车即到。' +
@@ -1738,7 +1840,7 @@ module.exports = {
           '价格约 $30、款式仿剧中角色所穿。' +
           '<strong>邮寄的具体方式与当前是否仍提供未能从官方渠道确认；该店没有可靠的官方线上商店，请到店问</strong>',
         '<strong>09:00–15:00，15:00 关门，这是硬约束。</strong>' +
-          '<strong>把它放在 9/22 落地当天的午饭是唯一顺畅的安排</strong>（MSO 出发 35 分钟）；' +
+          '<strong>把它当成从 MSO 机场南下途中的午饭是最顺的安排</strong>（MSO 出发 35 分钟）；' +
           '<strong>顺路可以把 St. Mary\u2019s Mission（再往南 8 英里，11:00–15:00）串在同一段里</strong>',
         '<strong>不接受预订，午市可能要等几分钟。</strong>' +
           '<strong>想拍到店内干净画面请选 09:00 刚开门或 14:00 之后</strong>，避开 11:30–13:00 的高峰',
@@ -1749,8 +1851,8 @@ module.exports = {
           '一律不要开闪光灯</strong>——既影响其他客人，也会毁掉画面',
         '<strong>请对它的摄影分量保持现实预期</strong>：' +
           '这是一栋路边的原木小屋，<strong>没有任何风光成分</strong>。' +
-          '它的价值在于「你可以真的坐进那场戏里」，' +
-          '<strong>而这恰恰是 Chief Joseph Ranch 给不了你的</strong>',
+          '它的价值在于「可以真的坐进那场戏里」，' +
+          '<strong>而这恰恰是 Chief Joseph Ranch 做不到的</strong>',
         '<strong>顺路的第三个剧集点位在 Missoula 市区</strong>：' +
           'Missoula County Courthouse（200 West Broadway）与街对面的 Garlington Building 都拍过戏。' +
           '<strong>这两处就在 downtown 步行范围内，可以和下面的 Missoula 市区景点一起完成</strong>'
@@ -1767,14 +1869,15 @@ module.exports = {
       n: 2,
       name: 'Mount Sentinel 「M」步道与城市俯瞰',
       en: 'The M Trail on Mount Sentinel, Missoula',
+      must: 3,
       score: 4,
-      tldr: '13 个之字弯、620 英尺、3/4 英里换一个完整的 Missoula 俯瞰。西向坡面——<strong>是傍晚题材</strong>：清晨城市要到 08:30 后才脱离山影。平日停车收费。',
+      tldr: 'Missoula 的标志性徒步：13 个之字弯、620 英尺、3/4 英里换一个完整的城市俯瞰。<strong>门槛是体力，不是时间</strong>。步道免费，平日 07:00–17:00 校内停车收费。',
       tags: [
         { t: '步道完全免费', c: 'free' },
-        { t: '全年开放', c: 'free' },
-        { t: '平日校内停车需付费', c: 'paid' },
+        { t: '全年开放，无门禁', c: 'free' },
+        { t: '平日 7–17 点校内停车收费', c: 'paid' },
         { t: '620 英尺陡坡无遮阴', c: 'risk' },
-        { t: '烟霾会毁掉城市远景', c: 'risk' }
+        { t: '山上无水无卫生间', c: 'risk' }
       ],
       highlights: [
         '<strong>这是 Missoula 的标志性徒步，也是本区唯一一个「城市全景」机位。</strong>' +
@@ -1811,7 +1914,7 @@ module.exports = {
           '<strong>好处：整个西坡（包括你脚下和整条步道）会一直受光到最后，' +
           '而 Missoula 谷地与远处的山会被低角度暖光整片打亮。' +
           '本机位的直射光估计到约 19:05 结束（西侧地平线较低，比日落 19:34 早约 29 分钟，推算）。</strong>' +
-          '<strong>要注意的是：太阳在你的视野方向偏左 32°，所以城市是侧逆光而不是正面光。' +
+          '<strong>要注意的是：太阳在望向市区的方向偏左 32°，所以城市是侧逆光而不是正面光。' +
           '这有两种用法，请按想要的效果选：</strong>' +
           '<strong>（一）想要城市有质感、建筑有色彩 → 请把镜头转向偏北（方位 320°–340°），' +
           '让太阳留在画面外的左侧，此时光是侧光，Clark Fork 河面会有一道亮带；</strong>' +
@@ -1833,8 +1936,70 @@ module.exports = {
           '向西南方（<strong>Lolo Peak 方位约 221°、距 17.9 英里</strong>）看，' +
           '<strong>9 月下旬那条全美最大的 alpine larch 纯林（约 250 英亩，海拔 8,252 英尺）已转金，' +
           '当地资料称此时「从 Missoula 市区就能看见这条金带」。</strong>' +
-          '<strong>用 200–400mm 压过去——这是本区最容易被错过的一个加分项，而你的日期正好在窗口上</strong>' +
+          '<strong>用 200–400mm 压过去——这是本区最容易被错过的一个加分项，但窗口只有九月下旬那两三周</strong>' +
           '（详见前面的秋色提醒）'
+      ],
+      tour: [
+        '<strong>先判断体力门槛，因为这是这条步道唯一会拦住人的东西。</strong>' +
+          '<strong>University of Montana 官方数据：到混凝土「M」单程 3/4 英里、13 个之字弯、爬升 620 英尺' +
+          '（另一处官方数据写 646 英尺），往返约 1.8 英里、1–1.5 小时，官方难度评级「中等」。</strong>' +
+          '<strong>换算一下：620 英尺约等于连续爬 60 层楼，而且是在 3/4 英里内爬完，没有一段平路。</strong>' +
+          '好的一面是<strong>路面是成形的碎石步道、不是野径，官方说每天有上千人走，' +
+          '沿途每隔几个之字弯就有长椅</strong>。' +
+          '<strong>结论：平时能连续走 30 分钟上坡的人都能上去；膝关节不好、心肺有负担、带幼童或推婴儿车的，' +
+          '请直接看下一条的替代方案，不要硬爬。</strong>',
+        '<strong>【最实用的一条】不必爬到「M」，前 4–6 个之字弯就已经把风景给完了。</strong>' +
+          '<strong>走完前 4–6 个弯约 8–12 分钟、爬升 200–300 英尺，此时已完全越过校园建筑的遮挡</strong>，' +
+          '能看到 University of Montana 校园那圈红砖建筑与 Main Hall 的钟塔，加上大半个市区与 Clark Fork。' +
+          '<strong>而且「校园 + 城市 + 山」这个画面在中段比在「M」处更好看</strong>——' +
+          '站到「M」的高度上，校园会被压得很扁很小，中段的高度刚好让建筑保持体积感。' +
+          '<strong>所以这条步道对普通游客的正确用法是：走到某一张长椅上坐下、看够了就下来，' +
+          '把「登顶」当成可选项而不是目标。</strong>' +
+          '<strong>整条步道的风景是连续渐变的，没有「到了才揭晓」的一刻，中途折返不会错过什么。</strong>',
+        '<strong>到了上面具体该看什么——不知道往哪看的话，这里其实只是「一座小城的航拍视角」。</strong>' +
+          '<strong>（一）城市与水系</strong>：Missoula 坐在五条谷地的交汇处，' +
+          'Clark Fork 横穿市区，从上面能一眼看清整座城市为什么长成这个形状。' +
+          '<strong>（二）朝北看 Mount Jumbo 的坡面</strong>：' +
+          '越过 Hellgate Canyon，对面山坡上有几道近乎水平的横向刻痕，' +
+          '<strong>那是更新世末期冰川堰塞湖 Glacial Lake Missoula 的古湖岸线</strong>——' +
+          '那座湖曾经淹到「M」所在的高度之上，溃决时造成了席卷华盛顿东部的 Missoula Floods。' +
+          '<strong>这是本区最好的一处地质现场，而绝大多数人爬上来并不知道那几道横线是什么。</strong>' +
+          '<strong>（三）朝西南（Lolo Peak 方位约 221°、距 17.9 英里）</strong>：' +
+          '<strong>九月下旬能看到 Carlton Ridge 上那条金色的 alpine larch 带</strong>' +
+          '（约 250 英亩，海拔 8,252 英尺，是全美最大的一片 alpine larch 纯林），' +
+          '当地资料称此时「从 Missoula 市区就能看见这条金带」。' +
+          '<strong>（四）「M」本身</strong>：1908 年由 UM 林学社学生开辟这条之字路并一块块把刷白的石头搬上山拼成字母，' +
+          '<strong>现在这个混凝土的「M」是 1968 年浇筑的</strong>',
+        '<strong>可以直接跳过的部分：继续往 Mount Sentinel 山顶。</strong>' +
+          '<strong>山顶（5,158 英尺）单程 1 3/4 英里、爬升 1,916 英尺、往返 3.8 英里／3–4 小时</strong>——' +
+          '<strong>也就是要在「M」之上再爬约 1,300 英尺，而视野的提升并不成比例</strong>：' +
+          '「M」的高度已经能看到完整的城市、河流与四面山脉，再往上主要是把城市变得更小。' +
+          '<strong>除非本来就想走一趟半天的山路，普通游客在「M」折返是正确取舍</strong>，' +
+          '省下的 2–3 小时放到市区河滨那一组上回报高得多。' +
+          '<strong>要往山顶去的话请注意山脊段暴露、有风，且同样无水无遮阴。</strong>',
+        '<strong>停车与费用（2026-09-15 复核 UM 官方，这一条容易吃罚单）。</strong>' +
+          '步道口在校内 Campus Drive 上（Aber Hall 对面、Washington-Grizzly Stadium 后方）。' +
+          '<strong>UM 官方口径：校内停车许可要求为「周一至周五 07:00–17:00」，' +
+          '平日 17:00 之后、周末以及学校例假日免费，除非立牌另有规定' +
+          '（原文 “Parking is free on weekdays after 5:00 pm, weekends, and University-observed holidays ' +
+          'unless posted otherwise”）。</strong>' +
+          '<strong>需要付费时：按小时停车官方 Visitors 页写 $1.50／小时，' +
+          '而官方 Driving to Campus 页写 Passport App 为 $1.25／小时——两个官方页面价格不一致，' +
+          '两种都写在这里，以现场立牌与 App 实收为准；一日票 $13。</strong>' +
+          '缴费方式是 Passport App（按立牌上的 4 位区域码）或停车场里的自助出票机。' +
+          '<strong>官方明确提示车位有限、建议早到。</strong>' +
+          '<strong>想完全躲开这件事有两个办法：一是把上山时间放在平日 17:00 之后（顺便也是光线最好的时段），' +
+          '二是把车停在市区、沿 Clark Fork 南岸的 Kim Williams Trail 步行 20–25 分钟过来。</strong>' +
+          '停车问题可打 UM 停车处 <strong>406-243-6132</strong>（办公时间周一至周五 07:30–16:30）',
+        '<strong>水、卫生间、餐饮与人流——山上什么都没有，这一条请当作硬约束。</strong>' +
+          '<strong>整条步道没有水源、没有卫生间、没有垃圾桶、没有一棵能遮阴的树。</strong>' +
+          '<strong>请在上山前备好水</strong>（夏季与初秋的午后尤其重要，西向坡面下午一直在太阳底下）；' +
+          '<strong>卫生间与餐饮请在校园内（University Center 一带，步行几分钟）或市区先解决。</strong>' +
+          '<strong>人流：官方说每天上千人，傍晚是本地人跑步与遛狗的高峰</strong>，' +
+          '所以这条路不存在安全或迷路问题，但也别指望清静。' +
+          '<strong>步道穿过一片原生草原植被（有地面筑巢的鸟、步道口附近有狐狸做窝），请留在步道上不要切弯踩进草地。</strong>' +
+          '<strong>下山如果会走到天黑，请带头灯</strong>——' +
+          '620 英尺的陡坡之字路在黑暗中下行是这个点位唯一的真实风险'
       ],
       photo: '风光／城市 <strong>4/5</strong>，夜景／蓝调 <strong>4.5/5</strong>，人像 <strong>3.5/5</strong>。' +
         '620 英尺换一个完整的城市 + 河流 + 三面山脉的俯瞰，性价比在本区是最高的，' +
@@ -1843,7 +2008,7 @@ module.exports = {
         '<strong>而且傍晚整面西坡都在暖光里，是本区唯一适合拍人的地方。</strong>' +
         '扣分两处：<strong>（一）烟霾会直接毁掉城市远景</strong>' +
         '（Missoula 是三面环山的聚烟盆地，这是全区受烟影响最直接的城市机位）；' +
-        '<strong>（二）平日校内停车要付费</strong>，而 9/22 与 9/23 正是学期中的周二周三。',
+        '<strong>（二）平日 07:00–17:00 校内停车要付费</strong>，学期中的工作日尤其要注意。',
       shots: [
         {
           name: '混凝土「M」平台 —— 主机位',
@@ -1926,36 +2091,59 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1.5–2 小时是走到「M」并看够的合理区间</strong>：' +
+          '上行 20–30 分钟、顶上停留 20–30 分钟、下行 15–20 分钟。' +
+          '<strong>只走到中段长椅折返：40–50 分钟</strong>（上行 8–12 分钟、坐着看 15–20 分钟、下行 8–10 分钟）——' +
+          '<strong>这是体力有限或时间紧时完全成立的方案，风景损失比想象的小。</strong>' +
+          '<strong>要在上面看日落并等到城市灯火亮起，整体请预留 3 小时</strong>' +
+          '（提前 1.5 小时到停车场上山，暮光结束后再走下来，必须带头灯）。' +
+          '<strong>继续登 Mount Sentinel 山顶要另加 2–2.5 小时，全程 3–4 小时，不建议普通游客加这一段。</strong>' +
+          '（步行时间为 University of Montana 官方口径，停留时长按视野内容推算）',
         book: '不需预约',
-        ticket: '<strong>步道本身完全免费</strong>，无门票、无许可、无停车费以外的任何费用',
-        hours: '<strong>步道全年开放（“Open year-round”），无门禁、无关门时间</strong>，' +
-          '<strong>可以放心拍到民用暮光 20:05 之后再下山。</strong>' +
-          '这是本区少数几个「时间上完全自由」的点位，' +
-          '<strong>也因此是唯一能拍到蓝调城市灯火的机位</strong>。' +
-          '<strong>大学校园本身的开放与停车管制时间见下一栏</strong>',
-        parking: '<strong>【这一条对你的日期有直接影响，请注意】</strong>' +
-          '步道口停车场在 University of Montana 校内的 Campus Drive 上（Aber Hall 对面、球场后方）。' +
-          '<strong>Destination Missoula 的官方提示原文：' +
-          '“Parking for The ‘M’ Trail and Mount Sentinel summit via Hellgate Ridgeline requires payment ' +
-          'during weekday university operating hours, while weekend parking is free. ' +
-          'Spaces are limited, so plan to arrive early and be sure to check current parking regulations ' +
-          'and enforcement times before your visit.”</strong>' +
-          '<strong>即平日校方办公时间内需付费，周末免费。' +
-          '而 9/22 是周二、9/23 是周三，都是学期中的平日——所以你需要付费停车。</strong>' +
-          '<strong>好消息是：你的最佳拍摄时段是 17:30 之后，' +
-          '而校内停车执法通常在下午晚些时候结束（具体截止时间未能从官方渠道确认）。' +
-          '请到场看停车场立牌，或用校内的自助缴费机／App 按小时付费。</strong>' +
-          '<strong>车位有限，官方建议早到。</strong>' +
-          '<strong>另一个稳妥选择：把车停在市区（Higgins Avenue 一带有免费或廉价街边停车），' +
-          '沿 Clark Fork 南岸的 Kim Williams Trail 步行约 20–25 分钟到步道口</strong>，' +
-          '顺便完成了上面第三个机位',
+        ticket: '<strong>步道本身完全免费</strong>，无门票、无许可、无入山登记——' +
+          '<strong>唯一可能花钱的地方是停车（见下栏）。</strong>' +
+          '<strong>2026-09-15 复核：University of Montana 与 Destination Missoula 两边都未对步道本身设任何收费。</strong>',
+        hours: '<strong>步道全年开放（官方措辞 “Open year-round”），无门禁、无关门时间、无季节性封闭</strong>，' +
+          '<strong>日落之后与天亮之前都可以走，这是本区少数几个时间上完全自由的点位</strong>，' +
+          '<strong>也因此是唯一能看到（与拍到）蓝调天空下城市灯火的地方。</strong>' +
+          '<strong>但「没有关门时间」不等于「什么时候来都合适」：</strong>' +
+          '<strong>冬季与早春之字路会积雪结冰</strong>（西向坡面白天融、夜间冻，反复结成硬冰），' +
+          '<strong>此时需要鞋底防滑装置，否则下行相当危险</strong>；' +
+          '<strong>盛夏与初秋的午后西坡全无遮阴，请避开 12:00–16:00。</strong>' +
+          '<strong>2026-09-15 复核：校方未公布任何步道关闭计划</strong>；' +
+          '但 Mount Sentinel 一带偶有野火或活动性临时封闭，出发前可查 UM 与 Missoula 市政公告。' +
+          '<strong>校园停车管制时间与步道开放时间是两件事，见下栏</strong>',
+        parking: '<strong>【2026-09-15 复核 University of Montana 官方停车页。' +
+          '这一条比步道本身更容易出问题，也是这个点位唯一会花钱的地方】</strong>' +
+          '步道口停车场在 University of Montana 校内的 Campus Drive 上（Aber Hall 对面、Washington-Grizzly Stadium 后方）。' +
+          '<strong>收费时段（UM 官方原文）：“Permit Required: M-F 7 a.m. - 5 p.m.”，' +
+          '以及 “Visitor parking regulations apply 7:00 am to 5:00 pm, Monday through Friday. ' +
+          'Parking is free on weekdays after 5:00 pm, weekends, and University-observed holidays unless posted otherwise.”</strong>' +
+          '<strong>即：周一至周五 07:00–17:00 需付费，平日 17:00 之后、周末与学校例假日免费。</strong>' +
+          '<strong>（本页此前记「执法截止时间未能从官方渠道确认」，现已确认为 17:00。）</strong>' +
+          '<strong>价格上两个官方页面不一致，两种都列出：Visitors 页写 “HOURLY PARKING - $1.50 per hour”，' +
+          'Driving to Campus 页写 “Hourly parking is $1.25/hour”（Passport App）；' +
+          '一日票两页一致为 $13.00。以现场立牌与 App 实收为准。</strong>' +
+          '付费方式是 Passport App（按立牌上的 4 位区域码）或停车场自助出票机（出票放在仪表台上）。' +
+          '<strong>官方明确提示车位有限、建议早到</strong>；' +
+          '满位时官方给的替代是 Dornblaser／Lewis and Clark 的 Park & Ride 再换校车。' +
+          '<strong>两个绕开停车费的办法：（一）平日 17:00 之后再来</strong>——' +
+          '这同时也是这个点位光线最好的时段，两件事正好重合；' +
+          '<strong>（二）把车停在市区（Higgins Avenue 一带有街边计时停车），' +
+          '沿 Clark Fork 南岸的 Kim Williams Trail 步行 20–25 分钟到步道口</strong>，' +
+          '这段平坦河滨路本身也值得走。' +
+          '<strong>Destination Missoula 同样提示「出发前确认当前的停车规定与执法时段」' +
+          '（“be sure to check current parking regulations and enforcement times before your visit”）——' +
+          '校内规则会随学期调整，现场立牌永远优先。</strong>' +
+          '疑问可打 UM 停车处 <strong>406-243-6132</strong>（办公时间周一至周五 07:30–16:30）',
         walk: '<strong>到混凝土「M」：单程 3/4 英里、爬升 620 英尺、13 个之字弯，' +
-          '上行 20–30 分钟（带三脚架与长焦按 30–35 分钟），下行 15–20 分钟。' +
-          '往返约 1.8 英里／1–1.5 小时（不含拍摄）。</strong>' +
-          '<strong>坡度陡但路面好、全程有成形步道与长椅，官方评级中等。</strong>' +
-          '<strong>到 Mount Sentinel 山顶：单程 1 3/4 英里、爬升 1,916 英尺、往返 3.8 英里／3–4 小时，' +
-          '本次行程不建议</strong>——「M」的视野已经足够，多出来的 1,300 英尺换不到成比例的画面提升。' +
-          '<strong>傍晚场次建议整体预留 3 小时（17:15 到停车场，20:15 回到车上）</strong>'
+          '上行 20–30 分钟，下行 15–20 分钟，往返约 1.8 英里／1–1.5 小时（不含停留）。</strong>' +
+          '<strong>坡度陡但路面是成形的碎石步道、沿途有长椅，官方难度评级中等。</strong>' +
+          '<strong>只到中段长椅：单程 8–12 分钟、爬升 200–300 英尺，此处已越过校园建筑的遮挡、视野基本打开。</strong>' +
+          '<strong>到 Mount Sentinel 山顶：单程 1 3/4 英里、爬升 1,916 英尺、往返 3.8 英里／3–4 小时</strong>——' +
+          '「M」的视野已经足够，多出来的 1,300 英尺换不到成比例的回报。' +
+          '<strong>全程无水、无卫生间、无遮阴；步道与轮椅、婴儿车不兼容。</strong>' +
+          '<strong>从市区经 Kim Williams Trail 走到步道口另需 20–25 分钟（平坦铺装）</strong>'
       },
       notes: [
         '<strong>这是傍晚题材，不要在清晨爬上来。</strong>' +
@@ -1964,9 +2152,10 @@ module.exports = {
           '<strong>清晨请改去河边的 Kim Williams Trail 拍河雾与对岸山坡，见上面第三个机位</strong>',
         '<strong>必带头灯。</strong>要拍到 19:50 的蓝调灯火，你一定是在黑暗中走下 620 英尺的陡坡之字路——' +
           '<strong>这是本点位唯一的真实风险</strong>',
-        '<strong>平日校内停车需付费，而 9/22 与 9/23 都是学期中的平日。</strong>' +
-          '车位有限、官方建议早到；<strong>执法截止时间未能从官方渠道确认，请到场看立牌。</strong>' +
-          '<strong>替代方案：停在市区、沿 Kim Williams Trail 步行 20–25 分钟过来</strong>',
+        '<strong>校内停车周一至周五 07:00–17:00 需付费，17:00 之后与周末免费（2026-09-15 核实 UM 官方）。</strong>' +
+          '按小时付费官方两页分别写 $1.50 与 $1.25，一日票 $13；车位有限、官方建议早到。' +
+          '<strong>两个省钱办法：把上山时间放在 17:00 之后（正好也是光线最好的时段），' +
+          '或停在市区沿 Kim Williams Trail 步行 20–25 分钟过来</strong>',
         '<strong>全程无遮阴、坡陡。</strong>' +
           '虽然 9 月下旬傍晚气温舒适（15–20°C），' +
           '<strong>但上行时会出汗、到顶后站着不动一小时会迅速变冷（日落后可掉到 5–8°C）。' +
@@ -1997,14 +2186,15 @@ module.exports = {
       n: 1,
       name: 'Missoula 市区河滨（Higgins 桥、Wilma、Caras Park 与旋转木马）',
       en: 'Downtown Missoula: Higgins Avenue Bridge, the Wilma, Caras Park & the Carousel',
+      must: 3.5,
       score: 3.5,
-      tldr: '全区唯一「城市 + 流水」题材：Brennan\u2019s Wave 的人工激流就在市中心桥下，可拍皮划艇动态。旋转木马 9 月起 11:00–17:30。全程步行，不受烟霾。',
+      tldr: '普通游客在 Missoula 实际会去的那一片：一座桥、一个老剧院、一片河滨公园、一座全手工雕刻的旋转木马和一段市中心白水，全在一个路口。<strong>停一次车走完，几乎全免费，零体力门槛。</strong>',
       tags: [
         { t: '街区与河滨全免费', c: 'free' },
-        { t: '旋转木马 $0.50–1.50', c: 'paid' },
-        { t: '全程步行可达', c: 'free' },
-        { t: '市区题材，抗烟霾', c: 'free' },
-        { t: '木马 17:30 关，早于黄金光', c: 'risk' }
+        { t: '旋转木马 $1／$2，残障免费', c: 'paid' },
+        { t: '全程平坦，轮椅可行', c: 'free' },
+        { t: '市区题材，不吃天气', c: 'free' },
+        { t: '木马 18:00 关（秋冬春）', c: 'risk' }
       ],
       highlights: [
         '<strong>把这四个点合成一条动线是有道理的：它们全部集中在 Higgins Avenue 与 Clark Fork 交汇处的两三个街区内，' +
@@ -2056,10 +2246,73 @@ module.exports = {
           '<strong>而且和 Chief Joseph Ranch 大门一样完全不受烟霾影响</strong>——' +
           '是「烟霾日朝圣线」的最后一段'
       ],
+      tour: [
+        '<strong>先说怎么走：这一组的全部价值建立在「一次停车、步行 10 分钟走完四个点」上面，' +
+          '不要把它们当四个独立景点分别开车过去。</strong>' +
+          '<strong>推荐动线（从北岸往南）：New Park Lot（Caras Drive 河滨，就在 Caras Park 边上）停车 → ' +
+          'Caras Park 与旋转木马、Dragon Hollow → 沿河岸走 2–3 分钟到 Brennan\u2019s Wave 看白水 → ' +
+          '上 Higgins Avenue Bridge 走到桥中间看河与四面的山 → 桥南头就是 Wilma Theater → ' +
+          '再往北 5 分钟是 Missoula County Courthouse。</strong>' +
+          '<strong>全程平坦铺装、零爬升、轮椅与婴儿车可通行</strong>，' +
+          '这是本区唯一一个对体力毫无要求的条目。' +
+          '<strong>Clark Fork 正从市中心穿过，两岸都有连续的河滨步道（Riverfront Trail／Kim Williams Trail）</strong>，' +
+          '想多走的话沿河往东可以一直走到 Hellgate Canyon',
+        '<strong>旋转木马是这一组里唯一收费也唯一「必须趁开门时间来」的一项，而它值这个门票。</strong>' +
+          '<strong>Visit Montana 的官方描述是它属于「大萧条以来美国最早的全手工雕刻旋转木马之一」，' +
+          '而且是由数百名志愿者无偿造出来的</strong>' +
+          '（“one of the first fully hand-carved carousels to be built in the United States since the Great Depression. ' +
+          'From little more than dreams, hard work and love, a carousel was created by hundreds of volunteers.”）。' +
+          '<strong>共 38 匹马与 2 辆战车，战车按轮椅设计，官方明确残障人士永远免费乘坐。</strong>' +
+          '<strong>怎么看：因为每匹马都是手工雕的、彼此不同，真正值得停下来看的是单匹马的细节</strong>——' +
+          '鬃毛的刀痕、马鞍上的彩绘花纹、玻璃眼珠。<strong>在每一轮之间木马停转时看得最清楚。</strong>' +
+          '<strong>现场还有一个「伸手抓黄铜环」的老式玩法（坐外圈的马才够得到，抓到可换一次免费乘坐）</strong>' +
+          '——这条来自到访者记录，<strong>未从官方页面确认，到场问工作人员即可</strong>。' +
+          '<strong>木马旁边是同样由志愿者建造的 Dragon Hollow 儿童游乐区，完全免费</strong>，' +
+          '带小孩的话这一片能待一小时以上；不带小孩的话十分钟看完',
+        '<strong>Brennan\u2019s Wave 是这一片最有意思、也最容易被走过去的地方。</strong>' +
+          '它是<strong>建在市中心 Clark Fork 河道里的人工白水激流点（OSM 标注 waterway=weir，已核实）</strong>，' +
+          '皮划艇、立式划桨与河流冲浪的人会在这里反复冲同一道浪。' +
+          '<strong>站在北岸或桥上看就行，不需要走下河堤。</strong>' +
+          '<strong>据当地资料它建于 2006 年前后，用以纪念 Missoula 的皮划艇运动员 Brennan Guth，' +
+          '利用了河道中原有的旧水坝遗址</strong>' +
+          '（<strong>建成年份与命名细节来自当地二手资料，未能从官方渠道确认</strong>）。' +
+          '<strong>务必先降低期待：河上有没有人完全是运气。</strong>' +
+          '<strong>夏季傍晚与周末人最多；秋冬的平日下午常常一个人都没有，而且秋季是低水位、浪也小。</strong>' +
+          '没人的时候这里就是一段普通的急流，<strong>五分钟看完，不要为它专门等</strong>',
+        '<strong>Higgins Avenue Bridge 与 Wilma Theater：一个五分钟，一个只在天黑后才成立。</strong>' +
+          '<strong>桥值得走到中间站一会儿</strong>——' +
+          '这是市区里唯一能同时看到 Clark Fork 河道、两岸街景与围着 Missoula 的四条山脉的位置，' +
+          '<strong>也是最容易理解「这座城市坐在五条谷地交汇处」这件事的地方。</strong>' +
+          '<strong>Wilma Theater 在桥南头，八层砖石立面加一块垂直的霓虹招牌，是市区天际线上最好认的一栋楼。</strong>' +
+          '<strong>但要明确一点：它现在是演出场地，除演出票外不对外开放内部参观，白天从外面看就是一栋普通老办公楼。</strong>' +
+          '<strong>它唯一好看的时候是入夜后招牌点亮</strong>，' +
+          '<strong>所以白天路过看一眼就够，不必等、不必绕回来</strong>（除非正好赶上想看的演出）。' +
+          '<strong>据当地资料它落成于 1921 年、以业主之妻、歌唱家 Edna Wilma 命名，落成时是 Missoula 最高的建筑</strong>' +
+          '（<strong>年份与命名由来来自当地二手资料，未能从官方渠道确认</strong>）',
+        '<strong>可以跳过的部分，以及剧集外景到底值不值得走。</strong>' +
+          '<strong>如果时间只有 1 小时：留给旋转木马 + Caras Park + 桥，其余全部可跳。</strong>' +
+          '<strong>《Yellowstone》的三处市区外景（Missoula County Courthouse、街对面的 Garlington Building、' +
+          'Railroad Street 与 Woody Street 路口的那栋楼）本质上都是「从街上看一栋普通建筑」</strong>——' +
+          '<strong>不是剧迷的话没有任何理由专门走过去</strong>，' +
+          '而 Courthouse 本身作为一栋 20 世纪初的县政府大楼倒是顺路可看（从 Wilma 沿 Higgins 北行 5 分钟）。' +
+          '<strong>（Railroad／Woody 路口那栋的精确坐标未能核实。）</strong>' +
+          '<strong>另外 Caras Park 的顶棚广场在夏季有市集与音乐活动（Out to Lunch、Downtown ToNight 之类），' +
+          '秋冬基本是空场</strong>——<strong>活动档期每年不同，请自行查 Missoula Downtown Association 当年的日程。</strong>',
+        '<strong>吃饭、卫生间与实际补给：这是本区唯一什么都不缺的地方，请把要买的东西在这里买齐。</strong>' +
+          '<strong>餐饮沿 Higgins Avenue 与 West Front／East Front 一带非常密集</strong>，' +
+          '从咖啡到正餐都在步行范围内，<strong>不需要提前订位（大型演出散场时段除外）。</strong>' +
+          '<strong>卫生间：旋转木马所在建筑内有礼品店与卫生间（收益用于木马维护）</strong>' +
+          '——<strong>这一条来自到访者记录，未从官方页面确认</strong>；' +
+          '此外市区的餐馆与咖啡店是最可靠的选择。' +
+          '<strong>Missoula 是整个 Bitterroot 谷地唯一有完整补给的城市</strong>：' +
+          '户外店（可买熊喷雾，<strong>注意熊喷雾不能带上飞机</strong>）、相机店、药店、超市' +
+          '（针对饮食限制当地常推荐 The Good Food Store）。' +
+          '<strong>南下之前请一次买齐——谷地南段只有 Hamilton 有较完整的服务，Darby 以南就只有零星小店。</strong>'
+      ],
       photo: '城市／街拍 <strong>3.5/5</strong>，夜景 <strong>4/5</strong>，运动 <strong>4/5</strong>（Brennan\u2019s Wave），' +
         '风光 <strong>2/5</strong>，人像 <strong>3.5/5</strong>。' +
         '<strong>这一组的价值不在单张照片的上限，而在「题材种类」——' +
-        '它给了你本区其他七个点位都给不了的东西：流水动态、夜景霓虹、手工雕刻细节与街头人文。</strong>' +
+        '它提供了本区其他点位都没有的东西：流水动态、夜景霓虹、手工雕刻细节与街头人文。</strong>' +
         '<strong>而它最大的实用价值是抗天气：全部题材都是近景，烟霾、阴天、下雨都能拍。</strong>' +
         '扣分在于它毕竟是一座小城市，' +
         '<strong>天际线本身没什么可看的，你拍的是细节与瞬间，不是气势。</strong>',
@@ -2132,10 +2385,11 @@ module.exports = {
             '地址 101 Carousel Drive；Caras Park（way/172098818）紧邻。' +
             '从 Ryman Street 可直接开进旋转木马的停车场。</strong>' +
             '<strong>【时段，请注意这里有个时间冲突】</strong>' +
-            '<strong>9 月起旋转木马的营业时间是每日 11:00–17:30（6–8 月为 11:00–19:00）。' +
-            '也就是说它 17:30 关门，而市区的黄金光与蓝调时段是 18:00–20:05——' +
-            '你无法在好光下拍到运转中的旋转木马内部。</strong>' +
-            '<strong>所以正确安排是：把旋转木马放在傍晚之前（15:00–17:30），' +
+            '<strong>【2026-09-15 按官方页面更正】旋转木马秋、冬、春季的营业时间是每日 11:00–18:00' +
+            '（夏季 6 月中至 8 月中为 11:00–19:00）；此前本页写的 17:30 是第三方目录的过期数字。' +
+            '即便按 18:00，它仍然早于市区的黄金光与蓝调时段（约 18:00–20:05）——' +
+            '也就是说在好光下拍到运转中的旋转木马内部基本不成立。</strong>' +
+            '<strong>所以正确安排是：把旋转木马放在傍晚之前（15:00–18:00），' +
             '拍完再去河边等 Brennan\u2019s Wave 的斜光与桥的蓝调。' +
             '这三者在时间上是接续而非冲突的，顺序不要弄反。</strong>' +
             '<strong>【拍什么，请避开最俗的那一张】</strong>' +
@@ -2183,47 +2437,88 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约。旋转木马<strong>无需预订，直接买票乘坐</strong>' +
-          '（非公众开放时段可整场租用，与你无关）',
-        ticket: '<strong>街区、桥、Caras Park、河滨与 Brennan\u2019s Wave 全部免费。</strong>' +
-          '<strong>A Carousel for Missoula：单次乘坐 $0.50–1.50</strong>' +
-          '（<strong>残障人士永远免费</strong>）；' +
-          '<strong>进入建筑观看与拍摄不需要买票，礼貌起见建议买一次坐一圈。</strong>' +
-          '<strong>Dragon Hollow 儿童游乐区免费。' +
-          'Wilma Theater 除演出票外不对外开放内部参观。</strong>' +
-          '木马旁有礼品店（收益用于木马维护）',
-        hours: '<strong>A Carousel for Missoula：每日开放，9 月至次年 5 月 11:00–17:30；' +
-          '6 月至 8 月 11:00–19:00。' +
-          '你的 9/22–9/23 适用 11:00–17:30，已核实。</strong>' +
-          '<strong>请注意 17:30 关门早于黄金时段，无法在好光下拍到运转中的木马——' +
-          '正确安排是 15:00–17:30 先拍木马，再去河边与桥上拍傍晚与蓝调。</strong>' +
-          '<strong>官方另提示：秋季人手有限，偶尔会因私人活动提前关闭，' +
-          '建议致电 406-549-8382 确认当天营业。</strong>' +
-          '<strong>Caras Park、Higgins Avenue Bridge、河滨步道与 Brennan\u2019s Wave 均为 24 小时开放的公共空间，' +
-          '无门禁——所以蓝调与夜景拍摄没有时间限制。</strong>' +
-          '<strong>Wilma Theater 按演出日程运营，无固定参观时间</strong>',
-        parking: '<strong>旋转木马有专用停车场</strong>（从 Ryman Street 直接开入，101 Carousel Drive）。' +
-          '<strong>市区另有街边计时停车与多处停车场</strong>，' +
-          '<strong>9 月下旬平日傍晚（18:00 之后）市区街边停车通常已停止收费且车位充足</strong>' +
-          '（<strong>具体收费截止时间未能从官方渠道确认，请看路边计时器立牌</strong>）。' +
-          '<strong>本景点的最佳策略是：停一次车，全程步行完成四个机位。</strong>' +
-          '<strong>从这里沿 Clark Fork 南岸的 Kim Williams Trail 步行 20–25 分钟即可到 M Trail 步道口</strong>，' +
-          '<strong>可以避开大学校内的平日停车费（见上一个景点）</strong>',
-        walk: '<strong>四个机位全部在步行 10 分钟范围内</strong>：' +
+        visit: '<strong>2–3 小时是走完这四个点并且不赶的合理区间</strong>，分配如下：' +
+          '<strong>旋转木马与 Dragon Hollow 30–45 分钟</strong>（带小孩请按 1–1.5 小时，' +
+          '孩子在 Dragon Hollow 会待得比大人预期的久）；' +
+          '<strong>Caras Park 与河滨 20–30 分钟</strong>；' +
+          '<strong>Brennan\u2019s Wave 10–20 分钟</strong>（有人在冲浪时会想多站一会儿，没人时 5 分钟）；' +
+          '<strong>Higgins Avenue Bridge 与 Wilma 一带 20–30 分钟</strong>。' +
+          '<strong>只看重点 1 小时：旋转木马坐一圈 + Caras Park + 走到桥中间，其余全跳。</strong>' +
+          '<strong>想把入夜后的霓虹与河面灯光也看到，请预留 3–4 小时并跨过日落</strong>' +
+          '（下午先去木马，天黑前后再回到桥上）。' +
+          '<strong>加上沿河多走一段或在市区吃一顿饭，这里可以轻松消化半天</strong>——' +
+          '这是本区唯一一个「停一次车能待一下午」的条目。' +
+          '（按四个点的实际内容量与步行距离推算，各方均未给官方建议时长）',
+        book: '<strong>不需预约。</strong>旋转木马<strong>无需预订，现场买票直接乘坐</strong>' +
+          '（可整场租用办生日会，与散客无关）。' +
+          '<strong>Wilma Theater 的演出需另行购票，按场次安排。</strong>' +
+          '<strong>Caras Park、河滨步道、桥与 Brennan\u2019s Wave 都是开放公共空间，不存在预约</strong>',
+        ticket: '<strong>街区、Higgins Avenue Bridge、Caras Park、河滨步道、Brennan\u2019s Wave 与 Dragon Hollow 全部免费。</strong>' +
+          '<strong>【2026-09-15 核对 A Carousel for Missoula 官方 Hours and Admission 页，' +
+          '此处更正本页此前的错误票价】：</strong>' +
+          '<strong>单次乘坐——11 岁及以下儿童 $1、12 岁及以上 $2、残障乘客永远免费' +
+          '（官方原文 “Children (11 &amp; under): $1｜Riders (12 &amp; older): $2｜Riders with disabilities: Always free”）。</strong>' +
+          '<strong>本页此前写的「$0.50–1.50」是过期数字，现已按官方页面更正。</strong>' +
+          '<strong>进入建筑参观不需要买票，但礼貌起见建议买一次坐一圈</strong>——' +
+          '这是一座靠捐助与门票维护的社区设施。' +
+          '<strong>木马旁有礼品店，收益用于木马维护。</strong>' +
+          '<strong>Wilma Theater 除演出票外不对外开放内部参观。</strong>' +
+          '<strong>唯一容易漏算的支出是停车费，见下栏</strong>',
+        hours: '<strong>【2026-09-15 核对官方页面，此处更正本页此前的错误时间】</strong>' +
+          '<strong>A Carousel for Missoula 官方 Hours and Admission 页原文：' +
+          '“Fall, Winter &amp; Spring: 11:00 – 6:00｜Summer (Mid June–Mid August): 11:00 –7:00”</strong>，' +
+          '即<strong>秋、冬、春季每日 11:00–18:00；夏季（6 月中至 8 月中）11:00–19:00</strong>。' +
+          '<strong>本页此前写的「9 月至次年 5 月 11:00–17:30」是第三方目录的过期数字' +
+          '（Tripadvisor 与部分旅游站至今仍写 17:30），官方现行口径是 18:00，已更正。</strong>' +
+          '<strong>官方同一页的两条重要提示：（一）2026 年因人手短缺，夏季时段要到 6 月底／7 月初才启用；' +
+          '（二）“On some days we may close early for after-hours events — please call ahead to confirm at 406-549-8382.”' +
+          '（部分日期会因包场活动提前关门，务必先打电话确认）。</strong>' +
+          '<strong>节假日：平安夜 11:00–14:00，圣诞节闭馆；另每年 1 月有一段年度检修停机期' +
+          '（检修期具体日期未能从官方渠道确认，1 月前往请先电话确认）。</strong>' +
+          '<strong>Dragon Hollow 儿童游乐区：每日 09:30–20:00（夏季 09:30–21:00），视天气而定，永久免费</strong>' +
+          '——<strong>也就是说游乐区比木马早开、晚关，木马关门后这一片照样能待。</strong>' +
+          '<strong>Caras Park、Higgins Avenue Bridge、河滨步道与 Brennan\u2019s Wave 均为 24 小时开放的公共空间，无门禁。</strong>' +
+          '<strong>Wilma Theater 按演出日程运营，无固定参观时间。</strong>' +
+          '<strong>实务结论：木马 18:00 关门是这一片唯一的硬边界</strong>，' +
+          '<strong>正确顺序是先木马、再河边与桥，而不是反过来</strong>',
+        parking: '<strong>【2026-09-15 核对 City of Missoula 官方 Public Parking 页与 Parking Commission 页。' +
+          '本页此前记「收费截止时间未能从官方渠道确认」，现已确认。】</strong>' +
+          '<strong>先说最省事的答案：平日 17:00 之后、以及周末与 Montana 州法定假日，市区街边停车全部免费。</strong>' +
+          '官方原文 “FREE after 5:00 p.m. weekdays, State of MT legal holidays, and weekends”，' +
+          '<strong>执法时间为周一至周五 08:00–17:00，周末与州假日不执法；街边计时表从 09:00 开始计费，' +
+          '而付费停车场、装卸区与限时车位从 08:00 起就执法。</strong>' +
+          '<strong>需要付费时的官方费率（中心商务区街边短时停车，Passport 区号 4061）：' +
+          '30 分钟 $0.50（仅投币）、1 小时 $1.00、2 小时 $2.00、3 小时 $3.50、4 小时 $5.50、' +
+          '5 小时 $8.00、6 小时 $11.00、7 小时 $14.50、8 小时 $18.50；' +
+          '用手机或 Passport 网页支付另加 $0.25 手续费。</strong>' +
+          '<strong>离本景点最近的官方付费停车场是 New Park Lot（Caras Drive，紧贴河滨与 Caras Park）' +
+          '与 Bank Street Lot（115 Bank St，就在 Higgins 桥边），' +
+          '两处均为周一至周五 08:00–17:00 每小时 $1.00、此后与周末免费（Passport 区号 4063）。</strong>' +
+          '<strong>要停久一点的话三座车库更划算：Central Park（128 W. Main）、Park Place（201 E Front）、' +
+          'Roam（305 E Front），周一至周五 08:00–18:00，第一小时免费、第 2 至第 10 小时每小时 $1.00，18:00 后免费。</strong>' +
+          '<strong>持有效残障牌照或标识者，街边车位 2 小时内免费。</strong>' +
+          '<strong>旋转木马自身另有专用停车场</strong>（从 Ryman Street 直接开入，101 Carousel Drive）。' +
+          '<strong>最佳策略是停一次车、全程步行走完</strong>；' +
+          '<strong>顺带一个省钱办法：从这里沿 Clark Fork 南岸的 Kim Williams Trail 步行 20–25 分钟就能到 M Trail 步道口，' +
+          '可以完全避开大学校内的平日停车费（见上一个景点）。</strong>' +
+          '市政停车处：435 Ryman St，电话 <strong>406-552-6000</strong>',
+        walk: '<strong>四个点全部在步行 10 分钟范围内</strong>：' +
           'Caras Park／旋转木马到 Brennan\u2019s Wave 约 <strong>2–3 分钟</strong>；' +
           '到 Higgins Avenue Bridge 桥面约 <strong>3–4 分钟</strong>；' +
           '桥南头到 Wilma Theater <strong>1 分钟</strong>；' +
           '再到 Missoula County Courthouse 约 <strong>5 分钟</strong>。' +
-          '<strong>全程平坦铺装、无爬升、轮椅可通行。</strong>' +
-          '<strong>建议预留 3–4 小时（15:00 到旋转木马，20:20 拍完蓝调）</strong>，' +
-          '<strong>这是本子地区唯一一个可以「停一次车、走一整个下午到夜里」的点位</strong>'
+          '<strong>全程平坦铺装、无爬升、轮椅与婴儿车可通行</strong>，' +
+          '<strong>是本子地区唯一对体力毫无要求的条目。</strong>' +
+          '<strong>想多走：沿河滨步道往东可一直走到 Hellgate Canyon，往西沿北岸也有连续步道</strong>，' +
+          '按想走多远自行决定，没有必须完成的段落'
       },
       notes: [
         '<strong>这一组是本子地区最强的「坏天气 / 烟霾日」方案，请把它当成保险。</strong>' +
           '全部题材都是近景与夜景，<strong>烟霾、阴天、下雨都能拍；' +
           'AQI 超过 100 时把整个下午与傍晚挪到这里，是本区最有效的补救</strong>',
-        '<strong>时间顺序不要弄反：旋转木马 17:30 关门，而黄金光与蓝调在 18:00–20:20。</strong>' +
-          '<strong>正确顺序是 15:00–17:30 旋转木马 → 16:30–18:30 Brennan\u2019s Wave 拍动作 → ' +
+        '<strong>时间顺序不要弄反：旋转木马 18:00 关门（秋冬春官方时段，2026-09-15 核实），' +
+          '而黄金光与蓝调在 18:00–20:20。</strong>' +
+          '<strong>正确顺序是 15:00–18:00 旋转木马 → 16:30–18:30 Brennan\u2019s Wave 拍动作 → ' +
           '19:20–20:20 桥上与 Wilma 拍蓝调夜景。</strong>' +
           '这三段在时间上刚好接续',
         '<strong>Brennan\u2019s Wave 上有没有人是运气。</strong>' +
@@ -2259,6 +2554,559 @@ module.exports = {
           cap: 'Wilma Theater 立面与垂直招牌 · w_lemay / CC BY-SA 2.0' },
         { url: 'img/bookmobile-at-dragon-hollow-and-the-carousel-01e52bd0.jpg',
           cap: 'Caras Park 内的旋转木马建筑与 Dragon Hollow · Missoula Public Library / CC BY 2.0' }
+      ]
+    },
+    {
+      id: 'travelers-rest-lolo',
+      n: 9,
+      name: '旅者之憩州立公园（Lewis &amp; Clark 唯一经考古证实的宿营地）',
+      en: 'Travelers\u2019 Rest State Park, Lolo',
+      must: 3,
+      score: 2,
+      tldr: '<strong>全美唯一一处有实物证据证明 Lewis &amp; Clark 探险队确实住过的宿营地</strong>，同时是 Salish 人的传统家园与路口。国家历史地标。一小时的条目，外州车 $8。',
+      tags: [
+        { t: '国家历史地标', c: 'free' },
+        { t: '外州车 $8／步行 $4', c: 'paid' },
+        { t: 'Montana 牌照车免费', c: 'free' },
+        { t: '联邦年票不适用', c: 'risk' },
+        { t: '访客中心十月起周一二闭馆', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>这个地方的全部分量压在一句话上，而这句话是官方原文：' +
+          '“See the only archaeologically verified campsite of the Lewis and Clark Expedition in the nation.”' +
+          '——全美唯一一处有实物证据证明 Lewis &amp; Clark 探险队确实在此扎过营的地点。</strong>' +
+          '<strong>Lewis &amp; Clark 国家历史步道全长约 3,700 英里、沿途有几百处「据记载曾宿营于此」的地点，' +
+          '但只有这一处把「据记载」换成了「已证实」。</strong>' +
+          '探险队在这里住过两次：<strong>1805 年 9 月 9–11 日翻越 Bitterroot 山脉之前，' +
+          '以及 1806 年 6 月 30 日至 7 月 3 日回程</strong>；' +
+          '<strong>1806 年 7 月 3 日从这里出发时 Clark 带一队去探 Yellowstone River、Lewis 转向 Missouri 与 Marias River，' +
+          '也就是说这块草地是整支探险队分头行动的那个岔口。</strong>' +
+          '公园现为 <strong>National Historic Landmark</strong>',
+        '<strong>考古证据具体是什么——知道这一条，现场那几块牌子才读得懂。</strong>' +
+          '<strong>2002 年夏季的发掘找到了三类东西（官方表述）：' +
+          '一条含汞的沟式厕所（trench latrine tainted with mercury）、若干火塘（fire hearths）、' +
+          '以及用于修理与制造火器的铅（lead）。</strong>' +
+          '<strong>汞是关键</strong>——探险队随身带的泻药含氯化亚汞，' +
+          '<strong>汞在土里不降解，两百年后仍能测出来，于是那条厕所成了整条步道上最硬的一份证据。</strong>' +
+          '国家历史地标提名文件里列出的证据链还包括：' +
+          '<strong>火塘的间距符合 von Steuben 操典规定的军营布局、' +
+          '一颗蓝色贸易珠、熔化的铅块与一枚 tombac 铜锌合金纽扣</strong>，' +
+          '<strong>而且这些遗物都埋在地表以下 20 厘米之内。</strong>' +
+          '<strong>提名文件同时说明了一件反直觉的事：这处地标原先的边界是 1970 年代凭不精确的出版资料、' +
+          '在完全没有实地勘查的情况下画的，画得足够大以「希望能把遗址圈进去」，' +
+          '2002 年的发掘之后边界才被重新划定。</strong>',
+        '<strong>但请先摆正期待：地面上没有任何遗迹可看。</strong>' +
+          '<strong>发掘早已回填，这里现在是一片有步道穿过的河谷草甸，Lolo Creek 从园中流过</strong>，' +
+          '<strong>看点是「确知自己正站在那个宿营地上」这件事本身，加上访客中心里的解说与展品，' +
+          '而不是任何可以拍到的实体。</strong>' +
+          '<strong>如果对 Lewis &amp; Clark 这段历史没有兴趣，这里就只是一片挺好看的草甸</strong>——' +
+          '这也是它拿 3 分而不是 4 分的原因。' +
+          '<strong>访客中心与博物馆的内容（官方列举）：Lewis &amp; Clark 探险队器物复制品、Salish 文化展区、' +
+          '原住民手工艺，以及一条还原的边疆时期 Main Street。</strong>',
+        '<strong>这里首先是 Salish 人的地方，其次才是 Lewis &amp; Clark 的——官方自己是这么写的，不要读反。</strong>' +
+          'FWP 的介绍原文把顺序说得很清楚：' +
+          '<strong>“Centuries before Lewis and Clark, this site has long been known and used by Native peoples, notably the Salish.”</strong>' +
+          '<strong>这里是数条路径的交汇口，Salish、Pend d\u2019Oreille 与 Nez Perce 诸族长期在此扎营</strong>，' +
+          '<strong>公园的常规解说项目里包含由部落讲述者主讲的场次</strong>' +
+          '（<strong>夏季有固定的解说活动，全年有专题活动，具体档期每年不同，' +
+          '请查合作管理机构 Travelers\u2019 Rest Connection 的当年日程</strong>）。' +
+          '公园的活动分类里同时列着 <strong>Séliš-Ql̓ispé Tribal History</strong> 与 Lewis and Clark History 两项，' +
+          '<strong>这不是装饰性的并列，而是这块地真实的两层历史。</strong>',
+        '<strong>另外它是一处很好的观鸟地，这一点常被历史名头盖过：' +
+          '园界内已记录 115 种以上鸟类</strong>，' +
+          'Lolo Creek 的河岸林带是 Bitterroot 谷地北口的一段完整河岸生境。' +
+          '<strong>园内设施齐全得超出预期</strong>：' +
+          '<strong>官方列出的有冲水与旱厕两种卫生间、饮水、野餐桌与野餐棚、礼品店、解说展板与停车场，' +
+          '并标注 ADA 无障碍</strong>；' +
+          '<strong>野餐棚可付费整租（需联系公园预订）。</strong>' +
+          '<strong>园区执行 pack-in／pack-out。</strong>'
+      ],
+      tour: [
+        '<strong>先说它在一天里的位置：这是一个「一小时的顺路条目」，而且顺路得几乎没有成本。</strong>' +
+          '<strong>公园入口在 Lolo 镇以西半英里的 US-12 上（官方地址 6717 Highway 12 W）</strong>，' +
+          '<strong>而 Lolo 正是 US-93（Missoula–Bitterroot 谷地的唯一主干）与 US-12（去 Lolo Pass 与 Idaho 的唯一通道）的岔口</strong>。' +
+          '<strong>也就是说：从 Missoula 南下 Bitterroot 谷地、或者要往西上 Lolo Pass，都会经过这个路口</strong>，' +
+          '拐进来只多花几分钟。' +
+          '<strong>Missoula 市区到这里约 10 英里／15–20 分钟。</strong>' +
+          '<strong>反过来说，它不值得从谷地南端（Hamilton、Darby）专程折回来。</strong>',
+        '<strong>进去之后怎么逛，以及顺序为什么重要。</strong>' +
+          '<strong>正确顺序是：先进访客中心，再出去走草甸。</strong>' +
+          '理由很实际——<strong>草甸上没有遗迹，先看过展陈与解说再出去，那片草地才有意义；' +
+          '顺序反过来的人常常在外面转十分钟就走了，觉得「什么也没有」。</strong>' +
+          '<strong>访客中心与博物馆（官方列举的内容）：探险队器物复制品、Salish 文化展区、原住民手工艺、' +
+          '一条还原的边疆时期 Main Street。</strong>' +
+          '<strong>然后出去沿园内步道走一圈</strong>——' +
+          '<strong>步道平缓、里程短、标注 ADA 无障碍，' +
+          '会经过 Lolo Creek 与考古发掘区上方的那片草甸，沿途有解说牌指出宿营地的推定范围。</strong>' +
+          '<strong>夏季如果碰上部落讲述者或解说员的场次，把时间让给它</strong>——' +
+          '这是这个公园信息密度最高的部分，比任何展板都强。',
+        '<strong>可以跳过的部分，以及什么情况下整个公园都可以跳过。</strong>' +
+          '<strong>时间只有 30 分钟：只进访客中心，草甸不走</strong>——' +
+          '室内是这里信息量的主体，室外是氛围。' +
+          '<strong>十月至次年四月的周一、周二过来：访客中心闭馆，只有大门和步道开着</strong>，' +
+          '<strong>此时整个公园的可看内容大约只剩三成，建议直接改日或跳过。</strong>' +
+          '<strong>对 Lewis &amp; Clark 与原住民历史完全没有兴趣的话，这里可以整个跳掉，不会有损失</strong>——' +
+          '它没有风景上的独立价值，Bitterroot 谷地往南任何一处路边观景牌的景色都比这里开阔。',
+        '<strong>收费规则：这是一处 Montana 州立公园，和这本手册里其他条目的收费逻辑完全不同，很容易搞错。</strong>' +
+          '<strong>关键一条：联邦的 America the Beautiful 年票在这里不管用</strong>' +
+          '（那张票管的是国家公园与国家森林，比如本区的 Lake Como；州立公园不认）。' +
+          '<strong>州立公园按车牌区分：Montana 牌照的车免费进（因为本州车主在年度注册时已经交了 $9 的州立公园费），' +
+          '外州牌照的车按次收 $8。</strong>' +
+          '<strong>步行、骑车或坐大巴进来的非本州访客是每人 $4。</strong>' +
+          '<strong>要跑多个 Montana 州立公园的话，$50 的 Nonresident Entrance Pass（每车、12 个月）更划算</strong>' +
+          '——按 $8 一次算，跑到第七个公园就回本。' +
+          '详见票价栏',
+        '<strong>卫生间、饮水、餐饮与停车，以及顺路能加什么。</strong>' +
+          '<strong>园内有冲水与旱厕两种卫生间、有饮水、有野餐桌与野餐棚、有礼品店、有免费停车场（官方列举）</strong>——' +
+          '<strong>这是 US-93／US-12 路口一带设施最齐全的一处停靠点，' +
+          '把它当成南下之前最后一次「正经上厕所加补水」的机会是很实际的用法。</strong>' +
+          '<strong>园内没有餐饮</strong>，' +
+          '但<strong>可以自带食物在野餐桌上吃</strong>；Lolo 镇上（东边半英里）有加油站与几家小馆子。' +
+          '<strong>顺路可加的两项</strong>：' +
+          '<strong>（一）沿 US-12 继续西行约 25 英里是 Lolo Hot Springs</strong>' +
+          '（38500 US-12，私人经营的温泉度假地，与州立公园、国家森林三种收费规则都不一样，' +
+          '<strong>营业时间与泡池票价随季节变动、第三方口径互相矛盾，去之前请直接打 406-273-2290 确认</strong>）；' +
+          '<strong>（二）再往西到 Lolo Pass 访客中心（每周二、周三全天闭馆，按太平洋时区运作）。</strong>' +
+          '<strong>但要知道 US-12 往西是「进山之后就没有手机信号」的路</strong>——' +
+          'NPS 明确写 “There is no cell phone service between Lolo, MT and Kooskia, ID”，' +
+          '离线地图请在 Missoula 或此处就下载好'
+      ],
+      photo: '人文／历史 <strong>2.5/5</strong>，风光 <strong>2/5</strong>，室内展陈 <strong>2/5</strong>，观鸟 <strong>3/5</strong>。' +
+        '<strong>这是本手册里典型的「必去价值高于摄影价值」的条目：' +
+        '它的分量在于历史的确定性，而确定性是拍不出来的</strong>——' +
+        '发掘区早已回填，地面上就是一片有步道的河谷草甸。' +
+        '加分项只有两个：<strong>Lolo Creek 的河岸林带在秋季转色时颇好看，' +
+        '以及园内 115 种以上的鸟类记录让它成为本区唯一成立的观鸟点位。</strong>' +
+        '<strong>访客中心室内光线偏暗且是混合色温，展品多在玻璃柜内，请不要期待室内出片。</strong>',
+      shots: [
+        {
+          name: '宿营地草甸与 Lolo Creek 河岸（园内步道沿线）',
+          park: [46.75306, -114.09007],
+          view: [46.75306, -114.09007],
+          desc: '<strong>坐标为 Montana FWP 官方公园页公布的公园坐标（46.75306 / −114.09007，官方地址 6717 Highway 12 W, Lolo）。' +
+            '请注意这是公园的定位点、不是某个精确机位</strong>——' +
+            '<strong>园内步道范围不大且有解说牌指引，到场按牌子走即可，不需要找点。</strong>' +
+            '（OSM 另有公园面实体 way/750630320，中心 46.75220 / −114.08968，与官方坐标相差约 100 米，两者都已核实。）' +
+            '<strong>【时段】园区 09:00–17:00，也就是说这里没有日出与日落场次，可用光被锁在白天。</strong>' +
+            '<strong>在这个区间内最好的是 09:00–10:30 与 15:30–17:00 两头</strong>，' +
+            '此时太阳角度低、草甸的干金色草与河岸林有侧光；' +
+            '<strong>11:30–14:30 是平顶光，草甸会拍成一片没有层次的黄绿。</strong>' +
+            '<strong>【镜头】24–70mm 拍草甸与背后山形的关系；70–200mm 压 Lolo Creek 河岸的秋色局部与鸟。</strong>' +
+            '<strong>秋季 Lolo Creek 两岸的 cottonwood 转色是这里唯一有颜色的题材</strong>，' +
+            '盛期在十月上中旬，比九月下旬晚两三周。' +
+            '<strong>手持即可；观鸟要认真拍的话需要 300mm 以上与耐心。</strong>' +
+            '<strong>请留在步道上</strong>——' +
+            '这片草甸底下就是国家历史地标的考古层，遗物埋深只有 20 厘米。'
+        },
+        {
+          name: '访客中心与博物馆室内（复制品、Salish 展区与还原的 Main Street）',
+          view: [46.75306, -114.09007],
+          desc: '<strong>坐标同公园官方定位点。</strong>' +
+            '<strong>【时段】访客中心的开放时间比公园大门窄，而且十月起有周休，这是本景点最容易踩的坑</strong>：' +
+            '<strong>5 月 1 日至 9 月 30 日 09:30–16:30；10 月 1 日至次年 4 月 30 日 10:00–16:00 且周一、周二闭馆。</strong>' +
+            '<strong>【拍摄条件如实说：不适合拍照。</strong>' +
+            '室内偏暗、混合色温，主要展品在玻璃展柜内，反光难处理，空间也不大。' +
+            '<strong>请把这里当成「读与听」的地方，相机收起来反而收获更多</strong>——' +
+            '真正值得记下来的是解说员与部落讲述者讲的内容，不是展柜。' +
+            '<strong>非要拍的话：35mm／50mm 大光圈、ISO 1600–3200、贴近玻璃减少反光、手动白平衡、' +
+            '一律不要用闪光灯</strong>（对展品有害，也会在玻璃上炸成一片白）。' +
+            '<strong>拍摄与录像的具体规定未在官方页面上列出，进门问一句工作人员最稳。</strong>'
+        }
+      ],
+      access: {
+        visit: '<strong>1–1.5 小时是这里的合理区间</strong>：' +
+          '<strong>访客中心与博物馆 30–40 分钟 + 园内步道与草甸 20–30 分钟 + 看解说牌与走到 Lolo Creek 边 10–15 分钟。</strong>' +
+          '<strong>只看重点 30–45 分钟：进访客中心看完展陈，出来在草甸上走十分钟。</strong>' +
+          '<strong>赶上部落讲述者或解说员的场次请加 30–45 分钟</strong>' +
+          '——那是这里信息密度最高的部分，值得为它多留时间。' +
+          '<strong>认真观鸟的话可以在园内待 2 小时以上</strong>（115 种以上记录，Lolo Creek 河岸林带）。' +
+          '<strong>十月至四月的周一、周二访客中心闭馆，此时全程只剩 20–30 分钟，不值得专程过来。</strong>' +
+          '（按官方列举的展陈内容与园区规模推算；FWP 未给官方建议时长）',
+        book: '<strong>散客不需预约，现场买票即进。</strong>' +
+          '<strong>园内的野餐棚（pavilion）可整租，需提前联系公园预订。</strong>' +
+          '<strong>十人以上团体的解说场次建议提前致电安排。</strong>' +
+          '<strong>夏季的解说活动与全年的专题活动按当年日程进行，散客无需报名</strong>，' +
+          '档期请查合作管理机构 Travelers\u2019 Rest Connection 的当年页面。' +
+          '公园电话 <strong>406-273-4253</strong>，邮箱 jessica.martin@mt.gov',
+        ticket: '<strong>【2026-09-15 核对 Montana FWP 官方公园页与 Fees &amp; General Information 页。' +
+          '这是 Montana 州立公园，收费规则与国家公园／国家森林完全不同，请单独记。】</strong>' +
+          '<strong>先说最关键的一条：联邦年票（America the Beautiful）在州立公园不适用</strong>，' +
+          '本区 Lake Como 那种「联邦年票覆盖」的逻辑到这里不成立。' +
+          '<strong>州立公园按车牌区分本州与外州：</strong>' +
+          '<strong>（一）Montana 本州车辆</strong>——官方原文 ' +
+          '“Montana residents who pay the $9 state parks fee with their annual vehicle registration ' +
+          'have no daily entrance fees to state parks.”' +
+          '<strong>即本州车主在年度车辆注册时随附 $9 州立公园费，之后进州立公园不再收日间门票；' +
+          '若本州车主当初没有勾选这一项，则按外州标准收费。</strong>' +
+          '<strong>（二）外州车辆与非本州访客（这一档才是外来游客适用的）：' +
+          '开车进入每车 $8；步行、骑自行车或坐大巴进入每人 $4；' +
+          '持 Nonresident Entrance Pass 免费。</strong>' +
+          '<strong>Nonresident Entrance Pass 为 $50／每车，自购买当月起 12 个月有效，' +
+          '可在 FWP 在线售证系统或任一 FWP 办公室购买，同时享营地费折扣</strong>——' +
+          '<strong>按每次 $8 算，行程中会进七个以上 Montana 州立公园才回本，只来这一处请直接付 $8。</strong>' +
+          '<strong>合作机构 Travelers\u2019 Rest Connection 的页面口径与官方一致：' +
+          '“Admission to Travelers\u2019 Rest State Park is free for visitors in vehicles with Montana license plates. ' +
+          'There is a fee of $8 per vehicle with out-of-state plates.”</strong>' +
+          '<strong>访客中心与博物馆的参观不另收费，含在入园费里。</strong>' +
+          '<strong>租车自驾请注意：在 Missoula 租的车通常挂 Montana 牌照，' +
+          '但「按牌照免费」的依据是车主已缴的那笔州立公园费，' +
+          '租赁车辆是否适用未能从官方渠道确认——请备好 $8，或进门时直接问收费处。</strong>',
+        hours: '<strong>【2026-09-15 核对 Montana FWP 官方公园页】' +
+          '这里有两套时间：公园大门一套、访客中心另一套，而且访客中心十月起有周休。请分开记。</strong>' +
+          '<strong>公园（车辆入口）：每日 09:00–17:00，全年如此，无季节性调整。</strong>' +
+          '<strong>访客中心与博物馆：</strong>' +
+          '<strong>5 月 1 日 – 9 月 30 日 09:30–16:30</strong>；' +
+          '<strong>10 月 1 日 – 次年 4 月 30 日 10:00–16:00，周一与周二闭馆。</strong>' +
+          '<strong>闭园日（官方原文）：“The Park and Visitor Center are closed Thanksgiving, Christmas Eve, ' +
+          'Christmas, and New Year\u2019s Day.”——感恩节、平安夜、圣诞节、元旦四天公园与访客中心同时关闭。</strong>' +
+          '<strong>一条口径出入：合作机构 Travelers\u2019 Rest Connection 的 Visit Us 页把季节切得更细，' +
+          '其中给出的九月访客中心时间是 10:00–16:00，与 FWP 官方页「5/1–9/30 均为 09:30–16:30」不一致（差 30 分钟到 1 小时）。' +
+          '两种口径都写在这里，不替读者选</strong>——' +
+          '<strong>九月下旬要赶开门或赶关门的话，请打 406-273-4253 确认当天时间。</strong>' +
+          '（同一页还给出春季访客中心为周二至周日、夏季为每日，也与 FWP 的「5/1–9/30 不分周休」不完全一致。）' +
+          '<strong>另有一条对早晚到访有用的官方口径：园区的步行入口与园内步道全年每日日出至日落开放</strong>' +
+          '（“Pedestrian entrances and park trails are open from sunrise to sunset every day of the year”，' +
+          '出自 FWP 冬季时间公告）——<strong>也就是说车辆大门 17:00 关闭之后，' +
+          '仍可从步行入口进入园内步道，但访客中心、停车场与卫生间不可用。</strong>' +
+          '<strong>FWP 另提示上列时间「may not apply when there is a special restriction or closure」，' +
+          '出发前请查该页的 Alerts and Closures 栏</strong>',
+        parking: '<strong>园内有免费停车场</strong>（入园费之外不另收停车费），标注 ADA 无障碍。' +
+          '<strong>进场路线：US-93 与 US-12 在 Lolo 镇的岔口向西转上 US-12，' +
+          '公园入口在 Lolo 以西半英里处、路的左（南）侧，有明确路牌。</strong>' +
+          '<strong>Missoula 市区过来约 10 英里／15–20 分钟。</strong>' +
+          '<strong>停车场车位对这个体量的公园足够，平日与非旺季基本随到随停</strong>；' +
+          '<strong>夏季有解说活动或团体到访时可能偏紧。</strong>' +
+          '<strong>车辆入口 17:00 关闭，请不要把车留在园内过夜。</strong>',
+        walk: '<strong>零门槛。</strong>停车场到访客中心步行 1–2 分钟；' +
+          '<strong>园内步道平缓、里程短、路面适合一般鞋，官方标注 ADA 无障碍，轮椅与婴儿车可通行。</strong>' +
+          '<strong>绕园内步道走一圈加上在 Lolo Creek 边停留约 20–30 分钟，全程几乎无爬升。</strong>' +
+          '<strong>这是本子地区除 Missoula 市区河滨之外唯一一个对体力毫无要求的条目。</strong>'
+      },
+      notes: [
+        '<strong>最容易搞错的一条：这是州立公园，联邦年票（America the Beautiful）不适用。</strong>' +
+          '<strong>外州牌照车辆每车 $8、步行或骑车每人 $4；Montana 牌照车辆免费。</strong>' +
+          '<strong>本区的 Lake Como 属国家森林、Yellowstone 属国家公园，三者收费体系互不相通，请分开记。</strong>' +
+          '（<strong>在 Missoula 租的车虽挂 Montana 牌，但是否适用本州免费规则未能从官方渠道确认，请备好 $8</strong>）',
+        '<strong>访客中心与公园大门是两套时间，十月起还有周休，这是第二个容易踩的坑。</strong>' +
+          '<strong>公园每日 09:00–17:00；访客中心 5/1–9/30 为 09:30–16:30，10/1–4/30 为 10:00–16:00 且周一、周二闭馆。</strong>' +
+          '<strong>十月至四月的周一、周二过来只有草甸和步道，可看内容只剩三成。</strong>' +
+          '<strong>九月的访客中心时间另有一种口径（合作机构页面写 10:00–16:00），两说并存、未统一，' +
+          '要赶时间请先打 406-273-4253</strong>',
+        '<strong>感恩节、平安夜、圣诞节、元旦四天，公园与访客中心同时关闭</strong>' +
+          '（官方原文 “The Park and Visitor Center are closed Thanksgiving, Christmas Eve, Christmas, and New Year\u2019s Day”）。' +
+          '<strong>另：车辆大门 17:00 关闭之后，步行入口与园内步道仍全年每日开放至日落</strong>',
+        '<strong>请把期待放在正确的位置：地面上没有遗迹。</strong>' +
+          '<strong>2002 年的发掘早已回填，现在是一片有步道穿过的河谷草甸</strong>，' +
+          '<strong>这里卖的是「确知自己站在那个宿营地上」加上访客中心的解说，不是可看的实体。</strong>' +
+          '<strong>先进室内再出去走草甸，顺序反了会觉得「什么也没有」</strong>',
+        '<strong>务必留在步道上。</strong>' +
+          '这片草甸下面就是国家历史地标的考古层，<strong>官方提名文件写明遗物埋深只有地表以下 20 厘米</strong>——' +
+          '<strong>踩踏与任何挖掘都会造成不可逆的破坏，园内也严禁使用金属探测器与带走任何物品</strong>' +
+          '（州立公园通则，现场以立牌为准）',
+        '<strong>这块地首先是 Séliš-Ql̓ispé（Salish 与 Pend d\u2019Oreille）人的家园与路口，其次才是 Lewis &amp; Clark 的宿营地。</strong>' +
+          '<strong>官方解说项目里有由部落讲述者主讲的场次，碰上了请优先听</strong>——' +
+          '<strong>夏季有固定解说活动、全年有专题活动，档期每年不同，请查 Travelers\u2019 Rest Connection 的当年日程</strong>',
+        '<strong>位置上它是个「不可能不顺路」的点</strong>：' +
+          '<strong>入口在 Lolo 以西半英里的 US-12 上，而 Lolo 就是 US-93（南下 Bitterroot 谷地）' +
+          '与 US-12（西上 Lolo Pass 进 Idaho）的岔口</strong>，Missoula 市区过来 10 英里／15–20 分钟。' +
+          '<strong>园内有冲水卫生间、饮水、野餐桌与野餐棚</strong>，' +
+          '<strong>是这个路口设施最齐全的停靠点，适合当作南下前最后一次正经补给</strong>；' +
+          '<strong>园内无餐饮，但可自带食物在野餐桌上吃，Lolo 镇上有加油站与小馆子。' +
+          '园区执行 pack-in／pack-out，垃圾请带走</strong>',
+        '<strong>顺路往西的两项与这里的收费规则又不一样，别混着记</strong>：' +
+          '<strong>Lolo Hot Springs（US-12 西行约 25 英里，38500 US-12）是国家森林范围内一片私人土地上的商业温泉度假地</strong>，' +
+          '<strong>营业时间与泡池票价随季节变动，第三方来源互相矛盾（有写每日 09:00 至次日 02:00 的，' +
+          '也有写泡池 10:00–22:00 的），未能统一，去之前请直接打 406-273-2290</strong>；' +
+          '<strong>Lolo Pass 访客中心每周二、周三全天闭馆，且按太平洋时区运作。</strong>' +
+          '<strong>US-12 往西没有手机信号</strong>' +
+          '（NPS 原文 “There is no cell phone service between Lolo, MT and Kooskia, ID”），' +
+          '离线地图请提前下载'
+      ],
+      images: [
+        { url: 'img/npnht-travelers-rest-state-parkr-lolo-montana-october-2011-r-f1d56b19.jpg',
+          cap: '十月的 Travelers\u2019 Rest 州立公园，Nez Perce 国家历史步道沿线 · Forest Service Northern Region（摄影 Roger Peterson）/ 公有领域' },
+        { url: 'img/traveler-s-rest-state-park-view-of-mountains-1-20121228-597aa731.jpg',
+          cap: '自园内访客中心一带望向周边山形 · Djembayz / CC BY-SA 3.0' },
+        { url: 'img/traveler-s-rest-state-park-plaque-20121228-747f158d.jpg',
+          cap: '访客中心的解说牌 · Djembayz / CC BY-SA 3.0' }
+      ]
+    },
+    {
+      id: 'missoula-smokejumper-center',
+      n: 10,
+      name: '空降消防员访客中心（Aerial Fire Depot）',
+      en: 'Missoula Smokejumper Visitor Center, Aerial Fire Depot',
+      must: 3,
+      score: 2,
+      tldr: '<strong>免费</strong>，带解说进伞具车间与待命室，还能爬进一座 1930 年代的火情瞭望塔。全美最大的空降消防员基地之一，就在 MSO 机场西边半英里。<strong>但散客入场只在 Memorial Day 至 Labor Day 的周二至周六。</strong>',
+      tags: [
+        { t: '完全免费，接受捐助', c: 'free' },
+        { t: '免费导览 45–60 分钟', c: 'free' },
+        { t: '仅夏季周二至周六散客入场', c: 'risk' },
+        { t: '其余时间须预约', c: 'risk' },
+        { t: '紧邻 MSO 机场', c: 'free' }
+      ],
+      highlights: [
+        '<strong>这是 Missoula 最有辨识度、却最容易被外来游客漏掉的一个条目，而且它是免费的。</strong>' +
+          '<strong>Smokejumper（空降消防员）是跳伞进入无路可通的林区扑打初起山火的专业人员</strong>，' +
+          '<strong>而 Missoula 这座 Aerial Fire Depot 是这个体系的核心基地之一</strong>——' +
+          '<strong>Destination Missoula 的说法是「全美最大的空降消防员训练基地」' +
+          '（“The nation\u2019s largest training base for smokejumpers is located in Missoula”），' +
+          'Visit Montana 的说法略保守，写的是「全美最大的几个空降消防员基地之一」' +
+          '（“one of the largest smokejumper bases in the country”）。' +
+          '两处官方旅游口径措辞不同，孰为准未能确认，但无论哪种，它在这个行业里的地位都是第一档。</strong>' +
+          '<strong>关键在于它不是一座为游客建的博物馆，而是一处正在运作的消防基地对外开了一扇门</strong>——' +
+          '这也解释了它全部的好处与全部的限制。',
+        '<strong>导览才是这里的内容主体，而导览进的是平时进不去的地方。</strong>' +
+          '<strong>官方列出的导览路线包含三处：伞具车间（the Smokejumper loft）、待命室（the ready room）、' +
+          '以及 National Smokejumper Memorial（全国空降消防员纪念处）。</strong>' +
+          '<strong>loft 是缝制、检验与折叠降落伞的车间，ready room 是接到调度后穿装备的房间</strong>——' +
+          '<strong>也就是说这趟导览看的是「一次出动之前的每一个步骤」，' +
+          '这种「运作中的专业现场」在旅游景点里是很少见的东西。</strong>' +
+          '<strong>官方给的导览时长是 45 分钟到 1 小时</strong>，' +
+          '<strong>散客小团不需要预约，直接到场参加；十人以上的团体需提前电话安排。</strong>',
+        '<strong>展厅里有一样东西值得单独说：一座真正的火情瞭望塔，可以走进去。</strong>' +
+          '<strong>官方原文 “visitors can enter an actual fire lookout from 1937”</strong>；' +
+          '<strong>Visit Montana 的描述写的是 “a fire lookout tower originally built in 1938”。' +
+          '两处官方来源在年份上差一年（1937 与 1938），两种都列出，未能判定哪个为准。</strong>' +
+          '<strong>无论哪一年，它都是一座从山上拆下来重新立在这里的实物瞭望塔</strong>——' +
+          '在瞭望员靠肉眼和方位仪找烟的年代，全美林区曾有数千座这样的小屋，' +
+          '<strong>现在能走进去看的已经不多。</strong>' +
+          '展厅其余部分是若干短片、山火扑救与航空灭火的展板，另有礼品店。',
+        '<strong>夏季来的话有一件事是任何博物馆都给不了的：基地在运作，飞机就在外面。</strong>' +
+          'Visit Montana 的原话：' +
+          '<strong>“During the summer, Smokejumper aircraft are also present, and visitors may even see Smokejumpers ' +
+          'dispatched to a fire.”</strong>' +
+          '<strong>也就是说赶上火情调度时，有可能在现场看到真实的出动。</strong>' +
+          '<strong>但这明确是运气，不是节目</strong>——' +
+          '<strong>反过来说，火情紧张的日子也正是导览可能因为人手全被调走而临时取消的日子。</strong>' +
+          '<strong>这一条与本区的烟霾提醒是同一件事的两面：' +
+          '烟大的年份这里的现场感最强，同时它开门的可靠性最低。</strong>',
+        '<strong>位置上它有一个别处比不了的优势：就在 MSO 机场旁边。</strong>' +
+          '<strong>地址 5765 West Broadway Street，官方指路是「从 I-90 的 Airway Boulevard 出口（Exit 99）下，' +
+          '按指示牌走，基地在机场航站楼以西半英里」</strong>' +
+          '（Destination Missoula 另写作「机场以西四分之一英里」，' +
+          '<strong>两处官方旅游口径的距离不一致，但都指同一处，现场有指示牌，不会找错</strong>）。' +
+          '<strong>换句话说它是这一带唯一一个「落地取车后顺路就能进、或者还车前刚好能填掉一小时」的条目</strong>，' +
+          '不需要为它单独安排一段路程。'
+      ],
+      tour: [
+        '<strong>第一件事不是安排时间，是确认它开不开门——这是本条目最大的风险，' +
+          '而且它的开放窗口比这本手册里任何其他条目都窄。</strong>' +
+          '<strong>2026 年的官方口径（USFS 页面）：' +
+          '散客与团体的常规入场为 Memorial Day 至 Labor Day（2026 年为 5 月 26 日至 9 月 5 日）期间的' +
+          '周二至周六 10:00–16:00；此区间之外「需提前致电预约」。</strong>' +
+          '<strong>也就是说一年里能直接走进去的时间大约只有十四周，且每周关两天。</strong>' +
+          '<strong>而且官方页面在 Labor Day 之后并未更新出下一段的安排（2026-09-15 复核时仍是夏季版文字），' +
+          '所以九月之后的具体开放方式属于「未能从官方渠道确认」。</strong>' +
+          '<strong>无论什么季节，出发前都请打 406-329-4934 或发邮件 smokejumpercenter@gmail.com 确认当天是否有导览</strong>' +
+          '——Visit Montana 的官方条目本身就写着 “To verify availability please call”，这不是客套话。',
+        '<strong>务必赶上一场导览，否则这里只剩二十分钟。</strong>' +
+          '<strong>官方公布的导览场次是 11:00、14:00、16:00 三场，每场 45 分钟到 1 小时。</strong>' +
+          '<strong>散客小团不需要预约、直接到场参加；十人以上的团体请提前电话安排。</strong>' +
+          '<strong>Destination Missoula 给出的另一个数字很说明问题：' +
+          '「不参加导览、只看展厅的最少参观时间是 20 分钟」</strong>——' +
+          '<strong>这就是不跟团的实际内容量。</strong>' +
+          '<strong>所以正确做法是把到场时间对准某一场导览开始前 15–20 分钟</strong>' +
+          '（先看展厅与瞭望塔，然后跟团），' +
+          '<strong>而不是随便挑个时间来。10:00 一开门进、等 11:00 那场，是最稳的组合。</strong>',
+        '<strong>看什么，按价值排序。</strong>' +
+          '<strong>（一）导览进的三处：伞具车间（loft）、待命室（ready room）、National Smokejumper Memorial。</strong>' +
+          'loft 是缝制、检验与折叠降落伞的车间，ready room 是接到调度后穿装备的房间——' +
+          '<strong>这两处是全程的核心，因为它们是正在使用中的工作空间，不是复原展陈。</strong>' +
+          '<strong>（二）那座可以走进去的火情瞭望塔</strong>' +
+          '（官方写 1937 年，Visit Montana 写 1938 年，两说并存）。' +
+          '<strong>（三）展厅里的几部短片与航空灭火展板</strong>，' +
+          '20 分钟能看完，是等导览时的填充。' +
+          '<strong>（四）礼品店。</strong>' +
+          '<strong>夏季另有一个运气项：基地在运作，飞机停在外面，赶上调度有可能看到真实出动</strong>' +
+          '——<strong>请当彩蛋，不要当预期</strong>。',
+        '<strong>谁应该跳过这里，说清楚以免白跑。</strong>' +
+          '<strong>（一）不在夏季周二至周六、又不愿意提前打电话预约的，直接跳过</strong>——' +
+          '闭馆时门口没有任何可看的东西，这是一处工作基地，不存在「外面转转」。' +
+          '<strong>（二）赶不上任何一场导览（11:00／14:00／16:00）的，性价比会掉一大半</strong>，' +
+          '只看展厅 20 分钟的话，这一趟的价值就和路边一块解说牌差不多。' +
+          '<strong>（三）带年幼儿童的：导览是 45–60 分钟的站立行走加讲解，内容偏技术</strong>，' +
+          '官方把它列为适合儿童的活动，但实际能不能坐得住请自行判断。' +
+          '<strong>反过来，对山火、航空、装备或任何「专业现场」有兴趣的人，这是整个 Missoula 最值得的一小时。</strong>',
+        '<strong>停车、卫生间、餐饮与无障碍。</strong>' +
+          '<strong>现场有免费停车场、公共卫生间，并标注为轮椅可通行</strong>' +
+          '（以上为旅游官方条目所列的设施，<strong>无障碍的具体范围' +
+          '——尤其是导览是否全程无台阶、瞭望塔能否进入——未能从官方渠道确认，有需要请提前电话询问</strong>）。' +
+          '<strong>基地内没有餐饮</strong>，' +
+          '只有礼品店；<strong>West Broadway 沿线与机场航站楼内有餐饮，市区回去约 6 英里／15 分钟。</strong>' +
+          '<strong>参观免费，现场接受捐助（“Admission free, donations accepted”），礼品店消费另计。</strong>' +
+          '<strong>这是一处联邦消防设施，请全程跟随导览员、不要自行走进工作区</strong>——' +
+          '<strong>拍摄与录像的具体限制未在官方页面列出，进门时问一句导览员最稳。</strong>'
+      ],
+      photo: '人文／纪实 <strong>3/5</strong>，室内 <strong>2/5</strong>，风光 <strong>0/5</strong>。' +
+        '<strong>这是一处「必去价值明显高于摄影价值」的条目，而且要如实说：它不适合拍照。</strong>' +
+        '室内是工作车间与仓库式空间，顶灯为混合色温的工业照明，' +
+        '<strong>整个参观过程是跟着导览员移动的，没有停下来构图、等光、架器材的余地。</strong>' +
+        '加分项只有一处：<strong>伞具车间里成排悬挂的降落伞与缝纫工位，是很好的纪实题材</strong>，' +
+        '但那也是抓拍而非布置。' +
+        '<strong>建议只带一机一镜（35mm 或 24–70mm）、开高感光度、手持</strong>，' +
+        '<strong>把注意力放在听讲解上。拍摄限制未在官方页面列出，请先问导览员。</strong>',
+      shots: [
+        {
+          name: '伞具车间与待命室（仅在导览过程中，跟队抓拍）',
+          park: [46.92591, -114.09162],
+          view: [46.92591, -114.09162],
+          desc: '<strong>坐标为 OSM 的 Missoula Smokejumper Visitor Center 建筑实体' +
+            '（way/929872110，已核实），地址 5765 West Broadway Street, Missoula, MT 59808。' +
+            'park 与 view 同点，现场有免费停车场。</strong>' +
+            '<strong>【必须先说清楚】这不是一个可以自由走动的机位</strong>——' +
+            '<strong>loft 与 ready room 只在导览过程中开放，全程跟队移动，' +
+            '不能停下来架器材或要求等光。所以这里能拍到什么，取决于导览节奏而不是准备。</strong>' +
+            '<strong>【时段】按导览场次定：11:00、14:00、16:00，每场 45–60 分钟。' +
+            '室内为人工照明，三个场次的光线条件没有区别，不存在「哪一场光更好」。</strong>' +
+            '<strong>【技术参数】室内偏暗且是混合色温的工业顶灯。' +
+            '建议 35mm 或 24–70mm 单镜、f/1.8–2.8、ISO 1600–6400、快门保持 1/125 以上（要跟着队伍走，没法慢门）；' +
+            '拍 RAW 并手动白平衡，自动白平衡在这种光下会偏绿。</strong>' +
+            '<strong>【题材】成排悬挂待检的降落伞、缝纫工位、待命室里按人整齐挂好的装备</strong>——' +
+            '<strong>这三样是这里真正的画面，重复、秩序与使用痕迹是它的语言。</strong>' +
+            '<strong>【不要带三脚架】</strong>工作空间、跟队参观，架不起来也不合适。' +
+            '<strong>一律不要用闪光灯。</strong>' +
+            '<strong>【礼节与合规】这是运作中的联邦消防设施，工作人员是在上班而不是表演。' +
+            '拍到具体人员之前请先问一句；拍摄与录像的具体限制未在官方页面列出，请在进门时向导览员确认。</strong>'
+        },
+        {
+          name: '展厅里那座可以走进去的火情瞭望塔',
+          view: [46.92591, -114.09162],
+          desc: '<strong>坐标同建筑实体（OSM way/929872110）。</strong>' +
+            '<strong>这是全场唯一一个可以自己安排时间、慢慢拍的对象</strong>——' +
+            '它在展厅内，<strong>不依赖导览，10:00–16:00 开放时段内随时可看</strong>，' +
+            '<strong>所以等导览开场的那 15–20 分钟正好给它。</strong>' +
+            '<strong>这是一座从山上拆下来重新立在室内的实物火情瞭望塔，而且可以走进去</strong>' +
+            '（官方写 “an actual fire lookout from 1937”，Visit Montana 写 1938 年建成，' +
+            '<strong>两处官方来源年份差一年，未能判定</strong>）。' +
+            '<strong>【拍法】两张就够：一张从外面拍塔的整体与它在展厅里的荒诞尺度感' +
+            '（16–35mm 或 24mm 端，退到展厅另一侧）；' +
+            '一张进到塔内向外拍，把窗框、方位仪（若在展）与瞭望员的视角关系收进去。</strong>' +
+            '<strong>塔内空间极小，广角是必须的。</strong>' +
+            '<strong>【光线】室内人工光，窗外是展厅而不是天空，所以不要指望「瞭望员视角」的真实感</strong>——' +
+            '这一张的价值在于说明性，不在于美感。' +
+            '<strong>手持、高感光度、不要闪光灯。</strong>'
+        }
+      ],
+      access: {
+        visit: '<strong>1–1.5 小时（含一场导览）是这里的标准用法</strong>：' +
+          '<strong>提前 15–20 分钟到、先看展厅与那座瞭望塔，再跟 45–60 分钟的导览。</strong>' +
+          '<strong>不参加导览、只看展厅：20 分钟</strong>' +
+          '（这是 Destination Missoula 给出的官方数字，' +
+          '原文 “Minimum time to visit depot without tour: 20 minutes”）——' +
+          '<strong>但这样会漏掉这里的全部核心内容，非常不建议。</strong>' +
+          '<strong>导览时长为官方口径：“The tour takes approximately 45 minutes to one-hour.”</strong>' +
+          '<strong>加上礼品店与从 I-90 下高速的往返，整体请预留 1.5 小时。</strong>' +
+          '<strong>安排建议：对准 10:00 开门进、参加 11:00 那场导览，' +
+          '或 13:40 到、参加 14:00 那场——不要随便挑时间来，赶不上导览这一趟就废了一半。</strong>',
+        book: '<strong>散客与小团不需预约</strong>，' +
+          '官方原文 “Small groups do not need to make prior reservations to take a guided tour of the smokejumper facility.”' +
+          '<strong>十人以上团体须提前电话安排</strong>' +
+          '（“Large groups of ten or more people should call in advance and schedule a tour.”）。' +
+          '<strong>但在夏季常规开放期之外，任何参观都必须提前预约</strong>' +
+          '（官方措辞为 “Open for school groups and the public by appointment”）。' +
+          '<strong>无论季节，出发前都建议先确认当天是否有导览——官方自己就这么写：' +
+          '“Please call for tour availability.”</strong>' +
+          '电话 <strong>406-329-4934</strong>，邮箱 <strong>smokejumpercenter@gmail.com</strong>',
+        ticket: '<strong>完全免费。</strong>' +
+          '<strong>2026-09-15 核对 USFS 官方页、Visit Montana 与 Destination Missoula 三处，' +
+          '均未列出任何门票或导览费用</strong>：' +
+          '<strong>Destination Missoula 写 “Admission free, donations accepted.”（免费入场，接受捐助）；' +
+          'Visit Montana 写 “The free tour of the facility includes a visit to the Smokejumper loft, ' +
+          'the ready room, and the National Smokejumper memorial.”（导览免费，含伞具车间、待命室与全国纪念处）。</strong>' +
+          '<strong>也就是说这里连导览都不收钱，是本子地区性价比最高的一个条目。</strong>' +
+          '<strong>现场有捐助箱与礼品店（礼品店消费另计）</strong>，' +
+          '既然一切免费，建议留一点捐助。' +
+          '<strong>停车免费。这是联邦设施，不涉及国家公园门票、联邦年票或州立公园收费体系中的任何一项。</strong>',
+        hours: '<strong>【2026-09-15 复核 USFS 官方页。这是本条目最需要注意的一栏：' +
+          '开放窗口很窄，而且官方页面在 Labor Day 之后没有更新。】</strong>' +
+          '<strong>2026 年夏季常规开放（官方原文）：' +
+          '“10:00 a.m. to 4:00 p.m. – Tuesday-Saturday from Memorial Day to Labor Day ' +
+          '(May 26 through September 5, 2026).”</strong>' +
+          '<strong>即 2026 年 5 月 26 日至 9 月 5 日，周二至周六 10:00–16:00，周日与周一闭馆。</strong>' +
+          '<strong>导览场次：11:00、14:00、16:00，每场约 45 分钟至 1 小时。</strong>' +
+          '<strong>夏季之外：官方措辞为「按预约向学校团体与公众开放」' +
+          '（“Open for school groups and the public by appointment”），即必须提前致电。</strong>' +
+          '<strong>【未能从官方渠道确认的部分，请注意】' +
+          '截至 2026-09-15 复核时，USFS 页面上的「当前状态」一段仍是为 2026 年夏季之前写的文字' +
+          '（“by appointment, through May 22, 2026”），' +
+          '并未更新出 2026 年 9 月 5 日之后的安排。' +
+          '因此 Labor Day 之后至次年 Memorial Day 之间的具体开放方式属于未能核实，' +
+          '只能按「须预约」处理，并以电话为准。</strong>' +
+          '<strong>另一条需要知道的背景风险：Visit Montana 的数据条目里留有一段往年的记录，' +
+          '称该访客中心曾在某一年的 9 月至次年 5 月「因翻修关闭」。' +
+          '那是上一季的旧数据、不代表当前状态，但它说明这里确实出现过跨季的长期闭馆</strong>——' +
+          '<strong>非夏季前往请务必先打电话，不要只看网页。</strong>' +
+          '<strong>官方同时提示导览取决于人手（“Please call for tour availability.”），' +
+          '火情紧张时人员可能全被调走。</strong>' +
+          '电话 <strong>406-329-4934</strong>，邮箱 <strong>smokejumpercenter@gmail.com</strong>',
+        parking: '<strong>现场有免费停车场</strong>（旅游官方条目列出 Parking 与 Public Restroom 两项设施）。' +
+          '<strong>进场路线（USFS 官方原文）：' +
+          '“Take Airway Boulevard, Exit 99 from Interstate 90, and follow signs to the Smokejumper Base ' +
+          'located ½ mile west of the airport terminal.”</strong>' +
+          '<strong>即从 I-90 的 Exit 99（Airway Boulevard）下，按指示牌走，基地在 MSO 航站楼以西半英里。</strong>' +
+          '<strong>（Destination Missoula 把这段距离写作「机场以西四分之一英里」，' +
+          '两处官方旅游口径不一致，但指的是同一处，现场有指示牌。）</strong>' +
+          '<strong>Missoula 市区过来约 6 英里／15 分钟，走 West Broadway 或 I-90 均可。</strong>' +
+          '<strong>车位对这个体量的访客中心足够，不存在抢位问题。</strong>' +
+          '<strong>这是它最大的实际优势：紧邻机场，落地取车后或还车前都能顺路插进来。</strong>',
+        walk: '<strong>零门槛。</strong>停车场到访客中心入口步行 1–2 分钟。' +
+          '<strong>导览是 45–60 分钟的室内站立与行走</strong>（在几栋建筑之间移动），' +
+          '<strong>没有爬升，但要能连续站走一小时。</strong>' +
+          '<strong>旅游官方条目把此处标注为 Handicapped Accessible／Wheelchair Accessible</strong>，' +
+          '<strong>但无障碍的具体范围（导览全程是否无台阶、那座火情瞭望塔能否进入）' +
+          '未能从官方渠道确认</strong>——<strong>有需要请先打 406-329-4934 说明情况。</strong>'
+      },
+      notes: [
+        '<strong>最重要的一条：开放窗口极窄，不打电话就来是在赌。</strong>' +
+          '<strong>2026 年的常规散客入场只有 5 月 26 日至 9 月 5 日的周二至周六 10:00–16:00</strong>，' +
+          '<strong>其余时间须提前预约，而官方页面并未公布 Labor Day 之后的安排（2026-09-15 复核，属未能核实）。</strong>' +
+          '<strong>无论季节，出发前打 406-329-4934 或发 smokejumpercenter@gmail.com 确认当天是否有导览。</strong>' +
+          '闭馆时门口没有任何可看的东西——这是工作基地，不存在「外面转转」',
+        '<strong>一定要赶上导览，否则这一趟只值 20 分钟。</strong>' +
+          '<strong>导览场次 11:00、14:00、16:00，每场 45–60 分钟，散客不需预约、到场即可参加</strong>；' +
+          '<strong>官方给的「不跟团只看展厅」最少时间就是 20 分钟，那是这里的内容下限。</strong>' +
+          '<strong>建议对准某一场提前 15–20 分钟到，先看展厅与瞭望塔再跟团</strong>',
+        '<strong>导览取决于人手，火情紧张的日子最可能取消。</strong>' +
+          '官方措辞是 “Please call for tour availability.”——' +
+          '<strong>这与本区的烟霾风险是同一件事的两面：' +
+          '山火活跃的年份这里的现场感最强（飞机在场、可能看到真实出动），' +
+          '同时它开门的可靠性最低（人员被调走）。</strong>' +
+          '<strong>夏季看到出动是运气，不要当成预期</strong>',
+        '<strong>这是一处运作中的联邦消防设施，不是影视基地或主题馆。</strong>' +
+          '<strong>请全程跟随导览员，不要自行走进任何工作区</strong>；' +
+          '<strong>loft 与 ready room 里的人是在上班。' +
+          '拍到具体人员之前请先开口问；拍摄与录像的具体限制未在官方页面列出，进门时向导览员确认。</strong>' +
+          '<strong>一律不要使用闪光灯，不要带三脚架</strong>',
+        '<strong>两处官方来源在两个事实上不一致，两种都记下：</strong>' +
+          '<strong>（一）基地地位</strong>——Destination Missoula 写「全美最大的空降消防员训练基地」，' +
+          'Visit Montana 写「全美最大的几个空降消防员基地之一」；' +
+          '<strong>（二）那座火情瞭望塔的年份</strong>——USFS 页面写 1937 年，Visit Montana 写 1938 年建成。' +
+          '<strong>两项分歧都不影响是否值得去，但不要把任何一种当成唯一定论</strong>',
+        '<strong>位置是它最实际的优势：就在 MSO 机场以西半英里</strong>' +
+          '（I-90 Exit 99／Airway Boulevard 下，按指示牌走；' +
+          '<strong>Destination Missoula 写作「机场以西四分之一英里」，两处口径不一，但是同一处</strong>）。' +
+          '<strong>Missoula 市区过来 6 英里／15 分钟。</strong>' +
+          '<strong>这让它成为整个子地区唯一一个「落地取车后顺路进、或还车前填掉一小时」的条目</strong>，' +
+          '不需要为它单独安排路程',
+        '<strong>免费，并且连导览都免费</strong>' +
+          '（“Admission free, donations accepted”）。' +
+          '<strong>与国家公园门票、联邦年票、Montana 州立公园收费三套体系都无关。</strong>' +
+          '<strong>现场有捐助箱与礼品店，既然全部免费，建议留一点捐助。</strong>' +
+          '停车免费',
+        '<strong>基地内没有餐饮，只有礼品店</strong>；' +
+          '<strong>现场有公共卫生间与免费停车场</strong>。' +
+          '<strong>餐饮请在 West Broadway 沿线、机场航站楼内或回市区解决。</strong>' +
+          '<strong>无障碍：旅游官方条目标注轮椅可通行，但具体范围未能从官方渠道确认，有需要请提前电话询问</strong>'
+      ],
+      images: [
+        { url: 'img/20200612-osec-av-0002-49999441762-dc8cf00b.jpg',
+          cap: '2020 年 6 月的 Missoula Aerial Fire Depot 与 Smokejumper Center · U.S. Department of Agriculture（摄影 Alec Varsamis）/ 公有领域' },
+        { url: 'img/fire-control-5864063747-162c788f.jpg',
+          cap: '1961 年的 Aerial Fire Depot，空投货运装备 · Forest Service – Northern Region（摄影 W. E. Steuerwald）/ 公有领域' },
+        { url: 'img/20200612-osec-av-0005-49999189976-7e89a5bc.jpg',
+          cap: '2020 年 6 月 Aerial Fire Depot 与 Smokejumper Center 现场 · U.S. Department of Agriculture / 公有领域' }
       ]
     }
   ]

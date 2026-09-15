@@ -4,7 +4,7 @@ module.exports = {
   navName: 'Mammoth 与 Lamar',
   color: '#ff8a3d',
   lead: '这是整个 Yellowstone 在 9 月底至 10 月底唯一<strong>不受季节性封路影响</strong>的区域，' +
-    '也是本次行程里唯一一个「越晚去越占便宜」的子地区。' +
+    '也是全园唯一一个「越晚去越占便宜」的子地区。' +
     '官方口径原文：<strong>“The only road generally open year-round to regular vehicles is from the North Entrance at Gardiner, Montana, ' +
     'through the park to Cooke City, Montana (via Tower Junction).”</strong>' +
     '换句话说，当 10 月 12 日 Dunraven Pass 关闭、10 月 31 日主环全线对汽车关闭之后，' +
@@ -41,7 +41,7 @@ module.exports = {
     },
     {
       type: 'warn',
-      title: '两座桥在施工，会直接吃掉你 45 分钟的日出提前量',
+      title: '两座桥在施工，会直接吃掉 45 分钟的日出提前量',
       html: '<ul>' +
         '<li><strong>Gardner River High Bridge</strong>（Mammoth 东南 0.5 英里，去 Tower 的必经之路）：' +
         '<strong>单车道放行，最长等 15 分钟，一天 24 小时、一周 7 天，从 4/13 持续到 2026 年 10 月下旬</strong>。' +
@@ -280,7 +280,7 @@ module.exports = {
           '且 Park Roads 页补充 <strong>“When open, roads are not gated at night and people may enter/exit the park 24 hours a day, seven days a week.”</strong>' +
           '（2026-09-13 核实，该页最后更新 2026-09-01）。' +
           '拱门本身在北门外的 Gardiner 镇内，<strong>不受任何园内路段季节封闭影响，全年 24 小时可达</strong>。' +
-          '<strong>9/22–9/29 行程窗口内完全不受影响</strong>',
+          '<strong>九月下旬至十月底的封路季同样完全不受影响</strong>',
         parking: '<strong>Arch Park 有免费停车与野餐区</strong>（45.03012, −110.70981），紧邻拱门。' +
           'Gardiner 镇内街边停车免费。旺季与 rut 期傍晚车位会满，但 10 月已明显宽松',
         walk: '停车到拱门 <strong>1–2 分钟／约 80 米</strong>，全程平地铺装。建议停留 30–45 分钟'
@@ -437,7 +437,7 @@ module.exports = {
             'Park Roads 页（最后更新 2026-09-01）的 2026 年开关日期表里<strong>根本不列这条支线</strong>；' +
             'Current Conditions 页当天也没有任何关于它的临时关闭通告。' +
             '<strong>仍然未能从官方渠道拿到具体关闭日期。</strong>' +
-            '<strong>但对 9/22–9/29 这个窗口来说这件事其实不构成风险——除雪停止要到 10 月以后，' +
+            '<strong>但对九月下旬来说这件事其实不构成风险——除雪停止要到 10 月以后，' +
             '9 月下旬它开着是接近确定的事</strong>（唯一变数是突发降雪临时挂牌）。' +
             '出发当天在 Albright Visitor Center 问一句即可，关了的话下台地栈道完全可以替代。',
         }
@@ -460,7 +460,7 @@ module.exports = {
         hours: 'NPS 官方原文 <strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>' +
           '（2026-09-13 核实）。台地栈道本身<strong>无门禁、无关门时间</strong>，可以待到暮光再走。' +
           '所在的 Mammoth 位于全年开放的北环上，<strong>不受 10/12 与 10/31 两个封路节点影响</strong>，' +
-          '<strong>9/22–9/29 行程窗口内全程可达</strong>。' +
+          '<strong>九月下旬至十月底全程可达</strong>。' +
           '<strong>Upper Terrace Drive 为季节性开放，2026 年具体关闭日期仍未能从官方渠道确认</strong>——' +
           '2026-09-13 复查：NPS 的 Upper Terrace Drive 官方页（更新于 2024-12-03）只有' +
           '“becomes a groomed, cross-country ski trail in winter”，' +
@@ -527,7 +527,7 @@ module.exports = {
         '<strong>Rut（发情期）时间：9 月初到 10 月中，峰值在 9 月中下旬。</strong>' +
           '公鹿会圈起数头至十几头母鹿组成 harem，全天守群、驱赶对手、频繁鸣叫（bugle）。' +
           '<strong>10 月下旬 rut 已明显转弱</strong>，鹿群仍在但鸣叫和角斗大幅减少——' +
-          '如果 rut 是你的主要目标，日期越靠近 9 月底越好',
+          '专程为 rut 而来的话，日期越靠近 9 月底越好',
         '<strong>为什么偏偏聚在这一小片草地上</strong>：Fort Yellowstone 是美国陆军 1891–1913 年间管理黄石时建的营区，' +
           '那些红顶石砌建筑现在仍是园区总部与员工宿舍，而当年为营区铺设并持续灌溉的草坪，' +
           '<strong>在旱季末期是方圆几十公里内唯一还绿着的高质量草料</strong>。' +
@@ -629,7 +629,7 @@ module.exports = {
           '每日营业钟点由 NPS 页面的动态组件加载，' +
           '<strong>抓取不到官方原文，未能从官方渠道确认；第三方长期公布的口径是 9 月 6 日–10 月 31 日每日 08:00–17:00</strong>，' +
           '请以现场或电话 <strong>307-344-2263</strong> 为准。' +
-          '<strong>同址楼下的 Mammoth Backcountry Office 为 5/15–10/12</strong>（官方表，在 9/22–9/29 窗口内开着）。' +
+          '<strong>同址楼下的 Mammoth Backcountry Office 为 5/15–10/12</strong>（官方表，九月下旬开着，10 月 12 日关）。' +
           'Mammoth 邮局、Mammoth General Store、Mammoth Medical Clinic 均<strong>全年开放</strong>（官方表已核实）',
         parking: 'Albright Visitor Center 门前、酒店周边与村内各处均有免费停车。' +
           '<strong>rut 期高峰 ranger 可能封闭部分路段与停车位以疏散人群</strong>，' +
@@ -638,7 +638,7 @@ module.exports = {
           '这是本区唯一一个「可以全程在车边完成」的野生动物机位'
       },
       notes: [
-        '<strong>9/22–9/29 这个窗口正落在 rut 之内，这一点 2026-09-13 已按 NPS 官方页核实。</strong>' +
+        '<strong>九月下旬正落在 rut 之内，这一点 2026-09-13 已按 NPS 官方页核实。</strong>' +
           'NPS 的 Elk 页原文是 <strong>“The mating season (rut) generally occurs from early September to mid-October.”</strong>，' +
           'Safety 页则写 <strong>“During the fall (September - October), bull elk battle for access to cows and challenge other males…”</strong>。' +
           '<strong>注意：NPS 官方从不公布「峰值日」，「9 月中下旬为峰值」是长期观察与特许经营方的说法，不是官方口径。</strong>' +
@@ -647,7 +647,7 @@ module.exports = {
         '<strong>25 码（23 米）是硬性规定，不是建议。</strong>' +
           'NPS 原文 “Keep at least 25 yards (23 meters) from elk at all times and never approach an elk to take a photo.”，' +
           '并明确 “It\u2019s illegal to willfully remain near or approach wildlife… within any distance that disturbs or displaces the animal.”——' +
-          '<strong>也就是说「只要你的存在让动物改变了行为」就已经违法，25 码只是下限。</strong>' +
+          '<strong>也就是说「只要人的存在让动物改变了行为」就已经违法，25 码只是下限。</strong>' +
           '若麋鹿主动向你靠近，你有义务后退，「是它过来的」不构成免责',
         '<strong>被公鹿冲锋时：找一个坚实屏障（车辆、树木、建筑）挡在中间。' +
           '附近没有屏障时 NPS 的建议是跑</strong>（这与遇熊的处置完全相反，不要混淆）',
@@ -712,7 +712,7 @@ module.exports = {
           '<strong>坡度平缓，是本区门槛最低的一段步道</strong>，普通运动鞋即可。' +
           '<strong>但它穿过草甸与灌丛，是典型的熊活动地形——熊喷雾必须带，而且要出声行进。</strong>' +
           '两处里只有这一段需要这么做',
-        '<strong>两处都可以跳过的情况：如果你 9 月下旬看到的是枯水期的细流。</strong>' +
+        '<strong>两处都可以跳过的情况：现场看到的是枯水期的细流。</strong>' +
           '秋季正是黄石水量最低的时候，' +
           '<strong>Wraith Falls 在枯水期会明显比网上的夏季照片单薄</strong>。' +
           '在 Undine 的路边看一眼水量，觉得不行就别再走 Wraith 那 20 分钟往返',
@@ -723,7 +723,7 @@ module.exports = {
       photo: '风光 <strong>3/5</strong>，细节 <strong>3.5/5</strong>，人像 <strong>2/5</strong>。' +
         'Undine 的三级结构在长焦下有层次，Wraith 的宽幅岩板斜瀑适合竖构图配周围的黄叶。' +
         '扣分是两者的观景点都固定、可选角度极少，' +
-        '而且秋季正是黄石水量最低的时候，<strong>10 月的流量会明显小于夏季照片给你的印象</strong>。',
+        '而且秋季正是黄石水量最低的时候，<strong>10 月的流量会明显小于夏季照片里的样子</strong>。',
       shots: [
         {
           name: 'Undine Falls 路边观景台',
@@ -769,7 +769,7 @@ module.exports = {
         hours: '<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>（NPS 官方原文，2026-09-13 核实），' +
           '两处均为无门禁、无关门时间的路边点位。' +
           '<strong>所在的 Mammoth–Tower 路段全年开放</strong>（Park Roads 页 2026 年表：North Entrance to Northeast Entrance “Open year-round”，该页最后更新 2026-09-01），' +
-          '<strong>9/22–9/29 窗口内确定可达</strong>。' +
+          '<strong>九月下旬至十月底确定可达</strong>。' +
           '但请注意从 Mammoth 过来必须经过施工中的 <strong>Gardner River High Bridge</strong>：' +
           'NPS 原文 “expect a single lane of traffic with up to 15-minute delays, 24 hours a day, seven days a week, from April 13 through late October 2026”，' +
           '且 <strong>9 月 7 日之后会有 5 次整夜完全封闭（21:00–04:00）</strong>，会提前通知',
@@ -851,7 +851,7 @@ module.exports = {
           '另外注意岔口处向左（沿 Tower Creek 通往瀑底）的那一支是封闭的，不要走错',
         '<strong>厕所与餐饮：这是 Mammoth 与 Cooke City 之间唯一有商店和厕所的地方，别错过。</strong>' +
           '<strong>Tower Fall General Store 2026 年营业到 10 月 4 日</strong>，' +
-          '所以<strong>在 9/22–9/29 的行程窗口内它是开着的</strong>，停车场旁有厕所。' +
+          '所以<strong>九月下旬至 10 月 4 日之间它是开着的</strong>，停车场旁有厕所。' +
           '但请注意 <strong>Tower Fall Campground 9 月 27 日关闭</strong>、' +
           '<strong>Tower-Roosevelt 加油站 9 月 6 日就已关闭</strong>——' +
           '<strong>这一带没有油，进园前必须在 Gardiner 或 Cooke City 加满</strong>',
@@ -923,8 +923,8 @@ module.exports = {
           '<strong>关键是路段日期（NPS Park Roads 页 2026 年表，最后更新 2026-09-01）：' +
           'Tower-Roosevelt ↔ Tower Fall 段 5 月 8 日 – 10 月 31 日；' +
           'Canyon Village ↔ Tower Fall（Dunraven Pass）5 月 22 日 – 10 月 12 日。</strong>' +
-          '<strong>9/22–9/29 的行程窗口内两条路都开着，从哪边来都行</strong>——' +
-          '这两个日期在 10 月才会开始咬人，届时极易混淆，请按来向确认。' +
+          '<strong>九月下旬两条路都开着，从哪边来都行</strong>——' +
+          '这两个日期要到 10 月才开始咬人，届时极易混淆，须按实际来向逐段核对。' +
           '道路当天 08:00 开放，关闭日期随天气可提前',
         parking: 'Tower Fall 有大型免费停车场（44.89023, −110.38648），紧邻 Tower Fall General Store。' +
           'Calcite Springs Overlook 另有独立免费停车场。' +
@@ -967,6 +967,7 @@ module.exports = {
       n: 6,
       name: '拉马尔谷',
       en: 'Lamar Valley',
+      must: 5,
       score: 5,
       tldr: '全园野生动物密度最高的谷地，且全年通车。10 月下旬日出方位与谷轴只差 9–14°，是拍逆光河雾与野牛轮廓光的最佳几何。狼要靠观鸟镜，不是 400mm。',
       tags: [
@@ -975,7 +976,7 @@ module.exports = {
         { t: '日出前谷底约 −10°C', c: 'risk' }
       ],
       highlights: [
-        '<strong>这是本次行程里唯一「越晚去越好」的地方。</strong>' +
+        '<strong>这是本区唯一一个「越晚去越好」的地方。</strong>' +
           '当 10 月 12 日 Dunraven Pass 关闭、10 月 31 日主环全线关闭之后，' +
           'Lamar 仍在那条<strong>全园唯一常年通车的 Gardiner–Cooke City 线</strong>上正常开放，' +
           '而此时游客量已经跌到夏季的零头。' +
@@ -989,8 +990,11 @@ module.exports = {
           '<strong>这是本子地区上限最高的一张照片，而它在几何上属于 10 月下旬而不是 9 月。</strong>',
         '<strong>关于狼，必须先把期望值压下来。</strong>' +
           '2025 年底的官方统计是<strong>全园 84 匹狼、7–8 个族群，比 2024 年底的 108 匹、9 个族群大幅下降</strong>，' +
-          '原因是<strong>犬瘟热（canine distemper）爆发</strong>——当年 36 只幼崽只活下来 17 只，' +
-          '是有记录以来最低的幼崽存活数。' +
+          '当年产下至少 36 只幼崽、<strong>只活下来 17 只</strong>，是自 1995 年重引入以来最低的幼崽存活数。' +
+          '<strong>主因普遍被认为是犬瘟热（canine distemper）爆发，但请注意措辞的分寸：</strong>' +
+          '园外 Wyoming 的捕获个体中 64% 检出阳性，' +
+          '而园方发言人 2026 年的说法是 <strong>“We have not yet confirmed CDV, but Yellowstone biologists predict similar findings of CDV exposure which is likely a contributor”</strong>' +
+          '——<strong>黄石园内至 2026-09-15 仍未正式确诊，只是「很可能的原因之一」</strong>。' +
           '目前北部山脉的两个主力族群是 <strong>Junction Butte（15 匹，13 黑 2 灰，传统上在 Slough Creek 一带做窝）</strong>' +
           '与 <strong>Rescue Creek（16 匹，活动范围从 Blacktail Plateau 到 Tower Junction）</strong>；' +
           '<strong>曾经最有名的 Lamar Canyon 族群已不再作为独立族群存在</strong>',
@@ -1007,6 +1011,54 @@ module.exports = {
           'coyote 在路肩活动频繁且不太怕人，是唯一有机会用 400mm 拍满画面的犬科动物。' +
           '<strong>路肩上那排架着观鸟镜的人（当地称 “the scope line”）是最可靠的情报源</strong>——' +
           '他们通常乐意让你看一眼镜子并告诉你在看什么，礼貌地问就行'
+      ],
+      tour: [
+        '<strong>这是一条开车看的谷地，不是一条步道——正确的玩法是「开一段、停一段」的折返线，不存在环线。</strong>' +
+          'Northeast Entrance Road 从 <strong>Tower Junction 到东北门约 29 英里</strong>，' +
+          '而真正的精华只有中间那段：<strong>Slough Creek 路口（44.90945, −110.33499）到 Soda Butte 石灰华锥（44.87795, −110.15238）之间约 12 英里</strong>，' +
+          '沿线数十处路肩 turnout。' +
+          '从 Mammoth 过来单程约 33 英里、正常 60–65 分钟（限速 45 mph），' +
+          '<strong>往返加上停留，半天是这个点的最小单位</strong>。' +
+          '<strong>可以跳过的两段：</strong>Soda Butte 以东到 Pebble Creek 一带动物密度明显下降，' +
+          '时间紧就在 Soda Butte 折返；东北门到 Cooke City 那 3 英里除非要加油或住宿，否则没有必要开',
+        '<strong>黎明与黄昏是唯一靠谱的时段，这一点没有变通余地。</strong>' +
+          'NPS 的官方说法是有蹄类与食肉动物在 dawn 与 dusk 最活跃，' +
+          '<strong>上午十点到下午四点之间，除了 bison 基本什么都看不到</strong>——' +
+          '不要把正午安排在这里，那段时间该去走 Mammoth 的台地。' +
+          '以 <strong>9 月下旬</strong>为例：民用曙光 06:41、日出 07:10、日落 19:15、民用暮光 19:44；' +
+          '<strong>10 月下旬</strong>为例：07:14／07:44／18:26／18:56。' +
+          '<strong>要在曙光时刻就已经站在路肩上，从 Mammoth 得提前约 1 小时 15 分出发</strong>' +
+          '（含 Gardner River High Bridge 的单车道等待，见本区前置提醒），从 Gardiner 再往前推 20 分钟。' +
+          '傍晚场轻松得多，日落前 1 小时到位即可',
+        '<strong>光学器材决定这一站的成败，而不是运气：双筒望远镜是底线，单筒观鸟镜（spotting scope）才是这里的正解。</strong>' +
+          'NPS 自己在 Slough Creek 与 Lamar 的页面上就写 “Bring binoculars or a spotting scope and enjoy watching animals from a safe distance.”。' +
+          '原因很实在——<strong>狼与熊通常在 1–2 公里外</strong>，肉眼只是草地上一个移动的小点，' +
+          '双筒能确认「那是一匹狼」，<strong>20–60 倍的单筒才能看出它在做什么</strong>。' +
+          '<strong>bison 是这里唯一保证看得到的大型动物</strong>（成群数十至数百头），' +
+          'pronghorn、coyote、mule deer 也常见，bighorn sheep 集中在西段近 Tower 的峡谷一带。' +
+          '<strong>把「看到狼」当成彩票，把 bison 与开阔谷地本身当成这一站的正餐，体验会好很多</strong>',
+        '<strong>找动物最省力的办法不是自己扫描，是找人：路肩上那排架着单筒的人（当地称 “the scope line”）就是现成的情报。</strong>' +
+          '看到一排车加一排三脚架，那里一定有东西。' +
+          '<strong>礼节很明确</strong>：把车完全停进路肩、开口问一句再靠近、压低说话声、不要从别人的镜头前横穿、不要摔车门。' +
+          '<strong>观狼者通常很乐意让陌生人从自己的镜子里看一眼</strong>，这是当地几十年的默认习惯，但要先问',
+        '<strong>路边观察的硬规定，全部出自 2026 版 Superintendent\u2019s Compendium，违反是可以被处罚的：</strong>' +
+          '<strong>距熊、狼、美洲狮至少 100 码（91 米）；距其它一切野生动物（含 bison、elk）至少 25 码（23 米）</strong>；' +
+          '此外<strong>「任何会干扰、驱赶或妨碍野生动物自由移动的距离」一律禁止</strong>——' +
+          '也就是说只要动物因为人的存在改变了行为，就已经违规，25 码只是下限。' +
+          '<strong>全园禁止用人工光源观察野生动物，含闪光灯</strong>（Compendium 原文 “The entire park is closed to viewing wildlife with artificial light, including flash photography.”），' +
+          '所以天黑前后不要用手电或车灯往谷地里照。' +
+          '<strong>车内是最安全也往往是最好的观察位</strong>；' +
+          '<strong>停车必须四个轮子完全离开行车道</strong>，NPS 明确写 “Don\u2019t park in the road”，' +
+          '违规多了 ranger 会直接关闭该处路肩。' +
+          '遇到 bison 占路（bison jam）就留在车里慢慢等，' +
+          '<strong>不要按喇叭、不要绕行、不要下车</strong>——NPS 的原话是 bison “have injured more people in Yellowstone than any other animal”',
+        '<strong>补给现实：Lamar 全线没有餐饮、没有加油、没有手机信号，厕所也只有两处。</strong>' +
+          '<strong>最近的卫生间是 Slough Creek 支路口附近的 vault toilet</strong>（从主路拐进去很短一段即到）' +
+          '与 <strong>Tower Fall 停车场（商店 2026 年营业到 10 月 4 日）</strong>；' +
+          '再往外就是 Mammoth（Albright Visitor Center 全年开放）或园外的 Cooke City。' +
+          '<strong>油一定要在 Gardiner 或 Cooke City 加满</strong>：' +
+          '园内 Tower-Roosevelt 加油站 2026 年 9 月 6 日已关、Mammoth 加油站 10 月 4 日关。' +
+          '出发前带足饮水、热饮和食物，<strong>并提前下载离线地图</strong>，Mammoth 以东就没有信号了'
       ],
       photo: '野生动物 <strong>5/5</strong>，风光 <strong>4.5/5</strong>，人像 <strong>2/5</strong>。' +
         '这是全美国最好的野生动物观察谷地，加上 10 月下旬近乎正轴的日出逆光几何，上限极高。' +
@@ -1074,16 +1126,37 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '<strong>持 America the Beautiful 年票免费</strong>。' +
-          '年票同时豁免非美国居民 16 岁以上每人 $100 的附加费',
-        hours: '<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>。' +
-          '<strong>关键事实：Northeast Entrance Road（Tower Junction 至 Cooke City）全年开放</strong>，' +
-          '官方原文 “The only road generally open year-round to regular vehicles is from the North Entrance at Gardiner, Montana, ' +
-          'through the park to Cooke City, Montana (via Tower Junction).”。' +
-          '<strong>Lamar Valley 全段在 10/12 与 10/31 两个封闭节点之后仍然照常通行。</strong>' +
-          '但需注意 <strong>Beartooth Highway（US-212）10 月 12 日关闭</strong>，' +
-          '此后 Cooke City 变成死胡同，只能原路退回',
+        visit: '<strong>一场完整的清晨 3–4 小时</strong>：曙光前 15 分钟到位，日出后再守 2 小时，' +
+          '中间沿精华段挪动 2–3 个路肩。<strong>这是本景点的标准剂量，也是看到 bison 以外动物的最低投入</strong>。' +
+          '<strong>只是开车穿过、停两三个路肩看看 bison：60–90 分钟</strong>，' +
+          '这样能看到谷地和野牛群，但基本与狼、熊无缘。' +
+          '<strong>傍晚场 1.5–2 小时</strong>（日落前 1 小时到位，守到民用暮光）。' +
+          '<strong>理想是晨昏各去一次，中间那段白天去别处</strong>；' +
+          '若只能安排一次，选清晨，动物活动强度明显高于傍晚。' +
+          '<strong>连东北门与 Cooke City 一起走则整天预留 6–8 小时</strong>',
+        book: '不需预约。<strong>Yellowstone 没有 timed entry，也不需要车辆预约</strong>（2026-09-15 核实于 NPS Fees &amp; Passes 页）',
+        ticket: '<strong>Lamar Valley 没有独立门票——黄石按整园收费，园内各景点不单独售票，只收一次入园费</strong>' +
+          '（2026-09-15 核实于 NPS Fees &amp; Passes 官方页）：' +
+          '<strong>私家车七日通行证 $35</strong>（原文 “Unlimited entry for one vehicle and all passengers for seven consecutive days, beginning on the day of purchase”，' +
+          '限 15 座以下非商用车）；摩托车／雪地摩托 $30（7 天，最多 2 辆 4 人）；' +
+          '步行／自行车／滑雪每人 $20（<strong>16 岁以下免费</strong>）。' +
+          '<strong>Yellowstone 年卡 $70</strong>；' +
+          '<strong>America the Beautiful 年卡美国居民 $80 / 非美国居民 $250</strong>；' +
+          '<strong>非美国居民 16 岁以上另加 $100／人，持年卡豁免</strong>。' +
+          '五个入口站均收现金与信用卡／借记卡',
+        hours: '<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>（NPS 官方原文，2026-09-15 核实），' +
+          '路肩观景无门禁、无关门时间，曙光前到位与暮光后离开都不受限制。' +
+          '<strong>关键事实（2026-09-15 复核，两个独立官方来源一致）：Gardiner 北门经 Mammoth、Tower Junction 到 Cooke City 东北门这条线全年开放，Lamar Valley 全段在其上。</strong>' +
+          'NPS Park Roads 页 2026 年日期表第一行即 <strong>“Open year-round: North Entrance to Northeast Entrance”</strong>，' +
+          '正文原文 “The only road generally open year-round to regular vehicles is from the North Entrance at Gardiner, Montana, ' +
+          'through the park to Cooke City, Montana (via Tower Junction).”；' +
+          '<strong>2026 版 Superintendent\u2019s Compendium</strong> 写得更硬：' +
+          '“Starting November 1st until spring opening in April or May, the Grand Loop Road and park entrance roads are closed to wheeled motor vehicle use by the public, ' +
+          'except for the following sections of park road which remain open year-round: 1. North Entrance Station to Mammoth Hot Springs. 2. Mammoth Hot Springs to Upper Terrace Drive. ' +
+          '3. Mammoth Hot Springs to Tower Junction. 4. Tower Junction to the Northeast Entrance Station.”。' +
+          '<strong>所以 10 月 12 日 Dunraven Pass 关闭、10 月 31 日主环对汽车关闭之后，Lamar 照常通车，全年无休。</strong>' +
+          '<strong>唯一的附带条件：Beartooth Highway（US-212）与 Chief Joseph Scenic Byway（WY-296）2026 年 10 月 12 日关闭</strong>，' +
+          '此后 Cooke City 以东不通，从 Lamar 进来只能原路折返（Cooke City 本身仍可抵达）',
         parking: '<strong>全线数十处免费路肩 turnout，均不收费、不限时。</strong>' +
           '经 OSM 核实的有名称的只有 “Confluence”（44.87029, −110.19296）一处，' +
           '其余绝大多数<strong>没有任何标识牌，watcher 圈子的俗称（Hitching Post、Dorothy\u2019s Knoll、Coyote Overlook 等）' +
@@ -1134,6 +1207,7 @@ module.exports = {
       n: 7,
       name: '斯洛溪',
       en: 'Slough Creek',
+      must: 3,
       score: 4,
       tldr: 'Junction Butte 狼群的传统巢域，Lamar 一带最稳定的观狼点。2.2 英里搓板土路进去，营地 10/12 关闭但路本身通常仍可走。',
       tags: [
@@ -1159,6 +1233,42 @@ module.exports = {
           '一站就是三四个小时。' +
           '<strong>watcher 圈子把其中一处常用的小土丘叫 “Dave\u2019s Hill”，但这个名字不在任何官方地图上，' +
           'OSM 上也没有对应节点</strong>，只能到现场跟着人走'
+      ],
+      tour: [
+        '<strong>先判断要不要进去：这是一条 2 英里的碎石搓板支路，尽头是死路，必须原路折返。</strong>' +
+          '路口在 Northeast Entrance Road 上（44.90945, −110.33499），' +
+          '往北北东开 <strong>约 2 英里到 Slough Creek Trailhead 与 Campground（44.94819, −110.30845），慢行 10–15 分钟</strong>。' +
+          '<strong>普通轿车晴天可进，但搓板很明显、雨雪后泥泞；低底盘车或结冰时请直接放弃</strong>，' +
+          '就在路口路肩架望远镜，那里同样能看到支谷出口与 Lamar 主谷西段。' +
+          '<strong>如果只是想看风景，这条路可以整条跳过</strong>——' +
+          '河岸草甸的景色并不比 Lamar 主谷强，值得拐进来的唯一理由是看到狼的概率更高',
+        '<strong>观狼的标准做法：天没亮就进去，跟着人走。</strong>' +
+          '进支路后沿途留意<strong>路边停成一排的车和坡上一排三脚架</strong>，' +
+          '那就是当地观狼者（“the scope line”）的位置，热点通常在<strong>距路口半英里以内的西侧</strong>与土路沿线的几处小丘。' +
+          '<strong>到位时间是民用曙光前</strong>（以 9 月下旬为例约 06:40，10 月下旬约 07:15），' +
+          '一站往往就是三四个小时。' +
+          '<strong>NPS 在本地的官方建议原文是 “Bring binoculars or a spotting scope and enjoy watching animals from a safe distance.”</strong>——' +
+          '双筒是底线，<strong>20–60 倍单筒才真正看得出狼在做什么</strong>。没有器材就大方开口问，' +
+          '让陌生人从自己的镜子里看一眼是这里几十年的默认习惯',
+        '<strong>观察礼仪与法定距离，这里比主谷更要紧，因为人挤在一小块地方：</strong>' +
+          '<strong>距狼与熊至少 100 码（91 米）、距其它动物 25 码（23 米）</strong>，' +
+          '并且任何「让动物改变行为」的距离都属违规（2026 版 Superintendent\u2019s Compendium）。' +
+          '<strong>不要在别人的镜头前横穿、不要大声说话、不要摔车门、不要用手电或车灯往谷地里照</strong>' +
+          '（全园禁止用人工光源观察野生动物）。' +
+          '车必须四轮完全停进路肩或停车场，<strong>这条土路很窄，停歪一点后面的车就过不去</strong>',
+        '<strong>想走一段路的话，Slough Creek Trail 是本区性价比最高的半日步道，但普通游客走到第一片草甸就该回头。</strong>' +
+          'NPS 数据：<strong>往返 3.4 英里（5.4 公里）、2–5 小时、难度 moderate</strong>，' +
+          '沿一条历史运货马车道<strong>先陡上一段、再下到第一片草甸</strong>；' +
+          '继续走到第二片草甸会变成往返 8.6 英里（13.6 公里），对大多数人不值得。' +
+          '<strong>NPS 在这条步道上专门标了 “CAUTION: Grizzly bears frequent this area.”</strong>——' +
+          '熊喷雾必须放在随手可及处（不是背包里）、沿途出声、建议 3 人以上同行。' +
+          '路上可能遇到马队或马车，<strong>按规定要让到步道的下坡侧站定不动，等它们过去</strong>',
+        '<strong>厕所、补给与停车：这里有本区路东唯一一处可靠的公共厕所，值得记住。</strong>' +
+          'NPS 原文提到步道口一带「park in the parking area just off the main road near the vault toilets」，' +
+          '<strong>即支路靠近主路的一侧有旱厕</strong>；trailhead 停车很宽裕，还单独划了马拖车位。' +
+          '<strong>但没有饮水、没有餐饮、没有加油、没有手机信号</strong>，' +
+          '最近的商店是 Tower Fall General Store（2026 年营业到 10 月 4 日），再远是 Mammoth 或 Cooke City。' +
+          '<strong>观狼高峰（日出前后）路口与土路沿线车位会被占满，天不亮就得到；日出两小时后人会散掉大半</strong>'
       ],
       photo: '野生动物 <strong>4.5/5</strong>，风光 <strong>3.5/5</strong>，人像 <strong>1.5/5</strong>。' +
         '观狼概率是全区最高的，河岸草甸在秋色和晨雾下也很好看。' +
@@ -1202,13 +1312,36 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约（Slough Creek Campground 需另行预订，但 2026 年 10 月 12 日即关闭）',
-        ticket: '<strong>持 America the Beautiful 年票免费</strong>',
-        hours: '<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>；' +
-          '主路（Northeast Entrance Road）<strong>全年开放</strong>。' +
-          '<strong>Slough Creek Campground 2026 年 6/15 – 10/12。' +
-          '通往营地的 2.2 英里支路在营地关闭后是否仍对车辆开放，未能从官方渠道确认</strong>——' +
-          '这是本景点唯一的不确定项，请出发当天在 Albright Visitor Center 确认',
+        visit: '<strong>观狼的清晨场 3–4 小时</strong>（曙光前进土路、架镜子、守到日出后 2 小时），' +
+          '这是这条支路存在的意义，少于这个时长基本等于白跑一趟。' +
+          '<strong>只是开进去看一眼支谷、在草甸边站十几分钟再折返：45–60 分钟</strong>' +
+          '（含来回 4 英里搓板路 20–30 分钟车程）。' +
+          '<strong>加走 Slough Creek Trail 到第一片草甸再往返，另加 2–3 小时</strong>（NPS 标注 3.4 英里往返、2–5 小时）。' +
+          '<strong>时间不够就别拐进来</strong>——把这段时间留在 Lamar 主谷的路肩上，收益更稳',
+        book: '不需预约（Slough Creek Campground 需另行预订，2026 年 6/15 – 10/12 营业，' +
+          '<strong>园内营地常年提前售罄</strong>）',
+        ticket: '<strong>没有独立门票——黄石按整园收费，园内各景点不单独售票，只收一次入园费</strong>' +
+          '（2026-09-15 核实于 NPS Fees &amp; Passes 官方页）：' +
+          '<strong>私家车七日通行证 $35</strong>、摩托车／雪地摩托 $30、步行／自行车每人 $20（16 岁以下免费）；' +
+          '<strong>Yellowstone 年卡 $70</strong>，' +
+          '<strong>America the Beautiful 年卡美国居民 $80 / 非美国居民 $250</strong>；' +
+          '<strong>非美国居民 16 岁以上另加 $100／人，持年卡豁免</strong>',
+        hours: '<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>（NPS 官方原文，2026-09-15 核实），' +
+          '路肩与步道口无门禁、无关门时间。' +
+          '<strong>主路（Northeast Entrance Road，Tower Junction 至东北门）全年开放</strong>，' +
+          'NPS Park Roads 页 2026 年表原文 “Open year-round: North Entrance to Northeast Entrance”，' +
+          '2026 版 Superintendent\u2019s Compendium 亦将 “Tower Junction to the Northeast Entrance Station” 列入 11 月 1 日后仍全年开放的路段。' +
+          '<strong>关于那条 2 英里碎石支路，2026-09-15 复查有了比上一版更明确的官方依据：</strong>' +
+          'NPS 的 Slough Creek Trailhead (2K5) 页原文写 ' +
+          '<strong>“During the winter, the gravel road is closed to vehicles. Park in the parking area just off the main road near the vault toilets and ski or snowshoe in to the trailhead.”</strong>' +
+          '——<strong>即支路确实会在冬季对车辆关闭，届时车停在主路旁、靠滑雪或雪鞋进入</strong>。' +
+          '<strong>但 NPS 从不公布这条支路的具体关闭日期</strong>：' +
+          'Park Roads 页的 2026 年开关日期表与 Operating Dates 表都只列主路与营地，不列这条支线，' +
+          '<strong>因此「营地 10 月 12 日关闭之后、入冬之前这段时间车能不能开进去」仍未能从官方渠道确认</strong>。' +
+          '可确定的只有营地日期本身（6/15 – 10/12）。' +
+          '出发当天请拨园区路况录音 <strong>(307) 344-2117</strong>，' +
+          '或到全年开放的 Albright Visitor Center 问一句（电话 <strong>307-344-2263</strong>）；' +
+          '路口就在主路边，<strong>开过去看一眼有没有挂牌也只多花几分钟</strong>',
         parking: '路口路肩免费；土路沿线有若干非正式路肩与营地停车场，均免费。' +
           '<strong>观狼高峰时段（日出前后）路口和沿线车位会被占满，天不亮就得到</strong>',
         walk: '路口机位<strong>零步行</strong>；营地一带停车后步行 <strong>2–5 分钟</strong>；' +
@@ -1244,6 +1377,7 @@ module.exports = {
       n: 8,
       name: '黑尾高原路',
       en: 'Blacktail Plateau Drive',
+      must: 2,
       score: 3.5,
       tldr: '6 英里单行碎石土路，穿过秋季转金的白杨林。全区唯一无法确认关闭日期的点位——请当成随时可能关，并备好路边替代方案。',
       tags: [
@@ -1263,7 +1397,7 @@ module.exports = {
           '海拔更低的 Mammoth 一带（6,200 英尺）会晚到 10 月初才进入盛期。' +
           '<strong>单行土路的好处在这里体现得很明显：车速慢、可以随时停，' +
           '而主路上根本没有地方停下来拍林间光</strong>',
-        '<strong>关闭日期是本页唯一一处我无法给出确切答案的信息，必须坦白说明。</strong>' +
+        '<strong>关闭日期是本页唯一一处未能给出确切答案的信息，必须如实说明。</strong>' +
           'NPS 官方页对这条路和 Upper Terrace Drive 的表述只有一句' +
           '「Both of them are open only during the summer season」，' +
           '<strong>2026 年的具体关闭日期在 NPS 的 Park Roads 页与 Operating Dates 页上都没有列出，未能从官方渠道确认。</strong>' +
@@ -1282,6 +1416,47 @@ module.exports = {
         '<strong>Rescue Creek 狼群（16 匹）的活动范围就覆盖 Blacktail Plateau 到 Tower Junction</strong>，' +
           '这条路上有一定的遇狼可能；黑熊在这一带也很常见' +
           '（Commons 上有 NPS 拍摄的「Blacktail Plateau Drive 黑熊」照片）'
+      ],
+      tour: [
+        '<strong>这条路本身就是内容，沿途没有任何「景点」，抱着看景点的心态进去一定失望。</strong>' +
+          '它是 Mammoth 与 Tower–Roosevelt 之间的一条替代路线，NPS 的原话是 “a more rustic way to travel to Tower–Roosevelt”。' +
+          '<strong>单行，只能自西向东</strong>：西端入口在 Mammoth 以东约 9 英里的 Grand Loop Road 边（44.95811, −110.54178），' +
+          '东端出口 44.92201, −110.44412，' +
+          '<strong>全长 6 英里（9.7 公里）碎石土路，含停车看景 45–75 分钟</strong>。' +
+          '<strong>一旦进入就无法掉头，必须开完全程</strong>——这是进去之前唯一需要想清楚的事',
+        '<strong>三条硬性限制，进之前先对照自己的车：</strong>' +
+          '<strong>（一）禁止拖挂车、房车与长车辆通行</strong>，路窄弯急且几乎没有正式停车位；' +
+          '<strong>（二）碎石路面有坑，建议高底盘，普通轿车晴天慢行可过，雨雪后泥泞就不要进</strong>；' +
+          '<strong>（三）路面松散、限速很低，车多时扬尘会严重影响能见度，要与前车拉开距离</strong>。' +
+          '<strong>进入前务必先看西端入口的告示牌</strong>——园方历史上就常因 “poor driving conditions” 临时挂牌关闭这条路，' +
+          '而这种关闭可以发生在任何一天',
+        '<strong>值得慢下来的是两段：</strong>' +
+          '前半程的开阔草甸与鼠尾草坡，<strong>约在第 4 英里处爬到全程最高点，东北方向的山脉视野一次打开</strong>；' +
+          '后半程下切进 Elk Creek 谷地的白杨与针叶混交林，<strong>秋季的金黄白杨集中在这一段</strong>。' +
+          '白杨转色的时间每年浮动：<strong>Blacktail Plateau（约 7,000 英尺）通常在 9 月下旬至 10 月中旬，' +
+          '海拔更低的 Mammoth 一带（6,200 英尺）要晚到 10 月初</strong>。' +
+          '<strong>「路还开着」和「叶子正黄」这两个条件的重叠窗口相当窄，这是它最大的不确定性</strong>',
+        '<strong>东端出口可以顺手收尾 Petrified Tree，往返只要十几分钟。</strong>' +
+          '它在 Tower Junction 以西约 1.5 英里处从 Grand Loop Road 拐入，' +
+          '<strong>支路限速 15 mph、约半英里到一个小停车场（44.91630, −110.43940），' +
+          '再沿一小段上坡步道走 3–5 分钟</strong>即到。' +
+          '看的是一株 <strong>4,500–5,000 万年前被火山灰与泥石流迅速掩埋、由地下水中的二氧化硅逐渐置换而硅化的古代红杉残桩</strong>，' +
+          '外面罩着铁栅栏（历史上其余几株被游客一块块掰走了）。' +
+          '<strong>说白了它就是一根石化的树桩，看一眼两分钟就够</strong>，' +
+          '价值在于它是全园唯一一株开车就能到的直立硅化树；' +
+          '<strong>停车场很小且禁止房车与拖挂，赶上旺季满位就直接放弃，不值得等</strong>',
+        '<strong>没有厕所、没有饮水、没有手机信号、沿线没有正式停车场。</strong>' +
+          '最近的设施在西端入口以西约 9 英里的 Mammoth（Albright Visitor Center 全年开放，有厕所），' +
+          '东端出去后是 Tower–Roosevelt 一带——但请注意那边设施关得很早：' +
+          '<strong>2026 年 Roosevelt Lodge 小木屋 9 月 6 日、餐厅与商店 9 月 7 日、Tower-Roosevelt 加油站 9 月 6 日就已全部关闭</strong>，' +
+          '<strong>Tower Fall General Store 也只开到 10 月 4 日</strong>。' +
+          '想在路边停下来拍白杨时，<strong>必须把车完全让出行车宽度</strong>——单行道，后面的车绕不过去也退不回来',
+        '<strong>关了怎么办：主路上有两处零步行的替代，效果不差。</strong>' +
+          '<strong>Blacktail Lakes（又称 Blacktail Ponds，44.95310, −110.60265）</strong>就在 Grand Loop Road 边，有正式停车场，' +
+          '静水池塘在清晨无风时能倒映对岸山脊，这是土路上反而没有的元素；' +
+          '再往东约 2 英里的 <strong>Forces of the Northern Range 路边解说步道</strong>（停车场 44.95937, −110.56638）' +
+          '是一条铺装自导式短道，讲北部山脉的地质与火烧演替，同样零步行。' +
+          '<strong>这两处全年在主路上，不受支路开关的影响</strong>'
       ],
       photo: '风光 <strong>3.5/5</strong>，秋色 <strong>4/5</strong>，野生动物 <strong>3/5</strong>。' +
         '白杨林的金黄配上土路的曲线是很标准也很好用的秋季题材，' +
@@ -1342,15 +1517,36 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '<strong>持 America the Beautiful 年票免费</strong>',
-        hours: '所在的 Grand Loop Road（Mammoth–Tower 段）<strong>全年开放</strong>。' +
-          '<strong>但 Blacktail Plateau Drive 本身是季节性支线，官方口径仅为' +
-          '「Both of them are open only during the summer season」，' +
-          '2026 年的具体关闭日期未能从官方渠道确认。</strong>' +
-          '<strong>另外它可以在任何一天因路面泥泞或积雪临时关闭。</strong>' +
-          '出发当天请在 Albright Visitor Center 询问，或直接开到西端入口看告示牌；' +
-          '园区路况录音 (307) 344-2117',
+        visit: '<strong>开完全程含沿途停车看景 45–75 分钟</strong>（6 英里土路，限速很低，' +
+          '纯通过不停车也要 30 分钟）。' +
+          '<strong>秋季专门为白杨慢慢开、多停几次：按 75–90 分钟算。</strong>' +
+          '<strong>加上东端的 Petrified Tree 再添 15–20 分钟</strong>，整段 1–1.5 小时。' +
+          '<strong>注意这段时间是「替代主路」而不是「额外增加」</strong>——' +
+          '走主路从 Mammoth 到 Tower Junction 约 18 英里、45 分钟，' +
+          '<strong>改走这条路的净增成本其实只有 20–40 分钟</strong>，这是它真正的性价比所在',
+        book: '不需预约。<strong>Yellowstone 没有 timed entry，也不需要车辆预约</strong>（2026-09-15 核实）',
+        ticket: '<strong>没有独立门票——黄石按整园收费，园内各景点不单独售票，只收一次入园费</strong>' +
+          '（2026-09-15 核实于 NPS Fees &amp; Passes 官方页）：' +
+          '<strong>私家车七日通行证 $35</strong>、摩托车／雪地摩托 $30、步行／自行车每人 $20（16 岁以下免费）；' +
+          '<strong>Yellowstone 年卡 $70</strong>，' +
+          '<strong>America the Beautiful 年卡美国居民 $80 / 非美国居民 $250</strong>；' +
+          '<strong>非美国居民 16 岁以上另加 $100／人，持年卡豁免</strong>',
+        hours: '<strong>“Yellowstone is open 24 hours per day, 365 days per year”</strong>（NPS 官方原文，2026-09-15 核实）。' +
+          '所在的 Grand Loop Road（Mammoth–Tower 段）<strong>全年开放</strong>' +
+          '（Park Roads 页 2026 年表 “Open year-round: North Entrance to Northeast Entrance”；' +
+          '2026 版 Superintendent\u2019s Compendium 亦列 “Mammoth Hot Springs to Tower Junction” 为 11 月 1 日后仍开放的路段）。' +
+          '<strong>但 Blacktail Plateau Drive 这条支线本身的 2026 年具体关闭日期，2026-09-15 再次复查后仍未能从官方渠道确认。</strong>' +
+          '现有的全部官方口径只有三条：' +
+          '（一）NPS 的 Mammoth 区域页写 <strong>“There are two side drives in this region. Both of them are open only during the summer season, ' +
+          'with Blacktail Plateau Drive opening the latest due to being in a bear management area.”</strong>，只说「仅夏季开放」，不给日期；' +
+          '（二）<strong>Park Roads 页的 2026 年开关日期表与 Operating Dates 表都不列这条支线</strong>；' +
+          '（三）<strong>2026 版 Superintendent\u2019s Compendium 列举 11 月 1 日之后仍全年开放的四段路时，' +
+          '不包含 Blacktail Plateau Drive——因此可以确定它最晚 11 月 1 日一定关闭</strong>。' +
+          '按「无铺装支线比主环早关」的一般规律推断，<strong>10 月中旬之后能开的概率不高，但这是推断而非官方信息</strong>。' +
+          '<strong>此外它可以在任何一天因路面泥泞或积雪临时关闭。</strong>' +
+          '出发当天请拨园区路况录音 <strong>(307) 344-2117</strong>，' +
+          '或到全年开放的 Albright Visitor Center 询问（电话 <strong>307-344-2263</strong>），' +
+          '也可以直接开到西端入口看告示牌——闸门就在主路边，<strong>顺路看一眼比绕过去便宜</strong>',
         parking: '<strong>沿线没有正式停车场</strong>，只能在路面较宽处靠边，' +
           '<strong>必须完全让出行车宽度</strong>（这是一条单行道，后面的车绕不过去）。' +
           '替代方案的 Blacktail Lakes 有正式免费停车场',
@@ -1359,7 +1555,7 @@ module.exports = {
           '<strong>注意这是单行道，一旦进入就无法掉头返回，必须开完全程</strong>'
       },
       notes: [
-        '<strong>这是本子地区唯一一个我无法确认能否进入的点位。</strong>' +
+        '<strong>这是本子地区唯一一个无法确认能否进入的点位。</strong>' +
           '请把它当作「顺路检查一下，开着就赚了」，' +
           '<strong>不要为它单独安排时间，也不要把它排进任何依赖顺序的计划里</strong>',
         '<strong>单行道，只能自西向东，进入后无法掉头。</strong>' +

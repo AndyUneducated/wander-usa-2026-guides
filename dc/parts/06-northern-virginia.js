@@ -3,21 +3,31 @@ module.exports = {
   name: 'Northern Virginia · Arlington 与 Potomac 西岸',
   navName: 'N. Virginia',
   color: '#4bd18a',
-  lead: 'Potomac 西岸这一片是整个 DC 都会区<strong>唯一能在同一天里拍到「军礼仪式 + 城市天际线 + 十八世纪庄园 + 卵石老街 + 大瀑布」的组合</strong>，' +
-    '而且它的行政归属极为分散——Army、NPS、私营基金会、市政府各占一块，' +
-    '这意味着<strong>它同时也是全 DC 抗联邦停摆能力最强的一个子地区</strong>。' +
-    '摄影上最关键的一条几何事实是：<strong>Iwo Jima Memorial 与 Netherlands Carillon 都在 Arlington Ridge 上向东俯瞰 DC</strong>，' +
-    '所以它们是<strong>日出拍天际线、日落拍纪念碑本体</strong>的双重机位，而不是一般攻略里含糊说的「傍晚去」。' +
-    'Arlington National Cemetery 8:00–17:00 的硬性作息把它彻底排除在金色时段之外，' +
-    'Mount Vernon 9:00–17:00 同理——<strong>这一区的黄金光线只能给免费、无门禁的那三处</strong>。',
+  lead: 'Potomac 西岸这一片是 DC 都会区里<strong>最值得为它单独排半天到一天的近郊</strong>，而且必去项集中得很干脆：' +
+    '<strong>Arlington National Cemetery 与 Mount Vernon 是两处「到了华盛顿就该去」的经典</strong>，' +
+    '前者免费、后者收票，两处各自就能占掉半天。' +
+    '其余条目分量明显低一档，不要按同一个权重排：' +
+    '<strong>Old Town Alexandria 是半天闲逛型的联邦式老街与滨水区</strong>，' +
+    '<strong>Marine Corps War Memorial（硫磺岛纪念碑）是二十分钟的顺路必停</strong>，' +
+    '<strong>Great Falls Park 是半小时车程内唯一的一线自然风光</strong>，' +
+    '而 Netherlands Carillon、Theodore Roosevelt Island、Air Force Memorial、Gravelly Point 属于' +
+    '<strong>「已经在附近了就进去看一眼」的那一类，都不值得专程</strong>。' +
+    '这一区的行政归属极为分散——Army、NPS、私营基金会、市政府各占一块——' +
+    '<strong>这让它同时成为全 DC 抗联邦停摆能力最强的一个子地区</strong>。' +
+    '两条作息上的硬约束要先知道：<strong>Arlington National Cemetery 每日 8:00–17:00，' +
+    'Mount Vernon 4–10 月 9:00–17:00、11–3 月 9:00–16:00</strong>，' +
+    '两处都不在清晨与傍晚开放，也都需要连续步行与爬坡；' +
+    '<strong>清早与入夜的时间只能给免费无门禁的那几处</strong>' +
+    '（Marine Corps War Memorial 与 Netherlands Carillon 每日 6:00–24:00，Theodore Roosevelt Island 6:00–22:00）。',
   callouts: [
     {
       type: 'good',
-      title: '本区是全 DC 最强的「停摆免疫」备胎；而且这次窗口内根本不会停摆',
-      html: '<p><strong>先说结论：2026 年 9 月 2 日，H.R. 6500《Continuing Appropriations and Extensions Act, 2027》已签署成法</strong>，' +
+      title: '本区是全 DC 最强的「停摆免疫」备胎',
+      html: '<p><strong>先说当前状态（2026-09-15 核实）：2026 年 9 月 2 日，H.R. 6500《Continuing Appropriations and Extensions Act, 2027》已签署成法</strong>，' +
         '按 FY2026 水平为各联邦机构提供拨款至 <strong>2026 年 12 月 11 日</strong>（或相应正式拨款法案通过之日，以较早者为准）。' +
-        '也就是说<strong>九月下旬到十月下旬的整个行程窗口都被覆盖，本次不存在联邦停摆风险</strong>；下一个悬崖是 12 月 11 日。</p>' +
-        '<p>但这一区的抗停摆结构本身值得记住，因为它是全 DC 最好的备胎池。七个点位的归属与停摆后果分别是：</p>' +
+        '也就是说<strong>2026 年 9 月中旬至 12 月 11 日之间，因停摆而关门的风险很低</strong>；' +
+        '<strong>12 月 11 日之后的任何日期，都应把停摆当成一个真实存在的可能来准备备案</strong>，出行前请自行复查。</p>' +
+        '<p>这一区的抗停摆结构本身值得长期记住，因为它是全 DC 最好的备胎池。各点位的归属与停摆后果分别是：</p>' +
         '<ul>' +
         '<li><strong>Mount Vernon —— 完全免疫。</strong>由 Mount Vernon Ladies\u2019 Association（1853 年成立的私营组织）运营，' +
         '<strong>历史上从未接受联邦运营拨款</strong>，联邦停摆期间照常开放收票。这是本区最硬的一张牌。</li>' +
@@ -28,24 +38,31 @@ module.exports = {
         '但<strong>解说服务、Welcome Center 展陈与 tram 班次可能缩减</strong>，且这属于历史惯例而非成文保证。</li>' +
         '<li><strong>Arlington House —— 会关。</strong>它是 NPS 单位（挂在 George Washington Memorial Parkway 下），' +
         '虽然物理位置在 Army 的墓园里，但建筑本体、博物馆与两处 Enslaved Quarters 由 NPS 管，停摆即闭门。</li>' +
-        '<li><strong>Marine Corps War Memorial 与 Netherlands Carillon —— 大概率仍可进入。</strong>NPS 管辖，' +
-        '但都是<strong>无门无栅栏的露天纪念地</strong>，停摆时通常物理可达，只是无人值守、厕所锁闭、垃圾不清。</li>' +
+        '<li><strong>Marine Corps War Memorial、Netherlands Carillon、Air Force Memorial 与 Gravelly Point —— 大概率仍可进入。</strong>' +
+        '前三者与 Gravelly Point 分属 NPS 与空军，' +
+        '但都是<strong>无门无栅栏的露天场地</strong>，停摆时通常物理可达，只是无人值守、厕所锁闭、垃圾不清。</li>' +
         '<li><strong>Theodore Roosevelt Island —— 风险中等。</strong>NPS，停车场有闸口，可能被锁；' +
         '从 Rosslyn 沿 Mount Vernon Trail 步行或骑行过人行桥通常仍进得去。</li>' +
         '<li><strong>Great Falls Park —— 风险最高。</strong>NPS，<strong>有实体收费亭与大门</strong>，' +
         '历次停摆中曾整园上锁。这是本区唯一真正可能完全去不了的点。</li>' +
         '</ul>' +
-        '<p>换句话说：<strong>Mount Vernon + Old Town Alexandria + Arlington National Cemetery 这三点足够撑起一整天高质量拍摄，' +
-        '且几乎完全不受联邦拨款影响</strong>。DC 河东岸的 Smithsonian 与 National Mall 建筑内景一旦停摆全线阵亡，本区是唯一的整块替代方案。</p>'
+        '<p>换句话说：<strong>Mount Vernon + Old Town Alexandria + Arlington National Cemetery 这三点足够撑起一整天，' +
+        '且几乎完全不受联邦拨款影响</strong>。DC 河东岸的 Smithsonian 与各纪念堂内景一旦停摆全线阵亡，本区是唯一的整块替代方案。</p>'
     },
     {
       type: 'warn',
-      title: 'Arlington 换岗频率 10 月 1 日切换；三脚架政策极严',
-      html: '<p><strong>Tomb of the Unknown Soldier 的换岗仪式频率按官方原文分季：' +
-        '「every hour on the hour from October 1 through March 31, and every half hour from April 1 through September 30」。</strong>' +
-        '这条对行程影响很大：<strong>9 月 25 日去，整点与半点都有场次，等待上限 30 分钟；' +
-        '10 月 22 日去，只有整点一场，错过就是整整一小时。</strong>墓园开放 8:00–17:00，' +
-        '因此 10 月场次实际只有 <strong>9:00、10:00、11:00、12:00、13:00、14:00、15:00、16:00</strong> 这八次（8:00 为开门时刻，需预留安检时间）。' +
+      title: 'Arlington 换岗频率分两季：4–9 月每半小时／10–3 月每小时',
+      html: '<p><strong>Tomb of the Unknown Soldier 的换岗仪式频率按季节分两档，官方原文：' +
+        '「every hour on the hour from October 1 through March 31, and every half hour from April 1 through September 30」</strong>' +
+        '（2026-09-15 核实于 arlingtoncemetery.mil）。</p>' +
+        '<ul>' +
+        '<li><strong>4 月 1 日至 9 月 30 日：每半小时一场</strong>，即每个整点与每个半点，<strong>到场后最多等 30 分钟</strong>。</li>' +
+        '<li><strong>10 月 1 日至次年 3 月 31 日：只有每个整点一场</strong>，<strong>错过就是整整一小时</strong>。</li>' +
+        '</ul>' +
+        '<p>再叠上墓园 8:00–17:00 的开放时间：<strong>十月至三月实际能看到的是 ' +
+        '9:00、10:00、11:00、12:00、13:00、14:00、15:00、16:00 这八个整点</strong>' +
+        '（8:00 是开门时刻，来不及安检加上那段 1.2 公里上坡）；四月至九月则在此之外多出每个半点的场次。' +
+        '<strong>秋冬季来的人请把这一小时的间隔直接算进当天的时间表，并预留 10–15 分钟提前到广场站位。</strong>' +
         '闭园时段哨兵每 2 小时换一次，公众看不到。</p>' +
         '<p><strong>三脚架：官方 Prohibited Items 清单明列「Tripods which cannot fit into a purse/small bag」' +
         '以及「Unauthorized media/photography equipment」。</strong>' +
@@ -66,21 +83,26 @@ module.exports = {
         '<p>2026 年的修正项：Old Farmer\u2019s Almanac 预测 Atlantic Corridor 九、十月气温约低于常年 <strong>1°F</strong>、' +
         '降水少约 <strong>1 英寸</strong>。偏冷偏干通常让转色略微提前、饱和度更高，' +
         '所以 2026 年<strong>可以把上述窗口整体往前挪三到五天来预期</strong>，但仍然不会早于 10 月中旬。</p>' +
-        '<p>对本区的直接结论：</p>' +
+        '<p>对本区两处以树林为主的点位（Theodore Roosevelt Island 与 Great Falls Park），按到访时段的结论是：</p>' +
         '<ul>' +
-        '<li><strong>9 月 25 日左右去：Theodore Roosevelt Island 与 Great Falls Park 基本全绿</strong>，' +
-        '没有任何秋色价值。这两处此时应该按「地质构造与水」和「花岗岩纪念碑」来拍，不要按「红叶」来期待，' +
-        '<strong>Theodore Roosevelt Island 在此时可以降级或直接跳过</strong>。</li>' +
-        '<li><strong>10 月 22 日左右去：处于 near-peak 边缘</strong>，' +
+        '<li><strong>九月下旬到十月上旬：基本全绿，没有任何秋色价值。</strong>' +
+        '这两处此时应按「地质构造与流水」和「花岗岩纪念碑」来看，不要按「红叶」来期待；' +
+        '<strong>Theodore Roosevelt Island 在这个时段可以直接跳过</strong>。</li>' +
+        '<li><strong>十月中下旬（约 20–27 日）：near-peak 边缘。</strong>' +
         'Great Falls 因为略偏内陆、地势稍高，通常比 Old Town 的行道树早几天，' +
-        'Mather Gorge 两侧崖壁林会有可观的黄与橙；Theodore Roosevelt Island 的枫、橡、山核桃开始上色但未必到位。' +
-        '<strong>如果整个行程可以微调，把这两处排到 10 月最后一周比排到 10 月 22 日明显更值。</strong></li>' +
-        '</ul>'
+        'Mather Gorge 两侧崖壁林会有可观的黄与橙；Theodore Roosevelt Island 的枫、橡、山核桃开始上色但未必到位。</li>' +
+        '<li><strong>十月最后一周至十一月上旬：峰值，这两处唯一真正值得专程的时段。</strong>' +
+        '若日期可以自选，宁可往后挪一周，也不要卡在 10 月 20 日前后赌运气。</li>' +
+        '</ul>' +
+        '<p>以上为多年物候区间，<strong>具体某一年请在出行前查 Virginia Tourism 的 fall foliage 报告与 ' +
+        'Shenandoah National Park 的实时秋色页</strong>。</p>'
     },
     {
       type: 'info',
       title: '日出日落钟点与方位角；以及 GW Parkway 的施工封路',
-      html: '<p>华盛顿特区（38.89°N, 77.04°W）实算值，两个日期均处于 EDT（夏令时 2026 年 11 月 1 日才结束）：</p>' +
+      html: '<p>华盛顿特区（38.89°N, 77.04°W）实算值。' +
+        '<strong>以下取秋季两个示例日期</strong>，用来说明这一个月里方位角漂移得有多快；' +
+        '两者均处于 EDT（夏令时至 11 月第一个周日结束）：</p>' +
         '<ul>' +
         '<li><strong>9 月 25 日：日出 06:59（方位角 91°，正东）／日落 19:00（方位角 269°，正西）。</strong>' +
         '民用晨昏蒙影各约再向外 26 分钟，即 06:33 与 19:26。</li>' +
@@ -97,7 +119,8 @@ module.exports = {
         '10 月 22 日的 256° 已偏离 22°，落日会掉到街道左侧的屋顶后面。</p>' +
         '<p><strong>路况：NPS 于 2026 年 9 月 1 日公告，George Washington Memorial Parkway 在 Route 123 与 Spout Run Parkway 之间' +
         '于 9 月 21 日至 10 月 29 日期间、每周一至周四 9:30–14:30 全线封闭南向车道</strong>（树木评估与修剪）。' +
-        '这段正好是<strong>从 Great Falls 方向回 Rosslyn / Theodore Roosevelt Island 的主路</strong>，' +
+        '<strong>这是 2026 年的临时工程，其他年份请另查 nps.gov/gwmp 的 Alerts & Conditions 页。</strong>' +
+        '该路段正好是<strong>从 Great Falls 方向回 Rosslyn / Theodore Roosevelt Island 的主路</strong>，' +
         '工作日白天走这条线要绕行并预留额外时间；周五至周日不受影响。' +
         '（同一工程的北向封闭已于 9 月 17 日结束。）</p>'
     }
@@ -108,8 +131,9 @@ module.exports = {
       n: 1,
       name: '阿林顿国家公墓',
       en: 'Arlington National Cemetery',
+      must: 4,
       score: 4.5,
-      tldr: '免费但 8:00–17:00 拍不到金光；换岗仪式 10 月起改为每小时整点一场，常规三脚架进不了安检。',
+      tldr: '本区第一必去：免费、不预约，无名战士墓换岗仪式 4–9 月每半小时、10–3 月每小时整点一场。639 英亩丘陵地形，步行为主，务必穿好鞋。',
       tags: [
         { t: '完全免费', c: 'free' },
         { t: '不需预约', c: 'free' },
@@ -139,6 +163,49 @@ module.exports = {
         '实用但反直觉的一条：<strong>步行或搭 Metro 进来的人不需要 REAL ID</strong>，' +
           '只走 Welcome Center 的常规人身安检；<strong>只有开车进入墓园的人（含乘客）才需要出示 REAL ID</strong>。' +
           '停在 Welcome Center 停车楼里也不需要'
+      ],
+      tour: [
+        '<strong>游客入口只有一个：Memorial Avenue 尽头的 Welcome Center（导航输入 1 Memorial Avenue）。</strong>' +
+          '不要试图从其他方向找门进——园区周界与 Joint Base Myer-Henderson Hall 相连，其余各门只对公务、葬礼与家属通行证开放。' +
+          '<strong>免费、不售票、不需预约</strong>，但<strong>全员必须过人身安检</strong>，官方建议「bring minimal to no bags」，请留 15–20 分钟。' +
+          '<strong>REAL ID 只对开车入园者（含车上乘客）适用；步行、搭 Metro、或把车停在 Welcome Center 停车楼的人都不需要出示</strong>——' +
+          '这一条最容易被误传。进门先在 Welcome Center 领一张免费园区地图，' +
+          '或装官方的 <strong>ANC Explorer</strong>（可按姓名检索墓位并导航，还能看墓碑正反面照片，是找具体某个人的唯一实用工具）。',
+        '<strong>一圈的正确走法：Welcome Center → JFK 墓 → Arlington House → Tomb of the Unknown Soldier → 沿 Roosevelt Drive 下坡回 Welcome Center。</strong>' +
+          '这三处在同一条坡线上、顺路，不必二选一：' +
+          '<strong>JFK 墓（Eternal Flame）在西侧山坡中段</strong>，' +
+          '<strong>Arlington House 就在 JFK 墓正上方的山顶</strong>（两者垂直距离约 100 米、走 3–5 分钟），' +
+          '<strong>Tomb 在 JFK 墓以南约 600 米、另一处高地上</strong>。' +
+          '<strong>Welcome Center 到 Tomb 约 1.2 公里、持续上坡，步行 20–25 分钟</strong>；' +
+          '<strong>这一整圈全程约 3.5–4 公里，含两段明显上坡</strong>。' +
+          '园区 639 英亩、全是起伏丘陵，官方自己的说法是「walking distances and hills require moderate physical exertion」——' +
+          '<strong>穿正经走路的鞋，这不是一个可以穿凉鞋逛的地方</strong>。',
+        '<strong>换岗仪式的时间必须先算好，因为频率随季节变，而且四季差别很大。</strong>' +
+          '官方原文：「changed in an elaborate ceremony which happens <strong>every hour on the hour from October 1 through March 31, ' +
+          'and every half hour from April 1 through September 30</strong>」。' +
+          '<strong>也就是说：4–9 月每半小时一场，等待上限 30 分钟；10–3 月只有整点一场，错过就是整整一小时。</strong>' +
+          '再叠上 8:00–17:00 的开放时间，<strong>十月至三月实际能看到的是 9:00 至 16:00 的八个整点</strong>' +
+          '（8:00 是开门时刻，来不及安检加上那段上坡）。' +
+          '<strong>提前 10–15 分钟到广场站好</strong>；relief commander 出场后会转身要求全场起立并保持安静，仪式约 6–10 分钟。' +
+          '闭园时段哨兵每 2 小时换一次，公众看不到。',
+        '<strong>园内接驳车 ANC Tours 是收费的，不是免费摆渡车——这一点常被误解。</strong>' +
+          '<strong>成人约 $21.50 起</strong>（军人／退伍军人约 $11.50 起），' +
+          '45 分钟连续环线、可随上随下，<strong>8:30–16:00 从 Welcome Center 发车，工作日 7 站、周末 8 站</strong>（周末加 Section 60）；' +
+          '<strong>持残障停车证者本人加一名同行者免费</strong>。' +
+          '<strong>怎么选：体力好、能给这里 2.5 小时以上的人，步行完全可行而且自由得多</strong>，' +
+          '沿途的墓碑列阵与地形起伏本身就是这里最打动人的部分；' +
+          '<strong>带老人小孩、腿脚不便、或全程只有 90 分钟的人，买票明显更划算</strong>——光是免掉 Welcome Center 到 Tomb 那 1.2 公里上坡就值回票价。',
+        '<strong>这是一座仍在使用的现役公墓，不是公园，这条规矩排在所有游览建议之前。</strong>' +
+          '<strong>工作日每天有 27–30 场葬礼在进行</strong>。' +
+          '<strong>遇到灵车队列或正在进行的仪式，请停步、让行、保持安静，不要穿行队伍、不要拍摄、不要在附近交谈</strong>；' +
+          '葬礼也会导致接驳车改线或临时封闭某些道路与站点。' +
+          '<strong>不要跨越、倚靠、坐或站在墓碑上</strong>。' +
+          '园内<strong>禁止骑行与滑板、禁止跑步与野餐、禁带宠物</strong>（服务犬与军犬除外）。',
+        '<strong>卫生间与饮水集中在 Welcome Center，园内没有任何餐饮，也不允许野餐——请进园前吃饱、带一瓶水。</strong>' +
+          '这是本区最需要自备补给的一站，尤其是夏末初秋正午在无遮荫的坡地上体感很闷。' +
+          '<strong>可以跳过的部分：Section 60、各国纪念树与外围的专题纪念物，除非有特定目标，对第一次来的人意义不大</strong>——' +
+          '省下的时间放在 <strong>Tomb of the Unknown Soldier、JFK 墓、Arlington House</strong> 这条主线上，' +
+          '它们合起来就是这里八成以上的价值。'
       ],
       photo: '建筑 <strong>4/5</strong>，纪实／仪式 <strong>5/5</strong>，风光 <strong>2/5</strong>。' +
         '换岗仪式与墓碑列阵都是极强的题材，Arlington House 的柱廊与东望轴线也很上镜。' +
@@ -189,15 +256,32 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>2.5–4 小时（含安检 15–20 分钟）。</strong>' +
+          '分配：Welcome Center 展陈与领地图 15 分钟、上坡到 JFK 墓 20 分钟并停留 10 分钟、' +
+          'Arlington House 与东望台地 30 分钟、Tomb of the Unknown Soldier 含等换岗 30–45 分钟、下坡回程 20 分钟。' +
+          '<strong>只看换岗仪式与 JFK 墓、且搭收费接驳车往返：1.5–2 小时。</strong>' +
+          '<strong>要在换岗上不赌运气，请按季节留足等待：4–9 月最多等 30 分钟，10–3 月最多等 60 分钟。</strong>' +
+          '全程步行 3.5–4 公里、丘陵地形，比同样时长的平地景点累得多' +
+          '（官方口径：「Walking distances and hills require moderate physical exertion」）。' +
+          '要找具体某个人的墓另加 20–40 分钟',
         book: '<strong>不需预约</strong>，墓园与 Arlington House 均免票免预约。tram 车票可现场在 Welcome Center 购买或线上先买，也不需预约',
-        ticket: '<strong>入园完全免费</strong>。可选的 interpretive tram tour <strong>成人约 $21.50 起</strong>' +
-          '（军人／退伍军人票约 $11.50 起，20 人以上团体票约 $17.50 起）；<strong>持残障停车证者本人加一名同行者免费搭乘</strong>',
-        hours: '官方口径：<strong>Arlington National Cemetery is open daily from 8 a.m. to 5 p.m.</strong>（每日 8:00–17:00）。' +
+        ticket: '<strong>入园完全免费</strong>，墓园本体、Tomb of the Unknown Soldier、换岗仪式、JFK 墓与 Arlington House 一律不收费、不售票。' +
+          '可选的 interpretive tram tour（ANC Tours）<strong>成人约 $21.50 起</strong>' +
+          '（军人／退伍军人票约 $11.50 起，20 人以上团体票约 $17.50 起）；' +
+          '<strong>持残障停车证者本人加一名同行者免费搭乘</strong>。' +
+          '唯一的其他花费是 Welcome Center 停车楼的按小时停车费。' +
+          '（据 arlingtoncemetery.mil 与 arlingtontours.com，<strong>2026-09-15 核实</strong>）',
+        hours: '官方原文：<strong>Arlington National Cemetery is open daily from 8 a.m. to 5 p.m.</strong>（每日 8:00–17:00，全年无休）。' +
+          '<strong>换岗仪式：4 月 1 日至 9 月 30 日每半小时一场，10 月 1 日至次年 3 月 31 日每小时整点一场</strong>' +
+          '（官方原文「every hour on the hour from October 1 through March 31, and every half hour from April 1 through September 30」）。' +
           '<strong>Arlington House 与其博物馆、两处 Enslaved Quarters：9 月至次年 5 月 9:30–16:30</strong>' +
           '（6–8 月为 9:00–16:30），<strong>宅邸最后入场 16:00</strong>，' +
           '仅 New Year\u2019s Day、Thanksgiving、Christmas 三天闭馆。' +
-          'tram 8:30–16:00 发车（<strong>ANC 官网写「every 20 minutes」，运营商官网写「every 30 minutes」，两处口径不一致，以现场告示为准</strong>）。' +
-          '另需注意：部分第三方来源称 4–9 月延长至 19:00 闭园，<strong>但 arlingtoncemetery.mil 现行页面只写 8:00–17:00，未能从官方渠道确认延长时段</strong>',
+          '<strong>ANC Tours 接驳车 8:30–16:00 从 Welcome Center 发车，45 分钟连续环线</strong>' +
+          '（<strong>ANC 官网写「every 20 minutes」，运营商官网写「every 30 minutes」，两处口径不一致，以现场告示为准</strong>）。' +
+          '另需注意：部分第三方来源称 4–9 月延长至 19:00 闭园，' +
+          '<strong>但 arlingtoncemetery.mil 现行页面只写 8:00–17:00，未能从官方渠道确认存在延长时段</strong>；' +
+          '有疑问请电 <strong>877-907-8585</strong>。（<strong>2026-09-15 核实</strong>）',
         parking: 'Welcome Center 停车楼（导航输入 <strong>1 Memorial Avenue</strong>），按小时收费；' +
           '<strong>停这里不需要 REAL ID</strong>。更省事的是搭 Metro Blue Line 到 Arlington Cemetery 站，出站步行 5 分钟即达正门。' +
           '<strong>若当天先拍 Iwo Jima Memorial，可从北侧 Ord and Weitzel Gate 步行入园</strong>（距 Rosslyn 站 15 分钟）',
@@ -217,12 +301,16 @@ module.exports = {
           '安检时手机、帽子与口袋物品要举过头顶通过。' +
           '<strong>刀刃超过四英寸、酒精、喷雾、扬声设备、大于 8.5×11 英寸的旗帜均禁入</strong>；' +
           '除服务犬与军犬外一律禁带宠物',
-        '<strong>换岗仪式频率 10 月 1 日切换</strong>：4/1–9/30 每半小时一场，10/1–3/31 每小时整点一场。' +
-          '按 8:00–17:00 的开放时间算，十月下旬实际可看场次只有整点的八次',
+        '<strong>换岗仪式频率按季节分两档（官方原文）：4 月 1 日至 9 月 30 日每半小时一场，10 月 1 日至次年 3 月 31 日每小时整点一场。</strong>' +
+          '按 8:00–17:00 的开放时间算，<strong>十月至三月实际可看的只有 9:00–16:00 的八个整点</strong>，' +
+          '四月至九月则多出每个半点的场次。（<strong>2026-09-15 核实于 arlingtoncemetery.mil</strong>）',
         '园内<strong>禁止骑行与滑板</strong>；个人自行车只能停在 Welcome Center 外的车架上，共享单车与滑板车须停在 Metro 站',
-        'Memorial Day 与 Veterans Day 等大型仪式日会启用更严格的禁带清单，' +
-          '<strong>那两天三脚架与自拍杆一律禁入、且禁止步行前往 Memorial Amphitheater</strong>。' +
-          '九月下旬至十月下旬无此类活动，但 <strong>tram 在 2026 年 12 月 19 日与 2027 年 1 月 9 日（Wreaths In / Wreaths Out）停运</strong>',
+        '<strong>Memorial Day（五月最后一个周一）与 Veterans Day（11 月 11 日）两天会启用更严格的禁带清单</strong>，' +
+          '三脚架与自拍杆一律禁入、且禁止步行前往 Memorial Amphitheater，全园人流也极大；' +
+          '这两天另有约 5,000 人规模的国家级仪式，想安静参观请避开。' +
+          '<strong>接驳车 ANC Tours 全年营业 363 天，仅 Wreaths In 与 Wreaths Out 两日停运</strong>' +
+          '（2026 年为 12 月 19 日、2027 年为 1 月 9 日；此后年份日期另定，' +
+          '<strong>核实于 2026-09-15</strong>），Memorial Day 与 Veterans Day 则延后到 14:00 才发车',
         '园内没有餐饮，Welcome Center 有洗手间与饮水；坡多且长，夏末初秋正午体感很闷'
       ],
       images: [
@@ -239,8 +327,9 @@ module.exports = {
       n: 2,
       name: '美国海军陆战队战争纪念碑（硫磺岛纪念碑）',
       en: 'United States Marine Corps War Memorial (Iwo Jima Memorial)',
+      must: 3.5,
       score: 5,
-      tldr: '免费、6:00–24:00 无门禁，是本区唯一能拍金光与蓝调的一线机位；九月下旬日出几乎正对 Washington Monument。',
+      tldr: 'Rosenthal 那张升旗照片的立体版，人像高 32 英尺；免费、6:00–24:00 无门禁，国旗二十四小时不降。看一圈 20–30 分钟，与 Netherlands Carillon、墓园北门连着走最顺。',
       tags: [
         { t: '完全免费', c: 'free' },
         { t: '6:00–24:00', c: 'free' },
@@ -255,7 +344,7 @@ module.exports = {
           '建造费约 85 万美元<strong>全部由陆战队员与相关人士捐款，未用一分联邦经费</strong>',
         '<strong>旗杆上的国旗依 1961 年的总统公告二十四小时不降</strong>——' +
           '这在美国是极少数被授权全天候悬挂国旗的地点之一，' +
-          '意味着<strong>你在任何时刻来都能拍到旗，不存在「旗降下来了」这种失手</strong>',
+          '意味着<strong>任何时刻到访都能看到旗，不存在「旗已降下」这种情况</strong>',
         '<strong>雕塑群朝东</strong>，Marines 面向 Potomac 河与 National Mall。' +
           '因此<strong>还原 Rosenthal 照片构图的「正面」要站在纪念碑的西侧向东拍</strong>——' +
           '这正好是能把 Lincoln Memorial、Washington Monument、U.S. Capitol 三个地标' +
@@ -266,6 +355,44 @@ module.exports = {
           '到 10 月 22 日日出方位角漂到 104°，日轮会落到轴线右侧十几度，对齐效果消失',
         '夜间群像的<strong>每张脸都由基座旁独立射灯单独打亮</strong>，' +
           '这是白天做不到的效果——70–200mm 拉近拍单个面孔的表情，是这里被严重低估的一个题材'
+      ],
+      tour: [
+        '<strong>先明确这一站的分量：它是一座露天纪念碑广场，没有室内、没有展陈、没有解说中心，看一圈 20–30 分钟就够。</strong>' +
+          '免费、无门无栅栏、不需要票也不需要预约，<strong>每天 6:00–24:00 全年开放</strong>。' +
+          '停车场在纪念碑西侧的 Marshall Drive 旁、<strong>免费</strong>，' +
+          '<strong>到广场约 115 米、步行 2 分钟，有坡道与台阶两条路径，轮椅与推车走坡道</strong>。' +
+          '周末与晴好傍晚停车场会满，清早基本空着。',
+        '<strong>正确的看法是绕基座走一整圈，而不是在正面拍张照就走——真正的内容都刻在基座上。</strong>' +
+          '雕塑群<strong>朝东</strong>，所以<strong>还原 Rosenthal 那张照片的「正面」在纪念碑的西侧</strong>，' +
+          '站在那里看群像时，<strong>身后正好是 Lincoln Memorial、Washington Monument 与 U.S. Capitol 排成一线的全景</strong>。' +
+          '黑色花岗岩基座上<strong>镌刻着陆战队自 1775 年建军以来历次参战的战役与地名</strong>，' +
+          '绕一圈读完是这一站最有信息量的部分；' +
+          '南侧刻着 Nimitz 的那句 <strong>「Uncommon Valor was a Common Virtue」</strong>。' +
+          '<strong>旗杆上的国旗依 1961 年的总统公告二十四小时不降</strong>，任何时刻来都能看到旗。',
+        '<strong>这一站的最大价值在于位置，务必和旁边两处连着走，不要单独跑一趟。</strong>' +
+          '<strong>到 Netherlands Carillon 只有约 250 米、3–4 分钟</strong>（缓坡铺装路）；' +
+          '<strong>Arlington National Cemetery 的北门 Ord and Weitzel Gate 就在南侧，可步行入园</strong>' +
+          '（该门距 Metro Rosslyn 站步行 15 分钟）。' +
+          '<strong>三处串成一条线是本区最省力的组合。</strong>' +
+          '时间上有个现成的便利：<strong>这里 6:00 就能进，而墓园要 8:00 才开门</strong>——' +
+          '清早先看这两座纪念碑、再从北门进墓园，动线不回头。',
+        '<strong>卫生间就在本纪念碑与 Netherlands Carillon 之间的 comfort station，这是这片坡地上唯一一处。</strong>' +
+          'NPS 官方钟点：<strong>4 月 15 日至 10 月 31 日 7:30–20:00；11 月 1 日至次年 4 月 14 日 7:30–18:00</strong>' +
+          '（男女各一间加一间单人间，全部无障碍并设婴儿换洗台，门外有带顶棚的长椅）。' +
+          '<strong>换句话说 6:00–7:30 到场时厕所还没开。</strong>' +
+          '<strong>这一带没有任何餐饮、没有自动售货机</strong>，请自带水；' +
+          '广场四周无遮荫、无座椅，秋冬清晨风大且体感明显低于市区。',
+        '<strong>一年里唯一会被关掉的时段是夏季的 Sunset Parade。</strong>' +
+          '陆战队在 6–7 月的部分周二傍晚在此举行一小时的军乐与静默操演表演，' +
+          '<strong>表演日广场 18:00–21:00 对公众关闭</strong>（另有 8 月初两场为 17:30–20:30，具体日期逐年公布）。' +
+          '<strong>秋、冬、春三季没有此类活动，广场全天可用。</strong>' +
+          '想看表演的人请查 barracks.marines.mil 的当年档期并提前很久到场占位。',
+        '<strong>这里是纪念地而不是公园，几条规矩要知道：</strong>' +
+          'NPS 明文<strong>禁止在雕塑与阅兵草坪上进行球类活动与放风筝</strong>，' +
+          '宠物须用不超过六英尺的牵引绳。' +
+          '<strong>商业拍摄、婚礼与团体活动需事先申请许可（703-289-2513）</strong>，' +
+          '普通游客的记录性拍摄不受影响。' +
+          '带孩子来的话，基座上的战役铭文与「六个人合力推一根杆」的动势比讲解牌更容易讲明白。'
       ],
       photo: '建筑／雕塑 <strong>5/5</strong>，城市天际线 <strong>5/5</strong>，人像 <strong>2/5</strong>。' +
         '<strong>它同时拥有一线雕塑主体、DC 三地标背景、全天候旗帜、夜间专业布光，' +
@@ -289,12 +416,12 @@ module.exports = {
         {
           name: '同一西侧机位（日落顺光 + 蓝调射灯）',
           view: [38.890438, -77.069724],
-          desc: '同一站位、完全相反的用法。<strong>你面朝东，太阳在你背后的西方落下，' +
-            '因此低角度暖光会正面打亮群像的可见面</strong>，而身后的 DC 天际线此时处于阴影与冷色调中——' +
+          desc: '同一站位、完全相反的用法。<strong>站位朝东，太阳在身后的西方落下，' +
+            '因此低角度暖光会正面打亮群像的可见面</strong>，而远处的 DC 天际线此时处于阴影与冷色调中——' +
             '<strong>这是拍「纪念碑本体」的正确时段，不是日出</strong>。' +
-            '<strong>9 月 25 日窗口 18:15–19:00；10 月 22 日窗口 17:35–18:20。</strong>' +
+            '<strong>秋季窗口举例：九月下旬约 18:15–19:00，十月下旬约 17:35–18:20。</strong>' +
             '日落后不要走：<strong>射灯在暮色中亮起、天空还剩深蓝的那 15–25 分钟是全天最好的一张</strong>' +
-            '（9/25 约 19:05–19:26，10/22 约 18:25–18:46）。' +
+            '（同上两个时段分别约为 19:05–19:26 与 18:25–18:46）。' +
             '<strong>此时必须上三脚架</strong>，f/8、ISO 100、1–4 秒；青铜的暖射灯与蓝天补色对比极强。' +
             '露天场地无门禁，可以一路拍到 24:00。'
         },
@@ -309,13 +436,24 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>20–40 分钟。</strong>' +
+          '分配：西侧正面看群像并回望 Lincoln–Washington Monument–Capitol 的东望全景 10 分钟、' +
+          '绕基座一圈读历次战役铭文 10–15 分钟、走到旗杆下与南侧 Nimitz 铭文 5 分钟。' +
+          '<strong>只看一眼群像：10 分钟。</strong>' +
+          '<strong>与 Netherlands Carillon 连起来走（相距 250 米）：合计 40–60 分钟</strong>；' +
+          '再接 Arlington National Cemetery 的话，这里应安排在墓园之前或之后的同一段行程里。' +
+          '官方未给出建议参观时长，以上按露天广场规模与基座铭文长度推算',
         book: '<strong>不需预约</strong>。仅商业拍摄、婚礼与团体活动需申请许可，电话 703-289-2513',
-        ticket: '<strong>完全免费</strong>',
+        ticket: '<strong>完全免费</strong>，无任何分档与门票；停车同样免费。' +
+          '（据 nps.gov/gwmp，<strong>2026-09-15 核实</strong>）',
         hours: 'NPS 官方原文：<strong>The memorial grounds are open year-round from 6 am until midnight.</strong>' +
           '（每日 6:00–24:00，全年无休）。' +
-          '<strong>需要注意但本次不受影响的一点</strong>：夏季 Sunset Parade 期间' +
-          '（6–7 月部分周二 18:00–21:00，2026 年另加 8 月 5 日与 8 月 12 日 17:30–20:30）纪念碑广场会对公众关闭，' +
-          '<strong>九月下旬至十月下旬没有此类活动，广场全天可用</strong>',
+          '<strong>卫生间（本纪念碑与 Netherlands Carillon 之间的 comfort station）官方钟点：' +
+          '4 月 15 日至 10 月 31 日 7:30–20:00，11 月 1 日至次年 4 月 14 日 7:30–18:00</strong>。' +
+          '<strong>唯一的季节性关闭是夏季 Sunset Parade</strong>：' +
+          '6–7 月部分周二 <strong>18:00–21:00</strong> 广场对公众关闭，' +
+          '另有 8 月初两场为 <strong>17:30–20:30</strong>（具体日期逐年公布，请查 barracks.marines.mil）。' +
+          '<strong>秋、冬、春三季无此类活动。</strong>（<strong>2026-09-15 核实</strong>）',
         parking: 'Marshall Drive 上纪念碑西侧有免费停车场（约 115 米，见 park 坐标）。' +
           '<strong>周末与晴好傍晚会满，日出时段几乎总是空的</strong>。' +
           '公共交通：Metro Rosslyn 站（Blue／Orange／Silver）步行 10–15 分钟，' +
@@ -330,7 +468,9 @@ module.exports = {
         '<strong>与 Arlington National Cemetery 的联动是本区最高效的一段行程结构</strong>：' +
           '这里 6:00 就能进，墓园 8:00 才开；<strong>拍完日出后从北侧 Ord and Weitzel Gate 步行入园即可</strong>，' +
           '不必回停车场绕行',
-        '纪念碑附近已建有洗手间与饮水台，但清晨可能未开',
+        '<strong>卫生间在本纪念碑与 Netherlands Carillon 之间，官方钟点 4/15–10/31 为 7:30–20:00、11/1–4/14 为 7:30–18:00</strong>' +
+          '（<strong>2026-09-15 核实于 nps.gov/gwmp</strong>）——' +
+          '<strong>也就是说 6:00 开园到 7:30 之间厕所是锁着的</strong>，清早到场请事先安排',
         '广场周边无遮挡、无座椅，秋季清晨风大且体感明显低于市区，<strong>日出机位建议加一层防风外套与手套</strong>',
         '雕塑近旁的射灯亮度很高，<strong>夜景构图时注意别让灯具本体入画</strong>，或用它做星芒'
       ],
@@ -344,12 +484,191 @@ module.exports = {
       ]
     },
     {
+      id: 'air-force-memorial',
+      n: 21,
+      name: '空军纪念碑',
+      en: 'United States Air Force Memorial',
+      coords: [38.868679, -77.066697],
+      must: 2,
+      score: 4,
+      tldr: '三根最高 270 英尺的不锈钢尖塔立在俯瞰五角大楼与 Potomac 的高地上，造型取自雷鸟表演队的「炸弹爆裂」尾迹。免费、停车免费；<strong>只能从 Columbia Pike 进，且园区周边有在施工地</strong>。二十到三十分钟的顺路一停。',
+      tags: [
+        { t: '完全免费', c: 'free' },
+        { t: '停车免费', c: 'free' },
+        { t: '开放时间有官方矛盾', c: 'risk' },
+        { t: '联邦假日闭园', c: 'risk' },
+        { t: '周边在施工', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>三根不锈钢尖塔合称「Soaring to Glory」，最高一根 270 英尺</strong>，' +
+          '造型取自<strong>美国空军雷鸟表演队（Thunderbirds）表演「bomb burst」机动时四散拉开的尾迹</strong>——' +
+          '原本的编队是四条尾迹，这里刻意只留三条，第三条的缺口象征阵亡者。' +
+          '<strong>2006 年 10 月 14 日落成</strong>，' +
+          '官方定位是「<strong>the Virginia gateway into the National Memorial Corridor</strong>」' +
+          '（从弗吉尼亚一侧进入国家纪念区走廊的门户）',
+        '<strong>纪念碑建在一块俯瞰五角大楼与 Potomac 河的高地（promontory）上，海拔比河谷高出不少</strong>。' +
+          '这是它与 Arlington Ridge 上那两座纪念碑（Marine Corps War Memorial、Netherlands Carillon）性质相同' +
+          '而位置相反的一处高位平台：' +
+          '<strong>后两者在墓园以北，本站在墓园以南</strong>，' +
+          '因此<strong>视野里能同时收进五角大楼的巨大屋顶轮廓与 DC 的主要地标</strong>，' +
+          '角度与北岸那两处完全不同',
+        '<strong>广场地面的组成很简单，二十分钟能看完</strong>：' +
+          '三根尖塔本体、' +
+          '<strong>一组四人的青铜 Honor Guard 立像</strong>（表现空军仪仗队的检阅姿态）、' +
+          '<strong>两道各约 56 英尺长的花岗岩铭文墙</strong>' +
+          '（南墙刻空军荣誉勋章获得者姓名，北墙刻空军核心价值与历史语句）、' +
+          '以及中央的 <strong>Runway to Glory</strong> 铺装轴线。' +
+          '<strong>没有室内展陈、没有游客中心、没有商店</strong>'
+      ],
+      tour: [
+        '<strong>最重要的一条排在最前：进园只有一条路，Columbia Pike 是唯一入口。</strong>' +
+          'AFDW 官网原文「<strong>Columbia Pike is the sole entrance to the Air Force Memorial</strong>」' +
+          '——这是<strong>因周边工程而改过的交通动线</strong>，' +
+          '导航如果把车导向 Air Force Memorial Drive 的其他方向或从 S Joyce Street 一侧接近，会走不进去。' +
+          '地址 <strong>1 Air Force Memorial Drive, Arlington, VA 22204</strong>。' +
+          '<strong>园区内与周边有正在施工的工地，官方明确要求行人不要进入或穿越施工区</strong>，' +
+          '现场围挡与临时动线以指示牌为准。' +
+          '有疑问请电 <strong>(240) 612-0478</strong> 或写 afdw.af.memorial.workflow@us.af.mil。',
+        '<strong>免费，但开放时间在两个官方来源之间有矛盾，这一条务必出行前自己打电话确认。</strong>' +
+          '<strong>入园与停车都免费</strong>，不售票、不预约。' +
+          '但钟点有两套口径：' +
+          '<strong>运营方 AFDW 官网当前的公告写「The Air Force Memorial is open 8:00 a.m. – 5:00 p.m. daily」（每日 8:00–17:00）</strong>；' +
+          '而 <strong>arlingtoncemetery.mil 于 2026 年 2 月发布的政策公告写的是季节两档：' +
+          '4 月 1 日至 9 月 30 日 8:00–19:00，10 月 1 日至次年 3 月 31 日 8:00–18:00</strong>。' +
+          '<strong>两者不一致，推测与在施工程有关，未能从官方渠道判明哪一套在效。</strong>' +
+          '<strong>按 8:00–17:00 这个更保守的版本安排最安全</strong>，' +
+          '或出行前电 <strong>(240) 612-0478</strong> 确认。' +
+          '另外：<strong>本纪念碑在联邦假日闭园</strong>（与本区其他 NPS 露天纪念地不同，这一点容易失手），' +
+          '且不时因维护整段关闭数周（例如 2026 年 3 月 23 日至 4 月 24 日为清洗与检查尖塔而全面闭园）。' +
+          '（<strong>2026-09-15 核实于 afdw.af.mil 与 arlingtoncemetery.mil</strong>）',
+        '<strong>一圈的走法：从停车场上到广场，沿中央铺装轴线走到尖塔正下方，再左右各走一道铭文墙，二十分钟收工。</strong>' +
+          '顺序建议：' +
+          '<strong>① 先走到三根尖塔正下方抬头看</strong>——' +
+          '尖塔的螺旋收分只有站在正下方才看得出来，从停车场远看是平面的三条线；' +
+          '<strong>② 南墙读荣誉勋章获得者名单、北墙读核心价值铭文</strong>，这是本站唯一有阅读量的部分；' +
+          '<strong>③ 看四人青铜 Honor Guard 立像</strong>；' +
+          '<strong>④ 走到广场东北缘的护栏边</strong>，' +
+          '<strong>俯瞰五角大楼的屋顶与远处 DC 的地标群</strong>，这是本站最好的十分钟。' +
+          '<strong>广场是硬质铺装、基本平坦，坡道齐备，轮椅与推车通行无障碍</strong>，' +
+          '这一点明显优于本区其他各站。',
+        '<strong>这一站的用法是「串在 Arlington 行程里」，不要单独跑一趟。</strong>' +
+          '它<strong>紧贴 Arlington National Cemetery 的南侧边界</strong>，' +
+          '与墓园 Welcome Center 隔着整个园区、<strong>开车绕行约 10 分钟</strong>' +
+          '（<strong>墓园内部没有通到这里的游客通道，不要试图从墓园里走过来</strong>）。' +
+          '公共交通：<strong>Metro Pentagon 站（Blue／Yellow）步行约 15 分钟，但需上一段明显的坡</strong>；' +
+          'Pentagon City 站略远。' +
+          '<strong>最顺的安排是自驾时在离开 Arlington 区域的路上顺道停一次</strong>，' +
+          '或与 Pentagon 9/11 Memorial 连着走（两处相距约 1.5 公里）。',
+        '<strong>没有卫生间、没有餐饮、没有遮荫——这是本站最实际的短板。</strong>' +
+          '广场上<strong>没有公共洗手间，也没有自动售货机或小卖部</strong>，' +
+          '请在到访前解决，并自带饮水。' +
+          '整个广场是开阔的硬铺装高地，<strong>夏季正午毫无遮荫、冬季风极大</strong>' +
+          '（高地位置使这里的体感温度明显低于市区）。' +
+          '<strong>可以跳过的部分：广场外缘的草坡与停车场周边没有任何内容</strong>，' +
+          '看完尖塔、两道铭文墙与东北缘的俯瞰就是全部。',
+        '<strong>这是现役军种的纪念地，几条规矩要知道。</strong>' +
+          '这里经常举行<strong>换岗、献花与追思仪式</strong>，' +
+          '<strong>遇到正在进行的仪式请停步、让行、保持安静</strong>；' +
+          '仪式期间广场部分区域会临时封闭。' +
+          '<strong>不要攀爬尖塔基座与铭文墙</strong>。' +
+          '<strong>团体活动、商业拍摄与婚礼需事先向 AFDW 申请许可</strong>。' +
+          '另外，<strong>本纪念碑位于 Reagan National Airport 的管制空域内且紧邻五角大楼，' +
+          '无人机一律禁止</strong>。'
+      ],
+      photo: '三根抛光不锈钢尖塔在晴天几乎是镜面，' +
+        '<strong>顺光时会过曝成一片白、逆光时又只剩剪影</strong>，' +
+        '侧光与薄云天最能看出螺旋收分的形体。' +
+        '广场东北缘向下俯瞰五角大楼与 DC 地标的角度是本站独有的。',
+      shots: [
+        {
+          name: '尖塔正下方仰视（螺旋收分）',
+          view: [38.868679, -77.066697],
+          desc: '<strong>站到三根尖塔交汇处的正下方向上仰视</strong>，' +
+            '这是唯一能看出塔身螺旋扭转与收分的位置，从远处看只是三条平面的线。' +
+            '<strong>超广角贴近基座、把三根塔一并收进画面</strong>；' +
+            '晴天顺光会把抛光不锈钢打成一片死白，<strong>薄云天或侧光时形体最清楚</strong>。' +
+            '广场硬质铺装、地面平坦，无门槛。'
+        }
+      ],
+      access: {
+        visit: '<strong>20–30 分钟。</strong>' +
+          '分配：走到尖塔正下方仰视 5–10 分钟、' +
+          '南北两道花岗岩铭文墙各 5 分钟、' +
+          '四人青铜 Honor Guard 立像 3 分钟、' +
+          '广场东北缘俯瞰五角大楼与 DC 地标 10 分钟。' +
+          '<strong>只看一眼尖塔：10 分钟。</strong>' +
+          '<strong>与 Pentagon 9/11 Memorial 连起来走（相距约 1.5 公里）：合计 1–1.5 小时。</strong>' +
+          '官方未给出建议参观时长，以上按露天广场规模与两道 56 英尺铭文墙的阅读量推算',
+        book: '<strong>不需预约、不售票。</strong>' +
+          '团体活动、商业拍摄与婚礼需事先向 Air Force District of Washington 申请许可' +
+          '（电 (240) 612-0478 或写 afdw.af.memorial.workflow@us.af.mil）',
+        ticket: '<strong>完全免费</strong>。官方原文「<strong>The Air Force Memorial is free and open to the public. ' +
+          'Parking is also free, though limited.</strong>」' +
+          '——<strong>入园与停车均免费，无任何分档</strong>，' +
+          '但<strong>停车位有限且先到先得</strong>。' +
+          '（据 afdw.af.mil，<strong>2026-09-15 核实</strong>）',
+        hours: '<strong>两个官方来源口径不一致，未能判明哪一套在效，出行前请自行确认。</strong>' +
+          '<strong>运营方 AFDW 官网当前公告：「The Air Force Memorial is open 8:00 a.m. – 5:00 p.m. daily」' +
+          '（每日 8:00–17:00）。</strong>' +
+          '<strong>arlingtoncemetery.mil 于 2026 年 2 月发布的政策公告则写季节两档：' +
+          '4 月 1 日至 9 月 30 日 8:00–19:00，10 月 1 日至次年 3 月 31 日 8:00–18:00。</strong>' +
+          '推测差异与在施工程有关。<strong>建议按 8:00–17:00 这个更保守的版本安排</strong>，' +
+          '或电 <strong>(240) 612-0478</strong> 确认。' +
+          '<strong>本纪念碑在联邦假日闭园</strong>（这一点与本区其他 NPS 露天纪念地不同）。' +
+          '<strong>另会因维护整段关闭数周</strong>' +
+          '（例：2026 年 3 月 23 日至 4 月 24 日为清洗与检查尖塔全面闭园，4 月 25 日重开；2026 年 7 月 4 日全天闭园）' +
+          '——<strong>此类关闭逐次公告，请查 afdw.af.mil/afmemorial</strong>。' +
+          '（<strong>2026-09-15 核实</strong>）',
+        parking: '<strong>园区自有停车场，免费，但车位有限、先到先得</strong>（官方原文「parking is limited and ' +
+          'available on a first-come, first-served basis」）。' +
+          '<strong>Columbia Pike 是唯一入口</strong>——' +
+          '这是因周边工程而改过的交通动线，' +
+          '<strong>导航务必确认走 Columbia Pike，从其他方向接近会进不来</strong>。' +
+          '公共交通：<strong>Metro Pentagon 站（Blue／Yellow）步行约 15 分钟，中途有一段明显上坡</strong>；' +
+          'Pentagon City 站略远。' +
+          '与 Arlington National Cemetery 的 Welcome Center 之间<strong>开车绕行约 10 分钟，' +
+          '墓园内部没有通到这里的游客通道</strong>',
+        walk: '停车场到广场约 <strong>150 米、步行 2–3 分钟，全程硬质铺装、坡道齐备</strong>。' +
+          '广场内绕完三根尖塔、两道铭文墙与东北缘俯瞰点合计约 <strong>400 米</strong>，' +
+          '<strong>地面基本平坦，轮椅与推车通行无障碍——这一点明显优于本区其他各站</strong>。' +
+          '到 Pentagon 9/11 Memorial 约 1.5 公里'
+      },
+      notes: [
+        '<strong>开放时间是本条目唯一需要自己再确认一次的事</strong>：' +
+          '<strong>AFDW 官网当前写每日 8:00–17:00，而 arlingtoncemetery.mil 的 2026 年 2 月政策公告写 4–9 月 8:00–19:00、' +
+          '10–3 月 8:00–18:00</strong>。' +
+          '<strong>两者矛盾，未能从官方渠道判明</strong>，' +
+          '按 17:00 闭园安排最保险，或电 <strong>(240) 612-0478</strong>',
+        '<strong>联邦假日闭园</strong>——这与 Marine Corps War Memorial、Netherlands Carillon、' +
+          'Theodore Roosevelt Island 那几处全年无休的 NPS 露天纪念地不同，' +
+          '<strong>假日出行时不要默认它开着</strong>',
+        '<strong>园区周边有在施工地，官方要求行人不要进入或穿越施工区</strong>；' +
+          '现场围挡与临时动线以指示牌为准，' +
+          '<strong>Columbia Pike 的唯一入口安排就是这项工程的结果</strong>',
+        '<strong>广场上没有卫生间、没有餐饮、没有自动售货机，也没有任何遮荫</strong>。' +
+          '高地位置使冬季风极大、体感明显低于市区；夏季正午则暴晒无处可躲',
+        '三根尖塔的形态取自雷鸟表演队「bomb burst」机动的尾迹，' +
+          '<strong>原编队是四条尾迹，这里只立三根，缺口象征阵亡者</strong>——' +
+          '知道这一点再看，广场的构图意图就清楚了',
+        '<strong>紧邻五角大楼且处于 Reagan National Airport 管制空域内，无人机一律禁止</strong>'
+      ],
+      images: [
+        { url: 'img/united-states-air-force-memorial-february-2022-1-95c6e5ce.jpg',
+          cap: '三根「Soaring to Glory」尖塔 · APK / CC BY-SA 4.0' },
+        { url: 'img/view-from-united-states-air-force-memorial-8227d5af.jpg',
+          cap: '自纪念碑高地俯瞰五角大楼与 DC 方向 · APK / CC BY-SA 4.0' },
+        { url: 'img/air-force-memorial-arlington-virginia-42a40af5.jpg',
+          cap: '尖塔仰视与螺旋收分 · Tony Webster / CC BY-SA 2.0' }
+      ]
+    },
+    {
       id: 'netherlands-carillon',
       n: 3,
       name: '荷兰钟塔',
       en: 'Netherlands Carillon',
+      must: 1.5,
       score: 4,
-      tldr: '紧邻硫磺岛纪念碑、免费、6:00–24:00；坡地是 Lincoln–Washington–Capitol 三点一线的最佳高位。塔身永久禁止攀登。',
+      tldr: '顺路十分钟的点位，不值得专程：<strong>塔身永久禁止攀登</strong>，网上「登塔看 DC 全景」的攻略已过期。免费、6:00–24:00，与硫磺岛纪念碑只隔 250 米，东侧坡地是三地标一线的眺望点。',
       tags: [
         { t: '完全免费', c: 'free' },
         { t: '6:00–24:00', c: 'free' },
@@ -361,7 +680,7 @@ module.exports = {
           '钟 1954 年运抵、1960 年 5 月 5 日（荷兰解放十五周年）在现址落成。' +
           '<strong>2019 年秋启动、2021 年完工的 440 万美元大修</strong>把全部外部钢板拆下清理更换、' +
           '按修订后的风荷载规范加固了立柱，荷兰大使馆同时增补三口钟，' +
-          '<strong>使它补齐半音音阶、升级为「Grand Carillon」</strong>——现在你看到的塔身漆面与钢板都是那次换新的',
+          '<strong>使它补齐半音音阶、升级为「Grand Carillon」</strong>——现在所见的塔身漆面与钢板都是那次换新的',
         '<strong>塔身永久不对公众开放，任何时候都不能登塔</strong>。' +
           'NPS 官方原文是「For your safety, the carillon structure is closed to visitors at all times」，' +
           '内部楼梯在底层即被铁栅封闭。<strong>网上仍在流传的「登塔看 DC 全景」是过时信息</strong>——' +
@@ -374,6 +693,42 @@ module.exports = {
         '<strong>季节提醒：塔基那片荷兰赠送的郁金香只在四月上旬前后开</strong>，' +
           '九月下旬到十月下旬看不到。此时 <strong>50 个花坛组成的 Floral Library 换的是菊花</strong>，' +
           '色彩仍在但形态完全不同；塔基两侧 Paul Phillip Koning 所作的两尊青铜卧狮全年都在'
+      ],
+      tour: [
+        '<strong>先把预期放平：这是一站「顺路十分钟」的点位，本身不值得专程跑一趟。</strong>' +
+          '塔不能进，地面上就是一座钢塔、两尊青铜卧狮和一片草坡，没有展陈、没有解说中心、没有商店。' +
+          '<strong>让它值得停下来的唯一理由是位置——它与 Marine Corps War Memorial 只隔约 250 米、步行 3–4 分钟</strong>，' +
+          '两处共用同一个免费停车场，一次走完毫无额外成本。' +
+          '如果不是已经在这片坡地上，可以跳过。',
+        '<strong>最重要的一条实用信息：塔身永久禁止攀登，任何时候都不行。</strong>' +
+          'NPS 官方原文是「For your safety, the carillon structure is <strong>closed to visitors at all times</strong>」' +
+          '（<strong>2026-09-15 核实于 nps.gov/gwmp</strong>），' +
+          '<strong>内部楼梯在底层即被铁栅封闭，不存在开放日、也没有任何预约或申请渠道</strong>。' +
+          '<strong>网上仍在流传的「登上钟塔俯瞰华盛顿」是过时信息</strong>——' +
+          '不要照着旧攻略绕塔找入口，更不要把它当成一个观景塔来安排时间。',
+        '<strong>实际能看的三样东西，十分钟走完。</strong>' +
+          '一是绕塔基走一圈，抬头看那 <strong>53 口悬挂在 127 英尺高开放式钢塔里的钟</strong>' +
+          '（荷兰人民为感谢二战期间与战后美援所赠，1960 年 5 月 5 日荷兰解放十五周年落成）；' +
+          '二是塔基两侧 Paul Phillip Koning 所作的<strong>两尊青铜卧狮</strong>，全年都在；' +
+          '三是<strong>走到塔东侧的下坡草地上</strong>——' +
+          '<strong>Lincoln Memorial、Washington Monument 与 U.S. Capitol 在这里几乎排成一条水平线</strong>' +
+          '（三者视角差只有两度），<strong>这是本区最整齐的一处 DC 全景眺望点，肉眼看也值得站一会儿</strong>。',
+        '<strong>钟声的时间安排要知道一下，尤其是带小孩的人。</strong>' +
+          '塔<strong>每日有自动演奏与整点报时</strong>，' +
+          '<strong>春夏秋三季另有客座演奏家的现场音乐会</strong>（场次逐年公布，需查 NPS 的活动日历）。' +
+          '<strong>整点时站在塔正下方音量相当大</strong>，' +
+          '想安静看全景就往东侧坡地走开几十米；反过来，想听钟就掐着整点到塔下。',
+        '<strong>季节性只有一条，但它是这里唯一真正值得专程的时候：塔基那片荷兰赠送的郁金香只在四月上旬前后开。</strong>' +
+          '那两周是本站一年里的高光。' +
+          '<strong>其余季节 50 个花坛组成的 Floral Library 换的是菊花等时令花</strong>，' +
+          '色彩仍在但形态完全不同，<strong>不要按郁金香的照片来期待</strong>。' +
+          '晚秋落叶后东侧坡地的视野反而比夏季干净，因为前方那几株成年乔木的树冠不再挡路。',
+        '<strong>停车、卫生间与接驳：与 Marine Corps War Memorial 共用 Marshall Drive 旁的免费停车场</strong>，' +
+          '到钟塔广场约 250 米缓坡铺装路、3–4 分钟，再到东侧三地标眺望点需下坡走 100–150 米。' +
+          '<strong>广场与坡地上没有洗手间</strong>，最近的一处在本站与 Marine Corps War Memorial 之间的 comfort station' +
+          '（<strong>4/15–10/31 为 7:30–20:00，11/1–4/14 为 7:30–18:00</strong>）。' +
+          '<strong>这一带完全没有餐饮与售货机。</strong>' +
+          '公共交通：Metro Rosslyn 站（Blue／Orange／Silver）步行 10–15 分钟。'
       ],
       photo: '城市天际线 <strong>5/5</strong>，建筑／构筑物 <strong>3/5</strong>，人像 <strong>3/5</strong>。' +
         '<strong>三地标水平并列的压缩画面是这个机位不可替代的产出</strong>，' +
@@ -408,12 +763,21 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>10–20 分钟。</strong>' +
+          '分配：绕塔基看 53 口钟与两尊青铜卧狮 5 分钟、走到东侧坡地看 Lincoln–Washington Monument–Capitol 三地标一线 10 分钟。' +
+          '<strong>只看一眼就走：5 分钟。</strong>' +
+          '<strong>与 Marine Corps War Memorial 连起来走（相距 250 米）：合计 40–60 分钟，这是本站的正确用法。</strong>' +
+          '四月上旬郁金香花期另加 15 分钟；赶上现场演奏会则按场次时长另加约一小时。' +
+          '官方未给出建议参观时长，以上按可看内容数量推算',
         book: '<strong>不需预约</strong>',
-        ticket: '<strong>完全免费</strong>',
-        hours: 'NPS 官方原文：<strong>The carillon grounds are open year-round from 6 am until midnight.</strong>' +
-          '（草坪与广场每日 6:00–24:00，全年无休）。' +
-          '<strong>塔身「closed to visitors at all times」，永久不可攀登。</strong>' +
-          '每日有自动演奏与整点报时；夏秋两季会安排客座演奏家的现场音乐会，具体场次需查 NPS 活动日历',
+        ticket: '<strong>完全免费</strong>，无任何分档；停车同样免费。' +
+          '（据 nps.gov/gwmp，<strong>2026-09-15 核实</strong>）',
+        hours: 'NPS 官方原文：<strong>The carillon grounds are open year-round from 6 am until midnight. ' +
+          'For your safety, the carillon structure is closed to visitors at all times.</strong>' +
+          '——<strong>草坪与广场每日 6:00–24:00、全年无休；塔身则永久不可攀登，没有开放日</strong>。' +
+          '<strong>卫生间（与 Marine Corps War Memorial 之间的 comfort station）：4/15–10/31 为 7:30–20:00，11/1–4/14 为 7:30–18:00。</strong>' +
+          '每日有自动演奏与整点报时；春夏秋会安排客座演奏家的现场音乐会，' +
+          '<strong>具体场次逐年公布，需查 NPS 活动日历</strong>。（<strong>2026-09-15 核实</strong>）',
         parking: '与 Marine Corps War Memorial 共用 Marshall Drive 旁的免费停车场（见 park 坐标）。' +
           '公共交通：Metro Rosslyn 站步行 10–15 分钟',
         walk: '停车场到钟塔广场 <strong>约 250 米、3–4 分钟</strong>，铺装路面缓坡；' +
@@ -429,7 +793,8 @@ module.exports = {
         '<strong>东侧坡地前方有若干成年乔木</strong>，具体机位需在现场左右挪动几米避开树冠；' +
           '秋末落叶后视野会比夏季明显干净',
         '塔身钟声在整点与自动演奏时段音量很大，<strong>如果同时在录视频需注意</strong>',
-        '广场与坡地上没有洗手间，最近的在 Marine Corps War Memorial 一侧'
+        '广场与坡地上没有洗手间与餐饮，最近的一处 comfort station 在本站与 Marine Corps War Memorial 之间' +
+          '（<strong>4/15–10/31 为 7:30–20:00，11/1–4/14 为 7:30–18:00</strong>）'
       ],
       images: [
         { url: 'img/netherlands-carillon-arlington-va-46796334702-06248bc3.jpg',
@@ -445,8 +810,9 @@ module.exports = {
       n: 4,
       name: '西奥多·罗斯福岛',
       en: 'Theodore Roosevelt Island',
+      must: 1.5,
       score: 3,
-      tldr: '人行桥正常开放、免费、6:00–22:00。九月下旬全绿基本没有拍点，十月最后一周秋色才值得来。',
+      tldr: '市区里的 88.5 英亩林地岛，免费、6:00–22:00；核心是山顶 Memorial Plaza 的铜像与四块引文碑柱。<strong>停车场只能从 GW Parkway 北行车道进</strong>，走错要绕 20 分钟。绿叶季节可以跳过。',
       tags: [
         { t: '完全免费', c: 'free' },
         { t: '6:00–22:00', c: 'free' },
@@ -472,11 +838,57 @@ module.exports = {
           '也是观鸟点（Roosevelt 本人是狂热鸟类爱好者，这段设计是刻意的）。' +
           '林中土石小径在密林里终日弱光，<strong>阴天反而比晴天好拍</strong>'
       ],
+      tour: [
+        '<strong>先判断该不该来：这是一座城市里的林地岛，不是景点密集的公园，在本区属于最后一顺位。</strong>' +
+          '岛上唯一成形的「可看物」是山顶那座 Memorial Plaza（铜像 + 四块花岗岩碑柱 + 两座水池），' +
+          '其余就是三条土石林间步道。<strong>没有展陈、没有商店、没有餐饮、没有游客中心。</strong>' +
+          '<strong>适合来的人：想在市区里走一小时安静林道的、观鸟的、带狗散步的（须牵引），' +
+          '以及十月最后一周至十一月上旬来看秋色的。</strong>' +
+          '<strong>五月至十月上旬的全绿季节，第一次来华盛顿的人完全可以跳过这一站</strong>，把时间给同区任何一处。',
+        '<strong>开车最容易犯的错，也是本条目最重要的一条：停车场只能从 George Washington Memorial Parkway 的北行车道驶入。</strong>' +
+          'NPS 官方原文：「Drivers can <strong>only</strong> reach Theodore Roosevelt Island from the <strong>northbound lanes</strong> ' +
+          'of the George Washington Memorial Parkway. After Memorial Bridge, follow the sign to turn right into the parking lot.」' +
+          '（入口位置在 Theodore Roosevelt Bridge 与 Key Bridge 之间。）' +
+          '<strong>南行车道没有任何进场匝道，走错了必须一路向南绕到 Reagan 机场附近掉头再回来，通常多花 15–25 分钟。</strong>' +
+          '导航到了也要认指示牌右转，不要跟着「最短路线」上南行道。' +
+          '<strong>车位约 90–100 个</strong>，周末容易满但周转快（NPS 称一般等不超过 15 分钟）；' +
+          '<strong>必须停在划线车位内——US Park Police 经常开罚单，停到草地上必罚</strong>。' +
+          '无障碍车位（1 个 van accessible 与 3 个标准无障碍）都在靠人行桥的南端。' +
+          '不想开车就从 Metro Rosslyn 站沿 Mount Vernon Trail 步行或骑行过来，10–15 分钟。',
+        '<strong>上岛与一圈的走法：从停车场南端跨那座宽混凝土人行桥上岛</strong>' +
+          '（<strong>岛上禁行汽车与自行车</strong>，自行车须锁在停车场的车架上）。' +
+          '过桥后是砾石路上坡，<strong>约 0.4 公里、8–10 分钟到 Memorial Plaza</strong>。' +
+          '广场上是 <strong>17 英尺高的 Roosevelt 演讲姿态铜像</strong>，四周立着' +
+          '<strong>四块巨型花岗岩碑柱，分别以 YOUTH、THE STATE、MANHOOD、NATURE 为题刻着十五段他的引文</strong>。' +
+          '<strong>把这十五段读一遍才是这一站真正的内容</strong>——不读就只是看了一座铜像，' +
+          '十分钟结束，也难怪很多人觉得白来。' +
+          '再往北走 10–15 分钟是 <strong>Swamp Trail 的木栈道段，全岛唯一看得见水面与对岸的开阔处</strong>，也是主要观鸟点' +
+          '（Roosevelt 本人是狂热鸟类爱好者，这段设计是刻意的）。',
+        '<strong>全岛没有一条铺装路面，这一点要提前知道。</strong>' +
+          '过桥后是 1–1.5 英寸碎石路上坡（<strong>坡度 1%–12%，其中约 60 米陡于 9%</strong>），' +
+          '<strong>广场路口另有三级 5 英寸台阶，东侧有带扶手的金属坡道可以绕开</strong>。' +
+          '<strong>雨后泥泞、木栈道很滑，请穿抓地鞋，不要穿凉鞋或平底皮鞋</strong>；' +
+          '推婴儿车可以走主砾石路但会比较费力。' +
+          '<strong>夏末初秋沼泽段蚊虫明显，带驱蚊剂</strong>。手机信号一般可用，林中偶有弱区。',
+        '<strong>卫生间有一处，而且有一条很多人踩坑的季节规则。</strong>' +
+          '<strong>唯一的卫生间在岛南端 Woods Trail 上的 comfort station，距 Memorial Plaza 约三分之一英里</strong>' +
+          '（男女各一间，有无障碍隔间与瓶装水灌装点，但<strong>没有婴儿换洗台</strong>）。' +
+          '<strong>NPS 官方明示：「Restrooms on the island close for the winter, usually from October to April. ' +
+          'During this time a portable toilet is located near the restrooms.」</strong>' +
+          '——<strong>也就是说十月到次年四月只有一个移动厕所，秋冬来访请按这个预期安排</strong>' +
+          '（<strong>2026-09-15 核实于 nps.gov/this</strong>）。' +
+          '<strong>岛上没有任何餐饮与售货机，垃圾须自行带出</strong>；Memorial Plaza 与 Swamp Trail 栈道段有长椅。',
+        '<strong>时间紧就只走「人行桥 → Memorial Plaza → 原路返回」，45 分钟能拿下八成价值</strong>，' +
+          '跳过 Swamp Trail 与环岛的 Upland／Woods Trail。' +
+          '<strong>开放时间 6:00–22:00</strong>，但 <strong>NPS 明确提醒这是城市环境中的岛、天黑后请谨慎</strong>——' +
+          '<strong>入夜后不建议单独在林中深处停留</strong>，要在暮色里待着就留在人行桥与停车场一侧的开阔处。' +
+          '人最少的是工作日清晨；周末上午跑步与遛狗的人相当多，但基本不影响广场。'
+      ],
       photo: '风光 <strong>3/5</strong>（十月末可到 4/5），建筑／纪念物 <strong>4/5</strong>，人像 <strong>3/5</strong>。' +
         '花岗岩碑柱与铜像的构成很强，而且<strong>广场是全岛唯一有开阔顶光与侧光的地方</strong>；' +
-        '林间步道则严重依赖阴天柔光。<strong>致命的季节性问题：九月下旬 DC 低地完全没有转色，' +
-        '此时这里就是一座普通的绿色城市林地，性价比在本区七个点里垫底——' +
-        '如果行程排在九月下旬，这一站可以直接舍弃。</strong>',
+        '林间步道则严重依赖阴天柔光。<strong>致命的季节性问题：五月至十月上旬 DC 低地完全没有转色，' +
+        '此时这里就是一座普通的绿色城市林地，性价比在本区垫底——' +
+        '绿叶季节这一站可以直接舍弃。</strong>',
       shots: [
         {
           name: 'Memorial Plaza（花岗岩碑柱与 Roosevelt 铜像）',
@@ -513,11 +925,27 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45 分钟–2 小时。</strong>' +
+          '分配：过桥并上坡到 Memorial Plaza 单程 8–10 分钟、' +
+          '广场上读四块碑柱的十五段引文并绕两座水池 20–30 分钟、' +
+          '再走到 Swamp Trail 木栈道段来回 25–30 分钟。' +
+          '<strong>只看 Memorial Plaza 原路往返：45 分钟，这是时间紧时的正确取舍。</strong>' +
+          '<strong>把三条主步道都走一遍环岛一圈：2–2.5 小时。</strong>' +
+          '观鸟或十月末专程看秋色的人请按 2 小时以上留。' +
+          '官方未给出建议参观时长，以上按 0.4 公里进场距离与 88.5 英亩岛屿的步道长度推算',
         book: '<strong>不需预约</strong>',
-        ticket: '<strong>完全免费</strong>',
-        hours: 'NPS 官方口径：<strong>岛每日 6:00–22:00 开放</strong>（官方原文「The island is open from 6 am to 10 pm」）。' +
-          '<strong>NPS 提醒这是城市环境中的岛，天黑后请谨慎</strong>。' +
-          'Current Conditions 页面（最后更新 2025 年 11 月 14 日）未列任何关闭告示',
+        ticket: '<strong>完全免费</strong>，无入园费、无停车费，也不需要 America the Beautiful 年卡。' +
+          '（据 nps.gov/this，<strong>2026-09-15 核实</strong>）',
+        hours: 'NPS 官方原文：<strong>「The island is open from 6 am to 10 pm」</strong>' +
+          '（每日 6:00–22:00，停车场同此时段）。' +
+          '<strong>NPS 另提醒「the island is in an urban setting and use caution if visiting after dark」。</strong>' +
+          '<strong>卫生间（岛南端 Woods Trail 上的 comfort station）有季节性关闭：' +
+          '官方原文「Restrooms on the island close for the winter, usually from October to April. ' +
+          'During this time a portable toilet is located near the restrooms.」' +
+          '——十月至次年四月只有移动厕所。</strong>' +
+          '<strong>具体的关闭与重开日期官网未列出，未能从官方渠道确认</strong>，' +
+          '可电 <strong>703-289-2500</strong> 或写 gwmp_vssouth@nps.gov 询问。' +
+          'Current Conditions 页面未列任何在效的园区关闭告示。（<strong>2026-09-15 核实</strong>）',
         parking: '<strong>停车场只能从 George Washington Memorial Parkway 的北向车道驶入</strong>' +
           '（位置在 Theodore Roosevelt Bridge 与 Key Bridge 之间），' +
           '<strong>南向车道无法进入，走错必须绕一大圈</strong>。' +
@@ -531,13 +959,16 @@ module.exports = {
           '东侧有带扶手的金属坡道可绕开。到 Swamp Trail 栈道段再走 <strong>10–15 分钟</strong>'
       },
       notes: [
-        '<strong>时间价值判断（最重要的一条）</strong>：九月下旬 DC 低地零转色，这里此时只值得' +
-          '「顺路 45 分钟拍一下 Memorial Plaza」；<strong>要看秋色请排到 10 月最后一周或 11 月第一周</strong>，' +
-          '10 月 22 日只是 near-peak 边缘，赌成分不小',
+        '<strong>时间价值判断（最重要的一条）</strong>：九月下旬至十月上旬 DC 低地零转色，' +
+          '这一站此时只值得「顺路 45 分钟看一下 Memorial Plaza」；' +
+          '<strong>要看秋色请排到 10 月最后一周或 11 月上旬</strong>，' +
+          '<strong>10 月 20–27 日只是 near-peak 边缘，赌的成分不小</strong>',
         '<strong>三脚架允许</strong>，无器材限制。商业拍摄需向 George Washington Memorial Parkway 申请许可',
         '<strong>岛上禁行汽车与自行车</strong>；自行车须停在停车场的车架上。宠物可入但须牵引',
-        '<strong>岛上没有任何餐饮与售货机</strong>，Memorial Plaza 有长椅与饮水台，Swamp Trail 栈道段也有长椅。' +
-          '垃圾须自行带出',
+        '<strong>岛上没有任何餐饮与售货机</strong>，垃圾须自行带出；Memorial Plaza 与 Swamp Trail 栈道段有长椅。' +
+          '<strong>唯一的卫生间在岛南端 Woods Trail 上、距 Memorial Plaza 约三分之一英里，' +
+          '并且官方明示「usually from October to April」冬季关闭、期间以移动厕所替代</strong>' +
+          '（有无障碍隔间与瓶装水灌装点，<strong>无婴儿换洗台</strong>）',
         '全程土石与砾石路，<strong>雨后泥泞、木栈道很滑</strong>；夏末初秋沼泽段蚊虫较多，建议带驱蚊剂',
         '<strong>路况联动</strong>：2026 年 9 月 21 日至 10 月 29 日，GW Memorial Parkway 在 Route 123 与 Spout Run Parkway 之间' +
           '每周一至周四 9:30–14:30 封闭南向车道，<strong>从 Great Falls 方向过来会受影响</strong>；' +
@@ -558,8 +989,9 @@ module.exports = {
       n: 5,
       name: '弗农山庄',
       en: 'Mount Vernon',
+      must: 4,
       score: 4,
-      tldr: '私营运营、联邦停摆照常开门，是全 DC 最硬的备胎。$30、9:00–17:00、全园禁三脚架；宅邸内允许无闪光手持拍摄。',
+      tldr: '华盛顿的故居与庄园，与 Arlington 并列本区头号必去。<strong>成人 $30、私人产业（年卡无效、联邦停摆不影响）</strong>，4–10 月 9:00–17:00；<strong>宅邸只能跟导览进、需另配定时票</strong>，官方建议至少留三小时。',
       tags: [
         { t: '停摆免疫', c: 'free' },
         { t: '门票 $30', c: 'paid' },
@@ -583,7 +1015,7 @@ module.exports = {
         '<strong>建筑本体的关键几何：宅邸的 Piazza（那条著名的两层柱廊门廊）朝东，俯瞰 Potomac；' +
           '西立面朝 Bowling Green，是游客的来向。</strong>' +
           '这直接决定了拍摄顺序——<strong>东立面与 Piazza 只有上午顺光，西立面与 Bowling Green 只有下午顺光</strong>，' +
-          '而园区 9:00–17:00 的作息刚好各给你一个半到两小时',
+          '而园区 9:00–17:00 的作息刚好各留出一个半到两小时',
         '<strong>宅邸内部允许拍照，这一点与很多攻略的说法相反，值得核实清楚。</strong>' +
           '官方 Guest Code of Conduct 原文是「Personal photography is allowed estate-wide except for inside all theaters ' +
           'or if posted otherwise in specific museum galleries. Flash photography is not permitted in the Mansion or museum galleries. ' +
@@ -594,6 +1026,67 @@ module.exports = {
           '新常设展 <strong>George Washington: A Revolutionary Life</strong> 已于 2026 年 6 月在 Education Center 开幕，' +
           '另有 Mount Vernon: Story of an American Icon 展与 Patriots Path 独立战争营地重现。' +
           '<strong>好消息是人多、坏消息也是人多——宅邸定时票会更早售罄</strong>'
+      ],
+      tour: [
+        '<strong>先搞清它的性质，因为这决定了三件实际的事：这是私人产业，不属于国家公园系统。</strong>' +
+          '庄园由 <strong>Mount Vernon Ladies\u2019 Association</strong>（1853 年成立、1858 年买下庄园）运营，' +
+          '<strong>历史上从未接受联邦运营拨款</strong>。因此：' +
+          '<strong>①「免费进国家公园」的 America the Beautiful 年卡在这里完全无效，必须买票</strong>；' +
+          '<strong>② 联邦政府停摆期间它照常开放收票</strong>，是 DC 地区停摆时最硬的一张备胎牌；' +
+          '<strong>③ 全年 365 天开放，含所有节假日</strong>。' +
+          '票价：<strong>成人（12 岁以上）$30、青少年（6–11 岁）$16、0–5 岁免费</strong>，' +
+          '<strong>官方 FAQ 明确答「No, we do not offer a senior discount」——不设老年折扣，长者按成人价</strong>。' +
+          '<strong>停车永久免费。</strong>（<strong>2026-09-15 核实于 mountvernon.org</strong>）',
+        '<strong>宅邸必须另配定时票，而且只能跟导览进——这是这一站唯一会让人扑空的环节，务必线上先订。</strong>' +
+          '官方原文：<strong>「Entry to the Mansion is by guided tour only」</strong>，' +
+          '没有自由参观，<strong>普通的 grounds pass 不含宅邸时段</strong>。' +
+          '<strong>线上预订宅邸时段每人加收 $2</strong>（原文「A $2 fee per person will apply」），现场也能买，' +
+          '但官方自己写着：<strong>「On busy days, including on weekends, the first available Mansion tour may be 2 hours or more after your arrival」</strong>' +
+          '——<strong>旺季与周末现场买，最早可用的场次可能在抵达后两小时以上</strong>。' +
+          '<strong>宅邸导览官方时长 20–45 分钟（随季节浮动）</strong>，队伍推进有节奏、每个房间只停十几秒，' +
+          '<strong>想细看某一间就提前想好看什么，现场没有停下来的余地</strong>。婴儿车不得进入宅邸，可停在门外。',
+        '<strong>宅邸内允许拍照——这一点与很多攻略的说法相反，已逐字核实。</strong>' +
+          '官方 Guest Code of Conduct 原文：<strong>「Personal photography is allowed estate-wide except for inside all theaters ' +
+          'or if posted otherwise in specific museum galleries. Flash photography is not permitted in the Mansion or museum galleries. ' +
+          'Equipment, including tripods and selfie sticks, is not allowed.」</strong>' +
+          '拆开就是三句话：<strong>①宅邸内可以手持拍照</strong>；' +
+          '<strong>②宅邸与博物馆展厅内禁用闪光灯</strong>；' +
+          '<strong>③三脚架与自拍杆全园禁止（不只是宅邸内）</strong>。' +
+          '此外<strong>所有剧场内以及个别标示的博物馆展厅完全禁拍</strong>，' +
+          '<strong>任何录像与录音（无论个人或专业）须事先取得书面授权</strong>，专业拍摄需提前约四周申请。' +
+          '（<strong>2026-09-15 核实</strong>）',
+        '<strong>庄园很大，官方建议「至少留三小时」，各部分的官方时长如下，照着排就不会失算。</strong>' +
+          '从园区入口走到宅邸约 <strong>10 分钟</strong>，到墓地、Slave Memorial 也各约 10 分钟，' +
+          '到博物馆与 Education Center 约 5 分钟。官方时长表：' +
+          '<strong>宅邸导览 20–45 分钟｜Washington 夫妇墓 15 分钟｜Slave Memorial 与 African American Burial Ground 15 分钟｜' +
+          '四座花园与景观 15–30 分钟｜十余座附属建筑全部看完 30–45 分钟｜Education Center 1–2 小时｜博物馆 1–2 小时｜' +
+          'The Farm 45 分钟（距入口 15 分钟，仅 4–10 月）</strong>。' +
+          '<strong>合理的三小时版本是：宅邸 + 墓地 + Slave Memorial + 附属建筑 + 花园，' +
+          '把两个「1–2 小时」的室内馆各压到 30–40 分钟。</strong>' +
+          '想把两个室内馆都看完，实际需要 <strong>5–6 小时</strong>。',
+        '<strong>哪部分真值得、哪部分可以直接跳。非去不可的四样：</strong>' +
+          '<strong>①宅邸内部</strong>（2023 年启动、耗资 4,000 万美元的修复工程已于 2025 年 12 月 10 日剪彩，' +
+          '一、二层全部房间同时开放，核心成果是复原后的 Washingtons\u2019 Bedchamber）；' +
+          '<strong>②东侧的 Piazza 柱廊与 Potomac 河景</strong>——站到那排 windsor 椅前看一眼，' +
+          '就明白他为什么选这块地，这是整座庄园最好的十分钟；' +
+          '<strong>③Washington 夫妇墓</strong>（1831 年砖砌拱券墓室），' +
+          '再往南约 100 米是 <strong>Slave Memorial 与 African American Burial Ground</strong>，请保持相称的克制；' +
+          '<strong>④历史区 quarters 里的常设展 Lives Bound Together</strong>，' +
+          '讲在华盛顿五座农场、磨坊与酒厂劳作的 <strong>317 名被奴役者</strong>如何组成家庭与社群——' +
+          '这是这座庄园近年叙事重心转变的所在，含在门票内，别漏掉。' +
+          '<strong>时间紧可以跳过：The Farm（距入口 15 分钟、仅 4–10 月）、' +
+          '2.8 英里外的 Distillery &amp; Gristmill（仅 4–10 月的周末 10:00–17:00，自驾或搭接驳单程约 12 分钟）、' +
+          '付费的 Photo Cruise，以及各类 45–60 分钟的 specialty tour。</strong>',
+        '<strong>步行、餐饮与卫生间——这几条决定了一整天怎么排。</strong>' +
+          'West Parking Area 到园区入口约 <strong>350 米、5–7 分钟</strong>；' +
+          '<strong>园内多为土径与碎石路、有起伏，一天下来走三到五公里很正常，穿正经走路的鞋</strong>。' +
+          '<strong>餐饮全在入口区外侧</strong>：Mount Vernon Inn Restaurant（正餐，官方给的用餐时长 30–60 分钟）' +
+          '与 The General\u2019s Canteen（快餐）——' +
+          '<strong>进了历史区以后园内没有餐厅，所以吃饭必须算进进出动线里，别指望在宅邸附近解决</strong>。' +
+          '<strong>禁带清单：除水以外的一切食品饮料、超过 3.5 英寸的刀具、武器、大于 16×16×8 英寸的包。</strong>' +
+          '<strong>Donald W. Reynolds Museum &amp; Education Center 与 The Shops 比园区晚一小时关门</strong>' +
+          '（4–10 月到 18:00，11–3 月到 17:00），<strong>The Shops 不需门票就能进</strong>——' +
+          '这意味着 <strong>16:30 之后可以把剩下的时间放在室内馆与礼品店，不必硬赶户外</strong>。'
       ],
       photo: '建筑 <strong>5/5</strong>，园林 <strong>4/5</strong>，人像 <strong>3/5</strong>，风光 <strong>3/5</strong>。' +
         '<strong>东立面 Piazza 的柱廊加 Potomac 河景是整个华盛顿都会区最好的十八世纪建筑构图</strong>，' +
@@ -639,18 +1132,50 @@ module.exports = {
         }
       ],
       access: {
-        book: '<strong>园区门票（grounds pass）不强制预约，可现场买；但宅邸参观需另配定时票。</strong>' +
-          '官方原文：「Entry to the Mansion requires a ticket, available during online checkout or at the gate.」' +
-          '<strong>强烈建议线上先订以拿到想要的时段——官方明示旺季与周末现场买时，最早可用的宅邸场次可能在抵达后两小时以上</strong>。' +
-          '<strong>线上预约宅邸时段每人加收 $2</strong>',
-        ticket: '<strong>成人（12 岁以上）$30</strong>，青少年（6–11 岁）$16，<strong>0–5 岁免费</strong>。' +
-          '门票含历史区、园林、附属建筑、博物馆与语音导览。<strong>宅邸定时票线上预约每人另加 $2</strong>。' +
-          '15 岁及以下须成人陪同。<strong>停车全程免费</strong>',
-        hours: '官方口径：<strong>4 月至 10 月 9:00–17:00；11 月至次年 3 月 9:00–16:00。全年 365 天开放，含所有节假日。</strong>' +
-          '<strong>九月下旬至十月下旬适用 9:00–17:00。</strong>' +
-          'Donald W. Reynolds Museum & Education Center 与 The Shops 比园区晚一小时关（4–10 月 9:00–18:00）。' +
-          '<strong>The Farm 与 Distillery & Gristmill 只在 4–10 月开放</strong>' +
-          '（Distillery & Gristmill 在 2.8 英里外，需自驾或搭接驳，单程约 12 分钟）',
+        visit: '<strong>官方建议至少 3 小时</strong>（原文「we recommend you allow at least three hours to experience the estate」）。' +
+          '<strong>按官方给出的分项时长排：</strong>宅邸导览 20–45 分钟、Washington 夫妇墓 15 分钟、' +
+          'Slave Memorial 与 African American Burial Ground 15 分钟、四座花园与景观 15–30 分钟、' +
+          '十余座附属建筑全部看完 30–45 分钟、Education Center 1–2 小时、博物馆 1–2 小时；' +
+          '另加从园区入口走到宅邸／墓地单程各约 10 分钟。' +
+          '<strong>只看宅邸 + 墓地 + Piazza 河景：2 小时（含排队）。</strong>' +
+          '<strong>要把 Education Center 与博物馆都看完：5–6 小时。</strong>' +
+          'The Farm 另加 45 分钟（仅 4–10 月）；' +
+          '2.8 英里外的 Distillery &amp; Gristmill 另加 1 小时加往返约 24 分钟（仅 4–10 月周末）；' +
+          'Photo Cruise 45 分钟（3–10 月，另收费）。' +
+          '<strong>宅邸从票面时间起请整体预留一小时（含排队），并把后续安排排在票面时间之后 75 分钟以上。</strong>' +
+          '（<strong>2026-09-15 核实于 mountvernon.org 的官方时长表</strong>）',
+        book: '<strong>园区门票（grounds pass）不强制预约，可现场买；但宅邸参观需另配定时票，且只能跟导览进。</strong>' +
+          '官方原文：「<strong>Entry to the Mansion is by guided tour only.</strong> ' +
+          'We recommend reserving a ticket in advance online to receive your desired tour time. A $2 fee per person will apply.」' +
+          '<strong>强烈建议线上先订以拿到想要的时段</strong>——官方明示：' +
+          '「On busy days, including on weekends, <strong>the first available Mansion tour may be 2 hours or more after your arrival</strong>」。' +
+          '<strong>线上预约宅邸时段每人加收 $2</strong>。' +
+          '各类 specialty tour（Enslaved People of Mount Vernon、In-Depth、Gardens and Landscapes 等，45–60 分钟）' +
+          '<strong>按季节轮换、场次与内容逐季变动，需另查当季页面</strong>。（<strong>2026-09-15 核实</strong>）',
+        ticket: '<strong>成人（12 岁以上）$30，青少年（6–11 岁）$16，0–5 岁免费</strong>；' +
+          'Mount Vernon 会员免费。' +
+          '<strong>官方 FAQ 明确不设老年折扣</strong>（原文「Do you offer a senior discount? — No, we do not offer a senior discount.」），' +
+          '<strong>长者按成人 $30 计</strong>。' +
+          '门票含历史区、园林、附属建筑、Washington 夫妇墓、Slave Memorial、两个博物馆展与语音导览' +
+          '（语音导览有五种语言），<strong>4–10 月还含 2.8 英里外的 Distillery &amp; Gristmill</strong>。' +
+          '<strong>宅邸定时票线上预约每人另加 $2</strong>。15 岁及以下须成人陪同。' +
+          '<strong>停车全程免费。</strong>' +
+          '<strong>这里是私人产业，America the Beautiful 国家公园年卡在此无效。</strong>' +
+          '<strong>2026 年另有一项限时优惠：优惠码 SPRING2026 可享一般门票八折、最多六张，有效至 2026 年 12 月 31 日</strong>' +
+          '——这是仅 2026 年成立的活动，以后年份请自行复查。' +
+          '（据 mountvernon.org，<strong>2026-09-15 核实</strong>）',
+        hours: '官方原文：<strong>「Mount Vernon is open 365 days a year, including holidays. ' +
+          'April through October: 9 a.m. - 5 p.m. November through March: 9 a.m. - 4 p.m.」</strong>' +
+          '——<strong>4–10 月每日 9:00–17:00，11–3 月每日 9:00–16:00，全年无休、节假日照开</strong>。' +
+          '<strong>Donald W. Reynolds Museum &amp; Education Center 与 The Shops 比园区晚一小时关</strong>' +
+          '（<strong>4–10 月 9:00–18:00，11–3 月 9:00–17:00</strong>）。' +
+          '<strong>The Farm 只在 4–10 月开放</strong>；' +
+          '<strong>Distillery &amp; Gristmill 只在 4–10 月的周末 10:00–17:00 开放</strong>' +
+          '（在 2.8 英里外，需自驾或搭接驳，单程约 12 分钟）。' +
+          'Photo Cruise 为 3–10 月的季节性项目。' +
+          '<strong>宅邸导览的每日首末场具体钟点官网未逐一列出，未能从官方渠道确认</strong>——' +
+          '订票时以当天 recreation 页面放出的时段为准，或电 <strong>(703) 780-2000</strong> 询问。' +
+          '（<strong>2026-09-15 核实</strong>）',
         parking: '<strong>访客停车永久免费</strong>，West / East / RV / Overflow 数个大场，先到先停。' +
           '导航地址 3200 Mount Vernon Memorial Highway, Mount Vernon, VA 22121。' +
           '从 DC 市区经 George Washington Memorial Parkway 南下约 25–40 分钟',
@@ -672,12 +1197,15 @@ module.exports = {
           '修复工程 Phase 4 排至 2026 年 9 月，<strong>个别房间仍可能临时闭展、参观路线随工程变动</strong>',
         '<strong>禁带清单其余项</strong>：除水以外的一切食品饮料、超过 3.5 英寸的刀具、武器、' +
           '大于 16×16×8 英寸的包。<strong>婴儿车不得进入宅邸</strong>（可停在门外）',
+        '<strong>这里是私人产业，不属于国家公园系统——America the Beautiful 年卡在此无效，必须买票</strong>；' +
+          '反过来，<strong>联邦政府停摆时它照常开放收票</strong>，是 DC 地区停摆期间最可靠的一张备胎牌',
         'FAA 已将 Mount Vernon 划为禁飞区；官方也几乎不批准航拍',
         '3–10 月有付费的 <strong>Photo Cruise on the Potomac</strong>（约 45 分钟），' +
           '<strong>是从水面拍宅邸东立面与河崖的唯一途径</strong>，' +
           '但需与宅邸定时票的时段错开安排',
-        '<strong>宅邸参观为导览制，官方称一般 15–25 分钟走完</strong>（旺季更快）；' +
-          '队伍推进有节奏，<strong>每个房间只有十几秒，室内拍摄要预先想好焦段，不要现场换镜头</strong>'
+        '<strong>宅邸参观只能跟导览，官方时长表写的是 20–45 分钟、且「duration varies throughout the year」</strong>' +
+          '（<strong>2026-09-15 核实；旺季队伍推进更快，接近下限</strong>）。' +
+          '每个房间只停十几秒，<strong>想细看某一间或室内拍摄都要预先想好，现场没有停下来的余地，也不要临时换镜头</strong>'
       ],
       images: [
         { url: 'img/mount-vernon-estate-mansion-2-3e230792.jpg',
@@ -693,8 +1221,9 @@ module.exports = {
       n: 6,
       name: '亚历山德里亚老城',
       en: 'Old Town Alexandria',
+      must: 3,
       score: 4,
-      tldr: '免费步行、市政管辖不受停摆影响；防洪工程要到 2027 年夏秋才动工，本次窗口滨水区基本正常。',
+      tldr: '半天闲逛型的联邦式老街与滨水区，没有必看的单体景点，价值在走与吃。免费、市政管辖不受联邦停摆影响；<strong>免费 King Street Trolley 每日 11:00–23:00、每 15 分钟一班</strong>，停车规则按街区不同、极易吃罚单。',
       tags: [
         { t: '步行免费', c: 'free' },
         { t: '停摆免疫', c: 'free' },
@@ -703,7 +1232,7 @@ module.exports = {
         { t: '艺术中心常提前闭馆', c: 'risk' }
       ],
       highlights: [
-        '<strong>滨水防洪工程的时间表是本次最值得核实的一条，而结论是好消息。</strong>' +
+        '<strong>滨水防洪工程的时间表是这一站最值得先查清的一条，而结论是好消息。</strong>' +
           'Alexandria 那个长期拖延的 Waterfront Flood Mitigation Project 在 2026 年' +
           '3 月由市议会选定改用「Option 3 增强重力式雨水系统」方案' +
           '（<strong>取消原定的抽水站</strong>，改为扩容重力管网、加装防倒流闸阀、' +
@@ -733,6 +1262,68 @@ module.exports = {
           '到 10 月 22 日日落方位角掉到 256°，偏离 22°，太阳会落到街道左侧的屋顶后面。' +
           '这是同一条街在一个月内完全不同的两种拍法'
       ],
+      tour: [
+        '<strong>先定性：这是「半天闲逛型」的一站，没有必看的单体景点，价值在于走、吃、看街景。</strong>' +
+          'King Street 是一条从 Metro 站一路下坡到 Potomac 河边的商业老街，' +
+          '<strong>全长约 1.6 公里，两侧有 200 多家店与餐厅</strong>，尽头是滨水区。' +
+          '<strong>最合理的安排是下午到、傍晚在河边收尾</strong>；' +
+          '或者把它当成 Mount Vernon 回程路上的晚餐落脚点（<strong>Mount Vernon 在南边 8 英里</strong>）。' +
+          '街道与滨水区全天开放、没有闭园时间，<strong>这是本区唯一能一直待到入夜的一站</strong>。',
+        '<strong>免费的 King Street Trolley 是这一站的关键工具，不用它会白走很多路。</strong>' +
+          '由 DASH 运营，在 <strong>King Street–Old Town 地铁站与 City Hall／Market Square 之间往返</strong>，每两三个街区一站。' +
+          '官方钟点：<strong>每日 11:00–23:00、每 15 分钟一班、全年 365 天含节假日，完全免费，不需要 SmarTrip 卡也不需要 App</strong>' +
+          '（<strong>2026-09-15 核实于 dashbus.com</strong>）。' +
+          '<strong>全程约 10–15 分钟，而同一段路步行是 1.6 公里、20–25 分钟，且回程一路上坡。</strong>' +
+          '<strong>正确用法：搭 trolley 一路下到河边，然后逛着走回来。</strong>' +
+          '车上禁止饮食与吸烟，只在指定站点上下客，<strong>下车要拉绳示意</strong>；车辆有轮椅坡板与自行车架。' +
+          '<strong>提醒：2026 年 Market Square 在做翻修，City Hall／Market Square 那一站会被临时移动</strong>' +
+          '（已公告移到 302 King St 一带），出行前查 dashbus.com/trolley 的服务提示。',
+        '<strong>一圈的顺序：搭 trolley 到东端下车，然后四个点位串起来，彼此都在步行 15 分钟内。</strong>' +
+          '<strong>① Waterfront Park 与市政码头</strong>——这里正东跨 Potomac 望向 Maryland，' +
+          '是老城唯一的开阔水景；停泊在此的 <strong>Tall Ship Providence</strong> 可上船参观（季节性、另收费）。' +
+          '<strong>② 往南一个街区的 Captain\u2019s Row</strong>，即 Prince Street 100 街区，' +
+          '<strong>那段卵石路是全美东岸保存最完整的原始铺装之一</strong>，' +
+          '两侧是十八世纪末至十九世纪初的联邦式排屋。' +
+          '<strong>③ 往北一个街区的 Torpedo Factory Art Center</strong>（见下条）。' +
+          '<strong>④ 再沿 King Street 往西逛回去。</strong>' +
+          '距离参考：King Street 东端到 Waterfront Park 约 100 米、到 Torpedo Factory 约 150 米、到 Captain\u2019s Row 约 250 米。',
+        '<strong>Torpedo Factory Art Center 是这一站唯一真正的室内景点，免费，但有一个时间坑必须先查。</strong>' +
+          '这栋 1918 年动工的美国海军鱼雷生产厂 1974 年改造为艺术中心，' +
+          '<strong>现在是全美对公众开放的驻场艺术家工作室数量最多的一处</strong>，三层楼免费进出；' +
+          '<strong>三层另有 Alexandria Archaeology Museum，一、二层是 The Art League Gallery and School</strong>，也都免费。' +
+          '官方钟点<strong>每日 10:00–18:00</strong>，' +
+          '<strong>但官网在这个时间上带了一个星号：「Periodic 5 p.m. closure for private events」</strong>' +
+          '——<strong>经常因私人活动提前到 17:00 闭馆，具体日期只在官网的 Today\u2019s Hours 页公告，出发当天务必查一次</strong>' +
+          '（另于元旦、复活节、独立日、感恩节与圣诞闭馆；<strong>2026-09-15 核实于 torpedofactory.org</strong>）。' +
+          '还有一条：<strong>驻场艺术家各自订工作时间，建筑开门不等于工作室都有人</strong>，' +
+          '想见某位特定艺术家须事先联系。' +
+          '<strong>参观工作室内部或拍摄作品前请先征得该艺术家同意。</strong>',
+        '<strong>停车是这一站最容易吃罚单的地方，三种街区的规则完全不同，务必分清。</strong>' +
+          '<strong>① 商业街区的路边咪表：2026 年 7 月 1 日起 $2.75/小时，罚单基准 $55</strong>；' +
+          '多数路段<strong>周一至周六 8:00 至 18:00 或 21:00 收费、限时 2–3 小时</strong>，' +
+          '按官方口径<strong>商业咪表街区在周日与州法定假日通常免费</strong>，联邦假日咪表与住宅限时一律不执行。' +
+          '<strong>② 住宅区的 pay-by-phone 街区：这些街区没有咪表</strong>，' +
+          '<strong>无区域许可证的车须用 ParkMobile 付 $3.00/小时，而且包括周日、时段更长</strong>——这是外地车最常踩的坑。' +
+          '<strong>③「游客停车许可」这个说法容易误导：City 的 Visitor／Guest permit 只发给许可区内的居民、供其自家客人使用，' +
+          '普通游客拿不到。</strong>' +
+          '游客要合法停在住宅 pay-by-phone 街区，办法是买<strong>两小时的预付刮刮式许可</strong>' +
+          '（City Hall 的 Treasury 或 Alexandria Visitor Center 出售，上车前刮开日期时间并摆在车内）。' +
+          '<strong>最省事的方案是直接停停车楼</strong>：Old Town 有 20 余处公共停车楼与停车场，' +
+          '<strong>多数在 $5–$10/天档位，不少提供「工作日 17:00 后与周末上限 $5」</strong>；' +
+          '市营的有 <strong>Courthouse Garage（111 South Pitt St）、Tavern Square Garage（418 Cameron St）、' +
+          'North Union Street Garage（220 North Union St）</strong>等，' +
+          '<strong>Market Square Garage 因 City Hall 翻修工程关闭中</strong>。' +
+          '<strong>顺带一条：周六 6:30–12:30 逛农夫市场的人，在 Tavern Square 与 Courthouse 两个停车楼免费停。</strong>' +
+          '无论选哪种，<strong>停车前必须逐块看标牌</strong>。（<strong>2026-09-15 核实于 alexandriava.gov</strong>）',
+        '<strong>餐饮、卫生间与体力：这是本区唯一不必为吃饭做计划的一站。</strong>' +
+          'King Street 沿街 200 多家店与餐厅，从早餐到宵夜都有，' +
+          '<strong>与本区其他各处（墓园、两座纪念碑、Theodore Roosevelt Island 都完全没有餐饮）形成鲜明对比</strong>。' +
+          '<strong>公共卫生间在 Alexandria Visitor Center（221 King Street，Ramsay House）与市政码头一带</strong>，' +
+          '商家卫生间多为消费者使用。' +
+          '<strong>体力与无障碍提示：Captain\u2019s Row 那段卵石路极不平整，请穿硬底防滑鞋</strong>，' +
+          '<strong>推婴儿车与轮椅基本过不去</strong>（可改走 Prince Street 的人行道或绕回 King Street）；' +
+          '<strong>King Street 从河边走回地铁站是持续上坡</strong>，腿脚吃力的人回程请搭 trolley。'
+      ],
       photo: '街景／建筑 <strong>4/5</strong>，人像 <strong>4/5</strong>，风光 <strong>3/5</strong>。' +
         '<strong>卵石路 + 联邦式排屋 + 工业厂房改造 + 东向开阔河面，四种质地在步行十五分钟的范围内齐备</strong>，' +
         '而且完全免费、无门禁、不受联邦停摆影响，是本区可靠性最高的一站。' +
@@ -743,9 +1334,9 @@ module.exports = {
           view: [38.804198, -77.039998],
           desc: '<strong>站在 King Street 最东端（Union Street 路口附近）沿街向西</strong>，' +
             '用两侧连续的商铺立面与遮阳篷做街道峡谷。' +
-            '<strong>9 月 25 日：日落 19:00、方位角 269°，与街道 278° 的轴线只差 9°，' +
-            '18:30–19:05 是全年最好的对齐窗口</strong>，太阳会正对着你从街道尽头落下。' +
-            '<strong>10 月 22 日：日落 18:20、方位角 256°，偏离 22°</strong>，' +
+            '<strong>九月下旬：日落约 19:00、方位角 269°，与街道 278° 的轴线只差 9°，' +
+            '18:30–19:05 是全年最好的对齐窗口</strong>，太阳正对街道尽头落下。' +
+            '<strong>十月下旬：日落约 18:20、方位角 256°，偏离 22°</strong>，' +
             '此时放弃对齐构想，改拍 17:50–18:20 的低角度暖光扫过北侧砖立面。' +
             '<strong>70–200mm 压缩街道纵深、把远处的招牌与行人叠成层</strong>；' +
             '<strong>24–70mm 拍完整街景</strong>。' +
@@ -788,34 +1379,61 @@ module.exports = {
             '室内偏暗，<strong>f/2.8、ISO 800–1600 手持；三脚架建议避免——通道窄且人流多</strong>。' +
             '<strong>拍摄艺术家作品或工作室内部前请先征得该艺术家同意</strong>，' +
             '每位驻场艺术家自订工作时间，想找特定艺术家须事先联系。' +
-            '<strong>务必先查当天开放时间：2026 年 9 至 10 月有多个日期提前到 17:00 闭馆</strong>' +
-            '（9/18、9/19、9/26、9/27、10/3、10/10、10/11、10/17）。'
+            '<strong>务必先查当天开放时间</strong>：官方钟点是 10:00–18:00，' +
+            '<strong>但常因私人活动提前到 17:00 闭馆，且只在官网 Today\u2019s Hours 页逐日公告</strong>' +
+            '（2026 年 9–10 月已知有 9/18、9/19、9/26、9/27、10/3、10/10、10/11、10/17 等多个提前闭馆日，' +
+            '<strong>此为 2026 年的档期，其他年份须自行复查</strong>）。'
         }
       ],
       access: {
-        book: '<strong>不需预约</strong>。King Street、滨水区、Captain\u2019s Row 与 Torpedo Factory Art Center 均免费开放',
-        ticket: '<strong>步行游览完全免费</strong>，Torpedo Factory Art Center 自 1974 年起免费开放，' +
-          'Alexandria Archaeology Museum 与 The Art League Gallery 亦免费',
-        hours: '街道与滨水区<strong>全天开放</strong>。' +
-          '<strong>Torpedo Factory Art Center：每日 10:00–18:00</strong>，' +
-          '<strong>但常因私人活动提前到 17:00 闭馆——2026 年 9–10 月已公告的日期是 9/18、9/19、9/26、9/27、10/3、10/10、10/11、10/17</strong>；' +
-          '另于 New Year\u2019s Day、Easter、Independence Day、Thanksgiving（2026 年 11 月 26 日）、Christmas 闭馆。' +
-          '<strong>驻场艺术家各自订时间，建筑开门不等于工作室都有人</strong>',
-        parking: '<strong>路边计时车表：2026 年 7 月 1 日起 $2.75/小时</strong>（罚单基准 $55），' +
-          '多数路段周一至周六 8:00–21:00 收费，<strong>周日与州法定假日免费</strong>；' +
-          '限时多为 2–3 小时，<strong>各街区规则不同，停车前必须逐块看标牌</strong>。' +
-          '<strong>Old Town 有 20 余处公共停车楼与停车场，多数在 $5–$10/天档位，' +
-          '不少提供「工作日 17:00 后与周末上限 $5」的优惠</strong>。' +
-          '市营设施包括 Courthouse Garage（111 South Pitt St）、North Union Street Garage（220 North Union St）、' +
-          'Thompson\u2019s Alley Garage（10 Thompson\u2019s Alley）等。' +
-          '<strong>注意：Market Square Garage 因 City Hall 翻修工程关闭中</strong>。' +
+        visit: '<strong>2–4 小时（半天闲逛型）。</strong>' +
+          '分配：Waterfront Park 与市政码头 20–30 分钟、Captain\u2019s Row 卵石路 15–20 分钟、' +
+          'Torpedo Factory Art Center 45–60 分钟（三层楼加考古博物馆）、沿 King Street 逛店 60–90 分钟。' +
+          '<strong>只走 King Street 东段三个街区、看一眼河边就走：1 小时。</strong>' +
+          '<strong>含一顿正餐：3.5–4 小时。</strong>' +
+          '<strong>街道与滨水区全天开放、没有闭园时间</strong>，所以这一站可以放在一整天的最后；' +
+          '唯一有钟点约束的是 Torpedo Factory（18:00 关，且常提前到 17:00）。' +
+          '官方未给出建议游览时长，以上按四个点位的间距、商业街长度与艺术中心楼层数推算',
+        book: '<strong>不需预约</strong>。King Street、滨水区、Captain\u2019s Row 与 Torpedo Factory Art Center 均免费开放，' +
+          '免费的 King Street Trolley 也是随到随上。' +
+          '只有 Tall Ship Providence 的登船参观等个别项目需另行购票',
+        ticket: '<strong>步行游览完全免费</strong>，' +
+          '<strong>Torpedo Factory Art Center 自 1974 年起对公众免费开放</strong>，' +
+          '三层的 Alexandria Archaeology Museum 与一、二层的 The Art League Gallery 亦免费。' +
+          '<strong>免费的 King Street Trolley 不需要任何票卡</strong>（DASH 全系统免费）。' +
+          '主要花费是停车与吃饭。（<strong>2026-09-15 核实</strong>）',
+        hours: '街道与滨水区<strong>全天开放，无闭园时间</strong>。' +
+          '<strong>King Street Trolley 官方原文：「The King Street Trolley runs every 15 minutes from 11 AM to 11 PM, 365 days a year!」' +
+          '——每日 11:00–23:00、每 15 分钟一班、全年无休且免费。</strong>' +
+          '<strong>Torpedo Factory Art Center 官方钟点：每日 10:00–18:00</strong>，' +
+          '<strong>但官网在该时间上带星号注明「Periodic 5 p.m. closure for private events」——常因私人活动提前到 17:00 闭馆</strong>；' +
+          '<strong>提前闭馆的具体日期只在官网 Today\u2019s Hours 页逐日公告，无法预先查到完整清单，' +
+          '未能从官方渠道取得年度列表</strong>，出发当天请查 torpedofactory.org 或电该中心确认。' +
+          '另于 New Year\u2019s Day、Easter、Independence Day、Thanksgiving、Christmas 闭馆。' +
+          '<strong>驻场艺术家各自订时间，建筑开门不等于工作室都有人。</strong>（<strong>2026-09-15 核实</strong>）',
+        parking: '<strong>三种街区规则不同，停车前必须逐块看标牌。</strong>' +
+          '<strong>① 商业街区路边咪表：2026 年 7 月 1 日起 $2.75/小时，罚单基准 $55</strong>，' +
+          '多数路段周一至周六 8:00 至 18:00 或 21:00 收费、限时 2–3 小时，' +
+          '<strong>周日与州法定假日通常免费；联邦假日咪表与住宅限时一律不执行</strong>。' +
+          '<strong>② 住宅区 pay-by-phone 街区：无咪表，无区域许可证的车须用 ParkMobile 付 $3.00/小时，包括周日、时段更长。</strong>' +
+          '<strong>③ City 的 Visitor／Guest 停车许可只发给许可区内居民供其客人使用，普通游客拿不到</strong>；' +
+          '游客在这类街区的合法办法是买两小时的<strong>预付刮刮式许可</strong>' +
+          '（City Hall 的 Treasury 或 Alexandria Visitor Center 出售）。' +
+          '<strong>最省事的是直接停停车楼：Old Town 有 20 余处，多数 $5–$10/天，' +
+          '不少提供「工作日 17:00 后与周末上限 $5」</strong>；' +
+          '市营设施包括 Courthouse Garage（111 South Pitt St）、Tavern Square Garage（418 Cameron St）、' +
+          'North Union Street Garage（220 North Union St）、Thompson\u2019s Alley Garage（10 Thompson\u2019s Alley）等。' +
+          '<strong>Market Square Garage 因 City Hall 翻修工程关闭中。</strong>' +
+          '<strong>周六 6:30–12:30 逛农夫市场可在 Tavern Square 与 Courthouse 两个停车楼免费停。</strong>' +
           '公共交通：Metro King Street–Old Town 站（Blue／Yellow），' +
-          '出站可搭免费的 King Street Trolley 直达滨水区',
+          '出站即可搭免费的 King Street Trolley 直达滨水区。（<strong>2026-09-15 核实于 alexandriava.gov</strong>）',
         walk: 'King Street 从 Metro 站到滨水区约 <strong>1.6 公里、步行 20–25 分钟</strong>' +
-          '（免费 trolley 全程约 10–15 分钟）。' +
-          '<strong>四个机位彼此极近</strong>：King Street 东端到 Waterfront Park 约 100 米，' +
+          '（<strong>免费 trolley 全程约 10–15 分钟；回程是持续上坡，建议搭车</strong>）。' +
+          '<strong>四个点位彼此极近</strong>：King Street 东端到 Waterfront Park 约 100 米，' +
           '到 Torpedo Factory 约 150 米，到 Captain\u2019s Row 约 250 米，' +
-          '<strong>全部串完步行不超过 15 分钟</strong>'
+          '<strong>全部串完步行不超过 15 分钟</strong>。' +
+          '<strong>无障碍提示：Captain\u2019s Row 的卵石路面推婴儿车与轮椅基本无法通行</strong>，' +
+          '可改走 Prince Street 人行道或绕回 King Street'
       },
       notes: [
         '<strong>三脚架在户外街道与滨水区没有限制</strong>；' +
@@ -848,8 +1466,9 @@ module.exports = {
       n: 7,
       name: '大瀑布公园（弗吉尼亚侧）',
       en: 'Great Falls Park (Virginia side)',
+      must: 3,
       score: 4.5,
-      tldr: '本区最强自然题材，三个瀑布观景台全开。America the Beautiful 年卡免入园费；7:00 开门，闭园为日落后 30 分钟。',
+      tldr: '华盛顿半小时车程内唯一的一线自然风光，三个瀑布观景台都在访客中心步行十分钟内、全部开放。<strong>$20/车（15 岁及以下免费、年卡免费），7:00 开门、闭园为日落后 30 分钟</strong>；<strong>务必别导航到马里兰侧</strong>。',
       tags: [
         { t: '年卡可免费', c: 'free' },
         { t: '否则 $20/车', c: 'paid' },
@@ -879,11 +1498,67 @@ module.exports = {
         '<strong>园内还有 Patowmack Canal 的遗迹——由 George Washington 本人于 1785 年发起的美国最早运河之一</strong>，' +
           '沿 Patowmack Canal Trail 可以走完整段船闸与开凿岩壁，' +
           '<strong>历史开凿的岩沟内禁止攀岩</strong>（攀岩区在 Overlook 3 下游至 Sandy Landing 的紧急下水坡道之间）',
-        '<strong>开门时间与日出时间的关系在这两个日期上完全不同，这条对拍摄计划影响最大：</strong>' +
-          '园区固定 <strong>7:00</strong> 开门。' +
-          '<strong>9 月 25 日日出 06:59——你进园时太阳已经出来了，拍不到日出前的暖调天空</strong>；' +
-          '<strong>10 月 22 日日出 07:25——7:00 进园还有整整 25 分钟可以布置机位、等第一缕光打上崖壁</strong>。' +
-          '<strong>十月因此明显优于九月，与秋色时间窗的结论一致</strong>'
+        '<strong>开门时间与日出时间的关系随季节反转，这条对清晨来访的人影响最大：</strong>' +
+          '园区固定 <strong>7:00</strong> 开门，而 DC 的日出时刻在一年里从 5:43 变到 7:26。' +
+          '<strong>春夏与初秋日出早于 7:00，也就是开门时太阳已经出来了，等不到日出前的暖调天空</strong>' +
+          '（例：九月下旬日出约 06:59）；' +
+          '<strong>十月下旬至冬季日出晚于 7:00，7:00 进园还有二十几分钟可以从容走到观景台、等第一缕光打上崖壁</strong>' +
+          '（例：十月下旬日出约 07:25）。' +
+          '<strong>就清晨光线而言，十月中旬之后明显优于九月，与秋色时间窗的结论一致</strong>'
+      ],
+      tour: [
+        '<strong>最容易走错的一件事排在最前：Great Falls 有两个完全独立的公园，分处 Potomac 两岸。</strong>' +
+          '<strong>弗吉尼亚侧才是本条目所指的 Great Falls Park</strong>（地址 9200 Old Dominion Dr, McLean, VA 22102）；' +
+          '<strong>马里兰侧属于另一个单位 Chesapeake &amp; Ohio Canal National Historical Park</strong>' +
+          '（Olmsted Island 栈道与 Billy Goat Trail 在那边，电话 301-767-3714）。' +
+          '<strong>两侧各有自己的大门与收费站，隔着峡谷相望但没有任何桥相连——' +
+          '开车绕过去要走 American Legion Bridge 或 Beltway，单程通常 30–45 分钟以上。</strong>' +
+          '导航时务必确认输入的是 Virginia 一侧的地址。' +
+          '（一个安慰：<strong>同一张入园许可两侧通用</strong>，真绕过去了不用再买第二次票。）',
+        '<strong>进园与付费：这一站是本区唯一收费的自然景点，而且不收现金。</strong>' +
+          '园区固定 <strong>7:00 开门，闭园为日落后 30 分钟</strong>（随日落每日浮动；仅 12 月 25 日闭园）。' +
+          '<strong>$20/私人车辆（含车内全部乘员，七日内有效）、$15/摩托车、$10/人（步行、骑行或骑马入园）；' +
+          '15 岁及以下免费；持 America the Beautiful 年卡免入园费</strong>；' +
+          '另有 <strong>$35 的 Great Falls + C&amp;O Canal 双园年卡</strong>。' +
+          '<strong>园内一律不收现金，只接受 Master Card／VISA／Discover／American Express 与感应支付。</strong>' +
+          '<strong>线上预购的电子票（QR 码）务必在抵达前先下载到手机——园内手机信号很弱，到了可能刷不出来。</strong>' +
+          '（<strong>2026-09-15 核实于 nps.gov/grfa</strong>）',
+        '<strong>一圈怎么走——这是本站最省事的一点：三个瀑布观景台全部开放，而且都在离访客中心五到十分钟步行内。</strong>' +
+          '官方原文「The three falls overlooks are located within a five to ten minute walk from the visitor center and parking lots」，' +
+          '<strong>Overlook 1 到 Overlook 3 之间沿栈道全程不到 200 米，Overlook 2 与 Overlook 3 为无障碍</strong>。' +
+          '<strong>正确做法就是三个台都站一遍，因为它们朝向完全不同</strong>：' +
+          '<strong>Overlook 1</strong>（最上游）朝东北正对主瀑布群；' +
+          '<strong>Overlook 2</strong>（中段）朝北北东，正面感最强；' +
+          '<strong>Overlook 3</strong> 向正北看瀑布，同时<strong>向南俯瞰 Mather Gorge</strong>，一台两用。' +
+          '<strong>Potomac 在这里于不到 1 英里的距离内落差约 76 英尺，然后被挤进宽仅 60–100 英尺的 Mather Gorge</strong>——' +
+          '峡谷两侧被水切出凹槽的片岩崖壁，是比瀑布本身更耐看的东西。',
+        '<strong>想多走的可选段，与可以直接跳过的部分。</strong>' +
+          '<strong>River Trail</strong> 自 Overlook 3 下游接入，沿崖顶走，能找到更贴近水面、人更少的位置，' +
+          '<strong>但属中等难度的岩面步道，人多时会很堵，且不允许骑行与骑马</strong>。' +
+          '<strong>Patowmack Canal Trail</strong> 可以走完 <strong>George Washington 本人于 1785 年发起的美国最早运河之一</strong>' +
+          '的船闸与开凿岩壁遗迹——对历史有兴趣的人值得走，其余人可跳过' +
+          '（<strong>历史开凿的岩沟内禁止攀岩</strong>；攀岩区在 Overlook 3 下游至 Sandy Landing 之间）。' +
+          '<strong>Difficult Run Trail 已重新开放供徒步，但有一段受洪水破坏后变得又陡又窄、高水位时可能无法通行</strong>，' +
+          '而且它不在瀑布观景台的常规路线上，<strong>普通游客不必去</strong>。',
+        '<strong>停车与到场时间是本站最实际的一条，官方自己给了警告。</strong>' +
+          '主访客中心停车场 <strong>253 个车位</strong>（距访客中心与三个观景台最近，有路缘坡与人行道相连）；' +
+          '上层停车场另有约 300 个车位，<strong>但无无障碍车位、也没有人行道通到访客中心</strong>。' +
+          '<strong>官方明确警告：天气好的周末与假日，入园车队大约从 10:30–11:00 开始排，等待可长达 45 分钟到 1 小时。</strong>' +
+          '<strong>对策只有两个：9:00 前抵达，或者直接安排在闭园前一两小时</strong>；' +
+          '把付款卡提前拿在手上可以加快收费亭通行。' +
+          '<strong>另一条容易忽略的：闭园时间随日落浮动、日落后 30 分钟就清园</strong>，' +
+          '所以傍晚来的人要自己算好当天日落时刻，并提前走回停车场。',
+        '<strong>卫生间、餐饮与安全——这一站是本区唯一有真实坠落与溺水风险的地方。</strong>' +
+          '<strong>访客中心 10:00–17:00</strong>；' +
+          '<strong>访客中心庭院洗手间 8:30–16:00</strong>（白天清扫时会临时关闭）；' +
+          '<strong>Old Carriage Road Trail 与 Matildaville Trail 的洗手间目前故障，现场设有移动厕所，全园开放时段可用</strong>。' +
+          '<strong>园内没有自动售货机，小卖部通常仅周末 12:00–17:00 营业</strong>，请自带水与食物。' +
+          '<strong>严禁游泳与涉水，园内不允许饮酒。</strong>' +
+          '岩面常年湿滑、观景台外侧就是落差极大的峡谷，' +
+          '<strong>带小孩必须全程拉住，不要越过护栏去「离水近一点」</strong>——' +
+          '这条河每年都有人在此丧生。宠物可入但须用不超过六英尺的牵引绳，' +
+          '<strong>访客中心内与 ranger 导览活动禁带宠物（服务犬除外）</strong>；' +
+          '瀑布观景台、River Trail、Patowmack Canal Trail 与 Matildaville Trail 均禁行自行车。'
       ],
       photo: '风光 <strong>5/5</strong>，地质／细节 <strong>5/5</strong>，人像 <strong>2/5</strong>，建筑 <strong>2/5</strong>。' +
         '<strong>这是华盛顿都会区半小时车程内唯一的一线自然风光题材</strong>：' +
@@ -925,9 +1600,9 @@ module.exports = {
             '<strong>看瀑布时是纯侧光</strong>（清晨太阳在右手 90°、午后在左手 90°），' +
             '<strong>侧光是三个台里最能拍出水体立体感的角度</strong>。' +
             '<strong>向南俯瞰峡谷则相反</strong>：' +
-            '<strong>清晨对岸（Maryland 侧）的崖壁被低角度阳光正面打亮，而你所在的这一侧还在阴影里，' +
+            '<strong>清晨对岸（Maryland 侧）的崖壁被低角度阳光正面打亮，而 Virginia 这一侧还在阴影里，' +
             '光比极大但对岸崖壁的暖色与纹理最好</strong>；' +
-            '<strong>午后则轮到你脚下这侧受光、对岸转暗</strong>。' +
+            '<strong>午后则轮到 Virginia 侧受光、对岸转暗</strong>。' +
             '<strong>拍对岸崖壁与十月末的峡谷秋色，请选 7:00–9:00</strong>。' +
             '<strong>River Trail 自 Overlook 3 下游接入</strong>，' +
             '沿崖顶走可以找到更贴近水面、更少人的机位，' +
@@ -936,22 +1611,43 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1.5–2.5 小时。</strong>' +
+          '分配：主停车场到访客中心 3–4 分钟、' +
+          '三个观景台依次走完并从容停留 45–75 分钟（彼此不到 200 米，官方口径是距访客中心「五到十分钟步行」）、' +
+          '访客中心展陈 15–20 分钟。' +
+          '<strong>只看三个台、走马观花：45 分钟。</strong>' +
+          '加走一段 River Trail（中等难度岩面步道）另加 <strong>1–1.5 小时</strong>；' +
+          '加 Patowmack Canal Trail 遗迹另加 <strong>45–60 分钟</strong>。' +
+          '<strong>晴好周末与假日请额外预留 45–60 分钟的入园排队</strong>' +
+          '（官方警告车队约从 10:30–11:00 开始）。' +
+          '官方未给出建议游览时长，以上按官方「三个观景台在步行五到十分钟内」的口径与步道长度推算',
         book: '<strong>不需预约</strong>。婚礼需另办许可（703-757-3101）；' +
           '<strong>8 人以内、仅手持器材、不独占场地的常规摄影（含三脚架）不需要许可</strong>',
-        ticket: '<strong>持 America the Beautiful 年卡免入园费，直接刷卡进场。</strong>' +
-          '否则：<strong>$20/私人车辆（含车内全部乘员，七日内有效）</strong>，' +
+        ticket: '<strong>持 America the Beautiful 年卡免入园费</strong>（含 Senior Pass 与 Access Pass），直接刷卡进场。' +
+          '否则：<strong>$20/私人车辆（含驾驶员与车内全部乘员，七日内有效，含购买当日）</strong>、' +
+          '<strong>$15/摩托车</strong>、' +
           '步行、骑行或骑马入园 <strong>$10/人</strong>；' +
-          '另有 <strong>$35 的 Great Falls + C&amp;O Canal 双园年卡</strong>。' +
+          '<strong>15 岁及以下一律免费</strong>。' +
+          '另有 <strong>$35 的 Great Falls + C&amp;O Canal 双园年卡</strong>（自购买日起十二个月有效）。' +
+          '<strong>以上任一许可同时适用于马里兰侧的 Chesapeake &amp; Ohio Canal National Historical Park。</strong>' +
+          '<strong>团体（organized groups）不适用车辆许可，需按人计费。</strong>' +
           '<strong>园内一律不收现金，只接受 Master Card／VISA／Discover／American Express 与感应支付</strong>。' +
           '线上预购的电子票（QR 码）<strong>务必在抵达前先下载到手机——园内手机信号很弱</strong>。' +
-          '<strong>2026 年免票日中在本次窗口内的是 9 月 17 日（Constitution Day）与 10 月 27 日（Theodore Roosevelt 诞辰）</strong>',
+          '<strong>每年另有数个全国性的免入园费日</strong>（如 Constitution Day 九月中、' +
+          'Theodore Roosevelt 诞辰十月下旬、Veterans Day 等），' +
+          '<strong>具体日期逐年公布，请查 nps.gov 的 fee-free days 页</strong>。' +
+          '（<strong>2026-09-15 核实于 nps.gov/grfa</strong>）',
         hours: '官方原文：<strong>Great Falls Park, overlooks, hiking trails, picnic areas and other outdoor areas, ' +
           'are open daily from 7:00 a.m. to thirty (30) minutes after sunset.</strong>' +
-          '（每日 7:00 至日落后 30 分钟；仅 12 月 25 日闭园）。' +
-          '<strong>换算到具体日期：9 月 25 日为 7:00–19:30，10 月 22 日为 7:00–18:50。</strong>' +
-          '访客中心 10:00–17:00；<strong>访客中心庭院洗手间 8:30–16:00</strong>' +
-          '（Old Carriage Road Trail 与 Matildaville Trail 的洗手间目前故障，现场设有移动厕所，全园开放时段可用）。' +
-          '小卖部通常仅周末 12:00–17:00 营业，工作日按季节',
+          '（每日 7:00 至日落后 30 分钟；<strong>仅 12 月 25 日闭园</strong>）。' +
+          '<strong>闭园时刻随日落每日浮动，需自己按当天日落时刻加 30 分钟推算</strong>——' +
+          '举例：日落 19:00 的九月下旬为 7:00–19:30，日落 18:20 的十月下旬为 7:00–18:50，' +
+          '而冬至前后日落约 16:50，闭园就早到 17:20。' +
+          '<strong>访客中心每日 10:00–17:00</strong>（12 月 25 日闭馆）；' +
+          '<strong>访客中心庭院洗手间 8:30–16:00</strong>（白天清扫时会临时关闭）；' +
+          '<strong>Old Carriage Road Trail 与 Matildaville Trail 的洗手间目前故障，现场设有移动厕所，全园开放时段可用</strong>。' +
+          '小卖部通常仅周末 12:00–17:00 营业，工作日按季节。' +
+          '（NPS 该页最后更新于 2026 年 4 月 13 日，<strong>2026-09-15 核实</strong>）',
         parking: '主访客中心停车场 <strong>253 个车位</strong>（见 park 坐标，距访客中心与三个观景台最近，有路缘坡与人行道相连）；' +
           '上层停车场另有约 300 个车位，但<strong>无无障碍车位、也没有人行道通到访客中心</strong>。' +
           '<strong>官方明确警告：天气好的周末与假日，入园车队大约从 10:30–11:00 开始排，等待可长达 45 分钟到 1 小时。</strong>' +

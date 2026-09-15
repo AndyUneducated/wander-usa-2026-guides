@@ -3,27 +3,30 @@ module.exports = {
   name: 'Beartooth Highway 与 Chief Joseph Scenic Byway',
   navName: 'Beartooth',
   color: '#ffb340',
-  lead: '这是本次行程里<strong>唯一一个「时间窗口刚好赶上」的子地区</strong>，也是唯一一个' +
-    '<strong>可能在你出发那天早上突然整块消失</strong>的子地区。' +
+  lead: '这是本手册里<strong>季节窗口最窄的一个子地区</strong>，也是唯一一个' +
+    '<strong>可能在出发当天早上突然整块消失</strong>的子地区。' +
     'NPS 官方 2026 年公布的日期是 <strong>Beartooth Highway（US-212）与 Chief Joseph Scenic Byway（WY-296）5 月 22 日 – 10 月 12 日</strong>，' +
     'Dunraven Pass 同样是 10 月 12 日。' +
-    '<strong>9 月 22–29 日这一周落在 10 月 12 日之前 17 到 20 天，因此三条路在你的窗口里全部开放</strong>——' +
-    '这正是本子地区能进这份指南的原因。' +
+    '<strong>换算下来一年只有 144 天可通行，不到全年的 40%，是本手册所有子地区里最短的</strong>——' +
+    '十月中旬到五月下旬这七个多月，这一区在地图上等于不存在。' +
+    '<strong>而这 143 天的两头还要再打折：五月底六月初与九月下旬之后，高处随时可能因雪临时封路；' +
+    '真正稳定的通行期实际上只有七月到九月中旬。</strong>' +
+    '这种窄窗口正是它值得专门写一节的原因。' +
     '但「季节性关闭日期」和「那天能不能开过去」是两件事：' +
     '<strong>Beartooth Pass 海拔 10,947 英尺（3,337 米），9 月的任何一天都可能因雪临时封路，且往往只提前几小时通知。' +
     '2026 年 8 月 30 日（周日）这条路的最高点已经下过本季第一场雪，6 月 29 日那场雪还真的把路封了一段时间。</strong>' +
     '摄影上，这个子地区提供了整份指南里别处都没有的两样东西：' +
     '<strong>一是尺度</strong>——树线以上连续几十英里的高山苔原，参照物全部消失，' +
     '这是黄石园内任何一个点都给不了的题材；' +
-    '<strong>二是完整的黄金时刻</strong>——在 10,947 英尺、四周没有任何比你更高的地形时，' +
-    '你拿到的是按表计算的、完整的日出与日落，' +
+    '<strong>二是完整的黄金时刻</strong>——在 10,947 英尺、四周没有任何更高的地形时，' +
+    '拿到的是按表计算的、完整的日出与日落，' +
     '而不是 Lamar 谷底那种被山脊切掉 30–50 分钟的「打折日出」。' +
     '代价是：<strong>Cooke City 到 Red Lodge 64 英里翻一座高山垭口，中间基本没有服务、没有手机信号，' +
     '而且没有任何快速折返的办法。</strong>',
   callouts: [
     {
       type: 'warn',
-      title: '2026 封闭日期：三条路在 9/22–9/29 全部开放（已核实）',
+      title: '2026 年季节性开关日期：5/22–10/12（已核实）',
       html: '<p>全部取自 NPS 官方 Park Roads 页（nps.gov/yell/planyourvisit/parkroads.htm）的 ' +
         '<strong>“2026 Regular Vehicle Travel Dates”</strong> 一节，原文照抄：</p>' +
         '<ul>' +
@@ -33,10 +36,12 @@ module.exports = {
         '<li><strong>“Open May 22 – October 12, 2026: Canyon Village to Tower Fall (Dunraven Pass).”</strong>' +
         '——与 Beartooth 同一天关，因为都是全区最高的两段路</li>' +
         '<li>Northeast Entrance Road（Tower Junction ↔ Cooke City）<strong>全年开放</strong>，' +
-        '这是你从 Lamar 串到本区的通道，任何时候都在</li>' +
+        '这是从 Lamar Valley 串到本区的通道，任何时候都在</li>' +
         '</ul>' +
-        '<p><strong>结论：9 月 22–29 日全部在 10 月 12 日之前，三条路都开。' +
-        '预定 9/24–9/25（周四、周五）走这一圈在日历上是成立的。</strong></p>' +
+        '<p><strong>结论：九月下旬（例如 9 月 22–29 日这样的一周）整体落在 10 月 12 日之前 13 到 20 天，' +
+        '三条路在日历上都开；十月中旬之后 Beartooth 与 Dunraven 两段就整季关闭，只剩 WY-296 从 Cody 一侧可达。</strong></p>' +
+        '<p><strong>这个日期每年不同，且随时可能提前——上表只对 2026 年有效（2026-09-15 复核 NPS 官方页，日期未变），' +
+        '以后的读者请自己重查同一页。</strong></p>' +
         '<p><strong>两个必须知道的口径差异：</strong></p>' +
         '<ul>' +
         '<li>Custer Gallatin National Forest 的页面写 <strong>“open from Memorial Day to October 15 (weather dependent)”</strong>，' +
@@ -109,7 +114,7 @@ module.exports = {
         '<li><strong>备选方案 B：直接放弃，退回 Lamar Valley。</strong>' +
         'Cooke City 到 Lamar 的 Confluence 路肩只有 19 英里／33 分钟，' +
         'Northeast Entrance Road 全年开放，绝不会封。' +
-        '在一个 9/22–9/29 的行程里，用一个 Beartooth 的坏天气换一个 Lamar 的额外晨昏，其实并不亏</li>' +
+        '用一个 Beartooth 的坏天气换一个 Lamar Valley 的额外晨昏，在这一带其实并不亏</li>' +
         '<li><strong>不要把 Beartooth 排在行程的最后一天。</strong>它需要一个可以换到别的日子的位置</li>' +
         '</ul>' +
         '<p><strong>概率，以及为什么只能给一个粗估：</strong>' +
@@ -268,7 +273,7 @@ module.exports = {
         '<strong>直射光真正打到谷底要比上表的日出晚 30–50 分钟</strong>，傍晚也提前同样多进入阴影。' +
         'Grand Canyon of the Yellowstone 那种深峡谷里更糟。' +
         '<strong>换句话说，园内绝大多数机位拿到的是一个被地形切掉两头的「打折黄金时刻」</strong></li>' +
-        '<li>在 <strong>Beartooth Pass，你的头顶上没有任何地形。</strong>' +
+        '<li>在 <strong>Beartooth Pass，头顶上没有任何地形。</strong>' +
         '这是全 Wyoming 最高的公路点，向东、向西的地平线都是<strong>真地平线或远在几十英里外的低矮山脊</strong>。' +
         '<strong>所以上表的 07:08 与 19:12 就是你实际拿到的日出与日落，' +
         '一分钟都不打折——这是整份指南里唯一一个「完整黄金时刻」成立的地方。</strong></li>' +
@@ -278,7 +283,7 @@ module.exports = {
         '实操上这意味着：<strong>19:12 太阳落下之后不要收机器，' +
         '往北和往西看，最高的峰顶还会红上一刻钟；到 19:42 民用暮光结束才是真的收工。</strong></li>' +
         '</ul>' +
-        '<p><strong>高海拔的光学差别（这会改变你的滤镜与曝光习惯）：</strong></p>' +
+        '<p><strong>高海拔的光学差别（这会改变滤镜与曝光的习惯做法）：</strong></p>' +
         '<ul>' +
         '<li>11,000 英尺处的大气质量只有海平面的<strong>约三分之二</strong>，瑞利散射与气溶胶都少得多。' +
         '直接后果是<strong>天空在照片里会渲染得明显更深、更蓝</strong>，' +
@@ -400,7 +405,8 @@ module.exports = {
         'Shoshone National Forest 两个营地的官方页面（2026-09-05 复核，页面 Last updated 2026 年 7 月 6 日）' +
         '当前状态都是 “Site Open”，而 “Current Conditions” 一栏写的是 ' +
         '“Expected to close for the season on September 13, 2026”。' +
-        '也就是说两个营地在 9 月 13 日收季，你的 9/24–9/25 在关闭之后 11 到 12 天。</strong>' +
+        '也就是说两个营地在 2026 年 9 月 13 日收季，此后到公路 10 月 12 日关闭之间的将近一个月里，' +
+        '这两处都属于「关闭但通常仍可进入」的状态。</strong>' +
         'Forest Service 同时明确 <strong>“When the campground is listed as closed, no services will be available, ' +
         'no fees will be collected, however walk-in camping is permitted.”</strong>' +
         '——<strong>也就是说路和场地通常仍可进入、不收费，但没有水、没有垃圾清运，' +
@@ -492,7 +498,7 @@ module.exports = {
           '<strong>如果那块写着海拔的牌子不在那里，你根本认不出哪里是最高点</strong>。' +
           '真正的主体不是某一个点，而是那 10 英里',
         '<strong>本区最核心的摄影事实：这里没有秋色、没有瀑布、没有野牛群，' +
-          '它给你的是「尺度」，而尺度恰恰是黄石园内所有机位共同的短板。</strong>' +
+          '它提供的是「尺度」，而尺度恰恰是黄石园内所有机位共同的短板。</strong>' +
           '树线在这一带大约 9,500–10,000 英尺，' +
           '<strong>West Summit 一带全在树线以上，视野里连一棵成材的树都没有</strong>。' +
           '没有树、没有建筑、没有栏杆，画面里就没有任何能告诉观众距离的东西——' +
@@ -1234,7 +1240,7 @@ module.exports = {
           '“Current Conditions” 栏写的是 “Expected to close for the season on September 13, 2026”，' +
           '页面 Last updated 2026 年 7 月 6 日——' +
           '这是本景点原先唯一的实质不确定项，现在有了 2026 年的官方日期：9 月 13 日收季，' +
-          '你的 9/24–9/25 在那之后 11 到 12 天。</strong>' +
+          '也就是说九月中旬之后来的人面对的都是关闭状态。</strong>' +
           '（对照口径：同页 “Operational Hours” 仍是笼统的 “Typically from late June through early/mid September”，' +
           '<strong>要用的是 Current Conditions 里那个带年份的日期，不是这句笼统话。</strong>）' +
           '但 Forest Service 同时明确：' +
@@ -1262,9 +1268,9 @@ module.exports = {
           'Island Lake 在再往东 4 公里（44.94787, −109.54087，9,518 英尺）。</strong>' +
           '<strong>两个湖相距 6 分钟车程，看一个就够了的话选 Beartooth Lake</strong>——' +
           '它北岸就是 Beartooth Butte 的红色崖壁，是这段路上最好认的一块地标。',
-        '<strong>9 月下旬的实际情况：两个营地都已关，这对你其实是好事，但要知道代价。</strong>' +
+        '<strong>9 月下旬的实际情况：两个营地都已关，这对游览其实是好事，但要知道代价。</strong>' +
           '<strong>Shoshone National Forest 官方页写明两个营地 2026 年 9 月 13 日收季，' +
-          '你的日期在其后 11 天以上。</strong>' +
+          '也就是说九月中旬之后来的人碰到的都是关闭状态。</strong>' +
           '<strong>好处是完全没有人、不收费；代价是没有饮用水、没有垃圾清运（所有垃圾自己带走）、' +
           'vault toilet 是否还开着不确定。</strong>' +
           '<strong>另一个要预设的变数：车辆能不能开进营地支路未能从官方渠道确认。' +
@@ -1372,7 +1378,7 @@ module.exports = {
             '<strong>瀑布与峡谷都在深谷里，需要较高的太阳才有光进去——' +
             '最佳是 11:00–15:00（太阳高度 35–44°），这与湖面倒影的清晨窗口正好互补，' +
             '两件事可以排在同一天不冲突。</strong>' +
-            '慢门 1/4–1 秒配 CPL；<strong>9 月是本区枯水期，流量会明显小于夏季照片给你的印象。</strong>',
+            '慢门 1/4–1 秒配 CPL；<strong>9 月是本区枯水期，流量会明显小于夏季照片呈现的样子。</strong>',
         }
       ],
       access: {
@@ -1385,13 +1391,13 @@ module.exports = {
           '（依据：官方未对这两个湖发布过建议停留时间；以上按 OSM 实测距离与高海拔步速推算。）',
         book: '<strong>不需预约。</strong>' +
           '两个营地都是<strong>先到先得、不接受预订（first-come, first-served, no advance reservations）</strong>，' +
-          '而且在你的窗口里已经关闭。日间的湖岸拍摄本来就不需要任何预约',
+          '而且九月中旬之后已经收季。日间的湖岸游览本来就不需要任何预约',
         ticket: '<strong>免费（2026-09-13 复核）。</strong>湖岸与观景不收费；' +
           '<strong>营地关闭期间 Forest Service 明确 “no fees will be collected”</strong>，' +
-          '开放季的营位费在本行程里不适用。' +
+          '因此九月中旬收季之后营位费不再适用。' +
           '（供参考：Beartooth Lake 官方页写 “Single Site: $25 per night”，' +
           '<strong>Island Lake 官方页同时印着 “$25 per night” 与 “$20/night” 两个数字、官方自己没统一</strong>，' +
-          '两页都注明只收现金或支票。这与你的日期无关，' +
+          '两页都注明只收现金或支票。收季之后这一栏不影响游览，' +
           '但说明这两页的费用栏本身不完全可靠——要用的是它们的 Current Conditions 日期。）',
         hours: '<strong>公路开放期内 24 小时可进入，无门禁。' +
           '2026 年公路开放期 5 月 22 日 – 10 月 12 日（NPS 官方口径，2026-09-13 复核未变）。</strong>' +
@@ -1461,11 +1467,161 @@ module.exports = {
       ]
     },
     {
+      id: 'pilot-index-overlook',
+      n: 5,
+      name: 'Pilot 与 Index 双峰观景点',
+      en: 'Pilot-Index Overlook (US-212)',
+      must: 2.5,
+      score: 4,
+      tldr: 'US-212 路边一处正式命名的观景点，沥青停车位、零步行，正对 20 公里外的 Pilot Peak 与 Index Peak 两座尖锥。Clay Butte 瞭望台官方常年挂「关闭」，这里是全线唯一确定能看到这一对峰的地方。停 10–15 分钟。',
+      tags: [
+        { t: '完全免费', c: 'free' },
+        { t: '无需预约', c: 'free' },
+        { t: '零步行、有沥青停车位', c: 'free' },
+        { t: '上午光最好', c: 'free' },
+        { t: '无厕所无信号', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>这是 US-212 上一处正式命名的观景点，不是随便一个路肩。</strong>' +
+          '<strong>OSM 上它是 tourism=viewpoint 节点 “Pilot-Index overlook”（8929248188，44.93291, −109.63911），' +
+          '配一块沥青 layby 停车面（way 1432242422，中心 44.93291, −109.63880，access=yes、fee=no、surface=asphalt），' +
+          '外加两块解说牌 “The Living Landscape”（44.93290, −109.63915）与 “Good Stuff from Rocks”（44.93293, −109.63915）。' +
+          '以上四个实体于 2026-09-15 通过 Overpass API 逐个核实。</strong>' +
+          '<strong>位置：从 Cooke City 沿 US-212 东行约 20 英里，' +
+          '或从 US-212／WY-296 路口西行约 6 英里（官方口径「路口往 Red Lodge 方向约 7 英里到 FR 142」，本观景点在 FR 142 路口以西 0.9 英里）。</strong>',
+        '<strong>看的是什么：两座被冰川与火山岩共同雕出来的尖锥，而且它们的名字来自「对齐」这件事。</strong>' +
+          '<strong>Pilot Peak（44.97661, −109.88212）在本观景点方位 284°、直线 19.7 公里；' +
+          'Index Peak（44.98605, −109.88435）在方位 287°、20.2 公里（均由已核实坐标推算）。</strong>' +
+          '<strong>海拔各来源不一致，两种都记下来：Pilot Peak 11,705 英尺（peakbagger 按 USGS 1:24,000 与 NAVD88）' +
+          '或 11,708 英尺（SummitPost 等常引数字）；Index Peak 11,321 英尺（同上 NAVD88）或约 11,310 英尺' +
+          '（USGS Elevation Point Query Service）。均非官方单一权威口径，请当作「约 11,300–11,700 英尺」理解。</strong>' +
+          '两峰都属 Absaroka Range，位于 Shoshone National Forest 的 North Absaroka Wilderness 之内。' +
+          '<strong>“Pilot” 这个名字来自它们从北面看正好上下对齐、像六分仪上的准星，' +
+          '早期穿越 Greater Yellowstone 的旅行者靠这一对峰定位。</strong>',
+        '<strong>为什么它值得单列一条：因为本区另一个能看到这两座峰的地方基本进不去。</strong>' +
+          '<strong>Clay Butte Lookout（9,811 英尺）视野更完整，但官方页面自 2025 年 9 月起一直挂着 “Site Closed”，' +
+          '而且即使开着，最后 0.4 公里的闸门只在 08:00–17:00 放行（详见本区 Clay Butte 条目）。</strong>' +
+          '<strong>本观景点在瞭望塔西南 1.6 公里、方位 218°——看的是同一片东西，只少了 800 英尺的高度，' +
+          '但它在主路边、没有闸门、公路开放期内 24 小时可停。</strong>' +
+          '<strong>换句话说：把 Clay Butte 当彩票，把这里当计划。</strong>'
+      ],
+      tour: [
+        '<strong>这是一处「停 10–15 分钟」的路边观景点，动作很简单，但有两件事容易做错。</strong>' +
+          '<strong>（一）方向：停车面在路的北侧，从 Cooke City 方向（自西向东）开过来是右手边，' +
+          '从 Red Lodge 方向（自东向西）开过来要左转横穿车道，请提前减速、看清对向来车。</strong>' +
+          '<strong>（二）别开过头：它没有大牌子，很多人一路盯着 Beartooth Lake 的指示牌就直接开过去了。' +
+          'FR 142（Clay Butte）的路口在这里以东 0.9 英里，如果已经看到 FR 142 的路牌，说明开过了，掉头回来 2 分钟。</strong>',
+        '<strong>下车之后按这个顺序：先看峰，再读两块牌子。</strong>' +
+          '<strong>Pilot Peak 与 Index Peak 在西北偏西方向约 20 公里，Pilot 是更尖、更孤立的那一座（方位 284°），' +
+          'Index 在它右侧（方位 287°）。天气好时肉眼就能看清两座峰的锥形轮廓与残雪。</strong>' +
+          '<strong>两块解说牌就在观景点旁边几米内：“The Living Landscape” 讲这一带的高山生态，' +
+          '“Good Stuff from Rocks” 讲这一片岩石与采矿史——加起来 5 分钟读完，' +
+          '是这条路上少见的能把「眼前这堆山是怎么来的」讲清楚的地方。</strong>',
+        '<strong>什么时候来：上午 08:00–10:00 最好，傍晚最差，这一点与垭口正好相反。</strong>' +
+          '<strong>两座峰在西侧，上午太阳从东边打过来，正面照亮两峰的东壁；' +
+          '傍晚太阳落在两峰旁边或后面，看过去是逆光加剪影，细节全无。</strong>' +
+          '<strong>以 9 月 24 日为例：上午 08:00–10:00 太阳在方位 99°–123°、高度 8°–28°，' +
+          '正是这个观景点的黄金时段。</strong>' +
+          '正午光硬但仍可用；阴天反而好，高原上的逆光雾霾会少很多。',
+        '<strong>后勤：这里什么都没有，所有需求都要在两头解决。</strong>' +
+          '<strong>没有厕所、没有饮水、没有垃圾桶、没有手机信号。</strong>' +
+          '<strong>最近的厕所往东是 Beartooth Lake 营地区（约 3 英里，收季后状态不定），' +
+          '再往东是 Rock Creek Vista Point（全线唯一可靠的一处）；往西是 Cooke City。</strong>' +
+          '<strong>海拔接近 9,000 英尺（按地形模型推算），九月下旬清晨常在冰点附近，且这一带风口明显，' +
+          '下车看 10 分钟也要带防风外层。</strong>' +
+          '<strong>沥青停车面不大，估计只放得下三四辆车；RV 与拖挂进出要看当时是否有空位，' +
+          '不要停在车道上或压在路肩白线外。</strong>'
+      ],
+      photo: '风光 <strong>4/5</strong>，山形与远景 <strong>4.5/5</strong>。' +
+        '<strong>加分是零步行就能拿到一对造型极好的尖峰；扣分是距离 20 公里，' +
+        '没有长焦就只能拍成「远处两个小三角」，而且傍晚是纯逆光。</strong>',
+      shots: [
+        {
+          name: 'Pilot-Index Overlook 停车面 —— 双峰正面（上午）',
+          park: [44.93291, -109.63880],
+          view: [44.93291, -109.63911],
+          desc: '<strong>park 是 OSM 核实的沥青 layby（way 1432242422，44.93291, −109.63880，fee=no）；' +
+            'view 是命名的 viewpoint 节点（8929248188，44.93291, −109.63911）。停车到站位不到 30 米，零爬升。</strong>' +
+            '<strong>最佳时段上午 08:00–10:00</strong>（以 9 月 24 日为例太阳在方位 99°–123°、高度 8°–28°，' +
+            '从背后打过去把两峰东壁照亮）。' +
+            '<strong>焦段：两峰距离 19.7 与 20.2 公里，' +
+            '100–300mm 才能把锥形轮廓压出来；24–70mm 拍「公路＋林线＋远峰」的环境交代。</strong>' +
+            '<strong>这个距离上 CPL 作用有限，压高原逆光雾霾主要靠长焦与后期对比度。</strong>' +
+            '<strong>傍晚不要在这里拍这两座峰——太阳落在两峰附近，是纯逆光。</strong>'
+        }
+      ],
+      access: {
+        visit: '<strong>建议参观时长 10–15 分钟</strong>：' +
+          '停车 2 分钟、看峰与拍照 5–10 分钟、读两块解说牌 5 分钟。' +
+          '<strong>要等光（例如上午的正面光）或用长焦慢慢拍，30 分钟也用得掉。</strong>' +
+          '<strong>作为通道来算：它在 Cooke City 与 Beartooth Pass 之间的路上，' +
+          '几乎不增加净驾驶时间（离主路 0 米），是本区性价比最高的一次停车。</strong>' +
+          '（依据：官方未发布过建议停留时间；以上按 OSM 实测的停车面到观景点距离与现场只有两块解说牌的规模推算。）',
+        book: '<strong>不需预约</strong>，也没有任何预约或许可渠道。这是公共公路的附属观景设施',
+        ticket: '<strong>免费（2026-09-15 复核）。</strong>' +
+          'OSM 上停车面标注 fee=no，观景点与解说牌均不收费，' +
+          '<strong>也不需要国家森林日票或 America the Beautiful 年票。</strong>' +
+          '<strong>这里在 Yellowstone 国家公园界外，与园票无关；但这条路通向黄石东北门，' +
+          '经东北门进园仍要买整园门票：私家车 $35／七天，' +
+          '另有 2026 年起对非美国居民（16 岁及以上）每人加收的 $100 非居民附加费，' +
+          '持 Yellowstone 年票（$70）或 America the Beautiful 年票者免该附加费</strong>' +
+          '（NPS 官方 Fees &amp; Passes 页与 nps.gov/aboutus/nonresident-fees.htm，2026-09-15 复核）',
+        hours: '<strong>公路开放期内 24 小时可停，无闸门、无门禁、无夜间关闭（2026-09-15 复核）。</strong>' +
+          '<strong>决定它可达性的只有 US-212 的季节性开关：2026 年为 5 月 22 日 – 10 月 12 日</strong>' +
+          '（NPS 官方 Park Roads 页原文 “Open May 22 – October 12, 2026: Beartooth Highway (US-212), ' +
+          'Chief Joseph Scenic Byway (WY-296). This is a high elevation highway that generally experiences ' +
+          'more winter weather than roads in the park—as with all other roads, the closing date is subject to change.”；' +
+          '同日复核 Montana DOT 的 Beartooth 专页仍写 “generally open from the Friday of Memorial Day weekend ' +
+          'through mid-October, weather permitting”，Custer Gallatin National Forest 写 “Memorial Day to October 15 ' +
+          '(weather dependent)”，<strong>三者不一致但都指向十月中旬</strong>）。' +
+          '<strong>2026 年 5 月 23 日才实际开放（Wyoming 段原定 5 月 22 日，因冬季风暴推迟一天，NPS 有专门新闻稿）。</strong>' +
+          '<strong>开放期内的临时封路是主要风险：MDT 原文 “unpredictable weather conditions may cause temporary closures ' +
+          'throughout the summer”，NPS 原文 “temporary travel restrictions or closures can occur at any time without notice”。' +
+          '出发当天早上要查 Montana 511 与 Wyoming 511 两套系统（两州各管一段）。</strong>' +
+          '<strong>2026-09-15 复核 WYDOT 511：US-212 的 Wyoming 段无在册施工项目，路面 Dry，仅挂「落石」提示。</strong>',
+        parking: '<strong>免费、不限时。</strong>' +
+          'OSM 核实的沥青 layby（way 1432242422，中心 44.93291, −109.63880，access=yes、fee=no、covered=no）。' +
+          '<strong>容量小（估计三四辆车），紧贴 US-212 北侧，进出容易但没有转弯余量给大型拖挂。</strong>' +
+          '<strong>无厕所</strong>——最近的可靠厕所在 Rock Creek Vista Point 或 Cooke City',
+        walk: '<strong>零步行：停车面到观景点不到 30 米，平坦、无爬升。</strong>' +
+          '解说牌就在观景点旁几米内。' +
+          '<strong>海拔接近 9,000 英尺，但这段距离短到不会有任何高原负担，' +
+          '是本区对体力要求最低的一个点位。</strong>'
+      },
+      notes: [
+        '<strong>把它当成 Clay Butte 的替代方案，而不是补充。</strong>' +
+          'Clay Butte 官方状态长期是 “Site Closed”（2026-09-15 复核仍未更新），' +
+          '<strong>而这里在主路边、一定能停。顺路先看 FR 142 路口有没有路障，' +
+          '有就直接在这里解决 Pilot／Index 这个题材。</strong>',
+        '<strong>上午来，傍晚别来。</strong>' +
+          '<strong>两峰在西侧，傍晚是纯逆光；上午 08:00–10:00 才有正面光。</strong>' +
+          '这条与本区其他点位（垭口要日落、Sunlight Bridge 要正午）都不一样，排顺序时要单独考虑',
+        '<strong>这一带是 grizzly 活动区，官方在相邻的 Clay Butte 页面上明确写了 ' +
+          '“Grizzly bear frequent the meadows and forest below the lookout.”</strong>' +
+          '<strong>距熊与狼 100 码（91 米），距其他动物 25 码（23 米）；' +
+          '停车观景不必紧张，但不要为了角度走进路边的林带或草甸。</strong>',
+        '<strong>无手机信号。</strong>' +
+          '这一段 US-212 基本没有覆盖，<strong>路况、天气与任何查询都必须在 Cooke City 或 Red Lodge 完成。</strong>',
+        '<strong>停车面紧贴车道，下车请先看后方。</strong>' +
+          '这条路的车速不低，而且从东边过来的车视线会被弯道遮挡；' +
+          '<strong>带小孩的请在车内侧开门，不要让人站到白线之外。</strong>'
+      ],
+      images: [
+        { url: 'img/pilot-and-index-peaks-along-beartooth-scenic-highway-4799557-ab8e111d.jpg',
+          cap: '自 Beartooth Scenic Highway 看 Pilot 与 Index 双峰 \u00b7 Yellowstone National Park / Public domain' },
+        { url: 'img/beartooth-highway-pilot-and-index-peaks-54642717579-5722b4ef.jpg',
+          cap: 'Pilot 与 Index 双峰的锥形轮廓 \u00b7 YellowstoneNPS / Public domain' },
+        { url: 'img/beartooth-highway-pilot-and-index-peaks-nara-7717264-5930989f.jpg',
+          cap: '公路沿线的 Pilot 与 Index 双峰 \u00b7 NARA / Public domain' }
+      ]
+    },
+    {
       id: 'clay-butte-lookout',
       n: 5,
-      gone: '官方页面持续标注 Site Closed；同区设施 9 月 13 日收季，你的日期已在其后',
+      gone: '官方页面持续标注 Site Closed（2026-09-15 复核）；同区设施在九月第二周收季，九月下旬之后按去不了规划',
       name: 'Clay Butte 火警瞭望台',
       en: 'Clay Butte Lookout (FR 142)',
+      must: 1,
       score: 3,
       tldr: '9,811 英尺的 1942 年 CCC 火警塔，能同时看到 Pilot／Index Peaks 与 Beartooth Butte。但官方页面至 2026-09-05 仍挂着「Site Closed／Closed for the 2025 Season」整年未动，而同区两个营地已公布 2026 年 9 月 13 日收季——9/24–9/25 关着的可能性远大于开着，按去不了规划。替代机位在主路上，坐标已核实。',
       tags: [
@@ -1542,6 +1698,57 @@ module.exports = {
           '<strong>真正的风险不是路况而是季节：这条路通常要到 6 月底或 7 月才化雪，而且它开门比公路晚、关门比公路早。</strong>' +
           '2021 年还曾因路基滑塌（slump）整季推迟开放'
       ],
+      tour: [
+        '<strong>第一件事不是怎么逛，而是判断这个弯要不要拐。</strong>' +
+          '<strong>2026-09-15 复核 Shoshone National Forest 官方 Clay Butte Lookout 页，' +
+          '页面状态标签仍是 “Site Closed”、Current Conditions 仍写 “Closed for the 2025 Season”、' +
+          'Last updated 仍是 2025 年 9 月 10 日——整个 2026 年这一页一字未改。</strong>' +
+          '<strong>唯一能拿到当年真实状态的渠道是电话：Clarks Fork Ranger District (307) 527-6921，' +
+          '注意该办公室周三不上班。</strong>' +
+          '<strong>实操口径：把它当成「路过时看一眼 FR 142 路口有没有路障」的加分项。' +
+          '路口就在 US-212 的 44.93717, −109.62228，从车里一眼就能看见有没有关卡，' +
+          '不用为了确认专门排一段时间。</strong>',
+        '<strong>如果路开着：这是一条 2.61 英里（4.2 公里）的单车道碎石支路，往返 5.2 英里。</strong>' +
+          '<strong>净驾驶时间上去 12–15 分钟、下来 10–12 分钟，即 20–30 分钟纯开车</strong>' +
+          '（2.6 英里爬升约 700 英尺，OSM 几何上没有超过 50° 的急弯）。' +
+          '官方与多个独立来源都描述为路况尚可、有搓板，' +
+          '<strong>低底盘轿车可以慢开上去；拖挂、RV 与大巴不要上，请停在 Beartooth Lake 一侧。</strong>' +
+          '<strong>单车道加会车点的含义是「遇到对向车要有一方倒回会车点」，上山时请随时留意路肩位置。</strong>',
+        '<strong>还有第二道门，很多攻略没写：最后 0.4 公里（1/4 英里）另有一道闸门，' +
+          '官方（Forest Service 野花项目页，2026-09-15 复核）原文 “The last 1/4 mile to the Fire tower is usually open 8am to 5pm.”</strong>' +
+          '<strong>也就是说这里不是清晨或傍晚景点——日出与日落时段它都锁着。</strong>' +
+          '<strong>如果闸门锁着而 FR 142 开着，可以停在闸门旁的步道停车场（44.95184, −109.63293），' +
+          '步行 0.4 公里上塔，海拔 9,600→9,811 英尺，单程 10–15 分钟（高海拔已计入）。</strong>' +
+          '<strong>但闸门那一带本身没有视野，视野要到最后这段爬升之后才打开——' +
+          '不想走这 0.4 公里就别在闸门外耗时间。</strong>',
+        '<strong>上去之后按这个顺序看，20–40 分钟就够。</strong>' +
+          '<strong>（一）先站到塔前的平台看一圈</strong>——' +
+          '这里 9,811 英尺，西边 20 公里外是 Pilot Peak 与 Index Peak 两座尖锥，' +
+          '东北 1.7 公里是 Beartooth Butte 的红色崖壁，东边 12.5 公里是 Beartooth Pass 的高原脊线。' +
+          '<strong>（二）读解说牌</strong>——塔前半径 30 米内有六块，' +
+          '其中 “Beartooth Butte: Seabed to Mountaintop” 与 “Fossils: Ancient Calendars” 解释了' +
+          '为什么对面那片红色崖壁里有 4 亿年前的鱼化石，' +
+          '“Fire: Devastating Force, Nature’s Own Tool” 对应的是 <strong>1988 年 Clover-Mist 大火</strong>，' +
+          '<strong>从塔上能直接看到那场火留下的痕迹</strong>。' +
+          '<strong>（三）塔本身</strong>——1942 年 Civilian Conservation Corps 所建，' +
+          '1975 年起由志愿者值守，开放季有人在时可以问路况与野生动物出没情况。' +
+          '<strong>现场有 vault toilet（44.94449, −109.62630），但没有饮用水、没有任何售卖点、没有手机信号。</strong>',
+        '<strong>进不去的正解在主路上，而且一定能到：Pilot-Index Overlook。</strong>' +
+          '<strong>它是 US-212 边上一个正式命名的观景点（OSM viewpoint 节点 44.93291, −109.63911），' +
+          '配沥青 layby 停车（44.93297, −109.63878，免费），另有两块解说牌。</strong>' +
+          '<strong>位置在瞭望塔西南 1.6 公里——看的是同一片东西，只是少了 800 英尺的高度，' +
+          '而且零步行、无闸门、公路开放期内 24 小时可停。</strong>' +
+          '<strong>停 10–15 分钟就能把 Pilot／Index 两座尖峰看完，' +
+          '这是本条目唯一可以写进计划的停靠点。</strong>',
+        '<strong>两条身体与安全上的提醒。</strong>' +
+          '<strong>（一）海拔：塔在 9,811 英尺，比 Beartooth Lake 还高 800 英尺，' +
+          '下车走几十米就会明显喘，风也比湖边硬得多，衣服要按「比山下低 15–20°F」准备。</strong>' +
+          '<strong>（二）午后雷暴：官方在这一页专门写了雷击风险' +
+          '（原文 “Afternoon thundershowers also pose threats from lightning”）。' +
+          '9,811 英尺的开阔台地是最不该久留的地形，云开始垂直发展就下撤，不要等听见雷声。</strong>' +
+          '另外官方原文写明 <strong>“Grizzly bear frequent the meadows and forest below the lookout.”</strong>——' +
+          '<strong>如果决定步行那 0.4 公里，熊喷雾放在手边、出声行进。</strong>'
+      ],
       photo: '风光 <strong>4.5/5</strong>（如果进得去），可达性 <strong>1/5</strong>。' +
         '这是本子地区视野最完整的一个平台——同时压得住西边的 Pilot／Index Peaks 和东北的 Beartooth Butte，' +
         '<strong>但它的两个致命问题是「9 月下旬多半已关」加「即使开着也在日出日落时锁门」。</strong>' +
@@ -1592,35 +1799,50 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>建议参观时长：进得去的情况下 45–75 分钟；进不去则 0 分钟（换主路上的替代观景点，10–15 分钟）。</strong>' +
+          '<strong>拆开算：往返 5.2 英里碎石支路净驾驶 20–30 分钟 ＋ 塔前平台与六块解说牌 20–40 分钟 ＋ 上下车与厕所 5 分钟。</strong>' +
+          '<strong>如果闸门锁着而愿意步行最后 0.4 公里，再加 20–30 分钟往返。</strong>' +
+          '<strong>只想看 Pilot／Index 两座尖峰：不要上这条支路，直接停主路边的 ' +
+          'Pilot-Index Overlook（44.93291, −109.63911），10–15 分钟，零步行。</strong>' +
+          '（依据：FR 142 长度取自 OSM 实测 2.61 英里，碎石路按 12–15 mph 推算；' +
+          '塔前停留时间按官方列出的六块解说牌与一处平台的规模推算。' +
+          '<strong>提醒一句：这 45–75 分钟里有很大概率是白跑——2026 年官方状态始终是 “Site Closed”。</strong>）',
         book: '<strong>不需预约</strong>，也没有任何预约渠道。' +
-          '<strong>如果你打算试一次，唯一有用的动作是提前打 Shoshone National Forest ' +
-          'Clarks Fork Ranger District 问「FR 142 和瞭望台今天开不开」——' +
-          '因为官网那一页已经一年没更新，电话是唯一能拿到 2026 年真实状态的渠道。</strong>' +
+          '<strong>唯一有用的准备动作是提前打 Shoshone National Forest ' +
+          'Clarks Fork Ranger District 问「FR 142 和瞭望台当天开不开」——' +
+          '因为官网那一页从 2025 年 9 月起没有更新，电话是唯一能拿到当年真实状态的渠道。</strong>' +
           '<strong>该区与 Greybull、Wapiti 两区合署办公，地址 203A Yellowstone Avenue, Cody, WY，' +
           '电话 (307) 527-6921，办公时间周一、周二、周四、周五 08:00–16:30 MT。</strong>' +
-          '<strong>请特别注意它周三不上班</strong>——你 9/24（周四）要用的信息，' +
-          '<strong>如果想提前一天问，9/23 是周三，打不通；请在 9/22（周二）就打，或 9/24 当天早上开门后打。</strong>' +
+          '<strong>请特别注意它周三不上班</strong>——' +
+          '<strong>要在周四上山，前一天（周三）是打不通的，请提前到周二打，或当天开门后再打。</strong>' +
           '（备用：Supervisor\u2019s Office 808 Meadow Lane Avenue, Cody，(307) 527-6241，周一至周五 08:00–16:30，但需预约到访。）' +
           '现场没有手机信号，到了路口再想查是查不了的',
-        ticket: '<strong>免费。</strong>官方页面 Fee Site 栏为空，无入场费、无停车费。' +
-          '替代机位 Pilot-Index Overlook 的 layby 在 OSM 上标注 fee=no',
+        ticket: '<strong>免费（2026-09-15 复核 Shoshone National Forest 官方页）。</strong>' +
+          '官方页面 Fee Site 栏为空，无入场费、无停车费；' +
+          '<strong>也不需要国家森林日票或 America the Beautiful 年票。</strong>' +
+          '替代观景点 Pilot-Index Overlook 的 layby 在 OSM 上标注 fee=no。' +
+          '<strong>注意这里在 Yellowstone 国家公园界外，因此与园区门票无关；' +
+          '但这条路通向黄石东北门，进园仍要买整园门票：私家车 $35／七天，' +
+          '另有 2026 年起对非美国居民（16 岁及以上）每人加收的 $100 非居民附加费，' +
+          '持 Yellowstone 年票（$70）或 America the Beautiful 年票者免该附加费</strong>' +
+          '（NPS 官方 Fees &amp; Passes 页与 nps.gov/aboutus/nonresident-fees.htm，2026-09-15 复核）',
         hours: '<strong>这是本景点的核心问题，官方口径有两条且不完全一致，请两条都按最严的理解：</strong>' +
-          '<strong>（一）Shoshone National Forest 官方页（2026-09-05 复核）：页面状态标签 “Site Closed”，' +
+          '<strong>（一）Shoshone National Forest 官方页（2026-09-05 首次核实，2026-09-15 再次复核，两次完全一致）：页面状态标签 “Site Closed”，' +
           '“Operational Hours: Day use only, open sunrise to sunset”，' +
           '“Current Conditions: Closed for the 2025 Season”，页面 Last updated 2025 年 9 月 10 日——' +
           '这一页在整个 2026 年从未更新过。</strong>' +
           '<strong>（二）Forest Service 另一官方页面：“The last 1/4 mile to the Fire tower is usually open 8am to 5pm.”</strong>' +
           '<strong>另有第三方记录称该闸门在 17:00–08:00 之间通常上锁。</strong>' +
-          '<strong>结论：9 月 24–25 日按「已关闭」规划；即使开着，也只在 08:00–17:00 之间可能进得去。</strong>' +
+          '<strong>结论：九月中旬之后一律按「已关闭」规划；即使开着，也只在 08:00–17:00 之间可能进得去。</strong>' +
           '<strong>2026 年是否开季、以及 2026 年的关闭日期，官方从未在这一页上发布过，这一项仍属未能确认。</strong>' +
           '<strong>但同区营地页面已经公布 2026 年 9 月 13 日收季（Beartooth Lake 与 Island Lake，' +
           '页面 2026 年 7 月 6 日更新），而 2025 年 Clay Butte 的收季公告挂在 9 月 10 日——' +
-          '两个年份的节奏一致指向「9 月第二周收季」，所以 9/24–9/25 关着的可能性远大于开着。</strong>' +
+          '两个年份的节奏一致指向「9 月第二周收季」，所以九月第三周之后关着的可能性远大于开着。</strong>' +
           '<strong>唯一能问出 2026 年真实状态的渠道是电话：Clarks Fork Ranger District (307) 527-6921，' +
           '注意它周三不上班（见 access.book）。</strong>' +
           '<strong>作为对照，替代机位 Pilot-Index Overlook 在 US-212 主路边，公路开放期内（2026 年 5 月 22 日 – 10 月 12 日）24 小时可用、无闸门。</strong>' +
-          '<strong>10 月下旬那个备用窗口不用考虑本景点：10 月 12 日之后整条 Beartooth Highway 关闭，' +
-          '连主路上的替代机位都到不了。</strong>',
+          '<strong>十月中旬之后本景点整体不必考虑：2026 年 10 月 12 日之后整条 Beartooth Highway 关闭，' +
+          '连主路上的替代观景点都到不了（NPS 官方 Park Roads 页，2026-09-15 复核）。</strong>',
         parking: '<strong>瞭望台：碎石停车场（44.94458, −109.62658），免费，容量小。</strong>' +
           '<strong>闸门前的步道停车场（44.95184, −109.63293，OSM surface=ground）——' +
           '如果闸门锁着，这里是你能停到的最高点，从这里到塔还有 0.25 英里（0.4 公里）步行。</strong>' +
@@ -1637,7 +1859,8 @@ module.exports = {
         '<strong>把它当成「路过顺便看一眼路口有没有封」的加分项，不要写进当天的必到清单。</strong>' +
           '路口在 US-212 的 44.93717, −109.62228，' +
           '从 Cooke City 开过来约 <strong>21.3 英里／OSRM 39 分钟（实际 50–60 分钟）</strong>，' +
-          '<strong>而 Pilot-Index Overlook 就在再往西 1.6 英里的主路边——两个点顺路，看一眼路口不亏</strong>',
+          '<strong>而 Pilot-Index Overlook 就在再往西 0.9 英里（1.4 公里）的主路边，本区已为它单列一条——' +
+          '两个点顺路，看一眼路口不亏</strong>',
         '<strong>Forest Service 在这一页上专门写了一句熊：' +
           '“Grizzly bear frequent the meadows and forest below the lookout.”</strong>' +
           '这不是套话，塔下的草甸与林地是已知的 grizzly 活动区。' +
@@ -1669,6 +1892,7 @@ module.exports = {
       n: 6,
       name: 'Chief Joseph Scenic Byway 与 Dead Indian Pass',
       en: 'Chief Joseph Scenic Byway (WY-296) & Dead Indian Pass Overlook',
+      must: 4,
       score: 4.5,
       tldr: '8,048 英尺的正式观景台，向西北俯瞰 Clarks Fork Canyon 与 Absaroka 山墙，脚下是两侧发卡弯。有停车场与厕所。观景台朝西北，所以这里是明确的清晨景点，日落是纯逆光。也是 Beartooth 被雪封时的首选备案。',
       tags: [
@@ -1727,6 +1951,75 @@ module.exports = {
           '另外在鞍部以北 1.5 公里的 <strong>44.75619, −109.38328</strong> 还有一个未命名的 ' +
           'OSM viewpoint 节点，是下山路上的第二个观景点'
       ],
+      tour: [
+        '<strong>先把它当成一条路来安排，而不是一个点：这才是这一区最容易被排错的地方。</strong>' +
+          '<strong>Chief Joseph Scenic Byway（WY-296）全长约 46 英里</strong>' +
+          '（官方口径：从 Cody 沿 WY-120 北行 16 英里转入 WY-296，再行约 46 英里到 US-212 路口；' +
+          'Shoshone National Forest 官方页，2026-09-15 复核），' +
+          '<strong>净驾驶约 1 小时 15 分；算上 Dead Indian Overlook 与 Sunlight Bridge 两处停车观景，实际 2.5–3 小时。</strong>' +
+          '<strong>而它真正的用法是与 Beartooth Highway 串成一个环线：' +
+          'Cody → WY-120 → WY-296（Dead Indian Pass）→ US-212 路口 → 翻 Beartooth Pass → Red Lodge → ' +
+          '经 MT-308 Belfry 与 WY-120 回 Cody，全长约 165–170 英里。</strong>' +
+          '<strong>Beartooth Highway 一段（Red Lodge 至 Cooke City）官方常记为 68 英里，' +
+          '按 OSM 路网从镇中心到镇中心是 64 英里，OSRM 净驾驶 116 分钟，实际 2.5–3 小时。</strong>' +
+          '<strong>整个环线净驾驶 4.5–5 小时，加上各观景台的停留是一整天（8–10 小时），' +
+          '不要按「下午顺路开一圈」来排。</strong>' +
+          '（Red Lodge → Cody 那一段约 65 英里／1 小时 20 分，属估算，未用 OSRM 复核；其余里程均取自 OSM 路网。）',
+        '<strong>Dead Indian Pass 观景台是这条路上唯一设施齐全的一处，也是唯一必须下车的一处，30–45 分钟。</strong>' +
+          '<strong>正式停车场（44.74355, −109.38315）是回环式的，进出不用倒车、放得下 RV，' +
+          '厕所在 44.74259, −109.38299——这是 WY-296 上只有两处厕所中的一处（另一处在 Sunlight Bridge 南端）。</strong>' +
+          '<strong>下车后做三件事：（一）走到主平台（不到 50 米）向西北看 Clarks Fork 峡谷与 Absaroka 山墙；' +
+          '（二）转到东南侧的鞍部（约 80 米）俯看 Cody 一侧那串盘山发卡弯；' +
+          '（三）读解说牌——这条路的名字来自 1877 年 Chief Joseph 与约 750 名 Nez Perce 沿这一带穿越 Clarks Fork 峡谷、' +
+          '甩掉追击美军的那段历史，另一块专门的 “Nez Perez Escape Trail” 解说牌在西北 3 公里的路边（44.75350, −109.41736），顺路。</strong>' +
+          '<strong>朝向决定时段：主视野朝西北，清晨全亮、傍晚逆光。只能傍晚到的话，就转身拍东南那串弯。</strong>',
+        '<strong>2026 年有一处确定存在的施工限行，直接影响房车与拖挂，这是本条目最新的一条事实。</strong>' +
+          '<strong>WYDOT 511（2026-09-15 复核）：WY-296 里程桩 25.0–25.2 的 Dead Indian Creek 结构因洪水损坏施工，' +
+          '工期 2026 年 8 月 6 日至 10 月 31 日，信号灯控制的单车道交替放行，' +
+          '官方写「延误不到 2 分钟」，但同一条目的延误栏写「停车等待约 10 分钟」，两个口径都记下来。</strong>' +
+          '<strong>关键是 12 英尺（3.66 米）宽度限制</strong>——' +
+          '普通轿车与常规房车没问题，但超宽拖挂与大型 RV 请提前按这个数字核对自己的车宽。' +
+          '<strong>同日 WYDOT 对 WY-296 全线（US-212 至 WY-120）挂的是「落石」提示，路面状况 Dry。' +
+          '而 US-212 的 Wyoming 段当天无任何在册施工项目。</strong>' +
+          '另一条 2026 年施工已经结束、不再影响出行：' +
+          '<strong>WY-296 里程桩 0.0 起向 Cody 方向 8.5 英里的碎石封层，2026 年 6 月 1 日开工、6 月 30 日合同完工，' +
+          '施工期间延误曾达 20 分钟（WYDOT 新闻稿）。</strong>',
+        '<strong>急弯、长下坡与恐高：这条路的难度不在 Dead Indian Pass 顶上，而在它的 Cody 一侧。</strong>' +
+          '<strong>从 8,048 英尺的鞍部到 Bighorn Basin 连续下降约 3,000 英尺，一串大角度回头弯，路面好但坡长。' +
+          '下山请用低挡控速，不要连续踩刹车——刹车热衰减是这段路的典型事故原因。</strong>' +
+          '<strong>房车与拖挂：WY-296 本身坡度与弯度都比 Beartooth Highway 缓，是这一区对大车更友好的一条；' +
+          '真正的约束是上面那个 12 英尺宽度限制，以及正规停车位很少。</strong>' +
+          '<strong>全线只有 Dead Indian Overlook（回环式停车场）与 Sunlight Bridge（南端停车场）两处能放心停大车，' +
+          '其余是窄路肩，不要在弯道上停车拍照，这条路上有货车。</strong>' +
+          '<strong>恐高者：Dead Indian Overlook 的平台离路面边缘有距离、有围挡，站上去问题不大；' +
+          '真正会不舒服的是 Sunlight Bridge 的人行道（桥面到水面约 200–300 英尺）与 Cody 侧下坡时' +
+          '副驾一侧临空的那几个弯——怕的话坐靠山那一侧，并且不要自己开。</strong>',
+        '<strong>沿途值得停的几处与各自停留时间（从 US-212 路口往 Cody 方向排）。</strong>' +
+          '<strong>（一）Nez Perce 逃亡路解说牌／Dead Indian Campground 一带（44.75350, −109.41736）：10 分钟</strong>，' +
+          '路边就能读，与营地是否开放无关。' +
+          '<strong>（二）Sunlight Bridge（44.76981, −109.42476 停车）：30–45 分钟</strong>，' +
+          '怀俄明州最高的桥，有独立人行道可以合法走到桥中央往下看，正午前后谷底才有光。' +
+          '<strong>（三）Dead Indian Pass Overlook（44.74355, −109.38315）：30–45 分钟</strong>，本条路的主角。' +
+          '<strong>（四）下山路上的第二个观景点（44.75619, −109.38328）：10 分钟</strong>，无设施。' +
+          '<strong>如果这一趟同时走 Beartooth Highway，那一侧的四处依次是：' +
+          'Pilot-Index Overlook 10–15 分钟、Beartooth Lake 与 Island Lake 各 20–30 分钟、' +
+          'Beartooth Pass 顶与 West Summit 40–60 分钟、Rock Creek Vista Point 20–30 分钟。</strong>' +
+          '<strong>把这些加起来就是「为什么这一圈是一整天」。</strong>',
+        '<strong>季节性：这一条最容易搞错，而且它是本区最值钱的可达性事实。</strong>' +
+          '<strong>WY-296 主体全年通车，并不随 US-212 在十月中旬一起关</strong>——' +
+          'NPS 官方原文 “Open year-round from WY-120 to Pilot Creek Parking Lot (4 miles toward Cooke City from the junction of WY-296/US-212)”，' +
+          '<strong>Dead Indian Pass 与 Sunlight Bridge 都在这一段之内。</strong>' +
+          '<strong>季节性关闭的是两头：US-212 全线（2026 年 5 月 22 日 – 10 月 12 日），' +
+          '以及 US-212 从路口往 Cooke City 的那 9 英里（冬季只许雪地通行，轮式车辆通行期为 5 月中至 11 月初）。</strong>' +
+          '<strong>实际含义：十月中旬之后从 Cody 方向仍能开到 Dead Indian Pass 与 Sunlight Bridge，' +
+          '但过不去 Cooke City、也上不了 Beartooth——这条路那时是一条尽头路。</strong>' +
+          '<strong>另外 WY-296 冬季虽然通车，但不按州内主干线的标准清扫，' +
+          '降雪后往往要等几个小时，且没有夜间除雪。</strong>' +
+          '<strong>后勤硬约束：WY-296 全线没有加油站，路口到 Cody 之间 57 英里一滴油都没有；' +
+          '全线基本无手机信号，直到接近 Cody 才恢复——' +
+          '也就是说路况必须在 Cooke City 或 Cody 查好再进来，进来之后查不了。</strong>' +
+          '（以上日期取自 NPS 官方 Park Roads 页与 WYDOT 511，2026-09-15 复核。）'
+      ],
       photo: '风光 <strong>4.5/5</strong>，公路几何 <strong>5/5</strong>，人文 <strong>3/5</strong>。' +
         '<strong>加分项是「一个机位同时给你大峡谷全景和两组发卡弯」，这种组合在整个 Yellowstone 区域少见；' +
         '而且它有正规停车场和厕所，不需要在窄路肩上冒险。</strong>' +
@@ -1764,7 +2057,7 @@ module.exports = {
             'OSM 几何上在观景台以下 2.6–3.5 公里处有几个明显的回头弯。</strong>' +
             '<strong>最佳时段 17:00–18:30</strong>：' +
             '9/24 这时太阳在方位 245°–262°、高度 22°→6°，' +
-            '<strong>从你的右后方斜射过来，正面照亮那些朝西南的路基与挡土墙，' +
+            '<strong>从右后方斜射过来，正面照亮那些朝西南的路基与挡土墙，' +
             '而弯道的阴影侧会把路的立体感勾出来。</strong>' +
             '<strong>18:30 之后太阳掉到 6° 以下，整个东南坡开始进阴影，就收工。</strong>' +
             '焦段：<strong>70–200mm 是主力，把三四个弯压在一起；300mm 可以单独抓一段带车的弯。</strong>' +
@@ -1791,21 +2084,46 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>观景台本身：30–45 分钟</strong>' +
+          '（停车到主平台不到 50 米，主视野看 20–30 分钟、转到东南鞍部俯看发卡弯 10 分钟、读解说牌 5 分钟）。' +
+          '<strong>只想到此一看：15 分钟足够。</strong>' +
+          '<strong>作为通道走完整条 Chief Joseph Scenic Byway：净驾驶 1 小时 15 分（约 46 英里）＋ 停车观景 1–1.5 小时 ＝ 2.5–3 小时</strong>' +
+          '（观景台 30–45 分钟 ＋ Sunlight Bridge 30–45 分钟 ＋ Nez Perce 解说牌 10 分钟）。' +
+          '<strong>与 Beartooth Highway 串成 Cody–Red Lodge 环线：净驾驶 4.5–5 小时 ＋ 停车观景 3–4 小时 ＝ 8–10 小时，按一整天算。</strong>' +
+          '<strong>2026 年另需为 WY-296 里程桩 25 的施工路段预留 10 分钟等待</strong>' +
+          '（信号灯交替放行，工期至 2026 年 10 月 31 日，2026-09-15 复核 WYDOT 511）。' +
+          '（依据：里程取自 Shoshone National Forest 官方页与 OSM 路网，' +
+          '驾驶时间为 OSRM 计算值，现场停留时间按各观景台设施规模推算。）',
         book: '<strong>不需预约。</strong>观景台是公路设施，无任何预约或许可要求。' +
           'Dead Indian Campground 在开放季为 Forest Service 营地（USDA 运营），' +
           '<strong>其预订规则与 2026 年关闭日期均未能从官方渠道确认</strong>，' +
           '但日间拍摄不涉及',
-        ticket: '<strong>免费。</strong>观景台、停车、厕所均无收费。' +
-          '<strong>WY-296 全线免费，且不进入 Yellowstone，所以不需要国家公园门票——' +
-          '这一点在 Beartooth 封路那天很有用</strong>',
-        hours: '<strong>公路开放期内 24 小时可进入，无闸门、无门禁。</strong>' +
-          '<strong>本观景台所在的 WY-296 路段其实全年通车，并不随 US-212 在 10 月 12 日一起关。</strong>' +
-          'NPS 原文：<strong>“Open year-round from WY-120 to Pilot Creek Parking Lot”</strong>，' +
+        ticket: '<strong>免费（2026-09-15 复核）。</strong>观景台、停车、厕所均无收费，' +
+          'WY-296 与 US-212 两条路本身都不收通行费，也不需要国家森林日票或 America the Beautiful 年票。' +
+          '<strong>WY-296 全线不进入 Yellowstone，因此单走这条路不需要国家公园门票——' +
+          '这一点在 Beartooth 封路时很有用。</strong>' +
+          '<strong>但这两条路是黄石东北门的通道，一旦经东北门进园就要买整园门票：' +
+          '私家车 $35／七天（含车上所有人），摩托车 $30，步行或骑行每人 $20；' +
+          'Yellowstone 年票 $70，America the Beautiful 年票 $80（美国居民）／$250（非居民）。' +
+          '另有 2026 年起对非美国居民（16 岁及以上）每人加收的 $100 非居民附加费，' +
+          '持年票或 America the Beautiful 年票者免该附加费。</strong>' +
+          '（NPS 官方 Fees &amp; Passes 页与 nps.gov/aboutus/nonresident-fees.htm，2026-09-15 复核；' +
+          '五个入口均可现场刷卡或付现，无需预约。）',
+        hours: '<strong>公路开放期内 24 小时可进入，无闸门、无门禁（2026-09-15 复核）。</strong>' +
+          '<strong>本观景台所在的 WY-296 路段其实全年通车，并不随 US-212 在十月中旬一起关。</strong>' +
+          'NPS 官方 Park Roads 页原文：<strong>“Open year-round from WY-120 to Pilot Creek Parking Lot ' +
+          '(4 miles toward Cooke City from the junction of WY-296/US-212)”</strong>，' +
           '<strong>Dead Indian Pass 就在这一段之内</strong>；' +
-          '10/12 关的是 US-212 全线，以及 WY-296／US-212 路口往 Cooke City 方向那 9 英里' +
-          '（该 9 英里段的通车期为 mid-May 至 early November）。' +
-          '<strong>因此 9 月 22–29 日本点位确定开放，而且即使 Beartooth 因雪封了，这里通常还在——' +
-          '这正是它作为备选方案的价值。</strong>' +
+          '<strong>2026 年 10 月 12 日关的是 US-212 全线（原文 “Open May 22 – October 12, 2026: ' +
+          'Beartooth Highway (US-212), Chief Joseph Scenic Byway (WY-296)”），' +
+          '以及 WY-296／US-212 路口往 Cooke City 方向那 9 英里</strong>' +
+          '（原文 “In winter, 9 miles of road are closed to wheeled vehicles (oversnow travel only) ' +
+          'from Cooke City to Pilot Creek. This segment of road is open to wheeled vehicles mid-May through early November.”）。' +
+          '<strong>因此本点位在整个九月与十月确定开放，而且即使 Beartooth 因雪临时封路或已经季节性关闭，' +
+          '从 Cody 方向仍然到得了这里——这正是它作为备选方案的价值。</strong>' +
+          '<strong>2026 年唯一的限行是施工，不是季节：WY-296 里程桩 25.0–25.2（Dead Indian Creek 洪损结构）' +
+          '自 2026 年 8 月 6 日起至 10 月 31 日，信号灯控制交替放行、12 英尺宽度限制，' +
+          '官方延误口径一处写「不到 2 分钟」、一处写「停车等待约 10 分钟」（WYDOT 511，2026-09-15 复核）。</strong>' +
           '<strong>与 Beartooth Highway 不同，WY-296 最高点只有 8,048 英尺，' +
           '因季节性降雪临时封路的概率明显低得多</strong>' +
           '（<strong>具体概率无官方统计，此处为基于海拔差的推断</strong>）。' +
@@ -1870,6 +2188,7 @@ module.exports = {
       n: 7,
       name: 'Sunlight Basin 与 Sunlight Creek 桥',
       en: 'Sunlight Basin & Sunlight Creek Bridge',
+      must: 2.5,
       score: 4,
       tldr: '怀俄明州最高的桥，跨在一条几乎垂直的窄峡上。桥上有独立人行道，OSM 已核实（长 131 米），所以你可以合法走到桥中央向下拍——这是本子地区唯一一个「站在结构物上往下看」的机位。有停车场与厕所。',
       tags: [
@@ -1912,6 +2231,48 @@ module.exports = {
           '也是判断你在 WY-296 上走到哪里的参照。</strong>' +
           '桥到 Dead Indian Pass 只有 <strong>9.7 英里／OSRM 17 分钟</strong>，两个点必须一起做'
       ],
+      tour: [
+        '<strong>这是一处「顺路停 30–45 分钟」的点，不值得为它专程绕路，但开 WY-296 一定要停。</strong>' +
+          '<strong>它就在 Dead Indian Pass 西北 9.7 英里／OSRM 17 分钟，两处必然一起做。</strong>' +
+          '<strong>流程很简单：进桥南端西侧的正式停车场（44.76981, −109.42476，免费），' +
+          '沿桥上那条与车道分开的独立人行道走 120 米到桥中央（2–3 分钟、几乎无爬升），' +
+          '向下看那道窄峡，再回到端头拍一眼桥本身。</strong>' +
+          '<strong>这一带海拔约 6,000 英尺（按地形模型推算，比 Dead Indian Pass 低约 2,000 英尺），' +
+          '是本区最没有高原负担的一站——走这 120 米不会喘。</strong>',
+        '<strong>务必走人行道，不要走车道，这是这里唯一的安全要点。</strong>' +
+          '<strong>桥体本身没有车道路肩，而 WY-296 是有货车的干线；' +
+          '桥的两侧各有一条独立的人行道（OSM 已核实为 footway、bridge=yes、layer=1，长 131 米），' +
+          '官方设计就是让人走到桥中央往下看，不需要翻护栏、也不需要站在车道上。</strong>' +
+          '<strong>桥面到水面落差普遍被记述为约 200–300 英尺（60–90 米），未能从官方渠道确认精确数字，请以现场解说牌为准。</strong>' +
+          '<strong>不要把身体、相机或三脚架伸出栏杆之外——这里是风道，阵风几秒内就变；' +
+          '带小孩的请全程牵手，怕高的人可以只在端头看，不必走到中央。</strong>' +
+          '另外<strong>有车经过时人行道会明显震动</strong>，扶栏杆的手要稳。',
+        '<strong>什么时候来很重要，而这里的答案与本区其他所有点相反：正午前后最好。</strong>' +
+          '<strong>峡谷的宽度远小于深度，只有太阳高度超过约 35° 时直射光才落到谷壁下部与水面。' +
+          '实操时段是 11:30–14:30；清早或傍晚来，往下看只是一条纯黑的缝，什么细节都没有。</strong>' +
+          '<strong>换句话说，它正好是排在「清晨 Dead Indian Overlook」与「傍晚 Beartooth 垭口」之间的那一段填充。</strong>' +
+          '如果只能傍晚经过，就把时间用在桥的侧面轮廓上（15:00–17:30 侧光最好），不要指望谷底。',
+        '<strong>顺路的两处补充，各 10–20 分钟，都不是必需。</strong>' +
+          '<strong>（一）Sunlight Basin 谷地本身</strong>——这是 WY-296 上唯一的开阔牧场谷地，' +
+          '两侧是私有牧场（OSM 上大量 access=private 车道），' +
+          '<strong>请只在公路路权与停车场范围内活动，不要越过任何围栏或走上牧场车道。</strong>' +
+          '这一带也是 moose 与 elk 的活动区，河岸柳丛边要出声。' +
+          '<strong>（二）Sunlight Creek Picnic Site（44.76295, −109.43344）</strong>——' +
+          '从桥沿碎石支路 Forest Rd 2963A 往西南下行约 1.2 公里（官方口径「约 1 英里」），' +
+          '是从谷底仰看峡谷口与牧场的位置，与桥上俯看互补。' +
+          '<strong>但它的开放状态官方写得很含糊（见 access.hours），请按「可能有路障、厕所可能不可用」预设，' +
+          '不要把它算成厕所点。</strong>' +
+          '<strong>确定可用的厕所是桥南端那一个（44.76973, −109.42442）——' +
+          '它与 Dead Indian Overlook 的厕所是整条 WY-296 上仅有的两处。</strong>',
+        '<strong>后勤：这里没有任何服务，而且它在一段 57 英里无加油站的路中间。</strong>' +
+          '<strong>WY-296 全线无燃料、无餐饮、无饮用水，基本无手机信号（直到接近 Cody 才恢复）。</strong>' +
+          '<strong>从 Cooke City 方向过来请在 Cooke City Exxon 加满（油泵 24/7）；' +
+          '从 Cody 方向过来请在 Cody 加满。</strong>' +
+          '<strong>2026 年还要把施工算进来：桥东南方向、WY-296 里程桩 25.0–25.2 处有信号灯控制的单车道交替放行，' +
+          '工期至 2026 年 10 月 31 日，12 英尺宽度限制，预留 10 分钟等待（WYDOT 511，2026-09-15 复核）。</strong>' +
+          '<strong>好消息是季节性：桥所在的 WY-296 路段全年通车，不随 Beartooth Highway 在十月中旬关闭，' +
+          '所以从 Cody 方向来这里的窗口比整条 Beartooth 长得多。</strong>'
+      ],
       photo: '风光 <strong>3.5/5</strong>，结构与几何 <strong>4.5/5</strong>，人像 <strong>2/5</strong>。' +
         '<strong>加分是「有合法人行道的高桥」这个稀缺条件，以及垂直窄峡这种在整个 Yellowstone 区域都不常见的地貌。</strong>' +
         '扣分是<strong>可用光窗口极窄</strong>——' +
@@ -1930,7 +2291,8 @@ module.exports = {
             '峡谷窄而深，只有太阳高度超过约 35° 时才有直射光落到谷壁下部与水面。</strong>' +
             '<strong>08:00 或 18:00 来这里，你会得到一条纯黑的缝，什么细节都没有——' +
             '这一点和垭口正好相反，也和本子地区其他所有机位相反。</strong>' +
-            '<strong>如果你的行程是「清晨 Dead Indian → 中午 Sunlight Bridge」，那顺序恰好是对的。</strong>' +
+            '<strong>「清晨 Dead Indian Overlook → 正午 Sunlight Bridge」这个顺序在光线上恰好成立，' +
+            '也是这条路最省时间的排法。</strong>' +
             '焦段：<strong>16–24mm 竖幅从人行道向下拍，把桥的栏杆或桥体边缘留在画面顶端做前景，' +
             '这样才有「站在多高的地方」的信息</strong>；' +
             '<strong>24–70mm 顺着峡谷轴线（西南上游／东北下游）拍进去，' +
@@ -1984,18 +2346,41 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>建议参观时长 30–45 分钟</strong>：' +
+          '停车到桥中央 2–3 分钟、在桥中央向下看与拍 15–25 分钟、回端头拍桥体 10 分钟、上厕所 5 分钟。' +
+          '<strong>只想看一眼「怀俄明州最高的桥」：15 分钟足够。</strong>' +
+          '<strong>加上开车下到 Sunlight Creek Picnic Site 从谷底仰看：共 1 小时到 1 小时 15 分</strong>' +
+          '（往返 1.2 公里碎石支路净驾驶 10–15 分钟 ＋ 现场 20–30 分钟，' +
+          '<strong>但该野餐区的开放状态不确定，见 hours</strong>）。' +
+          '<strong>作为通道的算法：这里位于 Chief Joseph Scenic Byway 中段，' +
+          '与 Dead Indian Pass 相距 9.7 英里／净驾驶 17 分钟，' +
+          '两处一起做是「净驾驶 35–40 分钟 ＋ 停车观景 1–1.5 小时」，共 2 小时到 2 小时 15 分。</strong>' +
+          '（依据：步行距离与桥长取自 OSM 实测，驾驶时间为 OSRM 计算值，现场停留按设施规模推算。）',
         book: '<strong>不需预约。</strong>桥、人行道、停车场、厕所与野餐区都是公共设施，无任何预约或许可要求',
-        ticket: '<strong>免费。</strong>桥上人行道、停车与桥南端的厕所全部免费。' +
+        ticket: '<strong>免费（2026-09-15 复核）。</strong>桥上人行道、停车与桥南端的厕所全部免费，' +
+          'WY-296 本身不收通行费，也不需要国家森林日票或年票。' +
+          '<strong>这里不进入 Yellowstone，因此不需要国家公园门票；但这条路通向黄石东北门，' +
+          '经东北门进园仍要买整园门票：私家车 $35／七天，另有 2026 年起对非美国居民' +
+          '（16 岁及以上）每人加收的 $100 非居民附加费，持年票或 America the Beautiful 年票者免该附加费</strong>' +
+          '（NPS 官方 Fees &amp; Passes 页与 nps.gov/aboutus/nonresident-fees.htm，2026-09-15 复核）。' +
           'Sunlight Creek Picnic Site 官方页 Fee 栏写的是 “No fee”，' +
           '<strong>但同一页的状态标签是 “Site Closed”，所以那里 9 月下旬能不能用是另一回事（见 hours）。</strong>' +
           '不进入 Yellowstone，因此不需要国家公园门票',
-        hours: '<strong>公路开放期内 24 小时可进入，无闸门。</strong>' +
-          '<strong>桥所在的 WY-296 路段全年通车，不随 US-212 在 10 月 12 日关闭</strong>' +
-          '（NPS 原文 “Open year-round from WY-120 to Pilot Creek Parking Lot”，Sunlight Bridge 在这一段内），' +
-          '<strong>因此 9 月 22–29 日确定开放。</strong>' +
-          '<strong>Sunlight Creek Picnic Site：2026-09-05 复核 Shoshone National Forest 官方页，' +
-          '页面状态标签就是 “Site Closed”，“Operational Hours” 一栏写的是 ' +
-          '“Sunlight Creek Picnic area is open pending road conditions”，页面 Last updated 2025 年 11 月 13 日。</strong>' +
+        hours: '<strong>公路开放期内 24 小时可进入，无闸门（2026-09-15 复核）。</strong>' +
+          '<strong>桥所在的 WY-296 路段全年通车，不随 US-212 在十月中旬关闭</strong>' +
+          '（NPS 官方 Park Roads 页原文 “Open year-round from WY-120 to Pilot Creek Parking Lot”，' +
+          'Sunlight Bridge 在这一段内；US-212 与 WY-296 的 2026 年季节性日期为 “Open May 22 – October 12, 2026”，' +
+          '真正随此关闭的是 US-212 全线与路口往 Cooke City 的 9 英里），' +
+          '<strong>因此从 Cody 方向过来，这个点位全年基本都在，九月与十月确定开放。</strong>' +
+          '<strong>2026 年唯一的限行是施工：WY-296 里程桩 25.0–25.2 信号灯交替放行、12 英尺宽度限制，' +
+          '工期 2026 年 8 月 6 日至 10 月 31 日（WYDOT 511，2026-09-15 复核）；' +
+          '同日 WYDOT 对 WY-296 全线挂「落石」提示。</strong>' +
+          '<strong>Sunlight Creek Picnic Site 的状态官方说不清：2026-09-05 复核时 Shoshone National Forest ' +
+          '官方页顶部状态标签是 “Site Closed”；2026-09-15 再次复核，页面正文一字未改' +
+          '（“Operational Hours: Sunlight Creek Picnic area is open pending road conditions”、' +
+          'Fee 栏 “No fee”、Last updated 仍为 2025 年 11 月 13 日），' +
+          '但这次抓取未能读到顶部那个状态标签，因此「Site Closed 是否仍挂着」未能确认。' +
+          '官方唯一明确的口径就是那句没有日期的 “open pending road conditions”。</strong>' +
           '<strong>所以请直接按「野餐区与它的 vault toilet 都不可用」规划，不要把它算成厕所点</strong>' +
           '（唯一确定的厕所是桥南端那个，44.76973, −109.42442）。' +
           '<strong>官方这句 “pending road conditions” 没有给日期，也没有说支路封不封——' +
@@ -2051,6 +2436,7 @@ module.exports = {
       n: 8,
       name: 'Cooke City 与 Silver Gate',
       en: 'Cooke City & Silver Gate',
+      must: 2.5,
       score: 3.5,
       tldr: '东北门外的两个小聚落，也是这整片区域唯一的燃料补给点。Cooke City Exxon 油泵 24/7、常年运营，这是本条目最重要的一条实用信息。Beartooth 一封路，Cooke City 立刻变成死胡同。多数餐饮店在 9 月底前后收季。',
       tags: [
@@ -2081,18 +2467,19 @@ module.exports = {
           '<strong>OSM 上它是 way 243864014（45.01928, −109.93459），' +
           'start_date=1886，alt_name “Cooke City General Store”，电话 +1 406-838-2234。</strong>' +
           '<strong>官方网站原文：“The Cooke City Store is open May thru September.”</strong>' +
-          '<strong>也就是说 9/24–9/25 它还开着，而你如果晚来一周就赶不上了。</strong>' +
+          '<strong>也就是说九月底之前它还开着，十月一到就关，' +
+          '而 Beartooth Highway 还要开到 10 月 12 日——十月初来的人会发现路还在、店已经没了。</strong>' +
           '这栋木构老店本身就是这条街上最好的建筑主体——' +
           '<strong>一个 1886 年的采矿补给站，在同一个位置连续经营了 140 年</strong>。' +
           '同街还有 <strong>Cooke City Montana Museum（45.01915, −109.93699，' +
           'OSM opening_hours “Mo-Sa 09:00-17:00; Su 10:00-14:00”，' +
           '不过该字段的核实日期是 2023-03-16，请现场确认）</strong>' +
           '与讲矿业史的解说牌 “The New World Mining District”（45.01819, −109.94298）',
-        '<strong>餐饮店的收季时间已经核实，而且恰好卡在你的窗口边缘。</strong>' +
+        '<strong>餐饮店的收季时间已经核实，而且恰好卡在公路开放期的尾巴上。</strong>' +
           '<strong>Beartooth Cafe（45.02012, −109.93242，207 E Main St，电话 +1 406-838-2475）' +
           '官方口径 “We are open from Memorial Day week-end until the End of September”，' +
           '营业时段 Mon–Sat 11:00–21:00、Sun 16:00–21:00。</strong>' +
-          '<strong>意思是 9/24–9/25 还开，但这是它这一季的最后一两周。</strong>' +
+          '<strong>意思是九月最后一两周它还在营业，但那已经是这一季的尾巴。</strong>' +
           '<strong>OSM 上核实仍在册的其他选项：The Bistro（45.01966, −109.93309，Exxon 旁，供三餐）、' +
           'Buns N Beds Deli（45.02005, −109.93267）、Prospector（Soda Butte Lodge 内，45.01991, −109.93203）、' +
           'Cooke City Coffee（45.01908, −109.93547）、Beartooth Brew（45.02004, −109.93311）、' +
@@ -2126,6 +2513,63 @@ module.exports = {
           '而它是整个 Yellowstone 五个入口里最上镜的一个。</strong>' +
           '门外还有欢迎牌与停车（45.00348, −110.00165）以及解说牌 ' +
           '“Gateways to Beartooth Country”（45.00375, −109.99652，配沥青停车场 45.00382, −109.99666）'
+      ],
+      tour: [
+        '<strong>把这里当成一个补给站兼小镇街景，而不是一个景点，这是唯一正确的期待。</strong>' +
+          '<strong>Cooke City 主街全长约 400 米，常住人口不到 100 人；' +
+          '从主街公共停车场（45.01917, −109.93659，紧邻免费公厕与饮水）步行 2–5 分钟就能走完全部店面。</strong>' +
+          '<strong>要看的三样：1886 年的 Cooke City Store（45.01928, −109.93459，同一位置连续经营 140 年）、' +
+          '街尾直接顶起来的 Pilot Peak 与 Index Peak 天际线、' +
+          '以及讲矿业史的解说牌 “The New World Mining District”（45.01819, −109.94298）。</strong>' +
+          '<strong>Cooke City Montana Museum 讲本地矿业与雪原救援史，小而具体，20–30 分钟（时段请现场确认，见 hours）。</strong>',
+        '<strong>先办燃料，再逛街——这条是本区所有实用信息里最重要的一条。</strong>' +
+          '<strong>Cooke City Exxon 的油泵官方明写 “Gas Pumps 24/7”（2026-09-15 复核官网），' +
+          '是这一整片区域唯一确定可靠的油源。</strong>' +
+          '<strong>理由是两个无服务路段都从这里起算：往东 Cooke City → Red Lodge 64 英里翻 10,947 英尺垭口，' +
+          '往南 Cooke City → Cody 76.5 英里走 WY-296，两条路上都没有可依赖的加油站。</strong>' +
+          '<strong>请特别不要把沿途的 Top of the World Store 当成加油点：' +
+          '2026-09-15 复核 Exxon 官网的 “what’s open” 页，它的项目说明里只有 General Store、Groceries、' +
+          'Fishing License、Cabin Rental 与 Snowmobile Rentals，没有一个字提到汽油。</strong>' +
+          '<strong>硬规则：不管油表显示多少，离开 Cooke City 前加满。高海拔连续爬坡的油耗明显高于平路，' +
+          '而且万一遇到封路折返，需要双倍里程的余量。</strong>',
+        '<strong>吃饭与厕所要按「高度季节性」来算，这里不是随时有热食的地方。</strong>' +
+          '<strong>官方口径：Cooke City Store “open May thru September”；' +
+          'Beartooth Cafe “We are open from Memorial Day week-end until the End of September”' +
+          '（营业时段 Mon–Sat 11:00–21:00、Sun 16:00–21:00）。</strong>' +
+          '<strong>也就是说十月之后这两家都关门，而九月最后一两周是它们这一季的尾巴。</strong>' +
+          '<strong>Exxon 便利店是最稳的后备（官网当前时段 Sun–Wed 07:30–18:00、Thu–Sat 07:30–20:00，' +
+          '同页页脚另写 Mon–Thu 与 Fri–Sun 08:00–20:00，两处自相矛盾，按早关的那个算）。</strong>' +
+          '<strong>厕所与饮水：主街停车场旁有免费公厕与饮水（45.01921, −109.93693，无障碍），' +
+          '这是上 Beartooth 之前最后一处可靠的厕所——山上 64 英里里只有 Rock Creek Vista Point 一处。</strong>' +
+          '<strong>要早出晚归的话，请预设晚上回来时没有热食，白天在便利店把水与食物买齐。</strong>',
+        '<strong>Silver Gate 与东北门这一段 4 英里，值得单独花 30–45 分钟，很多人开过去就忘了停。</strong>' +
+          '<strong>Silver Gate（45.00695, −109.98974）在 Cooke City 以西 4.3 英里，' +
+          '整体是刻意维持的原木建筑风格聚落，主要建筑集中在 200 米内，' +
+          '有 General Store、Log Cabin Cafe 与几家原木旅舍。</strong>' +
+          '<strong>再往西 1.5 公里就是 Northeast Entrance Station（45.00451, −110.01040）——' +
+          '1935 年前后建成的原木 “parkitecture” 门房，列入 National Register of Historic Places（ref 87001435），' +
+          '是黄石五个入口里唯一既登录史迹名录又仍在使用的一个。</strong>' +
+          '<strong>请把车停进门外停车场（45.00348, −110.00165）再步行，不要在车道上停车拍照，' +
+          '也不要拍摄工作人员或车牌——这是执法与收费设施。</strong>' +
+          '<strong>这一段是已知的 moose 活动区，路边有专门的解说牌（45.00744, −109.98791），清晨傍晚开车请放慢。</strong>',
+        '<strong>这是一条尽头路，出去的方向随时可能只剩一个——这件事决定了每天早上该做什么。</strong>' +
+          '<strong>US-212 在这里向东只通 Beartooth Highway（2026 年 10 月 12 日季节性关闭，' +
+          '且开放期内随时可能因雪临时封路），向西只通黄石园内道路。' +
+          'Beartooth 一封，从 Cooke City 出去的唯一方向就是穿园区往西（到 Lamar 谷汇流处 19 英里／约 33 分钟），' +
+          '而 Chief Joseph Scenic Byway 的路口在 Beartooth 那一侧，封路时也一并到不了。</strong>' +
+          '<strong>两个镇有手机信号，出镇几英里就没有了——这里是当天唯一能查 Montana DOT 与 Wyoming DOT ' +
+          '两套路况系统的地方（两州各管一段）。实操规则：出发前在镇上查一次并截图，上山之后查不了也打不了电话。</strong>' +
+          '<strong>另外这里熊直接进镇是常态：食物不要留在车内可见处，夜间在镇上走动带手电，' +
+          'Soda Butte Campground 因熊情禁止帐篷（只许硬壳车辆）。</strong>',
+        '<strong>住宿要提前订，而且九月下旬之后可选的比想象中少。</strong>' +
+          '<strong>两个镇合计十几家汽车旅馆与原木旅舍（Super 8、Alpine Motel、Soda Butte Lodge、' +
+          'Antlers Lodge、Elk Horn Lodge、High Country Motel 等，Silver Gate 一侧另有四五家），' +
+          '但各家在季末的营业状态逐家不同，未能从官方渠道核实——请直接打电话确认，不要只看订房网站。</strong>' +
+          '<strong>为什么值得住在这里：从 Cooke City 到 Lamar Valley 的野生动物观察带只有 19 英里，' +
+          '而 Beartooth Highway 的垭口在另一头 33 英里——这是同时够到两者的唯一落脚点。</strong>' +
+          '<strong>镇上有一台 ATM（45.01991, −109.93191），是本区唯一一台，' +
+          '往 Red Lodge 或 Cody 之前值得取点现金（部分小店与营地只收现金或支票）。</strong>' +
+          '<strong>九月下旬清晨常在 20–30°F（约 −7 到 −1°C），车窗结霜是常态，摸黑出发请预留 10 分钟刮霜暖车。</strong>'
       ],
       photo: '风光 <strong>3/5</strong>，人文与建筑 <strong>4/5</strong>，野生动物 <strong>3.5/5</strong>。' +
         '<strong>加分是这里有真正的题材：1886 年的老店、NRHP 登录的原木门房、' +
@@ -2198,7 +2642,18 @@ module.exports = {
         }
       ],
       access: {
-        book: '<strong>住宿必须提前预订，而且 9 月下旬可选的比想象中少。</strong>' +
+        visit: '<strong>建议参观时长 1.5–2 小时（两个镇加东北门房）。</strong>' +
+          '拆开算：<strong>Cooke City 主街 40–60 分钟</strong>（老店与街景 20–30 分钟、博物馆 20–30 分钟）、' +
+          '<strong>Silver Gate 20–30 分钟</strong>、' +
+          '<strong>Northeast Entrance Station 门房 15–20 分钟</strong>，' +
+          '三处之间开车共 15 分钟（Cooke City → Silver Gate 4.3 英里，→ 门房 4.0 英里／8 分钟）。' +
+          '<strong>只做补给（加油、上厕所、买水和食物）：25–40 分钟，' +
+          '其中加油 10 分钟、便利店 10–15 分钟、厕所 5 分钟。</strong>' +
+          '<strong>如果把它当落脚点住一晚，实际有价值的时间是清晨与傍晚各 1 小时——' +
+          '两个镇都在深谷里，两侧山坡会比垭口提前约 45 分钟切掉直射光。</strong>' +
+          '（依据：街区长度与各设施位置取自 OSM 实体，镇间距离为 OSRM 计算值，' +
+          '停留时间按主街 400 米的规模与店面数量推算。）',
+        book: '<strong>住宿必须提前预订，而且季末可选的比想象中少。</strong>' +
           '<strong>OSM 核实在册的 Cooke City 住宿：Super 8 by Wyndham（45.02077, −109.93107，+1 406-838-2070）、' +
           'Alpine Motel（45.01977, −109.93404，+1 888-838-1190）、Antlers Lodge（45.02113, −109.93034，+1 406-838-2432）、' +
           'Elk Horn Lodge（45.01971, −109.93440，+1 406-838-2332）、Soda Butte Lodge（45.01998, −109.93196）、' +
@@ -2211,23 +2666,33 @@ module.exports = {
           '也就是 9/24–9/25 仍在开放期内；' +
           '但请注意它标了 tents=no ——因熊情限制只允许硬壳车辆。' +
           '该字段与 2026 年的实际执行情况未能从官方渠道确认。</strong>',
-        ticket: '<strong>镇上一切免费（停车、公厕、饮水）。</strong>' +
-          '<strong>进入 Yellowstone 需要园区门票（七日车辆通行证），' +
-          '但沿 US-212 在东北门与 Silver Gate 之间行驶、以及拍摄门房外观不需要买票。</strong>' +
+        ticket: '<strong>镇上一切免费（停车、公厕、饮水）；Beartooth Highway 与 Chief Joseph Scenic Byway ' +
+          '两条路本身也都不收通行费（2026-09-15 复核）。</strong>' +
+          '<strong>但这两个镇就贴在黄石东北门外，进园必须买整园门票：' +
+          '私家车 $35／七天（含车上所有人，七个连续日），摩托车 $30，步行或骑行每人 $20（16 岁以下免票）；' +
+          'Yellowstone 年票 $70，America the Beautiful 年票 $80（美国居民）／$250（非居民）。' +
+          '另有 2026 年起对非美国居民（16 岁及以上）每人加收的 $100 非居民附加费，' +
+          '持 Yellowstone 年票或 America the Beautiful 年票者免该附加费。</strong>' +
+          '<strong>Northeast Entrance Station 现场可刷卡或付现，不需要预约，也没有定时入园制度。</strong>' +
+          '<strong>沿 US-212 在东北门与 Silver Gate 之间行驶、以及在门外拍摄门房外观不需要买票。</strong>' +
+          '（票价与非居民附加费取自 NPS 官方 Fees &amp; Passes 页与 nps.gov/aboutus/nonresident-fees.htm，' +
+          '2026-09-15 复核，该页标注最后更新 2026 年 6 月 16 日。）' +
           '<strong>Cooke City 有 ATM（45.01991, −109.93191）</strong>，' +
           '这是本子地区唯一一台，往 Red Lodge 或 Cody 之前值得取点现金',
-        hours: '<strong>已核实的官方口径（这是本景点的核实重点）：</strong>' +
-          '<strong>Cooke City Exxon —— “Gas Pumps 24/7”；店面 Sun–Wed 07:30–18:00、Thu–Sat 07:30–20:00。</strong>' +
+        hours: '<strong>已核实的官方口径（这是本景点的核实重点，2026-09-05 首次核实、2026-09-15 全部复核一遍）：</strong>' +
+          '<strong>Cooke City Exxon —— 官网 “Gas Pumps 24/7”；店面时段同一页上有两个互相矛盾的口径：' +
+          '正文写 Sun–Wed 07:30–18:00、Thu–Sat 07:30–20:00，页脚写 Mon–Thu 与 Fri–Sun 均 08:00–20:00。' +
+          '两种口径都记在这里，规划时按早关的那个（18:00）算；油泵 24/7 这一条两处一致。</strong>' +
           '<strong>Cooke City Store —— 官方原文 “The Cooke City Store is open May thru September.”</strong>' +
           '<strong>Beartooth Cafe —— 官方原文 “We are open from Memorial Day week-end until the End of September.”</strong>' +
           '<strong>Cooke City Montana Museum —— OSM opening_hours “Mo-Sa 09:00-17:00; Su 10:00-14:00”（该字段核实日期 2023-03-16）。</strong>' +
           '<strong>公厕与饮水 —— OSM check_date 2026-06-26，fee=no。</strong>' +
           '<strong>Cooke City Chamber of Commerce 游客中心（45.01911, −109.93698，OSM check_date 2026-06-26）' +
           '的具体时段未能核实。</strong>' +
-          '<strong>Sinclair 加油站的时段与 9 月下旬营业状态未能从官方渠道确认（OSM survey 2024-09-25）；' +
-          '并且 2026-09-05 复核 cookecityexxon.com 的 “what’s open” 页时，' +
-          '该页列出的加油／杂货点里根本没有 Sinclair——请不要把它算进补给计划。</strong>' +
-          '<strong>加油这件事本身可以放心：Exxon 的 “Gas Pumps 24/7” 与 9 月下旬无关，' +
+          '<strong>Sinclair 加油站的时段与季末营业状态未能从官方渠道确认（OSM survey 2024-09-25）；' +
+          '并且 2026-09-05 与 2026-09-15 两次复核 cookecityexxon.com 的 “what’s open” 页，' +
+          '该页列出的加油／杂货点里都没有 Sinclair——请不要把它算进补给计划。</strong>' +
+          '<strong>加油这件事本身可以放心：Exxon 的 “Gas Pumps 24/7” 与季节无关，' +
           '它是这条 64 英里无服务路段两端唯一确定的油源，本页已确认。' +
           '规则很简单——不管油表显示多少，离开 Cooke City 前一定加满。</strong>' +
           '同页 2026-09-05 仍在列的补给点：<strong>Cooke City General Store、Yellowstone Trading Post、' +
@@ -2295,6 +2760,210 @@ module.exports = {
           cap: 'Silver Gate 的 General Store 与原木住宿 \u00b7 Larry Lamsa / CC BY 2.0' },
         { url: 'img/northeast-entrance-station-43829754261-9d89c723.jpg',
           cap: '列入 NRHP 的 Northeast Entrance Station \u00b7 Jacob W. Frank / NPS / Public domain' }
+      ]
+    },
+    {
+      id: 'red-lodge',
+      n: 9,
+      name: 'Red Lodge 与 Beartooth Highway 东端起点',
+      en: 'Red Lodge, Montana (east terminus of the Beartooth Highway)',
+      must: 2.5,
+      score: 3,
+      tldr: 'Beartooth Highway 东端的门户小镇，也是这条路东侧唯一的全面补给点：往西 64 英里翻 10,947 英尺垭口之前，最后的加油、餐饮、厕所、药店与手机信号都在这里。老街是 1983 年登录国家史迹名录的商业历史街区，值得走一圈。',
+      tags: [
+        { t: '镇上免费停车', c: 'free' },
+        { t: '上山前最后一处加油', c: 'free' },
+        { t: 'NRHP 商业历史街区', c: 'free' },
+        { t: '博物馆 $5，周日至周二闭馆', c: 'paid' },
+        { t: '有手机信号与医院', c: 'free' }
+      ],
+      highlights: [
+        '<strong>它在这一区的角色是「门户加补给」，而这个角色比它的观赏价值重要得多。</strong>' +
+          '<strong>Beartooth Highway 的官方起点就在这里：从 Red Lodge 到黄石东北门常被记为 68 英里，' +
+          '到 Cooke City 按 OSM 路网是 64 英里，中间翻越 10,947 英尺的 Beartooth Pass，' +
+          '而这 64 英里里没有加油站、没有餐饮、基本没有手机信号。</strong>' +
+          '<strong>因此 Red Lodge 是东侧唯一能把油箱、水、食物、厕所和路况信息一次性解决的地方</strong>' +
+          '（往西最近的同等级服务是 Cooke City，往北是 60 英里外的 Billings）。' +
+          '<strong>镇上海拔两个官方口径不一致：Red Lodge 商会 2026 年官方旅游指南写 5,555 英尺，' +
+          'Visit Montana（蒙大拿州官方旅游网）写 5,571 英尺；常住人口约 2,337–2,399 人。</strong>',
+        '<strong>老街本身是登录国家史迹名录的成片街区，这一点很多过路人不知道。</strong>' +
+          '<strong>Red Lodge Commercial Historic District，NRHP 编号 83001057，1983 年 4 月 14 日登录，' +
+          '范围是 Broadway 大街从 8th 到 13th Street，约 12 英亩。</strong>' +
+          '<strong>商会官方指南的说法是「商业区共 6 个街区、25 座以上建筑在国家史迹名录上」，' +
+          '并提供一条自助步行路线（可在 Carbon County Historical Society &amp; Museum 领取纸质版，' +
+          '或在 redlodge.com/tours 下载）。</strong>' +
+          '<strong>路线上最有故事的一站是 1897 年 Sundance Kid 抢银行的地点</strong>——' +
+          '就是后来与 Butch Cassidy 搭伙的那个 Harry Longabaugh。' +
+          '建筑年代集中在 1890 年代到 1920 年代的煤矿繁荣期（镇上 1915 年人口峰值约 6,000 人，' +
+          '是今天的两倍半），风格混合 Classical Revival、Gothic 与 Romanesque。',
+        '<strong>镇上唯一的正式室内景点是 Carbon County Historical Society &amp; Museum，而它的主展品很有分量。</strong>' +
+          '<strong>地址 224 Broadway Avenue North（OSM 节点 45.18975, −109.24690），' +
+          '官方时段周三至周六 10:00–16:00、周日至周二闭馆，门票 $5、6 岁以下免费，电话 (406) 446-3667，' +
+          '建筑无障碍（官网 2026-09-15 复核）。</strong>' +
+          '<strong>展陈包括一座复原的煤矿坑道，以及 Smith Mine 矿难的全景照片墙——' +
+          '1943 年 2 月 27 日邻镇 Bearcreek 的 Smith Mine 发生瓦斯与煤尘爆炸，' +
+          '当时井下 77 人中 74 人死亡，是蒙大拿州历史上最严重的煤矿事故</strong>' +
+          '（矿难数字取自第三方地方史资料，未在馆方官网上逐项核实；' +
+          '这场事故也是本地煤矿业衰退的转折点，而 Beartooth Highway 正是在此前七年通车、' +
+          '把这个矿业镇改造成了旅游镇）。'
+      ],
+      tour: [
+        '<strong>上山之前请按这个顺序把事情办完，这是本条目最实用的部分。</strong>' +
+          '<strong>（一）加满油</strong>——镇北 Broadway 上有 Cenex（902 North Broadway Avenue，' +
+          'OSM 节点 45.19623, −109.24639，OSM 标注 opening_hours 24/7、有柴油，' +
+          '<strong>该时段取自 OSM 而非官方，请现场确认</strong>），' +
+          '另有 Town Pump（45.19449, −109.24617）与 Ray Judd Petroleum（45.18880, −109.24695）。' +
+          '<strong>（二）上厕所、买水和食物</strong>——往西 64 英里只有 Rock Creek Vista Point 一处可靠厕所。' +
+          '<strong>（三）查路况</strong>——商会官方指南直接写了「Beartooth Scenic Byway 的开放永远取决于天气，' +
+          '打电话给 Red Lodge Visitor’s Center 确认：406-446-1718」。' +
+          '<strong>Visitor Center 在 701 North Broadway，平日 09:00–16:00，另有 24 小时开放的手册间</strong>' +
+          '（商会 2026 年官方指南，2026-09-15 复核；该点无 OSM 实体，故不给坐标）。',
+        '<strong>老街怎么逛：一次 45–60 分钟的平地步行，不需要任何门票。</strong>' +
+          '<strong>把车停在市政免费停车场（City of Red Lodge 运营，OSM way 552442933，45.18456, −109.24926，' +
+          '沥青、access=yes、fee=no），从那里沿 Broadway 往北走。</strong>' +
+          '<strong>历史街区的核心是 8th 到 13th Street 之间那 6 个街区，单程约 600–700 米、完全平地，' +
+          '街上有一块城区地图板（45.19041, −109.24760）可以对照。</strong>' +
+          '<strong>要读建筑就先去博物馆拿那份自助步行路线（或提前在 redlodge.com/tours 下载），' +
+          '否则很多立面看不出名堂。</strong>' +
+          '镇南端另有一块官方历史解说牌 “Red Lodge Country Historical Marker”' +
+          '（45.17757, −109.24772，海拔 1,710 米），从南边进镇时顺路。',
+        '<strong>博物馆去不去，取决于哪一天到——它周日、周一、周二都闭馆。</strong>' +
+          '<strong>官方时段是周三至周六 10:00–16:00，门票 $5（6 岁以下免费），预留 45–60 分钟。</strong>' +
+          '<strong>注意 OSM 上写的是 “Tu-Sa 10:00-16:00”，与官网的周三至周六不一致——以官网为准，' +
+          '要在周二去请先打 (406) 446-3667 确认。</strong>' +
+          '<strong>如果时间只够一件事，那么老街步行比博物馆更值得</strong>（免费、不受时段限制）；' +
+          '但下雨或高原天气把上山计划打乱时，博物馆是这个镇上最好的备用安排。',
+        '<strong>从镇上往西的前 27 英里会遇到什么——商会官方指南给了一份里程表，照它走很省心。</strong>' +
+          '<strong>把里程表归零的位置是镇南端 US-212 与 MT-308 交叉口的 Bearcreek 桥。</strong>' +
+          '<strong>里程 14–22 英里：Rock Creek 发卡弯群，7 英里内爬升 1,500 英尺以上</strong>' +
+          '（沿途那些巨大的铁丝网护坡是 2005 年 5 月的后果：三天下了 9 英寸雨，' +
+          '塌方冲下峡谷、封闭公路，当年夏天重建花了 2,000 万美元——' +
+          '按通胀折算与 1930 年代最初修这条路的钱差不多）。' +
+          '<strong>里程 19.7 英里：Vista Point 休息区（即 Rock Creek Vista Point，全线唯一有正规厕所的观景台）。</strong>' +
+          '<strong>里程 23.9 英里：蒙大拿／怀俄明州界，也是北纬 45 度线——正好在北极与赤道中间。</strong>' +
+          '<strong>里程 27 英里：Beartooth Basin（原 Red Lodge International Ski &amp; Snowboard Camp）。</strong>',
+        '<strong>三类人要在出发前就把这条路的难度说清楚：房车与拖挂、恐高者、容易晕车的人。</strong>' +
+          '<strong>Red Lodge 一侧是整条路最集中的急弯段：8 英里内连续 8 个以上大角度发卡弯，' +
+          '而且是持续爬升。</strong>' +
+          '<strong>房车与拖挂能过，但速度会很慢、刹车与水温压力大，下山方向更要用低挡控速；' +
+          '大型拖挂建议直接放弃，改走 Chief Joseph Scenic Byway（最高点只有 8,048 英尺，弯度缓得多）。</strong>' +
+          '<strong>恐高者：Red Lodge 一侧多数弯道靠山一侧有护坡，但垭口以西有几段临空且无中央护栏，' +
+          '怕的话坐靠山那一侧、不要自己开。</strong>' +
+          '<strong>晕车：后排与低头看手机的人几乎必晕，上车前 30–60 分钟服药、视线固定远处山脊、车窗留缝；' +
+          '这条路上 pullout 很密，不舒服就随时停 5 分钟。</strong>',
+        '<strong>季节性：Red Lodge 本身全年有人住、有服务，这一点和 Cooke City 完全不同。</strong>' +
+          '<strong>镇上的餐饮、住宿、加油、超市与医院全年营业（Beartooth Billings Clinic 在 2525 North Broadway，' +
+          '设 24/7 急诊），冬季靠 Red Lodge Mountain 滑雪场维持客流。</strong>' +
+          '<strong>季节性关闭的只有那条路：2026 年 US-212 的通行期是 5 月 22 日 – 10 月 12 日。' +
+          '也就是说十月中旬之后来 Red Lodge 仍然是一个正常的小镇，但它西边那条路已经封了，' +
+          '想到黄石只能绕 Billings 走北门，或从 Cody 一侧走 Chief Joseph Scenic Byway。</strong>' +
+          '<strong>反过来，五月下旬到六月初上山要按冬季路况准备，官方对开放日期从不做保证。</strong>'
+      ],
+      photo: '风光 <strong>2.5/5</strong>，街景与建筑 <strong>3.5/5</strong>。' +
+        '<strong>题材是一条 1890–1920 年代的砖石老街加背后的 Beartooth 山墙，' +
+        '清晨与傍晚侧光最好；正午街道两侧反差大、店招杂乱，不太出片。</strong>',
+      shots: [
+        {
+          name: 'Broadway 老街 —— 历史街区街景',
+          park: [45.18456, -109.24926],
+          view: [45.18975, -109.24690],
+          desc: '<strong>park 是 OSM 核实的市政免费停车场（way 552442933，45.18456, −109.24926，fee=no）；' +
+            'view 用 Carbon County Museum 节点（45.18975, −109.24690）作为老街北段的定位参照——' +
+            '沿 Broadway 的实际站位没有独立 OSM 实体，此坐标为馆址本身。</strong>' +
+            '<strong>最佳时段：日出后一小时或日落前一小时的侧光，' +
+            '此时 Broadway 是南北向街道，光会沿街道横向掠过立面，砖石的质感最好。</strong>' +
+            '<strong>焦段：24–70mm 拍街道与两侧立面的关系；70–200mm 把街尾的 Beartooth 山墙压到屋顶线之上，' +
+            '这是最能说明「这个镇是一条高山公路的起点」的一张。</strong>' +
+            '<strong>这是有人正常生活与营业的商业街，请不要为了构图挡住店门或拍摄店内顾客。</strong>'
+        }
+      ],
+      access: {
+        visit: '<strong>建议参观时长 1–2 小时。</strong>' +
+          '<strong>拆开算：老街步行 45–60 分钟（6 个街区、单程 600–700 米、平地）' +
+          '＋ Carbon County Historical Society &amp; Museum 45–60 分钟（$5，周三至周六 10:00–16:00）。</strong>' +
+          '<strong>只做补给与查路况：20–30 分钟</strong>（加油 10 分钟、便利店与厕所 10 分钟、' +
+          '到 Visitor Center 问一句路况 5–10 分钟）。' +
+          '<strong>如果把这里当作出发地或终点住一晚，实际会用掉一个傍晚加一个早晨；' +
+          '而从这里上山到 Beartooth Pass 顶单程 31 英里、净驾驶 60–70 分钟，' +
+          '整条路开到 Cooke City 是 64 英里、净驾驶约 2 小时，加停车观景要按 4–5 小时算。</strong>' +
+          '（依据：馆方官网给出的开放时段与票价；街区长度按 OSM 街道几何与商会「6 个街区」的口径推算；' +
+          '驾驶时间为 OSRM 计算值。）',
+        book: '<strong>镇上与老街不需预约，博物馆也不需预约</strong>（研究用的档案室需邮件预约：' +
+          'director@carboncountyhistory.com）。' +
+          '<strong>住宿要提前订：这里是 Beartooth Highway 东端唯一的住宿集中地，' +
+          '七八月与秋季周末经常满房，但具体房量与各家营业状态未逐家核实，请直接与住宿方确认。</strong>',
+        ticket: '<strong>镇上与老街完全免费</strong>（停车、步行路线、路边解说牌均不收费，2026-09-15 复核）。' +
+          '<strong>Carbon County Historical Society &amp; Museum：普通票 $5，6 岁以下与会员免费，' +
+          '晚间讲座系列 $5（馆方官网原文 “General Admission …. $5 / Children under 6 …..….FREE / ' +
+          'Members…………….……….FREE / Evening Lecture Series... $5”，2026-09-15 复核）。</strong>' +
+          '<strong>Beartooth Highway 本身不收通行费。</strong>' +
+          '<strong>但这条路通向黄石东北门，进园要买整园门票：私家车 $35／七天，摩托车 $30，' +
+          '步行或骑行每人 $20；Yellowstone 年票 $70，America the Beautiful 年票 $80（美国居民）／$250（非居民）；' +
+          '另有 2026 年起对非美国居民（16 岁及以上）每人加收的 $100 非居民附加费，持年票者免该附加费</strong>' +
+          '（NPS 官方 Fees &amp; Passes 页与 nps.gov/aboutus/nonresident-fees.htm，2026-09-15 复核）',
+        hours: '<strong>镇上没有门禁，街区 24 小时可走。以下是各处已核实的官方时段（2026-09-15 复核）：</strong>' +
+          '<strong>Carbon County Historical Society &amp; Museum —— 官网原文 “Wednesday through Saturday ' +
+          '10:00 AM - 4:00 PM (Closed Sunday, Monday and Tuesday)”，电话 (406) 446-3667。' +
+          '注意 OSM 上该节点写的是 “Tu-Sa 10:00-16:00”，与官网不一致——以官网为准。</strong>' +
+          '<strong>Red Lodge Visitor’s Center（Red Lodge Area Chamber of Commerce，701 North Broadway）' +
+          '—— 商会 2026 年官方指南原文 “Stop by 9 am to 4 pm weekdays or check out our 24-hour brochure room”，' +
+          '电话 (406) 446-1718。也就是说周末人工服务关闭，但手册间 24 小时开放。</strong>' +
+          '<strong>加油：Cenex（902 North Broadway）在 OSM 上标 24/7，' +
+          '但该时段未能从官方渠道确认，请以现场为准；镇上另有 Town Pump 与 Ray Judd Petroleum 两处。</strong>' +
+          '<strong>Beartooth Highway（US-212）—— 2026 年通行期 5 月 22 日 – 10 月 12 日（NPS 官方 Park Roads 页）；' +
+          'Montana DOT 的口径是 “generally open from the Friday of Memorial Day weekend through mid-October, ' +
+          'weather permitting”，Custer Gallatin National Forest 写 “Memorial Day to October 15 (weather dependent)”。' +
+          '三者不一致但都指向十月中旬，且都强调随时可能因天气临时封路。</strong>' +
+          '<strong>实时状态查 Montana DOT 511（mdt.mt.gov 的 Beartooth 专页与 511 地图）；' +
+          '这条路的 Wyoming 段由 NPS 与 WYDOT 管，属另一套系统，要分别查。</strong>' +
+          '<strong>2026-09-15 复核：MDT 的 Beartooth 专页未公布 2026 年的具体关闭日期，' +
+          '只维持 “through mid-October, weather permitting” 的一般口径；' +
+          '本页因此以 NPS 的 10 月 12 日为准，并提醒出行前重查。</strong>',
+        parking: '<strong>免费。</strong>' +
+          '<strong>市政公共停车场（City of Red Lodge 运营，OSM way 552442933，45.18456, −109.24926，' +
+          '沥青路面、access=yes、fee=no），位置在老街南端，步行即可覆盖整个历史街区。</strong>' +
+          'Broadway 两侧另有大量免费路边车位；' +
+          '<strong>另一处 30 车位的私有停车场（45.18519, −109.24792）标注为 permissive，属店家运营，' +
+          '不是市政场地，请优先用市政场地或路边位。</strong>' +
+          '<strong>房车与拖挂请停路边较长的直线段，老街街区内掉头空间有限。</strong>',
+        walk: '<strong>历史街区是平地步行，6 个街区、单程 600–700 米，往返加看建筑约 45–60 分钟。</strong>' +
+          '<strong>海拔 5,555–5,571 英尺，比垭口低 5,400 英尺，走路完全没有高原负担——' +
+          '这也是把体力活动安排在这里、而不是在山上的理由。</strong>' +
+          '博物馆在老街北段（224 Broadway Avenue North），从市政停车场步行约 600 米、8–10 分钟，建筑无障碍。' +
+          '<strong>镇南端的历史解说牌（45.17757, −109.24772）离老街约 1.2 公里，建议开车顺路停，不要步行过去。</strong>'
+      },
+      notes: [
+        '<strong>这个镇最重要的功能是「最后一次机会」：油、水、食物、厕所、信号、药店与医院。</strong>' +
+          '<strong>往西 64 英里翻 10,947 英尺垭口的路上，这些全部没有。</strong>' +
+          '出镇几英里手机信号就会消失，<strong>所以路况必须在镇上查完并截图</strong>' +
+          '（Montana DOT 511 与商会 Visitor Center 电话 406-446-1718 是两个官方渠道）',
+        '<strong>博物馆周日、周一、周二闭馆，这是本条目最容易踩的坑。</strong>' +
+          '官方时段周三至周六 10:00–16:00，而 OSM 上的 “Tu-Sa” 是错的。' +
+          '<strong>周初到这里的话，把时间放在免费的老街步行路线上。</strong>',
+        '<strong>上山方向的选择会改变体验，值得提前想一下。</strong>' +
+          '<strong>从 Red Lodge 往西是先连闯 8 英里发卡弯、持续爬升，爬升感强也更容易晕车；' +
+          '从 Cooke City 往东上来则是缓坡，垭口几乎不知不觉就到。</strong>' +
+          '<strong>如果同行有恐高或晕车的人，从 Cooke City 一侧上山更舒服。</strong>',
+        '<strong>秋季与初夏是两个「山下晴天、山上风雪」的高发期。</strong>' +
+          '<strong>Red Lodge 5,555 英尺穿短袖的日子，垭口 10,947 英尺可能在下雪，' +
+          '两者只隔 31 英里。</strong>' +
+          '<strong>Custer Gallatin National Forest 的官方提醒原文是「五六月与九月底到十月要预期冬季气温与降雪」——' +
+          '不管镇上多暖，车上都要带保暖层、手套与毯子。</strong>',
+        '<strong>十月中旬之后这条路会整季关闭，但镇子照常运转。</strong>' +
+          '<strong>2026 年的通行期是 5 月 22 日 – 10 月 12 日；关闭之后从 Red Lodge 去黄石' +
+          '要绕 Billings 走北门，或者从 Cody 一侧走 Chief Joseph Scenic Byway。</strong>' +
+          '<strong>这个日期每年不同，出行前请重查 NPS Park Roads 页与 MDT。</strong>',
+        '<strong>这是一个真正有人生活的小镇，不是景区。</strong>' +
+          '常住人口约 2,300–2,400 人，老街上多数建筑既是店面也是住家或办公室；' +
+          '<strong>拍街景没问题，但不要进入私人院落、不要拍摄居民特写。</strong>'
+      ],
+      images: [
+        { url: 'img/red-lodge-montana-8d26d913.jpg',
+          cap: 'Red Lodge 的 Broadway 老街与背后的 Beartooth 山墙 \u00b7 Tumbleweed1954 / CC BY-SA 4.0' },
+        { url: 'img/red-lodge-main-street-july-2000-051d3420.jpg',
+          cap: '历史街区的 Broadway 主街（2000 年 7 月） \u00b7 Velela / Public domain' },
+        { url: 'img/red-lodge-cafe-mt1-32beb5a3.jpg',
+          cap: '老街上的 Red Lodge Cafe 立面 \u00b7 Acroterion / CC BY-SA 4.0' }
       ]
     }
   ]

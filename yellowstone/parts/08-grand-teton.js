@@ -1617,11 +1617,11 @@ module.exports = {
         '这一站离 Moose 路口只有约 1 英里，<strong>Craig Thomas 访客中心（开到 10 月 31 日）与全年营业的 Dornan\u2019s 都在旁边</strong>，是把厕所、地图、补给一次解决的最佳位置。'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Chapel_of_the_Transfiguration_Grand_Teton_NP1.jpg',
+        { url: 'img/chapel-of-the-transfiguration-grand-teton-np1-d36d6a7c.jpg',
           cap: '小教堂外观与背后的 Teton 山脊 · Acroterion / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Chapel_of_the_Transfiguration_02.JPG',
+        { url: 'img/chapel-of-the-transfiguration-02-4e332b44.jpg',
           cap: '从祭坛方向看那扇框住 Grand Teton 的窗 · Dinwy / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Chapel_of_the_Transfiguration_GTNP1.jpg',
+        { url: 'img/chapel-of-the-transfiguration-gtnp1-78737021.jpg',
           cap: '原木结构与教堂正面 · Acroterion / CC BY-SA 4.0' }
       ]
     }

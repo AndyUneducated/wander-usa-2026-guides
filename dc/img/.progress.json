@@ -1,15 +1,15 @@
 {
  "region": "dc",
- "pid": 9178,
- "total": 2,
- "done": 2,
- "ok": 2,
+ "pid": 64504,
+ "total": 6,
+ "done": 6,
+ "ok": 6,
  "skipped": 0,
  "failed": 0,
  "current": null,
  "phase": "done",
- "started_at": 1788681614.089886,
- "updated_at": 1788681803.7366242,
+ "started_at": 1789499354.18975,
+ "updated_at": 1789499389.2836993,
  "finished": true,
  "recent_failures": []
 }
