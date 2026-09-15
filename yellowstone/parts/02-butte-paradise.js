@@ -1921,7 +1921,9 @@ module.exports = {
       n: 8,
       name: 'Paradise Valley 与 East River Road',
       en: 'Paradise Valley & East River Road (Secondary 540)',
-      must: 4.5,
+      /* 必去价值比摄影价值低半档：这是去北门路上必经的走廊，
+         顺路走完就算到过，不值得为它专程绕路。摄影上则确实是本区上限较高的一处。 */
+      must: 4,
       score: 4.5,
       tldr: '进园前 54 英里的走廊。East River Road（东岸 32 英里）明确比 US-89 好拍。谷地正南北向，Absaroka 在东是傍晚正面光，Gallatin 在西是清晨正面光。FWP 停车点需 $10 保育证。',
       tags: [
@@ -2077,7 +2079,29 @@ module.exports = {
             '<strong>桥头的 FWP 通道同样需要 Montana Conservation License。</strong>',
         }
       ],
+      tour: [
+        '<strong>先决定走哪条路。</strong>Livingston 到 Gardiner（黄石北门）走 <strong>US-89 是 54 英里、约 1 小时 05 分</strong>，' +
+          '这是所有人默认走的主干，车多、RV 与拖挂多。<strong>East River Road（Secondary 540）走东岸 32 英里，' +
+          '慢 15–25 分钟</strong>，换来的是车流只有主干的零头、随时可以靠边停。' +
+          '<strong>赶路就走 US-89；有一个半小时富余就走东岸，两条接起来是 62 英里的 Paradise Valley Scenic Loop。</strong>',
+        '<strong>沿途真正值得停的是四处河岸点</strong>：Mallard\u2019s Rest、Loch Leven、Dan Bailey、Point of Rocks。' +
+          '四处都是<strong>停车即到、有正式停车场与旱厕</strong>，每处待 10–20 分钟就够——' +
+          '看的是同一件事：Yellowstone River 的河面与两侧山脉。挑一到两处停即可，不必四处都走。',
+        '<strong>停车有一个几乎所有攻略都漏掉的收费项。</strong>上面四处都是 Montana FWP 的 Fishing Access Site，' +
+          '<strong>12 岁以上只要使用 FAS 就必须持 Montana Conservation License，哪怕只是停车看风景</strong>。' +
+          '出发前在 ols.fwp.mt.gov 花 $10 买一张（非居民价），是这一段性价比最高的一笔支出。',
+        '<strong>补给在这里做完。</strong>Livingston 与 Emigrant／Pray 一带有加油站、餐馆与杂货店，' +
+          '<strong>Gardiner 以南进园之后，油价与餐饮价格明显上涨、选择也少</strong>。往南进园前把油箱加满。',
+        '<strong>谷地里常有鹿群与牛群横穿路面</strong>，黄昏与清晨尤其频繁，夜间行车要压速；' +
+          '这一段限速执行严格，且手机信号在部分路段会断。',
+        '<strong>能见度是这条走廊唯一会「整段作废」的变量。</strong>夏末与初秋西部山火的烟霾一旦飘进谷地，' +
+          '两侧山脉会整片糊掉，这条路就只剩赶路功能。出发当天查 AirNow 的 PM2.5，' +
+          '烟霾重就直接走 US-89 过去，不必绕东岸。'
+      ],
       access: {
+        visit: '<strong>纯通过 1 小时（US-89）到 1 小时 25 分（East River Road）。</strong>' +
+          '<strong>想当成一段风景路来走，留 2–3 小时</strong>：净驾驶约 1.5 小时，' +
+          '加上一到两处河岸点各 15–20 分钟、Livingston 或 Emigrant 的一次补给停留',
         book: '<strong>不需预约。</strong>US-89 与 East River Road 都是公共道路，' +
           '沿线的 FWP Fishing Access Site 也无需预约（<strong>但需持保育证，见下</strong>）',
         ticket: '<strong>道路本身完全免费。</strong>' +
@@ -2175,6 +2199,7 @@ module.exports = {
       n: 9,
       name: 'Chico Hot Springs 与 Emigrant Peak',
       en: 'Chico Hot Springs & Emigrant Peak',
+      must: 3.5,
       score: 4,
       tldr: 'Chico 全年每天开门（日票 08:00–23:00、$14）。Emigrant Peak 10,921 英尺是谷地的标志峰：从北段是清晨掠射光，从南段是傍晚正面光——它不是「东岸所以早上正面光」。',
       tags: [
@@ -2314,7 +2339,29 @@ module.exports = {
             '<strong>此处属 FWP 管理范围，同样需持 Montana Conservation License。</strong>',
         }
       ],
+      tour: [
+        '<strong>这一条其实是两件事：泡一次温泉，看一眼谷地的标志峰。</strong>' +
+          'Chico Hot Springs 是 <strong>1900 年开业的历史度假村，已列入国家史迹名录，主楼仍在使用</strong>，' +
+          '两个露天地热池<strong>不加任何化学药剂</strong>（大池约 96°F、小池约 100–103°F）。' +
+          '<strong>不住店也能泡</strong>：前台买日票即可，有更衣室与储物柜。',
+        '<strong>泡池安排 1.5–2 小时。</strong>水温偏低是它的特点——为久泡而设，不是为「烫一下就走」。' +
+          '池水较凉，秋冬季上岸后风一吹很冷，带拖鞋与浴巾（现场可租 $2.50）。',
+        '<strong>主楼餐厅是这一带公认最好的一家</strong>（James Beard 提名），晚餐旺季必须提前订位；' +
+          '池畔餐吧与酒馆不用订。<strong>把晚餐和泡池排在一起，是这个点位最划算的用法。</strong>',
+        '<strong>Emigrant Peak（10,921 英尺）看一眼就够，不要动登顶的念头。</strong>' +
+          '它比谷底高出约 6,000 英尺，是 Paradise Valley 无可争议的标志峰，' +
+          '<strong>从 US-89、Chico Road 与谷地各处河岸点都能完整看到，不需门票、不用走路</strong>。' +
+          '登顶步道<strong>单程 6 英里、爬升 4,687 英尺，上半段无明显路迹，属「非常难」等级</strong>，' +
+          '不是顺路能做的事。',
+        '<strong>泳池会因检修长时间关闭</strong>——2026 年春季就有过一次数周的维护关停，' +
+          '而且不一定提前很久公告。<strong>专程前往请先打 (406) 333-4933 确认当天开放</strong>。',
+        '<strong>这一带医疗与补给都在北面 23 英里的 Livingston</strong>，Pray 附近手机信号弱；' +
+          'Chico 场内停车免费，泳池与卫生间有无障碍通道。'
+      ],
       access: {
+        visit: '<strong>泡池 1.5–2 小时</strong>；' +
+          '<strong>加一顿主楼餐厅的正餐则留 3–3.5 小时</strong>。' +
+          '只在公路边看 Emigrant Peak，<strong>10–15 分钟</strong>',
         book: '<strong>看 Emigrant Peak 不需预约、不需门票，全部机位都在公共道路或 FWP 场地上。</strong>' +
           '<strong>Chico 的泳池日票不需预约，前台现场购买即可。</strong>' +
           '<strong>但住宿必须提前订——这家全年满房率很高，' +
