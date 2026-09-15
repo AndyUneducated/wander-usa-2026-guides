@@ -44,10 +44,10 @@ module.exports = {
         '2026 版 <a href="https://home.nps.gov/yell/learn/management/upload/Yellowstone-Superintendent-s-Compendium.pdf" target="_blank" rel="noopener">Superintendent\u2019s Compendium</a> ' +
         '的原文也是按日期写的：<em>「Starting November 1st until spring opening in April or May, the Grand Loop Road ' +
         'and park entrance roads are closed to wheeled motor vehicle use by the public」</em>。' +
-        '<strong>所以本窗口的硬边界就是 10/31，那是最后一个能开车拍摄的整天。</strong></p>' +
+        '<strong>所以秋季的硬边界就是 10/31，那是一年里最后一个能开车走完主环路的整天。</strong></p>' +
         '<p><strong>入口：北门（Gardiner）全年开放，是唯一的年度通道；西门、南门、东门、东北门在 10/31 结束通车。</strong>' +
         '本区实际只能从西门（West Yellowstone，离 Madison 14 英里）或南门进出最顺。</p>' +
-        '<p><strong>住宿是本区真正的执行瓶颈</strong>，因为它决定你能不能拍日出。' +
+        '<p><strong>住宿是本区真正的执行瓶颈</strong>，因为它决定天亮前能不能到位。' +
         '一旦园内全关，只能住西门外的 West Yellowstone：到 Old Faithful <strong>30 英里／约 45–55 分钟</strong>，' +
         '到 Midway 约 26 英里／40 分钟，到 West Thumb 约 <strong>52 英里／1 小时 20 分</strong>，' +
         '全程夜路、限速 45 mph、大概率遇动物。</p>' +
@@ -80,7 +80,7 @@ module.exports = {
         'Old Faithful Upper 加油站店面与 Fishing Bridge General Store；' +
         '<strong>Madison Campground 与 Fishing Bridge RV Park 是 10/17，不是 10/18</strong>。）' +
         '实务口径：<strong>10/12 之前一定进得去大堂；10/13–10/19 属于赌运气；10/19 之后一定进不去。</strong>' +
-        '若行程落在 10/13 之后而那个 1904 年的大堂是你的重点，出发前直接打 <strong>307-344-7311</strong> 确认。</p>' +
+        '若行程落在 10/13 之后、而那个 1904 年的大堂是重点之一，出发前直接打 <strong>307-344-7311</strong> 确认。</p>' +
         '<p><strong>三个日期节点，翻译成实际后果：</strong></p>' +
         '<ul>' +
         '<li><strong>10/10 之后</strong>：Lake Yellowstone Hotel 与 Grant Village 同日关门，' +
@@ -91,7 +91,7 @@ module.exports = {
         '<li><strong>10/24 之后</strong>：Snow Lodge 客房也关，<strong>Old Faithful 一带彻底没有过夜的地方</strong>。' +
         '10/25–10/31 这七天想拍 Upper Geyser Basin 的日出，只能住 West Yellowstone 并在 06:10 前出发' +
         '（10/31 民用曙光 07:29、盆地见光 08:22），或者住 Mammoth（到 Old Faithful 51 英里，更不现实）</li>' +
-        '<li><strong>10/31 结束通车</strong>：这一天日落 18:15，之后你就在园外了</li>' +
+        '<li><strong>10/31 结束通车</strong>：这一天日落 18:15，是秋季最后一个能开车进本区的整天</li>' +
         '</ul>' +
         '<p><strong>2026 年施工（已核对 NPS 官方延误清单）：与本区直接相关的只有两项。</strong>' +
         '<strong>Firehole River Bridge</strong>（Old Faithful 以南 1.5 英里，从 West Thumb 方向来必经）：' +
@@ -112,7 +112,7 @@ module.exports = {
       title: '加油、餐饮、信号与雪：10 月这四件事会真的出问题',
       html: '<p><strong>加油。</strong>NPS 表格在每个站名后标注 <em>「fuel available 24/7, year-round」</em>（指刷卡自助泵），' +
         '同时又给出有人值守便利店的营业日期，两个口径并列，很容易看错。' +
-        '<strong>本区相关的四个站：Old Faithful Upper（店面 10/18）、Old Faithful Lower（店面 9/13，本窗口内基本全程关闭）、' +
+        '<strong>本区相关的四个站：Old Faithful Upper（店面 10/18）、Old Faithful Lower（店面 9/13，秋季基本全程关闭）、' +
         'Grant Village（店面 10/13）、Fishing Bridge（店面 10/11）。Madison 与 Norris 没有加油站。</strong></p>' +
         '<p><strong>驾驶距离（园内限速 45 mph，秋季实际更慢）：</strong></p>' +
         '<ul>' +
@@ -131,7 +131,10 @@ module.exports = {
         'Grant Village General Store 9/27、Grant Mini Store 10/4；Lake General Store 9/13。' +
         '营地：<strong>Madison Campground 10/17、Lewis Lake 10/11、Bridge Bay 9/13、Grant Village 9/26</strong>。' +
         '访客中心：<strong>Old Faithful Visitor Education Center 10/31</strong>（间歇泉预报靠它）、' +
-        'Norris Geyser Basin Museum 与 Norris Park Store 10/3、Madison Information Station 10/3、' +
+        'Norris Geyser Basin Museum 与 Norris Park Store 10/3、' +
+        '<strong>Madison Information Station 9/12</strong>' +
+        '（<strong>2026-09-15 复核 NPS Operating Dates 页时更正：该站 2026 年只开到 9 月 12 日、状态已列为 Closed，' +
+        '本页此前记的 10/3 是错的</strong>）、' +
         'Grant Visitor Center 10/3、Fishing Bridge Visitor Center 10/3；' +
         '<strong>West Thumb Information Station 已于 2026/7/13 关闭，秋季不会再开</strong>。' +
         '<strong>10/3 之后本区九个点里有六个连厕所都要碰运气</strong>，请在 Old Faithful 一次性解决。</p>' +
@@ -150,7 +153,7 @@ module.exports = {
         '实际区间：9 月下旬白天 14–20 °C、夜间 −2 至 +2 °C；10 月下旬白天 5–10 °C、夜间 −8 至 −3 °C。' +
         '<strong>10 月的降雪会造成临时封路，而且往往只封几小时到一天。</strong></p>' +
         '<p><strong>所以每一个开车日的早上，出门前都要看一次路况</strong>——' +
-        '这不是保守，而是因为临时封闭不会提前通知，而你可能已经开了 40 分钟。' +
+        '这不是保守，而是因为临时封闭不会提前通知，而通常是在开出 40 分钟之后才撞上。' +
         '<strong>关于雪链，NPS 的官方口径很干脆：' +
         '<em>「If conditions in Yellowstone are bad enough to require tire chains, we generally close the roads ' +
         'until it\u2019s safe to travel.」</em>' +
@@ -264,7 +267,8 @@ module.exports = {
       title: '日出日落钟点、山脊遮挡修正、低温与器材',
       html: '<p>全窗口均为 <strong>MDT（UTC−6）</strong>。' +
         '<strong>2026 年美国夏令时于 11 月 1 日（周日）02:00 结束——这一天在道路关闭日 10/31 之后，' +
-        '整个行程不会遇到调表。</strong>若你在园外多待到 11/1，那天钟表回拨一小时。</p>' +
+        '所以在本区自驾的整个季节里都不会遇到调表。</strong>' +
+        '若 11 月 1 日仍在这一带（园外），那天钟表回拨一小时。</p>' +
         '<p>下表按 <strong>Old Faithful（44.4605°N, −110.8281）</strong>计算；' +
         'Midway、Grand Prismatic、Norris、West Thumb、Fishing Bridge 与之相差不超过 2 分钟，可直接套用。</p>' +
         '<table><thead><tr><th>日期</th><th>民用晨光</th><th>日出（方位）</th><th>正午太阳高度</th><th>日落（方位）</th><th>民用暮光</th><th>日长</th></tr></thead><tbody>' +
@@ -317,7 +321,7 @@ module.exports = {
         '<strong>2026 年没有车辆定时预约制度</strong>。' +
         '关键的 2026 年新规：<strong>16 岁及以上的非美国居民须在标准门票之外另付 $100/人 的 nonresident fee，' +
         '但持 Annual Pass 或 America the Beautiful Pass 入园者豁免</strong>——' +
-        '所以那张年票在本行程里每人省的是 $135 而不是 $35。' +
+        '也就是说对非美国居民，那张年票每人省下的是 $135 而不是 $35。' +
         '持卡人须本人在场并出示带照片证件，收据与截图不接受。' +
         '<strong>从南门进出会经过 Grand Teton，那是另一个公园、另一份门票，年票同样覆盖。</strong></p>'
     }
@@ -458,10 +462,11 @@ module.exports = {
           '<strong>2026-09-13 核对 NPS Fees &amp; Passes 官方页</strong>：' +
           '私家车（载客 15 人以下）7 日票 <strong>$35</strong>、摩托车／雪地车 $30、' +
           '徒步或骑行入园每人 <strong>$20</strong>（未满 16 岁免费）；' +
-          'Yellowstone 年票与 America the Beautiful 年票均 <strong>$80</strong>。' +
+          'Yellowstone 单园年票 <strong>$70</strong>、America the Beautiful 年票 <strong>$80</strong>' +
+          '（<strong>2026-09-15 复核官方票价页时更正：此前本页把单园年票也记成 $80，官方现行价是 $70</strong>）。' +
           '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100 nonresident fee，持任一年票者豁免</strong>' +
           '（持卡人须本人在场并出示带照片证件）',
-        hours: '<strong>2026-09-13 复核，本行程窗口 9/22–9/29 内全部正常开放。</strong>' +
+        hours: '<strong>2026-09-13 复核，9 月下旬盆地与设施全部正常开放。</strong>' +
           '<strong>盆地本身没有门禁、全天可入</strong>' +
           '（NPS 步道页标注 Season: Spring, Summer, Fall；Time of Day: Any Time）。' +
           '<strong>已核实：2026 年秋季 Norris 的木栈道没有公布的封闭段</strong>，' +
@@ -496,7 +501,7 @@ module.exports = {
           '<strong>Norris 没有喷雾租借点</strong>（本区唯一的租借亭在 Old Faithful，10/3 关门），进园前自备',
         '<strong>Norris 到 Old Faithful 单程约 30 英里／1 小时（经 Madison），到 Canyon 约 12 英里。</strong>' +
           '<strong>不要把 Norris 的日出和 Old Faithful 的日出排在同一天</strong>——' +
-          '10 月下旬两地见光时间只差 3 分钟，你不可能都赶上',
+          '10 月下旬两地见光时间只差 3 分钟，一个早上不可能都赶上',
         '<strong>10/3 之后这里没有厕所、没有饮水、没有讲解，也没有手机信号。</strong>' +
           'Madison 一带同样无信号，最近可靠的联网点是 Old Faithful Visitor Education Center',
         '这里的水是酸性的，<strong>蒸汽冷凝水落在镜片镀膜与三脚架金属件上会留痕</strong>，不要让它自然干掉'
@@ -546,7 +551,7 @@ module.exports = {
       ],
       tour: [
         '<strong>先说定位：这是一条「顺路开一遍」的支线，不值得为它专程改路线。</strong>' +
-          '如果你的时间已经排满，<strong>直接跳过它去 Fountain Paint Pot 或 Midway 是正确的取舍</strong>——' +
+          '如果时间已经排满，<strong>直接跳过它去 Fountain Paint Pot 或 Midway 是正确的取舍</strong>——' +
           '它全程只有一个 40 英尺的瀑布和一段岩壁，20 分钟就看完了',
         '<strong>方向是这条路唯一的硬规则：单行道，只能由北向南开。</strong>' +
           '<strong>入口在 Madison Junction 以南约 0.6 英里（44.63888, −110.85856），从 Madison 往 Old Faithful 方向开正好顺路。</strong>' +
@@ -563,7 +568,8 @@ module.exports = {
           '（看两侧的柱状节理岩壁，其实比瀑布更有看头）。</strong>' +
           '其余路段在车里看就够了',
         '<strong>全线没有厕所、没有饮水、没有餐饮、没有手机信号。</strong>' +
-          '最近的厕所在 Madison Information Station（开到 10/3）或 Madison Campground（开到 10/17），' +
+          '最近的厕所在 Madison Information Station（<strong>2026 年只开到 9/12</strong>，2026-09-15 复核）' +
+          '或 Madison Campground（开到 10/17），' +
           '再远是 Old Faithful（16 英里）与 West Yellowstone（14 英里）。' +
           '<strong>Firehole Swim Area 目前关闭</strong>（NPS Current Conditions 原文' +
           '「Closed. Estimated opening date: no earlier than late summer/early fall.」），' +
@@ -617,7 +623,8 @@ module.exports = {
         ticket: '含在园区门票内，<strong>园内点位无独立门票，年票覆盖</strong>。' +
           '<strong>2026-09-13 核对 NPS Fees &amp; Passes 官方页</strong>：' +
           '私家车 7 日票 <strong>$35</strong>、摩托车／雪地车 $30、徒步或骑行每人 <strong>$20</strong>' +
-          '（未满 16 岁免费）；Yellowstone 年票与 America the Beautiful 年票均 <strong>$80</strong>。' +
+          '（未满 16 岁免费）；Yellowstone 单园年票 <strong>$70</strong>、America the Beautiful 年票 <strong>$80</strong>' +
+          '（<strong>2026-09-15 复核官方票价页时更正：此前本页把单园年票也记成 $80，官方现行价是 $70</strong>）。' +
           '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100，持任一年票者豁免</strong>',
         hours: '<strong>2026-09-13 复核：无门禁、9 月下旬正常通行。</strong>' +
           '<strong>NPS 没有为 Firehole Canyon Drive 单独公布 2026 年季节性关闭日期</strong>——' +
@@ -637,11 +644,13 @@ module.exports = {
         '限速 25 mph，路面窄、有急弯，<strong>秋季清晨背阴段可能结冰</strong>——' +
           '这条路一天里大部分时间在崖壁阴影中，霜化得比别处慢',
         '<strong>Madison 一带没有加油站、也基本没有手机信号</strong>；' +
-          'Madison Information Station 最后营业日 <strong>10/3</strong>，Madison Campground 开到 <strong>10/17</strong>。' +
+          'Madison Information Station 最后营业日 <strong>9/12</strong>' +
+          '（2026-09-15 复核 NPS Operating Dates 页，本页此前记的 10/3 已更正），' +
+          'Madison Campground 开到 <strong>10/17</strong>。' +
           '此后最近的厕所在 Old Faithful（16 英里）或 West Yellowstone（14 英里）',
         '<strong>West Entrance Road（West Yellowstone–Madison）2026 年 8/17 至 9 月初有每晚 21:30–05:00 的' +
           '钻探取芯作业，最多 15 分钟延误。</strong>' +
-          '9 月下旬进园时应已结束，但如果你要在清晨从 West Yellowstone 出发，出发前确认一次',
+          '9 月下旬应已结束，但若要在清晨从 West Yellowstone 出发，出发前确认一次',
         '这条路上没有热区，<strong>是本区唯一一处不需要担心薄壳与硫化氢的点位</strong>；' +
           '但它在 Firehole River 边的林子里，秋季有麋鹿与野牛，路窄且视线被弯道挡住，慢开',
         '顺路关系：<strong>北端入口离 Madison Junction 只有 0.6 英里，南端出口离 Fountain Paint Pot 约 5 英里</strong>，' +
@@ -684,7 +693,7 @@ module.exports = {
         '<strong>Clepsydra Geyser 几乎持续喷发，是本区最可靠的间歇泉题材。</strong>' +
           '它的名字来自希腊语「水钟」，因为它曾经精确到每三分钟一次；' +
           '<strong>1959 年 Hebgen Lake 7.3 级地震之后它变成了近乎不间断喷发，至今如此</strong>。' +
-          '<strong>你不需要等它——这在 Yellowstone 是很罕见的待遇</strong>',
+          '<strong>不需要等它——这在 Yellowstone 是很罕见的待遇</strong>',
         '<strong>Firehole Lake Drive 的 2026 年状态是这一条目里最要紧的信息，而它不在任何实时路况地图上。</strong>' +
           '<strong>2026-09-05 复核，最硬的官方依据是 2026 版 ' +
           '<a href="https://www.nps.gov/yell/learn/management/upload/Yellowstone-Superintendent-s-Compendium.pdf" target="_blank" rel="noopener">Superintendent\u2019s Compendium</a> ' +
@@ -733,7 +742,7 @@ module.exports = {
           '<strong>结论：普通游客不建议去。</strong>' +
           '把车停在 Fountain Paint Pot 停车场，沿被地热烤坏的旧沥青路走 <strong>单程 1.2–1.5 公里／约 20 分钟</strong>' +
           '才能到 Great Fountain Geyser，而<strong>它的预报误差是 ± 2 小时（全园最宽）</strong>——' +
-          '<strong>除非你在 Old Faithful 游客中心问到的预报时间刚好落在你能等的那一两小时里，否则这 3 公里往返大概率白走</strong>。' +
+          '<strong>除非在 Old Faithful 游客中心问到的预报时间刚好落在能等的那一两小时里，否则这 3 公里往返大概率白走</strong>。' +
           '沿途没有栈道、没有厕所、没有信号，且是熊乡，喷雾要握在手里',
         '<strong>停车场满位时段是 10:30–15:30</strong>，' +
           '因为它正好卡在 Madison 与 Old Faithful 之间、是所有人午间必经的一站。' +
@@ -836,9 +845,10 @@ module.exports = {
         ticket: '含在园区门票内，<strong>园内点位无独立门票，年票覆盖</strong>。' +
           '<strong>2026-09-13 核对 NPS Fees &amp; Passes 官方页</strong>：' +
           '私家车 7 日票 <strong>$35</strong>、摩托车／雪地车 $30、徒步或骑行每人 <strong>$20</strong>' +
-          '（未满 16 岁免费）；Yellowstone 年票与 America the Beautiful 年票均 <strong>$80</strong>。' +
+          '（未满 16 岁免费）；Yellowstone 单园年票 <strong>$70</strong>、America the Beautiful 年票 <strong>$80</strong>' +
+          '（<strong>2026-09-15 复核官方票价页时更正：此前本页把单园年票也记成 $80，官方现行价是 $70</strong>）。' +
           '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100，持任一年票者豁免</strong>',
-        hours: '<strong>2026-09-13 复核，9/22–9/29 窗口内栈道正常开放。</strong>' +
+        hours: '<strong>2026-09-13 复核，9 月下旬栈道正常开放。</strong>' +
           'Fountain Paint Pot 栈道无门禁、全天可入，' +
           '<strong>2026 年秋季无公布的封闭段</strong>。' +
           '<strong>Firehole Lake Drive：对机动车关闭，步行与自行车允许通行。</strong>' +
@@ -929,6 +939,48 @@ module.exports = {
           'Grand Prismatic 本体直径约 <strong>370 英尺（113 米）、深 121 英尺</strong>，' +
           '是美国最大、世界第三大的热泉'
       ],
+      tour: [
+        '<strong>动线：从停车场南端上栈道，跨过 Firehole River 的木桥，之后是一条单向回到桥头的环线</strong>' +
+          '（<strong>NPS 步道页口径 0.8 英里／1.3 公里、游览 30 分钟到 1 小时，全程木栈道、无障碍</strong>；' +
+          'NPS 的 Midway Geyser Basin Trailhead 页同时标注「wheelchair-accessible parking, boardwalk, and restrooms」）。' +
+          '<strong>顺序是固定的：过桥先遇 Excelsior 的橙色径流扇 → Excelsior 巨坑 → Grand Prismatic → ' +
+          'Turquoise Pool → Opal Pool → 回到桥头。</strong>' +
+          '这一区不存在「走错方向」的问题，跟着人流走即可',
+        '<strong>本条目最容易搞混的一件事，先说清楚：Midway 的栈道看不到大棱镜的彩环。</strong>' +
+          '栈道只比水面高一两米、贴着池子边缘走，看到的是<strong>脚下几米的颜色梯度加一面蒸汽墙</strong>。' +
+          '<strong>想看那个圆形彩环，唯一的地方是 Grand Prismatic Overlook</strong>——' +
+          '入口在<strong>本停车场以南 1 英里／1.6 公里的 Fairy Falls Trailhead（另一个停车场）</strong>，' +
+          '<strong>往返 1.2 英里／1.9 公里、爬升 105 英尺（32 米）</strong>（NPS 步道页 2025-09-22 口径）。' +
+          '<strong>两个停车场之间隔着 Firehole River 且没有连通步道，必须开车转场</strong>，' +
+          '详见本区的「大棱镜泉与 Fairy Falls 观景台」条目。' +
+          '<strong>正确的分工是：Midway 看质感与径流，Overlook 看形状与颜色，两个都去</strong>',
+        '<strong>别错过的两处、可以快走的一处。</strong>' +
+          '<strong>必看①：木桥下游侧那道流进 Firehole River 的橙色径流扇</strong>——' +
+          'Excelsior 每分钟往河里倒 <strong>4,000 加仑以上 199 °F 的热水</strong>（NPS 口径），' +
+          '站在桥上就是俯视角，这是本盆地最好看的一眼；' +
+          '<strong>必看②：Excelsior Geyser Crater 本身，一个 200 × 300 英尺、持续沸腾的深蓝巨坑</strong>。' +
+          '<strong>Opal Pool 可以快走带过</strong>——它 1979 年后基本安静，' +
+          '形态与颜色都不如同一段栈道上的 Turquoise Pool。' +
+          '（顺带说清一个官方数字不一致：<strong>Grand Prismatic 的直径，NPS 的 Old Faithful 区页写 370 英尺／113 米，' +
+          '而同一网站的 Midway 步道页与 FAQ 写 200–330 英尺／61–101 米</strong>，' +
+          '深度两处都写 121 英尺以上；两种口径都出自官方，未能判定哪个为准。）',
+        '<strong>停车场是本区最堵的一个，而且这不是夸张：</strong>' +
+          '<strong>夏季与 9 月上旬 10:00–16:00 经常排队等位，出口与主路交汇处会压车。</strong>' +
+          '<strong>实际好用的时段是上午 9 点前与下午 4 点后</strong>；' +
+          '<strong>十月工作日基本随到随停。</strong>' +
+          '路肩「野停」在这一段是违规的（主路两侧有禁停标志），' +
+          '满位时正确做法是往南开 1 英里去 Fairy Falls Trailhead 先走 Overlook，回程再来',
+        '<strong>厕所在停车场，而且是本盆地唯一的一处（NPS 列为无障碍厕所）；栈道上没有任何设施，也没有餐饮与饮水。</strong>' +
+          '<strong>最近的热食、饮水与卫生间是 Old Faithful，6 英里／约 10 分钟车程</strong>' +
+          '（Snow Lodge 的 Geyser Grill 2026 年开到 10/31，是这一带最后关门的热食点）。' +
+          '本盆地<strong>无手机信号</strong>',
+        '<strong>全程不得离开木栈道，这是可罚款可监禁的联邦规定，也是黄石最常见的致死原因。</strong>' +
+          'NPS 安全页的原话是地面<strong>「may look solid, but it can be just a thin crust with super-heated water below」</strong>；' +
+          '园方公开口径是已有 20 多人跌入或走进热泉致死，多于死于灰熊的 8 人。' +
+          '<strong>Excelsior 的 199 °F 径流沟就在栈道下方几十厘米。</strong>' +
+          '另外<strong>热区内禁止饮食（喝水不限）</strong>；' +
+          '<strong>木桥只够两三人并行，野牛上桥时唯一正确的做法是退回停车场等它走</strong>，不要从栈道边绕'
+      ],
       photo: '风光 <strong>4.5/5</strong>，细节／抽象 <strong>5/5</strong>，人像 <strong>2.5/5</strong>。' +
         '<strong>桥上那道径流扇是本区（也许是全园）性价比最高的一张照片：走 200 米就到，' +
         '不需要预报、不需要等待，而且蒸汽越厚越好。</strong>' +
@@ -984,13 +1036,37 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45–75 分钟</strong>。' +
+          '<strong>官方口径是 30 分钟到 1 小时（NPS 步道页，0.8 英里／1.3 公里环线），那是不含停留的净走路时间。</strong>' +
+          '<strong>分配建议：木桥上的橙色径流扇 15 分钟、Excelsior 巨坑 10 分钟、' +
+          'Grand Prismatic 池边与 Turquoise Pool 20 分钟、往返停车场 10 分钟。</strong>' +
+          '<strong>只看重点 30 分钟足够——过桥站在桥上看完径流扇与 Excelsior 就走。</strong>' +
+          '<strong>但要看大棱镜的彩环必须另算 1–1.5 小时去 Grand Prismatic Overlook</strong>' +
+          '（另一个停车场，往返 1.2 英里步道），' +
+          '<strong>把两处一起算，这一带要留 2–2.5 小时</strong>',
         book: '不需预约',
-        ticket: '含在园区门票内，<strong>年票覆盖</strong>',
-        hours: '无门禁、全天可入。<strong>2026 年秋季无公布的栈道封闭</strong>。' +
-          'NPS 步道页只注明 <em>「Stay on boardwalk」</em>。' +
-          '所在的 Madison ↔ Old Faithful 路段通车至 <strong>10/31</strong>；' +
-          '<strong>Old Faithful 以南 1.5 英里的 Firehole River Bridge 有桥梁作业，9 月内最多 15 分钟延误</strong>' +
-          '（从 West Thumb 方向来才会遇到，从 Madison 方向来不受影响）',
+        ticket: '<strong>本盆地不单独收费，也没有售票口</strong>——' +
+          '黄石按<strong>整园门票</strong>收，一次付费即覆盖园内所有盆地与观景点。' +
+          '<strong>2026-09-15 核对 NPS Fees &amp; Passes 官方页（该页最后更新 2026-06-16）</strong>：' +
+          '私家车（载客 15 人以下）7 日票 <strong>$35</strong>、摩托车／雪地车 $30、' +
+          '徒步或骑行入园每人 <strong>$20</strong>（未满 16 岁免费）；' +
+          '<strong>Yellowstone 单园年票 $70，America the Beautiful 年票 $80</strong>' +
+          '（非美国居民版 $250、62 岁以上年票 $20／终身 $80）。' +
+          '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100 nonresident fee，持任一年票者豁免</strong>，' +
+          '持卡人须本人在场并出示带照片证件，收据与截图不接受。' +
+          '<strong>2026 年不实行车辆定时预约（官方页明写「Vehicle Reservations Not Required to Enter Yellowstone」）</strong>',
+        hours: '<strong>盆地与栈道无门禁、全天可入，也没有周几闭馆的概念</strong>' +
+          '（NPS 步道页标注 Season: Any；Time of Day: Any Time）。' +
+          '<strong>2026-09-15 复核：2026 年秋季 Midway 的栈道无任何公布的封闭段</strong>，' +
+          'NPS 的 Midway Geyser Basin Trailhead 页只有一条注记——' +
+          '<em>「Stay on boardwalks and designated trails. Hydrothermal water can severely burn you.」</em>' +
+          '<strong>真正的时限来自道路：所在的 West Entrance ↔ Madison ↔ Old Faithful 路段 2026 年通车 4/17 – 10/31，' +
+          '10/31 当天结束通车，11/1 起主环路全线对汽车关闭</strong>' +
+          '（2026-09-15 复核 NPS Park Roads 页，该页最后更新 2026-09-14；所列日期随降雪可能提前）。' +
+          '<strong>施工：Old Faithful 以南 1.5 英里的 Firehole River Bridge 桥梁作业与栏杆油漆，' +
+          '官方现行口径是「十月内最多 15 分钟延误」</strong>' +
+          '（<strong>2026-09-15 复核时该页已从 9 月改写为 October，本页据此更新</strong>；' +
+          '只有从 West Thumb／Old Faithful 方向来才会遇到，从 Madison 方向来不受影响）',
         parking: '主路西侧的大停车场（OSM 停车面中心 <strong>44.52907, −110.83612</strong>）。' +
           '<strong>这是本区夏季最堵的停车场，9 点之后经常需要排队等位；但 10 月上午 9 点前基本空着</strong>。' +
           '有厕所（秋季可能关闭）',
@@ -1029,6 +1105,7 @@ module.exports = {
       n: 5,
       name: '大棱镜泉与 Fairy Falls 观景台',
       en: 'Grand Prismatic Spring & the Fairy Falls Overlook',
+      must: 4.5,
       score: 5,
       tldr: '唯一能看见整个彩环的地方，必须正午前后去，而且晚秋有整天糊死的真实风险——这一条与「黄金时刻」的常识完全相反，请照做。',
       tags: [
@@ -1039,7 +1116,7 @@ module.exports = {
         { t: '本区第一优先', c: 'free' }
       ],
       highlights: [
-        '<strong>先说最重要的一条，因为它与你所有关于风光摄影的习惯相反：' +
+        '<strong>先说最重要的一条，因为它与一般的风光摄影习惯正好相反：' +
           '这张照片必须在正午前后拍，清晨与日落都是浪费时间。</strong>' +
           '两个独立的物理原因同时指向正午之后那一两个小时：' +
           '<strong>①太阳高度</strong>——那圈深钴蓝来自纯水对长波的吸收，' +
@@ -1055,7 +1132,7 @@ module.exports = {
           '10/10 是 10:51–15:30，最高 38.9°；' +
           '10/22 是 11:28–14:48，最高 34.5°；' +
           '到 10/31 只剩 12:10–14:04（不足 2 小时），最高 31.4°。</strong>' +
-          '<strong>换句话说 10 月最后一周，你每天只有约两小时的机会窗口，' +
+          '<strong>换句话说 10 月最后一周每天只有约两小时的机会窗口，' +
           '而那两小时里气温可能仍在 5 °C 以下、蒸汽仍然盖死整个池子。</strong>' +
           '<strong>结论：9 月下旬来的人大概率能拍到；10 月下旬来的人要有拍不到的心理准备，' +
           '并把它排成「有合适天气就立刻去」的机动项，不要定在某一天。</strong>' +
@@ -1086,8 +1163,50 @@ module.exports = {
           '越外圈水温越低、类胡萝卜素比例越高。' +
           '<strong>秋季菌垫的颜色比夏季更偏橙红</strong>（低光照下叶绿素比例下降），这是加分不是减分'
       ],
+      tour: [
+        '<strong>先把这件事记住，因为它是本区最常见的错误：Grand Prismatic Overlook 和 Midway Geyser Basin ' +
+          '是两个不同的地方、两个不同的停车场，很多人以为走了 Midway 的栈道就算看过大棱镜了。</strong>' +
+          '<strong>Midway 的栈道贴着池边走、只比水面高一两米，从那里看不出彩环</strong>；' +
+          '<strong>要看见那一圈蓝—绿—黄—橙—红，只能从这条步道尽头的观景平台往下看</strong>。' +
+          '<strong>入口是 Fairy Falls Trailhead，在 Midway 停车场以南 1 英里／1.6 公里的主路西侧</strong>，' +
+          '<strong>两个停车场之间隔着 Firehole River、没有连通步道，必须开车转场</strong>。' +
+          '正确的安排是两处都去：<strong>先走 Overlook 看形状，再去 Midway 栈道看质感与径流扇</strong>',
+        '<strong>路线很简单，没有岔路问题。</strong>' +
+          '<strong>NPS 步道页（2025-09-22 更新）的官方口径：往返 1.2 英里／1.9 公里，' +
+          '爬升 105 英尺（32 米）集中在后半段的 0.6 英里内，难度评为 easy，全程 1–2 小时。</strong>' +
+          '<strong>实际分两段：前约 900 米是过 Firehole River 铁桥之后的平坦旧车道（宽、可推车），' +
+          '最后约 300 米是上坡土径加木台阶，顶上就是平台</strong>。' +
+          '<strong>单程步行 20–25 分钟。</strong>' +
+          '走过平台岔口继续往北是 Fairy Falls 本体（NPS 口径往返 4.5 英里／7.2 公里），' +
+          '<strong>只看大棱镜的话在平台折返即可，不必继续</strong>',
+        '<strong>什么时候去，比去不去更决定成败，而结论与「清晨傍晚出片」的常识相反：请在正午之后来。</strong>' +
+          '两个原因叠加：<strong>太阳要够高，阳光才穿得进水体看出蓝色；气温要够暖，蒸汽才薄到能看见池面</strong>。' +
+          '<strong>最佳窗口 12:30–14:30</strong>；若只能偏一边，<strong>往晚偏不要往早偏</strong>。' +
+          '<strong>十月下旬的机会窗口每天只剩约两小时</strong>' +
+          '（太阳高度 ≥30° 的时间：9/25 是 10:18–16:12，10/22 是 11:28–14:48，10/31 只有 12:10–14:04），' +
+          '<strong>而那两小时气温可能仍在 5 °C 以下、整池被蒸汽盖死</strong>。' +
+          '<strong>所以这一站最好排成机动项：出门前先看 NPS 在 Old Faithful 的网络摄像头，' +
+          '蒸汽薄就当天去</strong>。有 8–15 mph 的风是好消息，无风的冷天大概率白走',
+        '<strong>平台不大、也不高，预期要校正：它比池面高约 105 英尺／32 米，水平距离约 225 米，俯角只有 8° 左右</strong>——' +
+          '<strong>看到的是一个被压扁的椭圆，不是网上那种正圆（正圆只有从空中才看得到）</strong>。' +
+          '平台上同时能站的人不多，<strong>旺季会排队轮位，但九月下旬之后基本不用等</strong>。' +
+          '<strong>看完往回走的最后 300 米土径上有几处开阔缺口，角度更侧、但能把坡上的树纳进视野</strong>，' +
+          '平台挤的时候在那里看也成立',
+        '<strong>停车场小得多，这是本条目最现实的约束。</strong>' +
+          'NPS 步道页原话是 <em>「Parking is very limited」</em>；' +
+          '<strong>夏季与九月上旬的中午（也正是唯一值得来的时段）经常满位并有车绕圈等位</strong>，' +
+          '<strong>十月工作日不紧张</strong>。' +
+          '<strong>Trailhead 有厕所（旱厕），但秋季可能关闭；步道上没有任何设施、没有饮水、没有手机信号。</strong>' +
+          '最近的厕所、热食与联网点是 <strong>Old Faithful，约 8 英里／15 分钟</strong>',
+        '<strong>这段步道是熊乡，而且比栈道景点安静得多，安全上要当成徒步而不是观光。</strong>' +
+          '<strong>NPS 明确把 Old Faithful 一带的步道与停车场划在熊活动范围内；9–10 月熊处于超量进食期（hyperphagia）。</strong>' +
+          '<strong>防熊喷雾握在手里或挂在胸前，放在背包里等于没带；结伴、出声、不要天黑前后单独走。</strong>' +
+          '<strong>园内唯一的喷雾租借点在 Old Faithful，2026 年 10/3 关门</strong>，' +
+          '之后只能自带或在 West Yellowstone、Gardiner 购买（约 $50–60；喷雾不能带上飞机，托运也不行）。' +
+          '另外<strong>不得为了角度离开步道</strong>：此处坡面是松散硅质土，踩踏不可恢复，且离开指定步道违规'
+      ],
       photo: '风光 <strong>5/5</strong>，人像 <strong>2/5</strong>。' +
-        '<strong>本子地区乃至全园的第一优先，也是唯一一个我会建议为它调整整天行程的机位。</strong>' +
+        '<strong>本子地区乃至全园的第一优先，也是本区唯一一个值得为它把一整天的安排倒过来排的机位。</strong>' +
         '它的分数不是因为好拍——恰恰相反，它是本指南里对天气条件最挑的一张照片；' +
         '分数在于<strong>成功时的画面无可替代，而且没有任何其他地点可以顶替</strong>。',
       shots: [
@@ -1136,16 +1255,33 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1.5–2 小时</strong>，含往返步行、在平台上停留与等风。' +
+          '<strong>NPS 步道页给的官方时长是 1–2 小时（往返 1.2 英里／1.9 公里）。</strong>' +
+          '<strong>分配建议：上行 20–25 分钟、平台停留 20–40 分钟（等蒸汽被风吹开常常要这么久）、' +
+          '下行 15–20 分钟、停车与找位 10 分钟。</strong>' +
+          '<strong>时间紧的最短版本 1 小时：直接上、看 10 分钟、下来。</strong>' +
+          '<strong>注意这一小时半必须落在 12:30–14:30，这一点不能让步</strong>；' +
+          '再加隔壁 Midway 栈道的 45–75 分钟，这一带整体要留 2.5–3 小时',
         book: '不需预约',
-        ticket: '含在园区门票内，<strong>年票覆盖</strong>',
-        hours: '<strong>步道无门禁、全天可入，但这个机位只有正午前后才有意义</strong>。' +
-          '<strong>2026 年秋季 Fairy Falls Trail 与 Grand Prismatic Overlook 无公布的封闭</strong>。' +
-          '需注意两点：<strong>①该步道每年春季（约 3 月中至 5 月下旬）有例行的熊类管理封闭</strong>，' +
-          '秋季不适用；<strong>②2026 年 5 月 4 日 Old Faithful 西北侧曾发生带崽母灰熊袭人事件、' +
-          '相关临时封闭已解除</strong>。' +
-          '<strong>Overlook 以北通往 Fairy Falls 本体的步道段是否全程开放，' +
-          '未能从官方渠道就秋季情况确认</strong>——不过 Overlook 本身在岔口之前，不受影响。' +
-          '所在的 Madison ↔ Old Faithful 路段通车至 <strong>10/31</strong>',
+        ticket: '<strong>步道与观景平台不单独收费</strong>，' +
+          '黄石按<strong>整园门票</strong>收费，园内各盆地与观景点均不另设售票口。' +
+          '<strong>2026-09-15 核对 NPS Fees &amp; Passes 页（最后更新 2026-06-16）</strong>：' +
+          '私家车 7 日票 <strong>$35</strong>、摩托车 $30、徒步／骑行每人 <strong>$20</strong>（未满 16 岁免费）；' +
+          '<strong>Yellowstone 单园年票 $70，America the Beautiful 年票 $80</strong>。' +
+          '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100 nonresident fee，持任一年票者豁免。</strong>' +
+          'NPS 步道页对本步道单列一行 <em>「Activity Fee: No」</em>，即步道本身无附加费',
+        hours: '<strong>步道无门禁、全天可入，无周几闭馆</strong>' +
+          '（NPS 步道页标注 Season: Winter, Summer, Fall；Time of Day: Any Time）——' +
+          '<strong>但这个观景平台只有正午前后才有意义，写进开放时间里才不会被误用</strong>。' +
+          '<strong>2026-09-15 复核：2026 年秋季 Fairy Falls Trail 与 Grand Prismatic Overlook 无公布的封闭。</strong>' +
+          '需注意两点：<strong>①这条步道历年春季（约 3 月中至 5 月下旬）有例行的熊类管理封闭</strong>，秋季不适用；' +
+          '<strong>②2026 年 5 月 4 日 Old Faithful 西北侧发生带崽母灰熊袭人事件（两名徒步者受伤），' +
+          '园方于 2026 年 7 月 8 日发布公告，宣布因该事件设置的剩余步道、后山营地与钓鱼封闭全部解除</strong>' +
+          '（同一公告明确 <em>「The closure related to the 2024 Biscuit Basin hydrothermal explosion remains in place」</em>，' +
+          '那是另一回事，见「黑沙盆地与饼干盆地」条目）。' +
+          '<strong>真正的时限来自道路：所在的 Madison ↔ Old Faithful 路段 2026 年通车 4/17 – 10/31</strong>' +
+          '（2026-09-15 复核 NPS Park Roads 页，最后更新 2026-09-14），' +
+          '<strong>11/1 起主环路全线对汽车关闭</strong>',
         parking: '<strong>Fairy Falls Trailhead 停车场</strong>，主路西侧' +
           '（OSM 停车面中心 <strong>44.51525, −110.83248</strong>）。' +
           '<strong>规模不大、夏季会满，10 月完全不紧张。有厕所（秋季可能关闭）。</strong>' +
@@ -1174,7 +1310,7 @@ module.exports = {
         '<strong>不要为了更好的角度走出步道。</strong>' +
           'Compendium 明文规定热区周边必须留在指定步道与栈道上，' +
           '且此处坡面是松散的硅质土，踩踏会造成不可恢复的破坏',
-        '<strong>如果你的行程只允许在这一带停留半天，把这半天放在正午，而不是清晨或傍晚。</strong>' +
+        '<strong>若在这一带只能停留半天，把这半天放在正午，而不是清晨或傍晚。</strong>' +
           '这是本条目最实用的一句话'
       ],
       images: [
@@ -1191,6 +1327,7 @@ module.exports = {
       n: 6,
       name: '黑沙盆地与饼干盆地',
       en: 'Black Sand Basin & Biscuit Basin',
+      must: 2.5,
       score: 3.5,
       tldr: 'Biscuit Basin 已核实：自 2024 年 7 月爆炸后关闭至今，2026 年 6 月 13 日又炸了一次，仍然关闭、无重开日期。Black Sand Basin 正常开放，是本区最省时的一站。',
       tags: [
@@ -1240,6 +1377,45 @@ module.exports = {
           '因为它离 Old Faithful 只有 1 英里／3 分钟车程，' +
           '<strong>最好的用法是在等 Old Faithful 下一次喷发的那 60–90 分钟空档里过来拍一轮</strong>，' +
           '而不是单独安排时间'
+      ],
+      tour: [
+        '<strong>先说取舍：这一站不值得专程来，但它离 Old Faithful 只有 1 英里／3 分钟车程，' +
+          '塞进等 Old Faithful 下一次喷发的空档里刚好。</strong>' +
+          '<strong>Black Sand Basin 的栈道只有 0.25 英里／0.4 公里、平坦、基本无障碍，走完 15 分钟</strong>；' +
+          '<strong>时间不够就整条跳过，本区的优先级依次是 Old Faithful、大棱镜（Overlook + Midway）、' +
+          'Norris、Fountain Paint Pot，Black Sand 排在这些之后</strong>',
+        '<strong>栈道走法：从停车场进去是一条小环线，四个看点在几百米内全部走到，不存在走错。</strong>' +
+          '<strong>按 NPS 页面列出的特征顺序：Emerald Pool（蓝色深水叠池壁黄硫黄，成了罕见的祖母绿）、' +
+          'Rainbow Pool、Sunset Lake（实际是一个间歇泉，但喷发稀少且被厚蒸汽盖住，多数人看不出来）、' +
+          '以及 Cliff Geyser。</strong>' +
+          '<strong>不要错过 Cliff Geyser——NPS 原话是它 <em>「erupts every few minutes, sometimes to 40 feet (12 m)」</em>，' +
+          '也就是说这是本区少数几个「不用等预报、站几分钟就能看到喷发」的间歇泉</strong>，' +
+          '而且它长在 Iron Spring Creek 的岸边，是全园唯一能同时看到间歇泉与流动溪水的地方',
+        '<strong>Biscuit Basin 去不了，2026-09-15 复核仍然关闭，把它从计划里划掉。</strong>' +
+          '<strong>NPS 的 Biscuit Basin Trailhead 页原文只有一句：' +
+          '<em>「Biscuit Basin is closed until further notice due to a hydrothermal explosion that occured July 23, 2024.」</em></strong>' +
+          '<strong>2026 年 6 月 13 日同一盆地又爆了一次，NPS 在 7 月 8 日的公告里再次确认' +
+          '<em>「The closure related to the 2024 Biscuit Basin hydrothermal explosion remains in place」</em>，' +
+          '停车场、栈道与河岸一并封闭，无重开日期。</strong>' +
+          '<strong>连带后果：Mystic Falls 步道的入口就在 Biscuit Basin 栈道环线的尽头，' +
+          '所以那条步道实际上也进不去</strong>（该步道自身的熊情封闭已于 2026 年 7 月解除，但入口仍在封闭区内）。' +
+          '路过时能从主路上看到那片升起的蒸汽与 2026 年新形成的径流沟，<strong>但不要停车靠近，进入封闭区违法</strong>',
+        '<strong>停车与人流：Black Sand Basin 有自己的小停车场，但规模很小</strong>' +
+          '（就在主路东侧一个短支路的尽头）。' +
+          '<strong>夏季与九月上旬中午常满、出入口窄、掉头困难；上午 9 点前、下午 4 点后和整个十月都没有压力。</strong>' +
+          '<strong>另一个办法是根本不开车过来：它与 Upper Geyser Basin 的栈道网相连，' +
+          'NPS 口径是从 Daisy Geyser 步行 1 英里／1.6 公里可达</strong>——' +
+          '如果本来就要走到 Daisy、Grand 那一段，走过来比开车省事',
+        '<strong>这里没有厕所、没有饮水、没有餐饮、没有手机信号。</strong>' +
+          '<strong>最近的厕所与联网点是 Old Faithful Visitor Education Center（2026 年开到 10/31），1 英里外。</strong>' +
+          '安排上就按「先在 Old Faithful 解决吃喝与卫生间，再过来走 15 分钟」处理',
+        '<strong>全程留在木栈道上，这里的理由比别处更硬。</strong>' +
+          '<strong>2024 年 9 月一名 60 岁游客就在 Old Faithful 附近走出步道踩穿薄壳，腿部二三度烧伤、直升机转运；' +
+          '园方公开口径是已有 20 多人因跌入或走进热泉致死。</strong>' +
+          '这一段栈道紧贴 Iron Spring Creek 且有台阶，' +
+          '<strong>溪水掺了热泉水，冷晨栈道与台阶会结一层看不见的薄冰</strong>。' +
+          '另外<strong>热区内禁止饮食（喝水不限）、禁止带宠物上栈道</strong>；' +
+          '这一带是熊活动区，栈道虽短，<strong>喷雾照带</strong>'
       ],
       photo: '风光 <strong>3.5/5</strong>，细节 <strong>4/5</strong>，人像 <strong>2/5</strong>。' +
         '<strong>Black Sand Basin 的强项是效率与独特性</strong>：黑砂底色 + 溪边间歇泉的组合在全园找不到第二处，' +
@@ -1292,15 +1468,31 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>Black Sand Basin 30–45 分钟</strong>：' +
+          '<strong>栈道净走路 15 分钟（0.25 英里／0.4 公里），' +
+          '加上站着等一次 Cliff Geyser 喷发的 10–20 分钟</strong>' +
+          '（NPS 口径是它每隔几分钟喷一次，所以这个等待几乎不会落空）。' +
+          '<strong>只看重点 15 分钟：直接走到 Cliff Geyser 与 Emerald Pool 看完就回。</strong>' +
+          '<strong>Biscuit Basin 参观时长为 0——2026 年全域关闭，无法进入。</strong>' +
+          '<strong>整条目按 30–45 分钟计入行程，并且建议把它放在等 Old Faithful 喷发的空档里</strong>，' +
+          '而不是单独占一段时间',
         book: '不需预约',
-        ticket: '含在园区门票内，<strong>年票覆盖</strong>',
-        hours: '<strong>Black Sand Basin：无门禁、全天可入，2026-09-05 复核无任何公布的封闭。</strong>' +
+        ticket: '<strong>两个盆地都不单独收费</strong>，' +
+          '黄石按<strong>整园门票</strong>收费，园内盆地不另设售票口。' +
+          '<strong>2026-09-15 核对 NPS Fees &amp; Passes 页（最后更新 2026-06-16）</strong>：' +
+          '私家车 7 日票 <strong>$35</strong>、摩托车 $30、徒步／骑行每人 <strong>$20</strong>（未满 16 岁免费）；' +
+          '<strong>Yellowstone 单园年票 $70，America the Beautiful 年票 $80</strong>。' +
+          '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100 nonresident fee，持任一年票者豁免。</strong>' +
+          '<strong>Biscuit Basin 的关闭与门票无关，是安全封闭，持票也进不去</strong>',
+        hours: '<strong>Black Sand Basin：无门禁、全天可入、无周几闭馆，2026-09-15 复核无任何公布的封闭。</strong>' +
           '两条官方旁证：NPS 的 Current Conditions 页（最后更新 2026-08-31）没有把它列入任何封闭；' +
           '2026 版 Superintendent\u2019s Compendium 仍把 Black Sand Basin 列为允许商业导览作业的地点之一，' +
           '<strong>也就是说它在行政上是一个正常运营中的开放盆地——和隔壁的 Biscuit Basin 完全两回事。</strong>' +
           '<strong>Biscuit Basin：自 2024 年 7 月 23 日爆炸后封闭至今（NPS 官方页原文「closed until further notice」），' +
-          '2026 年 6 月 13 日再次爆炸后维持封闭，NPS 与 USGS 均未给出重开日期或估计。已核实，按「不可进入」规划。</strong>' +
-          '所在的 Madison ↔ Old Faithful 路段通车至 <strong>10/31</strong>',
+          '2026 年 6 月 13 日再次爆炸后维持封闭，NPS 与 USGS 均未给出重开日期或估计。' +
+          '2026 年 7 月 8 日 NPS 公告再次确认该封闭继续有效。2026-09-15 复核，按「不可进入」规划。</strong>' +
+          '<strong>所在的 Madison ↔ Old Faithful 路段 2026 年通车 4/17 – 10/31，11/1 起主环路全线对汽车关闭</strong>' +
+          '（2026-09-15 复核 NPS Park Roads 页，最后更新 2026-09-14）',
         parking: 'Black Sand Basin 有自己的小停车场（OSM 停车面中心 <strong>44.46208, −110.85304</strong>），' +
           '<strong>规模小、夏季常满，10 月无压力</strong>。' +
           '<strong>Biscuit Basin 停车场随盆地一并关闭</strong>',
@@ -1323,12 +1515,12 @@ module.exports = {
           '<strong>黑曜岩碎屑硬度高，擦镜头前先吹干净</strong>',
         '<strong>无手机信号、无厕所。</strong>' +
           '最近的厕所与联网点是 Old Faithful Visitor Education Center（开到 10/31）',
-        '这一带 2026 年 5 月曾发生带崽母灰熊袭人事件（在 Old Faithful 西北侧），' +
-          '<strong>由此产生的步道临时封闭是否已全部解除，未能核实</strong>——' +
-          'NPS 的 Backcountry Situation Report 页在 2026-09-05 复核时取不到内容，' +
-          '而有二手来源称 Mystic Falls Trail 自 2026 年 5 月起因熊情封闭。' +
-          '<strong>Mystic Falls 步道口本就在已封闭的 Biscuit Basin 里，对本条目无影响；' +
-          '但要走这一带任何一条林间步道，请先拨后山办公室 (307) 344-2160 确认。</strong>' +
+        '<strong>这一带 2026 年 5 月 4 日发生过带崽母灰熊袭人事件（Old Faithful 西北侧，两名徒步者受伤），' +
+          '但由此产生的临时封闭已经解除——这一条已核实。</strong>' +
+          'NPS 在 <strong>2026 年 7 月 8 日</strong>的公告中写明已解除因该事件设置的剩余步道、后山营地与钓鱼封闭，' +
+          '并说明熊管理人员巡查 Mystic Falls Trail 一带后<strong>未发现新的熊活动痕迹</strong>。' +
+          '<strong>要注意的是 Mystic Falls 步道口在仍然封闭的 Biscuit Basin 栈道尽头，所以那条步道实际仍进不去。</strong>' +
+          '要走这一带任何一条林间步道，出发前查 NPS 的 Backcountry Situation Report 或拨后山办公室 <strong>(307) 344-2160</strong>。' +
           '总之这就是熊活动区，栈道虽短，喷雾照带'
       ],
       images: [
@@ -1345,6 +1537,7 @@ module.exports = {
       n: 7,
       name: '老忠实与上间歇泉盆地',
       en: 'Old Faithful & the Upper Geyser Basin',
+      must: 5,
       score: 5,
       tldr: '全球四分之一的活间歇泉集中在这 2.6 平方公里里。预报间隔约 68 或 94 分钟（视上一次喷发时长而定），拍喷发站西侧逆光、快门 1/800。',
       tags: [
@@ -1379,7 +1572,7 @@ module.exports = {
         '<strong>其他四个大间歇泉的实际预期，按「值不值得等」排序：</strong>' +
           '<strong>Grand Geyser</strong> 是全球最高的可预报间歇泉' +
           '（150–200 英尺，间隔约 <strong>6 小时 30 分 ± 1 小时</strong>）——' +
-          '<strong>如果预报窗口落在你的时段里，它比 Old Faithful 更值得等</strong>；' +
+          '<strong>只要预报窗口落在停留的时段里，它比 Old Faithful 更值得等</strong>；' +
           '<strong>Castle Geyser</strong>（间隔约 <strong>13 小时 30 分 ± 45 分</strong>）' +
           '有一个巨大的、像城堡废墟的硅华锥，<strong>不喷时那个锥体本身就是最好的主体</strong>；' +
           '<strong>Riverside Geyser</strong>（约 <strong>6 小时 30 分 ± 30 分</strong>）' +
@@ -1405,6 +1598,85 @@ module.exports = {
           '要拍那个大堂就打 <strong>307-344-7311</strong> 确认。' +
           '<strong>大堂在关门前对所有人开放，不住店也能进去拍</strong>' +
           '（三脚架属于「handheld equipment」、不需许可，但室内空间紧、留意其他客人）'
+      ],
+      tour: [
+        '<strong>到了先做一件事：去 Old Faithful Visitor Education Center 大厅看预报板，把当天的时间表拿到手。</strong>' +
+          '<strong>Old Faithful 的喷发间隔约 60–110 分钟</strong>' +
+          '（NPS 的 Old Faithful 页 FAQ 口径：<strong>2025 年 1 月起中位间隔 102 分钟 ± 10 分钟，实际区间 54–118 分钟</strong>；' +
+          '同一网站的 Current Geyser Activity 表另给<strong>「94 或 68 分钟 ± 10 分钟」</strong>的双区间口径，' +
+          '取决于上一次喷发的时长——喷得久说明排空的水多、充水加热就久。' +
+          '<strong>两个口径都出自官方，未能判定哪个是现行值，把它当成「一到两小时之间，误差十分钟」来安排就够用</strong>）。' +
+          '<strong>喷发高 106 英尺以上（平均约 130 英尺／40 米）、持续 1.5–5 分钟。</strong>' +
+          '<strong>拿预报的三个渠道，按可靠性排序：①访客中心大厅的预报板（最权威，2026 年最后营业日 10/31）；' +
+          '②官方 NPS App 的 Geyser Activity 页（要在有信号处提前下载，进园后看缓存）；' +
+          '③Old Faithful Inn 与 Old Faithful Lodge 大堂也贴同一份预报板。</strong>' +
+          '<strong>注意 NPS 明写：访客中心关闭期间不发布预报</strong>' +
+          '（<em>「Predictions are not available when the Old Faithful Visitor Education Center is closed」</em>），' +
+          '也就是 11 月初至 12 月中、3 月中至 4 月中这两段没有预报',
+        '<strong>本条目最值得说的一句：真正更壮观的是 Grand Geyser，不是 Old Faithful，而它同样有预报。</strong>' +
+          '<strong>Grand 是全球最高的可预报间歇泉——NPS 数据 160 英尺以上、间隔约 6 小时 30 分 ± 1 小时、' +
+          '喷发持续 8–12 分钟（Old Faithful 只有 1.5–5 分钟）。</strong>' +
+          '<strong>所以正确的排法是反过来的：先看板上 Grand 的预报窗口，把它当锚点，' +
+          '再用 Old Faithful 那 60–110 分钟一次的高频喷发去填缝</strong>——' +
+          'Old Faithful 一天喷十几次，错过一次再等一次就行，Grand 一天只有三四次机会。' +
+          '<strong>NPS 一共预报六个间歇泉：Old Faithful、Castle、Grand、Daisy、Riverside、Great Fountain</strong>' +
+          '（前五个在 Upper Geyser Basin，Great Fountain 在 Lower Geyser Basin 的 Firehole Lake Drive 上；' +
+          '<strong>NPS 的 Old Faithful 区页写「五个」、Current Geyser Activity 页列出六个，差别就在 Great Fountain</strong>）。' +
+          '<strong>Castle 间隔约 13 小时 30 分 ± 45 分、Daisy 约 2 小时 45 分 ± 30 分（有风时更长）、' +
+          'Riverside 约 6 小时 30 分 ± 30 分、持续 20 分钟。</strong>' +
+          '<strong>Beehive 不在预报名单里（间隔 22–36 小时到两周以上），但它旁边的 Beehive\u2019s Indicator 小喷口' +
+          '会提前几分钟到二十几分钟开始喷水——看到盆地里的人突然一起往某个方向快走，跟上就对了</strong>',
+        '<strong>栈道怎么走：这是一条 <u>单向往北的折返路</u>，不是环线，走到哪算哪、原路回来。</strong>' +
+          '<strong>从喷口出发沿铺装栈道往北，单程 1.4 英里／2.2 公里到终点 Morning Glory Pool，' +
+          '来回 4.4 公里、纯步行 60–80 分钟（铺装、可推轮椅与自行车）；' +
+          'Upper Geyser Basin 所有步道加起来约 4.9 英里，走全要一天。</strong>' +
+          '<strong>按距离的取舍很清楚：</strong>' +
+          '<strong>只有 1 小时——看一次 Old Faithful 喷发 + 走到 Castle Geyser（约 700 米）折返</strong>；' +
+          '<strong>有 2–3 小时——走到 Grand 与 Riverside（约 1,300 米），按预报卡时间</strong>；' +
+          '<strong>有半天——一路走到 Morning Glory Pool</strong>。' +
+          '<strong>可以跳过的是 Morning Glory Pool 这最后 500 米</strong>：' +
+          '它因为几十年被投硬币与石块堵塞泉道、水温下降，' +
+          '<strong>原本纯净的钴蓝已被橙黄菌群侵蚀到只剩中心一小块</strong>——' +
+          '故事很值得知道，但若时间紧，省下的 40 分钟放在 Grand 的预报窗口上回报更高',
+        '<strong>Old Faithful Inn 的原木大堂是必看项，而且它是本区唯一不受天气影响的看点。</strong>' +
+          '1903–1904 年冬天建成，设计者 Robert C. Reamer 刻意让建筑不对称以呼应自然的混乱；' +
+          '<strong>七层通高的中庭全靠扭曲的枯松原木撑起，是美国最大的原木建筑之一，也是国家历史地标</strong>。' +
+          '<strong>大堂免费、不住店也能进；二层环廊可以走出去到门廊屋顶的观喷平台，' +
+          '那是唯一能一边坐着一边等 Old Faithful 喷发的地方。</strong>' +
+          '<strong>但关门日期有争议：经营方 Xanterra 三个页面一致写客房与餐饮 2026 年 10 月 12 日结束，' +
+          'NPS 的 Operating Dates 表写客房 10/18、餐饮与礼品店 10/19，两边差六天且都不是陈旧页面' +
+          '（2026-09-15 同时复核，NPS 那张表最后更新 2026-09-14）。</strong>' +
+          '<strong>实务口径：10/12 之前一定进得去，10/13–10/19 属于赌运气，之后一定进不去；' +
+          '行程落在 10/13 之后就先打 307-344-7311 问一句。</strong>' +
+          '一并记住：<strong>Snow Lodge 客房 10/24、Old Faithful Lodge Cabins 10/3，' +
+          '也就是 10/24 之后 Old Faithful 一带没有任何过夜的地方</strong>',
+        '<strong>停车、人流与设施，这三件事在这里是一起解决的。</strong>' +
+          '<strong>停车：全园最大的停车系统、分成好几片，' +
+          '但夏季与九月上旬的 10:00–16:00 仍然一位难求</strong>，' +
+          '尤其是喷发预报时刻前后 20 分钟会集中涌入；' +
+          '<strong>实际好用的时段是上午 9 点前与下午 4 点后，十月完全不紧张、清晨基本是空的。</strong>' +
+          '<strong>看台人流同理：预报时刻前 20 分钟坐下就有位子，卡着点到只能站后排；' +
+          '喷发结束人群同时散开，那正是往北走栈道最安静的时候。</strong>' +
+          '<strong>设施：这是本区唯一有厕所、热食、饮水、Wi-Fi、手机信号与医务室的地方，' +
+          '十月尤其要把所有需要设施的事情在这里一次办完。</strong>' +
+          '<strong>2026 年末日（2026-09-15 复核 NPS Operating Dates 页）：' +
+          '访客中心与 Old Faithful Park Store 10/31（免费 Wi-Fi 与预报板在访客中心）、' +
+          'Snow Lodge 的 Geyser Grill 与礼品店 10/31（本区最后一处热食）、Obsidian 餐厅 10/25、' +
+          'General Store 10/18、Upper 加油站店面 10/18、医务室 10/27、邮局 10/15、' +
+          '防熊喷雾租借亭 10/3、Yellowstone Tribal Heritage Center 10/3；' +
+          'Lower 加油站店面 9/13 就关了。刷卡自助油泵按 NPS 标注全年 24 小时可用。</strong>' +
+          '<strong>本区没有营地</strong>（NPS 原话「There are no campgrounds in the Old Faithful area」）',
+        '<strong>安全与规矩，这一段不是客套：不得离开木栈道与铺装步道，这是黄石最常见的致死原因之一。</strong>' +
+          'NPS 安全页原文<strong>「The ground surrounding these features may look solid, ' +
+          'but it can be just a thin crust with super-heated water below.」</strong>；' +
+          '<strong>园方公开口径是已有 20 多人因跌入或走进热泉致死，同期死于灰熊的是 8 人</strong>，' +
+          'USGS 直言热水是黄石对游客最严重的威胁。' +
+          '<strong>2024 年 9 月一名 60 岁游客在 Old Faithful 附近走出步道踩穿薄壳，腿部二三度烧伤、直升机转运；' +
+          '2021 年一名游客在 Norris 走下栈道被判 7 天监禁加 2,000 美元罚金赔偿。</strong>' +
+          '另外三条容易踩的规定：<strong>热区内禁止饮食（喝水不限）、禁止带宠物上栈道、禁止对野生动物使用闪光灯</strong>。' +
+          '<strong>野牛会直接走上栈道与铺装路，法定最小距离 25 码（23 米）、熊与狼 100 码（91 米）；' +
+          '挡路就原路退回，不要绕、不要下栈道。NPS 明确把 Old Faithful 的栈道与停车场划在熊乡范围内。</strong>' +
+          '<strong>天亮前后栈道会因热泉径流结出看不见的薄冰</strong>，Observation Point 那段土径与木台阶尤其滑'
       ],
       photo: '风光 <strong>5/5</strong>，建筑 <strong>4.5/5</strong>，人像 <strong>3/5</strong>。' +
         '<strong>本区唯一一个可以放心排两个半天的地方</strong>：题材多、有预报、' +
@@ -1466,7 +1738,7 @@ module.exports = {
             '清晨与傍晚的低角度光最出质感</strong>；' +
             '<strong>Grand Geyser</strong>（约 900 米处）是全球最高的可预报间歇泉，' +
             '150–200 英尺、间隔约 6h30 ± 1h、喷发时多股水柱交错持续 9–12 分钟，' +
-            '<strong>先在访客中心看它的预报窗口，落在你的时段就直接过去坐长椅上等，24–70mm 收全貌、1/1000 冻结</strong>；' +
+            '<strong>先在访客中心看它的预报窗口，落在停留时段里就直接过去坐长椅上等，24–70mm 收全貌、1/1000 冻结</strong>；' +
             '<strong>Riverside Geyser</strong>（约 1,300 米处，间隔约 6h30 ± 30 分）' +
             '斜着从 Firehole River 岸上喷出、<strong>水柱横跨河面，是本盆地构图最优雅的一个，' +
             '70–200mm 从对岸压缩最好</strong>。' +
@@ -1499,25 +1771,57 @@ module.exports = {
             '<strong>三脚架可用（不需拍摄许可），但空间紧、以不挡通道为前提。</strong>' +
             '<strong>最佳时间是清晨 07:00–08:30 与晚 21:00 之后，客人最少。</strong>' +
             '<strong>务必先确认关门日期（10/12 或 10/18，两个官方来源各执一词，未能判定）——' +
-            '若你的日期落在 10/13 之后，出发前打 307-344-7311 问一句，别到了门口才知道锁了。</strong>'
+            '行程落在 10/13 之后的话，出发前打 307-344-7311 问一句，别到了门口才知道锁了。</strong>'
         }
       ],
       access: {
-        book: '<strong>盆地与大堂都不需预约；园内住宿必须极早预订（Xanterra，一般提前一年开放）</strong>',
-        ticket: '含在园区门票内，<strong>年票覆盖</strong>。<strong>Inn 大堂免费开放，不住店也能进</strong>',
-        hours: '<strong>盆地与栈道无门禁、全天可入，2026 年秋季无公布的封闭。</strong>' +
-          '<strong>Old Faithful Visitor Education Center 最后营业日 10/31</strong>' +
-          '（预报板与免费 Wi-Fi 在这里，覆盖整个窗口）。' +
-          '<strong>Old Faithful Inn 客房：以经营方 Xanterra 官网 2026-09-05 复核的 10/12 为准' +
-          '（NPS Operating Dates 表另写 10/18，该表最后更新 2026-09-03，两边都不是旧页面，' +
-          '未能判定哪个为准；10/13–10/18 请勿当成有房，要确认打 307-344-7311）。</strong>' +
-          '<strong>Snow Lodge 客房 10/24（Obsidian 餐厅 10/25，Geyser Grill 与礼品店 10/31）；' +
-          'Old Faithful Lodge Cabins 10/3。</strong>' +
-          '<strong>10/24 之后 Old Faithful 一带没有任何过夜的地方。</strong>' +
-          'General Store 10/18、医务室 10/27、邮局 10/15、' +
-          '<strong>防熊喷雾租借亭 10/3</strong>。' +
-          '所在路段通车至 <strong>10/31</strong>；' +
-          '<strong>以南 1.5 英里的 Firehole River Bridge 有桥梁作业，9 月内最多 15 分钟延误</strong>',
+        visit: '<strong>半天（3–4 小时）是这里的合理下限，排两个半天也不浪费。</strong>' +
+          '<strong>分配建议（3.5 小时版）：到访客中心看预报板 10 分钟、等并看一次 Old Faithful 喷发 40 分钟' +
+          '（含提前 20 分钟占位）、往北走栈道到 Grand 与 Riverside 并按预报等一场 90 分钟、' +
+          'Old Faithful Inn 大堂 30 分钟、Observation Point 往返 40 分钟。</strong>' +
+          '<strong>只看重点 75 分钟：预报板 → 提前 20 分钟到看台 → 看完一次喷发 → 进 Inn 大堂 20 分钟。</strong>' +
+          '<strong>走全整个 Upper Geyser Basin（约 4.9 英里步道）要一整天。</strong>' +
+          '<strong>到 Morning Glory Pool 往返另计 1.5 小时以上。</strong>' +
+          '一条实用的时间算法：<strong>看完一次喷发先记下板上的下一次时刻，' +
+          '那 60–110 分钟的空档正好够去 Black Sand Basin 一个往返（1 英里／3 分钟车程）或走到 Grand</strong>',
+        book: '<strong>盆地、栈道与 Inn 大堂都不需预约。</strong>' +
+          '<strong>园内住宿必须极早预订（Xanterra 经营，一般提前约一年放房）；' +
+          'Old Faithful Inn Dining Room 的晚餐需要预约。</strong>' +
+          '<strong>2026 年入园不需要车辆定时预约</strong>（NPS Fees &amp; Passes 页明写' +
+          '「Vehicle Reservations Not Required to Enter Yellowstone」，2026-09-15 复核）',
+        ticket: '<strong>盆地、栈道与 Old Faithful Inn 大堂都不单独收费，也没有售票口</strong>——' +
+          '黄石按<strong>整园门票</strong>收，一次付费覆盖园内全部盆地与观景点。' +
+          '<strong>2026-09-15 核对 NPS Fees &amp; Passes 页（最后更新 2026-06-16）</strong>：' +
+          '私家车（载客 15 人以下）7 日票 <strong>$35</strong>、摩托车／雪地车 $30、' +
+          '徒步或骑行入园每人 <strong>$20</strong>（未满 16 岁免费）；' +
+          '<strong>Yellowstone 单园年票 $70，America the Beautiful 年票 $80</strong>' +
+          '（非美国居民版 $250、62 岁以上年票 $20／终身 $80、军人与四年级学生免费）。' +
+          '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100 nonresident fee，持任一年票者豁免</strong>——' +
+          '<strong>也就是说对非美国居民，那张 $80 年票每人省下的是 $135 而不是 $35。</strong>' +
+          '持卡人须本人在场并出示带照片证件，收据与截图不接受。' +
+          '<strong>从南门进出会经过 Grand Teton，那是另一个公园、另一份门票，年票同样覆盖</strong>',
+        hours: '<strong>盆地与栈道无门禁、全天可入、无周几闭馆，2026-09-15 复核 2026 年秋季无公布的封闭。</strong>' +
+          '<strong>有营业时间的是设施，以下为 2026 年最后营业日（2026-09-15 复核 NPS Operating Dates 页，' +
+          '该页最后更新 2026-09-14；园方注明「Facilities close at the end of the last business day listed」）：</strong>' +
+          '<strong>Old Faithful Visitor Education Center 10/31</strong>' +
+          '（<strong>喷发预报板与本区唯一的免费 Wi-Fi 在这里，它关了就没有官方预报</strong>）、' +
+          'Old Faithful Park Store 10/31、<strong>Snow Lodge 的 Geyser Grill 与礼品店 10/31</strong>、' +
+          'Obsidian 餐厅 10/25、<strong>Snow Lodge 客房 10/24</strong>、医务室 10/27、' +
+          'General Store 10/18、Upper 加油站店面 10/18、邮局 10/15、' +
+          '<strong>防熊喷雾租借亭 10/3</strong>、Old Faithful Lodge Cabins 10/3、' +
+          'Yellowstone Tribal Heritage Center 10/3、Lower 加油站店面 9/13。' +
+          '<strong>Old Faithful Inn 的客房末日是本区唯一一处两个官方来源打架的地方，而且差六天：' +
+          '经营方 Xanterra 的开关门日期页、Inn 单页与餐饮页三处一致写 10/12（客房与餐饮同日，' +
+          'Bear Pit Lounge 与 Mezzanine Bar 10/11）；NPS Operating Dates 表写客房 10/18、' +
+          '餐饮与礼品店 10/19。2026-09-15 两边同时复核，两边都不是陈旧页面，未能判定哪个为准。</strong>' +
+          '<strong>本页按经营方的 10/12 规划（房是它卖的、门是它锁的），' +
+          '但请勿把 10/13–10/18 当成有房；要确认打 307-344-7311。</strong>' +
+          '<strong>道路：所在的 West Entrance ↔ Madison ↔ Old Faithful 与 West Thumb ↔ Old Faithful（Craig Pass）' +
+          '两段 2026 年分别通车 4/17 – 10/31 与 5/8 – 10/31，10/31 当天结束通车，11/1 起主环路全线对汽车关闭</strong>' +
+          '（2026-09-15 复核 NPS Park Roads 页，最后更新 2026-09-14；日期随降雪可能提前）。' +
+          '<strong>施工：以南 1.5 英里的 Firehole River Bridge 桥梁作业与栏杆油漆，' +
+          '官方现行口径「十月内最多 15 分钟延误」</strong>' +
+          '（<strong>2026-09-15 复核时该页已从 9 月改写为 October，本页据此更新</strong>）',
         parking: '<strong>Old Faithful 有全园最大的停车系统，分成好几片</strong>' +
           '（本条采用喷口西南侧主停车面中心 <strong>44.45794, −110.83073</strong>）。' +
           '<strong>夏季正午一位难求，10 月完全不紧张。</strong>' +
@@ -1528,7 +1832,7 @@ module.exports = {
           '<strong>Upper Geyser Basin 全部步道加起来约 4.9 英里，走全一天</strong>'
       },
       notes: [
-        '<strong>整个行程规划的关键日期是 10/24：那天之后 Old Faithful 没有住宿。</strong>' +
+        '<strong>本区规划上最关键的一个日期是 10/24：那天之后 Old Faithful 一带没有任何住宿。</strong>' +
           '10/25–10/31 想拍这里的日出，只能住 West Yellowstone' +
           '（<strong>30 英里／45–55 分钟</strong>）并在 <strong>06:10 前出发</strong>' +
           '（10/31 民用曙光 07:29、盆地真正见光 08:22，还要留 20 分钟爬 Observation Point）',
@@ -1574,6 +1878,7 @@ module.exports = {
       n: 8,
       name: '西拇指间歇泉盆地',
       en: 'West Thumb Geyser Basin',
+      must: 3,
       score: 4.5,
       tldr: '全园唯一「热泉直接开在湖岸线上」的地方，0.6 英里栈道、日出朝东正对湖面。已核实无季节性封闭，但信息站 7 月已关、10/10 后附近无住宿。',
       tags: [
@@ -1612,6 +1917,51 @@ module.exports = {
           '而且<strong>与 Firehole River 走廊不同，这里西侧是开阔湖面、几乎没有山脊遮挡</strong>，' +
           '<strong>东侧的湖对岸也只有 25–40 公里外的低角度山脊，' +
           '所以这里的日出与日落时刻接近表上的数值，不需要做 20–35 分钟的修正</strong>'
+      ],
+      tour: [
+        '<strong>先说定位：这是一站「值得去、但不必专程」的景点。</strong>' +
+          '<strong>它的独一无二在于热泉直接开在 Yellowstone Lake 的岸线上、有几个泉锥泡在湖水里</strong>，' +
+          '全园找不到第二处；<strong>但规模小、一公里就走完，而且它在园区南侧，' +
+          '从 Old Faithful 过来要翻海拔 8,262 英尺的 Craig Pass（17 英里／约 35 分钟）</strong>。' +
+          '<strong>顺路（从南门进出、或去 Grant Village、或南下 Grand Teton）就一定要停；' +
+          '为它单独绕一趟就不值得</strong>',
+        '<strong>栈道走法：一条 0.6 英里／1 公里的栈道，分内外两个环，从停车场同一个入口进出。</strong>' +
+          '<strong>NPS 步道页官方口径：easy、全程木栈道、游览 30–60 分钟、有指定无障碍车位。</strong>' +
+          '<strong>走法很简单——先走外环（贴湖那一圈，看点全在这里），再从内环切回来。</strong>' +
+          '<strong>时间只够一半就只走外环</strong>：外环是「热泉 + 湖面 + 对岸山脊」这个组合的所在，' +
+          '<strong>内环是几个池子，可以跳过</strong>',
+        '<strong>三个别错过的点，都在外环或内环南段：</strong>' +
+          '<strong>①Fishing Cone</strong>——一个直接长在湖里的泉锥，' +
+          '19 世纪的游客会站在锥子上钓鱼再把鱼放进沸腾的锥口里煮（早已禁止），' +
+          '<strong>秋季湖水位低、泉锥露出得更多，比夏季好看</strong>；' +
+          '<strong>②Abyss Pool</strong>——全园最深的热泉之一（约 53 英尺），' +
+          '<strong>从边缘的祖母绿骤然坠入中心的近乎墨黑，「深渊」是字面意思</strong>；' +
+          '<strong>③Black Pool</strong>——名字来自它历史上被深色菌垫盖住的样子，' +
+          '<strong>1991 年一次升温杀死了那些菌群，它现在反而是清澈的蓝，名字与现状不符</strong>。' +
+          '<strong>看池子的颜色要在正午到 15:00 之间，太阳低的时候只看得到水面反光</strong>',
+        '<strong>这一站的实际瓶颈不是人流，是设施与住宿，这一点要提前知道。</strong>' +
+          '<strong>West Thumb Information Station 已于 2026 年 7 月 13 日结束营业，秋季不会再开</strong>' +
+          '（NPS Operating Dates 表状态为 Closed，2026-09-15 复核），' +
+          '所以<strong>现场没有讲解台、没有 ranger、没有商店</strong>。' +
+          '<strong>NPS 的 West Thumb Geyser Basin Trailhead 页把设施列为' +
+          '「Information Kiosk/Bulletin Board, Toilet - Vault/Composting, Trailhead」' +
+          '——也就是说停车场有旱厕，但没有自来水、没有餐饮。</strong>' +
+          '<strong>补给点是 2 英里外的 Grant Village</strong>' +
+          '（便利店 10/13、餐厅与礼品店 10/11、访客中心 10/3、General Store 9/27、Mini Store 10/4，' +
+          '2026 年末日，2026-09-15 复核），<strong>那也是湖区南段唯一的加油点</strong>',
+        '<strong>停车场中等规模、只有旺季中午会紧张；十月无压力，清晨基本是空的。</strong>' +
+          '<strong>它就在主路旁、标识清楚，从停车场到湖畔栈道只有 150 米／3 分钟。</strong>' +
+          '<strong>与 Grant Village 的关系值得记住：两地只隔 2 英里，' +
+          '把「West Thumb 走栈道 + Grant Village 加油上厕所」当成一站处理最省事</strong>；' +
+          '<strong>往北 21 英里是 Fishing Bridge 与湖区主段，往西 17 英里翻 Craig Pass 是 Old Faithful</strong>',
+        '<strong>安全上这里有三条与别处不同的注意事项。</strong>' +
+          '<strong>①栈道紧贴湖岸、清晨结霜结冰</strong>，天亮前来要带头灯；' +
+          '<strong>②Superintendent\u2019s Compendium 明文禁止在 Little Thumb Creek 至 West Thumb 热区南端之间的湖岸靠岸与登岸</strong>——' +
+          '不要为了走到水边而下到湖滩；' +
+          '<strong>③湖畔视野开阔，野牛与麋鹿常在栈道附近活动</strong>，' +
+          '好处是能提前发现，<strong>法定距离野牛与麋鹿 25 码、熊与狼 100 码</strong>，' +
+          '九月麋鹿处于发情期、公麋鹿会主动逼近人与车。' +
+          '另外<strong>无风冷晨硫化氢会在低洼处积聚，眼刺痛、头痛、恶心就立刻往高处与上风向走</strong>'
       ],
       photo: '风光 <strong>4.5/5</strong>，细节 <strong>4/5</strong>，人像 <strong>3/5</strong>。' +
         '<strong>加分全在「热泉 + 湖」这个全园唯一的组合上，而且它是本区少数几个日出机位里' +
@@ -1668,13 +2018,34 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45–75 分钟</strong>。' +
+          '<strong>NPS 步道页给的官方时长是 30–60 分钟（0.6 英里／1 公里，内外两环）</strong>，' +
+          '那是不含停留的净走路时间。' +
+          '<strong>分配建议：外环（贴湖那圈，含 Fishing Cone 与湖面视野）30 分钟、' +
+          '内环南段的 Abyss Pool 与 Black Pool 15 分钟、往返停车场与看解说牌 10 分钟。</strong>' +
+          '<strong>只看重点 25 分钟：只走外环，不进内环。</strong>' +
+          '<strong>若把 2 英里外的 Grant Village 加油与厕所算进来，这一站留 1.5 小时</strong>',
         book: '不需预约',
-        ticket: '含在园区门票内，<strong>年票覆盖</strong>',
-        hours: '<strong>栈道无门禁、全天可入，2026 年秋季无公布的季节性封闭或栈道封闭段（已核实）。</strong>' +
-          '<strong>但 West Thumb Information Station 已于 2026 年 7 月 13 日结束营业，秋季不会再开</strong>——' +
-          '<strong>停车场厕所秋季也可能关闭，请在 Old Faithful 或 Grant Village 解决</strong>。' +
-          '所在的 West Thumb ↔ Grant Village ↔ South Entrance 与 West Thumb ↔ Old Faithful（Craig Pass）' +
-          '两段公路 2026 年通车至 <strong>10/31</strong>',
+        ticket: '<strong>本盆地不单独收费，也没有售票口</strong>——' +
+          '黄石按<strong>整园门票</strong>收，一次付费覆盖园内全部盆地与观景点。' +
+          '<strong>2026-09-15 核对 NPS Fees &amp; Passes 页（最后更新 2026-06-16）</strong>：' +
+          '私家车 7 日票 <strong>$35</strong>、摩托车 $30、徒步／骑行每人 <strong>$20</strong>（未满 16 岁免费）；' +
+          '<strong>Yellowstone 单园年票 $70，America the Beautiful 年票 $80</strong>。' +
+          '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100 nonresident fee，持任一年票者豁免。</strong>' +
+          '<strong>从南门进出会经过 Grand Teton，那是另一份门票，年票同样覆盖</strong>——' +
+          '这一条对 West Thumb 特别相关，因为它是最靠南门的盆地',
+        hours: '<strong>栈道无门禁、全天可入、无周几闭馆</strong>' +
+          '（NPS 步道页标注 Season: Summer, Fall；Time of Day: Any Time）。' +
+          '<strong>2026-09-15 复核：2026 年秋季无公布的季节性封闭，也没有封闭的栈道段。</strong>' +
+          '<strong>设施方面有一条要写清：West Thumb Information Station 已于 2026 年 7 月 13 日结束营业、' +
+          '秋季不会再开（NPS Operating Dates 表状态 Closed，该页最后更新 2026-09-14）</strong>，' +
+          '<strong>但停车场的旱厕（NPS 设施列表写明 Toilet - Vault/Composting）不随信息站关闭</strong>；' +
+          '饮水与餐饮仍要到 2 英里外的 Grant Village 解决（便利店 10/13、餐厅与礼品店 10/11、访客中心 10/3）。' +
+          '<strong>道路：West Thumb ↔ Grant Village ↔ South Entrance、West Thumb ↔ Old Faithful（Craig Pass）、' +
+          'West Thumb ↔ Lake Village 三段 2026 年均通车 5/8 – 10/31，10/31 当天结束通车，' +
+          '11/1 起主环路全线对汽车关闭</strong>' +
+          '（2026-09-15 复核 NPS Park Roads 页，最后更新 2026-09-14；' +
+          '<strong>Craig Pass 海拔 8,262 英尺，是本区最容易因降雪提前关闭或临时封闭的一段</strong>）',
         parking: '主路旁的专用停车场（OSM 停车面中心 <strong>44.41576, −110.57423</strong>），' +
           '<strong>规模中等，10 月无压力</strong>。' +
           '<strong>清晨来拍日出时停车场是空的</strong>',
@@ -1721,6 +2092,7 @@ module.exports = {
       n: 9,
       name: '黄石湖 · 渔桥与海鸥角',
       en: 'Yellowstone Lake · Fishing Bridge & Gull Point',
+      must: 3.5,
       score: 4,
       tldr: '北美 7,000 英尺以上最大的湖，132 平方英里、最深 430 英尺。午后起风、只有清晨才有镜面倒影，对岸就是 Absaroka 山脊。',
       tags: [
@@ -1769,6 +2141,66 @@ module.exports = {
           '<strong>但这一带也是灰熊密度较高的区域</strong>' +
           '（Fishing Bridge 一带历史上因熊活动而长期限制过夜露营）'
       ],
+      tour: [
+        '<strong>先把这一带三个地名的关系理清楚，不然地图上很容易走错——它们沿湖西北岸从东到西排成一串：</strong>' +
+          '<strong>①Fishing Bridge</strong>：湖的唯一出水口，Yellowstone River 从这里流出，' +
+          '是这一带最容易抵达的湖岸点，有访客中心、General Store、RV Park 与加油站；' +
+          '<strong>②Lake Village 与紧邻的 Bridge Bay</strong>：往西南 2–3 英里，' +
+          '是 Lake Yellowstone Hotel、Lake Lodge 与游艇码头所在，也是园内住宿的所在；' +
+          '<strong>③West Thumb</strong>：再往西南 21 英里、绕过湖的西臂，' +
+          '<strong>是一个独立的热泉盆地、另立条目，不要以为它就在湖边村子旁</strong>。' +
+          '<strong>Gull Point Drive 是 Bridge Bay 与 Lake Village 之间岔出的一条约 2 英里湖岸支线</strong>，' +
+          '走一段后回到主路，<strong>是这一带唯一能开车直达水边的地方</strong>',
+        '<strong>怎么逛：这一带没有环线栈道，是三个互不相连的短停靠点，开车串起来。</strong>' +
+          '<strong>①Fishing Bridge——停车即到、桥长约 100 米，走上桥看出水口与水下的鳟鱼，10–15 分钟</strong>' +
+          '（NPS 提示<strong>「the surface of the historic bridge is rough and narrow」，' +
+          '轮椅使用者可能需要协助</strong>）；' +
+          '<strong>②Gull Point Drive——开进去在 Gull Point 野餐区停车，走不到 100 米就到石滩，' +
+          '可以直接走到水边，15–20 分钟</strong>；' +
+          '<strong>③Pelican Creek Nature Trail——Fishing Bridge 以东约 1.5 公里，' +
+          'NPS 官方口径是一条 0.6 英里／1 公里的平坦环线，穿林走到湖滩再折回，30–40 分钟</strong>' +
+          '（<strong>本页此前写 1.3 公里／0.8 英里，与 NPS 的 Pelican Creek Nature Trailhead 页不符，' +
+          '2026-09-15 已按官方数字更正</strong>）',
+        '<strong>别错过的是桥上看鱼，可以跳过的是「拍下整个湖」的念头。</strong>' +
+          '<strong>Fishing Bridge 历史上是钓 Yellowstone cutthroat trout 的著名地点，' +
+          '因为过度捕捞损害了本地割喉鳟种群、而这段河道正是它们的产卵区，' +
+          '1970 年代初起全面禁钓（NPS 口径：得到钓鱼团体支持）。</strong>' +
+          '<strong>结果就是现在站在桥上常能直接看到水下成群的鳟鱼，也常有鹈鹕、鹗与水獬</strong>——' +
+          '这是全园最省力的野生动物观察点之一，带长焦有用。' +
+          '反过来，<strong>湖面 132 平方英里、岸线 141 英里，站在任何一点都只能看到一条水平线</strong>，' +
+          '<strong>想「看全湖」是不可能的，不值得为此多开路</strong>。' +
+          '<strong>Yellowstone Lake Boat Tours 与出租船能补上这个视角，但 2026 年 9 月 20 日就收季了</strong>' +
+          '（2026-09-15 复核 NPS Operating Dates）',
+        '<strong>时段上有一条硬规律：湖面午后必起风，要平静水面就只有清晨。</strong>' +
+          '<strong>132 平方英里的开阔水面加山谷地形，白天升温后风几乎每天都会起来，' +
+          '湖面从镜面变成碎浪</strong>——这不是运气问题。' +
+          '<strong>所以这一带最好排在一天的最前面（日出前后那一小时），' +
+          '午后只适合当成「路过看一眼对岸山脊」的停靠</strong>。' +
+          '另一个方向的权衡：<strong>对岸的 Absaroka Range 在湖的东侧与东南侧、25–40 公里外，' +
+          '清晨太阳从它后面升起、它是逆光的剪影；要看它被暖光正面照亮得等日落前最后半小时，' +
+          '而那时湖面已经起风</strong>。两者不可兼得',
+        '<strong>停车与设施：这一带的设施密度是本区第二高的（仅次于 Old Faithful），但秋季关得很早。</strong>' +
+          '<strong>停车用两处正式设施最省事：Fishing Bridge Picnic Area 与 Gull Point Picnic Area</strong>，' +
+          '十月都没有压力；<strong>桥两端也有路侧停车带，但清晨结霜时路肩很滑</strong>。' +
+          '<strong>2026 年最后营业日（2026-09-15 复核 NPS Operating Dates 页，最后更新 2026-09-14）：' +
+          'Fishing Bridge General Store 10/18、Fishing Bridge RV Park 10/17、加油站店面 10/11、' +
+          'Fishing Bridge Visitor Center &amp; Museum 与 Park Store 10/3、Bridge Bay Campground 9/13、' +
+          'Lake General Store 9/13。住宿：Lake Yellowstone Hotel 客房 10/10（餐厅与 Deli 10/11）、' +
+          'Lake Lodge Cabins 10/3、Grant Village 客房 10/10。</strong>' +
+          '<strong>也就是 10/10 之后这一带没有园内住宿，10/3 之后连讲解与厕所都要碰运气</strong>——' +
+          '刷卡自助油泵按 NPS 标注全年 24 小时可用，往南 21 英里的 Grant Village 是另一处补给点',
+        '<strong>安全上这一带有两条本区最需要单独讲的事。</strong>' +
+          '<strong>①这是全园灰熊密度较高的区域之一</strong>——' +
+          'Fishing Bridge 一带历史上因此长期限制帐篷露营（RV Park 只允许硬壳车辆），' +
+          '<strong>Pelican Creek 的湿地在秋季被高草挡住视野，而 9–10 月熊处于超量进食期</strong>；' +
+          '<strong>喷雾握在手里、结伴、出声，不要天没亮单独进湿地步道</strong>' +
+          '（NPS 的步道页本身就写着 <em>「Hike in groups of 3 or more」</em>、' +
+          '<strong>园内唯一的喷雾租借亭在 Old Faithful 且 2026 年 10/3 关门</strong>）。' +
+          '<strong>②湖水常年约 5 °C，落水后失温极快</strong>；' +
+          '清晨湖石与浮木结霜，<strong>走到水边时不要踩湿滑的圆石</strong>。' +
+          '另外<strong>Bridge Bay Bridge 的桥梁施工就压在 Gull Point Drive 与 Fishing Bridge 之间，' +
+          '2026 年 8 月 25 日起至 11 月最多 15 分钟延误</strong>，赶日出要把这 15 分钟算进出发时间'
+      ],
       photo: '风光 <strong>4/5</strong>，野生动物 <strong>4/5</strong>，人像 <strong>3/5</strong>。' +
         '<strong>它是本子地区里唯一的「大风景」题材，也是唯一一个不需要处理蒸汽问题的地方</strong>——' +
         '在连拍三天间歇泉之后，这一点的价值比分数看起来更高。' +
@@ -1815,7 +2247,7 @@ module.exports = {
           name: 'Pelican Creek Nature Trail 湿地',
           park: [44.56440, -110.37759],
           view: [44.55836, -110.36307],
-          desc: '<strong>Fishing Bridge 以东约 1.5 公里的一条 1.3 公里短环线，穿过湿地走到湖岸沙滩。</strong>' +
+          desc: '<strong>Fishing Bridge 以东约 1.5 公里的一条 0.6 英里／1 公里短环线，穿林与湿地走到湖岸沙滩。</strong>' +
             '<strong>这是本条目最好的野生动物与氛围机位，也是唯一一处有「湿地 + 湖」层次的地方。</strong>' +
             '<strong>清晨的湿地容易起雾，配上麋鹿鸣叫（9 月）是很强的组合</strong>。' +
             '<strong>24–70mm 拍湿地的草与水洼，100–400mm 拍水鸟与远处的麋鹿。</strong>' +
@@ -1828,24 +2260,51 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '含在园区门票内，<strong>年票覆盖</strong>',
-        hours: '<strong>湖岸与桥无门禁、全天可入。</strong>' +
-          '<strong>Gull Point Drive 是季节性支线，2026 年没有单独公布的关闭日期</strong>，' +
-          '按通则应与主环路同步在 <strong>10/31</strong> 结束通车，' +
-          '<strong>但这一点未能从官方渠道单独确认，且它不在 NPS 实时路况地图上</strong>；' +
-          '<strong>是否单行也未能核实（OSM 无 oneway 标签，第三方资料称单行）</strong>，进入前看现场标牌。' +
-          '所在的 Canyon ↔ Bridge Bay、East Entrance ↔ Fishing Bridge（Sylvan Pass）、' +
-          'West Thumb ↔ Lake Village 三段均通车至 <strong>10/31</strong>。' +
-          '设施：<strong>Fishing Bridge Visitor Center 10/3、Fishing Bridge General Store 10/18、' +
-          'Fishing Bridge RV Park 10/17、Bridge Bay Campground 9/13</strong>',
+        visit: '<strong>1.5–2.5 小时</strong>，含三个停靠点之间的开车转场。' +
+          '<strong>分配建议：Fishing Bridge 桥上 15 分钟、Gull Point Drive 与石滩 30 分钟、' +
+          'Pelican Creek Nature Trail 环线 30–40 分钟（NPS 口径 0.6 英里／1 公里）、' +
+          '三点之间开车与停车 20–30 分钟。</strong>' +
+          '<strong>只看重点 30 分钟：Fishing Bridge 走一趟桥 + 开 Gull Point Drive 到水边站一会。</strong>' +
+          '<strong>但要看到镜面湖水与倒影，这 1.5 小时必须落在日出前后那一小时</strong>；' +
+          '午后来的话把它降级成 30 分钟的路过停靠就好，别指望平静水面',
+        book: '<strong>湖岸、桥与步道都不需预约。</strong>' +
+          '<strong>Yellowstone Lake Boat Tours、包船与租船需另行预订（Xanterra），' +
+          '且 2026 年分别在 9/20 与 9/14 收季</strong>（2026-09-15 复核 NPS Operating Dates 页）。' +
+          '<strong>自带船只需办船证并通过入侵物种（AIS）检查</strong>',
+        ticket: '<strong>湖岸、Fishing Bridge、Gull Point Drive 与 Pelican Creek 步道都不单独收费</strong>——' +
+          '黄石按<strong>整园门票</strong>收，一次付费覆盖园内全部点位。' +
+          '<strong>2026-09-15 核对 NPS Fees &amp; Passes 页（最后更新 2026-06-16）</strong>：' +
+          '私家车 7 日票 <strong>$35</strong>、摩托车 $30、徒步／骑行每人 <strong>$20</strong>（未满 16 岁免费）；' +
+          '<strong>Yellowstone 单园年票 $70，America the Beautiful 年票 $80</strong>。' +
+          '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100 nonresident fee，持任一年票者豁免。</strong>' +
+          '<strong>两项例外要单独花钱：钓鱼须另办园内钓鱼证（州证在园内无效，Fishing Bridge 本身禁钓），' +
+          '游船与租船另行收费</strong>',
+        hours: '<strong>湖岸与桥无门禁、全天可入、无周几闭馆。</strong>' +
+          '<strong>2026-09-15 复核，本条目三个点位在 2026 年秋季均无公布的封闭。</strong>' +
+          '<strong>Gull Point Drive 仍是本条目唯一两项未能核实的地方</strong>：' +
+          '<strong>①它是季节性支线，2026 年 NPS 没有为它单独公布关闭日期，' +
+          '按通则应与主环路同步在 10/31 结束通车，但未能从官方渠道单独确认，' +
+          '且它不在 NPS 实时路况地图上（那张图只画主环路与入口道）</strong>；' +
+          '<strong>②是否单行未能核实（OSM 路网无 oneway 标签，多份第三方旅游资料称单行）</strong>，' +
+          '进入前看现场标牌，或到 Fishing Bridge 一带问 ranger。' +
+          '<strong>道路：Canyon Village ↔ Bridge Bay 与 East Entrance ↔ Fishing Bridge（Sylvan Pass）' +
+          '2026 年通车 5/1 – 10/31，West Thumb ↔ Lake Village 通车 5/8 – 10/31，' +
+          '10/31 当天结束通车，11/1 起主环路全线对汽车关闭</strong>' +
+          '（2026-09-15 复核 NPS Park Roads 页，最后更新 2026-09-14）。' +
+          '<strong>施工：Bridge Bay Bridge 自 2026 年 8 月 25 日起至 11 月，最多 15 分钟延误，' +
+          '位置正在 Gull Point Drive 与 Fishing Bridge 之间。</strong>' +
+          '<strong>设施 2026 年最后营业日：Fishing Bridge General Store 10/18、RV Park 10/17、' +
+          '加油站店面 10/11、Visitor Center &amp; Museum 与 Park Store 10/3、Bridge Bay Campground 9/13、' +
+          'Lake General Store 9/13；Lake Yellowstone Hotel 客房 10/10（餐厅与 Deli 10/11）、' +
+          'Lake Lodge Cabins 10/3（礼品店 10/4）</strong>',
         parking: '<strong>Fishing Bridge Picnic Area（44.56440, −110.37759）与 ' +
           'Gull Point Picnic Area（44.52632, −110.41721）是两处最实用的停车点</strong>，' +
           '均为正式设施、10 月无压力。' +
           '桥两端也有路侧停车带，但清晨结霜时路肩滑',
         walk: '<strong>Fishing Bridge 停车即到、桥长约 100 米。</strong>' +
           '<strong>Gull Point 从野餐区走到水边不足 100 米。</strong>' +
-          '<strong>Pelican Creek Nature Trail 环线 1.3 公里／0.8 英里，平坦，30–40 分钟。</strong>' +
+          '<strong>Pelican Creek Nature Trail 环线 0.6 英里／1 公里，平坦，30–40 分钟</strong>' +
+          '（NPS 的 Pelican Creek Nature Trailhead 页口径，2026-09-15 复核；本页此前写 1.3 公里，已更正）。' +
           '整个条目含转场 <strong>1.5–2.5 小时</strong>'
       },
       notes: [
@@ -1858,7 +2317,7 @@ module.exports = {
           '或 <strong>Old Faithful（38 英里／约 1 小时 15 分，开到 10/24）</strong>出发；' +
           '<strong>10/25 之后从任何还营业的住宿点过来都超过 1 小时 30 分，实际上不可行</strong>',
         '<strong>午后必起风，这是规划上的硬约束。</strong>' +
-          '<strong>要倒影就必须清晨来；如果你的行程只能安排在午后，' +
+          '<strong>要倒影就必须清晨来；若只能安排在午后，' +
           '就把这一站降级成「路过时拍对岸山脊的长焦压缩」，不要指望镜面湖水</strong>',
         '<strong>Fishing Bridge 一带是全园灰熊密度较高的区域之一</strong>' +
           '（历史上因此长期限制此处的帐篷露营，RV Park 只允许硬壳车辆）。' +
@@ -1886,6 +2345,363 @@ module.exports = {
           cap: 'Yellowstone River 出水口上的 Fishing Bridge · Larry D. Moore / CC BY 4.0' },
         { url: 'img/stevenson-island-yellowstone-lake-ynp1-c3573ba5.jpg',
           cap: '湖面与对岸远山的层次（Stevenson Island 方向） · Acroterion / CC BY-SA 4.0' }
+      ]
+    },
+    {
+      id: 'ys-gb-lone-star',
+      n: 10,
+      name: '孤星间歇泉',
+      en: 'Lone Star Geyser',
+      must: 2.5,
+      score: 3.5,
+      tldr: '本区唯一需要走进去的大间歇泉：往返 4.8 英里、约每三小时喷一次、没有预报，换来的是一个没有人群的锥形间歇泉。',
+      tags: [
+        { t: '年票覆盖', c: 'free' },
+        { t: '往返 4.8 英里', c: 'paid' },
+        { t: '无官方预报', c: 'risk' },
+        { t: '可骑车', c: 'free' },
+        { t: '熊乡、人少', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>这是本区唯一一个「要靠双脚换」的大间歇泉，也是唯一一个不用跟人抢位置的。</strong>' +
+          '<strong>NPS 口径：喷发高度 30–45 英尺（9–14 米），从一个 12 英尺（3.6 米）高的硅华锥里喷出，' +
+          '大约每三小时一次。</strong>' +
+          '那个锥体本身就是看点——<strong>Upper Geyser Basin 里没有第二个这么完整、这么孤立的锥形间歇泉</strong>，' +
+          '而且它周围没有栈道、没有解说牌、没有几十人举着手机',
+        '<strong>但必须先说清成本：它没有官方预报。</strong>' +
+          'NPS 只预报六个间歇泉，Lone Star 不在其中。' +
+          '<strong>唯一的线索是园方在泉边一个储物箱里放的观测本（logbook），' +
+          '来的人自己把看到的喷发时间与类型记上去</strong>；' +
+          '<strong>NPS 官方页面还特地请游客把看到的喷发时间报给 Old Faithful Visitor Education Center</strong>。' +
+          '<strong>所以现实的玩法是：出发前先去访客中心问最近一次记录，到了泉边先翻观测本推算下一次，' +
+          '然后决定等不等。</strong>' +
+          '<strong>它还有大小喷发之分，小喷发常在大喷发前二十几分钟出现——' +
+          '看到一次小规模喷水不要马上走</strong>',
+        '<strong>步道本身很轻松，这一点与「4.8 英里」的数字给人的印象不符。</strong>' +
+          '<strong>它走的是一条沿 Firehole River 的旧养路便道，前段铺装、几乎没有爬升</strong>，' +
+          'NPS 把它评为 easy，并注明<strong>「accessible by wheelchair or other mobility devices」</strong>。' +
+          '<strong>一路都贴着河走，是本区唯一一段真正的林间河谷散步</strong>——' +
+          '在连着走几天热气腾腾的木栈道之后，这一点的价值比分数看起来高',
+        '<strong>官方里程有两个数字，出发前按长的算最稳。</strong>' +
+          '<strong>NPS 的 Lone Star Geyser Trail 页（2025-09-22 更新）写往返 4.8 英里／7.7 公里、时长 2–3 小时；' +
+          '而 NPS 的 Lone Star Trailhead (OK1) 页写同一条步道往返 5.4 英里／8.7 公里。</strong>' +
+          '<strong>两处都是官方页面，未能判定哪个为准</strong>（差值大致相当于停车场到步道正式起点那一段）',
+        '<strong>顺路的 Kepler Cascades 值得一起看，几乎不花时间。</strong>' +
+          '步道口就在 Kepler Cascades 停车场往东一点，' +
+          '<strong>那处瀑布有现成的路边观景平台，停车即到、看两分钟就走</strong>，' +
+          '是本区性价比最高的「零成本」停靠点之一'
+      ],
+      tour: [
+        '<strong>动线：从 Lone Star Trailhead 停车场出发，沿旧养路便道一路南行，终点就是间歇泉，原路折返。</strong>' +
+          '<strong>NPS 口径往返 4.8 英里／7.7 公里、2–3 小时（同网站另一页写 5.4 英里，按长的算）。</strong>' +
+          '<strong>只有一个需要注意的岔口：约 1.5 英里（2.4 公里）处与 Spring Creek Trail 相交，' +
+          '继续沿河直行即可</strong>，不要拐上坡。' +
+          '<strong>停车场也可以停在紧邻的 Kepler Cascades 观景停车场，两处之间有短步道相连</strong>——' +
+          '这样一次停车能把瀑布与间歇泉都走到',
+        '<strong>到了先翻观测本，再决定等不等，这是本条目最实用的一句话。</strong>' +
+          '<strong>泉边有一个储物箱，里面是园方放的观测本（logbook），记录着最近的喷发时间与规模。</strong>' +
+          '<strong>按「约每三小时一次」推算：如果上一次是一小时前，值得坐下来等；' +
+          '如果刚喷完，直接往回走，不要在原地耗两小时。</strong>' +
+          '<strong>出发前在 Old Faithful Visitor Education Center 问一句最近的记录，能省掉一半的赌运气</strong>' +
+          '（NPS 自己也请游客把看到的喷发时间报回去）。' +
+          '<strong>看到小规模喷水先别走——大喷发常在小喷发后二十几分钟才来</strong>',
+        '<strong>可以骑车，而且这是本区少数允许骑行的步道之一，能把 2–3 小时压到 1 小时出头。</strong>' +
+          '<strong>NPS 的安全注记很具体：<em>「Cyclists must dismount at the end of the asphalt and ' +
+          'walk the last few hundred feet.」</em>' +
+          '——铺装路尽头必须下车推行最后几百英尺，泉边有栏杆禁止骑行进入。</strong>' +
+          '园内可租自行车的地方有限，<strong>多数人是自带或在 West Yellowstone 租</strong>',
+        '<strong>什么时候去、什么时候别去。</strong>' +
+          '<strong>这条步道全程在林间与河谷，光线与蒸汽都不挑时段，任何时间都成立</strong>' +
+          '（NPS 标注 Time of Day: Any Time）。' +
+          '<strong>真正该避开的是「只剩两小时天光」的时候</strong>——' +
+          '往返加等待要 2–3 小时，天黑前走不完就会在熊乡里摸黑走 2 英里。' +
+          '<strong>NPS 步道指引明写 <em>「Do not hike after dark」</em>。</strong>' +
+          '<strong>如果当天只想走一小段，前 1 英里的河谷本身就很好看，折返也不算白来</strong>',
+        '<strong>厕所在停车场（Lone Star Trailhead 有厕所），步道上与泉边都没有任何设施、没有饮水、没有手机信号。</strong>' +
+          '<strong>最近的厕所、热食与联网点是 Old Faithful，约 3.5 英里／10 分钟车程。</strong>' +
+          '<strong>停车场规模不大但周转快，旺季中午可能需要等位；十月无压力。</strong>' +
+          '带足水——<strong>沿途的 Firehole River 水不能直接喝，且园内禁止在热区取水</strong>',
+        '<strong>安全：这是本条目风险等级明显高于其他条目的地方，因为人少、林密、在熊乡里。</strong>' +
+          '<strong>NPS 的步道指引原话是 <em>「Hike in groups of 3 or more; keep your group together」</em>，' +
+          '并要求告知他人行程；9–10 月熊处于超量进食期（hyperphagia），觅食更久、更大胆。</strong>' +
+          '<strong>防熊喷雾握在手里或挂在胸前，放在背包里等于没带；园内唯一的租借亭在 Old Faithful，' +
+          '2026 年 10/3 关门。</strong>' +
+          '<strong>泉眼周围没有木栈道，只有土径与围栏——热区的地壳可能只是一层薄壳，' +
+          '必须留在指定步道上，不要绕到锥体另一侧。</strong>' +
+          '<strong>步道禁止宠物。</strong>' +
+          '法定野生动物距离：熊与狼 100 码（91 米），野牛、麋鹿等 25 码（23 米）'
+      ],
+      photo: '风光 <strong>3.5/5</strong>，人像 <strong>2.5/5</strong>。' +
+        '加分在于<strong>一个完整的硅华锥加一条林间河谷，而且画面里通常没有别人</strong>；' +
+        '扣分在于<strong>没有预报、没有高点、光线被两侧林线吃掉，去了很可能只拍到一个不喷的锥子</strong>。',
+      shots: [
+        {
+          name: 'Lone Star Geyser 锥体正面 —— 唯一机位',
+          park: [44.44465, -110.80438],
+          view: [44.41837, -110.80674],
+          desc: '<strong>泉眼周围的土径上，锥体东南侧到正南侧那一圈是唯一的站位。</strong>' +
+            '<strong>喷发时用 1/800 秒冻结水珠，24–70mm 把 12 英尺高的锥体连同喷柱一起收进画面</strong>；' +
+            '<strong>不喷的时候锥体本身更值得拍——70–200mm 贴着拍表面层层叠叠的硅华纹理，' +
+            '阴天的漫射光比晴天好控制。</strong>' +
+            '这里没有栈道、只有土径与围栏，<strong>不要为了角度绕到锥体另一侧，那一带是薄壳且属于离径</strong>。'
+        }
+      ],
+      access: {
+        visit: '<strong>2.5–3.5 小时（含在泉边等一次喷发）。</strong>' +
+          '<strong>NPS 给的官方时长是 2–3 小时（往返 4.8 英里／7.7 公里）</strong>，那是不含等待的。' +
+          '<strong>分配建议：单程步行 50–60 分钟、泉边翻观测本并等待 30–90 分钟、回程 50–60 分钟。</strong>' +
+          '<strong>骑车可压到 1–1.5 小时（铺装段骑、最后几百英尺推行）。</strong>' +
+          '<strong>不打算等喷发、只去看锥体和河谷，往返 2 小时足够；' +
+          '只走前 1 英里河谷再折返约 45 分钟</strong>',
+        book: '不需预约。<strong>无喷发预报可查，也无法预订观看时段</strong>',
+        ticket: '<strong>步道与间歇泉不单独收费</strong>，' +
+          '黄石按<strong>整园门票</strong>收费，园内点位不另设售票口' +
+          '（NPS 步道页对本步道单列 <em>「Activity Fee: No」</em>）。' +
+          '<strong>2026-09-15 核对 NPS Fees &amp; Passes 页（最后更新 2026-06-16）</strong>：' +
+          '私家车 7 日票 <strong>$35</strong>、摩托车 $30、徒步／骑行每人 <strong>$20</strong>（未满 16 岁免费）；' +
+          '<strong>Yellowstone 单园年票 $70，America the Beautiful 年票 $80</strong>。' +
+          '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100 nonresident fee，持任一年票者豁免</strong>',
+        hours: '<strong>步道无门禁、全天可入、无周几闭馆</strong>' +
+          '（NPS 步道页标注 Season: Winter, Summer, Fall；Time of Day: Any Time；' +
+          '<strong>冬季是越野滑雪路线，不通车</strong>）。' +
+          '<strong>2026-09-15 复核：2026 年秋季 Lone Star Geyser Trail 无公布的封闭。</strong>' +
+          '<strong>2026 年 5 月 4 日 Old Faithful 西北侧带崽母灰熊袭人事件所引发的临时封闭，' +
+          'NPS 已于 2026 年 7 月 8 日公告全部解除</strong>' +
+          '（该事件在 Old Faithful 西北侧、本步道在其东南侧）。' +
+          '<strong>但秋季熊情临时封闭随时可能新增，出发当天查 NPS 的 Backcountry Situation Report</strong>' +
+          '或拨后山办公室 <strong>(307) 344-2160</strong>。' +
+          '<strong>道路：步道口在 West Thumb ↔ Old Faithful（Craig Pass）路段上，' +
+          '2026 年通车 5/8 – 10/31，10/31 当天结束通车，11/1 起主环路全线对汽车关闭</strong>' +
+          '（2026-09-15 复核 NPS Park Roads 页，最后更新 2026-09-14）。' +
+          '<strong>施工：Old Faithful 以南 1.5 英里的 Firehole River Bridge 就在从 Old Faithful 来的路上，' +
+          '官方现行口径「十月内最多 15 分钟延误」</strong>',
+        parking: '<strong>Lone Star Trailhead 停车场，NPS 口径在 Old Faithful 立交以南 3.5 英里／5.6 公里、' +
+          'Kepler Cascades 停车场再往前一点</strong>' +
+          '（OSM 停车面中心 <strong>44.44465, −110.80438</strong>）。' +
+          '<strong>规模不大但周转快，有厕所；旺季中午可能要等位，十月无压力。</strong>' +
+          '<strong>也可以停在相邻的 Kepler Cascades 观景停车场（OSM 观景点节点 44.44578, −110.80600），' +
+          '两处之间有短步道相连</strong>，一次停车两处都能走到',
+        walk: '<strong>单程约 2.4 英里／3.9 公里、步行 50–60 分钟；往返 4.8 英里／7.7 公里、2–3 小时</strong>' +
+          '（<strong>NPS 另一页写往返 5.4 英里／8.7 公里，两个官方数字未能统一</strong>）。' +
+          '<strong>路面：前段沥青旧车道、后段土径，几乎无爬升，NPS 评为 easy 并标注可用轮椅与助行设备。</strong>' +
+          '<strong>可骑车，但铺装段尽头必须下车推行最后几百英尺</strong>'
+      },
+      notes: [
+        '<strong>去之前先在 Old Faithful Visitor Education Center 问最近一次喷发记录</strong>' +
+          '（2026 年最后营业日 10/31）。' +
+          '<strong>这是把「三小时一次」变成可用信息的唯一办法</strong>，' +
+          '否则到了泉边只能靠观测本上别人的记录推算',
+        '<strong>无手机信号，导航与地图在半路就会失效。</strong>' +
+          '出发前离线下载地图与 NPS App；' +
+          '<strong>把路线与预计返回时间告诉留在车上或住处的人——这条步道人少，出事不会马上有人发现</strong>',
+        '<strong>熊乡，且是本区人流最少的一条步道。</strong>' +
+          '<strong>喷雾握在手里、三人以上同行、出声；9–10 月是熊的超量进食期</strong>；' +
+          '<strong>Old Faithful 的喷雾租借亭 2026 年 10/3 关门，之后只能自带或在园外购买' +
+          '（约 $50–60，不能带上飞机也不能托运，只能落地后买）</strong>',
+        '<strong>天黑前务必出来。</strong>' +
+          'NPS 步道指引原文 <em>「Do not hike after dark」</em>；' +
+          '<strong>十月下旬直射光在 17:40–17:55 就结束了，往返要 2–3 小时，' +
+          '所以下午 2 点半以后就不要再进去等喷发</strong>',
+        '<strong>泉眼周围没有木栈道，只有土径与围栏，这与本区其他盆地不同。</strong>' +
+          '<strong>热区地壳可能只是薄壳、下面是超过沸点的水；园方公开口径是已有 20 多人因跌入或走进热泉致死。</strong>' +
+          '留在指定步道上，不要靠近锥口',
+        '<strong>步道禁止宠物；热区内禁止饮食（喝水不限）。</strong>' +
+          '前段是沥青旧车道，<strong>清晨会结霜打滑，十月下旬雪后轻量冰爪用得上</strong>',
+        '<strong>顺路的 Kepler Cascades 几乎不花时间，值得一起看</strong>——' +
+          '路边就有观景平台，停车即到'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/31/Lone_Star_Geyser_on_a_sunny_afternoon_%2835765928955%29.jpg',
+          cap: 'Lone Star Geyser 的喷发与硅华锥 · NPS / Jacob W. Frank / Public domain' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Lone_Star_Geyser_erupting_and_runoff_%2835596236662%29.jpg',
+          cap: '喷发中的 Lone Star 与脚下的径流 · NPS / Jacob W. Frank / Public domain' }
+      ]
+    },
+    {
+      id: 'ys-gb-mud-volcano',
+      n: 11,
+      name: '泥火山与硫黄釜',
+      en: 'Mud Volcano & Sulphur Caldron',
+      must: 3,
+      score: 3.5,
+      tldr: '全园最酸的一片热区，0.6 英里栈道环线加一处路边停靠；这里看的是翻滚的泥浆与被蒸汽煮死的林子，不是漂亮的池子。',
+      tags: [
+        { t: '年票覆盖', c: 'free' },
+        { t: '0.6 英里栈道环线', c: 'free' },
+        { t: '有厕所', c: 'free' },
+        { t: '硫化氢味最重', c: 'risk' },
+        { t: '下半环无障碍', c: 'free' }
+      ],
+      highlights: [
+        '<strong>这是全园酸性最强的一片热区，看的东西与间歇泉盆地完全是两回事。</strong>' +
+          'NPS 原话：<em>「The hydrothermal features here are some of the most acidic in the park.」</em>' +
+          '<strong>这里没有清澈的蓝池，主角是翻滚喷溅的泥浆锅（mudpot）、' +
+          '以及被地下蒸汽从根部煮死、成片站着枯白的林子</strong>' +
+          '（NPS 的措辞是 <em>「hillsides strewn with trees cooked by steam」</em>）。' +
+          '<strong>如果已经走过 Norris、Fountain Paint Pot、Midway，这里提供的是本区唯一一种没见过的地貌</strong>',
+        '<strong>泥浆是怎么来的，知道了看的时候完全不一样。</strong>' +
+          '<strong>NPS 的解释链条是：地下升上来的硫化氢（H₂S）被微生物当作能量来源利用，' +
+          '转化成硫酸；硫酸把岩石分解成湿黏土，气体再从黏土里冒出来，' +
+          '于是形成了会咕嘟冒泡的泥浆锅，那股臭鸡蛋味就是 H₂S。</strong>' +
+          '<strong>NPS 还提醒 mudpot 的稠度与活跃度随季节和降水变化</strong>——' +
+          '春季水多时稀、秋季水少时最稠最会喷溅，' +
+          '<strong>换句话说秋天来看泥浆锅是一年里最好的时候</strong>',
+        '<strong>Sulphur Caldron 是这一带真正让人记住的一眼，而它就在路边、不用走路。</strong>' +
+          '<strong>NPS 口径：它是黄石最酸的热泉之一，翻腾的水 pH 约 1–2，' +
+          '官方直接拿汽车电瓶酸与胃酸来类比</strong>；' +
+          '名字来自水里大量的游离硫。' +
+          '<strong>视觉上是一锅浑黄翻滚的酸液，配着岸边一圈明黄色的硫黄结壳</strong>——' +
+          '这是全园颜色最「不像自然界」的一处',
+        '<strong>地质上这里是黄石火山口地面升降最剧烈的位置，也就是所谓的 resurgent dome。</strong>' +
+          'NPS 写得很直接：<strong>Mud Volcano 位于 Yellowstone Caldera 底部抬升与沉降幅度最大的地方，' +
+          '多条断层在此交汇、地震频繁</strong>。' +
+          '科学家长期盯着这两处隆起来判断地下岩浆房的变化——' +
+          '<strong>所以这片看起来最丑的热区，其实是全园最被仪器盯着的地方之一</strong>',
+        '<strong>Dragon\u2019s Mouth Spring 在同一条环线上，是这一带最容易被记住的声音。</strong>' +
+          '它是一个开在山坡上的洞口，<strong>蒸汽与热水在洞里来回撞击，发出持续的低沉轰响与拍水声，' +
+          '水从洞口一波一波涌出</strong>。' +
+          '<strong>这是本区唯一一个「主要靠听」的热液特征</strong>，' +
+          '站在栈道上闭眼听十秒比拍十张照片印象更深'
+      ],
+      tour: [
+        '<strong>先说位置，因为它不在 Firehole River 那一串盆地上：' +
+          'Mud Volcano 在 Fishing Bridge 以北、Canyon Village 以南的主环路东侧</strong>' +
+          '（<strong>NPS 把它归在 Lake Area</strong>；' +
+          '<strong>按主环路里程推算约在 Fishing Bridge 北 6 英里、Canyon Village 南 10 英里，' +
+          'NPS 页面未给出官方里程</strong>）。' +
+          '<strong>Sulphur Caldron 是同一片热区的一部分，但在 Mud Volcano 以北约 1 英里的主路边另有停靠带' +
+          '——两处不连通，要分别停车。</strong>' +
+          '<strong>实际用法：从 Fishing Bridge 往 Canyon 或反向开的时候顺路停两次，不必专程</strong>',
+        '<strong>栈道走法有官方推荐方向，走反了会白爬一段坡。</strong>' +
+          '<strong>NPS 口径：约 0.6 英里／1 公里的环线，' +
+          '<em>「The clockwise route is less steep than the counterclockwise route. ' +
+          'Start at the south trailhead for a more gradual incline up the hillside.」</em></strong>' +
+          '<strong>也就是：从停车场南端的步道口进、按顺时针走，上坡最缓。</strong>' +
+          '<strong>行动不便或只想走平路的人，NPS 给了明确的替代方案：' +
+          '从停车场东北端进、走下半环（lower loop，无障碍），' +
+          '走到 Mud Volcano 之后的栈道岔口向左折回停车场</strong>',
+        '<strong>别错过三处，可以跳过上半环的林间坡段。</strong>' +
+          '<strong>必看①Dragon\u2019s Mouth Spring</strong>（在下半环上，离停车场最近的几处之一）——' +
+          '听那个洞里的轰响与涌水；' +
+          '<strong>必看②Mud Volcano 主喷口与周围的泥浆锅</strong>，秋季泥最稠、喷溅最好看；' +
+          '<strong>必看③Black Dragon\u2019s Caldron</strong>（在环线南段，1948 年才炸出来的新喷口，' +
+          '至今还在缓慢移动位置）。' +
+          '<strong>上半环那段爬上山坡的栈道主要是看被蒸汽煮死的枯林，' +
+          '时间紧的话走下半环折返就够，省下 20 分钟</strong>',
+        '<strong>Sulphur Caldron 用五分钟解决：停车、走到护栏边、看一眼那锅 pH 1–2 的黄色酸液、走。</strong>' +
+          '<strong>它是路边停靠带，没有栈道环线、没有厕所</strong>；' +
+          '<strong>停靠带车位少、进出要在主路上并线，路过时如果满了不必硬等</strong>——' +
+          '往南一英里的 Mud Volcano 停车场大得多',
+        '<strong>厕所与人流：Mud Volcano 停车场有厕所（NPS 设施列表写明 Restroom，且有无障碍厕所与指定车位），' +
+          '这在这一段路上很有用，因为 Fishing Bridge 的访客中心 2026 年 10/3 就关了。</strong>' +
+          '<strong>没有餐饮与饮水，最近的补给是 Fishing Bridge 或 Canyon Village。</strong>' +
+          '<strong>停车场中等规模，夏季中午会满，上午与下午晚些时候宽松，十月无压力。</strong>' +
+          '这一带<strong>基本没有手机信号</strong>',
+        '<strong>安全上这里有一条比别处更突出：硫化氢的浓度与气味在全园属于最高的一档。</strong>' +
+          '<strong>H₂S 与 CO₂ 都比空气重，在异常寒冷且无风的清晨会在低洼处积到危险浓度</strong>' +
+          '（2004 年 Norris 就有五头野牛因此集体死亡）。' +
+          '<strong>NPS 的处置口径只有一句：<em>「If you begin to feel sick while exploring a geyser basin, ' +
+          'leave the area immediately.」</em>——眼刺痛、头痛、恶心、头晕就立刻往高处与上风向走。</strong>' +
+          '<strong>高浓度下嗅觉会疲劳甚至麻痹，不要用「还闻不闻得到」来判断安全。</strong>' +
+          '此外<strong>全程必须留在木栈道上（酸性泥浆的温度与腐蚀性都足以造成重伤）、' +
+          '热区内禁止饮食、禁止带宠物上栈道</strong>；' +
+          '<strong>这一带紧邻 Hayden Valley，野牛极常见，法定距离 25 码，挡路就原路退回</strong>'
+      ],
+      photo: '风光 <strong>2.5/5</strong>，细节／抽象 <strong>4/5</strong>，人像 <strong>1.5/5</strong>。' +
+        '<strong>加分全在局部：喷溅的泥浆、明黄色的硫黄结壳、成片的枯白树干，都是很好的抽象素材。</strong>' +
+        '扣分在于<strong>没有广角成立的全景构图，整片热区在照片里容易显得又灰又乱</strong>。',
+      shots: [
+        {
+          name: 'Mud Volcano 主喷口与泥浆锅',
+          park: [44.62472, -110.43315],
+          view: [44.62435, -110.43463],
+          desc: '<strong>下半环栈道贴着主喷口的那一段。</strong>' +
+            '<strong>100–400mm 对着泥浆表面拍喷溅的瞬间，1/1000 秒冻结泥点</strong>——' +
+            '这是本条目唯一真正好拍的东西。' +
+            '<strong>阴天比晴天好：漫射光下泥浆的灰褐层次出得来，正午顶光会拍成一片死灰。</strong>' +
+            '<strong>镜前会被泥点与酸性水汽打到，装一片保护镜当挡片、不拍时镜头朝下加盖</strong>；' +
+            '离开后把器材拿出来通风，酸性冷凝水不要让它自然干在镀膜上。'
+        },
+        {
+          name: 'Sulphur Caldron 路边护栏 —— 不用走路',
+          park: [44.62693, -110.43269],
+          desc: '<strong>Mud Volcano 以北约 1 英里的主路边停靠带，站在护栏后朝下看。</strong>' +
+            '<strong>主体是那锅 pH 1–2 的浑黄酸液与岸边的明黄硫黄结壳</strong>，' +
+            '<strong>70–200mm 压缩水面翻滚的纹理与黄色结壳的边界最好用</strong>，广角在这里没有构图。' +
+            '<strong>阴天或侧光时黄色最饱和，正午顶光会让它发白。</strong>' +
+            '（<strong>Sulphur Caldron 在 OpenStreetMap 上没有实体节点，故省略 view 字段、地图无针脚</strong>；' +
+            'park 用的是停靠带附近 OSM 停车面中心，位置为近似值。）'
+        }
+      ],
+      access: {
+        visit: '<strong>45–60 分钟（含 Sulphur Caldron）。</strong>' +
+          '<strong>分配建议：Mud Volcano 栈道环线 30–40 分钟（NPS 口径 0.6 英里／1 公里）、' +
+          'Sulphur Caldron 路边停靠 5–10 分钟、两处之间开车与停车 10 分钟。</strong>' +
+          '<strong>只看重点 20 分钟：从停车场东北端进走下半环，看 Dragon\u2019s Mouth Spring 与 Mud Volcano 主喷口后折返，' +
+          '不上山坡那一段。</strong>' +
+          '<strong>NPS 未给本步道官方时长，上述按 0.6 英里环线与坡度推算</strong>',
+        book: '不需预约',
+        ticket: '<strong>两处都不单独收费，也没有售票口</strong>——' +
+          '黄石按<strong>整园门票</strong>收，一次付费覆盖园内全部热区与观景点。' +
+          '<strong>2026-09-15 核对 NPS Fees &amp; Passes 页（最后更新 2026-06-16）</strong>：' +
+          '私家车 7 日票 <strong>$35</strong>、摩托车 $30、徒步／骑行每人 <strong>$20</strong>（未满 16 岁免费）；' +
+          '<strong>Yellowstone 单园年票 $70，America the Beautiful 年票 $80</strong>。' +
+          '<strong>2026 年新规：非美国居民 16 岁及以上每人另付 $100 nonresident fee，持任一年票者豁免</strong>',
+        hours: '<strong>栈道与路边停靠带都无门禁、全天可入、无周几闭馆。</strong>' +
+          '<strong>2026-09-15 复核：2026 年秋季 Mud Volcano 与 Sulphur Caldron 无公布的封闭</strong>' +
+          '（NPS 的 Mud Volcano Trailhead 页与 Sulphur Caldron 页均只有热区安全注记，' +
+          '无封闭公告；NPS Current Conditions 页也未把这一带列入任何封闭）。' +
+          '<strong>需要说明的是这片热区历史上多次因地面过热而临时改道或封闭栈道段，' +
+          '现场如有围挡不要绕过去。</strong>' +
+          '<strong>道路：所在的 Canyon Village ↔ Bridge Bay 路段 2026 年通车 5/1 – 10/31，' +
+          '10/31 当天结束通车，11/1 起主环路全线对汽车关闭</strong>' +
+          '（2026-09-15 复核 NPS Park Roads 页，最后更新 2026-09-14；日期随降雪可能提前）。' +
+          '<strong>施工：全园随机路段的碎石封层作业最多 30 分钟延误；' +
+          '往南的 Bridge Bay Bridge 自 8/25 起至 11 月最多 15 分钟延误</strong>',
+        parking: '<strong>Mud Volcano 有自己的正式停车场（OSM 停车面中心 <strong>44.62472, −110.43315</strong>），' +
+          '有厕所、有指定无障碍车位</strong>。' +
+          '<strong>夏季中午会满，十月无压力。</strong>' +
+          '<strong>Sulphur Caldron 只是主路边的停靠带、车位很少，进出要在主路上并线</strong>' +
+          '（本条 park 取停靠带附近的 OSM 停车面中心 <strong>44.62693, −110.43269</strong>，为近似位置）',
+        walk: '<strong>停车场到最近的栈道与 Dragon\u2019s Mouth Spring 不足 100 米。</strong>' +
+          '<strong>环线 0.6 英里／1 公里，按 NPS 建议从南端步道口顺时针走上坡最缓；' +
+          '下半环（lower loop）为无障碍，从停车场东北端进入、在 Mud Volcano 之后的岔口左转折回。</strong>' +
+          '<strong>Sulphur Caldron 从停靠带走到护栏边不足 30 米。</strong>' +
+          '路面为木栈道与铺装路混合'
+      },
+      notes: [
+        '<strong>这是全园气味最重的一站，事先有心理准备就不会扫兴</strong>——' +
+          '那股臭鸡蛋味是硫化氢，来自泥浆锅的形成过程本身。' +
+          '<strong>但闻得到不等于安全、闻不到更不等于安全：高浓度下嗅觉会麻痹</strong>，' +
+          '判断标准是身体反应（眼刺痛、头痛、恶心、头晕），出现就立刻往高处与上风向走',
+        '<strong>秋季是看泥浆锅最好的季节。</strong>' +
+          'NPS 明确写 mudpot 的稠度与活跃度随季节与降水变化——' +
+          '<strong>水少的秋天泥最稠、喷溅最明显；春季融雪期会被稀释成浑水坑</strong>',
+        '<strong>硫化氢会让银饰发黑，也会腐蚀相机的电子触点。</strong>' +
+          '离开后把器材从包里拿出来通风，别闷一整晚；' +
+          '<strong>酸性冷凝水落在镜片镀膜与三脚架金属件上会留痕，不要让它自然干掉</strong>',
+        '<strong>这片热区的地面本身在变，栈道历史上多次改道。</strong>' +
+          'Black Dragon\u2019s Caldron 是 1948 年才炸出来的新喷口、至今仍在缓慢移动；' +
+          '<strong>现场如果有围挡，那是真的危险，不要绕过去</strong>',
+        '<strong>紧邻 Hayden Valley，是全园遇见野牛概率最高的路段之一。</strong>' +
+          '<strong>野牛会直接走上栈道与停车场，法定距离 25 码（23 米），挡路就原路退回、不要绕行</strong>；' +
+          '<strong>发情期（rut）在 7–8 月，秋季已结束，但野牛全年都在。</strong>' +
+          '9 月麋鹿处于发情期、10 月熊处于超量进食期，喷雾照带' +
+          '（<strong>园内喷雾租借点在 Old Faithful 与 Canyon，2026 年分别 10/3 与 10/10 关门</strong>）',
+        '<strong>无手机信号、无餐饮、无饮水；厕所只在 Mud Volcano 停车场一处。</strong>' +
+          '<strong>最近的补给是 Fishing Bridge（General Store 开到 10/18）与 Canyon Village' +
+          '（Canyon Visitor Education Center 与加油站开到 10/31）</strong>，2026-09-15 复核',
+        '<strong>栈道有上坡段、清晨会结霜。</strong>' +
+          '<strong>按 NPS 建议从南端步道口顺时针走能把坡度摊平</strong>；' +
+          '需要无障碍路线的只走下半环'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b1/Mud_Volcano_%2827615639741%29.jpg',
+          cap: 'Mud Volcano 的泥浆喷溅与喷气口 · Matt Poyner / NPS / Public domain' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Sulphur_Caldron_%2827615647381%29.jpg',
+          cap: 'Sulphur Caldron 翻滚的黄色酸液（pH 约 1–2） · Matt Poyner / NPS / Public domain' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Mud_Volcano%2C_Yellowstone_NP.jpg',
+          cap: 'Mud Volcano 主喷口与周围被蒸汽煮死的坡地 · Supercarwaar / CC BY-SA 4.0' }
       ]
     }
   ]

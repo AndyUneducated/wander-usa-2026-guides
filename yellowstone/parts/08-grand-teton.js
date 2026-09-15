@@ -6,12 +6,12 @@ module.exports = {
   lead: '这个子地区只有一条主线逻辑：<strong>Teton Range 南北走向、整体立在河谷的西侧</strong>，所以山体在日出时是正面受光、在日落时是逆光。' +
     '本区十个点里有七个是<strong>纯日出题材</strong>，只有 Signal Mountain 一个真正意义上的日落点，Jackson 镇是唯一的夜间题材。' +
     '接下来是两个必须先接受的现实。第一，<strong>秋色的峰值在 9 月 18 日至 10 月 2 日前后，10 月中旬之后 Oxbow Bend 和蛇河沿线的棉白杨基本已经落光</strong>——' +
-    '如果你的日期落在 10 月下旬，来这里就不再是「拍金色倒影」，而是「拍初雪与霜」，价值主张完全不同，请提前调整预期。' +
+    '<strong>十月下旬来的话</strong>，这里就不再是「金色倒影」，而是「初雪与霜」，价值主张完全不同，请提前调整预期。' +
     '第二，<strong>2026 年 Moose-Wilson Road 自 9 月 8 日起因二期改建全线封闭至 11 月 15 日</strong>，' +
     '传统的驼鹿观察路线整条报废，替代方案只能是 Gros Ventre 一带。' +
     '好消息是主干道没问题：<strong>Teton Park Road 开到 10 月 31 日、US-26/89/191 全年开放</strong>，' +
     '而 10 月的游客量只有 7 月的零头，Mormon Row 日出不再是三十台三脚架抢位。' +
-    '真正会卡住你的是<strong>食宿与加油的关门日</strong>——Jackson Lake Lodge 10 月 4 日、Signal Mountain 10 月 11 日、Colter Bay 加油站 10 月 9 日，' +
+    '真正会卡住行程的是<strong>食宿与加油的关门日</strong>——Jackson Lake Lodge 10 月 4 日、Signal Mountain 10 月 11 日、Colter Bay 加油站 10 月 9 日，' +
     '10 月中旬之后园内基本没有补给，一切要从 Jackson 出发。',
   callouts: [
     {
@@ -32,18 +32,18 @@ module.exports = {
         '<li><strong>Moose-Wilson Road（Laurance S. Rockefeller Preserve ↔ Moose）：2026 年 9 月 8 日起全线封闭至 11 月 15 日，车辆与自行车都不行。</strong>' +
         '这是 Moose-Wilson Road Phase II 改建（2026 年 5 月 – 2027 年），官方 2026 年时间表原文：' +
         '「May 1 – June 19: Closure / June 20 – September 7: Delay of 45 minutes or longer / <strong>September 8 – November 15: Closure</strong>」。' +
-        '<strong>你的整个窗口都在封闭期内。</strong>紧接着 11 月 1 日又叠加常规冬季封闭（至次年 5 月中）。</li>' +
+        '<strong>也就是说 2026 年 9 月 8 日之后的整个秋季都在封闭期内。</strong>紧接着 11 月 1 日又叠加常规冬季封闭（至次年 5 月中）。</li>' +
         '<li><strong>Death Canyon Road 与 Death Canyon Trailhead：2026 年 5 月 – 2027 年 6 月全时段封闭</strong>，行人也不行。Phelps Lake 只能从 Granite Canyon 或 LSR Preserve 走，停车位极少。</li>' +
         '<li><strong>Teton Park Road / Moose 入口环岛工程：5 月 1 日 – 11 月 15 日，延误 20 分钟</strong>（不含入口站排队）。' +
         '<strong>算日出机位时这 20 分钟必须扣掉</strong>——从 Jackson 走内环去 Jenny Lake 拍日出会撞上它。' +
         '<strong>另外 Menor\u2019s Ferry Road 工作日全天封闭（官方原文「Closed to all use on weekdays」），周末车位也因施工堆料而减少。</strong>' +
         '这条支路是 Menor\u2019s Ferry Historic District 与 Chapel of the Transfiguration 的唯一车行通道——' +
-        '<strong>也就是说 9 月 22–29 日这一周里，只有 9 月 26 日（周六）与 9 月 27 日（周日）能开车过去；' +
-        '想拍那座小教堂从祭坛窗框住 Teton 山脊的经典画面，必须排在这两天。</strong></li>' +
+        '<strong>也就是说在 2026 年施工季内，这条支路只有周六与周日能开车通行；' +
+        '想看那座小教堂从祭坛窗框住 Teton 山脊的经典画面，必须把它安排在周末。</strong></li>' +
         '<li><strong>Schwabacher Landing Road：NPS 口径「typically closed mid-October to mid-May」</strong>，是条约 1 英里的碎石支路，约 20 个车位。' +
         '9 月下旬可靠，<strong>10 月下旬有实质概率已经关了</strong>。</li>' +
         '<li><strong>Antelope Flats Road / Mormon Row Road、Deadmans Bar、Pilgrim Creek、Two Ocean：官方归类为「closed seasonally based on conditions」，无固定日期</strong>，惯例也是 11 月 1 日前后。</li>' +
-        '<li><strong>Grassy Lake Road（Rockefeller Parkway，Flagg Ranch 往西）：按条件关闭、冬季不铲雪</strong>，没有公布日期。它是未铺装路，10 月一场雨雪就会烂掉，除非你有高底盘车否则不必列入计划。</li>' +
+        '<li><strong>Grassy Lake Road（Rockefeller Parkway，Flagg Ranch 往西）：按条件关闭、冬季不铲雪</strong>，没有公布日期。它是未铺装路，10 月一场雨雪就会烂掉，除非有高底盘车，否则不必列入计划。</li>' +
         '<li><strong>Jenny Lake Scenic Drive（单行观景环路）：5 月 1 日 – 10 月 31 日开放。</strong></li>' +
         '</ul>' +
         '<p>实时路况：<a href="https://go.nps.gov/tetonroads">go.nps.gov/tetonroads</a> 的 Live Road Status Map，或电话 <strong>307-739-3682</strong>（园内路况专线）。' +
@@ -60,10 +60,10 @@ module.exports = {
         '<strong>2026 年实测（9 月 5 日）：Oxbow Bend 处于「初变色 10–25%」，模型预计还有约 13 天到峰值，即 9 月 18 日前后</strong>，与历史均值基本吻合、略偏晚。</p>' +
         '<p><strong>结论，说白话：</strong></p>' +
         '<ul>' +
-        '<li><strong>9 月 20 日 – 9 月 30 日：这是你要的那一周。</strong>金色棉白杨 + 无风水面 + 全部设施还开着 + 人比夏天少。这段时间来，Oxbow Bend 值 5 分。</li>' +
+        '<li><strong>9 月 20 日 – 9 月 30 日：这是全年最理想的十天。</strong>金色棉白杨 + 无风水面 + 全部设施还开着 + 人比夏天少。这段时间来，Oxbow Bend 值 5 分。</li>' +
         '<li><strong>10 月 1 日 – 10 月 10 日：过峰但还有残色</strong>，山上开始有初雪，「金 + 白」的组合其实很好看。设施陆续关门。</li>' +
         '<li><strong>10 月 15 日之后：棉白杨基本落光，Oxbow Bend 前景是灰褐色的枝干和枯柳。</strong>这时候 Oxbow Bend 仍然能拍——Mount Moran 加倒影这个构图本身不依赖树叶——但它已经不是「全园最好的一张照片」了，' +
-        '真正的题材变成霜、雾凇、初雪和野生动物。<strong>如果你能选日期，别选 10 月下旬来拍秋色；如果日期已定在 10 月下旬，请把预期从「秋色」改成「初冬」，把重心从 Oxbow Bend 移到 Mormon Row 的霜和 Gros Ventre 的驼鹿。</strong></li>' +
+        '真正的题材变成霜、雾凇、初雪和野生动物。<strong>结论：日期可选的话，不要挑 10 月下旬来看秋色；日期已经定在 10 月下旬的，请把预期从「秋色」改成「初冬」，把重心从 Oxbow Bend 移到 Mormon Row 的霜与 Gros Ventre 的驼鹿。</strong></li>' +
         '</ul>' +
         '<p><strong>未能核实：</strong>没有任何机构发布 2026 年 Grand Teton 秋色的官方预报。上述判断来自历史物候模型 + 2026 年 9 月初的实测进度，' +
         '一次早霜或一场大风就能把峰值提前或直接结束。出发前一周请看 NPS 的 <a href="https://www.nps.gov/grte/planyourvisit/conditions.htm">Alerts &amp; Current Conditions</a> 与园区网络摄像头。</p>'
@@ -72,7 +72,7 @@ module.exports = {
       type: 'warn',
       title: '食宿、加油、访客中心 2026 年关门日——10/4 与 10/11 是两个断崖',
       html: '<p>全部来自 <a href="https://www.nps.gov/grte/planyourvisit/hours.htm">nps.gov/grte 官方 Operating Hours &amp; Seasons 页</a>的 2026 年表格。' +
-        '这直接决定你能不能在 Oxbow Bend 附近过夜去拍日出。</p>' +
+        '这直接决定十月还能不能在 Oxbow Bend 附近过夜、第二天一早就位看日出。</p>' +
         '<ul>' +
         '<li><strong>10 月 3 日：</strong>Jackson Lake Lodge 的 Blue Heron Lounge、Corrals。</li>' +
         '<li><strong>10 月 4 日（第一个断崖）：<u>Jackson Lake Lodge 全部关闭</u></strong>（含 Mural Room、Pioneer Grill、商店、咖啡车）、' +
@@ -102,7 +102,7 @@ module.exports = {
         '<li><strong>10 月 22 日：</strong>民用晨光 07:16 · <strong>日出 07:46（方位 105°，东偏南 15°）</strong> · 日落 18:28（方位 255°） · 民用暮光结束 18:57</li>' +
         '<li><strong>10 月 31 日（夏令时最后一天）：</strong>日出 07:57 · 日落 18:14</li>' +
         '<li><strong>11 月 1 日 02:00 夏令时结束</strong>，钟表拨回一小时：日出 06:58 · 日落 17:13。' +
-        '<strong>这一天正好也是 Teton Park Road 与 Signal Mountain Summit Road 的封闭日</strong>——如果你的行程压到月底，这两件事会在同一个早上撞在一起。' +
+        '<strong>这一天正好也是 Teton Park Road 与 Signal Mountain Summit Road 的封闭日</strong>——行程压到十月底的话，这两件事会在同一个早上撞在一起。' +
         '「9 月下旬至 10 月下旬」这个窗口本身不跨夏令时切换。</li>' +
         '</ul>' +
         '<p><strong>各机位到主峰的实算方位与仰角</strong>（用于判断哪个点什么时候会进山影，推算，海拔取地形近似值）：</p>' +
@@ -133,14 +133,14 @@ module.exports = {
         '<strong>拍完从户外进车内或进屋前，先把机身镜头装进密封袋再进温暖环境</strong>，否则镜片和传感器腔内会结露，擦不掉且要等一小时。三脚架碳纤维管在 -5°C 下扳扣会变涩，戴薄手套操作。</li>' +
         '<li><strong>霜是资产不是麻烦。</strong>晴朗无风的夜里，Mormon Row 与 Antelope Flats 的 sagebrush 会挂一层白霜，日出侧光下整片鼠尾草滩会发亮——' +
         '<strong>这是这个季节 Mormon Row 相对夏天唯一的、也是决定性的加分项</strong>。要拿到它，需要前一夜晴朗、无风、最低温低于 -2°C，10 月满足条件的早晨很多。</li>' +
-        '<li><strong>门票：你的 America the Beautiful 年票直接覆盖，不需要另外买任何东西。</strong>常规票价为私家车 <strong>$35 / 7 天</strong>，园区年票 $70。' +
+        '<li><strong>门票：持 America the Beautiful 年票即全部覆盖，不需要再买任何东西。</strong>常规票价为私家车 <strong>$35 / 7 天</strong>，园区年票 $70。' +
         '<strong>另一件重要的事：非美国居民 16 岁以上要额外付 $100/人的 nonresident fee，但官方明确写着「unless admitted with an Annual or America the Beautiful Pass」——持年票即免。</strong>' +
         '入园验票时需要出示<strong>带照片的证件</strong>，年票是记名的。<strong>Grand Teton 全园不收现金</strong>，只刷卡。' +
         '本区不需要任何 timed entry 或车辆预约。</li>' +
         '<li><strong>手机信号：全园只有两座基站。</strong>可用区域基本限于 Jackson 谷地南段、Moose、Jenny Lake 一带、Colter Bay / Jackson Lake Lodge 周边与 Flagg Ranch；' +
         '运营商里 <strong>Verizon 在 Jackson Lake Lodge 与 Colter Bay 附近最可靠，AT&amp;T 与 T-Mobile 大段无服务</strong>。' +
         '<strong>Oxbow Bend、Signal Mountain 顶、Gros Ventre 上游基本没有信号。</strong>离线地图与离线的日出时刻表必备，别指望现场查路况。</li>' +
-        '<li><strong>Elk reduction（园内减鹿计划）：本次窗口内不受影响。</strong>见下方 Gros Ventre 条目的详细说明。</li>' +
+        '<li><strong>Elk reduction（园内减鹿计划）：2026 年的计划期是 11 月 14 日 – 12 月 6 日，九月下旬至十月下旬来访不受影响。</strong>见下方 Gros Ventre 条目的详细说明。</li>' +
         '</ul>'
     }
   ],
@@ -342,7 +342,7 @@ module.exports = {
           '<strong>Grand Teton 与 Yellowstone 各收各的，$35 与 $70 都不通用。</strong><strong>全园不收现金。</strong>此处本身不另收费。' +
           '（2026-09-13 核实于 nps.gov/grte 官方 Fees &amp; Passes 页）',
         hours: '<strong>24 小时开放、无门禁</strong>，但<strong>支路按季节关闭，NPS 官方口径「typically closed mid-October to mid-May」，不公布确切日期</strong>。' +
-          '<strong>9 月 22–29 日的窗口内可靠</strong>，10 月下旬有实质概率已封。（2026-09-13 核实于 nps.gov/grte 场地页与 Park Roads 页）',
+          '<strong>九月下旬可靠</strong>，10 月下旬有实质概率已封。（2026-09-13 核实于 nps.gov/grte 场地页与 Park Roads 页）',
         parking: '<strong>约 20 个车位</strong>，免费，分南北两个小场。<strong>秋季日出前 40 分钟满位</strong>，满了只能原路退出去，路上无处掉头。',
         walk: '停车到最近的海狸塘 <strong>3–10 分钟 / 200–600 米</strong>，土路平坦，天黑需头灯。'
       },
@@ -455,7 +455,7 @@ module.exports = {
         '<strong>这里不是日落点</strong>：Grand Teton 仰角 8.3°，直射光比日历日落早约 45 分钟结束。',
         '台地上风比河谷大，日出前体感温度会明显低于气温，防风外层必备。',
         '停车场大且靠主干道，是本区少数适合房车与行动不便者的机位。',
-        '这一带属于 Elk Hunt Area 75 的范围边缘，但<strong>US-191 两侧各 1/4 英里全年禁止狩猎</strong>，且减鹿计划 2026 年的日期是 11 月 14 日至 12 月 6 日，不影响本次窗口。'
+        '这一带属于 Elk Hunt Area 75 的范围边缘，但<strong>US-191 两侧各 1/4 英里全年禁止狩猎</strong>，且减鹿计划 2026 年的日期是 11 月 14 日至 12 月 6 日，不影响九月下旬至十月下旬的来访。'
       ],
       images: [
         { url: 'img/adams-the-tetons-and-the-snake-river-e2fde3e9.jpg', cap: '1942 年原作《The Tetons and the Snake River》 · Ansel Adams / Public domain' },
@@ -582,7 +582,7 @@ module.exports = {
         '<strong>霜是本季最值得等的条件</strong>：需要前一夜晴朗、无风、最低温低于 -2°C。10 月满足的早晨很多，9 月下旬也时有。',
         '<strong>进入 Mormon Row 的 Antelope Flats Road 属于「按条件季节性关闭」的次级道路，无公布日期，惯例 11 月 1 日前后关</strong>。出发前查实时路况图。',
         '土路在雨后或融雪后会泥泞，两驱轿车慢行没问题，但别停在软路肩上。',
-        '这一带（Antelope Flats 部分）虽在 Elk Hunt Area 75 边界内，但<strong>官方明确 Antelope Flats 段全季对减鹿计划关闭</strong>，且 2026 年计划日期为 11/14–12/6，与本次窗口无关。'
+        '这一带（Antelope Flats 部分）虽在 Elk Hunt Area 75 边界内，但<strong>官方明确 Antelope Flats 段全季对减鹿计划关闭</strong>，且 2026 年计划日期为 11/14–12/6，与九月下旬至十月下旬的来访无关。'
       ],
       images: [
         { url: 'img/sunrise-mormon-row-barns-grand-teton-national-park-9a19f9f7.jpg', cap: '日出时的 Moulton 谷仓与 Teton 山脊 · DASH713 / CC BY-SA 4.0' },
@@ -768,6 +768,30 @@ module.exports = {
           '「11 月 1 日」来自 NPS 历年新闻稿口径与 Jackson Hole 官方旅游页；' +
           '<strong>由于它海拔高、路面窄，一场早雪就可能提前关，且顶上无手机信号</strong>，出发当天必须先在山下查实时路况图。'
       ],
+      tour: [
+        '<strong>车长限制是这里第一件要确认的事：NPS 官方页面明文「Trailers and RVs are prohibited」——房车与任何拖挂（含拖船、拖小车）一律禁止上山。</strong>' +
+          '<strong>官方并没有给普通车辆规定具体的英尺上限</strong>（2026-09-15 核实于 nps.gov 的 Signal Mountain Summit Road 页面），' +
+          '但这条路是 5 英里 / 8 公里的窄弯铺装路、爬升约 800 英尺，<strong>发夹弯处几乎没有会车余量，也没有护栏</strong>。' +
+          '开加长皮卡或拖了任何东西的人，请把车留在山脚 Signal Mountain Lodge 一带的大停车场。',
+        '<strong>「逛」的方式就是开上去、在顶上走两段短平路、再开下来，NPS 给的官方参考时长是 30–60 分钟。</strong>' +
+          '上山单程约 20 分钟，沿途右侧有几处小 turnout 可以停下看 Jackson Lake，<strong>停车必须完全驶出行车道</strong>。' +
+          '顶上是一个约 20–30 车位的小停车场，两处观景台都在停车场旁，步行 1–2 分钟、地面平坦。',
+        '<strong>顶上两处观景台看的是完全不同的方向，别只看一个就走——这是这里最常见的漏项。</strong>' +
+          '<strong>朝西南的 Jackson Point Overlook 是主看点</strong>：脚下是整个 Jackson Hole 河谷、蛇河拧成一连串曲流、正对 Teton Range 与 Jackson Lake，' +
+          '这个俯视关系在谷底任何一个点都看不到。' +
+          '<strong>另一处朝东北</strong>，看的是 Emma Matilda Lake、Two Ocean Lake 与东边的 Gros Ventre / Absaroka 山脉，' +
+          '是一片完全不同的、没有雪峰的湖泊与林地景观。<strong>两处相距几十米，时间再紧也都走一遍。</strong>',
+        '<strong>可以跳过的部分：山顶的 Signal Mountain Trail 步道（往返 6.8 英里 / 10.9 公里）对绝大多数人没有必要</strong>——' +
+          '开车能到的视野和走上去的一样，省下的两三个小时放到 Jenny Lake 或 Oxbow Bend 更值。' +
+          '中段那几个 turnout 时间紧的话也可以不停，顶上的视野是它们的超集。',
+        '<strong>体力与装备：全程几乎不需要体力，但顶上海拔约 7,700 英尺、风很大，实测比谷底低 3–5°C。</strong>' +
+          '即使只待 20 分钟也请带防风外层与帽子；傍晚上去的话必须带头灯，' +
+          '<strong>因为下山是 5 英里窄弯路，天黑之后没有任何照明</strong>。',
+        '<strong>餐饮与卫生间：山上什么都没有——没有厕所、没有饮水、没有垃圾桶、没有手机信号。</strong>' +
+          '<strong>上山前请在山脚 Signal Mountain Lodge 一带解决</strong>（2026 年营业到 10 月 11 日，含餐厅、商店与 24 小时自助加油站；' +
+          '10 月 12 日起山脚也完全没有补给与洗手间，最近的选择变成 Jackson Lake Lodge 方向或直接回 Jackson 镇）。' +
+          '上山途中是黑熊常见路段，在 turnout 下车前先四周看一眼，并守住法定距离（熊与狼 100 码、其他野生动物 25 码）。'
+      ],
       photo: '风光 <strong>4.5/5</strong>，人像 <strong>3/5</strong>，野生动物 <strong>2.5/5</strong>。' +
         '<strong>俯视视角 + 蛇河曲流 + 360 度视野 + 唯一可用的黄昏时段</strong>，在整个子地区里的战略价值极高。' +
         '扣分：山体在傍晚始终是逆光或剪影，想要「被照亮的 Teton」这里给不了；观景台空间不大，人多时机位紧张。',
@@ -805,11 +829,30 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '园区门票 <strong>$35 / 车 / 7 天</strong>；<strong>持 America the Beautiful 年票免费</strong>。',
-        hours: '<strong>白天开放，无门禁时间；季节性封闭日为 11 月 1 日</strong>（NPS 历年新闻稿口径，<strong>2026 年官方 Park Roads 页未单独列出该路日期</strong>，' +
-          '且<strong>可能因早雪提前关闭</strong>）。它依附于 Teton Park Road，后者同样 11 月 1 日封闭。',
-        parking: '<strong>顶上有小型免费停车场</strong>，约 20–30 位。<strong>官方禁止房车（RV）与拖挂车上山</strong>，路窄多弯。日落前 30 分钟秋季通常仍有位。',
+        visit: '<strong>1–1.5 小时</strong>（上山 20 分钟 + 顶上两处观景台各 15–20 分钟 + 下山 20 分钟）。' +
+          '<strong>NPS 官方给这条观景路的参考时长是 30–60 分钟</strong>，那是「开上去看一眼就下来」的口径。' +
+          '<strong>只看 Jackson Point Overlook 一处：45 分钟。</strong>' +
+          '<strong>要在顶上等黄昏：预留 2–2.5 小时</strong>——日落前 75 分钟到位（直射光比日历日落早约半小时结束），暮光结束后再摸黑下山 20 分钟。' +
+          '（2026-09-15 核实于 nps.gov 的 Signal Mountain Summit Road 页面，官方原文「Duration 30-60 Minutes」）',
+        book: '不需预约。全园无 timed entry、无车辆预约。',
+        ticket: '园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 16 岁以上 $20）；<strong>Grand Teton 单园年票 $70</strong>；' +
+          '<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。' +
+          '<strong>非美国居民 16 岁以上每人另付 $100 nonresident fee，官方原文「unless admitted with an Annual or America the Beautiful Pass」——持任一年票即免。</strong>' +
+          '<strong>与 Yellowstone 各收各的：官方 Fees &amp; Passes 页原文「Visitors traveling to or from Yellowstone National Park through Grand Teton National Park must pay a separate entrance fee」，' +
+          '只有 America the Beautiful 年票一票通吃。</strong>' +
+          '<strong>全园不收现金</strong>，只刷卡。这条观景路本身不另收费（官方标注「Activity Fee: No」）。' +
+          '（<strong>2026-09-15 核实于 nps.gov/grte 官方 Fees &amp; Passes 页</strong>）',
+        hours: '<strong>白天开放，无门禁时间。</strong>' +
+          '<strong>NPS 的 Signal Mountain Summit Road 页面只写「The Signal Mountain Summit Road is closed during the winter」，不给具体日期</strong>；' +
+          '<strong>封闭日 11 月 1 日来自两处间接官方口径</strong>——园区 Superintendent\u2019s Compendium 写明该路与 Teton Park Road、Moose-Wilson Road' +
+          '「may be allowed on ... after November 1st ... when the status of these roads is Winter Road – Wheeled Access」（即 11 月 1 日起停止机动车通行），' +
+          '以及 Jackson Hole 官方旅游局页面「close between November 1st and mid-May each year」。' +
+          '<strong>2026 年官方 Park Roads 页仍未单独列出这条路的日期，且它海拔高、路窄，一场早雪就可能提前关。</strong>' +
+          '它依附于 Teton Park Road，后者官方原文「closed November 1 to April 30 from Taggart Lake Trailhead to Signal Mountain Lodge」。' +
+          '（2026-09-15 核实于 nps.gov 该路页面、nps.gov/grte Park Roads 页与园区 Compendium）',
+        parking: '<strong>顶上有小型免费停车场</strong>，约 20–30 位。' +
+          '<strong>官方明文禁止房车（RV）与拖挂车上山（「Trailers and RVs are prohibited」），但未规定普通车辆的具体车长上限</strong>；路窄多弯、无护栏。' +
+          '日落前 30 分钟秋季通常仍有位。<strong>山顶无厕所、无饮水。</strong>',
         walk: '<strong>1–2 分钟</strong>，停车场直连两处观景台，平坦短径。'
       },
       notes: [
@@ -832,6 +875,7 @@ module.exports = {
       n: 7,
       name: 'Jackson Lake Lodge 与 Jackson Lake Dam',
       en: 'Jackson Lake Lodge · Jackson Lake Dam',
+      must: 4,
       score: 4,
       tldr: '二层大堂 60 英尺落地窗把 Mount Moran 框成一幅画；但 10 月 4 日整栋关门，之后只剩水坝。',
       tags: [
@@ -859,6 +903,31 @@ module.exports = {
         '<strong>一个对拍摄很实际的后果：因为它是灌溉水库，Jackson Lake 在夏末秋初会被大量放水。</strong>' +
           '<strong>9 月下旬到 10 月，湖面明显下降，岸边会露出大片泥滩、砾石与当年被淹死的树桩。</strong>' +
           '这既是减分（湖岸线难看、倒影带上泥滩）也是加分（枯树桩是极好的前景元素），取决于你怎么用。'
+      ],
+      tour: [
+        '<strong>最该知道的一条：不住店也可以直接走进大堂，完全免费，没人拦。</strong>' +
+          'NPS 官方页面原文「The lodge welcomes the public and provides accommodations and visitor services during the summer」，' +
+          '<strong>进楼、上二楼、在沙发上坐着看山、用洗手间，都不需要消费或登记</strong>（2026-09-15 核实于 nps.gov/grte 的 Jackson Lake Lodge 历史文化页与特许经营商 gtlc.com）。' +
+          '很多人以为这是酒店内部而路过不进，这是本区最容易白捡的一个景点。',
+        '<strong>动线只有一条，五分钟就能走完，但顺序别搞反：</strong>从大停车场进的是一层（Lower Lobby），' +
+          '<strong>要上楼梯到二层的 Upper Lobby，那面 60 英尺宽、36 英尺高的落地窗才是全部理由</strong>——' +
+          '窗外由近到远依次是 Willow Flats 湿地、Jackson Lake、Jackson Lake Dam、Teton 山脊，Mount Moran 落在窗框中偏左。' +
+          '<strong>看完窗景就从大堂后门出去走露台</strong>，同样的视野但没有玻璃、也没有人声。',
+        '<strong>值得多花 15 分钟的是露台往北那条铺装步道上 Lunch Tree Hill（往返 5–8 分钟、爬升很小、轮椅基本可行）。</strong>' +
+          '1926 年 Horace Albright 就是带 Rockefeller 走到这个小丘上看风景，才说服他买地捐给联邦——' +
+          '<strong>公园能扩到今天的范围，起点就是这顿午餐</strong>，丘顶有纪念铭牌。' +
+          '<strong>Willow Flats 是驼鹿与麋鹿的核心栖息地，清晨与傍晚常能从丘顶远远看到它们在湿地里</strong>，请守住 25 码（熊与狼 100 码），不要下到湿地。',
+        '<strong>可以跳过的：商店与 Mural Room 正餐。</strong>' +
+          'Mural Room 是正式餐厅、价格高且常需预订，只为吃饭排进行程并不划算；' +
+          '<strong>要吃东西选一层的 Pioneer Grill（柜台式快餐、长条吧台）或门口的咖啡车，十几分钟解决</strong>。' +
+          '洗手间在一层大堂和 Pioneer Grill 旁，是 Oxbow Bend 半小时车程内唯一的正规水冲厕所。',
+        '<strong>水坝那一半是独立的一站，而且全年可达，不受酒店关门影响。</strong>' +
+          'Teton Park Road 从坝顶横穿，<strong>两端都有免费停车、解说牌、洗手间与无障碍通道</strong>，下车 1–3 分钟到位。' +
+          '看的是两件事：坝面朝西的 Jackson Lake 与 Mount Moran 全景，以及坝下游蛇河奔出的一段（也是白头海雕与钓鱼者的固定点）。' +
+          '<strong>注意这是灌溉水库，9 月下旬到 10 月大量放水，湖面下降后岸边会露出大片泥滩、砾石与当年被淹死的树桩</strong>——景观会比夏天粗糙，这是正常状态不是枯水事故。',
+        '<strong>时间与季节的硬约束：2026 年 Jackson Lake Lodge 的营业季是 5 月 15 日至 10 月 4 日，10 月 5 日起整栋关闭，室内那面窗就彻底没有了。</strong>' +
+          '<strong>在营业季内，想安静看窗景请避开 11:00–14:00 与 17:30–19:30 两个用餐高峰</strong>，清晨 07:00–09:00 大堂几乎没人且山体正面受光。' +
+          '停车场很大、松树间分区，<strong>秋季基本不会满</strong>；这一带也是全园手机信号最好的地方之一（Verizon 可用）。'
       ],
       photo: '建筑 <strong>4.5/5</strong>，风光 <strong>4/5</strong>，人像 <strong>3.5/5</strong>。' +
         '<strong>「60 英尺落地窗 + 雪山」是本区唯一的高质量室内建筑题材</strong>，也是全区唯一的雨雪天备案。' +
@@ -906,16 +975,34 @@ module.exports = {
         }
       ],
       access: {
-        book: '大堂参观不需预约。住宿与 Mural Room 餐厅需预订（Grand Teton Lodge Company），但 2026 年 10 月 4 日后停业。',
-        ticket: '园区门票 <strong>$35 / 车 / 7 天</strong>，<strong>年票覆盖</strong>。<strong>进入酒店大堂与露台完全免费，不需住店。</strong>',
-        hours: '<strong>Jackson Lake Lodge 2026 年 5 月 15 日 – 10 月 4 日营业</strong>（Mural Room、Pioneer Grill、商店、咖啡车同为 10 月 4 日；Blue Heron Lounge 与马厩 10 月 3 日）。' +
-          '<strong>10 月 5 日起整栋关闭，室内机位彻底不可用。</strong>' +
-          '<strong>Jackson Lake Dam 一带全天开放，但随 Teton Park Road 于 11 月 1 日封闭</strong>（从北面经 Jackson Lake Junction 走 US-89 仍可全年通行到 Oxbow Bend 一侧）。',
+        visit: '<strong>1–1.5 小时</strong>（Upper Lobby 落地窗与露台 20–30 分钟 + Lunch Tree Hill 往返 15–20 分钟 + 水坝一带 20–30 分钟，含两地之间 5 分钟车程）。' +
+          '<strong>只进大堂看那面窗：15 分钟。</strong>' +
+          '<strong>只看水坝（酒店关门后的唯一玩法）：20–30 分钟。</strong>' +
+          '<strong>想在 Pioneer Grill 吃一顿再走：另加 30–45 分钟。</strong>' +
+          '（按建筑规模与步道长度推算；NPS 未给官方建议时长）',
+        book: '大堂参观与露台、Lunch Tree Hill、水坝一律不需预约。住宿与 Mural Room 餐厅需向特许经营商 Grand Teton Lodge Company 预订，' +
+          '但 2026 年 10 月 4 日后停业。',
+        ticket: '园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 16 岁以上 $20）；<strong>Grand Teton 单园年票 $70</strong>；' +
+          '<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。' +
+          '<strong>非美国居民 16 岁以上每人另付 $100 nonresident fee，持任一年票即免（官方原文「unless admitted with an Annual or America the Beautiful Pass」）。</strong>' +
+          '<strong>与 Yellowstone 各收各的：官方原文「Visitors traveling to or from Yellowstone National Park through Grand Teton National Park must pay a separate entrance fee」，' +
+          '$35 七日票与 $70 单园年票都进不了 Yellowstone，只有 America the Beautiful 年票通用。</strong>' +
+          '<strong>全园不收现金。</strong><strong>进入酒店大堂、二层落地窗、露台与 Lunch Tree Hill 完全免费，不需住店也不需消费；水坝两端观景与停车同样免费。</strong>' +
+          '（<strong>2026-09-15 核实于 nps.gov/grte 官方 Fees &amp; Passes 页</strong>）',
+        hours: '<strong>Jackson Lake Lodge 2026 年 5 月 15 日 – 10 月 4 日营业</strong>' +
+          '（官方 Operating Hours &amp; Seasons 表格原文：Jackson Lake Lodge / The Mural Room / Pioneer Grill / Coffee Cart / Shops 均为 May 15 – October 4；' +
+          'Blue Heron Lounge 与 Corrals 为 May 15 – October 3，表头另注明「All dates are subject to change」）。' +
+          '<strong>10 月 5 日起整栋关闭，那面 60 英尺落地窗彻底不可用。</strong>' +
+          '<strong>官方未公布大堂的每日开放钟点</strong>——它是营业中的酒店公共空间，实务上全天可进，但夜间无人值守区域可能受限，' +
+          '<strong>具体钟点未能从官方渠道确认</strong>，可拨特许经营商 307-543-3100 或园区 307-739-3399 确认。' +
+          '<strong>Jackson Lake Dam 一带 24 小时开放、全年无门禁，但坝顶所在的 Teton Park Road 官方原文「closed November 1 to April 30」</strong>；' +
+          '从北面经 Jackson Lake Junction 走全年开放的 US-89 仍可到达 Oxbow Bend 一侧。' +
+          '（<strong>2026-09-15 核实于 nps.gov/grte Operating Hours &amp; Seasons 页（页面最后更新 2026 年 9 月 10 日）与 Park Roads 页</strong>）',
         parking: '酒店有大型免费停车场（松树间分区）；水坝两端各有免费停车与洗手间。均不收费、无需许可。',
         walk: '停车场到 Upper Lobby <strong>2–3 分钟</strong>；Upper Lobby 到 Lunch Tree Hill 顶 <strong>5–8 分钟 / 铺装步道</strong>；水坝停车到观景点 <strong>1–3 分钟</strong>。'
       },
       notes: [
-        '<strong>2026 年 10 月 4 日是最后一天。</strong>如果你的日期在 10 月 5 日之后，这个条目就只剩水坝那一半，请据此调整评分预期。',
+        '<strong>2026 年 10 月 4 日是最后一天。</strong>10 月 5 日之后到访的话，这个条目就只剩水坝那一半，请据此调整预期。',
         '<strong>落地窗朝西，傍晚是逆光</strong>——最佳室内时段是清晨与日落后的蓝调，不是日落本身。',
         '<strong>室内三脚架政策未能从官方渠道确认</strong>，按手持准备。玻璃反光用偏振镜或贴近玻璃解决。',
         '<strong>Willow Flats 是驼鹿与麋鹿的核心栖息地</strong>，不要下到湿地里；观察请用长焦并守住 25 码。',
@@ -934,6 +1021,7 @@ module.exports = {
       n: 8,
       name: 'Gros Ventre Road 与 Blacktail Ponds（驼鹿与叉角羚）',
       en: 'Gros Ventre Road · Blacktail Ponds Overlook',
+      must: 2.5,
       score: 3.5,
       tldr: 'Moose-Wilson Road 本窗口全程封闭，找驼鹿只能来 Gros Ventre 河边柳丛，清晨黄昏概率最高。',
       tags: [
@@ -947,7 +1035,7 @@ module.exports = {
         '<strong>必须先讲清楚 Moose-Wilson Road 的状况，因为几乎所有指南都会把它列为找驼鹿的首选，而 2026 年它不可用。</strong>' +
           'NPS 官方 2026 年时间表：<strong>「September 8 – November 15: Closure between Laurance S. Rockefeller Preserve and Moose」——车辆与自行车都不行。</strong>' +
           '这是 Moose-Wilson Road Phase II 改建（把道路北段改接到新建的 Moose 环岛），工期到 2027 年。' +
-          '紧接着 11 月 1 日又叠加常规冬季封闭。<strong>你的整个窗口都在封闭期内，那条沿路两侧长满 hawthorn 与 chokecherry、每年秋天黑熊排队吃果子的路，这一趟去不了。</strong>' +
+          '紧接着 11 月 1 日又叠加常规冬季封闭。<strong>也就是说 2026 年 9 月 8 日之后的整个秋季都在封闭期内——那条沿路两侧长满 hawthorn 与 chokecherry、每年秋天黑熊排队吃果子的路，2026 年秋季去不了。</strong>' +
           '同期 <strong>Death Canyon Road 与 Trailhead 也是 2026 年 5 月至 2027 年 6 月全时段封闭，行人也不行</strong>。',
         '<strong>替代方案是 Gros Ventre 一带。</strong>从 US-26/89/191 上的 Gros Ventre Junction 往东，沿 Gros Ventre River 走 Lower Gros Ventre Road 经 Kelly 再往上游，' +
           '<strong>河两侧是连片的柳丛与棉白杨林——这正是驼鹿在秋季的主要栖息与发情地形</strong>。' +
@@ -960,12 +1048,45 @@ module.exports = {
           '这些是北美跑得最快的陆生动物（时速可达 55 英里），<strong>每年秋天从 Jackson Hole 出发向南迁徙约 150 英里到 Upper Green River Basin 越冬</strong>——' +
           '这条被称作「Path of the Pronghorn」的通道是北美有记录的最古老的哺乳动物迁徙路线之一，至少已延续 6,000 年。' +
           '<strong>9 月下旬到 10 月正是它们开始南移的时候</strong>，在 Antelope Flats Road 与 Mormon Row 周边的开阔鼠尾草滩上概率最高。',
-        '<strong>关于 elk reduction（园内减鹿计划），这是绝大多数指南不提、但你应该知道的一件事：</strong>' +
+        '<strong>关于 elk reduction（园内减鹿计划），这是绝大多数指南不提、但值得知道的一件事：</strong>' +
           'Grand Teton 是极少数在园界内合法开展有组织狩猎的国家公园（依据 1950 年扩界时的立法授权）。' +
           '<strong>核查结果：Wyoming Game &amp; Fish 2026 年第 7 章规章给出 Elk Hunt Area 75（即园内区域）的季节为 <u>2026 年 11 月 14 日至 12 月 6 日</u>。</strong>' +
-          '<strong>也就是说，9 月下旬至 10 月下旬的整个窗口内，园内不会有减鹿计划活动，这一项对你没有影响。</strong>' +
+          '<strong>也就是说，9 月下旬至 10 月下旬这段时间里园内不会有减鹿计划活动，这一项不构成影响。</strong>' +
           '另外即便在计划期内：<strong>Antelope Flats 段与 Deadmans Bar 至 Ditch Creek 的 Snake River Bottom 段全季关闭、Hunt Area 79 全季关闭、US-191 两侧各 1/4 英里禁猎、建筑物半英里内禁猎</strong>，' +
           '且参与者必须穿荧光橙／粉、携带熊喷雾、使用无铅弹。'
+      ],
+      tour: [
+        '<strong>法定观察距离必须先记住，这在园内是强制规定而不是建议：熊与狼至少 100 码（300 英尺 / 约 91 米），其他一切野生动物至少 25 码（75 英尺 / 约 23 米）。</strong>' +
+          'NPS 原文「Whether you are in your vehicle or on foot, you must maintain a distance of at least 100 yards from bears and wolves, and 25 yards from all other wildlife」——' +
+          '<strong>坐在车里也一样算，驼鹿、bison、麋鹿、叉角羚全部适用 25 码。</strong>' +
+          '官方还补了一句判断标准：<strong>「If your presence is causing the animal to run, stop foraging, or become agitated, you are too close」</strong>——' +
+          '动物因为你停止吃草或走开，说明你已经违规了，不管尺子怎么量。禁止投喂、禁止引诱、禁止挡在母子之间。' +
+          '（2026-09-15 核实于 nps.gov/grte 的 Wildlife Viewing、Safety 与 Coexisting with Bears 页）',
+        '<strong>时段比地点重要得多：驼鹿与 bison 只在清晨与黄昏可靠。</strong>' +
+          '<strong>日出前 30 分钟到日出后 90 分钟</strong>（九月下旬约 06:45–08:45，十月下旬约 07:15–09:15）' +
+          '与<strong>日落前 90 分钟到天黑</strong>是两个真正有概率的窗口；' +
+          '<strong>上午 10 点到下午 4 点之间它们基本躲进柳丛和林子里反刍，开一整圈很可能什么都看不到</strong>。' +
+          '<strong>九月中到十月上旬是驼鹿发情期（rut），公鹿最活跃、鹿角最完整，但也最有攻击性</strong>，这是全年最好也最需要小心的时段。',
+        '<strong>正确的找法是「慢速开车 + 靠边停下扫视」，不是下车徒步找。</strong>' +
+          '从 US-26/89/191 的 Gros Ventre Junction 往东，沿 Gros Ventre River 经 Kelly 社区往上游，' +
+          '<strong>河两侧连片的柳丛与棉白杨林是驼鹿密度最高的一带</strong>；' +
+          '驼鹿站在柳丛里几乎看不见，<strong>最有效的信号是前面停了一排车</strong>。' +
+          '看 bison 与叉角羚则换到 Antelope Flats Road 一带的开阔鼠尾草滩，那里视野好、动物藏不住，比找驼鹿轻松得多。' +
+          '<strong>带双筒望远镜的价值高于一切</strong>——在合法距离上，肉眼只能看到一个褐色的点。',
+        '<strong>礼仪与安全，每条都有人每年犯：</strong>' +
+          '（1）<strong>停车必须完全驶出行车道</strong>，开双闪，不要站在路面上——园内每年都有「动物堵车」引发的追尾；' +
+          '（2）<strong>车是最好的掩体，遇到 bison 或发情期公驼鹿靠近就退回车里</strong>，bison 看着迟钝但时速可达 35 英里；' +
+          '（3）不要挡在驼鹿和河／母鹿之间，也不要为了看清楚钻进灌木；' +
+          '（4）<strong>不要为了让动物抬头而吹口哨、拍手或按喇叭</strong>，这属于骚扰野生动物；' +
+          '（5）安静、把车门轻轻关上，一车人吵起来是最常见的把动物赶走的方式。',
+        '<strong>体力与装备：这一整条几乎不需要走路，是本区最适合体力不好、带小孩或天气差时的选择。</strong>' +
+          'Blacktail Ponds Overlook 是铺装 turnout，停车到栏杆 1 分钟；其余全部在车内或车旁完成。' +
+          '<strong>但秋季是熊的增食期，Gros Ventre 河谷的棉白杨林里有黑熊，在路边下车前先扫一圈四周，并带 EPA 注册的熊喷雾。</strong>' +
+          '官方口径是<strong>「recommends that visitors recreating in the park carry bear spray」——即强烈建议、并非法规强制</strong>，' +
+          '但它只在熊冲锋时作为最后手段使用，不是用来驱赶远处的熊。<strong>熊喷雾不能带上飞机</strong>，在 Jackson 的户外店买或租。',
+        '<strong>厕所与餐饮：这一带 10 月中旬之后什么都没有。</strong>' +
+          '<strong>Gros Ventre Campground（2026 年 4 月 27 日 – 10 月 10 日）是沿线唯一的洗手间</strong>，关闭后最近的选择是往西 Moose 的 Craig Thomas 访客中心（开到 10 月 31 日）或回 Jackson 镇（车程约 20–30 分钟）。' +
+          '沿线没有商店、没有饮水、没有加油站，<strong>Kelly 附近手机信号尚可、往上游很快就没有了</strong>。出发前备好水与食物，油箱在 Jackson 加满。'
       ],
       photo: '野生动物 <strong>4/5</strong>，风光 <strong>3/5</strong>，人像 <strong>2/5</strong>。' +
         '这是本区唯一以动物为主目标的条目，<strong>但成败取决于运气与耐心，不取决于机位</strong>——所以综合分只给 3.5。' +
@@ -1006,19 +1127,32 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约',
-        ticket: '园区门票 <strong>$35 / 车 / 7 天</strong>；<strong>持 America the Beautiful 年票免费</strong>。Kelly 社区与 Gros Ventre 上游部分路段在园界外，不另收费。',
-        hours: '<strong>24 小时开放。</strong>Blacktail Ponds Overlook 位于全年开放的 US-26/89/191 上；' +
-          '<strong>Lower Gros Ventre Road 至 Kelly 全年通行</strong>；' +
-          '<strong>Antelope Flats Road 与 Gros Ventre Road 上游段为「按条件季节性关闭」，无公布日期。</strong>' +
-          '<strong>Moose-Wilson Road（LSR Preserve ↔ Moose）2026 年 9 月 8 日 – 11 月 15 日全线封闭。</strong>',
+        visit: '<strong>1.5–2.5 小时</strong>（Gros Ventre Junction → Kelly → 上游折返的慢速巡视 60–90 分钟 + Blacktail Ponds Overlook 15–20 分钟 + Antelope Flats Road 一段 20–30 分钟）。' +
+          '<strong>只停 Blacktail Ponds Overlook 看一眼：15 分钟。</strong>' +
+          '<strong>认真蹲驼鹿：把整个清晨或整个黄昏窗口 2–3 小时都留给它</strong>，这是概率游戏，时间越长命中率越高。' +
+          '<strong>中午时段不建议专程来</strong>，同样的两小时花在别处回报高得多。（按路段长度与野生动物活动时段推算；NPS 未给官方建议时长）',
+        book: '不需预约。全园无 timed entry、无车辆预约。',
+        ticket: '园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 16 岁以上 $20）；<strong>Grand Teton 单园年票 $70</strong>；' +
+          '<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。' +
+          '<strong>非美国居民 16 岁以上每人另付 $100 nonresident fee，持任一年票即免。</strong>' +
+          '<strong>与 Yellowstone 各收各的，官方明文要求往返两园须另付一次门票，只有 America the Beautiful 年票通用。</strong>' +
+          '<strong>全园不收现金。</strong>Kelly 社区与 Gros Ventre 上游部分路段在园界外，不另收费；各观景点本身均不单独收费。' +
+          '（<strong>2026-09-15 核实于 nps.gov/grte 官方 Fees &amp; Passes 页</strong>）',
+        hours: '<strong>24 小时开放、无门禁。</strong>' +
+          '<strong>Blacktail Ponds Overlook 位于全年开放、冬季铲雪的 US-26/89/191 上，是这一组里唯一任何季节都能到的点。</strong>' +
+          '<strong>Lower Gros Ventre Road 至 Kelly 全年通行</strong>（Kelly 是有人居住的社区）。' +
+          '<strong>Antelope Flats Road 与 Gros Ventre Road 上游段被官方归类为「closed seasonally based on conditions」，不公布日期</strong>，惯例 11 月 1 日前后关。' +
+          '<strong>Moose-Wilson Road（Laurance S. Rockefeller Preserve ↔ Moose）官方 2026 年时间表原文「September 8 – November 15: Closure between Laurance S. Rockefeller Preserve and Moose」，车辆与自行车都不行</strong>，' +
+          '11 月 15 日后转为冬季游憩用途；<strong>Death Canyon Road 与 Trailhead 2026 全季关闭</strong>。' +
+          '<strong>Gros Ventre Campground（沿线唯一洗手间）2026 年 4 月 27 日 – 10 月 10 日。</strong>' +
+          '（<strong>2026-09-15 核实于 nps.gov/grte Park Roads、Road Construction 与 Operating Hours 页</strong>）',
         parking: 'Blacktail Ponds 为铺装 turnout，免费；Gros Ventre 与 Antelope Flats 沿线为路侧停车，免费，<strong>必须完全驶出行车道</strong>。',
         walk: '<strong>全部为车内或车旁拍摄，不需要步行。</strong>Blacktail Ponds 停车到栏杆 1 分钟。'
       },
       notes: [
         '<strong>Moose-Wilson Road 在 2026 年 9 月 8 日至 11 月 15 日全线封闭</strong>，任何把它列为驼鹿首选的攻略在这个窗口内都已失效。',
         '<strong>驼鹿发情期为 9 月中至 10 月上旬，雄鹿具真实攻击性。</strong>不要下车靠近，不要挡在它和水／母鹿之间，法定 25 码是最低值。',
-        '<strong>2026 年减鹿计划的日期是 11 月 14 日 – 12 月 6 日，不在你的窗口内。</strong>若行程意外延到 11 月中之后，请在开放区域穿荧光橙或荧光粉。',
+        '<strong>2026 年减鹿计划的日期是 11 月 14 日 – 12 月 6 日，九月下旬至十月下旬来访不会遇到。</strong>十一月中旬之后来的话，请在开放区域穿荧光橙或荧光粉。',
         '<strong>秋季是熊的增食期，Gros Ventre 河谷的棉白杨林里有黑熊</strong>。下车前先扫一圈，带熊喷雾。',
         '<strong>停车必须完全离开行车道</strong>——园内每年都有因为「动物堵车」导致的追尾。开双闪，别站在路面上。',
         '<strong>Gros Ventre Campground 10 月 10 日关闭</strong>，之后这一带没有洗手间与饮水。',
@@ -1034,6 +1168,7 @@ module.exports = {
       n: 9,
       name: 'Taggart Lake 与 Bradley Lake 步道',
       en: 'Taggart Lake · Bradley Lake Trailhead',
+      must: 3,
       score: 3.5,
       tldr: '3–5 英里的中等徒步换一个山就在眼前的湖。2026 北段步道封闭到 11/15，需走替代路线；湖面下午很早进山影。',
       tags: [
@@ -1053,7 +1188,7 @@ module.exports = {
           '路况良好、坡度平缓，属于「中等偏易」。',
         '<strong>2026 年的具体限制必须先讲：NPS 明确「The northern segment of Taggart Lake Trail, between the first junction and Bradley Lake Trail, will be closed through November 15, 2026 for trail rehabilitation」。</strong>' +
           '<strong>好消息是 Taggart Lake Trailhead 与停车场保持开放，两个湖仍可经标示的替代路线到达</strong>，' +
-          '但<strong>常规的「Taggart–Bradley 环线」这一趟走不成</strong>，实际是走一条进去、原路或另一条出来。' +
+          '但<strong>常规的「Taggart–Bradley 环线」在 2026 年走不成</strong>，实际是走一条进去、原路或另一条出来。' +
           '现场必须按标识走，不要进封闭段。',
         '<strong>时段上的关键事实：山太近太高，湖面下午很早就进山影。</strong>' +
           'Grand Teton 从湖边仰角 20.8°，<strong>推算湖面在日历日落前 1.5–2 小时就完全失去直射光</strong>——' +
@@ -1062,6 +1197,51 @@ module.exports = {
           '这也正好和「渡船停航后 Jenny Lake 变成半日徒步」错开，两者可以分在不同的上午。',
         '<strong>2016 年的火烧区仍在恢复中</strong>，步道前半段穿过一片以 lodgepole pine 幼树与灌木为主的开阔地——' +
           '这段视野比成熟林好得多，<strong>秋天灌木层会转成红褐色，是很好的前景</strong>，也是这条路线在秋季相对夏季的加分项。'
+      ],
+      tour: [
+        '<strong>先看清 2026 年的路线变化，否则到了 trailhead 会一头雾水：常规的 Taggart–Bradley 环线走不成。</strong>' +
+          'NPS 官方口径：<strong>「The northern segment of Taggart Lake Trail, between the first junction and Bradley Lake Trail, will be closed through November 15, 2026 for trail rehabilitation」</strong>，' +
+          '也就是那条又短又平的热门北线全季封闭。' +
+          '<strong>Taggart Lake Trailhead 与停车场保持开放，两个湖仍可经现场标示的南侧替代路线到达，但那条路更长更陡。</strong>' +
+          '<strong>官方给的替代路线里程互相矛盾，三种口径都列在这里，请以现场标识为准：</strong>' +
+          'Park Construction 页正文写<strong>「4.24 miles / 711 feet elevation gain - one way」（单程）</strong>，' +
+          '同一页的备注写<strong>「4.8 miles round-trip / 460 feet elevation gain」（往返）</strong>，' +
+          '2026 年施工新闻稿写<strong>「about 4.25 miles roundtrip」（往返）</strong>；' +
+          '公园基金会的说法是替代路线比原路线<strong>「add approximately one mile」</strong>。' +
+          '<strong>请按最保守的口径准备，并在 Moose 的 Craig Thomas 访客中心（开到 10 月 31 日）问清当日走法。</strong>' +
+          '（2026-09-15 核实于 nps.gov/grte Park Construction 页、2026 年施工新闻稿与 gtnpf.org）',
+        '<strong>常规年份的基准数据（供对照）：Taggart–Bradley 环线 NPS 官方为往返 5.6 英里 / 9 公里、爬升 860 英尺、难度 moderate、参考时长 2–3 小时</strong>' +
+          '（同一页的无障碍说明把爬升写成 890 英尺，官方自身有出入）。' +
+          '<strong>只到 Taggart Lake 一个湖，常规北线是往返约 3–4 英里、爬升约 400 英尺、1.5–2 小时。</strong>' +
+          '路面为压实土石、无技术难度，但<strong>官方注明步道「occasionally narrow and passes through dense underbrush」、「Large rocks can be found on the trail」，平均坡度 7%，去两个湖要反复上下几段坡</strong>。' +
+          '<strong>不适合婴儿推车与轮椅。</strong>',
+        '<strong>熊是这条步道最需要认真对待的一件事，因为它穿的正是灌木密布、视线受阻的地形。</strong>' +
+          '<strong>两件事要分清：观察距离是强制规定（熊与狼 100 码、其他野生动物 25 码），而携带熊喷雾是官方强烈建议、并非法规强制。</strong>' +
+          'NPS 原文「Grand Teton recommends that visitors recreating in the park carry bear spray and know how to use it」，' +
+          '同时要求<strong>「be alert, make noise, and hike in groups」</strong>，并直言「Expect to see bears along park trails」。' +
+          '<strong>喷雾必须是 EPA 注册、标签写明「for deterring attacks by bears」、有效成分 1–2% capsaicinoids、喷射时长 ≥6 秒、射程 ≥25 英尺的产品</strong>，普通防身喷雾无效。' +
+          '<strong>只在熊冲锋时作为最后一道防线使用，官方明确「Bear spray is not a hazing tool」</strong>；一般遭遇时给空间、慢慢后退、绝不奔跑。' +
+          '<strong>九月下旬到十月是增食期（hyperphagia），全年冲突概率最高。熊喷雾不能带上飞机，在 Jackson 的户外店购买或租用。</strong>' +
+          '（2026-09-15 核实于 nps.gov/grte 的 Carry Bear Spray 与 Coexisting with Bears 页）',
+        '<strong>体力与装备，按实际最容易出问题的顺序排：</strong>' +
+          '<strong>（1）水：沿途没有任何饮水点，每人至少 1.5 升</strong>——低温天最容易忘记喝水；' +
+          '（2）鞋：有大石头与树根，运动鞋勉强可行、登山鞋更稳；' +
+          '（3）<strong>十月背阴处可能有薄冰与残雪，微钉鞋套值得带</strong>；' +
+          '（4）分层衣物：出发时接近冰点、走热后又要脱，秋季清晨温差可达 15°C；' +
+          '（5）<strong>头灯</strong>：十月日照只有十小时出头，下午出发很容易在暮色里下山；' +
+          '（6）<strong>这一带无手机信号，出发前把路线告诉别人</strong>，并查 NPS 的 Backcountry &amp; Trail Conditions 页。',
+        '<strong>时间怎么安排：这是上午的地方，不要排在傍晚。</strong>' +
+          '<strong>山离湖太近太高（Grand Teton 从湖边仰角 20.8°），湖面在日历日落前 1.5–2 小时就完全进入山影</strong>（推算，九月下旬约 17:20、十月下旬约 16:45），' +
+          '傍晚走到湖边只能看到一片阴沉的水。' +
+          '<strong>最好的窗口是日出后 1–3 小时（约 09:00–11:00）：山体正面受光、湖面通常仍无风、气温也已回升。</strong>' +
+          '<strong>可以跳过的部分：体力一般或时间紧就只走 Taggart Lake 折返、放弃 Bradley Lake</strong>——' +
+          'Bradley 更安静、正对 Garnet Canyon 与 Middle Teton，但它带来的增量远小于多出的约 2 英里与一小时。',
+        '<strong>停车、厕所与人流：Bradley-Taggart Trailhead 是全园最挤的 trailhead 之一，NPS 提示夏季常在上午满位、建议早到；秋季尤其十月下旬基本随到随停。</strong>' +
+          '<strong>2026 年 trailhead 本身也在改建（官方状态「Partially open. Construction ongoing」）</strong>，会遇到局部围挡与临时车位变动；' +
+          '规划中的新停车场将容纳 140 辆车并增设厕所与灌水点，但那要等 2027 年之后。' +
+          '<strong>目前 trailhead 只有旱厕（无水、无洗手池），步道上与湖边都没有厕所，全程无餐饮。</strong>' +
+          '<strong>相邻的 Cottonwood Creek Picnic Area 2026 年因施工关闭</strong>，最近的餐饮是 Moose 路口的 Dornan\u2019s（全年营业，车程约 10 分钟）。' +
+          '路边停车时请完全驶出主路并遵守现场停车标识。'
       ],
       photo: '风光 <strong>4/5</strong>，人像 <strong>3.5/5</strong>，野生动物 <strong>2.5/5</strong>。' +
         '<strong>山体在画面里的体量是本区最大的，湖岸有大量可用的石滩与倒木前景。</strong>' +
@@ -1093,11 +1273,25 @@ module.exports = {
         }
       ],
       access: {
-        book: '不需预约（日间徒步无需许可；过夜露营需 backcountry permit）。',
-        ticket: '园区门票 <strong>$35 / 车 / 7 天</strong>；<strong>持 America the Beautiful 年票免费</strong>。',
-        hours: '<strong>步道 24 小时开放</strong>，但<strong>北段（first junction 至 Bradley Lake Trail）封闭至 2026 年 11 月 15 日</strong>；' +
-          '<strong>Taggart Lake Trailhead 与停车场保持开放</strong>。' +
-          '整个区域位于 Teton Park Road 上，<strong>11 月 1 日随之封闭</strong>。',
+        visit: '<strong>2–3 小时（NPS 官方给常规 Taggart–Bradley 环线的参考时长，原文「Duration 2-3 Hours」，往返 5.6 英里 / 爬升 860 英尺）。</strong>' +
+          '<strong>只到 Taggart Lake 折返：1.5–2 小时</strong>（常规北线往返 3–4 英里）。' +
+          '<strong>2026 年北线封闭、须走更长更陡的南侧替代路线，请在上述基础上再加 45–60 分钟</strong>（官方里程口径互相矛盾，见 tour 第一条）。' +
+          '<strong>含在湖边停留与吃东西的舒适安排：三个半小时。</strong>' +
+          '<strong>不要把它排进日落前的最后三小时</strong>——湖面在日历日落前 1.5–2 小时就进山影。' +
+          '（2026-09-15 核实于 nps.gov 的 Taggart Lake - Bradley Lake Loop 页）',
+        book: '不需预约（日间徒步无需许可，也无 timed entry；过夜露营需 backcountry permit，可在 Craig Thomas 访客中心的许可窗口办理）。',
+        ticket: '园区门票<strong>私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 16 岁以上 $20）；<strong>Grand Teton 单园年票 $70</strong>；' +
+          '<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。' +
+          '<strong>非美国居民 16 岁以上每人另付 $100 nonresident fee，持任一年票即免。</strong>' +
+          '<strong>与 Yellowstone 各收各的，官方明文要求往返两园须另付一次门票，只有 America the Beautiful 年票通用。</strong>' +
+          '<strong>全园不收现金。</strong>步道与 trailhead 本身不另收费（官方标注「Activity Fee: No」）。' +
+          '（<strong>2026-09-15 核实于 nps.gov/grte 官方 Fees &amp; Passes 页</strong>）',
+        hours: '<strong>步道 24 小时开放、无门禁，官方季节标注「Year Round」</strong>（冬季需雪鞋或越野滑雪）。' +
+          '<strong>但 2026 年北段（first junction 至 Bradley Lake Trail）因步道整修封闭至 11 月 15 日，官方原文「will be closed through November 15, 2026」</strong>；' +
+          '<strong>Taggart Lake Trailhead 与停车场保持开放，两湖经标示的南侧替代路线仍可到达。</strong>' +
+          '<strong>Taggart Lake Trailhead 与步道的整体状态是「Partially open. Construction ongoing」，工期 2026 年 5 月至 2027 年；相邻 Cottonwood Creek Picnic Area 关闭。</strong>' +
+          '整个区域位于 Teton Park Road 上，<strong>官方原文「closed November 1 to April 30 from Taggart Lake Trailhead to Signal Mountain Lodge」——11 月 1 日起只能步行或滑雪进入。</strong>' +
+          '（<strong>2026-09-15 核实于 nps.gov/grte Park Construction 页、nps.gov 步道页与 Park Roads 页</strong>）',
         parking: '<strong>Bradley-Taggart Trailhead 免费停车场</strong>，夏季上午 09:00 前必满，<strong>10 月下旬基本随到随停</strong>。' +
           '有旱厕。<strong>Trailhead 与步道本身也在 2026 年的改建范围内（官方状态「Partially open. Construction ongoing」），可能遇到局部围挡。</strong>',
         walk: 'Taggart Lake 单程 <strong>1.6–2 英里 / 45–60 分钟 / 爬升约 400 英尺</strong>；' +
@@ -1123,6 +1317,7 @@ module.exports = {
       n: 10,
       name: 'Jackson 镇：Town Square 鹿角拱门与 Million Dollar Cowboy Bar',
       en: 'Town of Jackson · Town Square Antler Arches · Million Dollar Cowboy Bar',
+      must: 3.5,
       score: 3.5,
       tldr: '四座鹿角拱门全部在位（2007–2015 逐座重建）。本区唯一的夜间与室内题材，也是唯一全年补给点。',
       tags: [
@@ -1156,6 +1351,43 @@ module.exports = {
           '<strong>免费的 3/4 英里 Sculpture Trail 沿山坡布置了 20 多件野生动物雕塑，背景是 Elk Refuge 与 Gros Ventre 山脉</strong>——' +
           '<strong>「雕塑剪影 + 真实山景」这个组合是本区独一无二的题材，而且它朝东，日出时是顺光。</strong>' +
           '<strong>2026 年 5 月 1 日 – 10 月 31 日每天 10:00–17:00；11 月 1 日起改为周二至周日。成人 $18、65+ $16。Sculpture Trail 免费，随馆开放时间。</strong>'
+      ],
+      tour: [
+        '<strong>Town Square 的核心就是四座鹿角拱门，站在 George Washington Memorial Park 的四个角上，绕一圈 10–15 分钟走完。</strong>' +
+          '<strong>西南角（Broadway 与 Cache 路口）那一座是 1953 年最早建的，也是所有明信片用的那一角，排队合影的人最多</strong>；' +
+          '其余三座在 1966–1969 年补齐，人少很多、同样完整。' +
+          '<strong>每座用超过 2,000 支鹿角、总重约 14,000 磅，靠摩擦力与摆放咬合，只有外缘几支上了螺丝防偷。</strong>' +
+          '值得站住看的细节是<strong>鹿角全部来自镇北的 National Elk Refuge，是公鹿春天自然脱落的角，由 Boy Scouts 拾集后在广场上拍卖——没有一头鹿为这些拱门死过</strong>。' +
+          '广场四边是木廊与密集的店铺，<strong>清晨 07:00 前是唯一能看到「无人的拱门」的时间</strong>。',
+        '<strong>National Museum of Wildlife Art 是这一站里最值得花时间的地方，也是整个区域最好的坏天气备案。</strong>' +
+          '在镇北 2.5 英里（2820 Rungius Road，开车 6–8 分钟，有自己的免费停车场），' +
+          '建筑是一座仿砂岩崖壁的低伏结构，<strong>正下方就是 National Elk Refuge</strong>。' +
+          '<strong>室内按「先看 Carl Rungius 的核心收藏，再看当期特展」的顺序走，1–1.5 小时足够；带小孩的话 Children\u2019s Discovery Gallery 值得留 30 分钟。</strong>' +
+          '<strong>门外那条 3/4 英里的 Sculpture Trail 完全免费、不用买门票就能走</strong>，沿鼠尾草山坡布置 20 多件野生动物雕塑，' +
+          '<strong>朝东俯瞰 Elk Refuge 与 Gros Ventre 山脉，上午光线最好、傍晚会先进山丘阴影</strong>。' +
+          '馆内 Palate 餐厅每天 11:00–14:30，是镇上少见的「有大视野的午餐」。',
+        '<strong>National Elk Refuge 的冬季雪橇看麋鹿是季节性的，秋天来是看不到的，这一点必须先说清楚。</strong>' +
+          '<strong>2026–27 季的运营日期是 2026 年 12 月 19 日至 2027 年 4 月 3 日，每天 10:00–16:00，12 月 25 日休息，视雪况而定</strong>；' +
+          '雪橇约 45 分钟到 1 小时，从检票到送回约 1.5 小时，<strong>接驳车从 National Elk Refuge &amp; Greater Yellowstone Visitor Center（532 N. Cache St.）每 20–30 分钟发一班，不提供毛毯</strong>。' +
+          '<strong>2026-09-15 核实时，2026–27 季的网上预订尚未开放，官方页面写「Online reservations for winter season 2026-2027 open fall of 2026」，票价也未公布</strong>' +
+          '（作为量级参考，2025–26 季为成人 $42 左右）。承办方 Double H Bar 电话 <strong>307-733-0277</strong>。' +
+          '<strong>麋鹿通常 12 月中旬到 4 月初在避难所里，十月只有零星个体，夏天完全没有</strong>；' +
+          '不坐雪橇的话，<strong>5 月 1 日 – 11 月 30 日 Refuge Road 可开车通到国家森林道路，12 月 1 日 – 4 月 30 日只开放 3.5 英里</strong>，全程必须留在路上或指定停车湾内。',
+        '<strong>Million Dollar Cowboy Bar 在广场北侧（25 N. Cache Street），值得进去看一眼那排真皮马鞍吧凳——但门槛是硬的。</strong>' +
+          '<strong>官方 FAQ 原文「Everyone has to be 21+ to enter the Cowboy Bar at all times. A valid physical ID is required for entry. No exceptions.」——全时段 21 岁以上、必须实体证件、电子件不行、带孩子进不去。</strong>' +
+          '<strong>每日 11:00–01:00；周一至周六 20:30 现场乐队、周日 20:30 DJ。</strong>' +
+          '<strong>想安静看马鞍与镶银马具装饰就在 11:00–15:00 的空场时段进去</strong>，晚上乐队一开人就满了。' +
+          '<strong>注意收费口径：平时进店不收入场费，但官方明确「Some nights have no cover, and others have a ticketed show or paid cover for live music」——有演出的晚上可能收 cover 或需要买票</strong>，' +
+          '普通演出不用提前买票、先到先入。',
+        '<strong>这里是整个区域最可靠的补给点，请把它当成后勤基地而不只是景点。</strong>' +
+          '<strong>Jackson 是这一带全年唯一稳定的加油与采买地点</strong>：园内加油站 2026 年在 10 月 9 日（Colter Bay）至 10 月 18 日（Headwaters / Flagg Ranch，园内最后一个）之间陆续关闭，' +
+          '<strong>此后从 Jackson 到 Yellowstone 之间没有任何加油站</strong>，离镇前务必加满。' +
+          '镇上还要解决三件事：<strong>熊喷雾（不能带上飞机，在户外店购买或租用，部分店铺离开时可回收）、离线地图与食物饮水、以及厚一层的防风保暖衣物</strong>。' +
+          '广场周边旺季停车紧张、多为路边计时车位与几处公共停车场，<strong>住在镇中心的话步行或叫车比开车找位省事</strong>。',
+        '<strong>别抱的期望：镇内看不到 Teton 山脊</strong>，被 East Gros Ventre Butte 挡住，想拍雪山得出镇往北。' +
+          '广场白天就是一个游客密集的小公园，<strong>如果时间紧，「广场绕一圈 + 博物馆」是最优组合，购物街与纪念品店可以整体跳过</strong>。' +
+          '<strong>厕所：广场周边的商家一般只对顾客开放，公共厕所在游客中心（532 N. Cache St.，广场往北步行约 10 分钟）与博物馆内</strong>，' +
+          '博物馆也是这一站唯一有正规餐厅与灌水点的地方。'
       ],
       photo: '人文 <strong>4/5</strong>，夜景 <strong>4/5</strong>，风光 <strong>2/5</strong>。' +
         '<strong>这是整个子地区唯一的夜间题材、唯一的室内人文题材，也是坏天气时唯一能拍的地方。</strong>' +
@@ -1206,14 +1438,32 @@ module.exports = {
         }
       ],
       access: {
-        book: '广场与拱门不需预约；Cowboy Bar 不接受订位（除售票演出）；博物馆可现场买票，无需预约。',
-        ticket: '<strong>Town Square 与四座拱门完全免费</strong>；Sculpture Trail <strong>免费</strong>；' +
-          '<strong>National Museum of Wildlife Art 成人 $18、65 岁以上 $16、5–18 岁首位 $10、其后每位 $5、4 岁以下免费</strong>（现场出示证件有本地与军人折扣）；' +
-          'Cowboy Bar 免入场费，酒水另付。',
-        hours: '<strong>Town Square 与拱门 24 小时开放、全年无休。</strong>' +
-          '<strong>Million Dollar Cowboy Bar 每日 11:00–01:00</strong>，周一至周六 20:30 现场乐队、周日 DJ，<strong>全时段 21+</strong>。' +
-          '<strong>National Museum of Wildlife Art：5 月 1 日 – 10 月 31 日每天 10:00–17:00；11 月 1 日 – 4 月 30 日周二至周日 10:00–17:00（周一闭馆）</strong>，' +
-          '另于国庆日、退伍军人节、感恩节、12/25–26、元旦与总统日闭馆。',
+        visit: '<strong>2–3 小时</strong>（Town Square 绕四角 20–30 分钟 + Million Dollar Cowboy Bar 20–30 分钟 + 博物馆室内 1–1.5 小时 + Sculpture Trail 25–40 分钟，含镇内往返车程 15 分钟）。' +
+          '<strong>只打卡鹿角拱门：15–20 分钟。</strong>' +
+          '<strong>只去博物馆（含雕塑步道）：1.5–2 小时。</strong>' +
+          '<strong>把它当补给站：加油、买熊喷雾、采买食物与吃一顿饭，另留 1–1.5 小时。</strong>' +
+          '<strong>冬季加坐 Elk Refuge 雪橇：另加约 1.5 小时</strong>（官方口径：雪橇上 45 分钟至 1 小时，从检票到送回约 1.5 小时）。' +
+          '（2026-09-15 核实于 wildlifeart.org、milliondollarcowboybar.com 与 nersleighrides.com；广场部分按步行距离推算）',
+        book: '广场与四座拱门不需预约。<strong>博物馆无需预约，官方原文「Advance tickets are not required. Tickets may always be purchased upon arrival.」</strong>；' +
+          '<strong>Cowboy Bar 的常规每晚演出不需买票、先到先入（「no tickets necessary / first come, first served」），售票演出建议提前买</strong>；' +
+          '<strong>Elk Refuge 雪橇建议预订，2026–27 季的网上预订在 2026 年秋季开放，截至 2026-09-15 尚未开放</strong>，电话 307-733-0277，取消政策为 48 小时内取消照收全款。',
+        ticket: '<strong>Town Square 与四座鹿角拱门完全免费、无门禁。</strong>' +
+          '<strong>National Museum of Wildlife Art：成人 $18、65 岁以上 $16、5–18 岁首位 $10、其后每位 $5、4 岁以下免费</strong>；' +
+          '会员及 Museums West / American Association of Museum 会员免费，<strong>军人与本地折扣仅限现场出示证件购票</strong>，团体价另议（307-732-5432）；' +
+          '<strong>部分月份的「First Sundays」是本地居民免费日</strong>。' +
+          '<strong>3/4 英里的 Sculpture Trail 免费开放，不买门票也能走。</strong>' +
+          '<strong>Million Dollar Cowboy Bar：平时进店不收入场费，但官方明确「Some nights have no cover, and others have a ticketed show or paid cover for live music」——有演出的晚上可能收 cover 或需购票，金额随艺人与场次变动</strong>，酒水另付。' +
+          '<strong>Elk Refuge 雪橇 2026–27 季票价截至 2026-09-15 未公布</strong>（2025–26 季为成人约 $42、5–12 岁约 $27、4 岁以下免费，仅作量级参考，请电话确认）。' +
+          '<strong>Jackson 镇在国家公园界外，进镇不需要任何园区门票。</strong>' +
+          '（<strong>2026-09-15 核实于 wildlifeart.org 官方 Plan Your Visit 与购票页、milliondollarcowboybar.com 官方 FAQ 与 Location 页、nersleighrides.com</strong>）',
+        hours: '<strong>Town Square 与四座拱门 24 小时开放、全年无休。</strong>' +
+          '<strong>Million Dollar Cowboy Bar 官方原文「Open daily from 11am- 1am / Live Music Monday - Saturday at 8:30pm / Dj Sundays start at 8:30pm」，全时段 21+ 且必须实体证件。</strong>' +
+          '<strong>National Museum of Wildlife Art 官方原文「May 1 – October 31: Open daily, 10 a.m. – 5 p.m. / November 1 – April 30: Open Tuesday – Sunday, 10 a.m. – 5 p.m.」（11 月起周一闭馆）</strong>；' +
+          '馆内 Palate 餐厅每日 11:00–14:30；Sculpture Trail 随馆开放时间。' +
+          '<strong>博物馆的节假日闭馆清单未能从官方渠道确认</strong>（官网 Plan Your Visit 页只列常规时段），需要在节假日前后到访请拨 <strong>307-733-5771</strong> 确认。' +
+          '<strong>National Elk Refuge 雪橇 2026–27 季：2026 年 12 月 19 日 – 2027 年 4 月 3 日，每天 10:00–16:00，12 月 25 日休息，「conditions permitting」。</strong>' +
+          '<strong>Refuge Road：5 月 1 日 – 11 月 30 日开放至国家森林道路，12 月 1 日 – 4 月 30 日仅开放 3.5 英里。</strong>' +
+          '（<strong>2026-09-15 核实于上述三处官方页面与 fws.gov 的 National Elk Refuge Visit Us 页</strong>）',
         parking: '<strong>Jackson 镇内有路边停车与多处公共停车场</strong>，广场周边旺季紧张，步行或叫车更省事。' +
           '<strong>博物馆有自己的免费停车场。</strong>',
         walk: '广场四角之间步行 1–2 分钟；广场到 Cowboy Bar <strong>1 分钟</strong>；' +
@@ -1223,7 +1473,7 @@ module.exports = {
         '<strong>四座拱门确认全部在位</strong>（2007–2015 逐座重建，预计使用到 2050 年前后）。<strong>未能核实的是：某二手来源提到 2026 年秋可能有维护工程与临时封闭，无法从官方渠道确认。</strong>',
         '<strong>Million Dollar Cowboy Bar 全时段严格 21 岁以上，必须出示实体证件，官方原文「No exceptions」。</strong>',
         '<strong>拱门只在蓝调时段好拍。</strong>白天顶光会把它拍成一团灰白乱枝。',
-        '<strong>Jackson 是本次行程唯一全年可靠的加油与补给点。</strong>园内加油站 10 月 9 日至 10 月 18 日间陆续关闭，离开镇子前请加满油。',
+        '<strong>Jackson 是这一带全年唯一可靠的加油与补给点。</strong>园内加油站 2026 年在 10 月 9 日至 10 月 18 日间陆续关闭，离开镇子前请加满油。',
         '<strong>熊喷雾不能带上飞机</strong>，在 Jackson 的户外店购买或租用，离开时可以在部分店铺回收。',
         '<strong>镇内看不到 Teton 山脊</strong>（被 East Gros Ventre Butte 挡住），别指望在 Town Square 拍到雪山背景。',
         '博物馆的 Sculpture Trail 朝东，<strong>上午顺光、傍晚进阴影</strong>，别排在下班前去。'
@@ -1232,6 +1482,147 @@ module.exports = {
         { url: 'img/elk-antler-arch-at-jackson-square-jackson-wy-2022-07-11-ac10a47e.jpg', cap: 'Town Square 鹿角拱门 · Schwerdf / CC BY 4.0' },
         { url: 'img/antler-base-f4fa8c65.jpg', cap: '拱门基座的鹿角咬合细节 · Sirguh / CC BY-SA 4.0' },
         { url: 'img/million-dollar-cowboy-bar-jackson-wyoming-001-959fba45.jpg', cap: 'Million Dollar Cowboy Bar 外观 · Leonard J. DeFrancisci / CC BY-SA 3.0' }
+      ]
+    },
+    {
+      id: 'chapel-transfiguration',
+      n: 11,
+      name: 'Chapel of the Transfiguration 显圣容小教堂与 Menor\u2019s Ferry 历史区',
+      en: 'Chapel of the Transfiguration · Menor\u2019s Ferry Historic District',
+      must: 3,
+      score: 3.5,
+      tldr: '1925 年的原木小教堂，祭坛后那扇窗正好把 Grand Teton 框成一幅画。免费、十分钟看完；2026 年进出的支路工作日全天封闭。',
+      tags: [
+        { t: '国家公园门票（年票覆盖）', c: 'paid' },
+        { t: '教堂本身免费', c: 'free' },
+        { t: '2026 支路工作日封闭', c: 'risk' },
+        { t: '停车即到、轮椅可达', c: 'free' },
+        { t: '仍在使用的教堂', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>这是一座 1925 年建的原木圣公会小教堂，真正的看点只有一处：祭坛后方那扇窗，正好把 Grand Teton 与整条 Teton 山脊框在窗框里。</strong>' +
+          'NPS 自己的说法是<strong>「one of the park\u2019s classic views」</strong>——' +
+          '不是一扇装了玻璃的普通窗户，而是整座建筑的朝向与开窗都是冲着这个视野设计的，进门坐下抬头就能看到。' +
+          '<strong>教堂只有 65 个座位</strong>，尺度小得出乎意料，这种「小房子框大山」的反差是它全部的价值。',
+        '<strong>土地是 Maud Noble 在 1925 年捐给 Jackson 的 St. John\u2019s Episcopal Church 的</strong>，' +
+          '<strong>首次礼拜在同年 7 月 26 日举行</strong>。' +
+          '建它的理由很实际：当年谷地里的 dude ranch（招待东部游客的度假牧场）员工与客人要做礼拜得跑很远，' +
+          '于是就在牧场聚集地附近盖了这座小教堂。<strong>它至今仍是一座在使用的教堂，而不是博物馆展品</strong>，' +
+          '夏季每个周日仍有礼拜，也常年被用来办婚礼。',
+        '<strong>它紧邻 Menor\u2019s Ferry Historic District，两者共用同一条支路与停车场，实际上是一站。</strong>' +
+          'Menor\u2019s Ferry 是 1894 年 Bill Menor 在蛇河上建的摆渡，' +
+          '<strong>在 1927 年建桥之前，这是河两岸之间唯一的过河方式</strong>——' +
+          '现场保留着复制的平底摆渡船、Menor 的小屋与仓房、烟熏房、水井等一组建筑，' +
+          '<strong>是全园讲「定居者怎么在这里活下来」最完整的一处</strong>，且全部在平坦步道上。',
+        '<strong>2026 年最关键的实际限制不在教堂本身，而在路上：进出的 Menor\u2019s Ferry Road 因 Teton Park Road 环岛工程而「工作日全天封闭」。</strong>' +
+          'NPS 官方 Road Construction 页原文<strong>「Menor\u2019s Ferry Road - Closed to all use on weekdays」</strong>，' +
+          '<strong>也就是说这一站在 2026 年施工季内只有周六与周日能开车抵达</strong>，' +
+          '而且<strong>周末的车位也因施工堆料而减少</strong>。这条支路是教堂与历史区唯一的车行通道，没有替代进场方式。'
+      ],
+      tour: [
+        '<strong>先确认日期再决定要不要来：2026 年施工季内，进出的 Menor\u2019s Ferry Road 官方口径是「Closed to all use on weekdays」，只有周末能开车进去。</strong>' +
+          '<strong>工作日不要抱着「过去看看闸门开不开」的心态跑一趟</strong>，' +
+          '同时 Teton Park Road 的 Moose 环岛工程还有 20 分钟延误（不含入口站排队），来回一趟白跑的成本不低。' +
+          '出发当天先查 <a href="https://go.nps.gov/tetonroads">go.nps.gov/tetonroads</a> 或拨 307-739-3682。' +
+          '（2026-09-15 核实于 nps.gov/grte Road Construction 页）',
+        '<strong>路线与逛法都极简单：从 Moose 沿 Teton Park Road 往西北约 1.1 英里，右转进 Menor\u2019s Ferry Road，停车即到。</strong>' +
+          '<strong>教堂本身 10 分钟看完</strong>——推门进去、在长凳上坐一会儿、看祭坛后那扇窗把 Grand Teton 框起来，就是全部内容；' +
+          '<strong>NPS 标注为轮椅可达，全程无台阶难度、地面平坦。</strong>' +
+          '<strong>看完别直接走，沿平坦步道往东南走几分钟到 Menor\u2019s Ferry 历史区</strong>：' +
+          '复制的平底摆渡船、Menor 的小屋与仓房、烟熏房与水井，配解说牌，' +
+          '<strong>两处加起来 40 分钟到 1 小时，是本区性价比最高的一段「零体力人文行程」。</strong>',
+        '<strong>这是一座仍在使用的教堂，礼节上有几条要守。</strong>' +
+          '<strong>夏季每个周日 8:00 与 10:00 有圣餐礼拜，也经常有婚礼</strong>——' +
+          '<strong>碰上正在进行的仪式请在外面等，不要进去走动或在中间穿过祭坛前</strong>。' +
+          '进门后说话轻声、不要坐上祭坛区域、不要移动长凳与摆设；' +
+          '想安静看窗景就避开周日上午。' +
+          '<strong>墙上有一些诗文与纪念铭牌，是这里除了窗景之外唯一值得慢慢读的东西。</strong>',
+        '<strong>体力与装备：几乎不需要——停车到教堂门口只有几十米平路，是本区最适合带老人小孩、行动不便者或天气不好时的一站。</strong>' +
+          '<strong>教堂内部没有暖气</strong>，九月下旬到十月的清晨室内比外面还阴冷，多带一层。' +
+          '这一带在蛇河河岸台地上，<strong>清晨常有霜与露水，穿防水的鞋更舒服</strong>。' +
+          '历史区的步道是压实土路，婴儿推车勉强可行。',
+        '<strong>餐饮与卫生间：这一站自己没有餐饮，但位置极好。</strong>' +
+          '<strong>往南约 1 英里就是 Moose 路口的 Dornan\u2019s（杂货、披萨、咖啡，全年营业）</strong>，' +
+          '以及 <strong>Craig Thomas Discovery and Visitor Center（2026 年 4 月 10 日 – 10 月 31 日，有洗手间、纸质地图、许可与门票窗口）</strong>——' +
+          '<strong>后者是十月下旬全园唯一还开着的访客中心</strong>，来这一站时顺路把问路况、拿地图、上厕所一起解决掉最省事。' +
+          '<strong>Menor\u2019s Ferry 历史区本身 2026 年的开放期是 4 月 1 日 – 10 月 31 日。</strong>',
+        '<strong>顺路可以连着看的两处：Chapel of the Sacred Heart</strong>（Signal Mountain 一带另一座小教堂，6–9 月开放、多数周日有礼拜，规模更小），' +
+          '以及<strong>往北 3–4 英里的 Blacktail Ponds Overlook 与 Schwabacher Landing</strong>。' +
+          '<strong>如果只有半天又想同时要人文与山景，「Craig Thomas 访客中心 + 这座教堂 + Menor\u2019s Ferry」是最紧凑的一组</strong>，' +
+          '全部集中在 Moose 路口 1 英里范围内。'
+      ],
+      photo: '建筑 <strong>4/5</strong>，风光 <strong>3/5</strong>。' +
+        '<strong>祭坛后那扇框住 Grand Teton 的窗是全园最有辨识度的室内画面</strong>，但空间极窄、遇到仪式就完全不能拍。' +
+        '外观在清晨顺光下可用，其余时段是普通的木屋照片。',
+      shots: [
+        {
+          name: '祭坛后方的窗（室内，正对 Grand Teton）',
+          park: [43.66015, -110.71538],
+          view: [43.66015, -110.71538],
+          desc: '<strong>坐标取自 OpenStreetMap 的教堂实体（way 108707359）。</strong>' +
+            '<strong>最佳时段是上午 09:00–11:00</strong>：山体正面受光、室内仍偏暗，窗内外的亮度差最小；' +
+            '正午顶光会让窗外过曝成一片白。' +
+            '<strong>镜头：24–70mm 从中央过道靠后的位置拍「长凳 + 祭坛 + 窗中的山」的完整关系，70–200mm 单独把窗框与山脊压成一幅画。</strong>' +
+            '<strong>室内外亮度差常达 4–5 档，建议包围曝光三张后期合成</strong>；空间狭窄，三脚架实际上只会挡住其他人，请按手持准备。' +
+            '<strong>有礼拜或婚礼时一律不要拍摄。</strong>'
+        },
+        {
+          name: 'Menor\u2019s Ferry 历史区（室外，摆渡船与原木建筑）',
+          park: [43.66015, -110.71538],
+          view: [43.65881, -110.71329],
+          desc: '<strong>坐标取自 OpenStreetMap 的 Menors Ferry Historic District 节点（node 4045346697），从教堂沿平坦步道步行几分钟。</strong>' +
+            '<strong>清晨日出后 30–90 分钟是这里唯一好的时段</strong>，低角度光打在原木墙面上、河面常有薄雾。' +
+            '<strong>24–70mm 拍摆渡船与小屋的组合，把蛇河与远处山脊带进背景。</strong>' +
+            '这些是登录的历史建筑，<strong>不要触碰、攀爬或跨进围栏</strong>。'
+        }
+      ],
+      access: {
+        visit: '<strong>40 分钟 – 1 小时</strong>（教堂内外 10–15 分钟 + Menor\u2019s Ferry 历史区与解说牌 25–40 分钟，两处之间步行几分钟）。' +
+          '<strong>只看教堂那扇窗：10–15 分钟。</strong>' +
+          '<strong>连带把 Moose 的 Craig Thomas 访客中心与 Dornan\u2019s 一起解决：合计 1.5–2 小时。</strong>' +
+          '（按建筑规模与步道长度推算；NPS 未给这两处官方建议时长）',
+        book: '不需预约，也不售票。婚礼需另向 St. John\u2019s Episcopal Church 申请（307-733-2603），教堂 6 月初至 9 月可办、视神职人员档期而定。',
+        ticket: '<strong>教堂与 Menor\u2019s Ferry 历史区本身完全免费，不单独收费、不设奉献门槛。</strong>' +
+          '但两处都在园界内，<strong>需要园区门票：私家车 $35 / 7 天</strong>（摩托车 $30、徒步或自行车每人 16 岁以上 $20）；' +
+          '<strong>Grand Teton 单园年票 $70</strong>；<strong>America the Beautiful 年票美国居民 $80、非美居民 $250</strong>。' +
+          '<strong>非美国居民 16 岁以上每人另付 $100 nonresident fee，官方原文「unless admitted with an Annual or America the Beautiful Pass」——持任一年票即免。</strong>' +
+          '<strong>与 Yellowstone 各收各的：官方 Fees &amp; Passes 页原文「Visitors traveling to or from Yellowstone National Park through Grand Teton National Park must pay a separate entrance fee」，' +
+          '$35 七日票与 $70 单园年票都进不了 Yellowstone，只有 America the Beautiful 年票通用。</strong>' +
+          '<strong>全园不收现金</strong>，只刷卡；验票需出示带照片的证件。' +
+          '（<strong>2026-09-15 核实于 nps.gov/grte 官方 Fees &amp; Passes 页</strong>）',
+        hours: '<strong>官方两处口径不一致，两种都列出，请以出行前官网与现场标识为准：</strong>' +
+          '<strong>（1）NPS 的 Operating Hours &amp; Seasons 表格写「Chapel of the Transfiguration — Open year-round, Sunday Services June-September」（全年开放，礼拜 6–9 月）</strong>；' +
+          '<strong>（2）管理它的 St. John\u2019s Episcopal Church 2026 年公告写「The Chapel of the Transfiguration is open from May 24 – September 27 and will hold services each Sunday at 8:00 and 10:00 a.m.」</strong>，' +
+          '怀俄明教区页面的口径是「Sundays at 8:00 AM and 10:00 AM, from the last Sunday in May through the last Sunday in September」。' +
+          '<strong>也就是说「全年能不能进堂内」在官方层面存在矛盾：NPS 说全年，教会说 9 月 27 日结束。九月下旬之后到访请先拨 307-733-2603 确认。</strong>' +
+          '<strong>相邻的 Menor\u2019s Ferry Historic District 2026 年为 4 月 1 日 – 10 月 31 日（NPS 表格），室外区域无门禁。</strong>' +
+          '<strong>2026 年的通行限制：唯一车行通道 Menor\u2019s Ferry Road「Closed to all use on weekdays」（工作日全天封闭），只有周末可开车抵达，周末车位也因施工减少；' +
+          'Teton Park Road 的 Moose 环岛工程 5 月 1 日 – 11 月 15 日延误 20 分钟。</strong>' +
+          '此外 Teton Park Road 官方原文「closed November 1 to April 30 from Taggart Lake Trailhead to Signal Mountain Lodge」，但本站位于 Moose 一侧、在该封闭段以南，冬季仍可从 Moose 接近。' +
+          '（<strong>2026-09-15 核实于 nps.gov/grte Operating Hours 页（最后更新 2026 年 9 月 10 日）、Road Construction 页、stjohnsjackson.org 与 episcopalwy.org</strong>）',
+        parking: '<strong>支路尽头有免费小停车场（约 20–30 位，紧邻教堂与历史区），无需许可。</strong>' +
+          '<strong>2026 年因施工堆料，周末可用车位减少；工作日整条支路封闭、根本进不去。</strong>' +
+          '周日上午礼拜时段车位最紧张。',
+        walk: '<strong>停车到教堂门口不到 1 分钟 / 几十米，平坦，NPS 标注轮椅可达</strong>；' +
+          '教堂到 Menor\u2019s Ferry 历史区各建筑 <strong>3–5 分钟 / 约 200–300 米</strong>，压实土路，几乎无高差。'
+      },
+      notes: [
+        '<strong>2026 年施工季内，进出的 Menor\u2019s Ferry Road 工作日全天封闭（官方原文「Closed to all use on weekdays」），只有周六与周日能开车抵达。</strong>这是本条目最大的实际约束，出发前必查实时路况图或拨 307-739-3682。',
+        '<strong>「堂内是否全年开放」官方自相矛盾</strong>：NPS 写「Open year-round」，St. John\u2019s 教会 2026 年公告写「open from May 24 – September 27」。九月末之后想进堂内请先拨 <strong>307-733-2603</strong>。',
+        '<strong>这是一座仍在使用的教堂</strong>：夏季每周日 8:00 与 10:00 有礼拜，也常有婚礼。碰上仪式请在外等候，不要进去走动或拍摄。',
+        '<strong>教堂只有 65 个座位、内部空间极窄</strong>，人多时排队进出，三脚架只会挡路。',
+        '<strong>祭坛后那扇窗朝西北</strong>，上午山体正面受光时最好看，正午顶光会让窗外白成一片。',
+        '<strong>Menor\u2019s Ferry 的建筑是登录的历史构筑物</strong>，不要触碰、攀爬或跨进围栏。',
+        '<strong>教堂内无暖气</strong>，秋季清晨室内阴冷，多带一层。',
+        '这一站离 Moose 路口只有约 1 英里，<strong>Craig Thomas 访客中心（开到 10 月 31 日）与全年营业的 Dornan\u2019s 都在旁边</strong>，是把厕所、地图、补给一次解决的最佳位置。'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Chapel_of_the_Transfiguration_Grand_Teton_NP1.jpg',
+          cap: '小教堂外观与背后的 Teton 山脊 · Acroterion / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Chapel_of_the_Transfiguration_02.JPG',
+          cap: '从祭坛方向看那扇框住 Grand Teton 的窗 · Dinwy / CC BY-SA 3.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Chapel_of_the_Transfiguration_GTNP1.jpg',
+          cap: '原木结构与教堂正面 · Acroterion / CC BY-SA 4.0' }
       ]
     }
   ]
