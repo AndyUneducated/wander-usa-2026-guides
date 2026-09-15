@@ -103,62 +103,62 @@
 
   /* ---------- 总览 ---------- */
   var OVERVIEW = [
-    /* 按实际行程日期收窄后的结论。原先按笼统的「9 月下旬–10 月下旬」写，
-       收窄后有大量条目直接失效或反转，这张卡片就是差异清单。 */
-    '<details class="callout tip" open><summary class="title">📅 按你的实际日期收窄：Philadelphia 10/19–20，Washington DC 10/21–25</summary>',
-    '<p>下面这几条是把笼统窗口换成实际日期后<strong>结论发生变化</strong>的部分，' +
-    '优先看这里，再看其余卡片里的通用内容。星期已换算好：' +
-    '<strong>10/19 周一、10/20 周二、10/21 周三、10/22 周四、10/23 周五、10/24 周六、10/25 周日</strong>。</p>',
+    /* 这一区的行程顺序不是由距离决定的，而是由星期决定的：几个子地区会在
+       固定的某一天成片关门。原先这张卡片是按某一次行程的具体日期写的，
+       现在改回星期本身——任何人排哪一周都用得上。 */
+    '<details class="callout tip" open><summary class="title">📅 先按星期排顺序，再考虑路线</summary>',
+    '<p>这一区景点密度高到几乎不用规划路线，真正锁死顺序的是<strong>闭馆日</strong>——' +
+    '它会成片废掉整个子地区，而且两个城市的「死日」正好不同。' +
+    '<strong>先把下面四条套到自己的星期上，再谈怎么走。</strong></p>',
 
-    '<p><strong>1. 10/20 周二是 Philadelphia 的死日，必须靠排序绕开。</strong>' +
+    '<p><strong>1. 周二是 Philadelphia 的死日。</strong>' +
     'Philadelphia Museum of Art、Barnes Foundation、Rodin Museum <strong>周二全部闭馆</strong>——' +
-    '这三个就是 Parkway 子地区的全部主力。你在 Philadelphia 只有两天，所以顺序是被锁死的：' +
-    '<strong>Parkway 博物馆群必须放 10/19 周一，Old City 那批（Independence Hall、Liberty Bell 全年无休）放 10/20 周二。</strong>' +
-    '10/19 周一还要注意 Eastern State 的导览团工作日全天只有 12:00 一场。</p>',
+    '这三个就是 Parkway 子地区的全部主力。' +
+    '<strong>周二请把 Philadelphia 的一天放在 Old City</strong>' +
+    '（Independence Hall 与 Liberty Bell 全年无休），把 Parkway 博物馆群挪到别的日子。' +
+    '另注意 Eastern State Penitentiary 的导览团<strong>工作日全天只有 12:00 一场</strong>。</p>',
 
-    '<p><strong>2. 10/25 周日 Capitol Hill 全军覆没。</strong>' +
-    'US Capitol、Library of Congress、Supreme Court 三个同时关门，' +
-    '而 10/25 是你在 DC 的最后一天。<strong>Capitol Hill 必须排在 10/21–10/23 这三天（周三至周五）之内。</strong>' +
-    '10/24 周六也不行：Supreme Court 周六关，且 Library of Congress 主阅览室的地面走廊只在周二至周五开放，' +
-    '周六你只能从二层 Overlook 往下拍。</p>',
+    '<p><strong>2. 周日与周一是 Capitol Hill 的死日。</strong>' +
+    '周日 US Capitol、Library of Congress、Supreme Court 三个同时关门，周一 Library of Congress 也关。' +
+    '<strong>这个子地区实际只有周二到周五能拿全。</strong>' +
+    '周六同样不完整：Supreme Court 周六关，且 Library of Congress 主阅览室的地面走廊只在周二至周五开放，' +
+    '周六只能从二层 Overlook 往下看。</p>',
 
-    '<p><strong>3. 秋色反而是好消息。</strong>DC 低地的近峰期是 <strong>10/20–10/27</strong>，' +
-    '你的 DC 段 10/21–25 <strong>整段落在近峰窗口内</strong>。' +
-    '这和笼统窗口下「九月下旬完全没有颜色」的结论正好相反——按你的实际日期，' +
-    'Rock Creek 一带的林地、Great Falls 的峡谷两岸、Dumbarton Oaks 的园景都成立，值得排进去。' +
-    'Philadelphia 略早于 DC，10/19–20 也已进入转色期。</p>',
+    '<p><strong>3. 周一反过来是 National Mall 最划算的一天。</strong>' +
+    '露天纪念建筑群全年 24 小时开放、不受闭馆日影响，' +
+    '而周一恰好是不少室内馆的关门日——<strong>把纪念碑与户外那一段排在周一，等于白捡一天。</strong></p>',
 
-    '<p><strong>4. 这几条原本的警告可以直接划掉，都在你抵达之前：</strong>' +
-    'Washington Monument 的 <strong>10/5 全天维护关闭</strong>、' +
-    '<strong>Columbus Day 10/12 周一</strong>的联邦假日安排、' +
-    'Dumbarton Oaks 的 <strong>10/8–10 闭园</strong>。' +
-    'Dumbarton Oaks 平时周一周二闭园，但你在 DC 的日子是周三到周日，不受影响。</p>',
+    '<p><strong>4. 联邦假日按另一套走。</strong>' +
+    'Columbus Day（10 月第二个周一）这类联邦假日，各馆开放安排与平日不同，' +
+    'Capitol 与 Library of Congress 的导览通常取消。' +
+    '出行那一周若含联邦假日，逐个核对官方页面，不要沿用平日时刻表。' +
+    '完整交叉表见<a href="#appendix">附录 B</a>。</p></details>',
 
-    '<p><strong>5. 两条被日期锁死的坏消息。</strong>' +
-    '<strong>Smithsonian Castle</strong> 在 9 月 7 日后重新关闭，你以一个多月之差确定错过（Haupt Garden 仍开）。' +
-    '<strong>国会两院 10 月整月休会</strong>，旁听席即便开放也只能看空场，' +
-    '而且两院议席区<strong>禁止携带任何电子设备</strong>，相机手机都要寄存——这个点位在你的日期下没有摄影价值。</p>',
-
-    '<p><strong>6. Arlington 换岗频率已切换。</strong>10 月 1 日起改为<strong>每小时整点一次</strong>' +
-    '（4–9 月是每半小时）。配合 8:00–17:00 的开放时间，10/25 那天只有八场可看，' +
-    '想拍就得对着整点安排。</p>',
-
-    '<p><strong>7. The People\'s House 的票现在就得订。</strong>' +
-    '它的放票规则是每月第一个工作日 17:00 ET 前放出次月全月票，' +
-    '所以<strong>10 月的票已于 9 月 1 日放出</strong>。详见<a href="#appendix">附录 C</a>。</p>',
-
-    '<p class="muted">其余卡片保留了整个 9 月下旬至 10 月下旬的通用信息，' +
-    '万一行程调整仍然可用。</p></details>',
+    /* 以下三条都是「随月份而变」而不是「随某一次行程而变」的事实，
+       所以单独成块，写清各自的季节或月份条件。 */
+    '<details class="callout info" open><summary class="title">📆 三件按月份变的事：换岗频率、国会会期、白宫展厅放票</summary>',
+    '<p><strong>Arlington 的卫兵换岗频率随季节切换。</strong>' +
+    '<strong>4 月至 9 月每半小时一次，10 月至次年 3 月改为每小时整点一次</strong>。' +
+    '配合 8:00–17:00 的开放时间，秋冬季一天只有九场，想看就得对着整点安排；' +
+    '夏季则宽松得多。</p>',
+    '<p><strong>国会两院的会期决定旁听席有没有东西可看。</strong>' +
+    '休会期间旁听席即便开放也只是空场，而两院议席区<strong>禁止携带任何电子设备</strong>，' +
+    '相机手机一律寄存。<strong>2026 年 10 月两院整月休会</strong>（核实于 ' + VERIFIED + '）；' +
+    '其它月份请查 congress.gov 的当年会期表。</p>',
+    '<p><strong>The People\'s House 的票按月放，很容易整月错过。</strong>' +
+    '放票规则是<strong>每月第一个工作日 17:00 ET 前放出次月全月票</strong>，' +
+    '也就是说想去某个月，上一个月的月初就得订。详见<a href="#appendix">附录 C</a>。</p></details>',
 
     '<details class="callout warn" open><summary class="title">⚠️ 两处「按月续期」的封闭令，是本区唯一真正的变数</summary>',
     '<p>这一区绝大多数点位都稳定得像博物馆时刻表，但有两处例外，' +
-    '它们的共同特点是<strong>封闭命令按月签发、恰好在你出行窗口开始前到期</strong>，所以现在无法给你确定答案。</p>',
+    '它们的共同特点是<strong>封闭命令按月签发、一到期就续期</strong>——' +
+    '也就是说，任何时候写下的状态都只在当月成立，出行前必须自己重查一遍。</p>',
     '<p><strong>1. White House 周边的公园区域。</strong>' +
     'NPS 于 9 月 1 日签署 Record of Determination，应 Secret Service 要求关闭 Lafayette Park、Ellipse、Sherman Park、' +
     'First Division Monument、E Street 与 White House Sidewalk，<strong>有效期至 9 月 22 日</strong>。' +
     '但这是 8 月同类命令的续期，而 Lafayette Park 自 <strong>1 月 19 日</strong>起就一直被临时钢围栏圈着——' +
     '至今已连续续期八个月。国家首都规划委员会 9 月 3 日刚受理了给 Lafayette Square 加装<strong>永久围栏</strong>的方案。' +
-    '<strong>请按「进不去」来做计划</strong>，可用的替代是 H Street NW 人行道用 200mm 越过公园拍北立面。</p>',
+    '<strong>请按「进不去」来做计划</strong>，从 H Street NW 人行道越过公园看北立面是现实的替代。</p>',
     '<p><strong>2. Lincoln Memorial Reflecting Pool。</strong>' +
     '水池本体、两侧步道与南北草地中带都在围挡内，<strong>现行封闭令到 9 月 10 日</strong>。' +
     '$1,600 万翻修 6 月完工后随即出现涂层剥落与藻华，7 月再次放空，9 月初又新签了一份为期一年、$270 万的水处理合同。' +
@@ -170,57 +170,47 @@
     '<p>这一区大部分场馆都是联邦机构，停摆就关门，所以这条本来该是头号风险。<strong>现在它不是了。</strong></p>',
     '<p><strong>H.R. 6500《Continuing Appropriations and Extensions Act, 2027》已于 2026 年 9 月 2 日签署成为 Public Law 119-103</strong>，' +
     '按 FY2026 水平延续拨款至 <strong>2026 年 12 月 11 日</strong>。参议院以 90–6 通过，众议院以 370–48 通过，' +
-    '比 9 月 30 日的悬崖提前了约四周。你 9 月下旬到 10 月下旬的整个窗口都在覆盖期内，' +
-    '<strong>10 月 1 日财年切换不会触发停摆</strong>。</p>',
-    '<p>下一个真实节点是 12 月 11 日，在你离境之后。仅当行程推迟到 12 月中旬以后才需要重新评估。</p>',
+    '比 9 月 30 日的悬崖提前了约四周。也就是说，' +
+    '<strong>2026 年 10 月 1 日的财年切换不会触发停摆</strong>，' +
+    '九月下旬到十二月上旬这一整段都在覆盖期内。</p>',
+    '<p><strong>下一个真实节点是 2026 年 12 月 11 日。</strong>在那之后出行，' +
+    '这一整条结论都要重新核实——这一区大部分场馆是联邦机构，停摆即关门。</p>',
     '<p>顺带一句：即便真的停摆，<strong>Mount Vernon</strong>（私营，Mount Vernon Ladies\' Association）与' +
     '<strong>Old Town Alexandria</strong>（市政）完全免疫，是本区最可靠的备胎。</p></details>',
 
-    '<details class="callout warn"><summary class="title">⚠️ 闭馆日是本区最容易踩的坑：周二毁 Philadelphia，周日毁 Capitol Hill</summary>',
-    '<p>这一区的景点密度高到几乎不用规划路线，但闭馆日会成片地废掉整个子地区，' +
-    '而且两个城市的「死日」正好不同。</p>',
-    '<p><strong>周二：Philadelphia 近乎瘫痪。</strong>Museum of Art、Barnes Foundation、Rodin Museum 同时关闭——' +
-    '这三个就是 Parkway 子地区的全部主力。周二请把 Philadelphia 整个跳过。</p>',
-    '<p><strong>周日：Capitol Hill 全军覆没。</strong>US Capitol、Library of Congress、Supreme Court 三个同时关门。' +
-    '<strong>周一 Library of Congress 也关</strong>，所以这个子地区实际只有周二到周五能拿全。</p>',
-    '<p><strong>周六还有一个隐藏陷阱</strong>：Library of Congress 主阅览室的地面走廊只在周二至周五开放' +
-    '（加周四晚场），周六你只能从二层 Overlook 往下拍。完整交叉表见<a href="#appendix">附录 B</a>。</p></details>',
-
-    '<details class="callout tip"><summary class="title">💡 秋色：你的 10/21–25 正好落在近峰窗口内</summary>',
+    '<details class="callout tip"><summary class="title">💡 秋色：十月下旬才成立，九月下旬完全不成立</summary>',
     '<p>这条决定了本区好几个点位值不值得去。</p>',
     '<p><strong>DC 低地的秋色峰值在 10 月 25 日至 11 月 8 日</strong>，近峰期 10 月 20–27 日。' +
     'Blue Ridge 与 Shenandoah 早得多，约 10 月 10–20 日。Philadelphia 与 DC 大致同步，略早几天。' +
     '2026 年的季度展望是大西洋走廊比常年略冷略干，据此可以把上述日期<strong>再往前挪 3–5 天</strong>。</p>',
-    '<p><strong>按你的实际日期，秋色是成立的。</strong>DC 段 10/21–25 整段在近峰期内，' +
-    'Theodore Roosevelt Island 这类纯林地点位、Great Falls 的峡谷两岸、Dumbarton Oaks 的园景都值得排；' +
-    '若展望里的偏冷偏干成立，10/21 就可能已经接近峰值。Philadelphia 的 10/19–20 略早于 DC，' +
-    '处在转色期，Parkway 沿线与 Boathouse Row 的河岸坡地已有颜色但未到最浓。</p>',
-    '<p class="muted">若行程改到九月下旬，结论完全反转：那时低地没有任何颜色，' +
-    '上述几个纯林地点位应直接跳过。</p>',
-    '<p>反过来说，<strong>十月下旬有一个九月没有的好处</strong>：日落提前到 18:20，而各馆闭馆时间不变，' +
-    '所以你走出博物馆时正好撞上黄金时段；九月下旬日落 19:00，出馆后要空等一个多小时。' +
-    '这两个月需要完全不同的日程编排。</p></details>',
+    '<p><strong>所以这几个点位是「十月下旬限定」：</strong>' +
+    'Theodore Roosevelt Island 这类纯林地、Great Falls 的峡谷两岸、Dumbarton Oaks 的园景，' +
+    '<strong>十月二十日之后来值得专门排，九月下旬来则应直接跳过</strong>——那时低地没有任何颜色。' +
+    'Philadelphia 比 DC 略早几天进入转色期，Parkway 沿线与 Boathouse Row 的河岸坡地先有颜色。</p>',
+    '<p><strong>十月下旬还有一个九月没有的好处</strong>：日落提前到 18:20 前后，而各馆闭馆时间不变，' +
+    '出馆时正好撞上黄金时段；九月下旬日落 19:00，出馆后要空等一个多小时。' +
+    '<strong>这两个月需要完全不同的日程编排。</strong></p></details>',
 
     '<details class="callout info"><summary class="title">本区被降级或无法抵达的点位</summary>',
     '<p>只有一个点位标成了红色卡片：<strong>Smithsonian Castle</strong>。' +
     '它自 2023 年 2 月起就因一项约 $5.3 亿、为期五年的工程关闭，' +
-    '期间为 America 250 短暂开放了 <strong>5 月 22 日至 9 月 7 日</strong>，之后重新关闭——' +
-    '你会以两三周之差错过。<strong>Enid A. Haupt Garden 不受影响，照常开放</strong>，所以卡片保留了室外机位。</p>',
+    '期间为 America 250 短暂开放了 <strong>2026 年 5 月 22 日至 9 月 7 日</strong>，之后重新关闭，' +
+    '工程按计划要到 2028 年前后才完。<strong>Enid A. Haupt Garden 不受影响，照常开放</strong>，' +
+    '所以卡片保留了室外内容。</p>',
     '<p>另外几处虽然可达但已明显降级，正文里都写清了原因：' +
     '<strong>White House</strong> 掉到 2.5 分（周边公园区全封）、' +
     '<strong>Capitol 东立面</strong>被脚手架包到 2028 年秋（外景全部改走西立面）、' +
     '<strong>C&amp;O Canal 的 Georgetown 段是干河床</strong>（2 月渠壁垮塌）、' +
     '<strong>Netherlands Carillon 塔身永久禁止攀登</strong>（网上那些「登塔看景」的攻略已经过期）。</p></details>',
 
-    '<details class="callout info"><summary class="title">当前状态</summary>',
-    '<p>七个子地区的联网研究全部完成并入库，共 <strong>48 个景点</strong>。' +
-    '所有景点已按纬度<strong>从北到南</strong>排序，地图针脚编号与卡片编号一一对应。' +
-    '实时信息核实于 <strong>' + VERIFIED + '</strong>。</p>',
-    '<p>研究过程中有三条被推翻的常见说法值得单独点出：' +
+    '<details class="callout info"><summary class="title">三条被推翻的常见说法</summary>',
+    '<p>景点按纬度<strong>从北到南</strong>排序，地图针脚编号与卡片编号一一对应。' +
+    '实时信息核实于 <strong>' + VERIFIED + '</strong>。' +
+    '核实过程中有三条流传很广的说法被推翻，值得单独点出：</p>',
+    '<p>' +
     '<strong>National Archives 圆厅的禁拍令已经废除</strong>（现行政策是「鼓励」无闪光拍摄，几乎所有攻略都还在抄旧规矩）；' +
     '<strong>Tidal Basin 海堤工程已于 2026 年 4 月 21 日全线完工重开</strong>（2024–25 年那批「Jefferson Memorial 沿岸封闭」的说法全部过期）；' +
-    '<strong>Mount Vernon 宅邸内部允许手持无闪光拍摄</strong>。</p>',
-    '<p>本页仍有一项待办：景点图片目前直连 Wikimedia Commons，尚未本地化到仓库。</p></details>'
+    '<strong>Mount Vernon 宅邸内部允许手持无闪光拍摄</strong>。</p></details>'
   ].join('');
 
   /* ---------- 附录 ---------- */
@@ -241,7 +231,8 @@
     '<p class="section-lead">方位角自北顺时针。' +
     '黄金时刻约为日落前 40 分钟至日落；<strong>蓝调最佳在日落后 15–25 分钟</strong>，' +
     '这一区所有夜景建筑（Lincoln、Jefferson、Capitol 西立面、Union Station）都在这个窗口内最好看。' +
-    '<strong>夏令时结束于 11 月 1 日，整个出行窗口都还在 EDT 之内。</strong>' +
+    '<strong>2026 年的夏令时结束于 11 月 1 日</strong>，十月之内都还是 EDT；' +
+    '十一月之后来，下表的时刻要整体减去一小时。' +
     '本地域南北跨度带来的差异很小：Philadelphia 比 DC 早约 7–9 分钟，方位角几乎相同。</p>',
     table(['地点', '日出 9/25', '日落 9/25', '日出 10/8', '日落 10/8', '日出 10/22', '日落 10/22'], SUN),
     '<p class="section-lead"><strong>一条可以直接抄的几何事实：</strong>' +
@@ -279,7 +270,7 @@
     '<p class="section-lead">本报告的实时信息核实于 <strong>' + VERIFIED + '</strong>。' +
     '其中有几项在核实当天仍在变动，且都属于「按月续期」的行政命令——' +
     '<strong>标了「高」的四条请在出发当天早上逐条点开看一遍</strong>，' +
-    '尤其是前两条，它们的现行命令到期日都落在你出行窗口开始之前。</p>',
+    '尤其是前两条：它们的封闭命令每月重签一次，核实日期一过就不能当真。</p>',
     table(['要查什么', '变动可能', '链接 / 方式'], RECHECK)
   ].join('');
 
