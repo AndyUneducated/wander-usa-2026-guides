@@ -2180,11 +2180,11 @@ module.exports = {
           + '后者需提前订位'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Springwood_FDR_home_NY1.jpg',
+        { url: 'img/springwood-fdr-home-ny1-639978ba.jpg',
           cap: 'Springwood 主宅立面 · Acroterion / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Home_of_Franklin_D._Roosevelt_National_Historic_Site%2C_New_York_LOC_2005625786.jpg',
+        { url: 'img/home-of-franklin-d-roosevelt-national-historic-site-new-york-c4495aa4.jpg',
           cap: '故居与前草坪全景 · United States National Park Service / 公有领域' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c6/Roosevelt_presidential_library_NY1.jpg',
+        { url: 'img/roosevelt-presidential-library-ny1-65547ef3.jpg',
           cap: 'FDR Presidential Library & Museum 建筑 · Acroterion / CC BY-SA 4.0' }
       ]
     },
@@ -2409,11 +2409,11 @@ module.exports = {
           + 'Trophy Point 的河景在这个季节最好'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e4/Trophy_Point%2C_West_Point_NY.jpg',
+        { url: 'img/trophy-point-west-point-ny-550d93d8.jpg',
           cap: 'Trophy Point 越 Hudson 的视野 · Maria S. Correa-Morales (BySoledad) / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Battle_Monument_At_Trophy_Point-West_Point_Military_Academy.jpg',
+        { url: 'img/battle-monument-at-trophy-point-west-point-military-academy-f5975e45.jpg',
           cap: 'Trophy Point 的 Battle Monument · Angelo Marcialis / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Cadet_Chapel_USMA.JPG',
+        { url: 'img/cadet-chapel-usma-a714215a.jpg',
           cap: 'Cadet Chapel 石砌哥特复兴立面 · Ahodges7 / 公有领域' }
       ]
     },
@@ -2617,11 +2617,11 @@ module.exports = {
           + '而 Vanderbilt 全年开放、只有三天闭园，是这一区稳定可做的镀金时代庄园'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Vanderbilt_Mansion_Hyde_Park.jpg',
+        { url: 'img/vanderbilt-mansion-hyde-park-1d756314.jpg',
           cap: '范德堡庄园主宅立面 · Aoliver476 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Gardens%2C_Vanderbilt_Estate%2C_Hyde_Park%2C_2012-06-25%2C_01_2-color.jpg',
+        { url: 'img/gardens-vanderbilt-estate-hyde-park-2012-06-25-01-2-color-490ea98e.jpg',
           cap: '层叠台地的 Formal Gardens · Cbaile19 / CC0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/Vanderbilt_Mansion_VC_NY1.jpg',
+        { url: 'img/vanderbilt-mansion-vc-ny1-4a1ea0be.jpg',
           cap: 'Pavilion Visitor Center（买票与导览集合处） · Acroterion / CC BY-SA 4.0' }
       ]
     }

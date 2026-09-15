@@ -2483,11 +2483,11 @@ module.exports = {
           '<strong>按「来看四个专长」而不是「来看通史」安排时间，这一趟的性价比会高很多</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Brooklyn_Museum_20170313.jpg',
+        { url: 'img/brooklyn-museum-20170313-355fa092.jpg',
           cap: 'Eastern Parkway 正面与 2004 年的玻璃门廊 · Suicasmo / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Brooklyn_Museum_-_Entrance_%2852302265063%29.jpg',
+        { url: 'img/brooklyn-museum-entrance-52302265063-bc11b5fd.jpg',
           cap: '正门入口与科林斯柱廊 · ajay_suresh / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d1/Brooklyn_Museum_Night_2015.jpg',
+        { url: 'img/brooklyn-museum-night-2015-62f04581.jpg',
           cap: '夜间亮灯的 Beaux-Arts 立面 · Cm300883 / CC BY-SA 4.0' }
       ]
     },
@@ -2759,11 +2759,11 @@ module.exports = {
           '傍晚来就把它当剪影与残霞看，别期待细节'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/View_from_Domino_Park_002.jpg',
+        { url: 'img/view-from-domino-park-002-96e7c704.jpg',
           cap: '自 Domino Park 望 East River 与 Manhattan 天际线 · Kidfly182 / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Bedford_Av_-_NYC_Williamsburg_%2825877481737%29.jpg',
+        { url: 'img/bedford-av-nyc-williamsburg-25877481737-14b534ab.jpg',
           cap: 'Bedford Avenue 的店铺街景 · FaceMePLS / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Brooklyn_Smorgasburg_%288173898964%29.jpg',
+        { url: 'img/brooklyn-smorgasburg-8173898964-d57d9f89.jpg',
           cap: 'Smorgasburg 露天美食市集的摊位与人流 · Jill Laurie Goodman / CC BY 2.0' }
       ]
     },
@@ -2981,11 +2981,11 @@ module.exports = {
           '所以它替代不了本馆，只能算一个补充'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/New_York_Transit_Museum_Court_Street_platform.jpg',
+        { url: 'img/new-york-transit-museum-court-street-platform-f6311c10.jpg',
           cap: 'Court Street 废弃站台上的老车厢队列 · Marcin Wichary / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Court_St_signage_at_New_York_Transit_Museum.jpg',
+        { url: 'img/court-st-signage-at-new-york-transit-museum-92ca9a06.jpg',
           cap: '站内保留的老式「Court St」马赛克站名牌 · wctaiwan / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/New_York_Transit_Museum_July_2013_005.jpg',
+        { url: 'img/new-york-transit-museum-july-2013-005-08a0d9a2.jpg',
           cap: '馆内展厅与历代车辆展陈 · King of Hearts / CC BY-SA 4.0' }
       ]
     },
@@ -3312,11 +3312,11 @@ module.exports = {
           '上错车会被带到终点再折回，多花二十分钟'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Flushing_Meadows_Unisphere.jpg',
+        { url: 'img/flushing-meadows-unisphere-070c12c6.jpg',
           cap: 'Unisphere 与环绕它的三道轨道环 · Avery A. Benson / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/23/Flushing_Meadows_Fair_Grounds_td_%282018-05-26%29_020_-_Unisphere.jpg',
+        { url: 'img/flushing-meadows-fair-grounds-td-2018-05-26-020-unisphere-d0d9e5cb.jpg',
           cap: '自水池对岸看不锈钢地球全貌 · Tdorante10 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/Queens_Museum_Panorama_with_Never_Built_New_York.jpg',
+        { url: 'img/queens-museum-panorama-with-never-built-new-york-8c34c4b7.jpg',
           cap: 'Queens Museum 的 Panorama of the City of New York 全市模型 · Jeremy Neiman / CC BY-SA 4.0' }
       ]
     }

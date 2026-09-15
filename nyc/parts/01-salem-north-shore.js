@@ -1200,11 +1200,11 @@ module.exports = {
           '16 岁以下免费——带孩子来的家庭实际支出比想象低很多'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Yin_Yu_Tang_House_Salem_Mass.jpg',
+        { url: 'img/yin-yu-tang-house-salem-mass-29c03981.jpg',
           cap: '荫余堂重建后的外观与马头墙 · Caseyleebrown / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Yin_Yu_Tang_House_reception_hall.jpg',
+        { url: 'img/yin-yu-tang-house-reception-hall-4885055d.jpg',
           cap: '荫余堂内部厅堂与木构 · Gkuriger / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Peabody_Essex_Museum.JPG',
+        { url: 'img/peabody-essex-museum-afc21548.jpg',
           cap: 'PEM 主楼与 East India Square 立面 · Fletcher6 / CC BY-SA 3.0' }
       ]
     },
@@ -1409,11 +1409,11 @@ module.exports = {
           '也不要坐上或移动门口的干草捆、南瓜与季节装饰</strong>（官方明文要求）'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/ca/The_Witch_House%2C_Salem%2C_MA%2C_2023-02-23_04.jpg',
+        { url: 'img/the-witch-house-salem-ma-2023-02-23-04-8197b9bd.jpg',
           cap: '陡坡屋顶与二层悬挑的正面立面 · Crisco 1492 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/The_witch_house_salem_2009.JPG',
+        { url: 'img/the-witch-house-salem-2009-eb84f762.jpg',
           cap: 'Essex Street 转角看 Witch House 全貌 · chensiyuan / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Salem_Witch_House_II.jpg',
+        { url: 'img/salem-witch-house-ii-b458a526.jpg',
           cap: '深色木瓦墙面与菱形小格铅条窗 · SalemPuritan / CC BY-SA 4.0' }
       ]
     },
@@ -1643,11 +1643,11 @@ module.exports = {
           '若你的行程正撞上十月的 Salem 而只想安静看老城，把时间挪到这里'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/16/Fort_Sewall%2C_Marblehead_%2842961558995%29.jpg',
+        { url: 'img/fort-sewall-marblehead-42961558995-4cd2ba15.jpg',
           cap: 'Fort Sewall 的土垒与俯瞰港口的岬角 · Haydn Blackey / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Marblehead_Massachusetts_view_from_Fort_Sewall_looking_northeast.JPG',
+        { url: 'img/marblehead-massachusetts-view-from-fort-sewall-looking-north-1b81f100.jpg',
           cap: '自 Fort Sewall 朝东北看港口与 Marblehead Neck · Tomwsulcer / CC0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Marblehead_Harbor_from_Crocker_Park_Spring.jpg',
+        { url: 'img/marblehead-harbor-from-crocker-park-spring-defc4cbf.jpg',
           cap: '自 Crocker Park 看老城立面与锚地帆船 · Lisapaulinet / CC BY-SA 4.0' }
       ]
     },
@@ -1879,11 +1879,11 @@ module.exports = {
           '<strong>注意 Cape Ann 的潮差只有 5–6 英尺、比 Boston 晚约 50 分钟</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Motif_Number_1%2C_Rockport_MA.jpg',
+        { url: 'img/motif-number-1-rockport-ma-23bd68f9.jpg',
           cap: 'Motif No. 1 与内港——从西岸回望的经典角度 · John Phelan / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Motif_Number_1%2C_Bradley_Wharf%2C_Rockport_%28493905%29_%2811690225934%29.jpg',
+        { url: 'img/motif-number-1-bradley-wharf-rockport-493905-11690225934-26022e30.jpg',
           cap: '立在 Bradley Wharf 花岩码头上的红色渔棚 · Robert Linsdell / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Bearskin_Neck_in_Rockport%2C_Ma.jpg',
+        { url: 'img/bearskin-neck-in-rockport-ma-a2c4e68a.jpg',
           cap: 'Bearskin Neck 的店铺带与窄巷 · MBCF / CC BY-SA 4.0' }
       ]
     }

@@ -1920,11 +1920,11 @@ module.exports = {
           '想拍蓝调版本的人请在 18:00 前就到位，那半小时过得比想象中快'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Times_Square_night_panorama.jpg',
+        { url: 'img/times-square-night-panorama-33da723e.jpg',
           cap: '入夜后的广告牌全包围全景 · PLBechly / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Times_Square%2C_NYC_at_night_-_August_2025.jpg',
+        { url: 'img/times-square-nyc-at-night-august-2025-52743dfe.jpg',
           cap: '2025 年夜间的 Broadway 步行广场与屏幕墙 · Nielsoncaetanosalmeron / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bf/TKTS_red_stairs_jeh.JPG',
+        { url: 'img/tkts-red-stairs-jeh-7b574290.jpg',
           cap: 'Duffy Square 的 TKTS 红色玻璃台阶 · Jim.henderson / Public domain' }
       ]
     },
@@ -2103,11 +2103,11 @@ module.exports = {
           '而组合票会限制你选时段，自己算清楚再买</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Museum_of_Modern_Art_%28MoMA%29_%2851395759113%29.jpg',
+        { url: 'img/museum-of-modern-art-moma-51395759113-6fd40ef0.jpg',
           cap: '53 街正门与谷口吉生改建后的玻璃立面 · ajay_suresh / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Crowd_Gathers_at_Starry_Night_Painting_in_New_York_City%27s_Museum_of_Modern_Art_%28MOMA%29.jpg',
+        { url: 'img/crowd-gathers-at-starry-night-painting-in-new-york-city-s-mu-0b7e4398.jpg',
           cap: '五楼 501 号厅《星夜》前的典型人流 · Rickmouser45 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Courtyard_Museum_of_Modern_Art_3_%284694298070%29.jpg',
+        { url: 'img/courtyard-museum-of-modern-art-3-4694298070-e76ad4a6.jpg',
           cap: 'Abby Aldrich Rockefeller Sculpture Garden · Tony Hisgett / CC BY 2.0' }
       ]
     },
@@ -2297,9 +2297,9 @@ module.exports = {
           '（群舞的队形需要距离），话剧则越靠前越好'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/69/New_York_City_%28New_York%2C_USA%29%2C_Times_Square-Duffy_Square_--_2012_--_6380.jpg',
+        { url: 'img/new-york-city-new-york-usa-times-square-duffy-square-2012-63-8faa02e4.jpg',
           cap: 'Duffy Square 与 TKTS 折扣票亭所在的剧院区北端 · Dietmar Rabich / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/60/Broadway_Theatre_W_53_St_May_2025_02.jpg',
+        { url: 'img/broadway-theatre-w-53-st-may-2025-02-7238652e.jpg',
           cap: '真正开在 Broadway 路上的四座剧院之一：Broadway Theatre · Epicgenius / CC BY-SA 4.0' }
       ]
     }

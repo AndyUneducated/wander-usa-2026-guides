@@ -3108,11 +3108,11 @@ module.exports = {
           '行程紧的人请把这几站安排在同一天以便一次调整'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Freedom_Trail_-_53257428834.jpg',
+        { url: 'img/freedom-trail-53257428834-ed5332f7.jpg',
           cap: '地面上的红砖线与史迹铜牌 · xiquinhosilva / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Old_State_House%2C_Boston_%28western_elevation_detail%2C_2026%29.jpg',
+        { url: 'img/old-state-house-boston-western-elevation-detail-2026-e2d4ba13.jpg',
           cap: 'Old State House 立面细节（2026 年） · Seasider53 / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Bunker_Hill_Monument%2C_Aug_2019.jpg',
+        { url: 'img/bunker-hill-monument-aug-2019-dc51a5e9.jpg',
           cap: '红线终点的 Bunker Hill Monument · Mys 721tx / CC BY-SA 3.0' }
       ]
     },
@@ -3329,11 +3329,11 @@ module.exports = {
           '<strong>千万不要都排在周二</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/86/Boston_Museum_of_Fine_Arts_20170315.jpg',
+        { url: 'img/boston-museum-of-fine-arts-20170315-0af394fa.jpg',
           cap: 'Huntington Avenue 一侧的 Beaux-Arts 正立面 · Suicasmo / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/76/Museum-of-Fine-Arts-Boston-07.jpg',
+        { url: 'img/museum-of-fine-arts-boston-07-99212071.jpg',
           cap: '馆内展厅与天光 · Sintakso / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Museum_of_Fine_Arts_Boston%2C_Huntington_Ave_entrance_at_night.jpg',
+        { url: 'img/museum-of-fine-arts-boston-huntington-ave-entrance-at-night-c7a18a7f.jpg',
           cap: '入夜后的 Huntington Avenue 入口（周四周五开到 22:00） · Kenneth C. Zirkel / CC BY-SA 4.0' }
       ]
     },
@@ -3537,11 +3537,11 @@ module.exports = {
           '而市场商户不受影响——这两件事要分开看'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Faneuil_Hall_Mar_2025_21.jpg',
+        { url: 'img/faneuil-hall-mar-2025-21-9d007696.jpg',
           cap: 'Faneuil Hall 砖楼与广场 · Epicgenius / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/Faneuil_Hall_Great_Hall_%2836175%29.jpg',
+        { url: 'img/faneuil-hall-great-hall-36175-b6122717.jpg',
           cap: '二楼 Great Hall 与 Healy 的巨幅油画 · Rhododendrites / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Quincy_Market_interior.jpg',
+        { url: 'img/quincy-market-interior-db93ec6c.jpg',
           cap: 'Quincy Market 中央走廊的美食摊位 · Sharon Mollerus / CC BY 2.0' }
       ]
     },
@@ -3781,11 +3781,11 @@ module.exports = {
           '一二月份它可能是全城唯一成片开花的地方'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/68/Isabella_Stewart_Gardner_Museum_Boston_November_2016_001.jpg',
+        { url: 'img/isabella-stewart-gardner-museum-boston-november-2016-001-94f1cf37.jpg',
           cap: '四层回廊围合的中央庭院与玻璃天棚 · King of Hearts / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Isabella-Stewart-Gardner-Museum-Courtyard-11.jpg',
+        { url: 'img/isabella-stewart-gardner-museum-courtyard-11-a527eb57.jpg',
           cap: '庭院竖向视角：威尼斯式拱廊与常年轮换的花园 · Sintakso / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/20180527_-_05_-_Boston%2C_MA_%28Isabella_Stewart_Gardner_Museum%29.jpg',
+        { url: 'img/20180527-05-boston-ma-isabella-stewart-gardner-museum-df8da54d.jpg',
           cap: '从 Evans Way Park 看博物馆外观（外墙朴素，精华全在室内） · Andre Carrotflower / CC BY-SA 4.0' }
       ]
     },
@@ -4025,11 +4025,11 @@ module.exports = {
           '登顶放行时段常短于广场开放时间且会临时中止，恐高与膝伤者不要尝试'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/USS_Constitution_at_Charlestown_Navy_Yard_%2853825931403%29.jpg',
+        { url: 'img/uss-constitution-at-charlestown-navy-yard-53825931403-0cac766b.jpg',
           cap: '系泊在 Charlestown Navy Yard 的「宪法号」与三桅索具 · Ethan Long / CC BY-SA 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/USS_Constitution%2C_Charlestown%2C_MA%2C_2023-02-20_03.jpg',
+        { url: 'img/uss-constitution-charlestown-ma-2023-02-20-03-7951ff88.jpg',
           cap: '舷侧与炮门细节：让炮弹弹开的厚木结构 · Crisco 1492 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/54/Old_Ironsides_at_Charlestown_Navy_Yard%2C_Boston_%2853233418449%29.jpg',
+        { url: 'img/old-ironsides-at-charlestown-navy-yard-boston-53233418449-ee69826a.jpg',
           cap: '「老铁壳」与厂区码头全景 · Ethan Long / CC BY-SA 2.0' }
       ]
     }
