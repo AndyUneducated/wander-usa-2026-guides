@@ -1231,7 +1231,29 @@ module.exports = {
           view: [38.881387, -77.036559]
         }
       ],
+      tour: [
+        '<strong>殿内看三样东西</strong>：19 英尺的铜像、环绕内壁四面的刻文（取自《独立宣言》与他的书信），' +
+          '以及外圈那一整圈立柱。<strong>柱廊本身就是这一站最好的取景框</strong>，' +
+          '从柱间望出去正对 Tidal Basin 与白宫方向的轴线。这部分看完约 15 分钟。',
+        '<strong>地下展厅在 2026 年夏天整体重做后重开，这是这一站近年最大的变化</strong>——' +
+          '从「看一眼圆顶就走」变成有实质内容的一个小型博物馆。' +
+          '<strong>入口在主台阶两侧的侧门</strong>（同时也是无障碍入口），下层有电梯回到柱廊层。留 20–30 分钟。',
+        '<strong>最合理的走法是把它当成环 Tidal Basin 那一圈里的一站。</strong>' +
+          '整圈 <strong>3.2 公里、约 45 分钟</strong>，现已全线贯通，' +
+          '顺路串起 <strong>FDR Memorial 与 Martin Luther King Jr. Memorial</strong>。' +
+          '单独为它专程跑一趟不划算，连起来走才值。',
+        '<strong>樱花季（三月底至四月上旬）这里是全城最挤的地方。</strong>' +
+          '2026 年的 BloomFest 就设在纪念堂南草坪（3 月 27 日至 4 月 11 日，核实于 2026-09-15），' +
+          '同期 <strong>East Basin Drive 封路、停车基本无望</strong>，只能坐地铁来。' +
+          '其余季节任何时段都不挤。',
+        '<strong>24 小时开放、整夜打灯，殿内不设门。</strong>清晨与夜里几乎没人，' +
+          '是这一带少数几个「随时可去」的点位。Ranger 值守 9:30–22:00，' +
+          '过了这个时间没有讲解，但照样能进。',
+        '<strong>卫生间在纪念堂下层</strong>；周边没有餐饮，最近的选择是走回 Mall 上的博物馆或 L\u2019Enfant Plaza。'
+      ],
       access: {
+        visit: '<strong>纪念堂本身 30–45 分钟</strong>（柱廊与铜像 15 分钟 + 地下展厅 20–30 分钟）。' +
+          '<strong>连同环 Tidal Basin 一圈、顺路看 FDR 与 MLK，留 1.5–2 小时</strong>',
         book: '不需预约',
         ticket: '<strong>免费</strong>',
         hours: '<strong>24 小时开放</strong>（NPS：outdoor areas open 24 hours a day 7 days a week）。' +
@@ -1276,6 +1298,9 @@ module.exports = {
       n: 9,
       name: '倒影池与宪法花园',
       en: 'Lincoln Memorial Reflecting Pool & Constitution Gardens',
+      /* 必去价值远低于摄影价值：倒影池长期围挡，围挡期间这一站几乎没有可看的内容，
+         Constitution Gardens 则是「已经在附近才顺路进去」的那类地方。 */
+      must: 2,
       score: 2.5,
       tldr: '倒影池目前围挡封闭、重开时间高度不确定；北侧的 Constitution Gardens 池塘完全正常，是本区唯一安静的备胎。',
       tags: [
@@ -1341,7 +1366,25 @@ module.exports = {
           view: [38.889359, -77.044664]
         }
       ],
+      tour: [
+        '<strong>出门前先查倒影池是否还在围挡里。</strong>围挡期间水池本体、两侧步道与南北草地中带都进不去，' +
+          '这一站就只剩「从林肯纪念堂台阶上往东望一眼」，<strong>不值得为它单独安排时间</strong>。' +
+          '查 nps.gov/nama 的 Alerts & Conditions。',
+        '<strong>Constitution Gardens 是这一段真正可用的部分，而且它是 Mall 上唯一安静的地方。</strong>' +
+          '池塘、小岛与树荫都在，游客极少；<strong>岛上有 56 位《独立宣言》签署人的签名石</strong>，' +
+          '走过去只要几分钟，却几乎没人知道。',
+        '<strong>位置关系决定了它只该顺路走</strong>：从 Lincoln Memorial 沿 North Elm Walk 到池塘 ' +
+          '<strong>700 米、约 9 分钟</strong>，中间正好串起 <strong>Vietnam Veterans Memorial</strong>，' +
+          '往东继续走 10 分钟到 <strong>World War II Memorial</strong>。' +
+          '把这四处连成一条线，是 Mall 西段最省力的走法。',
+        '<strong>水池即便有水也禁止涉水、游泳与放船</strong>，草地中带在养护期常单独围起来。',
+        '<strong>最近的卫生间与饮水在 World War II Memorial 一侧</strong>，' +
+          'Constitution Gardens 内没有任何设施，也没有餐饮。'
+      ],
       access: {
+        visit: '<strong>Constitution Gardens 池塘一圈 15–20 分钟。</strong>' +
+          '倒影池若已重开，沿池走单程约 10 分钟；' +
+          '<strong>连同 Vietnam Veterans 与 WWII 两处纪念碑一起走，留 1 小时</strong>',
         book: '不需预约',
         ticket: '<strong>免费</strong>',
         hours: '<strong>Constitution Gardens：24 小时开放，无限制。</strong>' +

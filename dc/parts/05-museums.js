@@ -1430,6 +1430,9 @@ module.exports = {
     },
     {
       id: 'dc-nmnh',
+      /* 必去价值明显高于摄影价值：馆内光线与构图乏善可陈，
+         但恐龙厅、Hope Diamond 与露脊鲸是一般游客到华盛顿的主要目标之一。 */
+      must: 4.5,
       n: 7,
       name: '国立自然历史博物馆',
       en: 'Smithsonian National Museum of Natural History',
@@ -1503,7 +1506,30 @@ module.exports = {
           view: [38.891900, -77.025972]
         }
       ],
+      tour: [
+        '<strong>四个主目标，按这个顺序走最省时间</strong>：' +
+          '<strong>Deep Time 化石厅</strong>（恐龙骨架与 37 亿年生命史，馆内最花时间的一厅）、' +
+          '<strong>Hope Diamond</strong>（在 Janet Annenberg Hooker 宝石矿物厅，与 2,500 件宝石同展）、' +
+          '<strong>Sant Ocean Hall</strong>（头顶 45 英尺的北大西洋露脊鲸模型）、' +
+          '<strong>穹顶大厅的大象 Henry</strong>。其余展厅按兴趣挑，不必走全。',
+        '<strong>10:00 开门，10:00–11:00 是全天唯一不挤的窗口。</strong>' +
+          '这是全美参观量最大的博物馆之一，<strong>正午前后团队与校车会把穹顶大厅和 Hope Diamond 展柜围成两三层</strong>。' +
+          '想清静就工作日一开门直奔恐龙厅或宝石厅。',
+        '<strong>17:30 是硬性清场，不是最后入场时间。</strong>官方原文写明届时关门、所有人必须离馆，' +
+          '所以下午四点以后才进去基本只够看一厅。',
+        '<strong>免费、不需票，但要过安检</strong>，旺季排队 10–20 分钟。' +
+          '<strong>两个入口</strong>：Mall 一侧的 Madison Drive 与北侧的 Constitution Avenue，' +
+          '后者通常队伍更短。',
+        '<strong>带孩子来的话，有两处别列进计划</strong>：' +
+          'Butterfly Pavilion 是另行收费的项目且时有停展，Insect Zoo 正在关闭改造中。' +
+          '出发前在 naturalhistory.si.edu 查一眼当天状态。',
+        '<strong>馆内有咖啡厅与餐厅，但价格高、午餐时段排长队</strong>；' +
+          'Mall 草坪边的餐车更快，天气好时更舒服。卫生间在各层都有。'
+      ],
       access: {
+        visit: '<strong>2–3 小时是主流分配</strong>：Deep Time 45–60 分钟 + 宝石厅 30 分钟 + ' +
+          'Ocean Hall 30 分钟 + 穹顶与其余展厅 30 分钟。' +
+          '<strong>只看恐龙与 Hope Diamond 两处，1.5 小时够</strong>',
         book: '<strong>不需预约，不需任何票。</strong>官方明确「No tickets are required」',
         ticket: '<strong>免费</strong>',
         hours: '官方原文：<strong>「The museum is open seven days a week from 10 a.m. to 5:30 p.m., ' +
@@ -1553,11 +1579,13 @@ module.exports = {
     {
       id: 'dc-castle',
       n: 8,
-      gone: '本次无法入内（9 月 7 日后重新关闭）',
+      gone: '室内关闭中（2026 年 9 月 7 日后重新关闭，无重开日期）',
       name: '史密森尼「城堡」与 Enid A. Haupt 花园',
       en: 'Smithsonian Castle and the Enid A. Haupt Garden',
+      /* 室内关闭期间只剩花园与外立面，是「已经在 Mall 上才顺路进去」的那类点位。 */
+      must: 1.5,
       score: 2,
-      tldr: '城堡 9 月 7 日后重新关闭至 2027 年以后，本次进不去；但 Haupt 花园与红砂岩外立面仍可自由拍摄。',
+      tldr: '城堡室内自 2026 年 9 月 7 日起重新关闭，官方未公布重开日期；Haupt 花园与红砂岩外立面照常开放。',
       tags: [
         { t: '室内关闭至 2027+', c: 'risk' },
         { t: '花园正常开放', c: 'free' },
@@ -1647,9 +1675,32 @@ module.exports = {
           view: [38.887900, -77.026003]
         }
       ],
+      tour: [
+        '<strong>室内进不去的情况下，这一站只剩两样东西</strong>：' +
+          '1855 年建成的红砂岩「城堡」外立面（Mall 上最不像博物馆的一栋楼，也是整个史密森尼的起点），' +
+          '以及南侧的 <strong>Enid A. Haupt 花园</strong>。' +
+          '<strong>不要为它专程安排时间，当成两馆之间的休息点最合适。</strong>',
+        '<strong>花园分三块，风格完全不同</strong>：中央的 Parterre 几何花坛、' +
+          '东侧的 Moongate Garden（配 Sackler 馆的东亚主题）、' +
+          '西侧的 Fountain Garden（摩尔式水渠，配 African Art 馆）。' +
+          '三块连着走一圈 15 分钟，<strong>有长椅与树荫，是 Mall 中段少有的能坐下歇脚的地方</strong>。',
+        '<strong>花园每天 dawn 到 dusk 开放、免费</strong>，只在 12 月 25 日闭园。' +
+          '因为不受博物馆 10:00–17:30 的限制，' +
+          '<strong>它是这一带唯一能在开馆前与闭馆后进去的点位</strong>。',
+        '<strong>有免费的园艺导览</strong>：3 月 13 日至 10 月 30 日<strong>每周五 10:00</strong>，' +
+          '5 月起加开<strong>每周三 10:00</strong>，视天气而定，排期见 gardens.si.edu。',
+        '<strong>位置是它最大的用处。</strong>地铁 Smithsonian 站出口就在西侧约 150 米，' +
+          '到 NMNH 沿 Mall 步行 500 米、到 NMAAHC 约 900 米，' +
+          '<strong>正好卡在 Mall 南北两侧博物馆群之间</strong>。',
+        '<strong>城堡室内的重开没有日期。</strong>这项约 $5.3 亿、为期数年的工程自 2023 年 2 月起施工，' +
+          '2026 年只为 America 250 短暂开放过一楼一部分（5 月 22 日至 9 月 7 日）。' +
+          '出发前在 si.edu 查一次现状，施工围挡的范围也会随工程阶段变化。'
+      ],
       access: {
+        visit: '<strong>花园一圈 15 分钟，加上外立面与歇脚 20–30 分钟。</strong>' +
+          '室内重开后需另加 30–45 分钟',
         book: '<strong>不需预约</strong>（花园与外景无票务）。' +
-          '<strong>城堡室内本次无法预约也无法进入</strong>。' +
+          '<strong>城堡室内目前无法预约也无法进入</strong>。' +
           '花园有免费导览：<strong>3 月 13 日至 10 月 30 日每周五 10:00</strong>，' +
           '5 月起加开<strong>每周三 10:00</strong>，视天气而定，' +
           '最新排期见 <a href="https://gardens.si.edu/plan-your-visit/" target="_blank" rel="noopener">gardens.si.edu</a>',
