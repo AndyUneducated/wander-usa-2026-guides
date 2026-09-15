@@ -241,7 +241,7 @@ module.exports = {
         '这是两件不同的事，别混。<strong>目前没有任何在建工程</strong>：' +
         'BPL 在 2025 年 6 月宣布启动一个由匿名捐赠者 <strong>$550 万</strong>资助的' +
         '<strong>五年期规划流程</strong>，目标是把 McKim 楼的改造推到「design-ready」阶段——' +
-        '<strong>这是规划，不是施工，本次行程完全不受影响</strong>。' +
+        '<strong>这是规划，不是施工，近几年的参观完全不受影响</strong>。' +
         '但要知道现状：<strong>McKim 楼约 40% 的面积（基本就是整个三楼）已经对公众关闭十年以上</strong>，' +
         '油漆剥落、灰泥碎裂、漏水导致暖气被关掉、大部分三楼房间没有温湿度控制。' +
         '<strong>好消息是三楼唯一还开放的正是 Sargent Gallery</strong>（Sargent 的《Triumph of Religion》壁画在那里），' +
@@ -595,7 +595,7 @@ module.exports = {
           '（油漆剥落、灰泥碎裂、漏水导致暖气被关、大部分房间无温湿度控制），' +
           '<strong>West Gallery、Wiggin Gallery、Cushman Room 都锁着，唯一还开放的就是 Sargent Gallery</strong>。' +
           'BPL 在 2025 年 6 月启动了一个由匿名捐赠者 $550 万资助的五年期改造规划，' +
-          '<strong>但那是规划不是施工，本次行程不受影响。</strong>',
+          '<strong>但那是规划不是施工，眼下的参观不受影响。</strong>',
         '<strong>中庭现在还是露天的——想拍露天版本就趁现在。</strong>' +
           '内院（Courtyard）仿罗马 Palazzo della Cancelleria 的回廊，' +
           '中央是 Frederick MacMonnies 的铜像 <strong>《Bacchante and Infant Faun》</strong>。' +

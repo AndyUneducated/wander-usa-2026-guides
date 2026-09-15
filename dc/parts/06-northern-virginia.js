@@ -568,7 +568,7 @@ module.exports = {
         { t: '宅邸需定时票', c: 'risk' }
       ],
       highlights: [
-        '<strong>由 Mount Vernon Ladies\u2019 Association 私营，这是本次行程里最有实用价值的一条事实。</strong>' +
+        '<strong>由 Mount Vernon Ladies\u2019 Association 私营，这是本区最有实用价值的一条事实。</strong>' +
           '该组织成立于 1853 年（1858 年买下庄园），<strong>从未接受联邦运营拨款</strong>，' +
           '因此<strong>联邦政府停摆期间它照常开放收票、全年 365 天不休</strong>。' +
           'National Mall 一侧的 Smithsonian 与各纪念堂内景在停摆中全线阵亡时，这里是唯一同等级别的替代目标',
@@ -938,7 +938,7 @@ module.exports = {
       access: {
         book: '<strong>不需预约</strong>。婚礼需另办许可（703-757-3101）；' +
           '<strong>8 人以内、仅手持器材、不独占场地的常规摄影（含三脚架）不需要许可</strong>',
-        ticket: '<strong>持 America the Beautiful 年卡免入园费——本次行程直接刷卡进场即可。</strong>' +
+        ticket: '<strong>持 America the Beautiful 年卡免入园费，直接刷卡进场。</strong>' +
           '否则：<strong>$20/私人车辆（含车内全部乘员，七日内有效）</strong>，' +
           '步行、骑行或骑马入园 <strong>$10/人</strong>；' +
           '另有 <strong>$35 的 Great Falls + C&amp;O Canal 双园年卡</strong>。' +

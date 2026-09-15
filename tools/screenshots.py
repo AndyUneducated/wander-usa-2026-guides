@@ -21,8 +21,10 @@ OUT = ROOT / 'tools' / '.shots'
 VIEWS = [
     ('landing', '', None),
     ('all-spots', 'all.html', None),
+    ('nyc-allmap', 'nyc/#all-map', None),
     ('nyc-cards', 'nyc/#manhattan-midtown', None),
     ('nyc-card-open', 'nyc/#top-of-the-rock', 'open-first'),
+    ('nyc-copy', 'nyc/#manhattan-midtown', 'copy-title'),
     ('nyc-search', 'nyc/', 'search'),
     ('socal-cards', 'socal/#big-sur', None),
 ]
@@ -69,11 +71,25 @@ def main():
                     const c = document.querySelector('details.card');
                     if (c) { c.open = true; c.scrollIntoView({block: 'start'}); }
                 }""")
+            elif action == 'copy-title':
+                # 点一下标题里的专名：要能复制、要弹提示、且不能把卡片撑开
+                ctx.grant_permissions(['clipboard-read', 'clipboard-write'])
+                page.click('details.card .card-title .cp')
+                page.wait_for_timeout(400)
+                state = page.evaluate("""() => {
+                    const c = document.querySelector('details.card');
+                    const t = document.getElementById('toast');
+                    return { opened: c.open, toast: t ? t.textContent : null };
+                }""")
+                print('    点标题后：卡片展开=' + str(state['opened']) +
+                      '  提示=' + str(state['toast']))
             elif action == 'search':
                 page.fill('#q', '博物馆')
                 page.wait_for_timeout(600)
-            # 让 hash 定位与懒加载图片落位
-            page.wait_for_timeout(1800)
+            # 让 hash 定位与懒加载图片落位。复制提示只显示两秒，
+            # 这一档再等就只能拍到它消失之后的画面了。
+            if action != 'copy-title':
+                page.wait_for_timeout(1800)
 
             dest = OUT / f'{name}{suffix}.png'
             page.screenshot(path=str(dest), full_page=args.full)

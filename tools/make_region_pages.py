@@ -16,7 +16,7 @@ TEMPLATE = '''<!DOCTYPE html>
 <title>{title}</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="../assets/style.css?v=20260914a">
+<link rel="stylesheet" href="../assets/style.css?v=20260915a">
 </head>
 <body>
 
@@ -65,30 +65,34 @@ TEMPLATE = '''<!DOCTYPE html>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="data.js?v=20260905b"></script>
-<script src="../assets/app.js?v=20260914a"></script>
-<script src="intro.js?v=20260914a"></script>
+<script src="data.js?v=20260915a"></script>
+<script src="../assets/copy.js?v=20260915a"></script>
+<script src="../assets/app.js?v=20260915a"></script>
+<script src="intro.js?v=20260915a"></script>
 </body>
 </html>
 '''
 
+# 地域名要把实际覆盖范围说全：叫「Yellowstone」会让人以为不含 Grand Teton，
+# 叫「New York」会漏掉 Boston 与新英格兰那一半。同时四本统一成
+# 「A + B」的格式，不带「区域」二字，顶栏里才看得整齐。
 PAGES = {
     'yellowstone': {
         'title': 'Yellowstone + Grand Teton 旅行手册 · Wander USA 2026',
-        'brand': 'Yellowstone',
+        'brand': 'Yellowstone + Grand Teton',
         'h1': 'Yellowstone + Grand Teton 旅行手册',
         'sub': 'Yellowstone National Park · Grand Teton National Park · Western Montana ｜ 地热盆地、野生动物谷地、Beartooth 高线与剧集取景地',
     },
     'nyc': {
-        'title': 'New York 区域旅行手册 · Wander USA 2026',
-        'brand': 'New York 区域',
-        'h1': 'New York 区域旅行手册',
-        'sub': 'New York City · Boston · Hudson Valley ｜ 必去地标、博物馆与新英格兰秋色，附摄影机位',
+        'title': 'New York + New England 旅行手册 · Wander USA 2026',
+        'brand': 'New York + New England',
+        'h1': 'New York + New England 旅行手册',
+        'sub': 'New York City · Boston · Salem · Hudson Valley ｜ 必去地标、博物馆与新英格兰秋色，附摄影机位',
     },
     'dc': {
-        'title': 'Washington DC 区域旅行手册 · Wander USA 2026',
-        'brand': 'Washington DC 区域',
-        'h1': 'Washington DC 区域旅行手册',
+        'title': 'Washington DC + Philadelphia 旅行手册 · Wander USA 2026',
+        'brand': 'Washington DC + Philadelphia',
+        'h1': 'Washington DC + Philadelphia 旅行手册',
         'sub': 'Washington DC · Philadelphia · Virginia 与 Maryland ｜ 纪念建筑群、Smithsonian 各馆、建国史迹与庄园',
     },
 }

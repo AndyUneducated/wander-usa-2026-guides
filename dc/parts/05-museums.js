@@ -51,7 +51,7 @@ module.exports = {
     },
     {
       type: 'good',
-      title: '联邦停摆风险：本次行程窗口内已解除',
+      title: '联邦停摆风险：2026 年 12 月 11 日之前已解除',
       html: '<p>本区八个点位里有六个会在拨款中断时直接关门（全部 Smithsonian、National Gallery of Art、' +
         'National Archives Museum、以及 NPS 属下的 Ford\'s Theatre），所以这件事必须先查清。<strong>结论是：不用担心。</strong></p>' +
         '<p><strong>Continuing Appropriations and Extensions Act, 2027（H.R. 6500）</strong>已经生效：' +
