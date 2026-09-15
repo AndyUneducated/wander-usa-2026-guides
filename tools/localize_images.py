@@ -109,9 +109,25 @@ class Progress:
             self._write()
 
     def _write(self):
+        # 进度文件只供监控用，写不进去不该让整场下载跟着中断。Windows 上
+        # os.replace 会偶发 PermissionError——杀毒或索引器瞬间持有目标文件即可触发，
+        # 曾因此在第 31／95 张时整个任务崩掉。重试几次，仍不行就跳过这次写入。
         tmp = self.path.with_suffix(".tmp")
-        tmp.write_text(json.dumps(self.state, ensure_ascii=False, indent=1))
-        tmp.replace(self.path)
+        try:
+            tmp.write_text(json.dumps(self.state, ensure_ascii=False, indent=1),
+                           encoding="utf-8")
+        except OSError:
+            return
+        for delay in (0, 0.05, 0.2, 0.5):
+            if delay:
+                time.sleep(delay)
+            try:
+                tmp.replace(self.path)
+                return
+            except PermissionError:
+                continue
+            except OSError:
+                return
 
     def set(self, **kw):
         with self._lock:

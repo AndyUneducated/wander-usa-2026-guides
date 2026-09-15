@@ -1812,9 +1812,9 @@ module.exports = {
         '海上风大且两岛几乎无遮蔽，<strong>十月下旬港面体感比市区低 5–8 度</strong>；<strong>海水飞沫对镜头不友好，换镜头请在船舱内做</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Liberty_Island_photo_Don_Ramey_Logan.jpg', cap: 'Liberty Island 与雕像全景 · Don Ramey Logan / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Statue_of_Liberty_and_a_sightseeing_boat%2C_Liberty_Island%2C_New_York.jpg', cap: '自水面看雕像与观光船 · Christian David / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/70/NYC-ellis-registry-room.jpg', cap: 'Ellis Island 主厅 Registry Room 的拱顶与长窗 · Balou46 / CC BY-SA 4.0' }
+        { url: 'img/liberty-island-photo-don-ramey-logan-51c12d8c.jpg', cap: 'Liberty Island 与雕像全景 · Don Ramey Logan / CC BY 4.0' },
+        { url: 'img/statue-of-liberty-and-a-sightseeing-boat-liberty-island-new--8fe8d764.jpg', cap: '自水面看雕像与观光船 · Christian David / CC BY-SA 4.0' },
+        { url: 'img/nyc-ellis-registry-room-62887c96.jpg', cap: 'Ellis Island 主厅 Registry Room 的拱顶与长窗 · Balou46 / CC BY-SA 4.0' }
       ]
     },
     {
@@ -1986,9 +1986,9 @@ module.exports = {
         '<strong>末次入场按 17:30 算</strong>（官方两个口径中较早的那个），而馆内真正要看完至少需要两小时——<strong>不要买 16:30 之后的票</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/18/September_11_Museum_Foundation_Hall.jpg', cap: 'Foundation Hall 与挡水墙 · Fletcher6 / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/National_September_11_Museum%2C_New_York_City%2C_20231004_091856.jpg', cap: '馆内下行坡道与基岩层空间 · Jakub Hałun / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/9-11_Museum_2025a.jpg', cap: '展区内的钢构件展陈 · Antony-22 / CC BY-SA 4.0' }
+        { url: 'img/september-11-museum-foundation-hall-bc0ddae9.jpg', cap: 'Foundation Hall 与挡水墙 · Fletcher6 / CC BY 4.0' },
+        { url: 'img/national-september-11-museum-new-york-city-20231004-091856-638fd8d1.jpg', cap: '馆内下行坡道与基岩层空间 · Jakub Hałun / CC BY 4.0' },
+        { url: 'img/9-11-museum-2025a-9de31038.jpg', cap: '展区内的钢构件展陈 · Antony-22 / CC BY-SA 4.0' }
       ]
     },
     {
@@ -2181,9 +2181,9 @@ module.exports = {
         '窄街高楼形成风口，<strong>十月下旬 Wall Street 与 Broad Street 一带的体感会明显低于开阔处</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Bowling_Green_td_%282018-12-13%29_06_-_26_Broadway%2C_Charging_Bull.jpg', cap: 'Bowling Green 北端的 Charging Bull · Tdorante10 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Subdued_FiDi_%2850063555551%29.jpg', cap: 'Broad Street 的 Fearless Girl 与证交所立面国旗 · Billie Grace Ward / CC BY 2.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/36/George_Washington_statue_outside_Federal_Hall.jpg', cap: 'Federal Hall 台阶上的 Washington 像 · Kathleen Gulley / CC BY-SA 4.0' }
+        { url: 'img/bowling-green-td-2018-12-13-06-26-broadway-charging-bull-8101e878.jpg', cap: 'Bowling Green 北端的 Charging Bull · Tdorante10 / CC BY-SA 4.0' },
+        { url: 'img/subdued-fidi-50063555551-da7dc9af.jpg', cap: 'Broad Street 的 Fearless Girl 与证交所立面国旗 · Billie Grace Ward / CC BY 2.0' },
+        { url: 'img/george-washington-statue-outside-federal-hall-89a84a51.jpg', cap: 'Federal Hall 台阶上的 Washington 像 · Kathleen Gulley / CC BY-SA 4.0' }
       ]
     }
   ]

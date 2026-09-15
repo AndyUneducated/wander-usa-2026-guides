@@ -386,11 +386,11 @@ module.exports = {
           '<strong>横穿前务必看两边——园内自行车速度普遍不低，而横穿道（Transverse Road）是机动车专用、行人不要走</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/60/Bethesda_Terrace_and_432_Park_Avenue_from_the_Lake%2C_Central_Park%2C_Manhattan%2C_New_York.jpg',
+        { url: 'img/bethesda-terrace-and-432-park-avenue-from-the-lake-central-p-6590a69b.jpg',
           cap: '自湖上望 Bethesda Terrace 与远处 432 Park Avenue · Christian David / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Bow_Bridge_over_the_Lake%2C_Central_Park%2C_Manhattan%2C_New_York.jpg',
+        { url: 'img/bow-bridge-over-the-lake-central-park-manhattan-new-york-009381f4.jpg',
           cap: 'Bow Bridge 跨湖的弓形铸铁桥身 · Christian David / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a2/The_Mall_%26_Literary_Walk%2C_Central_Park%2C_Manhattan%2C_NYC.JPG',
+        { url: 'img/the-mall-literary-walk-central-park-manhattan-nyc-9692c491.jpg',
           cap: 'The Mall 与 Literary Walk 的美国榆隧道 · Ahodges7 / CC BY-SA 3.0' }
       ]
     },
@@ -626,11 +626,11 @@ module.exports = {
           '想要人少又能待久，就选 10/16、10/17、10/23、10/24 的 17:00 之后进场'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/ba/Temple_of_Dendur%2C_Egyptian_collection%2C_Metropolitan_Museum_of_Art.jpg',
+        { url: 'img/temple-of-dendur-egyptian-collection-metropolitan-museum-of--cbcf77dc.jpg',
           cap: 'Temple of Dendur 与 Sackler Wing 的斜玻璃幕墙 · TheCatalyst31 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/3d/Metropolitan_Museum_of_Art%2C_Great_Hall%2C_October_2025.jpg',
+        { url: 'img/metropolitan-museum-of-art-great-hall-october-2025-1812ae00.jpg',
           cap: 'Great Hall 的罗马式穹顶与大楼梯 · TheCatalyst31 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Metropolitan_Museum_of_Art_entrance_NYC.JPG',
+        { url: 'img/metropolitan-museum-of-art-entrance-nyc-16e22086.jpg',
           cap: '第五大道立面与正门大台阶 · Arad / CC BY-SA 3.0' }
       ]
     },
@@ -862,11 +862,11 @@ module.exports = {
           '<strong>进门务必拿纸质地图，或装官方的 Explorer app（有逐步导航，支持英、西、法、葡，没有中文）</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fc/Central_atrium_of_the_Richard_Gilder_Center_for_Science%2C_Education%2C_and_Innovation_-_upper_level_view.jpg',
+        { url: 'img/central-atrium-of-the-richard-gilder-center-for-science-educ-7235ef1e.jpg',
           cap: 'Gilder Center 的 Exploration Atrium 喷射混凝土中庭 · Zeete / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Blue_Whale_Nat%27l_Hist_Museum.JPG',
+        { url: 'img/blue-whale-nat-l-hist-museum-bdd21dc6.jpg',
           cap: 'Milstein Hall of Ocean Life 的 94 英尺蓝鲸模型 · Breakyunit / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/28/AMNHTitanosaur.jpg',
+        { url: 'img/amnhtitanosaur-cdfa5265.jpg',
           cap: '四层 Fossil Halls 的 Titanosaur 铸模全景 · D. Benjamin Miller / CC0' }
       ]
     },
@@ -1113,11 +1113,11 @@ module.exports = {
           '是走完坡道后合理的收尾'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/5b/Main_Gallery_Interior_and_Skylight_Solomon_R_Guggenheim_Museum.jpg',
+        { url: 'img/main-gallery-interior-and-skylight-solomon-r-guggenheim-muse-6dcef73c.jpg',
           cap: '中庭螺旋坡道与顶部玻璃穹顶 · EgorovaSvetlana / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/17/Frank_Lloyd_Wright_-_New_York%2C_NY_-_Solomon_R._Guggenheim_Museum_%28A%29.jpg',
+        { url: 'img/frank-lloyd-wright-new-york-ny-solomon-r-guggenheim-museum-a-cdf4369c.jpg',
           cap: '第五大道上的倒金字塔外立面 · Bmzuckerman / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b0/Frank_Lloyd_Wright_-_New_York%2C_NY_-_Solomon_R._Guggenheim_Museum_%28I%29.jpg',
+        { url: 'img/frank-lloyd-wright-new-york-ny-solomon-r-guggenheim-museum-i-5646b261.jpg',
           cap: '坡道外墙的曲面与仅五英寸厚的 Gunite 外壳 · Bmzuckerman / CC BY 4.0' }
       ]
     },
@@ -1308,11 +1308,11 @@ module.exports = {
           '进馆前先下载</strong>；馆内手机信号在石墙建筑里时有时无'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6f/The_Met_Cloisters%2C_NY_%2817%29.jpg',
+        { url: 'img/the-met-cloisters-ny-17-f3ab36ad.jpg',
           cap: '回廊与中庭园 · Polka0505 / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Cloisters_Hudson_River_crop.jpg',
+        { url: 'img/the-cloisters-hudson-river-crop-708d55de.jpg',
           cap: '从哈德逊河方向看 Fort Tryon 崖顶上的馆体 · Paweł Drozd，Beyond My Ken 裁切 / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e2/The_Unicorn_Surrenders_to_a_Maiden_The_Unicorn_Tapestries_South_Netherlands_The_Met_Cloisters_Unicorn_Tapestries_Room_Gallery_17.jpg',
+        { url: 'img/the-unicorn-surrenders-to-a-maiden-the-unicorn-tapestries-so-db54a6f7.jpg',
           cap: 'Unicorn Tapestries 之《独角兽向少女屈服》 · EgorovaSvetlana / CC BY-SA 4.0' }
       ]
     },
@@ -1525,11 +1525,11 @@ module.exports = {
           '要从东边过来请走 110 街或 116 街的正规台阶路'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Cathedral_Church_of_St._John_the_Divine_-_the-groundview.jpg',
+        { url: 'img/cathedral-church-of-st-john-the-divine-the-groundview-bc43e9e2.jpg',
           cap: 'Amsterdam Avenue 一侧的西立面与未完工的南塔 · The groundview / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/46/The_Cathedral_Church_of_Saint_John_the_Divine_Choir.jpg',
+        { url: 'img/the-cathedral-church-of-saint-john-the-divine-choir-2e300912.jpg',
           cap: '高坛与罗马式花岗岩巨柱 · Jpapanestor007 / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1c/St_John_The_Divine_Rose_Window_from_inside.JPG',
+        { url: 'img/st-john-the-divine-rose-window-from-inside-0634c694.jpg',
           cap: '堂内西望直径 40 英尺的 Rose Window · Gesalbte / Public domain' }
       ]
     },
@@ -1778,11 +1778,11 @@ module.exports = {
           '并提供辅助设备与感官友好材料；Apollo 的历史剧院无障碍条件受限</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c6/Apollo_Theater_Harlem_NYC_2010.JPG',
+        { url: 'img/apollo-theater-harlem-nyc-2010-c79049ad.jpg',
           cap: 'Apollo Theater 的招牌雨棚与竖招牌 · Hans Joachim Dudeck / CC BY-SA 3.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/4a/Studio_Museum_in_Harlem%2C_Nov_2025.jpg',
+        { url: 'img/studio-museum-in-harlem-nov-2025-62b5fea9.jpg',
           cap: 'Studio Museum in Harlem 新馆立面，2025 年 11 月开馆后摄 · 19h00s / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/1e/2014_Striver%27s_Row_219-203_W_138_%26_2360_ACP_by_Bruce_Price_%26_Clarence_S._Luce.jpg',
+        { url: 'img/2014-striver-s-row-219-203-w-138-2360-acp-by-bruce-price-cla-a652b293.jpg',
           cap: "Striver's Row：138 街 219–203 号的 Colonial Revival 联排 · Beyond My Ken / CC BY-SA 3.0" }
       ]
     },
@@ -2012,11 +2012,11 @@ module.exports = {
           '不要以为哥大的访客登记同时适用</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f4/Low_Memorial_Library_at_Columbia_University_12-17-2025.jpg',
+        { url: 'img/low-memorial-library-at-columbia-university-12-17-2025-c8fa951f.jpg',
           cap: 'Low Memorial Library 的台阶与全花岗岩穹顶，2025 年摄 · Magpieturtle / CC BY 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Butler_Library_Columbia_University.jpg',
+        { url: 'img/butler-library-columbia-university-7746b6de.jpg',
           cap: 'Butler Library 北立面与檐壁上的古典作者名 · JSquish / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/2014_Columbia_University_Alma_Mater.jpg',
+        { url: 'img/2014-columbia-university-alma-mater-64748ecc.jpg',
           cap: 'Daniel Chester French 1903 年的 Alma Mater 坐像 · Beyond My Ken / CC BY-SA 4.0' }
       ]
     },
@@ -2240,11 +2240,11 @@ module.exports = {
           '这是把它排进行程的另一个独立理由'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/44/Entrance_to_the_Neue_Galerie_New_York.jpg',
+        { url: 'img/entrance-to-the-neue-galerie-new-york-b4403fc6.jpg',
           cap: '1048 Fifth Avenue 的入口立面 · Mike Peel（www.mikepeel.net） / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Gustav_Klimt%2C_1907%2C_Adele_Bloch-Bauer_I%2C_Neue_Galerie_New_York.jpg',
+        { url: 'img/gustav-klimt-1907-adele-bloch-bauer-i-neue-galerie-new-york-ab96849d.jpg',
           cap: 'Gustav Klimt《Adele Bloch-Bauer I》，1907 年 · Gustav Klimt / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Shop_in_the_Neue_Galerie_New_York.jpg',
+        { url: 'img/shop-in-the-neue-galerie-new-york-81a43f5c.jpg',
           cap: '一楼 Design Shop 与 Book Store 所在的主层空间 · Mike Peel（www.mikepeel.net） / CC BY-SA 4.0' }
       ]
     },
@@ -2442,11 +2442,11 @@ module.exports = {
           '<strong>Grant\'s Tomb 周边的绿地入夜后同样不要停留</strong>'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Riverside_Church_Mar_2026_27.jpg',
+        { url: 'img/riverside-church-mar-2026-27-7b44d26f.jpg',
           cap: '从 Riverside Drive 看教堂与塔楼，2026 年 3 月摄 · Epicgenius / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Riverside_Church_Mar_2026_21.jpg',
+        { url: 'img/riverside-church-mar-2026-21-f0fdb08c.jpg',
           cap: '392 英尺的塔楼立面细部 · Epicgenius / CC BY-SA 4.0' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Riverside_Church_Mar_2026_40.jpg',
+        { url: 'img/riverside-church-mar-2026-40-ae6af627.jpg',
           cap: '仿 Chartres 的哥特石作与入口一带 · Epicgenius / CC BY-SA 4.0' }
       ]
     }

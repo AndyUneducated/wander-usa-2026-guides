@@ -119,15 +119,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Motif_Number_1%2C_Rockport_MA.jpg",
+            "url": "img/motif-number-1-rockport-ma-23bd68f9.jpg",
             "cap": "Motif No. 1 与内港——从西岸回望的经典角度 · John Phelan / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Motif_Number_1%2C_Bradley_Wharf%2C_Rockport_%28493905%29_%2811690225934%29.jpg",
+            "url": "img/motif-number-1-bradley-wharf-rockport-493905-11690225934-26022e30.jpg",
             "cap": "立在 Bradley Wharf 花岩码头上的红色渔棚 · Robert Linsdell / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Bearskin_Neck_in_Rockport%2C_Ma.jpg",
+            "url": "img/bearskin-neck-in-rockport-ma-a2c4e68a.jpg",
             "cap": "Bearskin Neck 的店铺带与窄巷 · MBCF / CC BY-SA 4.0"
           }
         ]
@@ -304,15 +304,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Yin_Yu_Tang_House_Salem_Mass.jpg",
+            "url": "img/yin-yu-tang-house-salem-mass-29c03981.jpg",
             "cap": "荫余堂重建后的外观与马头墙 · Caseyleebrown / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Yin_Yu_Tang_House_reception_hall.jpg",
+            "url": "img/yin-yu-tang-house-reception-hall-4885055d.jpg",
             "cap": "荫余堂内部厅堂与木构 · Gkuriger / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Peabody_Essex_Museum.JPG",
+            "url": "img/peabody-essex-museum-afc21548.jpg",
             "cap": "PEM 主楼与 East India Square 立面 · Fletcher6 / CC BY-SA 3.0"
           }
         ]
@@ -392,15 +392,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/The_Witch_House%2C_Salem%2C_MA%2C_2023-02-23_04.jpg",
+            "url": "img/the-witch-house-salem-ma-2023-02-23-04-8197b9bd.jpg",
             "cap": "陡坡屋顶与二层悬挑的正面立面 · Crisco 1492 / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/The_witch_house_salem_2009.JPG",
+            "url": "img/the-witch-house-salem-2009-eb84f762.jpg",
             "cap": "Essex Street 转角看 Witch House 全貌 · chensiyuan / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Salem_Witch_House_II.jpg",
+            "url": "img/salem-witch-house-ii-b458a526.jpg",
             "cap": "深色木瓦墙面与菱形小格铅条窗 · SalemPuritan / CC BY-SA 4.0"
           }
         ]
@@ -707,15 +707,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Fort_Sewall%2C_Marblehead_%2842961558995%29.jpg",
+            "url": "img/fort-sewall-marblehead-42961558995-4cd2ba15.jpg",
             "cap": "Fort Sewall 的土垒与俯瞰港口的岬角 · Haydn Blackey / CC BY-SA 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Marblehead_Massachusetts_view_from_Fort_Sewall_looking_northeast.JPG",
+            "url": "img/marblehead-massachusetts-view-from-fort-sewall-looking-north-1b81f100.jpg",
             "cap": "自 Fort Sewall 朝东北看港口与 Marblehead Neck · Tomwsulcer / CC0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Marblehead_Harbor_from_Crocker_Park_Spring.jpg",
+            "url": "img/marblehead-harbor-from-crocker-park-spring-defc4cbf.jpg",
             "cap": "自 Crocker Park 看老城立面与锚地帆船 · Lisapaulinet / CC BY-SA 4.0"
           }
         ]
@@ -935,15 +935,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/USS_Constitution_at_Charlestown_Navy_Yard_%2853825931403%29.jpg",
+            "url": "img/uss-constitution-at-charlestown-navy-yard-53825931403-0cac766b.jpg",
             "cap": "系泊在 Charlestown Navy Yard 的「宪法号」与三桅索具 · Ethan Long / CC BY-SA 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/USS_Constitution%2C_Charlestown%2C_MA%2C_2023-02-20_03.jpg",
+            "url": "img/uss-constitution-charlestown-ma-2023-02-20-03-7951ff88.jpg",
             "cap": "舷侧与炮门细节：让炮弹弹开的厚木结构 · Crisco 1492 / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Old_Ironsides_at_Charlestown_Navy_Yard%2C_Boston_%2853233418449%29.jpg",
+            "url": "img/old-ironsides-at-charlestown-navy-yard-boston-53233418449-ee69826a.jpg",
             "cap": "「老铁壳」与厂区码头全景 · Ethan Long / CC BY-SA 2.0"
           }
         ]
@@ -1125,15 +1125,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Faneuil_Hall_Mar_2025_21.jpg",
+            "url": "img/faneuil-hall-mar-2025-21-9d007696.jpg",
             "cap": "Faneuil Hall 砖楼与广场 · Epicgenius / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Faneuil_Hall_Great_Hall_%2836175%29.jpg",
+            "url": "img/faneuil-hall-great-hall-36175-b6122717.jpg",
             "cap": "二楼 Great Hall 与 Healy 的巨幅油画 · Rhododendrites / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Quincy_Market_interior.jpg",
+            "url": "img/quincy-market-interior-db93ec6c.jpg",
             "cap": "Quincy Market 中央走廊的美食摊位 · Sharon Mollerus / CC BY 2.0"
           }
         ]
@@ -1219,15 +1219,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Freedom_Trail_-_53257428834.jpg",
+            "url": "img/freedom-trail-53257428834-ed5332f7.jpg",
             "cap": "地面上的红砖线与史迹铜牌 · xiquinhosilva / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Old_State_House%2C_Boston_%28western_elevation_detail%2C_2026%29.jpg",
+            "url": "img/old-state-house-boston-western-elevation-detail-2026-e2d4ba13.jpg",
             "cap": "Old State House 立面细节（2026 年） · Seasider53 / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Bunker_Hill_Monument%2C_Aug_2019.jpg",
+            "url": "img/bunker-hill-monument-aug-2019-dc51a5e9.jpg",
             "cap": "红线终点的 Bunker Hill Monument · Mys 721tx / CC BY-SA 3.0"
           }
         ]
@@ -2017,15 +2017,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Boston_Museum_of_Fine_Arts_20170315.jpg",
+            "url": "img/boston-museum-of-fine-arts-20170315-0af394fa.jpg",
             "cap": "Huntington Avenue 一侧的 Beaux-Arts 正立面 · Suicasmo / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Museum-of-Fine-Arts-Boston-07.jpg",
+            "url": "img/museum-of-fine-arts-boston-07-99212071.jpg",
             "cap": "馆内展厅与天光 · Sintakso / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Museum_of_Fine_Arts_Boston%2C_Huntington_Ave_entrance_at_night.jpg",
+            "url": "img/museum-of-fine-arts-boston-huntington-ave-entrance-at-night-c7a18a7f.jpg",
             "cap": "入夜后的 Huntington Avenue 入口（周四周五开到 22:00） · Kenneth C. Zirkel / CC BY-SA 4.0"
           }
         ]
@@ -2107,15 +2107,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Isabella_Stewart_Gardner_Museum_Boston_November_2016_001.jpg",
+            "url": "img/isabella-stewart-gardner-museum-boston-november-2016-001-94f1cf37.jpg",
             "cap": "四层回廊围合的中央庭院与玻璃天棚 · King of Hearts / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Isabella-Stewart-Gardner-Museum-Courtyard-11.jpg",
+            "url": "img/isabella-stewart-gardner-museum-courtyard-11-a527eb57.jpg",
             "cap": "庭院竖向视角：威尼斯式拱廊与常年轮换的花园 · Sintakso / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a8/20180527_-_05_-_Boston%2C_MA_%28Isabella_Stewart_Gardner_Museum%29.jpg",
+            "url": "img/20180527-05-boston-ma-isabella-stewart-gardner-museum-df8da54d.jpg",
             "cap": "从 Evans Way Park 看博物馆外观（外墙朴素，精华全在室内） · Andre Carrotflower / CC BY-SA 4.0"
           }
         ]
@@ -2460,15 +2460,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Vanderbilt_Mansion_Hyde_Park.jpg",
+            "url": "img/vanderbilt-mansion-hyde-park-1d756314.jpg",
             "cap": "范德堡庄园主宅立面 · Aoliver476 / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Gardens%2C_Vanderbilt_Estate%2C_Hyde_Park%2C_2012-06-25%2C_01_2-color.jpg",
+            "url": "img/gardens-vanderbilt-estate-hyde-park-2012-06-25-01-2-color-490ea98e.jpg",
             "cap": "层叠台地的 Formal Gardens · Cbaile19 / CC0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Vanderbilt_Mansion_VC_NY1.jpg",
+            "url": "img/vanderbilt-mansion-vc-ny1-4a1ea0be.jpg",
             "cap": "Pavilion Visitor Center（买票与导览集合处） · Acroterion / CC BY-SA 4.0"
           }
         ]
@@ -2556,15 +2556,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Springwood_FDR_home_NY1.jpg",
+            "url": "img/springwood-fdr-home-ny1-639978ba.jpg",
             "cap": "Springwood 主宅立面 · Acroterion / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Home_of_Franklin_D._Roosevelt_National_Historic_Site%2C_New_York_LOC_2005625786.jpg",
+            "url": "img/home-of-franklin-d-roosevelt-national-historic-site-new-york-c4495aa4.jpg",
             "cap": "故居与前草坪全景 · United States National Park Service / 公有领域"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Roosevelt_presidential_library_NY1.jpg",
+            "url": "img/roosevelt-presidential-library-ny1-65547ef3.jpg",
             "cap": "FDR Presidential Library & Museum 建筑 · Acroterion / CC BY-SA 4.0"
           }
         ]
@@ -3174,15 +3174,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Trophy_Point%2C_West_Point_NY.jpg",
+            "url": "img/trophy-point-west-point-ny-550d93d8.jpg",
             "cap": "Trophy Point 越 Hudson 的视野 · Maria S. Correa-Morales (BySoledad) / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Battle_Monument_At_Trophy_Point-West_Point_Military_Academy.jpg",
+            "url": "img/battle-monument-at-trophy-point-west-point-military-academy-f5975e45.jpg",
             "cap": "Trophy Point 的 Battle Monument · Angelo Marcialis / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Cadet_Chapel_USMA.JPG",
+            "url": "img/cadet-chapel-usma-a714215a.jpg",
             "cap": "Cadet Chapel 石砌哥特复兴立面 · Ahodges7 / 公有领域"
           }
         ]
@@ -3497,15 +3497,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/The_Met_Cloisters%2C_NY_%2817%29.jpg",
+            "url": "img/the-met-cloisters-ny-17-f3ab36ad.jpg",
             "cap": "回廊与中庭园 · Polka0505 / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/The_Cloisters_Hudson_River_crop.jpg",
+            "url": "img/the-cloisters-hudson-river-crop-708d55de.jpg",
             "cap": "从哈德逊河方向看 Fort Tryon 崖顶上的馆体 · Paweł Drozd，Beyond My Ken 裁切 / CC BY-SA 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/The_Unicorn_Surrenders_to_a_Maiden_The_Unicorn_Tapestries_South_Netherlands_The_Met_Cloisters_Unicorn_Tapestries_Room_Gallery_17.jpg",
+            "url": "img/the-unicorn-surrenders-to-a-maiden-the-unicorn-tapestries-so-db54a6f7.jpg",
             "cap": "Unicorn Tapestries 之《独角兽向少女屈服》 · EgorovaSvetlana / CC BY-SA 4.0"
           }
         ]
@@ -3580,15 +3580,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Riverside_Church_Mar_2026_27.jpg",
+            "url": "img/riverside-church-mar-2026-27-7b44d26f.jpg",
             "cap": "从 Riverside Drive 看教堂与塔楼，2026 年 3 月摄 · Epicgenius / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Riverside_Church_Mar_2026_21.jpg",
+            "url": "img/riverside-church-mar-2026-21-f0fdb08c.jpg",
             "cap": "392 英尺的塔楼立面细部 · Epicgenius / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Riverside_Church_Mar_2026_40.jpg",
+            "url": "img/riverside-church-mar-2026-40-ae6af627.jpg",
             "cap": "仿 Chartres 的哥特石作与入口一带 · Epicgenius / CC BY-SA 4.0"
           }
         ]
@@ -3665,15 +3665,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Apollo_Theater_Harlem_NYC_2010.JPG",
+            "url": "img/apollo-theater-harlem-nyc-2010-c79049ad.jpg",
             "cap": "Apollo Theater 的招牌雨棚与竖招牌 · Hans Joachim Dudeck / CC BY-SA 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Studio_Museum_in_Harlem%2C_Nov_2025.jpg",
+            "url": "img/studio-museum-in-harlem-nov-2025-62b5fea9.jpg",
             "cap": "Studio Museum in Harlem 新馆立面，2025 年 11 月开馆后摄 · 19h00s / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/2014_Striver%27s_Row_219-203_W_138_%26_2360_ACP_by_Bruce_Price_%26_Clarence_S._Luce.jpg",
+            "url": "img/2014-striver-s-row-219-203-w-138-2360-acp-by-bruce-price-cla-a652b293.jpg",
             "cap": "Striver's Row：138 街 219–203 号的 Colonial Revival 联排 · Beyond My Ken / CC BY-SA 3.0"
           }
         ]
@@ -3749,15 +3749,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Low_Memorial_Library_at_Columbia_University_12-17-2025.jpg",
+            "url": "img/low-memorial-library-at-columbia-university-12-17-2025-c8fa951f.jpg",
             "cap": "Low Memorial Library 的台阶与全花岗岩穹顶，2025 年摄 · Magpieturtle / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Butler_Library_Columbia_University.jpg",
+            "url": "img/butler-library-columbia-university-7746b6de.jpg",
             "cap": "Butler Library 北立面与檐壁上的古典作者名 · JSquish / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2014_Columbia_University_Alma_Mater.jpg",
+            "url": "img/2014-columbia-university-alma-mater-64748ecc.jpg",
             "cap": "Daniel Chester French 1903 年的 Alma Mater 坐像 · Beyond My Ken / CC BY-SA 4.0"
           }
         ]
@@ -3832,15 +3832,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Cathedral_Church_of_St._John_the_Divine_-_the-groundview.jpg",
+            "url": "img/cathedral-church-of-st-john-the-divine-the-groundview-bc43e9e2.jpg",
             "cap": "Amsterdam Avenue 一侧的西立面与未完工的南塔 · The groundview / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/4/46/The_Cathedral_Church_of_Saint_John_the_Divine_Choir.jpg",
+            "url": "img/the-cathedral-church-of-saint-john-the-divine-choir-2e300912.jpg",
             "cap": "高坛与罗马式花岗岩巨柱 · Jpapanestor007 / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/St_John_The_Divine_Rose_Window_from_inside.JPG",
+            "url": "img/st-john-the-divine-rose-window-from-inside-0634c694.jpg",
             "cap": "堂内西望直径 40 英尺的 Rose Window · Gesalbte / Public domain"
           }
         ]
@@ -3922,15 +3922,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Main_Gallery_Interior_and_Skylight_Solomon_R_Guggenheim_Museum.jpg",
+            "url": "img/main-gallery-interior-and-skylight-solomon-r-guggenheim-muse-6dcef73c.jpg",
             "cap": "中庭螺旋坡道与顶部玻璃穹顶 · EgorovaSvetlana / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Frank_Lloyd_Wright_-_New_York%2C_NY_-_Solomon_R._Guggenheim_Museum_%28A%29.jpg",
+            "url": "img/frank-lloyd-wright-new-york-ny-solomon-r-guggenheim-museum-a-cdf4369c.jpg",
             "cap": "第五大道上的倒金字塔外立面 · Bmzuckerman / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Frank_Lloyd_Wright_-_New_York%2C_NY_-_Solomon_R._Guggenheim_Museum_%28I%29.jpg",
+            "url": "img/frank-lloyd-wright-new-york-ny-solomon-r-guggenheim-museum-i-5646b261.jpg",
             "cap": "坡道外墙的曲面与仅五英寸厚的 Gunite 外壳 · Bmzuckerman / CC BY 4.0"
           }
         ]
@@ -4004,15 +4004,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Entrance_to_the_Neue_Galerie_New_York.jpg",
+            "url": "img/entrance-to-the-neue-galerie-new-york-b4403fc6.jpg",
             "cap": "1048 Fifth Avenue 的入口立面 · Mike Peel（www.mikepeel.net） / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Gustav_Klimt%2C_1907%2C_Adele_Bloch-Bauer_I%2C_Neue_Galerie_New_York.jpg",
+            "url": "img/gustav-klimt-1907-adele-bloch-bauer-i-neue-galerie-new-york-ab96849d.jpg",
             "cap": "Gustav Klimt《Adele Bloch-Bauer I》，1907 年 · Gustav Klimt / Public domain"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Shop_in_the_Neue_Galerie_New_York.jpg",
+            "url": "img/shop-in-the-neue-galerie-new-york-81a43f5c.jpg",
             "cap": "一楼 Design Shop 与 Book Store 所在的主层空间 · Mike Peel（www.mikepeel.net） / CC BY-SA 4.0"
           }
         ]
@@ -4094,15 +4094,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Central_atrium_of_the_Richard_Gilder_Center_for_Science%2C_Education%2C_and_Innovation_-_upper_level_view.jpg",
+            "url": "img/central-atrium-of-the-richard-gilder-center-for-science-educ-7235ef1e.jpg",
             "cap": "Gilder Center 的 Exploration Atrium 喷射混凝土中庭 · Zeete / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Blue_Whale_Nat%27l_Hist_Museum.JPG",
+            "url": "img/blue-whale-nat-l-hist-museum-bdd21dc6.jpg",
             "cap": "Milstein Hall of Ocean Life 的 94 英尺蓝鲸模型 · Breakyunit / CC BY-SA 3.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/AMNHTitanosaur.jpg",
+            "url": "img/amnhtitanosaur-cdfa5265.jpg",
             "cap": "四层 Fossil Halls 的 Titanosaur 铸模全景 · D. Benjamin Miller / CC0"
           }
         ]
@@ -4184,15 +4184,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Temple_of_Dendur%2C_Egyptian_collection%2C_Metropolitan_Museum_of_Art.jpg",
+            "url": "img/temple-of-dendur-egyptian-collection-metropolitan-museum-of--cbcf77dc.jpg",
             "cap": "Temple of Dendur 与 Sackler Wing 的斜玻璃幕墙 · TheCatalyst31 / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Metropolitan_Museum_of_Art%2C_Great_Hall%2C_October_2025.jpg",
+            "url": "img/metropolitan-museum-of-art-great-hall-october-2025-1812ae00.jpg",
             "cap": "Great Hall 的罗马式穹顶与大楼梯 · TheCatalyst31 / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Metropolitan_Museum_of_Art_entrance_NYC.JPG",
+            "url": "img/metropolitan-museum-of-art-entrance-nyc-16e22086.jpg",
             "cap": "第五大道立面与正门大台阶 · Arad / CC BY-SA 3.0"
           }
         ]
@@ -4277,15 +4277,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Bethesda_Terrace_and_432_Park_Avenue_from_the_Lake%2C_Central_Park%2C_Manhattan%2C_New_York.jpg",
+            "url": "img/bethesda-terrace-and-432-park-avenue-from-the-lake-central-p-6590a69b.jpg",
             "cap": "自湖上望 Bethesda Terrace 与远处 432 Park Avenue · Christian David / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Bow_Bridge_over_the_Lake%2C_Central_Park%2C_Manhattan%2C_New_York.jpg",
+            "url": "img/bow-bridge-over-the-lake-central-park-manhattan-new-york-009381f4.jpg",
             "cap": "Bow Bridge 跨湖的弓形铸铁桥身 · Christian David / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/The_Mall_%26_Literary_Walk%2C_Central_Park%2C_Manhattan%2C_NYC.JPG",
+            "url": "img/the-mall-literary-walk-central-park-manhattan-nyc-9692c491.jpg",
             "cap": "The Mall 与 Literary Walk 的美国榆隧道 · Ahodges7 / CC BY-SA 3.0"
           }
         ]
@@ -4401,15 +4401,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Museum_of_Modern_Art_%28MoMA%29_%2851395759113%29.jpg",
+            "url": "img/museum-of-modern-art-moma-51395759113-6fd40ef0.jpg",
             "cap": "53 街正门与谷口吉生改建后的玻璃立面 · ajay_suresh / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Crowd_Gathers_at_Starry_Night_Painting_in_New_York_City%27s_Museum_of_Modern_Art_%28MOMA%29.jpg",
+            "url": "img/crowd-gathers-at-starry-night-painting-in-new-york-city-s-mu-0b7e4398.jpg",
             "cap": "五楼 501 号厅《星夜》前的典型人流 · Rickmouser45 / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Courtyard_Museum_of_Modern_Art_3_%284694298070%29.jpg",
+            "url": "img/courtyard-museum-of-modern-art-3-4694298070-e76ad4a6.jpg",
             "cap": "Abby Aldrich Rockefeller Sculpture Garden · Tony Hisgett / CC BY 2.0"
           }
         ]
@@ -4497,15 +4497,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Times_Square_night_panorama.jpg",
+            "url": "img/times-square-night-panorama-33da723e.jpg",
             "cap": "入夜后的广告牌全包围全景 · PLBechly / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Times_Square%2C_NYC_at_night_-_August_2025.jpg",
+            "url": "img/times-square-nyc-at-night-august-2025-52743dfe.jpg",
             "cap": "2025 年夜间的 Broadway 步行广场与屏幕墙 · Nielsoncaetanosalmeron / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/TKTS_red_stairs_jeh.JPG",
+            "url": "img/tkts-red-stairs-jeh-7b574290.jpg",
             "cap": "Duffy Square 的 TKTS 红色玻璃台阶 · Jim.henderson / Public domain"
           }
         ]
@@ -4885,11 +4885,11 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/New_York_City_%28New_York%2C_USA%29%2C_Times_Square-Duffy_Square_--_2012_--_6380.jpg",
+            "url": "img/new-york-city-new-york-usa-times-square-duffy-square-2012-63-8faa02e4.jpg",
             "cap": "Duffy Square 与 TKTS 折扣票亭所在的剧院区北端 · Dietmar Rabich / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Broadway_Theatre_W_53_St_May_2025_02.jpg",
+            "url": "img/broadway-theatre-w-53-st-may-2025-02-7238652e.jpg",
             "cap": "真正开在 Broadway 路上的四座剧院之一：Broadway Theatre · Epicgenius / CC BY-SA 4.0"
           }
         ]
@@ -6304,15 +6304,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/1/18/September_11_Museum_Foundation_Hall.jpg",
+            "url": "img/september-11-museum-foundation-hall-bc0ddae9.jpg",
             "cap": "Foundation Hall 与挡水墙 · Fletcher6 / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/National_September_11_Museum%2C_New_York_City%2C_20231004_091856.jpg",
+            "url": "img/national-september-11-museum-new-york-city-20231004-091856-638fd8d1.jpg",
             "cap": "馆内下行坡道与基岩层空间 · Jakub Hałun / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/9-11_Museum_2025a.jpg",
+            "url": "img/9-11-museum-2025a-9de31038.jpg",
             "cap": "展区内的钢构件展陈 · Antony-22 / CC BY-SA 4.0"
           }
         ]
@@ -6509,15 +6509,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Bowling_Green_td_%282018-12-13%29_06_-_26_Broadway%2C_Charging_Bull.jpg",
+            "url": "img/bowling-green-td-2018-12-13-06-26-broadway-charging-bull-8101e878.jpg",
             "cap": "Bowling Green 北端的 Charging Bull · Tdorante10 / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Subdued_FiDi_%2850063555551%29.jpg",
+            "url": "img/subdued-fidi-50063555551-da7dc9af.jpg",
             "cap": "Broad Street 的 Fearless Girl 与证交所立面国旗 · Billie Grace Ward / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/George_Washington_statue_outside_Federal_Hall.jpg",
+            "url": "img/george-washington-statue-outside-federal-hall-89a84a51.jpg",
             "cap": "Federal Hall 台阶上的 Washington 像 · Kathleen Gulley / CC BY-SA 4.0"
           }
         ]
@@ -6715,15 +6715,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Liberty_Island_photo_Don_Ramey_Logan.jpg",
+            "url": "img/liberty-island-photo-don-ramey-logan-51c12d8c.jpg",
             "cap": "Liberty Island 与雕像全景 · Don Ramey Logan / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Statue_of_Liberty_and_a_sightseeing_boat%2C_Liberty_Island%2C_New_York.jpg",
+            "url": "img/statue-of-liberty-and-a-sightseeing-boat-liberty-island-new--8fe8d764.jpg",
             "cap": "自水面看雕像与观光船 · Christian David / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/NYC-ellis-registry-room.jpg",
+            "url": "img/nyc-ellis-registry-room-62887c96.jpg",
             "cap": "Ellis Island 主厅 Registry Room 的拱顶与长窗 · Balou46 / CC BY-SA 4.0"
           }
         ]
@@ -6950,15 +6950,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Flushing_Meadows_Unisphere.jpg",
+            "url": "img/flushing-meadows-unisphere-070c12c6.jpg",
             "cap": "Unisphere 与环绕它的三道轨道环 · Avery A. Benson / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Flushing_Meadows_Fair_Grounds_td_%282018-05-26%29_020_-_Unisphere.jpg",
+            "url": "img/flushing-meadows-fair-grounds-td-2018-05-26-020-unisphere-d0d9e5cb.jpg",
             "cap": "自水池对岸看不锈钢地球全貌 · Tdorante10 / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Queens_Museum_Panorama_with_Never_Built_New_York.jpg",
+            "url": "img/queens-museum-panorama-with-never-built-new-york-8c34c4b7.jpg",
             "cap": "Queens Museum 的 Panorama of the City of New York 全市模型 · Jeremy Neiman / CC BY-SA 4.0"
           }
         ]
@@ -7042,15 +7042,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/View_from_Domino_Park_002.jpg",
+            "url": "img/view-from-domino-park-002-96e7c704.jpg",
             "cap": "自 Domino Park 望 East River 与 Manhattan 天际线 · Kidfly182 / CC BY 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bedford_Av_-_NYC_Williamsburg_%2825877481737%29.jpg",
+            "url": "img/bedford-av-nyc-williamsburg-25877481737-14b534ab.jpg",
             "cap": "Bedford Avenue 的店铺街景 · FaceMePLS / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Brooklyn_Smorgasburg_%288173898964%29.jpg",
+            "url": "img/brooklyn-smorgasburg-8173898964-d57d9f89.jpg",
             "cap": "Smorgasburg 露天美食市集的摊位与人流 · Jill Laurie Goodman / CC BY 2.0"
           }
         ]
@@ -7440,15 +7440,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/New_York_Transit_Museum_Court_Street_platform.jpg",
+            "url": "img/new-york-transit-museum-court-street-platform-f6311c10.jpg",
             "cap": "Court Street 废弃站台上的老车厢队列 · Marcin Wichary / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/Court_St_signage_at_New_York_Transit_Museum.jpg",
+            "url": "img/court-st-signage-at-new-york-transit-museum-92ca9a06.jpg",
             "cap": "站内保留的老式「Court St」马赛克站名牌 · wctaiwan / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/New_York_Transit_Museum_July_2013_005.jpg",
+            "url": "img/new-york-transit-museum-july-2013-005-08a0d9a2.jpg",
             "cap": "馆内展厅与历代车辆展陈 · King of Hearts / CC BY-SA 4.0"
           }
         ]
@@ -7635,15 +7635,15 @@ var REGIONS = [
         ],
         "images": [
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Brooklyn_Museum_20170313.jpg",
+            "url": "img/brooklyn-museum-20170313-355fa092.jpg",
             "cap": "Eastern Parkway 正面与 2004 年的玻璃门廊 · Suicasmo / CC BY-SA 4.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Brooklyn_Museum_-_Entrance_%2852302265063%29.jpg",
+            "url": "img/brooklyn-museum-entrance-52302265063-bc11b5fd.jpg",
             "cap": "正门入口与科林斯柱廊 · ajay_suresh / CC BY 2.0"
           },
           {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Brooklyn_Museum_Night_2015.jpg",
+            "url": "img/brooklyn-museum-night-2015-62f04581.jpg",
             "cap": "夜间亮灯的 Beaux-Arts 立面 · Cm300883 / CC BY-SA 4.0"
           }
         ]
