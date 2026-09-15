@@ -723,6 +723,7 @@ module.exports = {
       n: 5,
       name: '世界贸易中心交通枢纽（Oculus）',
       en: 'World Trade Center Transportation Hub (Oculus)',
+      must: 3,
       score: 5,
       tldr: '免费、几乎 24 小时的白色钢肋大厅；天窗光带沿纵轴对齐的时刻是 9/25 的 10:07、10/22 的 09:29；三脚架需提前 10 个工作日申请许可。',
       tags: [{ t: '完全免费', c: 'free' }, { t: '三脚架需许可', c: 'risk' }, { t: '1:00–5:00 街面口关闭', c: 'risk' }, { t: '大楼梯禁拍', c: 'risk' }],
@@ -745,6 +746,35 @@ module.exports = {
         '<strong>但好消息是几何仍然成立：</strong>光要透过玻璃而不是透过空气，' +
           '强度与边缘锐度会打折，太阳方位角的对齐关系却分毫不变——' +
           '本条目下面给出的时刻表就是据此反推的'
+      ],
+      tour: [
+        '<strong>这不是博物馆，是一座还在运营的地铁与 PATH 车站，逛法非常简单：从街面走进来、站到大厅正中抬头看、' +
+          '沿二层环廊走半圈、下到下层看一眼商场，就结束了。</strong>' +
+          '没有票口、没有安检、没有讲解、没有参观路线，<strong>全程 20 分钟就够</strong>——' +
+          '不要按「一个景点」的心态给它安排半天',
+        '<strong>别错过三样</strong>：站在大厅正中抬头看<strong>约 350 英尺无柱净跨的白色钢肋与屋脊那条 355 英尺长的天窗</strong>' +
+          '（这就是整栋建筑的全部内容，其余都是附属）；<strong>二层环廊</strong>' +
+          '（沿环廊走半圈能看到钢肋从两端向中央收束的过程，比站在地面更能理解这个结构是怎么撑起来的）；' +
+          '以及东西两端那两条宽大的白色大楼梯（官方叫 <strong>Fulton Stairs</strong> 与 <strong>Grand Stairs</strong>），' +
+          '走一遍才感觉得到尺度',
+        '<strong>可以跳过的：下层的 Westfield 商场。</strong>' +
+          '那是一家普通连锁购物中心（Apple、Sephora、Cole Haan 之类），品牌与别处没有任何区别，' +
+          '<strong>专程来这里购物没有意义</strong>。省下的时间往西走 150 米到 9/11 Memorial 广场，' +
+          '或往东经 Dey Street 地下通道去 <strong>Fulton Center</strong>' +
+          '（另一个玻璃穹顶换乘厅，顶上是 Sky Reflector-Net 反射网，免费且完全顺路）',
+        '<strong>唯一真正的坑是时段而不是流程：</strong>这里日均通勤人流极大，' +
+          '<strong>08:00–09:30 与 17:00–18:30 两个通勤高峰里，大厅地面基本站不住人</strong>，' +
+          '站在正中抬头看会挡住人流。<strong>想安静看建筑请在 09:00 之前到</strong>，' +
+          '周日的通勤流全周最弱、是最从容的一天',
+        '<strong>餐饮与卫生间：</strong>下层有多家快餐档口，往东连通的 4 WTC 三层是 Eataly（意式超市加餐厅）；' +
+          '<strong>但这一带工作日中午被周围写字楼的人群占满，12:00–13:30 想坐下吃要等位</strong>，' +
+          '错开到 11:30 之前或 14:00 之后。' +
+          '<strong>卫生间最可靠的一处是 2 WTC 北通道主层的公共洗手间，官方口径 08:00–20:00 开</strong>，' +
+          '其余几处跟着店铺时间走——早班与夜里只有这一处能指望',
+        '<strong>它最大的实用价值其实是当枢纽用：</strong>地下通道直连 E 线、R/W 线、2/3、4/5、A/C、J/Z 六组地铁与 PATH，' +
+          '还能不出地面走到 Brookfield Place（Winter Garden 的棕榈树中庭，洗手间干净且人少）、' +
+          '9/11 Memorial 广场与 One World Observatory 入口。' +
+          '<strong>下雨天或大风降温的日子，这条地下网络是整个下城最舒服的动线</strong>'
       ],
       photo: '建筑 <strong>5/5</strong>，人像 <strong>4.5/5</strong>，风光 <strong>0/5</strong>。全区最强的室内建筑目标且零门票；扣分只在于三脚架许可制度与两条最出名的大楼梯被列入禁拍区。',
       shots: [
@@ -790,12 +820,26 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>20–30 分钟</strong>：大厅正中抬头看 10 分钟、二层环廊走半圈 10 分钟、' +
+          '两条大楼梯与下层商场扫一眼 10 分钟。<strong>只是路过抬头看一眼：10 分钟足够。</strong>' +
+          '<strong>把周边的免费点一起串起来则是 2–2.5 小时</strong>' +
+          '（Oculus 大厅 + 9/11 Memorial 广场 + Liberty Park + Fulton Center + Brookfield Place 的 Winter Garden，' +
+          '五处全在步行 10 分钟内、全部不要票、其中四处不用出地面）。' +
+          '（依据：港务局不给建议参观时长，此为按「整栋建筑只有一个大厅」这一事实推算——' +
+          '它没有展览、没有分区、没有动线，看完确实不需要更久）',
         book: '不需预约。<strong>但带三脚架需提前申请许可，见 notes</strong>',
-        ticket: '<strong>免费。</strong>官方口径：进入 Oculus 大厅与各公共通道完全免费，只有购物、餐饮与乘 PATH／地铁才付费',
+        ticket: '<strong>免费。</strong>官方口径：进入 Oculus 大厅与各公共通道完全免费，只有购物、餐饮与乘 PATH／地铁才付费' +
+          '（<strong>2026 年 9 月 14 日复核，无变化</strong>）。' +
+          '<strong>顺带排掉一个很容易花错钱的混淆：St. George 这个地名下有两条完全不同的船。</strong>' +
+          '免费的是 NYC DOT 的 Staten Island Ferry（本区另有条目）；' +
+          '<strong>而 ferry.nyc 的 NYC Ferry 也有一条「St. George 线」，停 Battery Park City／Vesey Street、Midtown West／Pier 79 等站，' +
+          '单程 $4.50、全程约 35 分钟，那是收费的另一家</strong>。' +
+          '查时刻表时看到 ferry.nyc 上的「STG」时刻表，请注意那不是免费渡轮的班次',
         hours: '大厅作为交通设施基本全天开放，' +
           '<strong>但港务局明确：「The Oculus street level access is limited overnight from 1:00 am to 5:00 am」</strong>' +
           '——这段时间要走 Vesey Street 或 Fulton Street 经 2 WTC 北通道进出，其余街面口全部关闭' +
-          '（2026 年 9 月 5 日在港务局 Campus Updates 页复核，措辞未变）。' +
+          '（<strong>2026 年 9 月 14 日在港务局 Campus Updates 页第三次复核，措辞一字未变</strong>；' +
+          '官方另注明这段时间要用电梯请走 2 WTC 换乘大堂的 <strong>23 号电梯</strong>）。' +
           '<strong>店铺时间要标一个官方内部矛盾：港务局自己的两个网站给的不是同一组数字。</strong>' +
           '<strong>Campus Updates 页写周一–周五 10:00–20:00、周六 10:00–19:00、周日 11:00–18:00；' +
           '而同属港务局的 explorewtc.com「Shopping」页写周一–周五 9:00–19:00、周六 10:00–20:00、周日 11:00–19:00。</strong>' +
@@ -836,6 +880,7 @@ module.exports = {
       n: 6,
       name: '世界贸易中心一号楼观景台',
       en: 'One World Observatory',
+      must: 3.5,
       score: 3.5,
       tldr: '全城最高（386 米）但全封闭无露台；官方票价 $44 起（不是 $31）、每天 9:00–21:00；画面主体是海港与桥梁而不是 Midtown 天际线。',
       tags: [{ t: '$44 起', c: 'paid' }, { t: '全封闭无露台', c: 'risk' }, { t: '禁三脚架', c: 'risk' }, { t: '强制安检', c: 'risk' }],
@@ -863,6 +908,43 @@ module.exports = {
           '<strong>一般的雾霾与薄云不算，而且官方还写着「we advise all of our guests to arrive for their ticketed time」' +
           '——天气不好照样让你上。</strong>' +
           '<strong>真正有用的退路不是这条，而是购票后可以自助改期</strong>（见 access 的票价一栏）'
+      ],
+      tour: [
+        '<strong>这是一条单向、不可回头的固定流水线，没有自由路线可选，先把顺序记住：</strong>' +
+          '票房与安检 → 地面层的两个前置展 <strong>FOUNDATIONS</strong>（讲塔基、基岩与挡水墙）与 <strong>VOICES</strong>' +
+          '（建塔工人的口述）→ SkyPod 电梯 47 秒直上 → <strong>102 层 SEE FOREVER 剧场</strong>先看一段约两分半的短片' +
+          '（<strong>这一段绕不过去，是必经动线</strong>）→ 自动扶梯下到 <strong>100 层主观景层</strong>自由停留 → 从 101 层出口下楼。' +
+          '<strong>官方明确写了「Re-entry is not permitted」，出去就回不来</strong>，所以别打算先上去看一眼再下来吃饭',
+        '<strong>别错过三样，都在 100 层</strong>：<strong>City Pulse</strong>' +
+          '（一圈环形屏幕，由现场的接待员用手势调出各个地标的介绍，是这里唯一有人讲解的环节，值得站着听一段）、' +
+          '<strong>Sky Portal</strong>（一块直径约 14 英尺的圆形玻璃地板，脚下放的是实时街景，' +
+          '小孩与怕高的人反应最大）、以及<strong>西南侧那面正对 New York Harbor 的玻璃</strong>——' +
+          '自由女神、Ellis Island、Governors Island 与两座大桥全在这一侧，' +
+          '<strong>这才是这张票真正买到的东西</strong>。另外 SkyPod 电梯本身别低头玩手机，' +
+          '47 秒里轿厢四壁在放 500 年天际线演变的动画，是全程最讨巧的一段',
+        '<strong>可以跳过的三样：</strong>加价租的 One World Explorer 平板导览' +
+          '（内容与 City Pulse 重叠，而 City Pulse 免费）、出口处的 SEE FOREVER 纪念照' +
+          '（$$ 且构图固定），以及 101 层的 ONE Dine 餐厅——<strong>那里要另付费且必须持观景票才能进，' +
+          '如果只是想喝一杯看夜景，楼下的 illy 咖啡与 ONE Mix 吧台便宜得多</strong>。' +
+          '<strong>COMBINATION 及以上票种含的 $5／$15 消费额就是在这几处用掉，' +
+          '算下来升级票其实是「预付了一杯咖啡」，不是真的省钱</strong>',
+        '<strong>安检与随身物品是这里最容易出事的一环，务必提前处理</strong>：' +
+          '机场式安检，<strong>包件上限 25 英寸高 × 17 英寸宽 × 9 英寸深，任何行李箱一律不准进，' +
+          '而且官方明确「We do not have lockers or storage capabilities」——现场没有寄存柜</strong>。' +
+          '<strong>刚下飞机或退房后拖着箱子过来会被直接拦下，最近的寄存都在 WTC 园区之外。</strong>' +
+          '外带食品与饮料也不能通过安检；全场无现金（可用现场的反向 ATM 把现金换成卡）',
+        '<strong>人流：9:00 开门后的第一个半小时最空，12:00–17:00 最挤。</strong>' +
+          '普通票绑 15 分钟到达时段但<strong>进场后不限时</strong>，所以真正的策略是买早场票、慢慢待着。' +
+          '<strong>追日落的人请照官方那句建议办：「We recommend purchasing a ticket for at least one hour before sunset」' +
+          '——落到 10/13–10/26 就是买 17:00–17:15 的时段票</strong>（这两周日落在 18:20 到 18:03 之间）',
+        '<strong>餐饮与卫生间：</strong>卫生间三层都有，<strong>出口一层的大堂里还有一处，' +
+          '是排队最短的那个</strong>（官方原文「as well as in the exit lobby on the first floor upon departing the elevators」）。' +
+          '吃的有 100 层的 illy Caffè &amp; Gelateria（咖啡、冰淇淋与简餐）、101 层的 ONE Dine（正餐，可经 OpenTable 提前 30 天订位）' +
+          '与 ONE Mix（酒吧）。<strong>纪念品店 GALLERY at ONE WORLD 在 100 层</strong>',
+        '<strong>最后一条是选择题而不是流程：如果你此行只打算上一个观景台，这个不一定该是它。</strong>' +
+          '它在下城最南端，看的是海港与桥；<strong>想要「帝国大厦 + 上下城一起入画」的那张经典天际线，' +
+          '该去 Midtown 的观景台</strong>。两者不是替代关系而是两个不同的题材，' +
+          '<strong>本条给 3.5 分的原因正在这里——它很高、很贵、很值得，但不是非它不可</strong>'
       ],
       photo: '风光 <strong>3.5/5</strong>，建筑 <strong>3/5</strong>，人像 <strong>2.5/5</strong>。海港与双桥的俯视角度独一无二；扣分是全封闭玻璃、禁三脚架、且门票价格与出片率不成正比。',
       shots: [
@@ -900,29 +982,57 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>官方给了明确建议时长，照抄：「You should allow approximately 45 minutes to 1-hour to complete your visit.」' +
+          '即 45 分钟至 1 小时</strong>（2026 年 9 月 14 日在官方 FAQ 逐字核实）。' +
+          '<strong>这个数字是按「看完流水线就走」算的，追光线的人要往上加</strong>：' +
+          '前置展 FOUNDATIONS 与 VOICES 加 SkyPod 电梯 15 分钟、102 层 SEE FOREVER 剧场 10 分钟、' +
+          '100 层主观景层（City Pulse、Sky Portal 与绕一圈看四个方向）30–45 分钟。' +
+          '<strong>想在这里等日落转蓝调，请按 1.5–2 小时算</strong>——' +
+          '买日落前一小时的票进场，待到天黑透，这是唯一能一票看到金光、日落与夜景三种状态的做法' +
+          '（进场后不限时，但<strong>出场即不可再入</strong>）。' +
+          '<strong>只想上去打个卡看一眼：45 分钟，官方下限就够。</strong>' +
+          '另外把安检排队算进去：请在票面时段前 20–30 分钟到达 West Street 的入口',
         book: '<strong>强烈建议线上预购定时票。</strong>普通票绑定日期与 15 分钟到达时段；' +
           '<strong>ALL-INCLUSIVE 票不绑时段、当天任意时间进</strong>（官方表述为「Select Your Arrival／Arrive in the morning, afternoon, or evening」）——' +
           '这一点对追日落的人有实际价值，因为日落时段的普通票经常先售空。' +
           'COMBINATION 与 VIP 票另含安检、电梯与出口的优先通道。' +
           '<strong>官方另说明「All current ticket packages ... are only valid for one-time admission. Re-entry is not permitted」' +
           '——出去就回不来，所以别打算「先上去看看光线再下来吃饭」</strong>',
-        ticket: '<strong>已从官方购票页取到确切数字，原先那套「$31 起」是过时的第三方口径，请作废。</strong>' +
-          'oneworldobservatory.com 的 Buy Tickets 页（2026 年 9 月 5 日）用一张四栏对照表公布起价：' +
-          '<strong>STANDARD（纯观景）$44 起；COMBINATION（加安检／电梯／出口优先通道与 One World Explorer 数字导览、含 $5 消费额）$54 起；' +
-          'ALL-INCLUSIVE（再加「当天任意时段入场」与 $15 消费额）$64 起；VIP TOUR（专人引导入场加 60 分钟导览）$74 起。' +
-          '每张票另加 $3.50 手续费加税。</strong>' +
-          '<strong>官方不再公布儿童与老人分档价</strong>，也没有 6 岁以下免票的说明，只写「Guests must be at least 17 years of age or accompanied by an adult」' +
-          '——<strong>原先本条写的 6–12 岁 $31、65+ $35、6 岁以下免票，均未能在现行官方页面找到，请视为不可靠。</strong>' +
-          '官方公布的折扣有四种：<strong>Late Night Package「Visit us after 8pm and save 50%」、' +
-          'Family Pack 买 4 张以上省 20%、10–50 人团体 9 折、NYC 居民专享价</strong>，' +
-          '另有现役与退役军人／NYPD／FD／EMS 凭证到现场票房享 STANDARD 五折加同行最多四人八折。' +
+        ticket: '<strong>2026 年 9 月 14 日重新核实，票价有变，而且官方自己的两个页面对不上，两种口径都写出来：</strong>' +
+          '<strong>oneworldobservatory.com／en-US／tickets 页现在显示 STANDARD $39 起、COMBINATION $49 起、' +
+          'ALL-INCLUSIVE $59 起、VIP TOUR $69 起；' +
+          '而 www.oneworldobservatory.com／buy-tickets／ 页仍显示 $44／$54／$64／$74 起（即 9 月 5 日核实时的那组数字）。</strong>' +
+          '<strong>两页都挂在官方域名下，本条不替你二选一——按 $44 起做预算、真买时若跳出 $39 就是赚到。</strong>' +
+          '（判断线索：前者挂的促销期是 8 月 23 日–9 月 13 日，后者挂的是 7 月 20 日–9 月 7 日，' +
+          '<strong>前者更新更近，所以 $39 那组更可能是现行价，但这是推断不是官方声明。</strong>）' +
+          '四档的区别：STANDARD 纯观景；COMBINATION 加安检／电梯／出口优先通道与 One World Explorer 数字导览、含 $5 消费额；' +
+          'ALL-INCLUSIVE 再加「当天任意时段入场」与 $15 消费额；VIP TOUR 专人引导入场加 60 分钟导览。' +
+          '<strong>「起」字要当真：这是淡时段的下限，日落前后的时段一定更贵</strong>，每张另加约 $3.50 手续费加税。' +
+          '<strong>官方不公布儿童与老人分档价</strong>，也没有任何年龄免票条款，只写' +
+          '「Guests must be at least 17 years of age or accompanied by an adult」' +
+          '——<strong>历史上流传的 6–12 岁 $31、65+ $35、6 岁以下免票，均未能在现行官方页面找到，请视为不可靠。</strong>' +
+          '<strong>折扣清单也变了，以官方 Community Offers 页 2026 年 9 月 14 日的现行内容为准，' +
+          '且全部只能到现场 Guest Services 凭证件办、不能线上领：</strong>' +
+          '<strong>学生凭学生证每张减 $10</strong>（这条对自由行最实用）、' +
+          '现役与退役军人／退伍军人本人五折加同行最多四人八折、NYPD／FDNY／EMS 同上、' +
+          '联邦政府雇员八折、航空公司员工八折、' +
+          '教师凭校方证件免票（<strong>但官方写明这一档只到 9 月 30 日，行程期间已过期</strong>）、' +
+          'WTC 与金融区周边企业员工平日 14:00–20:00 $20 入场加 $20 餐饮额。10 人以上团体走 Groups@oneworldobservatory.com。' +
+          '<strong>要特别更正一条：原先本条写的「Late Night Package 八点后五折」「Family Pack 四张八折」「10–50 人团体九折」' +
+          '「NYC 居民专享价」，在现行官方购票页与 Community Offers 页上都已找不到</strong>——' +
+          '<strong>「Late Night Package $30.49」现在只出现在 Expedia、Headout、AAA 这类第三方分销页上，' +
+          '官方渠道无此票种，未能从官方渠道确认它是否还存在</strong>。' +
+          '要确认可打 Guest Services <strong>(844) 696-1776</strong>。' +
           '<strong>票不可退，但可改期：官方 FAQ 明确「you can update your ticket details online before your scheduled visit」，' +
           '经 Manage My Booking 自助改日期与时段</strong>——这一条比「不可退」重要得多，' +
           '意味着<strong>天气不好可以提前改到另一天，不必硬上</strong>',
-        hours: '官方原文：<strong>Monday – Sunday 9:00 AM – 9:00 PM</strong>（2026 年 9 月 5 日在 Plan your Visit 页复核）。' +
-          '<strong>官方不公布末次入场时刻</strong>——原先本条写的「20:00–20:10 末次入场」在现行官方页面上找不到依据，' +
-          '<strong>而且官方自己在卖 Late Night Package（「Visit us after 8pm and save 50%」），说明 20:00 之后仍然放人进</strong>，' +
-          '所以请把它理解为「21:00 关门、之前都能进」，只是留给自己的拍摄时间会很短。' +
+        hours: '官方原文：<strong>Monday – Sunday 9:00 AM – 9:00 PM</strong>' +
+          '（<strong>2026 年 9 月 14 日在 Plan your Visit 页复核，一字未变；' +
+          '该页当时另挂着 9 月 11 日当天 12:00–21:00 的特例，那一天早于行程窗口，与本次无关</strong>）。' +
+          '<strong>官方不公布末次入场时刻</strong>——流传的「20:00–20:10 末次入场」在现行官方页面上找不到依据。' +
+          '<strong>但第三方分销渠道（Expedia、Headout、AAA）至今仍在卖「8 点后入场」的夜场票，' +
+          '说明 20:00 之后确实还放人进</strong>，所以请把它理解为「21:00 关门、之前都能进」，' +
+          '只是留给自己的时间会很短（官方建议的参观时长是 45 分钟到 1 小时）。' +
           '<strong>10/16–10/18 三天日落 18:16／18:14／18:12、蓝调分别到 18:43／18:42／18:40，' +
           '全部落在营业时间内，收工后还有两个多小时的纯夜景余量。</strong>' +
           '<strong>官方对追日落的人给了一条明确建议：「We recommend purchasing a ticket for at least one hour before sunset」' +
@@ -956,6 +1066,7 @@ module.exports = {
       n: 7,
       name: '9/11 国家纪念广场',
       en: 'National September 11 Memorial (Reflecting Pools)',
+      must: 5,
       score: 4.5,
       tldr: '广场免费、8:00–20:00、无票无安检；方池只在 08:00–09:00 与亮灯后成立，正午光比超 10 EV 必废。禁三脚架。',
       tags: [{ t: '广场完全免费', c: 'free' }, { t: '博物馆 $36 需定时票', c: 'paid' }, { t: '禁三脚架', c: 'risk' }, { t: '拍摄需克制', c: 'risk' }],
@@ -981,6 +1092,45 @@ module.exports = {
         '广场上另有两处容易被忽略：<strong>Survivor Tree</strong>（一棵在废墟中被救出、修复后重新栽回的美国梨树）' +
           '与 <strong>Memorial Glade</strong>（2019 年增设的六块倾斜花岗岩，纪念因救援与清理工作而患病死亡者）。' +
           '两处都不显眼，但作为单独的构图比方池更容易处理'
+      ],
+      tour: [
+        '<strong>先分清两件事，很多人到了现场才发现买错票或白排队：这一条目讲的是户外广场，' +
+          '免费、无票、无安检、四面敞开随便走进来；博物馆是广场南侧 180 Greenwich Street 的独立付费场馆，' +
+          '要提前买定时票、要过机场式安检</strong>（博物馆另见本区「9/11 纪念博物馆」条目）。' +
+          '<strong>只想看那两方水池的话，一分钱都不用花。</strong>',
+        '<strong>怎么逛：至少绕完一方池的四条边，而不是站在一个角上拍完就走。</strong>' +
+          '标准动线是从 Oculus 西侧出口出来 → 先到 <strong>North Pool</strong>（北塔原址）绕一圈 → ' +
+          '穿过广场的橡树林到 <strong>South Pool</strong>（南塔原址）→ 往南出到 Liberty Street。' +
+          '<strong>绕边走这件事本身就是设计意图</strong>：池沿的青铜栏板上刻着 2,983 个名字，' +
+          '<strong>而名字不是按字母排的，是按 "meaningful adjacencies"（有意义的相邻）分组</strong>——' +
+          '同一班飞机、同一层楼、同一个消防队、朋友与家人排在一起。' +
+          '<strong>知道这一点之后再看栏板，才看得出那些连续出现的同姓、同队名意味着什么，' +
+          '这是本条目最值得提前知道的一件事。</strong>',
+        '<strong>广场上有三样容易走过头的东西，都别错过：</strong>' +
+          '<strong>Survivor Tree</strong>——North Pool 东侧那棵与周围四百多棵沼生白栎明显不同的树，' +
+          '是从废墟里挖出来、在苗圃养了九年后栽回原地的一棵豆梨，树干上还看得出旧伤；' +
+          '<strong>Memorial Glade</strong>——广场南侧 2019 年增设的六块向上倾斜的花岗岩，' +
+          '纪念因参与救援与清理而患病死亡的人，不是纪念当天遇难者，很多人误认；' +
+          '以及栏板名字凹槽里偶尔插着的<strong>白玫瑰</strong>，那是工作人员在当事人生日当天放的。' +
+          '<strong>另可顺路上 Liberty Park</strong>（广场南侧抬高一层的免费小公园，有 St. Nicholas 希腊正教堂），' +
+          '<strong>那里是唯一能一眼把两方池与周围楼群一起看进来的位置</strong>',
+        '<strong>可以跳过的：广场边上那些拦着你卖「导览」与纪念册的人。</strong>' +
+          '<strong>官方的语音导览是免费的——在手机上装 Bloomberg Connects 就能听</strong>' +
+          '（911memorial.org 的 Visit 页原文「Download the free audio guide on Bloomberg Connects」）。' +
+          '广场四周与 Church Street 一带常有自称官方的人推销付费步行团与照片册，' +
+          '<strong>官方导览只在博物馆售票系统里卖，广场上不会有人向你兜售</strong>',
+        '<strong>这里的行为分寸比流程更重要，有几条会被安保立刻制止：</strong>' +
+          '<strong>不要坐在名字栏板上、不要把背包或水瓶放在栏板上、不要往池里投硬币或任何东西</strong>' +
+          '（官方明列为禁止行为），也不要在栏板前摆拍合影。' +
+          '<strong>现场经常有家属在悼念</strong>，官方原文写得很直接：' +
+          '「due to the somber nature of this establishment, not all visitors wish to be taped, photographed, ' +
+          'recorded, or bothered in any other manner」。压低说话音量，这里不是打卡点',
+        '<strong>广场上没有厕所也没有吃的，这是本条目唯一的实际硬约束</strong>——' +
+          '往东走 150 米到 Oculus 大厅解决（<strong>2 WTC 北通道主层的公共洗手间 08:00–20:00 开</strong>，' +
+          '是这一带最可靠的一处），或往西过 West Street 到 Brookfield Place（洗手间与美食广场都在）。' +
+          '<strong>人流：08:00–08:30 广场基本是空的</strong>（8:00 开门），' +
+          '9:00 之后旅游团进场，<strong>10:00–17:00 池沿四边基本站满人</strong>，' +
+          '傍晚亮灯后人会再少下来一轮'
       ],
       photo: '建筑 <strong>4.5/5</strong>，风光 <strong>2/5</strong>，人像 <strong>1/5</strong>。方池的几何与水幕的连续运动是极强的抽象素材；' +
         '<strong>人像分极低不是技术问题——这里不适合拍人像，请不要在名字栏板前摆拍。</strong>',
@@ -1026,6 +1176,16 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>广场 30–45 分钟</strong>：绕 North Pool 一圈 10–15 分钟、' +
+          '穿橡树林到 South Pool 再绕一圈 10–15 分钟、Survivor Tree 与 Memorial Glade 各 5 分钟。' +
+          '<strong>只想看一方池打卡：15 分钟。</strong>' +
+          '<strong>加上南侧抬高一层的 Liberty Park（能一眼看到两方池）另加 15 分钟。</strong>' +
+          '<strong>广场加博物馆一起算：3–4 小时</strong>' +
+          '（广场 45 分钟 + 安检与排队 20–30 分钟 + 馆内官方建议的「至少 45 至 90 分钟」，' +
+          '而实际走完两个主展一般要 2–2.5 小时，见博物馆条目）。' +
+          '<strong>建议把广场留到傍晚：亮灯后的广场比白天安静得多，而且离 20:00 闭园还有充足余量。</strong>' +
+          '（依据：官方只给了博物馆的建议时长「Plan on spending at least 45 to 90 minutes here」，' +
+          '不给广场时长，广场这一段为按 8 英亩广场与两方池的周长步行推算）',
         book: '广场<strong>不需预约</strong>。博物馆<strong>必须提前买定时票</strong>（最多可提前 6 个月购）。' +
           '<strong>周一免费票的官方原文是「available on the website each Monday beginning at 7 a.m. ET and are first come, first serve」' +
           '——只说当天 07:00 ET 放出、先到先得，并没有写每人限 4 张</strong>' +
@@ -1042,7 +1202,10 @@ module.exports = {
           '6 岁及以下免费（仍需票）；导览团含门票 $48–60；Memorial + Museum 导览 $85；家庭套票 $106／$125。' +
           '语音导览现场租借 $11（九种语言含 ASL），官方另有免费的 Bloomberg Connects 手机版',
         hours: '广场官方原文：<strong>The Memorial is open daily from 8 a.m. to 8 p.m.</strong>' +
-          '博物馆：<strong>周三至周一以及部分周二，9:00–19:00，末次入场 17:30</strong>。' +
+          '（<strong>2026 年 9 月 14 日在 911memorial.org／visit 复核，与「The Memorial is free and open to the public ' +
+          'seven days a week」一并逐字确认，无变化</strong>）。' +
+          '博物馆：<strong>周三至周一以及部分周二，9:00–19:00，末次入场 17:30</strong>' +
+          '（同日复核，官方原文「open Wednesday to Monday and select Tuesdays from 9 a.m. to 7 p.m. (last entry 5:30 p.m.)」）。' +
           '<strong>「部分周二」这条原先标着「官方无公布名单、只能到购票页查」，现已查清，可以删掉这个风险：' +
           '官方的 Special &amp; Extended Hours 页面（911memorial.org/special-and-extended-hours）逐条列出了 2026 年开放的周二，' +
           '其中写明「Every Tuesday in October」——也就是说 2026 年 10 月整月的周二全部开放，' +
@@ -1079,6 +1242,7 @@ module.exports = {
       n: 8,
       name: '布鲁克林大桥（Manhattan 侧步道）',
       en: 'Brooklyn Bridge (Manhattan-Side Promenade)',
+      must: 5,
       score: 5,
       tldr: '免费 24 小时；2021 年自行车道移下步道后拥挤度实质改善；哥特拱对称构图是日出题材，9/25 要 06:00 上桥、10/22 要 06:30。',
       tags: [{ t: '完全免费', c: 'free' }, { t: '24 小时开放', c: 'free' }, { t: '日出前才有空景', c: 'risk' }, { t: '桥上风大', c: 'risk' }],
@@ -1105,8 +1269,48 @@ module.exports = {
           '由 OSM 实体坐标算得桥轴走向约 <strong>136°／316°</strong>，' +
           'Manhattan 侧步道向 Brooklyn 望去是东南 136°；' +
           '日出方位 9/25 为 90.6°、10/22 为 104.0°，<strong>太阳从视线左前方约 32–45° 升起，' +
-          '正好斜照在花岗岩塔的东北面与钢缆上——这是唯一能让塔身有立体感、缆索有高光的时段。' +
+            '正好斜照在花岗岩塔的东北面与钢缆上——这是唯一能让塔身有立体感、缆索有高光的时段。' +
           '傍晚这个方向全在阴影里。</strong>'
+      ],
+      tour: [
+        '<strong>先做一个决定：走哪个方向。这决定了你看到什么。</strong>' +
+          '<strong>从 Manhattan 走向 Brooklyn，Manhattan 天际线在你背后，全程要回头才看得到；' +
+          '从 Brooklyn 走回 Manhattan，天际线一路正对着你越来越大——后者才是这座桥的正确看法。</strong>' +
+          '所以最省事的安排是：<strong>坐地铁到 Brooklyn 一侧（A/C 线 High Street 站）走回 Manhattan</strong>；' +
+          '若从 Manhattan 上桥，那就<strong>走到 Manhattan 塔或桥中段再折返</strong>，' +
+          '折返那一段才是好看的。全程单向 1.8 公里、纯步行 30–40 分钟',
+        '<strong>入口位置要说准，走错会多绕十分钟：Manhattan 侧的主入口在 Centre Street 与 Park Row 交口、' +
+          'City Hall Park 东北角</strong>，地铁 4/5/6 线 Brooklyn Bridge–City Hall 站或 J/Z 线 Chambers Street 站出来即是。' +
+          '<strong>步道在桥的正中央、架在机动车道之上</strong>，所以上桥要先走一段引桥坡道。' +
+          '<strong>从入口走到 Manhattan 塔约 800 米／11 分钟</strong>——这段距离经常被低估，' +
+          '很多人以为「桥头就是塔」，实际要走十来分钟',
+        '<strong>别错过的就是两座塔本身，以及一个多数人不知道要看的细节。</strong>' +
+          '两座新哥特式花岗岩塔各高 276.5 英尺，<strong>塔上那对双尖拱是这座桥全部辨识度的来源</strong>，' +
+          '站到塔正下方抬头看，四根主缆与放射状的吊索在头顶收进拱里。' +
+          '<strong>要看的细节是钢缆：1883 年通车时这是全球最长的悬索桥，也是第一座用钢缆而不是铁缆的悬索桥</strong>，' +
+          '桥上有铭牌讲 Roebling 一家三代的故事——' +
+          '<strong>父亲勘测时被渡船压伤脚趾、死于破伤风，儿子因潜水沉箱病瘫痪，' +
+          '真正在现场指挥了十余年的是儿媳 Emily Warren Roebling</strong>。' +
+          '另外站在桥上向北看是 Manhattan Bridge，两座桥并排的关系只有在桥上才看得清',
+        '<strong>可以跳过的：走完全程到 Brooklyn 那一侧的桥尾。</strong>' +
+          '过了 Brooklyn 塔之后的下坡段沿途是高速匝道与仓库，景观乏味；' +
+          '<strong>如果时间紧，走到桥中段（两塔之间）就已经看完了这座桥的全部好处</strong>。' +
+          '反过来，时间够的话别在桥尾折返，<strong>下桥后往北走进 DUMBO 与 Brooklyn Bridge Park</strong>，' +
+          '那里是从水面平视两座桥的位置，与桥上的视角完全不同',
+        '<strong>不需要票、不需要预约、不需要安检，24 小时开放，但有两条实际约束。</strong>' +
+          '第一是<strong>桥上完全没有厕所、没有饮水、没有座位</strong>——' +
+          '<strong>2024 年 NYC DOT 新规已禁止在市属桥梁的人行步道与自行车道上摆摊</strong>，' +
+          '连以前那些卖水的小推车都清掉了，<strong>一趟 30–40 分钟的步行请提前在桥头解决补给与卫生间</strong>' +
+          '（Manhattan 侧可用 City Hall Park，Brooklyn 侧用 Brooklyn Bridge Park）。' +
+          '第二是<strong>风</strong>：桥面高出水面 135 英尺且毫无遮蔽，' +
+          '<strong>十月下旬清晨体感能到 5 度以下</strong>，带一层挡风的外套',
+        '<strong>人流是这座桥唯一的真实问题，而且比你想的严重：</strong>' +
+          '<strong>NYC DOT 自己的数据是「秋季周末平均单日 34,000 名行人」（2021 年还只有 17,000）</strong>，' +
+          '而<strong>步道平均宽度只有 16 英尺、多处不足 5 英尺</strong>。' +
+          '好消息是 <strong>2021 年 9 月自行车道已被移到桥面机动车道上，步道现在只走行人</strong>，' +
+          '网上 2020 年之前「自行车横冲直撞」的说法已经过时。' +
+          '<strong>实操结论：周末 11:00–17:00 会走走停停、基本没法从容看桥；' +
+          '最舒服的是日出前后与 20:00 之后，人少到能站在步道正中不挡任何人</strong>'
       ],
       photo: '建筑 <strong>5/5</strong>，风光 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>。哥特拱与钢缆的几何是全城最强的桥梁构图，' +
         '而且日出、日落、蓝调三个时段各有不同方向的正确用法；扣分只有人流一项。',
@@ -1158,12 +1362,26 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1–1.5 小时</strong>是最常用的一档：从 Centre Street／Park Row 入口走到 Manhattan 塔' +
+          '（800 米／11 分钟）→ 再走到桥中段 → 折返，含在塔下与桥中段各停 10–15 分钟。' +
+          '<strong>单向走完全程（1.8 公里到 Brooklyn 一侧）纯步行 30–40 分钟，' +
+          '加上停留请按 1–1.25 小时算。</strong>' +
+          '<strong>只想上桥摸到第一座塔就回头：40 分钟。</strong>' +
+          '<strong>推荐的完整安排是 2.5–3 小时</strong>：地铁到 Brooklyn 一侧、' +
+          '先在 Brooklyn Bridge Park 与 DUMBO 待 45 分钟（从水面平视两桥），' +
+          '再走桥回 Manhattan（天际线一路正对着你）。' +
+          '<strong>桥上没有厕所也没有水，请把这段时长当成一次不能中途补给的徒步来准备。</strong>' +
+          '（依据：NYC DOT 只公布桥梁尺寸（含引桥全长 6,016 英尺、主跨 1,595.5 英尺）而不给建议时长，' +
+          '此为按实际步道长度与正常步速推算）',
         book: '不需预约',
-        ticket: '<strong>免费，24 小时开放</strong>（行人步道）',
+        ticket: '<strong>免费，24 小时开放</strong>（行人步道）。' +
+          '<strong>2026 年 9 月 14 日在 NYC DOT 的 Brooklyn Bridge 页复核：全页无任何收费条款，' +
+          '行人步道与自行车道都不收费</strong>——桥上或桥头若有人向你收「过桥费」或卖「登桥票」，那是骗局',
         hours: '无固定开放时间。<strong>步道全天候可走，但夜间照明不足，凌晨与深夜的自动对焦会很困难</strong>，' +
           '请开峰值对焦或手动预对焦到无限远。' +
-          '<strong>2026 年 9 月 6 日在 NYC DOT 的 Brooklyn Bridge 页复核，有一条会直接影响招牌构图，' +
-          '原先本条目完全没提：桥塔与引桥拱正在做大修（Contract 7「Rehabilitation of Towers and Approach Arches」，' +
+          '<strong>2026 年 9 月 14 日在 NYC DOT 的 Brooklyn Bridge 页第二次复核，下面这一段逐字未变、' +
+          '标称工期已过三年仍挂在「Current Projects」下，结论与上次相同：</strong>' +
+          '<strong>桥塔与引桥拱的大修仍在进行（Contract 7「Rehabilitation of Towers and Approach Arches」，' +
           '内容包括加固砌体桥塔、重新勾缝与替换花岗岩、以及改造桥塔照明）。' +
           '官方对行人的承诺写得很明确——「The bridge promenade will be open at all times, ' +
           'although portions of the walkway may be narrowed at times」，' +
@@ -1202,6 +1420,7 @@ module.exports = {
       n: 9,
       name: '史泰登岛渡轮',
       en: 'Staten Island Ferry',
+      must: 4,
       score: 4.5,
       tldr: '全免费、24 小时、单程 25 分钟；去程站右舷（starboard）拍自由女神、回程站左舷；<strong>真实日期请搭 Whitehall 17:30 南下、St. George 18:00 北上那一趟</strong>。',
       tags: [{ t: '完全免费', c: 'free' }, { t: '24 小时不停', c: 'free' }, { t: '不需票不需预约', c: 'free' }, { t: '甲板拥挤且晃', c: 'risk' }],
@@ -1223,6 +1442,37 @@ module.exports = {
           '平峰每 30 分钟，深夜 30–60 分钟；周末全天每 30 分钟（整点与半点），无高峰加密。</strong>' +
           '新年、马丁·路德·金纪念日、总统日、阵亡将士纪念日、六月节、独立日、劳动节、感恩节与圣诞节按周末时刻表。' +
           '2026 年 5 月 20 日冬季检修结束后已恢复全额班次，<strong>行程窗口内不受检修影响</strong>'
+      ],
+      tour: [
+        '<strong>整件事的机制先讲清，这是本条目唯一需要理解的东西：不用买票、没有闸机、没有安检，' +
+          '走进 Whitehall Terminal 候船大厅、等闸口开、跟着人群上船就行。</strong>' +
+          '<strong>但到了 St. George 全船乘客必须下船清舱</strong>，' +
+          '然后沿指示走回闸口重新排队搭下一班回来——<strong>不是「坐一圈不下船」</strong>。' +
+          '<strong>转乘间隔通常只有 5–10 分钟，动作要快</strong>；来回加转乘合计约一小时',
+        '<strong>左右舷记错这一趟就白坐了，只需记一句话：自由女神永远在西侧。</strong>' +
+          '<strong>从 Whitehall 南下时西侧是右舷（starboard，船的右手边）；' +
+          '从 St. George 北上时西侧是左舷（port，左手边）。</strong>' +
+          '<strong>上船后不要在室内舱找座位，直接穿到相应那一侧的户外甲板</strong>。' +
+          '离港约 8–12 分钟后最接近雕像——<strong>航道在 Liberty Island 以东约 800 米处经过、不停靠，' +
+          '所以这是中景不是特写，看到的是「女神像站在海港里」而不是「女神像的脸」</strong>。' +
+          '想登岛、进基座或上皇冠，是另一条船、另一张票（见本区 Statue of Liberty 条目）',
+        '<strong>抢栏杆位的唯一办法是提前排队</strong>：' +
+          '<strong>请在开船前 10 分钟就进候船区并站在队伍前段</strong>，开船后再往外挤是挤不到的。' +
+          '<strong>上层露天甲板永远最挤；挤不上去就下到主甲板，视野一样开阔、空间反而更大、船体振动也略小。</strong>' +
+          '两侧都想看的话，就利用来回两趟各站一侧',
+        '<strong>可以跳过的：St. George 下船后走进 Staten Island。</strong>' +
+          '那一带没有观光内容，绝大多数人应该直接重新排队回程。' +
+          '<strong>唯一值得多花 15 分钟的例外是码头北侧步行约 5 分钟的 "Postcards" 纪念碑</strong>' +
+          '（Staten Island 的 9/11 纪念物，两片向 Manhattan 张开的白色翼墙，' +
+          '<strong>从翼墙之间的缺口正好框住下城天际线</strong>），顺路、免费、人极少',
+        '<strong>船上有厕所与小卖部（部分船只卖啤酒），两端候船大厅也都有厕所</strong>，' +
+          '所以这一趟在补给上完全没有压力。<strong>但甲板风极大：' +
+          '十月下旬水上体感比岸上低 6–10 度</strong>，穿得比在市区多一层，帽子要能系住',
+        '<strong>选班次的实际逻辑：这是通勤设施，不是游船。</strong>' +
+          '<strong>平日 17:00–19:00 的北上班次挤满下班人流，而这正好与最佳光线完全重叠</strong>' +
+          '——要么接受挤，要么改在周末（每 30 分钟一班、船上以旅客为主、站位从容得多）。' +
+          '<strong>最后一条是防骗：码头附近有人向游客推销「渡轮票」或「自由女神船票」，' +
+          '这条渡轮根本不卖票；真要登岛的官方售票在 Battery Park 的 Castle Clinton 里。</strong>'
       ],
       photo: '风光 <strong>4.5/5</strong>，建筑 <strong>4/5</strong>（下城天际线），人像 <strong>3.5/5</strong>。' +
         '零成本换到别处买不到的水上视角，且班次密到可以按光线挑船；扣分是甲板晃、拥挤、且站位不能自己选。',
@@ -1290,14 +1540,37 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>往返 1–1.5 小时。</strong>官方口径的单程时间是' +
+          '「Travel time in either direction between St. George and Whitehall is approximately 25 minutes」，' +
+          '<strong>所以硬时间是 25 + 25 = 50 分钟，加上 St. George 的清舱下船与重新排队 5–10 分钟，' +
+          '再加 Whitehall 这一头的候船 0–30 分钟（取决于赶上平日加密还是周末的半小时一班）。</strong>' +
+          '<strong>平日傍晚高峰按 1 小时算，周末按 1.5 小时算</strong>——' +
+          '周末班次是整点与半点，错过一班就要等 30 分钟，这是两者的全部差别。' +
+          '<strong>只想拍自由女神、不介意来回都在同一侧：单程 25 分钟下船后立刻回程，' +
+          '最快 55 分钟能回到 Whitehall。</strong>' +
+          '要顺路看 St. George 码头北侧的 "Postcards" 纪念碑则多留 15–20 分钟（等于多等一班船）。' +
+          '（依据：单程 25 分钟为 NYC DOT 官方原文；转乘与候船时间为按官方时刻表的发车间隔推算）',
         book: '<strong>不需预约、不需票、不需刷卡，直接走上船。</strong>' +
           '<strong>码头附近有人向游客推销「渡轮票」，那是骗局——渡轮不卖票。</strong>',
-        ticket: '<strong>免费</strong>',
+        ticket: '<strong>免费</strong>（<strong>2026 年 9 月 14 日在 NYC DOT 页复核，' +
+          '官方原文「It is free to ride the ferry」，无变化</strong>）。' +
+          '<strong>要排掉一个同名混淆：ferry.nyc 的 NYC Ferry 另有一条「St. George 线」' +
+          '（停 St. George、Battery Park City／Vesey Street、Midtown West／Pier 79），' +
+          '单程 $4.50、全程约 35 分钟，那是收费的另一家公司</strong>。' +
+          '<strong>该公司 2026 年 9 月 14 日刚启用「Fall Schedule」并对 10/17、10/24 等周末日期另排「Modified Weekend Schedule」，' +
+          '但那些改动与本条目的免费渡轮无关</strong>——查时刻表时看到 ferry.nyc 上的「STG」PDF 请直接忽略',
         hours: '<strong>24 小时、365 天。</strong>NYC DOT 官方时刻表' +
-          '（nyc.gov 的 Staten Island Ferry Schedule 页，2026 年 9 月 6 日逐班复核）：' +
+          '（nyc.gov 的 Staten Island Ferry Schedule 页，<strong>2026 年 9 月 14 日按本条目推荐的每一班逐一重新核对，' +
+          '下面提到的 Whitehall 17:30 与 St. George 17:30／17:45／18:00／18:15／18:30／18:45／19:00 全部仍在表上，' +
+          '周末仍是整点与半点，班次没有任何变化</strong>）：' +
           '<strong>平日高峰约每 15–20 分钟一班，平峰每 30 分钟，深夜 30–60 分钟；' +
           '周末全天每 30 分钟（整点与半点）</strong>，官方原文另注明单程' +
           '「approximately 25 minutes」。' +
+          '<strong>高峰的精确分界（NYC 311 的官方条目口径，比时刻表更好记）：' +
+          'St. George 出发 6:00–7:00 每 20 分钟、7:00–9:00 每 15 分钟、15:30–17:30 每 20 分钟、17:30–19:00 每 15 分钟；' +
+          'Whitehall 出发 6:30–7:30 每 20 分钟、7:30–9:30 每 15 分钟、16:00–17:00 每 20 分钟、' +
+          '17:00–19:00 每 15 分钟、19:00–20:00 每 20 分钟。</strong>' +
+          '<strong>也就是说平日傍晚这一趟根本不用查表，17:00 到 19:00 之间任何时候到码头，等不超过 15 分钟。</strong>' +
           '<strong>假日按周末表的名单是官方逐条列出的，只有九个：' +
           'New Year\u2019s Day、Martin Luther King, Jr. Day、Presidents\u2019 Day、Memorial Day、Juneteenth、' +
           'Independence Day、Labor Day、Thanksgiving Day、Christmas Day。' +
@@ -1326,6 +1599,591 @@ module.exports = {
         { url: 'img/statue-of-liberty-from-staten-island-ferry-january-8-2026-81786a54.jpg', cap: '自渡轮看自由女神（右舷视角） · Dillan Payne / CC BY-SA 4.0' },
         { url: 'img/view-of-liberty-island-from-staten-island-ferry-nyc-20231002-a96ba6c1.jpg', cap: '十月傍晚的 Liberty Island · Jakub Hałun / CC BY 4.0' },
         { url: 'img/statue-of-liberty-from-the-staten-island-ferry-evening-62511-9e1d9ef4.jpg', cap: '傍晚逆光下的女神像剪影 · Tony Hisgett / CC BY 2.0' }
+      ]
+    },
+    {
+      id: 'statue-of-liberty-ellis-island',
+      n: 10,
+      name: '自由女神像与埃利斯岛',
+      en: 'Statue of Liberty & Ellis Island',
+      must: 5,
+      score: 4,
+      tldr: '半天起步的一整套动作：唯一官方渡轮 Statue City Cruises 从 Battery Park 出发，票分 Grounds／Pedestal／Crown 三档且同价 $26–26.30；Crown 每天只放约 500 人、要提前数月抢、要爬 162 级窄梯。',
+      tags: [{ t: '$26 起（含两岛两馆）', c: 'paid' }, { t: '唯一官方渡轮', c: 'risk' }, { t: 'Crown 需数月前抢票', c: 'risk' }, { t: '两道机场式安检', c: 'risk' }, { t: '半天以上', c: 'risk' }],
+      highlights: [
+        '1886 年 10 月 28 日揭幕，法国送给美国的礼物。雕像由 <strong>Frédéric Auguste Bartholdi</strong> 设计，' +
+          '<strong>内部铁骨架出自 Gustave Eiffel</strong>（造埃菲尔铁塔的同一人），基座由 Richard Morris Hunt 设计。' +
+          '雕像本体高 151 英尺 1 英寸，从基座地面到火炬尖 305 英尺 1 英寸。' +
+          '<strong>一个多数人不知道的方位事实：女神面朝东南（约 116°），朝着海港入口——' +
+          '她是冲着从海上来的船「迎接」的，不是冲着 Manhattan。这一条直接决定了什么时候她的正脸有光</strong>',
+        '<strong>船只有一家，这是本条目最重要的防骗知识。</strong>' +
+          'NPS 官方原文：「Statue City Cruises is the ONLY ferry service authorized by the National Park Service ' +
+          'for ticket sales and transportation to Liberty and Ellis Islands.」' +
+          '<strong>从 New York 出发的唯一登船点是 Battery Park，售票处在园内的 Castle Clinton 国家纪念地里，' +
+          '安检与码头在 Castle Clinton 背后的水岸一侧。</strong>' +
+          '<strong>Battery Park 外围常年有人拦住游客卖「自由女神船票」，还会告诉你「今天售完了」「售票处关了」——' +
+          '官方明文警告过这批人，他们卖的船不登岛。</strong>' +
+          '官方的原话是：有人这么跟你说，就直接走进 Castle Clinton 自己问',
+        '<strong>三档票的真实关系是本条目最反直觉的一点：价钱几乎一样，差别全在容量。</strong>' +
+          '（2026 年 9 月 14 日在 statuecitycruises.com 逐档核实，均为含税含费价）' +
+          '<strong>General Admission $26</strong>——上两岛、进两个博物馆，但<strong>进不了雕像内部</strong>；' +
+          '<strong>Pedestal Reserve $26.30</strong>——多爬 215 级到基座观景平台，<strong>只比前者贵三角钱</strong>；' +
+          '<strong>Crown Reserve $26.30</strong>——同价，但要再往上爬 162 级窄梯进皇冠。' +
+          '<strong>也就是说「贵」从来不是门槛，抢不到才是门槛</strong>：官方明说' +
+          '「While Liberty Island welcomes thousands of visitors each day, only about 500 visitors are permitted to enter the Crown」，' +
+          '而且<strong>一个信用卡持卡人最多买 4 张、每人六个月内只能订一次、票上印名字不可转让</strong>',
+        '<strong>皇冠是体力活，不是观景台，去之前先自问爬不爬得动：</strong>' +
+          '官方口径「climbing 377 total steps, including 162 narrow steps from the Pedestal to the Crown」，' +
+          '<strong>基座到皇冠那 162 级是双螺旋窄梯、无电梯、无中途退出</strong>，' +
+          '梯井直径只够一人通过、夏季内部极热。<strong>皇冠里只允许待 10 分钟</strong>，' +
+          '上面是 25 扇小窗，视野其实相当受限——' +
+          '<strong>说实话：如果你只想看风景，基座（Pedestal）平台能绕雕像走整整一圈、360° 看港，性价比明显更高；' +
+          '皇冠的价值是「进到她身体里」这件事本身。</strong>' +
+          '儿童须满 42 英寸（107 公分）且能自己爬，每 4 名儿童须配 1 名成人',
+        '<strong>Ellis Island 是同一张票里被严重低估的另一半，很多人赶时间就跳过了，那是浪费。</strong>' +
+          '1892–1954 年间这里处理了<strong>超过 1,200 万名移民</strong>，' +
+          '今天是 <strong>Ellis Island National Museum of Immigration</strong>。' +
+          '<strong>主厅 Registry Room（Great Hall）是那种照片骗不了人的空间</strong>——' +
+          '拱形瓷砖穹顶、两排长窗，当年新移民就在这里排队等法定审查。' +
+          '馆内另设 <strong>American Family Immigration History Center</strong>，' +
+          '<strong>可以按姓氏检索当年的船舶旅客名单与入境记录</strong>；' +
+          '户外是 American Immigrant Wall of Honor 刻名墙。' +
+          '官方另卖 <strong>Hard Hat Tour</strong>（戴安全帽进尚未修复的旧传染病医院区，' +
+          '另行付费、需单独预订）'
+      ],
+      tour: [
+        '<strong>先接受一个事实：这是本区唯一一个「半天起步」的条目，而且时间大半花在排队与坐船上，不是在岛上。</strong>' +
+          '顺序是：Castle Clinton 取票 → 第一道机场式安检 → 渡轮（从 Battery Park 出发<strong>先到 Liberty Island、再到 Ellis Island</strong>）→ ' +
+          'Liberty Island（要进雕像的话还要过<strong>第二道安检</strong>）→ 再搭船到 Ellis Island → 搭船回 Battery Park。' +
+          '<strong>官方对时间卡得很硬，两条都要记：NPS 说「plan to be on a ferry that departs ... before 1:00 P.M.」才够看两岛；' +
+          'Statue City Cruises 说「entry after 2pm will not allow enough time to visit both islands」。' +
+          '实操结论就一句：订上午的场，越早越好，9:00 那班最理想。</strong>',
+        '<strong>票面时间不是开船时间，这是最容易误判的一条，误判了会整天连锁迟到。</strong>' +
+          '官方原文：「The time printed on your ticket is your scheduled security screening time. ' +
+          'It is NOT a guaranteed ferry departure time or Crown entry time.」' +
+          '<strong>官方要求至少提前 30 分钟到，并明说安检与登船的等待「can range from little to no wait to over one hour during peak seasons」。</strong>' +
+          '<strong>拿 Crown 票的人还有一道额外手续：必须本人先到 Castle Clinton 的票房领纸质票与手环，' +
+          '全部同行者都要到场，持卡人本人必须在，还要带与票面同名的照片证件——没有手环一律进不了皇冠。</strong>' +
+          '把这道手续算进去，Crown 票请按票面时间再往前推一小时出门',
+        '<strong>岛上别错过三样。</strong>Liberty Island 上是 <strong>Statue of Liberty Museum</strong>' +
+          '（2019 年新馆，所有票种都能进、不需要额外票）——' +
+          '<strong>里面放着 1886 年的那支原始火炬</strong>，1984 年换下来的真品，这是全岛最值得看的一件实物。' +
+          '另外<strong>绕到雕像正面的草坪上抬头看</strong>（不需要任何内部票），' +
+          '以及在 Ellis Island 走进 <strong>Registry Room</strong> 站几分钟。' +
+          '<strong>音频导览是含在票里的、不要另外买</strong>，官方提供 12 种语言（含中文），' +
+          '还有免费的 NPS 巡护员讲解场次（现场看当天排期）',
+        '<strong>可以跳过的：岛上的纪念品店与餐饮，以及「把两岛都走完」的执念。</strong>' +
+          'Liberty Island 的餐厅是典型的景区快餐、价格偏高；' +
+          '<strong>更划算的做法是上船前在 Battery Park 或金融区吃完，岛上只带一瓶水</strong>。' +
+          '如果实际只剩两小时，<strong>果断二选一：想看雕像就只上 Liberty Island，' +
+          '想看历史就只上 Ellis Island</strong>，' +
+          '半吊子地两岛各二十分钟是最差的安排（而且官方明说下午的末班船只停 Liberty Island、不停 Ellis Island）',
+        '<strong>随身物品有一条非常具体的坑，几乎没人事先知道：</strong>' +
+          '<strong>登船前的安检处「Lockers are NOT available」——没有寄存</strong>；' +
+          '<strong>而背包、食物、饮料与婴儿车一律不准带进雕像内部</strong>。' +
+          '岛上雕像入口旁有自助寄物柜，<strong>但要投 25 美分硬币，官方特别写明「A quarter is required」' +
+          '——请提前准备一枚 25 分硬币，这是全条目最便宜也最容易翻车的一个细节。</strong>' +
+          '<strong>要爬皇冠的话，官方只允许带四样东西上去：塑料瓶装水、手机、相机、药品。</strong>' +
+          '大件行李与行李箱根本不要带到 Battery Park 来',
+        '<strong>餐饮与卫生间：两岛都有卫生间与餐饮</strong>（Liberty Island 的在博物馆与码头区附近，' +
+          'Ellis Island 的在主楼内），<strong>船上没有卫生间也没有补给，单程约 15–20 分钟</strong>，' +
+          '上船前先解决。<strong>岛上几乎没有遮蔽、四面是海风，十月下旬的港面体感会比市区低 5–8 度</strong>，' +
+          '风衣与帽子按海上标准带',
+        '<strong>人流与选日子：官方与各方口径一致——周二到周四最空，周末与节假日最挤。</strong>' +
+          '<strong>落到 10/13–10/26 这两周：10 月 13、14、15、20、21、22 这些平日明显优于两个周末</strong>，' +
+          '而且平日也是 Crown 与 Pedestal 余票概率较高的日子。' +
+          '<strong>两岛在行程窗口内没有闭园日</strong>——官方全年只有感恩节（2026 年 11 月 26 日）与圣诞节闭园，都在行程之后'
+      ],
+      photo: '风光 <strong>4/5</strong>，建筑 <strong>4/5</strong>，人像 <strong>2.5/5</strong>。' +
+        '真正有价值的是别处拿不到的两样：贴近雕像的仰视角度，与 Ellis Island 主厅的长窗自然光；' +
+        '扣分是全程被渡轮时刻与两道安检锁死，没有任何等光线的自由度，且皇冠内部窗小人挤、基本拍不出东西。',
+      shots: [
+        {
+          name: 'Liberty Island 正面草坪仰拍雕像（唯一不需要内部票的机位）',
+          park: [40.703270, -74.017020],
+          view: [40.689247, -74.044502],
+          desc: '针脚落在 Statue of Liberty 雕像本体的 OSM 实体（拍摄对象，岛上具体站位无 OSM 实体、请就近取位）；' +
+            'park 给的是 Battery Park 的 Castle Clinton 取票与登船点。' +
+            '<strong>光线逻辑由方位决定，而这一点几乎所有攻略都没讲：女神面朝东南约 116°。' +
+            '所以上午太阳在东到东南时她的正脸受光；下午之后正面转为阴影、只剩背面有光。</strong>' +
+            '<strong>10 月中下旬的可用窗口是 09:30–12:00</strong>（此时太阳方位约 130–165°、高度 30–38°），' +
+            '<strong>而这恰好与「订上午场才够看两岛」的要求完全一致，不需要在两件事之间取舍。</strong>' +
+            '24–35mm 贴近基座向上仰拍能拍出体量与天空；' +
+            '<strong>换 70–200mm 从草坪远端单独压缩头部与火炬，才拍得出面部与冠冕的细节</strong>——' +
+            '近距离广角会把她拍得又小又变形，这是现场最常见的失望来源。' +
+            '禁三脚架不适用于岛上草坪（无明文禁令），但人流密集、实务上手持为主。'
+        },
+        {
+          name: 'Ellis Island 主厅 Registry Room 的长窗自然光',
+          view: [40.699500, -74.039500],
+          desc: '针脚落在 Ellis Island 主楼的 OSM 实体。' +
+            '<strong>这是本条目最容易出片、也最少人认真拍的一张</strong>：' +
+            '拱形瓷砖穹顶下两排高窗，整个大厅靠自然光，<strong>阴天与晴天都成立</strong>。' +
+            '16–24mm 站在大厅一端沿长轴拍纵深，把成排的长椅与穹顶一起收进来；' +
+            '<strong>光比较大（窗亮、地暗），请包围曝光 3 张或直接对着地面测光再压高光</strong>。' +
+            '<strong>人最少的时段是上午第一班船抵达后的 20 分钟，以及 15:00 之后（那时人流都挤在 Liberty Island）。</strong>' +
+            '馆内允许个人拍照、禁三脚架与闪光灯（以现场标示为准）。'
+        }
+      ],
+      access: {
+        visit: '<strong>5–6 小时是完整走完两岛的诚实数字，请按半天以上规划，不要塞进别的安排。</strong>' +
+          '分配：Castle Clinton 取票与第一道安检 <strong>45–75 分钟</strong>' +
+          '（官方明说旺季可能「over one hour」）+ 渡轮单程 15–20 分钟 + ' +
+          'Liberty Island <strong>1.5–2 小时</strong>（草坪与绕岛 30 分钟、Statue of Liberty Museum 30–40 分钟、' +
+          '要进基座或皇冠再加第二道安检与排队 30–45 分钟）+ 岛间渡轮 15 分钟 + ' +
+          'Ellis Island <strong>1.5–2 小时</strong>（Registry Room 与主展 60–90 分钟、家族档案检索 20–30 分钟）+ 回程 20 分钟。' +
+          '<strong>只上 Liberty Island、不进雕像内部、不去 Ellis Island：3–3.5 小时（含来回与安检）。</strong>' +
+          '<strong>加 Crown 的话请按 6–7 小时算</strong>（多一道票房领手环的手续、多爬 377 级、皇冠限时 10 分钟）。' +
+          '<strong>官方给的时间边界有两条，都是硬的：NPS「plan to be on a ferry that departs ... before 1:00 P.M.」，' +
+          'Statue City Cruises「entry after 2pm will not allow enough time to visit both islands」。</strong>' +
+          '（依据：官方给出上述两条时间边界与「至少提前 30 分钟到」，但不公布逐段建议时长；' +
+          '各段分配为按官方时间边界、渡轮航程与两馆展厅规模推算）',
+        book: '<strong>必须提前订，而且 Crown 是本手册里最难抢的一张票，先把机制讲清。</strong>' +
+          '<strong>唯一官方渠道是 statuecitycruises.com（电话 1-877-LADY-TIX／1-877-523-9849）</strong>，' +
+          '第三方平台<strong>卖不到 Pedestal 与 Crown</strong>（NPS 与官方售票页都写明只有官方渠道有）。' +
+          '<strong>放票规则：三种票都在每月 1 日放出六个月后的日期</strong>' +
+          '（此口径出自 Condé Nast Traveler 引述 Statue of Liberty &amp; Ellis Island Foundation 的市场负责人，' +
+          '<strong>不是官网原文——官网只说「book several months in advance」，' +
+          '「每月 1 日放六个月后」这条未能在官方页面直接证实</strong>）。' +
+          '<strong>按这个规则，10 月的全部日期在 2026 年 4 月 1 日就已放出，到今天（9 月 14 日）已经卖了五个半月。</strong>' +
+          '<strong>Crown 的额外限制（这些是官网原文，全部确认）：每天只约 500 人；' +
+          '一个信用卡持卡人／家庭最多 4 张；每人六个月内只能有一次 Crown 预订；' +
+          '票上印名字、不可更改或转让；持卡人必须亲自到 Castle Clinton 票房领票与手环，' +
+          '且全部持票人都要在场；入场要出示与票面同名的照片证件（未成年人除外）。</strong>' +
+          '<strong>退改：开船前 24 小时以上取消可退款；因安全或天气关闭两岛也退；未使用的票不退。</strong>' +
+          '<strong>备用方案要提前想好：Pedestal Reserve 与 Crown 同价 $26.30、容量大得多，' +
+          '而且基座平台能绕雕像走一整圈看 360° 港景——抢不到皇冠时这是几乎无损的替代，' +
+          '最差还有 $26 的 General Admission 保底（官方称之为「the only ticket available when crown and pedestal reservations are sold out」）。</strong>',
+        ticket: '<strong>2026 年 9 月 14 日在 statuecitycruises.com 逐档核实，三档均为含税含费价：' +
+          'General Admission 成人 $26；Pedestal Reserve 成人 $26.30；Crown Reserve 成人 $26.30。</strong>' +
+          '<strong>三档都已包含：往返渡轮、上 Liberty Island 与 Ellis Island 的资格、' +
+          'Statue of Liberty Museum 与 Ellis Island National Museum of Immigration 两馆门票、' +
+          '12 种语言的自助音频导览、以及免费的 NPS 巡护员讲解场次（按当天排期）。</strong>' +
+          '<strong>差别只有内部通道：General Admission 进不了雕像内部；Pedestal 可到基座观景平台（215 级）；' +
+          'Crown 可再上皇冠（再 162 级，合计 377 级）。</strong>' +
+          '<strong>儿童、老人与其他分档价未能从官方页面取到确切数字</strong>' +
+          '（官网按「选择出发地与人数后才显示档位与价格」的方式呈现，静态页面只给成人「starting at」价），' +
+          '<strong>Crown 另有 42 英寸（107 公分）身高下限。</strong>' +
+          '另售 Hard Hat Tour（Ellis Island 未修复医院区导览），<strong>价格与场次未能从官方静态页面确认</strong>。' +
+          '要确认分档价请打 <strong>1-877-523-9849</strong>。' +
+          '<strong>再强调一次：Battery Park 外围拦人卖票的一律是骗局，官方售票只在 Castle Clinton 里面。</strong>',
+        hours: '<strong>两岛（NPS 口径，2026 年 9 月 14 日在 nps.gov／stli 的 Operating Hours &amp; Seasons 页核实，' +
+          '该页标注「Last updated: April 6, 2026」）：每天 8:30–17:30，' +
+          '官方原文另注明「The last entrance into the statue is at 4:00 PM」。</strong>' +
+          'Liberty Island Information Center 每天 9:30–16:30。' +
+          '<strong>闭园日全年只有两天：2026 年 11 月 26 日（感恩节）与 12 月 25 日（圣诞节）' +
+          '——10/13–10/26 整个窗口两岛天天开，没有闭园风险</strong>。' +
+          '渡轮方面官方原文「Statue City Cruises operates every day except Thanksgiving Day and Christmas Day」，' +
+          '且「operates rain or shine and in most weather conditions」。' +
+          '<strong>皇冠的末次入场时间按季节变，而分界线正好压在行程第一天上，务必看清：' +
+          '官网 New York Crown Reserve 页写「Sep 8 – Oct 12 – 4:00 PM；Oct 13 – Dec 31 – 3:30 PM」，' +
+          '也就是说 10 月 13 日起末次入皇冠提前到 15:30。</strong>' +
+          '<strong>同一网站的 New Jersey Crown Reserve 页把这条分界写成「Sep 8 – Oct 13 – 4:00 PM；Oct 14 – Dec 31 – 3:30 PM」，' +
+          '比 New York 页晚一天。两页都挂在官网上，本条不替你二选一——' +
+          '从 Battery Park 出发请按较早的 New York 口径（15:30）规划，这样两种口径下都不会误事。</strong>' +
+          '<strong>2026 年 10 月各班渡轮的确切首末班时刻未能从官方渠道确认</strong>：' +
+          'statuecitycruises.com 的 Schedule 页把时刻表分成「Battery Park – Weekdays／Weekends」等几个折叠块并注明' +
+          '「Schedules vary by season」，<strong>但静态页面不呈现具体钟点</strong>；' +
+          'nps.gov／elis 的 hours 页只挂着往年的季节性表格。' +
+          '可参照的历史量级是首班约 9:00、秋季末班约 16:00–17:00 离岸，' +
+          '<strong>且官方注明「最后一班从 Battery Park 出发的船不停 Ellis Island」</strong>。' +
+          '出发前请打 <strong>1-877-523-9849</strong> 或看官网 Schedule 页确认当日钟点',
+        parking: '<strong>不要开车到 Battery Park</strong>：下城路边位极少，附近停车楼日价 $45–70。' +
+          '<strong>唯一有充裕停车场的登船点是 New Jersey 一侧的 Liberty State Park</strong>' +
+          '（官方原文「Ample parking for cars and buses」，从 New Jersey Turnpike 与 I-78 都好进），' +
+          '<strong>但那一侧的船是先到 Ellis Island 再到 Liberty Island，顺序相反</strong>；' +
+          '本行程从 Manhattan 出发，用地铁即可',
+        walk: '登船点是 <strong>Battery Park 的 Castle Clinton</strong>（售票处在堡内，安检与码头在堡后水岸侧）。' +
+          '<strong>4/5 线 Bowling Green 站</strong>步行约 400 米／5 分钟；' +
+          '<strong>1 号线 South Ferry 站</strong>与 <strong>R/W 线 Whitehall Street 站</strong>步行约 400–600 米／5–8 分钟。' +
+          '<strong>从 Staten Island Ferry 的 Whitehall Terminal 步行到 Castle Clinton 约 600 米／8 分钟</strong>' +
+          '——两个「看自由女神」的选项就在同一个公园的两头，' +
+          '<strong>时间不够登岛时可以当场改用免费渡轮远观</strong>。' +
+          '从 9/11 Memorial 步行约 1.5 公里／20 分钟'
+      },
+      notes: [
+        '<strong>两道机场式安检</strong>：官方原文「All visitors must pass through airport-grade security screening before boarding the ferry and again before entering the Statue of Liberty National Monument」——要进雕像内部就要过两次',
+        '<strong>登船前的安检处没有寄存柜</strong>（官方原文「Lockers are NOT available at the security screening facility before boarding」）；岛上雕像入口旁的自助柜<strong>需投 25 美分硬币，请提前备一枚</strong>',
+        '<strong>爬皇冠只允许带四样东西：塑料瓶装水、手机、相机、药品</strong>；背包、食物、饮料与婴儿车不得带入雕像内部',
+        '<strong>Crown 票必须本人到 Castle Clinton 票房领票与手环</strong>，持卡人须在场、全部持票人须到场、需出示同名照片证件；<strong>没有手环进不了皇冠</strong>',
+        '<strong>皇冠段 162 级窄梯无电梯、无中途退出，且皇冠内限时 10 分钟</strong>；官方建议无明显身体或精神状况障碍者才尝试，儿童须满 42 英寸并能自行攀爬',
+        '<strong>票面时间是安检排队时间，不是开船时间</strong>，官方要求至少提前 30 分钟到；旺季等待可能超过一小时',
+        '<strong>Battery Park 外围的「船票」推销一律是骗局</strong>，官方明文警告过；他们的船不登岛。官方售票只在 Castle Clinton 内',
+        '海上风大且两岛几乎无遮蔽，<strong>十月下旬港面体感比市区低 5–8 度</strong>；<strong>海水飞沫对镜头不友好，换镜头请在船舱内做</strong>'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Liberty_Island_photo_Don_Ramey_Logan.jpg', cap: 'Liberty Island 与雕像全景 · Don Ramey Logan / CC BY 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Statue_of_Liberty_and_a_sightseeing_boat%2C_Liberty_Island%2C_New_York.jpg', cap: '自水面看雕像与观光船 · Christian David / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/70/NYC-ellis-registry-room.jpg', cap: 'Ellis Island 主厅 Registry Room 的拱顶与长窗 · Balou46 / CC BY-SA 4.0' }
+      ]
+    },
+    {
+      id: 'nine-eleven-museum',
+      n: 11,
+      name: '9/11 纪念博物馆（室内）',
+      en: '9/11 Memorial Museum',
+      must: 5,
+      score: 2,
+      tldr: '下探到基岩的地下馆，成人 $36、需定时票、周三至周一 9:00–19:00；两个核心展区全程禁止拍照。情绪冲击极强，官方明说不适合 10 岁以下。10/19 与 10/26 两个周一傍晚可免费。',
+      tags: [{ t: '成人 $36', c: 'paid' }, { t: '周一傍晚免费', c: 'free' }, { t: '核心展区禁拍', c: 'risk' }, { t: '情绪冲击极强', c: 'risk' }, { t: '需定时票', c: 'risk' }],
+      highlights: [
+        '2014 年 5 月开放。地面上那座倾斜的玻璃亭由 <strong>Snøhetta</strong> 设计，' +
+          '真正的博物馆由 <strong>Davis Brody Bond</strong> 做在地下——' +
+          '<strong>参观动线是一路向下走到约 70 英尺深的基岩层，也就是当年双塔基础的考古现场内部。</strong>' +
+          '这一点决定了它与地面广场是完全不同的两种体验：<strong>广场讲的是「缺席」，博物馆讲的是「证物」。</strong>',
+        '<strong>两个核心展区分别坐在两座塔的原有基础轮廓里</strong>：' +
+          '<strong>「September 11, 2001」（历史展区）在北塔基址</strong>，' +
+          '按 9/11 之前、当天、之后三段讲整个事件，含世贸中心、五角大楼与 93 号航班；' +
+          '<strong>「In Memoriam」（纪念展区）在南塔基址</strong>，' +
+          '是一整面由 2,983 张遇难者照片组成的墙，可以查询每一个人的生平。' +
+          '<strong>这两个展区正是全馆禁止拍照的地方（见 notes），也正是这张票的全部价值所在。</strong>',
+        '<strong>几件不靠讲解也看得懂的实物：</strong>' +
+          '入口玻璃中庭里那<strong>两根巨大的三叉钢柱（tridents）</strong>——' +
+          '官方原文说明它们是原世贸中心一号楼（北塔）钢制外立面的构件；' +
+          '<strong>Survivors\u2019 Stairs</strong>（原 Vesey Street 室外楼梯，当天数百人靠它逃出场地）；' +
+          '<strong>the Last Column</strong>（约 36 英尺高，2002 年 5 月清理作业结束时最后被移走的那根钢柱，' +
+          '柱身布满救援人员写下的名字与留言）；' +
+          '以及 <strong>Foundation Hall</strong> 里那面<strong>挡水墙（slurry wall）</strong>——' +
+          '当年拦住 Hudson 河水、双塔倒塌后仍然屹立的原始结构。另有 FDNY Ladder Company 3 的消防车残骸',
+        '<strong>两个展区之间的 Memorial Hall 里有一件容易走过去的作品，值得停下来：</strong>' +
+          'Spencer Finch 的 <strong>《Trying to Remember the Color of the Sky on That September Morning》</strong>，' +
+          '<strong>由 2,983 块各自不同的蓝色水彩方块组成，一块对应一个人</strong>——' +
+          '意思是那天早上的天空蓝，每个人记得的都不一样。' +
+          '墙上那句维吉尔的诗「No day shall erase you from the memory of time」，' +
+          '<strong>字母是用世贸中心回收钢材锻造的</strong>',
+        '<strong>必须提前说清情绪强度，这是本条目最重要的一条提醒：这不是一个「参观」性质的博物馆。</strong>' +
+          '历史展区里有当天的电台与电视实时录音、遇难者留给家人的最后语音留言、' +
+          '以及设在隔断后方（有明确警示牌、可以绕开）的坠落影像。' +
+          '<strong>官方对年龄给了明确口径：「The historical exhibition may not be appropriate for visitors younger than 10 years of age. ' +
+          'Adults accompanying younger visitors should exercise discretion before entering.」</strong>' +
+          '官方另备有面向 8–11 岁的 Museum Guide for Children，' +
+          '<strong>而且官方明确注明那份儿童导览「does not include the Museum\u2019s historical exhibition」' +
+          '——连官方自己都把历史展区排除在儿童动线之外。</strong>'
+      ],
+      tour: [
+        '<strong>先做心理准备再谈路线：请把这一馆单独安排，后面不要紧接任何需要心情的行程。</strong>' +
+          '大部分人出馆时是沉默的，' +
+          '<strong>普遍的体验是历史展区最后三分之一（当天的实时录音与最后的语音留言）会非常难受</strong>。' +
+          '同行有小孩、孕妇或情绪敏感的人，请先读上面 highlights 里那条官方年龄口径再决定。' +
+          '<strong>馆内允许随时退出展区到 Foundation Hall 这类开阔空间坐一会儿，不必勉强走完。</strong>',
+        '<strong>动线是固定的单向下行，顺序照抄即可：</strong>' +
+          '地面玻璃亭（<strong>看那两根三叉钢柱</strong>）→ 过安检 → 沿长坡道与 Survivors\u2019 Stairs 一路下到基岩层 → ' +
+          '<strong>Memorial Hall</strong>（Spencer Finch 的 2,983 块蓝方块与维吉尔诗句）→ ' +
+          '<strong>历史展区「September 11, 2001」（北塔基址，全馆最重、最耗时的部分）</strong>→ ' +
+          '<strong>纪念展区「In Memoriam」（南塔基址，2,983 张面孔的墙）</strong>→ ' +
+          '<strong>Foundation Hall</strong>（挡水墙与 the Last Column）→ 上行出馆',
+        '<strong>时间不够时怎么砍，这是本条目最实用的一段：</strong>' +
+          '<strong>只有一小时的话，把时间全给历史展区，其余全跳</strong>——' +
+          '那是这座博物馆存在的理由，也是别处完全看不到的内容。' +
+          '<strong>反过来，如果你判断自己承受不了历史展区，那就只看 Foundation Hall、Memorial Hall 与 In Memoriam</strong>，' +
+          '这三处都在开阔空间里、没有影像与录音的直接冲击，' +
+          '<strong>而且挡水墙与 the Last Column 的分量并不比展区轻。这不是将就，是另一种完整的看法。</strong>',
+        '<strong>票与安检的实际流程：必须提前在官网买定时票（最多提前 6 个月），进馆过机场式安检。</strong>' +
+          '<strong>末次入场官方给了两个互相矛盾的口径</strong>：多处写「last entry 5:30 p.m.」，' +
+          '另一处写「Last admission is 60 minutes prior to closing」（即 18:00）。' +
+          '<strong>请一律按较早的 17:30 规划</strong>，拿不准打预约线 (212) 312-8800。' +
+          '<strong>官方语音导览现场租 $11（九种语言含 ASL），但手机上的 Bloomberg Connects 是免费的、内容同源，' +
+          '带一副自己的耳机就能省掉这笔。</strong>',
+        '<strong>两个免费口子在这次行程里是真的能用上的，而且要卡点抢：</strong>' +
+          '<strong>每周一 17:30–19:00 全馆免费</strong>，' +
+          '官方原文「Free Admission Monday tickets will be available on the website each Monday beginning at 7 a.m. ET ' +
+          'and are first come, first serve」，' +
+          '官方售票系统另注明<strong>「Limited quantities available. Limit 4 tickets per person.」——每人限 4 张</strong>。' +
+          '<strong>10/13–10/26 这两周里有两个周一：10 月 19 日与 10 月 26 日。</strong>' +
+          '<strong>注意放票逻辑是「当天早上 7:00 ET 放当天晚上的票」，不是提前几周' +
+          '——请在 10/19 或 10/26 当天早上 7 点（纽约时间）守在官网上抢，晚一两个小时基本就没了。</strong>' +
+          '另有「New York First Sundays」每月第一个周日 16:00–19:00 免费，' +
+          '<strong>但仅限在纽约地区居住、工作或就读者且需查证件，而 10 月那天是 10 月 4 日、早于行程，用不上</strong>',
+        '<strong>餐饮与卫生间：馆内有咖啡吧与纪念品店，卫生间在入口层与地下展层都有。</strong>' +
+          '<strong>但这里不适合安排正餐</strong>——出馆往东走 150 米就是 Oculus 与 Brookfield Place，选择多得多。' +
+          '<strong>人流：9:00 开门后的第一小时与 16:00 之后最空，11:00–15:00 历史展区内部会走走停停</strong>' +
+          '（展区通道窄、且很多人会在同一件展品前站很久）。' +
+          '<strong>周一免费时段是全周最挤的两小时，冲着免费去就别指望从容</strong>'
+      ],
+      photo: '建筑 <strong>3/5</strong>，其余不适用。<strong>这是一个「必去但基本不能拍」的条目</strong>：' +
+        '两个核心展区全程禁止拍照、全馆任何时候禁闪光灯，' +
+        '真正能拍的只有 Foundation Hall 的挡水墙与 the Last Column、Memorial Hall 与地面玻璃亭的三叉钢柱。' +
+        '<strong>请把这张票当成用眼睛和耳朵的门票，相机收起来反而收获更大。</strong>',
+      shots: [
+        {
+          name: 'Foundation Hall 的挡水墙与 the Last Column（馆内唯一值得拍的一处）',
+          park: [40.711030, -74.013081],
+          view: [40.711460, -74.012260],
+          desc: '<strong>坐标说明：park 落在 Memorial South Pool 的 OSM 实体；' +
+            'view 是博物馆玻璃亭（180 Greenwich Street）的位置，' +
+            '由两方池与 Oculus 的已知坐标几何推算得出，误差约 20 米——<strong>推算，非 OSM 实体</strong>。</strong>' +
+            '<strong>这是全馆允许拍照、且唯一有足够空间构图的地方</strong>（禁拍区见 notes）。' +
+            '室内恒定人工照明，<strong>没有「最佳时段」，任何时候光线都一样</strong>，' +
+            '唯一的变量是人——<strong>09:00 开门后的第一小时与 16:00 之后人最少</strong>。' +
+            '16–24mm 贴着栏杆拍挡水墙的整个高度（墙很高，广角是必需的）；' +
+            '换 35–50mm 单独拍 the Last Column 柱身上的留言与签名。' +
+            '<strong>光线很暗：请把 ISO 提到 3200–6400、开机身防抖，f/1.8–f/2.8 的镜头在这里价值很大。</strong>' +
+            '<strong>禁闪光灯是硬规则（官方原文「The use of a flash is prohibited in all Memorial Museum areas, at all times」）；' +
+            '三脚架要过安检且「permissible at the discretion of Security Staff」，实务上会被要求收起。</strong>'
+        }
+      ],
+      access: {
+        visit: '<strong>官方给了两个互相矛盾的建议时长，两个都写出来：' +
+          '911memorial.org 的 Visit 页写「Plan on spending at least 45 to 90 minutes here」（45–90 分钟）；' +
+          '而官方的 Travel Media Kit 写「An average visit can take about two hours」（约 2 小时）。</strong>' +
+          '<strong>两者都出自官方，本条不替你二选一——但按实际展区规模，' +
+          '45 分钟只够快走，真要看完历史展区与 In Memoriam，2–2.5 小时才是现实数字。</strong>' +
+          '分配建议：地面玻璃亭与三叉钢柱 10 分钟、下行坡道与 Memorial Hall 15 分钟、' +
+          '<strong>历史展区「September 11, 2001」60–90 分钟（全馆重心，别压缩这一段）</strong>、' +
+          'In Memoriam 20–30 分钟、Foundation Hall 20 分钟。' +
+          '<strong>只看重点 60 分钟：直接进历史展区，其余全跳。</strong>' +
+          '<strong>另外把安检与排队算进去，请在票面时段前 20–30 分钟到达</strong>；' +
+          '加上地面广场（另见本区 9/11 国家纪念广场条目）一起安排，整体按 3–4 小时算',
+        book: '<strong>必须提前买定时票</strong>，官网最多可提前 <strong>6 个月</strong>购，' +
+          '票价含当期全部展览。' +
+          '<strong>退改：开始前 24 小时以上可退款或换期，但免费换票只有一次</strong>' +
+          '（官方原文「We allow ONE exchange at no extra cost」）。' +
+          '<strong>周一免费票：当天早上 7:00 ET 在官网放出、先到先得、每人限 4 张</strong>' +
+          '（「Limited quantities available. Limit 4 tickets per person.」，' +
+          '<strong>2026 年 9 月 14 日在官方售票系统 visit.911memorial.org 逐条核实</strong>；' +
+          '此前有资料说「不限张数」，按现行售票页应为限 4 张）。' +
+          '<strong>落到行程：10 月 19 日与 10 月 26 日两个周一都能用这个口子，' +
+          '但都要在当天早上 7 点（纽约时间）抢。</strong>' +
+          'SNAP／EBT 持卡人可凭卡到现场票房免费入场（Museums for All，每人限 4 张）。' +
+          '预约线 <strong>(212) 312-8800</strong>，会员线 (212) 266-5213',
+        ticket: '<strong>2026 年 9 月 14 日在官方售票系统 visit.911memorial.org 与 911memorial.org 两处核实：' +
+          '成人（18–64）$36；官网对外的区间写法是「Museum Admission $24–$36」，' +
+          '即 13–17 岁 $30、7–12 岁 $24；6 岁及以下免费但仍须领票。</strong>' +
+          '<strong>每周一 17:30–19:00 全馆免费</strong>（末次入场 17:30，每人限 4 张，当天 7:00 ET 放票）；' +
+          '每月第一个周日 16:00–19:00 对在纽约地区居住、工作或就读者免费（需证件）。' +
+          '导览团含门票 $48–60；Memorial + Museum 导览 $85；家庭套票 $106／$125。' +
+          '语音导览现场租借 $11（九种语言含 ASL），<strong>官方另有免费的 Bloomberg Connects 手机版，内容同源</strong>',
+        hours: '<strong>官方原文（2026 年 9 月 14 日在 911memorial.org／visit 逐行核实）：' +
+          '「The Museum is open Wednesday to Monday and select Tuesdays from 9 a.m. to 7 p.m. (last entry 5:30 p.m.)」' +
+          '——即周三至周一以及部分周二，9:00–19:00。</strong>' +
+          '<strong>「部分周二」已查清：官方的 Special &amp; Extended Hours 页写明「Every Tuesday in October」，' +
+          '也就是 2026 年 10 月整月的周二全部开放。</strong>' +
+          '<strong>结论对本行程非常干净：10/13–10/26 这两周里博物馆天天开门，没有任何闭馆日</strong>' +
+          '（10/13 与 10/20 两个周二也开）。' +
+          '<strong>但末次入场有一处官方自相矛盾，照实写出两种口径：' +
+          'Visit 页与 Special Tuesday Hours 页写「Last entry 5:30 p.m.」，' +
+          '同一 Visit 页另一处又写「Last admission is 60 minutes prior to closing」（即 18:00）。' +
+          '两者都在官网上，本条不替你二选一——请按较早的 17:30 规划，拿不准打 (212) 312-8800 问当天口径。</strong>' +
+          '（另注：博物馆每年 9 月 11 日当天对公众闭馆，与本行程无关。）' +
+          '<strong>一个容易搞混的边界：地面的纪念广场是 8:00–20:00 且完全免费，与博物馆的时刻表毫无关系</strong>',
+        parking: '不建议开车。WTC 一带停车楼日价 $45–70',
+        walk: '博物馆入口在 <strong>180 Greenwich Street</strong>、纪念广场南侧的玻璃亭。' +
+          '<strong>从 Oculus 大厅西侧出口出来约 250 米／3 分钟</strong>；' +
+          '地铁 E 线 World Trade Center 站、R/W 线 Cortlandt Street 站、' +
+          '2/3 与 4/5、A/C、J/Z 线 Fulton Street 站均由地下通道直连 Oculus，不用出地面'
+      },
+      notes: [
+        '<strong>禁止拍照、录像与录音的区域官方逐条列出，共六处，比一般以为的多</strong>：' +
+          '安检区（玻璃亭一层入口内）、<strong>September 11, 2001（历史展区，除另有标示处外）</strong>、' +
+          '<strong>In Memoriam（纪念展区）</strong>、二层礼堂、' +
+          '<strong>Rebirth at Ground Zero（影片放映）</strong>与 South Tower Gallery（夹层空间）',
+        '<strong>全馆任何时候禁用闪光灯</strong>（官方原文「The use of a flash is prohibited in all Memorial Museum areas, at all times」）；其余允许区域可个人非商业拍摄，但不得阻碍人流或妨碍他人观展',
+        '<strong>专业摄影一律需要事先经 Communications Department 授权</strong>，官方把「使用专业摄影器材」也算进专业摄影的定义里；三脚架须过安检且<strong>是否允许由安保现场裁量</strong>',
+        '<strong>进馆要过机场式安检</strong>；广场本身没有安检，两者不要搞混',
+        '<strong>官方年龄口径：历史展区可能不适合 10 岁以下</strong>，随行成人应自行判断；官方的儿童导览手册刻意不包含历史展区',
+        '<strong>这是墓地性质的场所</strong>：馆内保存着尚未辨识身份的遇难者遗骸（由法医办公室管理、不对公众开放的区域）。请压低音量、不要在展区内摆拍或直播',
+        '展区内光线很暗且有大量影像屏幕，<strong>从明亮的地面下来需要几分钟适应</strong>；戴眼镜的人从室外进来容易起雾',
+        '<strong>末次入场按 17:30 算</strong>（官方两个口径中较早的那个），而馆内真正要看完至少需要两小时——<strong>不要买 16:30 之后的票</strong>'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/18/September_11_Museum_Foundation_Hall.jpg', cap: 'Foundation Hall 与挡水墙 · Fletcher6 / CC BY 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/National_September_11_Museum%2C_New_York_City%2C_20231004_091856.jpg', cap: '馆内下行坡道与基岩层空间 · Jakub Hałun / CC BY 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7e/9-11_Museum_2025a.jpg', cap: '展区内的钢构件展陈 · Antony-22 / CC BY-SA 4.0' }
+      ]
+    },
+    {
+      id: 'wall-street-financial-district',
+      n: 12,
+      name: 'Wall Street 金融区（铜牛、无畏女孩、联邦厅、证交所外观）',
+      en: 'Wall Street & the Financial District',
+      must: 3.5,
+      score: 2.5,
+      tldr: '四五个街区走完的免费步行圈，全部只能看外观——<strong>纽约证券交易所自 2001 年起就不对公众开放</strong>；Federal Hall 免费但周一周二闭馆，且 Wall Street 那道台阶入口正在修、要走 15 Pine Street。',
+      tags: [{ t: '街区全免费', c: 'free' }, { t: 'NYSE 不可入内', c: 'risk' }, { t: 'Federal Hall 周一二闭馆', c: 'risk' }, { t: '铜牛常年排队', c: 'risk' }],
+      highlights: [
+        '<strong>先把最容易白跑一趟的一条说清：纽约证券交易所（New York Stock Exchange，18 Broad Street）不对公众开放。</strong>' +
+          '<strong>公众参观与旁听席自 2001 年 9 月起因安保原因取消，此后一直没有恢复</strong>，' +
+          '网上那些「站在交易大厅里」的画面全部来自持证媒体或受邀嘉宾。' +
+          '<strong>你能看到的只有外立面</strong>：Broad Street 一侧那六根科林斯柱的门廊、' +
+          '山花上的群雕《Integrity Protecting the Works of Man》，以及常年挂在柱间的巨幅美国国旗。' +
+          '<strong>请把它当成一栋建筑立面来看，不要抱着「进去参观」的预期</strong>',
+        '<strong>Charging Bull（铜牛）是一件非法安装的作品，这是它最好的故事。</strong>' +
+          '雕塑家 <strong>Arturo Di Modica</strong> 在 1987 年「黑色星期一」股灾之后自费创作，' +
+          '<strong>1989 年 12 月某夜用卡车把这头约 3,200 公斤、11 英尺高、16 英尺长的铜牛直接卸在证交所门前，没有任何许可</strong>。' +
+          '警方随即拖走，但舆论一片叫好，市政府于是在<strong>1989 年 12 月 20 日</strong>把它安置到 Bowling Green 北端至今。' +
+          '<strong>它今天的产权状况其实是一团迷雾</strong>：Di Modica 2021 年去世、' +
+          '曼哈顿遗产法院查无遗嘱，而当年买下原铸件的 Lewis 家族的投资公司 2026 年 8 月对媒体明确表示' +
+          '「The family does not own that bull」——<strong>也就是说这座全球最出名的金融图腾，目前没人说得清归谁</strong>',
+        '<strong>铜牛与 Fearless Girl 现在不在同一个地方，这一点几乎所有旧攻略都是错的。</strong>' +
+          '<strong>Fearless Girl</strong>（Kristen Visbal 作，State Street Global Advisors 为其性别多元化主题委约）' +
+          '<strong>2017 年 3 月 7 日国际妇女节前夕安置在 Bowling Green 北端、正面叉腰瞪着铜牛</strong>，' +
+          '这个对峙构图当年传遍全球。' +
+          '<strong>但 Di Modica 公开抗议此举篡改了他作品的原意，女孩像于 2018 年 11 月 28 日被移走，' +
+          '同年 12 月 10 日改立于 Broad Street、面对证交所大楼</strong>。' +
+          '<strong>两座像现在相距约两个街区，不可能同框</strong>；' +
+          '原址只留下一块带脚印的铭牌。' +
+          '<strong>另需注意：截至 2025 年 3 月，女孩像仍靠临时许可留在原处，长期去留尚未定案</strong>，' +
+          '万一到了发现她不在了，就是许可到期',
+        '<strong>Federal Hall 是这一圈里唯一有室内内容、而且完全免费的一站，但今天这栋楼不是原来那一栈。</strong>' +
+          '<strong>1789 年 4 月 30 日 George Washington 在这个地址宣誓就任首任总统，第一届联邦国会在此开会、' +
+          '《权利法案》也在此通过</strong>——但那栋原始的 Federal Hall <strong>已于 1812 年拆除</strong>。' +
+          '现在看到的是<strong>1842 年落成的旧美国海关大楼（后为分金库），希腊复兴式、八根多立克柱</strong>，' +
+          '1955 年定为 Federal Hall National Memorial，由<strong>国家公园管理局（NPS）管辖、免门票</strong>。' +
+          '台阶上那尊青铜 Washington 像是 John Quincy Adams Ward 1883 年的作品，' +
+          '<strong>站的位置大致就是当年宣誓的地点</strong>',
+        '<strong>顺路还有两个免费的好东西，价值都高于「拍一张 Wall Street 路牌」：</strong>' +
+          '<strong>Bowling Green</strong> 本身是<strong>纽约最古老的公共公园（1733 年）</strong>，' +
+          '就在铜牛南侧的铁栅栏里；' +
+          '而它正南那栋巨大的 <strong>Alexander Hamilton U.S. Custom House</strong> 现在是' +
+          '<strong>史密森尼的 National Museum of the American Indian，完全免费、可以随时进去</strong>，' +
+          '光是那个椭圆形大厅的穹顶壁画就值得进门。' +
+          '另有 <strong>Trinity Church</strong>（Broadway 与 Wall Street 交口，' +
+          '<strong>Alexander Hamilton 墓在教堂北侧墓园</strong>）与 <strong>Stone Street</strong>' +
+          '（一条铺鹅卵石的窄巷，两侧全是餐厅与酒吧，天气好时满街户外桌）'
+      ],
+      tour: [
+        '<strong>这是一个四五个街区、全程室外、除了吃饭不花一分钱的步行圈，按下面的顺序走最顺、不走回头路：</strong>' +
+          '<strong>Bowling Green 的铜牛 → 沿 Broadway 北上转入 Wall Street → Federal Hall（26 Wall Street）→ ' +
+          '转进 Broad Street 看 Fearless Girl 与证交所外立面 → 往东北走两分钟到 Stone Street 吃饭</strong>。' +
+          '<strong>全程步行距离不到 1 公里，含拍照与进 Federal Hall 一共 1–1.5 小时。</strong>' +
+          '反方向走也行，但从 Bowling Green 起步的好处是先解决掉人最多的铜牛',
+        '<strong>铜牛的现实是排队，请提前决定要不要参与。</strong>' +
+          '它立在 Broadway 的街心，<strong>常年有一队人等着摸它、合影</strong>，' +
+          '<strong>而且队伍分两头——牛头那侧拍脸，牛后那侧是来摸的（民间说法是摸了招财运），' +
+          '这不是玩笑，现场确实两边都有人排</strong>。' +
+          '<strong>白天 10:00–17:00 想拍到没有人的铜牛是不可能的</strong>；' +
+          '<strong>唯一的干净窗口是 08:00 之前</strong>，这也是整个金融区最好的时段（见下一条）。' +
+          '不想排队就从侧后方拍全身，效果其实比正面挤着拍更好',
+        '<strong>Federal Hall 有两条必须提前知道的硬约束，撞上任何一条就进不去：</strong>' +
+          '<strong>第一，周一与周二全天闭馆</strong>（NPS 现行口径：周三至周日 10:00–16:00）。' +
+          '<strong>落到 10/13–10/26：10/13、10/19、10/20、10/26 这四天进不去</strong>，' +
+          '其余十天都开。' +
+          '<strong>第二，Wall Street 那道大台阶与围院正在修、暂时封闭，访客入口改在建筑另一侧的 15 Pine Street</strong>' +
+          '（NPS 的园区管理条例原文：「The grounds and the Wall Street entrance are temporarily closed to the public ' +
+          'due to repairs in the interest of public safety」）。' +
+          '<strong>也就是说「坐在 Washington 像脚下的台阶上」这件事目前做不到，只能从街对面看</strong>。' +
+          '馆内有 Washington 就任主题展厅、书店与<strong>卫生间（这一圈里最可靠的一处）</strong>',
+        '<strong>可以跳过的三样：Wall Street 路牌合影、街边纪念品摊、以及所有向你兜售「证交所内部参观」的人。</strong>' +
+          '<strong>最后这条是骗局——证交所不卖参观票、没有公众通道</strong>。' +
+          '把省下的时间给两个真正值得的免费室内点：' +
+          '<strong>Bowling Green 正南的 National Museum of the American Indian（史密森尼，免费）</strong>，' +
+          '以及 Trinity Church 与其北侧墓园里 Alexander Hamilton 的墓',
+        '<strong>时段选择在这一区比在别处更重要，因为这里是办公区不是住宅区：</strong>' +
+          '<strong>工作日 08:00 之前街上几乎只有通勤者，铜牛没人排队、街道峡谷安静，是最好的时段</strong>；' +
+          '<strong>11:30–14:00 是周边写字楼的午餐高峰，Stone Street 一带要等位</strong>；' +
+          '<strong>而周末反过来——游客多、上班族全没了，很多午餐馆与咖啡店干脆不开门</strong>。' +
+          '<strong>结论：想逛街区选工作日清早，想吃饭选工作日而不是周末</strong>' +
+          '（10/17、10/18、10/24、10/25 四个周末日请把吃饭放到别的区）',
+        '<strong>餐饮与卫生间：这一区的公共卫生间很少，Federal Hall 开门时是最稳的一处</strong>' +
+          '（周三至周日 10:00–16:00），其次是 Bowling Green 的 National Museum of the American Indian 馆内。' +
+          '<strong>吃饭首选 Stone Street</strong>（弹石窄巷，两侧餐厅酒吧，天气好时满街户外桌），' +
+          '其次是往西走到 Brookfield Place 的美食广场。<strong>华尔街本街上基本只有连锁咖啡</strong>'
+      ],
+      photo: '建筑 <strong>3.5/5</strong>，人文 <strong>3/5</strong>，风光 <strong>1/5</strong>。' +
+        '窄街高楼的街道峡谷与几栋古典立面是可用素材；' +
+        '扣分很实在——<strong>铜牛白天永远有队，证交所只能拍外观，Federal Hall 的台阶还围着施工挡板</strong>，' +
+        '这一圈的照片价值基本只在清早那一个小时。',
+      shots: [
+        {
+          name: 'Bowling Green 铜牛的侧后方全身（唯一能避开人的时段）',
+          view: [40.705576, -74.013421],
+          desc: '针脚落在 Charging Bull 的 Wikidata／OSM 实体坐标。' +
+            '<strong>只有一个时段成立：工作日 07:00–08:00。</strong>' +
+            '<strong>10/13–10/26 里请挑工作日而不是周末</strong>——周末这里从早到晚都是游客队。' +
+            '光线上，Broadway 在此走向约南北，<strong>清早太阳在东南低角度，' +
+            '会从 Broadway 东侧楼隙间斜射进来打亮牛的侧面与背脊，铜绿的层次这时最好</strong>；' +
+            '正午顶光会把铜面压成一片死黑。' +
+            '<strong>35–50mm 从侧后方约 3 米处拍全身</strong>（避开正面的人群，' +
+            '而且侧后方才看得出这件作品前倾发力的姿态）；' +
+            '换 85–135mm 单独压缩牛头与犄角，把背景的楼群虚化掉。' +
+            '<strong>不要试图正面拍：正面永远站着排队的人，而且正面构图会把牛拍得又胖又扁。</strong>'
+        },
+        {
+          name: 'Broad Street 的 Fearless Girl 与证交所立面同框',
+          view: [40.706700, -74.010900],
+          desc: '针脚落在 Fearless Girl 的 Wikidata 坐标（Broad Street、面对证交所大楼；' +
+            '证交所大楼本体在 40.70702／-74.01122）。' +
+            '<strong>这是本条目唯一一张「两个主体一次拍完」的构图</strong>：' +
+            '女孩像正对着证交所的科林斯柱门廊与那面巨幅国旗，' +
+            '<strong>24–35mm 低机位从女孩身后略偏处拍，让她的剪影压在证交所立面前</strong>，' +
+            '国旗放在画面上三分之一。' +
+            '<strong>Broad Street 是一条窄街且两侧高楼，全天大部分时候在阴影里——' +
+            '这其实是好事，反差低、国旗与立面细节都留得住</strong>；' +
+            '真正要避开的是正午那半小时的天光直射。' +
+            '<strong>此处是安保密集区（证交所周边有路障与持枪警察），' +
+            '拍建筑没问题但不要架三脚架、不要对着安检口与警员拍摄。</strong>'
+        }
+      ],
+      access: {
+        visit: '<strong>1–1.5 小时</strong>走完整圈：铜牛与 Bowling Green 15–20 分钟、' +
+          'Federal Hall 室内 20–30 分钟、Fearless Girl 与证交所立面 15 分钟、' +
+          '沿 Wall Street 与 Broad Street 的街景步行 15 分钟。' +
+          '<strong>只打卡铜牛与证交所门口：30 分钟。</strong>' +
+          '<strong>把两个免费室内点加进来则是 2.5–3 小时</strong>' +
+          '（另加 National Museum of the American Indian 60–90 分钟、Trinity Church 与墓园 20 分钟）。' +
+          '<strong>如果那天是周一或周二，请直接按 45 分钟算</strong>——Federal Hall 关门，这一圈就只剩室外。' +
+          '（依据：NPS 不给 Federal Hall 的建议参观时长，此为按其两层展厅规模与整圈步行距离推算；' +
+          '整圈步行距离不到 1 公里）',
+        book: '<strong>全部不需预约。</strong>' +
+          'Federal Hall 官方口径「Reservations and walk-ins are welcome」，' +
+          '<strong>直接走进去即可，也提供免费的导览与自助参观</strong>。' +
+          '<strong>证券交易所没有任何面向公众的预约渠道——它不接受公众参观，不存在「订不订得到」的问题。</strong>' +
+          'National Museum of the American Indian 同样免费且不需预约',
+        ticket: '<strong>全部免费</strong>（2026 年 9 月 14 日核实）：' +
+          '<strong>Charging Bull、Fearless Girl、Bowling Green、Wall Street 与 Broad Street 街景、' +
+          '证交所外立面都是露天公共空间，不收费也无从收费</strong>；' +
+          '<strong>Federal Hall National Memorial 明确免票</strong>' +
+          '（NPS 的 Fees and Passes 页原文「There is no fee to enter Federal Hall National Memorial」，' +
+          '并注明「No entrance pass required」）；' +
+          'Bowling Green 正南的 National Museum of the American Indian（史密森尼）亦免费。' +
+          '<strong>Trinity Church 进堂免费</strong>。' +
+          '<strong>这一区唯一会掏钱的地方是吃饭，以及向街头「导览」付的钱——后者没有必要。</strong>',
+        hours: '<strong>街区部分：全天开放</strong>，铜牛与 Fearless Girl 都在露天街心，24 小时可看。' +
+          'Bowling Green 作为市属公园按 NYC Parks 常规时间（日出至凌晨 1:00）。' +
+          '<strong>Federal Hall 的开放时间必须细说，因为 NPS 自己的三个页面给了两套互相矛盾的口径：</strong>' +
+          '<strong>（一）Operating Hours &amp; Seasons 页（标注「Last updated: February 24, 2026」）写：' +
+          '周三至周六 10:00–16:00、周日 10:00–16:00、周一与周二闭馆，' +
+          '并注明「The visitor entrance is at 15 Pine St」。</strong>' +
+          '<strong>（二）园区管理条例（Superintendent\u2019s Compendium，PDF）写得更细，与（一）一致：' +
+          '阵亡将士纪念日至劳动节为旺季 10:00–17:00，劳动节次日至阵亡将士纪念日为淡季 10:00–16:00，' +
+          '周一与周二闭馆。</strong>' +
+          '<strong>（三）但同站的 Basic Information 页却写「we are open Monday through Friday」——' +
+          '与前两者完全冲突。三页都在 nps.gov 上，本条不替你二选一，' +
+          '但（一）与（二）互相印证且（一）的更新日期最近，实务上请按「周三至周日 10:00–16:00、周一周二闭馆」执行。</strong>' +
+          '<strong>10 月属淡季，所以是 10:00–16:00 这一档。' +
+          '落到 10/13–10/26：10/13（周二）、10/19（周一）、10/20（周二）、10/26（周一）四天闭馆，其余十天开。</strong>' +
+          '<strong>另一条同等重要：Wall Street 一侧的大台阶与围院因维修暂时封闭，' +
+          '入口改在 15 Pine Street</strong>（条例原文见 tour）。' +
+          '管理条例另列明该园在 Indigenous Peoples\u2019 Day 等联邦假日照常开放，' +
+          '仅感恩节、圣诞节与元旦闭馆——<strong>10 月 12 日那个假日不影响，且已早于行程窗口。</strong>' +
+          '<strong>Washington 就任时用的那本圣经目前外借巡展中、不在馆内展出</strong>' +
+          '（官方 Basic Information 页原文「Currently, the Bible is on tour」）。' +
+          '要确认当天是否开门请打 <strong>212-825-6990</strong>。' +
+          '<strong>纽约证券交易所：无公众开放时间可言，自 2001 年起不接待公众</strong>',
+        parking: '<strong>不要开车。</strong>金融区街道极窄、多为单行与装卸区，路边几乎无位，停车楼日价 $40–70。' +
+          '这一圈本身就是步行尺度，地铁最合适',
+        walk: '<strong>4/5 线 Bowling Green 站</strong>出站即到铜牛（不足 100 米）；' +
+          '<strong>2/3 线 Wall Street 站</strong>出站即到 Federal Hall；' +
+          '<strong>J/Z 线 Broad Street 站</strong>出站即到证交所与 Fearless Girl；' +
+          'R/W 线 Rector Street 站与 1 号线 Wall Street 站步行 3–5 分钟。' +
+          '<strong>铜牛到 Federal Hall 约 500 米／7 分钟，Federal Hall 到 Fearless Girl 约 200 米／3 分钟</strong>。' +
+          '从 9/11 Memorial 步行到 Federal Hall 约 800 米／10 分钟；' +
+          '从 Staten Island Ferry 的 Whitehall Terminal 到铜牛约 500 米／7 分钟'
+      },
+      notes: [
+        '<strong>纽约证券交易所不对公众开放</strong>，公众参观自 2001 年 9 月起取消且未恢复；<strong>任何声称能带你进交易大厅的人都是骗子</strong>',
+        '<strong>Federal Hall 周一与周二闭馆</strong>，且 <strong>Wall Street 一侧台阶与围院因维修封闭、入口改在 15 Pine Street</strong>——两件事都会让人白跑，出发前请再确认',
+        '<strong>证交所周边是高安保区</strong>：有车辆路障、持枪警察与便衣。拍建筑与雕塑没问题，但<strong>不要架三脚架、不要对着安检设施与警员拍摄</strong>，被问到时配合说明是游客即可',
+        '<strong>铜牛白天永远排队</strong>（队伍分牛头与牛后两头），想拍干净画面只有工作日 08:00 之前；<strong>街心车流不断，退后取景时注意背后是机动车道</strong>',
+        '<strong>Fearless Girl 目前仍靠临时许可留在 Broad Street，长期去留未定</strong>；它<strong>已不在 Bowling Green，与铜牛相距约两个街区、无法同框</strong>，旧攻略在这一点上普遍过时',
+        '<strong>这一区是办公区：周末很多餐饮不开门</strong>，而工作日 11:30–14:00 又是写字楼午餐高峰要等位——吃饭请避开这两种情况',
+        '公共卫生间很少，<strong>Federal Hall 开门时段是最可靠的一处</strong>，其次是 National Museum of the American Indian 馆内',
+        '窄街高楼形成风口，<strong>十月下旬 Wall Street 与 Broad Street 一带的体感会明显低于开阔处</strong>'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/0/00/Bowling_Green_td_%282018-12-13%29_06_-_26_Broadway%2C_Charging_Bull.jpg', cap: 'Bowling Green 北端的 Charging Bull · Tdorante10 / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Subdued_FiDi_%2850063555551%29.jpg', cap: 'Broad Street 的 Fearless Girl 与证交所立面国旗 · Billie Grace Ward / CC BY 2.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/36/George_Washington_statue_outside_Federal_Hall.jpg', cap: 'Federal Hall 台阶上的 Washington 像 · Kathleen Gulley / CC BY-SA 4.0' }
       ]
     }
   ]
