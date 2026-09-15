@@ -25,7 +25,8 @@ module.exports = {
         '按 FY2026 水平延续拨款至 <strong>2026 年 12 月 11 日</strong>。' +
         '也就是说 <strong>9 月末到 10 月末的整个行程窗口都在这份 CR 的保护期内，停摆概率极低</strong>。' +
         '来源：<a href="https://www.congress.gov/crs-appropriations-status-table/2027" target="_blank" rel="noopener">Congress.gov FY2027 Appropriations Status Table</a>。</p>' +
-        '<p>真正的风险点在 12 月 11 日之后（国会把 FY2027 全年拨款推到中期选举之后处理），与本次行程无关。</p>' +
+        '<p>真正的风险点在 <strong>2026 年 12 月 11 日之后</strong>（国会把 FY2027 全年拨款推到中期选举之后处理）；' +
+        '十月出行的话不受影响，十二月中旬以后来则需要重新核实。</p>' +
         '<p><strong>万一形势逆转，可用的备份清单</strong>（全部非 NPS 运营）：' +
         'Museum of the American Revolution（私立）、Reading Terminal Market（市场公司）、' +
         'Philadelphia City Hall 与 Dilworth Park（市政府 / Center City District）、' +
@@ -252,7 +253,7 @@ module.exports = {
           '以及「未订完的票会一直挂到开团时间」这几条在 recreation.gov 与 nps.gov 上均一字未改，' +
           '2026 年十月适用。</strong>' +
           '<strong>唯一的例外是七月（7/1–7/4 与 7/14 不需票），与十月无关。</strong>' +
-          '换算到本次行程：<strong>10 月 13 日的提前批在 9 月 13 日放，10 月 26 日的在 9 月 26 日放</strong>' +
+          '换算成例子：<strong>10 月 13 日的提前批在 9 月 13 日放，10 月 26 日的在 9 月 26 日放</strong>' +
           '（按官方举例的 30 天滚动窗口推算）。',
         ticket: '<strong>门票本身免费</strong>，但需票时收 <strong>$1.00／张的手续费</strong>，' +
           '<strong>Interagency Pass（美国国家公园年票）不覆盖这笔费用</strong>，' +
@@ -295,7 +296,7 @@ module.exports = {
           'Independence Hall 由 National Park Service 运营，<strong>拨款中断即锁门</strong>，' +
           '连同 Congress Hall、Old City Hall、Great Essentials 与整个 Independence Square 安检区一起关，' +
           '<strong>已预订的 recreation.gov 定时票不会自动退款也不会改期</strong>。' +
-          '<strong>2026-09-13 核实的结论是本次行程窗口（10/13–10/26）风险极低</strong>：' +
+          '<strong>2026-09-13 核实的结论是 2026 年十月整月风险极低</strong>：' +
           'FY2027 临时拨款决议 <strong>H.R. 6500 已于 2026 年 9 月 2 日签署成为 Public Law 119-103</strong>，' +
           '按 FY2026 水平续拨到 <strong>2026 年 12 月 11 日</strong>，' +
           '也就是说 10 月 1 日的财年切换不会触发停摆。' +

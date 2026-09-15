@@ -80,6 +80,19 @@
     }).join('') + '</div>';
   }
 
+  /* 标题里每个专名都做成可复制按钮，点哪个复制哪个（见 assets/copy.js）。
+     点标题不再展开卡片，展开交给卡头其余部分——否则每复制一次都会顺手
+     把卡片撑开。copy.js 没加载上时退回纯文本标题，不让整页渲染跟着挂掉。 */
+  function renderTitle(s) {
+    var cp = window.WUCopy;
+    if (!cp) {
+      return '<h3>' + esc(s.en) +
+        (s.name ? ' <span class="zh">' + esc(s.name) + '</span>' : '') + '</h3>';
+    }
+    return '<h3>' + cp.names(s.en, 'cp-en') +
+      (s.name ? ' <span class="zh">' + cp.names(s.name, 'cp-zh') + '</span>' : '') + '</h3>';
+  }
+
   function renderTags(tags, extra) {
     var items = (tags || []).map(function (t) {
       return '<span class="tag ' + (t.c || '') + '">' + esc(t.t) + '</span>';
@@ -137,8 +150,7 @@
       (thumb
         ? '<div class="card-thumb"><img loading="lazy" src="' + thumb + '" alt=""></div>'
         : '<div class="card-thumb card-thumb-empty" aria-hidden="true"></div>') +
-        '<div class="card-title"><h3>' + esc(s.en) +
-        (s.name ? ' <span class="zh">' + esc(s.name) + '</span>' : '') + '</h3>' +
+        '<div class="card-title">' + renderTitle(s) +
       (s.gone ? '<span class="gone-flag">' + esc(s.gone) + '</span>' : '') +
       (s.tldr ? '<div class="tldr">' + s.tldr + '</div>' : '') +
       renderTags(s.tags, renderMeta(s)) + '</div>' +
@@ -180,7 +192,26 @@
   }
 
   /* ---------- 地图 ---------- */
-  function buildMap(el, region) {
+
+  /* 子地区配色。多数地域的 data.js 给所有子地区写了同一个 color（那是整本
+     手册的主色），直接拿来用的话总地图上七个子地区全是一个颜色、图例也就白搭了。
+     所以只在各子地区颜色本来就互不相同时沿用数据里的值，否则按调色板分配。 */
+  var PALETTE = ['#ff8a3d', '#4dd0e1', '#f06292', '#9ccc65', '#ba68c8',
+                 '#ffd54f', '#4fc3f7', '#ff8a65', '#aed581', '#7986cb'];
+  var COLORS = [];
+
+  function initColors(regions) {
+    var uniq = {};
+    regions.forEach(function (r) { if (r.color) uniq[r.color] = 1; });
+    var distinct = Object.keys(uniq).length >= regions.length;
+    COLORS = regions.map(function (r, i) {
+      return distinct ? r.color : PALETTE[i % PALETTE.length];
+    });
+  }
+
+  function regionColor(r, i) { return COLORS[i] || r.color || PALETTE[i % PALETTE.length]; }
+
+  function baseMap(el) {
     var map = L.map(el, { scrollWheelZoom: false });
     /* 底图用 Esri Dark Gray Canvas：免密钥，且深色和本站配色一致。
        原先用的 CARTO dark_all 已改为需要 API key，会返回「API KEY REQUIRED」水印图。
@@ -193,40 +224,94 @@
     L.tileLayer(ESRI + 'World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
       maxZoom: 16, pane: 'shadowPane'
     }).addTo(map);
+    /* 点一下才启用滚轮缩放，避免页面滚动被地图吃掉 */
+    map.on('click', function () { map.scrollWheelZoom.enable(); });
+    map.on('mouseout', function () { map.scrollWheelZoom.disable(); });
+    return map;
+  }
 
+  function spotCoord(s) {
+    return (s.shots && s.shots[0] && (s.shots[0].view || s.shots[0].park || s.shots[0].at)) || s.at;
+  }
+
+  function addSpotMarker(map, s, c, color, subName) {
+    var icon = L.divIcon({
+      className: '',
+      html: '<div class="pin' + (s.gone ? ' pin-gone' : '') + '" style="background:' +
+        (s.gone ? '#ff6b6b' : color) + '">' + s.n + '</div>',
+      iconSize: [26, 26], iconAnchor: [13, 13]
+    });
+    L.marker(c, { icon: icon, title: s.en }).addTo(map).bindPopup(
+      '<b>' + esc(s.en) + '</b>' + (s.name ? ' <span style="color:#a0a6b3">' + esc(s.name) + '</span>' : '') + '<br>' +
+      (subName ? '<span style="color:' + color + ';font-weight:700">' + esc(subName) + '</span><br>' : '') +
+      (s.gone
+        ? '<span style="color:#ff6b6b;font-weight:700">' + esc(s.gone) + '</span><br>'
+        : '<span style="color:#ffd24d">' + stars(s.must != null ? s.must : s.score) + '</span> ' +
+          (s.must != null
+            ? '必去 ' + s.must + '/5' + (s.score != null ? ' · 摄影 ' + s.score + '/5' : '')
+            : s.score + '/5') + '<br>') +
+      '<a href="#' + esc(s.id) + '">↓ 跳到详情</a> · ' +
+      '<a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=' +
+      c[0] + ',' + c[1] + '">导航</a>'
+    );
+  }
+
+  function buildMap(el, region, i) {
+    var map = baseMap(el);
     var bounds = [];
     region.spots.forEach(function (s) {
-      var c = (s.shots && s.shots[0] && (s.shots[0].view || s.shots[0].park || s.shots[0].at)) || s.at;
+      var c = spotCoord(s);
       if (!c) return;
       bounds.push(c);
-      var icon = L.divIcon({
-        className: '',
-        html: '<div class="pin' + (s.gone ? ' pin-gone' : '') + '" style="background:' +
-          (s.gone ? '#ff6b6b' : (region.color || '#ff8a3d')) + '">' + s.n + '</div>',
-        iconSize: [26, 26], iconAnchor: [13, 13]
-      });
-      L.marker(c, { icon: icon }).addTo(map).bindPopup(
-        '<b>' + esc(s.en) + '</b>' + (s.name ? ' <span style="color:#a0a6b3">' + esc(s.name) + '</span>' : '') + '<br>' +
-        (s.gone
-          ? '<span style="color:#ff6b6b;font-weight:700">' + esc(s.gone) + '</span><br>'
-          : '<span style="color:#ffd24d">' + stars(s.must != null ? s.must : s.score) + '</span> ' +
-            (s.must != null
-              ? '必去 ' + s.must + '/5 · 摄影 ' + s.score + '/5'
-              : s.score + '/5') + '<br>') +
-        '<a href="#' + esc(s.id) + '">↓ 跳到详情</a> · ' +
-        '<a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=' +
-        c[0] + ',' + c[1] + '">导航</a>'
-      );
+      addSpotMarker(map, s, c, regionColor(region, i), '');
     });
 
     if (bounds.length > 1) map.fitBounds(bounds, { padding: [40, 40] });
     else if (bounds.length === 1) map.setView(bounds[0], 13);
     else map.setView(region.center || [34, -119], region.zoom || 8);
-
-    /* 点一下才启用滚轮缩放，避免页面滚动被地图吃掉 */
-    map.on('click', function () { map.scrollWheelZoom.enable(); });
-    map.on('mouseout', function () { map.scrollWheelZoom.disable(); });
     return map;
+  }
+
+  /* 全区总地图：一本手册里所有子地区的景点标在同一张图上，颜色区分子地区。
+     分区地图只能回答「这个子地区里怎么串」，看不出整趟路线的骨架——
+     哪几个子地区其实挨着、哪个是甩出去的支线，都要在这张图上才看得出来。 */
+  function buildAllMap(regions) {
+    var el = document.getElementById('map-all');
+    if (!el) return;
+    var map = baseMap(el);
+    var bounds = [];
+    regions.forEach(function (r, i) {
+      (r.spots || []).forEach(function (s) {
+        var c = spotCoord(s);
+        if (!c) return;
+        bounds.push(c);
+        addSpotMarker(map, s, c, regionColor(r, i), r.navName || r.name);
+      });
+    });
+    if (bounds.length > 1) map.fitBounds(bounds, { padding: [30, 30] });
+    else if (bounds.length === 1) map.setView(bounds[0], 11);
+  }
+
+  function renderAllMap(regions) {
+    var host = document.getElementById('regions');
+    if (!host || !host.parentNode) return;
+    var total = regions.reduce(function (n, r) { return n + (r.spots || []).length; }, 0);
+    var legend = regions.map(function (r, i) {
+      return '<a class="lg" href="#' + esc(r.id) + '">' +
+        '<i style="background:' + regionColor(r, i) + '"></i>' +
+        esc(r.navName || r.name) + '<b>' + (r.spots || []).length + '</b></a>';
+    }).join('');
+
+    var sec = document.createElement('section');
+    sec.id = 'all-map';
+    sec.innerHTML = '<div class="wrap">' +
+      '<h2>全区总地图<span class="count">' + total + ' 个景点</span></h2>' +
+      '<p class="section-lead">这一本手册里的景点全部标在这张图上，颜色对应子地区，编号与卡片一致。' +
+      '先在这里看清各子地区的相对位置与支线距离，再往下看单个子地区的分区地图与卡片。' +
+      '点图钉可以跳到卡片详情或直接导航。</p>' +
+      '<div class="map map-all" id="map-all"></div>' +
+      '<div class="map-legend">' + legend + '</div></div>';
+    host.parentNode.insertBefore(sec, host);
   }
 
   /* ---------- 装配 ---------- */
@@ -234,6 +319,15 @@
     var root = document.getElementById('regions');
     var nav = document.getElementById('region-nav');
     if (!root || typeof REGIONS === 'undefined') return;
+
+    initColors(REGIONS);
+    renderAllMap(REGIONS);
+    if (nav) {
+      var am = document.createElement('a');
+      am.href = '#all-map';
+      am.textContent = '总地图';
+      nav.appendChild(am);
+    }
 
     REGIONS.forEach(function (r) {
       var sec = document.createElement('section');
@@ -251,6 +345,7 @@
         '<div class="card-toolbar">' +
         '<button type="button" data-act="open" data-region="' + r.id + '">展开全部</button>' +
         '<button type="button" data-act="close" data-region="' + r.id + '">收起全部</button>' +
+        '<span class="toolbar-hint">点景点名即复制，可直接粘到 Google Maps 搜索收藏</span>' +
         '</div>' +
         r.spots.map(function (s) { return renderCard(s, r.name); }).join('') +
         '</div>';
@@ -293,9 +388,10 @@
       }
     }
 
-    REGIONS.forEach(function (r) {
+    buildAllMap(REGIONS);
+    REGIONS.forEach(function (r, i) {
       var el = document.getElementById('map-' + r.id);
-      if (el) buildMap(el, r);
+      if (el) buildMap(el, r, i);
     });
 
     /* 展开 / 收起全部 */
@@ -336,6 +432,7 @@
 
     wrapWideTables();
     buildSearch();
+    if (window.WUCopy) window.WUCopy.bind();
   }
 
   /* ---------- 搜索 ----------

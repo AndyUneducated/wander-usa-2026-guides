@@ -7,18 +7,24 @@
   'use strict';
 
   var SOURCES = [
-    { slug: 'nyc', label: 'New York 区域', color: '#4da3ff' },
-    { slug: 'dc', label: 'Washington DC 区域', color: '#4bd18a' },
+    { slug: 'nyc', label: 'New York + New England', color: '#4da3ff' },
+    { slug: 'dc', label: 'Washington DC + Philadelphia', color: '#4bd18a' },
     { slug: 'yellowstone', label: 'Yellowstone + Grand Teton', color: '#ffd24d' },
-    { slug: 'socal', label: '加州海岸', color: '#ff8a3d' }
+    { slug: 'socal', label: 'Southern California', color: '#ff8a3d' }
   ];
-  var V = '?v=20260914a';
+  var V = '?v=20260915a';
 
   var esc = function (s) {
     return String(s == null ? '' : s)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   };
   var plain = function (s) { return String(s == null ? '' : s).replace(/<[^>]+>/g, ''); };
+
+  /* 景点名做成可复制按钮（见 assets/copy.js）。整行是个跳转链接，
+     copy.js 的处理器会拦掉点击，点名字只复制、不跳转。 */
+  function cpNames(str, cls) {
+    return window.WUCopy ? window.WUCopy.names(str, cls) : esc(str);
+  }
 
   function stars(score) {
     var full = Math.floor(score), half = score - full >= 0.5, s = '';
@@ -76,8 +82,8 @@
           esc(row.src.slug + '/' + thumb) + '" alt=""></span>'
         : '<span class="xr-thumb xr-thumb-empty"></span>') +
       '<span class="xr-main">' +
-        '<span class="xr-name">' + esc(s.en) +
-          (s.name ? ' <i>' + esc(s.name) + '</i>' : '') + '</span>' +
+        '<span class="xr-name">' + cpNames(s.en, 'cp-en') +
+          (s.name ? ' <i>' + cpNames(s.name, 'cp-zh') + '</i>' : '') + '</span>' +
         '<span class="xr-where"><b style="color:' + esc(row.src.color) + '">' +
           esc(row.src.label) + '</b> · ' + esc(plain(row.sub.name)) + '</span>' +
         (s.tldr ? '<span class="xr-tldr">' + plain(s.tldr) + '</span>' : '') +
@@ -150,6 +156,7 @@
 
     document.getElementById('xr-loading').remove();
     draw();
+    if (window.WUCopy) window.WUCopy.bind();
   }
 
   loadAll(boot);
