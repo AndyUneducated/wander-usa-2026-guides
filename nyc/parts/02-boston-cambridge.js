@@ -1615,18 +1615,6 @@ module.exports = {
           '东门出到 Quincy Street → Harvard Art Museums</strong>。' +
           '<strong>Yard 在 2025 年 6 月重新对公众开放，免费、不查证件、不需预约，六道门 24 小时</strong>，' +
           '但它随时可能因校内活动临时整体关闭，而且没有规律。',
-        '<strong>不能错过的两件，一件免费一件也免费：</strong>' +
-          '<strong>①Harvard Art Museums（32 Quincy Street）</strong>——' +
-          '这是 Harvard 之行真正的内容所在，很多人完全不知道它存在。' +
-          '<strong>三馆合一（Fogg、Busch-Reisinger、Arthur M. Sackler），25 万件藏品，三层五十多个展厅，' +
-          '2014 年 Renzo Piano 重建，中央是玻璃屋顶的 Calderwood Courtyard</strong>。' +
-          '重点：<strong>三楼的 Rothko 壁画室、印象派与后印象派（梵高的自画像、莫奈、德加）、' +
-          '四楼的 Lightbox Gallery、以及 Busch-Reisinger 的德国表现主义（全美最好的一批）</strong>。' +
-          '<strong>完全免费，周一闭馆。</strong>' +
-          '<strong>②Widener Library 的外阶</strong>——' +
-          '1912 年由 Harry Elkins Widener 的母亲捐建，' +
-          '<strong>他 27 岁死于 Titanic 沉船</strong>，母亲要求学校永远不得改动这栋楼的外观；' +
-          '<strong>图书馆内部只对持 Harvard ID 者开放，游客上不去，站在阶梯上拍完就行</strong>。',
         '<strong>关于 John Harvard 像，说三件事省得你被导游忽悠：</strong>' +
           '<strong>它被称为「三重谎言雕像」（Statue of Three Lies）</strong>——' +
           '底座写着「John Harvard, Founder, 1638」，' +
@@ -1635,15 +1623,49 @@ module.exports = {
           '<strong>摸左脚会带来好运是旅游业编出来的说法，没有任何校内传统依据</strong>；' +
           '而<strong>那只被摸得锃亮的鞋每年都要清洗，因为学生半夜往上面撒尿是真实存在的恶作剧</strong>。' +
           '知道这些之后你会发现排队摸脚这件事很没必要——拍一张就走。',
-        '<strong>可以跳过的、以及要不要花钱跟导览：</strong>' +
-          '<strong>Harvard Square 本身（书店与连锁店）不值得专门逛</strong>，' +
-          '例外是 <strong>Harvard Book Store（1256 Massachusetts Avenue，独立书店，地下室有二手区）</strong>。' +
-          '<strong>Harvard Museum of Natural History（成人 $15）里的「Glass Flowers」玻璃花标本</strong>' +
-          '（Blaschka 父子花 50 年做的 4,300 件玻璃植物模型）是真正独一无二的东西，' +
-          '<strong>但它在 Yard 北边 600 米外，要额外 1 小时加门票，只在你对自然史有兴趣时才去</strong>。' +
-          '<strong>学生带队的付费校园导览（各家 $20–35）：内容基本是校园八卦与申请故事</strong>，' +
-          '<strong>官方的 Harvard Visitor Center 另有免费与付费选项，需在 harvard.edu 上提前登记</strong>；' +
-          '<strong>自己走完全没问题，Yard 不大，也没有讲解才能看懂的东西。</strong>',
+        '<strong>导览怎么选：官方免费学生团、官方自助 app、注册导览商，这三类之外的一概别买。</strong>' +
+          '<strong>①官方免费团（Official Historical Tour of Harvard）</strong>——' +
+          '由 Harvard University Visitor Center 运营（<strong>Smith Campus Center 一楼前台，1350 Massachusetts Avenue</strong>），' +
+          '现役学生带队、<strong>全程免费、官方公布时长 45–60 分钟、走的就是 Harvard Yard</strong>，' +
+          '<strong>必须提前在官方 Eventbrite 登记，场次每周五放出下一周的</strong>，' +
+          '<strong>一次登记上限 10 人，11 人以上的团不能参加公众团</strong>，' +
+          '并要求<strong>提前 15 分钟到 Visitor Center 签到</strong>（从 Smith Campus Center 出发、在 Yard 内结束）。' +
+          '<strong>Visitor Center 只在周一至周五 09:00–17:00 开门，所以周末没有官方现场团</strong>——' +
+          '这是很多人白等的原因。<strong>另请注意它不是招生导览（官方原文「This is not an admissions tour」）。</strong>',
+        '<strong>不想等团的两个免费自助方案，以及第三方团与「野鸡团」的分界线。</strong>' +
+          '<strong>②自助</strong>：官方 <strong>Visit Harvard</strong> 手机 app 里有 Historical Tour of Harvard 的自助版，' +
+          '<strong>14 站、约 1 英里、45–60 分钟</strong>，免费；' +
+          'Visitor Center 营业时间内还能买 <strong>$3</strong> 的多语种纸质自助地图。' +
+          '<strong>2026 年是美国建国 250 周年，官方另上线一条免费自助线「Harvard &amp; the American Revolution」，16 站，从 Smith Campus Center 起走进 Yard</strong>。' +
+          '<strong>③第三方</strong>：判断标准只有一条——<strong>是不是 registered tour provider</strong>。' +
+          '官方 Visitor Guidelines 的原文是' +
+          '<strong>「AT THIS TIME, ONLY REGISTERED TOUR PROVIDERS MAY CONDUCT TOURS IN HARVARD YARD」</strong>，' +
+          '官方导览页也写明 11 人以上团体<strong>「must book a tour with a registered tour provider of Harvard Yard」</strong>。' +
+          '<strong>Trademark Tours 的「Hahvahd Tour」（75 分钟、现役本科生带队、公开团约成人 $22、4–17 岁 $20）是实际在 Yard 内带团的一家</strong>；' +
+          '而<strong>在 Harvard Square 地铁口与 Massachusetts Avenue 人行道上举牌拉客、当场收现金的低价团，多数不在注册名单上</strong>——' +
+          '<strong>它们带不进 Yard 讲解，只能站在街边讲校园八卦与申请故事，价钱还不一定比官方注册商便宜。</strong>' +
+          '<strong>Harvard 没有公布完整的注册导览商名单，某一家是否注册无法逐一核实</strong>；' +
+          '实用判据是<strong>有没有固定网站与可提前预订的场次、集合点是否在 Smith Campus Center 或 Yard 门口</strong>，' +
+          '<strong>现场现金、不给票据的一律不要买</strong>。' +
+          '<strong>底线：Yard 不大，也没有必须讲解才看得懂的东西，自己走加 app 完全够用。</strong>',
+        '<strong>两个博物馆要不要加进来，答案不一样，分开说。</strong>' +
+          '<strong>①Harvard Art Museums（32 Quincy Street）：值得，而且应该当成 Harvard 之行的正餐而不是附加项。</strong>' +
+          '<strong>免票、每天免票</strong>，从 Yard 东门出去 300 米，' +
+          '三层五十多个展厅，第一次来一小时就能拿到重点：' +
+          '<strong>三楼的 Rothko 壁画室、印象派与后印象派（梵高自画像、莫奈、德加）、' +
+          'Busch-Reisinger 的德国表现主义（全美最好的一批）、' +
+          '以及 Renzo Piano 2014 年加建的玻璃顶中央庭院 Calderwood Courtyard</strong>。' +
+          '<strong>唯一硬限制是周一闭馆</strong>，另每月最后一个周四有免费夜场延到 21:00。' +
+          '<strong>②Harvard Museum of Natural History（26 Oxford Street）：只在你对自然史有兴趣时才加。</strong>' +
+          '它真正独一无二的东西是 <strong>Glass Flowers</strong>' +
+          '（Blaschka 父子花约五十年做的四千余件玻璃植物模型，全世界只有这一套），' +
+          '外加一具约 42 英尺长的 Kronosaurus 骨架；' +
+          '<strong>但它在 Yard 以北约 600 米，要额外 1–1.5 小时，而且 2026 年 7 月 1 日刚涨价</strong>' +
+          '（<strong>成人 $20、65 岁以上 $18、非 Harvard 学生与 3–18 岁 $15、3 岁以下免费，同一张票含隔壁 Peabody Museum</strong>）。' +
+          '<strong>顺路的免费替代：Harvard Museum of the Ancient Near East 与 Collection of Historical Scientific Instruments 全年免票。</strong>' +
+          '<strong>可以跳过的：Harvard Square 本身（连锁店与纪念品店）</strong>，' +
+          '例外是 <strong>Harvard Book Store（1256 Massachusetts Avenue，独立书店，地下室有二手区）</strong>；' +
+          '<strong>Widener Library 内部也别惦记，只对持 Harvard ID 者开放。</strong>',
         '<strong>餐饮与卫生间：Yard 内部没有对游客开放的卫生间，这一点务必先想好。</strong>' +
           '<strong>最可靠的两处：①Harvard Art Museums 一楼（免费入馆，卫生间在 Calderwood Courtyard 旁）</strong>、' +
           '<strong>②Harvard Square 地铁站与 Smith Campus Center（1350 Massachusetts Avenue，' +
@@ -1723,6 +1745,16 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>2.5–4 小时</strong>（Yard 本体 1–1.5 小时 ＋ Harvard Art Museums 1–1.5 小时）。分配：' +
+          '<strong>Johnston Gate 进到 John Harvard 像 10 分钟、Old Yard 与 Massachusetts Hall 15 分钟、' +
+          'Tercentenary Theatre（Widener 阶梯与 Memorial Church 对望）20–30 分钟、' +
+          'Sever Hall 门廊的声学怪癖 5 分钟、走到 Quincy Street 5 分钟、' +
+          'Harvard Art Museums 60–90 分钟</strong>。' +
+          '<strong>只看重点 45 分钟</strong>：Johnston Gate → John Harvard 像 → Tercentenary Theatre → 东门出，不进任何室内。' +
+          '<strong>参加官方免费学生导览的话按 45–60 分钟加进去</strong>（这是官网公布的时长，且不含往返 Visitor Center 的时间）。' +
+          '<strong>再加 Harvard Museum of Natural History 另留 1–1.5 小时</strong>，' +
+          '「Harvard 一带」一天的合理上限约 5–6 小时。' +
+          '<strong>依据：导览时长为 harvard.edu 官网原文，其余按展厅规模与实测步行距离推算。</strong>',
         book: '<strong>Harvard Yard 与 Harvard Art Museums 都不需预约、不需票。</strong>' +
           'Art Museums 官方建议<strong>周末提前线上登记以缩短入场排队</strong>，但 walk-in 一直欢迎；' +
           '<strong>到馆后请先到 Visitor Services 台报到</strong>。' +
@@ -1731,21 +1763,38 @@ module.exports = {
           '经 Harvard University Visitor Center（<strong>周一至周五 09:00–17:00</strong>）安排；' +
           '也有免费的 <strong>Visit Harvard</strong> 手机 app 自助导览。' +
           '第三方 Trademark Tours 的公开团约 <strong>成人 $22、4–17 岁 $20，3 岁以下免费</strong>。',
-        ticket: '<strong>Harvard Yard 免费。</strong>' +
-          '<strong>Harvard Art Museums 官方原文：「Admission is free to all visitors every day」。</strong>' +
+        ticket: '<strong>【2026-09-14 于 harvard.edu、harvardartmuseums.org、hmnh.harvard.edu 核实】</strong>' +
+          '<strong>Harvard Yard 免费，不需票、不查证件。</strong>' +
+          '<strong>Harvard Art Museums 官方原文：「Admission is free to all visitors every day」</strong>' +
+          '（免票由 David Rockefeller 遗产捐赠与校长办公室支持，2023 年 7 月起的永久政策）。' +
           '<strong>Adolphus Busch Hall 也免费、不需票。</strong>' +
-          'Visitor Center 的纸质自助地图 <strong>$3</strong>。' +
-          '<strong>Widener Library 内部不对游客开放，任何票都进不去。</strong>',
-        hours: '<strong>Harvard Yard：6 道门 24 小时（Widener、Thayer、Wadsworth、Meyer、Sever、Solomon/Lamont），' +
-          'Johnston Gate 行人 24 小时，另 4 道（Boylston、Holworthy、Straus、Loeb）06:00–19:00。</strong>' +
-          '官方警告<strong>「Gate openings are subject to change」，且 Yard 会因校内活动临时整体关闭</strong>' +
-          '（例：一家注册导览商在 2026 年 9 月挂出「Harvard Yard is closed on September 1st, 3rd, and 4th」）。' +
-          '<strong>Harvard Art Museums 官方原文：「Open Tuesday-Sunday 10am-5pm」「closed on Mondays and major holidays」</strong>，' +
-          '<strong>每月最后一个周四延长至 21:00</strong>（Harvard Art Museums At Night，免费）。' +
-          '<strong>你的窗口内两条已公布的例外：10 月 12 日（周一）本来就闭馆；' +
-          '10 月 23 日（周五）官方列为「Closing at 4pm」，提前一小时关门。' +
-          '10 月 29 日是本窗口内唯一的 At Night 夜场。</strong>' +
-          '<strong>Visitor Center：周一至周五 09:00–17:00。</strong>' +
+          'Visitor Center 的多语种纸质自助地图 <strong>$3</strong>；官方 Visit Harvard app 免费。' +
+          '<strong>要花钱的只有 Harvard Museum of Natural History：2026 年 7 月 1 日起' +
+          '成人 $20、65 岁以上 $18、非 Harvard 学生（凭证）与 3–18 岁 $15、3 岁以下免费</strong>' +
+          '（<strong>这是 2018 年 9 月以来的第一次调价，同一张票含隔壁 Peabody Museum</strong>；' +
+          'Massachusetts 居民凭居住证明周日 09:00–12:00 与周三 15:00–17:00 免费，' +
+          '持 EBT／WIC 卡者本人加最多五位同行者免费，现役军人及家属免费、退伍军人减 $3）。' +
+          '<strong>Harvard Museum of the Ancient Near East 与 Collection of Historical Scientific Instruments 全年免票。</strong>' +
+          '<strong>Widener Library 内部不对游客开放，任何票都进不去</strong>' +
+          '（官方原文「open to Harvard ID holders, who may bring up to four guests」，访问学者可另行申请）。',
+        hours: '<strong>【2026-09-14 于 accessibility.harvard.edu/campus-access 与 harvardartmuseums.org/visit 核实】</strong>' +
+          '<strong>Harvard Yard 共 11 道门开放：24 小时的 7 道是 Widener、Thayer、Wadsworth、Meyer、Sever、Solomon/Lamont，' +
+          '以及 Johnston Gate（行人 24 小时，车辆仅周一至周五 08:00–16:00）；' +
+          '另 4 道 Boylston、Holworthy、Straus、Loeb 为 06:00–19:00（Loeb 有活动时延后关闭）。</strong>' +
+          '官方在同一页警告<strong>「Gate openings are subject to change」</strong>，' +
+          '并说明门禁变动时网页可能有短暂滞后；' +
+          '<strong>另有四道门自 2024 年的抗议营地以来一直关闭。</strong>' +
+          '<strong>Yard 还会因校内活动临时整体关闭且无固定规律</strong>' +
+          '（2026 年 9 月就出现过连续三天封闭的公告），' +
+          '<strong>出行当天请自行重查 harvard.edu/visit 与 accessibility.harvard.edu/campus-access。</strong>' +
+          '<strong>Harvard Art Museums 官方原文：「Open Tuesday-Sunday 10am-5pm」' +
+          '「Closed on Mondays, major holidays, and other select dates」</strong>——' +
+          '<strong>注意「other select dates」这半句：官方保留不定期闭馆与提前关门的权利，' +
+          '出行前一周务必自查当月日历。</strong>' +
+          '<strong>每月最后一个周四延长至 21:00</strong>（Harvard Art Museums At Night，仍然免费，含音乐与餐饮）。' +
+          '<strong>Harvard Museum of Natural History：每日 09:00–17:00</strong>' +
+          '（2026 年公布的闭馆日为 11 月 25–26 日、12 月 24–27 日与 2027 年 1 月 1 日，秋季其余日期正常）。' +
+          '<strong>Harvard University Visitor Center（官方免费导览的集合处）：周一至周五 09:00–17:00，周末不开。</strong>' +
           '<strong>Adolphus Busch Hall：仅周三 13:00–17:00、周六 10:00–14:00。</strong>',
         parking: '<strong>不要开车到 Harvard Square。</strong>' +
           'Harvard 招生办自己的警告很直白：' +
@@ -1803,6 +1852,7 @@ module.exports = {
       n: 7,
       name: '麻省理工 · 基利安广场与大穹顶',
       en: 'MIT · Killian Court & the Great Dome',
+      must: 2,
       score: 4.5,
       tldr: '大穹顶朝正南，是全区唯一秋季全天正面受光的建筑；MIT Chapel 只有工作日两个各一小时的公众时段。',
       tags: [
@@ -1862,6 +1912,67 @@ module.exports = {
           '另一个彩蛋：<strong>Harvard Bridge 的桥面用「Smoot」为单位刻着刻度</strong>' +
           '（1958 年 MIT 学生 Oliver Smoot 被同学一遍遍放倒量出来的，全桥 <strong>364.4 Smoots 加一只耳朵</strong>），' +
           '<strong>这些漆在桥面上的刻度是很好的低机位前景细节。</strong>'
+      ],
+      tour: [
+        '<strong>先摆正期待：MIT 不是 Harvard，这里没有一个「必看的院子」，它是一所把楼编号当地址的理工学校。</strong>' +
+          '<strong>对普通游客来说 MIT 是半天的顺路项目，不是专程目标</strong>——' +
+          '值得看的东西分散在三条腿上：<strong>一条中轴走廊、一块草坪加一个穹顶、几栋明星建筑的外观</strong>。' +
+          '<strong>路线（从 Red Line「Kendall/MIT」站起，全程约 2.5 公里）：' +
+          '出站即到 MIT Welcome Center 与 MIT Museum（314 Main Street）→ ' +
+          '西行看 Stata Center 外观（32 Vassar Street）→ ' +
+          '进 Building 7 的 Lobby 7（77 Massachusetts Avenue，MIT 的正门门厅，Information Center 在 7-121）→ ' +
+          '走 Infinite Corridor 到底 → 右转出去就是 Killian Court 与 Great Dome → ' +
+          '再往西 350 米是 MIT Chapel 与 Kresge Auditorium</strong>。' +
+          '<strong>整个校园无围墙、无门禁、免费，公共走廊白天随便走</strong>，' +
+          '但<strong>实验室、教室与宿舍不要推门进去</strong>。',
+        '<strong>四件真正值得停下来的东西，按路线顺序：</strong>' +
+          '<strong>①Infinite Corridor（Building 7 到 Building 8 的中轴走廊）</strong>——' +
+          '<strong>约 251 米（825 英尺）的一条直通走廊，是全校的主干道</strong>，' +
+          '两侧贴满实验室海报与学生社团传单，' +
+          '<strong>这是本条目最能感受「这所学校在干什么」的地方，比任何一栋楼的外观都值得走一遍</strong>。' +
+          '走廊轴线略偏西北，<strong>每年 11 月上中旬与 1 月底前后会出现落日正对走廊、把整条走廊照亮的「MIThenge」现象，' +
+          '具体日期每年由校内天文爱好者提前公布，不在这两段时间来就看不到</strong>。' +
+          '<strong>②Killian Court 与 Great Dome</strong>——' +
+          '朝南开口的 U 形草坪与 1916 年的罗马万神殿式穹顶，' +
+          '<strong>檐部刻着一圈 Aristotle、Newton、Darwin、Pasteur 等人的名字</strong>，' +
+          '这是 MIT 唯一有「大学门面」气质的地方，也是毕业典礼的场地。' +
+          '<strong>③MIT Chapel（Building W15，Eero Saarinen，1955 年）</strong>——' +
+          '圆柱形砖砌无侧窗空间，主光来自穹顶天窗、落在 Harry Bertoia 的金属幕上，' +
+          '<strong>公众时段极窄：仅周一至周五 10:00–11:00 与 13:30–14:30，周末完全不开，且可能被礼拜占用</strong>。' +
+          '<strong>④Stata Center（Frank Gehry，2004 年）</strong>——' +
+          '歪斜鼓凸的体量堆叠，<strong>一楼有对外开放的公共通道与咖啡，可以进去看中庭</strong>，' +
+          '上层是实验室与办公区，不要上去。',
+        '<strong>唯一真正的室内「正餐」是 MIT Museum，而它要另外买票。</strong>' +
+          '<strong>地址 314 Main Street（Gambrill Center / Building E-28），入口在楼侧、正对 MIT Welcome Center，' +
+          'Kendall/MIT 地铁站出来就是</strong>——' +
+          '<strong>注意它不在主校园里，而在校园东侧 Kendall Square 一带，别走到 Killian Court 再折回来。</strong>' +
+          '看什么：<strong>机器人与人工智能展区、全息影像收藏（全美最大的一批）、' +
+          'Arthur Ganson 的机械雕塑（会动，可自己按按钮启动，是全馆最受欢迎的一件）、' +
+          '以及历年 MIT「hack」恶作剧的实物档案</strong>。' +
+          '<strong>2026 年票价：成人 $20、65 岁以上 $15、大学生凭证与 6–18 岁 $10、5 岁以下免费、' +
+          '家庭票（2 成人＋2 儿童）$55</strong>；' +
+          '<strong>2026 年全年有一条很实惠的规则：买一张全价成人票，出馆时可向 Visitor Experience 台索取一张免费回访票</strong>。' +
+          '<strong>每周三 11:00 有含在门票内的馆方导览</strong>（视人手情况）。' +
+          '<strong>顺路的免费室内还有两处：Hart Nautical Gallery（Building 5 走廊，船舶模型）与 ' +
+          'List Visual Arts Center（Building E15，当代艺术，免费）</strong>——' +
+          '<strong>两处的具体开放时段以现场标示为准（本次未逐条核实）。</strong>',
+        '<strong>导览：MIT 的免费学生导览要预约，而且是挂在招生办下面的，不是给一般观光客准备的。</strong>' +
+          '<strong>官方口径：MIT Undergraduate Admissions 周一至周五办 info session（30 分钟）与学生带队的校园导览（60 分钟），' +
+          '「Campus tours are open to the general public and are led by current students」——公众可以参加</strong>，' +
+          '但<strong>必须提前在 mitadmissions.org 预约，官方明说不接受 walk-in（原文「Should you arrive without a reservation for a session, we will not be able to accommodate you」）</strong>，' +
+          '<strong>6–50 人的团要走 group tour 流程且需提前三周申请</strong>，集合点在 <strong>MIT Welcome Center（292 Main Street，Kendall 站旁）</strong>。' +
+          '<strong>不想预约就用官方自助方案</strong>：mit.edu/visit 上有 self-guided walking tour 地图，' +
+          '<strong>Lobby 7 的 Information Center（Building 7-121，电话 617-253-4795）现场发地图、可问路</strong>。' +
+          '<strong>结论：MIT 的看点全在外部与走廊里，自助地图足够；' +
+          '只有打算申请这所学校的人才值得为了 info session 迁就时间。</strong>',
+        '<strong>卫生间与餐饮：都在校园里解决，不必回 Kendall Square。</strong>' +
+          '<strong>最可靠的卫生间三处：①Stratton Student Center（Building W20，84 Massachusetts Avenue，一楼对外）、' +
+          '②Lobby 7 与 Infinite Corridor 沿线的公共走廊、③MIT Museum 馆内（需门票）。</strong>' +
+          '吃饭：<strong>Stratton Student Center 一楼是最便宜省事的选择（快餐档口与便利店，公众可用）</strong>；' +
+          '<strong>MIT Museum 出口连着 Ripple Cafe</strong>；' +
+          '<strong>Kendall Square 一带（Main Street 与 Third Street）是餐厅密度最高的地方，但价位是科技园区的水平</strong>。' +
+          '<strong>Massachusetts Avenue 沿线（Central Square 方向）性价比更好。</strong>' +
+          '<strong>MIT 的宿舍食堂不对公众开放，别去刷卡口排队。</strong>'
       ],
       photo: '建筑 <strong>5/5</strong>，室内 <strong>4.5/5</strong>（Chapel），' +
         '城市与河景 <strong>4/5</strong>，风光 <strong>2/5</strong>。' +
@@ -1965,6 +2076,15 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1.5–2.5 小时</strong>（不含 MIT Museum）。分配：' +
+          '<strong>Lobby 7 与 Infinite Corridor 走一遍 15 分钟、Killian Court 与 Great Dome 20–30 分钟、' +
+          'MIT Chapel 室内 15–20 分钟（只在工作日那两个时段成立）、Kresge Auditorium 外观 10 分钟、' +
+          'Stata Center 外观加一楼 20–30 分钟、Harvard Bridge 桥面 15 分钟</strong>。' +
+          '<strong>只看重点 30 分钟</strong>：Lobby 7 → Infinite Corridor → Killian Court 望穹顶，原路出来。' +
+          '<strong>加 MIT Museum 另留 1.5–2 小时</strong>（按 15,000 平方英尺展厅规模与馆方「一次看不完、送回访票」的口径推算）；' +
+          '<strong>参加官方学生导览另加 60 分钟，若连 info session 一起则 90 分钟</strong>（官网公布时长）。' +
+          '<strong>整个 MIT 一天的合理上限约 4 小时，再多就是重复。</strong>' +
+          '<strong>依据：导览与博物馆时长为官网原文，室外各段按实测步行距离推算。</strong>',
         book: '<strong>Killian Court、Great Dome 外景、Stata Center 外景、Kresge 外景、Harvard Bridge ' +
           '全部不需预约、不需票、无时段限制。</strong>' +
           '<strong>MIT Chapel 的公众时段也不需预约</strong>，门在那两个时段是开的，直接走进去。' +
@@ -1973,10 +2093,28 @@ module.exports = {
           '<strong>想进去只能买一场演出的票</strong>，' +
           '校方活动日历（calendar.mit.edu/building_w16）能查到公开场次' +
           '（例：10 月 23 日 20:00 有 MIT Family Weekend Concert）。',
-        ticket: '<strong>全部免费。</strong>' +
-          'Killian Court、Great Dome、Stata Center、MIT Chapel、Harvard Bridge 均无门票。' +
+        ticket: '<strong>【2026-09-14 于 mit.edu/visit、studentlife.mit.edu 与 mitmuseum.mit.edu 核实】</strong>' +
+          '<strong>校园本体全部免费</strong>：Killian Court、Great Dome、Infinite Corridor、Lobby 7、' +
+          'Stata Center 外观与一楼、MIT Chapel、Kresge 外观、Harvard Bridge 均无门票，' +
+          '<strong>官方学生导览与 info session 也免费（但要预约）</strong>。' +
+          '<strong>唯一要买票的是 MIT Museum（314 Main Street）：' +
+          '成人 $20、65 岁以上 $15、大学生凭证 $10、6–18 岁 $10、5 岁以下免费、家庭票（2 成人＋2 儿童）$55</strong>；' +
+          '<strong>2026 年 1 月 2 日至 12 月 31 日期间，买一张全价成人票可在出馆时索取一张免费回访票</strong>' +
+          '（官网原文写明这是 2026 年的限期规则，' +
+          '<strong>2027 年及以后是否延续需自行重查</strong>）。' +
+          '<strong>MIT Museum 另对 MIT 社群、Cambridge 居民、Massachusetts EBT 持卡人与现役军人（Blue Star Museums）免费。</strong>' +
+          '<strong>Hart Nautical Gallery 与 List Visual Arts Center 免费。</strong>' +
           'Kresge Auditorium 的演出另行售票（价格视场次）。',
-        hours: '<strong>校园室外空间：实务上 24 小时可进入</strong>（MIT 是开放校园，无围墙、无门禁）。' +
+        hours: '<strong>【2026-09-14 核实】</strong>' +
+          '<strong>校园室外空间：实务上 24 小时可进入</strong>（MIT 是开放校园，无围墙、无门禁）。' +
+          '<strong>Lobby 7 与 Infinite Corridor 等公共走廊在上课日白天畅通，' +
+          '夜间与周末部分门会改为刷卡进入（具体时段未能从官方渠道确认，建议按工作日白天安排）。</strong>' +
+          '<strong>MIT Museum：官方原文「Open daily. 10:00 AM - 5:00 PM (Last entry 30 minutes prior to closing)」，' +
+          '即每日 10:00–17:00、16:30 停止入场，每周三 11:00 有含在门票内的馆方导览</strong>；' +
+          '<strong>2026 年公布的闭馆日为 1 月 1 日、7 月 4 日、感恩节与 12 月 25 日，12 月 24 日与 12 月 31 日提前关门，秋季正常。</strong>' +
+          '<strong>Harvard Museum 式的每周闭馆日这里没有——MIT Museum 是每日开放。</strong>' +
+          '<strong>MIT Welcome Center（292 Main Street）与 Lobby 7 的 Information Center（7-121）' +
+          '按工作日 09:00–17:00 运作（Information Center 电话 617-253-4795）。</strong>' +
           '<strong>MIT Chapel 官方原文：「open to members of the general public for visiting hours, ' +
           'Monday – Friday, 10:00AM to 11:00AM and 1:30PM to 2:30PM」</strong>，' +
           '并明确<strong>「sometimes religious services are scheduled during these hours. ' +
@@ -2040,6 +2178,7 @@ module.exports = {
       n: 8,
       name: 'Charles River 河岸与 Longfellow Bridge',
       en: 'Charles River Esplanade & the Longfellow Bridge',
+      must: 2,
       score: 5,
       tldr: '天际线是纯日落＋蓝调题材，不是日出题材；从 Cambridge 岸朝东南拍，最佳窗口 10/22 只有 18:00–18:20。',
       tags: [
@@ -2106,9 +2245,58 @@ module.exports = {
           '<strong>第二阶段是否在秋季恢复夜间封路未能从官方渠道确认</strong>；' +
           '好消息是<strong>那个时段（20:00 之后）已经在蓝调结束之后，对拍照没有影响。</strong>'
       ],
+      tour: [
+        '<strong>这是一条河岸公园，不是一个景点，所以先说清「走哪一段」。</strong>' +
+          '<strong>Esplanade 官方口径是「three miles one way」，从 Museum of Science 一直到 Boston University Bridge</strong>，' +
+          '全部走完单程约 60–75 分钟，<strong>而绝大多数游客只需要走中间那一段</strong>：' +
+          '<strong>Hatch Shell（Fiedler 天桥下来处）到 Longfellow Bridge 桥头约 450 米</strong>，' +
+          '沿途是泻湖、草坪、Arthur Fiedler 头像与河景，' +
+          '<strong>20–30 分钟就能拿到这座城市最著名的河岸景观</strong>。' +
+          '<strong>关键的实务知识：Storrow Drive 这条快速路把 Back Bay 与河岸完全切开，你必须走天桥才能过去</strong>——' +
+          '<strong>三处入口：Arlington Street／Beacon Street 口的 Fiedler Footbridge（离 Hatch Shell 最近）、' +
+          'Dartmouth Street Footbridge（离 Copley 与 Newbury Street 最近）、' +
+          '以及 Charles/MGH 地铁站旁的 Frances Appleton Bridge（连 Beacon Hill 与河岸）。</strong>' +
+          '<strong>找不到天桥而沿着 Storrow Drive 走是这里最常见的挫败。</strong>',
+        '<strong>值得停下来的四处，其余是跑步与遛狗的路：</strong>' +
+          '<strong>①Hatch Memorial Shell</strong>——1940 年的贝壳形露天舞台，' +
+          '<strong>Boston Pops 每年 7 月 4 日的国庆音乐会就在这里，是全美规模最大的国庆演出之一</strong>；' +
+          '<strong>非演出日它只是一个空舞台，五分钟看完，价值在于知道它是什么。</strong>' +
+          '<strong>②走过 Longfellow Bridge</strong>——' +
+          '这是本条目最值得花时间的一件事：<strong>桥上有完整人行道，单程约 660 米、10 分钟</strong>，' +
+          '四座花岗岩桥塔因形状被 Boston 人叫做「盐罐与胡椒罐」（salt-and-pepper shakers），' +
+          '<strong>Red Line 地铁在桥中央露天穿过，班距约 5–9 分钟</strong>，' +
+          '走到 Cambridge 一端就是 Kendall/MIT，可以直接接 MIT。' +
+          '<strong>③泻湖与 Storrow Lagoon 一带的步道</strong>——' +
+          '这是 Esplanade 最像「公园」的一段，有长椅与水鸟；' +
+          '<strong>十月中下旬是这一带的秋色高峰（Boston 市区比内陆晚两到三周），' +
+          '而此前来基本还是绿的</strong>。' +
+          '<strong>④Charlesbank 一侧的儿童游乐场与 Museum of Science</strong>——' +
+          '带孩子的话这两处是重点，<strong>Museum of Science 单独售票、与 Esplanade 无关，票价与时段请查官网</strong>。',
+        '<strong>水上项目全部是季节性的，这条决定你能不能「下水」。</strong>' +
+          '<strong>Community Boating（Hatch Shell 与 Charles/MGH 之间的河岸，美国最老的公众帆船中心之一）</strong>、' +
+          '<strong>Charles River Canoe &amp; Kayak 的皮划艇与桨板租赁</strong>、' +
+          '以及 <strong>Charles Riverboat 的观光游船</strong>，' +
+          '<strong>通常都只在春末到十月中下旬运营，入秋后陆续收季，具体收季日期每年不同、以各运营商官网为准（本次未逐条核实）</strong>。' +
+          '<strong>结论：想划船或坐船的人请在十月中之前来，且出发前一周查一次；十月底以后来的人就当它是一条步道。</strong>' +
+          '<strong>另一件季节性大事：Head of the Charles Regatta 固定在十月中下旬的一个周末（近 12,000 名选手、观众规模 30 万人级），' +
+          '那三天河两岸与各桥全是人、Memorial Drive 分段封路</strong>——' +
+          '<strong>想看世界最大的划船赛就冲这三天（免费），想安静散步就避开</strong>，' +
+          '日期每年由 hocr.org 公布（<strong>2026 年为 10 月 16–18 日</strong>）。',
+        '<strong>卫生间与餐饮：这是 Esplanade 最大的短板，必须提前安排。</strong>' +
+          '<strong>园内只有两处公共卫生间：Hatch Shell 后方（Fiedler 天桥旁）与 Dartmouth Street Footbridge 旁的 Dartmouth St. Facility</strong>，' +
+          '而且<strong>官方明说「open from late spring to early fall」、时段大致 08:00–18:00</strong>——' +
+          '<strong>也就是说十月中之后来、或者傍晚来，园内很可能没有开放的卫生间。</strong>' +
+          '<strong>替代方案：Charles/MGH 站一侧的 Beacon Hill（Charles Street 上的咖啡馆）、' +
+          'Back Bay 一侧的 Newbury Street 与 Boston Public Library（免费、卫生间在一楼门厅两侧）、' +
+          '以及 Museum of Science 门厅。</strong>' +
+          '<strong>园内基本没有餐饮</strong>（夏季偶有季节性小食摊，入秋后不可依赖），' +
+          '<strong>请在上桥／下天桥之前把水和吃的买好</strong>。' +
+          '<strong>安全：官方园区开放时间只到 dusk，入夜后河岸灯少人少</strong>，' +
+          '天黑后不要在 Esplanade 深处久留，沿 Beacon Street 一侧撤回市区。'
+      ],
       photo: '城市天际线 <strong>5/5</strong>（蓝调），建筑 <strong>4.5/5</strong>（桥塔），' +
         '风光与秋色 <strong>4/5</strong>，人像 <strong>3/5</strong>。' +
-        '全区最强的一张照片在这里，而且完全免费、三脚架无限制、24 小时可进；' +
+        '全区最强的一张照片在这里，而且完全免费、三脚架无限制（园区官方时段为 dawn–dusk，桥面人行道不受限）；' +
         '扣分只在窗口极短（十月每天不到半小时）与白天几乎无光可用。',
       shots: [
         {
@@ -2129,7 +2317,8 @@ module.exports = {
             '<strong>包围曝光 ±2 EV 各一张</strong>：楼窗与河面暗部光比常超过 9 EV。' +
             '<strong>另一个方向也别忘了回头看：日落方位 269.5°（9/25）在你右后方，' +
             '朝西拍 Harvard Bridge 与河面的落日反光带是同一机位的第二张。</strong>' +
-            '<strong>开放河岸公园，24 小时，三脚架无限制。</strong>'
+            '<strong>开放河岸公园，免费，三脚架无限制；' +
+            '但 DCR 园规是「dawn to dusk」而非 24 小时（只有穿行通过例外），蓝调拍完就该走。</strong>'
         },
         {
           name: 'Harvard Bridge 桥面朝东南（唯一能拿到直射光的机位）',
@@ -2196,23 +2385,50 @@ module.exports = {
             '<strong>需要注意的施工：Charlesbank ＋ Smith Family Pavilion（$24M）在 Museum of Science 一侧施工，' +
             '目标 2026 年 11 月 1 日开放——也就是说你来的时候那一段仍是工地，围挡明确。' +
             'Esplanade 其余部分正常开放。</strong>' +
-            '<strong>免费、24 小时、三脚架无限制</strong>，' +
-            '但<strong>入夜后河岸公园人少灯暗，独行者建议蓝调结束就撤到 Beacon Street 一侧。</strong>'
+            '<strong>免费、三脚架无限制，但园区官方开放时间是「dawn to dusk」而不是 24 小时</strong>，' +
+            '且<strong>入夜后河岸公园人少灯暗，独行者建议蓝调结束就撤到 Beacon Street 一侧。</strong>'
         }
       ],
       access: {
+        visit: '<strong>45 分钟–2 小时</strong>。分配：' +
+          '<strong>Hatch Shell 到 Longfellow Bridge 桥头这一段（本区精华）20–30 分钟、' +
+          '走过 Longfellow Bridge 单程 10 分钟（往返 20 分钟）、' +
+          '泻湖与草坪一带闲坐 20–30 分钟</strong>。' +
+          '<strong>只看重点 30 分钟</strong>：从 Fiedler 天桥下到 Hatch Shell，沿河走到 Longfellow 桥头，原路或从 Charles/MGH 站离开。' +
+          '<strong>想拍日落与蓝调的另算</strong>：' +
+          '<strong>提前 30 分钟到位、蓝调本身只有 25–30 分钟</strong>，' +
+          '所以「到位＋拍完」要留 1–1.5 小时。' +
+          '<strong>要走完官方口径的三英里全程（Museum of Science 到 BU Bridge）单程约 60–75 分钟</strong>，' +
+          '<strong>但后半段只有跑步道与球场，普通游客不必走。</strong>' +
+          '<strong>依据：三英里长度为 esplanade.org 官方原文，各段耗时按实测距离与 4.5 公里/小时步速推算。</strong>',
         book: '<strong>不需预约。</strong>' +
           'Charles River Esplanade、Cambridge 岸的 Memorial Drive 河滨路径、' +
           'Longfellow Bridge 与 Harvard Bridge 的人行道全部是公共空间，' +
           '<strong>直接走进去即可，没有任何票务或登记环节。</strong>',
-        ticket: '<strong>免费。</strong>四个机位全部无门票。',
-        hours: '<strong>河岸公园与两座桥的人行道实务上 24 小时开放</strong>' +
-          '（Esplanade 由 Massachusetts DCR 管理，无门无闸）。' +
-          '<strong>但真正约束你的不是开放时间而是天光：' +
-          '9 月 25 日日落 18:38、民用暮光结束 19:04；10 月 22 日日落 17:53、民用暮光结束 18:21。</strong>' +
-          '<strong>换句话说十月下旬六点半以后这里已经没有可用的天光了。</strong>' +
-          '<strong>Charlesbank ＋ Smith Family Pavilion 工地（Museum of Science 一侧）目标 2026 年 11 月 1 日开放，' +
-          '行程窗口内仍在施工。</strong>',
+        ticket: '<strong>【2026-09-14 于 esplanade.org 与 mass.gov 核实】免费。</strong>' +
+          'Esplanade 河岸公园、Longfellow Bridge 与 Harvard Bridge 的人行道、' +
+          'Cambridge 岸的 Memorial Drive 河滨路径<strong>全部无门票</strong>。' +
+          '<strong>要花钱的只有加在旁边的项目：Museum of Science（独立售票，票价与时段以 mos.org 为准，本次未核实）、' +
+          'Community Boating 的帆船课程与会员、Charles River Canoe &amp; Kayak 的租船、' +
+          'Charles Riverboat 的观光船票。</strong>',
+        hours: '<strong>【2026-09-14 核实】这一条与旧口径不同，请以官方为准：' +
+          'Esplanade 不是 24 小时公园。</strong>' +
+          'DCR 的园规原文（经 esplanade.org 转载）是' +
+          '<strong>「The park opens at dawn and closes at dusk」「with the exception of walk-through traffic and permitted events」</strong>，' +
+          'esplanade.org 的 Key Information 同样写<strong>「Park Hours: Daily from dawn to dusk」</strong>；' +
+          'mass.gov 的 Charles River Reservation 页面则写<strong>「Sunrise to sunset」</strong>。' +
+          '→ <strong>两种官方口径都是「天亮到天黑」，只有「穿行通过」与「持证活动」例外；' +
+          '实际现场没有门闸，夜里桥面人行道仍可通行，但园区本身按规定是关闭的。</strong>' +
+          '<strong>真正约束你的是日落：Boston 在东部时区最东端，日落极早</strong>——' +
+          '<strong>九月下旬日落约 18:35、民用暮光约 19:05 结束；十月下旬日落已提早到约 17:50、民用暮光约 18:20 结束</strong>' +
+          '（按 Boston 42.360°N／71.059°W 与 EDT 计算，' +
+          '<strong>美国夏令时在 11 月第一个周日结束，此后再提早一小时</strong>）。' +
+          '<strong>换句话说秋末这里下午六点半以后既没有天光也已过园区开放时间。</strong>' +
+          '<strong>公共卫生间（Hatch Shell 后方与 Dartmouth Street 天桥旁）官方口径为' +
+          '「open from late spring to early fall」、时段大致 08:00–18:00，秋末与冬季不开。</strong>' +
+          '<strong>施工：Charlesbank ＋ Smith Family Pavilion（Museum of Science 一侧，$24M）的目标开放日期为 2026 年 11 月 1 日，' +
+          '在此之前该段是工地、围挡明确；是否按期完工请自行重查 mass.gov 的 DCR 项目页。</strong>' +
+          'Esplanade 其余部分正常开放。',
         parking: '<strong>不建议自驾</strong>。Storrow Drive 沿线没有可用的路边停车，' +
           'Cambridge 的 Memorial Drive 沿线为限时路边位、周末与傍晚极难找。' +
           '<strong>MBTA 是唯一合理的方案：</strong>' +
@@ -2273,6 +2489,7 @@ module.exports = {
       n: 9,
       name: 'Fenway Park 外景与 Boston Harborwalk',
       en: 'Fenway Park Exterior & the Boston Harborwalk',
+      must: 3,
       score: 3.5,
       tldr: 'Citgo 招牌整个行程窗口是拆掉状态、11 月中才复亮；Harborwalk 是全城唯一能日出正面拍天际线的地方。',
       tags: [
@@ -2355,6 +2572,58 @@ module.exports = {
           '一支 70–200mm f/2.8 约 7.8 英寸，直接违规。' +
           '所以「球场内部」对认真拍照的人基本是关闭的，本条目的重心应该放在外景。</strong>' +
           '（不合规的包可以寄存：<strong>Gate E 对面 Lansdowne Garage 顶层有第三方寄存车辆</strong>。）'
+      ],
+      tour: [
+        '<strong>Fenway 这一半的核心不是外景而是那张 $30 的球场导览票，而选哪一天比选哪一班更重要。</strong>' +
+          '<strong>官方 Public Tour：60 分钟、整点一班、成人 $30、3–12 岁与军人 $21</strong>，' +
+          '在 mlb.com/redsox/ballpark/tours 上买（<strong>集合点写在购票确认里，公众团一般在 Jersey Street 一侧的球场大门</strong>）。' +
+          '<strong>决定性的一条：非比赛日的导览会带你走到内场警戒线（warning track）与休息区一带，' +
+          '比赛日的路线临时改动、这些地方一概不去</strong>。' +
+          '<strong>→ 只要有得选，就订非比赛日；Red Sox 的主场赛季集中在 4 月到 9 月底（打进季后赛则延到 10 月）</strong>，' +
+          '<strong>也就是说十月以后来的人反而更容易拿到完整路线，这是淡季唯一的好处。</strong>' +
+          '<strong>当天选第一班（09:00）：人最少，而且不会被当天赛事挤掉。</strong>' +
+          '<strong>比赛日的末班车是开赛前三小时发车，下午场会把当天可用班次砍掉一半，务必提前订票。</strong>',
+        '<strong>导览里真正值得记住的五处，其余是路过：</strong>' +
+          '<strong>①Green Monster 上方的座位</strong>——' +
+          '左外野那道 37 英尺高的绿墙，1912 年球场落成时就有墙、1947 年才漆成绿色，' +
+          '<strong>墙顶座位是 2003 年才加的，导览会带你上去坐，这是全程最值的一站</strong>。' +
+          '<strong>②Pesky\'s Pole</strong>——右外野那根离本垒只有 302 英尺的黄色标志杆，' +
+          '<strong>是 MLB 现役球场里最短的右外野距离，看一眼就明白这座球场为什么「不规则」</strong>。' +
+          '<strong>③1934 年至今仍在使用的木质座椅</strong>（全联盟最老的在用座椅）。' +
+          '<strong>④Red Sox Hall of Fame 与 Royal Rooters Club</strong>（球队史料与奖杯，室内，雨天的好去处）。' +
+          '<strong>⑤右外野屋顶平台</strong>，能一次看到球场全景与 downtown 天际线。' +
+          '<strong>不看球也想省钱的人：赛季内（官方口径 5 月至 9 月的比赛日与周末 12:00–15:00）有 15 分钟的 ' +
+          '「Fenway in Fifteen」，$20，从 Gate B 每 15 分钟一班</strong>——' +
+          '<strong>但它十月不运营，且不含 Green Monster 座位以外的完整路线。</strong>',
+        '<strong>能赶上一场球赛的话，它的价值高于导览——但这是赛季问题，不是安排问题。</strong>' +
+          '<strong>MLB 常规赛从三月底到九月底，Fenway 的主场日集中在这段</strong>，' +
+          '<strong>十月只有球队打进季后赛才有主场比赛，而季后赛票价与人流是另一个量级</strong>。' +
+          '<strong>实务建议：先查 mlb.com/redsox 的主场赛程再决定这半天怎么排</strong>——' +
+          '<strong>有主场比赛的日子，Jersey Street 会在开赛前三小时变成封闭的步行街（气氛极好、但导览末班已发车）；' +
+          '没有比赛的日子，球场周边安静到可以随便走。</strong>' +
+          '<strong>Jersey Street 立面（法向约 248.5°）是秋季少见的正对落日的大立面，' +
+          '越接近十月底越准</strong>，' +
+          '<strong>而 Lansdowne Street 一侧朝北、整个秋季没有直射光，白天去只是一条空荡的夜店街，不值得绕。</strong>',
+        '<strong>Harborwalk 这一半是免费的、也是本条目更容易出成果的一半，路线固定：</strong>' +
+          '<strong>Blue Line「Aquarium」站出来 → Christopher Columbus Park（棚架与草坪，120 米）→ ' +
+          'Long Wharf 走到栈桥尽头（310 米，这是全城正东望 downtown 的位置）→ ' +
+          '沿 Harborwalk 南行到 Rowes Wharf（390 米，那座巨大的圆拱门是 Boston 滨水区最好的建筑框景）</strong>。' +
+          '<strong>全程 45–60 分钟，完全免费，不需预约。</strong>' +
+          '<strong>顺路可加的两件：①New England Aquarium 就在 Central Wharf（独立售票，票价与时段以 neaq.org 为准，本次未核实）；' +
+          '②从 Long Wharf 有渡轮与观光船码头，其中通往 Charlestown Navy Yard 的 MBTA 内港渡轮是看 downtown 天际线最便宜的方式</strong>。' +
+          '<strong>再往北 610 米就进 North End，可以直接接上 Freedom Trail 的 Paul Revere House 与 Old North Church</strong>——' +
+          '<strong>这是本条目最合理的衔接，不要把 Harborwalk 当成一个孤立的点。</strong>' +
+          '<strong>季节提示：Christopher Columbus Park 棚架的蓝色灯饰官方口径是 11 月底到次年 4 月中，' +
+          '紫藤花期在五月，秋天来的人两样都看不到。</strong>',
+        '<strong>包、卫生间与吃饭，这三件在两半各有不同的答案。</strong>' +
+          '<strong>Fenway 一侧的硬规定（球场与导览通用）：单格包不得超过 12×12×6 英寸，禁双肩包，' +
+          '禁三脚架、独脚架与长度超过 6 英寸的可换镜头</strong>——' +
+          '<strong>也就是说带摄影包的人进不去，不合规的包可寄存在 Gate E 对面 Lansdowne Garage 顶层的第三方寄存点</strong>。' +
+          '<strong>卫生间：Fenway 导览途中有；球场外最方便的是 Jersey Street 与 Boylston Street 口的连锁咖啡店。</strong>' +
+          '吃饭：<strong>Jersey Street 与 Lansdowne Street 一带是球场餐饮（Cask\'n Flagon、Tasty Burger 等），比赛日排队且加价</strong>；' +
+          '<strong>Harborwalk 一侧走 700 米到 Faneuil Hall 与 Quincy Market 就是全城密度最高的美食廊与卫生间</strong>，' +
+          '<strong>或者进 North End 吃意大利菜</strong>。' +
+          '<strong>Long Wharf 与 Columbus Park 一带只有少量季节性小摊，入秋后不要指望。</strong>'
       ],
       photo: '建筑与街景 <strong>4/5</strong>（Harborwalk 日出），城市天际线 <strong>4/5</strong>，' +
         '砖石质感 <strong>3.5/5</strong>（Fenway 立面），夜景 <strong>1.5/5</strong>。' +
@@ -2453,6 +2722,16 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>两半分别算，合起来 2.5–3.5 小时（不含 4.1 公里的换乘）。</strong>' +
+          '<strong>Fenway 一侧：球场导览 60 分钟（官方公布时长）＋提前 15 分钟集合，' +
+          '加 Jersey Street 与 Van Ness Street 外景 20–30 分钟，共 1.5–2 小时</strong>；' +
+          '<strong>只看外景 20 分钟</strong>（Jersey Street 立面与 Yawkey Way 铭牌，不进场）。' +
+          '<strong>Harborwalk 一侧：Christopher Columbus Park → Long Wharf → Rowes Wharf 一线 45–60 分钟</strong>；' +
+          '<strong>只看重点 30 分钟</strong>（Aquarium 站出来直奔 Long Wharf 尽头，再折回 Columbus Park）。' +
+          '<strong>加 New England Aquarium 另留 1.5–2 小时。</strong>' +
+          '<strong>两半之间 Green Line 转 Blue Line 约 25–30 分钟</strong>，' +
+          '<strong>所以「一个上午 Harborwalk、一个下午 Fenway」是唯一合理的排法，不要试图连着走。</strong>' +
+          '<strong>依据：导览时长为 mlb.com/redsox 官网原文，步行各段按实测距离推算。</strong>',
         book: '<strong>Harborwalk、Long Wharf、Christopher Columbus Park、Rowes Wharf、Jersey Street 与 Lansdowne Street ' +
           '全部是公共空间，不需预约、不需票。</strong>' +
           '<strong>Fenway Park 球场导览需在 mlb.com/redsox/ballpark/tours 提前购票，' +
@@ -2460,30 +2739,33 @@ module.exports = {
           '最多提前 180 天，10 月的票现在就能订，赛季中与周末常售罄，务必提前订。</strong>' +
           '<strong>主场比赛日的当天最后一班导览在开赛前三小时发车</strong>——' +
           '<strong>推论：9 月 25 日（19:10 开赛）最后一班约 16:00，9 月 27 日（15:05 开赛）最后一班约 12:00。</strong>',
-        ticket: '<strong>外景全部免费。</strong>' +
-          '<strong>Fenway Park 公众导览（Public Tour，约 60 分钟）：成人 $30、儿童 3–12 岁 $21、军人 $21。</strong>' +
-          '<strong>Pregame Tour $55（仅主场比赛日、开赛前三小时）。</strong>' +
-          '<strong>另有一项官方新增、对拍照的人最有价值的票种：8 AM Field Level Tour，' +
-          '成人与 3–12 岁同价 $75、约 75 分钟、走到内场警戒线（warning track）上</strong>——' +
-          '08:00 出发意味着低角度晨光正打进场地，而且人最少；' +
-          '但官方注明「限时供应、只能线上购买」，' +
-          '<strong>而且这一班完全禁止带任何包（原文「NO BAGS ARE PERMITTED on this tour」）。</strong>' +
-          '<strong>「Fenway in Fifteen」$20，但官方限定 5 月至 9 月的比赛日与周末 12:00–15:00——' +
-          '也就是说十月来的人拿不到这一项。</strong>' +
-          '<strong>Christopher Columbus Park、Long Wharf、Harborwalk 全程免费。</strong>',
-        hours: '<strong>Fenway Park 导览官方口径：「Available year-round. Public Tours depart at the top of each hour」，' +
+        ticket: '<strong>【2026-09-14 于 mlb.com/redsox/ballpark/tours 重新核实，以下为官网当日列出的全部票种】</strong>' +
+          '<strong>外景全部免费</strong>：Jersey Street、Lansdowne Street、Christopher Columbus Park、' +
+          'Long Wharf、Rowes Wharf 与整条 Harborwalk 都不收费。' +
+          '<strong>Fenway Park 公众导览（Public Tour，60 分钟）：成人 $30、3–12 岁 $21、军人 $21。</strong>' +
+          '<strong>「Fenway in Fifteen」（15 分钟，从 Gate B 每 15 分钟一班）：成人与儿童同价 $20</strong>，' +
+          '<strong>但官方限定「game days and weekends (May - September) from 12 p.m. - 3 p.m.」——十月及以后来的人拿不到这一项。</strong>' +
+          '<strong>Pregame Tour（仅主场比赛日、开赛前三小时）：$55，含警戒线、1934 年起的老座椅与 Green Monster 墙顶座位。</strong>' +
+          '<strong>Day Game Premium Tour（15:00 之前开赛的日场）：$55。</strong>' +
+          '<strong>官网另注明 Mastercard 是球队的首选支付方式。</strong>' +
+          '<strong>提醒一条口径变化：过去曾出现过一项 $75 的「8 AM Field Level Tour」，' +
+          '2026-09-14 当天官网的票种列表里已经没有这一项，' +
+          '想要类似的入场深度请改订非比赛日的 Public Tour 或比赛日的 Pregame Tour。</strong>' +
+          '<strong>第三方平台（GetYourGuide、Viator 等）转售的是同一场官方导览，价差两头都有，直接在官网买最稳。</strong>',
+        hours: '<strong>【2026-09-14 于 mlb.com/redsox/ballpark/tours 重新核实】</strong>' +
+          '<strong>Fenway Park 导览官方原文：「Available year-round. Public Tours depart at the top of each hour」，' +
           '「April 1 through October 31: 9 a.m. – 5 p.m.」，' +
           '「Last tour departs at 5 p.m. on non-game days」，' +
           '「On game days the last tour departs THREE hours before game time」。' +
           '11 月 1 日至 3 月 31 日改为 10:00–17:00。全年只在 Thanksgiving、Christmas、New Year\'s Day 闭馆。</strong>' +
-          '→ <strong>所以十月下旬导览照常运行，这一点是好消息。</strong>' +
-          '<strong>但 2026 季后赛（MLB 官方日程：Wild Card 9/29–10/1、Division Series 10/3–10、' +
-          'ALCS 10/12–20、World Series 10/23–31）若 Red Sox 打进主场轮次，' +
-          '当天最后一班导览会提前到开赛前三小时、球场周边封锁。</strong>' +
-          '<strong>已按 2026 年 9 月 5 日的战况算过一遍：Red Sox 是美联第 5 种子（第二张外卡），' +
-          'ALCS 里几乎一定是低种子，因此他们的主场是 G3／G4／G5 = 10/15、10/16、10/17。' +
-          '→ 10/13（周二）的 ALCS G2 在对手主场，Fenway 一带正常；10/15（周四）是唯一有风险的一天。</strong>' +
-          '<strong>Harborwalk、Long Wharf、Christopher Columbus Park 为公共通道与市属公园，实务上 24 小时开放。</strong>' +
+          '→ <strong>结论：导览全年每天都有，十月照常运行，淡季反而更容易订到非比赛日的完整路线。</strong>' +
+          '<strong>两个会压缩当天班次的情况，来之前必须查一次 mlb.com/redsox 的主场赛程：</strong>' +
+          '<strong>①常规赛主场日（三月底至九月底为主）末班提前到开赛前三小时，下午场等于把当天班次砍掉一半；' +
+          '②十月的季后赛主场日同理，且球场周边会封锁</strong>' +
+          '（MLB 的十月赛程逐年不同，' +
+          '<strong>2026 年的官方日程为 Wild Card 9/29–10/1、Division Series 10/3–10、ALCS 10/12–20、World Series 10/23–31</strong>，' +
+          '但具体哪几天在 Fenway 取决于战绩与种子顺位，<strong>只能临行前查赛程页定案</strong>）。' +
+          '<strong>Harborwalk、Long Wharf、Christopher Columbus Park 为公共通道与市属公园，实务上全天可通行。</strong>' +
           '<strong>Christopher Columbus Park 棚架蓝灯官方口径「from the end of November through the middle of April」，' +
           '点灯在感恩节前的周一（2026 年 11 月 23 日），行程窗口内不亮。</strong>' +
           '<strong>Citgo 招牌：官方项目页写明工程自 2026 年 5 月 27 日开工拆除重建，' +
@@ -2545,6 +2827,1210 @@ module.exports = {
           cap: '从 Long Wharf 尽头正面望 downtown 天际线 · Emmanuel Huybrechts / CC BY 2.0' },
         { url: 'img/long-wharf-central-wharf-and-new-england-aquarium-boston-p10-2a2f6de6.jpg',
           cap: 'Long Wharf 与 Harborwalk 的滨水步道段 · NewtonCourt / CC BY-SA 4.0' }
+      ]
+    },
+    {
+      id: 'freedom-trail',
+      n: 10,
+      name: '自由之路',
+      en: 'The Freedom Trail',
+      must: 5,
+      score: 3.5,
+      tldr: '地上一条 2.5 英里红线串起 16 处史迹，走路全程免费；核心段两小时，全程加室内要半天。这是 Boston 的头号必去项目。',
+      tags: [
+        { t: '走路免费', c: 'free' },
+        { t: '室内各自收费', c: 'paid' },
+        { t: '16 处官方史迹', c: 'free' },
+        { t: '北端周一周二闭馆', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>先说它到底是什么：不是一个景点，而是一条画在地上的线，而这条线是一位报纸专栏作家在 1951 年想出来的。</strong>' +
+          '<strong>Boston Herald Traveler 的记者 William Schofield 提议把市中心散落的史迹用一条步道串起来，' +
+          '市政府 1951 年采纳、1953 年在地面铺出连续标识</strong>，' +
+          '如今是<strong>全长约 2.5 英里（4 公里）、串起 16 处官方史迹的红砖／红漆线</strong>，' +
+          '<strong>从 Boston Common（1634 年，全美最老的公共公园）一路走到 Charlestown 的 Bunker Hill Monument</strong>。' +
+          '<strong>维护方是两家：非营利的 Freedom Trail Foundation（负责导览与推广）与 ' +
+          'National Park Service 的 Boston National Historical Park（43 英亩、多处史迹由园方运营，园区不收门票）。</strong>' +
+          '→ <strong>关键推论：走这条线本身永远免费，你花的每一分钱都是在买某一处室内的门票或某一场导览。</strong>',
+        '<strong>16 站里免费与收费的分界线，这是规划预算的唯一依据。</strong>' +
+          '<strong>完全免费的：Boston Common、Massachusetts State House（室内也免费，但只在工作日）、' +
+          'Park Street Church（室内季节性开放）、Granary Burying Ground、Boston Latin School 遗址与 Benjamin Franklin 像、' +
+          'Old Corner Bookstore（现为商铺，只看外墙）、Boston Massacre 遗址（Old State House 外的圆形铺石）、' +
+          'Faneuil Hall（NPS 游客中心与二楼 Great Hall 都免费）、Copp\'s Hill Burying Ground、' +
+          'USS Constitution（登舰免费，但要过安检与查证件）、Bunker Hill Monument 与 Bunker Hill Museum。</strong>' +
+          '<strong>要买票的只有四处：Old State House 与 Old South Meeting House（一张联票通用）、' +
+          'Paul Revere House、Old North Church、以及 King\'s Chapel 的室内参观。</strong>' +
+          '→ <strong>也就是说十二站免费、四站收费，一个人把四处全买下来大约 $40 上下。</strong>',
+        '<strong>Old State House 与 Boston Massacre 遗址是全线密度最高的一站，两件事都发生在这个街角。</strong>' +
+          '<strong>Old State House 建于 1713 年，是 Boston 现存最老的公共建筑</strong>，' +
+          '曾同时是殖民地议会、皇家总督府与商业中心；' +
+          '<strong>1776 年 7 月 18 日，《独立宣言》在它的东侧阳台上向 Boston 民众首次公开宣读，这个仪式至今每年 7 月 4 日重演</strong>。' +
+          '屋顶两端的<strong>狮子与独角兽是英王室徽章</strong>——' +
+          '<strong>1776 年独立后原件被取下烧毁，现在这一对是 20 世纪的复制品</strong>。' +
+          '楼外地面那圈铺石标记着<strong>1770 年 3 月 5 日的 Boston Massacre</strong>：' +
+          '英军向聚集的市民开枪，<strong>五名平民死亡（Crispus Attucks、Samuel Gray、James Caldwell、Samuel Maverick、Patrick Carr）</strong>，' +
+          '这件事成为独立运动最有力的宣传素材。' +
+          '<strong>实拍与现场注意：这个路口（State Street 与 Washington Street）是 downtown 的通勤动脉，工作日 08:00–09:30 与 17:00–18:00 人车极密。</strong>',
+        '<strong>North End 的两站是全线历史含量最高、也最容易被匆匆走过的：Paul Revere House 与 Old North Church。</strong>' +
+          '<strong>Paul Revere House（19 North Square）约 1680 年建成，是 downtown Boston 现存最老的建筑</strong>，' +
+          '<strong>也是全线 16 站里唯一一处「民宅」</strong>；' +
+          'Revere 在 <strong>1770–1800 年</strong>拥有它，' +
+          '<strong>他不只是那个半夜骑马的人，他是银匠、铜匠、牙医与实业家，一共有 16 个孩子。</strong>' +
+          '<strong>Old North Church（1723 年）是 Boston 现存最老的教堂建筑</strong>，' +
+          '<strong>1775 年 4 月 18 日夜里塔上挂出的两盏灯笼（「One if by land, two if by sea」）是美国独立战争的起始信号</strong>；' +
+          '<strong>教堂地窖里埋着约 1,100 人</strong>，' +
+          '<strong>钟楼的敲钟室是少年 Paul Revere 当敲钟人的地方，现在要另外买加价票才能上去。</strong>' +
+          '这两站相距只有约 400 米，中间就是 Hanover Street 的意大利餐馆带。',
+        '<strong>终点 Bunker Hill：一座 221 英尺的花岗岩方尖碑，294 级螺旋梯，同时只允许 25 人在里面。</strong>' +
+          '<strong>1775 年 6 月 17 日的 Bunker Hill 之战是独立战争第一场大规模战役</strong>——' +
+          '<strong>而它其实打在旁边的 Breed\'s Hill 上，名字从一开始就叫错了</strong>（地图有误加上地方政治）。' +
+          '<strong>1825 年战役五十周年时由 Marquis de Lafayette 亲手奠基，工程拖了十七年，1843 年落成</strong>，' +
+          '<strong>全部用采石花岗岩砌成，没有钢筋也没有电梯</strong>。' +
+          '<strong>登顶免费、不需预约，但只有一条狭窄的螺旋梯，最后一次登塔是闭馆前 30 分钟</strong>；' +
+          '<strong>爬不动的人可以在山脚 Bunker Hill Lodge 里的触摸屏看塔顶的实时画面</strong>（园方自己提供的替代方案）。'
+      ],
+      tour: [
+        '<strong>怎么走：跟着地上的红线，从 Boston Common 往北走，不要反着走。</strong>' +
+          '<strong>起点是 Boston Common Visitor Information Center（139 Tremont Street，Park Street 地铁站出来即到）</strong>，' +
+          '那里有免费地图与厕所。' +
+          '<strong>顺着红线的方向是「时间顺序」：殖民地政府 → 波士顿屠杀 → 茶党 → 午夜骑行 → Bunker Hill 战役</strong>，' +
+          '反着走会把故事讲乱。' +
+          '<strong>三个耗时口径，按自己的时间挑一个：</strong>' +
+          '<strong>①只走不进任何室内：90–120 分钟</strong>（2.5 英里平路，唯一的坡在 Copp\'s Hill 与 Bunker Hill）；' +
+          '<strong>②核心段 Boston Common → Faneuil Hall（约 1.6 公里、11 站）加两三处室内：2–2.5 小时</strong>，' +
+          '<strong>这是时间有限时唯一正确的选择</strong>；' +
+          '<strong>③全程加五处室内：4.5–6 小时，等于一整天。</strong>' +
+          '<strong>红线在几个路口会被施工或路面翻修打断</strong>，' +
+          '丢了线就往下一个史迹的方向走，' +
+          '<strong>官方 app 与纸地图都能补位。</strong>',
+        '<strong>必停的五站，以及每站要花多少钱多少时间：</strong>' +
+          '<strong>①Massachusetts State House（免费，只有工作日）</strong>——' +
+          'Charles Bulfinch 1798 年的作品，' +
+          '<strong>金顶是 Paul Revere 的铜作坊在 1802 年包的铜、后来才贴金</strong>；' +
+          '室内免费，<strong>志愿者导览 30–45 分钟、需打电话预约（617-727-3676），也可以拿自助材料自己走</strong>，' +
+          '看点是 House 与 Senate 议事厅与那条挂着的木雕鳕鱼「Sacred Cod」。' +
+          '<strong>②Old State House（联票，见 access）</strong>——' +
+          '室内 40–60 分钟，展览讲屠杀与独立宣言宣读；' +
+          '<strong>门外的圆形铺石就是 Boston Massacre 遗址，站三分钟就够。</strong>' +
+          '<strong>③Faneuil Hall（免费）</strong>——' +
+          '一楼是 NPS 游客中心（拿地图、问 ranger、看短片），' +
+          '<strong>二楼 Great Hall 是「自由的摇篮」，免费进，15–20 分钟</strong>。' +
+          '<strong>④Paul Revere House（$6）</strong>——' +
+          '30–45 分钟，<strong>全线唯一的民宅，17 世纪的低矮房梁与陡楼梯是别处看不到的实感</strong>。' +
+          '<strong>⑤Old North Church（$10 起）</strong>——' +
+          '30–45 分钟，<strong>只有这里能站在挂灯笼的那座塔下面</strong>。',
+        '<strong>可以跳过的六站，以及跳过它们能换来什么：</strong>' +
+          '<strong>Park Street Church（外观三十秒，217 英尺尖塔曾是进城最先看到的地标，室内开放时段不稳定）</strong>；' +
+          '<strong>Boston Latin School 遗址与 Benjamin Franklin 像（地上一块马赛克加一尊铜像，两分钟）</strong>；' +
+          '<strong>Old Corner Bookstore（1718 年、downtown 最老的商业建筑，但现在里面是店铺，只能看外墙）</strong>；' +
+          '<strong>King\'s Chapel 室内（要另外买票，而它的墓地与外观已经能说明问题）</strong>；' +
+          '<strong>Copp\'s Hill Burying Ground（与 Granary 重复，若已经进过 Granary 就不必再爬这个坡）</strong>；' +
+          '<strong>Old South Meeting House（茶党起点，但它与 Old State House 是同一张联票——时间紧就只进后者）</strong>。' +
+          '<strong>省下的 60–90 分钟建议全部给 North End 与 Charlestown</strong>：' +
+          '<strong>要么在 Hanover Street 吃一顿并进 Old North Church，要么坐渡轮过河去登 USS Constitution。</strong>' +
+          '<strong>唯一不该跳的免费站是 Granary Burying Ground</strong>——' +
+          '<strong>Samuel Adams、John Hancock、Paul Revere、屠杀的五名死者都葬在这里，2,300 多块墓碑，免费，十分钟。</strong>',
+        '<strong>要不要买官方导览：看你是「想听故事」还是「想省时间」，答案不一样。</strong>' +
+          '<strong>官方付费团 Walk Into History（Freedom Trail Foundation）：90 分钟、1 英里、只走 16 站里的 11 站，' +
+          '由 18 世纪装扮的导览员带队</strong>，' +
+          '<strong>成人 $17、老年与学生 $15、6–12 岁 $8、6 岁以下免费</strong>，' +
+          '<strong>从 Boston Common Visitor Information Center 出发，旺季每日 10:00 起整点发车</strong>；' +
+          '<strong>官方还提示「从 Faneuil Hall 的 ArtsBoston 售票亭出发的那几班团通常人更少」，这是很有用的一句</strong>。' +
+          '<strong>注意它不含任何室内门票</strong>，' +
+          '而另有一种 <strong>$30 的联票（导览 ＋ Old State House ＋ Old South Meeting House ＋ Old North Church）只在 Boston Common 游客中心现场卖</strong>，' +
+          '<strong>比分开买省约 $10。</strong>' +
+          '<strong>免费的替代：NPS ranger 的免费导览季节性运营（通常夏季，从 Faneuil Hall 游客中心地下室出发），' +
+          '以及官方免费手机 app 自助线路。</strong>' +
+          '<strong>结论：第一次来、又想听人讲，就买 $17 的官方团做前半段，后半段自己走完；' +
+          '不爱跟团的人完全不必买——红线本身就是最好的路标。</strong>' +
+          '<strong>街上拉客的「Freedom Trail 团」并非都是官方，Freedom Trail Foundation 的票在别家团上不通用（官方明文），认清再付钱。</strong>',
+        '<strong>终点怎么回市区：这是全线最被忽略、也最影响体验的一个决定。</strong>' +
+          '<strong>红线的北端在 Charlestown，与 downtown 之间隔着 Charles River 的河口</strong>，' +
+          '走回来要过 Charlestown Bridge（约 1.6 公里、20 分钟，桥上风大、景观一般）。' +
+          '<strong>最好的方案是坐船：MBTA Charlestown Ferry（F4 内港渡轮）从 Charlestown Navy Yard Pier 4 到 Long Wharf，' +
+          '航程 10 分钟、单程 $3.70（老年与优惠票 $1.85、11 岁以下随成人免费）</strong>，' +
+          '<strong>工作日约 06:30 到 20:00、班距 15–30 分钟</strong>，' +
+          '<strong>船票在 Long Wharf 与 Navy Yard 的售票亭、mTicket app 或现金上船买</strong>' +
+          '（<strong>元旦、感恩节、圣诞节停航</strong>）。' +
+          '<strong>这十分钟是本条目最划算的一笔钱：你会从水面上正面看到 downtown 天际线，而它是免费景观里最好的一个。</strong>' +
+          '<strong>备选：Orange Line「Community College」站（离 Bunker Hill 约 700 米）、MBTA 93 路公交到 Haymarket</strong>。' +
+          '<strong>注意渡轮末班之后只剩地铁与公交，冬季与傍晚请先确认末班时间。</strong>',
+        '<strong>卫生间与吃饭：全线只有四个可靠的落脚点，记住它们能救一整天。</strong>' +
+          '<strong>①Boston Common Visitor Information Center（139 Tremont Street，起点，有厕所与免费地图）</strong>；' +
+          '<strong>②Faneuil Hall 一楼的 NPS 游客中心（免费，中段唯一可靠的一处，旁边就是 Quincy Market 的美食廊与大量座位）</strong>；' +
+          '<strong>③Bunker Hill Museum（43 Monument Square，免费，园方明确写了「restrooms open to the public」）</strong>；' +
+          '<strong>④Charlestown Navy Yard 的 NPS 游客中心。</strong>' +
+          '吃饭：<strong>中段在 Quincy Market（快、贵、人多）</strong>，' +
+          '<strong>后段在 North End 的 Hanover Street（意大利餐馆与咖啡馆密集，是全线最好的一餐，' +
+          'Mike\'s Pastry 与 Modern Pastry 的 cannoli 排队但值得）</strong>。' +
+          '<strong>Charlestown 一侧餐饮很少，过河之前先吃。</strong>' +
+          '<strong>鞋子比什么都重要：2.5 英里里有很长一段是 18 世纪的砖路与鹅卵石，不要穿硬底鞋或高跟鞋。</strong>'
+      ],
+      photo: '街景与史迹 <strong>3.5/5</strong>，建筑 <strong>3.5/5</strong>，人文纪实 <strong>4/5</strong>。' +
+        '这是一条以「走」和「听」为主的线，画面上最好用的反而是地上那条红砖线本身与街头的导览员；' +
+        '扣分在大部分史迹被现代街景紧紧包围，很难拍到干净的立面。',
+      shots: [
+        {
+          name: 'Old State House 街角（红砖线、殖民地立面与玻璃幕墙同框）',
+          view: [42.35875, -71.05750],
+          desc: '<strong>坐标取自 Old State House 的公开条目坐标（State Street 与 Washington Street 路口）。</strong>' +
+            '<strong>这是全线最有代表性的一张：一栋 1713 年的红砖楼被三面 20 世纪的办公楼包围</strong>，' +
+            '<strong>35mm 从 State Street 东侧人行道朝西拍，让老楼居中、玻璃幕墙当背景</strong>，' +
+            '这个「三百年同框」的对比比单拍建筑有力得多。' +
+            '<strong>时段：上午 09:00–11:00 东立面（带阳台与狮子独角兽的那一面）受光</strong>；' +
+            '<strong>午后这一面转阴，改拍对面的屠杀遗址铺石与人流。</strong>' +
+            '<strong>85mm 单抽屋顶的狮子与独角兽</strong>（现存这对是复制品，原件 1776 年被烧）。' +
+            '<strong>现场提醒：这里是 downtown 通勤动脉，工作日 08:00–09:30 与 17:00–18:00 人车最密，' +
+            '想要干净画面就周日上午来。</strong>'
+        },
+        {
+          name: 'Bunker Hill Monument 塔顶（294 级之后的全城视野）',
+          view: [42.37639, -71.06083],
+          desc: '<strong>坐标取自 Bunker Hill Monument 的公开条目坐标（Monument Square, Charlestown）。</strong>' +
+            '<strong>登顶免费，但塔内同时只允许 25 人，最后一次登塔是闭馆前 30 分钟，且天气不好会停止开放。</strong>' +
+            '<strong>塔顶只有四个小窗口，玻璃厚、开口窄——只能用 24–35mm 贴着窗口拍，长焦伸不出去</strong>，' +
+            '<strong>所以请把它当成「看」而不是「拍」的项目</strong>。' +
+            '<strong>朝南能看到 downtown 天际线与 Charlestown Navy Yard 的桅杆，朝东是内港。</strong>' +
+            '<strong>更实用的一张其实在地面：从 Monument Square 的草坪西南角用 24mm 竖幅仰拍方尖碑，' +
+            '上午光线落在南立面，秋季 10 月下旬四周的树转色后前景最好。</strong>' +
+            '<strong>294 级是窄螺旋梯、单向通行、无电梯、塔内无空调，体力不足或有膝伤的人不要勉强。</strong>'
+        }
+      ],
+      access: {
+        visit: '<strong>三种玩法三个数字，先选一个再出门：</strong>' +
+          '<strong>①只走红线、不进任何室内：90–120 分钟</strong>（2.5 英里／4 公里）。' +
+          '<strong>②核心段 Boston Common → Faneuil Hall（约 1.6 公里、前 11 站）加两三处室内：2–2.5 小时</strong>——' +
+          '<strong>时间有限时的标准答案。</strong>' +
+          '<strong>③全程加五处室内（State House、Old State House、Faneuil Hall、Paul Revere House、Old North Church）：4.5–6 小时。</strong>' +
+          '各室内分配：<strong>State House 导览 30–45 分钟（官方公布时长）、Old State House 40–60 分钟、' +
+          'Faneuil Hall 15–20 分钟、Paul Revere House 30–45 分钟、Old North Church 30–45 分钟</strong>' +
+          '（加敲钟室导览再加 25 分钟，官方公布时长）。' +
+          '<strong>再加 Charlestown 的 USS Constitution 与 Bunker Hill 另留 2–3 小时</strong>，' +
+          '<strong>所以「一天走完全部」是可行但紧的，两个半天更舒服。</strong>' +
+          '<strong>依据：导览时长与各站官方建议为官网原文，步行时间按 4 公里长度与 4.5 公里/小时（含停留）推算。</strong>',
+        book: '<strong>走红线本身不需预约、不需票、不限时段。</strong>' +
+          '<strong>要预约的只有三件：</strong>' +
+          '<strong>①Massachusetts State House 的志愿者导览——官方只接受电话预约，617-727-3676，' +
+          '1–50 人皆可，10 人以上建议提前三周</strong>（不预约也能在 Doric Hall 的 Tours and Information 台拿自助材料自己走）。' +
+          '<strong>②Old North Church 的 Bell Chamber Tour 是定时票（官方公布班次为 10:30、11:00、12:00、14:00、15:00、16:00，每团 1–20 人），建议线上先订。</strong>' +
+          '<strong>③官方 Walk Into History 导览线上买票（thefreedomtrail.org），旺季与周末会满。</strong>' +
+          '<strong>Paul Revere House 的散客现场买票即可（10 人以上团体须提前预约）；' +
+          'Revolutionary Spaces 的联票现场或线上都行。</strong>' +
+          '<strong>USS Constitution 登舰不接受任何预约，只能现场排队（详见 Charlestown 那一条）。</strong>',
+        ticket: '<strong>【2026-09-14 于各官方站点核实】走路免费，以下是四处收费站的现价：</strong>' +
+          '<strong>①Old State House ＋ Old South Meeting House（一张联票，Revolutionary Spaces 运营）：' +
+          '官方票务页为成人（18–64）$18、65 岁以上 $16、6–17 岁 $10、5 岁以下免费</strong>；' +
+          '<strong>而 NPS 的 Boston National Historical Park 页面同日列的是成人 $15、62 岁以上与学生 $14、12 岁以下 $8。' +
+          '两个官方口径不一致（推测 NPS 页面未同步涨价），以现场与 revolutionaryspaces.org 为准，预算按 $18 留。</strong>' +
+          '另：<strong>持 EBT／WIC 卡最多六人免费，美国现役军人与 Massachusetts 教师免费。</strong>' +
+          '<strong>②Old North Church：Discovery Pass 成人 $10、6–12 岁 $5、5 岁以下免费（含中殿、展览、语音导览与地窖）；' +
+          'Discovery Pass ＋ Bell Chamber Tour 成人 $15、6–12 岁 $10（加 25 分钟敲钟室导览，要爬两段陡梯）。</strong>' +
+          '<strong>③Paul Revere House：成人 $6、老年与大学生 $5.50、5–17 岁 $1</strong>' +
+          '（<strong>官方注明刷卡有 $10 最低消费</strong>，' +
+          '所以两个人的门票建议带现金）。' +
+          '<strong>④King\'s Chapel 室内参观另行收费，具体金额本次未从官方渠道核实，以现场公告为准。</strong>' +
+          '<strong>官方导览 Walk Into History：成人 $17、老年与学生 $15、6–12 岁 $8、6 岁以下免费；' +
+          '「导览＋Old State House＋Old South＋Old North」联票 $30，只在 Boston Common 游客中心现场卖。</strong>' +
+          '<strong>免费的：Boston Common、State House 室内、Granary 与 Copp\'s Hill 两处墓地、Faneuil Hall 与 Great Hall、' +
+          'USS Constitution 登舰、Bunker Hill Monument 与 Museum。NPS 园区本身不收门票。</strong>',
+        hours: '<strong>【2026-09-14 于 nps.gov/bost 与各站官网核实】' +
+          '红线本身 24 小时可走，真正决定你几点出门的是各站的闭馆日——而它们互不相同。</strong>' +
+          '<strong>Faneuil Hall NPS 游客中心：官方原文「Sunday: 10:00 AM - 5:00 PM / Monday: Closed / ' +
+          'Tuesday - Saturday: 10:00 AM - 5:00 PM」；二楼 Great Hall 同为周一闭馆、每日 10:00–16:30。' +
+          '注意淡季口径（10 月 13 日至 Memorial Day）改为周一与周二双休、周三至周日开放</strong>，' +
+          '<strong>且 Great Hall「closed to public visitation when City-permitted events are scheduled」——市政活动会临时占用。</strong>' +
+          '<strong>Old State House 与 Old South Meeting House：每日 10:00–17:00（官方原文「open seven days per week from 10 AM to 5 PM」）。</strong>' +
+          '<strong>Paul Revere House：4 月 15 日–10 月 31 日每日 10:00–17:15；11 月 1 日–4 月 14 日 10:00–16:15，' +
+          '且 1、2、3 月周一闭馆；感恩节、平安夜、圣诞、元旦闭馆。</strong>' +
+          '<strong>Old North Church（秋季，官方口径 9 月 3 日–12 月 31 日）：周二至周六 10:00–17:00、周日 12:30–17:00、周一闭馆</strong>' +
+          '（<strong>1 月与 2 月整月关闭</strong>）。' +
+          '<strong>Massachusetts State House：建筑周一至周五 08:45–17:00（另一官方页写 09:00–17:00，两种口径并存），' +
+          '导览 10:00–15:30，周末与节假日全天关闭</strong>——' +
+          '<strong>这是全线最容易踩空的一站，周末来就只能看外面的金顶。</strong>' +
+          '<strong>Bunker Hill Monument 与 Museum：旺季周三至周日 10:00–17:00、周一与周二闭馆；' +
+          '淡季（10 月 13 日–5 月 28 日）缩短为 13:00–16:00，仍是周一周二闭馆；最后一次登塔为闭馆前 30 分钟。</strong>' +
+          '<strong>USS Constitution：周二至周日 10:00–18:00，周一不开。</strong>' +
+          '→ <strong>合起来的硬结论：周一走这条线，Faneuil Hall Great Hall、Old North Church、Bunker Hill、USS Constitution 全部关门；' +
+          '周末走，Massachusetts State House 室内进不去。' +
+          '想一次把室内全看到，只能选周三至周六，且 10 月中旬以后北端只有下午三小时。</strong>' +
+          '<strong>另：NPS 各站时段会因天气与人手临时调整，出行当天请刷 nps.gov/bost/planyourvisit/hours.htm，' +
+          '或打 Dial-A-Ranger 617-242-5601 / 617-429-6760（每日 10:00–17:00）。</strong>',
+        parking: '<strong>不要为这条线开车——它是一条单向步道，终点与起点隔着一条河。</strong>' +
+          '<strong>起点交通：Red Line 或 Green Line「Park Street」站，出站就是 Boston Common 游客中心；' +
+          'Green Line「Boylston」站也可以。</strong>' +
+          '<strong>中段：Orange Line／Blue Line「State」站（Old State House 门口）、Green Line／Orange Line「Haymarket」站（Faneuil Hall 一带）、' +
+          'Blue Line「Aquarium」站（渡轮码头 Long Wharf）。</strong>' +
+          '<strong>终点：Orange Line「Community College」站离 Bunker Hill 约 700 米；' +
+          '或搭内港渡轮回 Long Wharf（$3.70、10 分钟）。</strong>' +
+          '<strong>非要开车的话，Boston Common Garage（地下，入口在 Charles Street）是离起点最近的公共车库，' +
+          '费率未能从官方渠道确认（downtown 车库日上限普遍在 $35–50）。</strong>',
+        walk: '<strong>全线 2.5 英里／4 公里，分段距离如下（按红线实际走法）：</strong>' +
+          '<strong>Boston Common 游客中心 → Massachusetts State House 约 250 米 / 4 分钟（有上坡）</strong>；' +
+          '<strong>State House → Granary Burying Ground 约 300 米 / 4 分钟</strong>；' +
+          '<strong>Granary → Old State House 约 500 米 / 7 分钟</strong>；' +
+          '<strong>Old State House → Faneuil Hall 约 300 米 / 4 分钟</strong>；' +
+          '<strong>Faneuil Hall → Paul Revere House 约 600 米 / 9 分钟（穿过 North End）</strong>；' +
+          '<strong>Paul Revere House → Old North Church 约 400 米 / 6 分钟</strong>；' +
+          '<strong>Old North Church → Copp\'s Hill 约 250 米 / 4 分钟</strong>；' +
+          '<strong>Copp\'s Hill → Charlestown Navy Yard（过 Charlestown Bridge）约 1.3 公里 / 18 分钟</strong>；' +
+          '<strong>Navy Yard → Bunker Hill Monument 约 800 米 / 12 分钟（最后一段是上坡）</strong>。' +
+          '<strong>返程：Navy Yard Pier 4 渡轮到 Long Wharf 10 分钟；' +
+          'Bunker Hill 到 Orange Line「Community College」站约 700 米 / 10 分钟。</strong>'
+      },
+      notes: [
+        '<strong>最大的陷阱是「周一」：Faneuil Hall 的 Great Hall、Old North Church、Bunker Hill Monument 与 USS Constitution 周一全部关门</strong>' +
+          '（Bunker Hill 与 USS Constitution 周二也关／周二开的规则各不同，见 access）。' +
+          '<strong>第二个陷阱是周末：Massachusetts State House 只在工作日开，周末只能看外面的金顶</strong>',
+        '<strong>10 月中旬是北端时段的分界线</strong>：' +
+          '<strong>Bunker Hill Monument 与 Museum 从 10 月 13 日起改为 13:00–16:00（只有三小时）</strong>，' +
+          '<strong>Faneuil Hall 也在同一天转入淡季口径（周一周二双休）</strong>——' +
+          '秋末与冬季来的人必须把 Charlestown 放在下午，且当天先查官网',
+        '<strong>「免费」只对走路成立。</strong>' +
+          '四处收费站全买下来一个成人约 $40（联票 $18 ＋ Old North $10 ＋ Paul Revere $6 ＋ King\'s Chapel 若干），' +
+          '<strong>加官方导览 $17 就接近 $60</strong>；' +
+          '<strong>Boston Common 游客中心现场卖的 $30 联票（导览＋三处室内）是最省的组合</strong>',
+        '<strong>Old State House 的门票口径两个官方页面不一致</strong>：' +
+          '<strong>Revolutionary Spaces 官网写成人 $18，NPS 页面写 $15</strong>——' +
+          '<strong>预算按 $18 留，现场以馆方为准</strong>',
+        '<strong>Paul Revere House 刷卡有 $10 最低消费</strong>（官方明文），' +
+          '成人票只要 $6，<strong>一两个人进去请准备现金</strong>',
+        '<strong>Bunker Hill Monument 的 294 级是窄螺旋梯、单向、无电梯，塔内同时限 25 人</strong>，' +
+          '<strong>最后一次登塔在闭馆前 30 分钟，天气不好会临时停止登塔</strong>；' +
+          '<strong>爬不了的人可以在 Bunker Hill Lodge 的触摸屏看塔顶实时画面</strong>',
+        '<strong>红线会在施工路段中断，别慌</strong>——' +
+          '<strong>官方免费手机 app 与游客中心的纸地图都能补位</strong>；' +
+          '<strong>另外请穿软底鞋，全线有相当长的 18 世纪砖路与鹅卵石</strong>',
+        '<strong>街头拉客的「Freedom Trail 导览」不都是官方的</strong>：' +
+          'Freedom Trail Foundation 明文说明自家票<strong>在别家团上不通用</strong>，' +
+          '<strong>官方团的出发点只有 Boston Common 游客中心与 Faneuil Hall 的 ArtsBoston 售票亭两处</strong>',
+        '<strong>NPS 运营的站点（Faneuil Hall、Bunker Hill、Navy Yard）在联邦政府停摆期间可能关闭</strong>，' +
+          '<strong>这种情况没有提前通知</strong>，' +
+          '行程紧的人请把这几站安排在同一天以便一次调整'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Freedom_Trail_-_53257428834.jpg',
+          cap: '地面上的红砖线与史迹铜牌 · xiquinhosilva / CC BY 2.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c9/Old_State_House%2C_Boston_%28western_elevation_detail%2C_2026%29.jpg',
+          cap: 'Old State House 立面细节（2026 年） · Seasider53 / CC BY 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/93/Bunker_Hill_Monument%2C_Aug_2019.jpg',
+          cap: '红线终点的 Bunker Hill Monument · Mys 721tx / CC BY-SA 3.0' }
+      ]
+    },
+    {
+      id: 'museum-of-fine-arts-boston',
+      n: 11,
+      name: '波士顿美术馆',
+      en: 'Museum of Fine Arts, Boston (MFA)',
+      must: 4,
+      score: 2.5,
+      tldr: '全美前几大的美术馆，成人 $30、周二闭馆、周四周五开到 22:00；第一次来三小时够看四个重点展区。',
+      tags: [
+        { t: '成人 $30', c: 'paid' },
+        { t: '周二闭馆', c: 'risk' },
+        { t: '周四周五到 22:00', c: 'free' },
+        { t: '每月第三个周四自定金额', c: 'free' }
+      ],
+      highlights: [
+        '<strong>规模先摆出来：这是全美收藏规模前几名的综合性美术馆，约 50 万件藏品。</strong>' +
+          '1870 年创立、1876 年开馆（先在 Copley Square），' +
+          '<strong>1909 年迁到现址 465 Huntington Avenue 的 Guy Lowell 设计的 Beaux-Arts 大楼</strong>。' +
+          '之后几次大扩建里最重要的两次：' +
+          '<strong>1981 年 I. M. Pei（贝聿铭）的 West Wing，' +
+          '以及 2010 年 Foster + Partners 的 Art of the Americas Wing（四层、53 个新展厅）与玻璃顶的 Shapiro Family Courtyard</strong>。' +
+          '<strong>Huntington Avenue 正门内的圆厅（Rotunda）天顶与壁画是 John Singer Sargent 晚年的作品（1916–1925 年间完成），' +
+          '进门抬头就能看到，很多人径直走过去了。</strong>',
+        '<strong>这里最强的两块是美国艺术与印象派，而它们各有一件「别处看不到」的东西。</strong>' +
+          '<strong>美国馆的核心是 John Singer Sargent 的《The Daughters of Edward Darley Boit》（1882 年）</strong>——' +
+          '<strong>画里那两只巨大的日本瓷瓶就摆在画的两侧，是全馆最妙的一处布展</strong>；' +
+          '另有 <strong>John Singleton Copley 的 Paul Revere 肖像（1768 年，Revere 手里握着自己做的银茶壶）</strong>、' +
+          '<strong>Gilbert Stuart 未完成的 George Washington 肖像（「Athenaeum」版，就是美元一元纸币上那张脸的原型）</strong>、' +
+          '以及 <strong>Paul Revere 亲手打造的 Sons of Liberty Bowl（1768 年，美国最重要的银器之一）</strong>。' +
+          '<strong>印象派一侧的重点是 Paul Gauguin 的《Where Do We Come From? What Are We? Where Are We Going?》（1897–98 年，宽近 3.8 米）</strong>，' +
+          '外加<strong>法国以外最大的 Monet 收藏之一（含多幅《Rouen 大教堂》与干草堆）</strong>、' +
+          'Renoir 的《Dance at Bougival》、Degas、Van Gogh 的多幅肖像与风景。',
+        '<strong>被低估的是埃及馆与日本馆，两者都是靠一百年前的实地工作攒出来的，不是买来的。</strong>' +
+          '<strong>埃及收藏的主体来自 1905–1947 年 Harvard 与 MFA 联合的 Giza 考古队</strong>，' +
+          '<strong>所以这里的古王国（Old Kingdom）藏品在全球仅次于开罗</strong>——' +
+          '代表作是<strong>Prince Ankhhaf 的彩绘石灰岩胸像（约公元前 2520 年，胡夫金字塔总建筑师）</strong>，' +
+          '被认为是古埃及最写实的一尊人像。' +
+          '<strong>日本与东亚收藏则源自 Ernest Fenollosa、William Sturgis Bigelow 与 Edward Morse 在 19 世纪末从日本带回的整批器物</strong>，' +
+          '<strong>规模是日本本土之外最大的几批之一</strong>；' +
+          '<strong>Temple Room（佛像陈列室）是一间刻意做成幽暗的房间，进去两分钟眼睛才能适应，这也是设计的一部分。</strong>',
+        '<strong>建筑本身是两种时代逻辑的拼接，这一点直接影响你怎么走。</strong>' +
+          '<strong>老馆（1909 年）是轴线对称的 Beaux-Arts：长廊、对称楼梯、天光展厅</strong>；' +
+          '<strong>Art of the Americas Wing（2010 年）是玻璃与石材的现代盒子，四层由低到高按年代排列——' +
+          '一楼史前与殖民地、二楼 18–19 世纪、三楼 19 世纪末到 20 世纪初、四楼 20 世纪</strong>。' +
+          '→ <strong>推论：想按时间顺序看美国艺术，就从新馆一楼往上走；' +
+          '想看欧洲老大师与埃及，那都在老馆那一侧。两边在 Shapiro Family Courtyard 交汇，这个玻璃顶中庭是全馆的路口与休息点。</strong>',
+        '<strong>一个务实的提醒：这里大到不可能一次看完，而官方自己也这么说。</strong>' +
+          '官网首页就摆着一条<strong>「Only have an hour or not sure where to start?」的自助精选路线</strong>，' +
+          '并提供<strong>Bloomberg Connects 平台上的免费 MFA Mobile 语音导览</strong>。' +
+          '<strong>官方口径里另有一条容易误会的：门票「valid until the Museum closes」（当天有效到闭馆），' +
+          '「there is no re-entry to special exhibitions」（特展不可重复入场）。</strong>' +
+          '<strong>换句话说它不是一张能隔天再用的票</strong>——' +
+          '真的想反复来，官方的建议是把门票钱在 30 天内折抵成会员（官方原文允许 full-priced 门票在 30 天内 redeem toward membership）。'
+      ],
+      tour: [
+        '<strong>第一次来、只有三小时的话，按这个顺序走，四个展区一个不落。</strong>' +
+          '<strong>从 Huntington Avenue 正门进（Fenway 一侧的入口目前关闭，官方明文）</strong>，' +
+          '<strong>进门先抬头看 Sargent 的圆厅壁画（5 分钟）</strong>，' +
+          '然后：<strong>①Art of the Americas Wing 一路从一楼走到三楼（约 60 分钟）</strong>——' +
+          '重点是<strong>Copley 的 Paul Revere 肖像、Gilbert Stuart 的 Washington、Paul Revere 的 Sons of Liberty Bowl、' +
+          '以及三楼 Sargent 的《The Daughters of Edward Darley Boit》</strong>；' +
+          '<strong>②欧洲印象派与后印象派展厅（约 45 分钟）</strong>——' +
+          '<strong>Gauguin 的大画《Where Do We Come From?》是必看的一件，Monet 的系列作在同一区</strong>；' +
+          '<strong>③埃及与努比亚展厅（约 30 分钟）</strong>——' +
+          '<strong>直奔 Ankhhaf 胸像与 Giza 考古队的古王国石雕</strong>；' +
+          '<strong>④日本与东亚（约 30 分钟）</strong>——' +
+          '<strong>Temple Room 的佛像是这一段的核心</strong>。' +
+          '<strong>剩下的 10–20 分钟留给 Shapiro Family Courtyard 坐一坐。</strong>' +
+          '<strong>顺序上的一条硬建议：先去人最多的那个（通常是 Art of the Americas 与印象派），埃及与东亚全天都不挤。</strong>',
+        '<strong>可以放心跳过的，以及为什么。</strong>' +
+          '<strong>①正在收门票的特展</strong>——' +
+          '除非主题正好是你的兴趣，<strong>特展另需单独的定时票、且不可重复入场，一个特展会吃掉 45–60 分钟</strong>，' +
+          '第一次来把时间给常设馆更值。' +
+          '<strong>②乐器收藏与部分装饰艺术展厅</strong>：学术价值高，但对第一次来的人信息密度太低。' +
+          '<strong>③Linde Family Wing 的当代艺术</strong>：MFA 的当代不是它的强项，' +
+          '<strong>真想看当代应该去南波士顿海边的 ICA，而不是在这里耗一小时</strong>。' +
+          '<strong>④纪念品店</strong>（Huntington Avenue 入口的 Signature Shop <strong>不需要门票就能进</strong>，' +
+          '所以可以留到出馆后再逛，不占馆内时间）。' +
+          '<strong>省下来的时间最好加在印象派或美国馆三楼。</strong>',
+        '<strong>票、排队与寄存：这一段的坑全在细节里。</strong>' +
+          '<strong>官方建议提前在网上订票（原文「we recommend purchasing tickets in advance」），' +
+          '而且所有人都要有票，包括免票的 0–6 岁儿童</strong>。' +
+          '<strong>免费寄存在 Huntington Avenue 入口（complimentary coat check）</strong>；' +
+          '<strong>包的规定是小于 11×15 英寸可带入，双肩包必须手提或背在身前</strong>——' +
+          '<strong>带大包的人一定要预留寄存排队的时间，官方自己提醒过这点。</strong>' +
+          '<strong>人最少的时段：周四与周五 18:00 之后（这两天开到 22:00，是全馆最舒服的时间）</strong>，' +
+          '以及<strong>工作日开门后第一小时</strong>；' +
+          '<strong>最挤的是周末下午与所有免费日</strong>。' +
+          '<strong>省钱的三条官方途径：每月第三个周四 17:00 之后「$5 起、自定金额」（现场当天买，不接受预约）、' +
+          'Massachusetts 居民在指定的 Open House 日免费（凭本地邮编、现场先到先得）、' +
+          '以及 Bank of America 持卡人每月第一个完整周末免费一张。</strong>',
+        '<strong>餐饮与卫生间：这是一个可以待一整天的场馆，前提是你知道在哪吃饭。</strong>' +
+          '<strong>馆内有多处餐饮，从自助式到正餐都有，主要集中在 Shapiro Family Courtyard 一带与二楼</strong>' +
+          '（<strong>具体店名与营业时段每季调整，以 mfa.org 的 Dining 页为准，本次未逐条核实</strong>）。' +
+          '<strong>实务建议：中午 12:00–13:30 是馆内餐饮排队最长的时候，把午餐推到 13:30 之后，或者出门左转沿 Huntington Avenue 找便宜的选择。</strong>' +
+          '<strong>卫生间在两个入口大厅、Shapiro Courtyard 旁与各层楼梯附近都有，不缺。</strong>' +
+          '<strong>另一条实用的：门票当天有效到闭馆，中途出馆再进的规则请在入口问清（特展明确不可重复入场）。</strong>' +
+          '<strong>周边接驳：Green Line E 支线「Museum of Fine Arts」站就在门口，' +
+          'Orange Line「Ruggles」站步行约 10 分钟；' +
+          '隔一条街就是 Isabella Stewart Gardner Museum，两馆合在同一个半天是最自然的安排。</strong>'
+      ],
+      photo: '室内建筑 <strong>3/5</strong>，展品翻拍 <strong>2/5</strong>，外观 <strong>3/5</strong>。' +
+        '这是一个「必去但不为拍照去」的地方：多数展厅允许无闪光手持拍摄，' +
+        '<strong>但借展作品与特展常挂禁拍标示，三脚架与自拍杆按大馆通例不可用（现场标示为准）</strong>；' +
+        '真正好拍的是玻璃顶的 Shapiro Family Courtyard 与 Huntington Avenue 的柱廊立面。',
+      shots: [
+        {
+          name: 'Huntington Avenue 正立面与 Shapiro Family Courtyard',
+          view: [42.33944, -71.09389],
+          desc: '<strong>坐标取自 Museum of Fine Arts, Boston 的公开条目坐标（465 Huntington Avenue）。</strong>' +
+            '<strong>外景：正立面朝东南（面向 Huntington Avenue），因此上午到中午受光</strong>，' +
+            '<strong>24–35mm 从马路对面拍柱廊与骑马像（Cyrus Dallin 的 Appeal to the Great Spirit 就在正门前草坪）</strong>。' +
+            '<strong>室内最好的一张是 Shapiro Family Courtyard</strong>：' +
+            '<strong>玻璃屋顶是唯一光源，所以正午前后 11:00–14:00 光最均匀，阴天同样成立</strong>；' +
+            '<strong>24mm 从中庭一端贴地拍白色石材与玻璃桁架的透视</strong>，' +
+            '<strong>或 85mm 从上层挑廊俯拍中庭里的人</strong>。' +
+            '<strong>另一处是 Huntington Avenue 入口内的 Sargent 圆厅：抬头用 24mm 拍天顶壁画，光线全天一致。</strong>' +
+            '<strong>展厅内请以现场标示为准，不要用闪光灯；' +
+            '这是一个以看为主的场馆，把器材控制在一机一镜。</strong>'
+        }
+      ],
+      access: {
+        visit: '<strong>3–4 小时是第一次来的合理值；只看四个重点展区 2.5–3 小时；' +
+          '想把常设馆认真走一遍要 6 小时以上（官方自己承认一次看不完）。</strong>分配：' +
+          '<strong>Sargent 圆厅 5 分钟、Art of the Americas Wing 60 分钟、印象派与后印象派 45 分钟、' +
+          '埃及与努比亚 30 分钟、日本与东亚 30 分钟、中庭休息 15 分钟</strong>。' +
+          '<strong>只有一小时的人：走官网首页那条 highlights 自助路线（官方明确为「只有一小时」的人准备的），' +
+          '外加 Gauguin 大画与 Sargent 的 Boit 姐妹两件。</strong>' +
+          '<strong>加一个收费特展另留 45–60 分钟。</strong>' +
+          '<strong>依据：官方 highlights 路线与语音导览时长为官网口径，其余按 53 个新展厅＋老馆规模推算。</strong>',
+        book: '<strong>不强制预约，但官方明确建议提前网购</strong>' +
+          '（原文「we recommend purchasing tickets in advance to ensure availability and ease of entry」），' +
+          '<strong>且所有人都需要一张票，包括 0–6 岁免票儿童</strong>。' +
+          '<strong>特展需要单独的定时票，会员也不例外（官方原文：members cannot gain entry to special exhibitions with their membership card alone）。</strong>' +
+          '<strong>自定金额与免费日的票不接受预约，只能当天现场领</strong>：' +
+          '「$5 Third Thursdays」原文<strong>「General admission tickets are available in person day of, starting at 5 pm」</strong>，' +
+          'Open House 日原文<strong>「No advance tickets」</strong>。' +
+          '<strong>15 人以上的散客团可享每张减 $8 的 bulk 折扣（结账时自动计算，售出不退）；' +
+          '成人团体导览目前不提供（官方原文「Guided tours are not currently available for other adult groups」）。</strong>' +
+          '电话 1-800-440-6975（改票每张 $4 手续费）。',
+        ticket: '<strong>【2026-09-14 于 mfa.org/visit 与 mfa.org 的 Free and Discounted Admission 页核实】</strong>' +
+          '<strong>成人 $30、7–17 岁 $14、0–6 岁免费、会员免费。</strong>' +
+          '<strong>关于「一张票 10 天内可重复入场」这条流传很广的旧规则：' +
+          '2026-09-14 的官网上已经找不到任何 10 天多次入场的表述，' +
+          '现行官方口径是「Your ticket is valid until the Museum closes, but there is no re-entry to special exhibitions」——' +
+          '即当天有效、特展不可重复入场。请按「一天一票」预算，不要指望隔天再用。</strong>' +
+          '<strong>官方替代方案是把门票折抵会员：全价票可在参观后 30 天内申请抵扣一张会员卡的费用。</strong>' +
+          '<strong>免费与折扣仍然存在，而且不少（以下均为官网当日原文）：</strong>' +
+          '<strong>①「$5 Third Thursdays」——每月第三个周四 17:00 之后 $5 起、自己定价（pay-what-you-wish），现场当天买</strong>；' +
+          '<strong>②Open House 日对 Massachusetts 居民免费（凭本地邮编，先到先得，2026 年 10 月 12 日 Indigenous Peoples\' Day 是其中一天）</strong>；' +
+          '<strong>③Bank of America 持卡人每月第一个完整周末（周六与周日）免费一张（Museums on Us）</strong>；' +
+          '<strong>④美国现役军人与退伍军人凭证件本人加最多 5 位同行者免费</strong>；' +
+          '<strong>⑤参与院校的学生与教职工凭证件免费（含特展）</strong>；' +
+          '<strong>⑥持 EBT／ConnectorCare 的 Massachusetts 居民最多四张 $3 成人票加四张免费青少年票</strong>；' +
+          '<strong>⑦图书馆 Institutional Pass：成人 $15、7–17 岁 $10</strong>；' +
+          '<strong>⑧新英格兰六州的 K–12 教师凭证件 $15。</strong>' +
+          '<strong>结论：外地成人游客的现实价格就是 $30，除非你能对上第三个周四那一晚。</strong>',
+        hours: '<strong>【2026-09-14 于 mfa.org/visit 核实，官方表格原文】' +
+          '周日 10:00–17:00、周一 10:00–17:00、<strong>周二闭馆</strong>、周三 10:00–17:00、' +
+          '周四 10:00–22:00、周五 10:00–22:00、周六 10:00–17:00。</strong>' +
+          '<strong>「Last entry 30 minutes before closing」（闭馆前 30 分钟停止入场）。</strong>' +
+          '<strong>全年闭馆日：New Year\'s Day、Patriots\' Day（Massachusetts 特有的四月节日）、Fourth of July、' +
+          'Thanksgiving 与 Christmas。</strong>' +
+          '→ <strong>两条最有用的推论：' +
+          '①周二不要把这里排进行程，这是 Boston 大馆里唯一固定周二闭馆的一家；' +
+          '②周四与周五开到 22:00，而 Boston 秋冬天黑极早（十月下旬日落约 17:50）——' +
+          '<strong>把这两晚的 18:00–22:00 留给 MFA 是整个行程最划算的时间安排，室外那时候已经没光可用了。</strong></strong>' +
+          '<strong>另：Fenway 一侧的入口目前关闭（官方原文「the Fenway Entrance is currently closed」），' +
+          '所有人从 Huntington Avenue 正门进；' +
+          '官方另注明个别展厅可能在无预告的情况下临时关闭（「galleries may be closed temporarily without notice」），' +
+          '出行前可查官网的 Gallery Updates 页。</strong>',
+        parking: '<strong>不建议自驾。</strong>' +
+          '<strong>Green Line E 支线「Museum of Fine Arts」站就在 Huntington Avenue 门口（下车即到）；' +
+          'Orange Line「Ruggles」站步行约 10 分钟；' +
+          'MBTA 39 路公交沿 Huntington Avenue 直达。</strong>' +
+          '<strong>馆方有自己的停车场与周边车库，费率未能从官方渠道确认</strong>' +
+          '（Fenway／Longwood 一带医院区车库日间普遍在 $20–40，且与 Red Sox 赛事日冲突时价格更高）。',
+        walk: '<strong>Green Line「Museum of Fine Arts」站到 Huntington Avenue 正门约 50 米 / 1 分钟</strong>；' +
+          '<strong>Orange Line「Ruggles」站约 700 米 / 10 分钟</strong>。' +
+          '<strong>正门到 Isabella Stewart Gardner Museum 约 400 米 / 5 分钟</strong>（同一街区，两馆必须连着做）；' +
+          '<strong>到 Fenway Park 约 1.6 公里 / 20 分钟</strong>；' +
+          '<strong>到 Back Bay 的 Copley Square 约 1.9 公里 / 25 分钟，或 Green Line 三站。</strong>' +
+          '<strong>馆内动线：Huntington Avenue 入口 → Sargent 圆厅 → 右侧是 Art of the Americas Wing、' +
+          '左侧与深处是欧洲与埃及展厅，两侧在 Shapiro Family Courtyard 汇合</strong>，' +
+          '<strong>一层走完全程约 400 米，四层加起来实际步行会超过 2 公里——这是「博物馆疲劳」的真实来源。</strong>'
+      },
+      notes: [
+        '<strong>周二闭馆是本条目最硬的一条</strong>。' +
+          '<strong>Boston 的几家大馆闭馆日不一样（MFA 周二、Gardner 周二、Harvard Art Museums 周一），' +
+          '排行程时把它们分开</strong>',
+        '<strong>周四与周五开到 22:00，这是全城最好的「天黑之后还能干什么」的答案</strong>——' +
+          '秋冬 Boston 日落在 17:00–18:30 之间，室外目标那时候已经作废，' +
+          '<strong>把 MFA 放进这两个晚上等于多出四小时白天</strong>',
+        '<strong>「门票 10 天内可重复入场」的旧说法已经不成立</strong>：' +
+          '<strong>现行官方口径是当天有效、特展不可重复入场</strong>。' +
+          '想多次来请走「30 天内把门票折抵会员」这条官方途径',
+        '<strong>每月第三个周四 17:00 后是 $5 起自定金额</strong>，' +
+          '<strong>但只能当天现场买、不能网上预约</strong>；' +
+          'Open House 免费日只对 Massachusetts 居民（要报本地邮编），外地游客用不上',
+        '<strong>特展要另买定时票、且不可重复入场</strong>，' +
+          '<strong>会员也必须另外取票</strong>。' +
+          '第一次来的人建议把预算与时间都留给常设馆',
+        '<strong>包不能超过 11×15 英寸，双肩包必须手提或背在身前</strong>；' +
+          '<strong>Huntington Avenue 入口有免费寄存，但午前与周末会排队</strong>',
+        '<strong>Fenway 一侧入口目前关闭，只能走 Huntington Avenue 正门</strong>；' +
+          '<strong>官方另声明展厅可能临时关闭且不预告</strong>，' +
+          '有非看不可的作品请提前查官网 Gallery Updates 页或打 617-267-9300 确认',
+        '<strong>和 Isabella Stewart Gardner Museum 只隔 400 米</strong>，' +
+          '<strong>但两家都周二闭馆</strong>——' +
+          '这两馆要么同一天做（各留 2–3 小时，一天略满），要么分两个半天，' +
+          '<strong>千万不要都排在周二</strong>'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/86/Boston_Museum_of_Fine_Arts_20170315.jpg',
+          cap: 'Huntington Avenue 一侧的 Beaux-Arts 正立面 · Suicasmo / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/76/Museum-of-Fine-Arts-Boston-07.jpg',
+          cap: '馆内展厅与天光 · Sintakso / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Museum_of_Fine_Arts_Boston%2C_Huntington_Ave_entrance_at_night.jpg',
+          cap: '入夜后的 Huntington Avenue 入口（周四周五开到 22:00） · Kenneth C. Zirkel / CC BY-SA 4.0' }
+      ]
+    },
+    {
+      id: 'faneuil-hall-quincy-market',
+      n: 12,
+      name: '法尼尔厅与昆西市场',
+      en: 'Faneuil Hall & Quincy Market',
+      must: 4,
+      score: 3,
+      tldr: '两栋常被当成一个地方的建筑：Faneuil Hall 是免费的史迹（周一闭馆），Quincy Market 是美食廊（每日开到 21:00）。',
+      tags: [
+        { t: 'Faneuil Hall 免费', c: 'free' },
+        { t: '美食廊每日开放', c: 'free' },
+        { t: 'NPS 展厅周一闭馆', c: 'risk' },
+        { t: '市政活动会占用 Great Hall', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>第一件要分清的事：Faneuil Hall 与 Quincy Market 是两栋不同的建筑，很多人把它们当成一个地方，然后错过了真正的史迹。</strong>' +
+          '<strong>Faneuil Hall（1 Faneuil Hall Square）是那栋带铜制蚱蜢风向标的砖楼，二楼是 Great Hall，免费，但有闭馆日</strong>；' +
+          '<strong>Quincy Market 是它东侧那栋 535 英尺长、中央有圆顶的花岗岩长楼，里面是美食廊，几乎天天开到很晚</strong>。' +
+          '<strong>两者加上 North Market 与 South Market 三条长楼合称 Faneuil Hall Marketplace</strong>，' +
+          '<strong>整片区域有 80 多家商户、25 家以上餐饮摊位与 40 多个手推车摊位</strong>' +
+          '（<strong>手推车摊位制度 1976 年始于此，是全美第一个</strong>）。' +
+          '→ <strong>实际推论：奔着历史来的人往砖楼里走、上二楼；奔着吃来的人往长楼里走。两件事十分钟内都能做完。</strong>',
+        '<strong>Faneuil Hall 被称为「自由的摇篮」（Cradle of Liberty），而它原本只是一个商人捐的菜市场。</strong>' +
+          '<strong>1740–1742 年由 Boston 富商 Peter Faneuil 出资建造捐给市镇，一楼做市场、二楼做集会厅</strong>；' +
+          '<strong>美国第一次市镇大会（Town Meeting）在这里举行</strong>，' +
+          '此后 Samuel Adams 与 James Otis 等人在这间厅里组织反抗印花税与茶税的集会，' +
+          '<strong>「no taxation without representation」的主张就是在这里被反复喊出来的</strong>。' +
+          '<strong>1806 年 Charles Bulfinch 主持改建，把建筑宽度加倍、加了第三层，今天看到的基本是 Bulfinch 的版本。</strong>' +
+          '<strong>屋顶那只铜蚱蜢风向标是 Shem Drowne 1742 年做的原件</strong>，' +
+          '<strong>历史上它被当作辨认「本地人」的暗号——曾有人用「Faneuil Hall 顶上是什么动物」来盘查间谍。</strong>' +
+          '厅内正面挂着 George Peter Alexander Healy 的巨幅油画《Webster Replying to Senator Hayne》，' +
+          '四周是 John Adams、Lucy Stone 等人的胸像。' +
+          '<strong>Great Hall 至今仍在用于市政集会、辩论与入籍宣誓仪式——这也是它会临时关闭的原因。</strong>',
+        '<strong>Quincy Market 是一栋 1826 年的希腊复兴式市场建筑，2026 年正好两百岁。</strong>' +
+          '<strong>由 Alexander Parris 设计、以当时市长 Josiah Quincy 命名</strong>，' +
+          '<strong>长 535 英尺、全部花岗岩砌成、中央是铜皮圆顶</strong>，' +
+          '当年是为了缓解 Faneuil Hall 一楼市场拥挤而填海造地建起来的。' +
+          '<strong>1970 年代它一度濒临拆除，1976 年由建筑师 Benjamin Thompson 与 Rouse Company 改造重开，' +
+          '成为全美第一个「festival marketplace」（节庆市场）</strong>——' +
+          '<strong>这个模式后来被 Baltimore、New York South Street Seaport 等城市照搬，' +
+          '也就是说你在别的城市见过的那类「老建筑改成美食廊」的做法，原型在这里。</strong>' +
+          '<strong>2026 年是它开业 200 周年，部分商户挂出「$18.26」的纪念价套餐（官方称 The 1826 Special）</strong>，' +
+          '<strong>这是限时活动，往后来的读者不必期待。</strong>',
+        '<strong>一个诚实的评价：这里是「必去」但不是「必吃」。</strong>' +
+          '<strong>Quincy Market 的美食廊胜在密度与选择（海鲜、龙虾卷、蛤蜊浓汤、甜点一次解决）与「有地方坐」</strong>，' +
+          '<strong>但价格明显高于同水准的街边店，出品也以稳定为主、不以惊喜见长</strong>。' +
+          '<strong>真正值得排队的是街头表演</strong>——' +
+          '<strong>官方口径是世界级与本地表演者每天 11:00–21:00 在广场轮番上演</strong>，' +
+          '杂技、音乐与喜剧都有，<strong>完全免费（看完给小费是惯例）</strong>，' +
+          '而且<strong>这是全 Boston 最好的市井人文现场</strong>。' +
+          '<strong>建议的用法：把这里当成 Freedom Trail 中段的补给站与休息点（免费卫生间、大量座位、NPS 游客中心都在这儿），' +
+          '吃饭则留给 600 米外的 North End。</strong>'
+      ],
+      tour: [
+        '<strong>怎么逛：先砖楼后长楼，20 分钟能把历史部分做完。</strong>' +
+          '<strong>①先进 Faneuil Hall 砖楼的一楼——那里是 National Park Service 的 downtown 游客中心</strong>' +
+          '（<strong>免费，有 ranger、地图、短片与展板，是整条 Freedom Trail 上最有用的一站</strong>）。' +
+          '<strong>②再上二楼 Great Hall（免费）</strong>：' +
+          '<strong>从正对 Quincy Market 的中央大门进，或者坐一楼的电梯上去</strong>（官方指引）。' +
+          '厅里看三样：<strong>正面 Healy 的巨幅油画《Webster Replying to Senator Hayne》、四周的胸像、' +
+          '以及那间空荡荡但还在用的集会厅本身</strong>，15–20 分钟。' +
+          '<strong>③四楼是 Ancient and Honorable Artillery Company 的自营博物馆</strong>' +
+          '（<strong>1638 年成立，西半球最老的军事组织</strong>；' +
+          '<strong>官方口径是一般工作日 09:00–15:00 开放，独立运营</strong>），' +
+          '<strong>对军事史有兴趣再上去，10 分钟。</strong>' +
+          '<strong>④最后穿过广场进 Quincy Market 长楼。</strong>',
+        '<strong>Quincy Market 里怎么吃不吃亏：</strong>' +
+          '<strong>结构很简单——中央走廊两侧是餐饮摊位，中段圆顶下面是一圈站着吃的高台，两端与二楼夹层有座位区。</strong>' +
+          '<strong>做法：先走完整条走廊看一圈再决定，不要在门口第一家就排队</strong>（门口那几家永远最挤）。' +
+          '<strong>本地标配是蛤蜊浓汤（clam chowder）与龙虾卷（lobster roll），甜点是 Boston cream pie 与 cannoli</strong>；' +
+          '<strong>人均 $20–35 是现实价位，龙虾卷单价常在 $30 以上。</strong>' +
+          '<strong>座位是这里真正的稀缺品</strong>：' +
+          '<strong>12:00–14:00 与 18:00–20:00 几乎找不到位子，' +
+          '圆顶下的高台流动最快，North Market 与 South Market 两侧的餐厅则需要正式入座点单。</strong>' +
+          '<strong>广场上的长椅与台阶在天气好的时候是比室内更舒服的选择。</strong>' +
+          '<strong>务实提醒：这一带的商户以观光客为主要客群，' +
+          '想吃得更好且便宜，走 600 米到 North End 的 Hanover Street。</strong>',
+        '<strong>可以跳过的，以及不要被绕进去的：</strong>' +
+          '<strong>①三条长楼里的连锁零售与纪念品店</strong>——' +
+          '除了买冰箱贴，没有任何理由花时间。' +
+          '<strong>②挂着电视剧名号的那家酒吧（Quincy Market 分店）</strong>：' +
+          '<strong>它是仿照剧中布景做的分店，不是剧里那间地下室原址</strong>' +
+          '（真正的那栋在 Beacon Hill 的 84 Beacon Street），' +
+          '<strong>两处都只有招牌可看，进去吃饭不值。</strong>' +
+          '<strong>③围在广场上推销「观光通票」与各种巴士团的摊位</strong>：' +
+          '先想清楚自己会不会真去那么多收费馆再买。' +
+          '<strong>值得多留十分钟的反而是免费的街头表演</strong>（每天 11:00–21:00），' +
+          '以及<strong>广场上 Samuel Adams 的铜像（Anne Whitney 1880 年作，正对砖楼正门）</strong>。',
+        '<strong>卫生间、寄存与接驳：这是把这里当「中转站」用的关键。</strong>' +
+          '<strong>卫生间：Faneuil Hall 一楼 NPS 游客中心与 Quincy Market 长楼内都有免费公共卫生间，' +
+          '这是 Freedom Trail 中段最可靠的一处。</strong>' +
+          '<strong>没有行李寄存服务，大件行李不要带进 Great Hall。</strong>' +
+          '<strong>交通：Green Line 与 Orange Line「Haymarket」站步行约 400 米；' +
+          'Blue Line 与 Orange Line「State」站约 300 米；' +
+          'Blue Line「Aquarium」站约 500 米</strong>。' +
+          '<strong>接驳建议：往北 600 米进 North End（Paul Revere House 与 Old North Church），' +
+          '往东 500 米到 Long Wharf 坐内港渡轮，' +
+          '往西 300 米是 Old State House——这三个方向都在十分钟步行圈内，' +
+          '所以这里是 downtown 最合理的中场休息点。</strong>'
+      ],
+      photo: '街景与人文 <strong>3.5/5</strong>，建筑 <strong>3/5</strong>，室内 <strong>2.5/5</strong>。' +
+        '广场上的街头表演与人群是这里最好的题材，建筑本身被三面长楼围住、很难拍到完整立面；' +
+        'Great Hall 室内光线偏暗且为集会空间，手持拍摄即可。',
+      shots: [
+        {
+          name: '广场上的砖楼正立面与街头表演',
+          view: [42.36000, -71.05556],
+          desc: '<strong>坐标取自 Faneuil Hall 的公开条目坐标（1 Faneuil Hall Square）。</strong>' +
+            '<strong>砖楼的正门朝东、面向 Quincy Market 与广场</strong>，' +
+            '所以<strong>上午到中午正立面受光，午后转阴</strong>。' +
+            '<strong>24–35mm 从 Quincy Market 西端台阶上拍砖楼全景加广场人群</strong>（唯一能退到足够远的位置），' +
+            '<strong>135–200mm 单抽屋顶那只 1742 年的铜蚱蜢风向标</strong>。' +
+            '<strong>人文题材的时段很明确：街头表演每天 11:00–21:00</strong>，' +
+            '<strong>35mm 站在观众圈外缘拍表演者与围观者的关系是这里最好的一张</strong>；' +
+            '<strong>傍晚长楼与砖楼的暖色照明亮起后（秋季约 17:30 之后）广场变成夜景题材。</strong>' +
+            '<strong>Great Hall 室内为集会空间、光线偏暗，手持、关闪光、不要在有活动时进去拍。</strong>'
+        }
+      ],
+      access: {
+        visit: '<strong>1–2 小时（不含正式吃饭）。</strong>分配：' +
+          '<strong>NPS 游客中心 10–15 分钟、Great Hall 15–20 分钟、' +
+          '四楼 Artillery Company 博物馆 10 分钟（选看）、' +
+          'Quincy Market 美食廊走一圈加吃点东西 30–45 分钟、广场上看街头表演 15–20 分钟</strong>。' +
+          '<strong>只看重点 30 分钟</strong>：一楼游客中心拿地图 → 二楼 Great Hall → 穿过广场看一眼 Quincy Market 圆顶。' +
+          '<strong>要在这里正式吃一顿（入座餐厅）另留 60–90 分钟。</strong>' +
+          '<strong>依据：NPS 与市场官方页面的开放信息＋建筑规模推算；这是一处「顺路花时间」的地点，不需要单独安排半天。</strong>',
+        book: '<strong>Faneuil Hall（含 NPS 游客中心与二楼 Great Hall）免费、不需票、不需预约。</strong>' +
+          '<strong>Quincy Market 的美食摊位现场点单，两侧 North Market 与 South Market 的正式餐厅建议提前订位（旺季与周末）。</strong>' +
+          '<strong>NPS 的 ranger 导览季节性运营（夏季从游客中心地下室的 Find Your Park 空间出发），' +
+          '当日场次以现场公告为准。</strong>' +
+          '<strong>四楼 Ancient and Honorable Artillery Company 博物馆由该组织独立运营，' +
+          '开放时段以现场为准（官方口径为一般工作日 09:00–15:00）。</strong>',
+        ticket: '<strong>【2026-09-14 于 nps.gov/bost 与 faneuilhallmarketplace.com 核实】</strong>' +
+          '<strong>Faneuil Hall 一楼 NPS 游客中心与二楼 Great Hall 全部免费入场（官方原文「Free admission.」），' +
+          '不需门票也不需预约。</strong>' +
+          '<strong>Quincy Market 与整个 Faneuil Hall Marketplace 进入免费</strong>，' +
+          '只在买东西时花钱：<strong>美食摊位人均 $20–35 是现实价位，龙虾卷常在 $30 以上。</strong>' +
+          '<strong>街头表演免费（给小费自愿）。</strong>' +
+          '<strong>四楼的 Ancient and Honorable Artillery Company 博物馆也不收门票（接受捐赠）。</strong>' +
+          '<strong>2026 年因 Quincy Market 建成 200 周年，部分商户提供「$18.26」纪念套餐（官方称 The 1826 Special）——' +
+          '这是限时活动，之后来的读者请勿指望。</strong>',
+        hours: '<strong>【2026-09-14 于 nps.gov/bost/planyourvisit/hours.htm 与 faneuilhallmarketplace.com 核实。' +
+          '这两栋楼的时段完全不同，这是本条目最实际的一条。】</strong>' +
+          '<strong>Faneuil Hall NPS 游客中心（一楼）官方原文：' +
+          '「Sunday: Open 10:00 AM - 5:00 PM / Monday: Closed / Tuesday - Saturday: Open 10:00 AM - 5:00 PM」。</strong>' +
+          '<strong>二楼 Great Hall：「Sunday: 10:00 AM - 4:30 PM / Monday: Closed / Tuesday - Saturday: 10:00 AM - 4:30 PM」</strong>' +
+          '（<strong>比一楼早半小时关</strong>）。' +
+          '<strong>淡季口径（官方写作 October 13 - Memorial Day）：两处都改为周一与周二双休、周三至周日开放，时段不变。</strong>' +
+          '→ <strong>也就是说十月中旬之后来的人，周一周二这栋砖楼一概进不去。</strong>' +
+          '<strong>另有一条不定期的风险，官方写得很明确：' +
+          '「The Great Hall is closed to public visitation when City-permitted events are scheduled」</strong>——' +
+          '<strong>Great Hall 是 Boston 市政府所有、至今仍用于集会与入籍仪式，遇到活动就不开放，' +
+          'NPS 在 2026 年 9 月就挂出过 Great Hall 临时关闭的公告。' +
+          '想进 Great Hall 的人出行当天请查 nps.gov/bost 的 Alerts 页，或打游客中心 617-429-6760。</strong>' +
+          '<strong>节假日：元旦、感恩节、圣诞闭馆；Presidents\' Day 与 Memorial Day 正常开放（官方列表）。</strong>' +
+          '<strong>Quincy Market 与 Faneuil Hall Marketplace（商户）官方口径：' +
+          '「Mon - Sat: 10am - 9pm / Sun: 11am - 7pm」，并注明「Holiday, restaurant, and retail hours may vary」</strong>——' +
+          '<strong>餐厅与酒吧常晚于这个时间，个别摊位早关。</strong>' +
+          '<strong>街头表演官方口径为每天 11:00–21:00。</strong>' +
+          '→ <strong>结论：想同时做到「进 Great Hall」与「吃 Quincy Market」，' +
+          '请选周三至周六的 10:00–16:30 之间到；只想吃与看表演的话每天都行。</strong>',
+        parking: '<strong>不要在这一带自驾。</strong>' +
+          '<strong>MBTA：Green Line／Orange Line「Haymarket」站步行约 400 米；' +
+          'Blue Line／Orange Line「State」站约 300 米；Blue Line「Aquarium」站约 500 米；' +
+          'Green Line／Red Line「Government Center」站约 250 米（最近）。</strong>' +
+          '<strong>周边车库（Government Center Garage 一带）费率未能从官方渠道确认</strong>，' +
+          'downtown 商业车库日上限普遍在 $35–50。',
+        walk: '<strong>Government Center 站到砖楼正门约 250 米 / 4 分钟</strong>；' +
+          '<strong>砖楼到 Quincy Market 西端约 50 米 / 1 分钟（隔一个广场）</strong>；' +
+          '<strong>Quincy Market 全长 535 英尺（约 163 米），走完一条走廊约 3 分钟</strong>。' +
+          '<strong>砖楼到 Old State House 约 300 米 / 4 分钟</strong>；' +
+          '<strong>到 Paul Revere House 约 600 米 / 9 分钟</strong>；' +
+          '<strong>到 Long Wharf 的渡轮码头约 500 米 / 7 分钟</strong>；' +
+          '<strong>到 Christopher Columbus Park 约 450 米 / 6 分钟。</strong>' +
+          '<strong>整片 Marketplace 东西向总长约 300 米，全程平地、无台阶（砖楼二楼有电梯）。</strong>'
+      },
+      notes: [
+        '<strong>最容易踩空的一条：Faneuil Hall 砖楼周一闭馆，10 月 13 日起的淡季口径是周一与周二双休</strong>，' +
+          '<strong>而 Quincy Market 的商户每天都开</strong>——' +
+          '很多人周一来，以为「Faneuil Hall 就是那个美食广场」，历史部分整个错过',
+        '<strong>Great Hall 会因 Boston 市政活动临时关闭，官方明文，而且没有固定规律</strong>。' +
+          '<strong>非要进去的人请当天先查 nps.gov/bost 的 Alerts 页或打 617-429-6760</strong>',
+        '<strong>Great Hall 比一楼游客中心早半小时关门（16:30 对 17:00）</strong>，' +
+          '傍晚赶来的人常常只来得及进一楼',
+        '<strong>这里是 Freedom Trail 中段最好的补给站</strong>：' +
+          '<strong>免费卫生间、大量座位、NPS ranger 都在这一处</strong>，' +
+          '走完 Old State House 之后在这里歇二十分钟再进 North End 是最顺的节奏',
+        '<strong>吃饭的性价比不高，价格是观光区水平</strong>' +
+          '（人均 $20–35、龙虾卷 $30 以上）。' +
+          '<strong>想吃好一点就走 600 米到 North End 的 Hanover Street</strong>；' +
+          '<strong>这里的优势只有「一次解决、有地方坐」</strong>',
+        '<strong>Quincy Market 里那家电视剧同名酒吧是仿布景的分店，不是剧中原址</strong>' +
+          '（原址在 Beacon Hill 的 84 Beacon Street），' +
+          '<strong>两处都只有招牌可看</strong>',
+        '<strong>座位在 12:00–14:00 与 18:00–20:00 基本抢不到</strong>，' +
+          '<strong>圆顶下的站台流动最快</strong>；天气好时广场长椅比室内舒服',
+        '<strong>NPS 运营的部分（游客中心与 Great Hall）在联邦政府停摆期间可能关闭</strong>，' +
+          '而市场商户不受影响——这两件事要分开看'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Faneuil_Hall_Mar_2025_21.jpg',
+          cap: 'Faneuil Hall 砖楼与广场 · Epicgenius / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/Faneuil_Hall_Great_Hall_%2836175%29.jpg',
+          cap: '二楼 Great Hall 与 Healy 的巨幅油画 · Rhododendrites / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Quincy_Market_interior.jpg',
+          cap: 'Quincy Market 中央走廊的美食摊位 · Sharon Mollerus / CC BY 2.0' }
+      ]
+    },
+    {
+      id: 'isabella-stewart-gardner-museum',
+      n: 13,
+      name: '伊莎贝拉·嘉德纳博物馆',
+      en: 'Isabella Stewart Gardner Museum',
+      must: 4,
+      score: 3.5,
+      tldr: '一座威尼斯式宅邸博物馆，四层围着一个玻璃顶花园庭院；1990 年失窃的 13 件作品的空画框至今挂在原处。成人 $25，周二闭馆，周四 17:00–21:00 免费。',
+      tags: [
+        { t: '周二闭馆', c: 'risk' },
+        { t: '周四晚免费', c: 'free' },
+        { t: '名叫 Isabella 免费', c: 'free' },
+        { t: '建议提前买票', c: 'risk' },
+        { t: '与 MFA 步行 7 分钟', c: 'info' }
+      ],
+      highlights: [
+        '<strong>这不是一座普通的博物馆，而是一位收藏家按自己的意志布置好、并用遗嘱冻结了一百多年的私人宅邸。</strong>' +
+          '<strong>Isabella Stewart Gardner（1840–1924）在 1899–1903 年间亲自监造这栋楼</strong>' +
+          '（<strong>官方资料里写她会亲自爬上梯子指挥工人怎么做</strong>），' +
+          '<strong>建筑刻意模仿威尼斯的宫殿：四层楼围着一个中央庭院，外墙朴素、内部全是从欧洲拆运来的真古董构件——柱子、地砖、门框、阳台都是原物。</strong>' +
+          '<strong>她的遗嘱规定馆内陈设不得做永久性改动，包括不得加说明牌</strong>，' +
+          '所以<strong>你在这里看不到任何一块常规的作品标签</strong>。' +
+          '→ <strong>实际推论：进门先在「Ask Me」台拿房间指南（Room Guide）或用手机开官方语音导览，' +
+          '否则会出现「满墙名作但一件都叫不出名字」的状况。官方语音导览含中文版。</strong>',
+        '<strong>中央庭院（Courtyard）是这栋楼的全部理由，也是一年四季都成立的看点。</strong>' +
+          '<strong>四层回廊围合、顶上是玻璃天棚，中间是一座真正在生长的花园</strong>，' +
+          '<strong>官方口径是每周轮换植物陈列以保持庭院常年开花</strong>——' +
+          '<strong>也就是说这里是 Boston 在一二月份唯一能看到成片鲜花的室内空间</strong>，' +
+          '<strong>冬天来的价值反而比夏天更高</strong>。' +
+          '<strong>庭院本身不允许进入（只能从四周回廊往里看），但一楼有座位。</strong>' +
+          '<strong>每年若干个时段会有大规模的应季花艺陈列（如秋季的菊花瀑布与春季的悬垂旱金莲），' +
+          '这类展期每年略有浮动，出行前查官网 gardnermuseum.org 的当期信息。</strong>',
+        '<strong>1990 年 3 月 18 日的失窃案：全美史上最大的财产犯罪，至今未破，而空画框还挂在原来的位置上。</strong>' +
+          '<strong>官方与 FBI 的一致口径：两名男子假冒警察在深夜按门铃声称处理骚乱，' +
+          '进门后把两名保安铐在地下室，随后用 81 分钟取走 13 件作品，当时估值超过 5 亿美元。</strong>' +
+          '<strong>其中二楼 Dutch Room 损失最重</strong>：' +
+          '<strong>Rembrandt 的《Christ in the Storm on the Sea of Galilee》（他唯一的海景画）与' +
+          '《A Lady and Gentleman in Black》被从画框里割下来</strong>，' +
+          '<strong>Vermeer 的《The Concert》（存世 Vermeer 仅三十余件之一）与 Flinck 的' +
+          '《Landscape with an Obelisk》被整幅取走</strong>，' +
+          '另有一件中国青铜觚、一枚 Rembrandt 自画像蚀刻版画；' +
+          '<strong>二楼 Short Gallery 被取走 5 件 Degas 作品与一枚拿破仑时期的铜鹰旗顶饰</strong>，' +
+          '<strong>一楼 Blue Room 被取走 Manet 的《Chez Tortoni》</strong>。' +
+          '<strong>馆方从 1994 年起决定把空画框原位挂回去</strong>，' +
+          '<strong>官方说法是「作为缺失作品的占位符，也作为等待它们归来的希望的象征」</strong>。' +
+          '<strong>悬赏至今有效：作品安全归还的赏金为 1,000 万美元，铜鹰旗顶饰另设 10 万美元</strong>' +
+          '（<strong>2026-09-14 于 gardnermuseum.org 核实</strong>）。' +
+          '→ <strong>看点提示：Dutch Room 里那两个大尺寸的空金框就是 Rembrandt 海景画与那幅双人像的原位，' +
+          '这是全馆最该站住看一会儿的地方；馆方另有一项针对 Dutch Room 的多年期修复计划，' +
+          '该展厅可能局部围挡，出行前查官网。</strong>',
+        '<strong>除了空画框，馆里真正的重量级藏品有这几件，位置写清楚以免走冤枉路。</strong>' +
+          '<strong>一楼 Spanish Cloister 尽端是 John Singer Sargent 的《El Jaleo》（1882，西班牙舞者）</strong>——' +
+          '<strong>整面墙的摩尔式瓷砖专为这幅画而砌，是全馆最强的一处空间与画的配合</strong>。' +
+          '<strong>三楼 Titian Room 是 Titian 的《The Rape of Europa》（1560–62）</strong>，' +
+          '<strong>公认是全美最重要的一批文艺复兴绘画之一，馆方称其为镇馆之宝</strong>。' +
+          '<strong>二楼 Raphael Room 有 Raphael 与 Botticelli，Short Gallery 有 Sargent 为 Isabella 本人画的肖像与一批小幅素描</strong>；' +
+          '<strong>三楼 Gothic Room 是 Sargent 1888 年那幅 Isabella 全身像（她生前规定此画在她死后才可公开展出）</strong>。' +
+          '<strong>Long Gallery 与 Chapel（三楼）有中世纪手稿与彩窗。</strong>',
+        '<strong>建筑上还有一件容易忽略的事：博物馆有两栋楼，2012 年新翼由 Renzo Piano 设计。</strong>' +
+          '<strong>Renzo Piano 的 New Wing 是玻璃与铜绿色金属的现代体量，容纳售票、特展厅、音乐厅（Calderwood Hall）、' +
+          '咖啡馆（Café G）与商店</strong>，' +
+          '<strong>通过一条玻璃连廊接到老宅（The Palace）</strong>。' +
+          '<strong>所有入场流程、寄存、卫生间与吃东西都在新翼完成，老宅里不允许带食物饮水（连空水瓶都不行）。</strong>' +
+          '<strong>连廊是单向可通的，官方地图上明确标注了某些位置「Can\'t get to the Palace from here」</strong>——' +
+          '<strong>老宅内部走廊狭窄、藏品贴身，官方专门提示注意胳膊、背包与后背离展品的距离。</strong>'
+      ],
+      tour: [
+        '<strong>路线：先庭院，再按「一楼→二楼→三楼」逐层走，90 分钟是舒服的节奏。</strong>' +
+          '<strong>①进新翼售票／取票后穿玻璃连廊进老宅，第一站直接到一楼庭院回廊</strong>' +
+          '（<strong>官方地图把庭院称作「the heart of this place」，语音导览第 100 号就是庭院</strong>），' +
+          '<strong>在这里坐 10 分钟再开始看画</strong>。' +
+          '<strong>②一楼：Spanish Cloister 看 Sargent 的《El Jaleo》、Blue Room（Manet 空框所在）、' +
+          'Yellow Room、Macknight Room、Chinese Loggia</strong>，25 分钟。' +
+          '<strong>③二楼：Dutch Room（空画框，全馆重点）、Early Italian Room、Raphael Room、' +
+          'Short Gallery（Degas 空框与 Sargent 肖像）、Tapestry Room、Little Salon</strong>，30 分钟。' +
+          '<strong>④三楼：Titian Room（《The Rape of Europa》）、Gothic Room（Sargent 画的 Isabella 全身像）、' +
+          'Long Gallery、Veronese Room、Chapel</strong>，25 分钟。' +
+          '<strong>⑤从三楼下来时在不同楼层各看一次庭院——四层俯视的角度完全不同，这是本馆的设计意图。</strong>',
+        '<strong>没有说明牌，所以进门先解决「怎么看懂」这件事，否则全程都是「好看但不知道是什么」。</strong>' +
+          '<strong>三个官方免费工具，任选其一：</strong>' +
+          '<strong>①每个展厅门口取纸质 Room Guide（标出该室主要作品位置与两三件重点解说）</strong>；' +
+          '<strong>②手机连馆内免费 Wi-Fi，扫每个展厅里的 QR 码查作品信息</strong>；' +
+          '<strong>③官方语音导览（由策展人与艺术家录制，含中文等十种语言的文字稿）</strong>——' +
+          '<strong>官方明确建议自带耳机，馆内不出借设备。</strong>' +
+          '<strong>顺带一句：不加标签是 Isabella 遗嘱的规定，不是馆方偷懒</strong>，' +
+          '<strong>官方给出的建议是「找一件你喜欢的、一件你不喜欢的、一件让你笑出来的」</strong>，' +
+          '这也确实是逛这栋楼最合适的心态。',
+        '<strong>票怎么买最划算，以及三个特殊规则（都在 2026-09-14 于官网核实）。</strong>' +
+          '<strong>①成人 $25、65 岁以上 $22、持在读证件的学生 $15、17 岁及以下免费。' +
+          '门票含当期所有特展。</strong>' +
+          '<strong>②每周四 17:00–21:00 全馆免费</strong>——' +
+          '<strong>但需要预约分时段票，官方规定提前两天（周二 10:00）开放登记，当日票不保证有</strong>。' +
+          '<strong>③「名叫 Isabella 的人终身免费」这条真的还在</strong>：' +
+          '<strong>官网原文「Isabellas receive free lifetime admission!」，' +
+          '需至少提前 24 小时致电票务 617-278-5156 预约，入场时出示证件。</strong>' +
+          '<strong>④另有三个免费日：Martin Luther King Jr. Day（1 月）、Juneteenth（6 月）、' +
+          'Indigenous Peoples\' Day（10 月），提前两周开放预约。' +
+          '美国现役与退役军人及最多 4 名家属免费（需证件）。</strong>' +
+          '<strong>⑤重要更正：流传很广的「穿红袜队队服打折」这一条，' +
+          '在 2026-09-14 的官方票务页面上已经找不到</strong>' +
+          '（<strong>该页列出的折扣只有图书馆 Museum Pass $5、麻州教师协会半价、' +
+          'EBT／WIC／ConnectorCare 每人减 $2 三项</strong>）。' +
+          '<strong>指望这条折扣的人请先打 617-278-5156 确认，不要穿着队服去了才发现没有。</strong>',
+        '<strong>包、水、拍照与吃饭的规矩，这家比一般博物馆严，值得提前知道。</strong>' +
+          '<strong>①包：只允许带 12×12×3 英寸以内的包进展厅，其余一切背包必须寄存</strong>' +
+          '（<strong>有免费寄存与自助储物柜；官方声明不对寄存物品负责，' +
+          '不愿寄存证件与旅行文件的人可以借用馆内的手提袋随身带</strong>）。' +
+          '<strong>②水与食物一律不得进展厅，连空瓶子也不行</strong>（仅婴儿奶瓶例外）。' +
+          '<strong>③拍照：允许非闪光的个人拍照与录像，禁止三脚架与自拍杆，禁止摆拍式的人像／婚纱／毕业照。</strong>' +
+          '<strong>④速写只能用铅笔、笔记本不超过 11×14 英寸，彩铅与墨水笔不许带进展厅</strong>' +
+          '（<strong>铅笔与纸在庭院旁的「Ask Me」台可取</strong>）。' +
+          '<strong>⑤吃饭在新翼的 Café G，老宅内没有任何餐饮。' +
+          '卫生间在新翼与老宅一楼都有，老宅有电梯。</strong>',
+        '<strong>和 MFA 的关系：两馆步行 7 分钟，但不要在同一天硬塞。</strong>' +
+          '<strong>Gardner 在 25 Evans Way、MFA 在 465 Huntington Avenue，直线步行约 550 米</strong>，' +
+          '<strong>都在 Green Line E 支线的「Museum of Fine Arts」站（Gardner 更近的是下一站「Longwood Medical Area」）附近</strong>。' +
+          '<strong>两馆闭馆日正好不同——MFA 周二闭馆，Gardner 也是周二闭馆</strong>，' +
+          '<strong>所以周二这一带两座馆都进不去，这是本区最需要避开的一天。</strong>' +
+          '<strong>如果一天要连看两馆：上午 MFA 三小时、午饭、下午 Gardner 一个半小时是可行的上限，' +
+          '再加就会变成走马观花。更好的安排是把 Gardner 单独放在周四傍晚（免费时段），' +
+          '白天留给 MFA 或 Fenway。</strong>'
+      ],
+      photo: '庭院与室内 <strong>4/5</strong>，外观 <strong>2/5</strong>。' +
+        '中央庭院是全馆唯一的强题材，四层回廊各有一个俯视角度；' +
+        '展厅光线普遍很暗（为保护藏品），禁止闪光、三脚架与自拍杆，只能高感光手持。',
+      shots: [
+        {
+          name: '庭院：从一楼回廊与二三楼俯视',
+          view: [42.33817, -71.09892],
+          desc: '<strong>坐标为博物馆公开条目坐标（25 Evans Way）。</strong>' +
+            '<strong>庭院有玻璃天棚，所以是全天可拍的室内散射光</strong>，' +
+            '<strong>晴天的正午前后顶光最足、拱廊阴影与庭院花草的反差最大，阴天反而更均匀好拍</strong>。' +
+            '<strong>三个角度：一楼回廊用 24mm 以内贴着柱子拍拱券的框景；' +
+            '二楼回廊的转角是拍「庭院＋对面三层回廊」的经典机位；' +
+            '三楼俯视能把整个花园的图案收进画面</strong>。' +
+            '<strong>竖幅比横幅合适（这栋楼是垂直的）。</strong>' +
+            '<strong>展厅内部普遍在 EV 3–5 的水平，建议把上限开到 ISO 6400、光圈全开、快门别低于 1/60；' +
+            '禁止闪光与三脚架是明文规定，别试。</strong>' +
+            '<strong>Dutch Room 的空画框是本馆最有意义的一张，但那间屋子光线最暗、玻璃反光多，' +
+            '侧 30 度拍可以避掉反光。</strong>'
+        }
+      ],
+      access: {
+        visit: '<strong>1.5–2.5 小时。</strong>分配：' +
+          '<strong>庭院 15 分钟（到与离开时各看一次）、一楼展厅 25 分钟、二楼含 Dutch Room 30 分钟、' +
+          '三楼含 Titian Room 25 分钟、新翼特展与 Café G 20–30 分钟</strong>。' +
+          '<strong>只看重点 60 分钟</strong>：庭院 → 一楼《El Jaleo》 → 二楼 Dutch Room 空画框 → ' +
+          '三楼 Titian Room《The Rape of Europa》 → 下楼再看一眼庭院。' +
+          '<strong>周四免费时段（17:00–21:00）来的话四个小时绰绰有余，而且傍晚人比白天少。</strong>' +
+          '<strong>和 MFA 连看的一天总量：MFA 3 小时＋Gardner 1.5 小时＋两馆间步行与午饭，约 6 小时。</strong>' +
+          '<strong>依据：官方地图标示的展厅数量（一至三楼共 16 间展厅）与实际动线长度推算；' +
+          '这栋楼不大，超过 3 小时会开始重复。</strong>',
+        book: '<strong>强烈建议提前在 gardnermuseum.org 买分时段票。' +
+          '官方原文：「Tickets can sell out fast and may not be available at the door.」</strong>' +
+          '<strong>周四免费时段必须预约，登记提前两天（周二 10:00）开放；当日票不保证。</strong>' +
+          '<strong>「名叫 Isabella」的免费票与会员单次赠票不能在线兑换，须致电票务 617-278-5156</strong>' +
+          '（<strong>Isabella 本人的预约需至少提前 24 小时</strong>）。' +
+          '<strong>音乐厅（Calderwood Hall）的音乐会另行售票，与门票不通用。</strong>' +
+          '<strong>无障碍相关问题打 617-278-5156。</strong>',
+        ticket: '<strong>【2026-09-14 于 gardnermuseum.org/visit 与 /visit/admissions 核实】</strong>' +
+          '<strong>成人 $25、65 岁以上 $22、持在读证件学生 $15、17 岁及以下免费、会员免费。' +
+          '门票含当期所有特展（个别活动另行售票）。</strong>' +
+          '<strong>免费时段：每周四 17:00–21:00 全馆免费（需提前两天预约分时段票）。</strong>' +
+          '<strong>免费日：Martin Luther King Jr. Day（1 月）、Juneteenth（6 月）、' +
+          'Indigenous Peoples\' Day（10 月），提前两周开放预约。</strong>' +
+          '<strong>「名叫 Isabella 的人终身免费」——官网原文仍在，需提前 24 小时电话预约并出示证件。</strong>' +
+          '<strong>美国现役／退役军人本人及最多 4 名家属免费（需证件）。' +
+          'Boston Family Days：每月头两个周日，Boston 学龄儿童及最多两名同行者凭 Program Pass 免费。' +
+          'WonderFund Access Card 持卡人每卡每次可 2 名成人＋最多 6 名儿童免费。' +
+          'Go City（Smart Destinations）通票包含本馆。</strong>' +
+          '<strong>折扣：图书馆 Museum Pass 计划每张 $5（最多 4 名成人）、' +
+          '麻州教师协会（MTA）会员卡最多 2 张成人票半价、' +
+          'EBT／WIC／ConnectorCare 持卡人每人减 $2（每卡最多 4 名成人）。</strong>' +
+          '<strong>需要更正一条流传很广的说法：「穿红袜队队服打折」在 2026-09-14 的官方票务页上已无记载</strong>' +
+          '（官方折扣列表只有上述三项）。' +
+          '<strong>该规则历史上确实存在（源于 Isabella 本人是红袜球迷），但当前是否仍执行需打 617-278-5156 确认，不要当成既定优惠。</strong>',
+        hours: '<strong>【2026-09-14 于 gardnermuseum.org/visit/hours 核实，以下为官方表格原文】</strong>' +
+          '<strong>周一 11:00–17:00；周二闭馆；周三 11:00–17:00；周四 11:00–21:00；' +
+          '周五 11:00–17:00；周六 10:00–17:00；周日 10:00–17:00。</strong>' +
+          '<strong>官方注明「Ticket sales end 30 minutes prior to closing」——售票在闭馆前 30 分钟停止。</strong>' +
+          '<strong>周四是唯一开到 21:00 的日子，其中 17:00–21:00 免费。</strong>' +
+          '<strong>闭馆节假日（官方列表）：元旦 1/1、Patriots\' Day 4/20、独立日 7/4、' +
+          'Veterans Day 11/11、感恩节 11/26、平安夜 12/24 下午 3 点起、圣诞 12/25。</strong>' +
+          '<strong>注意 Patriots\' Day（麻州法定假日，4 月第三个周一，也是 Boston 马拉松当天）这里闭馆，' +
+          '这一条在别的馆不一定成立。</strong>' +
+          '<strong>周二闭馆与 MFA 的周二闭馆重合——Fenway 这一带周二两座大馆都关门。</strong>' +
+          '<strong>Dutch Room 正在进行多年期修复，该展厅可能局部围挡或临时关闭，' +
+          '出行前查官网当期公告或打 617-566-1401。</strong>',
+        parking: '<strong>【2026-09-14 于 gardnermuseum.org/visit/directions-and-parking 核实】建议公共交通。</strong>' +
+          '<strong>MBTA：Green Line E 支线到「Longwood Medical Area」站（官方口径步行 4 分钟），' +
+          '或 Orange Line 到「Ruggles」站（官方口径步行 12 分钟）；' +
+          '公交 8、19、39、47、85、CT3 路都经过这一带。</strong>' +
+          '<strong>自驾要点：官方明确声明「the Gardner does not have its own on-site visitor parking lot」——' +
+          '博物馆没有自己的游客停车场</strong>。' +
+          '<strong>官方给出的两个方案：①Simmons School of Management Garage（86 Avenue Louis Pasteur）的 P1–P3 层有折扣停车，' +
+          '但必须把停车票拿到馆内验证才能拿到折扣价；②走到 MFA 的三个停车场（Huntington Lot、Fenway Lot、' +
+          'Museum Road Garage，入口都在 Museum Road）。</strong>' +
+          '<strong>这两处的具体费率未能从官方渠道确认（官网只写「discounted」而未列金额），' +
+          '需要时打 617-566-1401 问。</strong>' +
+          '<strong>馆门口 Evans Way 与后侧 Palace Road 都有自行车架，' +
+          'Bluebikes 站点在 Huntington Avenue、Fenway at Museum Road 与 Longwood Avenue 一带。</strong>' +
+          '<strong>Fenway／Longwood 一带的街边车位极少且限时。</strong>',
+        walk: '<strong>Longwood Medical Area 站到新翼入口约 450 米 / 4 分钟（官方口径）</strong>；' +
+          '<strong>Ruggles 站约 900 米 / 12 分钟（官方口径）；Museum of Fine Arts 站约 600 米 / 8 分钟</strong>。' +
+          '<strong>Gardner 到 MFA 约 550 米 / 7 分钟（沿 Museum Road 与 Evans Way，全程平地）</strong>；' +
+          '<strong>到 Fenway Park 约 1.6 公里 / 20 分钟</strong>；' +
+          '<strong>到 Back Bay Fens（Emerald Necklace 的一段）约 200 米 / 3 分钟</strong>。' +
+          '<strong>馆内动线：新翼售票到老宅一楼庭院约 100 米（过玻璃连廊），' +
+          '老宅三层有电梯，但各展厅内部通道狭窄、部分门槛不平。</strong>'
+      },
+      notes: [
+        '<strong>周二闭馆，而且 MFA 也是周二闭馆</strong>——' +
+          'Fenway 这一带周二安排这两座馆会整天落空',
+        '<strong>Patriots\' Day（4 月第三个周一，Boston 马拉松当天）本馆闭馆</strong>，' +
+          '这条在 Boston 其它馆不一定成立，四月中旬来的人要单独注意',
+        '<strong>「穿红袜队队服打折」在 2026-09-14 的官方页面上已查不到</strong>' +
+          '（「名叫 Isabella 终身免费」仍然明文有效）。' +
+          '<strong>靠这条省钱的人先打 617-278-5156 问清楚</strong>',
+        '<strong>周四 17:00–21:00 免费，但要提前两天（周二 10:00 开放）在官网抢分时段票</strong>，' +
+          '官方明说当日票不保证——这不是「走进去就免费」',
+        '<strong>馆内没有任何说明牌，这是遗嘱规定</strong>。' +
+          '<strong>进门先拿 Room Guide 或开语音导览（有中文文字稿）并自带耳机</strong>，' +
+          '否则很容易看完一圈什么都没记住',
+        '<strong>包超过 12×12×3 英寸必须寄存，水和食物一律不能进展厅（连空瓶都不行）</strong>；' +
+          '不想寄存证件的人可以借馆内手提袋',
+        '<strong>Dutch Room 在做多年期修复，可能围挡</strong>——' +
+          '那正是空画框最集中的一间，专程为它而来的人出行前查官网公告',
+        '<strong>展厅光线很暗且禁止闪光、三脚架与自拍杆</strong>，' +
+          '手持高感是唯一选择；庭院有玻璃天棚，是全馆唯一光线充足的地方',
+        '<strong>票常在热门时段售完，官方明说门口可能买不到</strong>，' +
+          '提前在官网订分时段票',
+        '<strong>冬季来反而有优势</strong>：' +
+          '<strong>庭院是恒温的室内花园、每周轮换植物</strong>，' +
+          '一二月份它可能是全城唯一成片开花的地方'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/68/Isabella_Stewart_Gardner_Museum_Boston_November_2016_001.jpg',
+          cap: '四层回廊围合的中央庭院与玻璃天棚 · King of Hearts / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Isabella-Stewart-Gardner-Museum-Courtyard-11.jpg',
+          cap: '庭院竖向视角：威尼斯式拱廊与常年轮换的花园 · Sintakso / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/20180527_-_05_-_Boston%2C_MA_%28Isabella_Stewart_Gardner_Museum%29.jpg',
+          cap: '从 Evans Way Park 看博物馆外观（外墙朴素，精华全在室内） · Andre Carrotflower / CC BY-SA 4.0' }
+      ]
+    },
+    {
+      id: 'uss-constitution-navy-yard',
+      n: 14,
+      name: '「宪法号」与查尔斯顿海军工厂',
+      en: 'USS Constitution & Charlestown Navy Yard',
+      must: 3.5,
+      score: 3,
+      tldr: '世界上仍在服役的最老军舰，1797 年下水、33 战不败。登舰免费但要过机场式安检，18 岁以上必须出示实体政府证件（不接受电子证件）。',
+      tags: [
+        { t: '登舰免费', c: 'free' },
+        { t: '18+ 需实体照片证件', c: 'risk' },
+        { t: '机场式安检', c: 'risk' },
+        { t: '出海日全天不开放', c: 'risk' },
+        { t: '自由之路终点段', c: 'info' }
+      ],
+      highlights: [
+        '<strong>这是世界上仍在服役、仍然浮在水上的最老军舰——注意是「仍在服役」，不是「保存最好的古船」。</strong>' +
+          '<strong>1797 年 10 月在 Boston 北端的 Edmund Hartt 船厂下水，是 1794 年《海军法案》授权建造的六艘原始护卫舰之一</strong>；' +
+          '<strong>她至今是美国海军的在役舰艇，甲板上是现役水兵</strong>——' +
+          '<strong>这些水兵穿 1813 年样式的海军制服为公众讲解，这是他们的正式任务而不是表演</strong>。' +
+          '<strong>也正因为她是在役军舰，才有了下面那一整套安检与证件要求，这是本条目最需要提前知道的部分。</strong>' +
+          '<strong>NPS 口径：舰上每天在早 8 点与日落时各鸣炮一次，工厂区内都能听到。</strong>',
+        '<strong>「Old Ironsides（老铁壳）」这个绰号来自 1812 年 8 月 19 日和英舰 HMS Guerriere 的那一仗。</strong>' +
+          '<strong>交战中英军的炮弹被她的舷侧弹开，据记载一名美国水兵喊出「Huzzah! Her sides are made of iron!」</strong>，' +
+          '绰号由此而来。' +
+          '<strong>实际上她的船壳是木头——南方活栎（live oak）、白栎与南方黄松的三层结构，最厚处超过 20 英寸</strong>，' +
+          '<strong>在那个距离上足以让 18 磅炮弹失效。</strong>' +
+          '<strong>她一生参战 33 次、从未败过、也从未被敌方俘获</strong>，' +
+          '<strong>这在帆船时代的主力舰里是极罕见的纪录。</strong>' +
+          '<strong>1830 年她一度被判定报废待拆，Oliver Wendell Holmes Sr. 发表的诗《Old Ironsides》引发全国抗议，' +
+          '直接救下了这艘船</strong>——' +
+          '<strong>这也是美国最早的一次由公众舆论促成的文物保存事件。</strong>',
+        '<strong>Charlestown Navy Yard 本身是一座 1800 年设立、1974 年关闭的海军工厂，现在由 NPS 管理，进入免费。</strong>' +
+          '<strong>整个厂区是 Boston National Historical Park 的一部分，官方口径「Navy Yard 的室外场地每天 24 小时开放」</strong>' +
+          '（<strong>唯一例外是 Pier 1 的安全管制区</strong>）。' +
+          '<strong>厂区里三件值得看的：</strong>' +
+          '<strong>①Dry Dock 1（1833 年建成，全美最早的两座海军干船坞之一，Constitution 是它接纳的第一艘船）</strong>——' +
+          '<strong>官方规定围栏以内不开放，只能在栏外看，但它仍在为这两艘船做修理工作</strong>；' +
+          '<strong>②Ropewalk（1837 年，四分之一英里长的制绳厂房，曾为整个美国海军供应缆绳）外观</strong>；' +
+          '<strong>③USS Cassin Young（DD-793，1943 年的 Fletcher 级驱逐舰，NPS 管理，免费）</strong>。' +
+          '<strong>关于 Cassin Young 的重要提醒：它经常因码头维修或天气长期关闭</strong>' +
+          '（<strong>2026 年 9 月官方公告仍为因 Pier One 维修关闭、暂定 10 月重开；' +
+          '另官方文件写明「它通常整个冬季都关闭」</strong>）——' +
+          '<strong>所以不要为它专程而来。</strong>',
+        '<strong>和「宪法号」隔着码头相对的 USS Constitution Museum 是另一个机构，不要混淆：' +
+          '舰是海军的、免费；博物馆是私立非营利的、建议捐赠。</strong>' +
+          '<strong>博物馆在厂区 Building 22，官方口径每天 9:00–18:00 开放</strong>，' +
+          '<strong>采用「建议捐赠」分档：Pay it Forward $25／人、Standard $15／人、Reduced 免费至 $10／人</strong>' +
+          '（<strong>2026-09-14 于 ussconstitutionmuseum.org 核实</strong>）。' +
+          '<strong>值得进去的理由很实际：舰上能看的主要是甲板与炮位，而船的历史、1812 年战争的来龙去脉、' +
+          '水兵的日常生活全在博物馆里，且博物馆有大量可动手的互动装置（适合带孩子）。</strong>' +
+          '<strong>顺序建议：先舰后馆</strong>——' +
+          '<strong>舰有开放班次与安检队伍的不确定性，博物馆开得更早也关得更晚，用它来兜住时间。</strong>',
+        '<strong>这里是 Freedom Trail 的最后一段，和 Bunker Hill Monument 一起构成 Charlestown 的两个终点。</strong>' +
+          '<strong>红线从 North End 过 Charlestown Bridge 进来，先到 Navy Yard，再往北 800 米到 Bunker Hill Monument</strong>。' +
+          '<strong>回市区最舒服的方式是从 Navy Yard Pier 4 坐 MBTA 的 Charlestown 内港渡轮（F4）到 Long Wharf</strong>，' +
+          '<strong>航程约 10 分钟、日间约每 30 分钟一班，运营全年</strong>；' +
+          '<strong>2026-09-14 于 mbta.com/fares/ferry-fares 核实的内港 Zone 1A 单程票价为 $2.40（优惠票 $1.10，11 岁及以下免费）</strong>' +
+          '（<strong>注意：2025 年 3 月版的纸质时刻表上印的是 $3.70，与官网当前费率不一致，以官网为准</strong>）。' +
+          '<strong>这趟船本身就是一段景观交通：从水面看 downtown 天际线与 Boston 内港，性价比高于任何付费游船。</strong>'
+      ],
+      tour: [
+        '<strong>登舰的硬性要求，先把这一条看完再决定要不要来。</strong>' +
+          '<strong>①证件：海军官网原文全部大写强调——' +
+          '「ALL PERSONS AGE 18 AND OLDER MUST PRESENT A VALID FEDERAL OR STATE-ISSUED PHOTO I.D. ' +
+          '(PHYSICAL IDs ONLY, WE DO NOT ACCEPT DIGITAL IDs) OR PASSPORT TO BOARD THE SHIP」</strong>。' +
+          '<strong>也就是说：18 岁以上必须带实体的政府签发照片证件或护照，手机里的电子证件一律不认</strong>；' +
+          '<strong>外国游客请带护照原件（驾照与护照都可，但必须是实体）；18 岁以下登舰不需要证件。</strong>' +
+          '<strong>②安检：官方明说因为她是在役军舰，所有人必须通过「类似机场的安检」</strong>，' +
+          '<strong>会被要求脱掉夹克等厚重外衣、取下所有首饰、手表、皮带，' +
+          '交出包括手机、播放器、相机器材在内的电子设备与全部包袋接受检查。</strong>' +
+          '<strong>③不能预约：官方原文「Reservations can not be made in advance for public tours」，' +
+          '一律现场排队、先到先得。</strong>' +
+          '<strong>④免费。</strong>' +
+          '→ <strong>实际推论：随身东西越少越快，别背大包、别带三脚架；' +
+          '一家人里带孩子的可以让一人先排队。</strong>',
+        '<strong>出海日（Underway）是最容易白跑一趟的坑，必须提前查。</strong>' +
+          '<strong>作为在役军舰，她每年若干次驶入 Boston 内港，在 Castle Island 的 Fort Independence 前鸣 21 响礼炮</strong>。' +
+          '<strong>NPS 与博物馆的官方提示一致：出海会影响当天的公众参观时间</strong>——' +
+          '<strong>通常上午 10 点前后离港、13:00–14:00 之间返回，这段时间登不了舰。</strong>' +
+          '<strong>官方公布的 2026 年出海日为：3/28、5/28、6/17（Bunker Hill 战役纪念日）、' +
+          '7/4（独立日，此日有公众抽签随舰出海的机会）、7/11（Sail Boston 帆船巡游）、' +
+          '8/21、8/28、9/25、10/21（海军诞辰）</strong>' +
+          '（<strong>2026-09-14 于 ussconstitutionmuseum.org/underway 核实；' +
+          '官方注明所有日期可由海军随时变更或取消，后续年份的日期必须自己重查</strong>）。' +
+          '<strong>除独立日的公众抽签外，随舰出海一律凭邀请，普通人只能在岸上看。</strong>' +
+          '<strong>岸上最好的位置：Navy Yard 的码头看离港与返港；' +
+          '南波士顿 Castle Island 看 11:00–11:30 前后的 21 响礼炮（官方点名的公众聚集地）。</strong>' +
+          '<strong>另外，指挥官有权因天气或安全考虑随时关闭参观。</strong>',
+        '<strong>舰上与厂区怎么走：一条 2 小时的顺路线。</strong>' +
+          '<strong>①先到 Charlestown Navy Yard Visitor Center（NPS，免费）</strong>——' +
+          '<strong>有 ranger、互动展览与公共卫生间，官方口径 10:00–17:00</strong>，' +
+          '<strong>在这里先问清当天舰是否开放、Cassin Young 是否开放</strong>，15 分钟。' +
+          '<strong>②过安检登舰</strong>：' +
+          '<strong>由现役水兵带队或自由参观，看上层甲板、主炮甲板（gun deck）的 24 磅长炮阵列、' +
+          '舵轮与舷侧那套让炮弹弹开的厚木结构</strong>，' +
+          '<strong>水兵会解释 1812 年那一仗的经过，可以直接提问，这是本地最好的一次免费讲解</strong>，40–50 分钟（含排队）。' +
+          '<strong>③USS Constitution Museum（Building 22）</strong>：' +
+          '<strong>一楼看船的建造与 1812 年战争，二楼是水兵生活的互动展区（可以爬吊床、拉缆绳、操作模拟舵）</strong>，45–60 分钟。' +
+          '<strong>④厂区里看 Dry Dock 1 与 Ropewalk 外观，如果 Cassin Young 开放则加 30 分钟</strong>。' +
+          '<strong>⑤从 Pier 4 坐渡轮回 Long Wharf 收尾。</strong>',
+        '<strong>要不要加 Bunker Hill Monument，怎么加。</strong>' +
+          '<strong>从 Navy Yard 沿红线往北约 800 米 / 12 分钟就是 Bunker Hill Monument（1843 年，221 英尺的花岗岩方尖碑）</strong>，' +
+          '<strong>免费，可以登顶——294 级螺旋石阶，没有电梯，中途没有休息平台</strong>。' +
+          '<strong>值得爬的理由：顶上是 downtown 天际线、内港与 Charlestown 的全景，没有别的免费观景点能比</strong>；' +
+          '<strong>不值得的理由：楼梯狭窄闷热、旺季要排队、恐高或膝盖不好的人不要尝试。</strong>' +
+          '<strong>登顶时段常短于纪念碑广场的开放时间，且会因人手不足临时停止放行——' +
+          '出行前查 nps.gov/bost 或打 617-242-5601。</strong>' +
+          '<strong>马路对面的 Bunker Hill Museum（免费）有战役全景画与展览，二十分钟能看完。</strong>' +
+          '<strong>时间安排：Navy Yard 两小时＋Bunker Hill 一小时是 Charlestown 半天的合理总量。</strong>',
+        '<strong>吃、厕所与雨天替代方案。</strong>' +
+          '<strong>卫生间：NPS 游客中心与 USS Constitution Museum 里都有，舰上没有。</strong>' +
+          '<strong>吃饭：厂区内餐饮选择很少（博物馆有小型咖啡区），' +
+          'Navy Yard 西侧的 Charlestown 街区有几家店，但整体不如坐渡轮回 Long Wharf 或走回 North End 吃</strong>。' +
+          '<strong>雨天与冬天：舰的上层甲板是露天的，官方明说恶劣天气会关闭参观；' +
+          'Cassin Young 通常整个冬季关闭。' +
+          '这种天气把重心放在室内的 USS Constitution Museum 与游客中心，' +
+          '并且不要计划登 Bunker Hill 的塔。</strong>' +
+          '<strong>无障碍：舰上有陡梯与高门槛，轮椅无法上舰；' +
+          '博物馆与游客中心可无障碍进入，厂区地面为历史铺装，部分路段不平。</strong>'
+      ],
+      photo: '船与工业遗迹 <strong>3.5/5</strong>，城市天际线 <strong>4/5</strong>（从渡轮或 Bunker Hill 塔顶）。' +
+        '三根桅杆与索具是这里唯一的强题材，上午顺光、傍晚侧逆光；' +
+        '登舰要过安检，相机器材会被逐件检查，三脚架不要带。',
+      shots: [
+        {
+          name: '码头上的三桅与索具，以及渡轮上的天际线',
+          view: [42.37264, -71.05686],
+          desc: '<strong>坐标为「宪法号」在 Pier 1 的系泊位置（公开条目坐标）。</strong>' +
+            '<strong>船头朝向随季节调舷（海军每年会把船调头一次以均匀受晒），所以受光方向不是固定的</strong>，' +
+            '<strong>但码头在厂区南侧、面向内港，' +
+            '上午到中午拍船体侧面是顺光，傍晚是背着 downtown 的侧逆光、适合拍索具剪影</strong>。' +
+            '<strong>24–35mm 在码头退到栏杆边拍全船（船长 204 英尺，桅高 220 英尺，' +
+            '竖幅才装得下桅顶）；50–85mm 拍炮门与舷侧木结构的细节。</strong>' +
+            '<strong>另一张更值得的是坐 F4 渡轮回 Long Wharf 的途中——' +
+            '船开出去两三分钟时，能同时收进「宪法号」的桅杆与 downtown 天际线，' +
+            '这个角度岸上拍不到，35–70mm，站右舷。</strong>' +
+            '<strong>安检提醒：登舰会逐件检查相机器材，三脚架与大包不要带；' +
+            '舰上可以拍照，但下层甲板很暗且天花板低。</strong>'
+        }
+      ],
+      access: {
+        visit: '<strong>2–3 小时（Navy Yard 部分）；加 Bunker Hill 共 3–4 小时。</strong>分配：' +
+          '<strong>NPS 游客中心 15 分钟、安检排队 10–30 分钟（旺季周末偏长）、' +
+          '舰上 30–40 分钟、USS Constitution Museum 45–60 分钟、' +
+          '厂区内 Dry Dock 1 与 Ropewalk 外观 15 分钟、' +
+          'USS Cassin Young 30 分钟（若开放）</strong>。' +
+          '<strong>只看重点 75 分钟</strong>：安检登舰 → 主炮甲板听水兵讲解 → 博物馆二楼互动区 → 坐渡轮离开。' +
+          '<strong>加 Bunker Hill Monument（往返步行 25 分钟＋登顶与 Bunker Hill Museum 40 分钟）另留 1–1.5 小时。</strong>' +
+          '<strong>依据：官方公布的开放时段与展馆规模，安检时长按在役军舰的标准流程估算；' +
+          '这里的时间风险全在安检队伍与当天舰是否开放，务实做法是留出弹性、把博物馆放在后面。</strong>',
+        book: '<strong>舰上参观不能预约，官方原文「Reservations can not be made in advance for public tours」，' +
+          '现场排队、先到先得、免费。</strong>' +
+          '<strong>USS Constitution Museum 与 NPS 游客中心也都不需预约。</strong>' +
+          '<strong>出行前必做的两件事：' +
+          '①查 navy.mil/USS-Constitution 或舰上的官方社交账号确认当天是否开放（出海日与恶劣天气会关）；' +
+          '②查 nps.gov/bost 的 Alerts 确认 USS Cassin Young 与 Bunker Hill 登顶的状态。</strong>' +
+          '<strong>独立日随舰出海的公众抽签通常在春季开放，由海军自行决定与公布。</strong>' +
+          '<strong>电话：舰上参观信息与厂区 NPS 游客中心 617-242-5601；USS Constitution Museum 617-426-1812。</strong>',
+        ticket: '<strong>【2026-09-14 于 navy.mil/USS-Constitution/Hours-Visitor-Info、nps.gov/bost 与 ' +
+          'ussconstitutionmuseum.org 核实】</strong>' +
+          '<strong>「宪法号」登舰完全免费，官方原文「open for public visitation, FREE OF CHARGE, throughout the year」，' +
+          '不售票也不能预约。</strong>' +
+          '<strong>Charlestown Navy Yard 厂区、NPS 游客中心、USS Cassin Young 均免费（NPS 管理）。</strong>' +
+          '<strong>USS Constitution Museum 采用建议捐赠制：Pay it Forward $25／人、Standard $15／人、' +
+          'Reduced 免费至 $10／人</strong>（<strong>官方声明它是靠捐赠维持的非营利机构，' +
+          '也就是说付不付、付多少由你决定，但这是它的主要收入</strong>）。' +
+          '<strong>Bunker Hill Monument 与 Bunker Hill Museum 免费。</strong>' +
+          '<strong>登舰的「门槛」不是钱而是证件与安检</strong>：' +
+          '<strong>18 岁及以上必须出示有效的联邦或州签发实体照片证件或护照，官方明确不接受电子证件；' +
+          '18 岁以下不需要证件。所有包袋在安全入口接受检查。</strong>' +
+          '<strong>渡轮 F4（Navy Yard Pier 4 ↔ Long Wharf）内港 Zone 1A 单程 $2.40、优惠票 $1.10、11 岁及以下免费。</strong>',
+        hours: '<strong>【2026-09-14 核实，并且这里有一处官方渠道之间的不一致，照实写出来】</strong>' +
+          '<strong>海军官网 navy.mil/USS-Constitution/Hours-Visitor-Info 当前写的是' +
+          '「open for public tours Tuesday through Sunday from 10 a.m. to 6 p.m.」（周二至周日 10:00–18:00，周一闭舰）</strong>；' +
+          '<strong>而舰上官方社交账号发布的通告称「自 2026 年 5 月 1 日起改为周三至周日 10:00–18:00」</strong>' +
+          '（<strong>USS Constitution Museum 的页面仍沿用周二至周日的旧口径</strong>）。' +
+          '→ <strong>结论：周三至周日来最稳；打算周一或周二来的人，出行前务必打 617-242-5601 确认，' +
+          '或看 navy.mil 与舰上社交账号的当日公告。海军官网自己也注明「Public visitation dates and hours are subject to change」。</strong>' +
+          '<strong>Charlestown Navy Yard 室外场地每天 24 小时开放（官方 Superintendent\'s Compendium 原文），' +
+          '仅 Pier 1 安全管制区除外。</strong>' +
+          '<strong>Charlestown Navy Yard Visitor Center（NPS）：10:00–17:00。</strong>' +
+          '<strong>USS Constitution Museum：每天 9:00–18:00。</strong>' +
+          '<strong>USS Cassin Young：2026 年 9 月官方公告为因 Pier One 维修关闭、暂定 10 月重开；' +
+          '正常开放时约 10:00–16:30，且官方文件写明「恶劣天气（雨雪、雷暴、极端冷热）关闭，通常整个冬季关闭」。</strong>' +
+          '<strong>出海日（2026 年为 3/28、5/28、6/17、7/4、7/11、8/21、8/28、9/25、10/21）当天上午至下午登不了舰</strong>，' +
+          '<strong>日期可由海军随时变更。</strong>' +
+          '<strong>另有一条结构性风险：舰由海军运营、厂区由 NPS 运营，' +
+          '联邦政府停摆期间两者都可能关闭（历史上确实发生过），而这与天气或维修无关。</strong>',
+        parking: '<strong>建议坐渡轮或地铁，不要自驾。</strong>' +
+          '<strong>渡轮：MBTA Charlestown Ferry（F4），Long Wharf ↔ Navy Yard Pier 4，' +
+          '航程约 10 分钟，日间约每 30 分钟一班，全年运营，单程 $2.40</strong>——' +
+          '<strong>这是最舒服也最好看的走法。</strong>' +
+          '<strong>地铁：Orange Line／Green Line「North Station」步行约 1.2 公里（过 Charlestown Bridge）；' +
+          'Orange Line「Community College」站约 1.1 公里。公交 93 路与 F4 渡轮接驳最方便。</strong>' +
+          '<strong>自驾：博物馆官方建议把 Nautica Parking Garage（88 Constitution Road, Boston, MA 02129）输入导航，' +
+          '因为博物馆本身没有街道门牌号。该车库的具体费率未能从官方渠道确认</strong>，' +
+          'Charlestown 一带商业车库日费通常在 $20–35。' +
+          '<strong>注意安检入口附近不能停车。</strong>',
+        walk: '<strong>Navy Yard Pier 4 渡轮码头到「宪法号」安检入口约 400 米 / 6 分钟</strong>；' +
+          '<strong>安检入口到 USS Constitution Museum（Building 22）约 200 米 / 3 分钟</strong>；' +
+          '<strong>NPS 游客中心到「宪法号」约 250 米 / 4 分钟</strong>。' +
+          '<strong>Navy Yard 到 Bunker Hill Monument 约 800 米 / 12 分钟（沿 Freedom Trail 红线，' +
+          '最后一段是上坡）</strong>；' +
+          '<strong>Navy Yard 到 North End 的 Old North Church 约 1.3 公里 / 18 分钟（要过 Charlestown Bridge，' +
+          '桥上有人行道但风大且噪音重）</strong>；' +
+          '<strong>Navy Yard 到 North Station 约 1.2 公里 / 17 分钟。</strong>' +
+          '<strong>厂区内部东西向总长约 600 米，地面为历史铺装（石板与铁轨），推车与轮椅要注意。</strong>'
+      },
+      notes: [
+        '<strong>最硬的一条：18 岁及以上登舰必须带实体的政府签发照片证件或护照，官方明确不接受手机里的电子证件</strong>。' +
+          '外国游客带护照原件最稳妥；18 岁以下不需要证件',
+        '<strong>全员必过机场式安检</strong>：' +
+          '<strong>会被要求脱厚外衣、取下首饰手表皮带、交出手机相机与全部包袋受检</strong>。' +
+          '随身越少越快，三脚架与大背包不要带',
+        '<strong>不能预约，一律现场排队</strong>，旺季周末与暑假的队伍可能要半小时',
+        '<strong>开放日有官方渠道不一致：海军官网写周二至周日，舰上社交账号通告称 2026 年 5 月 1 日起改为周三至周日</strong>。' +
+          '<strong>周三至周日来最稳；周一周二来之前打 617-242-5601 确认</strong>',
+        '<strong>出海日（Underway）当天上午到下午登不了舰</strong>，' +
+          '2026 年公布的日期为 3/28、5/28、6/17、7/4、7/11、8/21、8/28、9/25、10/21，' +
+          '<strong>且海军可随时变更——出行前查一次</strong>',
+        '<strong>USS Cassin Young 长期性关闭很常见</strong>' +
+          '（2026 年 9 月仍因 Pier One 维修关闭、暂定 10 月重开；官方文件写明通常整个冬季关闭），' +
+          '不要为它专程而来',
+        '<strong>舰是海军运营、厂区是 NPS 运营，联邦政府停摆期间两者都可能关门</strong>——' +
+          '这一条和天气、维修都无关，但历史上真的发生过',
+        '<strong>轮椅无法上舰</strong>（陡梯与高门槛），' +
+          '但游客中心与 USS Constitution Museum 可无障碍进入',
+        '<strong>回市区坐 F4 渡轮（Pier 4 → Long Wharf，$2.40、约 10 分钟）</strong>，' +
+          '比走 Charlestown Bridge 回 North End 舒服得多，而且水上看天际线是免费的附加值',
+        '<strong>上层甲板露天，恶劣天气官方会直接关闭参观</strong>；' +
+          '冬天与雨天把重心放在室内的博物馆',
+        '<strong>Bunker Hill Monument 登顶是 294 级无电梯的螺旋石阶、中途无平台</strong>，' +
+          '登顶放行时段常短于广场开放时间且会临时中止，恐高与膝伤者不要尝试'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/USS_Constitution_at_Charlestown_Navy_Yard_%2853825931403%29.jpg',
+          cap: '系泊在 Charlestown Navy Yard 的「宪法号」与三桅索具 · Ethan Long / CC BY-SA 2.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/USS_Constitution%2C_Charlestown%2C_MA%2C_2023-02-20_03.jpg',
+          cap: '舷侧与炮门细节：让炮弹弹开的厚木结构 · Crisco 1492 / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/54/Old_Ironsides_at_Charlestown_Navy_Yard%2C_Boston_%2853233418449%29.jpg',
+          cap: '「老铁壳」与厂区码头全景 · Ethan Long / CC BY-SA 2.0' }
       ]
     }
   ]

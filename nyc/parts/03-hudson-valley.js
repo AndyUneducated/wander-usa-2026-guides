@@ -137,7 +137,10 @@ module.exports = {
         + '另需注意 2026 年 7 月 5 日暴雨冲毁了 Palisades Interstate Parkway 在 Exit 19 至 Bear Mountain Circle 之间的路面，'
         + '南向 7 月 8 日恢复、北向随后数日恢复；'
         + '同期公园泳池与 Trailside Museums & Zoo 宣布无限期关闭。'
-        + '<strong>这两项设施在 9–10 月是否恢复未能确认</strong>，但不影响 Perkins Drive 与山顶</li>'
+        + '<strong>这两项已于 2026 年 9 月 14 日复核恢复：Trailside Museums and Zoo 的官网与 NYS Parks 页面'
+        + '都列出每日 10:00–16:30 的正常时段；泳池因施工延至 7 月 4 日开季、9 月 7 日已收季。</strong>'
+        + '仍在生效的是 Bear Mountain Inn 附近三条步道的施工绕行（持续到 2027 年夏）'
+        + '与 2023 年洪水以来未修复的步道关闭，但都不影响 Perkins Drive 与山顶</li>'
         + '<li><strong>Storm King 的门票就是停车位。</strong>官方口径「Pre-purchased tickets are required to '
         + 'guarantee admission and parking」，即入场券含停车、现场票在部分时段可能售罄。'
         + '<strong>9 月 26 日–11 月 8 日为官方定义的 peak fall season，周六周日票价上浮</strong>'
@@ -549,6 +552,7 @@ module.exports = {
       n: 3,
       name: '明尼瓦斯卡州立保护区',
       en: 'Minnewaska State Park Preserve, Shawangunks',
+      must: 3.5,
       score: 4.5,
       tldr: '$10 一车，白色石英砾岩崖壁加天空湖；10 月 13 日起 18:00 关门，从那天起拍不到日落。',
       tags: [
@@ -577,6 +581,41 @@ module.exports = {
           + '两者的票不通用',
         '<strong>山脊海拔约 1,650 英尺，秋色落在 mid-Hudson 那一段，预期峰期 10 月 5–18 日</strong>；'
           + '山下 New Paltz 镇要再晚约一周'
+      ],
+      tour: [
+        '<strong>普通游客的标准走法只有两条腿，合起来约两小时，全程平缓砾石马车道，普通运动鞋就够：</strong>'
+          + '一是<strong>环 Lake Minnewaska 一圈（约 2 英里、50 分钟）</strong>，'
+          + '沿途几处崖沿平台是全园性价比最高的视野；'
+          + '二是<strong>从主停车场下行到 Awosting Falls（单程 0.5 英里、12–15 分钟）</strong>，'
+          + '60 英尺高的水幕从一整块砾岩台阶上翻下来，瀑底退距足够，是本区最容易看全的瀑布。'
+          + '<strong>这两条都是下去容易回来上坡</strong>，回程请多留十分钟',
+        '<strong>别错过环湖道西侧那一段。</strong>'
+          + '白色砾岩崖壁在这里直接切进水面，而 Lake Minnewaska 是一座只靠降水补给的「天空湖」、'
+          + '水体极酸几乎没有浮游生物，<strong>清澈到能看见十几米深的湖底岩层</strong>——'
+          + '这个「白崖加深色松林」的组合在东岸没有第二处，'
+          + '和隔壁 Catskills 的灰褐色砂页岩完全不是一个东西',
+        '<strong>Gertrude\u2019s Nose 与 Millbrook Mountain 那条大环线，普通游客可以直接跳过。</strong>'
+          + '往返 7–8 英里、3.5–4.5 小时，<strong>外圈数公里崖线完全没有护栏，'
+          + '脚下就是垂直落差</strong>，大风或雨后湿滑时不该上去。'
+          + '省下的时间放在环湖道与瀑布上，视野的差距远没有体力代价那么大。'
+          + '另外<strong>2026 年全年 Lake Awosting Carriage Road 有一段因步道修复工程关闭</strong>'
+          + '（2026 年 9 月 14 日官网公告仍在挂），要走远线的人出发前先看官网的关闭地图',
+        '<strong>停车费 $10 一车，而真正的门槛不是钱是车位：'
+          + 'NYS Parks 官方原文写明「both sites are subject to intermittent closures as parking lots reach capacity」，'
+          + '即停车场满了就直接封场不让进。</strong>'
+          + '第三方实测口径是<strong>秋季好天气的周末主停车场 10:00 前后满</strong>，'
+          + '所以正确做法是<strong>09:00 开园即到</strong>；'
+          + '到晚了就改去别处，不要在门口排队等空位。'
+          + '<strong>路肩停车被 Town 法规禁止，开罚单加拖车</strong>。'
+          + '出发前可打 Visitor Center 845-255-0752 问当时还有没有位',
+        '<strong>同一保护区内的 Sam\u2019s Point 是另一套规则，不要搞混：'
+          + '2026 年 4 月 18 日–11 月 15 日的周末与节假日必须提前在 ReserveAmerica 预约车位</strong>，'
+          + '分 09:00–14:00 与 14:00 至闭园两场，$10 车位费加 $0.95 预约费；'
+          + '车顶载自行车的车在预约时段不得进入 Sam\u2019s Point，只能走 Minnewaska 主入口',
+        '<strong>卫生间只有主停车场一带的 Lake Minnewaska Visitor Center 附近有，马车道沿线一路没有；'
+          + '园内没有任何餐饮与饮水补给，水和食物必须自带。</strong>'
+          + '吃饭要下山回 New Paltz 的 Main Street（车程约 15 分钟，选择很多）。'
+          + '山脊比山下低 5–8°C 且风大，分层穿衣；外圈马车道手机信号缺失，离线地图必备'
       ],
       photo: '风光 <strong>5/5</strong>，人像 <strong>4/5</strong>，建筑 <strong>0/5</strong>。'
         + '白崖是天然反光板，人像肤色干净且背景对比强。'
@@ -624,6 +663,15 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>2–4 小时</strong>。'
+          + '拆开看：<strong>只从停车场下到湖边看一眼再上来 45 分钟</strong>；'
+          + '<strong>环湖一圈（2 英里）加 Awosting Falls 往返（1 英里）合计约 2 小时</strong>，'
+          + '这是普通游客的标准配置；'
+          + '<strong>想把湖、瀑布与几处崖沿平台都从容走一遍留 3–4 小时</strong>；'
+          + '<strong>要加 Gertrude\u2019s Nose 或 Millbrook Mountain 长线则另加 3.5–4.5 小时，'
+          + '全天得留 6 小时以上</strong>。'
+          + '<strong>秋季周末请在以上时间之外额外预留 30–45 分钟找停车位</strong>。'
+          + '依据为 NYS Parks 公布的马车道与步道里程，按普通步行速度推算',
         book: '<strong>Minnewaska 主区不需预约</strong>。'
           + '<strong>但同一保护区内的 Sam\u2019s Point 区域，2026 年 4 月 18 日–11 月 15 日的周末与节假日'
           + '必须提前在 ReserveAmerica.com 或 1-800-777-9644 预约车位</strong>，'
@@ -632,11 +680,18 @@ module.exports = {
           + '<strong>车顶带自行车的车辆在预约时段不得进入 Sam\u2019s Point</strong>',
         ticket: '<strong>$10 每车</strong>（15 座以下），Empire Pass 免费。'
           + '大巴 $60（未提前预约 $150），<strong>周末与节假日不接受大巴</strong>。'
-          + '25 人以上团体须先致电 Lake Minnewaska Visitor Center（845-255-0752）',
-        hours: '<strong>每日 09:00 开园，闭园时间随季节变化。'
-          + '2026 年 9 月 8 日–10 月 12 日 09:00–19:00；10 月 13 日–10 月 31 日 09:00–18:00；'
-          + '11 月 1 日起 09:00–17:00</strong>（NYS Parks 官方时刻表）。'
-          + '<strong>10 月 12 日是本季最后一个能在园内看到日落的日子</strong>（当日日落 18:22）',
+          + '25 人以上团体须先致电 Lake Minnewaska Visitor Center（845-255-0752）。'
+          + '（<strong>2026 年 9 月 14 日在 parks.ny.gov 的 Hours and Fees 栏复核，'
+          + '官方原文「$10 per vehicle (under 15-person capacity)」，与上一版一致</strong>。）',
+        hours: '<strong>每日 09:00 开园，闭园时间随季节分段，'
+          + '以下为 NYS Parks 官方 2026 年时刻表原文，2026 年 9 月 14 日复核：'
+          + '9/8/26–10/12/26 09:00–19:00；10/13/26–10/31/26 09:00–18:00；'
+          + '11/1/26–3/8/27 09:00–17:00</strong>。'
+          + '全年无每周闭园日。'
+          + '<strong>季节参考：10 月 12 日是这一季最后一个闭园时间晚于日落的日子</strong>'
+          + '（当日日落 18:22）；从 10 月 13 日起 18:00 关门而日落仍在 18:20 之后，'
+          + '一直到 10 月 27 日日落才提前到 18:00 以内，'
+          + '<strong>也就是说 10 月中旬到下旬这两周会在日落前被请出园</strong>',
         parking: '主停车场在 Route 44/55 上、Route 299 交口以西五英里。'
           + 'NYS Parks 官方原文：'
           + '「Lake Minnewaska and Sam\u2019s Point are experiencing extensive congestion on good-weather days '
@@ -677,6 +732,7 @@ module.exports = {
       n: 4,
       name: '哈德逊步行天桥',
       en: 'Walkway Over the Hudson, Poughkeepsie',
+      must: 3,
       score: 3.5,
       tldr: '世界最长的高架步行桥，212 英尺高、1.28 英里长，走桥免费；风大且桥面震动，长曝几乎不可行。',
       tags: [
@@ -706,6 +762,40 @@ module.exports = {
         '这一段河面海拔接近零、位于 mid-Hudson，'
           + '<strong>两岸山丘的秋色峰期约 10 月 5–18 日</strong>；'
           + '桥面本身没有树，看的全部是远景色块'
+      ],
+      tour: [
+        '<strong>这是一个「走过去再走回来」的景点，没有别的玩法，所以先决定走多远。</strong>'
+          + '主流做法是从东岸 61 Parker Avenue 入口上桥，'
+          + '<strong>走到跨越水面的正中段（自东端约 1 公里、15 分钟）就已经拿到这个景点的全部价值</strong>，'
+          + '往返 40 分钟；<strong>走完全桥单程 1.28 英里、25–30 分钟，往返约 1 小时</strong>。'
+          + '桥面全程平坦铺装、无台阶，<strong>轮椅与婴儿车完全可行</strong>',
+        '<strong>正中段那一百米是唯一不能省的：</strong>'
+          + '南望 1930 年的 Mid-Hudson Bridge 悬索桥与 Poughkeepsie 城区，'
+          + '北望是开阔河道与两岸山丘。'
+          + '<strong>本区其他所有点都只能从岸上看河，只有这里是站在河中央看两岸</strong>，'
+          + '桥面距水面 212 英尺。沿途解说牌讲的是 1888–1889 年建成的'
+          + 'Poughkeepsie–Highland Railroad Bridge 与 1974 年 5 月 8 日那场烧毁轨道的大火',
+        '<strong>不想走回头路可以下电梯：</strong>'
+          + '东端有一部电梯直通河滨的 Upper Landing Park，'
+          + '<strong>2026 年口径为每日 09:00 运营至闭园前 90 分钟、11 月 29 日季末停运</strong>'
+          + '（2026 年 9 月 14 日在 NYS Parks 页面核实）。'
+          + '<strong>两端接出去的 Dutchess Rail Trail 与 Hudson Valley Rail Trail 可以直接跳过</strong>——'
+          + '那是给骑车的人用的长距离铺装道，步行者走上去只会浪费腿力',
+        '<strong>装备上只有一件事要说：风。</strong>'
+          + '212 英尺高、桥面完全无遮挡、河谷风在这里被加速，'
+          + '<strong>秋季桥上的体感比岸上低 5°C 以上</strong>，防风外套不是可选项。'
+          + '桥上没有任何挡风结构，帽子容易被吹掉。'
+          + '<strong>自行车与行人共用桥面</strong>，靠右走、别占住中线',
+        '<strong>桥面全程没有饮水点，也没有卫生间；'
+          + '两端入口区设有季节性卫生间，但当天是否开放未能从官网确认。</strong>'
+          + '吃饭要下桥：东岸走下去就是 Poughkeepsie 的 Main Street 一带，'
+          + '西岸 Highland 侧的选择少一些。带水上桥，风大的时候人会比想象中渴',
+        '<strong>停车是这里唯一要提前想的事。</strong>'
+          + '东岸 61 Parker Avenue 的州立主停车场需缴 vehicle use fee（接受 Empire Pass），'
+          + '<strong>但官方页面只写「Vehicle Use Fee required」而不给金额</strong>；'
+          + '<strong>免费替代是 Pulaski Park（170 Washington Street）与 Brookside Avenue 路边</strong>。'
+          + '<strong>更省事的是坐火车：Metro-North Hudson Line 到 Poughkeepsie，'
+          + '出站步行 1.5 公里 / 20–25 分钟（有上坡）就是东端入口</strong>'
       ],
       photo: '风光 <strong>3.5/5</strong>，建筑 <strong>4/5</strong>，人像 <strong>3/5</strong>。'
         + '桥体本身的钢桁架透视是它最强的画面，河景反而偏平——'
@@ -750,14 +840,25 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1–2 小时</strong>。'
+          + '拆开看：<strong>只走到跨越水面的正中段再折回 40 分钟</strong>'
+          + '（这已经拿到这个景点的全部视野）；'
+          + '<strong>走完全桥往返约 1 小时</strong>（单程 1.28 英里 / 25–30 分钟）；'
+          + '<strong>加上坐电梯下到河滨 Upper Landing Park 再走回来约 2 小时</strong>。'
+          + '自 Poughkeepsie 火车站走过来的人请另加单程 20–25 分钟。'
+          + '依据为官方公布的桥长 1.28 英里，按普通步行速度推算',
         book: '<strong>不需预约</strong>',
-        ticket: '<strong>走桥完全免费</strong>，全年 365 天开放。停车另计',
-        hours: '<strong>每日 07:00 开放，闭园时间按 NYS Parks 2026 年官方时刻表分段：'
-          + '9 月 14 日–10 月 4 日 07:00–19:00；10 月 5 日–10 月 18 日 07:00–18:30；'
-          + '10 月 19 日–10 月 31 日 07:00–18:00；11 月 1 日起 07:00–17:00</strong>。'
+        ticket: '<strong>走桥完全免费</strong>，全年 365 天开放。停车另计。'
+          + '（<strong>2026 年 9 月 14 日在 walkway.org 与 parks.ny.gov 复核，仍为免费</strong>。）',
+        hours: '<strong>每日 07:00 开放，闭园时间按 NYS Parks 与 walkway.org 的 2026 年官方时刻表分段'
+          + '（2026 年 9 月 14 日逐行复核，两处一致）：'
+          + '9/14–10/4 07:00–19:00；10/5–10/18 07:00–18:30；'
+          + '10/19–10/31 07:00–18:00；11/1–12/31 07:00–17:00</strong>。'
+          + '官方另有一句总口径「open seven days a week, 365 days per year from 7 a.m. to sunset」。'
           + '<strong>2026 年已公布的特殊时段：9 月 18 日提前至 16:00 关闭；'
-          + '9 月 20 日延后至 11:00 开放（Dutchess County Classic 马拉松）；'
-          + '10 月 11 日延后至 11:00 开放（BikeNY 活动）</strong>。'
+          + '9 月 20 日延后至 11:00 开放；10 月 11 日延后至 11:00 开放（BikeNY 活动）</strong>。'
+          + '需注意 NYS Parks 的 staffportal 旧页把这两个延后开放日写成 9 月 28 日与 10 月 12 日，'
+          + '<strong>与现行页面的 9 月 20 日、10 月 11 日不一致，出发前请以 walkway.org 当天页面为准</strong>。'
           + '园区办公室每日 07:30–16:00，电话 845-834-2867',
         parking: '<strong>东岸（Poughkeepsie）：61 Parker Avenue 的州立主停车场，需付 vehicle use fee，'
           + '在场地西端的自助机缴费，接受 Empire Pass</strong>。'
@@ -784,8 +885,9 @@ module.exports = {
           + '普通车最长约 115 分钟，2025 年 10 月起的 super-express 最快 88–89 分钟',
         '桥面全程无遮蔽、无饮水点，秋季风寒明显，<strong>比岸上体感低 5°C 以上</strong>',
         '<strong>自行车与行人共用桥面</strong>，架器材时请靠边，不要占住中线',
-        '东岸电梯为季节性运营（2025 年口径为 5 月 24 日至 11 月 30 日每日开放、'
-          + '09:00 至闭园前 90 分钟），<strong>2026 年具体运营日期未能确认</strong>'
+        '<strong>东岸电梯 2026 年的口径已核实（2026 年 9 月 14 日查 NYS Parks 页面）：'
+          + '目前每周七天运营、09:00 至闭园前 90 分钟，11 月 29 日季末停运</strong>；'
+          + '春季（4 月 4 日起）曾只在周五至周日运营，5 月 24 日起改为每日'
       ],
       images: [
         { url: 'img/walkway-over-the-hudson-panorama-2-d31e8cce.jpg',
@@ -801,6 +903,7 @@ module.exports = {
       n: 5,
       name: '迪亚比肯艺术馆',
       en: 'Dia Beacon',
+      must: 4,
       score: 4.5,
       tldr: '34,000 平方英尺锯齿天窗的纯自然光美术馆；每周只开五一，禁三脚架，且每个空间限拍 5 分钟。',
       tags: [
@@ -826,7 +929,10 @@ module.exports = {
           + 'Dan Flavin 的《monuments for V. Tatlin》、'
           + 'Richard Serra 的《Torqued Ellipses》、'
           + 'Michael Heizer 的《North, East, South, West》、'
-          + 'Louise Bourgeois、Agnes Martin、Donald Judd、Andy Warhol 各占一片',
+          + 'Louise Bourgeois、Agnes Martin、Donald Judd、Andy Warhol 各占一片。'
+          + '<strong>但要知道陈列会轮换：截至 2026 年 9 月，Flavin 与 Warhol 的《Shadows》'
+          + '（2026 年 7 月 6 日结束）都已不在官方楼层图上</strong>，'
+          + 'Serra、Heizer、Bourgeois、Judd、Agnes Martin 仍在',
         '<strong>拍摄规则是本区最细的一条，必须逐条看清：</strong>'
           + '个人用途的静态与视频摄影允许，但<strong>「每个空间限时 5 分钟」</strong>；'
           + '<strong>禁用闪光灯</strong>；'
@@ -837,6 +943,51 @@ module.exports = {
           + 'Dia 另保留随时在任何区域禁止拍摄的权利',
         '<strong>就在 Metro-North Beacon 站旁边，步行 5 分钟</strong>，'
           + '开馆时段内每小时双向各有一班车——本区无车可达性最好的一个点'
+      ],
+      tour: [
+        '<strong>进门第一件事是拿一张楼层图（入口处免费，或装 Bloomberg Connects app 看官方数字导览）。</strong>'
+          + '厂房近 30 万平方英尺、展厅之间要走 1.5–2 公里，'
+          + '没有图会来回绕。<strong>顺序建议：一层主展厅横穿一遍 → Serra 夹层 → 上二层 → 最后下地下层的大型特展</strong>，'
+          + '这样不会为了一件作品上下楼两次。入口另设 bag check，大包必须寄存',
+        '<strong>三件必看，位置写清楚：</strong>'
+          + '<strong>Richard Serra 的《Torqued Ellipses》在官方楼层图标注的「Serra mezzanine」（夹层）</strong>，'
+          + '几片几十吨的耐候钢曲面围成封闭空间，'
+          + '<strong>一定要走进钢板内部再抬头看天窗被钢壁裁出的开口</strong>，站在外面完全体会不到；'
+          + '<strong>Michael Heizer 的《North, East, South, West》在一层</strong>，'
+          + '是四个直接切进水泥地面的巨大几何深坑，'
+          + '<strong>官方要求观众年满 18 岁，并明确请访客不要拍照</strong>；'
+          + '<strong>Louise Bourgeois 的展厅在二层（楼层图标注「Bourgeois upstairs」），'
+          + '那只 2003 年的青铜《Crouching Spider》就在里面</strong>',
+        '<strong>不要按旧攻略找具体作品，这里的陈列是轮换的。</strong>'
+          + '<strong>Walter De Maria 的展厅没有出现在 2026 年的官方楼层图上，大概率已不在展</strong>；'
+          + '同样，<strong>Andy Warhol 的《Shadows》已于 2026 年 7 月 6 日结束，'
+          + 'Dan Flavin 也不在 2026 年的楼层图上</strong>。'
+          + '2026 年在展并可查到的包括 Serra、Heizer、Bourgeois、Judd、Agnes Martin、'
+          + 'On Kawara、Richter、Smithson、Sol LeWitt、Roni Horn，'
+          + '地下层为 Tehching Hsieh 的大型特展，'
+          + '<strong>Haegue Yang 的《Through》于 2026 年 10 月 10 日开幕</strong>'
+          + '（以上据 2026 年 6 月版官方楼层图，2026 年 9 月 14 日核对；'
+          + '<strong>十月的最新陈列请以当天官网楼层图为准</strong>）',
+        '<strong>这里最容易被低估的一条实际约束是：全馆靠天光，天气直接决定观感。</strong>'
+          + '屋顶 34,000 平方英尺的锯齿天窗是 1929 年 Nabisco 为了让印刷工在自然光下校色而做的，'
+          + 'Dia 几乎不开人工照明，官方自称「daylight museum」。'
+          + '<strong>后果很具体：阴天进去，整馆是一个低对比、偏暗、偏平的灰空间；'
+          + '晴天则有大片光斑打在混凝土地面上，是完全不同的体验。</strong>'
+          + '<strong>季节差别同样真实：十月下旬 mid-Hudson 正午太阳高度只有约 37.5°，'
+          + '比九月低十度，天窗进光量明显下降</strong>；'
+          + '11 月 1 日起官方把开放时间收短到 10:00–16:00，理由正是「保证展厅全程有自然光」。'
+          + '<strong>所以尽量把这一站排在 11:00–14:00，不要排在闭馆前那一小时</strong>',
+        '<strong>这是一个「站着看空的房间」的美术馆，体力消耗比想象中大。</strong>'
+          + '地面是硬混凝土、展厅之间距离长、几乎没有座椅，'
+          + '<strong>穿软底鞋，两小时以上的参观中途一定要去 Cafe 坐一次</strong>。'
+          + '<strong>Dia Beacon Cafe 周五至周一 09:45–16:45</strong>（汤、沙拉、三明治与咖啡，有室内外座位），'
+          + 'Shop 与开馆时间相同。'
+          + '<strong>周边只有 Beacon 的 Main Street 有成片餐馆，步行约 15–20 分钟或坐免费巡回巴士</strong>',
+        '<strong>最容易白跑的是日子和钟点：只开周五至周一，周二、周三、周四闭馆，'
+          + '且 16:30 之后不再售票入场</strong>（官方原文「Please arrive before 4:30 pm for admission」）。'
+          + '<strong>无车可达性是全区最好的：Metro-North Hudson Line 到 Beacon 站，出站步行 5 分钟</strong>，'
+          + '另有免费的 Beacon Free Loop 巡回巴士（周一至周六）连接车站、Dia、Main Street 与 Mount Beacon，'
+          + '沿线任意站牌招手即停'
       ],
       photo: '建筑 <strong>5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>1/5</strong>。'
         + '锯齿天窗投下的是大面积、方向一致的顶光加侧光，'
@@ -884,18 +1035,32 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>2.5–4 小时</strong>。'
+          + '拆开看：<strong>只看 Serra 的 Torqued Ellipses、Heizer 的 North East South West '
+          + '与二层 Bourgeois 这三处约 75 分钟</strong>（含楼层间走动）；'
+          + '<strong>把一层与二层的常设展厅走完约 2.5 小时</strong>；'
+          + '<strong>加地下层的大型特展并在 Cafe 坐一次，3.5–4 小时</strong>。'
+          + '依据为官方公布的近 30 万平方英尺建筑规模与展厅数量、'
+          + '按展厅之间 1.5–2 公里的实际步行量推算。'
+          + '<strong>注意 16:30 停止入场，17:00 闭馆，实际可用时间以此倒推</strong>',
         book: '<strong>官方口径「Advance reservations are suggested, but not required」</strong>，'
           + '即建议但非必须。次月的票在当月 15 日放出。'
           + '10 人以上团体须另行预约（grouptours@diaart.org）',
         ticket: '<strong>成人 $25、65 岁以上 $18、学生 $12、残障访客 $12、5–11 岁儿童 $5</strong>；'
           + 'Dia 会员、5 岁以下、残障访客陪护、以及 <strong>Beacon 与 Newburgh 居民免费</strong>。'
-          + '<strong>Hudson Valley 十四县居民每月最后一个周日免费</strong>。'
-          + '退换票须提前 24 小时以上',
-        hours: '<strong>周五至周一 10:00–17:00，2026 年该时段延续至 10 月 31 日；'
-          + '周二、周三、周四闭馆</strong>。'
+          + '<strong>Hudson Valley 居民每月最后一个周日免费</strong>。'
+          + '退换票须提前 24 小时以上。'
+          + '（<strong>2026 年 9 月 14 日在 diaart.org 的 Dia Beacon 页与 welcome.diaart.org 逐档复核，'
+          + '五档价格与免费条件全部一致</strong>。）',
+        hours: '<strong>周五至周一 10:00–17:00；周二、周三、周四闭馆</strong>'
+          + '（官方原文「Friday–Monday, 10 am–5 pm (hours change seasonally)」，'
+          + '2026 年 9 月 14 日复核）。'
           + '<strong>最晚入场 16:30</strong>（官方原文「Please arrive before 4:30 pm for admission」）。'
+          + '<strong>冬季时段自 11 月 1 日起改为周五至周一 10:00–16:00</strong>，'
+          + '官方给出的理由是让这座「daylight museum」全程都由天窗自然光照亮；'
+          + '<strong>也就是说十月是这一年里最后一批还有 17:00 闭馆的月份</strong>。'
           + '另于感恩节、平安夜、圣诞节与元旦闭馆。'
-          + '<strong>官方注明「hours change seasonally」，且部分展厅可能因作品性质关闭或限制进入</strong>',
+          + '<strong>官方注明部分展厅可能因作品性质关闭或限制进入</strong>',
         parking: '<strong>馆区有免费停车场</strong>。'
           + '但更好的方案是坐火车——<strong>Metro-North Hudson Line 到 Beacon 站，'
           + '自 Grand Central 约 90 分钟，出站步行 5 分钟即到</strong>，'
@@ -937,6 +1102,7 @@ module.exports = {
       n: 6,
       name: '风暴王艺术中心',
       en: 'Storm King Art Center, New Windsor',
+      must: 4.5,
       score: 5,
       tldr: '500 英亩丘陵上的巨型户外雕塑，秋色加地形加雕塑是东岸独一份；18:00 清场，10 月 18 日前拍不到黄金时段。',
       tags: [
@@ -966,6 +1132,58 @@ module.exports = {
         '<strong>官方定义的 peak fall season 为 9 月 26 日–11 月 8 日</strong>，'
           + '这段时间周六周日票价上浮（成人 $25 → $28），'
           + '<strong>10 月的周六周日提前至 09:00 开门</strong>（平日仍为 10:00）'
+      ],
+      tour: [
+        '<strong>进园第一个决定不是先看哪件作品，而是怎么移动——500 英亩不是一个可以随便乱走的尺度。</strong>'
+          + '园区南北跨度约 1.6 公里、东西约 1.2 公里，'
+          + '<strong>把主要雕塑走一遍是 6–8 公里、3–4 小时，地形还是起伏草甸与丘陵</strong>。'
+          + '三个选项：'
+          + '<strong>（一）免费的无障碍摆渡车 Tram Loop</strong>，六个站的单向环线、可随上随下，'
+          + '首班 10:15 自 1 号站发车，之后每半小时一轮'
+          + '（1 号站为整点后 15 分与 45 分，2 至 6 号站依次各晚 5 分钟），'
+          + '<strong>末班在闭园前约 15 分钟于 5 号站结束</strong>——'
+          + '这是体力有限的人的正解，也是全园唯一的代步工具；'
+          + '<strong>（二）租自行车</strong>，租车点在 Tippet\u2019s Field 旁，'
+          + '<strong>cruiser 或三轮车 $15/小时（会员 $11.25）、两小时起租，'
+          + '首次出租 10:00、最后一次出租在闭园前两小时、18:00 前必须归还</strong>，'
+          + '必须自己戴头盔并签免责书、未成年人须有成年人在场、不得骑上草地；'
+          + '<strong>个人自行车不得入园</strong>（仅残障访客的适配车辆例外）；'
+          + '<strong>（三）纯步行</strong>，只适合愿意走一整天的人',
+        '<strong>三片区域按官方地图编号写清楚，不想走全园的人照这个顺序取舍：</strong>'
+          + '<strong>South Fields（地图 4xx 区）是本园的门面</strong>——'
+          + 'Mark di Suvero 的巨型红色钢构群全在这一片'
+          + '（《Pyramidian》410、《Mother Peace》407、《Mon Père, Mon Père》406、'
+          + '《E=MC²》402、《Figolu》403、《She》411），'
+          + '<strong>Richard Serra 的大型钢构《Schunnemunk Fork》（413，1990–91）也在这里</strong>，'
+          + '四片巨大钢板顺着山坡切进地面、要走到不同高度上才看得出它在干什么；'
+          + '<strong>Museum Hill</strong> 是 1935 年的诺曼风格石砌 Museum Building，'
+          + '一层三间室内展厅（Louise Bourgeois、Louise Nevelson、David Smith 的室内作品），'
+          + '门口往南俯瞰 South Fields 是理解整个园区地形关系的位置；'
+          + '<strong>园区南端（地图 6xx 区）</strong>是 Maya Lin 的《Storm King Wavefield》（605）'
+          + '与 Andy Goldsworthy 的 2,278 英尺干砌石墙《Storm King Wall》（603）',
+        '<strong>Maya Lin 的 Wavefield 有一条几乎没人提前知道的规则：'
+          + '官方地图明文写「Entry is allowed from the 15th through the end of each month」，'
+          + '也就是每月 15 日到月底才允许走进土浪之间，上半月只能站在外面远看。</strong>'
+          + '这件作品是 11 英亩、波高 3–4.6 米、每道波脊长约 120 米的人造土浪，'
+          + '<strong>站在波谷里和站在外面看是两个完全不同的东西</strong>，'
+          + '所以如果 Wavefield 是你来的主要理由，先确认日期落在下半月',
+        '<strong>时间不够时该跳过哪里：南端。</strong>'
+          + 'Wavefield 与 Storm King Wall 距入口 1.6 公里以上，'
+          + '<strong>纯步行往返就是一个多小时，而这一小时足够你把 South Fields 与 Museum Hill 看透</strong>。'
+          + '反过来，专程为 Maya Lin 或 Goldsworthy 来的人应该直接租车、'
+          + '或坐摆渡到最南端再一路往回走，不要从入口硬走过去',
+        '<strong>体力与装备：这里没有遮阴、没有捷径，鞋是唯一重要的装备。</strong>'
+          + '园内铺装与非铺装路面混杂，<strong>坡度超过 12.5% 的路段在官方地图上有专门标注</strong>；'
+          + '<strong>秋季清晨草地露水很重，走进草甸十分钟鞋就会湿透</strong>。'
+          + '规则上：<strong>不得进入原生草地保育区、不得触摸或攀爬雕塑</strong>'
+          + '（手上的防晒霜与油脂会损伤表面）、全园禁烟、除 ADA 服务犬外不得带宠物；'
+          + '<strong>可以触摸互动的作品在地图与现场用手形图标专门标出</strong>',
+        '<strong>吃饭、卫生间与寄存：Outdoor Cafe 在 North Woods</strong>'
+          + '（平日供应现成三明治与沙拉，周五至周日为现做菜单，有啤酒与葡萄酒），'
+          + 'Museum Store 在 Museum Building 内、入口 Ticket & Information Pavilion 也有部分商品；'
+          + '<strong>入口 Outdoor Lobby 有免费储物柜，先到先得，不放柜子的物品不得无人看管</strong>；'
+          + '<strong>卫生间与饮水站在入口区与 Museum Hill 一带最集中，'
+          + '南端与 South Fields 中段之间要走很远才有，出发前先解决</strong>'
       ],
       photo: '风光 <strong>5/5</strong>，建筑 <strong>4/5</strong>，人像 <strong>4.5/5</strong>。'
         + '低角度侧光横扫过起伏草甸时，雕塑会在草地上拉出十几米长的影子，'
@@ -1031,6 +1249,16 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>3–4 小时</strong>。'
+          + '拆开看：<strong>只看 South Fields 的 di Suvero 与 Serra 加 Museum Hill 的室内展厅约 2 小时</strong>；'
+          + '<strong>把主要雕塑走一遍 6–8 公里、3–4 小时</strong>（这是大多数人的实际用时）；'
+          + '<strong>用摆渡车或租自行车可以把「含南端 Wavefield 与 Storm King Wall 的完整一圈」'
+          + '压到 2.5–3 小时</strong>；'
+          + '想从容看完并在 Cafe 吃一顿，留一整天 5–6 小时。'
+          + '<strong>硬边界是 17:00 停止入场、18:00 清场</strong>，'
+          + '所以下午 15:00 以后才到的人应该直接放弃南端。'
+          + '依据为官方地图给出的园区尺度与路径长度、'
+          + '以及官方 Tram Loop 与自行车出租的运营时段',
         book: '<strong>官方原文：「Pre-purchased tickets are required to guarantee admission and parking. '
           + 'Onsite tickets may be limited or unavailable during for certain time slots.」</strong>'
           + '即定时票不是绝对强制，但现场票在热门时段可能没有，'
@@ -1041,11 +1269,22 @@ module.exports = {
           + '9 月 26 日–11 月 8 日 peak fall season 的周六周日上浮为成人 $28、senior $25、学生与青少年 $18。</strong>'
           + '<strong>门票含园内停车。</strong>Orange County 21 岁以下学生凭证免费；'
           + 'SNAP/EBT、Whitney Museum 与 Aldrich 会员、AAM 与 ICOM 个人会员、'
-          + '博物馆从业者、残障访客陪护均可免费（须现场出示证件）',
+          + '博物馆从业者、残障访客陪护均可免费（须现场出示证件）。'
+          + '<strong>另有 Library Membership 计划：参与图书馆的持证读者可领免费通行证，'
+          + '凭证每日可免费入园两名成人加同住的所有 18 岁以下儿童。</strong>'
+          + '（<strong>2026 年 9 月 14 日在 stormking.org/tickets 的价目表逐档复核，'
+          + '平日与周末两套价格与上一版完全一致</strong>；'
+          + '当日官网首页明示「Tickets for September 2026 are now available. '
+          + 'October tickets will be released September 15」，'
+          + '<strong>即次月票仍是当月 15 日放出这条规则</strong>。）',
         hours: '<strong>周三至周一 10:00–18:00，周二闭园，最晚入场 17:00。'
           + '10 月的周六与周日提前至 09:00 开门。</strong>'
           + '会员可于开放日 09:30 起入园。'
-          + '（以上四项已于 2026 年 9 月 5 日在 stormking.org/visit 与首页 Fall Hours 表逐条核对，全部一致。）'
+          + '（以上四项已于 2026 年 9 月 5 日在 stormking.org/visit 与首页 Fall Hours 表逐条核对，'
+          + '<strong>2026 年 9 月 14 日再次复核，官网 Tickets 页原文仍为'
+          + '「open Wednesday–Monday (closed on Tuesdays). Hours are 10AM–6PM. '
+          + 'Final entry for all visitors is 5PM.」，'
+          + '首页 Fall Hours 表仍把十月的周六与周日列为 09:00–18:00</strong>。）'
           + '<strong>2026 季度 4 月 1 日开季；季末日期官网 Plan Your Visit 页并未公布，'
           + '但官方活动日历把每日导览一直排到 11 月 30 日为止，所以 11 月底闭园、10 月中完全在季内是确定的' +
           '（具体季末日未能从官方渠道确认）</strong>；'
@@ -1101,6 +1340,7 @@ module.exports = {
       n: 7,
       name: '冷泉村与 Breakneck Ridge',
       en: 'Cold Spring Village · Breakneck Ridge',
+      must: 3.5,
       score: 4,
       tldr: 'Breakneck Ridge 步道与同名车站关闭至 2027 年年中；但 Cold Spring 村本身免费、火车直达，越河正对 Storm King Mountain。',
       tags: [
@@ -1133,6 +1373,57 @@ module.exports = {
           + 'Notch Trail、Little Stony Point。'
           + '<strong>其中 Little Stony Point（41.42580, -73.96970）离村子最近</strong>，'
           + '是一片河边的小半岛，能同时看到 Storm King 与北面的 Bannerman Castle 方向'
+      ],
+      tour: [
+        '<strong>第一条必须先看的信息：Breakneck Ridge 步道目前走不了。</strong>'
+          + 'Breakneck Ridge、Wilkinson Memorial 与 Lower Brook 三个 trailhead，'
+          + '连同紧邻的 Breakneck Ridge 车站，<strong>自 2025 年 4 月 21 日起关闭</strong>，'
+          + 'MTA 车站页面当前状态就是「temporarily closed」，'
+          + 'NYS Parks 于 2026 年 4 月再次确认<strong>整个 2026 年的徒步季都不开</strong>。'
+          + '<strong>恢复时间有两种口径：NY-NJ Trail Conference 写「until mid-2027」，'
+          + '而 2026 年 4 月州政府把 $38.6 million 的人行桥施工合同授出时，公布的完工日期是 2028 年。</strong>'
+          + '<strong>也就是说这条步道什么时候能走，以出发前 breakneck.info 与 hhft.org 的施工追踪页为准</strong>'
+          + '（以上 2026 年 9 月 14 日核实）',
+        '<strong>关于同名车站的停靠规则，将来恢复后仍然要按这条来算：'
+          + 'Breakneck Ridge 站从来只在周末与节假日停靠，工作日一班车都没有。</strong>'
+          + 'MTA 在 2022 年恢复该站服务时公布的口径是'
+          + '<strong>上午 6 班北行、傍晚 5 班南行，全部只在周六、周日与假日运行</strong>。'
+          + '<strong>这对按火车来爬山的人是硬约束：错过傍晚最后一班南行就没有车</strong>，'
+          + '而且这一站不是无障碍车站、站上没有售票机（可上车买票）。'
+          + '<strong>2026 年的时刻表上已经没有这一站，最近的可用站是 Cold Spring 与 Beacon</strong>',
+        '<strong>顺便把这条步道的真实难度交代清楚，因为它是纽约州最险的热门步道之一，'
+          + '将来开放后也不该由不了解它的人随便上：</strong>'
+          + '全程 3.2–3.7 英里、爬升 1,233–1,440 英尺，'
+          + '<strong>而几乎全部爬升集中在最初的半英里——开头就是持续 30–60 分钟的手脚并用直上攀爬，'
+          + '岩面外露、下方是落差，恐高的人不要尝试</strong>。'
+          + 'NYS Parks 官方原文：「A difficult climb over some of the steepest, most exposed terrain '
+          + 'in the Hudson Highlands... Not recommended for pets, beginners, or during stormy weather '
+          + 'or after precipitation.」'
+          + '<strong>上行段被划为单向只准上行</strong>，下山要走 2021 年新建的 Nimham 连接道（500 多级石阶）'
+          + '或 Bypass / Wilkinson 线',
+        '<strong>事故频发不是形容词。</strong>'
+          + '这条步道因为「有火车直达」而吸引了大量毫无经验的人，'
+          + '结果是救援电话常年不断：'
+          + '<strong>Cold Spring 消防队 2015 年一年出动 21 次</strong>，'
+          + '地方急救部门的公开数字是 2021 年约 15 起、2022 年约 10 起、'
+          + '2023 年降到 3 起（但当年 trailhead 有半个季度是关闭的）。'
+          + 'NY-NJ Trail Conference 自 2014 年起在周末派 Trail Steward 在入口劝退准备不足的人，'
+          + '<strong>另一个常见事故原因是走到第一个假顶后原路下切、在陡坡上滑坠</strong>',
+        '<strong>所以在步道关闭的这几年，这一站的正确玩法是把它当成一个「村子加河岸」的半日游：</strong>'
+          + '<strong>Cold Spring 火车站出来就是 Main Street 底部</strong>，'
+          + '这条街是 1817 年 West Point Foundry 铸炮厂镇留下的国家历史街区，'
+          + '两侧十九世纪砖木立面几乎完整，逛店加吃饭约 1–1.5 小时；'
+          + '<strong>走到街尾就是滨水公园与凉亭（步行 5 分钟），越河正对西岸的 Storm King Mountain</strong>；'
+          + '还有余力就沿 Route 9D 往北 1.3 公里（这一段有人行道）到 <strong>Little Stony Point</strong>，'
+          + '一片伸进河里的小半岛加沙滩，半岛顶部有一小段爬升。'
+          + '<strong>想要正经爬山可以改去 Washburn / Cornish（Bull Hill）、Notch Trail 或 Mount Beacon</strong>，'
+          + '这几条在 2026 年都正常开放',
+        '<strong>停车是村里最现实的问题：路边车位极少、多为限时收费，秋季周末上午就满。</strong>'
+          + '<strong>正解是坐火车：Metro-North Hudson Line 到 Cold Spring 约 80 分钟，出站即到。</strong>'
+          + '餐饮与咖啡全部集中在 Main Street 上，选择很多，'
+          + '<strong>但秋季周末 11:00 之后排队时间很长，想省时间就早点吃或挑工作日</strong>；'
+          + '<strong>可靠的卫生间也在 Main Street 的餐饮场所里——滨水公园与 Little Stony Point '
+          + '是否有全年开放的公共卫生间未能从官方渠道确认</strong>，进村时先解决为好'
       ],
       photo: '风光 <strong>4.5/5</strong>，建筑 <strong>4/5</strong>，人像 <strong>4/5</strong>。'
         + '滨水凉亭加对岸山体是本区辨识度最高的一个构图，'
@@ -1181,9 +1472,18 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>2.5–4 小时</strong>。'
+          + '拆开看：<strong>只走 Main Street 加街尾滨水凉亭 1–1.5 小时</strong>；'
+          + '<strong>加一顿饭或一次咖啡 2.5 小时</strong>（这是从火车站下来最常见的半日游配置）；'
+          + '<strong>再往北走一趟 Little Stony Point 往返另加 60–75 分钟</strong>（单程 1.3 公里 / 20 分钟）。'
+          + '<strong>若改去替代步道 Washburn / Cornish（Bull Hill）等线，请按 3–4 小时另算</strong>。'
+          + '<strong>Breakneck Ridge 步道本身 2026 年关闭；将来开放后官方给出的用时是'
+          + '长环线 3.25 英里约 3 小时、下切到 Cold Spring 的长线 4.5 英里 3–4 小时外加 1 英里进村</strong>'
+          + '（NYS Parks 的 Hudson Highlands 徒步建议单原文口径）',
         book: '<strong>不需预约</strong>',
-        ticket: '<strong>村内街道、滨水公园与 Little Stony Point 全部免费</strong>',
-        hours: '<strong>公共空间无开闭时间限制</strong>，可拍到蓝调结束。'
+        ticket: '<strong>村内街道、滨水公园与 Little Stony Point 全部免费</strong>。'
+          + '（2026 年 9 月 14 日核实，无任何入场费；Metro-North 车票另计。）',
+        hours: '<strong>公共空间无开闭时间限制</strong>，可停留到天黑之后。'
           + '店铺与餐厅通常 10:00/11:00 至 18:00/21:00',
         parking: '<strong>村内路边停车位极少，秋季周末上午就会满</strong>，'
           + '且多为限时收费。'
@@ -1195,7 +1495,10 @@ module.exports = {
       },
       notes: [
         '<strong>Breakneck Ridge 步道、Wilkinson Memorial 步道、Lower Brook 步道'
-          + '与 Breakneck Ridge Metro-North 车站全部关闭，2026 全年不开，预计 2027 年年中恢复。</strong>'
+          + '与 Breakneck Ridge Metro-North 车站全部关闭，2026 全年不开。</strong>'
+          + '<strong>恢复时间两种口径并存：NY-NJ Trail Conference 的页面写 until mid-2027，'
+          + '而 2026 年 4 月州政府授出 $38.6 million 人行桥合同时公布的完工日期是 2028 年'
+          + '（2026 年 9 月 14 日核实）。</strong>'
           + '不要按旧攻略走，现场有围挡与告示，硬闯没有意义也不安全',
         '<strong>不要沿 Route 9D 路肩步行去找被关闭的 trailhead</strong>——'
           + '整个 Fjord Trail 工程的初衷就是因为那段路肩太危险，而现在还多了施工车辆',
@@ -1224,6 +1527,7 @@ module.exports = {
       n: 8,
       name: '熊山州立公园与珀金斯纪念车道',
       en: 'Bear Mountain State Park · Perkins Memorial Drive',
+      must: 3.5,
       score: 4,
       tldr: '开车直上 1,289 英尺山顶，360 度俯瞰 Hudson Highlands；车道 4 月 1 日至 11 月 30 日开放，但每日开关闸时间官方未公布。',
       tags: [
@@ -1251,6 +1555,53 @@ module.exports = {
         '<strong>秋色预期：山顶约 1,289 英尺，且这一带以橡树为主、比 Catskills 的枫树转色晚</strong>，'
           + '峰期约 <strong>10 月 12 日–10 月 25 日</strong>，'
           + '色调偏红褐而不是明黄——这是 Hudson Highlands 与 Catskills 在观感上的真实差别'
+      ],
+      tour: [
+        '<strong>这个点存在的全部理由是「零体力拿到一个真正的高点」，'
+          + '所以它特别适合带老人、带小孩，或者当天已经走累了的人。</strong>'
+          + '走法：Palisades Interstate Parkway Exit 19 转 Seven Lakes Drive，'
+          + '一英里后左转上 Perkins Memorial Drive，<strong>再开两英里就到海拔约 1,289 英尺的山顶</strong>'
+          + '（另有资料记 1,305 英尺），<strong>山顶停车场就在观景塔脚下，下车即到</strong>，'
+          + '开车上山单程约 10 分钟',
+        '<strong>山顶不要只站在塔下就走。</strong>'
+          + '塔是 1934 年大萧条时期由 CCC 与 WPA 修的石砌 Perkins Memorial Tower，'
+          + '纪念 Palisades Interstate Park Commission 第一任主席 George W. Perkins，'
+          + '<strong>晴天可以看到四个州与南面约 40 英里外的 Manhattan 天际线</strong>。'
+          + '但<strong>山顶的树在过去几十年长得比塔基还高，塔下随便一站并不是 360 度无遮挡</strong>——'
+          + '真正开阔的是<strong>停车场东侧（看 Hudson、对岸 Anthony\u2019s Nose 与下方的 Bear Mountain Bridge）'
+          + '与西侧（看 Harriman 的连绵丘陵）那几个具体点</strong>，各走 100–200 米。'
+          + '想加一点运动量可以走山顶环线（含 Appalachian Trail 的一小段），约 1.5 小时、爬升约 200 英尺',
+        '<strong>山下值得连着一起看的是 Trailside Museums and Zoo，而且它免费。</strong>'
+          + '官方口径<strong>「No charge. Donations accepted. Suggested donation $1.00 per person; CASH ONLY」，'
+          + '每日 10:00–16:30（4 月 1 日–11 月 30 日），全年只在感恩节与圣诞节闭馆</strong>。'
+          + '内容是沿 Appalachian Trail 一小段铺装步道排开的四座石砌小博物馆'
+          + '（爬虫两栖与鱼类馆、地质馆、自然史馆、历史馆）'
+          + '加一个收容受伤本土动物的小动物园（黑熊、东部郊狼、白头海雕等）。'
+          + '<strong>官方建议留 1–2 小时，并提醒从停车场走过去要 20 分钟；'
+          + '熊与郊狼在闭园前 30 分钟下场、博物馆提前 15 分钟锁门</strong>，'
+          + '所以别 16:00 才过去。<strong>园内不得带宠物</strong>。'
+          + '同一片还有 Hessian Lake 的环湖平路与 1915 年的 Bear Mountain Inn（有餐厅与 hiker\u2019s café）',
+        '<strong>可以直接跳过的是 Merry-Go-Round、划船与泳池这类给孩子的设施</strong>'
+          + '（泳池 2026 年因施工延到 7 月 4 日才开、9 月 7 日就收季，秋天根本不在运营期）。'
+          + '<strong>徒步的人则必须先看官方 Trail Closure Map：</strong>'
+          + 'NYS Parks 2025 年 11 月 6 日的公告写明，'
+          + '<strong>Bear Mountain Inn 附近的 Suffern-Bear Mountain、Appalachian 与 Major Welch 三条步道'
+          + '因施工绕行，一直持续到 2027 年夏季</strong>；'
+          + '另有一批 2023 年洪水以来尚未修复的步道仍在关闭中',
+        '<strong>停车与费用：车行入园费 $10 一车（Empire Pass 免费），'
+          + '而官方明示的收费时段是「周末与节假日 8:00–17:00、平日 8:00–16:00」</strong>——'
+          + '这个钟点之外进园未必有人收费。'
+          + '<strong>Perkins Memorial Drive 与山顶停车不另收费，但山顶车位不多，'
+          + '秋季周末与好天气会停满</strong>，'
+          + '满了之后只能停在出停车场后那个通往野餐区的岔口路边。'
+          + '<strong>山顶没有卫生间，最近的在山下 Bear Mountain Inn 一带</strong>，上山前先解决',
+        '<strong>这里唯一真正的坑是闸门时间：Perkins Memorial Drive 的每日开关闸钟点，'
+          + 'NYS Parks 官网从来没有公布过。</strong>'
+          + '官方只给季节（4 月 1 日–11 月 30 日，weather permitting）与公园本体的「dawn to dusk」；'
+          + '第三方资料里流传的「8:00–16:30」不是官方口径，'
+          + '也有访客反映早晨开闸时间不可靠、在闸门外等过一个多小时。'
+          + '<strong>如果打算在山顶待到接近天黑，或者想赶早晨第一缕光，'
+          + '请当天先打 845-786-2701 问清楚闸门几点锁——被锁在山上是真实存在的风险</strong>'
       ],
       photo: '风光 <strong>4.5/5</strong>，建筑 <strong>3/5</strong>，人像 <strong>3/5</strong>。'
         + '360 度视角加零体力成本，性价比在本区最高。'
@@ -1299,14 +1650,32 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>1–2 小时（只上山顶）；把山下一并看完 3.5–4.5 小时</strong>。'
+          + '拆开看：<strong>开车上山、在塔下与东西两侧观景点各站一会儿再下山，约 1 小时</strong>'
+          + '（含上下山各 10 分钟车程）；'
+          + '<strong>加走一圈山顶环线步道另加 1.5 小时</strong>；'
+          + '<strong>山下 Trailside Museums and Zoo 官方建议 1–2 小时，'
+          + '另需从停车场步行 20 分钟过去</strong>；'
+          + '再加 Hessian Lake 环湖一圈约 30–40 分钟。'
+          + '依据为官方公布的车道里程与 Trailside 官方建议时长',
         book: '<strong>不需预约</strong>',
         ticket: '<strong>Perkins Memorial Drive 与山顶停车免费</strong>；'
-          + '山下 Bear Mountain 主停车场 $10 每车',
+          + '<strong>车行入园费 $10 每车（Empire Pass 免费），'
+          + '官方明示收费时段为「Year-Round；Weekends & Holidays 8:00-5:00 pm；Weekdays 8:00-4:00 pm」</strong>。'
+          + '<strong>Trailside Museums and Zoo 免费，建议每人捐 $1、只收现金</strong>；'
+          + '泳池 $5 每人（只收现金，季节为 2026 年 7 月 4 日–9 月 7 日）；'
+          + '<strong>大巴须提前申请许可（团体 $60、现场办 $150），'
+          + '且 2026 年 5 月至 9 月的周六周日与节假日不接受大巴</strong>。'
+          + '（以上于 <strong>2026 年 9 月 14 日</strong>在 parks.ny.gov/parks/bearmountain 的'
+          + 'Hours and Fees 栏逐条核对。）',
         hours: '<strong>公园本体：dawn to dusk，全年开放</strong>（NYS Parks 官方口径）。'
           + '<strong>Perkins Memorial Drive 与 Perkins Memorial Tower：'
           + '4 月 1 日–11 月 30 日，视天气开放</strong>'
-          + '（官方原文「April 1 - November 30, weather permitting」）。'
-          + '<strong>整个 9 月下旬至 10 月底的窗口都在季节内。</strong>'
+          + '（官方原文「April 1 - November 30, weather permitting」，'
+          + '<strong>2026 年 9 月 14 日在 parks.ny.gov 复核，仍是这一行字，没有任何钟点</strong>）。'
+          + '<strong>反过来说，12 月 1 日至次年 4 月 1 日整条车道季节性关闭</strong>'
+          + '（NY-NJ Trail Conference 的季节性道路关闭表把 Perkins Memorial Drive 列在这一名单里），'
+          + '<strong>因此四月到十一月底的任何时候来，只要天气允许，车道都在季节内</strong>。'
           + '<strong>但每日开关闸的具体钟点 NYS Parks 官网没有公布，未能从官方渠道确认</strong>：'
           + '第三方资料给出「山顶塔楼 16:00 关闭」与「车道号称日出至日落但早晨开闸时间不可靠」两种说法。'
           + '出发当天请致电 845-786-2701 核实',
@@ -1325,9 +1694,13 @@ module.exports = {
         '<strong>2026 年 7 月 5 日的暴雨冲毁了 Palisades Interstate Parkway 在 Exit 19 '
           + '与 Bear Mountain Circle 之间的路面</strong>，'
           + '南向 7 月 8 日恢复通行、北向随后数日恢复；'
-          + '同期公园泳池与 Trailside Museums & Zoo 宣布无限期关闭。'
-          + '<strong>这两项设施在 9–10 月是否恢复未能从官方渠道确认</strong>，'
-          + '但不影响 Perkins Drive 与山顶',
+          + '当时公园还因一棵倒树同时压断电缆与水管而中断供水供电（电力 7 月 7 日恢复）。'
+          + '<strong>2026 年 9 月 14 日复核的结果是这些中断已经过去：'
+          + 'Trailside Museums and Zoo 的官网与 NYS Parks 页面都列出正常时段（每日 10:00–16:30），'
+          + '泳池则是因施工延后到 7 月 4 日开季、9 月 7 日已收季。</strong>'
+          + '<strong>仍在生效的是 Bear Mountain Inn 附近三条步道的施工绕行（持续到 2027 年夏）'
+          + '与 2023 年洪水以来未修复的步道关闭</strong>，'
+          + '出发前请查官网的 Bear Mountain Trail Closure Map；这些都不影响 Perkins Drive 与山顶',
         '<strong>山顶树木在过去数十年长高了不少</strong>，'
           + '不要指望在塔下随便一站就有 360 度无遮挡——'
           + '真正开阔的方向要走到停车场东侧与西侧的几个具体点位',
@@ -1354,6 +1727,7 @@ module.exports = {
       n: 9,
       name: '沉睡谷与塔里敦',
       en: 'Sleepy Hollow Cemetery · Old Dutch Church · Lyndhurst',
+      must: 4,
       score: 3.5,
       tldr: '墓园免费但明文禁三脚架且 16:30 清场；10 月下旬是本区人最多的地方，原因是万圣节季不是秋色。',
       tags: [
@@ -1391,6 +1765,61 @@ module.exports = {
           + '<strong>10 月每晚开放</strong>，9 月与 11 月为选定夜场。'
           + '超过 7,000 个手工雕刻南瓜。'
           + '<strong>全部为定时票、只在线预售、现场不售票</strong>'
+      ],
+      tour: [
+        '<strong>先把三块地分清楚，这是这一带最常见的误会：</strong>'
+          + '<strong>Old Dutch Church（约 1685 年）与紧挨着它的 Old Dutch Burying Ground，'
+          + '才是《The Legend of Sleepy Hollow》小说里的那个墓地</strong>；'
+          + '<strong>北侧的 Sleepy Hollow Cemetery 是 1849 年另建的 90 英亩田园公墓，'
+          + 'Washington Irving 葬在这里</strong>，两者是两块地、两个年代；'
+          + '<strong>Lyndhurst 则在南边 Tarrytown，是需要另买票的哥特复兴宅邸</strong>。'
+          + '教堂到墓园入口步行 400 米 / 6 分钟，到 Lyndhurst 要开车或打车',
+        '<strong>墓园的正确逛法是先拿图再找人。</strong>'
+          + '<strong>两个入口的资料箱与 540 North Broadway 的办公室都有免费的法律用纸尺寸导览图，'
+          + '标出 8 位主要人物</strong>；想看全可以花钱买 17"×20" 全彩详图（标出 50 多个点，'
+          + '办公室、Tarrytown 的 Bella\u2019s Boutique 或官方网店有售）。'
+          + '<strong>Washington Irving 墓的找法很具体：先站到 Old Dutch Church，'
+          + '从教堂后面往上坡走，快到坡顶时有一扇写着「Irving」的黑色铁门，家族墓地就在门内。</strong>'
+          + '同园另有 Andrew Carnegie、Walter Chrysler、Samuel Gompers、Elizabeth Arden、'
+          + 'Brooke Astor、William Rockefeller、Leona Helmsley。'
+          + '<strong>90 英亩可以开车绕，但请慢行、不得停在草地与墓上，狗须牵绳</strong>',
+        '<strong>这里的规矩比任何一个景点都硬，进门前必须知道：</strong>'
+          + '<strong>只允许用手持相机或手机拍个人用途的照片；'
+          + '三脚架、独脚架、灯具、反光板、视频、摄影聚会、'
+          + '以及穿戏服拍照全部禁止</strong>，'
+          + '除非事先取得墓园主管的书面许可并缴场地费。'
+          + '墓园对访客的原话是<strong>「act as if you are attending the funeral of a beloved relative」</strong>——'
+          + '这不是客套，园里随时有人在办葬礼。'
+          + '<strong>另外所有团体必须由墓园工作人员陪同，未经许可的团体会被立即请离</strong>，'
+          + '外部机构与个人都不得在园内自行带团',
+        '<strong>墓园自己有白天步行导览，值得买，但十月的场次要临时查：</strong>'
+          + '一小时的 The Original Knickerbocker（讲 Washington Irving 与《Legend》）'
+          + '与两小时的白天漫步，<strong>2026 年公布的场次是周六与周日'
+          + '13:00–14:00、15:00–16:00（一小时场）与 14:00–16:00（两小时场），但只排到九月为止</strong>；'
+          + '官网写「October & November dates will be posted in early September」，'
+          + '<strong>而 2026 年 9 月 14 日查看时十月与十一月的场次仍未上线，'
+          + '十月导览的具体时间未能从官方渠道确认</strong>',
+        '<strong>十月这一带的头号活动是 Great Jack O\u2019Lantern Blaze，'
+          + '但它不在 Sleepy Hollow 村内——会场是往北约 12 公里、'
+          + 'Croton-on-Hudson 的 Van Cortlandt Manor（525 South Riverside Avenue）。</strong>'
+          + '<strong>2026 年档期 9 月 18 日–11 月 8 日共 44 晚：9/18–20、9/25–30、10/1–31、11/1、11/6–8，'
+          + '也就是十月每晚都开</strong>，超过 7,000 个手工雕刻南瓜。'
+          + '<strong>全部定时票、只在线预售、现场绝对不售票。</strong>'
+          + '<strong>最容易白跑的一条：停车场只在你票面入场时段的前 30 分钟开放，'
+          + '官方原话是早到会被劝返「no exceptions」</strong>；'
+          + '入场时段结束后 30 分钟停车场关闭、45 分钟后步道停止放行。'
+          + '<strong>官方给的用时是「大多数人约 45 分钟」（组织方另给 45–90 分钟的区间），'
+          + '买了 VIP 加项的人应留 75 分钟到 2 小时</strong>。停车免费',
+        '<strong>白天能进的地方比想象中少，排计划时务必先看这一条。</strong>'
+          + 'Historic Hudson Valley 两处白天参观的开放日和直觉正好相反：'
+          + '<strong>Philipsburg Manor 十月只开周一、周三、周四；'
+          + 'Washington Irving\u2019s Sunnyside 的白天导览 9 月 20 日之后停到 11 月 6 日才恢复</strong>；'
+          + '<strong>Kykuit 的公众导览 2026 全年停办</strong>（见注意事项）。'
+          + '<strong>结果是周末白天来这一带，实际只有 Old Dutch Church、Sleepy Hollow Cemetery '
+          + '与 Lyndhurst 三处可进，而墓园 16:30 就清场。</strong>'
+          + '好处是白天场与夜场之间自然留出一段空档——'
+          + '<strong>Tarrytown 的 Main Street 与 Broadway 一线餐馆密集，正好用来吃晚饭再去夜场</strong>；'
+          + '墓园与 Old Dutch Church 一带没有正经餐饮'
       ],
       photo: '风光 <strong>2.5/5</strong>，建筑 <strong>4/5</strong>，人像 <strong>2/5</strong>。'
         + '哥特复兴的 Lyndhurst 与 1685 年的石砌教堂是扎实的建筑题材；'
@@ -1446,6 +1875,16 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>半天 3.5–5 小时（含三处）；单看墓园 1.5–2 小时</strong>。'
+          + '拆开看：<strong>Old Dutch Church 与 Old Dutch Burying Ground 30–40 分钟</strong>；'
+          + '<strong>Sleepy Hollow Cemetery 自助逛 1.5–2 小时</strong>'
+          + '（90 英亩，拿免费导览图走完 8 个主要墓位；'
+          + '参加官方一小时导览则为 1 小时、两小时漫步为 2 小时）；'
+          + '<strong>Lyndhurst 的宅邸导览约 1 小时、加庭园与河岸草坪共 1.5–2 小时</strong>。'
+          + '<strong>Great Jack O\u2019Lantern Blaze 是单独一场夜间活动，'
+          + '官方口径「大多数人约 45 分钟」，买 VIP 加项的留 75 分钟到 2 小时，'
+          + '另需算上「只能在入场时段前 30 分钟进停车场」这条规则</strong>。'
+          + '<strong>硬边界是墓园 16:30 清场</strong>，所以白天三处必须在下午四点半之前排完',
         book: '<strong>Sleepy Hollow Cemetery 个人参观不需预约</strong>'
           + '（但所有团体必须由墓园工作人员陪同，未经许可的团体会被立即请离）。'
           + '<strong>Lyndhurst 的宅邸导览必须提前在线购票</strong>，'
@@ -1460,11 +1899,26 @@ module.exports = {
           + '2026 年 Fall Classic Mansion Tour 官方标价区间为 <strong>$10–$29 加服务费</strong>，'
           + '2025 年的分档为成人 $29、senior/AAA/军人/学生 $27、6–16 岁 $22、5 岁及以下 $10，'
           + '<strong>2026 年逐档金额未能从官网确认</strong>；持宅邸票者不需另买 Grounds Pass。'
-          + '<strong>Blaze：基础定时票起价 $24，标准价成人 $32、senior $31、3–17 岁 $24，'
-          + '2 岁以下免费；含 VIP 体验的票起价 $39 与 $64；'
-          + 'FLEX 起价 $129、FLEX PLUS 起价 $189（任意开放夜可入，售罄日也有效）。停车免费</strong>',
+          + '<strong>Blaze（2026 年 9 月 14 日在 pumpkinblaze.org 的 Ticket Options 与 '
+          + 'Plan Your Visit 两页逐档核对）：标准定时票 <strong>$24–$32</strong>，'
+          + '按档为成人 $32、senior $31、3–17 岁 $24，2 岁以下免费且不需票；'
+          + 'Historic Hudson Valley 会员的标准票免费。'
+          + '加 The Headless Horseman\u2019s Hideaway 的组合票'
+          + '<strong>官网两页口径不一：Plan Your Visit 页写 from $39，Ticket Options 页写 From $42</strong>，'
+          + '两种都列在此不代为取舍；'
+          + '加 18 岁以上的 The Gourd & Goblet Tavern 组合票 from $64。'
+          + '<strong>FLEX $129、FLEX PLUS $189（任意开放夜任意时段可入，售罄日同样有效，数量很少）</strong>。'
+          + '所有票均含免费停车以及商店与庭院小食摊的入场</strong>',
         hours: '<strong>Sleepy Hollow Cemetery：周一至周五 08:00–16:30，周六周日 08:30–16:30，'
-          + '16:30 后不得入园</strong>。'
+          + '16:30 后不得入园，全年每日开放</strong>'
+          + '（官方原文「open daily: Monday through Friday from 8:00 AM to 4:30 PM, '
+          + 'Saturday and Sunday from 8:30 AM to 4:30 PM」，'
+          + '<strong>2026 年 9 月 14 日在 sleepyhollowcemetery.org/visiting 复核</strong>；'
+          + '墓园办公室周一至周五 08:30–16:00，主要节假日关闭）。'
+          + '<strong>Blaze 的入场时段逐日不同，须看官网日历</strong>——'
+          + '例如 2026 年 9 月 18 日为 19:30、20:00、20:30、21:00 四档；'
+          + '<strong>入场时段结束后 30 分钟停车场入口关闭、45 分钟后步道停止放行、'
+          + '礼品店开到最后一档入场后 90 分钟</strong>。'
           + '<strong>Lyndhurst：庭园 4 月至 12 月每日开放</strong>，'
           + '官网 Plan Your Visit 页现行口径为 <strong>09:30–16:30</strong>，'
           + '但 Daily Grounds Pass 页写 09:30–17:00 最晚入场 16:00、Hours 页写 09:00–17:00，'
@@ -1546,6 +2000,629 @@ module.exports = {
           cap: 'Lyndhurst 河岸草坪与 Hudson · Ad Meskens / CC BY-SA 3.0' },
         { url: 'img/sleepy-hollow-cemetery-from-rockefeller-state-park-3ead8bd3.jpg',
           cap: 'Sleepy Hollow Cemetery 秋季远景 · PointsofNoReturn / CC BY-SA 4.0' }
+      ]
+    },
+    {
+      id: 'fdr-hyde-park',
+      n: 10,
+      name: '罗斯福故居与总统图书馆',
+      en: 'Home of Franklin D. Roosevelt NHS · FDR Presidential Library, Hyde Park',
+      must: 4,
+      score: 3,
+      tldr: '美国第一座总统图书馆加 FDR 出生与下葬的 Springwood；故居只能跟定时导览，且个人不接受预约、只能当天现场排。',
+      tags: [
+        { t: '故居 $15', c: 'paid' },
+        { t: '图书馆另 $15', c: 'paid' },
+        { t: '故居仅限导览', c: 'risk' },
+        { t: '个人不可预约', c: 'risk' },
+        { t: '庭园免费', c: 'free' }
+      ],
+      highlights: [
+        '<strong>Springwood 是 Franklin D. Roosevelt 1882 年 1 月 30 日出生、成长、'
+          + '并在 1945 年 4 月下葬的同一栋房子</strong>——'
+          + '美国总统里能把这三件事放在一个地址上的极少。'
+          + '他与 Eleanor（1962 年）一起葬在宅前的 Rose Garden 里，'
+          + '<strong>墓在庭园范围内，不买票也能走到</strong>',
+        '<strong>这里是美国第一座总统图书馆，而且是唯一一座现任总统自己用过的。</strong>'
+          + 'FDR 1939 年自行筹款兴建、1941 年落成，'
+          + '任内就在这栋楼里的书房办公；'
+          + '把总统文件交给国家而不是当作私人财产带走，这个先例就是从这里开始的，'
+          + '<strong>此后每一任总统的图书馆都照这个模式办，现由 National Archives 运营</strong>——'
+          + '也正因如此，它和隔壁 NPS 管的故居是两个机构、两张票',
+        '<strong>房子今天的样子来自 1915 年的那次扩建。</strong>'
+          + '原本是一栋十九世纪初的农舍，1866 年 FDR 的父亲 James Roosevelt 买下，'
+          + '1915 年 FDR 与母亲 Sara 加了两侧石砌翼楼与柱廊门廊，'
+          + '成了现在这座约三十五间房的宅邸（房间数为常见资料口径）。'
+          + '<strong>母亲 Sara 一直住在这里直到 1941 年去世，这栋房子在她手里的时间比在 FDR 手里长得多</strong>',
+        '<strong>室内是按 1945 年 FDR 去世时的状态保存的，不是复原布景</strong>：'
+          + '他的书房、他出生的那间卧室、'
+          + '以及为下肢瘫痪而改装的细节都在原位。'
+          + '<strong>这是它和一般「豪宅参观」最大的区别——看的是一个人的生活现场</strong>',
+        '<strong>Hyde Park 一带有三处彼此相邻的 NPS 站点：</strong>'
+          + '罗斯福故居、往北约 4 公里的 Vanderbilt Mansion、'
+          + '以及 Eleanor Roosevelt 自己的 Val-Kill。'
+          + '<strong>$45 的 Roosevelt-Vanderbilt 年票在前两处通用（含持票人加三名 16 岁以上同行者）</strong>，'
+          + '同一天做两处就比买两张单票划算'
+      ],
+      tour: [
+        '<strong>先说这里最容易白跑的一条：故居只能跟着 park ranger 的定时导览进，'
+          + '而且官方明文写「There are no advanced reservations for individuals」——'
+          + '个人与家庭一律不能预约，只能当天在 Henry A. Wallace Visitor Center 前台现场买，先到先得。</strong>'
+          + '官方同时提示<strong>「In the summer months and October tours may sell out early」</strong>，'
+          + '也就是夏季与十月的场次可能上午就卖完。'
+          + '<strong>结论：想进屋就早上先到 Visitor Center 买票拿时段，再去做别的</strong>。'
+          + '另外<strong>只收信用卡，不收现金</strong>',
+        '<strong>拿到时段之后按这个顺序走最省事：</strong>'
+          + '先进 <strong>FDR Presidential Library & Museum</strong>（自助参观、不用跟团，'
+          + '看 FDR 在这栋楼里的书房、Eleanor 的展区与他那辆装了手控装置、可以自己开的福特敞篷车），'
+          + '<strong>1.5–2 小时</strong>；'
+          + '时间到了再回来跟导览进故居，<strong>45 分钟</strong>；'
+          + '出来最后走 Rose Garden 的墓与宅前草坪。'
+          + '这样排的好处是图书馆随时可进、可长可短，正好用来填等待导览的空档',
+        '<strong>务必把从 Visitor Center 到导览集合点的那段路算进时间——'
+          + '官方在两个页面上都专门提醒「there is a 5-to-10-minute walk from the visitor center '
+          + 'to the tour starting location at the stables」。</strong>'
+          + '不是下车即到，迟到了导览不会等你。'
+          + '导览会带你走完主要房间，<strong>室内禁用闪光灯，全程跟队，没有自由取景的时间</strong>',
+        '<strong>不买票也能看到相当一部分，这一点值得知道：'
+          + '庭园、Rose Garden 的墓、宅前望向 Hudson 的坡地与 Roosevelt Farm Lane 步道全部免费</strong>，'
+          + '十月开放时段为 07:00–18:00（<strong>闸口在闭园前 30 分钟关闭</strong>）。'
+          + '所以如果当天故居票已经售完，这一站也不算白来——'
+          + '<strong>只有屋子里面需要买票，外面不需要</strong>',
+        '<strong>吃饭与卫生间要提前想：</strong>'
+          + 'Wallace Visitor Center 里有卫生间、商店与一个小咖啡馆，'
+          + '<strong>但咖啡馆 2026 年的营业时段未能从官方渠道确认</strong>，'
+          + '别把正餐指望在园内。'
+          + '<strong>Route 9 沿线有连锁与本地餐馆；南面约 5 公里就是 Culinary Institute of America，'
+          + '它的几家餐厅由厨艺学生运营、需要提前订位</strong>，是这一带最有意思的一顿饭',
+        '<strong>顺路组合的算法：故居加图书馆是半天（3–4 小时），'
+          + '再往北 4 公里加一处 Vanderbilt Mansion 就是完整一天。</strong>'
+          + '两处的导览都是现场先到先得、都只收信用卡、都在同一张 $45 年票覆盖范围内。'
+          + '<strong>Eleanor 的 Val-Kill 也在附近，但它 2026 年的开放时段与导览安排未能核实，'
+          + '出发前请查 nps.gov/elro 或致电 845-229-5320</strong>'
+      ],
+      photo: '建筑 <strong>3.5/5</strong>，风光 <strong>3/5</strong>，人像 <strong>2.5/5</strong>。'
+        + 'Springwood 的柱廊立面朝东、上午顺光，但它是一栋朴素的乡间宅邸而不是炫技建筑；'
+        + '<strong>室内禁用闪光灯且全程跟团，几乎没有自由取景的余地</strong>。',
+      shots: [
+        {
+          name: 'Springwood 东立面与前草坪',
+          park: [41.76990, -73.93324],
+          view: [41.76722, -73.93564],
+          desc: '<strong>柱廊正立面朝东，因此上午 09:00–11:00 是唯一的正面光时段</strong>，'
+            + '下午整片进入阴影。'
+            + '停车与买票坐标为 Henry A. Wallace Visitor Center 的 OSM 节点，'
+            + '拍摄坐标为 Springwood 主宅的 OSM 建筑节点，'
+            + '<strong>两点之间即官方提醒的 5–10 分钟步行</strong>。'
+            + '24–70mm 拍立面全貌加草坪前景，'
+            + '85–135mm 抽取两侧石砌翼楼与柱头的细部。'
+            + '庭园 07:00 就开（十月开放到 18:00、闸口 17:30 关），'
+            + '<strong>清晨草坪有露水与斜光，而且那时园里几乎没有人</strong>。',
+        },
+        {
+          name: 'Rose Garden 的墓与望向 Hudson 的西坡',
+          desc: '墓园在主宅旁的 Rose Garden 内，'
+            + '白色大理石墓碑正面朝北，'
+            + '<strong>这里要的是安静与秩序感而不是光线戏法，阴天与清晨都合适</strong>。'
+            + '再往西走到坡沿可以越过树冠看到 Hudson 河面。'
+            + '35–50mm 拍墓碑与围篱的关系。'
+            + '<strong>无独立 OSM 实体节点，地图无针脚。</strong>',
+        }
+      ],
+      access: {
+        visit: '<strong>3–4 小时（故居加图书馆）</strong>。'
+          + '拆开看：<strong>故居导览本身 45 分钟</strong>（官方口径），'
+          + '加上现场买票与 5–10 分钟步行，这一段实际要留 1.5 小时；'
+          + '<strong>FDR Presidential Library & Museum 自助参观 1.5–2 小时</strong>；'
+          + '<strong>Rose Garden 的墓与宅前庭园 30–45 分钟</strong>。'
+          + '<strong>只看免费庭园与墓 45 分钟；把三样都从容做完留 4 小时</strong>。'
+          + '依据为 NPS 官方导览时长（45 分钟）、官方「5–10 分钟步行」提示'
+          + '与图书馆的展厅规模推算',
+        book: '<strong>故居导览：个人与家庭不接受预约</strong>'
+          + '（官方原文「Tickets are sold on a first come, first served basis. '
+          + 'There are no advanced reservations for individuals.」），'
+          + '一律在 Henry A. Wallace Visitor Center 现场先到先得。'
+          + '<strong>只有商业大巴与 20 人以上团体必须预约，且只能通过 recreation.gov</strong>。'
+          + '<strong>FDR Presidential Library & Museum 的票可以在线预购</strong>'
+          + '（buy.acmeticketing.com，购票后凭邮件确认入场），也可在 Visitor Center 购买',
+        ticket: '<strong>故居（NPS）：$15 一人，16 岁及以上都要买（含同车的乘客），15 岁及以下免费</strong>。'
+          + '<strong>FDR Presidential Library & Museum（National Archives）：成人另一张 $15</strong>——'
+          + '<strong>官方明确写明两者是分开售票的两个机构</strong>。'
+          + '<strong>Roosevelt-Vanderbilt 年票 $45</strong>，'
+          + '覆盖持票人加三名 16 岁以上同行者、有效期一年，'
+          + '<strong>同一天再去 Vanderbilt Mansion 就划算</strong>；'
+          + 'America the Beautiful 系列（含 Senior、Access、Military）在 Hyde Park 的 NPS 站点通用；'
+          + '联邦免费入园日当天免收入场费。'
+          + '<strong>只接受信用卡或借记卡，不收现金</strong>（官方原文「Credit cards are the only form '
+          + 'of payment we can accept」）。'
+          + '（以上于 <strong>2026 年 9 月 14 日</strong>在 nps.gov/hofr 的 Fees & Passes 页'
+          + '与 fdrlibrary.org/hours 逐条核对。）',
+        hours: '<strong>故居导览：自阵亡将士纪念日至十月底每日运行，'
+          + '首场 09:30、末场 16:00，每场约 45 分钟</strong>'
+          + '（官方原文「From Memorial Day to the end of October, tours of the Home of FDR are '
+          + 'offered daily. The first tour starts at 9:30 AM. The last tour starts at 4:00 PM.」）。'
+          + '<strong>没有每周闭馆日</strong>，但官方注明场次会随季节与团队预约调整。'
+          + '<strong>2026–2027 年的节假日安排：11 月 11 日退伍军人节 09:30–15:30；'
+          + '11 月 26 日感恩节、12 月 25 日圣诞节、2027 年 1 月 1 日元旦闭馆</strong>。'
+          + '<strong>Wallace Visitor Center：4 月至 10 月每日 09:00–18:00。</strong>'
+          + '<strong>FDR Presidential Library & Museum：每周七天，4–10 月 09:00–18:00、'
+          + '11–3 月 09:00–17:00。</strong>'
+          + '<strong>庭园（免费）：4/1–8/31 07:00–20:00、9 月 07:00–19:00、10 月 07:00–18:00、'
+          + '11/1–1/31 07:00–17:00，闸口一律在闭园前 30 分钟关闭</strong>。'
+          + '（2026 年 9 月 14 日在 nps.gov/hofr 的 Operating Hours & Seasons 页核实。）',
+        parking: '<strong>Henry A. Wallace Visitor Center 有免费停车场</strong>，'
+          + '入口在 Route 9（Albany Post Road）上，'
+          + '导览售票、图书馆入口与卫生间都在这里。'
+          + '<strong>无车方案：Metro-North Hudson Line 或 Amtrak 到 Poughkeepsie 后打车约 15 公里 / 20 分钟</strong>'
+          + '（Amtrak 另有 Rhinecliff 站，在北面）；'
+          + 'Dutchess County 的公交沿 Route 9 有线路但班次很少，'
+          + '<strong>2026 年的具体班次未能核实</strong>',
+        walk: 'Visitor Center 到故居导览集合点（马厩）官方口径为 5–10 分钟步行（约 400 米）；'
+          + 'FDR 图书馆与 Visitor Center 相邻，步行 2 分钟；'
+          + 'Rose Garden 的墓在主宅旁 100 米内'
+      },
+      notes: [
+        '<strong>这一站的头号风险是「当天票没了」。</strong>'
+          + '故居不接受个人预约、只能现场排，而官方自己提示夏季与十月可能早早售完。'
+          + '<strong>没有 Plan B 的话，至少要知道庭园与墓是免费且不需要票的</strong>',
+        '<strong>只收信用卡，一分现金都用不上</strong>——这是 NPS 在这几个站点的统一政策',
+        '<strong>室内禁用闪光灯</strong>；导览全程跟队，'
+          + '想拍安静的画面只能在室外与庭园',
+        '<strong>不要按「停车场就在门口」来安排时间</strong>：'
+          + '到导览集合点还有 5–10 分钟的步行，官方两处页面都特意写了这句话',
+        '<strong>同一天可以把 Vanderbilt Mansion（往北 4 公里）一起做，'
+          + '$45 的 Roosevelt-Vanderbilt 年票两处通用</strong>；'
+          + 'Eleanor 的 Val-Kill 是第三处站点，'
+          + '<strong>但它 2026 年的开放安排未能从官方渠道确认，请致电 845-229-5320</strong>',
+        '<strong>季节参考：Hyde Park 在 Hudson 东岸、海拔很低，属于 mid-Hudson 那一段秋色</strong>，'
+          + '峰期约十月中旬；宅前草坪的大树是这里秋天最好看的部分',
+        '园内没有正餐，Route 9 沿线与南面 5 公里的 Culinary Institute of America 是两个现实选择，'
+          + '后者需提前订位'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Springwood_FDR_home_NY1.jpg',
+          cap: 'Springwood 主宅立面 · Acroterion / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Home_of_Franklin_D._Roosevelt_National_Historic_Site%2C_New_York_LOC_2005625786.jpg',
+          cap: '故居与前草坪全景 · United States National Park Service / 公有领域' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/c/c6/Roosevelt_presidential_library_NY1.jpg',
+          cap: 'FDR Presidential Library & Museum 建筑 · Acroterion / CC BY-SA 4.0' }
+      ]
+    },
+    {
+      id: 'west-point',
+      n: 11,
+      name: '西点军校',
+      en: 'United States Military Academy, West Point',
+      must: 4,
+      score: 3.5,
+      tldr: '只能跟官方巴士导览进校：必须提前在线订票、填证件信息过背景调查、上车出示原件；现场不售票，售罄或忘带证件一律不退。',
+      tags: [
+        { t: '$22 起', c: 'paid' },
+        { t: '仅限官方导览', c: 'risk' },
+        { t: '须实名过安检', c: 'risk' },
+        { t: '现场不售票', c: 'risk' },
+        { t: '球赛日不开', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>这里先是要塞，后才是学校。</strong>'
+          + '1778 年美军在 Hudson 最窄、船必须减速转弯的这一段建起 Fortress West Point，'
+          + '<strong>并在河面上横架起一条巨大的铁链（Great Chain）拦阻英国军舰</strong>；'
+          + '<strong>1780 年 Benedict Arnold 打算卖给英军的正是这座要塞</strong>。'
+          + '1802 年 3 月 16 日，军校在同一块地上成立，'
+          + '<strong>是美国现役最久的军事驻地之一，至今从未失守</strong>',
+        '<strong>Trophy Point 是全校最值得站一站的地方，而且它同时是历史现场与观景台。</strong>'
+          + '草地上陈列着历次战争缴获的火炮，'
+          + '<strong>以及那条 Great Chain 留存下来的链环——单个链环重达上百磅，凑近看才有实感</strong>；'
+          + '越过 Hudson 正对 Constitution Island 与河道的急弯，'
+          + '这是 Hudson Highlands 最经典的一个河景',
+        '<strong>Cadet Chapel（1910 年）是一座石砌哥特复兴教堂，'
+          + '据校方口径，堂内的管风琴是世界最大的教堂管风琴之一，音管超过两万三千根。</strong>'
+          + '巴士导览会停靠这里，'
+          + '另外 Battle Monument 与阅兵场 the Plain 也是固定停靠点——'
+          + '<strong>the Plain 就是学员每年列队受阅的那片草地</strong>',
+        '<strong>最要紧的一条是它的身份：这是一座现役陆军驻地，不是景区。</strong>'
+          + '<strong>2026 年 3 月 2 日起，西点所有入口实行 100% 证件查验，'
+          + '且它是 REAL ID 合规驻地</strong>——'
+          + '非国防部证件持有者必须先在 Visitor Control Center 办当地通行证'
+          + '（2107 New South Post Road, Highland Falls，每日 06:00–18:00）。'
+          + '<strong>外籍访客更严：官方规定必须持有效护照加签证或 ESTA，'
+          + '并且全程由国防部证件持有者陪同才能进入</strong>——'
+          + '<strong>所以对普通游客、尤其是外籍游客来说，'
+          + '唯一现实可行的进入方式就是买 West Point Tours 的官方巴士导览</strong>。'
+          + '这一条不搞清楚，来了只能在校门外转',
+        '<strong>校门之外还有两处免费、不需要过安检的地方：'
+          + 'Fred V. Malek Visitors Center 与紧邻的 West Point Museum。</strong>'
+          + '博物馆在 Olmsted Hall 四层楼里把藏品从古代兵器一路排到现代战争，'
+          + '<strong>被称为西半球最古老、门类最全的公共军事藏品</strong>，'
+          + '<strong>周二至周日 09:30–16:15、周一闭馆、免费</strong>'
+          + '（2026 年 9 月 14 日查 history.army.mil 的 Army Museum Enterprise 页面）；'
+          + 'Visitors Center 则是<strong>每日 09:00–16:45</strong>。'
+          + '<strong>对没订到导览的人来说，这是唯一的补救方案</strong>'
+      ],
+      tour: [
+        '<strong>这一条读完再决定要不要来：普通游客不能自己开车或步行进校。</strong>'
+          + '<strong>唯一的办法是在 westpointtours.com 提前在线预订官方巴士导览</strong>，'
+          + '官网原文「ONLINE RESERVATIONS ARE REQUIRED AND CLOSE 1 HOUR BEFORE THE TOUR START TIME」'
+          + '与「WE DO NOT TAKE RESERVATIONS BY PHONE」、'
+          + '<strong>「There are no in person ticket sales.」</strong>——'
+          + '也就是说不接受电话订票、现场没有售票窗口。'
+          + '同日在线预订是可以的，但<strong>每个时段在发车前 1 小时关闭，'
+          + '因为要留时间跑安检背景调查</strong>',
+        '<strong>证件与背景调查是这一站最容易翻车的环节，逐条照做：</strong>'
+          + '<strong>（一）订票时，18 岁及以上的每一位乘客都必须填入政府签发的带照片证件信息</strong>'
+          + '（美国驾照、学习驾照、军人证、DMV 证件或护照），军方会用它跑背景调查；'
+          + '<strong>（二）上车时必须出示与订票时填的同一张证件原件，不接受复印件</strong>，'
+          + '证件不符或忘带一律拒载且不退款；'
+          + '<strong>（三）外籍人士必须填护照信息并携带护照原件，适用者还要带签证或 ESTA</strong>；'
+          + '<strong>（四）信息填错或漏填的订单会被取消</strong>（改发 gift card 让你重订，'
+          + '官方明确说不要打电话或发邮件要求代改）；'
+          + '<strong>（五）官方建议提前 30–45 分钟到场，'
+          + '对自己能否通过背景调查有疑虑的人可以先去 Visitors Center 地下的安检办公室问</strong>。'
+          + '另需注意<strong>西点是 REAL ID 合规驻地</strong>，'
+          + '认可的单一证件包括 REAL ID 驾照或州证、美国护照或护照卡、绿卡、'
+          + 'Global Entry 卡、联邦 PIV 卡、退伍军人医疗卡等；没有 REAL ID 的需要第二种辅助证件',
+        '<strong>三条线路怎么选：</strong>'
+          + '<strong>West Point Story</strong>（最热门）1 小时 15 分，'
+          + '<strong>成人 12 岁以上 $22、儿童 3–11 岁 $16、2 岁以下坐在大人腿上免费</strong>，'
+          + '停靠 Trophy Point、Battle Monument、the Plain 与 Cadet Chapel，'
+          + '<strong>这是绝大多数人该买的那一张</strong>；'
+          + '<strong>History and Tradition Cemetery Tour</strong> 2 小时 15 分、'
+          + '<strong>12 岁以上 $25、3–11 岁 $18</strong>，'
+          + '在前者基础上加 West Point Cemetery，'
+          + '<strong>但它是季节性线路：春秋只在周末，夏季多数日子有</strong>；'
+          + '<strong>250th River and the Rock</strong> 2 小时 30 分、$30、'
+          + '<strong>仅限 12 岁以上（官方明文「Children are not permitted」）</strong>、'
+          + '<strong>只在 6 月至 8 月运行</strong>，'
+          + '每日一班、用小巴限制人数，'
+          + '<strong>全程户外、要在没有铺装的高低不平步道上长时间步行，'
+          + '官方注明不适合儿童与行动不便者</strong>。'
+          + '<strong>票约提前三个月开放预订</strong>，日期太远看不到时段是正常的',
+        '<strong>什么情况会「那天根本没有车」——官方列了四种，务必对照自己的日期：</strong>'
+          + '超过三个月还没放票、已售罄、'
+          + '<strong>因校内特殊活动不开、以及陆军队主场橄榄球赛的周六一律不安排导览</strong>；'
+          + '毕业周同样没有。'
+          + '<strong>秋季的周六正是主场球赛最密集的时候，所以「十月的周六来西点」是一个高风险选择，'
+          + '尽量挑工作日</strong>。'
+          + '官方另有一句免责：「being an active duty Army post, tour times and access to venues '
+          + 'within West Point are subject to change without notice」——'
+          + '<strong>可以在毫无预告的情况下临时改动或取消</strong>；'
+          + '校方建议出行当周致电 Malek Visitors Center（845-938-2638）确认导览状态',
+        '<strong>导览当天的实际情况，几条会影响体感的：</strong>'
+          + '全程英语；<strong>下车步行合计约 1 小时，而且多数停靠点在室外</strong>，'
+          + '官方提醒自带饮水并做好防晒防寒；'
+          + '<strong>途中没有卫生间停靠，车上也不允许带食物</strong>——'
+          + '上车前在 Visitors Center 解决；'
+          + '<strong>需要用轮椅的人必须购买带升降机的专门票，每个时段只能容纳一台轮椅，'
+          + '且不提供轮椅出租</strong>。'
+          + '所有线路都在 Highland Falls 的 Fred V. Malek Visitors Center 停车场集合与结束',
+        '<strong>如果没订到票，或者想把这半天填满：'
+          + 'Malek Visitors Center 与 West Point Museum 都在校门之外、免费、不用过安检。</strong>'
+          + 'Visitors Center 里有全尺寸的学员宿舍复原、制服与学员生活展示，'
+          + '并循环播放介绍片；博物馆值得留 45–60 分钟。'
+          + '<strong>吃饭在 Highland Falls 镇上（步行可达几家餐馆）；'
+          + '校内的 Thayer Hotel 虽然对外营业，但进去同样需要通行证或跟团</strong>'
+      ],
+      photo: '风光 <strong>4/5</strong>，建筑 <strong>3.5/5</strong>，人像 <strong>2/5</strong>。'
+        + 'Trophy Point 越 Hudson 的河景是这里唯一的大画面，'
+        + '<strong>但你是跟团来的：每个点停多久由导游决定，通常十几分钟，没有等光的余地</strong>。'
+        + '另外这是现役军事驻地，<strong>安保设施、岗哨与人员不要对着拍，听导游指令</strong>。',
+      shots: [
+        {
+          name: 'Trophy Point —— 越 Hudson 看河道急弯与 Constitution Island',
+          park: [41.37259, -73.96181],
+          view: [41.39494, -73.95691],
+          desc: '<strong>视线朝北与东北，因此上午到中午河对岸的山体是正面受光</strong>，'
+            + '傍晚会转为逆光加剪影。'
+            + '<strong>由于是跟团，实际时段完全取决于你订到哪一班车</strong>，'
+            + '下车后的做法应该是<strong>先拍一张大景（24–70mm 收河道急弯与前景火炮），'
+            + '再拍 Great Chain 的链环与炮身细节（50–85mm）</strong>，'
+            + '不要在一个构图上磨时间。'
+            + '停车坐标为 West Point Museum 的 OSM 节点（紧邻 Malek Visitors Center 停车场，即集合点），'
+            + '拍摄坐标为 Trophy Point 的 OSM 节点。',
+        },
+        {
+          name: 'Cadet Chapel 石砌立面',
+          desc: '1910 年的哥特复兴石砌教堂，'
+            + '<strong>体量与山坡地形一起构成画面，广角（16–35mm）从下方仰拍最能表现</strong>。'
+            + '室内很暗且停留短，手持 f/2 以上、ISO 1600–3200。'
+            + '<strong>无独立 OSM 实体节点，地图无针脚</strong>（校内多数建筑未在 OSM 建节点）。',
+        }
+      ],
+      access: {
+        visit: '<strong>2–3.5 小时</strong>。'
+          + '拆开看：<strong>West Point Story 导览本身 1 小时 15 分</strong>（官方口径），'
+          + '加官方建议的提前 30–45 分钟到场，这一段实际要留 2 小时；'
+          + '<strong>改买 History and Tradition Cemetery Tour 则为 2 小时 15 分，合计约 3 小时</strong>；'
+          + '<strong>再加校门外免费的 West Point Museum 45–60 分钟</strong>。'
+          + '<strong>导览途中下车步行合计约 1 小时</strong>（官方原文'
+          + '「visitors spend approximately 1 hour off the bus at the various stops」）。'
+          + '依据全部为 West Point Tours 官网公布的线路时长',
+        book: '<strong>必须提前在线预订，只能在 westpointtours.com 办，不接受电话预订，'
+          + '现场没有售票（官方原文「There are no in person ticket sales.」）。</strong>'
+          + '<strong>约提前三个月开放预订</strong>；同日预订可以，'
+          + '<strong>但每个时段在发车前 1 小时关闭，用于跑安检背景调查</strong>。'
+          + '<strong>18 岁及以上每位乘客都要在订票时提交政府签发的带照片证件信息，'
+          + '并在上车时出示同一张原件（不接受复印件）；外籍人士须用护照并带原件</strong>。'
+          + '<strong>不可退款、不可改期</strong>（只有因恶劣天气或校方决定取消才例外）：'
+          + '生病、迟到、日期搞错、忘带证件、未通过背景调查，'
+          + '官方一律按「All sales are final」处理',
+        ticket: '<strong>West Point Story：成人（12 岁以上）$22、儿童（3–11 岁）$16、'
+          + '2 岁及以下免费（须坐在成人或儿童腿上）。</strong>'
+          + '<strong>History and Tradition Cemetery Tour：12 岁以上 $25、3–11 岁 $18，'
+          + '春秋只在周末、夏季多数日子有。</strong>'
+          + '<strong>250th River and the Rock：$30，仅限 12 岁以上，只在 6–8 月运行。</strong>'
+          + '需要轮椅的乘客须购买带升降机的专门票（每班只能容纳一台，且不出租轮椅）。'
+          + '<strong>校门外的 Fred V. Malek Visitors Center 与 West Point Museum 免费</strong>'
+          + '（2026 年 9 月 14 日核实）。'
+          + '（以上于 <strong>2026 年 9 月 14 日</strong>在 westpointtours.com 的 Public Tours '
+          + '与各线路页面逐档核对。）',
+        hours: '<strong>导览全年运行（History and Tradition 为季节性、'
+          + '250th River and the Rock 只在 6–8 月）。</strong>'
+          + '<strong>但每日的具体发车时刻表官网不以表格形式公布，只能在预订日历上按日期查看，'
+          + '因此 2026 年的固定班次未能从官方渠道确认</strong>——'
+          + '请直接在 westpointtours.com 的日历上选日期看当天有哪些时段。'
+          + '<strong>已知不开导览的情形：毕业周、陆军队主场橄榄球赛的周六、'
+          + '校内特殊活动日，以及 Visitors Center 关闭或提前关闭的日子</strong>。'
+          + '官方另注明作为现役驻地，导览时间与校内场馆的开放'
+          + '「are subject to change without notice」。'
+          + '<strong>建议出行当周致电 Malek Visitors Center 845-938-2638 确认；'
+          + 'West Point Tours 电话 845-446-4724 转 200（该号码不受理订票）</strong>。'
+          + '<strong>校门外两处免费设施的时段（2026 年 9 月 14 日核实）：'
+          + 'Fred V. Malek Visitors Center 每日 09:00–16:45；'
+          + 'West Point Museum（Olmsted Hall，2110 New South Post Road，电话 845-938-3590）'
+          + '周二至周日 09:30–16:15、周一闭馆；两处在感恩节、圣诞节与元旦闭馆。</strong>'
+          + '<strong>Visitor Control Center（办通行证）每日 06:00–18:00，电话 315-774-9235。</strong>'
+          + '<strong>另注意 2026 年 3 月 2 日起全校入口 100% 查验证件</strong>',
+        parking: '<strong>全部线路在 Highland Falls 的 Fred V. Malek Visitors Center 停车场集合与结束，'
+          + '停车免费</strong>（精确 GPS 地址随订票确认邮件发送）。'
+          + '<strong>不要自己开车往校门里走</strong>：非国防部证件持有者需先在 Visitor Control Center'
+          + '（2107 New South Post Road，每日 06:00–18:00，电话 315-774-9235）办通行证，'
+          + 'VCC 关闭时改到 24 小时开放的 Stony Lonesome Gate 办；'
+          + '<strong>2026 年 3 月 2 日起 100% 查证件，官方提示车辆检查与 Visitors Center 都会排队</strong>。'
+          + '无车方案：Coach USA / ShortLine 自 Port Authority 有到 Highland Falls 与 West Point 一线的长途巴士，'
+          + '<strong>2026 年的班次与站点请自行核对</strong>；'
+          + '或 Metro-North 到 Peekskill / Beacon 后打车（均在 Hudson 对岸，需过桥，约 30–40 分钟）',
+        walk: '停车场即集合点，零步行；'
+          + '导览途中下车步行合计约 1 小时（官方口径）；'
+          + 'Malek Visitors Center 与 West Point Museum 相邻，步行 2 分钟'
+      },
+      notes: [
+        '<strong>把这一条当成硬规则：这是现役陆军驻地，不能自己进去逛。</strong>'
+          + '所有「自由行攻略」里说的散步看校园，在今天的门禁政策下都不适用',
+        '<strong>证件是不退款事项里最常见的一条。</strong>'
+          + '订票时填的证件，上车时必须带着同一张原件；'
+          + '<strong>手机照片与复印件都不算</strong>。带家人来的话，'
+          + '每一位 18 岁以上的成员都要各自填、各自带',
+        '<strong>秋季的周六尽量避开</strong>：陆军队主场橄榄球赛的周六一律不安排导览，'
+          + '而秋天正是赛季。工作日的成功率高得多',
+        '<strong>导览途中没有卫生间停靠，也不允许带食物上车</strong>，'
+          + '上车前在 Visitors Center 解决；全程英语、无其他语种',
+        '<strong>背景调查是真的在跑。</strong>'
+          + '官方列出的拒绝入场理由包括身份无法核实、NCIC 有未结逮捕令、'
+          + '被禁止进入联邦设施、在册性犯罪者、十年内的重罪定罪等。'
+          + '对绝大多数访客没有影响，但这解释了为什么必须实名提前订票',
+        '<strong>没订到票也不必取消行程</strong>：'
+          + 'Malek Visitors Center 与 West Point Museum 在校门之外、免费、不需安检，'
+          + '加上 Highland Falls 镇与 Bear Mountain 一带，仍然是完整的半天',
+        '西点位于 Hudson 西岸的 Highlands，'
+          + '<strong>秋色与 Bear Mountain 同一段，峰期约十月中下旬，色调偏红褐</strong>；'
+          + 'Trophy Point 的河景在这个季节最好'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/e/e4/Trophy_Point%2C_West_Point_NY.jpg',
+          cap: 'Trophy Point 越 Hudson 的视野 · Maria S. Correa-Morales (BySoledad) / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Battle_Monument_At_Trophy_Point-West_Point_Military_Academy.jpg',
+          cap: 'Trophy Point 的 Battle Monument · Angelo Marcialis / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Cadet_Chapel_USMA.JPG',
+          cap: 'Cadet Chapel 石砌哥特复兴立面 · Ahodges7 / 公有领域' }
+      ]
+    },
+    {
+      id: 'vanderbilt-mansion',
+      n: 12,
+      name: '范德堡庄园',
+      en: 'Vanderbilt Mansion National Historic Site, Hyde Park',
+      must: 3.5,
+      score: 3.5,
+      tldr: '镀金时代保存最完整的 54 间房宅邸，室内是 1938 年原封不动的原物；进屋只能跟导览、个人不可预约、夏秋与十月常上午售罄。',
+      tags: [
+        { t: '$15', c: 'paid' },
+        { t: '仅限导览', c: 'risk' },
+        { t: '个人不可预约', c: 'risk' },
+        { t: '庭园免费', c: 'free' },
+        { t: '仅收信用卡', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>这是 Hudson 河谷镀金时代庄园里保存得最完整的一座，而且室内是原物而非复原。</strong>'
+          + 'Frederick 与 Louise Vanderbilt 请 McKim, Mead & White 设计，'
+          + '<strong>1895 年动工、1898 年完工，家具于 1899 年 5 月全部就位</strong>；'
+          + 'Louise 1926 年去世后 Frederick 基本没再改动，'
+          + '<strong>1938 年他去世时房子什么样，今天进去就是什么样</strong>',
+        '<strong>54 间房、四层，外加地下与整层阁楼</strong>（官方口径：地下室 21 间、一层 12 间、'
+          + '二层 15 间、三层 26 间）。'
+          + '<strong>导览带看约十八间，分布在三层</strong>。'
+          + '室内装修由 Herter Brothers 与 A.H. Davenport 完成、'
+          + 'Norcross Brothers 施工——'
+          + '<strong>它的看点恰恰不是浮夸，而是 McKim 那种克制的学院派古典，'
+          + 'NPS 自己的说法是「an understated masterpiece of American design」</strong>',
+        '<strong>这栋房子之所以成为国家历史地标，直接原因是隔壁的邻居 Franklin D. Roosevelt。</strong>'
+          + 'Frederick 没有子女，1938 年把宅子留给 Louise 的外甥女 Margaret Van Alen；'
+          + '她一度打算出售，<strong>是 FDR 建议她把宅邸、全部家具与 200 英亩一并捐给联邦政府</strong>，'
+          + '<strong>1940 年 7 月 29 日作为国家历史地点对外开放</strong>。'
+          + '这也是为什么它和 4 公里外的罗斯福故居共用一张年票',
+        '<strong>211 英亩的庄园本身就是一件作品，而且这部分完全免费。</strong>'
+          + '高台上的宅邸下方是 Hudson 的宽阔河面与对岸 Catskills 的轮廓，'
+          + '<strong>官方称之为 the Overlook</strong>；'
+          + '园内有百年以上的标本级大树、蜿蜒车道、溪流与九栋历史建筑。'
+          + '<strong>层叠于坡地之上的意大利式 Formal Gardens 由志工组织 '
+          + 'F.W. Vanderbilt Garden Association 常年养护</strong>，'
+          + '是 Hudson 河谷少数完整复原的历史花园之一',
+        '<strong>河边的 Bard Rock 是一个很少人知道的加分项</strong>：'
+          + '一处伸进 Hudson 的岩石小岬，能贴着水面看河与铁路桥，'
+          + '<strong>但车行道只在 5 月至 10 月的周一至周四 09:00–16:00 开放，'
+          + '周末与假日一律禁车，只能走下去</strong>（官方 Superintendent\'s Compendium 口径）'
+      ],
+      tour: [
+        '<strong>照这个顺序走，一次不会白跑：到 Pavilion Visitor Center → 立刻在前台买导览票拿时段 → '
+          + '趁等候的空档去 Formal Gardens 与 Overlook → 回来跟导览进屋。</strong>'
+          + '<strong>关键前提是：个人与家庭不能预约</strong>，'
+          + '官方原文「Reservations for individuals and families are not available」、'
+          + '「Tickets are issued on a first-come, first-served basis at the Pavilion Visitor Center」，'
+          + '<strong>而且官方自己提示「In the summer months and October, tours may sell out early」</strong>。'
+          + '所以先买票、后逛园，不要倒过来',
+        '<strong>屋里看什么：导览约 1 小时，带看三层约十八间房，全程跟队讲解。</strong>'
+          + '别只顾着看大客厅——'
+          + '<strong>Louise 那间带栏杆围床、仿法国王室寝宫规格的卧室，'
+          + '以及一层的餐厅与门厅，是这栋房子最能说明「他们怎么生活」的几间</strong>。'
+          + '<strong>两条实际提醒：宅内没有空调，盛夏的三层相当闷热；'
+          + '偶尔会有个别房间或整层因文物保护施工而空置或关闭</strong>，'
+          + '在前台问一句当天的状况最省事。室内禁用闪光灯',
+        '<strong>不买票也值得来这一点要说清楚：庭园、Formal Gardens、Overlook 河景与全部步道都免费，'
+          + '不需要任何票。</strong>'
+          + '花园在宅邸南面约 300 米、走 5 分钟，'
+          + '<strong>层层台地加玫瑰园与百合池，六月至九月是盛期，'
+          + '园内的 Tool House 由志工组织使用、5 月至 10 月的周末免费开放</strong>。'
+          + '所以万一当天导览票已售完，把庭园与 Overlook 走一圈仍然是一个像样的一小时',
+        '<strong>体力与无障碍：这一站对体力几乎没有要求，但坡地不少。</strong>'
+          + '从 Visitor Center 到宅邸是 2–3 分钟的缓坡步行；'
+          + '宅邸到花园 5 分钟、回程是上坡；'
+          + '<strong>想下到河边的 Bard Rock 则是单程近 1 公里的连续下坡，回来要爬上来，留 30–40 分钟</strong>'
+          + '（5–10 月的周一至周四也可以开车下去，但停车限 60 分钟、'
+          + '禁止 24 英尺以上车辆）。'
+          + '<strong>宅邸入口有机械升降椅、屋内有历史电梯可达各层，'
+          + '但官方明说两者偶有故障待修，行动不便者出发前先电话确认 845-444-9166</strong>',
+        '<strong>可以跳过的部分与该省的力气：</strong>'
+          + '如果时间只够一件事，<strong>选导览进屋</strong>——'
+          + '庭园虽好，但 Hudson 河谷同类风景很多，'
+          + '而「原封未动的镀金时代室内」在别处看不到。'
+          + '<strong>反过来，如果同行者对豪宅无感，'
+          + '那就只走免费的庭园与 Overlook，把 $15 与一小时留给别处</strong>。'
+          + 'Visitor Center 里有卫生间、小展厅与 NPS 盖章台',
+        '<strong>顺路组合：这一站几乎总是和罗斯福故居一起做。</strong>'
+          + '两处沿 Route 9 相距约 4 公里，'
+          + '<strong>$45 的 Roosevelt-Vanderbilt 年票覆盖持票人加三名 16 岁以上同行者、两处通用</strong>，'
+          + '同一天做两处就比两张单票划算。'
+          + '<strong>两处的导览都是现场先到先得、都只收信用卡</strong>。'
+          + '园内没有餐饮，<strong>吃饭在 Route 9 沿线或南面的 Culinary Institute of America'
+          + '（需提前订位）</strong>；'
+          + '<strong>25 人以上野餐需许可，宅邸近旁禁止野餐</strong>'
+      ],
+      photo: '建筑 <strong>4/5</strong>，风光 <strong>3.5/5</strong>，人像 <strong>3/5</strong>。'
+        + '这是 Hudson 河谷最规整的一座 Beaux-Arts 立面，层叠花园与 Overlook 的河景各成一景；'
+        + '<strong>但室内禁用闪光灯且全程跟队，画面基本都在户外</strong>。',
+      shots: [
+        {
+          name: '宅邸西立面与 Overlook 的 Hudson 河景',
+          park: [41.79783, -73.94181],
+          view: [41.79642, -73.94242],
+          desc: '<strong>面河的一侧朝西，所以下午到日落是这一面的正面光</strong>，'
+            + '上午则适合从东侧车道拍入口立面。'
+            + '<strong>宅邸建在高台上，站到草坪西沿可以把柱廊与下方的 Hudson 河面收进同一画面</strong>，'
+            + '24–70mm 够用；85–135mm 抽取柯林斯柱头与檐部的细部。'
+            + '停车坐标为 Pavilion Visitor Center 的 OSM 节点（即买票与集合处），'
+            + '拍摄坐标为 Vanderbilt Mansion 主宅的 OSM 建筑节点，两点相距约 170 米。'
+            + '<strong>庭园 9 月开到 19:00、10 月到 18:00，闸口提前 30 分钟关</strong>，'
+            + '所以十月想拍日落要算清闸口时间。',
+        },
+        {
+          name: 'Formal Gardens 的台地与玫瑰园',
+          park: [41.79783, -73.94181],
+          view: [41.79361, -73.94149],
+          desc: '层叠台地由上往下看最能表现结构，'
+            + '<strong>盛期为六月至九月，十月花量明显下降但秋色上来</strong>。'
+            + '35–85mm 压缩台地层次，清晨侧光下砖砌花坛边缘最清楚。'
+            + '拍摄坐标为 Vanderbilt Gardens 的 OSM 节点，'
+            + '自宅邸步行约 300 米、5 分钟，回程上坡。',
+        }
+      ],
+      access: {
+        visit: '<strong>2–3 小时</strong>。'
+          + '拆开看：<strong>宅邸导览 1 小时</strong>（官方口径，约十八间房、三层），'
+          + '加现场买票与排队，这一段留 1.5 小时；'
+          + '<strong>Formal Gardens 与 Tool House 40–60 分钟</strong>；'
+          + '<strong>Overlook 河景与宅前草坪 20–30 分钟</strong>。'
+          + '<strong>只走免费庭园与 Overlook 1 小时；再加河边的 Bard Rock 往返另计 30–40 分钟</strong>。'
+          + '与 4 公里外的罗斯福故居合成一整天（两处共 6–7 小时）是这一带最常见的安排',
+        book: '<strong>个人与家庭不接受预约</strong>'
+          + '（官方原文「Reservations for individuals and families are not available for tours of '
+          + 'the Vanderbilt Mansion. Tickets are issued on a first-come, first-served basis at '
+          + 'the Pavilion Visitor Center.」）。'
+          + '<strong>只有商业大巴与 20 人以上团体必须预约，且只能通过 recreation.gov</strong>'
+          + '（每团上限 50 人，导游与司机计入人数，'
+          + '迟到即作废，开始前 24 小时之外可退款、扣预订费）。'
+          + '<strong>官方提示夏季与十月场次可能上午就卖完，'
+          + '并且在客流过大或人手不足时可能把定时导览改为自助参观</strong>',
+        ticket: '<strong>$15 一人，16 岁及以上都要买（含同车乘客），15 岁及以下免费。</strong>'
+          + '<strong>入内只能跟导览，票在 Pavilion Visitor Center 前台现场购买。</strong>'
+          + '<strong>Roosevelt-Vanderbilt 年票 $45</strong>，'
+          + '覆盖持票人加三名 16 岁以上同行者、自购买日起一年有效，'
+          + '<strong>在罗斯福故居与本站通用</strong>；'
+          + 'America the Beautiful 系列（含 Annual、Senior、Access、Military）在 Hyde Park 的 '
+          + 'NPS 站点通用；联邦免费入园日当天免收入场费；学校团体可申请学术减免。'
+          + '<strong>只接受信用卡，不收现金</strong>（官方原文「Credit cards are the only form of '
+          + 'payment we can accept」）。'
+          + '<strong>庭园、Formal Gardens、Overlook 与步道全部免费、不需要票。</strong>'
+          + '（以上于 <strong>2026 年 9 月 14 日</strong>在 nps.gov/vama 的 Fees & Passes、'
+          + 'Tour Vanderbilt Mansion 与 FAQ 页逐条核对。）',
+        hours: '<strong>宅邸导览（2026 年当前时段）：5 月 21 日至 11 月 15 日每日 10:00–16:00，'
+          + '首场 10:00、末场 16:00，每场约 1 小时</strong>；'
+          + '<strong>冬春季（11 月 16 日起）改为每日 10:00–15:30</strong>。'
+          + '官方注明场次随季节调整，也会因天气、人手与特别活动临时变动，'
+          + '<strong>「Weather closures are common」</strong>。'
+          + '<strong>Pavilion Visitor Center：每日 09:00–17:00；园内建筑一般 17:00 关门。</strong>'
+          + '<strong>庭园（免费）按 Superintendent\'s Compendium 分段：'
+          + '9 月 07:00–19:00、10 月 07:00–18:00、11/1–1/31 07:00–17:00、'
+          + '2 月 07:00–18:00、3 月 07:00–19:00、4/1–8/31 07:00–20:00，'
+          + '闸口一律在闭园前 30 分钟关闭。</strong>'
+          + '<strong>2026–2027 年节假日：10 月 12 日哥伦布日导览 10:00–16:00、庭园 07:00–18:00；'
+          + '11 月 11 日退伍军人节导览 10:00–16:00；'
+          + '11 月 26 日感恩节、12 月 25 日圣诞节、2027 年 1 月 1 日元旦全园闭园。</strong>'
+          + '<strong>没有每周固定闭馆日</strong>，全年只有这三天关门。'
+          + '（2026 年 9 月 14 日在 nps.gov/vama 的 Operating Hours & Seasons 页'
+          + '与 Superintendent\'s Compendium 核实。）',
+        parking: '<strong>Pavilion Visitor Center 旁有免费停车场</strong>'
+          + '（园区入口在 Route 9 / Albany Post Road，地址 4097 Albany Post Road, Hyde Park, NY 12538），'
+          + '买票、卫生间与导览集合都在这里。'
+          + '<strong>Bard Rock 的车行道只在 5–10 月的周一至周四 09:00–16:00 开放、'
+          + '周末与假日禁车，停车限 60 分钟，禁止 24 英尺以上车辆与拖挂</strong>。'
+          + '无车方案：<strong>Metro-North Hudson Line 或 Amtrak 到 Poughkeepsie 后打车约 15 公里 / 20 分钟</strong>'
+          + '（Amtrak 的 Rhinecliff 站在北面）；'
+          + 'Dutchess County 公交沿 Route 9 有线路，<strong>2026 年班次未能核实</strong>',
+        walk: 'Pavilion Visitor Center 到宅邸约 170 米、2–3 分钟缓坡（官方称 short walk）；'
+          + '宅邸到 Formal Gardens 约 300 米、5 分钟，回程上坡；'
+          + '宅邸到河边 Bard Rock 单程约 950 米连续下坡，往返 30–40 分钟；'
+          + '<strong>宅邸入口有机械升降椅、屋内有历史电梯通各层，但偶有故障</strong>'
+      },
+      notes: [
+        '<strong>头号风险与罗斯福故居一样：当天票可能已经没了。</strong>'
+          + '个人不能预约，只能现场排，官方自己提示夏季与十月常常上午售罄。'
+          + '<strong>对策就一条：到园先买票拿时段，再去逛庭园</strong>',
+        '<strong>只收信用卡</strong>——Hyde Park 这几个 NPS 站点统一政策，带现金没用',
+        '<strong>宅邸没有空调</strong>，盛夏的二、三层会很热；'
+          + '室内禁用闪光灯；'
+          + '<strong>个别房间可能因文物保护施工而空置或关闭，在前台先问一句</strong>',
+        '<strong>「天气关闭很常见」是官方原话</strong>，'
+          + '大风、雷暴与冰雪都可能临时停掉导览；'
+          + '<strong>远道而来的话，出发当天打 845-444-9166 确认</strong>',
+        '<strong>同一天把罗斯福故居（往南 4 公里）一起做，$45 年票两处通用</strong>；'
+          + '两处都是现场先到先得，'
+          + '<strong>建议上午先到人少的那一处买票，把两个时段错开</strong>',
+        '<strong>季节参考：Hyde Park 在 Hudson 东岸低海拔段，秋色峰期约十月中旬</strong>，'
+          + '庄园里的百年标本树是这里秋天最好看的部分；'
+          + '<strong>Formal Gardens 的花期在六月至九月，十月来看的是树而不是花</strong>',
+        '园内没有餐饮；<strong>25 人以上野餐需许可，宅邸近旁禁止野餐</strong>；'
+          + '步道禁止骑车，只有 Hyde Park Trail 的指定段与 Vanderbilt Lower Road 允许',
+        '<strong>关于为什么这一站选 Vanderbilt 而不是 Kykuit（洛克菲勒庄园）：'
+          + 'Kykuit 的对外导览处于停办状态，2026 年没有可预订的场次</strong>，'
+          + '而 Vanderbilt 全年开放、只有三天闭园，是这一区稳定可做的镀金时代庄园'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Vanderbilt_Mansion_Hyde_Park.jpg',
+          cap: '范德堡庄园主宅立面 · Aoliver476 / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Gardens%2C_Vanderbilt_Estate%2C_Hyde_Park%2C_2012-06-25%2C_01_2-color.jpg',
+          cap: '层叠台地的 Formal Gardens · Cbaile19 / CC0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/f6/Vanderbilt_Mansion_VC_NY1.jpg',
+          cap: 'Pavilion Visitor Center（买票与导览集合处） · Acroterion / CC BY-SA 4.0' }
       ]
     }
   ]
