@@ -2511,9 +2511,9 @@ module.exports = {
           '路边就有观景平台，停车即到'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/31/Lone_Star_Geyser_on_a_sunny_afternoon_%2835765928955%29.jpg',
+        { url: 'img/lone-star-geyser-on-a-sunny-afternoon-35765928955-d5488dcb.jpg',
           cap: 'Lone Star Geyser 的喷发与硅华锥 · NPS / Jacob W. Frank / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/7/75/Lone_Star_Geyser_erupting_and_runoff_%2835596236662%29.jpg',
+        { url: 'img/lone-star-geyser-erupting-and-runoff-35596236662-48294c72.jpg',
           cap: '喷发中的 Lone Star 与脚下的径流 · NPS / Jacob W. Frank / Public domain' }
       ]
     },
@@ -2696,11 +2696,11 @@ module.exports = {
           '需要无障碍路线的只走下半环'
       ],
       images: [
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/b1/Mud_Volcano_%2827615639741%29.jpg',
+        { url: 'img/mud-volcano-27615639741-8a6b0ddf.jpg',
           cap: 'Mud Volcano 的泥浆喷溅与喷气口 · Matt Poyner / NPS / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Sulphur_Caldron_%2827615647381%29.jpg',
+        { url: 'img/sulphur-caldron-27615647381-29b98967.jpg',
           cap: 'Sulphur Caldron 翻滚的黄色酸液（pH 约 1–2） · Matt Poyner / NPS / Public domain' },
-        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Mud_Volcano%2C_Yellowstone_NP.jpg',
+        { url: 'img/mud-volcano-yellowstone-np-2679c78d.jpg',
           cap: 'Mud Volcano 主喷口与周围被蒸汽煮死的坡地 · Supercarwaar / CC BY-SA 4.0' }
       ]
     }
