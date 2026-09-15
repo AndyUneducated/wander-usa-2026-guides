@@ -78,8 +78,9 @@ module.exports = {
       n: 1,
       name: '林肯纪念堂',
       en: 'Lincoln Memorial',
+      must: 5,
       score: 5,
-      tldr: '全 DC 最强夜景，正立面朝东是日出正面光；2026 年 6 月新开的地下 Undercroft 博物馆需定时票，别和主殿混为一谈。',
+      tldr: 'National Mall 的头号必去项，主殿免票 24 小时开放；2026 年 6 月新开的地下 Undercroft 博物馆需定时票，别和主殿混为一谈。',
       tags: [
         { t: '24 小时免费', c: 'free' },
         { t: '整夜打灯', c: 'free' },
@@ -104,6 +105,40 @@ module.exports = {
           '但需要定时票 + 机场级安检，且与参观主殿完全是两回事',
         '正立面朝正东（法线约 89°），<strong>意味着日出时整面柱廊被正面暖光打亮，而日落时它是纯逆光剪影</strong>。' +
           '大多数人只在傍晚来这里，因此清晨的正面光机位反而常常空无一人'
+      ],
+      tour: [
+        '<strong>动线：从正东的大台阶正面上去，不要从侧门抄近路。</strong>' +
+          '顺序是台阶顶平台（回望中轴线）→ 主殿 19 英尺坐像 → <strong>南墙第二次就职演说铭文</strong> → ' +
+          '<strong>北墙葛底斯堡演说铭文</strong>（全文只有 272 词，站着读完不到两分钟，值得读）→ 下台阶。' +
+          '<strong>行动不便者：台阶左侧（南侧）有免票电梯直达平台</strong>，不需要任何票。',
+        '<strong>下台阶时别错过「I HAVE A DREAM」刻字石板</strong>：在正东台阶自顶层平台往下数第 18 级正中，' +
+          '标记 1963 年 8 月 28 日 Martin Luther King, Jr. 发表演讲的站位。' +
+          '<strong>石板齐平地面、字未上色，晴天几乎看不见，九成游客直接踩过去</strong>；' +
+          '找不到就往刻痕里倒一点水，字会立刻显形。',
+        '<strong>Undercroft 地下博物馆（2026 年 6 月 25 日首次开放）是可选项，不是必须项。</strong>' +
+          '15,000 平方英尺、122 根支撑纪念堂的混凝土拱柱，讲的是「这座建筑怎么盖起来的」；' +
+          '<strong>但它需要定时票 + 机场级安检，票面有效期 120 分钟</strong>。' +
+          '只想看林肯坐像的人完全可以跳过——<strong>主殿本身永远不需要票</strong>。' +
+          '对建筑与工程有兴趣、或带孩子需要一个室内空调空间落脚的，值得排。',
+        '<strong>卫生间（Mall 上的硬约束，这一区最关键的实用信息）：主殿内没有厕所。</strong>' +
+          '最近的公共厕所在南侧 <strong>100 Daniel French Drive SW</strong>，' +
+          '从台阶下方绕过 Lincoln Memorial Circle 步行约 300 米，' +
+          '<strong>一般 8:00–22:00 开放（11–2 月 8:00–20:00，关门时间由 US Park Police 决定）</strong>。' +
+          'Undercroft 里有新建的厕所，但要凭票进。' +
+          '餐饮：南侧 Daniel Chester French Drive 与北侧 Henry Bacon Drive 各有一个 NPS 特许经营的餐饮／零售 kiosk，' +
+          '<strong>约 10:25–18:25 营业（季节性浮动）</strong>，除此之外这一带没有任何吃饭的地方。',
+        '<strong>步行与体力：这里是整个 Mall 西端的枢纽，串联距离都在这里起算。</strong>' +
+          '到 Vietnam Veterans Memorial <strong>250 米 / 4 分钟</strong>、' +
+          'Korean War Veterans Memorial <strong>350 米 / 5 分钟</strong>、' +
+          'MLK Memorial <strong>800 米 / 10 分钟</strong>、' +
+          'WWII Memorial 沿 Reflecting Pool 走 <strong>约 860 米 / 12 分钟</strong>、' +
+          'Washington Monument <strong>约 1.3 公里 / 18 分钟</strong>。' +
+          '台阶本身约四层楼高，是全区唯一需要爬的地方。',
+        '<strong>夜间：24 小时开放、整夜泛光照明，不存在「闭馆」。</strong>' +
+          'Ranger 值守 9:30–22:00，此后没有讲解但场地照常开放。' +
+          '<strong>人最少的时段是 21:30 之后与清晨 05:00–06:30</strong>，后者主殿基本空场。' +
+          '安全性在 Mall 上属于最好的一档：整夜有 US Park Police 巡逻、游客也不断；' +
+          '但 Constitution Ave 以北与 Rock Creek Parkway 沿线夜间空旷，不建议单独绕行。'
       ],
       photo: '建筑 <strong>5/5</strong>，夜景 <strong>5/5</strong>，人像 <strong>4/5</strong>，风光 <strong>3.5/5</strong>。' +
         '整夜泛光照明加 24 小时开放，是全美最容易出片的夜间建筑；扣分只因 Reflecting Pool 围挡期间少了倒影这一半的价值。',
@@ -155,6 +190,11 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45–60 分钟（不含 Undercroft）；含 Undercroft 共 1.5–2 小时</strong>。' +
+          '分配：台阶与东侧平台回望中轴线 10 分钟、主殿坐像与南北两面铭文 20 分钟、' +
+          '下台阶找「I Have a Dream」刻字 5–10 分钟。' +
+          '<strong>只想看坐像、拍一张就走：20 分钟足够。</strong>' +
+          'Undercroft 票面有效期 120 分钟，实际看完约 45–60 分钟，另留 15 分钟排安检。',
         book: '<strong>主殿与台阶：不需预约。</strong>' +
           '<strong>Undercroft 博物馆：必须定时票</strong>（2 岁以上全员需票）。' +
           '提前票 recreation.gov 或 877-444-6777，<strong>可提前 30 天预订，每日 11:00 ET 放出 30 天后那一天的库存</strong>，' +
@@ -162,13 +202,19 @@ module.exports = {
           '另有一部分提前票在<strong>参观前一日 16:00 ET</strong> 释出。' +
           '当日免费票在 <strong>Korean War Veterans Memorial 售票亭（Daniel Chester French Drive）8:45 起</strong>先到先得，' +
           '一人（16 岁以上）最多领 6 张，周末与旺季会提前排队',
-        ticket: '<strong>全部免费</strong>（Undercroft 提前票仅收 $1 手续费）',
+        ticket: '<strong>全部免费</strong>：主殿、台阶、铭文一律无门票；' +
+          'Undercroft 当日现场票 <strong>$0.00</strong>，网上提前票仅收 <strong>$1.00/张</strong> 不可退手续费。' +
+          '无任何成人／老年／学生／儿童分档；<strong>2 岁以上进 Undercroft 需持票</strong>，2 岁以下免票。' +
+          '（票价据 nps.gov/linc 与 recreation.gov，<strong>2026-09-14 核实</strong>）',
         hours: 'NPS 官方原文：「The public may visit the sites of National Mall and Memorial Parks <strong>24 hours per day</strong>. ' +
           'Rangers are on duty at the sites to answer questions from <strong>9:30 a.m. to 10:00 p.m. daily</strong>.」' +
           'Superintendent’s Compendium 另载：「Outdoor areas within the park are open 24 hours a day 7 days a week unless otherwise noted.」' +
           '<strong>主殿与台阶全天候无门禁，凌晨可进</strong>。' +
-          '<strong>Undercroft 每日 9:00–21:00（3–10 月）</strong>，末班票为闭馆前 1 小时、闭馆前 45 分钟停止入场，' +
-          '每月固定闭馆一天做例行维护（具体日期未在官网列出，<strong>未能确认 9–10 月的闭馆日</strong>，建议订票时看 recreation.gov 库存）',
+          '<strong>Undercroft 官方原文：「Open daily from 9 a.m. to 9 p.m. ET (March–October) and from 9 a.m. to 8 p.m. (November–February)」</strong>，' +
+          '末班定时票为闭馆前 1 小时、闭馆前 45 分钟停止入场；<strong>7 月 4 日与 12 月 25 日闭馆</strong>。' +
+          '另有每月一天的例行维护闭馆，<strong>具体日期官网未列出，未能从官方渠道确认</strong>——' +
+          '订票时以 recreation.gov 当天库存为准，或电 202-426-6841 询问。' +
+          '（开放时间据 recreation.gov 与 nps.gov/linc，<strong>2026-09-14 核实</strong>）',
         parking: '<strong>没有专用停车场。</strong>最近的路边表位在 Parkway Drive NW、Henry Bacon Drive NW 与 ' +
           'Constitution Ave NW（15th–23rd St），<strong>$2.30/小时，每日 7:00–20:00 收费（12/25 除外），' +
           '3 小时封顶且同一位置不可续费</strong>，只收卡或 ParkMobile，不收现金硬币。' +
@@ -208,8 +254,9 @@ module.exports = {
       n: 2,
       name: '越战阵亡将士纪念碑',
       en: 'Vietnam Veterans Memorial (The Wall)',
+      must: 5,
       score: 4.5,
-      tldr: '21 岁本科生 Maya Lin 的黑色花岗岩墙，唯一的正解是拍「反射」而不是拍「墙」；顶点 Apex 禁三脚架。',
+      tldr: '21 岁本科生 Maya Lin 的黑色花岗岩墙，全 Mall 情感冲击最强的一处，免费 24 小时开放；名字按阵亡日期排，查人要用名册。',
       tags: [
         { t: '24 小时免费', c: 'free' },
         { t: '夜间打灯', c: 'free' },
@@ -230,6 +277,38 @@ module.exports = {
         '<strong>墙面自西南向东北切入地面，抛光面朝北</strong>，因此<strong>全天大部分时间处于自身阴影中</strong>，' +
           '光线极其均匀——这对拍反射是天赐条件，对拍「有立体感的建筑」则是灾难。' +
           '不要试图把这里当建筑拍，它没有立面'
+      ],
+      tour: [
+        '<strong>动线：从东端（Washington Monument 那一侧）入口进，沿缓坡一路走到 Apex，再从西端出来。</strong>' +
+          '这个方向才对得上时间顺序：<strong>墙从 Apex 东侧起（1959 年第一批阵亡）向东排到尽头，' +
+          '再从最西端折回、一路排到 Apex 西侧（1975 年最后一批）</strong>。' +
+          '走到 Apex 时你脚下正是战争的第一天与最后一天相遇的位置，' +
+          '<strong>同时地面也降到最低、墙面最高（10.1 英尺）——这是整座纪念碑的情绪顶点，别匆匆走过</strong>。' +
+          '反方向走完全不影响通行，但叙事会散掉。',
+        '<strong>查人：名字不按字母排序，硬找是找不到的，必须先用名册。</strong>' +
+          '<strong>两端步道入口处各有一座台座式的印刷名册（directory），按姓氏字母排序</strong>，' +
+          '每条记录给出「面板号 + 行号」，例如 <strong>14E 就是 Apex 东侧第 14 面板，W 代表西墙、E 代表东墙</strong>；' +
+          '<strong>面板号刻在每块石板底部，从 Apex 向两端递增</strong>。' +
+          '找到面板后<strong>从最高一行往下数行号，每行五个名字</strong>（后来补刻过名字的行会有六个）。' +
+          '现场查不动就去信息亭：<strong>NPS 有电子名册，可按名、姓、军种、生日、阵亡日期、入伍州检索</strong>。',
+        '<strong>拓印（rubbing）：纸和铅笔在 Vietnam Veterans Memorial 信息亭免费领，不要自带油墨或胶带。</strong>' +
+          '亭子就在墙西端靠 Lincoln Memorial 一侧的步道旁，' +
+          '<strong>有人值守时（NPS 工作人员或 VVMF 志愿者）会帮你查名字、也会帮你完成拓印</strong>；' +
+          '志愿者常戴黄色帽子，认这个标志就行。' +
+          '<strong>但要有心理准备：亭子的值守时间不固定，无人时拿不到纸</strong>（Ranger 值守时段为 9:30–22:00）。',
+        '<strong>别错过的两件加建物，也是这一站可以自行决定跳不跳的部分</strong>：' +
+          '墙西南侧树丛边的 <strong>Three Servicemen 铜像</strong>（1984 年为平息设计争议加建，三人视线朝向墙）' +
+          '与再往西的 <strong>Vietnam Women’s Memorial</strong>（1993 年加建，纪念服役女性）。' +
+          '两者各花 5 分钟；<strong>时间极紧的话可以只走墙本体，那是这里 80% 的价值所在</strong>。',
+        '<strong>步行、体力与卫生间：全程无台阶、缓坡下沉式，轮椅与推车可通行，墙体全长约 150 米、走完单程 10 分钟。</strong>' +
+          '两侧步道很窄，人多时会排成单向队列。' +
+          '<strong>最近的公共厕所有两处：南侧 100 Daniel French Drive SW（绕过 Lincoln Memorial，约 500 米）' +
+          '与北侧 Constitution Gardens 步道上那一座（约 400 米，在本墙与园内池塘之间）</strong>，' +
+          '墙本身与信息亭都没有厕所。',
+        '<strong>夜间：24 小时开放，有地面投射照明，名字可读，是全 Mall 夜访体验最好的一处之一。</strong>' +
+          '<strong>白天 10:00–16:00 旅行团密集、步道会堵</strong>；' +
+          '想要安静，<strong>清晨 07:00–08:30 与 21:00 之后</strong>是两个窗口。' +
+          '这一段夜间有巡逻与稳定人流，安全性尚可，但从这里往北进入 Constitution Gardens 林地后照明骤降，别单独绕。'
       ],
       photo: '人文 <strong>5/5</strong>，建筑 <strong>3/5</strong>，风光 <strong>1/5</strong>。' +
         '「名字 + 参观者倒影 + 天空」的三层叠加是本站唯一成立的画面语言；扣分因为它几乎没有第二种拍法。',
@@ -271,10 +350,20 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>40–60 分钟</strong>。分配：东端入口读名册 5 分钟、沿墙走到 Apex 并停留 20–25 分钟、' +
+          'Three Servicemen 铜像与 Vietnam Women’s Memorial 各 5 分钟。' +
+          '<strong>要查具体某个人的名字并做拓印，另加 20–30 分钟</strong>（含在信息亭排队）。' +
+          '<strong>只想走一遍墙：20 分钟。</strong>',
         book: '不需预约',
-        ticket: '<strong>免费</strong>',
-        hours: '<strong>24 小时开放</strong>（NPS：outdoor areas open 24 hours a day 7 days a week）。' +
-          'Ranger 值守 9:30–22:00。夜间有地面投射照明，墙面可读，' +
+        ticket: '<strong>免费</strong>，无任何分档与门票。' +
+          '印刷名册、电子名册检索、拓印用纸与铅笔<strong>一律免费</strong>。' +
+          '（据 nps.gov/vive，<strong>2026-09-14 核实</strong>）',
+        hours: '<strong>NPS 官方原文：「The public may visit the Vietnam Veterans Memorial 24 hours a day. ' +
+          'Rangers are on duty to answer questions from 9:30 a.m. to 10:00 p.m. daily」</strong>' +
+          '——<strong>场地 24 小时无门禁，但有人可问、能领拓印纸的时段只有 9:30–22:00</strong>，这两者要分开算。' +
+          '信息亭的实际值守时间比 Ranger 时段更短且不固定，<strong>未能从官方渠道确认具体钟点</strong>；' +
+          '要办拓印建议 10:00–16:00 到场。（<strong>2026-09-14 核实</strong>）' +
+          '夜间有地面投射照明，墙面可读，' +
           '<strong>但夜间灯位很低、反射面会出现明显的灯斑</strong>，夜拍效果远不如清晨',
         parking: '同 Lincoln Memorial：Henry Bacon Drive NW 与 Constitution Ave NW 路边表位，' +
           '<strong>$2.30/小时，7:00–20:00 收费，3 小时上限</strong>。20:00 后与 07:00 前免费',
@@ -306,8 +395,9 @@ module.exports = {
       n: 3,
       name: '朝鲜战争老兵纪念碑',
       en: 'Korean War Veterans Memorial',
+      must: 4,
       score: 4,
-      tldr: '19 座不锈钢士兵在雾气与低光下最像鬼魂，清晨与夜间是仅有的两个正确时段；2022 年新增的 Wall of Remembrance 改变了动线。',
+      tldr: '19 座不锈钢士兵是全 Mall 最令人不安的一组雕像，免费 24 小时开放；2022 年加建的 Wall of Remembrance 值得看，但上面的名字有上千处错误。',
       tags: [
         { t: '24 小时免费', c: 'free' },
         { t: '夜间打灯极强', c: 'free' },
@@ -326,6 +416,43 @@ module.exports = {
           '施工同时对已 25 岁的原纪念碑做了整体翻修，<strong>目前状态良好，无脚手架、无围挡</strong>',
         '不锈钢是这里全部技术难点的来源：<strong>它既不吸光也不是纯镜面，晴天正午会同时出现死白高光与漆黑阴影</strong>，' +
           '任何测光模式都救不回来。这也是为什么这个地方在阴天、雨天、雾天、雪天的照片质量远高于晴天'
+      ],
+      tour: [
+        '<strong>动线是一个环，从 Daniel Chester French Drive 一侧（靠 Lincoln Memorial）进最顺。</strong>' +
+          '顺序：<strong>Field of Service 的 19 座雕像</strong>（沿铺装步道走，不要下到碎石地面）→ ' +
+          '右手边的 <strong>Mural Wall</strong>（164 英尺长、蚀刻约 2,500 张真实档案面孔）→ ' +
+          '尽头的 <strong>Pool of Remembrance</strong> 与环绕它的 <strong>Wall of Remembrance</strong> → ' +
+          '<strong>UN Curb</strong>（低矮石缘，刻着 22 个派兵参战国）。一圈 15–25 分钟，全程平地无台阶。',
+        '<strong>三样绝对别错过</strong>：一是站在雕像与 Mural Wall 之间的位置——' +
+          '<strong>19 座实体雕像映在抛光石壁上变成 38 座，对应三八线与 38 个月的战期</strong>，' +
+          '这是整座纪念碑的设计核心，走错位置就看不到。' +
+          '二是 Pool of Remembrance 旁刻的那句 <strong>「FREEDOM IS NOT FREE」</strong>。' +
+          '三是 Mural Wall 上的面孔要<strong>贴近到一米内、让视线与壁面成小夹角</strong>才看得见，' +
+          '正面直视、正午顶光下几乎完全消失。',
+        '<strong>要在 Wall of Remembrance 上找具体某个人，先知道这件事：这面墙的名字有大量已知错误。</strong>' +
+          '据独立机构 Korean War Project 与 2023 年《纽约时报》的核查，' +
+          '<strong>已刻上的 36,634 名美军与 7,174 名 KATUSA 名单中，至少 1,015 个名字拼写有误、' +
+          '245 人并非在此战中阵亡、另约 500 个应列的名字被漏掉</strong>。' +
+          '成因是建设方直接采用了未清理的国防部伤亡数据库。' +
+          '国会已于 2023 年要求订正，<strong>但截至 2026-09-14 石刻本体尚未见公开的更正完成通告</strong>——' +
+          '<strong>找不到亲人的名字很可能不是你找错了</strong>。',
+        '<strong>这一站有个全区独有的实际功能：Lincoln Memorial Undercroft 的当日免费票就在本纪念碑旁的信息亭发放。</strong>' +
+          '亭子在 Daniel French Drive SW 上，<strong>8:45 起先到先得，一人（16 岁以上）最多领 6 张</strong>。' +
+          '<strong>合理的用法是：早上先来这里排票，拿到票后就地把这座纪念碑逛完，再走 350 米去 Lincoln Memorial</strong>，' +
+          '时间完全不浪费。代价是 <strong>08:30–09:30 东侧步道会有一条排队人龙</strong>。' +
+          '信息亭还可凭政府签发的证件免费借用轮椅（先到先得）。',
+        '<strong>卫生间就在本站旁边，是 Mall 西端最靠得住的一处</strong>：' +
+          '<strong>100 Daniel French Drive SW</strong>，距纪念碑约 150 米，' +
+          '<strong>一般 8:00–22:00（11–2 月 8:00–20:00）</strong>。' +
+          '同一条路上还有一个餐饮 kiosk（约 10:25–18:25）。' +
+          '<strong>逛完 Lincoln 一带再往 Tidal Basin 方向走之前，建议在这里上一次厕所</strong>——' +
+          '往南下一处要到 MLK Memorial（约 500 米）。',
+        '<strong>可以跳过的部分与最少人的时段。</strong>' +
+          'UN Curb 与 Wall of Remembrance 上逐个读名字，除非你有明确要找的人，否则可以只扫一眼；' +
+          '<strong>省下的时间放在雕像与 Mural Wall 之间那几米</strong>。' +
+          '24 小时开放、地灯从雕像脚下向上打，<strong>夜间气场远强于白天，也几乎没人</strong>；' +
+          '白天 10:00–16:00 与 Lincoln Memorial 的人流完全重叠。' +
+          '<strong>每年 9–10 月这里常有老兵团体与献花仪式，遇到时请退到外圈，不要越过绳线。</strong>'
       ],
       photo: '人文 <strong>4.5/5</strong>，建筑 <strong>3.5/5</strong>，风光 <strong>2/5</strong>。' +
         '夜间地灯从下方打亮雨披与面孔，是全 Mall 最具戏剧性的一组雕塑；扣分因为晴天正午几乎不可用。',
@@ -363,11 +490,18 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>30–40 分钟</strong>。分配：19 座雕像与 Mural Wall 的反射关系 15 分钟、' +
+          'Pool of Remembrance 与 Wall of Remembrance 10 分钟、UN Curb 与外圈 5 分钟。' +
+          '<strong>只看雕像阵列：15 分钟。</strong>' +
+          '若要在 Wall of Remembrance 上找特定姓名，另加 20–30 分钟（名单无字母索引牌，按军种分区排列）。',
         book: '不需预约',
-        ticket: '<strong>免费</strong>',
-        hours: '<strong>24 小时开放</strong>。Ranger 值守 9:30–22:00。' +
-          '<strong>注意：本纪念碑旁 Daniel Chester French Drive 上的售票亭自 8:45 起发放 Lincoln Memorial Undercroft 当日票</strong>，' +
-          '清晨 08:30–09:30 这里会有一条排队人龙，拍摄请避开这个时段的东侧步道',
+        ticket: '<strong>免费</strong>，无任何分档。轮椅可在信息亭凭政府签发证件免费借用（先到先得）。' +
+          '（据 nps.gov/kowa，<strong>2026-09-14 核实</strong>）',
+        hours: '<strong>场地 24 小时开放</strong>（NPS：outdoor areas open 24 hours a day 7 days a week）；' +
+          '<strong>Ranger 值守 9:30–22:00</strong>——无门禁与有人值守是两件事，深夜来只有场地和地灯。' +
+          '（<strong>2026-09-14 核实</strong>）' +
+          '<strong>注意：本纪念碑旁 Daniel Chester French Drive 上的信息亭自 8:45 起发放 Lincoln Memorial Undercroft 当日票</strong>，' +
+          '清晨 08:30–09:30 这里会有一条排队人龙，占住东侧步道',
         parking: 'Daniel French Drive SW 与 Independence Ave SW 路边表位，<strong>$2.30/小时，7:00–20:00 收费</strong>；' +
           'West Basin Drive SW 亦有表位。20:00 后免费',
         walk: 'Metro <strong>Foggy Bottom–GWU 站</strong>步行约 <strong>1.6 公里 / 20 分钟</strong>；' +
@@ -398,8 +532,9 @@ module.exports = {
       n: 4,
       name: '二战纪念碑',
       en: 'National World War II Memorial',
+      must: 4,
       score: 4,
-      tldr: '喷泉水池 + 56 根石柱构成 Mall 上最好的对称构图，也是全区唯一能同时框进方尖碑与林肯堂的位置。',
+      tldr: '中轴线上的下沉椭圆广场，免费 24 小时开放；56 根州名立柱、4,048 颗金星墙与 24 块青铜浮雕，是 Mall 上信息量最大的一座纪念碑。',
       tags: [
         { t: '24 小时免费', c: 'free' },
         { t: '夜间水景打灯', c: 'free' },
@@ -421,6 +556,37 @@ module.exports = {
           '<strong>分别在 Atlantic 与 Pacific 拱门附近的封闭铁门后侧</strong>，需要蹲下来找',
         '<strong>这是全 Mall 唯一一个「站在中轴线上，一次收进 Washington Monument 与 Lincoln Memorial」的点位</strong>。' +
           '缺点是它太受欢迎了：白天几乎不可能拍到没有人的画面'
+      ],
+      tour: [
+        '<strong>动线：从 17th St 的正式入口（西侧）沿中轴走下去，这是设计好的序列，别从侧面切进来。</strong>' +
+          '顺序：<strong>入口两侧坡道栏板上的 24 块青铜浮雕</strong> → 下到椭圆广场 → ' +
+          '<strong>绕 Rainbow Pool 走一圈看 56 根立柱</strong>（柱上刻州名与领地名，按 1945 年加入联邦的顺序交替排在南北两侧，' +
+          '可以找找自己去过的州）→ 南北两端的 <strong>Pacific 与 Atlantic 拱门</strong> → ' +
+          '西端的 <strong>Freedom Wall</strong>。一圈 25–40 分钟，全程平地加缓坡，无台阶，轮椅可通行。',
+        '<strong>最容易被跳过、却最值得花时间的是入口那 24 块浮雕。</strong>' +
+          'Ray Kaskey 作，每块 2 英尺高 × 5 英尺长，<strong>北侧 12 块讲大西洋／欧洲战场与后方，南侧 12 块讲太平洋战场与后方</strong>，' +
+          '内容从征兵体检、造船厂女工一直排到胜利。' +
+          '<strong>Home Front Drive 上的 visitor contact station 备有这 24 块浮雕的说明单页，免费拿</strong>，' +
+          '拿一张再看，效果和不拿完全是两回事。大多数游客只在水池边拍照就走了。',
+        '<strong>Freedom Wall 是这里的情绪核心，请留 5 分钟站定。</strong>' +
+          '西侧墙上 <strong>4,048 颗金星，每颗代表 100 名阵亡美军，合计 404,800 人</strong>；' +
+          '墙前铭文只有一句「Here we mark the price of freedom.」' +
+          '<strong>这面墙正前方是 NPS 明列的限制区，不要越过低护栏走进水池一侧。</strong>',
+        '<strong>找 Kilroy：NPS 官方原文说「There are two Kilroy inscriptions hidden in the memorial tucked in the corners ' +
+          'of both the Atlantic and Pacific sides of the memorial. Can you find them?」</strong>' +
+          '——那个探头看墙的秃头小人是二战美军最著名的涂鸦，两处都<strong>藏在拱门附近金色铁门后的角落里，需要蹲下来找</strong>。' +
+          '这是全 Mall 唯一一个官方鼓励的「找彩蛋」，带孩子来非常好用。' +
+          '<strong>不要翻越或撬动铁门</strong>，它就在门后可视范围内。',
+        '<strong>卫生间与餐饮：最近的公共厕所在西北侧树林里的 Ash Woods，地址 15 Home Front Drive，步行约 200–300 米</strong>；' +
+          '同一处就是 visitor contact station。' +
+          '<strong>往东走的人请务必在这里解决——15th St 以东（Washington Monument 到国会大厦之间整条 Mall）没有任何公共厕所</strong>，' +
+          '这是 NPS 自己承认的现状（全 Mall 仅 9 座公共卫生间，全部在 15th St NW 以西）。' +
+          '这一带也没有餐厅，只有路边食品车。',
+        '<strong>人流与时段：10:00–16:00 是全 National Mall 人流密度最高的一处</strong>，' +
+          '旅行团、Honor Flight 老兵团与毕业旅行团都必到，喷泉边几乎无立足之地。' +
+          '<strong>想安静只有 07:00 前与 21:00 后两个窗口</strong>，且 24 小时开放、夜间水景打灯。' +
+          '<strong>顺路提示：本站以东的 Mall 中央草坪（3rd–14th St SW）自 2026 年 9 月 1 日起封闭至 2027 年 1 月 24 日做草皮修复</strong>，' +
+          '沿线有连续围挡，但不影响本纪念碑本体与步道通行。'
       ],
       photo: '建筑 <strong>4/5</strong>，夜景 <strong>4.5/5</strong>，人像 <strong>3/5</strong>，风光 <strong>3/5</strong>。' +
         '对称几何加喷泉水面加夜间打灯，出片率很高；扣分因人流密度全区第一，且构图选择相对单一。',
@@ -458,11 +624,18 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>40–60 分钟</strong>。分配：入口 24 块浮雕 10–15 分钟（拿了说明单页再看）、' +
+          '绕 Rainbow Pool 看 56 根立柱 15 分钟、两座拱门各 5 分钟、Freedom Wall 5 分钟、找两处 Kilroy 5–10 分钟。' +
+          '<strong>只走一圈拍照：20 分钟。</strong>' +
+          '这是本区「多花 20 分钟就能多看到一倍内容」最明显的一站。',
         book: '不需预约',
-        ticket: '<strong>免费</strong>',
-        hours: '<strong>24 小时开放</strong>。Ranger 值守 9:30–22:00。' +
-          '<strong>喷泉的运行时段官网未明示</strong>，实务上春秋两季白天与前半夜运行、深夜与冬季停机排空，' +
-          '<strong>未能从官方渠道确认 9–10 月的具体停机钟点</strong>——想拍喷泉请别把凌晨 03:00 当成机会',
+        ticket: '<strong>免费</strong>，无任何分档。24 块浮雕的说明单页在 Home Front Drive 的 visitor contact station 免费领取。' +
+          '（据 nps.gov/wwii，<strong>2026-09-14 核实</strong>）',
+        hours: '<strong>场地 24 小时开放</strong>；<strong>Ranger 值守 9:30–22:00</strong>。' +
+          'Home Front Drive 上的 visitor contact station 与 Ash Woods 卫生间为白天营业，' +
+          '<strong>具体钟点官网未列，未能从官方渠道确认</strong>（可电 202-426-6841 询问）。' +
+          '<strong>喷泉的运行时段官网同样未明示</strong>，实务上春秋两季白天与前半夜运行、深夜与冬季停机排空，' +
+          '<strong>未能从官方渠道确认具体停机钟点</strong>。（<strong>2026-09-14 核实</strong>）',
         parking: '<strong>17th St NW 沿线与 Constitution Ave NW（15th–23rd St）路边表位最近</strong>，' +
           '$2.30/小时，7:00–20:00 收费，3 小时上限。20:00 后免费',
         walk: 'Metro <strong>Smithsonian 站（Blue/Orange/Silver）</strong>直线约 1.06 公里，' +
@@ -495,13 +668,14 @@ module.exports = {
       n: 5,
       name: '华盛顿纪念碑',
       en: 'Washington Monument',
+      must: 4,
       score: 4.5,
-      tldr: '外部随便拍，顶层 500 英尺观景台要抢定时票；观景台 17:00 关门，本窗口内永远拍不到日落。',
+      tldr: '外部是 DC 的定位锚点、随时免费可看；登顶要抢定时票，而顶上只有 8 扇小窗，内部体验远不如名气——外部 5 分、内部 3 分。',
       tags: [
         { t: '外部 24 小时免费', c: 'free' },
         { t: '登顶需定时票', c: 'risk' },
         { t: '需过安检', c: 'risk' },
-        { t: '10/5 全天闭馆', c: 'risk' }
+        { t: '每月一天闭馆', c: 'risk' }
       ],
       highlights: [
         '高 <strong>555 英尺 5⅛ 英寸（169.29 米）</strong>，1848 年动工、1884 年封顶，' +
@@ -520,6 +694,49 @@ module.exports = {
         '碑体外部整夜泛光，<strong>顶部还有一对红色航空障碍灯持续闪烁</strong>——' +
           '拍长曝光时这两点会拖成红色断续线，构图时要么接受它、要么用短快门'
       ],
+      tour: [
+        '<strong>先决定要不要登顶，这是本站唯一真正的决策。</strong>' +
+          '碑体外部与整片草坪 24 小时免费开放、不需要任何票；' +
+          '内部只有 <strong>500 英尺观景台</strong>与下一层 <strong>490 英尺博物馆层</strong>两处，' +
+          '<strong>观景台四面各有两扇窗、共 8 扇，窗很小、玻璃很厚且不可开启，没有露台</strong>。' +
+          '<strong>换句话说「内部体验有限」是实话</strong>：视野确实是全城最高最中心的，但只能透过小窗看。' +
+          '<strong>行程紧、不想为抢票折腾的人，跳过登顶并不可惜</strong>，把时间给 Lincoln Memorial 与 WWII Memorial 更划算。',
+        '<strong>抢票规则（2026-09-14 核实，这一关比参观本身难）：全员 2 岁以上需票。</strong>' +
+          '<strong>① 30 天提前票：每日 10:00 ET 整点放出 30 天后那一天的全部库存</strong>' +
+          '（例：5 月 7 日 10:00 放 6 月 6 日的票），recreation.gov 或 877-444-6777，' +
+          '每张收 <strong>$1.00 不可退手续费</strong>。' +
+          '<strong>② 前一日票：另有一批在参观前一天 15:00 ET 放出</strong>。' +
+          '<strong>③ 当日免费票：Washington Monument Lodge（15th St，Madison 与 Jefferson Drive 之间）8:45 起发放</strong>，' +
+          '一人（16 岁以上）最多领 6 张、可挑时段，先到先得。' +
+          'NPS 自己写「demand far exceeds availability」，春夏秋放票后常常几分钟售光——' +
+          '<strong>务必提前注册好 recreation.gov 账号并在放票前登录</strong>。' +
+          '票是每半小时一场（9:00–16:00）。',
+        '<strong>安检与禁带物：入内必过机场式安检，这是最容易在门口被拦下的环节。</strong>' +
+          'Superintendent’s Compendium 明列禁带：<strong>超过 18"×16"×8" 的行李箱、旅行袋或背包；婴儿车；' +
+          '食物（少量密封食品除外）；饮料（水、牛奶、婴儿配方奶需装在透明塑料容器内除外）</strong>；' +
+          '螺丝刀、扳手、锤子等工具明确禁止。<strong>大件行李与大三脚架请别带，现场没有寄存</strong>。' +
+          'NPS 建议提前 15 分钟到安检区，<strong>迟到者由工作人员酌情决定是否放行，且末班入场 16:30 之后一律不放</strong>。',
+        '<strong>上去以后怎么看（总共 30–45 分钟就够）：出电梯先绕观景台走一圈认四个方向</strong>——' +
+          '<strong>西窗看 Lincoln Memorial 与 Reflecting Pool 的中轴线、南窗看 Tidal Basin 与 Jefferson Memorial、' +
+          '东窗看 Capitol 与整条 Mall、北窗看白宫</strong>。' +
+          '<strong>两层都有 Ranger 值守，可以直接提问</strong>，这是理解「为什么 DC 没有高楼」最快的一课。' +
+          '然后走楼梯（轮椅可搭电梯）下到 490 英尺博物馆层看展板，那里也是排队等下行电梯的地方，' +
+          '<strong>顺序上先看完展再排队，不要一下楼就站队</strong>。电梯单程 70 秒。' +
+          '停留时间没有硬性上限，但闭馆前会清场。',
+        '<strong>外部三样别错过，都不需要票。</strong>' +
+          '一是 <strong>约 150 英尺高度处那道横向色差线</strong>——1854–1877 年停工 23 年，复工后换了采石场，' +
+          '颜色永远对不上，晴天侧光下最明显。' +
+          '二是碑体西北约 120 米草地上那块不起眼的 <strong>Jefferson Pier Stone</strong>，' +
+          '它标记的才是 L’Enfant 规划里白宫南北轴与国会东西轴的理论交点——' +
+          '<strong>方尖碑因为地基太软撑不住 8 万吨石头，被迫往东南挪了位置</strong>。' +
+          '三是围绕碑体的旗阵（50 面州旗）。',
+        '<strong>卫生间：Washington Monument Lodge 内有公共厕所与书店，这是 15th St 一带唯一一处，也是当日票发放点。</strong>' +
+          '从 Lodge 走到碑体入口约 <strong>170 米 / 3 分钟</strong>。' +
+          '<strong>再往东（整条 Mall 直到国会大厦）没有任何公共厕所</strong>，往东走之前请在这里解决。' +
+          '步行：<strong>Metro Smithsonian 站 650 米 / 8 分钟，是本区离地铁最近的点</strong>；' +
+          '到 WWII Memorial <strong>约 450 米 / 6 分钟</strong>，到 Jefferson Memorial 绕 Tidal Basin 约 <strong>1.2 公里 / 16 分钟</strong>。' +
+          '草坪有起伏但坡度平缓，<strong>结霜、积水或土壤饱和时禁止进入草坪</strong>（Compendium 明文），请走铺装路。'
+      ],
       photo: '建筑 <strong>4/5</strong>，风光 <strong>4/5</strong>（登顶后的城市俯瞰），人像 <strong>3.5/5</strong>。' +
         '外部作为背景元素几乎万能；扣分因为碑体本身是一根没有细节的柱子，' +
         '而顶层观景台窗户小、玻璃厚且脏，隔窗拍摄的画质天花板很低。',
@@ -537,9 +754,10 @@ module.exports = {
         },
         {
           name: '500 英尺观景台（需票）',
-          desc: '<strong>本窗口内最好的场次是 10 月下旬的 16:00 或 16:30（末班票）。</strong>' +
-            '17:00 闭馆，日落 18:19，<strong>拍不到日落，但 16:30 的低角度阳光已足够暖</strong>；' +
-            '9 月下旬同样时段太阳仍高（日落 19:00），画面会偏平。' +
+          desc: '<strong>秋季最好的场次是 16:00 那一场（也就是末班票；16:30 停止入场、17:00 闭馆）。</strong>' +
+            '<strong>观景台 17:00 关门，而十月下旬日落已在 18:19 之后——从顶上拍日落在任何季节都不成立</strong>，' +
+            '十月下旬 16:00 进场时的低角度阳光已足够暖，是全年最接近的替代；' +
+            '九月下旬同样时段太阳仍高（日落约 19:00），画面会偏平。' +
             '<strong>窗户小、玻璃厚且有明显反光</strong>：唯一解法是<strong>带一只橡胶遮光罩直接压在玻璃上</strong>，' +
             '或用外套罩住镜头与玻璃之间的缝隙。24–70mm 足够，广角会把窗框拍进去。' +
             '<strong>西窗看 Lincoln Memorial 与 Reflecting Pool 轴线（围挡期间会看到明显工地）、' +
@@ -560,19 +778,35 @@ module.exports = {
         }
       ],
       access: {
-        book: '<strong>登顶必须定时票。</strong>recreation.gov 或 877-444-6777。' +
-          '<strong>提前票：参观日前 30 天的上午 10:00 ET 整点放出，每张收 $1.00 不可退手续费</strong>；' +
-          '<strong>另有一批「前一日票」在参观前一天 15:00 ET 放出</strong>（部分官方页面写作「前一日 10:00」，' +
-          '<strong>两种口径同时存在于 NPS 与 recreation.gov 页面，未能确认哪个为准，建议两个时间点都盯</strong>）。' +
-          '<strong>当日免费票在 Washington Monument Lodge（15th St，Madison 与 Jefferson Drive 之间）8:45 起发放</strong>，' +
-          '一人（16 岁以上）最多领 6 张、可指定时段，先到先得。旺季秒光，务必提前注册好账号并预先登录',
-        ticket: '<strong>门票免费</strong>；提前预订收 <strong>$1.00/张</strong> 不可退服务费。当日现场票完全免费',
-        hours: '<strong>纪念碑内部：每日 9:00–17:00。</strong>' +
-          '末班参观时间官方两处口径不一（NPS 基础信息页写 16:30，recreation.gov 写 16:00），' +
-          '<strong>建议按 16:00 规划</strong>。<strong>碑体外部与整片 Washington Monument 草坪 24 小时开放</strong>。' +
-          '<strong>2026 年闭馆日（每月首周一天例行维护）：9 月 10 日、10 月 5 日、11 月 11 日、11 月 26 日、12 月 25 日</strong>——' +
-          '<strong>10 月 5 日（周一）落在本行程窗口内，那天登不了顶</strong>。' +
-          '另外雷暴与大风会临时关闭并作废该时段票',
+        visit: '<strong>只看外部：20–30 分钟</strong>（绕碑体一圈 10 分钟、找 Jefferson Pier Stone 与停工色差线 10–15 分钟）。' +
+          '<strong>含登顶：共 1.5–2 小时</strong>——安检排队 15–30 分钟、电梯上行 70 秒、' +
+          '500 英尺观景台 20–30 分钟、490 英尺博物馆层 10 分钟、排队下行 5–15 分钟。' +
+          '<strong>顶上真正值得待的时间只有 30–45 分钟，票面时段外没有额外弹性。</strong>',
+        book: '<strong>登顶必须定时票，2 岁以上全员需票；外部草坪不需预约。</strong>' +
+          'recreation.gov（facility 234635）或 877-444-6777。票是每半小时一场，<strong>9:00–16:00</strong>。' +
+          '<strong>① 30 天提前票：每日 10:00 ET 放出 30 天后那一天的库存</strong>' +
+          '（recreation.gov 原文：「on May 7 at 10 a.m., tickets will become available for visits on June 6」），' +
+          '每张收 <strong>$1.00 不可退手续费</strong>。' +
+          '<strong>② 前一日票：recreation.gov 的 facility 页面与 NPS 页面均写「a limited number of additional tickets ' +
+          'are made available at 3 p.m. each day for the next day’s visits」，即前一日 15:00 ET</strong>；' +
+          '但 recreation.gov 的 tour 子页面另有一处写作「available one-day before the tour date at 10 a.m. Eastern Time」。' +
+          '<strong>两种口径同时存在于官方页面，未能确认哪个为准，建议 10:00 与 15:00 两个时间点都盯</strong>。' +
+          '<strong>③ 当日免费票：Washington Monument Lodge 8:45 起发放</strong>，' +
+          '一人（16 岁以上）最多领 6 张、可指定时段，先到先得，旺季在开窗前很久就排起队。' +
+          'NPS 建议提前注册账号并在放票前登录。（<strong>2026-09-14 核实</strong>）',
+        ticket: '<strong>门票免费，无成人／老年／学生／儿童分档</strong>；' +
+          '<strong>2 岁以上须持票</strong>，2 岁以下免票。' +
+          '网上提前票收 <strong>$1.00/张</strong> 不可退服务费，<strong>当日现场票 $0.00</strong>。' +
+          '（据 nps.gov/wamo 与 recreation.gov，<strong>2026-09-14 核实</strong>）',
+        hours: '<strong>纪念碑内部官方原文：「The Washington Monument is open daily from 9:00 a.m. to 5:00 p.m. ' +
+          'The last timed entry ticket into the Washington Monument is 4:00 p.m. with entrances ceasing at 4:30 p.m. ' +
+          'Any visitor arriving after 4:30 p.m. will NOT be granted entrance.」</strong>' +
+          '——<strong>末班票 16:00、16:30 停止入场、17:00 闭馆，这三个数字是三件事，不矛盾</strong>。' +
+          '<strong>碑体外部与整片 Washington Monument 草坪 24 小时开放，Ranger 值守 9:30–22:00。</strong>' +
+          '<strong>2026 年全年闭馆日（官网原文列表）：1/8、2/3、3/4、4/6、5/7、6/2、7/4、7/8、8/3、' +
+          '9/10、10/5、11/11、11/26、12/25</strong>；规律是每月第一周一天例行维护，外加独立日与圣诞。' +
+          '<strong>十月上旬出行请特别注意 10 月 5 日（周一）全天不开放。</strong>' +
+          '另外雷暴与大风会临时关闭并作废该时段票。（<strong>2026-09-14 核实</strong>）',
         parking: '<strong>Washington Monument Lodge 旁 15th St 与 Jefferson Drive SW 路边表位最近</strong>，' +
           '$2.30/小时，7:00–20:00 收费，3 小时上限。' +
           '免费选项仍是 Hains Point（约 520 位），步行 2.5 公里以上',
@@ -581,6 +815,13 @@ module.exports = {
           'Washington Monument Lodge 到碑体入口约 <strong>170 米 / 3 分钟</strong>'
       },
       notes: [
+        '<strong>电梯状态（2026-09-14 核实）：正常运行。</strong>' +
+          'NPS 与 recreation.gov 当前页面均写明游客乘电梯上到 500 英尺观景台、' +
+          '<strong>单程不停约 70 秒，途中播放一段介绍影片</strong>，' +
+          'nps.gov/wamo 的 Alerts & Conditions 页无任何在效的电梯故障公告。' +
+          '<strong>但这部电梯历史上多次长期故障（2016–2019 年曾为电梯现代化改造整体关闭近三年）</strong>，' +
+          '且 <strong>内部 897 级楼梯永久对公众关闭，电梯是唯一上下手段——一旦电梯停摆就等于全塔关闭</strong>。' +
+          '出发当天请查 nps.gov/wamo 的 Alerts 页，或电 202-426-6841',
         '<strong>入内必过安检</strong>。Superintendent’s Compendium 明列禁带物：' +
           '<strong>超过 18"×16"×8" 的行李箱、旅行袋或背包；婴儿车；食物（少量密封食品除外）；' +
           '饮料（水、牛奶、婴儿配方奶需装在透明塑料容器内除外）</strong>；' +
@@ -609,8 +850,9 @@ module.exports = {
       n: 6,
       name: '马丁·路德·金纪念碑',
       en: 'Martin Luther King, Jr. Memorial',
+      must: 3.5,
       score: 4,
-      tldr: '30 英尺高的 Stone of Hope 面朝东南，只有清晨的侧光能打亮那张脸；内圈禁三脚架且涉及肖像版权。',
+      tldr: '全 Mall 尺度最大的单体人像，免费 24 小时开放；建筑序列设计得极好，但位置在 Tidal Basin 西岸、离地铁 1.7 公里，属于「顺着环湖路走就一定要进」的一站。',
       tags: [
         { t: '24 小时免费', c: 'free' },
         { t: '内圈禁三脚架', c: 'risk' },
@@ -633,6 +875,41 @@ module.exports = {
         '环绕的花岗岩弧墙上刻着 14 段 King 的语录（原有的一句「drum major」引言因断章取义争议已于 2013 年铲除重整）。' +
           '<strong>引文墙的版权与 King 的肖像、文字一并由 King 家族通过 Intellectual Properties Management 管理</strong>，' +
           '这是 NPS 官方明列需要版权授权的少数几处之一'
+      ],
+      tour: [
+        '<strong>务必从 Independence Ave / West Basin Drive 一侧的正门进，不要从 Tidal Basin 岸边抄进来。</strong>' +
+          '整座纪念碑就是一句话的空间化：<strong>「Out of the mountain of despair, a stone of hope.」</strong>' +
+          '正确序列是<strong>先穿过被劈开的两块巨石（Mountain of Despair）</strong>，' +
+          '走出裂口时<strong>正面迎上 30 英尺高的 Stone of Hope</strong>，' +
+          '再沿两侧弧形引文墙走一圈，最后出到水边回望。' +
+          '<strong>从岸边进来等于先看结局，整个设计就白费了</strong>——这是本区最值得守规矩的一条动线。',
+        '<strong>引文墙上的 14 段语录值得慢慢读，这是本站真正的内容量所在。</strong>' +
+          '环绕的花岗岩弧墙约 450 英尺长，按主题而非时间排列。' +
+          '<strong>其中有一处「空白」值得知道：原来刻的一句 “drum major” 引言因断章取义引发争议，' +
+          '已于 2013 年整段铲除重整</strong>，所以你在墙上找不到它。' +
+          '<strong>不要只拍雕像就走——那是很多人 10 分钟结束这一站的原因，但也是他们什么都没看到的原因。</strong>',
+        '<strong>三个别错过的细节。</strong>一是 <strong>King 像的视线朝东南、实测方位约 129°，正对 Tidal Basin 对岸的 ' +
+          'Jefferson Memorial</strong>——站到他的视线方向上看一眼，整个选址的用意就明白了。' +
+          '二是<strong>门牌号 1964 Independence Ave SW</strong>，这个号码是特意申请的，指向 1964 年《民权法案》。' +
+          '三是<strong>半身像尚未完全脱离石体、双臂交抱、眉头微蹙</strong>，' +
+          '走到雕像侧面看会更清楚这种「推出来一半」的处理。',
+        '<strong>时段上有一个硬约束，会影响你怎么安排这一天：雕像正面朝东南，过了正午整张脸进入自身阴影。</strong>' +
+          '<strong>清晨到中午前来，脸是被光打亮的；下午与傍晚来，只看得到一块灰石头。</strong>' +
+          '下午到场的人建议改看引文墙与石材质感，或者干脆等到天黑——' +
+          '<strong>入夜后地灯从下方打亮雕像，是另一种很好的版本，而且几乎没人</strong>。',
+        '<strong>卫生间与书店：121 West Basin Drive SW 的书店建筑，无障碍厕所在该建筑南侧。</strong>' +
+          '这是 Tidal Basin 西岸唯一一处，往北到 Korean War Veterans Memorial（约 500 米）、' +
+          '往南到 FDR Memorial（约 450 米）才有下一处。' +
+          '书店可凭州政府签发的证件免费借用轮椅。' +
+          '<strong>书店官方钟点为全年每日 10:00–18:00，厕所随之在夜间关闭</strong>' +
+          '（NPS 总口径：「Restrooms, museums and elevators close in the evenings」），' +
+          '<strong>夜访这一带等于没有厕所</strong>。这一带也没有餐厅。',
+        '<strong>步行与体力：这是本区步行成本最高的一段，务必把它排进环湖动线里，不要单独专程来。</strong>' +
+          '<strong>Metro Smithsonian 站步行 1.7 公里 / 21 分钟</strong>，全区第二远；' +
+          '到 Lincoln Memorial <strong>800 米 / 10 分钟</strong>、FDR Memorial <strong>450 米 / 6 分钟</strong>、' +
+          'Jefferson Memorial 沿 Tidal Basin 约 <strong>1.1 公里 / 15 分钟</strong>。' +
+          '园内全程平地铺装、无台阶，轮椅可通行。' +
+          '<strong>夜间这一带（West Potomac Park）照明明显暗于 Lincoln 一侧、人也少，不建议单独夜访。</strong>'
       ],
       photo: '人像/雕塑 <strong>4.5/5</strong>，建筑 <strong>3.5/5</strong>，风光 <strong>2.5/5</strong>。' +
         '一张 30 英尺高、有明确视线方向的脸，是全 Mall 最上镜的雕塑；' +
@@ -673,10 +950,19 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>30–45 分钟</strong>。分配：穿过 Mountain of Despair 与正面看 Stone of Hope 10 分钟、' +
+          '沿引文墙读 14 段语录 15–20 分钟、走到水边回望并看 King 的视线方向 5–10 分钟。' +
+          '<strong>只看雕像拍张照：10 分钟</strong>（但那样会错过这一站一半以上的内容）。',
         book: '不需预约',
-        ticket: '<strong>免费</strong>',
-        hours: '<strong>24 小时开放</strong>。Ranger 值守 9:30–22:00。' +
-          '书店（West Basin Drive 一侧）为白天营业，<strong>具体钟点官网未列，未能确认</strong>',
+        ticket: '<strong>免费</strong>，无任何分档。书店可凭州政府签发证件免费借用轮椅。' +
+          '（据 nps.gov/mlkm，<strong>2026-09-14 核实</strong>）',
+        hours: '<strong>场地 24 小时开放</strong>（NPS：outdoor areas open 24 hours a day 7 days a week）；' +
+          '<strong>Ranger 值守 9:30–22:00</strong>。' +
+          '<strong>书店（America’s National Parks Store，121 West Basin Drive SW）：NPS 官网原文' +
+          '「Martin Luther King, Jr. Memorial store 10 am – 6 pm year-round」，即全年每日 10:00–18:00</strong>' +
+          '（官网另注「Hours are subject to change without notice」）。' +
+          '厕所随书店建筑在夜间关闭——NPS 总口径是「Restrooms, museums and elevators close in the evenings」。' +
+          '（<strong>2026-09-14 核实</strong>）',
         parking: '<strong>West Basin Drive SW 与 Independence Ave SW 路边表位</strong>，' +
           '$2.30/小时，7:00–20:00 收费。' +
           '<strong>注意 Ohio Drive SW 在 Independence Ave 与 West Basin Drive 之间封闭至 2030 年</strong>' +
@@ -710,8 +996,9 @@ module.exports = {
       n: 7,
       name: '罗斯福纪念公园',
       en: 'Franklin Delano Roosevelt Memorial',
+      must: 3,
       score: 4,
-      tldr: '四个露天「房间」串成 800 米叙事线，全区唯一的水景与质感题材；但全域禁三脚架且雕塑另有版权。',
+      tldr: '四个露天「房间」串成 800 米叙事线，做得很好也很耐看；但它是全区离地铁最远（1.9 公里）、最容易被时间挤掉的一站，属于有兴趣再去。',
       tags: [
         { t: '24 小时免费', c: 'free' },
         { t: '全域禁三脚架', c: 'risk' },
@@ -736,6 +1023,41 @@ module.exports = {
           '知道这段以后再去拍它，画面的意义完全不同',
         '<strong>全园被大树覆盖，是常年柔散射光环境。</strong>' +
           '这意味着它<strong>不依赖日出日落</strong>，反而是本页唯一一个「阴天来比晴天来好」的地点'
+      ],
+      tour: [
+        '<strong>必须从北侧（MLK Memorial 方向）入口进，按第一室到第四室的顺序走一遍，全程单向约 800 米。</strong>' +
+          '这不是挑剔：四个房间分别对应罗斯福的四届任期，' +
+          '<strong>反着走等于把 1933–1945 这十二年倒着读，整条叙事会彻底散掉</strong>。' +
+          '园内有导览牌但动线不够直觉，岔路多，<strong>认准「沿红色 Dakota 花岗岩墙一直往南走」就不会错</strong>。',
+        '<strong>看懂这里的关键是看水，而不是看雕像。</strong>' +
+          '四个房间的水景是有语法的：<strong>第一室水流平静（大萧条前）；第二室水从高处跌落成阶（新政）；' +
+          '第三室水被打乱成互相冲撞的乱流（二战）；第四室水面重新归于平静（罗斯福逝世与和平）</strong>。' +
+          '<strong>知道这一层之后，第三室那片无序堆叠的巨石与对冲水流是全园最震撼的一处</strong>，' +
+          '不知道的人会觉得「就是个假山瀑布」。',
+        '<strong>五组必看雕塑，都可以走近。</strong>' +
+          '<strong>George Segal 的 Depression Breadline</strong>（五个真人尺寸青铜人排队领救济，' +
+          '<strong>这是全 DC 唯一一处你可以站进队伍里当「第六个人」的地方</strong>，带孩子来的首选）；' +
+          'Fireside Chat（听收音机的男人）；Neil Estern 的罗斯福与 Fala 犬；<strong>Eleanor Roosevelt 立像</strong>' +
+          '（常被指出是美国总统纪念碑中唯一为第一夫人立的像）；' +
+          '以及入口前厅那尊坐轮椅的罗斯福——' +
+          '<strong>1997 年落成时全园没有一处显示他残疾，残障权益团体抗议后才在 2001 年 1 月补建这一尊</strong>。' +
+          '知道这段再去看它，意义完全不同。',
+        '<strong>时间紧就只走第二室与第三室。</strong>' +
+          'Breadline 与乱流瀑布是全园信息密度最高的两处，20 分钟能拿下；' +
+          '第一室与第四室内容相对薄，路过即可。' +
+          '<strong>反过来说，如果这一天已经走了 5 公里、脚开始疼，直接跳过整座 FDR Memorial 是合理决定</strong>——' +
+          '它值得去，但不值得硬撑（这也是它 must 只给 3 分的原因）。',
+        '<strong>卫生间：园区南北两端各有一处（400 West Basin Drive SW 一带），是本区少见的「两头都有」。</strong>' +
+          '书店与信息中心在北侧入口附近，可取纸质导览手册（讲水景设计的那一份值得拿），' +
+          '<strong>书店官方钟点为每日 10:00–18:00</strong>；' +
+          '厕所随之在夜间关闭（NPS 总口径：「Restrooms, museums and elevators close in the evenings」）。' +
+          '这一带没有餐厅，最近的食品车在 West Basin Drive 路边，且不一定出摊。',
+        '<strong>步行与体力：这是全区离地铁最远的一站，Metro Smithsonian 站步行 1.9 公里 / 24 分钟。</strong>' +
+          '到 MLK Memorial <strong>450 米 / 6 分钟</strong>，到 Jefferson Memorial 沿 Tidal Basin 约 <strong>900 米 / 12 分钟</strong>。' +
+          '<strong>园内从北入口走到南出口 800 米，若还要折回北端取车再加 800 米，请留够 45–60 分钟。</strong>' +
+          '全程平地无台阶、轮椅可通行，但<strong>水景旁的花岗岩地面常年潮湿有青苔，穿防滑鞋</strong>。' +
+          '<strong>24 小时开放，但园内树冠茂密、入夜后照明偏暗且遮蔽多，不建议单独夜访</strong>；' +
+          '要夜访就走靠 Tidal Basin 岸边的开阔段。'
       ],
       photo: '雕塑 <strong>4.5/5</strong>，人像 <strong>4/5</strong>，建筑 <strong>3.5/5</strong>，风光 <strong>2.5/5</strong>。' +
         '水、粗糙花岗岩、青铜三种质感的对照极强；' +
@@ -779,12 +1101,20 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45–75 分钟</strong>（园区单向 800 米，是本区占地最大的一站）。' +
+          '分配：四个房间依次各 10–15 分钟，其中第三室乱流瀑布与第二室 Breadline 各值得多留 5 分钟；' +
+          '若要折回北端取车另加 10–15 分钟。' +
+          '<strong>只走第二室与第三室：20–25 分钟</strong>，这是时间紧时的正确取舍。',
         book: '不需预约',
-        ticket: '<strong>免费</strong>',
-        hours: '<strong>24 小时开放</strong>。Ranger 值守 9:30–22:00。' +
-          '<strong>水景（四室瀑布）在冬季会放空停机，秋季通常运行</strong>，' +
-          '但 <strong>NPS 未公布具体的季节性开关机日期，未能确认 10 月下旬是否仍在运行</strong>——' +
-          '若水景停机，本条目一大半价值会消失，建议出发当天先看 nps.gov/frde 的 Alerts',
+        ticket: '<strong>免费</strong>，无任何分档。北侧书店可取免费纸质导览手册。' +
+          '（据 nps.gov/frde，<strong>2026-09-14 核实</strong>）',
+        hours: '<strong>场地 24 小时开放</strong>；<strong>Ranger 值守 9:30–22:00</strong>。' +
+          '<strong>书店官方钟点为每日 10:00–18:00</strong>（官网另注 hours subject to change without notice），' +
+          '卫生间随之在夜间关闭。' +
+          '<strong>水景（四室瀑布）在冬季会放空停机，春、夏、秋通常运行</strong>，' +
+          '但 <strong>NPS 未公布季节性开关机的具体日期，未能从官方渠道确认某一天是否在运行</strong>——' +
+          '<strong>若水景停机，这一站一大半价值会消失</strong>，出发当天先看 nps.gov/frde 的 Alerts 页，' +
+          '或电 202-426-6841。（<strong>2026-09-14 核实</strong>）',
         parking: '<strong>West Basin Drive SW 路边表位</strong>最近，$2.30/小时，7:00–20:00 收费。' +
           '<strong>Ohio Drive SW 在 Independence Ave 与 West Basin Drive 之间封闭至 2030 年</strong>，' +
           '沿 Ohio Drive 的 B、C 号停车场同样关闭至 2030 年；A 号场与 Buckeye Drive 的 D 号场仍开放（表位 6 小时上限）',
@@ -821,8 +1151,9 @@ module.exports = {
       n: 8,
       name: '杰斐逊纪念堂',
       en: 'Thomas Jefferson Memorial & Tidal Basin',
+      must: 4.5,
       score: 5,
-      tldr: '隔 Tidal Basin 拍日出是 DC 第一名的风光机位；海堤工程已完工全线重开，10 月下旬太阳几乎从圆顶正后方升起。',
+      tldr: '2026 年夏天地下展厅整体重做后重开，这一站从「看一眼圆顶」升级成有实质内容的博物馆；免费 24 小时开放，殿内不设门。',
       tags: [
         { t: '24 小时免费', c: 'free' },
         { t: '沿岸已全线重开', c: 'free' },
