@@ -650,12 +650,45 @@ module.exports = {
           '（德国制造、意大利完工），可以整个人靠上去。' +
           '<strong>这是它相对 Top of the Rock 的核心劣势：全周长你都必须隔着玻璃拍。</strong>' +
           '另有中央三角形玻璃地板（厚 2.5 英寸，共 4 块等尺寸面板便于更换）与室内的「Hull Window」玻璃地窗',
-        '<strong>City Climb 是攀爬 30 Hudson Yards 外墙到 1,271 英尺的独立体验，票价 $202（含 Edge 入场）</strong>，' +
+        '<strong>City Climb 是攀爬 30 Hudson Yards 外墙到 1,271 英尺的独立体验，' +
+          '2026-09-14 复核官网 edgenyc.com/city-climb 的现行价是 City Climb $80 起、' +
+          'City Climb Combo（含个人照片包、视频与 Edge 入场）$125 起</strong>' +
+          '（此前长期挂牌的 $202 已不是官网现价，第三方平台仍在按 $185–$204 卖，别照着旧价买），' +
           '全程扣在连续安全导轨上，最后在顶端向外倾身俯瞰。' +
           '每天 5 个时段（10:15、11:00、11:45、12:30、13:45），全程 75–90 分钟，' +
           '<strong>最低年龄 13 岁、身高 4.9–6.7 英尺、体重 65–310 磅</strong>。' +
           '<strong>关键：City Climb 全程禁止个人拍摄</strong>，照片由教练统一拍；' +
           '而且它<strong>不含在任何通票里</strong>，必须单独买'
+      ],
+      tour: [
+        '<strong>动线不是「进门坐电梯」，而是「先走一段室内展陈再上去」，这一点最容易误判时间。</strong>' +
+          '入口在 The Shops &amp; Restaurants at Hudson Yards 的 <strong>Level 4</strong>（不是 30 Hudson Yards 的办公大堂），' +
+          '过机场级安检后要穿过 Pulse、Kaleidoscope、Reflections、Infinite City、Crystal Cave 这几个沉浸式装置，' +
+          '<strong>官网自己写「从 Level 4 走到电梯口可能要 30–60 分钟」</strong>，' +
+          '然后才是 52 秒的高速电梯到 100 层',
+        '<strong>上到平台先做三件事，顺序别反。</strong>' +
+          '一是走到三角形最窄的 <strong>Eastern Point</strong> 尖端（那里一次只站得下一两个人，晚了就要排队）；' +
+          '二是站上中央的<strong>玻璃地板</strong>往下看 345 米（注意分磨砂与透明两种面板，' +
+          '<strong>地板是真透明的，穿裙装请自行斟酌</strong>）；' +
+          '三是靠到 2.7 米高、外倾 6.6 度的斜面玻璃上——这面玻璃是可以整个人压上去的，' +
+          '「悬空」的感觉主要来自这个动作而不是高度本身',
+        '<strong>可以跳过的：City Climb 与 Vessel 组合票。</strong>' +
+          'City Climb（官网现价 $80 起、Combo $125 起）是爬外墙的独立体验，' +
+          '<strong>全程禁止个人拍摄、有年龄体重门槛、要另花 75–90 分钟</strong>，' +
+          '只为看景的人完全不必。Edge + Vessel 组合票 $84 起只省 10%，' +
+          'Vessel 本身在楼下走 10 分钟就够，没必要为了它绑一张更贵的票',
+        '<strong>排队与安检的两个硬约束：不允许再入场（no re-entry），而且场内没有寄存。</strong>' +
+          '包的尺寸上限是 <strong>9×14×22 英寸</strong>（约 23×36×56 厘米），超了当场被拒；' +
+          '雨伞、外带食物、玻璃瓶都算禁带，<strong>只有透明塑料瓶装水可以带进去</strong>。' +
+          '人最少的是<strong>开门后第一档（08:00–09:00 的工作日）</strong>，' +
+          '最挤的是日落前 45 分钟到日落后 30 分钟',
+        '<strong>餐饮在 100 层的 Skyline Bar &amp; Café（Tao Group 运营）与 101 层的 Peak 餐厅</strong>，' +
+          '价格是观景台水准，不便宜但可以坐下来等天黑。' +
+          '<strong>因为不许再入场，卫生间请在商场 Level 4 过安检之前先用一次</strong>——' +
+          '楼上虽然也有，但位置不显眼且排队，问工作人员比自己找快',
+        '<strong>345 米三面临空，风比地面大一个量级，10 月傍晚体感明显更冷。</strong>' +
+          '室外唯一挡风的地方是连接 100 与 101 层的 <strong>Skyline Steps</strong> 木质阶梯座（朝南），' +
+          '想在平台上待满一小时就带一件防风外套，否则二十分钟就会想进室内'
       ],
       photo: '城市天际线 <strong>4.5/5</strong>，下城与海港 <strong>5/5</strong>，人像 <strong>4.5/5</strong>，建筑 <strong>3.5/5</strong>。' +
         '朝南无遮挡加悬空感是四座里最强的；扣分完全来自全周玻璃——夜景反光的处理成本比 Top of the Rock 高一个量级。',
@@ -693,27 +726,46 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>官方口径 60–90 分钟</strong>（edgenyc.com「Plan Your Visit」原文' +
+          '「we recommend allowing 60-90 minutes to enjoy all offerings and experiences」）。' +
+          '<strong>但官方同一段话里另写明「从 Level 4 入口走到电梯口可能要 30–60 分钟」——' +
+          '所以门到门的真实预算是 1.5–2.5 小时，不是 1 小时。</strong>' +
+          '分配：室内装置与安检 <strong>30–60 分钟</strong>、室外平台 <strong>30–45 分钟</strong>' +
+          '（Eastern Point 尖端 10 分钟、玻璃地板 5 分钟、绕一圈看景 15 分钟）、' +
+          'Skyline Bar 坐一下 20 分钟。<strong>只想上去看一眼就走，最快 45 分钟</strong>；' +
+          '想完整看到日落到天黑请按 <strong>2.5 小时</strong>留，因为<strong>不许再入场</strong>，出去就回不来了',
         book: '<strong>必须网上预订定时票</strong>（edgenyc.com）。' +
           '<strong>Advance Saver 提前至少 14 天订 $34 起，最多省 35%——这是官方自己给的最低价，' +
           '摄影行程日期确定后第一时间订这个</strong>。' +
           '<strong>日落与周末档最先售罄，建议提前 2–3 周</strong>。' +
           'City Climb 每天仅 5 个时段、需单独预订，出发前一天 23:59 前可全额退',
-        ticket: '<strong>General Admission 成人 $42 起</strong>（另加 $2 手续费），' +
-          '<strong>Advance Saver $34 起</strong>（提前 14 天以上），' +
-          '<strong>NY／NJ／CT 居民票官网现行口径改成了「save up to 30%」而不再挂固定价</strong>，' +
-          '儿童 6–11 岁 $35 起、长者 62+ $39 起、<strong>6 岁以下免费</strong>。' +
-          '<strong>Flex Admission $73 起</strong>（不限时段到场），Priority Access $88 起，' +
-          '<strong>Champagne Experience $63 起</strong>。' +
-          '<strong>City Climb $202</strong>（含 Edge 入场、数字照片与香槟）。' +
-          '<strong>2026 年 9 月 5 日复核时官网新增了几个票种：Sunset VIP $113 起、' +
-          'All-Inclusive VIP $179、Date Night $52 起、Bites &amp; Sights Flex（含餐）$65 起、' +
-          'Edge + Vessel 组合 $84 起（省 10%）；家庭票另有 20% 折扣</strong>',
-        hours: '<strong>官方主页在不同日期给出不同营业时间，需按你的日期查 edgenyc.com。</strong>' +
-          '常见口径为 <strong>10:00–22:00（周一至周四）、09:00–24:00（周五至周日）</strong>，' +
-          '旺季（4–10 月）可延长到 08:00–24:00。' +
-          '<strong>唯一稳定的规则是「末班电梯为关门前 50 分钟」</strong>；' +
-          'City Climb 末班约 20:00。<strong>全年无休，不允许再入场。</strong>' +
-          '<strong>本窗口（9/25–10/22）的每日确切时间未能从官方页面逐日确认，请以订票确认函上的时间为准</strong>',
+        ticket: '<strong>核实日期 2026-09-14，来源 edgenyc.com 官方购票页与 Plan Your Visit 页。</strong>' +
+          '<strong>General Admission 成人 $42 起</strong>（每张另加 $2 手续费），' +
+          '<strong>Advance Saver $34 起——提前至少 14 天订，官方标称最多省 35%，这是官网自己给的最低价</strong>。' +
+          '<strong>Flex Admission $73 起</strong>（不绑时段，当日随到），<strong>Priority Access $88 起</strong>。' +
+          '<strong>本次复核发现两处与上一版不同：一是 NY／NJ／CT 三州居民票口径从「up to 30%」改成了' +
+          '「save 20%」并重新挂出固定价 $36 起（按信用卡账单邮编自动核验）；' +
+          '二是新增了 Annual Pass $99（一年不限次）。</strong>' +
+          '其余票种：Champagne Experience $63 起、Date Night $52 起、Sunset VIP $113 起、' +
+          'All-Inclusive VIP $179 起、Bites &amp; Sights Flex（含一份餐，仅限 15:00 前入场）$65 起、' +
+          'Edge + Vessel 组合 $84 起（省 10%）；<strong>家庭票 20% 折扣，6 岁以下免费但仍需领票</strong>。' +
+          '<strong>City Climb 官网现价 $80 起、City Climb Combo（含 Edge 入场）$125 起</strong>——' +
+          '<strong>请注意这与各第三方平台仍在挂的 $185–$204 差距很大，以官网为准，别从代理买</strong>。' +
+          '<strong>官网购票页未列出 6–11 岁儿童与 62+ 长者的固定价</strong>，' +
+          '上一版记录的「儿童 $35 起、长者 $39 起」<strong>本次未能在现行页面复核</strong>，请以选定日期后的结账页为准',
+        hours: '<strong>核实日期 2026-09-14。官方给的是「常规时间」而不是逐日表，且三处官方口径互相不一致，' +
+          '三种都列在这里：</strong>' +
+          '<strong>（一）edgenyc.com「Plan Your Visit」页站头显示当日 09:00–22:00，' +
+          '并写「Hours are subject to change during certain periods」「Last entry is one hour before closing」。</strong>' +
+          '<strong>（二）Hudson Yards 官方页写「Monday–Sunday 9AM–10PM，Last elevator ride is 50 minutes before closing」。</strong>' +
+          '<strong>（三）edgenyc.com 页面内嵌的结构化数据给的是每天 09:00–22:00。</strong>' +
+          '<strong>末班入场究竟是「关门前 60 分钟」还是「关门前 50 分钟」，官方两页说法不同，' +
+          '请按更严的 60 分钟算。</strong>' +
+          '<strong>本窗口（10/13–10/26）的逐日时间未能从官方页面确认</strong>；' +
+          '一份第三方逐日表给出 10/13–10/16 与 10/20–10/23 为 08:00–21:00、' +
+          '10/17–10/19 与 10/24–10/26 为 08:00–22:00，<strong>该表非官方，仅供你判断「会不会提前关门」，' +
+          '实际以订票确认函上的时间为准</strong>。' +
+          '<strong>全年无休、风雨照开、不允许再入场。</strong>City Climb 末班明显更早（约 20:00）',
         parking: '<strong>不要开车。</strong>地铁 <strong>7 号线「34 St–Hudson Yards」站</strong>直达商场，' +
           'A/C/E 线「34 St–Penn Station」步行 12 分钟',
         walk: '<strong>入口在 The Shops &amp; Restaurants at Hudson Yards 的 Level 4</strong>，' +
@@ -752,6 +804,7 @@ module.exports = {
       n: 5,
       name: '布莱恩特公园与中城街道对轴机位',
       en: 'Bryant Park and the Midtown Street Vistas',
+      must: 2,
       score: 3.5,
       tldr: '免费、可架三脚架的街面替代；草坪望 Empire State Building 约 50mm 满幅。',
       tags: [
@@ -785,6 +838,34 @@ module.exports = {
           '结论是这一带所有向南、向西看楼体正面的机位都要在上午拍——' +
           '上午太阳在东南，楼体的东立面与南立面同时受光；下午它们全部转成逆光或阴影。</strong>' +
           '傍晚的价值只在蓝调时刻的灯光版本'
+      ],
+      tour: [
+        '<strong>先说清定位：这一条不是「必去景点」，是一个顺路的免费歇脚点加三个街头视角。</strong>' +
+          'Bryant Park 本身是 3.9 公顷的方形绿地，没有门票、没有展品、不需要排队，' +
+          '<strong>它的正确用法是从 New York Public Library 出来穿过去，顺手坐十分钟</strong>，' +
+          '而不是专程坐地铁来。园内可以做的事：满园的绿色折叠椅随便坐（不收费）、' +
+          'Le Carrousel 旋转木马（单次现场购票）、Petanque 与乒乓球场地（免费借具）、' +
+          '以及公园东侧那排小吃亭',
+        '<strong>这个公园有一件全纽约出名的事：它的公共卫生间。</strong>' +
+          '<strong>位置在公园东北角、靠 42nd Street 那侧的挂牌 comfort station，每日 08:00–22:00</strong>，' +
+          '常年有人值守，放古典音乐、摆鲜花、用意大利瓷砖与 Toto 洁具。' +
+          '<strong>在中城这一带这是最靠谱的免费卫生间</strong>，从观景台下来或逛完图书馆先在这里解决，' +
+          '比进星巴克排队现实得多',
+        '<strong>本窗口（10/13–10/26）的关键季节事实：Bank of America Winter Village 2026 年 10 月 28 日才开。</strong>' +
+          '也就是说<strong>你来的这两周，溜冰场没开、圣诞市集的摊位也还没营业</strong>；' +
+          '但<strong>中央草坪很可能已经被围起来搭台</strong>（摊位与冰场的搭建通常提前两三周开始），' +
+          '所以「开阔草坪」这个前提到场后要自己确认，出发当天查 bryantpark.org',
+        '<strong>三个街头视角按性价比排序，普通游客只做第一个就够。</strong>' +
+          '<strong>Pershing Square Plaza（42 街与 Park Avenue 交口）值得走</strong>——' +
+          '它就在 Grand Central 门口，Park Avenue 高架桥、Grand Central 的 42 街立面、' +
+          '246 米的 MetLife Building 三层叠在一起，站三分钟就能看懂纽约中城的层次。' +
+          '<strong>Tudor City 天桥（看 Chrysler Building 正对）要沿 42 街往东单程 900 米</strong>，' +
+          '只为一个街景视角来回 25 分钟，<strong>不是摄影爱好者可以直接跳过</strong>。' +
+          '<strong>Herald Square 同理跳过</strong>——它只是 34 街上一个极拥挤的路口',
+        '<strong>治安与人流：34 街／Herald Square 一带与 42 街地铁口是扒手集中区</strong>，' +
+          '背包前挂、手机别放屁股口袋。' +
+          '<strong>Tudor City 天桥人行道很窄、下面就是 42 街车流，清晨与夜间几乎没有行人</strong>，' +
+          '独自带显眼器材去那里请留意周围'
       ],
       photo: '建筑 <strong>4/5</strong>，街拍 <strong>4/5</strong>，人像 <strong>3.5/5</strong>，风光 <strong>2.5/5</strong>。' +
         '完全免费、不限时段、可以架三脚架，是观景台之外唯一能做长曝的选择；扣分因为四个机位分散在 1.5 公里内且都要挑时段。',
@@ -838,11 +919,21 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>20–40 分钟</strong>（只逛 Bryant Park 本身）。分配：穿过公园加在草坪边坐一会 15 分钟、' +
+          '用一次那间挂牌卫生间 5 分钟、Pershing Square Plaza 看一眼高架桥与 Grand Central 立面 5–10 分钟。' +
+          '<strong>把四个点位全部走完（Herald Square → Bryant Park → Pershing Square → Tudor City 天桥）' +
+          '是 2.3 公里、纯步行 30 分钟，含停留请留 2–2.5 小时</strong>——' +
+          '<strong>但这只对要拍街景的人成立，普通游客把这 2 小时给 MoMA 或 Grand Central 更划算</strong>。' +
+          '（时长按园区面积与实测步行距离推算，Bryant Park Corporation 未公布建议停留时长。）',
         book: '<strong>不需预约</strong>，四个机位全部是公共街道与公园',
-        ticket: '<strong>免费</strong>',
-        hours: '<strong>Bryant Park 官方为每日 07:00 至夜间</strong>（闭园时间随季节调整，' +
-          '通常 22:00–24:00 之间，<strong>本窗口的确切闭园时间未能从官方页面确认</strong>，' +
-          '请查 bryantpark.org 当日公告）。' +
+        ticket: '<strong>免费</strong>（公园、卫生间、折叠椅、Petanque 与乒乓场地均不收费；' +
+          'Le Carrousel 旋转木马与园内餐饮另收费）。<strong>核实日期 2026-09-14。</strong>',
+        hours: '<strong>核实日期 2026-09-14，来源 bryantpark.org「Hours and Directions」官方逐月表。</strong>' +
+          '<strong>官方原文按月给时间：January–April 每日 07:00–22:00；May–September 每日 07:00–23:00；' +
+          '<em>October 每日 07:00–22:00</em>；November–December 周一至周三 07:00–22:00、周四至周日 07:00–24:00。</strong>' +
+          '<strong>所以本窗口（10/13–10/26）适用「每日 07:00–22:00」，全年无休含节假日</strong>，' +
+          '官方另注明遇恶劣天气或维护可临时闭园。' +
+          '<strong>园内公共卫生间（东北角靠 42nd Street）每日 08:00–22:00</strong>，与闭园时间不同，注意别卡在最后。' +
           '<strong>Tudor City 天桥、Pershing Square Plaza、Herald Square 均为公共街道，24 小时可用</strong>',
         parking: '<strong>不要开车。</strong>' +
           'Bryant Park：B/D/F/M 线「42 St–Bryant Park」或 7 线「5 Av」，出站即达。' +
@@ -859,9 +950,10 @@ module.exports = {
         '<strong>纽约市对公共人行道上的非商业三脚架拍摄不要求许可</strong>，' +
           '但阻碍通行会被要求移开；商业拍摄需向 MOME 申请。' +
           'Bryant Park 是私营管理的公园，<strong>园内商业拍摄需向 Bryant Park Corporation 申请</strong>',
-        '<strong>Bryant Park 的 Winter Village 通常在 10 月下旬到 11 月初开始搭建</strong>，' +
-          '开阔草坪会被摊位与溜冰场取代。' +
-          '<strong>本窗口内是否已开始搭建未能确认，10 月中旬之后前往请先查 bryantpark.org</strong>',
+        '<strong>核实结果：Bank of America Winter Village 的 2026 季开放日定在 10 月 28 日</strong>，' +
+          '<strong>正好在本窗口（10/13–10/26）结束之后两天——溜冰场与市集你一天都赶不上</strong>。' +
+          '反过来说，<strong>中央草坪在你到访期间很可能已被围挡搭台</strong>，' +
+          '「开阔草坪望 Empire State Building」这个前提要到场确认，出发当天查 bryantpark.org',
         '<strong>Manhattanhenge 不在这个窗口内</strong>（见 highlights 的几何说明）。' +
           '任何声称「秋天可以拍 Manhattanhenge」的说法都是错的——' +
           '秋分前后落日方位是 269°，而街轴是 299°',
@@ -885,12 +977,13 @@ module.exports = {
       n: 6,
       name: '纽约公共图书馆总馆',
       en: 'New York Public Library · Stephen A. Schwarzman Building',
+      must: 3.5,
       score: 4.5,
       tldr: 'Rose Main Reading Room 参观只限周一至周六 10:00–11:00，免费但禁三脚架禁闪光。',
       tags: [
         { t: '完全免费', c: 'free' },
         { t: '阅览室仅 1 小时', c: 'risk' },
-        { t: '周日闭馆', c: 'risk' },
+        { t: '周日仅 13–17', c: 'risk' },
         { t: '禁三脚架禁闪光', c: 'risk' }
       ],
       highlights: [
@@ -913,6 +1006,40 @@ module.exports = {
         '<strong>核实结果：目前建筑没有正在进行的立面修复或狮子围挡。</strong>' +
           '2019 年的狮子保护与 2022 年前后完成的 Midtown Campus 改造（Beyer Blinder Belle 与 Mecanoo，' +
           '含 40 街 Marshall Rose Plaza 新入口）都已结束'
+      ],
+      tour: [
+        '<strong>只有三样东西值得你走进来，其余都是顺带。</strong>' +
+          '一是入口大厅 <strong>Astor Hall</strong>（全白 Vermont 大理石、双拱交叉穹顶、两侧对称大楼梯，' +
+          '进门即达、不受任何时段限制）；二是三楼的 <strong>Rose Main Reading Room（315 室）</strong>；' +
+          '三是一楼的 <strong>Polonsky Exhibition of The New York Public Library&rsquo;s Treasures</strong>' +
+          '（免费永久展，常设约 250 件，从 Jefferson 亲手抄写的《独立宣言》到 Christopher Robin 本人的' +
+          '小熊维尼玩偶原件，时间跨度 4000 年）。三样全免费',
+        '<strong>本窗口有一条硬到必须先说的坏消息：Polonsky Exhibition 于 2026 年 10 月 19–30 日闭展换件。</strong>' +
+          '（NYPL 官方「Upcoming Exhibition Closings」页列明。）' +
+          '<strong>也就是说 10/13–10/18 去还能看到，10/19 之后去就只剩建筑本身。</strong>' +
+          '如果这一项对你重要，<strong>请把 NYPL 排在 10 月 18 日（周日）之前</strong>——' +
+          '但周日只开 13:00–17:00 且没有阅览室参观时段，实际最后的完整机会是 10 月 17 日（周六）',
+        '<strong>Rose Main Reading Room 的参观窗口每天只有一小时，不可协商：周一至周六 10:00–11:00，' +
+          '最后入场 10:50，周日完全没有。</strong>' +
+          '<strong>请 10:00 开门就到位</strong>——这一小时里游客会不断涌入，前 15 分钟是唯一能安静看的时间。' +
+          '房间长 78 米、天花 15.8 米，两端各七扇巨拱窗，中间两排橡木长桌与铜制台灯。' +
+          '<strong>它是运转中的研究阅览室不是展厅</strong>：保持安静、不要在长桌通道久站、不要挪动椅子与台灯',
+        '<strong>错过那一小时还有三种免费导览可以补救，全部周一至周六、全部要先看清集合点：</strong>' +
+          '<strong>全馆导览 11:00 与 14:00</strong>（约 1 小时，需网上订票，' +
+          '<strong>每周日放出下一周的票</strong>，在 Visitor Center 集合）；' +
+          '<strong>Rose Main Reading Room 短导览 11:20、13:30、15:00</strong>（约 15 分钟，三楼 McGraw Rotunda 集合）；' +
+          '<strong>Polonsky 展导览 12:30 与 15:30</strong>（约 45 分钟）。' +
+          '<strong>短导览的 15 分钟节奏很赶，能自己安排就别依赖它</strong>',
+        '<strong>可以跳过：Bill Blass Public Catalog Room 与各种临时小展。</strong>' +
+          '省下的时间留给 Polonsky 展，那里才是这栋楼里真正有东西看的地方。' +
+          '出门时别忘了在第五大道台阶上看一眼两只狮子 <strong>Patience</strong> 与 <strong>Fortitude</strong>' +
+          '（1911 年随建筑落成，名字是大萧条时期 LaGuardia 市长起的）',
+        '<strong>入口、安检与生活设施</strong>：主入口在 Fifth Avenue 与 41st Street 之间那道狮子台阶，' +
+          '另有 40th Street 的 Marshall Rose Plaza 无障碍入口；入口有安检与包检。' +
+          '<strong>全馆最后入场为闭馆前 15 分钟，Polonsky 展最后入场为闭馆前 30 分钟。</strong>' +
+          '馆内有卫生间，但<strong>更舒服的选择是出 40 街门穿到 Bryant Park 东北角那间挂牌公共卫生间' +
+          '（每日 08:00–22:00，步行 4 分钟）</strong>；' +
+          '<strong>馆内没有值得一提的餐饮</strong>，吃饭请去 Bryant Park 周边'
       ],
       photo: '建筑 <strong>5/5</strong>，室内 <strong>5/5</strong>，人像 <strong>3/5</strong>，风光 <strong>1/5</strong>。' +
         '免费加两个世界级室内空间，是本区照片质量的天花板；扣分因为阅览室每天只有一小时窗口、禁三脚架、且不能拍到人。',
@@ -957,18 +1084,33 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45–90 分钟</strong>。分配：Astor Hall 10 分钟、' +
+          'Rose Main Reading Room <strong>20 分钟</strong>（只能在 10:00–11:00 那一小时内）、' +
+          'Polonsky Exhibition <strong>30–45 分钟</strong>（约 250 件展品，' +
+          '<strong>但 10/19–10/30 闭展，那几天直接扣掉这一段</strong>）、' +
+          '第五大道台阶与双狮 5 分钟。' +
+          '<strong>只看重点 30 分钟</strong>（10:00 进门直奔三楼阅览室，下来扫一遍 Astor Hall 就走）。' +
+          '<strong>加一场 11:00 或 14:00 的免费全馆导览，整体要留 2–2.5 小时。</strong>' +
+          '（NYPL 未公布官方建议停留时长，本区间按官方导览时长 1 小时 + 三处空间规模推算。）',
         book: '<strong>Rose Main Reading Room 的 10:00–11:00 参观时段不需预约、不需导览，直接进。</strong>' +
           '另有两种免费导览：<strong>Rose Main Reading Room 短导览（周一至周六 11:20、13:30、15:00，约 15 分钟，' +
           '在三楼 McGraw Rotunda 集合）</strong>与<strong>全馆导览（周一至周六 11:00 与 14:00，约 1 小时，' +
           '需订票，每周日放出下一周的票）</strong>',
-        ticket: '<strong>免费</strong>（参观、阅览室时段与两种导览全部免费）',
-        hours: '<strong>官方原文：「The Rose Main Reading Room is also open for a visiting hour ' +
+        ticket: '<strong>免费</strong>（建筑参观、Rose Main Reading Room 参观时段、Polonsky 常设展' +
+          '与全部三种导览均免费，不需要任何门票）。<strong>核实日期 2026-09-14，来源 nypl.org。</strong>',
+        hours: '<strong>核实日期 2026-09-14，来源 nypl.org 场馆页、导览页与「Library Closing Information」页。</strong>' +
+          '<strong>阅览室官方原文：「The Rose Main Reading Room is also open for a visiting hour ' +
           'from 10 to 11 AM, Monday through Saturday. Please note that the last visitor entry is at 10:50 AM.」' +
-          '也就是每天只有一小时、周日完全没有。</strong>' +
-          '<strong>全馆开放时间：周一 10:00–18:00；周二、周三 10:00–20:00；周四至周六 10:00–18:00；周日闭馆。</strong>' +
-          '另有官方规定：<strong>Rose Main Reading Room 的最后入场为闭馆前 30 分钟</strong>' +
-          '（研究用途者在开放时段内可全程使用，参观者只有 10:00–11:00 那一小时）。' +
-          '<strong>General Research Division 的时间与全馆一致，但会有临时调整，出发前请查 nypl.org</strong>',
+          '——每天只有一小时，周日没有。</strong>' +
+          '<strong>全馆开放时间（本次复核后的修正口径）：周一、周四、周五、周六 10:00–18:00；' +
+          '周二、周三 10:00–20:00；<em>周日 13:00–17:00</em>。</strong>' +
+          '<strong>上一版写的「周日闭馆」只适用于 7 月与 8 月</strong>——' +
+          'NYPL 官方原文是「the Stephen A. Schwarzman Building is closed on Sundays throughout July and August」，' +
+          '<strong>10 月的两个周日（10/18、10/25）是开的，但只有下午四小时，且没有阅览室参观时段与导览</strong>。' +
+          '<strong>全馆最后入场为闭馆前 15 分钟；Polonsky 展最后入场为闭馆前 30 分钟。</strong>' +
+          '<strong>两条本窗口专属提醒：（一）2026 年 10 月 12 日（周一）是 NYPL 全系统节假日闭馆日，' +
+          '就在你行程第一天 10/13 的前一天，别记混；（二）Polonsky Exhibition 于 10 月 19–30 日闭展换件。</strong>' +
+          '出发前仍请查 nypl.org，该馆会因特别活动临时调整',
         parking: '<strong>不要开车。</strong>地铁 B/D/F/M 线「42 St–Bryant Park」或 7 线「5 Av」步行 2 分钟；' +
           '4/5/6/7/S 线「Grand Central–42 St」步行 8 分钟',
         walk: '主入口在 Fifth Avenue 与 41st Street 交口（狮子之间那道台阶）；' +
@@ -986,8 +1128,10 @@ module.exports = {
         '<strong>那一小时窗口极短且不可协商。</strong>如果你的行程只能在下午到这一带，' +
           '<strong>阅览室就只剩 11:20/13:30/15:00 的 15 分钟短导览一条路</strong>，' +
           '在导览节奏下能拍的东西非常有限',
-        '<strong>周日全馆闭馆</strong>，周一只到 18:00。' +
-          '安排上唯一宽松的是周二与周三（开到 20:00），但阅览室的参观时段仍然只有上午那一小时',
+        '<strong>更正上一版：周日不是闭馆，而是只开 13:00–17:00</strong>' +
+          '（「周日闭馆」仅适用于 7、8 两个月）。' +
+          '周一、周四至周六只到 18:00；安排上唯一宽松的是周二与周三（开到 20:00）。' +
+          '<strong>但无论哪天，阅览室的参观时段都只有上午 10:00–11:00 那一小时，而周日连这一小时都没有</strong>',
         '禁三脚架加室内暗光加 15.8 米仰角，' +
           '<strong>一支 f/1.4–f/2 的 20mm 或 24mm 定焦在这里的价值超过任何变焦</strong>。' +
           '也可以考虑靠在门框或柱子上做人体支撑',
@@ -1010,11 +1154,13 @@ module.exports = {
       n: 7,
       name: 'Summit One Vanderbilt',
       en: 'SUMMIT One Vanderbilt',
+      must: 3.5,
       score: 3.5,
       tldr: '镜面装置是独立题材而不是天际线机位，反光是四座里最难处理的；但它是唯一在条款上允许 12 英寸以内桌面脚架的一座。',
       tags: [
         { t: '平日 $43 起', c: 'paid' },
         { t: '日落档 +$10', c: 'paid' },
+        { t: '周二闭馆', c: 'risk' },
         { t: '镜面反光最重', c: 'risk' },
         { t: '12 吋内脚架合规', c: 'free' }
       ],
@@ -1044,6 +1190,38 @@ module.exports = {
           '并写明「guests who are concerned about unwanted exposure as a result of the mirrored floors ' +
           'and ceilings are responsible for dressing in a manner to avoid such exposure」——' +
           '<strong>翻译过来就是：镜面地板会把裙下拍进去，请穿长裤、短裤或紧身裤</strong>'
+      ],
+      tour: [
+        '<strong>第一件事：这里逢周二闭馆，本窗口的 10 月 13 日与 10 月 20 日都是周二。</strong>' +
+          '（2026-09-14 复核 summitov.com 官方营业时间表，原文 Tuesday「Closed」，其余六天 08:00–24:00、' +
+          '最后入场 22:30。）四座观景台里只有这一座有固定休息日，排行程时先把这两天划掉',
+        '<strong>入口在 Grand Central Terminal 里面，不是 One Vanderbilt 的办公大堂——走错要绕一大圈。</strong>' +
+          '从 Grand Central 主大厅往西进换乘大厅，或走 One Vanderbilt 里 TD Bank 旁那道门。' +
+          '过安检后电梯直上 91 层，<strong>门到门实测 20–35 分钟</strong>。' +
+          '<strong>票是定时的，迟到超过 20 分钟可能被拒入</strong>，改期要付 $25 起的改期费加补差价',
+        '<strong>三层的看点排序：91 与 92 层是 Kenzo Digital 的镜面装置「Air」，93 层是露台与 Après 咖啡吧。</strong>' +
+          '不能错过的四样：<strong>Air 的镜面房间</strong>（墙、地、顶三面全镜，把天际线无限复制）、' +
+          '<strong>Affinity 银色气球房</strong>、<strong>Levitation 玻璃盒</strong>' +
+          '（悬出楼体、悬在 Madison Avenue 上方约 1,100 英尺，站进去可以垂直往下看 300 多米）、' +
+          '<strong>93 层的室外露台</strong>——那是全场唯一不隔玻璃看天空的地方，也是唯一能吹到风的地方',
+        '<strong>着装在这里是硬性规定而不是建议，进门前就要确认，否则玻璃地板不让你上。</strong>' +
+          '官方 Code of Conduct 要求鞋底不能损伤镜面地板：' +
+          '<strong>细高跟、钢头靴、运动钉鞋、重型工作靴一律不许上玻璃地板</strong>；' +
+          '同时官方写明<strong>镜面地板与顶棚会把裙下反射出来，请自行穿长裤、短裤或紧身裤</strong>。' +
+          '现场有鞋套提供，但别指望',
+        '<strong>可以跳过的是 Ascent 玻璃电梯（需买 $68 起的票种或另加约 $20–25）。</strong>' +
+          '它是全玻璃外挂电梯，从 324 米升到 369 米，整个过程一分钟出头，' +
+          '<strong>多出来的 45 米高度看到的景几乎没有变化，买的是「坐过全世界最大的外挂玻璃电梯」这句话</strong>。' +
+          '预算有限就买最基础的 SUMMIT Experience，把差价留给另一座观景台',
+        '<strong>人流与生活设施：</strong>最空的是<strong>周三至周四 08:00–10:00</strong>' +
+          '（08:00 开门，四座里开得最早），最挤的是周末 12:00–16:00 与日落档。' +
+          '<strong>Après 咖啡吧在 93 层，是全场唯一能坐下来的地方</strong>（咖啡、鸡尾酒、轻食，另收费）。' +
+          '<strong>因为上去以后来回一趟要重新挤电梯，卫生间建议在进场前先用 Grand Central 下层用餐区那两组</strong>，' +
+          '就在入口楼下，走两分钟',
+        '<strong>官方建议停留 90 分钟至 2.5 小时——比另三座都长，这不是客套。</strong>' +
+          '它本质上是一件沉浸式装置作品而不是观景台：' +
+          '如果你只打算上去看一眼纽约，<strong>这座是四座里最不该选的</strong>；' +
+          '如果你是冲着镜面空间与 Levitation 来的，请把时间留足，赶场会完全浪费这张票'
       ],
       photo: '装置艺术 <strong>4.5/5</strong>，人像 <strong>4.5/5</strong>，城市天际线 <strong>3/5</strong>，建筑 <strong>2.5/5</strong>。' +
         '镜面房间是纽约辨识度最高的室内人像背景之一；作为天际线机位它明显弱于 Top of the Rock 与 Edge，因为几乎全程隔着重反光的玻璃。',
@@ -1085,22 +1263,40 @@ module.exports = {
         }
       ],
       access: {
-        book: '<strong>必须网上预订定时票</strong>（summitov.com）。' +
+        visit: '<strong>90 分钟–2.5 小时</strong>，这是官方自己给的区间，也是四座里最长的一个。' +
+          '分配：安检加电梯上到 91 层 <strong>20–35 分钟</strong>、' +
+          '91 与 92 层的「Air」镜面空间与 Affinity 气球房 <strong>30–45 分钟</strong>' +
+          '（这是本票的主体，赶不得）、Levitation 玻璃盒 <strong>10 分钟</strong>（要排队）、' +
+          '93 层露台与 Après <strong>20–30 分钟</strong>。' +
+          '<strong>只想快速走一遍最快 60 分钟；加 Ascent 玻璃电梯再加 15–20 分钟（含排队）。</strong>' +
+          '想完整看到金光、日落、蓝调三段请按 <strong>2.5 小时</strong>留',
+        book: '<strong>必须网上预订定时票</strong>（summitov.com），' +
+          '<strong>每笔订单另加 $3 在线手续费</strong>（2026-09-14 复核官网购票页）。' +
           '<strong>票是定时的，迟到超过 20 分钟可能被拒入</strong>；' +
           '改期需付改期费（$25 起）加补时段差价。' +
+          '<strong>周二不开门，别订到周二</strong>；' +
           '<strong>日落档与周末档最先售罄，建议提前 1–2 周、日落档提前 2–3 周</strong>',
-        ticket: '<strong>SUMMIT Experience（普通票）平日成人 $43–44、周末 $49–50</strong>；' +
-          '儿童 6–12 岁平日 $37–38、周末 $43–44；<strong>5 岁以下免费</strong>。' +
-          '<strong>日落档加价 $10（部分来源报 $12–13），时段大致是当天日落前约 2.5 小时开始</strong>——' +
+        ticket: '<strong>核实日期 2026-09-14。必须先说明一件事：summitov.com 的购票页在不选日期时' +
+          '完全不显示任何金额，所以下面的价格全部来自多个第三方 2026 年价目的交叉比对，不是官方原文口径。</strong>' +
+          '<strong>SUMMIT Experience（基础票）平日成人 $43–44、周末 $49–50</strong>；' +
+          '儿童 6–12 岁平日 $37–38、周末 $43–44；<strong>5 岁以下免费但仍需预约</strong>。' +
+          '<strong>日落档加价 $10（部分来源报 $12–13），时段大致从当天日落前约 2.5 小时开始</strong>——' +
           '<strong>这是四座里唯一有明文日落加价的一座</strong>，另三座是动态定价、日落档在实务上也贵 $5–10。' +
-          'SUMMIT Signature（含一杯鸡尾酒）$58 起，SUMMIT Ascent（含玻璃电梯）$68 起，' +
-          'Ultimate SUMMIT $75 起，导览团 $162 起，私人导览 $1,088（至多 6 人）。' +
-          'Edge + SUMMIT 组合票 $65 起',
-        hours: '<strong>官网首页原文：08:00–24:00，最后入场 22:30，「Open All Week Long」。</strong>' +
-          '<strong>有第三方来源称周二闭馆（decks-nyc 等），该说法与官网直接矛盾，' +
-          '以官网的「全周开放」为准</strong>，但出发前仍请复核。' +
-          '<strong>官方建议的停留时长是 90 分钟至 2.5 小时，比另三座都长</strong>——' +
-          '这是装置体验而非单纯看景，请把它算进时间预算',
+          '其余票种（官网确认存在、金额为第三方口径）：SUMMIT Signature（含一杯鸡尾酒或无酒精版）$58 起、' +
+          'SUMMIT Ascent（含玻璃电梯）$68 起、Ultimate SUMMIT（Ascent + 鸡尾酒）$75 起、' +
+          'SUMMIT Premium Experience（优先入场 + 90 分钟导览 + 数字照片包）$162 起、' +
+          '私人导览 $1,088（至多 6 人）、Edge + SUMMIT 组合票 $65 起。' +
+          '<strong>官网另确认存在两项本次新看到的优惠：NYC／Long Island 居民票（按信用卡账单邮编自动核验）' +
+          '与现役及退役军人的免费或减价票</strong>；' +
+          '<strong>还有一个限时套餐 The Flex at Lunch（含 Après 餐食与 Ascent），官网写明只卖到 10 月 29 日，' +
+          '本窗口内有效</strong>。<strong>所有金额请以选定日期后的结账页为准</strong>',
+        hours: '<strong>核实日期 2026-09-14，来源 summitov.com 购票页底部的官方营业时间表。</strong>' +
+          '<strong>重要更正：这一座逢周二闭馆，上一版依据的「Open All Week Long」口径已经不成立。</strong>' +
+          '官方现行表格逐日列明：<strong>周日、周一、周三、周四、周五、周六 08:00–24:00；' +
+          '<em>周二 Closed</em>；最后入场 22:30（Last entry at 10:30 PM）。</strong>' +
+          '<strong>本窗口（10/13–10/26）里的 10 月 13 日与 10 月 20 日都是周二，这两天上不去。</strong>' +
+          '换句话说：<strong>Top of the Rock 才是四座里唯一每天都开、且开到 24:00 的一座</strong>；' +
+          'Summit 虽然也开到 24:00，但一周只有六天',
         parking: '<strong>不要开车。</strong>地铁 <strong>4/5/6/7/S 线「Grand Central–42 St」</strong>，步行 1 分钟',
         walk: '<strong>入口在 Vanderbilt Avenue 下方，从 Grand Central Terminal 主大厅往西走进换乘大厅' +
           '（或走 One Vanderbilt 里 TD Bank 旁那道门）。</strong>' +
@@ -1139,6 +1335,7 @@ module.exports = {
       n: 8,
       name: '中央车站',
       en: 'Grand Central Terminal',
+      must: 4,
       score: 5,
       tldr: '免费、每天 05:15–02:00，星空天顶加光柱是本区最强画面；手持完全合法，但一上三脚架就需要 $250 起的许可。',
       tags: [
@@ -1174,6 +1371,41 @@ module.exports = {
           '低了整整 10 度</strong>——低 10 度意味着光柱在地面上延伸得更深、更长、更像「教堂里的光」。' +
           '<strong>最佳时段是上午 09:00–11:00（东侧窗）与下午 15:00–17:00（西侧窗，色温更暖）</strong>，' +
           '前提是晴天或少云，<strong>阴天完全没有光柱</strong>'
+      ],
+      tour: [
+        '<strong>这是本区门槛最低的一站：免费、无安检、无排队、每天开 21 小时，从 42 街正门推门就进。</strong>' +
+          '进去之后第一个动作固定：<strong>不要停在地面，先走到西侧大楼梯（West Balcony）顶端</strong>。' +
+          '从那里俯视整个 Main Concourse，中央问询亭的四面铜钟居中、两侧对称楼梯与三扇巨拱窗收边——' +
+          '这是这栋建筑设计时就打算让你站的位置',
+        '<strong>四样别错过，走完只要二十多分钟。</strong>' +
+          '<strong>（一）星空天顶</strong>：椭圆筒形拱顶最高 48.8 米，绘着黄道十二宫；' +
+          '<strong>你看到的不是 1913 年原作</strong>，原顶 1944 年已损毁到无法修复，现在这层是复制原画的假吊顶。' +
+          '<strong>（二）那块故意没洗干净的深色矩形</strong>：在 West Balcony 上方、巨蟹座那只蟹的爪子旁边，' +
+          '1990 年代清洗时刻意留下作对照——<strong>那层污垢的主成分是几十年的香烟烟雾</strong>。' +
+          '<strong>（三）中央问询亭的四面铜钟</strong>，' +
+          '<strong>（四）下层的 Whispering Gallery</strong>：在 Grand Central Oyster Bar 门外的' +
+          'Guastavino 瓷砖交叉拱廊，<strong>两个人分别站在对角两根柱子前对着墙角低声说话，对方能清楚听见</strong>，' +
+          '这是全站最好玩的五分钟，带孩子必做',
+        '<strong>吃饭这件事在这里是加分项而不是将就。</strong>' +
+          '<strong>下层 Dining Concourse 有二十多家快餐与咖啡，是中城最方便的一顿</strong>；' +
+          'Lexington Passage 的 Grand Central Market 卖生鲜熟食；' +
+          '<strong>Grand Central Oyster Bar（1913 年随车站开业）</strong>在下层，' +
+          'Cipriani Dolci 在 West Balcony 上（每日 11:30–22:00）。' +
+          '<strong>注意 West Balcony 的台阶与栏杆位属于公共空间，不消费也能站，别被餐厅的摆台唬住</strong>',
+        '<strong>卫生间：两组公共卫生间都在下层 Dining Concourse</strong>' +
+          '（MTA 官方口径，另有一间女士专用在 Station Master&rsquo;s Office 内）。' +
+          '<strong>这是 Midtown 东侧最可靠的免费卫生间之一</strong>，' +
+          '上 Summit One Vanderbilt 之前在这里解决，比在 91 层来回挤电梯现实',
+        '<strong>可以跳过：站内的连锁店铺、Vanderbilt Hall 里的临时市集、' +
+          '以及 2023 年开通的 Grand Central Madison（LIRR 深层站台）。</strong>' +
+          '后者要坐很长的扶梯下到地下 55 米，除了长度本身没有观赏性，' +
+          '<strong>省下的二十分钟留给 Whispering Gallery 与下层吃一顿</strong>',
+        '<strong>人流与时段：工作日 07:30–09:30 与 17:00–19:00 是通勤高峰</strong>，' +
+          '大厅里几乎走不动，但那也是这个空间最有戏的时候。' +
+          '<strong>想看空荡的大厅只有周日 06:00–07:30 一个窗口。</strong>' +
+          '<strong>本窗口有一条季节性好消息：拱窗在地面投出成束光柱的现象只发生在 10 月到次年 3 月</strong>，' +
+          '10 月下旬正午太阳高度 38.0°（比 9 月底低 10 度），光柱延伸得更深；' +
+          '<strong>上午 09:00–11:00 看东侧窗、下午 15:00–17:00 看西侧窗，但必须是晴天，阴天一点都没有</strong>'
       ],
       photo: '室内建筑 <strong>5/5</strong>，街拍与人流 <strong>5/5</strong>，人像 <strong>4/5</strong>，外立面 <strong>4/5</strong>。' +
         '免费、每天开 21 小时、且同时提供建筑、光线与人流三个题材，是本区综合价值最高的一处；扣分只因三脚架需要付费许可。',
@@ -1232,14 +1464,32 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>40–75 分钟</strong>。分配：West Balcony 台阶顶俯视全厅 10 分钟、' +
+          '走到大厅正中仰看星空天顶并找那块未清洗的深色矩形 10 分钟、' +
+          '中央问询亭铜钟 5 分钟、下层 Whispering Gallery <strong>10 分钟</strong>（两个人才玩得起来）、' +
+          '出门看一眼 42 街立面与「Glory of Commerce」雕塑群 5 分钟。' +
+          '<strong>只看重点 25 分钟就够，这是本区唯一可以「顺路二十分钟解决」的世界级空间。</strong>' +
+          '<strong>在下层 Dining Concourse 吃一顿请另加 30–45 分钟</strong>；' +
+          '想赶上晴天的光柱请把时间定在上午 09:00–11:00 或下午 15:00–17:00。' +
+          '（车站方未公布建议参观时长，本区间按四处看点的实际分布与步行距离推算。）',
         book: '<strong>不需预约</strong>（车站为公共空间，进出、Main Concourse、下层用餐区与 Whispering Gallery 全部免费）。' +
           '<strong>但用三脚架必须提前申请许可，见下</strong>',
-        ticket: '<strong>免费</strong>（只有搭乘 Metro-North 列车才需要车票）。' +
+        ticket: '<strong>免费。核实日期 2026-09-14，来源 grandcentralterminal.com 与 mta.info 车站页。</strong>' +
+          '进出车站、Main Concourse、星空天顶、下层 Dining Concourse 与 Whispering Gallery 全部不收费，' +
+          '<strong>只有搭乘 Metro-North 或 LIRR 列车才需要车票</strong>' +
+          '（售票窗口每日 05:10–02:00，站内共 37 台自动售票机）。' +
           '<strong>三脚架许可：Grand Central Terminal Still Photography/Film Permit，' +
           '非商业用途填表费 $250、商业用途 $450，均不可退</strong>，' +
           '商业用途另可能被要求付 MTA 知识产权授权费',
-        hours: '<strong>官方：每日 05:15–02:00。</strong>' +
-          '这是本区可拍时间最长的一处，早于任何观景台开门、晚于任何观景台关门。' +
+        hours: '<strong>核实日期 2026-09-14。官方原文（grandcentralterminal.com 首页与 Visit 页）：' +
+          '「Grand Central Terminal is open to the public daily 5:15 AM – 2:00 AM」，' +
+          '车站官方租户手册补充「The Terminal is open from 5:15 a.m. to 2:00 a.m., seven (7) days a week. ' +
+          'Terminal operations are maintained 24 hours a day.」</strong>' +
+          '<strong>全年无休、没有闭馆日，本窗口（10/13–10/26）适用上述常规时间。</strong>' +
+          '<strong>这是本区开放时间最长的一处：比四座观景台里开得最早的 Summit（08:00）还早 2 小时 45 分，' +
+          '比开得最晚的 Top of the Rock（24:00）还晚 2 小时。' +
+          '而且它不受 Summit 周二闭馆的影响——10/13 与 10/20 这两天它照开。</strong>' +
+          'MTA 另列售票窗口每日 05:10–02:00。' +
           'West Balcony 上的 Cipriani Dolci 每日 11:30–22:00' +
           '（<strong>台阶与栏杆位是公共空间，不用消费也能站</strong>）',
         parking: '<strong>不要开车。</strong>地铁 <strong>4/5/6/7/S 线「Grand Central–42 St」</strong>直达站内；' +
@@ -1290,6 +1540,7 @@ module.exports = {
       n: 9,
       name: '帝国大厦观景台',
       en: 'Empire State Building Observatory',
+      must: 4.5,
       score: 4,
       tldr: '86 层露天钢丝网，镜头探出网孔即无遮挡；但本季只开到 23:00，是四座里最早关的。',
       tags: [
@@ -1324,6 +1575,50 @@ module.exports = {
           '开门前独占 86 层，<strong>仅周六提供、$135/人、常在数周前售罄</strong>，' +
           '含咖啡与点心。<strong>9/25 日出 06:47、10/22 日出 07:15</strong>' +
           '——如果你的行程里有一个周六且天气预报晴，这是全区独一无二的选项'
+      ],
+      tour: [
+        '<strong>先建立正确预期：这张票买的不只是一个观景台，而是一条被设计成单向通道的完整参观路线，' +
+          '所以它是四座里耗时最长的一座。</strong>' +
+          '顺序固定：<strong>34 街入口 → 机场级安检 → 一楼 Art Deco 大堂 → 二楼沉浸式博物馆 → ' +
+          '电梯到 80 层 Viewing Gallery → 再换电梯到 86 层露天平台</strong>' +
+          '（买了 102 层票的再坐一段玻璃电梯上去）。' +
+          '<strong>官方口径「从入口到 86 层至少一小时」，实测 30–60 分钟，请按 45 分钟预留。</strong>' +
+          '博物馆与 80 层展览<strong>包含在所有票种里，不另收费</strong>',
+        '<strong>一楼大堂是这栋楼最被低估的十分钟，别急着过去排队。</strong>' +
+          '1931 年的 Art Deco 门厅里那幅金铝浮雕把大厦画成放射光芒的样子，' +
+          '是全世界被复制最多的装饰艺术图像之一。' +
+          '<strong>它在安检之前，不需要门票也能看</strong>',
+        '<strong>二楼与 80 层的展览值得认真看，这是 ESB 与另三座观景台真正的差别。</strong>' +
+          '二楼是约 10,000 平方英尺的建造史展：1920 年代这块地原本是 Waldorf-Astoria 饭店、' +
+          '开业日的场景重建、施工期的黑白照片。' +
+          '80 层里三样最好：<strong>原始桅杆电梯车（mast car）的复刻件</strong>' +
+          '（它一直到 2018 年还在把客人从 86 层送到 102 层）、' +
+          '<strong>Otis 电梯井模拟装置</strong>（你站在井中央感受电梯从四周掠过）、' +
+          '以及 <strong>Stephen Wiltshire 2017 年坐 45 分钟直升机后完全凭记忆画出的纽约全景长卷</strong>。' +
+          '另有 Celebrity Wall 与九处纽约地标的老式观景器',
+        '<strong>可以跳过的三样：102 层、Express Pass、以及各种限时活动。</strong>' +
+          '<strong>102 层比 86 层贵 $35（$79 对 $44），换来的是 381 米对 320 米的高度和更少的人</strong>，' +
+          '但它是全封闭的室内玻璃厅、空间小，<strong>景观提升有限</strong>；' +
+          '预算有限就把这 $35 留给另一座观景台。' +
+          'Express Pass（86 层 $85 起）的作用是<strong>跳过展览与电梯队列</strong>——' +
+          '注意「跳过展览」意味着你会错过上面那一整段，只有真的赶时间才买',
+        '<strong>时段：官方自己写了答案。</strong>' +
+          '原文「最挤的是开门后两小时与日落后一小时，人最少的是 12:00–14:00」。' +
+          '<strong>本窗口 10/16 起 09:00 开门，所以 09:00–11:00 挤、12:00–14:00 松、日落后一小时最挤。</strong>' +
+          '还有一条实测坑：<strong>日落后大家同时拍完下楼，回程电梯要排 20–40 分钟</strong>，' +
+          '解法是拍完蓝调再多留 20 分钟看纯夜景，等第一波人走掉再走',
+        '<strong>卫生间与餐饮</strong>：<strong>二楼展览层有卫生间（含婴儿换尿布台），' +
+          '86 层也有无障碍卫生间</strong>（官方无障碍页面口径）。' +
+          '<strong>因为从进门到 86 层要 30–60 分钟，请务必在二楼排电梯之前先解决。</strong>' +
+          '餐饮全部在楼下街面层，官方列出的有 <strong>STATE Grill and Bar</strong>（美式正餐）、' +
+          '<strong>Tacombi</strong>（墨西哥）、Chipotle、Sushi Beauu，另有一家跨三层的 Starbucks Reserve' +
+          '（官方把日出票命名为「ESB Starbucks Reserve Sunrise Ticket」即源于此）。' +
+          '<strong>观景台上不卖食物，外带食物饮料一律不许带上去</strong>',
+        '<strong>86 层是露天且四面临空，320 米高度的风远大于地面。</strong>' +
+          '10 月中下旬的傍晚体感明显低于街面气温，<strong>带防风外套与能扣住的帽子</strong>；' +
+          '婴儿车可带但在观景台上必须折叠。' +
+          '<strong>楼内没有任何寄存柜</strong>（官方 FAQ 原文「There are no locker facilities for personal belongings」），' +
+          '大件行李直接进不来，别带着行李箱从 Penn Station 顺路过来'
       ],
       photo: '城市天际线 <strong>4/5</strong>，夜景 <strong>4.5/5</strong>，人像 <strong>3.5/5</strong>，建筑 <strong>2/5</strong>。' +
         '86 层的无玻璃露天加 360 度环绕是真优势；扣分因为拍不到 ESB 本身、钢丝网限制机位自由度、且本季关门比另两座都早。',
@@ -1368,32 +1663,56 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>官方口径「至少 1 小时」</strong>（esbnyc.com FAQ 原文' +
+          '「Most visits to the 86th Floor Observation Deck take at least one hour」，' +
+          '并写明「There is no time limit once you arrive」）。' +
+          '<strong>但那一小时不含排队，门到门的现实预算是 1.5–2.5 小时，是四座里最长的。</strong>' +
+          '分配：安检加二楼博物馆 <strong>30–45 分钟</strong>、80 层 Viewing Gallery <strong>10–15 分钟</strong>、' +
+          '86 层露天平台 <strong>30–45 分钟</strong>、下楼排电梯 <strong>10–40 分钟</strong>' +
+          '（日落后那一波最久）。' +
+          '<strong>加 102 层再加 20–30 分钟；买 Express Pass 可省 30–45 分钟，但代价是跳过整段展览。</strong>' +
+          '<strong>只想上去看一眼、不看展、避开高峰：最快 75 分钟。</strong>' +
+          '想完整看到金光、日落、蓝调三段，请按 <strong>2.5–3 小时</strong>留，' +
+          '并把入场时段订在日落前 75 分钟',
         book: '<strong>必须网上预订定时票</strong>（esbnyc.com），官方原文' +
           '「All visits require a timed reservation」。' +
           '<strong>日落档最先售罄，建议提前 1–2 周</strong>。' +
           'Sunrise Experience 仅周六、常在数周前售罄。' +
           'Express Pass 可跳过展览与电梯队列，在结账时加购',
-        ticket: '<strong>86 层：成人 $44 起、儿童 $38 起、长者 $42 起。</strong>' +
-          '<strong>86 + 102 层：成人 $79 起、儿童 $73 起、长者 $77 起。</strong>' +
+        ticket: '<strong>核实日期 2026-09-14，来源 esbnyc.com 官方「Hours of Operation」页与购票页。</strong>' +
+          '<strong>86 层：成人 $44、儿童 $38、长者 $42。</strong>' +
+          '<strong>86 + 102 层：成人 $79、儿童 $73、长者 $77。</strong>' +
           '<strong>每笔交易另加 $5 手续费</strong>（官方原文「A $5 booking charge is added to each transaction」）。' +
-          '<strong>日出票 2026 年已改名为「The ESB Starbucks Reserve Sunrise Ticket」，$135 起</strong>' +
-          '（<strong>是否仍限周六未能从现行官网页面确认</strong>）。' +
-          '<strong>2026 年 9 月 5 日复核时另有几个官网票种值得知道：Flex Ticket $64 起（不绑时段）、' +
-          'AM/PM Experience $62 起（同日白天加夜间两次入场，这是四座里唯一的官方双次票）、' +
-          'Best Value $39 起、Express Pass 86 层 $85 起／86+102 层 $120 起、' +
-          'NYC 居民票 25% off、Premium 私人导览 $175 起</strong>。' +
-          '<strong>CityPASS 现行官网只写「Bundle &amp; Save up to 51%」「$2 booking charge per ticket」「Valid 9 Days」，' +
-          '不再挂固定金额；旧口径的「成人 $283 → $169、儿童 $275 → $129」未能在现行页面复核</strong>，' +
-          '含 ESB 的 AM/PM 双次入场（86 层白天 + 关门前 3 小时内的同夜再入）加另外 4 项',
-        hours: '<strong>官方逐段时间（本窗口）：9 月 18 日–10 月 4 日 10:00–23:00，入场门 22:00 关；' +
-          '10 月 5 日–8 日 10:00–22:00，入场门 21:00 关；10 月 9 日–31 日 09:00–23:00，入场门 22:00 关。</strong>' +
-          '<strong>要打一个折扣：2026 年 9 月 5 日复核时，esbnyc.com 站头挂的当日时段是 09:00–24:00，' +
-          '比上面这张表给的同期口径宽——说明 ESB 的营业时间是逐日调整的，' +
-          '「四座里关得最早」这个判断可能在你的日期上不成立。以订票确认函与当日站头为准。</strong>' +
-          '<strong>全年 365 天开放，风雨无阻，冬季 86 层露天平台会装辐射式取暖器。</strong>' +
-          '<strong>请注意本季它是四座里关得最早的</strong>——' +
-          'Top of the Rock 与 Summit 都开到 24:00。' +
-          '官方另口径：最挤的是开门后两小时与日落后一小时，最松的是 12:00–14:00',
+          '<strong>本次复核的最大变化是 CityPASS：官方页面重新挂出了金额，' +
+          '现为成人 $257 → <em>$146</em>、儿童 $250 → <em>$124</em>，标称「Save 43%」，含 5 项、有效期 9 天</strong>，' +
+          '<strong>上一版记录的「成人 $283 → $169、儿童 $275 → $129」已经作废</strong>' +
+          '（那是 esbnyc.com 荷兰语页面上的旧数字，英文页面已更新）。' +
+          'CityPASS 里 ESB 的部分是 <strong>AM/PM Experience</strong>：' +
+          '86 层白天入场 + 同夜关门前 3 小时内再入一次。' +
+          '其余官网票种：Flex Ticket（不绑时段）、AM/PM Experience（同日两次入场，四座里唯一的官方双次票）、' +
+          'Best Value、Express Pass（86 层／86+102 层两档，跳过展览与电梯队列）、' +
+          '<strong>NYC 居民票 25% off</strong>、Premium 私人导览、以及一个新出现的限时项目 ' +
+          '<strong>Silent Disco at the Empire State Building</strong>（86 层专属区域，含耳机租用）。' +
+          '<strong>日出票现名「The ESB Starbucks Reserve Sunrise Ticket」，$135 起，含开门前独占 86 层、' +
+          'Starbucks Reserve 的 ESB 特调咖啡与点心；是否仍只限周六，官网现行页面未写明，未能确认</strong>。' +
+          '<strong>上述几个票种的官网现价在不选日期时不显示金额，上一版记录的 Flex $64 起／AM-PM $62 起／' +
+          'Best Value $39 起／Express $85 与 $120 起／Premium $175 起本次未能逐项复核</strong>，' +
+          '请以结账页为准。<strong>现场也能买（售票处在 12 W 34th Street，第五与第六大道之间），' +
+          '但官方明确建议提前网订</strong>',
+        hours: '<strong>核实日期 2026-09-14，来源 esbnyc.com 官方「Hours of Operation」页逐段表。' +
+          '这张表本次复核时已经改过，与上一版不同，请按新的看：</strong>' +
+          '<strong>9 月 8 日–10 月 4 日 10:00–23:00（入场门 22:00 关）；' +
+          '10 月 5 日–8 日 10:00–22:00（入场门 21:00 关）；' +
+          '<em>10 月 9 日–15 日 09:00–22:00（入场门 21:00 关）</em>；' +
+          '<em>10 月 16 日–11 月 1 日 09:00–23:00（入场门 22:00 关）</em>。</strong>' +
+          '<strong>落到本窗口就是两段：10/13–10/15 开到 22:00、末班入场 21:00；' +
+          '10/16–10/26 开到 23:00、末班入场 22:00。</strong>' +
+          '<strong>结论没变：本季它仍是四座里关得最早的一座</strong>——' +
+          'Top of the Rock 与 Summit 都开到 24:00、Grand Central 开到 02:00。' +
+          '<strong>10/13–10/15 那三天尤其要注意，22:00 就清场，别把它排在一个很晚的傍晚。</strong>' +
+          '<strong>全年 365 天开放、风雨无阻，冬季 86 层露天平台会装辐射式取暖器。</strong>' +
+          '官方另有口径：<strong>最挤的是开门后两小时与日落后一小时，最松的是 12:00–14:00</strong>。' +
+          '<strong>这张表官方会逐日微调，以订票确认函与当日站头显示的时间为准</strong>',
         parking: '<strong>不要开车。</strong>地铁 B/D/F/M/N/Q/R/W 线「34 St–Herald Sq」步行 4 分钟；' +
           '6 线「33 St」步行 4 分钟；1/2/3/A/C/E 线「34 St–Penn Station」步行 8 分钟',
         walk: '<strong>入口在 West 34th Street</strong>（无障碍入口也在这一侧），另有 Fifth Avenue 大堂入口。' +
@@ -1434,6 +1753,554 @@ module.exports = {
           cap: '自街面仰望塔冠 · Ermell / CC BY-SA 4.0' },
         { url: 'img/empire-state-building-view3-847cf386.jpg',
           cap: '自 86 层观景台俯瞰中城 · Benn Newman / MIT License' }
+      ]
+    },
+    {
+      id: 'times-square',
+      n: 10,
+      name: '时代广场',
+      en: 'Times Square',
+      must: 5,
+      score: 4,
+      tldr: '免费、24 小时、来纽约没来过等于没来；但只值 40 分钟，且人偶合照与 CD 是明码的坑。',
+      tags: [
+        { t: '完全免费', c: 'free' },
+        { t: '24 小时开放', c: 'free' },
+        { t: '人偶索小费', c: 'risk' },
+        { t: '扒手集中', c: 'risk' },
+        { t: '举报 212-452-5218', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>反直觉的第一条：这里的广告牌不是商家自愿挂的，是法律要求挂的。</strong>' +
+          '1987 年纽约市为这一带单独立了一套分区法规，' +
+          '<strong>规定 Times Square 内新建与改建的建筑<em>必须</em>在临街立面上装一定面积与亮度的发光招牌</strong>' +
+          '（亮度单位就叫 LUTS，Light Unit Times Square）。' +
+          '换句话说，别处的城市规划是限制广告，这里是强制广告——' +
+          '<strong>1980 年代市政府担心整治治安之后这一带会变成普通办公区、失去它的样子，于是用法律把「俗」保护了起来</strong>',
+        '名字来自 1904 年：<strong>The New York Times 把总部搬到这里的 One Times Square，' +
+          '广场随即从 Longacre Square 改名</strong>。' +
+          '<strong>跨年落球是 1907 年 12 月 31 日第一次，起因很实际</strong>——' +
+          '此前报社用烟花庆祝，1907 年市政府禁了烟花，报社只好改成从楼顶放一个铁球下来。' +
+          '<strong>而 One Times Square 这栋楼今天基本是空的</strong>：' +
+          '它绝大部分收入来自外墙广告，内部长期没有常规租户',
+        '<strong>Duffy Square 是北端那个三角形，也是整个广场唯一有「高处」的地方。</strong>' +
+          '它以 Francis P. Duffy 神父命名（一战「Fighting 69th」团的随军牧师，1937 年立像），' +
+          '旁边还有 George M. Cohan 的像。' +
+          '<strong>2008 年 10 月 16 日，TKTS 折扣票亭在这里重建，上面盖了那道著名的红色玻璃台阶——' +
+          '27 级、内部发光，白天是座位、晚上是整个广场最容易辨认的一块红色</strong>',
+        '<strong>Broadway 在 42 至 47 街这一段从 2009 年起就不通车了。</strong>' +
+          '最初是彭博任内的临时试验（用油漆与沙滩椅划出来的），效果好到 2010 年永久化，' +
+          '后来由 Snøhetta 重新设计，2017 年完工成现在这套花岗岩铺装加长条石凳。' +
+          '<strong>所以你今天能站在 Broadway 正中间拍照，这在 2008 年之前是做不到的</strong>。' +
+          '日均人流约 36 万至 40 万人次，是全美最繁忙的行人节点',
+        '<strong>地面上那些油漆框不是装饰，是法律边界。</strong>' +
+          '2021 年纽约市议会通过 Local Law 99，设立了 Theatre District Zone，' +
+          '授权交通局（DOT）在广场上划出两种区域：' +
+          '<strong>Designated Activity Zones（指定活动区）</strong>——' +
+          '一切索取报酬、捐赠或小费的拍照、兜售、发放与表演<strong>只能在框内进行</strong>；' +
+          '<strong>Pedestrian Flow Zones（通行区）</strong>——<strong>只许走路，不许拉客</strong>。' +
+          '<strong>知道这一条，你在框外被人拦下时就有底气直接走开</strong>'
+      ],
+      tour: [
+        '<strong>几点去：一天来两次，加起来不到一小时，这是这个地方最合理的用法。</strong>' +
+          '<strong>白天挑清晨 06:00–08:00</strong>——广告屏一样全亮，但人少到你能站在 Broadway 正中间；' +
+          '<strong>晚上挑日落后 20–45 分钟</strong>（本窗口约 <strong>18:20–18:50</strong>，10 月中下旬日落在 18:10 前后），' +
+          '此时天空还有深蓝底色、屏幕已经压过天光，是唯一「天与屏都好看」的时间。' +
+          '<strong>最该避开的是周五周六 19:00–23:00 与演出散场的 22:00–22:30</strong>，' +
+          '那两段时间你只能随人流被推着走',
+        '<strong>真正「广告牌全包围」的位置只有三个，别在别处瞎转。</strong>' +
+          '<strong>（一）Duffy Square 的 TKTS 红台阶顶端朝南看</strong>——' +
+          '你比地面高约 4 米，正对 Broadway 与 Seventh Avenue 交叉成的那个「领结」，' +
+          '两侧楼体的屏幕同时进入视野，<strong>这就是明信片上那张</strong>。' +
+          '<strong>（二）Broadway 步行广场 43 至 44 街之间朝北看</strong>——' +
+          'One Times Square 的正面（跨年落球那栋）、3 Times Square 与 42 街口那块巨型弧形屏在同一画面。' +
+          '<strong>（三）Seventh Avenue 与 45 街之间的中央行人岛</strong>，四面都是屏。' +
+          '<strong>这三个点串起来步行不到 500 米</strong>',
+        '<strong>扮装人偶与 CD 推销：这是明码的套路，说清楚就不会中招。</strong>' +
+          '<strong>人偶的流程永远是「热情招手 → 搭你肩膀 → 拍照 → 伸手要钱」</strong>，' +
+          '常见开价 <strong>$10–40 一人一次</strong>，一群人围上来就按人头乘。' +
+          'Times Square Alliance 官方 FAQ 的原文是' +
+          '「You are not required to tip costume characters, but if you take a photo with one of them ' +
+          'please note that a tip is expected. The characters are not officially licensed」——' +
+          '<strong>也就是说：小费自愿、这些人偶没有任何官方授权</strong>。' +
+          '<strong>想拍就先决定给 $1–5 再拍，不想拍就别靠近，拍完再谈价从来谈不拢。</strong>' +
+          '<strong>CD 套路更该警惕</strong>：有人把光盘塞进你手里、当场写上你的名字，' +
+          '然后以「已经个性化了」为由索要 $10–40 并拒绝收回。' +
+          '<strong>唯一有效的对策是不接任何陌生人递过来的东西、不停下脚步。</strong>' +
+          '同一批人还会做三张牌 monte（有托儿）、假僧侣送手串、假慈善签名板',
+        '<strong>被纠缠时的正规做法：说一句「no thank you」、继续走、到框外。</strong>' +
+          '如果对方动手或明显威胁，<strong>广场上常驻 NYPD 警员与 Times Square Safety Officer（穿红色制服）</strong>，' +
+          '<strong>Times Square Alliance 的举报电话是 212-452-5218</strong>。' +
+          '记住地面油漆框那条规矩：<strong>框外索要报酬本身就是违规的</strong>',
+        '<strong>扒手与拥挤路段：这里是全市扒窃密度最高的地方之一。</strong>' +
+          '高风险位置很具体——<strong>42 街与 Seventh Avenue 的地铁口、演出散场时 44 至 45 街的人行道、' +
+          '以及任何有人表演围观成圈的地方</strong>（围观圈是最典型的作案环境）。' +
+          '<strong>手机不要放屁股口袋、背包前挂、钱包放前袋</strong>。' +
+          '这一带的商家也要留神：路边卖的名牌包全是假货，买了在法律上是你有风险',
+        '<strong>卫生间与歇脚：广场本身没有公共卫生间，这是个真问题。</strong>' +
+          '<strong>最可靠的三个去处：Port Authority Bus Terminal（42 街与第八大道）、' +
+          '几家大型连锁店的楼上（需消费）、以及往东走 700 米的 Bryant Park 那间挂牌公共卫生间' +
+          '（每日 08:00–22:00，步行 9 分钟）</strong>。' +
+          '想坐下来看广场，<strong>TKTS 红台阶是免费的公共座位，不买票也能坐</strong>'
+      ],
+      photo: '城市夜景 <strong>4.5/5</strong>，街拍 <strong>4.5/5</strong>，建筑 <strong>2/5</strong>。' +
+        '蓝调时刻的屏幕亮度与天空刚好平衡，出片几乎不会失手；扣分只因这是全世界被拍得最多的构图，很难拍出新意。',
+      shots: [
+        {
+          name: 'TKTS 红台阶顶端朝南（明信片构图）',
+          desc: '<strong>日落后 20–45 分钟，本窗口约 18:20–18:50。</strong>' +
+            '爬上 27 级红色玻璃台阶到顶端，面朝南，' +
+            'Broadway 与 Seventh Avenue 在你面前交叉成「领结」，两侧屏幕夹成走廊。' +
+            '<strong>16–24mm 收全景、35–50mm 压缩屏幕层次</strong>；' +
+            '屏幕亮度极高而街面很暗，<strong>请对着屏幕测光再 +0.3 至 +0.7 EV，否则人流会全黑</strong>。' +
+            '台阶是公共空间、可以坐，<strong>把机身压在台阶面上就能做 1/4–1 秒的慢门拉车流</strong>。' +
+            '坐标为 OSM Duffy Square 面要素中心点。',
+          view: [40.759062, -73.985167]
+        },
+        {
+          name: 'Broadway 步行广场 43–44 街之间朝北',
+          desc: '<strong>清晨 06:00–07:30 是唯一能拍到空广场的窗口。</strong>' +
+            '站在步行广场正中朝北，One Times Square 的正面与 42 街口的弧形巨屏同时进画面。' +
+            '<strong>24–35mm，竖构图把屏幕墙从地面拉到天空</strong>。' +
+            '这里是行人通行区，三脚架会挡路且容易被要求收起，手持为准。' +
+            '坐标为 OSM Times Square 面要素中心点（约在 44 街一线）。',
+          view: [40.757010, -73.985972]
+        }
+      ],
+      access: {
+        visit: '<strong>30–60 分钟就够，不要给它更多。</strong>' +
+          '分配：TKTS 红台阶上下加坐一会 10 分钟、' +
+          '沿 Broadway 步行广场从 47 街走到 42 街 <strong>15 分钟</strong>、' +
+          '在两三个路口停下来仰头看 10 分钟。' +
+          '<strong>建议白天与入夜各来一次，第二次只需 20 分钟</strong>——' +
+          '白天看清楚这个地方的尺度，晚上看它真正的样子。' +
+          '<strong>这里没有任何需要排队或购票的项目，所有时间都花在走路和抬头上。</strong>' +
+          '（无官方建议时长，按三个核心点位之间的实际步行距离推算。）',
+        book: '<strong>不需预约</strong>，公共街道与行人广场，随时可进',
+        ticket: '<strong>完全免费。核实日期 2026-09-14。</strong>' +
+          '广场本身、Duffy Square、TKTS 红台阶（作为座位使用）全部不收费。' +
+          '<strong>唯一要花钱的是你自己招来的：人偶合照的小费（自愿，$1–5 合理）、' +
+          '路边强塞的 CD（别接）、以及周边餐厅的旅游区定价</strong>。' +
+          'TKTS 亭卖的当日折扣戏票是另一回事，详见 Broadway 条目',
+        hours: '<strong>24 小时开放，全年无休，没有闭园时间</strong>——' +
+          '这是公共街道与 DOT 管理的行人广场，不存在开关门。' +
+          '<strong>广告屏也是 24 小时亮着的</strong>（那是分区法规要求的一部分）。' +
+          '<strong>核实日期 2026-09-14。</strong>' +
+          '广场上的 <strong>TKTS 折扣票亭</strong>另有营业时间：' +
+          '<strong>周一、周二、周五 15:00–20:00；周三、周四、周六 11:00–20:00；' +
+          '周日 11:00–20:00（TDF 官方页口径）</strong>——' +
+          '<strong>注意 Times Square Alliance 自己的页面把周日写成 11:00–19:00，两个口径不一致，' +
+          '周日请按更早的 19:00 算</strong>',
+        parking: '<strong>绝对不要开车。</strong>这一带是全纽约最堵的路网，且 Broadway 主段禁行。' +
+          '地铁 <strong>N/Q/R/W、1/2/3、7、S 线「Times Sq–42 St」</strong>出站即达；' +
+          'A/C/E 线「42 St–Port Authority Bus Terminal」步行 3 分钟；' +
+          'B/D/F/M 线「42 St–Bryant Park」步行 8 分钟',
+        walk: '<strong>地铁出站直接就在广场里</strong>，没有任何步行距离。' +
+          '广场本身南北跨 42 至 47 街、约 <strong>450 米 / 6 分钟</strong>走完。' +
+          '到 Bryant Park <strong>700 米 / 9 分钟</strong>（东行）；' +
+          '到 Rockefeller Center <strong>800 米 / 10 分钟</strong>（东北行）；' +
+          '到 Radio City Music Hall <strong>850 米 / 11 分钟</strong>'
+      },
+      notes: [
+        '<strong>人偶小费的合理区间是每人每次 $1–5，别给 $20。</strong>' +
+          '官方明确「不是必须给」，但如果你已经合了影，给一点是体面的做法。' +
+          '<strong>一群人偶同时围上来时，先说清楚只拍一张、只给一份</strong>',
+        '<strong>永远不要接陌生人递过来的任何东西</strong>——CD、手串、传单、签名板都一样。' +
+          '一旦东西在你手上，对方的说辞就变成「你已经拿了」。' +
+          '<strong>双手插兜、摇头、继续走，是这一带唯一通用的应对</strong>',
+        '<strong>三张牌 monte 与各种街头赌局百分之百是骗局</strong>，' +
+          '围观人群里一半是托儿，你看到别人赢钱正是设计的一部分',
+        '<strong>广场内没有公共卫生间</strong>。最近的可靠选择是 Port Authority Bus Terminal 或' +
+          '往东 700 米的 Bryant Park 挂牌公共卫生间（每日 08:00–22:00）',
+        '<strong>这里是纽约夜间治安最好的区域之一（警力密度极高），但也是扒窃密度最高的。</strong>' +
+          '两件事不矛盾：暴力犯罪少、财物犯罪多。<strong>防的是手不是人</strong>',
+        '<strong>不要在 Times Square 吃饭</strong>——同样的连锁店在这里贵三到五成，' +
+          '往西走两个街区到 Ninth Avenue（Hell&rsquo;s Kitchen）价格立刻正常，步行 8 分钟',
+        '<strong>10 月中下旬的傍晚 18:10 前后天就黑了</strong>，' +
+          '想拍蓝调版本的人请在 18:00 前就到位，那半小时过得比想象中快'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/Times_Square_night_panorama.jpg',
+          cap: '入夜后的广告牌全包围全景 · PLBechly / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/3/39/Times_Square%2C_NYC_at_night_-_August_2025.jpg',
+          cap: '2025 年夜间的 Broadway 步行广场与屏幕墙 · Nielsoncaetanosalmeron / CC BY 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/b/bf/TKTS_red_stairs_jeh.JPG',
+          cap: 'Duffy Square 的 TKTS 红色玻璃台阶 · Jim.henderson / Public domain' }
+      ]
+    },
+    {
+      id: 'moma',
+      n: 11,
+      name: '现代艺术博物馆',
+      en: 'The Museum of Modern Art (MoMA)',
+      must: 5,
+      score: 2.5,
+      tldr: '成人 $30、每天都开、没有闭馆日；10:30 开门直奔五楼 501 室看《星夜》，晚半小时就挤不进去。',
+      tags: [
+        { t: '成人 $30', c: 'paid' },
+        { t: '全年无闭馆日', c: 'free' },
+        { t: '16 岁以下免费', c: 'free' },
+        { t: '免费周五仅限纽约州居民', c: 'risk' },
+        { t: '背包必须寄存', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>MoMA 1929 年 11 月 7 日开馆——在华尔街崩盘的「黑色星期二」之后仅仅九天。</strong>' +
+          '创办人是三位女性：<strong>Abby Aldrich Rockefeller、Lillie P. Bliss、Mary Quinn Sullivan</strong>，' +
+          '当时被戏称为「the daring ladies」。' +
+          '<strong>最初的馆址只是第五大道 730 号 Heckscher Building 十二楼的六个房间</strong>，' +
+          '在那个年代，一家专门收当代艺术的美国博物馆是件近乎荒唐的事',
+        '<strong>《星夜》（The Starry Night，1889）是纽约参观人数最多的单件艺术品，在五楼 501 号厅。</strong>' +
+          'Van Gogh 是在 Saint-Rémy 的 Saint-Paul-de-Mausole 疗养院、隔着装了铁栏的窗户画的，' +
+          '距他去世只剩十四个月。' +
+          '<strong>画里的柏树是真的、村庄是虚构的、星辰是重新排布过的。</strong>' +
+          '<strong>它 1941 年才进馆，来自创办人之一 Lillie P. Bliss 的遗赠</strong>',
+        '<strong>现在这栋楼是两次重建叠出来的</strong>：' +
+          '2004 年谷口吉生（Yoshio Taniguchi）的全面改建定下了现在这套白盒子加中庭的骨架；' +
+          '<strong>2019 年 10 月 Diller Scofidio + Renfro 的扩建又加了约 4 万平方英尺展面（展陈空间增加三成）</strong>，' +
+          '同时做了一件更要紧的事——<strong>把藏品从「按流派分」改成「按年代混排」，' +
+          '并且每隔几个月轮换一次</strong>。所以你这次看到的排列，和任何一本旧攻略都不会完全一样',
+        '<strong>Abby Aldrich Rockefeller Sculpture Garden（1953 年，Philip Johnson 设计）</strong>' +
+          '是这栋楼里唯一的室外空间，含在门票里，' +
+          '<strong>里面常年立着 Picasso 的《She-Goat》与 Rodin、Maillol 的作品</strong>。' +
+          '它同时是中城最舒服的一处半私密庭院，天气好时在这里坐二十分钟比多看两个展厅值',
+        '<strong>要把「必去」和「好拍」分开看：MoMA 的 <code>must</code> 是 5、摄影价值只有 2.5。</strong>' +
+          '原因很直接——展厅是标准白墙加轨道射灯的均匀漫射光，没有任何方向性；' +
+          '<strong>最出名的那几件前面永远站着一排举手机的人</strong>；' +
+          '而且特展区经常整区禁拍。<strong>这是一个来了要用眼睛看、不是用相机看的地方</strong>'
+      ],
+      tour: [
+        '<strong>楼层地图先记住，它决定了整个动线：' +
+          '五楼是 1880–1950 年（24 个展厅，全馆最重要的一层）、四楼是 1950–1970 年代、' +
+          '三楼是摄影与素描与建筑设计、二楼是 1970 年代至今、六楼是特展、一楼是雕塑花园与商店。</strong>' +
+          '<strong>正确走法只有一个：进门直接坐电梯到五楼，然后一层层往下走。</strong>' +
+          '反过来从底下往上逛，等你到五楼时《星夜》前面已经是三排人',
+        '<strong>五楼必看四件，位置精确到展厅号：</strong>' +
+          '<strong>501 号厅——Van Gogh《星夜》</strong>（进五楼后往左，是 Alfred H. Barr, Jr. Galleries 的第一间）；' +
+          '<strong>502 号厅——Picasso《亚维农少女》</strong>（Les Demoiselles d&rsquo;Avignon，1907，立体主义的起点，' +
+          '就在《星夜》隔壁，很多人拍完星夜就掉头走，直接错过它）；' +
+          '<strong>515 号厅——Monet《睡莲》三联画</strong>（The David Geffen Wing，' +
+          '<strong>这个展厅大得多，人再多也不挤，是全馆最值得慢慢坐着看的一间</strong>）；' +
+          '<strong>517 号厅——Meret Oppenheim 的毛皮茶杯《Object》与 Dalí 的《记忆的永恒》</strong>。' +
+          '另外 508 号厅是 Brancusi 的《空间之鸟》',
+        '<strong>五楼人最多的时段说清楚：501 号厅从中午起就是「站满、只能慢慢挪」的状态，' +
+          '整个下午都不会缓解，周六下午与周日午后最糟。</strong>' +
+          '<strong>唯一可靠的安静窗口是 10:30 开门后的前 30 分钟</strong>——' +
+          '10:30 准时进门、不在一楼停留、直接上五楼、先看 501 再看 502，' +
+          '<strong>这半小时是你能不隔着五部手机看《星夜》的唯一机会</strong>。' +
+          '最好的日子是<strong>周二至周四</strong>；次好的时段是<strong>15:30–17:00</strong>（人开始散）',
+        '<strong>四楼与三楼各停 30 分钟就够。</strong>' +
+          '四楼看三件：<strong>401 号厅 Pollock《One: Number 31, 1950》</strong>、' +
+          '<strong>412 号厅 Warhol《金宝汤罐》（32 张画布）</strong>、' +
+          '<strong>420 号厅 Faith Ringgold《American People Series #20: Die》</strong>。' +
+          '三楼往北走到 <strong>3 North 的 Philip Johnson Galleries，那里有 Frida Kahlo 的《剪发自画像》</strong>。' +
+          '<strong>可以跳过的是二楼的 1970 年代至今——除非你本来就关心当代艺术</strong>；' +
+          '六楼特展如果门口排长队也可以直接放弃，你的票已经含了它，不看不亏',
+        '<strong>吃饭与卫生间：这是 MoMA 少数做得非常好的部分。</strong>' +
+          '<strong>Café 2 在二楼</strong>（每日 11:00–17:00，意式手工意面与三明治，公共长桌，不接受预订，' +
+          '是逛到一半最方便的一顿）；<strong>Espresso Bar 也在二楼</strong>（靠商店，有充电位）；' +
+          '<strong>Terrace Café 在六楼，有室外露台能看中城天际线</strong>；' +
+          '<strong>The Modern 在一楼，是米其林二星，要另行订位</strong>。' +
+          '这三处都要有门票才能进。' +
+          '<strong>卫生间每层都有（在扶梯旁，均含婴儿换尿布台），全性别卫生间在 1、3W、5 与 T1 层</strong>',
+        '<strong>进门前的两件事：背包与寄存。</strong>' +
+          '<strong>所有背包无论大小都不许带进展厅，必须寄存</strong>；' +
+          '手提小包在 <strong>11×17×5 英寸</strong>以内可以带。' +
+          '一楼大堂有<strong>免费人工寄存（checkroom）</strong>，' +
+          '<strong>但它不收笔电、相机、平板等贵重电子设备，也不收行李箱与大件旅行袋</strong>——' +
+          '刚退房拖着行李的人在这里会卡住。' +
+          '所有包进门过安检。<strong>免费语音导览用自己的手机装 Bloomberg Connects app，有 40 种语言含中文</strong>'
+      ],
+      photo: '室内建筑 <strong>3/5</strong>，艺术品记录 <strong>2/5</strong>，人像 <strong>2/5</strong>。' +
+        '白墙加均匀射灯，没有方向光，名作前永远有人头；雕塑花园是全馆唯一有自然光与层次的地方。',
+      shots: [
+        {
+          name: 'Abby Aldrich Rockefeller Sculpture Garden（一楼雕塑花园）',
+          desc: '<strong>全馆唯一值得专门拍的地方，最佳是 15:30–17:00 的斜射光</strong>' +
+            '（此时西侧高楼的反射光进入庭院，白色大理石地面与水池有层次）。' +
+            '<strong>24–50mm 从东侧回廊拍雕塑与背后的玻璃幕墙</strong>，' +
+            '让 Picasso 的《She-Goat》或 Maillol 的铜像做前景、楼体的水平线做背景。' +
+            '<strong>雨天关闭</strong>。展厅内允许个人非商业拍摄，但<strong>禁闪光、禁三脚架与自拍杆</strong>，' +
+            '<strong>特展区经常整区禁拍，看到标识就收机器</strong>。' +
+            '坐标为 OSM MoMA 建筑面要素中心点（11 West 53rd Street）。',
+          view: [40.761612, -73.977499]
+        }
+      ],
+      access: {
+        visit: '<strong>2.5–4 小时</strong>。分配：五楼 <strong>60–90 分钟</strong>' +
+          '（501、502、508、515、517 五个展厅是重点）、四楼 <strong>30–40 分钟</strong>、' +
+          '三楼 3 North 看 Frida Kahlo <strong>15 分钟</strong>、六楼特展 <strong>30–45 分钟</strong>、' +
+          '一楼雕塑花园 <strong>20 分钟</strong>。' +
+          '<strong>只看重点 90 分钟</strong>：10:30 进门直奔五楼，看完 501／502／515，' +
+          '再下四楼看 412 的《金宝汤罐》，然后从雕塑花园出去。' +
+          '<strong>想认真看完全部六层需要一整天，但不建议——四小时之后疲劳会让后面看的东西全白看。</strong>' +
+          '<strong>注意展厅在全馆闭馆前约 15 分钟就关，17:30 闭馆意味着 17:15 就得离开展厅。</strong>' +
+          '（MoMA 未公布官方建议停留时长，本区间按六层展厅规模与馆方自导览路线「The Unmissables」推算。）',
+        book: '<strong>强烈建议提前网上购票</strong>（moma.org / visit.moma.org）。' +
+          '官方原文「Advanced purchase online is required to guarantee Museum entry」，' +
+          '<strong>现场票务台每天只放少量当日票，先到先得</strong>。' +
+          '<strong>16 岁以下儿童虽然免费，但仍需领票，而且一张儿童票必须搭配一张成人票才能预约。</strong>' +
+          '<strong>UNIQLO Friday Nights 的免费票每周提前一周放出，但只有纽约州居民能领</strong>（见票价栏）。' +
+          '团体 10 人以上需走 group reservation',
+        ticket: '<strong>核实日期 2026-09-14，来源 visit.moma.org 官方购票页与 moma.org/visit/discounts。</strong>' +
+          '<strong>成人 $30；长者（65 岁以上，需证件）$22；' +
+          '全日制学生（含国际学生，需证件）$17；16 岁及以下儿童 $0（仍需领票）。</strong>' +
+          '残障访客 $22（官方折扣页另写网上订为 $20），<strong>陪同照护者免费</strong>；' +
+          'MoMA 会员的同行客人 $5。' +
+          '<strong>一张票含全部常设展厅、全部特展、雕塑花园（天气允许时）、当日电影放映（需另行领票）、' +
+          '免费寄存、免费 WiFi 与免费语音导览。</strong>' +
+          '<strong>关于「周五免费」这件事必须说清楚，很多攻略写错了：' +
+          '官方项目叫 UNIQLO Friday Nights，每周五 17:30–20:30 免费，' +
+          '但<em>只对纽约州居民</em>，需提前预约并出示居住证明。' +
+          '外地与外国游客在周五傍晚仍要买全价票，不要以为去晚了就不用花钱。</strong>' +
+          '另有 New York Pass、Explore Pass、Sightseeing Pass、All-Inclusive Pass 可用，' +
+          '<strong>但这几种通票的票必须到馆内票务台换取</strong>',
+        hours: '<strong>核实日期 2026-09-14，来源 moma.org「Locations and hours」与 FAQ。</strong>' +
+          '<strong>官方原文：每日 10:30–17:30，周五延长至 20:30。</strong>' +
+          '<strong>直接回答「周几闭馆」这个问题：一天都不闭馆。</strong>' +
+          '官方原文是「MoMA is open every day except Thanksgiving and Christmas」——' +
+          '<strong>全年只有感恩节（2026 年 11 月 26 日）与圣诞节（12 月 25 日）两天关门，' +
+          '都不在本窗口（10/13–10/26）内，这十四天每天都开。</strong>' +
+          '<strong>历史上 MoMA 曾经逢周二闭馆，那个规矩早已取消，看到旧攻略这么写请无视。</strong>' +
+          '三条容易吃亏的细则：' +
+          '<strong>（一）展厅在全馆闭馆前约 15 分钟就清场</strong>' +
+          '（官方原文「Exhibition and collection galleries close approximately 15 minutes prior to Museum closing」）；' +
+          '<strong>（二）周六与周日 09:30–10:30 部分展厅只对会员及其客人开放</strong>，普通票 10:30 才能进；' +
+          '<strong>（三）早上与雨天门口会排队</strong>（官方自己提醒的）',
+        parking: '<strong>不要开车。</strong>地铁 <strong>E／M 线「5 Av–53 St」出站即到</strong>' +
+          '（<strong>注意出口在 53 街的<em>对面</em>，要过马路再往西走半个街区</strong>）；' +
+          'B／D／F／M 线「47-50 Sts–Rockefeller Center」步行 5 分钟；' +
+          'N／Q／R／W 线「5 Av–59 St」步行 7 分钟',
+        walk: '<strong>主入口是 53rd Street 上的 Rockefeller Building 正门</strong>' +
+          '（11 West 53rd Street，第五与第六大道之间），普通门票必须从这里进。' +
+          '从 Rockefeller Center 走过来 <strong>550 米 / 7 分钟</strong>；' +
+          '从 Radio City Music Hall <strong>500 米 / 6 分钟</strong>；' +
+          '从 St. Patrick&rsquo;s Cathedral <strong>500 米 / 6 分钟</strong>；' +
+          '从 Times Square <strong>900 米 / 12 分钟</strong>。' +
+          '<strong>入口到五楼坐电梯约 5 分钟（含安检与寄存）</strong>'
+      },
+      notes: [
+        '<strong>最容易踩的坑：「MoMA 周五晚上免费」只对纽约州居民成立。</strong>' +
+          'UNIQLO Friday Nights 需要提前预约并出示纽约州居住证明，' +
+          '<strong>外地游客周五 17:30 之后照样全价</strong>。' +
+          '不过周五傍晚本身值得考虑——开到 20:30，是一周里唯一能在下班后慢慢逛的时段，' +
+          '<strong>代价是这三小时也是全周最挤的时段之一</strong>',
+        '<strong>所有背包（不论大小）都必须寄存，不能带进展厅。</strong>' +
+          '一楼有免费人工寄存，<strong>但不收笔记本电脑、相机、平板等电子产品，也不收行李箱</strong>。' +
+          '<strong>如果你刚退房拖着行李，请先把行李寄存在别处再来</strong>',
+        '<strong>16 岁以下免费但必须领票，而且儿童票要和成人票一起预约</strong>——' +
+          '不能单独给孩子订一张免费票',
+        '<strong>摄影：常设展厅允许个人非商业拍摄，禁闪光、禁三脚架与自拍杆。</strong>' +
+          '<strong>特展区经常整区禁拍</strong>，门口与墙上会有标识，看到就收机器。' +
+          '《星夜》前面不要长时间占位，那间展厅一天要过几千人',
+        '<strong>2026 年 9 月中旬馆方页面上在展的特展包括《Frida and Diego: The Last Dream》' +
+          '与 Marcel Duchamp 专题</strong>，但<strong>特展会轮换，本窗口内具体在展什么未能确认</strong>，' +
+          '出发前查 moma.org/calendar',
+        '<strong>MoMA Design Store 在 53 街对面（正门斜对过）还有一家独立门店</strong>，' +
+          '不需要门票就能进，买纪念品可以留到出馆之后',
+        '<strong>票价与 Top of the Rock 有一张组合票（RockMoMA，$63 起）</strong>，' +
+          '两者步行 7 分钟；C3 by CityPASS（$114，10 选 3）也含 MoMA。' +
+          '<strong>但单买 MoMA $30 + Top of the Rock $42 = $72，比 RockMoMA 的 $63 只贵 $9，' +
+          '而组合票会限制你选时段，自己算清楚再买</strong>'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Museum_of_Modern_Art_%28MoMA%29_%2851395759113%29.jpg',
+          cap: '53 街正门与谷口吉生改建后的玻璃立面 · ajay_suresh / CC BY 2.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Crowd_Gathers_at_Starry_Night_Painting_in_New_York_City%27s_Museum_of_Modern_Art_%28MOMA%29.jpg',
+          cap: '五楼 501 号厅《星夜》前的典型人流 · Rickmouser45 / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Courtyard_Museum_of_Modern_Art_3_%284694298070%29.jpg',
+          cap: 'Abby Aldrich Rockefeller Sculpture Garden · Tony Hisgett / CC BY 2.0' }
+      ]
+    },
+    {
+      id: 'broadway-show',
+      n: 12,
+      name: '百老汇剧院区看一场秀',
+      en: 'Seeing a Show in the Broadway Theater District',
+      must: 4,
+      score: 1.5,
+      tldr: 'TKTS 当日折扣 2–5 折、抽签与 rush 常在 $45–49；周一多数剧院暗场，场内全程禁摄。',
+      tags: [
+        { t: 'TKTS 打 5–8 折', c: 'free' },
+        { t: '抽签 $45–49', c: 'free' },
+        { t: '正价 $100–400', c: 'paid' },
+        { t: '周一多数暗场', c: 'risk' },
+        { t: '全程禁摄影', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>「Broadway」不是一条街，是一个有门槛的行业定义：座位数 500 以上、且位于指定的剧院区范围内。</strong>' +
+          '<strong>符合条件的一共 41 座剧院</strong>，绝大多数挤在 <strong>41 至 54 街、Sixth 与 Ninth Avenue 之间</strong>，' +
+          '唯一的例外是 Lincoln Center 里的 Vivian Beaumont。' +
+          '<strong>反直觉的是：真正开在 Broadway 这条马路上的剧院只有四座</strong>' +
+          '（Broadway Theatre、Winter Garden、Palace、Marquis），其余全在横街上',
+        '<strong>一周八场是行业标准：周二至周日各一场晚场，周三与周六（有时周日）加一场日场，' +
+          '周一绝大多数剧院暗场——业内就叫「dark Monday」。</strong>' +
+          '<strong>还有一个近年的变化很多攻略没跟上：晚场开演时间已经从传统的 20:00 普遍前移到 19:00</strong>，' +
+          '日场多在 14:00。<strong>如果你按老习惯 19:30 才从酒店出门，很可能整个第一幕都在大堂里站着</strong>',
+        '<strong>TKTS 是一家非营利机构在做的事，不是商业折扣店。</strong>' +
+          '运营方是 Theatre Development Fund（TDF），<strong>1973 年 6 月 25 日在时代广场开张</strong>，' +
+          '至今售出超过 5,300 万张当日折扣票，把超过 14.7 亿美元返还给了各个剧组。' +
+          '<strong>2008 年 10 月 16 日搬进 Duffy Square 那道红色玻璃台阶下面</strong>，' +
+          '折扣档位是 <strong>20%、30%、40%、50%</strong> 四档',
+        '<strong>票价的分层完全由剧目的年龄与热度决定，这一点决定了你该用哪条路径买票。</strong>' +
+          '<strong>长青剧目</strong>（Chicago 从 1996 年演到今天、The Lion King 从 1997 年、Wicked 从 2003 年）' +
+          '几乎天天出现在 TKTS 板上打五折，<strong>折后常在 $66–91 区间</strong>；' +
+          '<strong>当季热门新剧与明星领衔的限定档期基本不上板</strong>，官方正价 $150–400，' +
+          '二级市场还要再翻。<strong>所以「想看什么」和「能省多少」在百老汇是直接冲突的两件事</strong>',
+        '<strong>抽签（digital lottery）与 rush 的存在意义，是让每晚最好的一批座位以 $45–49 流向愿意花时间的人。</strong>' +
+          '这不是清仓处理——<strong>抽中的常常是前几排</strong>，剧组用它来保证不会出现空着的好位子。' +
+          '代价是不确定性：<strong>抽签在出票前你完全不知道坐哪里，也可能是偏座或视线受阻</strong>'
+      ],
+      tour: [
+        '<strong>路径一：TKTS 当日折扣票亭（最省心，适合「今晚随便看点什么」）。</strong>' +
+          '位置在 Duffy Square 红台阶下（Broadway 与 47 街）。' +
+          '<strong>营业时间（TDF 官方口径，核实于 2026-09-14）：周一、周二、周五 15:00–20:00；' +
+          '周三、周四、周六、周日 11:00–20:00。全年 365 天营业。</strong>' +
+          '<strong>卖的是当天晚场 + 第二天日场两类票。</strong>' +
+          '排队时间：<strong>开门前 20 分钟到能排在前 50 名，通常 20–30 分钟进；' +
+          '开门后一小时再去要排 45–60 分钟</strong>。' +
+          '<strong>关键技巧：进队之前先在手机上装 TKTS 官方 app 看实时板</strong>，' +
+          '排到窗口时直接报三个备选剧名，别站在那里现翻——后面几百人都在等。' +
+          '<strong>显示的折后价已经含了每张 $8 的服务费，不会再加。</strong>' +
+          '另一个亭在 Lincoln Center（不在中城），板上剧目略有不同、队短很多',
+        '<strong>路径二：官方数字抽签（digital lottery），最便宜也最不确定。</strong>' +
+          '四个平台各管一批剧目：<strong>Broadway Direct（lottery.broadwaydirect.com）、Lucky Seat' +
+          '（luckyseat.com）、Telecharge（rush.telecharge.com）、TodayTix</strong>。' +
+          '<strong>典型规则（以 Broadway Direct 为例）：演出前一天 09:00 开始受理、当天 18:00 截止；' +
+          '中签者收邮件后<em>只有 60 分钟</em>付款；每人限报一次、每次最多两张；' +
+          '座位由票房自行安排，<em>可能是偏座，两张也可能不挨着</em>；' +
+          '电子票在开演前一小时才发到邮箱。</strong>' +
+          'Lucky Seat 的时间不同：平日场次前一天 10:30 截止、11:00 起陆续开奖；' +
+          '<strong>周末与周一的场次要在<em>前一个周五</em> 10:30 前报名</strong>。' +
+          '<strong>价格普遍在 $45–49。务必带实体照片证件，很多剧场取票时要核对。</strong>' +
+          '<strong>手机一定要充满电——Broadway Direct 的票无法打印</strong>',
+        '<strong>路径三：rush（当日抢票），比抽签确定，因为你付钱前就能看到座位。</strong>' +
+          '三种玩法时间完全不同：' +
+          '<strong>（一）TodayTix rush 每天 09:00 整开放</strong>，' +
+          '<strong>必须前一晚先在 app 里「解锁」目标剧目</strong>，热门戏 09:30 前就抢光，' +
+          '<strong>没有全天陆续放票这回事，定好闹钟</strong>。' +
+          '<strong>（二）Telecharge 数字 rush 约 11:00 开放，一直卖到开演前 30 分钟，而且全天陆续放票</strong>——' +
+          '这是最被低估的一条路，上座率没满的戏几乎天天有。' +
+          '注意 Telecharge 的自家规则：<strong>「上一次购票之后要隔三天才能再买 rush」</strong>。' +
+          '<strong>（三）剧院票房现场 rush</strong>，票房开门（通常 10:00，周日 12:00）就去排。' +
+          '<strong>rush 与抽签价格差不多（约 $47），差别是 rush 会先给你看座位图与「视线受阻」提示，你可以拒绝</strong>',
+        '<strong>开演时间与迟到规定：这是最容易毁掉一晚上的地方。</strong>' +
+          '<strong>请按「开演前 30 分钟到剧院门口」准备</strong>——' +
+          '入场要过安检与包检，热门戏门口会排队，剧院大堂通常很小、走廊很窄，找座位本身要几分钟。' +
+          '<strong>迟到不会让你直接进去坐下。</strong>各剧院政策不同但逻辑一致：' +
+          '<strong>正厅（orchestra）迟到者常被要求在大堂等到开演约 20 分钟后</strong>，' +
+          '由引座员统一带进去；' +
+          '<strong>也有剧院让你先站在后排看完第一首歌再入座</strong>。' +
+          '<strong>官方措辞永远是「Latecomers will be seated at the discretion of management」——没有商量余地</strong>',
+        '<strong>剧院内的规矩：演出全程禁止拍照、录像与录音，手机必须关机或静音收起。</strong>' +
+          '这是百老汇执行得最严的一条，<strong>引座员会当场制止并可能请你离场，不退票</strong>。' +
+          '<strong>开演前拍大堂与座位区在多数剧院是允许的，但不少剧院连舞台幕布都不许拍</strong>，' +
+          '看现场标识与引座员提示。' +
+          '其他禁带：大型专业相机与摄像设备、外带食物饮料、武器与任何利器、激光笔。' +
+          '<strong>大部分百老汇剧院是 1910–1930 年代的建筑，寄存位很少、卫生间数量严重不足</strong>——' +
+          '<strong>中场休息只有 15 分钟而女厕队伍通常要排完这 15 分钟，进场前就先解决</strong>',
+        '<strong>选座的实用判断：</strong>' +
+          '音乐剧（有大群舞与整体调度）<strong>坐正厅中后段或楼厅前排比坐前五排更好看</strong>，' +
+          '前五排你要一直仰头、看不到队形；' +
+          '话剧则相反，<strong>越靠前越好，表演的细节都在脸上</strong>。' +
+          '<strong>「Partial View / Obstructed View」的票便宜是有原因的</strong>——' +
+          '老剧院的承重柱会真的挡住四分之一舞台，买之前看清标注。' +
+          '<strong>不建议在街头向兜售者买票</strong>，剧院区路边转让的票有相当比例是假票或已用过的电子票'
+      ],
+      photo: '街景与灯箱 <strong>3/5</strong>，室内 <strong>0/5</strong>。' +
+        '<strong>这是本区唯一一个「完全不适合拍照」的条目——演出期间全程禁摄，你能拍的只有街上的剧院灯箱。</strong>',
+      shots: [
+        {
+          name: 'Shubert Alley 与两侧剧院灯箱',
+          desc: '<strong>开演前 18:15–18:45 最好</strong>，此时天已擦黑、灯箱全亮、观众正在入场，街上有人气。' +
+            'Shubert Alley 是 44 与 45 街之间那条不通车的私有步行巷，' +
+            '<strong>东西两侧分别是 Shubert Theatre 与 Booth Theatre，是整个剧院区密度最高的一小段</strong>。' +
+            '<strong>24–35mm 沿巷子纵深拍，让两侧灯箱在画面里排成走廊</strong>；' +
+            '灯箱亮度远高于街面，<strong>对灯箱测光会让行人全黑，请对中间调测光再压高光</strong>。' +
+            '<strong>剧院内部一律禁摄，这个机位是你在这个条目里唯一能拍的东西。</strong>' +
+            '坐标为 OSM Shubert Alley 路段要素。',
+          view: [40.758149, -73.986959]
+        }
+      ],
+      access: {
+        visit: '<strong>把一整个晚上算进去：门到门 3.5–4.5 小时。</strong>' +
+          '分配：<strong>演出本身</strong>——音乐剧多为 <strong>2 小时 30 分</strong>' +
+          '（含一次 15 分钟中场），话剧多为 <strong>90–120 分钟</strong>，' +
+          '<strong>近年不少新剧是 100 分钟无中场</strong>；' +
+          '<strong>提前到场 30 分钟</strong>（安检、找座、上厕所）；' +
+          '<strong>如果走 TKTS 现场排队再加 30–60 分钟</strong>；散场后剧院区人流疏散 15 分钟。' +
+          '<strong>19:00 的晚场意味着你 18:30 就得站在剧院门口，' +
+          '所以那天下午最多再安排一个景点，而且必须在 17:30 前结束。</strong>' +
+          '<strong>别把观景台的日落档和当晚的演出排在同一天</strong>——' +
+          '10 月中下旬日落在 18:10 前后，两件事在时间上直接冲突',
+        book: '<strong>四条路径，按确定性从高到低：</strong>' +
+          '<strong>（一）官方正价</strong>——Telecharge（Shubert 系剧院）与 Ticketmaster（Nederlander、Jujamcyn 系），' +
+          '或剧目官网。热门戏建议提前数周。' +
+          '<strong>（二）TKTS 当日折扣</strong>——Duffy Square 红台阶下，不能预订，当天现场排队。' +
+          '<strong>（三）数字抽签</strong>——Broadway Direct／Lucky Seat／Telecharge／TodayTix，' +
+          '通常演出前一天报名。' +
+          '<strong>（四）rush</strong>——TodayTix 每日 09:00、Telecharge 约 11:00 起全天、剧院票房开门即售。' +
+          '<strong>本手册不推荐具体剧目与场次，因为百老汇的剧目表每月都在变，请到访前一两周再查当期在演清单</strong>',
+        ticket: '<strong>核实日期 2026-09-14，来源 tdf.org「TKTS Live」页与各抽签平台现行规则页。</strong>' +
+          '<strong>官方正价：普通剧目正厅 $100–200，热门新剧与明星档期 $150–400，' +
+          'Premium 座位可达 $500 以上。</strong>' +
+          '<strong>TKTS：折扣 20%／30%／40%／50% 四档，折后价已包含每张 $8 的服务费。</strong>' +
+          '板上的实际例子（2026 年抽查到的一天）：长青剧目多在 <strong>50% off、折后 $66–91</strong>，' +
+          '当季较新的音乐剧多在 <strong>40% off</strong>。' +
+          '<strong>抽签与 rush 普遍 $45–49，每人最多两张。</strong>' +
+          '<strong>TDF 另有会员制（TDF Membership）可提前买折扣票，但有资格门槛（学生、教师、军人、工会成员等），' +
+          '普通游客用不上。</strong>' +
+          '<strong>提醒：剧院不收现金的场次越来越多，带信用卡</strong>',
+        hours: '<strong>核实日期 2026-09-14。演出时间：一周八场，' +
+          '周二至周日各一场晚场（近年普遍是 19:00，部分周五周六仍为 20:00），' +
+          '周三与周六（部分剧目为周日）加一场 14:00 日场。<em>周一绝大多数剧院暗场</em>。</strong>' +
+          '<strong>本窗口（10/13–10/26）里的 10 月 19 日与 10 月 26 日都是周一，那两晚基本没戏可看</strong>' +
+          '（偶有个别剧目把休息日调到周二，属例外）。' +
+          '<strong>TKTS Times Square 亭营业时间（TDF 官方 TKTS Live 页）：' +
+          '周一、周二、周五 15:00–20:00；周三、周四 11:00–20:00；周六 11:00–20:00；周日 11:00–20:00。</strong>' +
+          '<strong>此处有一处官方口径不一致：Times Square Alliance 的页面把周日写成 11:00–19:00。' +
+          '两种都列出，周日请按更早的 19:00 规划，以免白跑。</strong>' +
+          '<strong>TKTS 全年 365 天营业。</strong>' +
+          '各剧目的确切开演时间只能以你那一周的官方演出表为准，' +
+          '<strong>本窗口的逐场时间表未能也不应在此固定</strong>',
+        parking: '<strong>不要开车，剧院区散场时的交通是全市最糟的。</strong>' +
+          '地铁 <strong>N/Q/R/W、1/2/3、7、S 线「Times Sq–42 St」</strong>或' +
+          '<strong>A/C/E 线「42 St–Port Authority」</strong>，' +
+          '两站到任何一座剧院都在步行 10 分钟内；' +
+          'C/E 线「50 St」适合 49–54 街那几座。' +
+          '<strong>散场时（约 21:30–22:00）打车与网约车加价严重且极难叫到，走两个街区再叫会快很多</strong>',
+        walk: '<strong>41 座剧院集中在 41–54 街、Sixth 与 Ninth Avenue 之间，' +
+          '从 Times Square 地铁口走到最远的一座也不超过 12 分钟。</strong>' +
+          'TKTS 亭（Duffy Square，Broadway 与 47 街）到 44–45 街那一片剧院 <strong>250 米 / 4 分钟</strong>；' +
+          '到 Radio City Music Hall <strong>700 米 / 9 分钟</strong>。' +
+          '<strong>晚饭建议往西走到 Ninth Avenue（Hell&rsquo;s Kitchen），价格正常、步行 8 分钟，' +
+          '而且 17:30 前后大多接受不预约的散客</strong>',
+        stay: ''
+      },
+      notes: [
+        '<strong>演出全程禁止拍照录像录音，这是执行最严的一条规矩</strong>，' +
+          '引座员会当场制止，屡犯可被请出场且不退票。手机关机或静音收进包里，别只调成振动',
+        '<strong>周一多数剧院暗场</strong>。本窗口的 10/19 与 10/26 两个周一请另作安排；' +
+          '<strong>反过来，周三是「双场日」，下午 14:00 的日场票通常比晚场便宜、TKTS 板上折扣也更好</strong>',
+        '<strong>TKTS 显示的价格已含 $8/张服务费，不会在窗口再加</strong>。' +
+          '<strong>但要注意 TKTS 只收当天的票，不能替你订明天晚上的</strong>' +
+          '（唯一例外是第二天的日场）',
+        '<strong>抽签中签后只有 60 分钟付款，过期作废</strong>。' +
+          '出门前确认邮件不会被归到垃圾箱，并把手机充满电——' +
+          '<strong>Broadway Direct 的电子票无法打印，只能手机出示</strong>',
+        '<strong>「Partial View」「Obstructed View」的便宜票是真的会被柱子挡住</strong>，' +
+          '老剧院的承重结构就在观众席里。买之前看座位图上的标注',
+        '<strong>中场休息只有 15 分钟，而百老汇老剧院的卫生间数量严重不足</strong>，' +
+          '女厕排队常常用掉整个中场。进场前先解决',
+        '<strong>不要在街上向兜售者买票</strong>。剧院区路边转让的票有相当比例是假票、' +
+          '或是已经被扫描过的电子票截图，进场时才会发现',
+        '<strong>音乐剧坐正厅中后段或楼厅前排比坐前五排看得更完整</strong>' +
+          '（群舞的队形需要距离），话剧则越靠前越好'
+      ],
+      images: [
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/69/New_York_City_%28New_York%2C_USA%29%2C_Times_Square-Duffy_Square_--_2012_--_6380.jpg',
+          cap: 'Duffy Square 与 TKTS 折扣票亭所在的剧院区北端 · Dietmar Rabich / CC BY-SA 4.0' },
+        { url: 'https://upload.wikimedia.org/wikipedia/commons/6/60/Broadway_Theatre_W_53_St_May_2025_02.jpg',
+          cap: '真正开在 Broadway 路上的四座剧院之一：Broadway Theatre · Epicgenius / CC BY-SA 4.0' }
       ]
     }
   ]
