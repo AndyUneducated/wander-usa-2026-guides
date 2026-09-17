@@ -17,13 +17,13 @@ module.exports = {
   callouts: [
     {
       type: 'good',
-      title: '联邦停摆风险：本窗口内已基本排除',
+      title: '联邦停摆风险：2026 年 12 月 11 日前已基本排除',
       html: '<p>Independence Hall、Liberty Bell Center 与整个 Independence National Historical Park 由 ' +
         'National Park Service 运营，<strong>拨款中断即全部关门</strong>，所以这一项本来是本区最大的不确定性。' +
         '好消息是它<strong>已经解决</strong>：FY2027 的临时拨款决议 <strong>H.R. 6500</strong> 于 ' +
         '<strong>2026 年 8 月 8 日经参议院 90–6 通过、9 月 1 日经众议院 370–48 通过，总统随后签署</strong>，' +
         '按 FY2026 水平延续拨款至 <strong>2026 年 12 月 11 日</strong>。' +
-        '也就是说 <strong>9 月末到 10 月末的整个行程窗口都在这份 CR 的保护期内，停摆概率极低</strong>。' +
+        '也就是说 <strong>2026 年 12 月 11 日之前的任何日期都在这份 CR 的保护期内，停摆概率极低</strong>。' +
         '来源：<a href="https://www.congress.gov/crs-appropriations-status-table/2027" target="_blank" rel="noopener">Congress.gov FY2027 Appropriations Status Table</a>。</p>' +
         '<p>真正的风险点在 <strong>2026 年 12 月 11 日之后</strong>（国会把 FY2027 全年拨款推到中期选举之后处理）；' +
         '十月出行的话不受影响，十二月中旬以后来则需要重新核实。</p>' +
@@ -131,7 +131,7 @@ module.exports = {
           '<strong>《独立宣言》与《美国宪法》在同一个房间里签署</strong>——' +
           '1776 年第二届大陆会议与 1787 年制宪会议都在一楼的 Assembly Room，' +
           'Washington 用过的「Rising Sun Chair」还在原位。1979 年列入 UNESCO 世界遗产。',
-        '<strong>反直觉的事实：你拍的那座钟塔不是 1776 年那一座。</strong>' +
+        '<strong>反直觉的事实：眼前这座钟塔不是 1776 年那一座。</strong>' +
           '原始木质塔尖因腐朽在 1781 年被整体拆除，Independence Hall 有将近半个世纪是「平顶」的；' +
           '现在这个塔尖是 <strong>1828 年由 William Strickland 重建</strong>的。' +
           '换句话说，全美最被拍摄的爱国符号之一，其最醒目的部分比它所纪念的事件晚了 52 年。',
@@ -146,16 +146,16 @@ module.exports = {
           '南侧还有 Congress Hall 与 Old City Hall 两栋同期建筑围成三合院。',
         '<strong>2025 年 3 月启动的 Independence Square Improvement Project 已按计划在 2026 年 7 月前完工</strong>' +
           '（含 2025/11/13–2026/1/28 的整楼闭馆），内容包括无障碍坡道、木构与砖石修复、' +
-          '按史料复原的天花与墙面漆色。<strong>也就是说你现在看到的室内是刚修完的状态，无脚手架。</strong>'
+          '按史料复原的天花与墙面漆色。<strong>也就是说现在看到的室内是刚修完的状态，无脚手架。</strong>'
       ],
       tour: [
-        '<strong>先搞清楚你买的票只管一栋楼。</strong>过完 5th Street 安检后，' +
-          '你身处的 Independence Square 安检区里有<strong>四个可看的地方</strong>：' +
+        '<strong>先搞清楚一件事：那张票只管一栋楼。</strong>过完 5th Street 安检后，' +
+          'Independence Square 安检区内有<strong>四个可看的地方</strong>：' +
           'Independence Hall（需票或 open house）、<strong>Congress Hall</strong>、<strong>Old City Hall</strong>、' +
           '以及西翼的 <strong>Great Essentials Exhibit</strong>——<strong>后三个全部免票、自由进出</strong>。' +
           '很多人拿着票进来只看了 20 分钟就走了，等于把同一趟安检的三分之二浪费掉。' +
-          '合理顺序是：<strong>Independence Hall（按你的票时间）→ 西翼 Great Essentials → Congress Hall → Old City Hall</strong>。',
-        '<strong>Assembly Room 里只有三样东西值得你把眼睛停下来。</strong>' +
+          '合理顺序是：<strong>Independence Hall（按票面时间）→ 西翼 Great Essentials → Congress Hall → Old City Hall</strong>。',
+        '<strong>Assembly Room 里只有三样东西值得把眼睛停下来。</strong>' +
           '① <strong>Rising Sun Chair</strong>——Washington 主持制宪会议时坐的那把，在房间正前方，' +
           '椅背顶端刻着半个太阳，Franklin 在闭幕时说他终于确定那是旭日而不是落日；' +
           '② 铺着<strong>绿呢桌布的代表桌</strong>与桌上的文具，房间是按 1787 年的清单复原的，不是原样保存；' +
@@ -359,7 +359,7 @@ module.exports = {
           '入口在 <strong>6th & Market</strong>（不是 Chestnut Street 那一头），过安检后沿一条上百米的长廊往南走，' +
           '<strong>展览全部在走廊左侧</strong>，钟在<strong>最尽头的玻璃展室</strong>，' +
           '<strong>出口在南端近 Chestnut Street</strong>。' +
-          '也就是说：<strong>你是先看展、最后才见到钟的</strong>，而且出去之后不能原路返回。' +
+          '也就是说：<strong>这里是先看展、最后才见到钟</strong>，而且出去之后不能原路返回。' +
           '心里有这个次序，就不会在前半段因为「怎么还没看到钟」而急着快走。',
         '<strong>展廊真正的内容不是钟的铸造史，而是它怎么变成一个符号。</strong>' +
           '这口钟原本只是宾州州议会大厦的一口普通报时钟，' +
@@ -370,14 +370,14 @@ module.exports = {
           '展区里有一块<strong>可以用手触摸的铭文复制件</strong>，以及一段带开放式字幕与口述影像的影片。',
         '<strong>每日 10:00 在钟的观景窗前有 ranger 讲解</strong>（官方 Operating Hours 页列出的固定项目，' +
           '在 Liberty Bell Center 的 viewing window 集合）。' +
-          '<strong>如果你 9:00 第一批进场，正好可以先安静看完展、10:00 在钟前听这一场</strong>，' +
+          '<strong>9:00 第一批进场的话，正好可以先安静看完展、10:00 在钟前听这一场</strong>，' +
           '这是把「20 分钟打卡」变成「值得的一小时」的唯一办法。' +
           '不听讲解的话，钟本身看两样：<strong>铭文里少一个 n 的「Pensylvania」</strong>，' +
           '以及那道<strong>宽缝其实是 1840 年代为救音色钻扩出来的修复痕迹、不是原始裂纹</strong>。',
         '<strong>时间紧就大胆跳过前半段。</strong>' +
           '展廊是自助式的图文面板加少量实物，<strong>没有必看的原件</strong>（真正的文献原件在 Independence Hall 西翼的 Great Essentials）。' +
           '赶时间的话直接沿走廊走到底，<strong>10 分钟解决</strong>，不会有实质损失。' +
-          '反过来，如果你已经决定要排 15–55 分钟的队进来，那就别只花 10 分钟。',
+          '反过来说，既然已经排了 15–55 分钟的队进来，就别只花 10 分钟。',
         '<strong>排队与安检</strong>：官方口径等待 <strong>15–55 分钟</strong>，春夏与节假日更长，' +
           '<strong>9:00 开门那一刻是全天最短的队</strong>。安检要求所有随身物品过 X 光或目视检查，' +
           '<strong>包括口袋里的东西、医疗设备、婴儿车与轮椅下方</strong>；' +
@@ -465,7 +465,7 @@ module.exports = {
         '馆内在钟之前有一整段展览通道（含 Freedom on Trial 等展项），' +
           '<strong>光线更暗、天花更低</strong>，如要拍展陈请把 ISO 直接推到 3200 以上',
         '<strong>本条目与 Independence Hall 同属 NPS，拨款中断会一起关门</strong>；' +
-          '当前 CR 保护期到 2026 年 12 月 11 日，本窗口内风险极低（详见前置提醒）'
+          '当前 CR 保护期到 2026 年 12 月 11 日，该日期之前风险极低（详见前置提醒）'
       ],
       images: [
         { url: 'img/liberty-bell-with-independence-hall-748ac37c.jpg',
@@ -481,6 +481,9 @@ module.exports = {
       n: 3,
       name: '埃尔弗雷斯巷',
       en: "Elfreth's Alley",
+      /* 必去价值低于摄影价值：124 米长的一条私宅街，走完只要两分钟，
+         没有展陈也没有故事现场，属于「已经在 Old City 就该拐进去」的那一类。 */
+      must: 2.5,
       score: 4.5,
       tldr: '全区最好的街道摄影目标，路面秋季全天柔光；但这是私人住宅街，博物馆只在周五至周日 12:00–16:00 开。',
       tags: [
@@ -506,7 +509,7 @@ module.exports = {
           '巷道立面间距约 6–7 米、房屋 2.5–3.5 层约 9–11 米高，' +
           '<strong>阳光要打到路面需要太阳高度超过约 52–60°</strong>；' +
           '而 9 月 25 日正午高度只有 <strong>49°</strong>，10 月 22 日只有 <strong>39°</strong>。' +
-          '也就是说<strong>整条巷子在你到访的每一天都是柔光棚</strong>——' +
+          '也就是说<strong>整个秋季的每一天，整条巷子都是一个柔光棚</strong>——' +
           '这对鹅卵石与红砖的质感是好事，反差小、高光不炸、全天可拍，' +
           '<strong>反而是本区唯一不受「什么时候来」限制的机位。</strong>' +
           '受光的只有北侧那一排房子（朝南）的上部楼层，约 10:00–15:30；南侧那一排全天无光。',
@@ -515,9 +518,44 @@ module.exports = {
           '理论上此时光可以沿巷道纵向射入。' +
           '<strong>但 N Front Street 对面的建筑是否会挡住这段低角度光，无法远程核实——请当成彩票而不是计划。</strong>'
       ],
+      tour: [
+        '<strong>走法：从 N 2nd Street 那头进、从 N Front Street 那头出，不折返。</strong>' +
+          '全巷只有 <strong>124 米</strong>，两分钟就能走完，所以这一站的价值完全取决于愿不愿意慢下来看细节。' +
+          '值得停下来的有四样：<strong>门楣上方的扇形气窗（fanlight）</strong>——每一户的木雕花样都不一样，' +
+          '是 18 世纪费城工匠留下的签名；<strong>门前的脚踏石（step stone）与铁门环</strong>；' +
+          '<strong>房屋编号铭牌</strong>（32 栋房子按官方标牌的说法建于 1720–1830 年之间，不是 1703 年）；' +
+          '以及<strong>巷子中段通向 Bladen\'s Court 的那个小院口</strong>。' +
+          '走到 Front Street 出来后往南三个街区就是 Betsy Ross House 与 Franklin Court 一带，动线很顺。',
+        '<strong>Bladen\'s Court 是这一站最容易被走过头的地方，但它只要一分钟。</strong>' +
+          '入口是巷子中段南侧一个不起眼的窄通道，进去是一个三面围合的小天井——' +
+          '<strong>这是全巷唯一的「巷中之巷」，也是唯一能看到这些房子背面与后院关系的位置</strong>。' +
+          '院里同样住着人，请进去看一眼就出来，不要停留太久、不要大声说话。',
+        '<strong>最重要的一条：这是一条有人住的私宅街，不是景点，管理方自己的措辞是「Yes, people do still live here!」。</strong>' +
+          '32 栋房子里绝大多数是私宅，<strong>门前台阶、窗台、花箱全部是私人财产</strong>。' +
+          '<strong>不要坐或站在住户台阶上、不要敲门、不要推开院门、不要隔着窗户往屋里看、' +
+          '不要在 08:00 前或 20:00 后大声交谈。</strong>' +
+          '住户有权要求来访者离开门前，请立刻配合。这条巷子能保持现在的样子，靠的正是住户的忍耐度。',
+        '<strong>想进屋看室内，必须把日子排在周五、周六或周日——这是本站唯一的硬约束。</strong>' +
+          '<strong>Elfreth\'s Alley Museum 只在周五、周六、周日 12:00–16:00 开门</strong>' +
+          '（<strong>2026-09-15 核实</strong>，官网原文「Museum hours are Fridays, Saturdays, and Sundays from 12pm - 4pm」），' +
+          '它是 <strong>124 与 126 两栋房子</strong>、不只是一栋，自助入场成人 $3。' +
+          '<strong>周六日 14:30 另有一场 40 分钟的导览团</strong>，走完全巷、含 Bladen\'s Court 与两栋博物馆房，成人 $10。' +
+          '<strong>周一至周四来只能在街上看外立面</strong>；' +
+          '这种情况下的替代方案是花 <strong>$3 买官网的手机音频导览</strong>（elfrethsalley.org/audiotour），' +
+          '随时可用、不受开馆时间限制，能把 32 栋房子的来历补上。',
+        '<strong>巷内没有任何设施：没有卫生间、没有餐饮、没有饮水、没有座位。</strong>' +
+          '最近的可靠卫生间是 <strong>Independence Visitor Center（6th & Market，每日 9:00 开门）</strong>，' +
+          '距此约 <strong>900 米 / 12 分钟</strong>；就近的临时选择是 N 2nd Street 与 Market Street 一带的咖啡馆与餐厅（需消费）。' +
+          '<strong>带小孩或老人来之前请先在别处解决</strong>。',
+        '<strong>人流：周末 12:00–16:00 最挤（正好是博物馆开门的时段），124 米的窄巷里挤进两三个旅行团就转不开身。</strong>' +
+          '<strong>最安静的是工作日 08:00–10:00 与 17:00 之后</strong>，' +
+          '那个时段基本只有住户进出。' +
+          '另外<strong>每年六月第一个周六的 Fete Day 是全年唯一开放多户私宅内部的日子</strong>' +
+          '（届时人也最多），秋季来遇不到，想赶这一天的读者要自己查当年档期。'
+      ],
       photo: '建筑 <strong>4.5/5</strong>，街拍 <strong>5/5</strong>，人像 <strong>4/5</strong>。' +
         '全天柔光、纵深强、色调统一（红砖加青灰石板加黑门），是本区出片率最高的地方；' +
-        '扣分只因不能用三脚架久留、不能拍住户、且旺季游客会站在你的构图里。',
+        '扣分只因不能用三脚架久留、不能拍住户、且旺季游客会站进构图里。',
       shots: [
         {
           name: 'N 2nd Street 西端向东（鹅卵石纵深主机位）',
@@ -538,7 +576,7 @@ module.exports = {
         {
           name: 'N Front Street 东端向西（顺光方向）',
           view: [39.95268, -75.14167],
-          desc: '<strong>清早唯一可能有纵向光的方向：站东端向西拍，太阳在你背后。</strong>' +
+          desc: '<strong>清早唯一可能有纵向光的方向：站东端向西拍，太阳在身后。</strong>' +
             '9 月末 07:00–07:45、10 月末 07:30–08:15，太阳方位 92°–108° 扫过巷道轴线 99°，' +
             '若光能越过 Front Street 对面的建筑，会沿巷道打亮整排立面并在鹅卵石上拉出长影。' +
             '<strong>该遮挡关系未能核实，请把这趟当作低成本尝试：早到十分钟，成了就是全区最好的一张。</strong>' +
@@ -563,18 +601,31 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>只走街道：15–25 分钟。</strong>分配：从西端走到东端 5 分钟（124 米，不停就是 2 分钟）、' +
+          '看门楣扇形气窗与脚踏石等细节 10 分钟、Bladen\'s Court 小天井 1–3 分钟。' +
+          '<strong>加上两栋博物馆房（仅周五至周日 12:00–16:00）共 40–50 分钟</strong>；' +
+          '<strong>参加周六日 14:30 的 40 分钟导览团则整体按 60–75 分钟预留</strong>。' +
+          '<strong>官方未给出建议时长</strong>，以上按巷长 124 米、32 栋房子与官方导览团 40 分钟的时长推算。',
         book: '<strong>街道不需预约</strong>。博物馆<strong>不接受网络订票</strong>，' +
           '只能现场买（收现金、信用卡与 Apple Pay）。' +
-          '导览团<strong>周六日 14:30 一场</strong>，40 分钟，走完全巷含 Bladen\'s Court 并含两栋博物馆房。',
-        ticket: '<strong>街道免费</strong>。博物馆入场 <strong>成人 $3、7–12 岁 $2、7 岁以下免费</strong>；' +
+          '导览团<strong>周六日 14:30 一场</strong>，40 分钟，走完全巷含 Bladen\'s Court 并含两栋博物馆房。' +
+          '<strong>团体或学校团需另行用官网表格申请。</strong>',
+        ticket: '<strong>街道免费</strong>。博物馆入场 <strong>成人 $3、7–12 岁儿童 $2</strong>；' +
           '<strong>导览团（含博物馆入场）成人 $10、7–12 岁 $5</strong>；' +
-          '另有 <strong>$3 的手机音频导览</strong>（elfrethsalley.org/audiotour），随时可买、不受开馆时间限制。',
-        hours: '<strong>街道 24 小时开放</strong>（公共街道）。' +
-          '<strong>博物馆已核实为 2026 年正常开放，但只有周五、周六、周日 12:00–16:00</strong>' +
-          '（官网原文「Museum hours are Fridays, Saturdays, and Sundays from 12pm - 4pm」）。' +
-          '<strong>整个季节只运营到 11 月中旬</strong>（官网：April 到 mid-November）。' +
-          '→ <strong>9 月末到 10 月末的任何日期都在季内，但周一至周四来只能拍街道、进不了房子。</strong>' +
-          '电话 (267) 457-4159。',
+          '另有 <strong>$3 的手机音频导览</strong>（elfrethsalley.org/audiotour），随时可买、不受开馆时间限制。' +
+          '<strong>官网只列出成人与 7–12 岁两档，7 岁以下是否免费未见官方明文，未能从官方渠道确认</strong>' +
+          '（可电 267-457-4159 询问）。' +
+          '（据 elfrethsalley.org/visit，<strong>2026-09-15 核实，价格与 2026 年初口径一致</strong>）',
+        hours: '<strong>街道 24 小时开放</strong>（公共街道，无门无栅栏）。' +
+          '<strong>博物馆官网原文「The Elfreth\'s Alley Museum is OPEN for the 2026 season / ' +
+          'Museum hours are Fridays, Saturdays, and Sundays from 12pm - 4pm」' +
+          '——即仅周五、周六、周日 12:00–16:00</strong>。' +
+          '<strong>导览团只有周六与周日 14:30 一场。</strong>' +
+          '→ <strong>周一至周四来只能在街上看外立面，进不了房子。</strong>' +
+          '<strong>季节范围：官网 2026 年 9 月的页面只写「2026 season」、未再列出起止月份</strong>；' +
+          '此前口径为 4 月至 11 月中旬，<strong>11 月中旬之后是否闭馆未能从官方渠道确认</strong>，' +
+          '十一月下旬出行请先电 <strong>(267) 457-4159</strong>。' +
+          '（<strong>2026-09-15 核实</strong>）',
         parking: '<strong>不要开车来</strong>。这一带是 18 世纪的窄巷网络，路边车位极少且限时。' +
           '<strong>SEPTA Market–Frankford Line「2nd Street」站</strong>最近，或从 Old City 任意付费车库步行。',
         walk: '2nd Street 地铁站到巷子西端约 <strong>450 米 / 6 分钟</strong>；' +
@@ -585,13 +636,13 @@ module.exports = {
       notes: [
         '<strong>这是本条目最重要的一条：巷子里住着人。</strong>' +
           '不要坐或站在住户台阶上、不要触碰门与花箱、不要把镜头对着窗户、不要把三脚架架在门前、' +
-          '不要在 08:00 前或 20:00 后大声交谈。<strong>住户有权要求你停止拍摄，请立刻配合</strong>',
+          '不要在 08:00 前或 20:00 后大声交谈。<strong>住户有权要求停止拍摄，请立刻配合</strong>',
         '<strong>不要拍摄进出门的住户</strong>。要拍人就拍自己的同行者，' +
           '并且尽量不要长时间占用某一户门前的位置',
         '<strong>路面是真鹅卵石，很不平</strong>，低机位蹲拍时注意脚下；' +
           '雨后石面极滑，穿硬底鞋要小心',
-        '<strong>博物馆周一至周四不开</strong>，若你想进屋拍室内陈设，' +
-          '必须把行程排在周五、周六或周日（导览团只有周六日 14:30）',
+        '<strong>博物馆周一至周四不开</strong>，想进屋拍室内陈设的话，' +
+          '必须把这一站排在周五、周六或周日（导览团只有周六日 14:30）',
         '巷子太窄，<strong>16mm 级别的超广会严重损害纵深感</strong>，24–28mm 与 50mm 才是这里的正确焦段',
         '<strong>秋季路面全天无直射光是本条目的最大优势</strong>——' +
           '不用为了光线赶时间，可以把它排在任何一天的任何空档',
@@ -611,6 +662,9 @@ module.exports = {
       n: 4,
       name: '基督堂与基督堂墓园',
       en: 'Christ Church & Christ Church Burial Ground',
+      /* 必去价值中等：Franklin 墓有真实的朝圣分量，但隔栅栏免票就能看到；
+         教堂内部与另外四位签署者的墓碑属「对建国史有兴趣再进去」。 */
+      must: 3,
       score: 4,
       tldr: 'Franklin 墓在 5th & Arch 街角隔栅栏免票 24 小时可拍；教堂与墓园各 $5、合票 $8，每日 11:00 才开。',
       tags: [
@@ -641,7 +695,51 @@ module.exports = {
           '<strong>所以站在 5th Street 与 Arch Street 街角的人行道上，隔着栅栏 24 小时可以看到并拍到墓板与上面的硬币</strong>。' +
           '至于那些硬币：投币源自「A penny saved is a penny earned」，' +
           '教会每年因此收到约 $4,000–5,000；<strong>但 2017 年墓板因 1950 年代改造留下的渗水加上几十年硬币的挤压与刮擦而开裂，' +
-          '花了 45 天、$80,000 修复</strong>，此后教会更希望你把钱投进旁边的捐款箱而不是扔到石板上。'
+          '花了 45 天、$80,000 修复</strong>，此后教会更希望游客把钱投进旁边的捐款箱而不是扔到石板上。'
+      ],
+      tour: [
+        '<strong>先弄清这是两个地点，走错是这一站最常见的错误：Benjamin Franklin 的墓不在教堂里。</strong>' +
+          '<strong>Christ Church 在 N 2nd Street 近 Church Street</strong>（地铁 2nd Street 站），' +
+          '<strong>Christ Church Burial Ground 在 5th & Arch</strong>（地铁 5th Street 站），' +
+          '两处<strong>相距约 400 米、沿 Arch Street 步行 6 分钟</strong>，各自单独售票、各自单独检票。' +
+          '合理顺序是<strong>先做墓园（离 Independence Hall 一带近）、再沿 Arch Street 东行去教堂</strong>，' +
+          '出来正好接上 Elfreth\'s Alley（350 米）与 Old City 的 2nd Street 一带，不折返。',
+        '<strong>进教堂之前先买那张 $1 的地图，这是全区一美元花得最值的地方。</strong>' +
+          '教堂里真正的看点是<strong>可以坐进包厢式长椅（pew box）</strong>——' +
+          '<strong>George Washington、Benjamin Franklin、Betsy Ross、Benjamin Rush 当年的座位都还在，' +
+          '而现场没有醒目的标牌，不看地图根本找不到是哪几个</strong>。' +
+          '另外三样：正中的 <strong>Palladian 式圣坛窗</strong>、' +
+          '<strong>1754 年完工的塔尖（当年高约 196 英尺，是全北美最高的建筑）</strong>，' +
+          '以及后院的花园。<strong>主殿里常有教会的历史讲解员在，可以直接提问，这是最省力的一课。</strong>' +
+          '自助看完 20–30 分钟。',
+        '<strong>墓园里要找的是五位《独立宣言》签署者，不是只有 Franklin。</strong>' +
+          '<strong>Franklin 与妻子 Deborah 的平卧大理石墓板在西北角、紧贴 5th & Arch 街角</strong>，' +
+          '另四位是 <strong>Joseph Hewes、Francis Hopkinson、George Ross、Benjamin Rush</strong>' +
+          '（Rush 是美国精神医学的奠基者，也是这一片黄热病疫情的主治医生）。' +
+          '<strong>园内 2 英亩、安葬逾 4,000 人，现存墓碑约 1,400 块，另有 2,500 余块已风化到无字</strong>，' +
+          '所以别指望靠自己认碑，<strong>同一张 $1 地图在这里同样管用</strong>。' +
+          '<strong>入口在 5th Street 一侧；Arch Street 那道铁门只能看、不能进。</strong>',
+        '<strong>把 $8 合票的价值算清楚，因为这一站有一半内容是免费的。</strong>' +
+          '19 世纪教会特意在围墙上开了缺口、后来换成铸铁栅栏，就是为了让公众随时看到 Franklin 的墓；' +
+          '<strong>所以站在 5th Street 与 Arch Street 街角的人行道上，隔着栅栏 24 小时都能看到墓板</strong>，' +
+          '不用票、不受开放时间限制。' +
+          '<strong>也就是说 $8 合票买的其实是「教堂内部 + 另外四位签署者的墓碑 + 园内整体」</strong>；' +
+          '只想在 Franklin 墓前站一会儿的人，一分钱都不用花，五分钟就能完成。' +
+          '<strong>不要往墓板上扔硬币</strong>——2017 年那次 45 天、$80,000 的修复，' +
+          '成因之一正是几十年硬币的挤压与刮擦，旁边有捐款箱。',
+        '<strong>时间安排上有一条硬约束：两处都要到 11:00 才开门，是本区最晚开门的景点。</strong>' +
+          '因此正确的排法是<strong>把上午留给 Independence Hall 的 9:00–9:50 免票 open house 与 Liberty Bell Center，' +
+          '11:00 之后再来这两处</strong>——反过来排会白等一小时。' +
+          '<strong>周日要特别注意：10:00 有礼拜，教堂当天的开放时间被切成 9:45–11:00 与 11:30–17:00 两段</strong>；' +
+          '平日也可能有婚礼与音乐会。' +
+          '<strong>这是一个活跃的圣公会堂区，遇到任何仪式请停止参观、安静退出。</strong>',
+        '<strong>卫生间：两处都没有公共卫生间，这是很多人在墓园里才发现的问题。</strong>' +
+          '最近的可靠选择是 <strong>Independence Visitor Center（6th & Market）</strong>——' +
+          '从墓园过去只有 <strong>250 米 / 3 分钟</strong>，<strong>进墓园前先在那里解决</strong>；' +
+          '从教堂那一头过去要走 <strong>700 米 / 9 分钟</strong>。' +
+          '另有 NPS 的公共卫生间在 <strong>5th & Chestnut 西北角（每日 9:30–20:00）</strong>与' +
+          '<strong>Franklin Court 的 Benjamin Franklin Museum（每日 9:00–20:00）</strong>。' +
+          '餐饮两处都没有，教堂一侧的 N 2nd Street 与 Market Street 一带餐厅最密。'
       ],
       photo: '建筑 <strong>4.5/5</strong>，室内 <strong>4/5</strong>，纪实 <strong>4/5</strong>，风光 <strong>1/5</strong>。' +
         '塔尖是 Old City 最优雅的垂直元素；教堂内部的白色柱廊加拱窗在午后有极干净的侧光；' +
@@ -685,22 +783,35 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>两处都看：合计 50–70 分钟</strong>。分配：墓园找五位签署者的墓 20–30 分钟、' +
+          '沿 Arch Street 走到教堂 6 分钟、教堂内部（含找那几张名人长椅）20–30 分钟。' +
+          '<strong>只在 5th & Arch 街角隔栅栏看一眼 Franklin 墓：5 分钟，不用票。</strong>' +
+          '<strong>参加导览团的按官方口径每处 20–30 分钟计</strong>' +
+          '（官网原文「Tours range from 20-30 minutes」，这是本站唯一的官方时长依据），' +
+          '两处都跟团则整体按 1.5 小时预留。',
         book: '<strong>两处都接受 walk-in</strong>，不需预约。' +
           '导览团现场参加即可，<strong>10 人以上团体建议先电话预约</strong>（215-922-1695 转 32）。' +
-          '官网也有在线预付页面。',
-        ticket: '<strong>教堂</strong>：自助 成人 $5 / 5–12 岁 $2；导览 成人 $10 / 儿童 $5。' +
-          '<strong>墓园</strong>：自助 成人 $5 / 5–12 岁 $2；导览 成人 $10 / 儿童 $5。' +
-          '<strong>合票（教堂＋墓园，自助）成人 $8 / 5–12 岁 $3，只在现场售卖</strong>。' +
-          '园区地图 $1。<strong>5 岁以下免费。</strong>' +
-          '<strong>Franklin 墓在 5th & Arch 街角隔栅栏看与拍完全免费。</strong>',
-        hours: '<strong>教堂</strong>（christchurchphila.org/visit）：<strong>每日 11:00–17:00，' +
-          '周日例外为 9:45–11:00 与 11:30–17:00 两段</strong>（10:00 礼拜期间不对游客开放）。' +
-          '<strong>墓园</strong>：<strong>3 月至 11 月每日 11:00–17:00</strong>；' +
-          '12 月缩短为 11:00–16:00 且视天气；<strong>1 月与 2 月整月闭园</strong>，' +
-          '另在 Easter Sunday、Thanksgiving、Christmas Day 闭园。' +
-          '→ <strong>9 月末至 10 月末全部在正常季内、每日开放、无每周闭馆日。</strong>' +
-          '<strong>两处都要到 11:00 才开门，这是本区最晚开门的景点</strong>，' +
-          '把它排在上午 11:00 之后。',
+          '官网也有在线预付页面。' +
+          '<strong>1 月与 2 月墓园闭园期间若要参观，需另行联系教会的 Director of Education & Preservation 单独安排。</strong>',
+        ticket: '<strong>这是硬性票价，不是建议捐款——两处都在门口收费、不收钱不放行。</strong>' +
+          '<strong>教堂</strong>：自助 成人 <strong>$5</strong> / 5–12 岁 $2；导览 成人 <strong>$10</strong> / 5–12 岁 $5。' +
+          '<strong>墓园</strong>：价目与教堂完全相同（自助 $5 / $2，导览 $10 / $5）。' +
+          '<strong>合票（教堂＋墓园，自助）成人 $8 / 5–12 岁 $3</strong>，' +
+          '官网注明<strong>「Additional packages (including dual admission) available on-site」，即合票只在现场售卖</strong>。' +
+          '园区地图 <strong>$1</strong>（建议买，见游览要点）。' +
+          '<strong>官网只列出成人与 5–12 岁两档，5 岁以下是否免费未见官方明文，未能从官方渠道确认</strong>' +
+          '（可电 215-922-1695）。' +
+          '<strong>Franklin 墓在 5th & Arch 街角隔铸铁栅栏看完全免费、不限时间。</strong>' +
+          '（据 christchurchphila.org/visit，<strong>2026-09-15 核实</strong>）',
+        hours: '<strong>教堂官方原文</strong>（christchurchphila.org/visit，<strong>2026-09-15 核实</strong>）：' +
+          '<strong>「Every day 11 AM – 5 PM / Except Sunday: 9:45 – 11 AM then 11:30 AM – 5 PM」</strong>' +
+          '——即<strong>每日 11:00–17:00，周日被 10:00 的礼拜切成 9:45–11:00 与 11:30–17:00 两段</strong>。' +
+          '<strong>墓园官方原文：「Every day 11 AM – 5 PM / December: 11 AM – 4 PM (Weather permitting)」，' +
+          '并明确「closed during the months of January and February, as well as on Easter Sunday, ' +
+          'Thanksgiving Day, and Christmas Day」</strong>。' +
+          '→ <strong>3 月至 11 月每日 11:00–17:00，秋季无每周闭馆日</strong>；' +
+          '12 月缩短为 11:00–16:00 且遇恶劣天气可能临时关闭；<strong>1 月与 2 月整月闭园</strong>。' +
+          '<strong>两处都要到 11:00 才开门，这是本区最晚开门的景点</strong>，请排在上午 11:00 之后。',
         parking: '<strong>SEPTA Market–Frankford Line：教堂用「2nd Street」站，墓园用「5th Street/Independence Hall」站。</strong>' +
           '教堂 Neighborhood House 后方有停车场，但<strong>免费停车仅限周日做礼拜者（需领许可证）</strong>，' +
           '游客不适用。',
@@ -711,7 +822,7 @@ module.exports = {
       notes: [
         '<strong>教堂是活跃的圣公会堂区（明确表示 LGBTQ+ 友好），周日 10:00 有礼拜、平日也可能有婚礼与音乐会。</strong>' +
           '遇到仪式请立刻停止拍摄',
-        '<strong>两处 11:00 才开门</strong>——如果你的当天计划是「早上 8:45 排 Independence Hall 的 open house」，' +
+        '<strong>两处 11:00 才开门</strong>——若当天上午安排了 8:45 排 Independence Hall 的 open house，' +
           '这两处正好可以填 11:00 之后的档',
         '<strong>把 $8 合票的价值算清楚</strong>：Franklin 墓隔栅栏免费可拍，' +
           '所以合票买的其实是「教堂内部 + 墓园内其他四位签署者的墓碑」。' +
@@ -737,6 +848,9 @@ module.exports = {
       n: 5,
       name: '美国革命博物馆',
       en: 'Museum of the American Revolution',
+      /* 典型的「必去但不好拍」：内容是全区最强的一份，摄影价值却最低
+         （招牌展项明确禁拍、其余是低照度玻璃柜）。这正是 must 与 score 分离的意义。 */
+      must: 4,
       score: 2.5,
       tldr: '$27 的现代馆，内容极强但摄影价值低：招牌的 Washington 帐篷剧场明确禁止个人拍摄。',
       tags: [
@@ -758,18 +872,66 @@ module.exports = {
           '帐篷现在架在一个「金属伞加帆布罩」的支撑结构上。',
         '<strong>但对摄影者来说这里有个硬伤：帐篷剧场（二楼 Alan B. Miller Theater，100 座）' +
           '明确禁止个人拍摄那顶帐篷。</strong>' +
-          '15 分钟的多媒体演出结束时屏幕升起、帐篷只露出约 90 秒，' +
+          '<strong>官方口径的影片时长为 12 分钟</strong>（amrevmuseum.org/exhibits/museum-films，' +
+          '<strong>2026-09-15 核实</strong>），演出结束时屏幕升起、帐篷实物只露出约 90 秒，' +
           '而这 90 秒正是禁拍的。馆方的替代方案是提供官方高分辨率照片下载。' +
           '剧场座位有限、按场次先到先得，需要在二楼剧场门口排队。',
         '<strong>诚实的结论：这是内容目的地，不是摄影目的地。</strong>' +
           '常设展是标准的现代博物馆语言——低照度、玻璃展柜、彩色射灯、大量文字面板。' +
           '玻璃反射与混合色温会让展柜照片很难看；' +
           '真正可拍的只有几处大尺度场景（一楼的私掠船复原甲板、Oneida Indian Nation 展厅的沉浸式场景）' +
-          '以及中庭楼梯的几何。<strong>如果这一天时间紧，把它删掉换成 Reading Terminal Market 或 City Hall，摄影产出会明显更高。</strong>'
+          '以及中庭楼梯的几何。<strong>纯以摄影产出衡量，同样的两小时放在 Reading Terminal Market 或 City Hall 会高得多；' +
+          '但若是为了读懂这座城市的建国史，这里的内容密度是全区第一。</strong>'
+      ],
+      tour: [
+        '<strong>先看帐篷的场次表，再倒推整个参观顺序——这是本馆唯一需要提前算的事。</strong>' +
+          '镇馆之宝 <strong>Washington\'s War Tent</strong>（华盛顿的司令部帐篷）在<strong>二楼 Alan B. Miller Theater</strong>，' +
+          '官方口径是<strong>影片 12 分钟、每小时整点一场、11:00 起第一场、末场 16:40</strong>' +
+          '（amrevmuseum.org/exhibits/museum-films，<strong>2026-09-15 核实</strong>；' +
+          '官网同时写「every hour on the hour」与「final showing is at 4:40 p.m.」，末场不在整点上，这是官方原文的口径）。' +
+          '<strong>100 座、先到先得、提前在剧场门口排队</strong>。' +
+          '合理做法是<strong>进馆先确认下一场时间，按它安排前后</strong>——' +
+          '影片结束时屏幕升起、真品帐篷在帘后露出约 90 秒，这是全馆情绪的顶点，不要错过也不要迟到。',
+        '<strong>常设展的正确走法：直接上二楼，按时间顺序从 1760 年代走到 1780 年代。</strong>' +
+          '二楼是核心展厅，叙事线完整；一楼是特展、剧场与 Revolution Place。' +
+          '<strong>必看的三处实景复原（都在动线上，不用找）</strong>：' +
+          '<strong>私掠船（privateer）的复原甲板</strong>——可以走上去，木构与索具是真尺度；' +
+          '<strong>Oneida Indian Nation 展厅</strong>，讲的是美国最早的原住民盟友，' +
+          '是全馆唯一从原住民视角讲这场战争的部分，也是很多人不知道的一段；' +
+          '以及<strong>波士顿 Liberty Tree 的沉浸式场景</strong>。' +
+          '<strong>可以跳过的是大段纯文字面板与部分小件玻璃柜</strong>——' +
+          '内容都很好，但两小时的参观里读不完，省下的时间给帐篷剧场与特展。',
+        '<strong>2026 年有一件只有这两年才看得到的东西，进馆前请知道它的存在：特展 The Declaration\'s Journey。</strong>' +
+          '<strong>展期 2025 年 10 月 18 日至 2027 年 1 月 3 日</strong>（<strong>2026-09-15 核实</strong>），' +
+          '讲《独立宣言》从 1776 年至今在全世界的影响，' +
+          '<strong>集中了 50 家公私出借方的 120 余件文物、涉及约 20 个国家的独立运动</strong>，' +
+          '其中若干件是首次公开展出、或自革命时代以来首次回到美国。' +
+          '<strong>含在普通门票内、不另收费</strong>，在一楼特展厅。' +
+          '另有 <strong>Made by Philadelphia: Supplying the Revolution（2026 年 6 月 12 日至 2027 年 1 月 2 日）</strong>。' +
+          '<strong>2027 年 1 月之后再来的读者请自行重查当期特展</strong>，' +
+          '因为「值不值 $27」这个判断很大程度上取决于当时在展什么。',
+        '<strong>票有两个容易被浪费的规则，用好了能省钱也能省时间。</strong>' +
+          '① <strong>线上买比现场便宜 $2</strong>（成人 $25 对 $27），且能选时段；' +
+          '② <strong>所有票都含当日与次日两天</strong>（官方原文「All tickets are valid for two consecutive days」）——' +
+          '<strong>这意味着第一天看不完可以第二天再进来一次</strong>，' +
+          '对「在 Old City 待两天」的读者来说，这是本区唯一一张可以拆成两次用的票。' +
+          '另外 <strong>ACCESS 卡与 SNAP 受益人现场免费</strong>、出示 SEPTA Key 卡减 $2、' +
+          '出示 African American Museum in Philadelphia 票根减 $4。',
+        '<strong>这里是 Old City 少数几个能坐下来吃饭、并且有干净卫生间的室内地点，把它当成后勤基地用。</strong>' +
+          '馆内 <strong>Cross Keys Café</strong>：<strong>周日与周一 11:00–15:00，周二至周六 11:00–16:00</strong>。' +
+          '<strong>这一点在实际行程里很重要：Independence Hall 的安检区内一间卫生间都没有，' +
+          'Liberty Bell Center 内也没有</strong>，而这两处离本馆只有 450 米。' +
+          '<strong>带孩子的家庭另可用一楼的 Revolution Place 家庭探索中心</strong>，' +
+          '那里有动手活动，是孩子在两小时的文字展之后唯一能放开的地方。',
+        '<strong>时段与人流：上午 09:30 开门那一刻与 15:00 之后最松，11:00–14:00 最挤。</strong>' +
+          '这一带的旅行团通常上午做 Independence Hall 与 Liberty Bell、中午之后转到本馆，' +
+          '<strong>所以开门即进是最有效的一招</strong>，正好也能赶上 11:00 的第一场帐篷影片。' +
+          '<strong>大件行李与大背包会在安检被拦，馆内寄存条件未能确认</strong>，' +
+          '来之前请把大包留在住处。'
       ],
       photo: '建筑 <strong>3/5</strong>，室内 <strong>2/5</strong>，风光 <strong>0/5</strong>。' +
         '低分不是因为馆差，而是因为<strong>最值得拍的那一件明确禁拍、其余是玻璃柜里的低照度展陈</strong>。' +
-        '如果你是为了内容而来，它值 4.5 分；为了照片而来，2.5 分已经是宽容的评价。',
+        '为内容而来的话它值 4.5 分；为照片而来，2.5 分已经是宽容的评价。',
       shots: [
         {
           name: '3rd & Chestnut 街角外观',
@@ -796,11 +958,21 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>建议 2–3 小时</strong>，分配：二楼常设展按时间顺序走完 <strong>75–90 分钟</strong>、' +
+          '<strong>Washington\'s War Tent 影片 12 分钟（另加排队 10–15 分钟）</strong>、' +
+          '一楼特展 The Declaration\'s Journey <strong>30–45 分钟</strong>、' +
+          '一楼定向影片 15 分钟（可选，末场 15:00）。' +
+          '<strong>只看帐篷与二楼核心展厅的最短方案：75 分钟。</strong>' +
+          '<strong>带孩子加 Revolution Place 另留 30 分钟。</strong>' +
+          '<strong>官方未在参观页给出建议时长</strong>，以上按四层楼的展厅规模、' +
+          '官方公布的两段影片时长与特展体量推算。' +
+          '<strong>门票含当日与次日两天，真正看不完可以拆成两次</strong>，不必硬撑。',
         book: '<strong>建议线上买（便宜 $2 且能选时段）</strong>。' +
           '现场票按时段发售、先到先得、可能售完。' +
           '另有 <strong>Any Day 票</strong>（不指定日期时段，$27）。' +
-          '<strong>所有票均含当日与次日两天</strong>。',
-        ticket: '官方价目（amrevmuseum.org/at-the-museum/visit/visit-hours）：' +
+          '<strong>所有票均含当日与次日两天</strong>。' +
+          '电话订票 215-253-6731。',
+        ticket: '官方价目（amrevmuseum.org/at-the-museum/visit/visit-hours，<strong>2026-09-15 重新核实，与 2026 年初口径一致</strong>）：' +
           '<strong>成人 现场 $27 / 线上 $25</strong>；' +
           '<strong>65 岁以上、学生、教师、军人（均需证件）$21</strong>；' +
           '<strong>6–17 岁 $14</strong>；<strong>5 岁及以下、会员免费</strong>；' +
@@ -808,14 +980,22 @@ module.exports = {
           '线上另有「两成人加两青少年 $64」的家庭套票。' +
           '出示 SEPTA Key 卡减 $2；出示 African American Museum in Philadelphia 的票根减 $4。' +
           'Washington\'s War Tent 剧场<strong>含在普通门票内，不另收费</strong>。',
-        hours: '官方原文：<strong>「Museum Hours: Daily, 9:30 a.m.–5 p.m.」</strong>，' +
-          '<strong>秋季无每周闭馆日</strong>，只闭 Thanksgiving、Christmas Day、New Year\'s Day' +
-          '（另 2026 年 9 月 8 日曾闭馆一天，已过）。' +
-          '<strong>最后一个入场时段 15:30。</strong>' +
-          'Cross Keys Café：周日与周一 11:00–15:00，周二至周六 11:00–16:00。' +
-          '<strong>口径不一致：官网的 Plan Your Visit 页仍写着「9:30 a.m.–6 p.m. starting June 13, 2026」，' +
-          '而 Hours & Admission 页与 Tips 页都写 9:30–17:00。以 17:00 为准最保险，' +
-          '但这处矛盾未能从官方渠道澄清。</strong>',
+        hours: '<strong>Hours &amp; Admission 页官方原文：「Museum Hours: Daily, 9:30 a.m.–5 p.m. ' +
+          'The Museum is closed on Sept. 8, Thanksgiving Day, Christmas Day, and New Year\'s Day.」</strong>' +
+          '——<strong>秋季无每周闭馆日</strong>（2026 年 9 月 8 日那次单日闭馆已过）。' +
+          '<strong>口径不一致（2026-09-15 复查，矛盾仍在）：同一官网的 Plan Your Visit 页写' +
+          '「Daily, 10 a.m. – 5 p.m. through June 12, 2026 / Daily, 9:30 a.m. – 6 p.m. starting June 13, 2026」，' +
+          '而 Hours &amp; Admission 页写 9:30–17:00。两种口径并存，未能从官方渠道澄清哪个为准</strong>——' +
+          '<strong>按 17:00 闭馆规划最保险</strong>，若实际开到 18:00 就是白捡一小时。' +
+          '影片场次（官方，<strong>2026-09-15 核实</strong>）：' +
+          '<strong>Washington\'s War Tent（二楼）每小时整点一场、11:00 起、末场 16:40、片长 12 分钟</strong>；' +
+          '<strong>一楼 Lenfest Myer Theater 的定向影片片长 15 分钟、全天放映、末场 15:00</strong>。' +
+          '<strong>最后一个入场时段 15:30</strong>（此项为 2026 年初核实值，' +
+          '<strong>2026-09-15 未能在官网当前页面上重新逐字确认，出行前请以订票页面的可选时段为准</strong>，' +
+          '或电 215-253-6731）。' +
+          'Cross Keys Café：<strong>周日与周一 11:00–15:00，周二至周六 11:00–16:00</strong>。' +
+          '特展 <strong>The Declaration\'s Journey 展期至 2027 年 1 月 3 日</strong>，' +
+          '<strong>Made by Philadelphia 展期至 2027 年 1 月 2 日</strong>，均含在普通门票内。',
         parking: '无自有停车场。周边 Old City 有多个商业车库，<strong>费率未能从官方渠道确认</strong>。' +
           '<strong>SEPTA Market–Frankford Line「2nd Street」站</strong>步行可达。',
         walk: '2nd Street 地铁站到馆门约 <strong>350 米 / 5 分钟</strong>；' +
@@ -824,7 +1004,7 @@ module.exports = {
       },
       notes: [
         '<strong>Washington\'s War Tent 剧场内禁止个人拍摄帐篷</strong>，' +
-          '这是本馆最核心的展项。如果你买票的动机是「拍到那顶帐篷」，请重新考虑',
+          '这是本馆最核心的展项。若买票的动机是「拍到那顶帐篷」，请重新考虑',
         '<strong>剧场座位有限、按场次先到先得</strong>，进馆后建议先上二楼排队看这一场，再回头逛常设展',
         '大件行李与大背包会被安检拦下，<strong>馆内寄存条件未能确认</strong>，建议把大包留在住处',
         '<strong>禁三脚架、禁闪光灯</strong>（现代馆通例，官网未逐条列出但现场执行）',
@@ -846,6 +1026,9 @@ module.exports = {
       n: 6,
       name: '雷丁车站市场',
       en: 'Reading Terminal Market',
+      /* 免费、每天开、一顿饭就能完成，是本区性价比最高的一站；
+         不给 4 分以上只因为它是「吃饭与逛市场」，不是不可替代的历史现场。 */
+      must: 3.5,
       score: 4,
       tldr: '1893 年火车棚下的公共市场，免费、每日 8:00–18:00；混合光是唯一难点，Amish 摊位只有周三至周六。',
       tags: [
@@ -885,6 +1068,51 @@ module.exports = {
           '11:00–14:00 是午餐高峰，人挤到几乎无法构图，' +
           '<strong>而且这正好是官方禁止拍摄作业的时段</strong>；' +
           '<strong>周六上午人最多但氛围最饱满</strong>，Amish 摊位（尤其 Beiler\'s 的甜甜圈）常在中午前卖光。'
+      ],
+      tour: [
+        '<strong>这一站的正确用法是「当一顿饭」，不是「当一个景点」。</strong>' +
+          '约 <strong>78,000 平方英尺、约 80 家商户</strong>的方格网，' +
+          '主入口在 <strong>12th &amp; Arch</strong> 与 <strong>12th &amp; Filbert</strong> 两处。' +
+          '正确做法是<strong>先花 10 分钟绕一整圈把全场看完、决定吃什么，再回头排队</strong>——' +
+          '一进门就在第一个摊位排队是这里最常见的浪费。' +
+          '走完一圈不需要地图，通道是规整的井字形，不会迷路。',
+        '<strong>值得专门找的几家（都在场内，问人就知道）</strong>：' +
+          '<strong>DiNic\'s</strong> 的烤猪肉三明治（roast pork with broccoli rabe，' +
+          '这是费城本地人心里真正的城市三明治，地位高于 cheesesteak）；' +
+          '<strong>Bassetts Ice Cream</strong>——1861 年创立，' +
+          '<strong>是 1893 年市场开业至今唯一还在原址经营的商户</strong>，本身就是活的市场史；' +
+          '<strong>Beiler\'s Doughnuts</strong> 与 <strong>Dutch Eating Place</strong>（均为 Pennsylvania Dutch 摊位）；' +
+          '<strong>Termini Bros</strong> 的意式点心。' +
+          '<strong>Beiler\'s 的热门品种常在中午前卖光</strong>，想吃就先吃。',
+        '<strong>Pennsylvania Dutch（Amish 与 Mennonite）摊位集中在西北角，但营业日是本站最大的不确定项。</strong>' +
+          '摊主从 Lancaster County 开约 60 英里过来，<strong>周日确定不营业</strong>；' +
+          '<strong>周三至周六是可以当作确定的营业窗口，周一与周二不确定</strong>' +
+          '（多个二手来源与官方场内地图指向「周三至周六」，' +
+          '但市场官网并未逐字公布各摊营业日，只写「individual merchant store hours may vary」，' +
+          '<strong>这一项未能从官方渠道确认，可电 215-922-2317 询问</strong>）。' +
+          '<strong>这直接决定现场氛围</strong>：Amish 摊位关着的日子，西北角就只是一排拉下卷帘的柜台。',
+        '<strong>时段是这一站唯一真正的门道，选错了会完全不一样。</strong>' +
+          '<strong>11:00–14:00 是午餐高峰</strong>，通道会堵到推不动、公共座位区几乎抢不到，' +
+          '排一份三明治二十分钟是常态。' +
+          '<strong>想安静吃饭就 11:00 前或 14:00 后到；想看市场最饱满的样子就周六上午来，代价是最挤。</strong>' +
+          '另一个反方向的坑：<strong>许多熟食与热食摊会在 18:00 闭市前 30–60 分钟就收摊</strong>，' +
+          '<strong>17:30 才来吃晚饭大概率吃不到想吃的</strong>——把它排成午餐而不是晚餐。',
+        '<strong>带现金。</strong>虽然多数商户收卡，' +
+          '<strong>部分摊位、尤其 Pennsylvania Dutch 摊位只收现金</strong>，' +
+          '建议带 <strong>$40–60</strong> 现钞（场内 ATM 收手续费）。' +
+          '市场同时<strong>接受 EBT 与 Food Bucks</strong>，场内有专门的标识。',
+        '<strong>后勤上这里是整个 Center City 最好用的一站：卫生间干净可靠，而且 2026 年新增了一个访客中心。</strong>' +
+          '<strong>Reading Terminal Market（1136 Arch Street）被费城官方访客机构列入 Center City 最佳公共卫生间名单</strong>，' +
+          '这在这座城市并不容易。' +
+          '<strong>2026 年 6 月，市场在 12th &amp; Filbert 入口附近新开了 Market Visitor Center</strong>' +
+          '（<strong>每日 10:00–17:00</strong>，提供地图、问询与购物；' +
+          '官方当时的说法是「至少运营未来六个月」，' +
+          '<strong>2027 年之后是否仍在未能确认，以后的读者请自行重查</strong>，核实于 2026-09-15）。' +
+          '<strong>位置上它是 Old City 与 City Hall 之间的天然中继点</strong>：' +
+          '到 City Hall <strong>700 米 / 9 分钟</strong>，' +
+          '到 Independence Hall 一带约 <strong>1.3 公里 / 17 分钟</strong>' +
+          '（也可搭 Market–Frankford Line 从 11th Street 站到 5th Street 站，两站，约 4 分钟）。' +
+          '<strong>换句话说它不在 Old City 的步行群里，要专门安排，但顺路做午餐点几乎没有成本。</strong>'
       ],
       photo: '街拍 <strong>4.5/5</strong>，食物 <strong>4.5/5</strong>，人像 <strong>4/5</strong>，建筑 <strong>2.5/5</strong>。' +
         '题材密度全区第一、完全免费、不受天气与拨款影响；' +
@@ -935,15 +1163,25 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>建议 45–75 分钟</strong>，分配：先绕全场一圈决定吃什么 10 分钟、' +
+          '排队与吃 25–40 分钟、Pennsylvania Dutch 西北角与买伴手礼 10–20 分钟。' +
+          '<strong>只穿过去上个厕所、买杯咖啡：15 分钟。</strong>' +
+          '<strong>想认真吃两家再逛完 80 家商户：1.5 小时。</strong>' +
+          '<strong>午餐高峰（11:00–14:00）来请在以上基础上再加 20 分钟排队。</strong>' +
+          '<strong>官方未给出建议时长</strong>，以上按场地 78,000 平方英尺、约 80 家商户与实际排队时长推算。',
         book: '<strong>不需预约</strong>',
-        ticket: '<strong>入场完全免费</strong>（吃东西另算；' +
-          '<strong>部分摊位尤其 Pennsylvania Dutch 摊位只收现金</strong>，建议带 $40–60 现钞）',
-        hours: '官方原文（readingterminalmarket.org）：<strong>「Open Daily, 8AM - 6PM」</strong>，' +
+        ticket: '<strong>入场完全免费</strong>，无任何门票或分档（吃东西另算；' +
+          '<strong>部分摊位尤其 Pennsylvania Dutch 摊位只收现金</strong>，建议带 $40–60 现钞）。' +
+          '市场<strong>接受 EBT 与 Food Bucks</strong>。' +
+          '（据 readingterminalmarket.org，<strong>2026-09-15 核实，无收费化迹象</strong>）',
+        hours: '官方原文（readingterminalmarket.org 首页，<strong>2026-09-15 重新核实</strong>）：' +
+          '<strong>「Reading Terminal Market Hours: Open Daily, 8AM - 6PM」</strong>，' +
           '并注明<strong>「individual merchant store hours may vary」</strong>。' +
           '<strong>秋季无每周闭馆日</strong>，全年只闭 Thanksgiving、Christmas Day、New Year\'s Day。' +
-          '实际注意两点：<strong>① 许多熟食摊会在闭市前 30–60 分钟收摊</strong>；' +
+          '实际要注意三点：<strong>① 许多熟食与热食摊会在 18:00 闭市前 30–60 分钟收摊</strong>；' +
           '<strong>② Pennsylvania Dutch 摊位周日肯定不开，保险起见按周三至周六安排</strong>' +
-          '（营业日的确切范围未能从官方渠道确认，可致电 215-922-2317）。',
+          '（各摊营业日官网未逐字公布，<strong>未能从官方渠道确认</strong>，可致电 215-922-2317）；' +
+          '<strong>③ 场内 Market Visitor Center 为每日 10:00–17:00</strong>，比市场本身晚开两小时。',
         parking: '<strong>不要开车</strong>。市场就在 <strong>SEPTA Jefferson Station（原 Market East）</strong>' +
           '与 Market–Frankford Line「11th Street」站之上，' +
           '也紧邻 Pennsylvania Convention Center。' +
@@ -988,6 +1226,9 @@ module.exports = {
       n: 7,
       name: '费城市政厅',
       en: 'Philadelphia City Hall',
+      /* 外景免费且地位极高，但作为「参观」它的可进入内容有限：
+         塔顶仅工作日、每趟 4 人，内院与广场十分钟就能看完。 */
+      must: 3.5,
       score: 5,
       tldr: '全区最强的建筑目标，外景 24 小时免费；塔顶观景台仅工作日 10:00–14:45、每趟 4 人，拍不到黄金时段。',
       tags: [
@@ -1030,6 +1271,58 @@ module.exports = {
           '所以<strong>这里是本区夜景与蓝调最强的一个目标</strong>。' +
           '2026 年未见任何外墙工程或塔顶关闭的报道。'
       ],
+      tour: [
+        '<strong>先认清一件事：这一站免费的部分占了八成价值，买票上塔是可选项。</strong>' +
+          '不花一分钱能看的有三处，而且都不需要预约：' +
+          '<strong>① 内院（courtyard）——可以直接走进去</strong>，' +
+          '这是唯一能看到四面立面向内围合、钟塔从正中垂直升起的位置，也是全楼最震撼的一眼；' +
+          '<strong>② 西侧的 Dilworth Park</strong>，看全楼西立面与 Alexander Milne Calder 的 250 余件雕塑；' +
+          '<strong>③ 抬头看塔顶那尊 William Penn 铜像</strong>——高 37 英尺、重逾 53,000 磅，' +
+          '<strong>是全世界置于建筑之上的最大雕像</strong>。' +
+          '<strong>只做这三样，30 分钟，全区最好的建筑体验之一就拿到了。</strong>',
+        '<strong>要上塔，必须先接受三条硬约束，缺一条这一项就不成立。</strong>' +
+          '<strong>① 只有周一至周五 10:00–14:45</strong>（官方原文「Monday - Friday 10:00 a.m. - 2:45 p.m.」），' +
+          '周末与市政假日不开，因为 City Hall 本身周末不办公——' +
+          '<strong>只在周末停留费城的读者请直接把塔顶删掉</strong>。' +
+          '<strong>② 电梯是 1900 年前后的原装机械，一次只能载 4 名游客加 1 名操作员</strong>，' +
+          '运力极小、旺季当天可能售完，<strong>务必线上预购或 10:00 开门时就到 Room 121</strong>。' +
+          '<strong>③ 不适合幽闭恐惧者，且官方明确写明「not wheelchair accessible」</strong>。' +
+          '另外<strong>大风与恶劣天气会取消，取消只给改期额度、不退款</strong>。',
+        '<strong>两种官方导览要分清楚，买错会多花钱或少看东西。</strong>' +
+          '<strong>① City Hall Tower Tour</strong>：只上塔顶观景台，据《Philadelphia Inquirer》2025 年的实地报道' +
+          '<strong>全程 15–30 分钟</strong>。' +
+          '<strong>② City Hall Building Tour</strong>：约 1 小时，走楼内房间与外部。' +
+          '<strong>据 Visit Philadelphia 的介绍，塔顶「既作为建筑导览团的一部分、也作为单独选项」提供</strong>，' +
+          '即建筑团应当已含塔顶；' +
+          '<strong>但这一点未能在 phlvisitorcenter.com 的订票页面上逐字确认</strong>，' +
+          '<strong>想一次看完内部与塔顶的读者请先电 267-514-4757 问清建筑团是否含塔</strong>，别自己假设。' +
+          '两种团都<strong>从东门 Room 121 的 City Hall Visitor Center 出发</strong>，都要过金属探测门。',
+        '<strong>上了塔顶只有十几分钟，所以上去之前先想好看哪几个方向。</strong>' +
+          '观景台空间极小、每趟只有 4 人、停留时间由操作员控制。四个方向各有各的内容：' +
+          '<strong>西北是 Benjamin Franklin Parkway 的巴黎式轴线</strong>，' +
+          '一条林荫大道笔直指向 2.1 公里外的 Philadelphia Museum of Art，这是全城最好认的一条城市规划线；' +
+          '<strong>南面是 South Broad Street</strong>，一条笔直的城市峡谷；' +
+          '<strong>西面是 Comcast 双塔为主的现代天际线</strong>——' +
+          '<strong>1987 年 One Liberty Place 建成之前，费城有一条不成文的「绅士协定」，没有建筑高过 Penn 的帽子</strong>，' +
+          '站在这里看那几座比塔顶更高的玻璃楼，就明白那条协定是怎么被打破的；' +
+          '<strong>东面是 Old City、Delaware River 与 Ben Franklin Bridge</strong>。' +
+          '<strong>顺带一个多数人不知道的细节：四面钟盘直径约 26 英尺，比伦敦 Big Ben 的 23 英尺还大</strong>，' +
+          '上塔途中会从钟的背面经过。',
+        '<strong>Dilworth Park 的跳泉有一个逐年变化的关门日期，想让孩子玩水的话要先查。</strong>' +
+          '<strong>官方口径为 4 月至 10 月运营；2026 年的公告是每日开放至 10 月 18 日，泉水时段 7:45–22:00</strong>' +
+          '（<strong>核实于 2026-09-15，这是仅 2026 年成立的日期，以后的读者请自行重查当年公告</strong>）。' +
+          '<strong>10 月 18 日之后到 11 月中旬之间，广场既没有喷泉也还没有溜冰场，是一整片干铺装</strong>；' +
+          '<strong>溜冰场为 11 月中旬至 2 月下旬</strong>。' +
+          'Dilworth Park 本身每日 06:00–01:00 开放、免费。',
+        '<strong>后勤与串法：这里是全费城公共交通的交汇点，但不是吃饭和上厕所的地方。</strong>' +
+          '<strong>SEPTA Broad Street Line「City Hall」站、Market–Frankford Line「15th Street」站' +
+          '以及各条有轨电车线路都在 Dilworth Park 地下直通，出站即到，不用过马路。</strong>' +
+          '<strong>City Hall Visitor Center（Room 121，东门）为周一至周五 10:00–16:00</strong>，' +
+          '有免费地图、问询与纪念品；<strong>楼内有卫生间但开放时间不定</strong>。' +
+          '<strong>真正可靠的卫生间与吃饭点是 700 米 / 9 分钟外的 Reading Terminal Market</strong>——' +
+          '<strong>塔顶 14:45 收工之后正好走过去解决午饭，这两点是天然的一组。</strong>' +
+          '另外提醒：<strong>这是一栋在办公的政府大楼</strong>，内院与门廊虽是公共通道，请不要挡住通行。'
+      ],
       photo: '建筑 <strong>5/5</strong>，城市俯瞰 <strong>4/5</strong>，夜景 <strong>5/5</strong>，人像 <strong>4/5</strong>。' +
         '本区唯一一个「白天拍外观、上午拍俯瞰、入夜拍灯光」三段都成立的目标，而且外景全部免费；' +
         '扣分只在塔顶的时段限制与观景台玻璃。',
@@ -1044,7 +1337,7 @@ module.exports = {
             '<strong>美术馆距此 2.1 公里，需要 135–200mm 才能压出体量</strong>，' +
             '70mm 拍 Parkway 的三条林荫带与 Logan Square 的圆形喷泉。' +
             '<strong>② 西面（Comcast 双塔与现代天际线）——同样 10:00–11:30</strong>，' +
-            '此时太阳在东南，摩天楼朝东南的立面正对你，是唯一顺光的时段；' +
+            '此时太阳在东南，摩天楼朝东南的立面正对镜头，是唯一顺光的时段；' +
             '<strong>下午两点后这一面全部转成逆光剪影</strong>。24–35mm 拍全景，85mm 抽玻璃幕墙的反射。' +
             '<strong>③ 南面（South Broad Street 轴线，189.5°）——10:00–11:00 侧光最好</strong>，' +
             '太阳在东南方 64° 处，街道东侧立面受光、长影横铺过路面，轴线的纵深最清楚；' +
@@ -1102,7 +1395,7 @@ module.exports = {
             '<strong>距市政厅约 550 米、方位 138°，正落在 Parkway 的 314°／134° 轴线上</strong>。' +
             '这是从街面表现「市政厅到美术馆」这条巴黎式轴线的最佳位置：' +
             '<strong>朝东南回望，塔在轴线尽头、两侧是 Parkway 的行道树与旗阵</strong>。' +
-            '<strong>最佳 10:00–11:00</strong>（太阳在东南、正对你身后偏上，塔的西北面受光、' +
+            '<strong>最佳 10:00–11:00</strong>（太阳在东南、正落在机位身后偏上，塔的西北面受光、' +
             '林荫带的影子朝远端排开，纵深最强）；' +
             '<strong>次佳是日落后的蓝调</strong>，塔的 LED 照明加 Parkway 的路灯串成一条光轴。' +
             '<strong>70–135mm 压缩是必须的</strong>——广角会让 550 米外的塔小到不成立。' +
@@ -1113,22 +1406,35 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>只看外景与内院：30–45 分钟</strong>（内院 10 分钟、绕四面立面一圈 15 分钟、' +
+          'Dilworth Park 与 William Penn 铜像 10–20 分钟）。' +
+          '<strong>加上塔顶团共 1–1.5 小时</strong>——' +
+          '塔顶团据《Philadelphia Inquirer》2025 年实地报道<strong>全程 15–30 分钟</strong>，' +
+          '另需在 Room 121 排队与候电梯 <strong>15–45 分钟</strong>' +
+          '（每趟只载 4 人、每 15 分钟一趟，这是排队时间跨度大的原因）。' +
+          '<strong>加上约 1 小时的 City Hall Building Tour 则整体按 2–2.5 小时预留。</strong>' +
+          '<strong>官方未在参观页给出建议时长</strong>，以上按官方公布的运营时段、电梯运力与二手来源的实测团长推算。',
         book: '<strong>外景与内院不需预约</strong>。' +
           '<strong>塔顶观景台需定时票</strong>，可在 <strong>phlvisitorcenter.com/CityHallTowerTour</strong> 线上预购' +
           '（线上另加约 $2 服务费），或到 <strong>City Hall Visitor Center（东门 Room 121）</strong>现场买；' +
           '<strong>现场为先到先得，因电梯只能载 4 人，旺季可能当天售完</strong>。' +
-          '另有约 1 小时的 <strong>City Hall Building Tour</strong>（周一至周五 10:00、12:00、14:00 三场，' +
-          '约 $20–26，含内部与外部）。' +
-          '天气取消可改期（给 credit，不退款），联系 cityhall@phlvisitorcenter.com 或 267-514-4757。',
-        ticket: '<strong>外景、内院与 Dilworth Park 完全免费。</strong>' +
-          '塔顶票价<strong>未能从官方渠道确认</strong>——' +
-          'phlvisitorcenter.com 的塔票页面把价格放在 JavaScript 购物车模块里，静态页面读不到。' +
-          '<strong>二手来源口径：Philadelphia Inquirer（2025）称塔票 $10–$16（按年龄与军人身份），' +
-          '另有访客帖称成人 $16、老年与军人 $13、青少年与学生 $10、3 岁以下免费。</strong>' +
-          '请按 <strong>成人约 $16</strong> 预算并现场核实。',
-        hours: '<strong>塔顶观景台官方原文：「Monday - Friday 10:00 a.m. - 2:45 p.m.」，' +
-          '周末与市政假日不开。</strong>' +
-          '<strong>City Hall Visitor Center（Room 121，东门）：周一至周五 10:00–16:00。</strong>' +
+          '另有约 1 小时的 <strong>City Hall Building Tour</strong>（约 $20–26，含内部与外部）；' +
+          '<strong>其场次时间有两种说法：官网相关栏目写「Tours are offered every hour!」，' +
+          '而二手整理为周一至周五 10:00、12:00、14:00 三场，未能从官方渠道确认哪个为准</strong>，' +
+          '预订前请电 267-514-4757。' +
+          '天气取消可改期（给 credit，不退款），联系 cityhall@phlvisitorcenter.com 或 267-514-4757。' +
+          '（<strong>2026-09-15 核实</strong>）',
+        ticket: '<strong>外景、内院与 Dilworth Park 完全免费，无任何门票。</strong>' +
+          '塔顶票价<strong>仍未能从官方渠道确认（2026-09-15 复查）</strong>——' +
+          'phlvisitorcenter.com 的塔票页面把价格放在 JavaScript 购物车模块里，静态页面读不到，' +
+          '页面上「Pricing」一栏底下只有购物车提示文字。' +
+          '<strong>二手来源口径：Philadelphia Inquirer（2025）称塔票 $10–$16（按年龄与军人身份）、' +
+          '建筑团 $20–$26、线上另加 $2 服务费；另有访客帖称成人 $16、老年与军人 $13、' +
+          '青少年与学生 $10、3 岁以下免费。</strong>' +
+          '请按 <strong>成人约 $16</strong> 预算，并<strong>出发前电 267-514-4757 核实当年价格</strong>。',
+        hours: '<strong>塔顶观景台官方原文（phlvisitorcenter.com/CityHallTowerTour，2026-09-15 重新核实）：' +
+          '「Monday - Friday 10:00 a.m. - 2:45 p.m.」，周末与市政假日不开。</strong>' +
+          '<strong>City Hall Visitor Center（Room 121，东门）官方原文：「Monday - Friday 10 a.m. - 4:00 p.m.」。</strong>' +
           '建筑本身作为办公楼大致周一至周五 07:00–18:00（<strong>该时段来自二手来源，未能从官方渠道确认</strong>）。' +
           '<strong>Dilworth Park：每日 06:00–01:00</strong>；' +
           '<strong>跳泉 4 月至 10 月运营、2026 年公告为每日开放至 10 月 18 日，时段 7:45–22:00</strong>；' +
@@ -1149,14 +1455,19 @@ module.exports = {
       notes: [
         '<strong>塔顶不可能拍到日落或夜景</strong>：14:45 收工，而 9 月末日落 18:53、10 月末 18:11。' +
           '把塔顶排在上午 10:00 第一趟，夜景交给 Broad Street 与 Dilworth Park 的街面机位',
-        '<strong>塔顶只有工作日开</strong>——如果你的行程只有周末在费城，这一项直接删掉，' +
+        '<strong>塔顶只有工作日开</strong>——只在周末停留费城的话，这一项直接删掉，' +
           '外景与内院照样能拍出全区最好的建筑照片',
         '<strong>电梯一次 4 人加操作员、每 15 分钟一趟、现场先到先得</strong>，' +
           '强烈建议线上预购或 10:00 开门时就到 Room 121。' +
           '<strong>迟到的票不予受理</strong>，且塔顶不适合有幽闭恐惧或需要无障碍通行的人',
         '<strong>观景台是封闭式（玻璃加部分通风格栅），玻璃反射是实拍最大的麻烦</strong>。' +
           '橡胶遮光罩、深色上衣、CPL 三件套能救回大部分画面；' +
-          '格栅处有风，秋季塔顶体感明显更冷',
+          '格栅处有风，秋季塔顶体感明显更冷。' +
+          '<strong>这里还有一处官方口径矛盾：phlvisitorcenter.com 的塔票页把它称为' +
+          '「the city\'s highest open-air observation deck」（露天观景台），' +
+          '而 Visit Philadelphia 与《Philadelphia Inquirer》的实地描述都是「glass-enclosed」（玻璃封闭、局部有通风格栅）。' +
+          '两种口径并存，未能从官方渠道澄清</strong>；' +
+          '按<strong>封闭式</strong>准备器材与衣物更稳妥',
         '<strong>没有查到 2026 年任何塔顶关闭或电梯故障的报道</strong>，' +
           '但设备是 1900 年前后的原装机械、大风即取消，' +
           '<strong>出发当天请先致电 267-514-4757 确认当天是否运行</strong>。' +
@@ -1176,6 +1487,228 @@ module.exports = {
           cap: '南立面与 Broad Street 轴线方向 · Magiluke / CC BY-SA 4.0' },
         { url: 'img/city-hall-2013-philadelphia-pa-3af5faf7.jpg',
           cap: 'Second Empire 立面与 Calder 雕塑群 · John Phelan / CC BY-SA 3.0' }
+      ]
+    },
+    {
+      id: 'franklin-court',
+      n: 9,
+      name: '富兰克林庭院与富兰克林博物馆',
+      en: 'Franklin Court & Benjamin Franklin Museum',
+      must: 3,
+      score: 3,
+      tldr: 'Franklin 故居原址，房子只剩 Venturi 的钢制「幽灵框架」；院子与印刷所免费，地下博物馆 $7.50 且只能现场当天买。',
+      tags: [
+        { t: '院子与印刷所免费', c: 'free' },
+        { t: '博物馆 $7.50', c: 'paid' },
+        { t: '国家公园年票不适用', c: 'risk' },
+        { t: '印刷所周二三不开', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>Benjamin Franklin 的家就在这个院子里，他自己管它叫「his niche」。</strong>' +
+          '他 1785 年自法国归来后住在这里，' +
+          '<strong>出席制宪会议期间也住在这里，1790 年在这栋房子里去世</strong>。' +
+          '房子三层、约 33 英尺见方、十个房间，在 18 世纪的费城算大宅，' +
+          '而且不临街——它坐在一个花园内院里，要穿过 Market Street 的拱门才能进来。' +
+          '<strong>1812 年，也就是他死后 22 年，房子被继承人整体拆掉了。</strong>',
+        '<strong>于是这里有了全美最著名的一座「空」纪念物：Ghost Structure。</strong>' +
+          '1976 年建国 200 周年时，费城建筑师 <strong>Robert Venturi、William Rauch 与 Denise Scott Brown</strong> ' +
+          '在原址上立起<strong>两组开放式钢框架</strong>——一组画出 Franklin 宅子的轮廓，' +
+          '另一组画出他外孙 <strong>Benjamin Franklin Bache</strong> 的印刷所。' +
+          '<strong>最关键的一个事实：没有任何一张这栋房子的图像存世，' +
+          '所以框架的尺寸是从 Franklin 自己的房产保险单上抄下来的。</strong>' +
+          '<strong>Venturi and Rauch 事务所 1985 年因这件作品获美国总统设计奖</strong>，' +
+          '它至今是美国后现代建筑被引用最多的案例之一。',
+        '<strong>院子的地面上开着几扇观察窗（viewing portals），可以直接往下看 18 世纪的生活层。</strong>' +
+          '窗下是 Franklin 宅子的<strong>地下厨房、水井与粪坑（privy pit）的原始基础</strong>，' +
+          '至今仍埋在地里。<strong>考古队从那些粪坑里挖出过一只极罕见的 Bristol 潘趣酒碗与大批陶瓷</strong>——' +
+          '18 世纪的坑洞是考古学最可靠的垃圾档案。' +
+          '<strong>这是本区唯一一处能用肉眼看到原始基础的地方</strong>，' +
+          '而绝大多数游客只是从框架下面走过去、完全没注意脚下。',
+        '<strong>博物馆在院子底下。</strong>1976 年的 Underground Museum 于 <strong>2013 年整体重做、' +
+          '改名为现在的 Benjamin Franklin Museum</strong>，用文物、影片与互动装置讲 Franklin 的一生，' +
+          '展陈按他的几组性格特质（好奇、勤勉、善于谋划等）组织而非按年份。' +
+          '<strong>值得专门找的实物是他发明的玻璃琴（glass armonica）</strong>。' +
+          '同一次改造还让 Ghost Structure 实现了无障碍通行。' +
+          '<strong>它是 Independence National Historical Park 里唯一收门票的场馆</strong>，' +
+          '而且<strong>国家公园年票不适用</strong>——官方把这笔钱称作 interpretive fee 而不是 entrance fee。',
+        '<strong>院子里还藏着一间全美唯一的邮局：B. Free Franklin Post Office（316 Market Street）。</strong>' +
+          '<strong>这是全美唯一一间不挂美国国旗的在营邮局</strong>——' +
+          '因为 1775 年 Franklin 出任大陆会议的邮政总长时，美国国旗还不存在。' +
+          '至今<strong>邮局员工会用 Franklin 当年的戳记「B. Free Franklin」手工销票</strong>，' +
+          '这是全世界只有这里能拿到的邮戳。' +
+          'Franklin 1737 年就被任命为费城邮政局长，1757–1774 年任英属北美的共同邮政总长，' +
+          '<strong>靠改良记账与投递路线把邮政效率提了上去</strong>——他是把邮政当生意做的人。' +
+          '<strong>注意：这间邮局卖邮票但不卖明信片。</strong>'
+      ],
+      tour: [
+        '<strong>走法：免费的部分先做，收费的那一个放最后——这里四处景点中有三处不要钱。</strong>' +
+          '从 <strong>Market Street 拱门</strong>（316–322 号那排老房子中间）或 <strong>Chestnut Street 的铁门</strong>进院，' +
+          '两个入口都无障碍。顺序是：' +
+          '<strong>院子里两组 Ghost Structure</strong>（先站远看轮廓，再走进框架里面）→ ' +
+          '<strong>地面观察窗，看下面的地下厨房与粪坑基础</strong>（别跳过，多数人走过去都没看脚下）→ ' +
+          '<strong>Franklin Court Printing Office</strong>（免费）→ ' +
+          '<strong>B. Free Franklin 邮局</strong>（免费）→ ' +
+          '最后下到<strong>地下的 Benjamin Franklin Museum</strong>（$7.50）。',
+        '<strong>硬约束一：印刷所周二与周三不开。</strong>' +
+          '<strong>Franklin Court Printing Office &amp; Bindery（320 Market Street）官方为周四至周一 10:00–17:00，' +
+          '最后一场印刷演示 16:20 开始</strong>（<strong>2026-09-15 核实</strong>）。' +
+          '这一条比看上去重要：<strong>印刷演示由 ranger 现场操作 18 世纪的印刷与装订设备，' +
+          '是这一站最好懂、也最适合带孩子的部分</strong>——' +
+          '<strong>Franklin 是印刷工出身，他的钱和他的政治影响力都是从这门手艺来的</strong>，' +
+          '看一遍排版与上墨，比读十块展板都有用。' +
+          '<strong>周二或周三来就只能看外面，这一站的分量会掉一大半。</strong>',
+        '<strong>硬约束二：邮局周日不开，而且中午要休息。</strong>' +
+          '<strong>官方为周一至周六 9:00–12:45 与 14:00–17:00</strong>，' +
+          '并注明 <strong>staffing permitting（人手不足可能不开）</strong>。' +
+          '<strong>想拿到「B. Free Franklin」手工邮戳，就得避开 12:45–14:00 那个空档与整个周日。</strong>' +
+          '还有一个容易白跑的细节：<strong>这间邮局卖邮票但不卖明信片</strong>，' +
+          '<strong>明信片请先在 Independence Visitor Center 或别处买好带过来</strong>。' +
+          '它是 USPS 运营的合作站点，属于有限服务网点，另有两个小展柜讲邮政史。',
+        '<strong>地下博物馆有两条容易吃亏的规则。</strong>' +
+          '① <strong>票只能在门口现场、当天买</strong>（官方原文「Admission is available at the door ' +
+          'and must be purchased on the day of your visit」）——' +
+          '<strong>不能预约、不能提前买，所以旺季请把它放在当天较早的时段，别留到 16:30 才下去</strong>；' +
+          '② <strong>国家公园 Interagency Pass 不适用</strong>，持年票的人同样要付这 $7.50。' +
+          '官方建议<strong>至少留一小时</strong>。' +
+          '<strong>时间或预算紧的话，跳过地下博物馆是完全合理的决定</strong>——' +
+          '院子、观察窗、印刷所与邮局这三样免费内容已经把 Franklin 这个人讲清楚了。',
+        '<strong>这里是 Old City 东段的关键后勤点，位置比名气更有用。</strong>' +
+          '<strong>Benjamin Franklin Museum 内的公共卫生间每日 9:00–20:00 开放</strong>，' +
+          '<strong>比博物馆本身（17:00 闭馆）晚三小时关门，是这一带晚间唯一可用的一处</strong>' +
+          '（<strong>该卫生间是否需先买票入馆，官方页面未说明，未能从官方渠道确认</strong>）。' +
+          '这一点值得记住，因为 <strong>Independence Hall 的安检区内与 Liberty Bell Center 内都没有卫生间</strong>。' +
+          '院内另有 <strong>America\'s National Park Store（在博物馆内，每日 9:00–16:45）</strong>。' +
+          '院子里没有餐饮，最近的选择在 Market Street 与 2nd Street 一带。',
+        '<strong>顺路串法：这里正好是 Old City 那条不折返步行线的中段，值得把整条线一次交代清楚。</strong>' +
+          '<strong>08:40</strong> 到 5th Street 安检口排队（进安检前先在 Independence Visitor Center 或 5th &amp; Chestnut 解决卫生间）→ ' +
+          '<strong>09:00–09:50</strong> Independence Hall 免票 open house → ' +
+          '<strong>09:50–11:00</strong> 留在安检区看 Great Essentials、Congress Hall、Old City Hall（都免票）→ ' +
+          '<strong>11:00</strong> 沿 5th Street 北上 <strong>350 米</strong>到 Christ Church Burial Ground（正好 11:00 开门）→ ' +
+          '沿 Arch Street 西行 <strong>250 米</strong>到 6th &amp; Market，进 Liberty Bell Center（' +
+          '<strong>唯一一次向西回头，因为它的入口只在 6th &amp; Market，南端出口在 Chestnut Street</strong>）→ ' +
+          '沿 Chestnut Street 东行 <strong>700 米</strong>到 <strong>Franklin Court</strong> → ' +
+          '<strong>250 米</strong>到 Museum of the American Revolution → ' +
+          '<strong>500 米</strong>到 Christ Church → ' +
+          '<strong>350 米</strong>到 Elfreth\'s Alley（西端进、东端出）。' +
+          '<strong>纯走路约 2.6 公里 / 35 分钟；把 Old City 这七站全部走完、含午餐，是满满一整天（8–9 小时）。</strong>' +
+          '<strong>Reading Terminal Market、City Hall 与 Eastern State Penitentiary 都不在这条线上，要另算半天。</strong>'
+      ],
+      photo: '建筑 <strong>3.5/5</strong>，室内 <strong>2/5</strong>，风光 <strong>0.5/5</strong>。' +
+        'Ghost Structure 的白色钢框架配天空是这一站唯一强的画面，也是全区最「不像 18 世纪」的一张；' +
+        '地下博物馆是典型的低照度玻璃柜环境，拍不出什么。',
+      shots: [
+        {
+          name: '院内 Ghost Structure 钢框架',
+          view: [39.949638, -75.146596],
+          desc: '<strong>坐标为 OSM 的 Franklin Court Courtyard（relation 9808332）中心点。</strong>' +
+            '<strong>最佳是晴天的 11:00–15:00 或日落前一小时</strong>：' +
+            '框架是纯粹的线条，<strong>唯一能让它成立的背景是有层次的天空</strong>，' +
+            '阴天白空下这张照片会彻底失效——这和本区其他「阴天更好」的机位正好相反。' +
+            '<strong>16–24mm 站在框架正下方垂直上仰</strong>，让四根立柱向画面中心收拢、天空填满框内；' +
+            '<strong>35mm 退到院子边缘拍框架与周围红砖老房子的并置</strong>，' +
+            '这是「1976 年的钢」与「18 世纪的砖」对撞的那张。' +
+            '地面观察窗可以用 35–50mm 俯拍，但玻璃反光重，' +
+            '<strong>用手或衣服在镜头与玻璃之间遮出一片阴影是唯一有效的办法</strong>。' +
+            '院子是露天公共空间、人不多，手持足够。'
+        },
+        {
+          name: 'Franklin Court Printing Office 印刷演示',
+          view: [39.950079, -75.146609],
+          desc: '<strong>坐标为 OSM 的 Franklin Print Shop（way 352987980，320 Market Street）。</strong>' +
+            '<strong>仅周四至周一 10:00–17:00 开放，最后一场演示 16:20 开始。</strong>' +
+            '室内是小而暗的复原印刷所，' +
+            '<strong>光源主要是街面的窗光加少量暖色室内灯</strong>，' +
+            '<strong>靠窗那一侧上午光最好</strong>。' +
+            '35mm 拍 ranger 操作印刷机的全景，85mm 拍活字盘与上墨的手部动作。' +
+            '实测需要 <strong>ISO 1600–3200、f/2–2.8、1/60–1/125</strong>。' +
+            '<strong>空间很窄，三脚架架不开，也会挡住看演示的人，请手持并站在人群外圈。</strong>'
+        }
+      ],
+      access: {
+        visit: '<strong>整个 Franklin Court 建议 1.5–2 小时</strong>，分配：' +
+          '院子里两组 Ghost Structure 与地面观察窗 <strong>20 分钟</strong>、' +
+          'Franklin Court Printing Office 看完一场印刷演示 <strong>20–30 分钟</strong>、' +
+          'B. Free Franklin 邮局（含手工销票）<strong>10 分钟</strong>、' +
+          '<strong>地下的 Benjamin Franklin Museum 45–60 分钟</strong>。' +
+          '<strong>只看免费的三处（院子、印刷所、邮局）：40–50 分钟。</strong>' +
+          '<strong>官方给出的唯一时长口径是针对博物馆的：「Plan to allow at least one hour for your visit」</strong>；' +
+          '其余按各处规模与官方演示场次推算。',
+        book: '<strong>不需预约，也无法预约。</strong>' +
+          '院子、Ghost Structure、观察窗、Printing Office 与 B. Free Franklin 邮局<strong>全部免票、自由进出</strong>。' +
+          '<strong>Benjamin Franklin Museum 的票只在门口现场售卖，且必须当天购买</strong>' +
+          '（官方原文「Admission is available at the door and must be purchased on the day of your visit」）——' +
+          '<strong>没有任何线上或电话预订渠道</strong>。' +
+          '学校团体与正规学术机构可按官方资格条件申请免费入馆（含随团成人）。' +
+          '（<strong>2026-09-15 核实</strong>）',
+        ticket: '<strong>院子、Ghost Structure、地面观察窗、Franklin Court Printing Office 与 ' +
+          'B. Free Franklin 邮局：一律免费。</strong>' +
+          '<strong>Benjamin Franklin Museum（这是硬性票价，不是建议捐款）</strong>：' +
+          '<strong>成人 $7.50</strong>、<strong>65 岁以上 $5.00</strong>、' +
+          '<strong>6–17 岁儿童 $5.00</strong>、<strong>5 岁及以下免费</strong>、' +
+          '<strong>学校团体与随团成人免费</strong>（须符合官方资格条件）。' +
+          '<strong>重要：国家公园 Interagency Pass 不适用</strong>——' +
+          'nps.gov/inde/planyourvisit/fees.htm 明确把它列为 interpretive fee，' +
+          '与 Independence Hall 那 $1 的订票手续费一样不在年票覆盖范围内。' +
+          '（据 nps.gov/inde/planyourvisit/benjaminfranklinmuseum.htm，' +
+          '页面标注最后更新 <strong>2026 年 8 月 7 日</strong>，<strong>2026-09-15 核实</strong>）',
+        hours: '官方原文（nps.gov/inde/planyourvisit/hours.htm，页面标注最后更新 2026 年 8 月 17 日；' +
+          '<strong>2026-09-15 逐项核实</strong>）：' +
+          '<strong>① Franklin Court Courtyard（院子）：「Open daily: 9am to 5pm, year round」</strong>，' +
+          '免票、全年每日开放。' +
+          '<strong>② Benjamin Franklin Museum：「Open daily, 9 am–5 pm」。</strong>' +
+          '<strong>③ Franklin Court Printing Office &amp; Bindery：「Open Thursday–Monday, 10 am–5 pm. ' +
+          'Last printing demonstration begins at 4:20 pm.」——即周二与周三闭馆。</strong>' +
+          '<strong>④ B. Free Franklin Post Office：「Open Monday–Saturday, 9 am–12:45 pm and 2 pm–5 pm ' +
+          '(staffing permitting)」——周日不开，中午 12:45–14:00 休息，且人手不足时可能不开。</strong>' +
+          '<strong>⑤ America\'s National Park Store（在博物馆内）：每日 9:00–16:45。</strong>' +
+          '<strong>⑥ 院内公共卫生间（在 Benjamin Franklin Museum）：每日 9:00–20:00</strong>，' +
+          '比博物馆本身晚三小时关。' +
+          '<strong>全园区（含本站）只在 Thanksgiving、Christmas Day、New Year\'s Day 闭园，秋季无每周闭馆日。</strong>' +
+          '园区电话 215-965-2305。',
+        parking: '不建议自驾，与 Old City 其他景点相同。' +
+          '最近的公共车库是 <strong>AutoPark at Independence Mall（5th &amp; Market）</strong>，' +
+          '<strong>费率未能从官方渠道确认</strong>（Center City 车库日上限普遍在 $20–35）。' +
+          '更好的方案是 <strong>SEPTA Market–Frankford Line「2nd Street」站或「5th Street/Independence Hall」站</strong>，' +
+          '两站距离相近。',
+        walk: '<strong>院子有两个入口，都无障碍</strong>：' +
+          '<strong>Market Street 拱门</strong>（316–322 号那排老房子中间）与 <strong>Chestnut Street 铁门</strong>，' +
+          '均位于 3rd 与 4th Street 之间。' +
+          '地铁 2nd Street 站到 Market Street 拱门约 <strong>300 米 / 4 分钟</strong>；' +
+          '5th Street 站约 <strong>400 米 / 5 分钟</strong>。' +
+          '<strong>到 Museum of the American Revolution 仅 250 米 / 3 分钟</strong>、' +
+          '<strong>Independence Hall 400 米 / 5 分钟</strong>、' +
+          '<strong>Liberty Bell Center 400 米 / 5 分钟</strong>、' +
+          '<strong>Christ Church 500 米 / 7 分钟</strong>、' +
+          '<strong>Elfreth\'s Alley 约 600 米 / 8 分钟</strong>（距离据 OSM 坐标推算）——' +
+          '<strong>这是 Old City 步行群里位置最居中的一站。</strong>'
+      },
+      notes: [
+        '<strong>Franklin Court Printing Office 周二与周三闭馆</strong>，' +
+          '而印刷演示是这一站最有价值的免费内容；' +
+          '<strong>把这一站排在周四至周一</strong>，并注意最后一场演示 16:20 开始',
+        '<strong>B. Free Franklin 邮局周日不开、12:45–14:00 午休，且官方注明人手不足时可能不开。</strong>' +
+          '它<strong>不卖明信片、只卖邮票</strong>，想寄一张带手工邮戳的明信片，请自备明信片',
+        '<strong>博物馆票只能在门口现场当天买，无法预约</strong>；' +
+          '<strong>国家公园 Interagency Pass 不适用</strong>，持年票也要另付 $7.50',
+        '<strong>Ghost Structure 是户外露天钢框架，下雨与暴晒都没有遮蔽</strong>；' +
+          '院内地面有观察窗玻璃，雨后湿滑，注意脚下也注意不要长时间站在窗上挡住别人',
+        '<strong>院内公共卫生间开到 20:00，是 Old City 东段晚间唯一可用的一处</strong>' +
+          '（Independence Hall 安检区内与 Liberty Bell Center 内都没有卫生间）；' +
+          '<strong>是否需买票入馆才能使用未能从官方渠道确认</strong>',
+        '<strong>同一园区内的 Edgar Allan Poe National Historic Site 因公用设施改造工程闭馆</strong>' +
+          '（截至 nps.gov 2026 年 8 月 17 日的口径），原本想从这里串过去的话请删掉',
+        '<strong>本站由 National Park Service 运营，拨款中断会与 Independence Hall、Liberty Bell 一起关门</strong>；' +
+          '当前 CR 保护期到 2026 年 12 月 11 日，该日期之前风险极低（详见前置提醒）。' +
+          '<strong>B. Free Franklin 邮局由 USPS 运营</strong>，但入口在园区院内，' +
+          '<strong>停摆时院门是否开放未能确认</strong>'
+      ],
+      images: [
+        { url: 'img/independence-national-historical-park-franklin-court-ghost-s-57618cd1.jpg',
+          cap: 'Ghost Structure 钢框架标出 Franklin 故居的轮廓 · National Park Service Digital Image Archives / 公有领域' },
+        { url: 'img/benjamin-franklin-museum-in-philadelphia-dd26a1eb.jpg',
+          cap: '院内通往地下 Benjamin Franklin Museum 的入口 · 颐园居 / CC BY-SA 4.0' },
+        { url: 'img/imprenta-de-franklin-court-2023-01-e4a1267c.jpg',
+          cap: 'Franklin Court Printing Office 的复原印刷机 · Alberto-g-rovi / CC BY 3.0' }
       ]
     }
   ]
