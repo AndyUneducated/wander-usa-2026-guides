@@ -35,7 +35,9 @@ PROBE = r"""
   const imgs = Array.from(document.images);
   const tiles = Array.from(q('img.leaflet-tile'));
   const cards = Array.from(q('.card'));
-  const pins  = Array.from(q('.pin'));
+  // 只数子地区地图上的针脚。全区总地图把同一批景点又标了一遍，
+  // 两者相加正好是景点数的两倍，会让「针脚数等于景点数」这条断言失效。
+  const pins  = Array.from(q('.pin')).filter(p => !p.closest('.map-all'));
 
   // 导航锚点是否都能落到真实元素上
   const nav = Array.from(q('#region-nav a')).map(a => {
@@ -95,7 +97,10 @@ PROBE = r"""
     title: document.title,
     regions: (window.REGIONS || []).length,
     spots: (window.REGIONS || []).reduce((a, r) => a + r.spots.length, 0),
-    maps: q('.map').length,
+    /* 全区总地图（.map-all）与子地区地图分开数：总地图把每个景点又标了一遍，
+       混在一起会让针脚数正好翻倍。 */
+    maps: q('.map:not(.map-all)').length,
+    allMaps: q('.map-all').length,
     cards: cards.length,
     pins: pins.length,
     pinTexts: pins.map(p => p.textContent),
@@ -241,6 +246,8 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
                            r['cards'] == r['spots']))
                 ok.append((f'每个子地区一张地图（{r["maps"]} / {r["regions"]}）',
                            r['maps'] == r['regions']))
+                ok.append((f'全区总地图存在且只有一张（{r["allMaps"]}）',
+                           r['allMaps'] == 1))
                 ok.append((f'针脚数等于景点数（{r["pins"]} / {r["spots"]}）',
                            r['pins'] == r['spots']))
                 ok.append(('地图编号与卡片编号完全对应',
@@ -249,8 +256,10 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
                            r['overviewFilled'] > 200))
                 ok.append((f'附录已填充（{r["appendixFilled"]} 字符）',
                            r['appendixFilled'] > 100))
+                # 顶部信息条现在只留季节参考与核实日期两项：景点数与子地区数
+                # 已经在总地图标题里，重复列出反而把 banner 撑散。
                 ok.append((f'hero 有摘要 chip（{r["heroChips"]} 个）',
-                           r['heroChips'] >= 3))
+                           r['heroChips'] >= 2))
                 ok.append(('卡片 id 无重复', r['dupCardIds'] == 0))
                 if r['goneCards']:
                     ok.append((f'{r["goneCards"]} 张红卡都带不可抵达标记',
