@@ -23,7 +23,7 @@ module.exports = {
         '离 134.7° 也差着 31–43 度。<strong>「夕阳沉在 Parkway 尽头」这张照片在秋季拍不到。</strong></p>' +
         '<p><strong>但真正有用的几何是另一件事：太阳方位每天都会扫过 134.7°。</strong>' +
         '9 月 25 日约在 <strong>10:40</strong>（太阳高度约 39°），10 月 22 日约在 <strong>10:03</strong>（高度约 26°）。' +
-        '那一刻太阳<strong>正在你的正后方</strong>，反日点恰好落在 314.7° 上——' +
+        '那一刻太阳<strong>正在观者的正后方</strong>，反日点恰好落在 314.7° 上——' +
         '也就是说<strong>站在美术馆东阶顶朝东南望，整条 Parkway、两侧行道树、Logan Square 的圆环' +
         '与尽头的 City Hall 塔全部处于完全正面受光、影子全部藏在物体背后的状态</strong>。' +
         '这是本区唯一一次「轴线对齐」，也是全天光线信息量最大的一小时。</p>' +
@@ -51,7 +51,7 @@ module.exports = {
         '这些是搭在真实牢房与工场空间里的实体布景，不可能每天早上拆掉晚上再装回去。' +
         '<strong>官方从未公布哪些牢房在白天因布景而关闭，也从未承认白天体验被降级</strong>——' +
         '官网仍宣传白天可看「historic cellblocks、Death Row、Al Capone\'s Cell」。' +
-        '但按常识与官方自己的措辞推断，<strong>10 月的白天你会在部分空间里看到搭好的布景、围挡与器材</strong>，' +
+        '但按常识与官方自己的措辞推断，<strong>10 月的白天在部分空间里会看到搭好的布景、围挡与器材</strong>，' +
         '「1829 年的废墟本身」这个纯粹状态会被稀释。' +
         '<strong>这一条属于推断，未能从官方渠道逐字确认。</strong>' +
         '想拍纯废墟就把这一站排在 <strong>9 月 30 日之前</strong>——' +
@@ -81,7 +81,7 @@ module.exports = {
         '「Every Friday evening after 5 p.m., visitors can choose how much to pay for admission」。</strong>' +
         '原定 2026 年 9 月 4 日结束，因为周五晚客流较 2025 年同期上涨 <strong>87%</strong>' +
         '（36,411 人次对 19,513 人次）而延期。资金由 William Penn Foundation 与私人捐助方补足。</p>' +
-        '<p><strong>对你的意义：周五 17:00–20:45 可以按自己出价进馆，而正价是 $30。</strong>' +
+        '<p><strong>实际意义：周五 17:00–20:45 可以按自己出价进馆，而正价是 $30。</strong>' +
         '并且周五是<strong>唯一开到 20:45 的一天</strong>——9 月 25 日日落 18:53、10 月 22 日日落 18:12，' +
         '<strong>意味着周五是全周唯一能「在馆内待到天黑、再走出来直接拍东阶蓝调」的一天</strong>。' +
         '这两件事叠在一起，把周五变成本区唯一的最优日。</p>' +
@@ -205,7 +205,7 @@ module.exports = {
       highlights: [
         '<strong>先把免费与付费切开，这是本条目最实用的一句话：72 级东阶、东露台、以及从露台顶回望 Parkway 的那条轴线视野，' +
           '全部是露天公共空间，24 小时开放、不收一分钱、不受馆内闭馆日与三脚架政策的约束。</strong>' +
-          '$30 的门票买的只是室内收藏。<strong>如果你只为那张轴线照片而来，你根本不需要买票</strong>，' +
+          '$30 的门票买的只是室内收藏。<strong>只为台阶与那条轴线视野而来的话，根本不需要买票</strong>，' +
           '也不需要考虑周二周三闭馆——这条视线在周二凌晨三点同样成立。',
         '<strong>那条轴线是本区最重要的几何事实。</strong>站在东阶顶朝东南望，' +
           '<strong>方位 134.7°、2.08 公里外正是 City Hall 的塔与塔顶 37 英尺高的 William Penn 铜像</strong>，' +
@@ -235,7 +235,7 @@ module.exports = {
           '是室内最强的摄影目标）并新增约 2 万平方英尺展厅。' +
           '<strong>原计划在东露台地下再挖一层的下一期已被无限期搁置</strong>' +
           '（2026 年 7 月馆长口径，背景是约 $3 亿递延维护欠账）。' +
-          '<strong>好消息：这意味着东露台在你到访时是干净的、没有围挡的。</strong>'
+          '<strong>好消息：这意味着东露台在秋季是干净的、没有围挡的。</strong>'
       ],
       tour: [
         '<strong>路线：从西入口（连停车场）或北入口进，先到 Great Stair Hall 抬头看 Saint-Gaudens 的镀金《Diana》（1892），' +
@@ -252,15 +252,16 @@ module.exports = {
           '<strong>《Étant donnés》（1946–66）是不可移动的装置，在 Arensberg 收藏一带的专用小室里，' +
           '只能推开一扇旧木门、从门上两个窥孔往里看</strong>，很多人从门前走过去都没发现。' +
           '<strong>不要排队，门口没有队，直接上前把眼睛贴上去就行。</strong>',
-        '<strong>你的日期正好撞上一个大展，这会改变你的时间与预算：' +
+        '<strong>2026 年十月中旬之后来，正好撞上一个大展，它会改变这一站的时间与预算：' +
           '「Marcel Duchamp」回顾展 2026 年 10 月 10 日开幕、展到 2027 年 1 月 31 日，' +
           '是超过 50 年来全美第一次 Duchamp 大型回顾展，逾 300 件作品，' +
           '刚从纽约 MoMA 巡展过来，在 Dorrance Galleries 与 281–283 号厅。</strong>' +
           '<strong>票价 $35（已含全馆门票），也就是比普通票只多 $5</strong>——' +
           '想看就直接买这一张，不要先买 $30 的普通票再补。' +
-          '<strong>反过来，如果你对概念艺术完全没兴趣，那就买 $30 的普通票，' +
+          '<strong>反过来，对概念艺术完全没兴趣的话就买 $30 的普通票，' +
           '常设展里本来就有 Nude Descending a Staircase 与 Large Glass，不亏。</strong>' +
-          '开幕头两周（正好是你的窗口）大展人会很多，<strong>请一开门 10:00 先进大展，看完再回头看常设。</strong>',
+          '<strong>开幕头两周（2026 年 10 月 10–24 日）大展人会很多</strong>，' +
+          '<strong>请一开门 10:00 先进大展，看完再回头看常设。</strong>',
         '<strong>可以跳过的部分：三楼与一楼的当代艺术区、以及绝大多数临时小型专题展。</strong>' +
           '这座馆有 20 多万件藏品、走完全部展厅超过 3 公里，' +
           '<strong>按「二楼 period rooms ＋ 一楼印象派与现代」两层做，就拿到了八成价值。</strong>' +
@@ -291,7 +292,7 @@ module.exports = {
             '<strong>最佳时段就是一段：10:00–10:45。</strong>' +
             '9 月 25 日太阳方位在 <strong>10:40</strong> 扫过 134.7°（高度 39°），' +
             '10 月 22 日在 <strong>10:03</strong> 扫过（高度 26°）——' +
-            '此刻太阳在你正后方，<strong>反日点精确落在轴线上，整条 Parkway 零阴影、完全正面受光</strong>。' +
+            '此刻太阳正在机位的正后方，<strong>反日点精确落在轴线上，整条 Parkway 零阴影、完全正面受光</strong>。' +
             '<strong>10 月优于 9 月</strong>：太阳低 13 度，行道树冠有立体感、路面有长影朝远端排开，' +
             '而且时刻更早（10:03 比 10:40 人少得多）。' +
             '<strong>焦段是这个机位的胜负手：135–200mm 是唯一正确的选择。</strong>' +
@@ -337,7 +338,7 @@ module.exports = {
             '构图上<strong>不要拍雕像的正面标准像</strong>——那张照片网上有一百万张。' +
             '<strong>正确做法是压低到腰高、用 35mm 从雕像侧后方仰拍，把举起的拳头与背景的神庙立面叠在一起</strong>，' +
             '让「道具」和「殿堂」在一个画面里发生关系，这才是这件东西真正有意思的地方。' +
-            '85–135mm 单抽拳头与面部的铜绿质感。三脚架自由，但排队的人不会等你。'
+            '85–135mm 单抽拳头与面部的铜绿质感。三脚架自由，但排队合影的人流不会为机位停下。'
         },
         {
           name: '室内 Vaulted Walkway 与 Great Stair Hall',
@@ -384,7 +385,8 @@ module.exports = {
           '<strong>「Monday 10am–5pm / Tuesday Closed / ' +
           'Wednesday Closed / Thursday 10am–5pm / Friday 10am–8:45pm / Saturday 10am–5pm / Sunday 10am–5pm」</strong>。' +
           '→ <strong>周二与周三闭馆，周五是唯一开到 20:45 的一天。</strong>' +
-          '<strong>对应你的东岸窗口（10/13–10/26）：10/13、10/14、10/20、10/21 四天是周二／周三，闭馆。</strong>' +
+          '<strong>以 2026 年十月中下旬为例：10 月 13、14、20、21 与 27、28 日都是周二／周三，闭馆；' +
+          '排行程时请自己对一遍日历，别把这一站排在周二或周三。</strong>' +
           '<strong>东阶、东露台与 Eakins Oval 是室外公共空间，24 小时开放、不受上述时间约束。</strong>',
         parking: '<strong>Philadelphia Museum of Art Parking Garage</strong>（OSM way/61131910，' +
           '39.96715／-75.18202，在主馆北侧 Anne d\'Harnoncourt Drive 上，' +
@@ -719,7 +721,7 @@ module.exports = {
           '这一点无法提前锁定，只能出发前几天看天气预报里有没有零度以下的夜温。' +
           '<strong>干池是完全不同的一张照片</strong>：三尊铜像还在，但整个构图的动势与反光全部消失，' +
           '只剩一个空的浅盆。',
-        '<strong>这里最值得知道的事实与摄影无关，但会改变你怎么看这条大道：Parkway 的三个雕塑锚点是同一家人做的三代作品。</strong>' +
+        '<strong>这里最值得知道的事实与摄影无关，但会改变对这条大道的整体理解：Parkway 的三个雕塑锚点是同一家人做的三代作品。</strong>' +
           '喷泉出自 <strong>Alexander Stirling Calder</strong>（1924 年，与建筑师 Wilson Eyre 合作）；' +
           '轴线东南端 City Hall 塔顶的 William Penn 铜像出自他的父亲 <strong>Alexander Milne Calder</strong>；' +
           '而轴线西北端美术馆一带的现代雕塑出自他的儿子、动态雕塑（mobile）的发明者 ' +
@@ -745,7 +747,7 @@ module.exports = {
         '<strong>先说定位：这是一个「路过时花十五分钟」的点，不值得专程打车过来。</strong>' +
           '它的真正用处是<strong>把 Cathedral（184 米）、Barnes（350 米）、Rodin（530 米）与美术馆（1.22 公里）串成一条直线的中转站</strong>——' +
           '这四个点都在 Parkway 上，Logan Circle 正好在中间，' +
-          '<strong>你几乎一定会经过它，那就顺便走进去绕一圈。</strong>',
+          '<strong>沿 Parkway 走几乎一定会经过它，那就顺便走进去绕一圈。</strong>',
         '<strong>绕池走一整圈，认三尊铜像：' +
           'Delaware River 是持弓的壮年男性，有鱼朝他喷水；' +
           'Schuylkill River 是握着天鹅脖颈的成年女性；' +
@@ -757,13 +759,13 @@ module.exports = {
         '<strong>怎么进去：这是一个真正在跑车的多车道环岛，必须走信号灯过街口，不要横穿。</strong>' +
           '<strong>2026 年 5 月市政府刚完成一次改造，外圈 15 英尺宽的人行道整体重铺、八处路缘坡道升级到 ADA 标准、' +
           '混凝土路缘换成花岗岩，官方项目页状态已标为「Completed」</strong>——' +
-          '<strong>也就是说你到访时围挡与施工都已撤场，这是上一版没能确认、本次已确认的一项。</strong>' +
+          '<strong>也就是说 2026 年秋季到访时围挡与施工都已撤场（2026 年 9 月 15 日核实）。</strong>' +
           '推婴儿车与轮椅现在没问题。',
         '<strong>唯一真正的不确定因素是「有没有水」。</strong>' +
           'Parks &amp; Recreation 的口径是通常开到 10 月中至下旬，无霜冻可延到 Thanksgiving，' +
           '<strong>而且官方从不公布确切关停日。</strong>' +
-          '你的窗口 10/13–10/26 正好压在这个边界上：' +
-          '<strong>前半段（10/13–10/19）几乎肯定有水，后半段属于看天。</strong>' +
+          '<strong>十月中下旬正好压在这个边界上：以 2026 年为例，' +
+          '10 月 20 日之前几乎肯定有水，之后属于看天。</strong>' +
           '<strong>干池不是灾难，只是从「会动的水景」变成「三尊站在空盆里的铜像」，十分钟就看完。</strong>',
         '<strong>没有卫生间、没有餐饮、没有座椅以外的任何设施。</strong>' +
           '<strong>最近的公共卫生间在 Parkway 对面的 Free Library of Philadelphia 总馆（1901 Vine St，约 250 米）</strong>，' +
@@ -783,7 +785,7 @@ module.exports = {
             '（Cathedral OSM way/252221811，39.95740／-75.16855），' +
             '所以<strong>站在池的西北侧朝东南拍，就能把喷泉、水柱与远处的褐石圆顶叠成三层</strong>。' +
             '<strong>最佳 15:00–17:00</strong>：此时太阳在西南到西（10/22 的 16:00 太阳高度 22°、方位 232°），' +
-            '<strong>光从你背后偏右打过来，喷泉与 Cathedral 同时正面受光</strong>，这是构图最完整的时段。' +
+            '<strong>光从机位背后偏右打过来，喷泉与 Cathedral 同时正面受光</strong>，这是构图最完整的时段。' +
             '<strong>次佳是蓝调</strong>（10/22 约 18:27–18:47）：环岛路灯与 Cathedral 泛光已亮，' +
             '池水变成深蓝、水柱在长曝下变成白色的丝状。' +
             '<strong>快门速度是这个机位真正的选择题，三种效果差别极大：</strong>' +
@@ -824,7 +826,7 @@ module.exports = {
             '而喷泉正好坐在这条轴线的中点上——<strong>这是唯一能把「喷泉＋大道＋轴线两端之一」拍成一张的位置。</strong>' +
             '<strong>最佳 10:00–10:45</strong>（与全区轴线时段一致：太阳方位在 10/22 的 10:03、9/25 的 10:40 扫过 134.7°，' +
             '此时朝西北望，整条 Parkway 与远端的美术馆完全正面受光、影子全部背离镜头）。' +
-            '<strong>朝东南拍 City Hall 则要选下午 15:00–16:30</strong>（太阳转到西南、在你背后）。' +
+            '<strong>朝东南拍 City Hall 则要选下午 15:00–16:30</strong>（太阳转到西南、落在机位背后）。' +
             '焦段：<strong>朝西北拍美术馆需要 135–200mm</strong>（1.22 公里，广角完全不成立）；' +
             '<strong>朝东南拍 City Hall 用 85–135mm</strong>（858 米，塔本身够高，中长焦即可撑满）；' +
             '<strong>24–35mm 只用于拍「喷泉＋两侧行道树＋大道消失点」的环境构图</strong>，' +
@@ -941,6 +943,68 @@ module.exports = {
           'Rodin 那些独立的手部习作是全馆最适合拍特写的一批东西。' +
           '<strong>但要认清定位：室内只有几间不大的展厅，真正的摄影目标是户外花园。</strong>'
       ],
+      tour: [
+        '<strong>先把闭馆日记牢，这是本区最容易白跑的一站：周二、周三、周四连闭三天</strong>' +
+          '（philamuseum.org/rodin-museum 的 Hours 表，2026 年 9 月 15 日复核）。' +
+          '<strong>而 Philadelphia Museum of Art 主馆与 The Barnes Foundation 都只闭周二与周三</strong>——' +
+          '<strong>换句话说，周二是这一区的死日：美术馆、Barnes、Rodin 三家同时关门；' +
+          '而周四是专门坑 Rodin 的那一天，另外两家都开、只有它关。</strong>' +
+          '还有一条同样容易误判：<strong>周五它只开到 17:00，不跟着主馆延到 20:45</strong>，' +
+          '所以「周五晚上趁主馆 Pay What You Wish 顺路把 Rodin 一起看掉」这个安排不成立。',
+        '<strong>票价的性质要说清楚：官方页面的标题是「Suggested Admission」，也就是建议票价而不是硬性票价，' +
+          '实质上是自愿定价。</strong>' +
+          '牌价为<strong>成人 $15、老年（65+）$14、持证学生 $7、13–18 岁与 12 岁及以下免费、会员免费</strong>' +
+          '（2026 年 9 月 15 日核实）。' +
+          '<strong>预算紧的读者按自己的判断出价是被官方允许的，不需要解释。</strong>' +
+          '另一条更省钱：<strong>持主馆门票（成人 $30）可免费进 Rodin</strong>——' +
+          '本手册上一版记的是「同日有效」，而 Visit Philadelphia 与多家票务平台的口径是' +
+          '「两天有效期内含 Rodin」。<strong>两种口径不一致，且官方票务页没有给出逐字说明，' +
+          '究竟是「同日」还是「两天内任一天」未能从官方渠道确认</strong>，' +
+          '要靠这一条省钱的话请在主馆售票处当场问清，或先打 <strong>215-763-8100</strong>。',
+        '<strong>动线：进门先在户外走完，再进室内，全程不折返。</strong>' +
+          '<strong>① 临 Parkway 的大门口先看《思想者》（The Thinker）</strong>，' +
+          '它身后是建筑师 Paul Cret 仿建的 <strong>Château d\'Issy 立面残片</strong>' +
+          '（一件刻意做成废墟的布景，官方藏品目录里它本身就是一件 Cret 署名的作品）；' +
+          '<strong>② 进门是 Dorrance H. Hamilton 花园</strong>，巴黎式的对称布局，' +
+          '中轴上是 Cret 设计的<strong>贝壳形水池（Shell-Shaped Basin）</strong>；' +
+          '<strong>③ 花园尽头、建筑正门前立着《地狱之门》（The Gates of Hell）</strong>——' +
+          '这是全馆第一件必看，高约 6 米、门上挤着一百多个人物，' +
+          '<strong>《思想者》最初就是这扇门顶端的一个局部，先看门再回头看门口那尊独立的《思想者》，' +
+          '两件东西的关系才说得通</strong>；④ 最后进室内。' +
+          '<strong>整条路从大门走到《地狱之门》不到 60 米，户外部分二十分钟就能走完，' +
+          '而它已经是这一站价值的一半以上。</strong>',
+        '<strong>室内只有几间不大的展厅，按「先认几件大的，再看手」的顺序走最有效率。</strong>' +
+          '必看的大件：<strong>《The Burghers of Calais》（加莱义民，六个赴死的市民群像）、' +
+          '《The Age of Bronze》（青铜时代，Rodin 第一件引起公愤的作品，当年被指控是直接翻模真人）、' +
+          '《Eternal Springtime》《Adam》《Eve》《The Hand of God》，以及 Rodin 为 Balzac 做的那一组习作</strong>。' +
+          '<strong>2026 年在展的特展是「Rodin\'s Hands」，展至 2027 年 1 月 31 日</strong>——' +
+          '一整批脱离身体的手部习作，' +
+          '<strong>这是理解 Rodin 工作方法的最好入口：他把手、脚、头当成独立的作品反复做，' +
+          '再从这些零件里挑出组合成大型群像</strong>，看完这个展再回头看《地狱之门》会完全不一样。' +
+          '<strong>官方另有一场 Rodin\'s Hands 的免费导览（含在门票内，排期见 philamuseum.org 的 Events）。</strong>',
+        '<strong>实务上的三条硬约束：</strong>' +
+          '<strong>① 这里没有餐饮，一间咖啡馆都没有</strong>，' +
+          '吃饭要么回主馆（一楼 Café 与 Stir），要么走 220 米到 Barnes 的 Garden Restaurant 与 Reflections Café' +
+          '（都是周四至周一 11:00 起，不需门票即可用餐）；' +
+          '<strong>② 包的规矩比一般美术馆严：背包不许背在身后、禁超大包、禁大伞、禁自拍杆</strong>，' +
+          '小包只能手提或单肩挎，现场只有一个自助衣帽架（不是寄存柜）；' +
+          '<strong>③ 展厅内禁饮食、禁闪光</strong>（官方原文「Flash is not permitted — but take lots of pictures!」）。' +
+          '<strong>卫生间在馆内，但这是一座小馆，全场只有一处，进门时先看清位置。</strong>',
+        '<strong>怎么把它串进一条不折返的线：这一区所有场馆都排在 Parkway 这一条斜轴上，' +
+          '从西北往东南走一遍就全收了，绝对不要来回穿。</strong>' +
+          '顺序是<strong>Philadelphia Museum of Art（2600）→ Rodin（2151）→ Calder Gardens（2100）→ ' +
+          'The Barnes Foundation（2025）→ The Franklin Institute（222 N 20th）与 ' +
+          'Academy of Natural Sciences（1900）→ Logan Circle 的 Swann 喷泉 → Cathedral Basilica（18th 街）</strong>，' +
+          '全程约 1.5 公里、纯步行 20 分钟。' +
+          '<strong>顺路提醒一个新邻居：Calder Gardens 于 2025 年 9 月 21 日开放</strong>' +
+          '（Herzog &amp; de Meuron 设计、Piet Oudolf 做景观，由 Calder Foundation 与 Barnes 合作运营），' +
+          '<strong>门牌 2100 Benjamin Franklin Parkway，与 Rodin 同在 Parkway 西北侧的相邻街区；' +
+          '周四至周一 11:00–17:00，成人 $18、老年 $16、大学生与 13–18 岁 $5、12 岁及以下免费，' +
+          '而户外的一英亩花园不买票也可以走</strong>（2026 年 9 月 15 日于 caldergardens.org 核实）。' +
+          '<strong>Swann 喷泉那条里讲的「Calder 祖孙三代」在这里能补齐最后一环</strong>：' +
+          'Calder Gardens 的首展里专门做了一面献给他艺术家先辈的墙，' +
+          '同时收了祖父 Alexander Milne Calder、父亲 Alexander Stirling Calder 与母亲 Nanette Lederer Calder 的作品。'
+      ],
       photo: '雕塑 <strong>4.5/5</strong>，建筑与园林 <strong>4/5</strong>，人像 <strong>4.5/5</strong>，风光 <strong>2/5</strong>。' +
         '花园安静、雕塑与绿植的关系极好、几乎没有游客拥挤问题，是本区最舒服的拍摄环境；' +
         '扣分在规模小（认真拍 60–90 分钟就够）与那三天连闭的开放时间。',
@@ -998,6 +1062,16 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>45–75 分钟；只看户外的花园与《地狱之门》20–30 分钟。</strong>' +
+          '分配建议：<strong>临街的《思想者》与 Château d\'Issy 立面 5 分钟 ＋ ' +
+          '花园、贝壳形水池与《地狱之门》15 分钟 ＋ 室内三间展厅与 Rodin\'s Hands 特展 30 分钟</strong>。' +
+          '<strong>官方没有公布建议时长，以上按场馆规模推算</strong>' +
+          '（藏品逾 140 件，但室内只有几间不大的展厅，是本区最小的收费场馆）；' +
+          '第三方旅行资料给的典型时长是 <strong>60 分钟</strong>，与上述一致。' +
+          '<strong>它到 Barnes 只有 220 米，这两处应当连着做</strong>：' +
+          'Barnes 认真看 2 小时加 Rodin 1 小时，正好是半天的量。' +
+          '<strong>时间被压到极限时，只在 Parkway 人行道上看一眼《思想者》与那道假废墟立面就走，' +
+          '也能拿到这一站的基本价值，这部分不需要进门、不花钱、不受闭馆日限制。</strong>',
         book: '<strong>不需单独预约。</strong>' +
           '<strong>持 Philadelphia Museum of Art 主馆门票可当日免费入场</strong>' +
           '（主馆票本身含两天，但 Rodin 是「same-day」）。' +
@@ -1006,9 +1080,13 @@ module.exports = {
           '<strong>成人 $15、老年（65+）$14、持证学生 $7、13–18 岁免费、12 岁及以下免费、会员免费</strong>。' +
           '→ <strong>这是「建议票价」而不是硬性票价，实质上是自愿定价。</strong>' +
           '<strong>另：持 Philadelphia Museum of Art 主馆票当日免费入场</strong>——' +
-          '如果你本来就要进主馆（成人 $30，或周五 Pay What You Wish），这里等于不额外花钱。' +
-          '<strong>临街的《思想者》与 Château d\'Issy 立面从人行道上拍摄免费。</strong>',
-        hours: '官方原文（philamuseum.org/rodin-museum 的 Hours 表）：' +
+          '本来就要进主馆的话（成人 $30，或周五 Pay What You Wish），这里等于不额外花钱。' +
+          '<strong>临街的《思想者》与 Château d\'Issy 立面从人行道上拍摄免费。</strong>' +
+          '<strong>以上于 2026 年 9 月 15 日在 philamuseum.org/rodin-museum 逐条复核，与上一版一致：' +
+          '页面标题仍写「Suggested Admission」，成人一档仍为 $15。</strong>' +
+          '<strong>但「主馆票含 Rodin」究竟是同日有效还是两天内有效，官方未给逐字口径，' +
+          '未能从官方渠道确认（官方电话 215-763-8100）。</strong>',
+        hours: '官方原文（philamuseum.org/rodin-museum 的 Hours 表，<strong>2026 年 9 月 15 日复核，未变</strong>）：' +
           '<strong>「Monday 10am–5pm / Tuesday Closed / Wednesday Closed / Thursday Closed / ' +
           'Friday 10am–5pm / Saturday 10am–5pm / Sunday 10am–5pm」</strong>。' +
           '→ <strong>周二、周三、周四三天连闭；周五只到 17:00，不参与主馆的 20:45 延时。</strong>' +
@@ -1057,6 +1135,7 @@ module.exports = {
       n: 5,
       name: '巴恩斯基金会',
       en: 'The Barnes Foundation',
+      must: 4.5,
       score: 3.5,
       tldr: '收藏展厅其实允许个人拍摄（禁闪光与三脚架），不是只能拍建筑；$30、周二周三闭馆、票有效两天。',
       tags: [
@@ -1093,7 +1172,7 @@ module.exports = {
           '<strong>妥协方案是：新馆里的展厅按 Merion 老宅的房间尺寸一比一复制，' +
           '每一面墙的每一件作品都保持原位。</strong>' +
           '<strong>2012 年 5 月 19 日在 Parkway 开馆，造价约 1.5 亿美元。</strong>' +
-          '也就是说<strong>你在一栋 2012 年的现代建筑里，看到的是一座 1920 年代私宅内部的逐字复刻</strong>——' +
+          '也就是说<strong>在一栋 2012 年的现代建筑里，看到的是一座 1920 年代私宅内部的逐字复刻</strong>——' +
           '这个「盒中盒」的关系是本馆最有意思的建筑事实。',
         '<strong>建筑本身（Tod Williams Billie Tsien Architects）才是最好拍的部分。</strong>' +
           '外墙用的是<strong>来自以色列 Negev 沙漠的石灰石，按刻意打乱的随机砌法排列</strong>，' +
@@ -1102,6 +1181,78 @@ module.exports = {
           '入口序列是一道长石墙、一片浅反射水池、再进到有天光顶篷的 <strong>Light Court</strong>；' +
           '建筑师自己的说法是「a gallery in a garden, a garden in a gallery」。' +
           '<strong>反射水池是唯一能拍到「建筑倒影」的元素，也是本馆最上镜的一处。</strong>'
+      ],
+      tour: [
+        '<strong>第一件事：提前在 barnesfoundation.org 买定时票，这里不是可以随便走进去的美术馆。</strong>' +
+          '官方售票是分时段发放的，<strong>周末与假日经常售完</strong>，现场余量不可靠。' +
+          '<strong>开放时间是周四至周一 11:00–17:00，周二与周三闭馆</strong>' +
+          '（会员 10:00 可进；2026 年 9 月 15 日于官网复核）。' +
+          '<strong>11:00 开门是本区最晚的一家</strong>，这其实是好事：上午可以先去别处，' +
+          '<strong>但要记住周二这一天美术馆、Barnes、Rodin 三家同时闭馆，是这一区的死日，' +
+          '整条 Parkway 只剩 Eastern State、Cathedral 与 Franklin Institute 可去。</strong>' +
+          '<strong>票价成人 $30、老年 $28、13–18 岁 $5、12 岁及以下免费，含特展且有效两天</strong>；' +
+          '<strong>大学生 $5 的那一档线上界面上没有，只能打 215.278.7000 买。</strong>',
+        '<strong>进门前必须知道的一条，否则前二十分钟一定是懵的：这里的墙上没有任何作品标签。</strong>' +
+          '没有作者名、没有年代、没有说明牌——这是 Dr. Barnes 立下的规矩，官方至今照办。' +
+          '<strong>解决办法是官方自己的手机导览「Barnes Focus」</strong>' +
+          '（官网在 Plan Your Visit 页直接推荐它）：<strong>对着一面墙拍一张照，它会认出画并给出信息</strong>，' +
+          '所以<strong>进门前先连上馆内 Wi-Fi 把它打开</strong>，不然就只能靠眼睛看。' +
+          '<strong>为什么值得为这件事忍受不便：因为这里陈列的单位不是「画」，而是「墙」。</strong>' +
+          'Barnes 把藏品按<strong>对称的墙面组合（他称之为 ensembles）</strong>挂：' +
+          '一张 Renoir 旁边可能是一件非洲面具、一把 18 世纪宾州德裔的铁门铰链、一只铁铲或一个绕线器，' +
+          '<strong>依据是形状、色彩、线条与空间的呼应，不是年代、国别或画派。</strong>' +
+          '<strong>正确的看法是站远一点、先把整面墙当一张画看，再看单件</strong>——' +
+          '这个体验全世界没有第二家大馆提供，也是它值 $30 的真正理由。',
+        '<strong>动线：进门直奔一楼的 Room 1（主厅），这一间的分量超过其余全部房间的总和。</strong>' +
+          '四面墙各有明确目标：' +
+          '<strong>南墙高处、落地窗上方那一整条是 Matisse 的巨幅壁画《The Dance》（1932–33）</strong>，' +
+          '下面配着 Matisse 的《Seated Riffian》与 Picasso 的《Composition: The Peasants》（1906）；' +
+          '<strong>西墙是两件镇馆之作：Georges Seurat 的《Models（Poseuses）》（1886–88）' +
+          '与 Paul Cézanne 的《The Card Players》（1890–92，这是他这个系列里尺幅最大的一幅）</strong>；' +
+          '<strong>北墙是 Renoir 的《Bathing Group》（1916）与 Cézanne 的《Ginger Jar》</strong>；' +
+          '东墙是 William Glackens 的《The Raft》（1915）。' +
+          '<strong>《The Dance》的来历值得在现场想一下：1930 年 Matisse 路过费城顺道来访，' +
+          'Barnes 把他单独带进这间主厅、当场提出委托，还把 Matisse 的翻译关在门外——' +
+          '那位翻译最后是从地下室的运煤槽爬上来才把人接走的。</strong>' +
+          '这幅画就是为这面墙、这几扇窗量身做的，' +
+          '<strong>所以它只能在这里看，别的地方复制不了。</strong>',
+        '<strong>Room 1 之后往二楼走，然后就不要再追求「看全」。</strong>' +
+          '<strong>二楼 balcony 上有 Matisse 的《Le Bonheur de Vivre》（1905–06）</strong>——' +
+          '<strong>这是全馆唯一一件没有按 Merion 老宅原位陈列的重要作品</strong>，' +
+          '知道这一点，「原样保留」这四个字才有实感。' +
+          '其余二十余间房间里公认的好东西：' +
+          '<strong>Picasso 蓝色时期的《The Ascetic》（1903）与《Acrobat and Young Harlequin》（1905）、' +
+          'Modigliani 的《Jeanne Hébuterne》（1919）、Monet 的《The Studio Boat》（1876）、' +
+          'Matisse 的《The Music Lesson》与《Three Sisters》三联、Renoir 的《Leaving the Conservatory》</strong>。' +
+          '<strong>可以放弃的是「每间房都逐件看一遍」这个念头</strong>：' +
+          '房间密度极高、又没有标签，硬看两小时之后只会记不住任何东西。' +
+          '<strong>更有效的做法是每间房只挑一面墙认真读，其余扫一眼就走。</strong>' +
+          '想要人讲的话，<strong>官方 Highlights Tour 为 60 分钟、周四至周一 11:30 与 13:30 两场，' +
+          '工作日 $39（会员 $19）、周末 $49（会员 $24）；另有每日 13:00 的 Spotlight Tour' +
+          '（工作日 $39／周末 $49，会员免费）与 $60 的一小时私人团（会员 $30，须提前四天电话预约）</strong>' +
+          '（2026 年 9 月 15 日核实；<strong>这与本手册上一版记的「11:30／12:30／13:30 三场、现场买」不同，' +
+          '场次已减为两场且线上即可购买，请按新口径执行。</strong>）',
+        '<strong>拍照这件事要纠正一个流传很广的说法：Barnes 的收藏展厅并不禁止拍照。</strong>' +
+          '官方原文是「Photography for personal use is allowed, unless otherwise posted. ' +
+          'No flash, tripods, or selfie sticks.」' +
+          '→ <strong>个人手持拍摄允许，禁的是闪光灯、三脚架与自拍杆</strong>，' +
+          '而「除另有标示外」意味着个别特展或个别墙面可能单独禁拍，看现场牌子。' +
+          '<strong>但有一条实务限制：展厅拥挤时馆方会要求访客停止拍摄、写生与记笔记，以维持动线。</strong>' +
+          '<strong>写生只许用石墨铅笔、笔记本不得大于 9×12 英寸</strong>；' +
+          '<strong>另外地面上画了一条线，官方要求与墙面保持约两英尺（60 厘米）距离</strong>，' +
+          '别为了看清细节越过它。',
+        '<strong>餐饮、卫生间与寄存（这三件事决定一天能在这条 Parkway 上连续待多久）：</strong>' +
+          '<strong>Garden Restaurant 周四至周一 11:00–15:00（最后入座 14:30，强烈建议用 Resy 订位，有室内与花园座）、' +
+          'Reflections Café 周四至周一 11:00–16:00</strong>，' +
+          '<strong>关键是这两处都不需要门票就能进去吃</strong>——' +
+          '<strong>由于 Rodin 完全没有餐饮、Eastern State 场内也没有餐饮，' +
+          '这里实际上是 Parkway 中段最可靠的一顿饭。</strong>' +
+          '<strong>无障碍卫生间在下层（Lower Level）与 Garden Restaurant 内。</strong>' +
+          '<strong>免费衣帽间与储物柜也在下层：背包、背带式婴儿背袋、超大婴儿车、雨伞、厚外套' +
+          '以及任何大于 12×10 英寸的包必须存起来</strong>，' +
+          '入口处<strong>所有包都要接受检查，禁枪械、刀具、剪刀、喷雾（含防狼喷雾）与危险品</strong>。' +
+          '<strong>15 岁以下须成人陪同。</strong>' +
+          '人最少的是 <strong>11:00 开门后的第一小时与 15:00 之后</strong>（会员的 10:00 早场最空）。'
       ],
       photo: '建筑 <strong>4.5/5</strong>，室内陈列 <strong>3.5/5</strong>，风光 <strong>1/5</strong>，人像 <strong>2.5/5</strong>。' +
         '建筑与石墙质感很强、反射水池好用、展厅也确实能拍；' +
@@ -1156,36 +1307,66 @@ module.exports = {
             '<strong>禁闪光、禁三脚架、禁自拍杆</strong>；' +
             '<strong>画面上会有射灯在画框玻璃上的反光点，唯一的解法是侧移半步换角度，' +
             'CPL 在人工光下作用有限。</strong>' +
-            '<strong>人多时馆方会要求你停止拍摄</strong>，' +
+            '<strong>人多时馆方会要求访客停止拍摄</strong>，' +
             '所以<strong>请排在开门后第一小时（周四至周一 11:00，会员 10:00）或 15:00 之后</strong>。'
         }
       ],
       access: {
+        visit: '<strong>2–2.5 小时；只看重点 60–75 分钟。</strong>' +
+          '分配建议：<strong>一楼 Room 1 主厅 20 分钟（Matisse 的《The Dance》、Seurat 的《Models》、' +
+          'Cézanne 的《The Card Players》都在这一间）＋ 一楼其余房间 40 分钟 ＋ ' +
+          '二楼 balcony 与《Le Bonheur de Vivre》15 分钟 ＋ Roberts Gallery 的特展 20 分钟</strong>。' +
+          '<strong>加一场 60 分钟的官方 Highlights Tour 则按 3 小时算。</strong>' +
+          '<strong>官方 Plan Your Visit 页没有公布建议参观时长（2026 年 9 月 15 日复核），' +
+          '以上按二十余间展厅的规模与官方 60 分钟导览的覆盖范围推算。</strong>' +
+          '<strong>门票有效两天，把建筑外景与室内拆成两次是官方支持的走法</strong>；' +
+          '<strong>与 Rodin（220 米）连着做的话，两处合计半天。</strong>',
         book: '<strong>建议线上预约定时票</strong>（barnesfoundation.org），周末与假日容易售完。' +
           '<strong>票含特展、且有效两天</strong>。' +
           '<strong>大学生 $5 的票只能电话购买（215.278.7000），线上买不到。</strong>' +
-          '现场另有一小时的 Collection Highlights 导览，' +
-          '<strong>周四至周一 11:30、12:30、13:30 三场，需在 box office 现买。</strong>',
+          '<strong>导览团（2026 年 9 月 15 日于官网核实，与上一版不同）：' +
+          'Highlights Tour 60 分钟、周四至周一 11:30 与 13:30 两场，工作日 $39／会员 $19，周末 $49／会员 $24；' +
+          'Spotlight Tour 每日 13:00，工作日 $39、周末 $49，会员免费；' +
+          'Private Collection Tour 一小时 $60（会员 $30），限 10 人、须提前至少四天致电 215.278.7200 预约。</strong>' +
+          '<strong>上一版记的「11:30／12:30／13:30 三场、须在 box office 现买」已不成立：' +
+          '场次减为两场，且线上可订。</strong>' +
+          '<strong>不接受第三方导览团（官方明文 "Third-party tours are not permitted"）。</strong>',
         ticket: '官方价目（barnesfoundation.org/plan-your-visit）：' +
           '<strong>成人 $30、老年 $28、大学生（凭证件）$5、13–18 岁 $5、12 岁及以下免费</strong>。' +
           '<strong>含特展，票有效两天。</strong>会员与费城教师免费。' +
           'Philadelphia CityPASS 可打包。' +
-          '<strong>室外的石墙、反射水池与馆前广场从 Parkway 人行道上拍摄完全免费。</strong>',
-        hours: '官方原文：<strong>「Thu–Mon: 11am–5pm / Members: 10am–5pm」</strong>，' +
+          '<strong>室外的石墙、反射水池与馆前广场从 Parkway 人行道上看、拍完全免费。</strong>' +
+          '<strong>其余免费条件（官方 Ways to Save）：费城 pre-K–12 教师、ACCESS／EBT ' +
+          '与 Art-Reach ACCESS 持卡人一律免费；现役军人及家属在 Armed Forces Day 至 Labor Day 之间免费' +
+          '（Blue Star Museums 项目，秋季不在窗口内）。</strong>' +
+          '<strong>本馆没有任何「每周免费夜」或「免费日」——这一点与主馆的周五 Pay What You Wish 不同，' +
+          '想省钱只能靠上述身份条件或 13–18 岁／大学生的 $5 档。</strong>' +
+          '<strong>以上于 2026 年 9 月 15 日在 barnesfoundation.org/plan-your-visit 逐条复核，与上一版一致。</strong>',
+        hours: '官方原文（<strong>2026 年 9 月 15 日复核，未变</strong>）：' +
+          '<strong>「Thu–Mon: 11am–5pm / Members: 10am–5pm」</strong>，' +
           '<strong>周二与周三闭馆</strong>；全年另闭 July 4、Thanksgiving、Christmas。' +
           '→ <strong>9 月末至 10 月末每周开五天（周四至周一），周二周三来是空跑。</strong>' +
           '<strong>注意它 11:00 才开门，是本区开门最晚的场馆</strong>，' +
           '正好可以把上午 10:00–10:45 的 Parkway 轴线时段先做完再过来。' +
           '<strong>会员可以 10:00 进场，这一小时是展厅最空、最好拍的时候。</strong>',
-        parking: '<strong>自有停车场：Pennsylvania Avenue 一侧 60 个车位，4 小时 $12、超时按小时加收</strong>' +
-          '（该费率来自第三方 2026 年 1 月核对的资料，<strong>未能在官网逐字确认</strong>）。' +
-          '车位很少，秋季周末基本停不进。' +
-          '<strong>更实际的是 SEPTA 巴士（沿 Parkway 与 20th／21st Street 多条线路）</strong>，' +
-          '或从 City Hall 沿 Parkway 步行约 1.1 公里。',
+        parking: '<strong>自有停车场在 Pennsylvania Avenue 的 20th 与 21st Street 之间' +
+          '（GPS 请用 2020 Pennsylvania Avenue）。官方费率：访客 4 小时 $12、之后每小时加 $2；' +
+          '会员 4 小时 $10、之后每小时加 $2；场内有充电桩。</strong>' +
+          '<strong>这一条于 2026 年 9 月 15 日在官网 Getting Here 一节逐字确认，' +
+          '补上了上一版「未能在官网确认」的空缺。</strong>' +
+          '<strong>先到先得、不接受预留，秋季周末基本停不进；代客泊车已无限期暂停。</strong>' +
+          '残障车位同在该停车场，须出示州发放的残障牌照或证。' +
+          '<strong>更实际的是 SEPTA 巴士 7、32、33、38、48、49 路（沿 Parkway 与 20th／21st Street）</strong>，' +
+          '或从 City Hall 沿 Parkway 步行约 1.1 公里；' +
+          '本馆是 Philly PHLASH 观光摆渡的第 5 站，Pennsylvania Avenue 一侧有自行车架与 Indego 共享单车站。',
         walk: '<strong>到 Rodin Museum 约 220 米 / 3 分钟</strong>（Parkway 上的下一个街区，两处必须连着做）；' +
+          '<strong>到 Calder Gardens（2100 Benjamin Franklin Parkway）两个入口相距约 480 米，' +
+          '且需横穿 Parkway</strong>——这是官方逐字提醒的一段，' +
+          '原文「approximately 500 yards/480 meters and involves crossing the parkway」，' +
+          '并要求务必走信号灯、注意转弯车辆。' +
           '<strong>到 Swann Memorial Fountain 约 350 米 / 5 分钟</strong>（方位 149°）；' +
           '<strong>到 Philadelphia Museum of Art 约 890 米 / 11 分钟</strong>（方位 308°，沿 Parkway 西北行）。' +
-          '<strong>官方建议留两小时看展，纯拍照 60 分钟够。</strong>'
+          '<strong>入口序列从 Parkway 人行道到 Light Court 不到 80 米，进门即是石墙与反射水池。</strong>'
       },
       notes: [
         '<strong>本条目最重要的一条：收藏展厅可以个人手持拍摄，官方原文允许。</strong>' +
@@ -1216,10 +1397,503 @@ module.exports = {
       ]
     },
     {
-      id: 'cathedral-basilica-ss-peter-paul',
+      id: 'franklin-institute',
       n: 6,
+      name: '富兰克林科学馆',
+      en: 'The Franklin Institute',
+      must: 4,
+      score: 3,
+      tldr: '这一区家庭游客的第一目标，成人 $29、65 岁以上免费；而罗通达里那尊 20 英尺 Franklin 坐像是国家纪念堂，不用买票就能进。',
+      tags: [
+        { t: '成人 $29 / 65+ 免费', c: 'paid' },
+        { t: '纪念堂免票可进', c: 'free' },
+        { t: '每日 9:30–17:00 无闭馆日', c: 'free' },
+        { t: '工作日 14:00 前团客多', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>先说本条目最实用的一条，很多人到死都不知道：这栋楼里有一个不用买票就能进的国家纪念堂。</strong>' +
+          '<strong>Benjamin Franklin National Memorial 就在主入口内的罗通达（rotunda）里，' +
+          '官方原文写得毫无余地——「The Memorial is open to the public at all times when ' +
+          'The Franklin Institute is open, and no admission fee is required.」</strong>' +
+          '这不是善意，是法律义务：<strong>1972 年美国国会以 Public Law 92-551 把它定为' +
+          '正式的国家级 Benjamin Franklin 纪念堂</strong>（1976 年 4 月 12 日由副总统 Nelson Rockefeller 主持落成典礼），' +
+          '<strong>它是 National Park System 的 affiliated area，由 Franklin Institute 自费运营，' +
+          '而 1973 年与 NPS 签的备忘录里明文要求「admit the public, free of charge, to the Memorial」</strong>。' +
+          '<strong>→ 也就是说，$29 的门票买的是展厅，不包括这个房间；' +
+          '不想花钱、或者只有二十分钟的读者，可以只进罗通达看完就走。</strong>',
+        '<strong>那个房间本身值得一看，它不是走廊，是一座仿罗马万神殿的方形大厅。</strong>' +
+          '<strong>1938 年落成，建筑师 John T. Windrim 按 Pantheon 的比例做</strong>，' +
+          '<strong>长、宽、高都是 82 英尺（三个方向同数，所以站进去会有一种异常的方正感）</strong>，' +
+          '<strong>穹顶是自承重结构、重 1,600 吨</strong>，地面、墙面、柱子与檐口用的是葡萄牙、意大利与法国的稀有大理石。' +
+          '中央那尊 <strong>James Earle Fraser 雕的 Franklin 坐像高 20 英尺、用白色 Seravezza 大理石、重 30 吨，' +
+          '底座是 92 吨的葡萄牙 Rose Aurora 纹理大理石</strong>。' +
+          '<strong>2026 年新增了一个叫「Franklin\'s Spark」的项目：自 2026 年 1 月 17 日起，' +
+          '罗通达每小时会用投影、灯光与声音整体变换一次，做成一场沉浸式的穹顶秀</strong>' +
+          '（由 Ed Satell 与 The Satell Family Foundation 赞助）。' +
+          '<strong>如果只进免费的罗通达，就掐着整点进去。</strong>',
+        '<strong>付费部分的定位要说清楚：这是一座「动手玩」的科学馆，不是看藏品的博物馆，' +
+          '它的主要客群是带小孩的家庭。</strong>' +
+          '<strong>门票含三层互动展厅、Fels Planetarium 的天象秀、每日的现场科学演示' +
+          '与 Holt &amp; Miller Observatory</strong>（官方 Admission Includes 四项，2026 年 9 月 15 日核实）。' +
+          '<strong>常设展厅（2026 年 9 月 15 日于官网逐条核对）：Wondrous Space（两层高的沉浸式太空展）、' +
+          'Body Odyssey（围着那颗可以走进去的 Giant Heart 新做的人体展）、' +
+          'Hamilton Collections Gallery（围着 Baldwin 60000 蒸汽机车布置的馆藏珍品）、' +
+          'Your Brain、SportsZone、Sir Isaac\'s Loft、Amazing Machine、Brick Play Space（乐高）。</strong>' +
+          '<strong>反过来说，如果同行没有小孩、也不对动手实验感兴趣，' +
+          '那么这 $29 的价值会明显低于同一条大道上的 Barnes 或美术馆</strong>——' +
+          '这一点本手册不替读者美化。',
+        '<strong>那颗 Giant Heart 是费城本地人的集体记忆，不是普通展品。</strong>' +
+          '<strong>半个多世纪以来「走一遍巨型心脏」是费城小孩的成年礼</strong>，' +
+          '现在它被包在 2020 年代新做的 Body Odyssey 里，' +
+          '<strong>能走进心脏、能爬过一段巨型动脉、能看到鲸鱼的心脏有多大</strong>，' +
+          '并且<strong>每天有真实的心脏与眼球解剖现场演示</strong>（在专门的演示空间里）。' +
+          '地面上还铺了一张号称全世界最大的费城地图。' +
+          '<strong>带孩子来的话，这一处是整馆第一顺位，不要放到最后。</strong>',
+        '<strong>一个容易踩空的季节性事实：撑起 2026 年上半年客流的那个特展已经结束了。</strong>' +
+          '<strong>「Universal Theme Parks: The Exhibition」于 2026 年 9 月 7 日闭展</strong>，' +
+          '它当时附带的<strong>周四至周六 17:00–20:00 延时开放（最后入场票 18:30）也随之结束</strong>；' +
+          '<strong>2026 年 9 月 15 日复核官网，Exhibits &amp; Experiences 页已不再列出该展，' +
+          '常规时间恢复为每日 9:30–17:00。</strong>' +
+          '<strong>→ 秋季来的读者请按「17:00 关门、没有夜场」来安排，不要照抄 2026 年夏天的攻略。</strong>' +
+          '（另：官方仍不定期举办 21 岁以上的 Science After Hours 夜场，需单独购票，排期见 fi.edu。）'
+      ],
+      tour: [
+        '<strong>动线上第一个决定是「买不买票」，而这个决定可以进门之后再做。</strong>' +
+          '<strong>主入口在 222 North 20th Street（在馆前大台阶右侧的平街入口），' +
+          '进门先走进罗通达看 Franklin 坐像——这一段不需要票、不需要安检排长队。</strong>' +
+          '只有小孩、或确实想玩互动展厅的人才需要往里买票。' +
+          '<strong>买票就一定要线上先买：官方自己写「Skip the lines: Buy tickets in advance」</strong>，' +
+          '现场窗口在周末与假日会排队；<strong>会员不收服务费。</strong>',
+        '<strong>时段是这一站最重要的一条：工作日请排在 14:00 之后。</strong>' +
+          '<strong>官方原文「There is a higher volume of group visits on weekdays before 2:00 pm. ' +
+          'For a more relaxed experience, we recommend planning your weekday visit after 2:00 pm.」</strong>' +
+          '——也就是说<strong>工作日上午整馆被校车与团体占满，这是官方主动承认的。</strong>' +
+          '<strong>而周末没有校车，反而是 9:30 一开门的第一小时最空。</strong>' +
+          '换句话说：<strong>工作日来就下午到，周末来就一开门到，两者都不要选工作日上午。</strong>' +
+          '<strong>它每日开放、秋季没有任何闭馆日</strong>' +
+          '（全年只闭 New Year\'s Day、Thanksgiving、Christmas Eve 与 Christmas Day），' +
+          '<strong>所以在周二、周三这两个「Parkway 死日」里，它是这一区最有用的备选。</strong>',
+        '<strong>带小孩的三小时最优顺序：Body Odyssey 的 Giant Heart → Wondrous Space → ' +
+          '一场 Fels Planetarium 天象秀 → Sir Isaac\'s Loft 或 SportsZone → 罗通达。</strong>' +
+          '理由：<strong>Giant Heart 与 Wondrous Space 是全馆两个人流最集中的展区，先做掉；' +
+          '天象秀是定时场次（60 英尺穹顶，含在门票内），进馆时先在入口的排期板上把场次记下来，' +
+          '再倒推安排前面两站</strong>，否则很容易玩到下午发现今天最后一场已经放完了。' +
+          '<strong>Holt &amp; Miller Observatory 里那台 10 英寸 Carl Zeiss 折射望远镜是全馆体积最大的历史文物之一，' +
+          '顺路一定要上去看一眼</strong>（是否能实际观测取决于天气与当日排班）。',
+        '<strong>没有小孩的成年读者，把三小时压成一小时的走法：罗通达（免费）→ ' +
+          'Hamilton Collections Gallery → Amazing Machine，其余全部跳过。</strong>' +
+          '<strong>Hamilton Collections Gallery 是围着 Baldwin 60000 布置的</strong>——' +
+          '那是一台 1926 年费城 Baldwin 机车厂造的实验性蒸汽机车，就停在馆内的地板上，' +
+          '<strong>周围陈列的是本馆库藏里的稀有器物</strong>（本馆的藏品史可以上溯到 1824 年建馆）。' +
+          '<strong>Amazing Machine 把馆藏的老机械与日常用品并置，是这栋楼里最不「儿童化」的一个展区。</strong>' +
+          '<strong>而 SportsZone、Brick Play Space 与 Your Brain 对成年人基本没有信息量，可以直接跳过。</strong>',
+        '<strong>票价结构里有一条容易漏掉的便宜：65 岁以上免费。</strong>' +
+          '<strong>官方价目表上「Seniors 65+」一栏写的是 Free</strong>（2026 年 9 月 15 日于 fi.edu/en/plan-your-visit 核实），' +
+          '而成人 $29、13–17 岁 $25、3–12 岁 $23、2 岁及以下免费。' +
+          '<strong>这与这一区其他场馆完全不同（美术馆老年票 $28、Barnes $28），' +
+          '带长辈同行的话这一站的实际支出会低得多。</strong>' +
+          '<strong>15 人以上团体另有折扣，需事先联系。</strong>',
+        '<strong>实务：婴儿车、停车与吃饭。</strong>' +
+          '<strong>官方明文「Strollers are welcome in the museum」，推车可以直接进展厅</strong>，' +
+          '这在这一条大道上是少见的宽松（Barnes 要求超大婴儿车必须寄存）。' +
+          '<strong>自有停车库在 271 North 21st Street（入口在 21st 与 Winter Street 路口），' +
+          '多层、有电梯直通馆内主中庭，每车 $25，会员减 $10，先到先得</strong>' +
+          '（2026 年 9 月 15 日核实）——' +
+          '<strong>$25 是这一区最贵的停车，但它是唯一能坐电梯直接进馆的，带小孩或推车时值这个钱。</strong>' +
+          '<strong>失物与一般咨询电话 215.448.1200。</strong>' +
+          '吃饭：<strong>馆内有餐饮设施，但秋季的具体档口与营业时间未能从官方渠道确认</strong>，' +
+          '稳妥的做法是走 270 米到 Barnes 的 Reflections Café（不需门票即可用餐），' +
+          '或就近在 20th／21st Street 一带解决。'
+      ],
+      photo: '建筑与室内 <strong>3.5/5</strong>，展品 <strong>2.5/5</strong>，风光 <strong>1/5</strong>。' +
+        '唯一真正好拍的是罗通达——82 英尺见方、仿万神殿的对称空间加一尊 20 英尺白大理石坐像，' +
+        '而且不需要门票；互动展厅光线杂乱、以人为主体，拍出来意义不大。',
+      shots: [
+        {
+          name: '罗通达中轴仰拍 Franklin 坐像（免费区）',
+          view: [39.95824, -75.17308],
+          desc: '<strong>坐标为 OSM 的 Franklin Institute 建筑轮廓中心（way/50189935）；' +
+            '罗通达在主入口内、该多边形内部，无独立 OSM 实体，地图针脚落在楼体上是正常的。</strong>' +
+            '<strong>这个空间长宽高都是 82 英尺，所以对称构图是唯一正确的解法</strong>：' +
+            '<strong>站上中轴、用 20–24mm 正对坐像垂直上仰</strong>，' +
+            '能把柱列、檐口与自承重穹顶一起收进来，坐像的白大理石在画面中央形成绝对的亮部。' +
+            '<strong>参数：室内为人工照明加少量天光，ISO 1600–3200、f/2.8、1/60–1/125，' +
+            '白平衡固定 3400–4000K</strong>（多彩大理石在自动白平衡下会偏色）。' +
+            '<strong>85–135mm 单抽头部与手部的大理石质感</strong>是第二张。' +
+            '<strong>时段：整点前后会启动「Franklin\'s Spark」的投影与灯光变换（2026 年 1 月 17 日起）</strong>，' +
+            '<strong>想拍干净的大理石原貌就避开整点，想拍投影效果就掐着整点到。</strong>' +
+            '<strong>三脚架：官方未公布游客三脚架政策，未能从官方渠道确认</strong>，' +
+            '这里是免票公共通道且人流不断，建议一律手持。'
+        },
+        {
+          name: '20th Street 一侧的立面与馆前大台阶（外景）',
+          desc: '<strong>无独立 OSM 实体，地图无针脚（站位在 20th Street 与 Benjamin Franklin Parkway 交口的人行道上）。</strong>' +
+            '<strong>主立面朝 20th Street（大致朝东，法向约 99°，由费城街网偏转 9° 推算；此朝向为推算）</strong>，' +
+            '所以<strong>受光区间约为太阳方位 9°–189°，即从日出到正午前后，最佳 08:00–10:00</strong>' +
+            '（低角度光斜擦过柱廊，台阶有长影）；下午整面墙转入阴面。' +
+            '<strong>焦段 24–35mm 拍「大台阶＋柱廊」的完整关系</strong>，' +
+            '<strong>50mm 从街对面压缩立面</strong>。' +
+            '这是公共人行道，三脚架自由，但 20th Street 车流不小，不要站到路缘外。' +
+            '<strong>说实话这栋楼的外观在这一区里排不上号</strong>，' +
+            '真要拍就把它当 Logan Circle 环岛全景的一角，而不是单独的题材。'
+        }
+      ],
+      access: {
+        visit: '<strong>3–4 小时（带小孩）；成年人只看重点 60–90 分钟；只进免费的罗通达 15–20 分钟。</strong>' +
+          '分配建议（带小孩）：<strong>Body Odyssey 与 Giant Heart 45 分钟 ＋ Wondrous Space 40 分钟 ＋ ' +
+          'Fels Planetarium 一场天象秀约 30 分钟 ＋ Sir Isaac\'s Loft／SportsZone 40 分钟 ＋ ' +
+          '罗通达 15 分钟</strong>。' +
+          '成年人版：<strong>罗通达 15 分钟 ＋ Hamilton Collections Gallery 与 Baldwin 60000 25 分钟 ＋ ' +
+          'Amazing Machine 20 分钟</strong>。' +
+          '<strong>官方没有公布建议参观时长（2026 年 9 月 15 日复核 Plan Your Visit 页），' +
+          '以上按「三层互动展厅 ＋ 8 个常设展区 ＋ 定时天象秀」的规模推算。</strong>' +
+          '<strong>这是这一区唯一一个能撑满半天以上的场馆，把它和 Barnes 排在同一天会太挤。</strong>',
+        book: '<strong>罗通达的 Benjamin Franklin National Memorial 不需票、不需预约</strong>，' +
+          '只要博物馆开门就能进（官方原文「no admission fee is required」）。' +
+          '<strong>展厅部分建议线上先买票</strong>（官方原文「Skip the lines: Buy tickets in advance」），' +
+          '现场也可买；<strong>会员不收服务费，可线上或电话 215-448-1200 订。</strong>' +
+          '<strong>Fels Planetarium 的天象秀与每日现场科学演示都含在门票内、不需另约</strong>，' +
+          '但是定时场次，进馆时先看入口的排期。' +
+          '15 人以上团体有折扣，需另行联系。',
+        ticket: '官方价目（fi.edu/en/plan-your-visit，<strong>2026 年 9 月 15 日逐条核实</strong>）：' +
+          '<strong>成人（18+）$29、13–17 岁 $25、3–12 岁 $23、2 岁及以下免费、' +
+          '65 岁及以上免费、会员免费</strong>。' +
+          '<strong>门票含三层互动展厅、Fels Planetarium 天象秀、每日现场科学演示与 Holt &amp; Miller Observatory。</strong>' +
+          '<strong>「65+ 免费」这一条与这一区其他场馆差别很大，值得特别记住</strong>' +
+          '（同一条大道上美术馆老年票 $28、Barnes $28、Rodin 建议价 $14）。' +
+          '<strong>罗通达的国家纪念堂全时段免费，这是法定义务而非优惠。</strong>' +
+          '<strong>Universal Theme Parks: The Exhibition 这一档另收费的特展已于 2026 年 9 月 7 日闭展</strong>，' +
+          '秋季没有需要加钱的特展在展。',
+        hours: '官方原文（fi.edu/en/plan-your-visit，<strong>2026 年 9 月 15 日核实</strong>）：' +
+          '<strong>「Open daily from 9:30 am - 5:00 pm.」' +
+          '「Closed New Year\'s Day, Thanksgiving Day, Christmas Eve, and Christmas Day.」</strong>' +
+          '→ <strong>每日开放，秋季没有任何每周闭馆日；这是它在这一区最大的排程价值</strong>' +
+          '（周二与周三美术馆、Barnes、Rodin 三家同时闭馆时，它照常开）。' +
+          '<strong>Benjamin Franklin National Memorial 的开放时间与博物馆完全同步' +
+          '（官方原文「open to the public at all times when The Franklin Institute is open」）。</strong>' +
+          '<strong>2026 年夏季那套周四至周六 17:00–20:00 的延时开放是随 ' +
+          'Universal Theme Parks: The Exhibition 走的，该展 9 月 7 日闭展后延时随之结束，' +
+          '秋季请按 17:00 关门计算。</strong>' +
+          '另有面向 21 岁以上的 Science After Hours 夜场，<strong>为不定期活动、需单独购票</strong>，' +
+          '具体日期见 fi.edu 的 Seasonal Events。',
+        parking: '<strong>自有多层停车库：271 North 21st Street，入口在 21st 与 Winter Street 路口</strong>' +
+          '（官方 GPS 地址同此）。' +
+          '<strong>官方费率 $25／车，Franklin Institute 会员减 $10；先到先得、车位有限</strong>' +
+          '（2026 年 9 月 15 日于官网 Getting Here 页核实）。' +
+          '<strong>它有电梯直通馆内主中庭，是这一区唯一能不淋雨、不爬台阶直接进馆的车库</strong>，' +
+          '带婴儿车或轮椅时这一点比 $25 的价差重要。' +
+          '路边另有计时表位（19th、20th、21st Street 一带），秋季周末极难找。' +
+          '公共交通：<strong>SEPTA 巴士 7、32、33、38、48 路均在一两个街区内</strong>，' +
+          '地下的 Market–Frankford Line 与地面电车在 Market Street 下方通行，' +
+          'Suburban Station 是最近的区域铁路站；车库内有自行车架，' +
+          '21st &amp; Winter 与 20th &amp; Race 各有一个 Indego 共享单车站。',
+        walk: '本条目与整条 Parkway 的距离（由 OSM 坐标算得）：' +
+          '<strong>到 Swann Memorial Fountain 约 215 米 / 3 分钟</strong>（方位 99°，就在 Logan Circle 西北角外）；' +
+          '<strong>到 Academy of Natural Sciences 约 220 米 / 3 分钟</strong>（方位 136°，两馆应当合并成一站考虑）；' +
+          '<strong>到 The Barnes Foundation 约 270 米 / 4 分钟</strong>（方位 7°）；' +
+          '<strong>到 Cathedral Basilica 约 400 米 / 5 分钟</strong>（方位 104°）；' +
+          '<strong>到 Rodin Museum 约 420 米 / 5 分钟</strong>（方位 350°）；' +
+          '<strong>到 Philadelphia Museum of Art 约 1.06 公里 / 13 分钟</strong>（方位 321°，沿 Parkway 西北行）。' +
+          '<strong>另：Calder Gardens 就在本馆西北侧，官方把自己的 271 N 21st Street 车库' +
+          '列为 Calder Gardens 最近的无障碍停车点</strong>，两处可以共用一次停车。' +
+          '从主入口进门到罗通达不足 30 米。'
+      },
+      notes: [
+        '<strong>本条目最重要的一条：罗通达里的 Benjamin Franklin National Memorial 不需门票。</strong>' +
+          '官方原文「open to the public at all times when The Franklin Institute is open, ' +
+          'and no admission fee is required」，这是 1973 年与 NPS 签的备忘录里的法定义务',
+        '<strong>65 岁及以上免费</strong>（官方价目表逐字），' +
+          '成人 $29、13–17 岁 $25、3–12 岁 $23、2 岁及以下免费。' +
+          '带长辈同行时这一站的实际支出远低于同街的 Barnes 与美术馆',
+        '<strong>工作日 14:00 之前是校车与团体的时段，官方自己建议避开</strong>；' +
+          '<strong>周末则是 9:30 一开门最空</strong>。工作日上午是最差的选择',
+        '<strong>每日开放、秋季无闭馆日</strong>——' +
+          '周二与周三美术馆、Barnes、Rodin 三家同时闭馆时，这里是这一区最靠得住的替代',
+        '<strong>2026 年夏天的周四至周六延时开放已结束</strong>' +
+          '（随 Universal Theme Parks: The Exhibition 于 9 月 7 日闭展）。' +
+          '秋季按每日 17:00 关门计算，不要照抄旧攻略',
+        '<strong>Fels Planetarium 天象秀含在门票内但是定时场次</strong>，' +
+          '进馆先记下当日排期再安排动线，否则容易错过最后一场',
+        '<strong>婴儿车可以直接推进展厅</strong>（官方明文），这在这条大道上是少见的宽松',
+        '<strong>停车 $25／车（会员减 $10），是本区最贵的一处</strong>，' +
+          '但车库有电梯直通馆内主中庭，带小孩或推车时值这个价',
+        '<strong>游客三脚架政策官方未公布，未能从官方渠道确认</strong>——' +
+          '罗通达是免票公共通道且人流不断，建议一律手持',
+        '<strong>本条目为独立非营利机构（国家纪念堂部分为 NPS affiliated area，' +
+          '由本馆自费运营、不动用联邦拨款），不受联邦停摆影响</strong>'
+      ],
+      images: [
+        { url: 'img/philadelphia-october-2017-10-the-franklin-institute-990579e6.jpg',
+          cap: '20th Street 一侧的立面与馆前大台阶 · Michael Barera / CC BY-SA 4.0' },
+        { url: 'img/benjamin-franklin-national-memorial-statue-view-from-bottom-148cfdc6.jpg',
+          cap: '罗通达内 20 英尺高的 Franklin 大理石坐像（免票可进，即主机位视角） · Jason Zhang / CC0' },
+        { url: 'img/henri-maillardet-automaton-london-england-c-1810-franklin-in-a82fdfbc.jpg',
+          cap: 'Henri Maillardet 约 1810 年的自动书写人偶（本馆藏品） · Daderot / Public domain' }
+      ]
+    },
+    {
+      id: 'academy-of-natural-sciences',
+      n: 7,
+      name: '自然科学院',
+      en: 'Academy of Natural Sciences of Drexel University',
+      must: 3,
+      score: 2,
+      tldr: '全美洲最老的自然史博物馆（1812），世界第一具装架恐龙骨架就在这里；但 2026 年起只开周五至周日。',
+      tags: [
+        { t: '只开周五至周日', c: 'risk' },
+        { t: '线上 $20 / 现场 $22', c: 'paid' },
+        { t: '世界第一具装架恐龙', c: 'free' },
+        { t: '馆内咖啡厅已关闭', c: 'risk' }
+      ],
+      highlights: [
+        '<strong>先说 2026 年最关键的一条约束，写在最前面免得白跑：它现在只在周五、周六、周日对公众开放，' +
+          '每天 10:00–17:00。</strong>' +
+          'ansp.org/visit 的 Hours 一栏只写<strong>「Friday-Sunday 10 a.m.–5 p.m.」</strong>' +
+          '（2026 年 9 月 15 日核实，当天为周二，官网页脚显示「Today\'s Hours: Closed」）。' +
+          '<strong>周一到周四整馆不对散客开放，只留给学校团体与特别活动。</strong>' +
+          '<strong>这与这一区其他场馆的闭馆规律完全不同，也意味着它救不了周二、周三那两个「Parkway 死日」' +
+          '——那两天这里同样进不去。</strong>' +
+          '另有<strong>Sensory Friendly Mornings（感官友好时段）在部分周末日 9:00–11:00</strong>，' +
+          '对声光敏感的访客可以查排期。',
+        '<strong>这里真正独一无二的东西是一具恐龙：世界上第一具向公众装架展出的恐龙骨架就在本馆，' +
+          '而且它 2025 年夏天刚回到常设展厅。</strong>' +
+          '<strong>Hadrosaurus foulkii（本地昵称「Haddy」）1858 年由律师 William Parker Foulke ' +
+          '在 New Jersey 的 Haddonfield 挖出</strong>，是当时全世界最完整的恐龙化石；' +
+          '本馆馆长 <strong>Joseph Leidy 命名并首次描述了它</strong>，' +
+          '英国艺术家 <strong>Benjamin Waterhouse Hawkins 在 Leidy 指导下于 1868 年完成装架</strong>——' +
+          '<strong>「先把骨头立起来让公众围观」这个做法就是从这里开始的，' +
+          '之后 Princeton、Chicago 与 Smithsonian 立刻下单要复制品。</strong>' +
+          '<strong>一个很能说明当年轰动程度的细节：Haddy 的展出引来的人太多，' +
+          '逼得本馆第一次开始收门票，票价一毛钱（十美分）。</strong>' +
+          '（另：Hadrosauridae 这个科名是本馆的 Edward Drinker Cope 于 1869 年立的。）' +
+          '现在展出的这一具是 2008 年按当代解剖学认识重做的版本，' +
+          '<strong>2020 年起入库，修复后于 2025 年夏季永久回到 Dinosaur Hall。</strong>',
+        '<strong>机构本身的分量比展厅规模大得多：1812 年由一群业余博物学家创办，' +
+          '是全美洲最古老的自然史博物馆</strong>，' +
+          '<strong>现藏逾 1,900 万件标本</strong>，1876 年迁到现址（当时 Benjamin Franklin Parkway 还不存在，' +
+          '这栋楼原本是朝 19th 与 Race Street 的）。' +
+          '<strong>它最被低估的贡献不在恐龙而在水：本馆科学家的研究直接参与塑造了 1972 年的 Clean Water Act</strong>' +
+          '（官方自述原文提到该法「was developed with critical input from Academy scientists」）。' +
+          '2011 年起并入 Drexel University。' +
+          '<strong>这些背景决定了这一站的性质：它是一座「有历史的研究机构顺带办的展厅」，' +
+          '不是一座为游客设计的现代科学馆</strong>——展陈偏老派，' +
+          '但那些老派的东西（尤其是三层楼的手工立体景箱）恰恰是别处看不到的。',
+        '<strong>常设展只有六个，半天绝对够，不要按大馆预留时间</strong>' +
+          '（2026 年 9 月 15 日于 ansp.org/experience/exhibits 逐条核对）：' +
+          '<strong>Dinosaur Hall（逾 30 具恐龙与中生代爬行动物）、' +
+          'The Big Dig（可以动手挖化石）、' +
+          'Outside In（儿童探索中心，有活体动物近距离接触）、' +
+          'Dioramas（横跨三层楼的世界野生动物立体景箱）、' +
+          'Secrets of the Diorama（讲这些景箱里的植物、动物与背景画是怎么做出来的）、' +
+          'Gallery Highlights</strong>。' +
+          '<strong>另有两个有明确档期的：featured 展「Botany of Nations」' +
+          '（原住民植物知识与文化传统）与户外的「Native Plants on the Parkway」花园，' +
+          '两者都展到 2027 年 2 月 14 日。</strong>' +
+          '<strong>Secrets of the Diorama 是最容易被忽略、又最值得看的一个</strong>：' +
+          '看过它再回头看那些景箱，会从「标本陈列」变成「一门手艺的展览」。',
+        '<strong>一条必须核实清楚的落差：那个著名的活体蝴蝶馆「Butterflies!」' +
+          '在 2026 年 9 月 15 日的官方 Exhibits 页上已经不再列出。</strong>' +
+          '<strong>而多家第三方 2026 年版指南仍然把它当成常设展在宣传</strong>' +
+          '（「热带蝴蝶会停在身上」这类描述），甚至把它写进「必看清单」。' +
+          '<strong>官方既没有公布它结束，也没有把它列在在展清单里，' +
+          '所以它是否仍在运营未能从官方渠道确认。</strong>' +
+          '<strong>→ 如果蝴蝶馆是带小孩来的主要理由，请出发前直接打 215-299-1000 问当日是否开放，' +
+          '不要照着第三方清单做决定。</strong>' +
+          '这一条也是本区最典型的「第三方攻略滞后于官网」的例子。'
+      ],
+      tour: [
+        '<strong>第一件事是对日历：只有周五、周六、周日能进，10:00–17:00。</strong>' +
+          '<strong>其次是买票方式：线上买每张便宜 $2</strong>（官方原文「Save $2 when you purchase your tickets online」），' +
+          '<strong>也就是成人现场 $22／线上 $20、2–12 岁现场 $18／线上 $16、' +
+          '65 岁以上与军人、学生现场 $19／线上 $17</strong>（2026 年 9 月 15 日核实）。' +
+          '<strong>Drexel 校卡持有者免费，但这一档只能现场办、线上没有。</strong>' +
+          '<strong>周末 10:00 一开门的第一小时是全天最空的时段</strong>——' +
+          '因为周一至周四不开散客，所有家庭客流都被压到这三天，' +
+          '<strong>周六日的午后（13:00–15:00）是最挤的。</strong>',
+        '<strong>动线：直接上 Dinosaur Hall，先把 Haddy 找到，再按楼层往下走。</strong>' +
+          '<strong>Dinosaur Hall 里有逾 30 具恐龙与中生代爬行动物，包括一具 T. rex</strong>，' +
+          '而真正该花时间的是那具 <strong>Hadrosaurus foulkii</strong>——' +
+          '<strong>站在它面前时值得想一件事：1868 年之前，全世界没有任何人见过一具立起来的恐龙骨架，' +
+          '这具（的前身）是第一具。</strong>' +
+          '<strong>同层还有 Fossil Prep Lab，可以从玻璃外看古生物学家真的在清理化石</strong>' +
+          '（有人值班时才看得到，没有固定排班）。' +
+          '<strong>接着看三层楼的 Dioramas，然后一定要去 Secrets of the Diorama</strong>：' +
+          '它讲那些背景画与标本是怎么做的，看完再回头看景箱，体验完全不同。',
+        '<strong>带小孩的话，把重心从恐龙移到另外两处，那里才是孩子真正能玩的地方：</strong>' +
+          '<strong>① The Big Dig</strong>——可以拿工具在沙里挖出复制化石，' +
+          '<strong>② Outside In</strong>——室内儿童探索中心，' +
+          '<strong>有蛇、龟、箭毒蛙一类活体动物，且有工作人员现场讲解、可以近距离接触。</strong>' +
+          '<strong>另外官方有一个完全免费的 Kids Club 集章活动（12 岁及以下）</strong>：' +
+          '到任一售票台当场登记领卡，在<strong>售票台、The Big Dig、各处「Ask Me About!」讲解站与 Outside In</strong>' +
+          '共八个点盖满八个章，拿到 Parkway 售票台（商店旁）换奖品。' +
+          '<strong>这个活动不含门票、只是免费附加项，但它能把一个半小时的参观变成两小时的寻宝，' +
+          '带孩子的读者进门就去登记。</strong>',
+        '<strong>可以跳过与必须核实的：Gallery Highlights 与「Botany of Nations」按兴趣取舍</strong>' +
+          '（后者是展到 2027 年 2 月 14 日的 featured 展，主题是原住民的植物知识，' +
+          '配套还有一个同名的户外原生植物花园，在馆外 Parkway 一侧，不需门票就能看）。' +
+          '<strong>而那个被各路第三方指南反复宣传的活体蝴蝶馆「Butterflies!」，' +
+          '在 2026 年 9 月 15 日的官方在展清单上已经找不到了</strong>——' +
+          '<strong>是否仍在运营未能从官方渠道确认，出发前请打 215-299-1000 问清。</strong>' +
+          '<strong>如果它确实已经撤展，那么这一站对学龄前儿童的吸引力会下降不少，' +
+          '同一条街上 The Franklin Institute 的性价比会更高。</strong>',
+        '<strong>吃饭这一条必须提前知道，很多人被坑：馆内的 Academy Cafe 已经关闭，' +
+          '现在只有自动售货机。</strong>' +
+          '官方原文「Vending machines are available on the ground level near the 19th Street Lobby ' +
+          'in the former Academy Cafe. Please note that the Academy Cafe is closed.」' +
+          '<strong>→ 这里解决不了一顿饭。</strong>' +
+          '<strong>官方允许自带午餐并设有指定的用餐区</strong>，带孩子的家庭可以自备；' +
+          '要正经吃饭就走 440 米到 Barnes 的 Reflections Café，或到 20th／21st Street 一带。' +
+          '<strong>寄存：一楼礼堂入口对面有一间 coatroom，但官方明写「at your own risk」，贵重物品别放。</strong>' +
+          '<strong>免费 Wi-Fi 的网络名是「ansguest」</strong>，' +
+          '官网另提供可下载的馆内地图，进门前存一份。',
+        '<strong>省钱的三条，其中两条在这一区独有：</strong>' +
+          '<strong>① Museums for All／Art-Reach ACCESS：宾州 ACCESS／EBT／SNAP 与 Art-Reach ACCESS 持卡人' +
+          '每人 $2，且可带最多 3 位同行者</strong>（须出示卡与带照片的身份证明，正常开放时段有效，不与其他优惠叠加）；' +
+          '<strong>② ASTC Passport：如果持有费城地区以外某家科技或科学博物馆的会员卡，' +
+          '可能符合 ASTC 互惠计划的免费入场资格</strong>——' +
+          '这一条对从外地来、家里已有科学馆会员的读者很实用，值得出发前查一下自己那张卡；' +
+          '<strong>③ STAMP：费城本地高中生持 STAMP 通行证免费。</strong>' +
+          'Philadelphia CityPASS 与 The Philadelphia Pass 也都包含本馆。'
+      ],
+      photo: '展厅与标本 <strong>2/5</strong>，建筑 <strong>2/5</strong>，风光 <strong>1/5</strong>。' +
+        '这是一个「必去价值高于摄影价值」的典型条目：展厅照度低、以玻璃柜与景箱为主，玻璃反光几乎无法回避；' +
+        '唯一耐拍的是三层楼的手工立体景箱与恐龙骨架的局部。',
+      shots: [
+        {
+          name: 'Dinosaur Hall 与立体景箱（室内）',
+          view: [39.95683, -75.17128],
+          desc: '<strong>坐标为 OSM 的 Academy of Natural Sciences of Drexel University 建筑轮廓中心' +
+            '（way/336855435）；各展厅在该多边形内部，无独立 OSM 实体，针脚落在楼体上是正常的。</strong>' +
+            '<strong>这里的难点不是光而是玻璃。</strong>' +
+            '景箱与展柜全部封玻璃，' +
+            '<strong>唯一有效的办法是把镜头前沿贴到玻璃上、用橡胶遮光罩顶住消除反射</strong>，' +
+            '离开玻璃十厘米就会把整个展厅的顶灯收进画面。' +
+            '<strong>参数：ISO 3200–6400、f/2.8、1/40–1/80，白平衡固定 3000–3600K</strong>' +
+            '（景箱内是暖色人工光，自动白平衡会在每个箱子之间乱跳）。' +
+            '<strong>焦段：35mm 拍整座景箱的构图（那些背景画本身就是绘画作品，值得当画来拍），' +
+            '85–135mm 单抽恐龙骨架的头骨与肋架</strong>。' +
+            '<strong>Dinosaur Hall 顶光偏硬，从侧下方仰拍能避开天花板的反光带。</strong>' +
+            '<strong>三脚架政策官方未公布，未能从官方渠道确认</strong>——' +
+            '这是一座以家庭客为主、动线狭窄的馆，建议一律手持。' +
+            '（参考：Commons 上多位摄影者注明在馆内部分区域「photography was permitted ' +
+            'without restrictions」，但那是个别区域的现场告示，不是全馆政策。）'
+        },
+        {
+          name: '19th Street 与 Parkway 交口的馆舍外观',
+          desc: '<strong>无独立机位 OSM 实体，地图无针脚（站位在 19th Street 与 Benjamin Franklin Parkway 交口的人行道上）。</strong>' +
+            '<strong>这栋 1876 年的馆舍最好的角度是从 Logan Circle 一侧回望</strong>，' +
+            '能把它与 Parkway 的行道树一起收进去；' +
+            '<strong>它本身不是这一区有竞争力的建筑题材</strong>（旁边就是 Cathedral 的铜穹顶与 Franklin Institute 的柱廊），' +
+            '所以不必单独为它安排时段。' +
+            '<strong>顺路可以拍馆外那片「Native Plants on the Parkway」原生植物花园（展到 2027 年 2 月 14 日）</strong>，' +
+            '<strong>十月中下旬观赏草与宿根植物进入枯黄期，低角度侧光下反而比盛花期好看</strong>，' +
+            '50–135mm 压缩拍草穗的逆光是这里唯一值得专门做的一张。三脚架自由。'
+        }
+      ],
+      access: {
+        visit: '<strong>2–3 小时；只看重点 60–75 分钟。</strong>' +
+          '分配建议：<strong>Dinosaur Hall 与 Fossil Prep Lab 40 分钟 ＋ ' +
+          '三层楼的 Dioramas 与 Secrets of the Diorama 40 分钟 ＋ ' +
+          'Outside In 与 The Big Dig 40 分钟（带小孩另加 30 分钟）＋ ' +
+          'Botany of Nations 20 分钟</strong>。' +
+          '<strong>只看世界第一具装架恐龙与那批立体景箱两处，60 分钟够。</strong>' +
+          '<strong>官方没有公布建议参观时长（2026 年 9 月 15 日复核 ansp.org/visit），' +
+          '以上按六个常设展区与三个楼层的规模推算；第三方旅行资料给的典型时长是 2–3 小时，与此一致。</strong>' +
+          '<strong>它与 The Franklin Institute 只隔 220 米，但两馆加起来是满满一天' +
+          '（Franklin Institute 本身就要 3–4 小时），不建议同一天硬塞。</strong>',
+        book: '<strong>不需预约，但线上买票每张便宜 $2</strong>（官方原文「Save $2 when you purchase ' +
+          'your tickets online」），且能免掉周末排队。' +
+          '<strong>Philadelphia CityPASS 持卡人不需预约，直接在售票台出示即可按下一个可入场时段进场。</strong>' +
+          '<strong>Drexel DragonCard 的免费入场与 Kids Club 的登记都只能现场办，线上没有入口。</strong>' +
+          '十人以上团体、学校与夏令营须提前安排（官方另有 Field Trips 与 Self-guided Experiences 两套方案）。' +
+          '<strong>Sensory Friendly Mornings 在部分周末日 9:00–11:00，具体日期见 ansp.org 排期。</strong>',
+        ticket: '官方价目（ansp.org/visit，<strong>2026 年 9 月 15 日逐条核实</strong>）：' +
+          '<strong>现场 成人（13 岁及以上）$22、2–12 岁 $18、2 岁以下免费、' +
+          '65 岁以上 $19、军人与学生（凭证件）$19；线上买每张减 $2</strong>' +
+          '（即成人 $20、儿童 $16、老年／军人／学生 $17）。' +
+          '<strong>Drexel DragonCard 持卡人免费（仅现场）、会员免费。门票含全部展览。</strong>' +
+          '<strong>大幅减免（这一区独有的两条）：' +
+          'Museums for All 与 Art-Reach ACCESS——宾州 ACCESS／EBT／SNAP 及 Art-Reach ACCESS 持卡人' +
+          '每人 $2，并可带最多 3 位同行者（须出示卡与带照片的身份证明，不与其他优惠叠加）；' +
+          'ASTC Passport——持费城地区以外其他科学／科技博物馆会员卡者可能获得免费入场资格。</strong>' +
+          '<strong>STAMP：费城高中生凭通行证免费。</strong>' +
+          'Philadelphia CityPASS 与 The Philadelphia Pass 均包含本馆。' +
+          '<strong>馆外的 Native Plants on the Parkway 花园在人行道一侧，不需门票。</strong>',
+        hours: '官方原文（ansp.org/visit，<strong>2026 年 9 月 15 日核实</strong>）：' +
+          '<strong>「Friday-Sunday 10 a.m.–5 p.m.」</strong>，' +
+          '另注明<strong>「Sensory Friendly Mornings — Select Weekend Days: 9 a.m. - 11 a.m.」</strong>。' +
+          '→ <strong>每周只开三天（周五、周六、周日），周一至周四不对散客开放</strong>' +
+          '（那几天留给学校团体与特别活动；2026 年 9 月 15 日为周二，官网页脚显示' +
+          '<strong>「Today\'s Hours: Closed」</strong>，与上述口径一致）。' +
+          '<strong>这是本区最严格的开放限制，也是本条目最容易踩空的一点：' +
+          '它不能用来填周二、周三这两个「Parkway 死日」。</strong>' +
+          '<strong>官方未在该页公布节假日特例，未能从官方渠道确认感恩节与圣诞期间的安排</strong>' +
+          '（总机 215-299-1000）。',
+        parking: '<strong>没有自有停车场。官方列出的邻近车库：' +
+          'Logan Square Garage（1815 Cherry Street）、Parkway Parking（1919 Arch Street）、' +
+          'SP+ Parking（1700 Benjamin Franklin Parkway）、113 N 19th Street Garage、' +
+          '以及 Franklin Institute Parking Garage（271 North 21st Street）</strong>。' +
+          '<strong>上述车库的费率官方均未公布，未能从官方渠道确认</strong>' +
+          '（可参考的唯一官方数字是 Franklin Institute 车库 $25／车）。' +
+          '<strong>路边有计时表位，其中部分周日免费——官方提示看标牌上有没有写「Except Sunday」</strong>，' +
+          '而本馆周日正好开门，这是一条真正省钱的细节。' +
+          '公共交通：<strong>三条 SEPTA 巴士在一个街区内——32 与 33 路南行走 19th Street，' +
+          '32 路北行走 18th Street、33 路北行走 20th Street，38 路在 20th Street 双向通行，' +
+          '48 路西行走 Arch Street</strong>；' +
+          'Market Street 下方有 Market–Frankford Line 与多条地面电车，' +
+          '<strong>Suburban Station 是最近的区域铁路站</strong>；本馆是 Philly PHLASH 的第 10 站。',
+        walk: '本条目与周边的距离（由 OSM 坐标算得）：' +
+          '<strong>到 Swann Memorial Fountain 约 140 米 / 2 分钟</strong>（方位 25°，就在 Logan Circle 对面）；' +
+          '<strong>到 The Franklin Institute 约 220 米 / 3 分钟</strong>（方位 315°）；' +
+          '<strong>到 Cathedral Basilica 约 240 米 / 3 分钟</strong>（方位 75°）；' +
+          '<strong>到 The Barnes Foundation 约 440 米 / 6 分钟</strong>（方位 344°）；' +
+          '<strong>到 Philadelphia Museum of Art 约 1.27 公里 / 16 分钟</strong>（方位 320°，沿 Parkway 西北行）。' +
+          '<strong>本馆、Franklin Institute、Swann 喷泉与 Cathedral 四个点全在 Logan Circle 周围 400 米内，' +
+          '是这一区唯一一处「四站挤在一个路口」的地方。</strong>' +
+          '入口在 19th Street 与 Parkway 交口，另有 19th Street Lobby 一侧的入口。',
+        accessibility: '官方称馆内对行动与视觉障碍访客可通行（另有专门的 Accessibility 页）；' +
+          '<strong>轮椅可借与具体坡道位置未能从官方渠道确认，请致电 215-299-1000。</strong>'
+      },
+      notes: [
+        '<strong>本条目最重要的一条：2026 年它只在周五、周六、周日开放（10:00–17:00）。</strong>' +
+          '周一至周四不对散客开放，<strong>所以它不能用来填周二、周三那两个 Parkway 死日</strong>',
+        '<strong>线上买票每张便宜 $2</strong>（官方明文）。' +
+          '成人现场 $22／线上 $20；<strong>65 岁以上 $19，不像 Franklin Institute 那样免费</strong>',
+        '<strong>活体蝴蝶馆「Butterflies!」在 2026 年 9 月 15 日的官方在展清单上已不再列出，' +
+          '而多家第三方 2026 年指南仍在宣传它。是否仍在运营未能从官方渠道确认</strong>' +
+          '——若这是带孩子来的主要理由，出发前务必打 215-299-1000 确认',
+        '<strong>馆内 Academy Cafe 已关闭，现在只有自动售货机</strong>（官方明文）。' +
+          '这里解决不了一顿饭，但<strong>官方允许自带午餐并设有指定用餐区</strong>',
+        '<strong>世界上第一具向公众装架展出的恐龙骨架（Hadrosaurus foulkii，1868）就在这里</strong>，' +
+          '现展出的版本 2025 年夏季才修复回到 Dinosaur Hall。' +
+          '<strong>它当年引来的人太多，逼得本馆开始收十美分门票</strong>',
+        '<strong>Secrets of the Diorama 是最容易漏掉又最值得看的一个展</strong>——' +
+          '先看它再回头看那三层楼的立体景箱',
+        '<strong>12 岁及以下可在任一售票台免费登记 Kids Club 集章活动</strong>，' +
+          '盖满八章换奖品；只能现场办，线上没有入口',
+        '<strong>持费城地区以外其他科学／科技博物馆的会员卡，可能通过 ASTC Passport 免费入场</strong>；' +
+          '宾州 ACCESS／EBT 持卡人每人 $2 且可带 3 人',
+        '<strong>路边计时表位中部分周日免费</strong>（看标牌有无「Except Sunday」），' +
+          '而本馆周日开门——这是一条真正能省钱的细节',
+        '<strong>三脚架政策官方未公布，未能从官方渠道确认</strong>；' +
+          '展柜与景箱全封玻璃，反光是这里最大的拍摄障碍，建议带橡胶遮光罩手持贴玻璃拍',
+        '<strong>本条目隶属 Drexel University，为独立非营利机构，不受联邦拨款影响</strong>'
+      ],
+      images: [
+        { url: 'img/majungatholusatopus-f7235465.jpg',
+          cap: 'Majungatholus atopus 头骨铸件，背景是 Hadrosaurus foulkii 骨架 · Chhe / Public domain' },
+        { url: 'img/wild-yak-stuffed-b924049c.jpg',
+          cap: '馆内的野犛牛（Bos mutus）装架标本 · Jim, the Photographer / CC BY 2.0' },
+        { url: 'img/academy-of-natural-sciences-of-philadelphia-1876-1909-2d12a732.jpg',
+          cap: '1876–1909 年间的馆舍外观（迁至现址初期） · 作者不详 / Public domain' }
+      ]
+    },
+    {
+      id: 'cathedral-basilica-ss-peter-paul',
+      n: 8,
       name: '圣伯多禄圣保禄圣殿主教座堂',
       en: 'Cathedral Basilica of Saints Peter and Paul',
+      must: 3,
       score: 4,
       tldr: '免费、每日开放；工作日弥撒都在旁边的小堂举行，所以正殿在 7:00–17:00 基本全天空着可拍。',
       tags: [
@@ -1244,7 +1918,7 @@ module.exports = {
           '反天主教暴徒在那场骚乱里烧掉了教堂、打死了人。' +
           '按传统说法，主教 Francis Kenrick 因此要求' +
           '<strong>把所有窗户开在「投石所及的高度以上」</strong>，' +
-          '所以你看到的这栋楼下部是一整圈几乎无窗的褐石实墙。' +
+          '所以这栋楼的下部是一整圈几乎无窗的褐石实墙。' +
           '<strong>对摄影的直接后果是室内极暗</strong>：光只从高窗和穹顶下的采光带进来，' +
           '这既是它的困难，也是它的戏剧性来源。' +
           '<strong>这条历史成因在官网上没有逐字表述，属于广为流传的传统记述，未能从官方渠道确认。</strong>',
@@ -1264,6 +1938,65 @@ module.exports = {
           '<strong>主入口柱廊朝 18th Street（大致朝西，法向约 279°，由街网 9° 偏转推算；' +
           '此朝向为推算而非实测）</strong>，' +
           '因此<strong>立面受光区间是太阳方位 189°–369°，即约 13:15 之后到日落，最佳 16:00–17:30</strong>。'
+      ],
+      tour: [
+        '<strong>先把定位说清楚：这不是一个需要专程安排的目的地，但它免费、就在 Logan Circle 对面 184 米，' +
+          '而且工作日整个白天基本是空的——在这一区的步行路线上它是性价比最高的一停。</strong>' +
+          '<strong>关键事实：周一至周五的日常弥撒不在正殿举行。</strong>' +
+          '官方 Mass Times 原文为<strong>「Monday to Friday 7:15 am &amp; 12:05 pm in the Cathedral Chapel」</strong>、' +
+          '<strong>「Saturday 12:05 pm in the Cathedral Chapel」</strong>' +
+          '（2026 年 9 月 15 日复核）——都在旁边的小堂，不在 Basilica 正殿。' +
+          '正殿里只有<strong>周一至周五 11:30 的告解</strong>（很短）、' +
+          '<strong>周六 16:15–17:00 告解与 17:15 的主日预备弥撒</strong>、' +
+          '以及<strong>周日 8:00／9:30／11:00／18:30 四台弥撒</strong>（周日 12:30 西班牙语弥撒在小堂）。' +
+          '→ <strong>结论：想安静看，就排在周一至周五 7:00–17:00，避开 11:30 前后那半小时。</strong>',
+        '<strong>先去拿一份免费的自助导览手册，再开始看，否则这栋楼对外行来说只是「一座大教堂」。</strong>' +
+          '官方把纸质手册放在<strong>主祭坛右侧 Cathedral Shop 入口旁的一张桌子上</strong>，' +
+          '<strong>官网也提供同一份的可打印 PDF</strong>（cathedralphila.org 的 Visitor Information 页）。' +
+          '另外<strong>大多数日子里正殿内会有一位 Cathedral Ambassador 志愿者在场，可以直接上去问问题</strong>——' +
+          '这是这里被最多人错过的资源，比自己瞎看有效得多。',
+        '<strong>进去之后按这个顺序看四样东西，二十分钟就能拿到全部价值：</strong>' +
+          '<strong>① 站到穹顶正下方抬头看</strong>——这栋楼是意大利文艺复兴复兴式（Palladian 传统），' +
+          '光几乎全部来自穹顶鼓座的高窗，所以站在圆心是唯一能理解它采光逻辑的位置；' +
+          '<strong>② 主祭坛与祭坛华盖</strong>；' +
+          '<strong>③ Shrine of St. Katharine Drexel</strong>——这位费城出身的圣人（美国第二位本土圣人、' +
+          'Drexel 银行家族的继承人，放弃巨额家产去为原住民与非裔美国人办学校）' +
+          '<strong>的遗骸于 2018 年从郊区迁入本堂</strong>，' +
+          '这是本堂近年最重要的变化，也是很多天主教徒专程来的唯一理由；' +
+          '<strong>④ 主祭坛右侧的 Sacred Heart 侧祭坛</strong>（周日导览团的集合点也在这里）。' +
+          '<strong>如果只有十分钟，就只做第 ① 与第 ③ 项。</strong>',
+        '<strong>这栋楼最反直觉的一件事，知道之后看什么都不一样：它的窗户被刻意开得很高，' +
+          '是为了防止有人从街上把石头砸进来。</strong>' +
+          '1846 年动工时费城刚经历 <strong>1844 年的 Nativist Riots</strong>——' +
+          '反天主教暴徒在那场骚乱中烧了教堂、打死了人。' +
+          '按传统记述，主教 Francis Kenrick 要求把所有窗户开在「投石所及的高度以上」，' +
+          '所以现在看到的下部是一整圈几乎无窗的褐石实墙。' +
+          '<strong>直接后果是室内非常暗</strong>——这不是维护不良，是设计。' +
+          '<strong>这条历史成因在官网上没有逐字表述，属广为流传的传统记述，未能从官方渠道确认。</strong>' +
+          '可以确认的是：<strong>1846–1864 年建成、由 Napoleon LeBrun 与 John Notman 先后接手、' +
+          '1976 年由 Paul VI 擢升为小型宗座圣殿（minor basilica）</strong>，' +
+          '并且<strong>Pope John Paul II 于 1979 年到访、Pope Francis 于 2015 年在此主持弥撒。</strong>',
+        '<strong>分寸问题，这是本条目唯一需要自我约束的地方：它是一座正在运作的主教座堂，' +
+          '也是费城总教区的母堂，不是博物馆。</strong>' +
+          '<strong>遇到任何仪式进行中（弥撒、婚礼、洗礼、葬礼、告解），请立刻停止走动与拍摄，坐下或退出。</strong>' +
+          '<strong>官方只发布了婚礼摄影师的作业规程，没有面向游客的一般摄影与三脚架政策，此项未能从官方渠道确认</strong>' +
+          '——按惯例一律手持、不要架设任何支架。' +
+          '想要人带的话：<strong>周日 11:00 弥撒之后有一场免费导览，在 Sacred Heart 侧祭坛前集合' +
+          '（遇洗礼等活动会取消）</strong>；' +
+          '<strong>其余时间的导览「以非常有限的方式提供」（官方原文 "being given on a very limited basis"），' +
+          '需发邮件到 cathedral.ambassadors@gmail.com 或致电堂区办公室 215-561-1313 预约。</strong>' +
+          '<strong>团体参观不需预约，但官方建议先把日期时间邮件告知，以免撞上仪式被限制走动。</strong>',
+        '<strong>实务三条：</strong>' +
+          '<strong>① 联邦假日只开小堂</strong>（官方原文「Only the Cathedral Chapel is open for the 9:00 AM Mass ' +
+          'on Federal Holidays」）——<strong>2026 年 10 月 12 日 Indigenous Peoples\' Day、11 月 11 日 Veterans Day、' +
+          '11 月 26 日 Thanksgiving 都是联邦假日，那几天进不了正殿</strong>，这是本条目最容易白跑的一天；' +
+          '<strong>② 场内没有餐饮，卫生间也未在官方页面上列出，未能从官方渠道确认</strong>——' +
+          '<strong>最近的公共卫生间在 Parkway 对面的 Free Library of Philadelphia 总馆（1901 Vine Street，约 400 米）</strong>，' +
+          '进堂前先解决；' +
+          '<strong>③ Cathedral Shop 在主祭坛右侧，只开周日 10:30–18:30、周三 10:30–14:00、周六 11:00–17:15' +
+          '（电话 215-665-9032）</strong>，' +
+          '<strong>也就是说周一、周二、周四、周五拿不到纪念品，但自助导览手册那张桌子仍在那里。</strong>' +
+          '无障碍方面：<strong>外部有三处带坡道的入口，但只有主停车场那一侧的门装了自动按钮。</strong>'
       ],
       photo: '建筑外观 <strong>3.5/5</strong>，室内 <strong>4.5/5</strong>，细节 <strong>4/5</strong>，风光 <strong>1/5</strong>。' +
         '免费、工作日正殿空场、穹顶下的采光很有戏剧性；' +
@@ -1313,15 +2046,27 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>30–45 分钟；只看正殿与穹顶 15–20 分钟。</strong>' +
+          '分配建议：<strong>穹顶正下方抬头 5 分钟 ＋ 主祭坛与 Shrine of St. Katharine Drexel 10 分钟 ＋ ' +
+          '拿一份自助导览手册绕侧廊与各侧祭坛走一圈 15 分钟</strong>。' +
+          '<strong>加一场周日 11:00 弥撒后的免费导览则按 60–75 分钟算</strong>' +
+          '（弥撒本身约一小时，导览另计）。' +
+          '<strong>官方没有公布建议参观时长（2026 年 9 月 15 日复核），以上按堂内规模与自助导览的站点数推算。</strong>' +
+          '<strong>它与 Swann Memorial Fountain 只隔 184 米，实际上应当与 Logan Circle 当成同一站来排</strong>，' +
+          '两处加起来一小时以内。',
         book: '<strong>不需预约、不需票，随时可入内私人祈祷与自助参观。</strong>' +
           '<strong>导览团只以极有限的方式提供</strong>（官方原文「being given on a very limited basis」），' +
           '需发邮件给 cathedral.ambassadors@gmail.com 预约；' +
           '<strong>另有一场在周日 11:00 弥撒之后的导览，在主祭坛右侧的 Sacred Heart 侧祭坛前集合</strong>' +
           '（遇洗礼等活动会取消，建议先邮件确认）。' +
           '团体参观不需预约，但建议先邮件告知日期时间以免撞上仪式。',
-        ticket: '<strong>免费</strong>（教堂内有捐款箱；Cathedral Shop 在主祭坛右侧，' +
-          '周日 10:30–18:30、周三 10:30–14:00、周六 11:00–17:15，电话 215-665-9032）',
-        hours: '官方原文（cathedralphila.org/visitor-information）：' +
+        ticket: '<strong>免费</strong>，不设门票、不设建议捐款额（教堂内有捐款箱）。' +
+          '<strong>2026 年 9 月 15 日于 cathedralphila.org 复核：官网没有任何收费参观项目，' +
+          '连导览团也不收费。</strong>' +
+          'Cathedral Shop 在主祭坛右侧，<strong>周日 10:30–18:30、周三 10:30–14:00、周六 11:00–17:15</strong>，' +
+          '电话 215-665-9032。' +
+          '（另：为亲友献弥撒的奉献金为每台 $10，须到堂区办公室办理，与参观无关。）',
+        hours: '官方原文（cathedralphila.org/visitor-information，<strong>2026 年 9 月 15 日复核，未变</strong>）：' +
           '<strong>「Sunday from 8:00 AM to 7:30 PM / Monday – Friday from 7:00 AM to 5:00 PM / ' +
           'Saturday from 9:00 AM to 6:30 PM」</strong>，' +
           '并注明<strong>「Only the Cathedral Chapel is open for the 9:00 AM Mass on Federal Holidays」</strong>' +
@@ -1331,9 +2076,16 @@ module.exports = {
           '周日 8:00／9:30／11:00／18:30 在正殿，12:30 西班牙语在 Chapel。' +
           '告解：周一至周五 11:30、周六 16:15–17:00、周日 9:00 与 17:30，均在正殿。</strong>' +
           '→ <strong>拍摄请排在周一至周五，避开 11:30 前后。</strong>',
-        parking: '教堂有 <strong>Archdiocesan Parking Lot（入口在 17th Street）</strong>，' +
-          '官方在婚礼摄影规程里写明<strong>工作日 17:00 之后与周六周日全天可用</strong>——' +
-          '<strong>白天时段能否停放与费率均未能从官方渠道确认。</strong>' +
+        parking: '教堂有一处紧邻的停车场，<strong>入口在 17th Street，GPS 用 222 North 17th Street</strong>。' +
+          '<strong>可用时段有两套官方口径，请两条都记住：' +
+          'Visitor Information 页（2026 年 9 月 15 日核实）写的是' +
+          '「Parishioners and Visitors ... may park ... on Saturdays, Sundays and Holy Days」，' +
+          '即只有周六、周日与守斋日；' +
+          '而官方的婚礼摄影规程写的是工作日 17:00 之后与周六周日全天可用。</strong>' +
+          '<strong>两页说法不一致，且费率两页都没写，未能从官方渠道确认' +
+          '——工作日白天要停车请先打堂区办公室 215-561-1313 问清。</strong>' +
+          '<strong>官方列出的替代车位：路边计时表位、Gateway Parking Garage（入口在 Spring 与 16th Street）、' +
+          'Sheraton Hotel 停车库（入口在 16th 与 17th Street）。</strong>' +
           '<strong>最实际的是公共交通</strong>：SEPTA Broad Street Line／Market–Frankford Line 到 ' +
           '「15th Street」／「City Hall」站，沿 Parkway 西北行约 900 米；' +
           '或乘沿 Parkway 与 18th／19th Street 的多条巴士。' +
@@ -1377,12 +2129,13 @@ module.exports = {
       n: 7,
       name: '船屋街与费尔芒特水厂',
       en: 'Boathouse Row & Fairmount Water Works',
+      must: 3.5,
       score: 5,
-      tldr: '灯已确认在用：2024 年 3 月换过全新 6,400 颗 LED 系统，黄昏自动点亮、约 22:00 熄。免费。',
+      tldr: '灯已确认在用：2024 年 3 月换过全新 6,400 颗 LED 系统，日落自动点亮、亮到日出。免费。',
       tags: [
         { t: '完全免费 24 小时', c: 'free' },
         { t: '灯已确认正常', c: 'free' },
-        { t: '黄昏亮至约 22:00', c: 'free' },
+        { t: '日落亮至日出', c: 'free' },
         { t: '10/24–25 有大型赛艇赛', c: 'risk' }
       ],
       highlights: [
@@ -1395,17 +2148,19 @@ module.exports = {
           '可做渐变、ombre 与「闪烁／流动」的动态场景，2025 年拿了 IES Philadelphia 的照明设计荣誉奖。' +
           '<strong>2026 年 6–7 月还为费城主办的 FIFA World Cup 场次做过多轮「国家色」灯光秀</strong>，' +
           '<strong>可以确认系统在 2026 年运行正常。</strong>',
-        '<strong>点亮时间：黄昏自动点亮，亮到约 22:00。</strong>' +
-          '「自动」意味着它跟着光感器走而不是固定钟点，' +
-          '<strong>换算成你的窗口：9 月 25 日约 19:00–19:15 亮起（日落 18:53），' +
-          '10 月 22 日约 18:20–18:35 亮起（日落 18:12）</strong>。' +
+        '<strong>点亮时间：日落自动点亮，亮到日出自动熄灭。</strong>' +
+          '「自动」意味着它由 Lloyd Hall 的中央控制端按天文时刻排程，而不是按固定钟点；' +
+          '官方灯光公告的原文一律是「All lightings run from sunset to sunrise」。' +
+          '<strong>（更正：早前版本写的「亮到约 22:00」未能在官方渠道找到依据，按官方口径应为亮到日出。）</strong>' +
+          '<strong>换算成季节参考：9 月 25 日约在 18:53 日落前后亮起、10 月 22 日约在 18:12 日落前后亮起</strong>。' +
           '<strong>这个时间差是本条目最关键的执行细节</strong>：' +
           '<strong>灯亮的那十几分钟正好压在蓝调的中段</strong>（10/22 蓝调 18:27–18:47），' +
-          '也就是说<strong>你只有大约 15–25 分钟的窗口，让「天空还有蓝色」与「灯已经亮」同时成立</strong>。' +
+          '也就是说<strong>可用窗口只有大约 15–25 分钟，能让「天空还有蓝色」与「灯已经亮」同时成立</strong>。' +
           '早了灯没亮，晚了天空变死黑、水面失去反射的蓝底。' +
           '<strong>另注意特别活动的灯光会从日落一直亮到日出</strong>（节庆与赞助场次），' +
-          '而且<strong>任何人都可以付费预订当晚的颜色</strong>（boathouserowlights.org）——' +
-          '<strong>所以你那天晚上看到的可能不是经典的白色轮廓灯，而是某个婚礼的粉色</strong>。' +
+          '而且<strong>任何人都可以付费预订当晚的颜色</strong>（boathouserowlights.org，' +
+          '官方 FAQ 价目为每天 $1,000–$6,000、最多连续 7 天，政治与宗教类请求不受理）——' +
+          '<strong>所以某一晚看到的可能不是经典的白色轮廓灯，而是某场婚礼的粉色</strong>。' +
           '这不是故障，是它的运营模式，<strong>出发当天可以去那个网站看当晚有没有预订。</strong>',
         '<strong>这些灯的来历很值得知道：它们是为了阻止拆房子而装的。</strong>' +
           '1970 年代这排维多利亚船屋已经严重失修，' +
@@ -1415,7 +2170,7 @@ module.exports = {
           '<strong>1979 年灯装上去，房子保住了</strong>，' +
           '这排船屋 1987 年列入 National Register of Historic Places，2005 年改成 LED 并加上电脑控色。' +
           '<strong>换句话说，这是一个「用照明救下一片历史街区」的完整案例</strong>，' +
-          '也是你拍的这张照片真正的内容。',
+          '也是这张照片真正的内容。',
         '<strong>船屋本身是 Schuylkill Navy 的家</strong>——' +
           '这个成立于 <strong>1858 年</strong>的赛艇联盟是<strong>全美最古老的业余体育管理机构</strong>。' +
           '共 15 栋（门牌 1–15 Boathouse Row／Kelly Drive），大多是 19 世纪建筑，' +
@@ -1434,6 +2189,82 @@ module.exports = {
           '<strong>它就在美术馆那座小山的正下方（OSM 39.96634／-75.18356，' +
           '距 Boathouse Row 中心 477 米、方位 316°），两者可以在同一次黄昏里连着拍完。</strong>'
       ],
+      tour: [
+        '<strong>先把这一站是什么讲清楚：它是两个相距 477 米的免费露天点位，' +
+          '都在 Philadelphia Museum of Art 那座小山的下方，从美术馆走下来 700 米、9 分钟。</strong>' +
+          '<strong>而且两岸的用途完全不同，搞错就白走：</strong>' +
+          '<strong>东岸（Kelly Drive 一侧）是贴着船屋走的那一侧</strong>——' +
+          '能看维多利亚式的山墙、雨篷与船库大门，能看赛艇队下水，但看不到整排、也看不到水面反射；' +
+          '<strong>西岸（Martin Luther King Jr. Drive Trail）才是那张明信片的位置</strong>，' +
+          '整排船屋的灯光轮廓与水里的倒影都在这一侧。' +
+          '<strong>两岸之间要过 MLK Drive Bridge，从东岸 Lloyd Hall 走到西岸机位约 800 米、10–12 分钟</strong>' +
+          '（该桥 2023 年起整修、2025 年 9 月重开，新增一条 10.5 英尺宽的共享道）。' +
+          '<strong>只有一次机会的话，去西岸。</strong>',
+        '<strong>时间怎么定：灯是「日落自动点亮、日出自动熄灭」，所以这一站没有闭馆时间。</strong>' +
+          '<strong>系统由 Lloyd Hall 的一个中央控制端按天文时刻自动排程</strong>' +
+          '（Fairmount Park Conservancy 与 Philadelphia Parks &amp; Recreation 的历次灯光公告' +
+          '一律写「All lightings run from sunset to sunrise」）。' +
+          '<strong>提醒一处修正：本手册上一版写的「亮到约 22:00 熄」在任何官方渠道都找不到依据，' +
+          '按官方口径应为亮到日出，请以「日落到日出」为准。</strong>' +
+          '<strong>真正好看的是日落后 15–40 分钟那一段</strong>——' +
+          '灯已经亮、天空还留着蓝色，水面才有底色可反射；' +
+          '<strong>以 2026 年 10 月 22 日为例，日落 18:12，也就是 18:25–18:50；' +
+          '9 月 25 日日落 18:53，对应 19:05–19:30。</strong>' +
+          '天完全黑之后灯还在，但背景变成一片死黑，观感差很多。',
+        '<strong>这些灯的来历是本条目最值得知道的一件事：它们是为了阻止拆房子而装的。</strong>' +
+          '1970 年代这排 19 世纪的船屋已严重失修、市里在认真讨论拆除，' +
+          '照明设计师 Ray Grenald 主动提议给每栋房子勾一圈轮廓灯，理由是「夜里被看见的建筑才会被珍惜」。' +
+          '<strong>1979 年灯装上去，房子保住了</strong>，' +
+          '1987 年这排船屋列入 National Register of Historic Places，2005 年改 LED，2016 年最后一次翻修。' +
+          '<strong>2023 年 3 月整排熄灯做 210 万美元的全系统更换，2024 年 3 月重新点亮</strong>：' +
+          '6,400 颗独立 LED、1,600 万种色彩组合，照明设计 The Lighting Practice，' +
+          '资金来自 Joanna McNeil Trust 与费城市政府。' +
+          '<strong>一个会直接影响当晚实际看到什么的运营事实：任何人都可以付费预订某几晚的颜色。</strong>' +
+          '<strong>官方 FAQ 的价目是每天 $1,000–$6,000（视复杂度），最多连续 7 天，' +
+          '个人、非营利、企业与政府机构都可以申请，但政治与宗教类请求不受理；' +
+          '而且整排是一起亮的，不接受只点亮某一栋的请求。</strong>' +
+          '<strong>所以任意一晚看到的可能不是经典的白色轮廓灯，而是某场婚礼的粉色或某个慈善机构的主题色' +
+          '——这不是故障。出发当天可以查 boathouserowlights.org 或 Instagram 的 @boathouserowlights。</strong>',
+        '<strong>山坡下的 Fairmount Water Works 是这一站被严重低估的另一半，而且它有室内展厅、免费。</strong>' +
+          '<strong>Interpretive Center 开放时间为周三至周六 10:00–17:00，一般入场免费、欢迎捐款</strong>' +
+          '（2026 年 9 月 15 日于 fairmountwaterworks.org 核实；电话 215-685-0723）。' +
+          '<strong>→ 周日、周一、周二三天室内进不去，只能看外景；而外景本来就是这里的主体，不算灾难。</strong>' +
+          '<strong>值得知道的历史：1812–1822 年由 Frederick Graff 设计建成，是美国第一个大型市政供水系统</strong>，' +
+          '把蒸汽泵房与配水设施做成一组临水的 Greek Revival 神庙，' +
+          '<strong>19 世纪它是全美头号旅游景点，Charles Dickens 与 Mark Twain 都专程来看过</strong>；' +
+          '后来当过 Philadelphia Aquarium（1911–1962），再后来当过游泳池。' +
+          '<strong>室内最值得看的一件实物是 1851 年就装在这里的原始水轮残件，直径超过 9 英尺（官方展项说明）。</strong>' +
+          '<strong>一条必须提前知道的无障碍限制：馆内电梯因 Hurricane Ida 的洪水损毁，至今未恢复</strong>' +
+          '（官方原文「does not have elevator access, due to flooding from Hurricane Ida」）' +
+          '——推轮椅或婴儿车的读者请按「只能看地面层与外景」来打算。',
+        '<strong>卫生间、吃饭与停车，这三条决定黄昏这一段能不能待住：</strong>' +
+          '<strong>① 全排 15 个门牌里只有 1 号 Lloyd Hall 对公众开放</strong>' +
+          '（公共活动中心，OSM 39.96895／-75.18524），' +
+          '<strong>有无障碍卫生间与饮水机，是这一带唯一确定的公共卫生间来源</strong>；' +
+          '它的常规开放时间<strong>未能从官方渠道确认</strong>（2026 年夏季曾作为游客服务点开到 20:00，' +
+          '那是 FIFA World Cup 期间的临时安排，不能当常态），' +
+          '<strong>所以稳妥的做法是在上山的美术馆或下山前先解决</strong>；' +
+          '<strong>② 船屋沿线没有固定餐饮</strong>，' +
+          '最近的是美术馆一楼的 Café 与 Ellis Coffee Bar（都在 17:00 前后关），' +
+          '或走回 Fairmount 街区；' +
+          '<strong>③ 停车：Water Works Drive 沿路有免费两小时车位（官方原文「Free two-hour parking」，' +
+          '2026 年 9 月 15 日核实）</strong>，这是这一带最好用的一处；' +
+          '另有 Lloyd Hall／Art Museum Trailhead 停车场（39.96838／-75.18420，' +
+          '<strong>费率未能从官方渠道确认</strong>）与美术馆车库（$9／小时）。' +
+          'SEPTA 巴士 38 与 32 路直达 Water Works，Philly PHLASH 第 11 站。',
+        '<strong>两条会毁掉计划的日期与交通约束，请对着日历核一遍：</strong>' +
+          '<strong>① MLK Drive 每周六 07:00 至周一 07:00 对机动车封闭</strong>' +
+          '（2026 年 3 月 28 日至 11 月 29 日，另加 10 月 10–12 日 Indigenous Peoples\' Day 周末）——' +
+          '<strong>周末开车到不了西岸机位，只能步行或骑行过去；' +
+          '但反过来说，封车的周末西岸步道更安静、更适合慢慢看</strong>；' +
+          '<strong>② 2026 年 10 月 24–25 日是 Head of the Schuylkill Regatta</strong>，' +
+          '全美规模最大的赛艇赛之一——<strong>看赛艇的最好两天，也是人最多的两天，' +
+          '而且那两天 MLK Drive 例外地对机动车开放（市政府为赛事运营），西岸会同时有车流与人流。</strong>' +
+          '另外<strong>两岸步道在日落后照明有限、人烟稀少</strong>，' +
+          '带一支手电或用手机灯，不要单独在完全无人的路段久留，随身物品不要离身。' +
+          '想看赛艇训练的话，<strong>平日 07:00–09:00 东岸就有人扛着单人艇下水</strong>，' +
+          '那是这里最有生活感的一小时。'
+      ],
       photo: '夜景与蓝调 <strong>5/5</strong>，建筑 <strong>4.5/5</strong>，风光 <strong>4.5/5</strong>，秋色 <strong>4.5/5</strong>，人像 <strong>3/5</strong>。' +
         '本区唯一的一流夜景题材，完全免费、三脚架自由、且 10 月下旬能同时拍到秋色；' +
         '扣分只在西岸机位需要走一段路，以及那 15–25 分钟的窗口容错极低。',
@@ -1450,7 +2281,7 @@ module.exports = {
             '<strong>9 月 25 日 18:35 到（日落 18:53，灯约 19:00–19:15 亮，蓝调 19:08–19:28）；' +
             '10 月 22 日 17:50 到（日落 18:12，灯约 18:20–18:35 亮，蓝调 18:27–18:47）。</strong>' +
             '<strong>可拍的窗口只有 15–25 分钟，不要在灯亮之后才开始找机位——那时窗口已经过半。</strong>' +
-            '视线方位 119°（东南偏东），<strong>太阳落在你身后的 256°–269°</strong>，' +
+            '视线方位 119°（东南偏东），<strong>太阳落在机位身后的 256°–269°</strong>，' +
             '所以<strong>日落前后船屋是正面暖光、身后天空会出现粉紫的反暮光带（Belt of Venus）</strong>，' +
             '这是灯亮之前那二十分钟里另一张完全不同的照片，值得一并拍。' +
             '<strong>焦段（按实测 297 米长、386 米远算）：' +
@@ -1465,7 +2296,7 @@ module.exports = {
             '长于 20 秒天空的蓝会被推过头、灯的暖色会溢出。</strong>' +
             '<strong>白平衡固定在 3800–4200K</strong>' +
             '（让灯保持暖白、让天空保持蓝，自动白平衡会把两者都拉成灰）。' +
-            '<strong>关掉长曝降噪</strong>（会让每张多等一倍时间，而你只有 20 分钟）。' +
+            '<strong>关掉长曝降噪</strong>（会让每张多等一倍时间，而整个蓝调窗口只有 20 分钟）。' +
             '<strong>建议对同一构图拍一组不同快门（2／4／8／15 秒），回去再挑水面质感。</strong>' +
             '<strong>这是公共步道，三脚架完全自由。</strong>'
         },
@@ -1494,7 +2325,7 @@ module.exports = {
             '<strong>低机位贴近水面用 24mm 拍倒影是这里的加分项</strong>（这一段水面比河道主流平静得多）。' +
             '<strong>三脚架自由。</strong>' +
             '<strong>Interpretive Center 免费，但只开周三至周六 10:00–17:00，' +
-            '你在费城的 10/19（周一）与 10/20（周二）两天它都关着</strong>——' +
+            '周日、周一、周二三天都关着</strong>——' +
             '室内当作看不到即可。室外的栈道、坝体与泵房外观全天可拍，不受馆方时间约束，' +
             '而这里的主体本来就是外景。'
         },
@@ -1523,18 +2354,45 @@ module.exports = {
         }
       ],
       access: {
+        visit: '<strong>两处合计 45–75 分钟；只看船屋灯光 20–30 分钟。</strong>' +
+          '分配建议：<strong>西岸步道看整排灯光与水面反射 20–30 分钟 ＋ ' +
+          'Fairmount Water Works 的栈道、坝体与泵房外观 20 分钟 ＋ ' +
+          '室内 Interpretive Center 20–30 分钟（仅周三至周六 10:00–17:00 可进）</strong>。' +
+          '<strong>加上东岸贴近看船屋立面与赛艇，再加 20–30 分钟。</strong>' +
+          '<strong>官方没有公布任何一处的建议参观时长（2026 年 9 月 15 日复核），' +
+          '以上按 297 米长的船屋群、477 米的两点间距与展厅规模推算。</strong>' +
+          '<strong>有一条时间冲突要先决定：船屋西岸的黄昏与 Water Works 的黄昏是同一段时间，' +
+          '一个傍晚只能认真做一处。</strong>' +
+          '折中办法是<strong>先在日落前看 Water Works（那时它的白色石构正面受光），' +
+          '再走 800 米过桥赶西岸的灯亮时刻</strong>，但这段路要 10–12 分钟，务必提前走一遍。' +
+          '<strong>这一站没有闭馆时间（灯亮到日出），所以它是本区唯一可以排在所有场馆关门之后的点。</strong>',
         book: '<strong>不需预约、不需票</strong>',
-        ticket: '<strong>全部免费</strong>（Fairmount Water Works Interpretive Center 也免费）',
+        ticket: '<strong>全部免费</strong>' +
+          '（<strong>Fairmount Water Works Interpretive Center 的一般入场也免费，欢迎捐款，' +
+          '可线上或现场捐；2026 年 9 月 15 日于 fairmountwaterworks.org 核实</strong>。' +
+          '十人以上团体须提前致电 215-685-0723 预约，官方的建议团体捐款为' +
+          '成人团与一般导览每人 $10、K–12 学校团与大学团每人 $6–$10、童军每人 $8）',
         hours: '<strong>船屋外景、Kelly Drive 东岸步道、MLK Drive Trail 西岸步道与 Water Works 外围：' +
           '公共公园与步道，全天开放。</strong>' +
-          '<strong>灯光：黄昏自动点亮、亮到约 22:00</strong>' +
-          '（换算到你的窗口：9/25 约 19:00–19:15 亮，10/22 约 18:20–18:35 亮）。' +
-          '<strong>特别活动的灯光会从日落亮到日出</strong>，' +
-          '且<strong>任何人可付费预订当晚颜色（boathouserowlights.org）——当晚颜色无法提前保证。</strong>' +
+          '<strong>灯光：日落自动点亮、日出自动熄灭。</strong>' +
+          '系统由 Lloyd Hall 的中央控制端按天文时刻自动排程，' +
+          'Fairmount Park Conservancy 与 Philadelphia Parks &amp; Recreation 的灯光公告原文一律为' +
+          '<strong>「All lightings run from sunset to sunrise」</strong>。' +
+          '<strong>口径修正：本手册上一版记的「亮到约 22:00 熄」未能在任何官方渠道找到依据，' +
+          '按官方口径应为亮到日出，此处已更正。</strong>' +
+          '<strong>季节参考：以 2026 年 10 月 22 日为例日落 18:12、9 月 25 日日落 18:53；' +
+          '灯在日落前后数分钟内亮起，而「灯已亮、天空还有蓝色」的可用窗口是日落后 15–40 分钟。</strong>' +
+          '<strong>当晚是什么颜色无法提前保证</strong>：' +
+          '任何人可付费预订（官方 FAQ 价目为每天 $1,000–$6,000，视复杂度浮动，最多连续 7 天，' +
+          '政治与宗教类请求不受理，整排一起亮、不接受只点单栋的请求），' +
+          '出发当天可查 boathouserowlights.org 或 Instagram 的 @boathouserowlights。' +
           '<strong>Fairmount Water Works Interpretive Center：周三至周六 10:00–17:00，' +
-          '周日至周二闭馆——10/19、10/20 两天进不去，只拍外景。</strong>' +
+          '周日、周一、周二闭馆</strong>（2026 年 9 月 15 日核实）' +
+          '——<strong>这三天只能看外景，而外景本来就是这里的主体。</strong>' +
           'Lloyd Hall（1 号船屋）作为公共活动中心开放，' +
-          '<strong>具体时间未能从官方渠道确认</strong>，但它是这一带唯一的公共洗手间来源。',
+          '<strong>常规开放时间未能从官方渠道确认</strong>' +
+          '（2026 年夏季它曾作为游客服务点开到 20:00，那是 FIFA World Cup 期间的临时安排，不能当常态），' +
+          '但它是这一带唯一确定有公共卫生间的地方。',
         parking: '<strong>Lloyd Hall / Art Museum Trailhead 停车场</strong>' +
           '（OSM way/756360183，39.96838／-75.18420），紧邻船屋东端，' +
           '<strong>费率未能从官方渠道确认</strong>；' +
@@ -1558,7 +2416,8 @@ module.exports = {
         '<strong>本条目最重要的一条：灯是新的、是好的。</strong>' +
           '2024 年 3 月完成 210 万美元的全系统更换（6,400 颗 LED），' +
           '2026 年 6–7 月的 World Cup 灯光秀可以确认它在正常运行。' +
-          '<strong>「黄昏自动点亮、约 22:00 熄」是官方口径</strong>',
+          '<strong>官方口径是「日落自动点亮、日出自动熄灭」' +
+          '（All lightings run from sunset to sunrise）；早前版本的「约 22:00 熄」不成立</strong>',
         '<strong>可拍窗口只有 15–25 分钟</strong>：' +
           '<strong>10 月 22 日请 17:50 到位、9 月 25 日请 18:35 到位</strong>，' +
           '<strong>灯亮之后才开始架机器就已经晚了</strong>',
