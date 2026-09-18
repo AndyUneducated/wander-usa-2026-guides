@@ -191,8 +191,10 @@ def serve(directory: Path):
     handler = functools.partial(http.server.SimpleHTTPRequestHandler,
                                 directory=str(directory))
 
-    class Quiet(socketserver.TCPServer):
+    # 多线程，别被 Service Worker 的并发预缓存请求堵死
+    class Quiet(socketserver.ThreadingTCPServer):
         allow_reuse_address = True
+        daemon_threads = True
 
         def handle_error(self, *a):
             pass

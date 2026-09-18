@@ -31,15 +31,27 @@ VIEWS = [
     ('nyc-rating', 'nyc/#manhattan-midtown', 'hover-rating'),
     ('nyc-points', 'nyc/#the-met', 'open-points'),
     ('nyc-filter', 'nyc/', 'filter'),
+    ('nyc-nearby', 'nyc/', 'nearby'),
+    ('nyc-route', 'nyc/', 'route'),
 ]
+
+# 「离我最近」与「顺路」要真的有个坐标才能跑。这里用时代广场的位置模拟，
+# 不然只能验证按钮存在，验不到距离算得对不对、面板长什么样。
+FAKE_POS = {'latitude': 40.7580, 'longitude': -73.9855}
 
 
 def serve(directory: pathlib.Path):
-    handler = functools.partial(http.server.SimpleHTTPRequestHandler,
-                                directory=str(directory))
+    class Handler(http.server.SimpleHTTPRequestHandler):
+        def log_message(self, *a):  # 每张图上百个请求，日志会把结论冲掉
+            pass
 
-    class Quiet(socketserver.TCPServer):
+    handler = functools.partial(Handler, directory=str(directory))
+
+    # 必须多线程：Service Worker 装载时会并发抓一批文件，单线程的
+    # TCPServer 会被排在后面的请求堵死，页面就一直等不到 DOMContentLoaded。
+    class Quiet(socketserver.ThreadingTCPServer):
         allow_reuse_address = True
+        daemon_threads = True
 
         def handle_error(self, *a):
             pass
@@ -53,7 +65,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--full', action='store_true', help='整页长图')
     ap.add_argument('--mobile', action='store_true', help='390x844 窄视口')
+    ap.add_argument('--only', default='', help='只拍名字含该子串的视图')
     args = ap.parse_args()
+    views = [v for v in VIEWS if args.only in v[0]]
 
     from playwright.sync_api import sync_playwright
 
@@ -64,8 +78,12 @@ def main():
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        for name, path, action in VIEWS:
-            ctx = browser.new_context(viewport=vp, device_scale_factor=2)
+        for name, path, action in views:
+            geo = action in ('nearby', 'route')
+            ctx = browser.new_context(
+                viewport=vp, device_scale_factor=2,
+                geolocation=FAKE_POS if geo else None,
+                permissions=['geolocation'] if geo else None)
             page = ctx.new_page()
             page.goto(base + path, wait_until='domcontentloaded', timeout=90000)
             page.wait_for_timeout(2500)
@@ -122,9 +140,36 @@ def main():
                     "() => document.querySelectorAll('details.card:not([hidden])').length")
                 print(f'    筛选「游览 4 分以上 + 免预约」后剩 {n} 个景点')
                 page.evaluate("() => window.scrollTo(0, 0)")
+            elif action in ('nearby', 'route'):
+                page.click(f'#xbar [data-s="{"near" if action == "nearby" else "route"}"]')
+                # 定位是异步的，等面板真的出现再截图
+                page.wait_for_selector('#xp-panel .near-li', timeout=15000)
+                page.wait_for_timeout(700)
+                info = page.evaluate("""() => {
+                    const li = Array.from(document.querySelectorAll('#xp-panel .near-li'));
+                    return {
+                      n: li.length,
+                      head: (document.querySelector('#xp-panel h2') || {}).textContent,
+                      top: li.slice(0, 3).map(x => ({
+                        name: x.querySelector('.near-t').textContent.trim().slice(0, 34),
+                        d: x.querySelector('.near-d').textContent,
+                        go: (x.querySelector('.near-go') || {}).href
+                      }))
+                    };
+                }""")
+                print(f'    模拟位置：时代广场  面板「{info["head"]}」共 {info["n"]} 条')
+                for t in info['top']:
+                    print(f'      {t["d"]:>10}  {t["name"]}')
+                # 导航链接必须带上该景点的坐标，否则点了等于没用
+                assert info['top'][0]['go'] and 'query=' in info['top'][0]['go'], '导航链接缺坐标'
+                # 面板插在总览之后，回到页顶就拍不到它了
+                page.evaluate(
+                    "() => document.getElementById('xp-panel')"
+                    ".scrollIntoView({block: 'start'})")
+                page.wait_for_timeout(500)
             # 让 hash 定位与懒加载图片落位。复制提示只显示两秒，
             # 这一档再等就只能拍到它消失之后的画面了。
-            if action != 'copy-title':
+            if action not in ('copy-title', 'nearby', 'route'):
                 page.wait_for_timeout(1800)
 
             dest = OUT / f'{name}{suffix}.png'
