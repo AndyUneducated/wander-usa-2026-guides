@@ -481,7 +481,7 @@ module.exports = {
       n: 3,
       name: '埃尔弗雷斯巷',
       en: "Elfreth's Alley",
-      /* 必去价值低于摄影价值：124 米长的一条私宅街，走完只要两分钟，
+      /* 游览价值低于摄影价值：124 米长的一条私宅街，走完只要两分钟，
          没有展陈也没有故事现场，属于「已经在 Old City 就该拐进去」的那一类。 */
       must: 2.5,
       score: 4.5,
@@ -662,7 +662,7 @@ module.exports = {
       n: 4,
       name: '基督堂与基督堂墓园',
       en: 'Christ Church & Christ Church Burial Ground',
-      /* 必去价值中等：Franklin 墓有真实的朝圣分量，但隔栅栏免票就能看到；
+      /* 游览价值中等：Franklin 墓有真实的朝圣分量，但隔栅栏免票就能看到；
          教堂内部与另外四位签署者的墓碑属「对建国史有兴趣再进去」。 */
       must: 3,
       score: 4,

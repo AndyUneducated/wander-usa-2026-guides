@@ -1,0 +1,20 @@
+{
+  "name": "Wander USA 2026 旅行手册",
+  "short_name": "Wander USA",
+  "description": "按地域拆分的实地游玩手册：每个景点给出游览价值、看什么、怎么逛、参观时长、门票与开放时间。装到桌面后可离线查看已浏览过的内容。",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f1115",
+  "theme_color": "#0f1115",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1921,7 +1921,7 @@ module.exports = {
       n: 8,
       name: 'Paradise Valley 与 East River Road',
       en: 'Paradise Valley & East River Road (Secondary 540)',
-      /* 必去价值比摄影价值低半档：这是去北门路上必经的走廊，
+      /* 游览价值比摄影价值低半档：这是去北门路上必经的走廊，
          顺路走完就算到过，不值得为它专程绕路。摄影上则确实是本区上限较高的一处。 */
       must: 4,
       score: 4.5,

@@ -1298,7 +1298,7 @@ module.exports = {
       n: 9,
       name: '倒影池与宪法花园',
       en: 'Lincoln Memorial Reflecting Pool & Constitution Gardens',
-      /* 必去价值远低于摄影价值：倒影池长期围挡，围挡期间这一站几乎没有可看的内容，
+      /* 游览价值远低于摄影价值：倒影池长期围挡，围挡期间这一站几乎没有可看的内容，
          Constitution Gardens 则是「已经在附近才顺路进去」的那类地方。 */
       must: 2,
       score: 2.5,

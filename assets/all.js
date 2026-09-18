@@ -1,5 +1,5 @@
 /* ===== 全部景点总表 =====
-   把四个地域的 data.js 汇到一页，做成可搜索、可按必去价值排序的清单。
+   把四个地域的 data.js 汇到一页，做成可搜索、可按游览价值排序的清单。
    每个地域的 data.js 都声明 `var REGIONS = [...]`，后加载的会覆盖前一个，
    所以这里逐个顺序加载、每次加载完立刻取走结果，不能并行。 */
 
@@ -12,7 +12,7 @@
     { slug: 'yellowstone', label: 'Yellowstone + Grand Teton', color: '#ffd24d' },
     { slug: 'socal', label: 'Southern California', color: '#ff8a3d' }
   ];
-  var V = '?v=20260915a';
+  var V = '?v=20260917a';
 
   var esc = function (s) {
     return String(s == null ? '' : s)
@@ -26,12 +26,22 @@
     return window.WUCopy ? window.WUCopy.names(str, cls) : esc(str);
   }
 
-  function stars(score) {
-    var full = Math.floor(score), half = score - full >= 0.5, s = '';
-    for (var i = 0; i < full; i++) s += '★';
-    if (half) s += '☆';
-    for (var j = full + (half ? 1 : 0); j < 5; j++) s += '·';
-    return s;
+  /* 星级走 assets/rating.js 的内联 SVG，不依赖字体里有没有 ★ 的字形 */
+  function stars(score, size) {
+    return window.WURating ? window.WURating.stars(score, { size: size || 12 }) : '';
+  }
+
+  /* 景点坐标：优先第一个机位的坐标，其次景点本身的坐标。
+     和 app.js 里的 spotCoord 同一套口径，两边算出来的距离才对得上。 */
+  function coordOf(s) {
+    return (s.shots && s.shots[0] && (s.shots[0].view || s.shots[0].park || s.shots[0].at)) ||
+      s.at || null;
+  }
+
+  /* 参观时长 → 分钟数，给「用时短优先」排序用。
+     规则与地域手册页共用 assets/facts.js，两边排出来的顺序才一致。 */
+  function mins(s) {
+    return window.WUFacts.visitMins(plain((s.access || {}).visit));
   }
 
   function loadOne(src, done) {
@@ -62,12 +72,11 @@
     })();
   }
 
-  /* 参观时长压成一个短标签，太长的直接截断——总表一行只有一行的位置 */
+  /* 参观时长压成一个短标签，抽不出区间的直接截断——总表一行只有一行的位置 */
   function visitLabel(s) {
     var v = plain((s.access || {}).visit);
     if (!v) return '';
-    var m = v.match(/[\d.]+\s*[–\-~]\s*[\d.]+\s*(小时|分钟|min|h)|[\d.]+\s*(小时|分钟|min|h)/);
-    return m ? m[0] : v.slice(0, 12);
+    return window.WUFacts.durGist(v) || v.slice(0, 12);
   }
 
   function renderRow(row) {
@@ -90,11 +99,15 @@
       '</span>' +
       '<span class="xr-side">' +
         (must != null
-          ? '<span class="xr-must" title="必去价值 ' + must + '/5"><b>' + must +
+          ? '<span class="xr-must" title="游览价值 ' + must + '/5' +
+            (window.WURating ? ' · ' + window.WURating.tier(must) : '') + '"><b>' + must +
             '</b><span class="xr-stars">' + stars(must) + '</span></span>'
-          : '<span class="xr-must xr-nomust" title="该条目尚未评必去价值">' +
+          : '<span class="xr-must xr-nomust" title="该条目尚未评游览价值">' +
             (s.score != null ? '摄影 ' + s.score + '/5' : '—') + '</span>') +
         (visit ? '<span class="xr-visit">⏱ ' + esc(visit) + '</span>' : '') +
+        /* 定位之后才有距离，平时这一格不存在 */
+        (row.d != null
+          ? '<span class="xr-dist">📍 ' + window.WUGeo.fmt(row.d) + '</span>' : '') +
       '</span>' +
       '</a>';
   }
@@ -106,7 +119,11 @@
   }
 
   function boot(rows) {
-    rows.forEach(function (r) { r.blob = blob(r); });
+    rows.forEach(function (r) {
+      r.blob = blob(r);
+      r.coord = coordOf(r.s);
+      r.mins = mins(r.s);
+    });
 
     var host = document.getElementById('xr');
     var input = document.getElementById('q');
@@ -114,18 +131,23 @@
     var sortBtns = document.querySelectorAll('[data-sort]');
     var sort = 'must';
 
+    /* 缺值的条目一律排到最后，而不是当 0 分混在里面——
+       socal 那批没有 must，按游览价值排时不该顶在中间。 */
+    function byNum(get, desc) {
+      return function (a, b) {
+        var av = get(a), bv = get(b);
+        if (av == null && bv == null) return 0;
+        if (av == null) return 1;
+        if (bv == null) return -1;
+        return desc ? bv - av : av - bv;
+      };
+    }
+
     function sorted() {
       var out = rows.slice();
-      if (sort === 'must') {
-        /* 没有 must 的条目（socal 旧数据）排在最后，而不是当 0 分混在里面 */
-        out.sort(function (a, b) {
-          var am = a.s.must, bm = b.s.must;
-          if (am == null && bm == null) return 0;
-          if (am == null) return 1;
-          if (bm == null) return -1;
-          return bm - am;
-        });
-      }
+      if (sort === 'must') out.sort(byNum(function (r) { return r.s.must; }, true));
+      else if (sort === 'visit') out.sort(byNum(function (r) { return r.mins; }, false));
+      else if (sort === 'near') out.sort(byNum(function (r) { return r.d; }, false));
       return out;
     }
 
@@ -144,12 +166,34 @@
     input.addEventListener('keydown', function (e) {
       if (e.key === 'Escape') { input.value = ''; draw(); }
     });
+    function markOn(b) {
+      Array.prototype.forEach.call(sortBtns, function (x) {
+        x.classList.toggle('on', x === b);
+      });
+    }
+
     Array.prototype.forEach.call(sortBtns, function (b) {
       b.addEventListener('click', function () {
+        /* 「离我最近」要先拿定位。定位是异步的，按钮先进等待态，
+           失败就把原因说清楚并保持原排序，不要静默什么都不做。 */
+        if (b.dataset.sort === 'near') {
+          b.classList.add('wait');
+          window.WUGeo.locate().then(function (c) {
+            rows.forEach(function (r) {
+              r.d = r.coord ? window.WUGeo.dist(c, r.coord) : null;
+            });
+            b.classList.remove('wait');
+            sort = 'near';
+            markOn(b);
+            draw();
+          }).catch(function (err) {
+            b.classList.remove('wait');
+            if (window.WUCopy) window.WUCopy.toast(err.message, true);
+          });
+          return;
+        }
         sort = b.dataset.sort;
-        Array.prototype.forEach.call(sortBtns, function (x) {
-          x.classList.toggle('on', x === b);
-        });
+        markOn(b);
         draw();
       });
     });

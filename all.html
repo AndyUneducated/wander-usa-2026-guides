@@ -4,7 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>全部景点总表 · Wander USA 2026</title>
-<link rel="stylesheet" href="assets/style.css?v=20260915a">
+<link rel="stylesheet" href="assets/style.css?v=20260917a">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#0f1115">
 </head>
 <body>
 
@@ -27,10 +29,12 @@
 <header class="hero">
   <div class="wrap">
     <h1>全部景点总表</h1>
-    <p class="sub">四个地域的景点汇在一页，默认按<b>必去价值</b>从高到低排。点任意一条跳到该地域手册里的完整卡片；<b>点景点名即复制</b>，可以直接粘到 Google Maps 搜索收藏。</p>
+    <p class="sub">四个地域的景点汇在一页，默认按<b>游览价值</b>从高到低排。点任意一条跳到该地域手册里的完整卡片；<b>点景点名即复制</b>，可以直接粘到 Google Maps 搜索收藏。</p>
     <div class="hero-meta">
-      <button class="xr-sort on" data-sort="must">必去价值优先</button>
+      <button class="xr-sort on" data-sort="must">游览价值优先</button>
+      <button class="xr-sort" data-sort="visit">用时短优先</button>
       <button class="xr-sort" data-sort="region">按地域顺序</button>
+      <button class="xr-sort" data-sort="near" title="定位后按直线距离从近到远排">📍 离我最近</button>
     </div>
   </div>
 </header>
@@ -44,12 +48,17 @@
 
 <footer>
   <div class="wrap">
-    <p>必去价值是给「第一次来这个地域的普通游客」的排序依据；摄影价值收在各景点卡片的折叠区里。</p>
-    <p>少数条目暂未评必去价值，它们来自偏重摄影机位的加州海岸手册，卡片里改为显示摄影价值。</p>
+    <p>游览价值是给「第一次来这个地域的普通游客」的排序依据；摄影价值收在各景点卡片的折叠区里。</p>
+    <p>少数条目暂未评游览价值，它们来自偏重摄影机位的加州海岸手册，卡片里改为显示摄影价值。</p>
+    <p>「离我最近」按直线距离排，不是车程。这四个地域彼此隔着整个大陆，跨地域的距离只作参考。</p>
   </div>
 </footer>
 
-<script src="assets/copy.js?v=20260915a"></script>
-<script src="assets/all.js?v=20260915a"></script>
+<script src="assets/copy.js?v=20260917a"></script>
+<script src="assets/rating.js?v=20260917a"></script>
+<script src="assets/facts.js?v=20260917a"></script>
+<script src="assets/geo.js?v=20260917a"></script>
+<script src="assets/all.js?v=20260917a"></script>
+<script src="assets/sw-reg.js?v=20260917a"></script>
 </body>
 </html>

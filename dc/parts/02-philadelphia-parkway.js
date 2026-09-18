@@ -1756,7 +1756,7 @@ module.exports = {
           'Philadelphia CityPASS 与 The Philadelphia Pass 也都包含本馆。'
       ],
       photo: '展厅与标本 <strong>2/5</strong>，建筑 <strong>2/5</strong>，风光 <strong>1/5</strong>。' +
-        '这是一个「必去价值高于摄影价值」的典型条目：展厅照度低、以玻璃柜与景箱为主，玻璃反光几乎无法回避；' +
+        '这是一个「游览价值高于摄影价值」的典型条目：展厅照度低、以玻璃柜与景箱为主，玻璃反光几乎无法回避；' +
         '唯一耐拍的是三层楼的手工立体景箱与恐龙骨架的局部。',
       shots: [
         {

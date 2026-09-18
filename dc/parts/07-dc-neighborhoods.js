@@ -102,7 +102,7 @@ module.exports = {
       n: 1,
       name: 'C&O 运河与 Georgetown 滨水公园',
       en: 'C&O Canal Georgetown & Georgetown Waterfront Park',
-      /* 必去价值：Georgetown 滨水公园是免费开阔的河岸，Mile 0 的四座船闸是真实工业遗迹，
+      /* 游览价值：Georgetown 滨水公园是免费开阔的河岸，Mile 0 的四座船闸是真实工业遗迹，
          但运河干涸、游船停摆之后，它属于「已经在 Georgetown 逛街、顺路走下来」的层级，
          不是为它单独安排半天的地方。 */
       must: 3,
@@ -285,7 +285,7 @@ module.exports = {
       n: 2,
       name: '驱魔人阶梯与 Georgetown 老街区',
       en: 'The Exorcist Steps, Cady\'s Alley & Georgetown Rowhouses',
-      /* 必去价值：阶梯本身只是影视取景地（单看约 1.5 分），但这一条目实际覆盖的是
+      /* 游览价值：阶梯本身只是影视取景地（单看约 1.5 分），但这一条目实际覆盖的是
          Georgetown 历史街区那条步行线——M Street 与 Wisconsin Avenue 的商业十字、
          N/O/P Street 的联邦风格排屋与原状电车轨道、Old Stone House、Georgetown University
          的 Healy Hall。作为「来 Georgetown 就该走一遍」的那条线，给 3.5。 */
@@ -487,7 +487,7 @@ module.exports = {
       n: 3,
       name: 'Dumbarton Oaks 花园',
       en: 'Dumbarton Oaks Gardens',
-      /* 必去价值：美国最重要的私家台地园之一，加 1944 年联合国蓝图会议的现场，
+      /* 游览价值：美国最重要的私家台地园之一，加 1944 年联合国蓝图会议的现场，
          内容分量足；但收费、只开下午四小时、周一闭园、须提前网购，
          而且要有一点园林或历史兴趣才觉得值。给 3.5，是本区第二高。 */
       must: 3.5,
@@ -704,7 +704,7 @@ module.exports = {
       n: 4,
       name: '华盛顿国家座堂',
       en: 'Washington National Cathedral',
-      /* 必去价值：世界第六大、全美第二大主教座堂，83 年工期的真正中世纪石砌工法，
+      /* 游览价值：世界第六大、全美第二大主教座堂，83 年工期的真正中世纪石砌工法，
          加嵌着月岩的 Space Window——这是本区唯一进得了主流必去清单的点位，给 4。
          没给更高是因为它离地铁远、要门票、周日不开放参观，且北立面被脚手架包住。 */
       must: 4,
@@ -978,7 +978,7 @@ module.exports = {
       n: 5,
       name: 'Frederick Douglass 故居（Cedar Hill）',
       en: 'Frederick Douglass National Historic Site (Cedar Hill)',
-      /* 必去价值：本区唯一的历史室内，且屋内约 70% 是道格拉斯本人的原物——
+      /* 游览价值：本区唯一的历史室内，且屋内约 70% 是道格拉斯本人的原物——
          这个比例在美国历史宅邸里极高。但它在 Anacostia 河东、离 Mall 一段距离、
          室内只能跟游 30 分钟、周日周一进不了屋，属于「对 19 世纪美国史有兴趣再专程去」。 */
       must: 3,
@@ -1188,7 +1188,7 @@ module.exports = {
       n: 6,
       name: 'Meridian Hill Park（Malcolm X Park）',
       en: 'Meridian Hill Park (Malcolm X Park)',
-      /* 必去价值：叠瀑复流后是一座很好的城市公园，但它终究是社区公园而不是国家地标——
+      /* 游览价值：叠瀑复流后是一座很好的城市公园，但它终究是社区公园而不是国家地标——
          属于「住在附近、或者已经在 U Street／Columbia Heights 一带、顺路走进去」的层级。
          专程从 Mall 跨城过来不划算，给 2.5。 */
       must: 2.5,
@@ -1387,7 +1387,7 @@ module.exports = {
       n: 7,
       name: 'U Street 与 Shaw（Black Broadway）',
       en: 'U Street Corridor & Shaw (Black Broadway)',
-      /* 必去价值：历史分量是实打实的——20 世纪上半叶美国最重要的非裔文化中心之一，
+      /* 游览价值：历史分量是实打实的——20 世纪上半叶美国最重要的非裔文化中心之一，
          209,145 个名字的内战纪念碑就在街口。但它终究是一条街区而不是一处景点，
          看点靠讲解与铭牌而不是视觉冲击，属于「对美国黑人史与城市史有兴趣就该来」的层级。 */
       must: 3,
