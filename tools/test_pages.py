@@ -120,6 +120,63 @@ PROBE = r"""
     popup: popup,
     imgOverflow: imgOverflow,
     heroChips: q('.hero-meta .chip').length,
+
+    /* ---- 改版后的部件 ---- */
+    /* 星级：以前用 ★ / ☆ / ⯨ 拼字符，半星那个字符在多数 Windows 字体里
+       没有字形，会渲染成一排黄色小方块。现在一律是内联 SVG，所以这里既
+       要数出 SVG，也要确认页面上再没有残留的星形字符。 */
+    starSvg: q('.st').length,
+    starGlyphs: (document.body.innerText.match(/[\u2605\u2606\u2BE8]/g) || []).length,
+    /* 每个 SVG 应该是 5 个空星 + 5 个实星，实星那组按分值裁切 */
+    starShape: (() => {
+      const s = document.querySelector('.st');
+      if (!s) return null;
+      const clip = s.querySelector('clipPath rect');
+      return {
+        off: s.querySelectorAll('.st-off').length,
+        on: s.querySelectorAll('.st-on').length,
+        clipW: clip ? parseFloat(clip.getAttribute('width')) : -1,
+        boxW: parseFloat((s.getAttribute('viewBox') || '0 0 0 0').split(' ')[2])
+      };
+    })(),
+    /* 满分的那一颗应该整颗填满：裁切宽度等于整条宽度 */
+    starFull: (() => {
+      const rows = Array.from(q('.rt-must'));
+      const five = rows.find(r => (r.querySelector('.rt-num') || {}).textContent === '5');
+      if (!five) return null;
+      const s = five.querySelector('.st');
+      const clip = s.querySelector('clipPath rect');
+      return parseFloat(clip.getAttribute('width')) ===
+             parseFloat(s.getAttribute('viewBox').split(' ')[2]);
+    })(),
+    mustRows: q('.rt-must').length,
+    photoRows: q('.rt-photo').length,
+    /* 分档文字（「值得专程前往」）应该存在但默认不占版面 */
+    tierHidden: (() => {
+      const t = document.querySelector('.rt-tier');
+      if (!t) return null;
+      return getComputedStyle(t).opacity === '0';
+    })(),
+
+    /* 速览条与要点清单 */
+    quickBars: q('.quick').length,
+    quickCells: q('.qk').length,
+    ptItems: q('.pt').length,
+    ptEmptyLead: Array.from(q('.pt-lead')).filter(e => !e.textContent.trim()).length,
+    sectionKeys: Array.from(new Set(Array.from(q('.row > .k')).map(e => e.textContent))),
+
+    /* 探索工具条 */
+    xbar: q('#xbar').length,
+    xFilters: Array.from(q('#xbar [data-f]')).map(b => b.dataset.f),
+    xSorts: Array.from(q('#xbar [data-s]')).map(b => b.dataset.s),
+
+    /* 离线与装桌面用的声明 */
+    manifest: !!document.querySelector('link[rel="manifest"]'),
+    swReg: !!document.querySelector('script[src*="sw-reg.js"]'),
+
+    /* 页面上不该再出现「本站还在施工」这类字样。景点本身的施工是事实，
+       要保留，所以这里只查描述站点状态的那几种说法。 */
+    wipWords: (document.body.innerText.match(/装配中|改版中|敬请期待|本页施工/g) || []),
     overviewFilled: (document.getElementById('overview-body') || {}).innerHTML ?
                     document.getElementById('overview-body').innerHTML.length : 0,
     appendixFilled: (document.getElementById('appendix-body') || {}).innerHTML ?
@@ -295,6 +352,103 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
                 ok.append((f'导航锚点全部有效（{len(r["nav"])} 个）', not bad_nav))
                 for h in bad_nav:
                     notes.append(f'{label} {name} 导航锚点无目标 {h}')
+
+            # --- 改版后的部件 ---
+            ok.append((f'页面无「施工中/装配中」类字样（{r["wipWords"]}）',
+                       not r['wipWords']))
+            ok.append(('声明了 manifest 与 Service Worker 注册',
+                       r['manifest'] and r['swReg']))
+            if not is_landing:
+                # 星级：核心是「不再依赖字体字形」
+                ok.append((f'星级为内联 SVG（{r["starSvg"]} 个）', r['starSvg'] > 0))
+                ok.append((f'页面无残留星形字符（{r["starGlyphs"]} 个）',
+                           r['starGlyphs'] == 0))
+                sh = r['starShape']
+                ok.append((f'每条星级 5 空 5 实且裁切有效（{sh}）',
+                           bool(sh) and sh['off'] == 5 and sh['on'] == 5
+                           and 0 <= sh['clipW'] <= sh['boxW']))
+                if r['starFull'] is not None:
+                    ok.append(('5 分的星级整条填满', r['starFull'] is True))
+                # 双评分并列
+                ok.append((f'摄影价值也有星级（游览 {r["mustRows"]} / 摄影 {r["photoRows"]} 行）',
+                           r['photoRows'] > 0))
+                if r['tierHidden'] is not None:
+                    ok.append(('分档文字默认不占版面（悬停/点击才显示）',
+                               r['tierHidden'] is True))
+                # 速览条与要点清单
+                ok.append((f'卡片有速览条（{r["quickBars"]} 条 / {r["quickCells"]} 格）',
+                           r['quickBars'] > 0))
+                ok.append((f'要点做成摘要清单（{r["ptItems"]} 条）', r['ptItems'] > 0))
+                ok.append((f'没有空摘要行（{r["ptEmptyLead"]} 条）',
+                           r['ptEmptyLead'] == 0))
+                keys = r['sectionKeys']
+                ok.append((f'分节已改名为「看什么/怎么逛」（{keys}）',
+                           '核心看点' not in keys and '游览要点' not in keys))
+                # 工具条
+                ok.append((f'探索工具条存在（筛选 {r["xFilters"]} / 排序 {r["xSorts"]}）',
+                           r['xbar'] == 1 and len(r['xSorts']) >= 2))
+
+            # --- 筛选与排序真的生效吗 ---
+            # 上面只验证了控件存在。这里实际点一遍：筛选要能筛掉东西、
+            # 筛剩的每一条都得满足条件、再点一次要能完全还原；
+            # 排序要真的改变卡片顺序，而不只是把按钮点亮。
+            if not is_landing and r['xbar'] == 1:
+                for name_f, cond in [('must4', 'must >= 4'), ('quick', 'mins <= 60')]:
+                    if name_f not in r['xFilters']:
+                        continue
+                    before = page.evaluate(
+                        "() => document.querySelectorAll('details.card:not([hidden])').length")
+                    page.click(f'#xbar [data-f="{name_f}"]')
+                    page.wait_for_timeout(250)
+                    res = page.evaluate("""(f) => {
+                      const vis = Array.from(
+                        document.querySelectorAll('details.card:not([hidden])'));
+                      const bad = vis.filter(c => f === 'must4'
+                        ? !(parseFloat(c.dataset.must) >= 4)
+                        : !(c.dataset.mins && parseFloat(c.dataset.mins) <= 60));
+                      return { n: vis.length, bad: bad.length };
+                    }""", name_f)
+                    ok.append((f'筛选 {name_f} 生效且结果都满足「{cond}」'
+                               f'（{before} → {res["n"]}，越界 {res["bad"]}）',
+                               res['n'] < before and res['bad'] == 0))
+                    page.click(f'#xbar [data-f="{name_f}"]')
+                    page.wait_for_timeout(250)
+                    after = page.evaluate(
+                        "() => document.querySelectorAll('details.card:not([hidden])').length")
+                    ok.append((f'取消筛选 {name_f} 后完全还原（{after} / {before}）',
+                               after == before))
+
+                if 'must' in r['xSorts']:
+                    page.click('#xbar [data-s="must"]')
+                    page.wait_for_timeout(300)
+                    desc = page.evaluate("""() => {
+                      let bad = 0, checked = 0;
+                      document.querySelectorAll('#regions > section').forEach(sec => {
+                        const v = Array.from(sec.querySelectorAll('details.card'))
+                          .map(c => c.dataset.must === '' ? -1 : parseFloat(c.dataset.must));
+                        for (let i = 1; i < v.length; i++) {
+                          checked++;
+                          if (v[i] > v[i - 1]) bad++;
+                        }
+                      });
+                      return { bad: bad, checked: checked };
+                    }""")
+                    ok.append((f'按游览价值排序后各区内单调不增（比较 {desc["checked"]} 对，'
+                               f'逆序 {desc["bad"]} 对）',
+                               desc['checked'] > 0 and desc['bad'] == 0))
+                    page.click('#xbar [data-s="n"]')
+                    page.wait_for_timeout(300)
+                    restored = page.evaluate("""() => {
+                      let bad = 0;
+                      document.querySelectorAll('#regions > section').forEach(sec => {
+                        const v = Array.from(sec.querySelectorAll('details.card'))
+                          .map(c => parseFloat(c.dataset.n));
+                        for (let i = 1; i < v.length; i++) if (v[i] < v[i - 1]) bad++;
+                      });
+                      return bad;
+                    }""")
+                    ok.append((f'切回按编号后恢复原顺序（逆序 {restored} 对）',
+                               restored == 0))
 
             # --- 布局 ---
             ok.append(('无横向滚动条', not r['hScroll']))

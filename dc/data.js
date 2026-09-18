@@ -1694,7 +1694,7 @@ var REGIONS = [
           "<strong>吃饭这一条必须提前知道，很多人被坑：馆内的 Academy Cafe 已经关闭，现在只有自动售货机。</strong>官方原文「Vending machines are available on the ground level near the 19th Street Lobby in the former Academy Cafe. Please note that the Academy Cafe is closed.」<strong>→ 这里解决不了一顿饭。</strong><strong>官方允许自带午餐并设有指定的用餐区</strong>，带孩子的家庭可以自备；要正经吃饭就走 440 米到 Barnes 的 Reflections Café，或到 20th／21st Street 一带。<strong>寄存：一楼礼堂入口对面有一间 coatroom，但官方明写「at your own risk」，贵重物品别放。</strong><strong>免费 Wi-Fi 的网络名是「ansguest」</strong>，官网另提供可下载的馆内地图，进门前存一份。",
           "<strong>省钱的三条，其中两条在这一区独有：</strong><strong>① Museums for All／Art-Reach ACCESS：宾州 ACCESS／EBT／SNAP 与 Art-Reach ACCESS 持卡人每人 $2，且可带最多 3 位同行者</strong>（须出示卡与带照片的身份证明，正常开放时段有效，不与其他优惠叠加）；<strong>② ASTC Passport：如果持有费城地区以外某家科技或科学博物馆的会员卡，可能符合 ASTC 互惠计划的免费入场资格</strong>——这一条对从外地来、家里已有科学馆会员的读者很实用，值得出发前查一下自己那张卡；<strong>③ STAMP：费城本地高中生持 STAMP 通行证免费。</strong>Philadelphia CityPASS 与 The Philadelphia Pass 也都包含本馆。"
         ],
-        "photo": "展厅与标本 <strong>2/5</strong>，建筑 <strong>2/5</strong>，风光 <strong>1/5</strong>。这是一个「必去价值高于摄影价值」的典型条目：展厅照度低、以玻璃柜与景箱为主，玻璃反光几乎无法回避；唯一耐拍的是三层楼的手工立体景箱与恐龙骨架的局部。",
+        "photo": "展厅与标本 <strong>2/5</strong>，建筑 <strong>2/5</strong>，风光 <strong>1/5</strong>。这是一个「游览价值高于摄影价值」的典型条目：展厅照度低、以玻璃柜与景箱为主，玻璃反光几乎无法回避；唯一耐拍的是三层楼的手工立体景箱与恐龙骨架的局部。",
         "shots": [
           {
             "name": "Dinosaur Hall 与立体景箱（室内）",

@@ -20,9 +20,10 @@
 
 * { box-sizing: border-box; }
 
-/* 顶栏加了搜索框后在常见视口下会换到第二行，锚点跳转的留白要跟着加高，
-   否则卡头会被压在顶栏底下。 */
-html { scroll-behavior: smooth; scroll-padding-top: 96px; }
+/* 顶栏加了搜索框后在常见视口下会换到第二行，下面又粘了一条探索工具条，
+   锚点跳转的留白要盖住这两层，否则卡头会被压在它们底下。
+   --stick-h 由 explore.js 实测两条的总高后写入。 */
+html { scroll-behavior: smooth; scroll-padding-top: var(--stick-h, 104px); }
 
 body {
   margin: 0;
@@ -61,6 +62,93 @@ a:hover { text-decoration: underline; }
   color: var(--text); background: var(--bg-card);
   border-color: var(--line); text-decoration: none;
 }
+
+/* ===== 探索工具条：筛选 / 排序 / 附近 / 顺路 =====
+   粘在顶栏下面，横贯全页——筛选与排序是对整本手册生效的，
+   不该藏在某个分区里。所有状态都写在药丸的亮/暗上，没有下拉也没有弹窗：
+   看一眼就知道现在筛掉了什么、按什么排的，点一下就还原。 */
+/* 顶栏高度随地域名长短与视口宽度变化（窄屏会折成两行），所以由
+   explore.js 实测后写进 --topbar-h，这里不写死像素。 */
+.xbar {
+  position: sticky; top: var(--topbar-h, 53px); z-index: 880;
+  background: rgba(15, 17, 21, .92);
+  backdrop-filter: saturate(180%) blur(14px);
+  border-bottom: 1px solid var(--line);
+}
+.xbar-inner {
+  max-width: 1180px; margin: 0 auto; padding: 8px 24px;
+  display: flex; align-items: center; gap: 14px;
+  overflow-x: auto; scrollbar-width: none;
+}
+.xbar-inner::-webkit-scrollbar { display: none; }
+.xg { display: flex; align-items: center; gap: 5px; flex: 0 0 auto; }
+.xg-k {
+  font-size: 11px; color: var(--text-faint); letter-spacing: .08em;
+  margin-right: 2px; white-space: nowrap;
+}
+.xp {
+  background: var(--bg-card); border: 1px solid var(--line); color: var(--text-dim);
+  border-radius: 999px; padding: 4px 12px; font-size: 12.5px; cursor: pointer;
+  font-family: inherit; white-space: nowrap;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.xp:hover { background: var(--bg-soft); color: var(--text); border-color: var(--text-faint); }
+.xp.on {
+  background: var(--accent-soft); border-color: var(--accent); color: var(--accent);
+  font-weight: 600;
+}
+/* 定位是异步的，按下去要立刻有反应，否则会以为没点上 */
+.xp.wait { opacity: .6; cursor: progress; }
+.xp.wait::after { content: ' …'; }
+.xbar-count {
+  margin-left: auto; flex: 0 0 auto;
+  font-size: 12px; color: var(--text-faint); white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.xbar-count.zero { color: var(--red); }
+.xp-reset { flex: 0 0 auto; }
+
+/* ===== 附近 / 顺路面板 =====
+   排序只是把卡片重排，但「最近的十个分别多远」要跨分区才看得出来，
+   所以另开一块放在正文最前面直接给结论。 */
+.xp-panel { padding: 26px 0 4px; }
+.near-list { list-style: none; margin: 14px 0 0; padding: 0; }
+.near-li {
+  display: flex; align-items: stretch; gap: 10px; margin-bottom: 7px;
+}
+.near-k {
+  flex: 0 0 auto; width: 26px; height: 26px; margin-top: 8px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 999px; background: var(--bg-card); border: 1px solid var(--line);
+  font-size: 12px; font-weight: 700; color: var(--text-faint);
+}
+.near-item {
+  flex: 1 1 auto; min-width: 0;
+  background: var(--bg-card); border: 1px solid var(--line); border-radius: 10px;
+  padding: 9px 14px; display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  transition: border-color .15s, background .15s;
+}
+.near-item:hover {
+  border-color: var(--accent); background: var(--bg-soft); text-decoration: none;
+}
+.near-t { flex: 1 1 260px; min-width: 0; font-weight: 600; color: var(--text); font-size: 14.5px; }
+.near-t i { font-style: normal; color: var(--text-faint); font-size: 13px; font-weight: 500; }
+.near-meta { flex: 0 0 auto; display: flex; align-items: center; gap: 12px; }
+.near-d {
+  font-size: 14px; font-weight: 700; color: var(--accent);
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.near-dir { font-size: 11.5px; color: var(--text-faint); white-space: nowrap; }
+.near-r { font-size: 11.5px; font-weight: 600; white-space: nowrap; }
+.near-rt { display: flex; align-items: center; }
+.near-go {
+  flex: 0 0 auto; display: flex; align-items: center; padding: 0 15px;
+  border-radius: 10px; font-size: 12.5px; font-weight: 600;
+  background: rgba(77, 163, 255, .1); color: var(--blue);
+  border: 1px solid rgba(77, 163, 255, .3);
+  transition: background .15s;
+}
+.near-go:hover { background: rgba(77, 163, 255, .2); text-decoration: none; }
 
 /* ---------- 顶栏搜索 ---------- */
 .searchbox { margin-left: auto; display: flex; align-items: center; gap: 9px; }
@@ -378,12 +466,128 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 }
 #toast.show { opacity: 1; transform: translate(-50%, 0); }
 #toast.bad { border-left-color: var(--red); }
-.card-score { flex: 0 0 auto; text-align: right; }
-.stars { color: var(--yellow); font-size: 15px; letter-spacing: 1px; }
-.score-label { font-size: 12px; color: var(--text-faint); display: block; margin-top: 1px; }
-.score-sub { font-size: 11.5px; color: var(--text-faint); display: block; margin-top: 2px; opacity: .75; }
+/* ===== 双评分：游览价值 / 摄影价值 =====
+   星形是内联 SVG（assets/rating.js 画的），不依赖字体里有没有 ★ 的字形。
+   两行的标签宽度固定、星级左端对齐，所以一眼就能比出两项的高低差。
+   分档文字（「值得专程前往」）默认藏起来，悬停或点一下才出现——
+   卡头上已经有标题、结论、标签和时长了，再加一串字就太吵。 */
+.card-score { flex: 0 0 auto; }
+.rt { display: flex; flex-direction: column; gap: 3px; }
+.rt-row {
+  display: flex; align-items: center; gap: 7px;
+  cursor: help; border-radius: 6px; padding: 1px 4px; margin: -1px -4px;
+  transition: background .15s;
+}
+.rt-row:hover { background: rgba(255, 255, 255, .05); }
+.rt-lbl {
+  font-size: 11px; color: var(--text-faint); letter-spacing: .04em;
+  flex: 0 0 auto; width: 24px;
+}
+.rt-num {
+  font-size: 11.5px; color: var(--text-faint);
+  font-variant-numeric: tabular-nums; min-width: 20px;
+}
+.rt-photo { opacity: .72; }
+.rt-photo .st { opacity: .9; }
+
+/* 星形填充。--yellow 是游览价值，摄影那行用中性的蓝灰，
+   两项并列时颜色本身就把「主/辅」说清楚了。 */
+.st { display: block; flex: 0 0 auto; }
+.st .st-off { fill: rgba(255, 255, 255, .13); }
+.st .st-on { fill: var(--yellow); }
+.rt-photo .st .st-on { fill: #8ab4d8; }
+
+/* 分档文字：悬停出现，触屏点一下出现（JS 加 .rt-show） */
+.rt-tier {
+  font-size: 11px; color: var(--yellow); white-space: nowrap;
+  max-width: 0; overflow: hidden; opacity: 0;
+  transition: max-width .25s ease, opacity .2s ease;
+}
+.rt-row:hover .rt-tier,
+.rt-show .rt-tier { max-width: 8em; opacity: .85; }
 
 .card-body { padding: 20px 24px 24px; }
+/* ===== 速览条 =====
+   展开卡片后的第一屏。开车路上查手册，第一眼要的就是「要待多久、多少钱、
+   几点开、要不要预约」这四件事，不该让人先读两千字正文再翻到底下的表格。
+   格子里是从富文本里抽出来的短值，完整原文在 title 里。 */
+.quick {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr));
+  gap: 1px; margin-bottom: 20px;
+  background: var(--line); border: 1px solid var(--line);
+  border-radius: 10px; overflow: hidden;
+}
+.qk {
+  background: var(--bg-soft); padding: 9px 13px;
+  display: flex; flex-direction: column; gap: 2px; cursor: help;
+}
+.qk-k { font-size: 11px; color: var(--text-faint); letter-spacing: .03em; }
+.qk-v {
+  font-size: 14px; font-weight: 650; color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ===== 要点：摘要在外，详情在内 =====
+   数据的书写规范是每条要点以一句话加粗结论开头，所以默认只显示那句结论，
+   一行一条——展开卡片先得到一份能扫的要点清单，而不是一屏连续的长文。
+   想深入哪一条点哪一条，其余保持折叠。 */
+.pts { list-style: none; margin: 0; padding: 0; }
+.pt { margin-bottom: 3px; }
+.pt > details { border-radius: 8px; }
+.pt > details > summary {
+  list-style: none; cursor: pointer;
+  display: flex; align-items: flex-start; gap: 9px;
+  padding: 7px 10px 7px 8px; border-radius: 8px;
+  border-left: 2px solid transparent;
+  transition: background .15s, border-color .15s;
+}
+.pt > details > summary::-webkit-details-marker { display: none; }
+.pt > details > summary::marker { content: ''; }
+.pt > details > summary:hover {
+  background: rgba(255, 255, 255, .04); border-left-color: var(--accent);
+}
+.pt > details[open] > summary {
+  background: rgba(255, 138, 61, .06); border-left-color: var(--accent);
+}
+.pt-lead { flex: 1 1 auto; min-width: 0; color: var(--text); font-weight: 600; font-size: 14px; }
+.pt-lead strong { font-weight: 700; }
+/* 一成左右的「看什么」首句写得很长（九十分位 131 字），收起时钉成两行，
+   摘要清单才能保持可扫；点开之后显示完整首句，不会丢内容。 */
+.pt > details:not([open]) .pt-lead {
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 「还有详情」的提示符。用加号变减号，比小三角更明确地表示
+   「这里还有一段被收起来的内容」。 */
+.pt-more {
+  flex: 0 0 auto; position: relative; width: 15px; height: 15px; margin-top: 3px;
+  border: 1px solid var(--line); border-radius: 5px; opacity: .65;
+  transition: opacity .15s, border-color .15s, transform .2s;
+}
+.pt-more::before, .pt-more::after {
+  content: ''; position: absolute; background: var(--text-dim);
+  left: 50%; top: 50%; transform: translate(-50%, -50%);
+}
+.pt-more::before { width: 7px; height: 1.5px; }
+.pt-more::after { width: 1.5px; height: 7px; transition: opacity .2s; }
+.pt > details[open] .pt-more::after { opacity: 0; }
+.pt > details[open] .pt-more { border-color: var(--accent); opacity: 1; }
+.pt > details > summary:hover .pt-more { opacity: 1; border-color: var(--accent); }
+
+.pt-rest {
+  color: var(--text-dim); font-size: 13.5px; line-height: 1.8;
+  padding: 2px 12px 12px 19px; margin-left: 2px;
+  border-left: 1px solid var(--line);
+}
+.pt-rest strong { color: var(--text); font-weight: 600; }
+/* 详情太短的条目不值得再加一层点击，直接平铺 */
+.pt-flat {
+  padding: 7px 10px 7px 10px; color: var(--text-dim); font-size: 13.5px;
+  border-left: 2px solid var(--line); border-radius: 8px;
+}
+.pt-flat strong { color: var(--text); font-weight: 600; }
+
 .row { margin-bottom: 18px; }
 .row:last-child { margin-bottom: 0; }
 .row > .k {
@@ -416,6 +620,10 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 }
 .photo-fold[open] > summary::after { content: '收起 ▴'; }
 .photo-fold > summary:hover { color: var(--text-dim); }
+.photo-fold .pf-t { flex: 0 0 auto; }
+.photo-fold .pf-s { display: flex; align-items: center; }
+.photo-fold .pf-s .st .st-on { fill: #8ab4d8; }
+.photo-fold .pf-n { font-size: 11px; font-weight: 500; opacity: .8; }
 .photo-fold-body { padding: 4px 14px 14px; }
 .photo-fold-body .row > .k { color: var(--text-faint); }
 
@@ -539,11 +747,21 @@ code {
   flex: 0 0 auto; text-align: right; display: flex; flex-direction: column;
   align-items: flex-end; gap: 3px;
 }
-.xr-must { font-size: 12px; color: var(--text-faint); white-space: nowrap; }
-.xr-must b { color: var(--yellow); font-size: 16px; font-weight: 700; margin-right: 5px; }
-.xr-stars { color: var(--yellow); letter-spacing: .5px; opacity: .85; }
+.xr-must {
+  font-size: 12px; color: var(--text-faint); white-space: nowrap;
+  display: flex; align-items: center; gap: 5px;
+}
+.xr-must b { color: var(--yellow); font-size: 16px; font-weight: 700; }
+.xr-stars { display: flex; align-items: center; opacity: .9; }
 .xr-nomust { opacity: .6; }
 .xr-visit { font-size: 11.5px; color: var(--accent); white-space: nowrap; }
+/* 定位之后才出现的距离 */
+.xr-dist {
+  font-size: 12.5px; font-weight: 700; color: var(--blue);
+  white-space: nowrap; font-variant-numeric: tabular-nums;
+}
+.xr-sort.wait { opacity: .6; cursor: progress; }
+.xr-sort.wait::after { content: ' …'; }
 .xr-gone { opacity: .55; }
 .xr-gone .xr-name { color: var(--red); text-decoration: line-through; }
 .xr-none { color: var(--text-dim); }
@@ -593,13 +811,33 @@ footer p { margin: 5px 0; }
     overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch;
   }
   .topbar nav::-webkit-scrollbar { display: none; }
+
+  /* 工具条在窄屏上横向滚动，药丸不换行——换行会让粘顶区再吃掉一截屏幕 */
+  .xbar-inner { padding: 7px 16px; gap: 10px; }
+  .xbar-count { display: none; }
+  /* 评分块在窄屏上占不下两行标签，把「游览/摄影」的字省掉，靠颜色区分 */
+  .rt-lbl { display: none; }
+  .rt-row { gap: 5px; }
+  .rt-tier { display: none; }
+
+  /* 附近列表在窄屏上竖过来：名字一行，距离与导航一行 */
+  .near-li { gap: 7px; }
+  .near-k { width: 22px; height: 22px; font-size: 11px; margin-top: 7px; }
+  .near-item { padding: 8px 11px; gap: 6px; }
+  .near-t { flex: 1 1 100%; font-size: 14px; }
+  .near-rt { display: none; }
+  .near-go { padding: 0 11px; }
+  .pt-rest { padding-left: 12px; }
 }
 
 @media print {
   body { background: #fff; color: #111; }
-  .topbar, .map-hint, .card-toolbar, .card .expand, .searchbox { display: none; }
-  /* 打印时强制展开所有卡片 */
+  .topbar, .map-hint, .card-toolbar, .card .expand, .searchbox,
+  .xbar, .xp-panel { display: none; }
+  /* 打印时强制展开所有卡片与每一条要点的详情 */
   .card > .card-body { display: block !important; }
+  .pt > details > *:not(summary) { display: block !important; }
+  .pt-more { display: none; }
   .photo-fold > summary::after { display: none; }
   .photo-fold > *:not(summary) { display: block !important; }
   .card .tldr { display: none !important; }

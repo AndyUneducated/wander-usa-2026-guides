@@ -8,15 +8,12 @@
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   };
 
-  /* 星级：支持半星 */
+  /* 星级一律走 assets/rating.js 的内联 SVG。以前用 ★☆⯨ 拼字符，
+     半星那个字符在多数 Windows 字体里没有字形，会渲染成一排黄色小方块。
+     rating.js 没加载上时退回纯数字，不让整页跟着挂掉。 */
   function stars(score) {
-    var full = Math.floor(score);
-    var half = score - full >= 0.5;
-    var s = '';
-    for (var i = 0; i < full; i++) s += '★';
-    if (half) s += '⯨';
-    for (var j = full + (half ? 1 : 0); j < 5; j++) s += '☆';
-    return s;
+    if (window.WURating) return window.WURating.stars(score, { size: 13 });
+    return score + '/5';
   }
 
   /* 坐标 → Apple / Google 导航链接。Apple Maps 在 macOS + iPhone 上直接开原生地图 */
@@ -101,32 +98,69 @@
     return '<div class="tags">' + (extra || '') + items + '</div>';
   }
 
-  /* 卡头评分。主评分是「必去价值」（传统旅游价值），摄影价值作为副行。
-     socal 建站时只有摄影评分，没有 must 字段，这类条目仍按摄影价值显示，
-     否则会把摄影分当成必去分展示出去。 */
+  /* 卡头评分。游览价值与摄影价值两行并列、星级左端对齐，扫一眼就能比出高低。
+     分档文字（「值得专程前往」等）只在悬停/点击时出现，卡头保持极简。
+     socal 建站时只有摄影评分、没有 must 字段，这类条目只渲染摄影那一行，
+     不会把摄影分冒充成游览分。 */
   function renderScore(s) {
-    var hasMust = s.must != null;
-    var prim = hasMust ? s.must : s.score;
-    if (prim == null) return '';
-    var label = (hasMust ? '必去价值 ' : '摄影价值 ') + prim + '/5';
-    return '<div class="card-score">' +
-      '<div class="stars" title="' + label + '">' + stars(prim) + '</div>' +
-      '<span class="score-label">' + label + '</span>' +
-      (hasMust && s.score != null
-        ? '<span class="score-sub">摄影 ' + s.score + '/5</span>' : '') +
-      '</div>';
+    if (!window.WURating) return '';
+    var b = window.WURating.block(s.must, s.score);
+    return b ? '<div class="card-score">' + b + '</div>' : '';
   }
 
+  /* 硬信息的抽取规则统一在 assets/facts.js 里，页面与校验脚本共用同一份，
+     否则显示出来的值和 tools/check_render.js 算出来的值迟早对不上。 */
+  var F = window.WUFacts;
+  var plainText = F.plainText;
+  var facts = F.facts;
+
   /* 收起状态下最该看到的一条硬信息：要待多久。
-     完整的票价与开放时间在展开后的可达性表里。 */
-  function renderMeta(s) {
-    var visit = (s.access || {}).visit;
-    if (!visit) return '';
-    /* visit 是带 <strong> 的富文本，卡头只要个短标签，所以取首个数字区间 */
-    var plain = String(visit).replace(/<[^>]+>/g, '');
-    var m = plain.match(/[\d.]+\s*[–\-~]\s*[\d.]+\s*(小时|分钟|min|h)|[\d.]+\s*(小时|分钟|min|h)/);
-    return '<span class="meta-chip" title="' + esc(plain) + '">⏱ ' +
-      esc(m ? m[0] : plain.slice(0, 14)) + '</span>';
+     完整的票价与开放时间在展开后的速览条与可达性表里。 */
+  function renderMeta(f) {
+    if (!f.visit) return '';
+    return '<span class="meta-chip" title="' + esc(f.visit) + '">⏱ ' +
+      esc(f.dur || f.visit.slice(0, 14)) + '</span>';
+  }
+
+  /* 展开后的第一屏：车上查手册时最常问的四件事，不用再往下翻可达性表。
+     每格显示抽出来的短值，完整原文在 title 里，点一下也能跳到可达性表。 */
+  function renderQuick(f) {
+    var items = [
+      ['⏱', '时长', f.dur, f.visit],
+      ['🎟', '门票', f.price, f.ticket],
+      ['🕐', '开放', f.open, f.hours],
+      ['📅', '预约', f.booking === 'no' ? '不需预约' : f.booking === 'yes' ? '需预约' : null, f.book]
+    ].filter(function (x) { return x[3]; });
+    if (!items.length) return '';
+    return '<div class="quick">' + items.map(function (x) {
+      var val = x[2] || (x[3].length > 13 ? x[3].slice(0, 13) + '…' : x[3]);
+      return '<div class="qk" title="' + esc(x[3]) + '">' +
+        '<span class="qk-k">' + x[0] + ' ' + x[1] + '</span>' +
+        '<span class="qk-v">' + esc(val) + '</span></div>';
+    }).join('') + '</div>';
+  }
+
+  /* ---------- 要点：摘要在外，详情在内 ----------
+     数据的书写规范是每条要点以 <strong>一句话结论</strong> 开头
+     （「怎么逛」100% 符合、「看什么」85% 符合，加粗首句平均 35–41 字）。
+     所以首个加粗段天然就是这一条的摘要：默认只显示它，一行一条，
+     整段详情收在里面点开。这样一张卡片展开后先是一份可扫的要点清单，
+     想深入哪一条再展开哪一条，不必一上来读两千字。
+     拆分规则见 assets/facts.js 的 splitLead。 */
+  function renderPoints(list) {
+    if (!list) return '';
+    if (!Array.isArray(list)) return '<div class="v">' + list + '</div>';
+    return '<ul class="pts">' + list.map(function (item) {
+      var p = F.splitLead(item);
+      /* 详情太短就不值得再加一层点击，整条平铺出来 */
+      if (plainText(p.rest).length < F.FLAT_UNDER) {
+        return '<li class="pt pt-flat">' + item + '</li>';
+      }
+      return '<li class="pt"><details><summary>' +
+        '<span class="pt-lead">' + p.lead + '</span>' +
+        '<span class="pt-more" aria-hidden="true"></span>' +
+        '</summary><div class="pt-rest">' + p.rest + '</div></details></li>';
+    }).join('') + '</ul>';
   }
 
   /* 供搜索框匹配的纯文本。标签与 tldr 里的信息量最大，正文太长反而会让
@@ -140,8 +174,16 @@
   function renderCard(s, regionName) {
     /* details/summary：默认收起，点标题展开。打印时 CSS 会强制全部展开 */
     var thumb = (s.images && s.images[0] && s.images[0].url) || '';
+    var f = facts(s);
+    /* 抽出来的硬信息挂到 data-* 上，筛选与排序直接读它们，不用再解析一遍富文本 */
     var h = '<details class="card' + (s.gone ? ' gone' : '') + '" id="' + esc(s.id) +
-      '" data-search="' + esc(searchBlob(s, regionName)) + '">';
+      '" data-search="' + esc(searchBlob(s, regionName)) + '"' +
+      ' data-must="' + (s.must == null ? '' : s.must) + '"' +
+      ' data-photo="' + (s.score == null ? '' : s.score) + '"' +
+      ' data-mins="' + (f.mins == null ? '' : f.mins) + '"' +
+      ' data-book="' + (f.booking || '') + '"' +
+      ' data-free="' + (f.free ? '1' : '') + '"' +
+      ' data-n="' + s.n + '">';
     h += '<summary class="card-head">' +
       /* gone 的点位也保留编号：否则可见编号会出现空档，
          且同一分区有多个 gone 时地图上会出现多个无法区分的标记。
@@ -153,7 +195,7 @@
         '<div class="card-title">' + renderTitle(s) +
       (s.gone ? '<span class="gone-flag">' + esc(s.gone) + '</span>' : '') +
       (s.tldr ? '<div class="tldr">' + s.tldr + '</div>' : '') +
-      renderTags(s.tags, renderMeta(s)) + '</div>' +
+      renderTags(s.tags, renderMeta(f)) + '</div>' +
       (s.gone ? '' : renderScore(s)) +
       '<span class="expand" aria-hidden="true">' +
       '<span class="lbl-shut">展开详情</span><span class="lbl-open">收起</span>' +
@@ -161,11 +203,21 @@
       '</summary>';
 
     h += '<div class="card-body">';
-    /* 顺序即优先级：普通游客先看「看什么、怎么逛、要多久」，
-       摄影相关的两块排在可达性之后，作为辅助信息。 */
-    if (s.highlights) h += '<div class="row"><div class="k">核心看点</div>' + renderList(s.highlights) + '</div>';
-    if (s.tour) h += '<div class="row"><div class="k">游览要点</div>' + renderList(s.tour) + '</div>';
-    if (s.access) h += '<div class="row"><div class="k">可达性</div>' + renderAccess(s.access) + '</div>';
+    /* 展开后的信息架构，顺序即优先级：
+         速览条   —— 时长／门票／开放／预约，路上查手册第一眼要的就是这四个
+         看什么   —— 到了看哪几样东西（原「核心看点」）
+         怎么逛   —— 按什么顺序走、跳过什么、厕所餐饮在哪（原「游览要点」）
+       原来两块叫「核心看点」与「游览要点」，名字听着是一回事，读者自然觉得重复。
+       其实前者讲「看的对象」、后者讲「走的方法」，改成「看什么／怎么逛」之后
+       两块的分工一眼就清楚了，内容本身不用动。
+       实用信息与注意事项在后，摄影两块最后，作为辅助。 */
+    h += renderQuick(f);
+    if (s.highlights) h += '<div class="row"><div class="k">看什么</div>' + renderPoints(s.highlights) + '</div>';
+    if (s.tour) h += '<div class="row"><div class="k">怎么逛</div>' + renderPoints(s.tour) + '</div>';
+    if (s.access) h += '<div class="row"><div class="k">实用信息</div>' + renderAccess(s.access) + '</div>';
+    /* 注意事项不做折叠：它本来就是短句（整条中位 85 字，比要点短一半多），
+       而且内容多半是安检、禁拍、季节封闭这类「不知道会吃亏」的约束。
+       把半句安全提示藏在点击后面，省下的版面不值得。 */
     if (s.notes) h += '<div class="row"><div class="k">注意事项</div>' + renderList(s.notes) + '</div>';
     /* 摄影内容整体折叠：这本手册以游玩为主，机位是给有需要的人的附加信息，
        默认展开会把「看什么、要多久」挤到屏幕外面去。
@@ -175,11 +227,13 @@
        其余条目仍按原样平铺显示。 */
     var fold = !!(s.tour && s.tour.length);
     if (s.photo || (s.shots && s.shots.length)) {
-      h += '<details class="photo-fold"' + (fold ? '' : ' open') + '><summary>📷 摄影参考' +
-        (s.score != null ? '（摄影价值 ' + s.score + '/5' +
-          (s.shots && s.shots.length ? ' · ' + s.shots.length + ' 个机位' : '') + '）' : '') +
+      h += '<details class="photo-fold"' + (fold ? '' : ' open') + '><summary>' +
+        '<span class="pf-t">📷 摄影参考</span>' +
+        (s.score != null ? '<span class="pf-s">' + stars(s.score) + '</span>' : '') +
+        (s.shots && s.shots.length
+          ? '<span class="pf-n">' + s.shots.length + ' 个机位</span>' : '') +
         '</summary><div class="photo-fold-body">' +
-        (s.photo ? '<div class="row"><div class="k">摄影价值</div><div class="v">' + s.photo + '</div></div>' : '') +
+        (s.photo ? '<div class="row"><div class="k">摄影点评</div><div class="v">' + s.photo + '</div></div>' : '') +
         (s.shots && s.shots.length
           ? '<div class="row"><div class="k">机位（可直接导航）</div>' +
             s.shots.map(renderSpot).join('') + '</div>'
@@ -246,10 +300,10 @@
       (subName ? '<span style="color:' + color + ';font-weight:700">' + esc(subName) + '</span><br>' : '') +
       (s.gone
         ? '<span style="color:#ff6b6b;font-weight:700">' + esc(s.gone) + '</span><br>'
-        : '<span style="color:#ffd24d">' + stars(s.must != null ? s.must : s.score) + '</span> ' +
+        : '<span class="pop-rt">' + stars(s.must != null ? s.must : s.score) + '</span> ' +
           (s.must != null
-            ? '必去 ' + s.must + '/5' + (s.score != null ? ' · 摄影 ' + s.score + '/5' : '')
-            : s.score + '/5') + '<br>') +
+            ? '游览 ' + s.must + '/5' + (s.score != null ? ' · 摄影 ' + s.score + '/5' : '')
+            : '摄影 ' + s.score + '/5') + '<br>') +
       '<a href="#' + esc(s.id) + '">↓ 跳到详情</a> · ' +
       '<a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=' +
       c[0] + ',' + c[1] + '">导航</a>'
@@ -430,9 +484,43 @@
       printRestore.forEach(function (p) { p[0].open = p[1]; });
     });
 
+    /* 点评分那一行，把「值得专程前往」这类分档文字亮出来。
+       触屏没有悬停，所以需要这个；又因为评分块长在 <summary> 里，
+       必须拦掉冒泡，否则每看一次分档说明都会顺手把卡片撑开。 */
+    root.addEventListener('click', function (e) {
+      var row = e.target.closest && e.target.closest('.rt-row');
+      if (!row) return;
+      e.preventDefault();
+      e.stopPropagation();
+      var box = row.parentNode;
+      box.classList.toggle('rt-show');
+    });
+
     wrapWideTables();
     buildSearch();
     if (window.WUCopy) window.WUCopy.bind();
+    /* 把景点连坐标一起交给 explore.js：筛选、排序、附近、顺路都用这份索引 */
+    window.WUIndex = buildIndex(REGIONS);
+    if (window.WUExplore) window.WUExplore.init();
+  }
+
+  /* 一份扁平的景点索引，带坐标与抽好的硬信息。explore.js 只认这个结构，
+     all.html 那边也按同样的形状自己拼一份，两边共用同一套探索功能。 */
+  function buildIndex(regions) {
+    var out = [];
+    regions.forEach(function (r, i) {
+      (r.spots || []).forEach(function (s) {
+        var f = facts(s);
+        out.push({
+          id: s.id, n: s.n, en: s.en, name: s.name || '',
+          region: r.navName || r.name, color: regionColor(r, i),
+          coord: spotCoord(s), must: s.must, photo: s.score,
+          mins: f.mins, booking: f.booking, free: f.free,
+          dur: f.dur, gone: s.gone || ''
+        });
+      });
+    });
+    return out;
   }
 
   /* ---------- 搜索 ----------
@@ -454,7 +542,13 @@
     var input = box.querySelector('#q');
     var count = box.querySelector('#q-count');
 
+    /* 搜索与工具条的筛选是叠加的，所以可见性统一交给 explore.js 裁决，
+       这里只负责把输入事件转过去。explore.js 没加载上时退回只按搜索词过滤。 */
     function apply() {
+      if (window.WUExplore && window.WUExplore.apply) {
+        window.WUExplore.apply();
+        return;
+      }
       var q = input.value.trim().toLowerCase();
       var hits = 0;
       cards.forEach(function (c) {

@@ -27,6 +27,10 @@ VIEWS = [
     ('nyc-copy', 'nyc/#manhattan-midtown', 'copy-title'),
     ('nyc-search', 'nyc/', 'search'),
     ('socal-cards', 'socal/#big-sur', None),
+    # 改版后新增的部件
+    ('nyc-rating', 'nyc/#manhattan-midtown', 'hover-rating'),
+    ('nyc-points', 'nyc/#the-met', 'open-points'),
+    ('nyc-filter', 'nyc/', 'filter'),
 ]
 
 
@@ -86,6 +90,38 @@ def main():
             elif action == 'search':
                 page.fill('#q', '博物馆')
                 page.wait_for_timeout(600)
+            elif action == 'hover-rating':
+                # 悬停在游览价值那一行上，分档文字（「值得专程前往」）应该滑出来
+                page.hover('details.card .rt-must')
+                page.wait_for_timeout(600)
+                tier = page.evaluate("""() => {
+                    const t = document.querySelector('.rt-must .rt-tier');
+                    return t ? { text: t.textContent,
+                                 shown: getComputedStyle(t).opacity !== '0' } : null;
+                }""")
+                print('    悬停评分行：分档「' + str(tier and tier['text']) +
+                      '」可见=' + str(tier and tier['shown']))
+            elif action == 'open-points':
+                # 展开一张卡片，再点开其中第二条要点，看「摘要 + 详情」的层次
+                page.evaluate("""() => {
+                    const c = document.querySelector('details.card');
+                    if (c) { c.open = true; c.scrollIntoView({block: 'start'}); }
+                }""")
+                page.wait_for_timeout(500)
+                pts = page.query_selector_all('details.card .pt > details')
+                if len(pts) > 1:
+                    pts[1].query_selector('summary').click()
+                page.wait_for_timeout(500)
+            elif action == 'filter':
+                # 点亮两个筛选条件，看工具条的状态与结果条数
+                page.click('#xbar [data-f="must4"]')
+                page.wait_for_timeout(300)
+                page.click('#xbar [data-f="nobook"]')
+                page.wait_for_timeout(600)
+                n = page.evaluate(
+                    "() => document.querySelectorAll('details.card:not([hidden])').length")
+                print(f'    筛选「游览 4 分以上 + 免预约」后剩 {n} 个景点')
+                page.evaluate("() => window.scrollTo(0, 0)")
             # 让 hash 定位与懒加载图片落位。复制提示只显示两秒，
             # 这一档再等就只能拍到它消失之后的画面了。
             if action != 'copy-title':
