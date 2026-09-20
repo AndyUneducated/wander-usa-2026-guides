@@ -9,42 +9,61 @@
    没有下拉菜单、没有弹窗、没有二级面板，所有状态都写在药丸的亮/暗上，
    一眼能看出「现在筛掉了什么、按什么排的」，再点一下就还原。
 
+   门票与预约各有正反两面（免费/收费、免预约/需预约），它们被拼成一个
+   连体的分段控件：同一段里只能亮一个，点另一个就换过去，不用先关再开。
+   这四个加上「≤1 小时」「游览 4 分+」一共六个条件——还没到需要下拉的量，
+   而下拉会把「现在筛掉了什么」藏进第二次点击里，正是路上查手册最怕的。
+
    筛选与顶栏搜索框是叠加关系（搜索缩小范围，筛选再缩小一层），
    所以可见性由本文件统一裁决，app.js 的搜索回调转发到这里。 */
 (function () {
   'use strict';
 
+  /* 声明顺序即工具条上的排列顺序。带 group 的相邻项拼成一个分段控件，
+     同组互斥——「免费」与「收费」同时亮着只会筛出一页空白。 */
   var FILTERS = {
-    must4: {
-      /* 标签里不要用 ★ 这类字形：整个改版就是为了不再依赖字体有没有星形字形，
-         按钮上再写一个回去等于留个坑。 */
-      label: '游览 4 分以上', tip: '只看游览价值 4 星及以上',
-      need: function (i) { return i.must != null; },
-      pass: function (c) { return parseFloat(c.dataset.must) >= 4; }
+    free: {
+      group: 'ticket', label: '免费', tip: '只看不要门票的',
+      need: function (i) { return i.free; },
+      pass: function (c) { return c.dataset.free === '1'; }
+    },
+    paid: {
+      group: 'ticket', label: '收费', tip: '只看要买门票的（票价写得出金额的）',
+      need: function (i) { return i.paid; },
+      pass: function (c) { return c.dataset.paid === '1'; }
+    },
+    nobook: {
+      group: 'book', label: '免预约', tip: '只看不需预约、直接去就能进的',
+      need: function (i) { return i.booking === 'no'; },
+      pass: function (c) { return c.dataset.book === 'no'; }
+    },
+    needbook: {
+      group: 'book', label: '需预约', tip: '只看要提前订票的，在家规划时先把这些订掉',
+      need: function (i) { return i.booking === 'yes'; },
+      pass: function (c) { return c.dataset.book === 'yes'; }
     },
     quick: {
       label: '≤1 小时', tip: '只看一小时内能看完的，赶时间时用',
       need: function (i) { return i.mins != null; },
       pass: function (c) { return c.dataset.mins && parseFloat(c.dataset.mins) <= 60; }
     },
-    nobook: {
-      label: '免预约', tip: '只看不需预约、直接去就能进的',
-      need: function (i) { return i.booking === 'no'; },
-      pass: function (c) { return c.dataset.book === 'no'; }
-    },
-    free: {
-      label: '免费', tip: '只看不要门票的',
-      need: function (i) { return i.free; },
-      pass: function (c) { return c.dataset.free === '1'; }
+    must4: {
+      /* 标签里不要用 ★ 这类字形：整个改版就是为了不再依赖字体有没有星形字形，
+         按钮上再写一个回去等于留个坑。 */
+      label: '游览 4 分+', tip: '只看游览价值 4 星及以上',
+      need: function (i) { return i.must != null; },
+      pass: function (c) { return parseFloat(c.dataset.must) >= 4; }
     }
   };
 
+  /* 同样按声明顺序排列。两个定位类排最前：站在路边打开手册时，
+     「离我最近」「顺路」几乎是唯一想点的两个，它们不该排在列表末尾。 */
   var SORTS = {
-    n: { label: '按编号', tip: '恢复手册原本的地理顺序' },
+    near: { label: '📍 离我最近', tip: '定位后按直线距离从近到远', geo: true },
+    route: { label: '🚗 顺路', tip: '从我的位置出发，按沿途最近邻串一条顺序', geo: true },
     must: { label: '游览价值', tip: '游览价值从高到低', need: function (i) { return i.must != null; } },
     mins: { label: '用时短', tip: '参观时长从短到长', need: function (i) { return i.mins != null; } },
-    near: { label: '📍 离我最近', tip: '定位后按直线距离从近到远', geo: true },
-    route: { label: '🚗 顺路', tip: '从我的位置出发，按沿途最近邻串一条顺序', geo: true }
+    n: { label: '按编号', tip: '恢复手册原本的地理顺序' }
   };
 
   var state = { filters: {}, sort: 'n', origin: null };
@@ -72,6 +91,26 @@
     return !def.need || index.some(def.need);
   }
 
+  /* 相邻的同组药丸拼成一个分段控件（.xseg 负责把中间的圆角与描边抹掉），
+     单独成项的照旧是一颗独立药丸。同一组里某一面整本手册都没有的时候，
+     剩下那一面自然退化成独立药丸，不会留下半截空壳。 */
+  function filterPills(keys) {
+    var html = '', seg = null;
+    keys.forEach(function (k) {
+      var g = FILTERS[k].group || null;
+      var alone = g && keys.filter(function (x) { return FILTERS[x].group === g; }).length < 2;
+      if (alone) g = null;
+      if (g !== seg) {
+        if (seg) html += '</span>';
+        seg = g;
+        if (g) html += '<span class="xseg">';
+      }
+      html += '<button type="button" class="xp" data-f="' + k + '" title="' +
+        esc(FILTERS[k].tip) + '">' + esc(FILTERS[k].label) + '</button>';
+    });
+    return html + (seg ? '</span>' : '');
+  }
+
   function buildBar() {
     var host = document.querySelector('.topbar');
     if (!host || document.getElementById('xbar')) return;
@@ -87,11 +126,7 @@
     bar.className = 'xbar';
     bar.innerHTML = '<div class="xbar-inner">' +
       (fKeys.length
-        ? '<div class="xg"><span class="xg-k">筛选</span>' +
-          fKeys.map(function (k) {
-            return '<button type="button" class="xp" data-f="' + k + '" title="' +
-              esc(FILTERS[k].tip) + '">' + esc(FILTERS[k].label) + '</button>';
-          }).join('') + '</div>'
+        ? '<div class="xg"><span class="xg-k">筛选</span>' + filterPills(fKeys) + '</div>'
         : '') +
       '<div class="xg"><span class="xg-k">排序</span>' +
       sKeys.map(function (k) {
@@ -112,7 +147,12 @@
       if (!b) return;
       if (b.dataset.act === 'reset') { reset(); return; }
       if (b.dataset.f) {
-        state.filters[b.dataset.f] = !state.filters[b.dataset.f];
+        var key = b.dataset.f, on = !state.filters[key], g = FILTERS[key].group;
+        /* 同组互斥：点「收费」就把「免费」松开，不用先关再开 */
+        if (g) Object.keys(FILTERS).forEach(function (k) {
+          if (FILTERS[k].group === g) state.filters[k] = false;
+        });
+        state.filters[key] = on;
         syncBar(); apply();
         return;
       }
@@ -232,6 +272,10 @@
     document.querySelectorAll('#regions > section').forEach(function (sec) {
       var list = Array.prototype.slice.call(sec.querySelectorAll('details.card'));
       if (list.length < 2) return;
+      /* 追加回卡片原本的父节点，不能图省事写 sec.appendChild：那样会把整叠卡片
+         从 .wrap 里拎出来挂到 <section> 上，卡片就此脱离正文栏、横着撑满视口。
+         这一步在首次渲染时就会跑，所以「卡片比地图宽一大截」是必现的。 */
+      var host = list[0].parentNode;
       var keyed = list.map(function (c, i) {
         return { el: c, i: i, k: sortKey(c, order) };
       });
@@ -239,7 +283,7 @@
         if (a.k === b.k) return a.i - b.i;       /* 同分保持原顺序，排序结果才稳定 */
         return a.k - b.k;
       });
-      keyed.forEach(function (x) { sec.appendChild(x.el); });
+      keyed.forEach(function (x) { host.appendChild(x.el); });
     });
   }
 

@@ -16,6 +16,9 @@
   --yellow: #ffd24d;
   --radius: 14px;
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  /* 正文的阅读宽度。地图、总览这些要撑满 .wrap 的 1180px，
+     但长文本一行超过这个宽度就开始难读，卡片与附录都收在这里面。 */
+  --measure: 940px;
 }
 
 * { box-sizing: border-box; }
@@ -97,6 +100,14 @@ a:hover { text-decoration: underline; }
   background: var(--accent-soft); border-color: var(--accent); color: var(--accent);
   font-weight: 600;
 }
+/* 分段控件：正反两面的筛选（免费/收费、免预约/需预约）拼成一颗连体药丸。
+   中间那道缝只留一条描边，两头才是圆角——形状本身就说明「这两个二选一」。 */
+.xseg { display: flex; flex: 0 0 auto; }
+.xseg .xp { border-radius: 0; margin-left: -1px; }
+.xseg .xp:first-child { border-radius: 999px 0 0 999px; margin-left: 0; }
+.xseg .xp:last-child { border-radius: 0 999px 999px 0; }
+.xseg .xp.on { position: relative; z-index: 1; }
+
 /* 定位是异步的，按下去要立刻有反应，否则会以为没点上 */
 .xp.wait { opacity: .6; cursor: progress; }
 .xp.wait::after { content: ' …'; }
@@ -289,7 +300,11 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 /* 不可抵达的点位仍显示编号（红底），加删除线区分 */
 .pin-gone { text-decoration: line-through; text-decoration-thickness: 2px; }
 
-/* ---------- 景点卡片 ---------- */
+/* ---------- 景点卡片 ----------
+   卡片不跟着 .wrap 撑到 1180px。展开后正文是单栏长文，一行 70 多个汉字
+   读到行尾就找不着下一行的行首了；地图要宽，文字不要。所以卡片与它的工具条
+   统一收在一个阅读宽度里，和 .section-lead 一样左对齐，保持一条竖直的读线。 */
+.card, .card-toolbar, .map-hint { max-width: var(--measure); }
 .card {
   background: var(--bg-card); border: 1px solid var(--line);
   border-left: 3px solid var(--line);
@@ -363,13 +378,62 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   font-size: 12.5px; font-weight: 700; border: 1px solid rgba(255, 107, 107, .35);
 }
 
-/* ---------- 附录 ---------- */
+/* ---------- 附录 ----------
+   每一节收成一张默认关着的卡片（结构见 app.js 的 foldAppendix）：
+   一行标题就是一节，读者扫一眼标题栏就知道该点开哪一张，
+   而不是先滚过三屏日出方位表才找到复查清单。 */
 #appendix { border-top: 1px solid var(--line); }
 .apx-h {
   margin: 34px 0 6px; font-size: 17px; color: var(--accent);
   letter-spacing: .01em;
 }
 .apx-h:first-child { margin-top: 4px; }
+
+.apx-fold {
+  max-width: var(--measure);
+  background: var(--bg-card); border: 1px solid var(--line);
+  border-left: 3px solid var(--line); border-radius: var(--radius);
+  margin-bottom: 10px; transition: border-color .15s;
+}
+.apx-fold:hover, .apx-fold[open] { border-left-color: var(--accent); }
+.apx-sum {
+  list-style: none; cursor: pointer; padding: 13px 18px;
+  display: flex; align-items: center; gap: 11px;
+  transition: background .15s; border-radius: 11px;
+}
+.apx-sum::-webkit-details-marker { display: none; }
+.apx-sum::marker { content: ''; }
+.apx-sum:hover { background: rgba(255, 255, 255, .04); }
+.apx-key {
+  flex: 0 0 auto; width: 24px; height: 24px; border-radius: 7px;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--accent-soft); color: var(--accent);
+  border: 1px solid rgba(255, 138, 61, .3);
+  font-size: 12.5px; font-weight: 700;
+}
+.apx-t { font-size: 15px; font-weight: 650; color: var(--text); }
+.apx-note { font-size: 12px; color: var(--text-faint); white-space: nowrap; }
+/* 这一节说的是哪些景点。太长就截断——标题栏只负责让人决定点不点开 */
+.apx-scope {
+  margin-left: auto; flex: 0 1 auto; min-width: 0;
+  font-size: 12px; color: var(--text-dim);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.apx-chev { flex: 0 0 auto; font-size: 11px; color: var(--text-faint); transition: transform .2s; }
+.apx-fold[open] .apx-chev { transform: rotate(180deg); }
+.apx-fold-body { padding: 16px 18px 18px; border-top: 1px solid var(--line); }
+.apx-fold-body > :first-child { margin-top: 0; }
+.apx-fold-body > :last-child { margin-bottom: 0; }
+.apx-fold-body .apx-sub:first-child { margin-top: 0; }
+
+@media (max-width: 720px) {
+  /* 窄屏放不下「涉及哪些景点」那一行，把它挪到第二行整行铺开，
+     箭头靠 .apx-t 撑开留在第一行末尾——否则它会被挤成孤零零的第三行 */
+  .apx-sum { flex-wrap: wrap; gap: 8px; padding: 12px 14px; }
+  .apx-t { flex: 1 1 auto; min-width: 0; }
+  .apx-scope { order: 5; flex: 1 1 100%; margin-left: 0; white-space: normal; }
+  .apx-fold-body { padding: 14px; }
+}
 .apx-sub {
   margin: 26px 0 8px; font-size: 15.5px; color: var(--text);
   display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;

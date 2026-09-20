@@ -42,9 +42,39 @@
     return m ? m[0].replace(/\s+/g, ' ') : null;
   }
 
+  /* ===== 免费还是收费 =====
+
+     票价字段是一整段考证过的散文，光看「这段里有没有出现『免费』」是判不出来的：
+     「16 岁以下免费」「会员免费」「周四晚间免费」说的都是收费馆的减免档，
+     反过来「公园免费，园内动物园成人 $10.95」里的金额也不是门票。
+     早先按全段匹配，纽约 79 条里 77 条被判成免费，这个筛选等于没有。
+
+     好在这批数据的写法是一致的：结论永远在第一句，例外情况跟在后面。
+       「广场免费。博物馆：成人 $36…」            → 免费
+       「成人 $30、7–17 岁 $14、0–6 岁免费」       → 收费
+     所以只看第一个「表了态」的句子（出现免费字样或 $ 金额的那句），
+     句内谁在前听谁的。开头的【…核实】考证戳先摘掉——它里面常写
+     「票价与免费条件均无变化」，会把收费馆误判成免费。 */
+  var FREE_RE = /免费|免票|不收费|不收门票|无门票|无入园费/;
+  var PRICE_RE = /\$\s?[\d.]+(?:\s*[–\-~]\s*\$?\s?[\d.]+)?/;
+
+  function ticketVerdict(plain) {
+    var t = String(plain == null ? '' : plain).replace(/^\s*【[^】]*】\s*/, '');
+    var parts = t.split(/[。！\n]/);
+    for (var i = 0; i < parts.length; i++) {
+      var f = parts[i].search(FREE_RE), p = parts[i].search(PRICE_RE);
+      if (f < 0 && p < 0) continue;
+      return (f >= 0 && (p < 0 || f < p)) ? 'free' : 'paid';
+    }
+    return null;
+  }
+
+  function isFree(plain) { return ticketVerdict(plain) === 'free'; }
+  function isPaid(plain) { return ticketVerdict(plain) === 'paid'; }
+
   function ticketGist(plain) {
-    if (/免费|免票|不收费|无门票/.test(plain)) return '免费';
-    var m = /\$\s?[\d.]+(?:\s*[–\-~]\s*\$?\s?[\d.]+)?/.exec(plain);
+    if (isFree(plain)) return '免费';
+    var m = PRICE_RE.exec(plain);
     return m ? m[0].replace(/\s+/g, '') : null;
   }
 
@@ -68,14 +98,16 @@
     var a = s.access || {};
     var visit = plainText(a.visit), ticket = plainText(a.ticket),
         hours = plainText(a.hours), book = plainText(a.book);
+    var price = ticketGist(ticket);
     return {
       visit: visit, ticket: ticket, hours: hours, book: book,
       mins: visitMins(visit),
       dur: durGist(visit),
-      price: ticketGist(ticket),
+      price: price,
       open: hoursGist(hours),
       booking: bookState(book),
-      free: /免费|免票|不收费|无门票/.test(ticket)
+      free: isFree(ticket),
+      paid: isPaid(ticket)
     };
   }
 
@@ -99,6 +131,8 @@
     visitMins: visitMins,
     durGist: durGist,
     ticketGist: ticketGist,
+    isFree: isFree,
+    isPaid: isPaid,
     hoursGist: hoursGist,
     bookState: bookState,
     facts: facts,

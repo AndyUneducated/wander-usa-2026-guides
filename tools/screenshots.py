@@ -31,6 +31,7 @@ VIEWS = [
     ('nyc-rating', 'nyc/#manhattan-midtown', 'hover-rating'),
     ('nyc-points', 'nyc/#the-met', 'open-points'),
     ('nyc-filter', 'nyc/', 'filter'),
+    ('nyc-appendix', 'nyc/#appendix', 'appendix'),
     ('nyc-nearby', 'nyc/', 'nearby'),
     ('nyc-route', 'nyc/', 'route'),
 ]
@@ -132,15 +133,29 @@ def main():
                 if len(pts) > 1:
                     pts[1].query_selector('summary').click()
                 page.wait_for_timeout(500)
+            elif action == 'appendix':
+                # the appendix is a stack of collapsed section cards; open one
+                # so the shot shows both the closed titles and an opened body
+                page.evaluate("""() => {
+                    const s = document.querySelector('#appendix');
+                    if (s) s.scrollIntoView({ block: 'start' });
+                }""")
+                page.wait_for_timeout(400)
+                titles = page.evaluate("""() => Array.from(
+                    document.querySelectorAll('.apx-sum')).map(s => [
+                      s.querySelector('.apx-t').textContent,
+                      s.querySelector('.apx-scope').textContent])""")
+                for t, sc in titles:
+                    print(f'    appendix「{t}」→ {sc}')
             elif action == 'filter':
                 # enable two filters and check toolbar state plus result count
                 page.click('#xbar [data-f="must4"]')
                 page.wait_for_timeout(300)
-                page.click('#xbar [data-f="nobook"]')
+                page.click('#xbar [data-f="needbook"]')
                 page.wait_for_timeout(600)
                 n = page.evaluate(
                     "() => document.querySelectorAll('details.card:not([hidden])').length")
-                print(f'    after filters "rating 4+ + no reservation": {n} spots left')
+                print(f'    after filters "rating 4+ + booking required": {n} spots left')
                 page.evaluate("() => window.scrollTo(0, 0)")
             elif action in ('nearby', 'route'):
                 page.click(f'#xbar [data-s="{"near" if action == "nearby" else "route"}"]')

@@ -183,6 +183,7 @@
       ' data-mins="' + (f.mins == null ? '' : f.mins) + '"' +
       ' data-book="' + (f.booking || '') + '"' +
       ' data-free="' + (f.free ? '1' : '') + '"' +
+      ' data-paid="' + (f.paid ? '1' : '') + '"' +
       ' data-n="' + s.n + '">';
     h += '<summary class="card-head">' +
       /* gone 的点位也保留编号：否则可见编号会出现空档，
@@ -368,6 +369,75 @@
     host.parentNode.insertBefore(sec, host);
   }
 
+  /* ---------- 附录折叠 ----------
+     附录是五六节查表型数据，平铺开来比正文还长，滚到页尾得先划过一屏日出方位表。
+     这里把每一节收成一张默认关着的卡片：标题只留主干，括号里的限定语降成小字，
+     再自动标出「这一节说的是哪些景点」——读者扫标题就知道该点开哪一张。
+
+     切分规则：一个 h3.apx-h 起一节，到下一个 h3.apx-h 为止。 */
+
+  /* 这一节涉及哪些景点：拿正文文本去撞景点索引里的名字。
+     附录表格第一列写的就是景点名，撞得相当准；撞不到的（例如按城市列的
+     日出日落表）不硬凑，如实说「全区通用」。 */
+  function apxScope(nodes) {
+    var txt = nodes.map(function (n) { return n.textContent || ''; }).join(' ');
+    var hits = [];
+    (window.WUIndex || []).forEach(function (i) {
+      /* 表里常写简称（The Met / Statue of Liberty），所以英文名再取一个
+         「第一个连接词之前」的短形式。太短的名字容易误撞，直接不参与匹配。 */
+      var keys = [i.en, String(i.en || '').split(/\s*[&（(:：·]/)[0].trim()];
+      var hit = keys.some(function (k) { return k.length >= 6 && txt.indexOf(k) > -1; }) ||
+        (i.name && i.name.length >= 3 && txt.indexOf(i.name) > -1);
+      if (hit) hits.push(i);
+    });
+    /* 撞上一两个名字多半是正文里顺带提了一句，不代表这一节是讲它们的
+       （日出日落表按城市列，却会捎带提到某个景点）。够三个才算数。 */
+    if (hits.length < 3) return '全区通用';
+    var names = hits.slice(0, 3).map(function (i) { return i.name || i.en; });
+    return hits.length + ' 个景点 · ' + names.join('、') + (hits.length > 3 ? ' 等' : '');
+  }
+
+  function foldAppendix() {
+    var body = document.getElementById('appendix-body');
+    if (!body) return;
+    var groups = [], cur = null;
+    Array.prototype.slice.call(body.childNodes).forEach(function (n) {
+      if (n.nodeType === 1 && n.classList && n.classList.contains('apx-h')) {
+        cur = { h: n, body: [] };
+        groups.push(cur);
+      } else if (cur) {
+        cur.body.push(n);
+      }
+    });
+    if (!groups.length) return;
+
+    groups.forEach(function (g) {
+      var raw = (g.h.textContent || '').trim();
+      var key = '';
+      var m = /^([A-Z])[.．、]\s*/.exec(raw);
+      if (m) { key = m[1]; raw = raw.slice(m[0].length); }
+      /* 「（示例日期，EDT）」这类限定语从标题里摘出来降成小字，标题只留主干 */
+      var note = '';
+      var p = /（([^）]*)）\s*$/.exec(raw);
+      if (p) { note = p[1]; raw = raw.slice(0, p.index).trim(); }
+
+      var d = document.createElement('details');
+      d.className = 'apx-fold';
+      if (key) d.id = 'apx-' + key.toLowerCase();
+      d.innerHTML = '<summary class="apx-sum">' +
+        (key ? '<span class="apx-key">' + esc(key) + '</span>' : '') +
+        '<span class="apx-t">' + esc(raw) + '</span>' +
+        (note ? '<span class="apx-note">' + esc(note) + '</span>' : '') +
+        '<span class="apx-scope">' + esc(g.h.dataset.scope || apxScope(g.body)) + '</span>' +
+        '<span class="apx-chev" aria-hidden="true">▾</span>' +
+        '</summary><div class="apx-fold-body"></div>';
+      var into = d.querySelector('.apx-fold-body');
+      body.insertBefore(d, g.h);
+      g.h.remove();
+      g.body.forEach(function (n) { into.appendChild(n); });
+    });
+  }
+
   /* ---------- 装配 ---------- */
   function render() {
     var root = document.getElementById('regions');
@@ -434,11 +504,14 @@
           renderCallouts(r.callouts) + '</div>';
       });
       if (blocks.length) {
+        /* 平铺进附录容器，不要再套一层 div：foldAppendix 按「h3 起、下一个 h3 止」
+           切分小节，多一层包裹这一节就会被漏掉。 */
         var wrap = document.createElement('div');
-        wrap.innerHTML = '<h3 class="apx-h">F. 分区提醒与关键约束</h3>' +
+        wrap.innerHTML = '<h3 class="apx-h" data-scope="' + blocks.length +
+          ' 个子地区的共性提醒">F. 分区提醒与关键约束</h3>' +
           '<p class="section-lead">正文里每个分区直接从景点卡片开始，这些前置提醒集中放在这里。' +
           '每块标题右侧可跳回对应分区。</p>' + blocks.join('');
-        apxBody.appendChild(wrap);
+        while (wrap.firstChild) apxBody.appendChild(wrap.firstChild);
       }
     }
 
@@ -447,6 +520,11 @@
       var el = document.getElementById('map-' + r.id);
       if (el) buildMap(el, r, i);
     });
+
+    /* 把景点连坐标一起交给 explore.js：筛选、排序、附近、顺路都用这份索引。
+       附录折叠也要拿它来判断每一节说的是哪些景点，所以得赶在两者之前建好。 */
+    window.WUIndex = buildIndex(REGIONS);
+    foldAppendix();
 
     /* 展开 / 收起全部 */
     root.addEventListener('click', function (e) {
@@ -458,15 +536,20 @@
       sec.querySelectorAll('details.card').forEach(function (d) { d.open = open; });
     });
 
-    /* 从地图图钉或目录跳过来时，自动展开目标卡片 */
+    /* 从地图图钉或目录跳过来时，自动展开目标卡片。
+       目标也可能埋在折叠的附录小节里（分区提醒就是），所以逐层往上把
+       祖先的 details 一并打开，否则浏览器会滚到一个收着的壳子上。 */
     function openFromHash() {
       var id = decodeURIComponent(location.hash.slice(1));
       if (!id) return;
       var el = document.getElementById(id);
-      if (el && el.tagName === 'DETAILS') {
-        el.open = true;
-        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (!el) return;
+      var d = el.closest('details');
+      while (d) {
+        d.open = true;
+        d = d.parentNode && d.parentNode.closest ? d.parentNode.closest('details') : null;
       }
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
     window.addEventListener('hashchange', openFromHash);
     openFromHash();
@@ -475,7 +558,7 @@
     var printRestore = [];
     window.addEventListener('beforeprint', function () {
       printRestore = [];
-      document.querySelectorAll('details.card, details.callout').forEach(function (d) {
+      document.querySelectorAll('details.card, details.callout, details.apx-fold').forEach(function (d) {
         printRestore.push([d, d.open]);
         d.open = true;
       });
@@ -499,8 +582,6 @@
     wrapWideTables();
     buildSearch();
     if (window.WUCopy) window.WUCopy.bind();
-    /* 把景点连坐标一起交给 explore.js：筛选、排序、附近、顺路都用这份索引 */
-    window.WUIndex = buildIndex(REGIONS);
     if (window.WUExplore) window.WUExplore.init();
   }
 
@@ -515,7 +596,7 @@
           id: s.id, n: s.n, en: s.en, name: s.name || '',
           region: r.navName || r.name, color: regionColor(r, i),
           coord: spotCoord(s), must: s.must, photo: s.score,
-          mins: f.mins, booking: f.booking, free: f.free,
+          mins: f.mins, booking: f.booking, free: f.free, paid: f.paid,
           dur: f.dur, gone: s.gone || ''
         });
       });

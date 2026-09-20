@@ -129,6 +129,36 @@ for (const [fn, input, want] of cases) {
 eq('"不需预约" is not misclassified as booking required', F.bookState('不需预约，直接刷卡进场'), 'no');
 console.log('   duration/tickets/hours/booking: ' + cases.length + ' samples');
 
+/* ---------- free vs. paid ----------
+   The real ticket prose is a whole researched paragraph in which the word
+   "免费" shows up on almost every entry (concession tiers, free evenings,
+   free adjacent sites). These cases are trimmed from the real data and pin
+   down the rule the filter depends on: the verdict is the first sentence
+   that actually takes a position, and inside it whichever comes first wins. */
+console.log('\n=== Free vs. paid ===');
+const tickets = [
+  ['a paid museum whose concession tiers say 免费',
+   '成人 $30、7–17 岁 $14、0–6 岁免费、会员免费。', 'paid'],
+  ['a free plaza whose adjacent museum is priced',
+   '广场免费。博物馆：成人（18–64）$36、13–17 岁 $30。', 'free'],
+  ['a free park whose zoo is priced',
+   '公园免费，没有门禁也没有售票处。园内收费的只有动物园：成人 $10.95。', 'free'],
+  ['a free ferry named alongside a priced lookalike',
+   '免费（官方原文「It is free to ride the ferry」）。另一家公司的同名线路单程 $4.50，那是收费的。', 'free'],
+  ['the leading verification stamp is not the verdict',
+   '【2026-09-13 于官网重新核实，票价与免费条件均无变化】官方原文：「The price is $10 for Adults」。', 'paid'],
+  ['a date-only preamble is skipped until a sentence takes a position',
+   '核实日期 2026-09-14，来源官方价目表。票价分两套。成人 $31。', 'paid'],
+  ['free with no amount anywhere',
+   '免费。全馆所有公共区域一律不收费。', 'free']
+];
+for (const [name, text, want] of tickets) {
+  eq(name, F.isFree(text) ? 'free' : F.isPaid(text) ? 'paid' : 'unknown', want);
+}
+ok('prose that takes no position at all stays unknown',
+   !F.isFree('按当日现场公示为准') && !F.isPaid('按当日现场公示为准'));
+console.log('   ' + tickets.length + ' ticket paragraphs classified');
+
 /* ---------- key-point splitting ---------- */
 console.log('\n=== Key-point split (lead + detail) ===');
 const lead1 = F.splitLead('<strong>地下展厅 2026 年夏重开。</strong>入口在主台阶两侧的侧门，留 20–30 分钟。');

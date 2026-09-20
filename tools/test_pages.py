@@ -170,6 +170,42 @@ PROBE = r"""
     xbar: q('#xbar').length,
     xFilters: Array.from(q('#xbar [data-f]')).map(b => b.dataset.f),
     xSorts: Array.from(q('#xbar [data-s]')).map(b => b.dataset.s),
+    /* Opposite pairs (free/paid, no-booking/booking-required) are welded into
+       one segmented control, so the pair must sit inside a single .xseg */
+    xSegs: Array.from(q('#xbar .xseg'))
+             .map(s => Array.from(s.querySelectorAll('[data-f]')).map(b => b.dataset.f)),
+
+    /* Appendix: every section collapsed into its own card, with a short title
+       and a line saying which spots it covers. No bare headings left behind. */
+    apxFolds: q('#appendix-body > details.apx-fold').length,
+    apxStrayHeads: q('#appendix-body .apx-h').length,
+    apxTitles: Array.from(q('.apx-sum')).map(s => [
+      (s.querySelector('.apx-t') || {}).textContent || '',
+      (s.querySelector('.apx-scope') || {}).textContent || ''
+    ]),
+
+    /* Cards must not stretch to the full container width: long single-column
+       prose at 1180px is unreadable, so they are capped at a reading measure. */
+    /* On a narrow phone the card rightly fills the column, so the cap is
+       "no wider than the reading measure", not "narrower than the container". */
+    cardTooWide: (() => {
+      const c = document.querySelector('.card');
+      const w = document.querySelector('#regions .wrap');
+      if (!c || !w) return null;
+      const measure = parseFloat(getComputedStyle(document.documentElement)
+                        .getPropertyValue('--measure')) || 940;
+      return c.getBoundingClientRect().width >
+             Math.min(measure, w.getBoundingClientRect().width) + 2;
+    })(),
+    /* Narrower than the container, but still starting on the same left edge as
+       the section heading and the map above it — capping the width must not
+       knock the whole card stack out of the column. */
+    cardOffset: (() => {
+      const c = document.querySelector('#regions .card');
+      const h = document.querySelector('#regions h2');
+      if (!c || !h) return null;
+      return Math.round(c.getBoundingClientRect().left - h.getBoundingClientRect().left);
+    })(),
 
     /* Offline / add-to-home declarations */
     manifest: !!document.querySelector('link[rel="manifest"]'),
@@ -395,6 +431,30 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
                 # Toolbar
                 ok.append((f'explore toolbar present (filters {r["xFilters"]} / sorts {r["xSorts"]})',
                            r['xbar'] == 1 and len(r['xSorts']) >= 2))
+                # The two location-based sorts lead: standing at the roadside,
+                # "nearest to me" and "on my way" are the only ones worth a tap.
+                ok.append((f'location sorts come first ({r["xSorts"][:2]})',
+                           r['xSorts'][:2] == ['near', 'route']))
+                for pair in (['free', 'paid'], ['nobook', 'needbook']):
+                    if not all(k in r['xFilters'] for k in pair):
+                        continue
+                    ok.append((f'{pair} is one segmented control ({r["xSegs"]})',
+                               pair in r['xSegs']))
+                # Appendix folded into per-section cards
+                ok.append((f'appendix is folded into sections ({r["apxFolds"]})',
+                           r['apxFolds'] >= 3))
+                ok.append((f'no bare appendix headings left ({r["apxStrayHeads"]})',
+                           r['apxStrayHeads'] == 0))
+                blank = [t for t in r['apxTitles'] if not t[0].strip() or not t[1].strip()]
+                ok.append((f'every appendix section has a title and a scope line ({len(r["apxTitles"])})',
+                           r['apxTitles'] and not blank))
+                for t, s in r['apxTitles']:
+                    notes.append(f'{label} {name} appendix section「{t}」→ {s}')
+                # Card width
+                ok.append(('cards are capped at a reading width, not the full container',
+                           r['cardTooWide'] is False))
+                ok.append((f'cards still start on the section left edge (offset {r["cardOffset"]}px)',
+                           r['cardOffset'] is not None and abs(r['cardOffset']) <= 2))
 
             # --- Do filter and sort actually work? ---
             # Above we only checked that the controls exist. Click them for real:
@@ -402,30 +462,56 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
             # condition, and clicking again must restore the full set;
             # sort must actually change card order, not merely light up the button.
             if not is_landing and r['xbar'] == 1:
-                for name_f, cond in [('must4', 'must >= 4'), ('quick', 'mins <= 60')]:
+                # (key, human-readable condition, JS expression that is true for a card
+                #  that should NOT have survived the filter)
+                filter_cases = [
+                    ('must4', 'must >= 4', "!(parseFloat(c.dataset.must) >= 4)"),
+                    ('quick', 'mins <= 60', "!(c.dataset.mins && parseFloat(c.dataset.mins) <= 60)"),
+                    ('free', 'admission is free', "c.dataset.free !== '1'"),
+                    ('paid', 'admission costs money', "c.dataset.paid !== '1'"),
+                    ('nobook', 'no booking needed', "c.dataset.book !== 'no'"),
+                    ('needbook', 'booking required', "c.dataset.book !== 'yes'"),
+                ]
+                for name_f, cond, bad_expr in filter_cases:
                     if name_f not in r['xFilters']:
                         continue
                     before = page.evaluate(
                         "() => document.querySelectorAll('details.card:not([hidden])').length")
                     page.click(f'#xbar [data-f="{name_f}"]')
                     page.wait_for_timeout(250)
-                    res = page.evaluate("""(f) => {
+                    res = page.evaluate("""() => {
                       const vis = Array.from(
                         document.querySelectorAll('details.card:not([hidden])'));
-                      const bad = vis.filter(c => f === 'must4'
-                        ? !(parseFloat(c.dataset.must) >= 4)
-                        : !(c.dataset.mins && parseFloat(c.dataset.mins) <= 60));
+                      const bad = vis.filter(c => %s);
                       return { n: vis.length, bad: bad.length };
-                    }""", name_f)
+                    }""" % bad_expr)
                     ok.append((f'filter {name_f} applies and every result satisfies "{cond}"'
                                f' ({before} → {res["n"]}, out of range {res["bad"]})',
-                               res['n'] < before and res['bad'] == 0))
+                               0 < res['n'] < before and res['bad'] == 0))
                     page.click(f'#xbar [data-f="{name_f}"]')
                     page.wait_for_timeout(250)
                     after = page.evaluate(
                         "() => document.querySelectorAll('details.card:not([hidden])').length")
                     ok.append((f'clearing filter {name_f} fully restores the list ({after} / {before})',
                                after == before))
+
+                # Within a segmented pair only one side can be lit: picking the
+                # opposite must release the first, not stack two contradictory
+                # conditions and produce an empty page.
+                if all(k in r['xFilters'] for k in ('free', 'paid')):
+                    page.click('#xbar [data-f="free"]')
+                    page.wait_for_timeout(200)
+                    page.click('#xbar [data-f="paid"]')
+                    page.wait_for_timeout(250)
+                    seg = page.evaluate("""() => ({
+                      free: document.querySelector('#xbar [data-f="free"]').classList.contains('on'),
+                      paid: document.querySelector('#xbar [data-f="paid"]').classList.contains('on'),
+                      n: document.querySelectorAll('details.card:not([hidden])').length
+                    })""")
+                    ok.append((f'picking 收费 releases 免费 and still shows results ({seg})',
+                               seg['paid'] and not seg['free'] and seg['n'] > 0))
+                    page.click('#xbar [data-f="paid"]')
+                    page.wait_for_timeout(200)
 
                 if 'must' in r['xSorts']:
                     page.click('#xbar [data-s="must"]')

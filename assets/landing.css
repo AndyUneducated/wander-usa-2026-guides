@@ -72,8 +72,6 @@
 
 .guide-meta .ext { color: var(--green); border-color: rgba(75, 209, 138, .35); }
 
-#howto .callout { max-width: 900px; }
-
 @media (max-width: 720px) {
   .guide-grid { grid-template-columns: 1fr; }
   .guide { padding: 20px; }
