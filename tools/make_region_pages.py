@@ -16,7 +16,7 @@ TEMPLATE = '''<!DOCTYPE html>
 <title>{title}</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="../assets/style.css?v=20260917a">
+<link rel="stylesheet" href="../assets/style.css?v=20260920a">
 <link rel="manifest" href="../manifest.webmanifest">
 <meta name="theme-color" content="#0f1115">
 </head>
@@ -67,15 +67,15 @@ TEMPLATE = '''<!DOCTYPE html>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="data.js?v=20260917a"></script>
-<script src="../assets/copy.js?v=20260917a"></script>
-<script src="../assets/rating.js?v=20260917a"></script>
-<script src="../assets/facts.js?v=20260917a"></script>
-<script src="../assets/geo.js?v=20260917a"></script>
-<script src="../assets/explore.js?v=20260917a"></script>
-<script src="../assets/app.js?v=20260917a"></script>
-<script src="intro.js?v=20260917a"></script>
-<script src="../assets/sw-reg.js?v=20260917a"></script>
+<script src="data.js?v=20260920a"></script>
+<script src="../assets/copy.js?v=20260920a"></script>
+<script src="../assets/rating.js?v=20260920a"></script>
+<script src="../assets/facts.js?v=20260920a"></script>
+<script src="../assets/geo.js?v=20260920a"></script>
+<script src="../assets/explore.js?v=20260920a"></script>
+<script src="../assets/app.js?v=20260920a"></script>
+<script src="intro.js?v=20260920a"></script>
+<script src="../assets/sw-reg.js?v=20260920a"></script>
 </body>
 </html>
 '''
