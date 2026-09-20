@@ -1,341 +1,341 @@
-# 数据准确性复核清单
+# Data Accuracy Review Checklist
 
-每条都需要对着官方来源核对。改动请回写到 `<region>/parts/*.js`（socal 直接改 `socal/data.js`），然后重新跑 `tools/assemble.py`。
+Each item must be checked against official sources. Write changes back to `<region>/parts/*.js` (for socal, edit `socal/data.js` directly), then rerun `tools/assemble.py`.
 
-| 优先级 | 条数 | 含义 |
+| Priority | Count | Meaning |
 | --- | --- | --- |
-| P0 | 1 | 声明不可抵达或已关闭，判错代价最大 |
-| P1 | 104 | 含具体时刻/日期/价格，最易过期 |
-| P2 | 36 | 预约与门票要求 |
-| P3 | 0 | 停车与步行等 |
+| P0 | 1 | Declares a location unreachable or closed; errors carry the highest cost |
+| P1 | 104 | Contains specific times, dates, or prices and is most likely to expire |
+| P2 | 36 | Reservation and ticket requirements |
+| P3 | 0 | Parking, walking, etc. |
 
 
-## P0（1 条）
+## P0 (1 piece)
 
 
 ### nyc / Boston
 
 - `fenway-harborwalk` **2. Fenway Park Exterior & the Boston Harborwalk**  
-  开放时间：Fenway Park 导览官方口径：「Available year-round. Public Tours depart at the top of each hour」，「April 1 through October 31: 9 a.m. – 5 p.m.」，「Last tour departs at 5 p.m. on non-game days」，「On game days the last tour departs THREE hours before game time」。11 月 1 日至 3 月 31 日改为 10:00–17:00。全年只在 Thanksgiving、Christmas、New Year's Day 闭馆。→ 所以十月下旬导览照常运行，这一点是好消息。但 2026 季后赛（Wild Card 9/29–10/1、Division Series 10/3–10、ALCS 10/12–20、World Series 10/23–31）若 Red Sox 打进主场轮次，导览大概率停开、球场周边封锁——这一段无法提前确认，只能到日子前查官网。Harborwalk、Long Wharf、Christopher Columbus Park 为公共通道与市属公园，实务上 24 小时开放。Christopher Columbus Park 棚架蓝灯官方口径「from the end of November through the middle of April」，点灯在感恩节前的周一（2026 年 11 月 23 日），行程窗口内不亮。Citgo 招牌：2026 年 5 月 29 日起拆除重建，官方口径复亮时间「by mid-November」，行程窗口内不亮。
+Opening hours: Fenway Park Guided tour Official caliber: 「Available year-round. Public Tours depart at the top of each hour」, 「April 1 through October 31: 9 a.m. – 5 p.m.」, 「Last tour departs at 5 p.m. on non-game days」, 「On game days the last tour departs THREE hours before game time」.From November 1st to March 31st, it will be changed to 10:00–17:00.It is only closed on Thanksgiving, Christmas, and New Year's Day throughout the year.→ So the tour will run as usual in late October, which is good news.However, if the Red Sox reach the home round of the 2026 playoffs (Wild Card 9/29–10/1, Division Series 10/3–10, ALCS 10/12–20, World Series 10/23–31), the tour will most likely be suspended and the surrounding area of the stadium will be blocked-this period cannot be confirmed in advance, so you can only check the official website a few days ago.Harborwalk, Long Wharf, and Christopher Columbus Park are public access roads and municipal parks, which are open 24 hours a day in practice.Christopher Columbus Park scaffolding blue light official caliber 「from the end of November through the middle of April」, the light is on the Monday before Thanksgiving (November 23, 2026), and the itinerary window is not on.Citgo signboard: It will be demolished and rebuilt from May 29, 2026. The official re-lighting time is 「by mid-November」, and it will not be lit in the itinerary window.
 
-## P1（104 条）
+## P1 (104 pieces)
 
 
 ### nyc / Salem
 
 - `seven-gables` **1. The House of the Seven Gables**  
-  开放时间：官方原文（7gables.org，站头横幅）：「Open daily 10 A.M.-6 P.M.」，秋季无每周固定闭馆日，周一至周日均开——10 月 13 日（周二）正常开放。Grounds Pass 的最晚入场时间随季节为 16:00／17:00／18:00 三档之一（官方措辞「last entry at close (4,5,or 6PM seasonally)」），十月究竟适用哪一档未能从官方渠道确认，按 17:00 最晚入场规划最安全。10:00 才开门这一点很关键：它错开了日出那个人少的窗口，所以想拍花园与室内就必须接受人多。十月另有多场夜间活动（Shadows of the Seven Gables 9/30–11/1、Haunted Fables 10/15–19 等），10/15 起有 Haunted Fables 夜场，当晚园区会有活动人流。电话 (978) 744-0991。
+opening hours: Official original text (7gables.org, station banner): 「Open daily 10 A.M.-6 P.M.」, there is no fixed weekly closing day in autumn, and it is open from Monday to Sunday-October 13th (Tuesday) is normally open.The latest admission time for Grounds Pass depends on the season. It is one of the three gears of 16:00/17:00/18:00 (the official wording is 「last entry at close (4,5,or 6PM seasonally)」). Which gear is applicable in October cannot be confirmed from the official channels. According to 17:00, the latest admission plan is the safest.The point that 10:00 only opened the door is very critical: it staggered the window where there were few people at sunrise, so if you want to shoot the garden and the interior, you must accept a large number of people.There are also a number of night events in October (Shadows of the Seven Gables 9/30–11/1, Haunted Fables 10/15-19, etc.). There will be Haunted Fables night shows from 10/15, and there will be a flow of people in the park that night.Phone (978) 744-0991.
 - `seven-gables` **1. The House of the Seven Gables**  
-  门票：十月 Mansion Tour Package（含 Grounds Pass）：成人 $31、老年 65+／急救人员／教师／大学生 $26、儿童 5–12 岁 $21、无障碍票 $16、5 岁以下免费。Salem 居民、NARM 会员／博物馆同业、SNAP／WIC／EBT 持卡人、Massachusetts 公立院校学生免费（均需证件）。11 月至次年 9 月同一张票为成人 $26，十月是唯一涨价的月份。Grounds Pass 单卖，但官网价目表未列出其十月价格，未能从官方渠道核实。从 Turner Street 与 Derby Street 街面拍外观完全免费。
+tickets: October Mansion Tour Package (including Grounds Pass): Adult $31, elderly 65+/first responders/teachers/college students $26, children 5–12 years old $21, barrier-free ticket $16, free for under 5 years old.Salem residents, NARM members/museum colleagues, SNAP/WIC/EBT cardholders, and students of Massachusetts public colleges and universities are free (all documents are required).From November to September of the following year, the same ticket is adult $26, and October is the only month when the price increases.Grounds Pass is sold separately, but its October price is not listed in the official website price list and cannot be verified from official channels.It's completely free to take photos from the streets of Turner Street and Derby Street.
 - `seven-gables` **1. The House of the Seven Gables**  
-  预约：十月必须提前买定时票，官方原文「Advance tickets are REQUIRED」。10 月 1–15 日的票于 9 月 1 日对会员、9 月 4 日对公众开放购买；10 月 16–31 日的票于 9 月 16 日与 9 月 19 日开放。不退款、不可改期、迟到不得入场（官方原文：「We do not have the staff resources to accommodate requests for rescheduling」「All sales final」「we cannot accept late arrivals」），需提前 15 分钟到场签到。Mansion Tour 的发团频次按季节浮动，官网现场看余位。Grounds Pass 可在开放时段内任意时间入场，最晚入场时间为闭馆时刻。
+reservation: You must buy a timed ticket in advance in October, the official original 「Advance tickets are REQUIRED」.Tickets for October 1–15 will be open to members on September 1st and the public on September 4th; tickets for October 16–31 will be open on September 16th and September 19th.Non-refundable, non-rescheduled, late admission is not allowed (official original: 「We do not have the staff resources to accommodate requests for rescheduling」「All sales final」「we cannot accept late arrivals」), you need to be present 15 minutes in advance to sign in.The frequency of the Mansion Tour fluctuates seasonally, and the official website shows the remaining seats on the spot.The Grounds Pass can be entered at any time during the opening hours, and the latest admission time is the closing time.
 - `salem-burying-point-mcintire` **2. Old Burying Point, Witch Trials Memorial & McIntire Historic District**  
-  开放时间：Chestnut Street：公共街道，24 小时。Witch Trials Memorial：官方口径「open from dawn till dusk」，即黎明到黄昏（这三天约 06:26–18:34），并注明可能因维护临时关闭。Old Burying Point：Welcome Center 夏季表为每日 10:00–17:00、最晚入场 16:45；十月版本为首场 10:00 入场、17:00 关门。Thanksgiving、Christmas Eve、Christmas Day、New Year's Eve、New Year's Day 与联邦假日闭园，恶劣天气可能临时闭园。秋季无每周固定闭馆日——10 月 13 日（周二）三处均正常。有一处口径不一致要提醒：一份二手来源写墓园十月只开 12:00–15:45、时段为 10 分钟一档，而官方页面写首场 10:00、15 分钟一档、17:00 关门。以官方页面为准，但这处矛盾说明规则年年在改，出发当天务必刷一次官网。
+Opening hours: Chestnut Street: Public street, 24 hours.Witch Trials Memorial: The official caliber is 「open from dawn till dusk」, that is, from dawn to dusk (about 06:26–18:34 in these three days), and indicates that it may be temporarily closed due to maintenance.Old Burying Point: The Welcome Center summer schedule is daily 10:00–17:00, and the latest admission is 16:45; the October version is the first 10:00 admission, and 17:00 is closed.Thanksgiving, Christmas Eve, Christmas Day, New Year's Eve, New Year's Day and Federal holidays are closed, and the park may be temporarily closed in bad weather.There is no fixed weekly closing day in autumn-all three places are normal on October 13 (Tuesday).There is an inconsistency in caliber to remind: A second-hand source says that the cemetery will only open 12:00–15:45 in October, and the time period is 10 minutes, while the official page says that the first 10:00, 15 minutes, and 17:00 will be closed.The official page shall prevail, but this contradiction shows that the rules are changing every year. Be sure to visit the official website once on the day of departure.
 - `salem-burying-point-mcintire` **2. Old Burying Point, Witch Trials Memorial & McIntire Historic District**  
-  门票：三处全部免费（墓园的十月预约也免费）。墓园旁的 Charter Street Cemetery Welcome Center（历史建筑 Pickman House 内）亦免费。
+tickets: All three places are free (October appointments in the cemetery are also free).The Charter Street Cemetery Welcome Center (in the historic Pickman House) next to the cemetery is also free.
 - `salem-burying-point-mcintire` **2. Old Burying Point, Witch Trials Memorial & McIntire Historic District**  
-  预约：Chestnut Street 与 McIntire 历史区：公共街道，不需预约、不需票。Salem Witch Trials Memorial：不需预约、不需票。Old Burying Point / Charter Street Cemetery：十月必须做当日线上预约（charterstreetcemetery.com，免费，只能当天预约、每 15 分钟一档、首场 10:00，2026 年的预约制度自 9 月 18 日起生效）。官方特别声明：任何向你收费让你进墓园的人都与 Salem 市政府无关。
+Reservation: Chestnut Street and McIntire Historic District: Public streets, no reservation or ticket required.Salem Witch Trials Memorial: No reservation or ticket required.Old Burying Point/Charter Street Cemetery: You must make an online appointment on the same day in October (charterstreetcemetery.com, free, can only be booked on the same day, every 15 minutes, the first 10:00, the reservation system in 2026 will take effect from September 18).The official special statement: Anyone who charges you to enter the cemetery has nothing to do with the city of Salem.
 - `salem-maritime-derby-wharf` **3. Salem Maritime NHS, Derby Wharf & Friendship of Salem**  
-  开放时间：NPS 官方 2026 年 9 月 21 日至 11 月 14 日季节表原文（nps.gov/sama/planyourvisit/basicinfo.htm，2026 年 8 月 19 日更新）：「Derby Wharf and Park Grounds Around Historic Structures — Open 24/7」；Salem Armory Regional Visitor Center 与 Waite &amp; Peirce Park Store 每日 9:30–16:30；Custom House 与 Public Stores &amp; Scale House 周三至周日 9:30–16:30（后者视天气）；Narbonne House 周三至周日 13:00–16:00；Derby House 在这个季节标注为「Closed for the season」；Central Wharf 洗手间每日 9:30–16:30。→ 10 月 13 日（周二）所有室内不开，栈桥与园区照常 24 小时可进。全年只在 Thanksgiving、Christmas Day、New Year's Day 闭馆。
+Opening hours: NPS official season table from September 21 to November 14, 2026 Original text (updated on August 19, nps.gov/sama/planyourvisit/basicinfo.htm，2026): 「Derby Wharf and Park Grounds Around Historic Structures — Open 24/7」; Salem Armory Regional Visitor Center and Waite &amp; Peirce Park Store Daily 9:30–16:30; Custom House and Public Stores &amp; Scale House Wednesday to Sunday 9:30–16:30 (the latter depends on the weather); Narbonne House is 13:00–16:00 from Wednesday to Sunday; Derby House is marked as 「Closed for the season」 in this season; Central Wharf is 9:30–16:30 daily.→ On October 13th (Tuesday), all indoor areas will not be open, and the trestle bridge and the park will be accessible 24 hours as usual.The museum is only closed on Thanksgiving, Christmas Day, and New Year's Day throughout the year.
 - `salem-maritime-derby-wharf` **3. Salem Maritime NHS, Derby Wharf & Friendship of Salem**  
-  门票：免费（NPS 官方原文：「All buildings and programs are free」，且无入园费）
+tickets: free (NPS official original: 「All buildings and programs are free」, and no admission fee)
 
 ### nyc / Boston
 
 - `harvard-yard` **1. Harvard University · Harvard Yard**  
-  开放时间：Harvard Yard：6 道门 24 小时（Widener、Thayer、Wadsworth、Meyer、Sever、Solomon/Lamont），Johnston Gate 行人 24 小时，另 4 道（Boylston、Holworthy、Straus、Loeb）06:00–19:00。官方警告「Gate openings are subject to change」，且 Yard 会因校内活动临时整体关闭（例：一家注册导览商在 2026 年 9 月挂出「Harvard Yard is closed on September 1st, 3rd, and 4th」）。Harvard Art Museums 官方原文：「Open Tuesday-Sunday 10am-5pm」「closed on Mondays and major holidays」，每月最后一个周四延长至 21:00（Harvard Art Museums At Night，免费）。你的窗口内两条已公布的例外：10 月 12 日（周一）本来就闭馆；10 月 23 日（周五）官方列为「Closing at 4pm」，提前一小时关门。10 月 29 日是本窗口内唯一的 At Night 夜场。Visitor Center：周一至周五 09:00–17:00。Adolphus Busch Hall：仅周三 13:00–17:00、周六 10:00–14:00。
+Opening hours: Harvard Yard: 6 gates 24 hours (Widener, Thayer, Wadsworth, Meyer, Sever, Solomon/Lamont), Johnston Gate pedestrian 24 hours, the other 4 (Boylston, Holworthy, Straus, Loeb) 06:00–19:00.The official warned 「Gate openings are subject to change」, and the Yard will be temporarily closed as a whole due to on-campus activities (example: A registered tour guide will hang out 「Harvard Yard is closed on September 1st, 3rd, and 4th」 in September 2026).Harvard Art Museums official original text: 「Open Tuesday-Sunday 10am-5pm」「closed on Mondays and major holidays」, extended to 21:00 on the last Thursday of each month (Harvard Art Museums at Night, free).There are two announced exceptions in your window: the museum will be closed on October 12th (Monday); it will be officially listed as 「Closing at 4pm」 on October 23rd (Friday), and it will be closed one hour in advance.October 29th is the only At Night in this window.Visitor Center: Monday to Friday 09:00–17:00.Adolphus Busch Hall: Only Wednesday 13:00–17:00, Saturday 10:00–14:00.
 - `harvard-yard` **1. Harvard University · Harvard Yard**  
-  门票：Harvard Yard 免费。Harvard Art Museums 官方原文：「Admission is free to all visitors every day」。Adolphus Busch Hall 也免费、不需票。Visitor Center 的纸质自助地图 $3。Widener Library 内部不对游客开放，任何票都进不去。
+tickets: Harvard Yard is free.Harvard Art Museums official original text: 「Admission is free to all visitors every day」.Adolphus Busch Hall is also free and no tickets are required.Visitor Center's paper self-service map $3.The interior of the Widener Library is not open to tourists, and no ticket can enter.
 - `harvard-yard` **1. Harvard University · Harvard Yard**  
-  预约：Harvard Yard 与 Harvard Art Museums 都不需预约、不需票。Art Museums 官方建议周末提前线上登记以缩短入场排队，但 walk-in 一直欢迎；到馆后请先到 Visitor Services 台报到。免费的 Historical Tour of Harvard由学生带领、走 Harvard Yard，需线上登记、每团限 10 人，经 Harvard University Visitor Center（周一至周五 09:00–17:00）安排；也有免费的 Visit Harvard 手机 app 自助导览。第三方 Trademark Tours 的公开团约 成人 $22、4–17 岁 $20，3 岁以下免费。
+reservation: No reservation or ticket is required for both Harvard Yard and Harvard Art Museums.Art Museums officially recommends online registration in advance on weekends to shorten the admission queue, but walk-in is always welcome; please check in at the Visitor Services desk first after arriving at the museum.The free Historical Tour of Harvard is led by students and walks the Harvard Yard. Online registration is required. Each group is limited to 10 people. It is arranged by the Harvard University Visitor Center (Monday to Friday 09:00–17:00); there is also a free Visit Harvard mobile app self-guided tour.The open group of the third-party Trademark Tours is about adults $22, 4–17 and $20, and it is free for children under 3 years old.
 - `fenway-harborwalk` **2. Fenway Park Exterior & the Boston Harborwalk**  
-  门票：外景全部免费。Fenway Park 公众导览（Public Tour，约 60 分钟）：成人 $30、儿童 3–12 岁 $21、军人 $21。Pregame Tour $55（仅主场比赛日、开赛前三小时）。「Fenway in Fifteen」$20，但官方限定 5 月至 9 月的比赛日与周末 12:00–15:00——也就是说十月来的人拿不到这一项。Christopher Columbus Park、Long Wharf、Harborwalk 全程免费。
+tickets: All locations are free.Fenway Park Public Tour (Public Tour, about 60 minutes): adult $30, child 3–12, year-old $21, military $21.Pregame Tour $55 (only on home game days, three hours before the start of the game).「Fenway in Fifteen」$20, but the official limit is 12:00–15:00 on game days and weekends from May to September-that is to say, people who come in October can't get this one.Christopher Columbus Park, Long Wharf, and Harborwalk are free of charge.
 - `fenway-harborwalk` **2. Fenway Park Exterior & the Boston Harborwalk**  
-  预约：Harborwalk、Long Wharf、Christopher Columbus Park、Rowes Wharf、Jersey Street 与 Lansdowne Street 全部是公共空间，不需预约、不需票。Fenway Park 球场导览需在 mlb.com/redsox/ballpark/tours 提前购票，官方称最多可提前 30 天，赛季中与周末常售罄，务必提前订。主场比赛日的当天最后一班导览在开赛前三小时发车——推论：9 月 25 日（19:10 开赛）最后一班约 16:00，9 月 27 日（15:05 开赛）最后一班约 12:00。
+reservation: Harborwalk, Long Wharf, Christopher Columbus Park, Rowes Wharf, Jersey Street and Lansdowne Street are all public spaces. No reservation or ticket is required.Fenway Park stadium tour tickets need to be purchased in advance at mlb.com/redsox/ballpark/tours. The official said that it can be up to 30 days in advance. It is often sold out during the season and on weekends. Be sure to book in advance.The last guided tour on the day of the home game departs three hours before the start of the game-inference: The last bus on September 25 (19:10 start) is about 16:00, and the last bus on September 27 (15:05 start) is about 12:00.
 - `mit-killian-court` **3. MIT · Killian Court & the Great Dome**  
-  开放时间：校园室外空间：实务上 24 小时可进入（MIT 是开放校园，无围墙、无门禁）。MIT Chapel 官方原文：「open to members of the general public for visiting hours, Monday – Friday, 10:00AM to 11:00AM and 1:30PM to 2:30PM」，并明确「sometimes religious services are scheduled during these hours. If you arrive during a service the Chapel is not available for viewing and we ask that you return on another day」。→ 周末与工作日的其余时间只对持 MIT 卡者开放，游客进不去。这是本区最窄的时段窗口，请把它当成一个「有场次」的目标来排。CAC 管理的活动空间整体开放时段为周日至周四 07:00–23:00、周五至周六 07:00–01:00，但那是给办活动用的，不等于游客可进。Barker Engineering Library（穹顶下的圆形阅览室）是否对公众开放未能从官方渠道确认。
+opening hours: Outdoor space on campus: in practice, it can be accessed 24 hours a day (MIT is an open campus with no walls and no access control).MIT Chapel official original text: 「open to members of the general public for visiting hours, Monday – Friday, 10:00AM to 11:00AM and 1:30PM to 2:30PM」, and clearly 「sometimes religious services are scheduled during these hours. If you arrive during a service the Chapel is not available for viewing and we ask that you return on another day」.→ Weekends and the rest of working days are only open to MIT card holders, and tourists cannot enter.This is the narrowest time window in this area. Please treat it as a "scheduled" target.The overall opening hours of the event space managed by CAC are 07:00–23:00 from Sunday to Thursday and 07:00–01:00 from Friday to Saturday, but that is for activities and does not mean that tourists can enter.Whether the Barker Engineering Library (the circular reading room under the dome) is open to the public cannot be confirmed from official channels.
 - `mit-killian-court` **3. MIT · Killian Court & the Great Dome**  
-  门票：全部免费。Killian Court、Great Dome、Stata Center、MIT Chapel、Harvard Bridge 均无门票。Kresge Auditorium 的演出另行售票（价格视场次）。
+tickets: All are free.There are no tickets for Killian Court, Great Dome, Stata Center, MIT Chapel, and Harvard Bridge.Tickets for performances in the Kresge Auditorium will be sold separately (the price depends on the number of performances).
 - `mit-killian-court` **3. MIT · Killian Court & the Great Dome**  
-  预约：Killian Court、Great Dome 外景、Stata Center 外景、Kresge 外景、Harvard Bridge 全部不需预约、不需票、无时段限制。MIT Chapel 的公众时段也不需预约，门在那两个时段是开的，直接走进去。Kresge Auditorium 室内不对公众开放——它由 Campus Activities Complex（CAC）管理，只在有场次时进人；想进去只能买一场演出的票，校方活动日历（calendar.mit.edu/building_w16）能查到公开场次（例：10 月 23 日 20:00 有 MIT Family Weekend Concert）。
+reservation: Killian Court, Great Dome location, Stata Center location, Kresge location, Harvard Bridge all do not require reservation, no tickets, and no time limit.There is no need to make an appointment during the public hours of MIT Chapel. The door is open during those two hours, so you can walk in directly.The Kresge Auditorium is not open to the public indoors-it is managed by the Campus Activities Complex (CAC) and only enters when there are performances; if you want to enter, you can only buy tickets for one performance. The school's event calendar (calendar.mit.edu/building_w16) can find public sessions (example: 10 on June 23rd, 20:00 has MIT Family Weekend Concert).
 - `charles-river-esplanade` **4. Charles River Esplanade & the Longfellow Bridge**  
-  开放时间：河岸公园与两座桥的人行道实务上 24 小时开放（Esplanade 由 Massachusetts DCR 管理，无门无闸）。但真正约束你的不是开放时间而是天光：9 月 25 日日落 18:38、民用暮光结束 19:04；10 月 22 日日落 17:53、民用暮光结束 18:21。换句话说十月下旬六点半以后这里已经没有可用的天光了。Charlesbank ＋ Smith Family Pavilion 工地（Museum of Science 一侧）目标 2026 年 11 月 1 日开放，行程窗口内仍在施工。
+opening hours: The riverbank park and the sidewalks of the two bridges are open 24 hours a day in practice (Esplanade is managed by Massachusetts DCR, with no doors and no gates).But what really restrains you is not the opening hours, but the sky: 18:38 at sunset on September 25, and 19:04 at the end of the civilian twilight; 17:53 at sunset on October 22, and 18:21 at the end of the civilian twilight.In other words, there is no available daylight here after 6:30 in late October.The Charlesbank + Smith Family Pavilion site (on the side of the Museum of Science) is scheduled to open on November 1, 2026, and construction is still under way in the itinerary window.
 - `charles-river-esplanade` **4. Charles River Esplanade & the Longfellow Bridge**  
-  门票：免费。四个机位全部无门票。
+tickets: free.There are no tickets for all four seats.
 - `acorn-street-beacon-hill` **5. Acorn Street & Beacon Hill**  
-  开放时间：Acorn Street 与 Louisburg Square：24 小时（公共街道）。Boston Common：全年开放（Boston 市属公园，夜间不建议久留）。Massachusetts State House 官方原文：「Tours are given weekdays year-round from 10 a.m. to 3:30 p.m., free of charge. The building is open weekdays from 8:45 a.m. to 5 p.m., and closed on weekends and holidays.」→ 周末与法定假日室内完全不开；你的窗口内 10 月 12 日（Indigenous Peoples Day）是假日，室内不开。金顶外景不受任何时段限制。注意 State House 室内全员过安检，入口在 Beacon Street 的 General Hooker Entrance，无障碍入口在 Bowdoin Street 一侧有坡道。
+opening hours: Acorn Street and Louisburg Square: 24 hours (public streets).Boston Common: Open all year round (Boston City Park, it is not recommended to stay for a long time at night).The official original text of Massachusetts State House: 「Tours are given weekdays year-round from 10 a.m. to 3:30 p.m., free of charge. The building is open weekdays from 8:45 a.m. to 5 p.m., and closed on weekends and holidays.」→ It will not be open indoors on weekends and statutory holidays; October 12 (Indigenous Peoples Day) in your window is a holiday, and it will not be open indoors.The location of Jinding is not limited by any time period.Note that all staff in the State House have gone through security. The entrance is at the General Hooker Entrance on Beacon Street, and the barrier-free entrance is on the Bowdoin Street side. There is a ramp.
 - `acorn-street-beacon-hill` **5. Acorn Street & Beacon Hill**  
-  门票：Acorn Street、Louisburg Square、Boston Common、State House 全部免费。State House 导览官方原文「free of charge」，含 House 与 Senate Chambers、「Sacred Cod」与州昆虫瓢虫的典故。Louisburg Square 中央绿地是私产，任何票都进不去。
+tickets: Acorn Street, Louisburg Square, Boston Common, and State House are all free.The official original text of the State House guide 「free of charge」 contains allusions to House and Senate Chambers, 「Sacred Cod」 and the state insect ladybug.The central green space of Louisburg Square is private property and no ticket can get in.
 - `public-garden-boston-common` **6. Boston Public Garden & Boston Common**  
-  门票：Public Garden 与 Boston Common 全部免费。园内所有雕像、桥、湖、草坪均无收费项目。
+tickets: Public Garden and Boston Common are all free.There are no charges for all statues, bridges, lakes, and lawns in the park.
 - `public-garden-boston-common` **6. Boston Public Garden & Boston Common**  
-  预约：不需预约、不需票。天鹅船 2026 季已于 9 月 7 日结束，本来也是现场买票、不接受预约（供明年参考：成人 $4.75、2–15 岁 $3.25、65 岁以上 $4.25、2 岁以下免费，单程约 12–15 分钟，接受现金与信用卡）。
+reservation: No reservation or ticket required.The 2026 Swan Boat season has ended on September 7. Tickets were originally purchased on-site and reservations are not accepted (for reference next year: adult $4.75, 2–15, $3.25, over 65 years old $4.25, free for under 2 years old, one-way about 12–15 minutes, cash and credit cards are accepted).
 - `back-bay-newbury` **7. Back Bay Brownstones & Newbury Street**  
-  开放时间：24 小时。唯一有时段性的是 Newbury Street 的商业氛围：多数店铺约 10:00 或 11:00 开门、18:00 或 19:00 关门（各店不同，未逐一核实），餐厅与露天座位到更晚。拍空街要 08:00–09:30，拍有人味要 16:30 之后。注意 10 月 22 日日落 17:52——「黄金时段的露天座位」与「蓝调的橱窗」在十月下旬只隔二十分钟，两张可以连着拍。
+opening hours: 24 hours.The only time-bound thing is the commercial atmosphere of Newbury Street: most shops open about 10:00 or 11:00, 18:00 or 19:00 close (each store is different, not verified one by one), and restaurants and open-air seats arrive later.After shooting the sky street for 08:00–09:30, after shooting the taste for 16:30.Note that ""Prime Time Outdoor Seating" and "Blues Window" are only 20 minutes apart at sunset on October 22, and the two can be taken in a row.
 - `back-bay-newbury` **7. Back Bay Brownstones & Newbury Street**  
-  门票：完全免费。Newbury Street 上的店铺与餐厅另算，但拍摄本身不产生任何费用。
+tickets: Completely free.The shops and restaurants on Newbury Street are counted separately, but there is no cost for the shooting itself.
 - `trinity-church-copley` **8. Trinity Church & Copley Square**  
-  开放时间：官方原文（trinitychurchboston.org/tours）：「Trinity Church is open for tours Tuesday through Saturday from 10 am to 4:30 pm (Guests who purchase admission by 4:30 pm will have until 5 pm in the Sanctuary)」。→ 周日与周一不对游客开放，这是本条目最大的时段陷阱。夏季的周日时段（11:00–15:30）官方写明只到 9 月 6 日为止（「Through Sun. Sept. 6, Trinity Church will also be open for tours on Sundays」），你的窗口全部在这之后，所以周日一定进不去。另有两条已公布的临时调整（都在你的窗口之前）：9 月 10 日 12:00 才开、9 月 19 日 16:00 提前关。每周二 12:00–12:45 因 Tuesday Holy Eucharist 暂停入场与导览（30 分钟的午间礼拜，欢迎参加）。官方明确警告「As an active Episcopal parish, visitor services hours may vary due to weddings, funerals, worship services, and other parish events」，并说恶劣天气可能临时调整。主日礼拜时间（9 月 13 日起恢复学年制）：8:00、10:00（含直播）、17:00。
+opening hours: Official original text (trinitychurchboston.org/tours): 「Trinity Church is open for tours Tuesday through Saturday from 10 am to 4:30 pm (Guests who purchase admission by 4:30 pm will have until 5 pm in the Sanctuary)」.→ It is not open to tourists on Sundays and Mondays. This is the biggest time trap in this entry.The summer Sunday period (11:00–15:30) officially states that it will only last until September 6 (「Through Sun. Sept. 6, Trinity Church will also be open for tours on Sundays」). All your windows are after this, so you must not be able to get in on Sunday.There are two other announced temporary adjustments (both before your window): 12:00 will only open on September 10, and 16:00 will close early on September 19.Admission and guided tours are suspended every Tuesday at 12:00–12:45 due to Tuesday Holy Eucharist (30-minute lunch service, welcome to participate).The official clearly warned 「As an active Episcopal parish, visitor services hours may vary due to weddings, funerals, worship services, and other parish events」 and said that bad weather may be temporarily adjusted.Sunday worship time (the school year system will resume from September 13): 8:00, 10:00 (including live broadcast), 17:00.
 - `trinity-church-copley` **8. Trinity Church & Copley Square**  
-  门票：官方原文：「The price is $10 for Adults, or $8 for Seniors, Students, Educators, Military, First Responders, and Massachusetts Residents. Children younger than 14 and EBT &amp; WIC cardholders are free.」门票含三种参观方式任选：自助（附地图，15–30 分钟）、音频导览（扫 QR 码或借设备，约 30 分钟）、docent 导览（45–60 分钟，限特定时段）。省钱的一招（已核实）：官方写明「From September through May, join us on Fridays at 12:15 pm for our weekly Organ Recitals. There is no charge for admission during the recital」——也就是说每周五 12:15 的管风琴音乐会期间进堂是免费的，建议捐 $10。你的窗口内每个周五都有。另有完全免费的 Free Exterior Audio Tour：West Porch 上有 QR 码，或访问 trinitychurchboston.org/feat，不受开放时间限制。Copley Square、喷泉、Phillips Brooks 像全部免费、24 小时。
+tickets: Official original text: 「The price is $10 for Adults, or $8 for Seniors, Students, Educators, Military, First Responders, and Massachusetts Residents. Children younger than 14 and EBT &amp; WIC cardholders are free.」 tickets include three optional ways to visit: self-service (with map, 15–30 minutes), audio guided tour (scan QR code or borrow equipment, about 30 minutes), docent guided tour (45–60 minutes, limited to specific time periods).A way to save money (verified): The official stated that 「From September through May, join us on Fridays at 12:15 pm for our weekly Organ Recitals. There is no charge for admission during the recital」-that is to say, it is free to enter the church during the organ concert of 12:15 every Friday. It is recommended to donate $10.It is available every Friday in your window.There is also a completely free Free External Audio Tour: there is a QR code on the West Porch, or visit trinitychurchboston.org/feat, which is not subject to opening hours.The statues of Copley Square, Fountain, and Phillips Brooks are all free and 24 hours a day.
 - `trinity-church-copley` **8. Trinity Church & Copley Square**  
-  预约：广场不需预约。教堂个人参观也不需预约，现场在 Narthex 的 Welcome Desk 买票即可（入口是朝 Copley Square 的 West Porch 主门）。Guided Tour 由 docent 带领、45–60 分钟、只在特定时段发车，场次见官网 web calendar。团体私人导览需填表申请，且周日与周一不提供。最新时段请电话确认：617-536-0944 转 102。
+reservation: No reservation is required for the square.There is no need to make an appointment for personal visits to the church. You can buy tickets at the Welcome Desk of Narthex on site (the entrance is the main door of West Porch facing Copley Square).The Guided Tour is led by docent, 45–60 minutes, and only departs at certain times. See the official website web calendar for the sessions.Group private guided tours need to fill out a form to apply, and are not available on Sundays and Mondays.For the latest time period, please call to confirm: 617-536-0944 to 102.
 - `boston-public-library` **9. Boston Public Library · McKim Building**  
-  开放时间：官方原文（bpl.org/locations/central，Central Library in Copley Square）：「Monday–Thursday 9:00 am – 8:00 pm / Friday 9:00 am – 5:00 pm / Saturday 9:00 am – 5:00 pm / Sunday 11:00 am – 5:00 pm」。→ 本区罕见的「每日开放、无每周闭馆日」的大馆。你的窗口内唯一的闭馆日是 10 月 12 日（Monday, October 12, 2026, Indigenous Peoples Day），官方 Holiday Closures 页写明「The Library will be closed.」。请特别注意周五与周六只到 17:00——而 10 月 22 日日落 17:52，所以「纯人工光的 Bates Hall」只有周一至周四（开到 20:00）能拍到。（另：9 月 6 日与 9 月 7 日因 Labor Day 闭馆，已过。）
+opening hours: Official original text (bpl.org/locations/central, Central Library in Copley Square): 「Monday–Thursday 9:00 am – 8:00 pm / Friday 9:00 am – 5:00 pm / Saturday 9:00 am – 5:00 pm / Sunday 11:00 am – 5:00 pm」.→ Tai Kwun is a rare "open daily, no weekly closing days" in this area.The only closing day in your window is October 12 (Monday, October 12, 2026, Indigenous Peoples Day), and the official Holiday Closures page states 「The Library will be closed.」.Please pay special attention to 17:00 only on Fridays and Saturdays-and 17:52 will fall on October 22, so the "pure artificial light in the Bates Hall" can only be photographed from Monday to Thursday (open to 20:00).(Also: September 6th and September 7th are closed due to Labor Day, which has passed.）
 - `boston-public-library` **9. Boston Public Library · McKim Building**  
-  门票：免费。全馆所有公共区域（含 Bates Hall、内院、大楼梯、Abbey Room、Sargent Gallery）一律不收费。也有免费的馆方建筑导览，时段以现场公告为准。
+tickets: free.There is no charge for all public areas of the museum (including Bates Hall, Inner Courtyard, Grand Staircase, Abbey Room, Sargent Gallery).There are also free guided tours of the museum's buildings, the time period is subject to the on-site announcement.
 
 ### nyc / Hudson Valley
 
 - `olana` **1. Olana State Historic Site, Hudson**  
-  开放时间：庭园：每日 08:00 至日落，全年免费开放（官方原文「Park: Open Daily, 8AM – Sunset」）。Frederic Church Center 周二至周日 09:30–16:30。导览时段周二至周日 10:00–16:00，2026 导览季为 5 月 19 日–11 月 2 日，周一不开导览；历史宅邸 16:30 准时关闭。需注意 NYS Parks 页面另给出「grounds 08:30 至日落」的口径，与 Olana 官网的 08:00 略有出入，以官网为准
+Opening hours: Garden: Daily from 08:00 to sunset, free of charge all year round (official original 「Park: Open Daily, 8AM – Sunset」).Frederick Church Center 09:30–16:30 from Tuesday to Sunday.Guided tours are available from Tuesday to Sunday 10:00–16:00, and the 2026 guided tour season will be from May 19th to November 2nd. Guided tours will not be open on Mondays; the historical mansion 16:30 will be closed on time.It Should be noted that the caliber of "grounds 08:30 to sunset" is also given on the NYS Parks page, which is slightly different from the 08:00 on Olana's official website. The official website shall prevail.
 - `olana` **1. Olana State Historic Site, Hudson**  
-  门票：250 英亩庭园免费。导览分项计价：Landscape Walk（Ridge Road and Viewshed 或 The Early Years）各 $12、The Artist’s House: Main Floor $20、特展 Frederic Church: Global Artist $15、Explore at Your Own Pace（仅周五至周日）$25、电瓶车导览 $40、两小时组合票 $45。16 岁及以下参加步行景观与宅邸导览免费；现役军人、退伍军人与急救人员凭证减 $5
+tickets: 250 acres of garden are free.Guided tour sub-pricing: Landscape Walk (Ridge Road and Viewshed or The Early Years) Each $12, The Artist's House: Main Floor $20, Special exhibition Frederick Church: Global Artist $15, Explore at Your Own Pace (Friday to Sunday only) $25, battery car guided tour $40, two-hour combination ticket $45.Free for 16-year-olds and under to participate in guided tours of walking landscapes and mansions; vouchers for active-duty soldiers, veterans and first responders minus $5
 - `kaaterskill-falls` **2. Kaaterskill Falls, Catskills**  
-  开放时间：DEC 州立林地，无开闭园时间。实际限制来自天黑——峡谷内比空旷处早暗约 40 分钟，10 月下旬 17:00 后底部就已经很难看清落脚点
+opening hours: DEC State woodland, no opening and closing time.The actual restriction comes from the dark-the canyon is about 40 minutes darker than the open place, and it is already difficult to see the foothold at the bottom after 17:00 in late October.
 - `kaaterskill-falls` **2. Kaaterskill Falls, Catskills**  
-  门票：完全免费，无入园费、无停车费（Mountain Top Historical Society 周末为建议捐赠 $20）
+tickets: Completely free, no admission fee, no parking fee (Mountain Top Historical Society recommends donating $20 on weekends)
 - `kaaterskill-falls` **2. Kaaterskill Falls, Catskills**  
-  预约：不需预约、不需许可。DEC 顾问报告建议的定时入场与日客流上限 1,000 人目前仅为提案，尚未实施，但这是本区 2026 年内最可能变动的规则，出发前请查 dec.ny.gov/places/kaaterskill-wild-forest
+reservation: No reservation or permission is required.The DEC consultant report recommends that the timed admission and daily passenger flow limit of 1,000 people is currently only a proposal and has not yet been implemented, but this is the most likely rule to change in the region in 2026. Please check dec.ny.gov/places/kaaterskill-wild-forest before departure.
 - `minnewaska` **3. Minnewaska State Park Preserve, Shawangunks**  
-  开放时间：每日 09:00 开园，闭园时间随季节变化。2026 年 9 月 8 日–10 月 12 日 09:00–19:00；10 月 13 日–10 月 31 日 09:00–18:00；11 月 1 日起 09:00–17:00（NYS Parks 官方时刻表）。10 月 12 日是本季最后一个能在园内看到日落的日子（当日日落 18:22）
+opening hours: 09:00 opens daily, and the closing time varies with the season.September 8th–October 12th, 2026 09:00–19:00; October 13th–October 31st 09:00–18:00; from November 1st 09:00–17:00 (NYS Parks official timetable).October 12th is the last day of the season when you can see the sunset in the park (sunset 18:22 on the same day)
 - `minnewaska` **3. Minnewaska State Park Preserve, Shawangunks**  
-  门票：$10 每车（15 座以下），Empire Pass 免费。大巴 $60（未提前预约 $150），周末与节假日不接受大巴。25 人以上团体须先致电 Lake Minnewaska Visitor Center（845-255-0752）
+tickets: $10 per car (less than 15 seats), Empire Pass is free.Bus $60 ($150 has not been booked in advance), buses are not accepted on weekends and holidays.Groups of more than 25 people must first call Lake Minnewska Visitor Center (845-255-0752)
 - `minnewaska` **3. Minnewaska State Park Preserve, Shawangunks**  
-  预约：Minnewaska 主区不需预约。但同一保护区内的 Sam’s Point 区域，2026 年 4 月 18 日–11 月 15 日的周末与节假日必须提前在 ReserveAmerica.com 或 1-800-777-9644 预约车位，分 09:00–14:00 与 14:00 至闭园两个时段，最多提前 14 天，当天上午场截至 08:00、下午场截至 13:00；车位费 $10 加预约费 $0.95。车顶带自行车的车辆在预约时段不得进入 Sam’s Point
+reservation: No reservation is required in the main area of Minnewska.However, in the Sam's Point area in the same protected area, on weekends and holidays from April 18th to November 15th, 2026, parking spaces must be reserved in advance at ReserveAmerica.com or 1-800–777-9644, divided into 09:00–14:00 and 14:00 until the park is closed, up to 14 days in advance, the morning session ends at 08:00, and the afternoon session ends at 13:00; parking space fee $10 plus reservation fee $0.95.Vehicles with bicycles on the roof of the car are not allowed to enter Sam's Point during the appointment period
 - `walkway-over-the-hudson` **4. Walkway Over the Hudson, Poughkeepsie**  
-  开放时间：每日 07:00 开放，闭园时间按 NYS Parks 2026 年官方时刻表分段：9 月 14 日–10 月 4 日 07:00–19:00；10 月 5 日–10 月 18 日 07:00–18:30；10 月 19 日–10 月 31 日 07:00–18:00；11 月 1 日起 07:00–17:00。2026 年已公布的特殊时段：9 月 18 日提前至 16:00 关闭；9 月 20 日延后至 11:00 开放（Dutchess County Classic 马拉松）；10 月 11 日延后至 11:00 开放（BikeNY 活动）。园区办公室每日 07:30–16:00，电话 845-834-2867
+opening hours: 07:00 is open daily, and the closing time is segmented according to the official timetable of NYS Parks in 2026: September 14th–October 4th 07:00–19:00; October 5th–October 18th 07:00–18:30; October 19th–October 31st 07:00–18:00; from November 1st 07:00–17:00.Special periods announced in 2026: early to 16:00 closure on September 18th; delayed to 11:00 opening on September 20th (Dutchess County Classic Marathon); postponed to 11:00 opening on October 11th (BikeNY event).Park office daily 07:30–16:00, phone 845-834-2867
 - `walkway-over-the-hudson` **4. Walkway Over the Hudson, Poughkeepsie**  
-  门票：走桥完全免费，全年 365 天开放。停车另计
+tickets: Walking the bridge is completely free and open 365 days a year.Parking is charged separately
 - `dia-beacon` **5. Dia Beacon**  
-  开放时间：周五至周一 10:00–17:00，2026 年该时段延续至 10 月 31 日；周二、周三、周四闭馆。最晚入场 16:30（官方原文「Please arrive before 4:30 pm for admission」）。另于感恩节、平安夜、圣诞节与元旦闭馆。官方注明「hours change seasonally」，且部分展厅可能因作品性质关闭或限制进入
+opening hours: Friday to Monday 10:00–17:00, this period will continue until October 31, 2026; closed on Tuesday, Wednesday, and Thursday.The latest admission is 16:30 (official original 「Please arrive before 4:30 pm for admission」).It will also be closed on Thanksgiving Day, Christmas Eve, Christmas Day and New Year's Day.The official designation is 「hours change seasonally」, and some exhibition halls may be closed or restricted due to the nature of the work.
 - `dia-beacon` **5. Dia Beacon**  
-  门票：成人 $25、65 岁以上 $18、学生 $12、残障访客 $12、5–11 岁儿童 $5；Dia 会员、5 岁以下、残障访客陪护、以及 Beacon 与 Newburgh 居民免费。Hudson Valley 十四县居民每月最后一个周日免费。退换票须提前 24 小时以上
+tickets: adult $25, over 65 years old $18, student $12, disabled visitors $12, 5–11, children $5; Free for Dia members, under 5 years old, escorts for disabled visitors, and residents of Beacon and Newburgh.Residents of fourteen counties in the Hudson Valley are free on the last Sunday of each month.Refunds and exchanges must be made more than 24 hours in advance
 - `storm-king` **6. Storm King Art Center, New Windsor**  
-  开放时间：周三至周一 10:00–18:00，周二闭园，最晚入场 17:00。10 月的周六与周日提前至 09:00 开门。会员可于开放日 09:30 起入园。2026 季度：4 月 1 日开季、11 月 29 日季末闭园；感恩节闭园，Indigenous Peoples’ Day 与 Veterans Day 正常开放
+opening hours: Wednesday to Monday 10:00–18:00, closed on Tuesday, the latest admission 17:00.Open the door to 09:00 early on Saturdays and Sundays in October.Members can enter the park from 09:30 on the open day.2026 quarter: The season starts on April 1st, and the park will be closed at the end of the season on November 29th; the park will be closed on Thanksgiving Day, and the Indigenous Peoples’ Day and Veterans Day will be open normally.
 - `storm-king` **6. Storm King Art Center, New Windsor**  
-  门票：平日成人 $25、65 岁以上 $22、18 岁以上学生 $15、5–17 岁 $15、4 岁及以下免费。9 月 26 日–11 月 8 日 peak fall season 的周六周日上浮为成人 $28、senior $25、学生与青少年 $18。门票含园内停车。Orange County 21 岁以下学生凭证免费；SNAP/EBT、Whitney Museum 与 Aldrich 会员、AAM 与 ICOM 个人会员、博物馆从业者、残障访客陪护均可免费（须现场出示证件）
+tickets: Weekdays adult $25, over 65 years old $22, students over 18 years old $15, 5–17 years old $15, 4 years old and below are free.From September 26th to November 8th, peak fall season will float on Saturdays and Sundays for adults $28, senior $25, and students and adolescents $18.Tickets include parking in the park.Vouchers for students under the age of 21 in Orange County are free; SNAP/EBT, Whitney Museum and Aldrich members, AAM and ICOM individual members, museum practitioners, and escorts for visitors with disabilities are all free (documents must be presented on site)
 - `storm-king` **6. Storm King Art Center, New Windsor**  
-  预约：官方原文：「Pre-purchased tickets are required to guarantee admission and parking. Onsite tickets may be limited or unavailable during for certain time slots.」即定时票不是绝对强制，但现场票在热门时段可能没有，秋季周末必须提前买。次月的票在当月 15 日放出（10 月票 9 月 15 日放）。会员全年免票、无需预约。12 人以上团体须至少提前三周申请
+reservation: Official original text: 「Pre-purchased tickets are required to guarantee admission and parking. Onsite tickets may be limited or unavailable during for certain time slots.」 that is, timed tickets are not absolutely mandatory, but on-site tickets may not be available during popular hours, and must be bought in advance on autumn weekends.Tickets for the following month will be released on the 15th of that month (October tickets will be released on September 15).Members are free of tickets and do not need to make an appointment all year round.Groups of more than 12 people must apply at least three weeks in advance
 - `cold-spring-breakneck` **7. Cold Spring Village · Breakneck Ridge**  
-  开放时间：公共空间无开闭时间限制，可拍到蓝调结束。店铺与餐厅通常 10:00/11:00 至 18:00/21:00
+opening hours: There is no opening and closing time limit for public spaces, and you can take pictures until the end of the day.Shops and restaurants are usually 10:00/11:00 to 18:00/21:00
 - `cold-spring-breakneck` **7. Cold Spring Village · Breakneck Ridge**  
-  门票：村内街道、滨水公园与 Little Stony Point 全部免费
+tickets: the village streets, waterfront Park and Little Stony Point are all free
 - `bear-mountain-perkins` **8. Bear Mountain State Park · Perkins Memorial Drive**  
-  开放时间：公园本体：dawn to dusk，全年开放（NYS Parks 官方口径）。Perkins Memorial Drive 与 Perkins Memorial Tower：4 月 1 日–11 月 30 日，视天气开放（官方原文「April 1 - November 30, weather permitting」）。整个 9 月下旬至 10 月底的窗口都在季节内。但每日开关闸的具体钟点 NYS Parks 官网没有公布，未能从官方渠道确认：第三方资料给出「山顶塔楼 16:00 关闭」与「车道号称日出至日落但早晨开闸时间不可靠」两种说法。出发当天请致电 845-786-2701 核实
+Opening hours: The main body of the park: dawn to dusk, open all year round (official website of NYS Parks).Perkins Memorial Drive and Perkins Memorial Tower: April 1st–November 30th, open depending on the weather (official original 「April 1 - November 30, weather permitting」).The entire window from late September to the end of October is in season."However," The specific hour of the daily switch of the gate was not announced on the official website of NYS Parks, and it could not be confirmed from official channels: third-party information gave two statements: "The peak tower 16:00 is closed" and "The lane is claimed to be from sunrise to sunset but the opening time in the morning is unreliable." .Please call 845-786-2701 to verify on the day of departure
 - `bear-mountain-perkins` **8. Bear Mountain State Park · Perkins Memorial Drive**  
-  门票：Perkins Memorial Drive 与山顶停车免费；山下 Bear Mountain 主停车场 $10 每车
+tickets: Free parking on Perkins Memorial Drive and the top of the mountain; $10 per car in the main parking lot of Bear Mountain under the mountain
 - `sleepy-hollow-tarrytown` **9. Sleepy Hollow Cemetery · Old Dutch Church · Lyndhurst**  
-  开放时间：Sleepy Hollow Cemetery：周一至周五 08:00–16:30，周六周日 08:30–16:30，16:30 后不得入园。Lyndhurst：庭园 4 月至 12 月每日开放，官网 Plan Your Visit 页写 09:30–16:30、Daily Grounds Pass 页写 09:30–17:00 最晚入场 16:00、Hours 页写 09:00–17:00，三处口径不一致，建议出发前致电 914-631-4481 确认；宅邸导览 2026 年 Fall Classic Mansion Tour 为 9 月 24 日–11 月 1 日每日开放，10:00–16:00、每半点一场，11 月整月停止导览，平时周二与周三闭馆
+Opening hours: Sleepy Hollow Cemetery: Monday to Friday 08:00–16:30, Saturday and Sunday 08:30–16:30, 16:30 are not allowed to enter the park.Lyndhurst: The garden is open daily from April to December. The official website Plan Your Visit page says 09:30–16:30, the Daily Grounds Pass page says 09:30–17:00, the latest admission is 16:00, and the Hours page says 09:00–17:00. The caliber of the three places is inconsistent. It is recommended to call 914-631-4481 before departure to confirm; The 2026 Fall Classic Mansion Tour is open daily from September 24th to November 1st, 10:00–16:00, one show every half hour, guided tours will stop for the whole month of November, and the museum is usually closed on Tuesdays and Thursdays.
 - `sleepy-hollow-tarrytown` **9. Sleepy Hollow Cemetery · Old Dutch Church · Lyndhurst**  
-  门票：Sleepy Hollow Cemetery 个人免费。Lyndhurst：Daily Grounds Pass 必买（官网 walking-and-recreation 页面写明「$10 per person fee for those visiting the grounds by vehicle」），宅邸导览另计——2026 年 Fall Classic Mansion Tour 官方标价区间为 $10–$29 加服务费，2025 年的分档为成人 $29、senior/AAA/军人/学生 $27、6–16 岁 $22、5 岁及以下 $10，2026 年逐档金额未能从官网确认；持宅邸票者不需另买 Grounds Pass。Blaze：基础定时票起价 $24，标准价成人 $32、senior $31、3–17 岁 $24，2 岁以下免费；含 VIP 体验的票起价 $39 与 $64；FLEX 起价 $129、FLEX PLUS 起价 $189（任意开放夜可入，售罄日也有效）。停车免费
+tickets: Sleepy Hollow Cemetery is free for individuals.Lyndhurst: Daily Grounds Pass must be bought (「$10 per person fee for those visiting the grounds by vehicle」 is stated on the walking-and-recreation page of the official website), and the guided tour of the mansion will be charged separately–the official price range of the Fall Classic Mansion Tour in 2026 is $10-$29 plus service fee, and the 2025 sub-file is adult $29, senior/AAA/military/student $27, 6–16 years old $22, $10 for 5 years old and below, the 2026 file-by-file amount cannot be confirmed from the official website; holders of mansion tickets do not need to buy a separate Grounds Pass.Blaze: Basic timed tickets start at $24, standard price adult $32, senior $31, 3–17 year old $24, free for under 2 years old; TICKETS with VIP experience start at $39 and $64; FLEX starts at $129, FLEX PLUS starts at $189 (admission is available on any open night, and it is also valid on sold-out days) .Parking is free
 
 ### nyc / Midtown
 
 - `top-of-the-rock` **1. Top of the Rock**  
-  开放时间：官方：每日 08:00–24:00，末班电梯 23:10，全年 365 天开放。平安夜与跨年夜 22:00 关、末班电梯 21:10。这是本区四座观景台里营业最晚的一座（与 Summit 并列），比 Empire State Building 晚一小时
+opening hours: Official: Daily 08:00–24:00, the last elevator 23:10, open 365 days a year.Christmas Eve and New Year's Eve 22:00 closed, the last elevator 21:10.This is the latest of the four observation decks in the district to open (juxtaposed with Summit), one hour later than the Empire State Building.
 - `top-of-the-rock` **1. Top of the Rock**  
-  门票：Timed Admission 成人 $42 起（第三方聚合站常报 $45，实为动态定价、周末与日落档浮到 $49–52）；儿童 $38 起、长者 $42 起、5 岁以下免费。Skip-the-line $82 起。Beam Combo $73 起。SKYLIFT + Admission $57 起，All-Inclusive $72 起，VIP Pass $185–207。RockMoMA 组合票 $63 起（含 MoMA）
+tickets: Timed admission for adults from $42 ($45 is often reported by third-party aggregators, which is actually dynamic pricing, floating to $49–52 on weekends and sunsets); children from $38, seniors from $42, and under 5 years old are free.Skip-the-line $82 from.Beam Combo $73 from.SKYLIFT + Admission $57 starts, All-Inclusive $72 starts, VIP Pass $185–207.RockMoMA combination ticket from $63 (including MoMA)
 - `st-patricks-cathedral` **2. St. Patrick's Cathedral**  
-  开放时间：官方口径：每日 06:30–20:45，全年无休。但「开门」不等于「可以随便拍」：弥撒时段（周一至周五 07:00、07:30、08:00、12:00、13:00、17:30；周六 08:00、12:00、17:30；周日 07:00、08:00、09:00、10:15 大礼、12:00、13:00、16:00 西班牙语、17:30）中殿主通道不得站人拍照。有第三方来源称周日不提供参观导览（Sunday closed for tours），该说法未能在教堂官网确认，但周日八台弥撒几乎排满全天，纯摄影目的请避开周日
+Opening hours: Official caliber: Daily 06:30–20:45, open all year round.But "open the door" is not equivalent to "you can shoot whatever you want": Mass hours (Monday to Friday 07:00, 07:30, 08:00, 12:00, 13:00, 17:30; Saturday 08:00, 12:00, 17:30; Sunday 07:00, 08:00, 08:00, 08:00, 08:00, 08:00, 08:00, 08:00, 08:00, 08:00, 08:00, 08:00, 08:00, 08:00, 09:00, 10:15, 12:00, 13:00, 16:00Z, 17:30) No one is allowed to take pictures in the main passage of the nave.Some third-party sources said that Sunday closed for tours is not available on Sundays. This statement cannot be confirmed on the church's official website, but the eight masses on Sunday are almost full all day. For purely photographic purposes, please avoid Sunday.
 - `st-patricks-cathedral` **2. St. Patrick's Cathedral**  
-  门票：免费（接受捐赠）。自助语音导览另收费
+tickets: free (donations are accepted).Self-guided audio guide is available for an additional fee
 - `rockefeller-center-fifth-ave` **3. Rockefeller Center and Fifth Avenue**  
-  开放时间：广场与步道为开放城市空间，实际上 24 小时可拍，夜间泛光照明整夜开启。冰场约 09:00–24:00（2026 季 10 月 10–11 日开放，具体开季日期官方尚未固定）。Atlas 所在的 630 Fifth Avenue 前庭为室外，同样全天可进；各楼大堂内部按办公楼时间，且不欢迎摄影
+opening hours: The square and the trail are open urban spaces, which can be photographed 24 hours a day, and the floodlight is turned on all night at night.The ice rink is about 09:00–24:00 (it will open on 10–11 in October of the 2026 season, and the specific opening date has not been officially fixed).The 630 Fifth Avenue vestibule where Atlas is located is outdoor and can also be entered throughout the day; the interior of the lobby on each floor is according to the office building time, and photography is not welcome.
 - `rockefeller-center-fifth-ave` **3. Rockefeller Center and Fifth Avenue**  
-  门票：免费（广场、Channel Gardens、Prometheus、Atlas 全部免费）。滑冰含租鞋 $40–70/人
+tickets: free (Plaza, Channel Gardens, Prometheus, Atlas are all free).Skating with rental shoes $40–70/person
 - `edge-hudson-yards` **4. Edge at Hudson Yards**  
-  开放时间：官方主页在不同日期给出不同营业时间，需按你的日期查 edgenyc.com。常见口径为 10:00–22:00（周一至周四）、09:00–24:00（周五至周日），旺季（4–10 月）可延长到 08:00–24:00。唯一稳定的规则是「末班电梯为关门前 50 分钟」；City Climb 末班约 20:00。全年无休，不允许再入场。本窗口（9/25–10/22）的每日确切时间未能从官方页面逐日确认，请以订票确认函上的时间为准
+opening hours: The official homepage gives different business hours on different dates. You need to check edgenyc.com according to your date.Common caliber is 10:00–22:00 (Monday to Thursday), 09:00–24:00 (Friday to Sunday), and the peak season (4–10 month) can be extended to 08:00–24:00.The only stable rule is "the last elevator is 50 minutes before closing"; the last elevator of City Climb is about 20:00.It is open all year round and no re-entry is allowed.The exact daily time of this window (9/25–10/22) cannot be confirmed day by day from the official page, please refer to the time on the booking confirmation letter.
 - `edge-hudson-yards` **4. Edge at Hudson Yards**  
-  门票：General Admission 成人 $42 起（另加 $2 手续费），Advance Saver $34 起（提前 14 天以上），Tri-State Resident（纽约/新泽西/康州邮编）$36 起，儿童 6–11 岁 $35 起、长者 62+ $39 起、6 岁以下免费。Flex Admission $63–73 起（不限时段到场），Priority Access $88 起，Champagne Experience 约 $65。City Climb $202（含 Edge 入场、数字照片与香槟）
+tickets: General Admission adult $42 from (plus $2 handling fee), Advance Saver $34 from (more than 14 days in advance), Tri-State Resident (New York/New Jersey/Connecticut ZIP code) $36 from, children 6–11 years old $35 from, seniors 62+$39 from, free for under 6 years old.Flex Admission $63–73 starts (unlimited time to be present), Priority Access $88 starts, Champagne Experience about $65.City Climb $202 (including Edge admission, digital photos and champagne)
 - `bryant-park-tunnel-views` **5. Bryant Park and the Midtown Street Vistas**  
-  开放时间：Bryant Park 官方为每日 07:00 至夜间（闭园时间随季节调整，通常 22:00–24:00 之间，本窗口的确切闭园时间未能从官方页面确认，请查 bryantpark.org 当日公告）。Tudor City 天桥、Pershing Square Plaza、Herald Square 均为公共街道，24 小时可用
+Opening hours: Bryant Park is officially daily from 07:00 to night (the closing time is adjusted according to the season, usually between 22:00–24:00, the exact closing time of this window cannot be confirmed from the official page, please check the announcement of bryantpark.org on the same day).Tudor City Flyover, Pershing Square Plaza, and Herald Square are all public streets and are available 24 hours a day
 - `bryant-park-tunnel-views` **5. Bryant Park and the Midtown Street Vistas**  
-  门票：免费
+tickets: Free
 - `nypl-schwarzman` **6. New York Public Library · Stephen A. Schwarzman Building**  
-  开放时间：官方原文：「The Rose Main Reading Room is also open for a visiting hour from 10 to 11 AM, Monday through Saturday. Please note that the last visitor entry is at 10:50 AM.」也就是每天只有一小时、周日完全没有。全馆开放时间：周一 10:00–18:00；周二、周三 10:00–20:00；周四至周六 10:00–18:00；周日闭馆。另有官方规定：Rose Main Reading Room 的最后入场为闭馆前 30 分钟（研究用途者在开放时段内可全程使用，参观者只有 10:00–11:00 那一小时）。General Research Division 的时间与全馆一致，但会有临时调整，出发前请查 nypl.org
+opening hours: Official original text: 「The Rose Main Reading Room is also open for a visiting hour from 10 to 11 AM, Monday through Saturday. Please note that the last visitor entry is at 10:50 AM.」 means that there is only one hour a day, not at all on Sundays.Opening hours of the whole museum: Monday 10:00–18:00; Tuesday and Wednesday 10:00–20:00; Thursday to Saturday 10:00–18:00; closed on Sundays.There are other official regulations: the last admission to the Rose Main Reading Room is 30 minutes before the closing of the museum (those for research purposes can use it throughout the opening hours, and visitors only have one hour of 10:00–11:00).The time of the General Research Division is the same as that of the whole museum, but there will be temporary adjustments. Please check nypl.org before departure.
 - `nypl-schwarzman` **6. New York Public Library · Stephen A. Schwarzman Building**  
-  门票：免费（参观、阅览室时段与两种导览全部免费）
+tickets: free (all tours, reading room hours and two guided tours are free)
 - `nypl-schwarzman` **6. New York Public Library · Stephen A. Schwarzman Building**  
-  预约：Rose Main Reading Room 的 10:00–11:00 参观时段不需预约、不需导览，直接进。另有两种免费导览：Rose Main Reading Room 短导览（周一至周六 11:20、13:30、15:00，约 15 分钟，在三楼 McGraw Rotunda 集合）与全馆导览（周一至周六 11:00 与 14:00，约 1 小时，需订票，每周日放出下一周的票）
+reservation: No reservation or guided tour is required for the 10:00–11:00 visit period of the Rose Main Reading Room, and you can enter directly.There are also two free guided tours: a short guided tour of the Rose Main Reading Room (Monday to Saturday 11:20, 13:30, 15:00, about 15 minutes, meet at McGraw Rotunda on the third floor) and a guided tour of the whole museum (Monday to Saturday 11:00 and 14:00, about 1 hour, tickets are required, and tickets for the next week will be released every Sunday)
 - `summit-one-vanderbilt` **7. SUMMIT One Vanderbilt**  
-  开放时间：官网首页原文：08:00–24:00，最后入场 22:30，「Open All Week Long」。有第三方来源称周二闭馆（decks-nyc 等），该说法与官网直接矛盾，以官网的「全周开放」为准，但出发前仍请复核。官方建议的停留时长是 90 分钟至 2.5 小时，比另三座都长——这是装置体验而非单纯看景，请把它算进时间预算
+Opening hours: Original text on the homepage of the official website: 08:00–24:00, last admission 22:30, 「Open All Week Long」.Some third-party sources said that the museum was closed on Tuesday (decks-nyc, etc.). This statement directly contradicts the official website. The "open all week" on the official website shall prevail, but please review it before departure.The official recommended stay time is 90 minutes to 2.5 hours, which is longer than the other three-this is an installation experience rather than a simple viewing, please count it into the time budget
 - `summit-one-vanderbilt` **7. SUMMIT One Vanderbilt**  
-  门票：SUMMIT Experience（普通票）平日成人 $43–44、周末 $49–50；儿童 6–12 岁平日 $37–38、周末 $43–44；5 岁以下免费。日落档加价 $10（部分来源报 $12–13），时段大致是当天日落前约 2.5 小时开始——这是四座里唯一有明文日落加价的一座，另三座是动态定价、日落档在实务上也贵 $5–10。SUMMIT Signature（含一杯鸡尾酒）$58 起，SUMMIT Ascent（含玻璃电梯）$68 起，Ultimate SUMMIT $75 起，导览团 $162 起，私人导览 $1,088（至多 6 人）。Edge + SUMMIT 组合票 $65 起
+tickets: SUMMIT Experience (regular ticket) Weekdays adult $43–44, weekends $49–50; Children 6–12, weekdays $37–38, weekends $43–44; free for under 5 years old.The price increase for the sunset stall is $10 (some sources report $12–13). The time period is roughly about 2.5 hours before sunset on the same day-this is the only one of the four that has a clear sunset price increase. The other three are dynamic pricing, and the sunset stall is also expensive in practice. $5–10.SUMMIT Signature (including a cocktail) starts at $58, SUMMIT Ascent (including glass elevator) starts at $68, Ultimate SUMMIT starts at $75, guided tours start at $162, and private guided tours start at $1,088 (up to 6 people).Edge + SUMMIT combination ticket from $65
 - `grand-central-terminal` **8. Grand Central Terminal**  
-  开放时间：官方：每日 05:15–02:00。这是本区可拍时间最长的一处，早于任何观景台开门、晚于任何观景台关门。West Balcony 上的 Cipriani Dolci 每日 11:30–22:00（台阶与栏杆位是公共空间，不用消费也能站）
+Opening hours: Official: Daily 05:15–02:00.This is the longest place in this area that can be photographed. It opens earlier than any observation deck and closes later than any observation deck.Cipriani Dolci daily 11:30–22:00 on West Balcony (the steps and railings are public spaces, so you can stand without consumption)
 - `grand-central-terminal` **8. Grand Central Terminal**  
-  门票：免费（只有搭乘 Metro-North 列车才需要车票）。三脚架许可：Grand Central Terminal Still Photography/Film Permit，非商业用途填表费 $250、商业用途 $450，均不可退，商业用途另可能被要求付 MTA 知识产权授权费
+tickets: free (tickets are only required for Metro-North trains).Tripod license: Grand Central Terminal Still Photography/Film Permit, non-commercial use form filling fee $250, commercial use $450, are non-refundable, commercial use may also be required to pay MTA intellectual property authorization fee
 - `empire-state-building` **9. Empire State Building Observatory**  
-  开放时间：官方逐段时间（本窗口）：9 月 18 日–10 月 4 日 10:00–23:00，入场门 22:00 关；10 月 5 日–8 日 10:00–22:00，入场门 21:00 关；10 月 9 日–31 日 09:00–23:00，入场门 22:00 关。全年 365 天开放，风雨无阻，冬季 86 层露天平台会装辐射式取暖器。请注意本季它是四座里关得最早的——Top of the Rock 与 Summit 都开到 24:00。官方另口径：最挤的是开门后两小时与日落后一小时，最松的是 12:00–14:00
+opening hours: Official time by time (this window): September 18th–October 4th 10:00–23:00, entrance gate 22:00 closed; October 5th–8th 10:00–22:00, entrance gate 21:00 closed; October 9th–31st 09:00–23:00, entrance gate 22:00 closed.It is open 365 days a year, rain or shine, and radiant heaters will be installed on the 86-story open-air platform in winter.Please note that this season it is the earliest of the four-Top of the Rock and Summit are both open to 24:00.The official also said: The most crowded is two hours after opening the door and one hour after sunset, and the loosest is 12:00–14:00.
 - `empire-state-building` **9. Empire State Building Observatory**  
-  门票：86 层：成人 $44 起、儿童 $38 起、长者 $42 起。86 + 102 层：成人 $79 起、儿童 $73 起、长者 $77 起。每笔交易另加 $5 手续费（官方原文「A $5 booking charge is added to each transaction」）。Sunrise Experience $135/人（仅周六）。官网直挂的 CityPASS 价：成人 $283 → $169、儿童 $275 → $129，含 ESB 的 AM/PM 双次入场（86 层白天 + 关门前 3 小时内的同夜再入）加另外 4 项
+tickets: 86th floor: adult $44 from, child $38 from, elderly $42 from.86 + 102 floors: adults from $79, children from $73, and the elderly from $77.Each transaction is subject to a $5 handling fee (the official original 「A $5 booking charge is added to each transaction」).Sunrise Experience $135/person (Saturday only).CityPASS price directly listed on the official website: adult $283 →$169, child $275 →$129, including ESB AM/PM double admission (daytime on the 86th floor + re-entry on the same night within 3 hours before closing) plus 4 other items
 - `empire-state-building` **9. Empire State Building Observatory**  
-  预约：必须网上预订定时票（esbnyc.com），官方原文「All visits require a timed reservation」。日落档最先售罄，建议提前 1–2 周。Sunrise Experience 仅周六、常在数周前售罄。Express Pass 可跳过展览与电梯队列，在结账时加购
+reservation: You must book a timed ticket (esbnyc.com) online, the official original 「All visits require a timed reservation」.The sunset stall is sold out first, it is recommended to advance 1–2 weeks.Sunrise Experience is only available on Saturdays and is often sold out a few weeks ago.Express Pass can skip the exhibition and elevator queues and add purchases at checkout
 
 ### nyc / Downtown
 
 - `high-line` **1. The High Line**  
-  开放时间：官方原文：4 月 1 日–11 月 30 日 7:00–22:00；12 月 1 日–3 月 31 日 7:00–20:00。行程窗口整段落在 7:00–22:00 内。但官网 FAQ 同时挂着「The Interim Walkway at the Western Rail Yards is temporarily closed.」——30th–33rd St、11th–12th Ave 之间那三分之一英里自 2024 年 10 月起封闭改建，官网未给重开日期，请按封闭计划。Gansevoort St 到 34th St／12th Ave 的主线、The Spur 与 Moynihan Connector 均正常开放
+opening hours: Official original text: April 1st–November 30th 7:00–22:00; December 1st–March 31st 7:00–20:00.The entire paragraph of the itinerary window is in 7:00–22:00.However, the official website is also hung with 「The Interim Walkway at the Western Rail Yards is temporarily closed.」–the third of the mile between 30th–33rd St and 11th-12th Ave will be closed for reconstruction from October 2024. The official website has not given a date for the re-opening, please follow the closure plan.The main line from Gansevoort St to 34th St/12th Ave, The Spur and Moynihan Connector are all open normally
 - `high-line` **1. The High Line**  
-  门票：免费
+tickets: Free
 - `high-line` **1. The High Line**  
-  预约：不需预约。免费的 docent 导览团需另行报名，官网口径为 9–10 月的周二、周三与周末
+reservation: No reservation is required.The free docent guided tour needs to be registered separately. The official website is open on Tuesdays, Wednesday and weekends of 9–10 month.
 - `little-island` **2. Little Island & Hudson River Park Piers**  
-  开放时间：官方原文：Little Island「opens at 6:00 am, 365 days a year unless weather conditions dictate otherwise」。分季时刻：3/8–5/24 为 6:00–23:00；5/25–9/7 为 6:00–24:00；9/8–10/31 为 6:00–23:00；11/1–12/31 为 6:00–21:00。恶劣天气会临时闭园，出发前查官网
+opening hours: Official original: Little Island「opens at 6:00 am, 365 days a year unless weather conditions dictate otherwise」.Seasonal time: 3/8–5/24 is 6:00–23:00; 5/25–9/7 is 6:00–24:00; 9/8–10/31 is 6:00–23:00; 11/1-12/31 is 6:00–21:00.The park will be temporarily closed in bad weather, check the official website before departure
 - `little-island` **2. Little Island & Hudson River Park Piers**  
-  门票：免费。Hudson River Park 的 Pier 57 屋顶、Gansevoort Peninsula 与 Pier 45 同样免费
+tickets: free.The roof of Pier 57, Gansevoort Peninsula and Pier 45 in Hudson River Park are also free
 - `whitney-museum` **3. Whitney Museum of American Art**  
-  开放时间：官方原文：周一 10:30–18:00；周二闭馆；周三 10:30–18:00；周四 10:30–18:00；周五 10:30–22:00；周六 10:30–18:00；周日 10:30–18:00。周二闭馆已核实（官网 Plan your visit 页与 2026 年 6 月 2 日新闻稿口径一致）。注：2026 年 6 月 16 日–8 月 18 日曾临时改为每周七天开放，该临时安排在行程窗口内已结束
+opening hours: Official original text: Monday 10:30–18:00; Closed on Tuesday; Wednesday 10:30–18:00; Thursday 10:30–18:00; Friday 10:30–22:00; Saturday 10:30–18:00; Sunday 10:30–18:00.The closure of the museum on Tuesday has been verified (the Plan your visit page of the official website is consistent with the caliber of the press release on June 2, 2026).Note: From June 16th to August 18th, 2026, it was temporarily changed to open seven days a week. The temporary arrangement has ended in the itinerary window.
 - `whitney-museum` **3. Whitney Museum of American Art**  
-  门票：官方票价：成人 $30，65 岁以上与学生 $24，25 岁及以下免费。每周五 17:00–22:00 全馆对所有人免费，每月第二个周日全天免费。一层展厅、大堂、商店与 Frenchette Bakery 常年免票
+tickets: Official ticket price: Adult $30, over 65 years old and student $24, free for 25 years old and below.The whole building of 17:00–22:00 is free for everyone every Friday, and it is free all day on the second Sunday of each month.The exhibition hall, lobby, shop and Frenchette Bakery on the first floor are free of charge all year round
 - `washington-square-park` **4. Washington Square Park & Greenwich Village**  
-  开放时间：每天 6:00 至次日 0:00（0:00–6:00 闭园，由 NYPD 与公园执法队每晚人工摆放铁马围栏封闭 11 个入口，包括拱门一侧那道 100 英尺宽的开口）。喷泉的水一般在 4 月至 10 月运行，10 月下旬有可能已停水，未能从官方渠道确认 2026 年的具体停水日期——如果冲着「喷泉喷水加拱门」去，请把这一点算进风险
+Opening hours: 6:00 every day to 0:00 the next day (0:00–6:00 is closed, and the NYPD and the park law enforcement team manually place iron horse fences every night to close 11 entrances, including the 100-foot-wide opening on the side of the arch).The water in the fountain generally runs from April to October. It may have been out of water in late October. The specific water stop date for 2026 cannot be confirmed from official channels-if you go to the "fountain spray and arch", please count this as a risk.
 - `washington-square-park` **4. Washington Square Park & Greenwich Village**  
-  门票：免费
+tickets: Free
 - `one-world-observatory` **5. One World Observatory**  
-  开放时间：官方原文：Monday – Sunday 9:00 AM – 9:00 PM，全年 365 天开放（含公共假日）。末次入场约 20:00–20:10（闭馆前 45–60 分钟）。也就是说行程窗口内的日落（9/25 18:49、10/22 18:06）与蓝调都在营业时间内，闭馆前还剩 2–3 小时的纯夜景余量。特殊活动与假日可能调整，出发前查官方日历
+opening hours: Official original: Monday–Sunday 9:00 AM–9:00 PM, open 365 days a year (including public holidays).The last admission is about 20:00–20:10 (45–60 minutes before closing).In other words, the sunsets (9/25, 18:49, 10/22, 18:06) and blues in the itinerary window are all during business hours, and there is still a pure night view margin of 2–3 hours before closing.Special events and holidays may be adjusted, check the official calendar before departure
 - `one-world-observatory` **5. One World Observatory**  
-  门票：官方页面不公布固定价格（动态定价，只写 "Prices are subject to additional fees"）。第三方汇总口径：General Admission $31 起（成人与 6–12 岁儿童 $31、65 岁以上 $35），Priority／Skip All Lines $59 起，All-Inclusive Flex $70 起，VIP 导览 $74 起，每笔交易另加 $3.50 手续费；6 岁以下免费但需在 Guest Services 领取免费票。另有第三方来源报出成人 $44–53，与上述口径矛盾，未能从官方渠道确认具体数字——请以下单页面当天显示为准。票为不可退（non-refundable）
+tickets: The official page does not publish fixed prices (dynamic pricing, only "Prices are subject to additional fees").Third-party summary caliber: General Admission $31 from (adults and 6–12 children $31, $35 over 65 years old), Priority/Skip All Lines $59 from, All-Inclusive Flex $70 from, VIP guided tour $74 from, each transaction is subject to $3.50 handling fee; free for under 6 years old but need to receive free at Guest Services ticket.Another third-party source reported adult $44–53, which contradicts the above caliber, and the specific number cannot be confirmed from official channels-please refer to the display on the same day on the following single page.Tickets are non-refundable (non-refundable)
 - `nine-eleven-memorial` **6. National September 11 Memorial (Reflecting Pools)**  
-  开放时间：广场官方原文：每天 8:00–20:00。博物馆：周三至周一以及部分周二，9:00–19:00，末次入场 17:30。注意官方写的是「and many Tuesdays」／「select Tuesdays」，即常规闭馆日是周二但部分周二仍开，具体日期只能在购票页面查当天——如果行程里只有周二能去博物馆，务必先查
+Opening hours: The official original text of the square: 8:00–20:00 every day.Museum: Wednesday to Monday and some Tuesdays, 9:00–19:00, last admission 17:30.Note that the official writing is 「and many Tuesdays」/「select Tuesdays」, that is, the regular closing day is Tuesday, but some Tuesdays are still open. The specific date can only be checked on the ticket purchase page on the same day-if you can only go to the museum on Tuesday in the itinerary, be sure to check first.
 - `nine-eleven-memorial` **6. National September 11 Memorial (Reflecting Pools)**  
-  门票：广场免费。博物馆：成人（18–64）$36、13–17 岁 $30、7–12 岁 $24、6 岁及以下免费（仍需票）；导览团含门票 $48–60；Memorial + Museum 导览 $85；家庭套票 $106／$125。语音导览现场租借 $11（九种语言含 ASL），官方另有免费的 Bloomberg Connects 手机版
+tickets: The square is free.Museum: Adults (18–64) $36, 13–17 years old $30, 7–12 years old $24, 6 years old and below free (tickets are still required); guided tour with tickets $48–60; Memorial + Museum guided tour $85; Family package $106/$125.The audio guide is rented on-site $11 (including ASL in nine languages), and the official Bloomberg Connections mobile version is also available for free.
 - `nine-eleven-memorial` **6. National September 11 Memorial (Reflecting Pools)**  
-  预约：广场不需预约。博物馆必须提前买定时票（最多可提前 6 个月购）；周一免费票每周一 07:00 ET 放出、每人限 4 张。预约可在开始前 24 小时以上退改，免费换票一次
+reservation: No reservation is required for the square.The museum must purchase timed tickets in advance (up to 6 months in advance); free tickets on Mondays are released every Monday 07:00 ET, limited to 4 tickets per person.Reservations can be refunded or changed more than 24 hours before the start, and tickets can be exchanged for free once
 - `oculus-wtc-hub` **7. World Trade Center Transportation Hub (Oculus)**  
-  开放时间：大厅作为交通设施基本全天开放，但港务局明确：「The Oculus street level access is limited overnight from 1:00 am to 5:00 am」——这段时间要走 Vesey Street 或 Fulton Street 经 2 WTC 北通道进出。Westfield 店铺（官方原文）：周一–周五 10:00–20:00，周六 10:00–19:00，周日 11:00–18:00。想拍空大厅就在 10:00 前到
+Opening hours: The lobby is basically open all day as a transportation facility, but the Port Authority is clear: 「The Oculus street level access is limited overnight from 1:00 am to 5:00 am」-During this time, you have to take Vesey Street or Fulton Street to enter and exit through the 2 WTC North Passage.Westfield store (official original): Monday–Friday 10:00–20:00, Saturday 10:00–19:00, Sunday 11:00–18:00.If you want to take a picture of the empty hall, just arrive before 10:00
 - `oculus-wtc-hub` **7. World Trade Center Transportation Hub (Oculus)**  
-  门票：免费。官方口径：进入 Oculus 大厅与各公共通道完全免费，只有购物、餐饮与乘 PATH／地铁才付费
+tickets: free.Official caliber: Entering the Oculus lobby and all public passages is completely free, only shopping, dining and taking the PATH/subway are paid
 - `brooklyn-bridge-manhattan` **8. Brooklyn Bridge (Manhattan-Side Promenade)**  
-  门票：免费，24 小时开放（行人步道）
+tickets: free, open 24 hours (pedestrian trail)
 - `staten-island-ferry` **9. Staten Island Ferry**  
-  门票：免费
+tickets: Free
 
 ### nyc / Brooklyn
 
 - `gantry-plaza` **1. Gantry Plaza State Park · Pepsi-Cola Sign · Long Island City**  
-  开放时间：Gantry Plaza State Park 每日 08:00–22:00（纽约州立公园系统，节假日或有活动时可能调整）。Hunters Point South Park 属 NYC Parks，按一般市属公园口径 06:00–01:00。22:00 闭园对本窗口没有影响——10 月下旬民用暮光 18:34 就结束，天文暮光 19:06 结束，你有充裕的三个多小时。Pepsi-Cola 招牌的霓虹是整夜亮的，不受闭园时间限制，从园外的 Center Boulevard 上仍可拍到（角度差一些）
+Opening hours: Gantry Plaza State Park Daily 08:00–22:00 (New York State Park System, may be adjusted during holidays or activities).Hunters Point South Park belongs to NYC Parks, according to the general municipal park caliber 06:00–01:00.The closure of 22:00 has no effect on this window-the civilian twilight 18:34 ends in late October, and the astronomical Twilight 19:06 ends. You have plenty of more than three hours.The neon signs of Pepsi-Cola are lit all night long and are not limited by the closing time. They can still be photographed from Center Boulevard outside the park (the angle is worse).
 - `gantry-plaza` **1. Gantry Plaza State Park · Pepsi-Cola Sign · Long Island City**  
-  门票：免费
+tickets: Free
 - `brooklyn-bridge-park` **2. Brooklyn Bridge Park · Pebble Beach · Granite Prospect · Jane’s Carousel**  
-  开放时间：Brooklyn Bridge Park 每日 06:00–01:00（官方口径 365 天开放）。分区例外：Pier 2 为 08:00–23:00（季节性）、Pier 5 为 06:00–23:00、Pier 6 排球场 06:00–23:00、各儿童游乐场为日出至日落、洗手间 3–10 月 07:00–23:00、11–3 月 07:00–22:00。Jane’s Carousel 秋季时刻表（2026 年 9 月 14 日至 12 月 31 日）：周一、周二闭馆，周三至周日 11:00–17:50——这个 17:50 早于本窗口每一天的日落，意味着蓝调时段木马一定是停着的（玻璃亭仍发光）
+Opening hours: Brooklyn Bridge Park 06:00–01:00 daily (the official caliber is open 365 days).Exceptions to zoning: Pier 2 is 08:00–23:00 (seasonal), Pier 5 is 06:00–23:00, Pier 6 volleyball court 06:00–23:00, each children's playground is sunrise to sunset, restroom 3–10 month 07:00–23:00, 11–3 month 07:00–22:00.Jane's Carousel autumn timetable (September 14 to December 31, 2026): Closed on Mondays and Tuesdays, and 11:00–17:50 from Wednesday to Sunday-this 17:50 is earlier than the sunset of this window every day, which means that the carriage must be parked during this period (the glass pavilion is still glowing)
 - `brooklyn-bridge-park` **2. Brooklyn Bridge Park · Pebble Beach · Granite Prospect · Jane’s Carousel**  
-  门票：公园免费。Jane’s Carousel 单次 $4；一名 42 英寸以下儿童可与一名成人共用一张票，额外的 42 英寸以下儿童每人 $4；接受 SNAP／EBT 折扣。木马是 501(c)(3) 非营利机构运营
+tickets: The park is free.Jane's Carousel single $4; one child under 42 inches can share a ticket with one adult, and additional children under 42 inches can share $4 per person; SNAP/EBT discounts are accepted.Trojan Horse is operated by a 501(c)(3) non-profit organization
 - `dumbo-washington-street` **3. Washington Street, DUMBO · Manhattan Bridge Framing**  
-  开放时间：24 小时可拍。但实际可用窗口由人流决定，不由时间决定：日出前到 07:00 街上通常只有个位数的人、经常完全空无一人；09:00 之后属「极度拥挤」；10:00–18:00 全天高峰，周末尤甚，同一帧会有一条明显的排队队列，周末可以排一小时。周一至周四的清晨与周末清晨也有明显差别，周末即使在日出时也已经有人
+opening hours: Available for shooting within 24 hours.However, the actual available window is determined by the flow of people, not by time: there are usually only single-digit people on the street from sunrise to 07:00, and it is often completely empty; after 09:00, it is "extremely crowded"; 10:00–18:00 is at its peak throughout the day, especially on weekends. There will be an obvious queue at the same time, and it can be lined up for one hour on weekends.There is also a significant difference between the early morning from Monday to Thursday and the early morning on weekends. Even at sunrise on weekends, there are already people.
 - `dumbo-washington-street` **3. Washington Street, DUMBO · Manhattan Bridge Framing**  
-  门票：免费——这是一条公共街道，没有门禁也没有营业时间
+tickets: Free-this is a public street, there is no access control and no business hours
 - `brooklyn-heights-promenade` **4. Brooklyn Heights Promenade (The Esplanade)**  
-  开放时间：24 小时开放，全年无休。它法律上不是公园（产权属 NYC DOT），因此不适用市属公园的 06:00–01:00 关门规定。2026 年秋季无任何封闭——BQE Central 大修 2030 年才破土。相邻的 Pierrepont Playground 等游乐场按 NYC Parks 规则「日出至日落」
+opening hours: Open 24 hours a day, all year round.It is not legally a park (the property rights belong to the NYC DOT), so the 06:00–01:00 closing regulations of municipal parks do not apply.There will be no closure in the fall of 2026-BQE Central will not break ground until 2030.Playgrounds such as the adjacent Pierrepont Playground are "sunrise to sunset" according to the rules of NYC Parks.
 - `brooklyn-heights-promenade` **4. Brooklyn Heights Promenade (The Esplanade)**  
-  门票：免费
+tickets: Free
 - `prospect-park` **5. Prospect Park · Long Meadow · Boathouse on the Lullwater · Grand Army Plaza**  
-  开放时间：每日 05:00–01:00，全年开放（NYC 311 官方口径）。这是本区秋色三点里唯一覆盖日出、日落与蓝调的开放时间——Brooklyn Botanic Garden 18:00 关、Green-Wood 入夜前锁门，只有这里不受限制。2018 年 1 月 2 日起全园永久禁止机动车通行
+opening hours: Daily 05:00–01:00, open all year round (official caliber of NYC 311).This is the only opening time covering sunrise, sunset and blues in the three points of autumn in this area-Brooklyn Botanic Garden 18:00 is closed, and Green-Wood locks the door before nightfall. Only here are there no restrictions.Motor vehicles will be permanently banned in the park from January 2, 2018.
 - `prospect-park` **5. Prospect Park · Long Meadow · Boathouse on the Lullwater · Grand Army Plaza**  
-  门票：免费（Boathouse 内的 Audubon Center 与旋转木马另有各自的开放时间与票价）
+tickets: Free (the Audubon Center and Carousel in the Boathouse have their own opening hours and ticket prices)
 - `brooklyn-botanic-garden` **6. Brooklyn Botanic Garden · Japanese Hill-and-Pond Garden**  
-  开放时间：9 月：周二至周四 10:00–19:00；周五至周日 10:00–18:00；周一闭馆。10 月：周二至周日 10:00–18:00；周一闭馆，但 10 月 12 日（Indigenous Peoples’ Day）例外开放 10:00–18:00。末次入园为闭园前 30 分钟；专类园（含 Japanese Hill-and-Pond Garden 与温室）在闭园前 30 分钟开始清园。10 月 24 日（周六）为 Fall Harvest Festival，需专门票，当天不售普通门票。会员另有 Fall Mornings 提前入园：周六日 09:00–10:00（9 月 12 日起）
+Opening hours: September: Tuesday to Thursday 10:00–19:00; Friday to Sunday 10:00–18:00; closed on Monday.October: 10:00–18:00 from Tuesday to Sunday; closed on Monday, except for 10:00–18:00 on October 12 (Indigenous Peoples’ Day).The last admission to the park is 30 minutes before the park closes; the special garden (including Japanese Hill-and-Pond Garden and greenhouse) starts to clear the park 30 minutes before the park closes.October 24th (Saturday) is the Fall Harvest Festival. Special tickets are required. General tickets will not be sold on the same day.Members also have Fall Mornings to enter the park in advance: Saturday and Sunday 09:00–10:00 (from September 12)
 - `brooklyn-botanic-garden` **6. Brooklyn Botanic Garden · Japanese Hill-and-Pond Garden**  
-  门票：成人现场 $22／线上 $23.67（含 $1.67 手续费）；65 岁以上与 12 岁以上持证学生现场 $16／线上 $17.47；12 岁以下免费（14 岁以下须 18 岁以上成人陪同）。另有 Museum &amp; Garden 联票（含隔壁 Brooklyn Museum 当日入场）：成人现场 $34／线上 $36.06，65+ 与 20 岁以上学生 $24，12–19 岁学生 $16——注意 Brooklyn Museum 周二闭馆，联票须同日使用。每日另有一定数量免费的 Community tickets
+tickets: adult on-site $22/online $23.67 (including $1.67 handling fee); on-site $16/online $17.47 for licensed students over 65 years old and over 12 years old; free for under 12 years old (under 14 years old must be accompanied by an adult over 18 years old).There is also a Museum &amp; Garden joint ticket (including admission to the Brooklyn Museum next door on the same day): Adult on-site $34/online $36.06, 65+ and students over 20 years old $24, 12–19 year-old students $16-Note that the Brooklyn Museum is closed on Tuesdays, and joint tickets must be used on the same day.There are also a certain number of free community tickets every day
 - `green-wood` **7. The Green-Wood Cemetery · Gothic Gates · Battle Hill**  
-  开放时间：官网现行公布的是 2026 年 4 月 1 日至 9 月 30 日的时刻表：主门（Fifth Avenue &amp; 25th Street）每天 07:00–19:00，车辆与行人皆可；Sunset Park 门（Fourth Avenue &amp; 35th Street）行人 08:00–19:00、车辆 08:00–16:00；Fort Hamilton Parkway 门与 Prospect Park West 门行人周一至周五 11:00–19:00、周六日 08:00–19:00，车辆仅周六日 08:00–16:00。10 月 1 日起的 2026 年秋冬时刻表官网尚未公布——未能从官方渠道确认。近年惯例是十月初至十一月初改为 08:00–18:00、之后 08:00–17:00。这件事直接决定你能不能拍到日落：9/25–9/30 期间 19:00 关园、当日日落 18:48–18:40，是本窗口内唯一能在园内拍到完整昏金光的时段；若十月照 18:00 执行，10/17（日落 18:13）与 10/22（日落 18:06）都在闭园之后，十月来就拍不到日落。园方特别提醒请在闭园时间前至少 10 分钟离场，闸门准点上锁（被锁在里面请打安保 347-865-4816）。园内的 Green-House 游客中心 4/18–9/30 周四至周一 10:00–19:00、周二周三闭，联邦假日闭馆（含 Labor Day 与 10 月 12 日 Indigenous Peoples’ Day）
+Opening hours: The official website currently announces the timetable from April 1st to September 30th, 2026: The main gate (Fifth Avenue &amp; 25th Street) 07:00–19:00 every day, both vehicles and pedestrians; Sunset Park Gate (Fourth Avenue &amp; 35th Street) Pedestrians 08:00–19:00, vehicles 08:00–16:00; Fort Hamilton Parkway gate and Prospect Park West gate pedestrians Monday to Friday 11:00–19:00, Saturday and Sunday 08:00–19:00, vehicles only Saturday and Sunday 08:00–16:00.The official website of the 2026 autumn and winter timetable from October 1st has not yet been announced-it cannot be confirmed from official channels.In recent years, the practice has been to change to 08:00–18:00 from early October to early November, and then 08:00–17:00.This matter directly determines whether you can take pictures of the sunset: 9/25–9/30 period 19:00 is closed, and sunset 18:48–18:40 on the same day is the only time period in this window when you can take a complete golden light in the park; if you follow 18:00 in October, 10/17 (sunset 18:13) and 10/22 (sunset 18:06) are both closed. After that, the sunset will not be photographed in October.The park specially reminds you to leave the venue at least 10 minutes before the closing time, and the gate will be locked on time (if you are locked inside, please call security 347-865-4816).The Green-House Visitor Center 4/18–9/30 in the park is closed from Thursday to Monday 10:00–19:00, Tuesday and Wednesday, and closed on Federal Holidays (including Labor Day and October 12th Indigenous Peoples’ Day)
 - `green-wood` **7. The Green-Wood Cemetery · Gothic Gates · Battle Hill**  
-  门票：免费。官方原文：「We’re open 365 days a year, at no charge.」园内停车也完全免费
+tickets: free.Official original: 「We’re open 365 days a year, at no charge.」 parking in the park is also completely free
 - `coney-island` **8. Coney Island · Riegelmann Boardwalk · Deno’s Wonder Wheel · Cyclone · Parachute Jump**  
-  开放时间：木栈道、沙滩与 Parachute Jump 的夜间照明不受游乐场日历限制。Deno’s Wonder Wheel Park 2026 年营业日（官网逐日日历，本窗口内）：9/26–10/1 连续六天、10/3、10/4、10/10、10/11、10/12、10/17、10/18、10/24、10/25；其余日期闭园（含 9/25 与 10/2 两个周五）。开门：儿童区 11:00、Wonder Wheel 等成人机械 12:00。闭园钟点随天气浮动，2026 年 10 月的具体时间官网未公布——未能从官方渠道确认；2025 年 10 月的官方口径是 18:00 关，若照此执行则十月中下旬拍不到蓝调亮灯轮。当天打 (718) 372-2592 确认。Luna Park 的 Halloween Harvest 期间为 9/18–11/1，9 月口径为周五 16:00–22:00、周六 11:00–22:00、周日 11:00–20:00、节假周中 12:00–20:00；10 月 2 日以后的逐日钟点官网日历尚未展开——未能确认
+opening hours: The night lighting of the boardwalk, beach and Parachute Jump is not limited by the playground calendar.Deno's Wonder Wheel Park business days in 2026 (daily calendar on the official website, in this window): 9/26–10/1 for six consecutive days, 10/3, 10/4, 10/10, 10/11, 10/12, 10/17, 10/18, 10/24, 10/25; closed on the rest of the dates (including 9/25 and 10/2 on two Fridays).Open the door: children's area 11:00, Wonder Wheel and other adult machinery 12:00.The closing hours of the park fluctuate with the weather. The specific time for October 2026 has not been announced on the official website-it cannot be confirmed from official channels; the official time for October 2025 is 18:00 off. If this is implemented, the blue light wheel will not be photographed in mid-to-late October.Call (718) 372-2592 to confirm on the same day.The Halloween Harvest period of Luna Park is 9/18–11/1, and the September period is Friday 16:00–22:00, Saturday 11:00–22:00, Sunday 11:00–20:00, and holiday midweek 12:00–20:00; the official website calendar for daily hours after October 2 has not yet been launched-unable to confirm
 - `coney-island` **8. Coney Island · Riegelmann Boardwalk · Deno’s Wonder Wheel · Cyclone · Parachute Jump**  
-  门票：两家游乐场都是免票入园（Admission is FREE at all times），设施按次单独计费。Deno’s：Wonder Wheel 单次 $10、Phoenix $10、Thunderbolt（音乐旋转）$10、Spook-A-Rama $8、碰碰车 $8、Stop the Zombies $8、多数儿童设施 $5；也可买点数包（$50/60 点、$90/125 点、$125/175 点），现金与信用卡皆可。Luna Park 另售当日无限次 Wristband，整季通票的有效期写到 2026 年 11 月 1 日，Halloween Harvest 的活动权益需搭配 Wristband
+tickets: Admission is FREE at all times for both playgrounds, and the facilities are billed separately on a per-time basis.Deno's: Wonder Wheel single $10, Phoenix $10, Thunderbolt (music rotation) $10, Spook-A-Rama $8, Bumper car $8, Stop the Zombies $8, most children's facilities $5; You can also buy point packages ($50/60 points, $90/125 points, $125/175 points), both cash and credit cards are available.Luna Park also sells unlimited Wristbands on the same day. The validity period of the full-season pass is written to November 1, 2026. Halloween Harvest event benefits need to be matched with Wristband.
 
-## P2（36 条）
+## P2 (36 pieces)
 
 
 ### nyc / Salem
 
 - `salem-maritime-derby-wharf` **3. Salem Maritime NHS, Derby Wharf & Friendship of Salem**  
-  预约：不需预约、不需票。Ranger 带队的免费导览需当日到 Salem Armory Visitor Center 现场领位，每团上限 8 人。登船参观免费、不需预约，甲板有容量限制。
+reservation: No reservation or ticket required.For the free guided tour led by Ranger, you need to pick up a seat at the Salem Armory Visitor Center on the same day, with a maximum of 8 people per group.Boarding and visiting are free, no reservation is required, and there is a capacity limit on the deck.
 
 ### nyc / Boston
 
 - `charles-river-esplanade` **4. Charles River Esplanade & the Longfellow Bridge**  
-  预约：不需预约。Charles River Esplanade、Cambridge 岸的 Memorial Drive 河滨路径、Longfellow Bridge 与 Harvard Bridge 的人行道全部是公共空间，直接走进去即可，没有任何票务或登记环节。
+reservation: No reservation is required.The Charles River Esplanade, the Memorial Drive riverside Path on the Cambridge Bank, the sidewalks of Longfellow Bridge and Harvard Bridge are all public spaces. You can walk in directly without any ticketing or registration links.
 - `acorn-street-beacon-hill` **5. Acorn Street & Beacon Hill**  
-  预约：Acorn Street、Louisburg Square、Boston Common 全部是公共空间，不需预约、不需票。State House 室内自助参观不需预约；免费的 40 分钟导览需要提前电话预约——官方口径「We can only accept tour reservations by phone」，电话 617-727-3676，1–50 人皆可，10 人以上须提前至少三周。
+reservation: Acorn Street, Louisburg Square, and Boston Common are all public spaces. No reservation or ticket is required.No reservation is required for indoor self-guided tours of State House; the free 40-minute guided tour needs to be booked by phone in advance-the official caliber 「We can only accept tour reservations by phone」, the phone 617-727-3676, and 1–50 are available for people, and more than 10 people must be at least three weeks in advance.
 - `public-garden-boston-common` **6. Boston Public Garden & Boston Common**  
-  开放时间：两座公园都是 Boston Parks and Recreation Department 管理的市属公园，全年开放，没有围栏关门的机制，实务上 24 小时可进入。但夜间不建议久留（尤其 Boston Common 靠 Tremont Street 一侧）。官方明确规定：Public Garden 内禁止喂任何鸟类（原文「The Boston Parks and Recreation Department restricts the feeding of all birds in the Boston Public Garden to maintain the health of the wildlife and the cleanliness of the Public Garden lagoon」）。湖面在天鹅船收季后是否会放水检修，未能从官方渠道确认——往年一般在入冬前才放，但如果你极度依赖倒影这张，建议出发前打 Boston Parks 或 617-522-1966 问一句。
+opening hours: Both parks are municipal parks managed by the Boston Parks and Recreation Department. They are open all year round. There is no fence closing mechanism. In practice, they can be entered 24 hours a day.However, it is not recommended to stay for a long time at night (especially Boston Common is on the side of Tremont Street).The official clearly stipulates that it is forbidden to feed any birds in the Public Garden (original 「The Boston Parks and Recreation Department restricts the feeding of all birds in the Boston Public Garden to maintain the health of the wildlife and the cleanliness of the Public Garden lagoon」).Whether the lake will be released for maintenance after the swan boat season is over, it cannot be confirmed from official channels-in previous years, it was generally released before winter, but if you are extremely dependent on the reflection, it is recommended to call Boston Parks or 617-522-1966 before departure. Ask.
 - `back-bay-newbury` **7. Back Bay Brownstones & Newbury Street**  
-  预约：全部是公共街道，不需预约、不需票、无任何开放时间限制。Comm Ave Mall 是公共步道，Marlborough 与 Beacon 是公共街道（沿街建筑为私宅，不入内）。
+reservation: All are public streets, no reservation, no ticket, and no opening time restrictions are required.Comm Ave Mall is a public walkway, and Marlborough and Beacon are public streets (the buildings along the street are private houses and are not allowed to enter).
 - `boston-public-library` **9. Boston Public Library · McKim Building**  
-  预约：不需预约、不需票、不需登记，直接走进去。但如果你打算做「正式拍摄」（带助手、换装、打灯、婚纱或订婚照），必须事先申请：官方原文「Unfortunately we cannot allow formal photography shoots during library hours」，只能安排在开馆前的工作日早晨（约 08:00–09:00），联系 Special Events Office：events@bpl.org / 617.859.2212。二手来源称许可费 $750 起，未在 bpl.org 上找到公布价格。
+reservation: No reservation, no ticket, no registration required, just walk in.However, if you plan to do an "official shooting" (with an assistant, dress up, lighting, wedding dress or engagement photo), you must apply in advance: the official original 「Unfortunately we cannot allow formal photography shoots during library hours」, can only be arranged on the morning of the working day before the opening of the museum (about 08:00–09:00), contact the Special Events Office: events@bpl.org / 617.859.2212.The second-hand source said that the license fee starts from $750, and the published price is not found on bpl.org.
 
 ### nyc / Hudson Valley
 
 - `olana` **1. Olana State Historic Site, Hudson**  
-  预约：庭园不需预约。历史宅邸导览「strongly recommended」提前预约，官方明确说明 tours sell out quickly，10 月周末实际等同于必须预约。tickets.olana.org 在线购买，或致电 518-751-0344。10 人以上团体与任何第三方带团一律必须提前预约
+reservation: No reservation is required for the garden.The guided tour of the historical mansion 「strongly recommended」 is booked in advance. The official clearly stated that tours sell out quickly, and the weekend in October is actually equivalent to a must-make appointment.Buy tickets.olana.org online, or call 518-751-0344.Groups of more than 10 people and any third party must make an appointment in advance
 - `walkway-over-the-hudson` **4. Walkway Over the Hudson, Poughkeepsie**  
-  预约：不需预约
+reservation: No reservation required
 - `dia-beacon` **5. Dia Beacon**  
-  预约：官方口径「Advance reservations are suggested, but not required」，即建议但非必须。次月的票在当月 15 日放出。10 人以上团体须另行预约（grouptours@diaart.org）
+reservation: The official caliber is 「Advance reservations are suggested, but not required」, which is recommended but not required.Tickets for the following month will be released on the 15th of that month.Groups of more than 10 people must make a separate appointment (grouptours@diaart.org)
 - `cold-spring-breakneck` **7. Cold Spring Village · Breakneck Ridge**  
-  预约：不需预约
+reservation: No reservation required
 - `bear-mountain-perkins` **8. Bear Mountain State Park · Perkins Memorial Drive**  
-  预约：不需预约
+reservation: No reservation required
 - `sleepy-hollow-tarrytown` **9. Sleepy Hollow Cemetery · Old Dutch Church · Lyndhurst**  
-  预约：Sleepy Hollow Cemetery 个人参观不需预约（但所有团体必须由墓园工作人员陪同，未经许可的团体会被立即请离）。Lyndhurst 的宅邸导览必须提前在线购票，官方口径「Advance ticket purchase is strongly recommended; tours do sell out」；进庭园也需要 Daily Grounds Pass。Great Jack O’Lantern Blaze 全部为定时票、只在线预售、现场不售票，售罄日期只能靠 FLEX 票入场
+appointment: No appointment is required for individual visits to Sleepy Hollow Cemetery (but all groups must be accompanied by cemetery staff, and unauthorized groups will be immediately asked to leave).Lyndhurst's guided tour of the mansion must be purchased online in advance, the official caliber is 「Advance ticket purchase is strongly recommended; tours do sell out」; a Daily Grounds Pass is also required to enter the garden.Great Jack O'Lantern Blaze is all timed tickets, only online pre-sale, no tickets are sold on site, and only FLEX tickets can be used for admission on sold-out dates.
 
 ### nyc / Midtown
 
 - `top-of-the-rock` **1. Top of the Rock**  
-  预约：必须网上预订定时票（rockefellercenter.com 或 topoftherocknyc.com），门票当日全天有效——订日落前 60 分钟的档，可以一票拍完金光、日落、蓝调三段。日落档是全天最先售罄的，平日建议提前 1–2 周、周末与假日提前 2–4 周。SKYLIFT 无法单独预订，只能现场加购 $35 或买含 SKYLIFT 的票种
+reservation: You must book a timed ticket (rockefellercenter.com or topoftherocknyc.com) online. The ticket is valid all day on the same day-book a file 60 minutes before sunset, and you can finish the three stages of golden light, sunset, and blues with one ticket.Sunset stalls are the first to be sold out throughout the day. On weekdays, it is recommended to advance 1–2 week, and 2–4 week on weekends and holidays.SKYLIFT CANNOT BE BOOKED SEPARATELY, YOU CAN ONLY PURCHASE $35 ON SITE OR BUY TICKETS WITH SKYLIFT
 - `st-patricks-cathedral` **2. St. Patrick's Cathedral**  
-  预约：不需预约，直接进。官方自助语音导览另行售票（约 1 小时，现场取机）；10 人以上团体导览需提前电话预约
+reservation: No reservation is required, go directly.Tickets for the official self-guided audio tour will be sold separately (about 1 hour, on-site pick-up); group tours of more than 10 people need to be booked by phone in advance
 - `rockefeller-center-fifth-ave` **3. Rockefeller Center and Fifth Avenue**  
-  预约：不需预约（广场、步道、雕塑全为开放空间）。滑冰需另行网上预约时段票，12 月起必须提前订，10 月现场买通常有位
+reservation: No reservation is required (the square, trail, and sculpture are all open spaces).You need to make a separate online reservation for skating. Tickets must be booked in advance from December. There are usually seats available for on-site purchases in October.
 - `edge-hudson-yards` **4. Edge at Hudson Yards**  
-  预约：必须网上预订定时票（edgenyc.com）。Advance Saver 提前至少 14 天订 $34 起，最多省 35%——这是官方自己给的最低价，摄影行程日期确定后第一时间订这个。日落与周末档最先售罄，建议提前 2–3 周。City Climb 每天仅 5 个时段、需单独预订，出发前一天 23:59 前可全额退
+reservation: Timed tickets (edgenyc.com) must be booked online.Advance Saver orders $34 at least 14 days in advance, and you can save up to 35%-this is the lowest price given by the official. Book this as soon as the photography itinerary date is confirmed.Sunset and weekend stalls are sold out first, it is recommended to advance 2–3 weeks.City Climb only has 5 hours a day and needs to be booked separately. It can be refunded in full before 23:59 the day before departure.
 - `bryant-park-tunnel-views` **5. Bryant Park and the Midtown Street Vistas**  
-  预约：不需预约，四个机位全部是公共街道与公园
+reservation: No reservation is required, all four seats are public streets and parks
 - `summit-one-vanderbilt` **7. SUMMIT One Vanderbilt**  
-  预约：必须网上预订定时票（summitov.com）。票是定时的，迟到超过 20 分钟可能被拒入；改期需付改期费（$25 起）加补时段差价。日落档与周末档最先售罄，建议提前 1–2 周、日落档提前 2–3 周
+reservation: Timed tickets (summitov.com) must be booked online.The ticket is timed, and you may be refused entry if you are more than 20 minutes late; you need to pay a rescheduling fee (from $25) to make up the time difference.The sunset file and weekend file are sold out first, it is recommended to advance 1–2 week, and the sunset file advance 2–3 week
 - `grand-central-terminal` **8. Grand Central Terminal**  
-  预约：不需预约（车站为公共空间，进出、Main Concourse、下层用餐区与 Whispering Gallery 全部免费）。但用三脚架必须提前申请许可，见下
+reservation: No reservation is required (the station is a public space, access, Main Concourse, lower dining area and Whispering Gallery are all free).However, you must apply for permission in advance to use the tripod, see below
 
 ### nyc / Downtown
 
 - `little-island` **2. Little Island & Hudson River Park Piers**  
-  预约：不需预约（已在官网 Rules & FAQ 逐条核实，无 timed entry 条款）。仅 The Amph 的付费演出需要票（座票 $25、站栏 $15，经官网或 TodayTix），行程窗口内基本无演出
+reservation: No reservation is required (it has been verified one by one on the official website Rules & FAQ, there is no timed entry clause).Only tickets are required for paid performances of The Amph (seat ticket $25, station column $15, via the official website or TodayTix), and there are basically no performances in the itinerary window.
 - `whitney-museum` **3. Whitney Museum of American Art**  
-  预约：免费时段也需要票。官方原文：「though admission is free, tickets are required and capacity is limited」。Free Friday Nights 的免费票提前 5 周放出（「free tickets are available up to five weeks in advance」），线上先领；现场也发但容量有限。平日票可现场买或线上买
+reservation: Tickets are also required for free hours.Official original: 「though admission is free, tickets are required and capacity is limited」.Free tickets for Free Friday Nights are released 5 weeks in advance (「free tickets are available up to five weeks in advance」), and you can get them online first; they are also issued on site but the capacity is limited.Weekday tickets can be bought on-site or online
 - `washington-square-park` **4. Washington Square Park & Greenwich Village**  
-  预约：不需预约
+reservation: No reservation required
 - `one-world-observatory` **5. One World Observatory**  
-  预约：强烈建议线上预购定时票。普通票绑定日期与 15 分钟到达时段；All-Inclusive Flex 票不绑时段、当天任意时间进——这一点对追日落的人有实际价值，因为日落时段的普通票经常先售空。Combination／Priority 票另含安检、电梯与出口的优先通道
+reservation: It is strongly recommended to pre-order timed tickets online.Ordinary tickets are bound to the date and the 15-minute arrival time; All-Inclusive Flex tickets are not tied to the time and enter at any time of the day-this is of practical value to those chasing the sunset, because ordinary tickets during the sunset period are often sold out first.The Combination/Priority ticket also includes priority access for security, elevator and exit
 - `oculus-wtc-hub` **7. World Trade Center Transportation Hub (Oculus)**  
-  预约：不需预约。但带三脚架需提前申请许可，见 notes
+reservation: No reservation is required.However, you need to apply for permission in advance to bring a tripod, see notes
 - `brooklyn-bridge-manhattan` **8. Brooklyn Bridge (Manhattan-Side Promenade)**  
-  开放时间：无固定开放时间。步道全天候可走，但夜间照明不足，凌晨与深夜的自动对焦会很困难，请开峰值对焦或手动预对焦到无限远
+opening hours: No fixed opening hours.The trail can be walked around the clock, but the lighting is insufficient at night. Autofocus in the early morning and late at night will be very difficult. Please turn on peak focus or manually pre-focus to infinity.
 - `brooklyn-bridge-manhattan` **8. Brooklyn Bridge (Manhattan-Side Promenade)**  
-  预约：不需预约
+reservation: No reservation required
 - `staten-island-ferry` **9. Staten Island Ferry**  
-  开放时间：24 小时、365 天。NYC DOT 官方时刻表：平日高峰约每 15–20 分钟一班，平峰每 30 分钟，深夜 30–60 分钟；周末全天每 30 分钟（整点与半点）。主要联邦假日按周末时刻表。官方把「晚于表定时刻 6 分钟以上」定义为延误，可向站务索取延误证明
+opening hours: 24 hours, 365 days.The official timetable of NYC DOT: Approximately every 15–20 minutes during peak hours on weekdays, every 30 minutes during peak hours, and 30–60 minutes late at night; every 30 minutes throughout the day on weekends (full point and half point).Major federal holidays are scheduled on weekends.The official defines "more than 6 minutes later than the scheduled time" as a delay. You can request a delay certificate from the station service.
 - `staten-island-ferry` **9. Staten Island Ferry**  
-  预约：不需预约、不需票、不需刷卡，直接走上船。码头附近有人向游客推销「渡轮票」，那是骗局——渡轮不卖票。
+reservation: No reservation, no ticket, no credit card required, just get on the boat.Someone near the pier sells "ferry tickets" to tourists, which is a scam-the ferry does not sell tickets.
 
 ### nyc / Brooklyn
 
 - `gantry-plaza` **1. Gantry Plaza State Park · Pepsi-Cola Sign · Long Island City**  
-  预约：不需预约
+reservation: No reservation required
 - `brooklyn-bridge-park` **2. Brooklyn Bridge Park · Pebble Beach · Granite Prospect · Jane’s Carousel**  
-  预约：不需预约。Jane’s Carousel 也不需预约，现场买票即可
+reservation: No reservation is required.Jane's Carousel also does not need to make an appointment, you can buy tickets on site
 - `dumbo-washington-street` **3. Washington Street, DUMBO · Manhattan Bridge Framing**  
-  预约：不需预约
+reservation: No reservation required
 - `brooklyn-heights-promenade` **4. Brooklyn Heights Promenade (The Esplanade)**  
-  预约：不需预约
+reservation: No reservation required
 - `prospect-park` **5. Prospect Park · Long Meadow · Boathouse on the Lullwater · Grand Army Plaza**  
-  预约：不需预约
+reservation: No reservation required
 - `brooklyn-botanic-garden` **6. Brooklyn Botanic Garden · Japanese Hill-and-Pond Garden**  
-  预约：建议线上预购但非强制。官方口径：advance tickets are recommended，门票提前 30 天开售；现场各入口售票亭也有当日票，但取决于余量。所有访客（含会员与儿童）都必须持票进场，会员凭会员证与免费票入场。票不可退，但可提前换日期
+reservation: Online pre-order is recommended but not mandatory.Official caliber: advance tickets are recommended, tickets go on sale 30 days in advance; same-day tickets are also available at the ticket booths at each entrance of the site, but it depends on the margin.All visitors (including members and children) must enter with a ticket, and members enter with a membership card and a free ticket.Tickets are non-refundable, but can be changed in advance
 - `green-wood` **7. The Green-Wood Cemetery · Gothic Gates · Battle Hill**  
-  预约：不需预约
+reservation: No reservation required
 - `coney-island` **8. Coney Island · Riegelmann Boardwalk · Deno’s Wonder Wheel · Cyclone · Parachute Jump**  
-  预约：不需预约
+reservation: No reservation required

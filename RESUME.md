@@ -1,98 +1,90 @@
-# 中断恢复笔记
+# Interruption Recovery Notes
 
-**中断时间**：2026-09-05 09:35（本地网络断开）
-**最后提交**：`5f3d06d` — 已推送到 origin，工作区干净，没有未保存的东西。
+**Interruption time**: 2026-09-05 09:35 (local network disconnected)
+**Last commit**: `5f3d06d` — pushed to origin; the working tree was clean, with no unsaved work.
 
-## 全站当前状态
+## Current Site-Wide Status
 
-四个地域全部有数据，`tools/check_all.py` 无问题，线上 5 个页面 × 2 个视口浏览器测试全部通过。
+All four regions have data, `tools/check_all.py` reports no issues, and browser tests passed for all 5 live pages × 2 viewports.
 
-| 地域 | 子地区 | 景点 | 机位 | 图片 |
+| Region | Subregions | Attractions | Photo spots | Images |
 | --- | --- | --- | --- | --- |
 | socal | 6 | 47 | 141 | 135 |
 | dc | 7 | 49 | 159 | 146 |
 | nyc | 6 | 47 | 159 | 140 |
 | yellowstone | 7 | 60 | 172 | 175 |
 
-线上地址：https://andyuneducated.github.io/wander-usa-2026-guides/
+Live URL: https://andyuneducated.github.io/wander-usa-2026-guides/
 
-## 恢复后要做的三件事
+## Three Tasks After Resuming
 
-### 1. 准确性复核：还剩 3 份没做完
+### 1. Accuracy review: 3 files were still unfinished
 
-清单在 `tools/review/claims-<region>.md`。**已完成的不要重做。**
+The checklists are in `tools/review/claims-<region>.md`. **Do not redo completed reviews.**
 
-| 片段 | 状态 |
+| Fragment | Status |
 | --- | --- |
-| `socal/data.js` 全部 | ✅ 完成 |
-| `dc/parts/*.js` 全部 | ✅ 完成 |
-| `nyc/parts/01-salem-north-shore.js` | ✅ 完成 |
-| `nyc/parts/02-boston-cambridge.js` | ✅ 完成 |
-| `nyc/parts/03-hudson-valley.js` | ✅ 完成 |
-| `nyc/parts/04-manhattan-midtown.js` | ✅ 完成 |
-| `yellowstone/parts/03-mammoth-lamar.js` | ✅ 完成 |
-| `yellowstone/parts/05-canyon-hayden.js` | ✅ 完成 |
-| `yellowstone/parts/06-geyser-basins.js` | ✅ 完成 |
-| `yellowstone/parts/08-grand-teton.js` | ✅ 完成 |
-| `yellowstone/parts/01-bitterroot.js` | ✅ 完成 |
-| `yellowstone/parts/02-butte-paradise.js` | ✅ 完成 |
-| `yellowstone/parts/04-beartooth-chief-joseph.js` | ✅ 完成 |
-| `nyc/parts/05-manhattan-downtown.js` | ✅ 完成 |
-| `nyc/parts/06-brooklyn.js` | ✅ 完成 |
+| all of `socal/data.js` | ✅ Complete |
+| all of `dc/parts/*.js` | ✅ Complete |
+| `nyc/parts/01-salem-north-shore.js` | ✅ Complete |
+| `nyc/parts/02-boston-cambridge.js` | ✅ Complete |
+| `nyc/parts/03-hudson-valley.js` | ✅ Complete |
+| `nyc/parts/04-manhattan-midtown.js` | ✅ Complete |
+| `yellowstone/parts/03-mammoth-lamar.js` | ✅ Complete |
+| `yellowstone/parts/05-canyon-hayden.js` | ✅ Complete |
+| `yellowstone/parts/06-geyser-basins.js` | ✅ Complete |
+| `yellowstone/parts/08-grand-teton.js` | ✅ Complete |
+| `yellowstone/parts/01-bitterroot.js` | ✅ Complete |
+| `yellowstone/parts/02-butte-paradise.js` | ✅ Complete |
+| `yellowstone/parts/04-beartooth-chief-joseph.js` | ✅ Complete |
+| `nyc/parts/05-manhattan-downtown.js` | ✅ Complete |
+| `nyc/parts/06-brooklyn.js` | ✅ Complete |
 
-**全部 15 个片段的准确性复核已完成**（2026-09-06）。四个地域都过了一轮
-逐条官方来源核对。剩下的只是那些官方自己都没公布的项目，数据里已按
-「照实写明未确认 + 给电话」处理，不必再派研究员去碰。
+**Accuracy reviews for all 15 fragments are complete** (2026-09-06). Every claim in all four regions was checked against official sources. The only remaining items are details that the relevant authorities have not published. The data already handles these by clearly marking them as unconfirmed and providing a phone number, so no further researcher work is needed.
 
-复核留下的、只能到场或打电话才能定的事，按影响排序：
+The review left the following matters that can only be resolved in person or by phone, ordered by impact:
 
-1. **Green-Wood Cemetery 十月闭园钟点官网从未公布。** 你的日落是 18:11–18:14，
-   而两种可能的闭园时间正好把它夹在中间——旧的 19:00 能拍到，习惯上的 18:00
-   （且强制提前 10 分钟清场，即 17:50）就是日落前被请出去。电话 (718) 768-7300，
-   备选是把日落交给 Prospect Park（开到凌晨 1 点）。
-2. **Old Faithful Inn 关门日** Xanterra 说 10/12、NPS 说 10/18，两页都是当前的。
-   只影响 10 月下旬的备用窗口，不碰 9/22–9/29。电话 307-344-7311。
-3. **Clay Butte Lookout** 2026 年是否开过无从查证，判断依据是同林区其它设施
-   九月中旬收季。电话 (307) 527-6921，注意该办公室周三不上班。
-4. **Blacktail Plateau Drive 与 Upper Terrace Drive** 无公布关闭日，只反推出
-   「最晚 11/1」的上界。电话 307-344-2117 或到 Albright Visitor Center 问。
-5. Berkeley Pit 门票金额官方从未公布，第三方 $3 与 $7 两说，带 $10 现金。
+1. **Green-Wood Cemetery has never published its October closing time online.** Sunset is 18:11–18:14, exactly between the two possible closing times: the former 19:00 closing permits sunset photography, while the customary 18:00 closing (with mandatory clearing 10 minutes early, at 17:50) means being asked to leave before sunset. Phone: (718) 768-7300. The alternative is to use Prospect Park for sunset (open until 1 a.m.).
+2. **Old Faithful Inn closing date:** Xanterra says 10/12, while NPS says 10/18; both pages are current. This affects only the backup window in late October, not 9/22–9/29. Phone: 307-344-7311.
+3. **Clay Butte Lookout:** there is no way to verify whether it opened in 2026. The assessment is based on other facilities in the same forest district ending their season in mid-September. Phone: (307) 527-6921; note that this office is closed on Wednesdays.
+4. **Blacktail Plateau Drive and Upper Terrace Drive:** no closing dates are published; only an upper bound of “no later than 11/1” can be inferred. Call 307-344-2117 or ask at Albright Visitor Center.
+5. Berkeley Pit has never published an official admission price. Third-party sources report either $3 or $7; bring $10 in cash.
 
-黄石园内那四个片段的复核留下两个还没定论的问题，恢复后若想继续追：
-Old Faithful Inn 的关门日 Xanterra 说 10/12、NPS 说 10/18 而两页都是当前的
-（只影响 10 月下旬的备用窗口，不影响 9/22–9/29 的真实日期）；
-Blacktail Plateau Drive 与 Upper Terrace Drive 无公布日期，只反推出「最晚 11/1」的上界。
+The review of the four Yellowstone fragments left two unresolved issues if further investigation is desired after resuming:
+Xanterra lists the Old Faithful Inn closing date as 10/12, while NPS lists 10/18, and both pages are current
+(this affects only the backup window in late October, not the actual dates of 9/22–9/29);
+Blacktail Plateau Drive and Upper Terrace Drive have no published dates, so only an upper bound of “no later than 11/1” can be inferred.
 
-**派研究员时的两条硬性约束**，两条都是踩过坑才加的：
+**Two hard constraints when assigning researchers**, both added after prior failures:
 
-- **一个片段只能有一位研究员。** 这个项目已经因为两位同时写同一个文件丢过工作：`dc/parts/02-philadelphia-parkway.js` 派了两位，后一位的完整版把前一位查出的 Fairmount Water Works 开放时间覆盖掉了，事后才手工补回。`yellowstone/parts/06-geyser-basins.js` 也被覆盖过一次，从 git 恢复的。
-- **要求边查边写，不要研究完再一起存。** 纽约和黄石的第一轮复核都是超时挂掉的，纽约那位因为是逐个文件写的，4 个文件的成果保住了；黄石那位一次性做 178 条声明，什么都没留下。**黄石那份清单必须拆开派**，别再整份丢给一个研究员。做得最好的一位是逐个景点提交的，8 个提交每个一条独立结论，断在哪里都不亏。
+- **Only one researcher may work on each fragment.** This project has already lost work because two researchers wrote the same file concurrently: two researchers were assigned to `dc/parts/02-philadelphia-parkway.js`, and the later researcher’s complete version overwrote the Fairmount Water Works opening hours found by the first researcher. They had to be restored manually afterward. `yellowstone/parts/06-geyser-basins.js` was also overwritten once and restored from git.
+- **Require researchers to write as they investigate, rather than saving everything at the end.** The first review passes for New York and Yellowstone both timed out. The New York researcher wrote one file at a time, preserving the work in 4 files; the Yellowstone researcher handled 178 claims in one batch and left nothing behind. **The Yellowstone checklist must be split across assignments**; do not give the whole checklist to one researcher again. The best researcher committed one attraction at a time, producing 8 commits with one independent conclusion each, so an interruption at any point would not waste earlier work.
 
-- **有研究员在并发写文件时，不要用 `git add -A` 提交。** 我用它提交图片下载结果，把一位研究员半写完的 `06-brooklyn.js` 一起带进了提交（事后校验语法有效，没造成损坏，但纯属侥幸）。按明确路径提交。顺带说明：`tools/localize_images.py` 本身不碰 git，它唯一的子进程是 `assemble.py`，所以全树提交不会是它干的。
+- **Do not commit with `git add -A` while researchers are writing files concurrently.** I used it to commit image-download results and accidentally included a researcher’s half-finished `06-brooklyn.js` (it later passed syntax validation and caused no damage, but only by luck). Commit explicit paths. Also note that `tools/localize_images.py` does not interact with git; its only subprocess is `assemble.py`, so it cannot be responsible for a whole-tree commit.
 
-### 2. 剩 6 张远程图片没本地化
+### 2. 6 remote images remain to be localized
 
-不是数据错误。Wikimedia 在对本机 IP 限流（HTTP 429），换 IP 能正常访问，所以线上访客看得到图。本地已有 590 张全部校验有效。
+This is not a data error. Wikimedia is rate-limiting this machine’s IP (HTTP 429). Access works from a different IP, so visitors can see the images online. All 590 existing local images passed validation.
 
 ```
-python3 tools/verify_images.py --local-only   # 确认本地图完好
-python3 tools/localize_images.py --region dc          # 剩 2 张
-python3 tools/localize_images.py --region yellowstone # 剩 4 张
+python3 tools/verify_images.py --local-only   # Confirm local images are intact
+python3 tools/localize_images.py --region dc          # 2 remaining
+python3 tools/localize_images.py --region yellowstone # 4 remaining
 ```
 
-限流很顽固，我最后是用「先冷却 45 分钟再试」的循环在跑（已停掉）。要重启就用 `tools/run_detached.py` 起，macOS 的 `nohup` 不能真正脱离终端，直接后台跑会被杀。
+The rate limit is persistent. I ultimately ran a loop that waited 45 minutes before each retry (now stopped). To restart it, use `tools/run_detached.py`; on macOS, `nohup` does not fully detach it from the terminal, so a directly backgrounded process will be killed.
 
-### 3. 全量测试
+### 3. Full test suite
 
 ```
-python3 tools/check_all.py                 # 数据完整性
-python3 tools/test_pages.py                # 本地浏览器测试，两个视口
+python3 tools/check_all.py                 # Data integrity
+python3 tools/test_pages.py                # Local browser tests, two viewports
 python3 tools/test_pages.py --base https://andyuneducated.github.io/wander-usa-2026-guides/
 ```
 
-## 还没解决的一件事
+## One Unresolved Task
 
-删除两个旧 GitHub 仓库（`wander-usa-2026`、`socal-roadtrip-report`）需要 `delete_repo` 权限，我没法代跑交互式命令。你要删的话：
+Deleting the two old GitHub repositories (`wander-usa-2026` and `socal-roadtrip-report`) requires the `delete_repo` scope, and I cannot run the interactive command on your behalf. To delete them:
 
 ```
 gh auth refresh -s delete_repo
@@ -100,17 +92,17 @@ gh repo delete AndyUneducated/wander-usa-2026 --yes
 gh repo delete AndyUneducated/socal-roadtrip-report --yes
 ```
 
-socal 的提交历史已经通过 `git subtree` 完整并进本仓库，旧仓库删了不会丢东西。
+The complete socal commit history has already been merged into this repository with `git subtree`, so deleting the old repositories will not lose any work.
 
-## 工具速查
+## Tool Quick Reference
 
-| 工具 | 作用 |
+| Tool | Purpose |
 | --- | --- |
-| `assemble.py --region <r>` | 把 `parts/*.js` 合成 `data.js`，按纬度从北到南排序并重编号；会跳过还没有景点的骨架片段 |
-| `check_all.py` | 全站完整性：必填字段、坐标、图片、排序、链接 |
-| `test_pages.py` | Playwright 浏览器测试；会强制展开所有折叠区并把图片改成 eager，所以能查到藏在折叠里的坏图 |
-| `verify_images.py` | 直接查 Commons API 与本地文件魔数，能抓出浏览器测不出来的文件名拼写错误 |
-| `snapshot_parts.py --save/--check` | 片段快照与回退检测，防并发覆盖 |
-| `extract_claims.py` | 从数据里抽高风险声明生成复核清单 |
-| `reorder_north_south.py --region <r>` | 重新按纬度排序 |
-| `run_detached.py` | 起真正脱离终端的后台任务（macOS 用） |
+| `assemble.py --region <r>` | Combines `parts/*.js` into `data.js`, sorts north to south by latitude, and renumbers entries; skips skeleton fragments that do not yet contain attractions |
+| `check_all.py` | Site-wide integrity checks: required fields, coordinates, images, ordering, and links |
+| `test_pages.py` | Playwright browser tests; forces all collapsed sections open and changes images to eager loading, allowing it to detect broken images hidden inside collapsed sections |
+| `verify_images.py` | Queries the Commons API directly and checks local file signatures, catching filename spelling errors that browser tests cannot detect |
+| `snapshot_parts.py --save/--check` | Fragment snapshots and rollback detection to prevent concurrent overwrites |
+| `extract_claims.py` | Extracts high-risk claims from the data to generate review checklists |
+| `reorder_north_south.py --region <r>` | Re-sorts entries by latitude |
+| `run_detached.py` | Starts a genuinely detached background task (for macOS) |

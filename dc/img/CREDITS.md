@@ -1,10 +1,11 @@
-# 图片来源与署名 · dc
+# Image Credits · dc
 
-本目录图片下载自 Wikimedia Commons 等公开图库，版权归原作者，
-按其原始许可协议（多为 CC BY-SA / CC0 / Public Domain）使用，仅作取景参考。
-如需商用请自行核对每张图片的具体许可。
+The images in this directory were downloaded from Wikimedia Commons and other public
+repositories. Copyright remains with the original authors, and the images are used under
+their original licenses (mostly CC BY-SA / CC0 / Public Domain) for location-scouting
+reference only. For commercial use, check the specific license of each image yourself.
 
-| 本地文件 | 原始地址 |
+| Local file | Source URL |
 | --- | --- |
 | `academy-of-natural-sciences-of-philadelphia-1876-1909-2d12a732.jpg` | <https://upload.wikimedia.org/wikipedia/commons/1/18/Academy_of_Natural_Sciences_of_Philadelphia_1876-1909.jpg> |
 | `african-american-civil-war-memorial-01-ff6ca15d.jpg` | <https://upload.wikimedia.org/wikipedia/commons/c/c2/African_American_Civil_War_Memorial_01.jpg> |

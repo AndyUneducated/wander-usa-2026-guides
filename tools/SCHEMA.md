@@ -1,245 +1,205 @@
-# 景点数据格式规范
+# Attraction Data Format Specification
 
-研究 subagent 请严格按本文件产出 JS 片段文件。这些片段会被 `tools/assemble.py` 拼装成
-各地域的 `data.js`，格式错一点整页就白屏，所以字段名与嵌套层级不要自由发挥。
+Research subagents must follow this document exactly when producing JS fragment files. `tools/assemble.py` combines these fragments into each region’s `data.js`. Even a small formatting error can leave the entire page blank, so do not improvise field names or nesting levels.
 
-## 本手册的定位（2026-09-13 起改为以传统旅游为主）
+## Purpose of This Guide (Traditional Tourism Emphasis Since 2026-09-13)
 
-**这是一本给普通游客的必去景点手册，摄影是辅助。** 早期版本是摄影优先建的，
-导致 MoMA、帝国大厦、自由女神、National Air and Space Museum 这类「来了就得去」的
-地标反而缺失，而一些只有拍照价值的点位占了篇幅。现在的口径是：
+**This is a must-see attraction guide for ordinary visitors; photography is secondary.** Early versions prioritized photography, which omitted essential landmarks such as MoMA, the Empire State Building, the Statue of Liberty, and the National Air and Space Museum while devoting space to locations valuable only for photography. The current standards are:
 
-- **判断一个地点该不该收录，先问「一个普通游客来这座城市会不会后悔没去」**，
-  再问它好不好拍。前者是主要标准，后者只影响 `score` 与机位部分的篇幅。
-- 每个景点必须同时给两个评分：`must`（游览价值，主）与 `score`（摄影价值，辅）。
-  卡头把两个评分做成并列的两行星级，`must` 在上、`score` 在下并用中性色，
-  所以两个分都要如实给，不能靠其中一个兜着。
-- 纯摄影点位（只有取景价值、旅游意义不大）**可以保留**，但 `must` 要如实给低分，
-  不要为了让它显眼而虚高。
-- 反过来，**必去但不好拍的地方绝不能因此不收或少写**（典型如博物馆室内、禁拍场馆）。
-  这类条目把篇幅放在 `tour` 与 `access`，摄影部分如实写「不适合拍照」。
+- **To decide whether to include a place, first ask, “Would an ordinary visitor regret missing this place when visiting the city?”** Then ask whether it photographs well. The first question is the primary criterion; the second only affects `score` and the space devoted to photo spots.
+- Every attraction must have two ratings: `must` (visitor value, primary) and `score` (photographic value, secondary). The card header displays them as two parallel rows of stars, with `must` above `score`, using neutral colors. Both ratings must therefore be honest; one cannot compensate for the other.
+- Pure photography locations (valuable for framing but with little tourism significance) **may remain**, but their `must` rating must honestly be low. Do not inflate it merely to make the location prominent.
+- Conversely, **a must-see place must never be omitted or described briefly just because it photographs poorly** (typical examples include museum interiors and venues that prohibit photography). For these entries, devote space to `tour` and `access`, and honestly state “not suitable for photography” in the photography section.
 
-## 你要产出什么
+## Required Deliverable
 
-一个文件，路径由派活时指定，形如 `dc/parts/03-national-mall.js`。内容是**一个 JS 对象字面量**，
-描述一个**子地区**（sub-region）及其下的全部景点。文件必须能通过 `node --check`。
+Produce one file at the path specified in the assignment, such as `dc/parts/03-national-mall.js`. Its contents must be **one JS object literal** describing a **subregion** and all its attractions. The file must pass `node --check`.
 
-顶层用 `module.exports = { ... };` 包起来（拼装脚本用 node require 读取）。
+Wrap the top level in `module.exports = { ... };` (the assembly script loads it with Node’s `require`).
 
-## 顶层结构
+## Top-Level Structure
 
 ```js
 module.exports = {
-  id: 'national-mall',            // 全站唯一，小写连字符，用于 DOM id 与锚点
-  name: 'Washington DC · National Mall 纪念建筑群',   // 中文标题，会显示为分区大标题
-  navName: 'National Mall',       // 导航栏短名（可选，省略则用 name）
-  color: '#4da3ff',               // 该区地图针脚颜色（派活时会指定）
-  lead: '一段话说明这个子地区的整体判断……',   // 可含 <strong>，会显示在附录里
-  callouts: [                     // 前置提醒，会集中显示在附录。0–5 条
+  id: 'national-mall',            // Unique across the site; lowercase with hyphens; used for DOM ids and anchors
+  name: 'Washington DC · National Mall Memorials',   // Display title shown as the section heading
+  navName: 'National Mall',       // Short navigation label (optional; defaults to name)
+  color: '#4da3ff',               // Map-pin color for this area (specified in the assignment)
+  lead: 'A paragraph giving the overall assessment of this subregion…',   // May contain <strong>; displayed in the appendix
+  callouts: [                     // Advance notices grouped in the appendix; 0–5 items
     {
-      type: 'warn',               // warn 红 / info 蓝 / good 绿 / tip 橙
-      title: '简短标题，不要超过 30 字',
-      html: '<p>正文，必须是完整 HTML 段落。可多个 &lt;p&gt; 或 &lt;ul&gt;。</p>'
+      type: 'warn',               // warn red / info blue / good green / tip orange
+      title: 'Short title, no more than 30 characters',
+      html: '<p>Body text, which must be complete HTML paragraphs. Multiple &lt;p&gt; or &lt;ul&gt; elements are allowed.</p>'
     }
   ],
-  spots: [ /* 见下 */ ]
+  spots: [ /* See below */ ]
 };
 ```
 
-## 单个景点结构
+## Individual Attraction Structure
 
-字段顺序请照抄，便于 diff。**除 `gone` 外全部必填。**
+Copy the field order exactly to simplify diffs. **Every field except `gone` is required.**
 
 ```js
 {
-  id: 'lincoln-memorial',         // 全站唯一，小写连字符
-  n: 1,                           // 先随便填 1,2,3…，拼装脚本会按纬度从北到南重新编号
-  gone: '本次无法抵达',            // 【可选】仅当确认无法抵达/已不存在时才加。加了会变红色卡片
-  name: '林肯纪念堂',              // 中文名。没有通用中文名就写英文原名
-  en: 'Lincoln Memorial',         // 英文原名。标题显示为「English 中文」
-  must: 5,                        // 【主评分】游览价值 0–5，允许 .5。见下方评分标准
-  score: 5,                       // 【辅评分】摄影价值 0–5，允许 .5
-  tldr: '一句话结论，60 字内。折叠状态下唯一可见的内容，要能替代整张卡片做决策。',
-  tags: [                         // 3–5 个标签
-    { t: '完全免费', c: 'free' },  // c: free 绿 / paid 橙 / risk 红
-    { t: '需定时票', c: 'risk' }
+  id: 'lincoln-memorial',         // Unique across the site; lowercase with hyphens
+  n: 1,                           // Initially use any sequence such as 1,2,3…; the assembly script renumbers north to south by latitude
+  gone: 'Currently inaccessible', // [Optional] Add only when confirmed inaccessible or no longer existing; makes the card red
+  name: 'Lincoln Memorial',       // Localized name; use the original English name if no established localized name exists
+  en: 'Lincoln Memorial',         // Original English name; title displays as “English Localized”
+  must: 5,                        // [Primary rating] Visitor value, 0–5; .5 increments allowed. See the rating criteria below
+  score: 5,                       // [Secondary rating] Photographic value, 0–5; .5 increments allowed
+  tldr: 'One-sentence conclusion, no more than 60 characters. This is the only content visible when collapsed and must support a decision without the rest of the card.',
+  tags: [                         // 3–5 tags
+    { t: 'Completely free', c: 'free' },  // c: free green / paid orange / risk red
+    { t: 'Timed ticket required', c: 'risk' }
   ],
-  highlights: [                   // 核心看点，见下方长度规则
-    '每条一段，可含 <strong>。写具体事实与数字，不要写「非常壮观」这类空话'
+  highlights: [                   // Core highlights; see length rules below
+    'One paragraph per item; may contain <strong>. Give specific facts and numbers, not empty phrases such as “very spectacular.”'
   ],
-  tour: [                         // 【必填】游览要点，3–6 条。普通游客视角，不谈摄影
-    '进去之后按什么顺序逛、哪几件东西是绝对不能错过的（具体到展厅/展品/楼层）',
-    '哪些部分可以直接跳过，为什么（省下的时间给谁）',
-    '排队、安检、寄存、电梯等实际流程上的坑，以及人最少的时段',
-    '餐饮与卫生间的位置（大型场馆必写，这是全天行程的实际约束）'
+  tour: [                         // [Required] Visitor guidance, 3–6 items; ordinary visitor perspective, not photography
+    'What order to follow after entering and which specific galleries, exhibits, or floors are unmissable',
+    'Which sections can be skipped and why, including where the saved time is better spent',
+    'Practical pitfalls involving lines, security, storage, elevators, and the least crowded times',
+    'Locations of food and restrooms (required for large venues because these constrain a full-day visit)'
   ],
-  photo: '风光 <strong>4/5</strong>，建筑 <strong>5/5</strong>，人像 <strong>3/5</strong>。给出分项评分与一句扣分/加分理由。',
-  shots: [                        // 具体机位，1–4 个
+  photo: 'Landscape <strong>4/5</strong>, architecture <strong>5/5</strong>, portraits <strong>3/5</strong>. Give category ratings and one sentence explaining additions or deductions.',
+  shots: [                        // Specific photo spots, 1–4
     {
-      name: '机位名称，说清站在哪',
-      park: [38.88927, -77.05014],   // 【可选】停车/下车点经纬度
-      view: [38.88940, -77.05000],   // 拍摄站位经纬度。有 view 才会画地图针脚
-      desc: '最佳时段（写出具体钟点）+ 镜头焦段 + 构图要点 + 器材注意。要能照着执行。'
+      name: 'Photo-spot name that clearly states where to stand',
+      park: [38.88927, -77.05014],   // [Optional] Latitude and longitude of parking/drop-off point
+      view: [38.88940, -77.05000],   // Latitude and longitude of shooting position; a map pin is drawn only when view exists
+      desc: 'Best period (give specific times) + lens focal length + composition guidance + equipment notes. It must be directly actionable.'
     }
   ],
   access: {
-    visit: '<strong>建议参观时长</strong>，必填。给区间与分配，如「2–3 小时；只看重点 75 分钟」',
-    book: '是否需要预约、平台、放票规则。不需要就写「不需预约」',
-    ticket: '票价。免费就写 <strong>免费</strong>。分档写清成人/老年/学生/儿童与免费条件',
-    hours: '开放时间，写明周几闭馆。这是本次重点核实项，必须给出官方原文口径',
-    parking: '停车方案与费用，或公共交通替代',
-    walk: '从停车/车站到机位的距离与耗时'
+    visit: '<strong>Recommended visit duration</strong>, required. Give a range and allocation, such as “2–3 hours; 75 minutes for highlights only”',
+    book: 'Whether reservations are required, the platform, and ticket-release rules. If not required, write “No reservation required”',
+    ticket: 'Admission price. If free, write <strong>Free</strong>. Clearly list adult/senior/student/child tiers and free-admission conditions',
+    hours: 'Opening hours, including weekly closure days. This is a key verification item and must quote the official wording',
+    parking: 'Parking options and costs, or public-transit alternatives',
+    walk: 'Distance and walking time from parking/station to the photo spot'
   },
-  notes: [                        // 注意事项，3–8 条
-    '三脚架政策、安检、治安、季节性限制、易踩的坑。每条一句话讲清一件事'
+  notes: [                        // Important notes, 3–8 items
+    'Tripod policies, security screening, safety, seasonal restrictions, and common pitfalls. Explain one matter clearly per sentence.'
   ],
-  images: [                       // 2–3 张，**必须是 Wikimedia Commons 的直链**
+  images: [                       // 2–3 images; **must be direct Wikimedia Commons links**
     { url: 'https://upload.wikimedia.org/wikipedia/commons/x/xx/Foo.jpg',
-      cap: '图说 · 作者 / 许可协议' }
+      cap: 'Caption · Author / License' }
   ]
 }
 ```
 
-## must（游览价值）评分标准
+## `must` (Visitor Value) Rating Criteria
 
-**这是页面卡头显示的主评分，口径要全站一致。** 想的是「一个第一次来这个地域的
-普通游客」，不是摄影爱好者。
+**This is the primary rating displayed in the page’s card header and must be consistent across the site.** Evaluate it for an ordinary first-time visitor to the region, not a photography enthusiast.
 
-页面上鼠标悬停（触屏是点一下）评分那一行会显示分档文字，分档由分数直接换算，
-所以下表的含义与页面上显示的说法必须对得上：
+Hovering over the rating row on the page (or tapping on a touchscreen) displays the tier label. The tier is derived directly from the score, so the meanings below must match the wording shown on the page:
 
-| 分 | 页面分档 | 含义 |
+| Score | Page tier | Meaning |
 | --- | --- | --- |
-| **5** | 值得专程前往 | 世界级、来了不去等于没来。错过会被人反问「你怎么没去」。如 Statue of Liberty、Old Faithful、The Met、National Air and Space Museum |
-| **4** | 强烈推荐 | 主流必去清单上的地标，时间够就该去。如 Grand Central、Boston Public Library、Arlington National Cemetery |
-| **3** | 顺路推荐 | 值得去，但属于「有兴趣再去」。通常是主题性强或需要特定兴趣的场馆与街区 |
-| **2** | 有余力再去 | 顺路可看，不值得专程。多为街景、次要纪念物、纯拍照点位 |
-| **1** | 可以跳过 | 只有特定人群会去（影视取景地、小众专题） |
-| **0.5–1** | 不建议 | 已无法抵达或不存在的条目（同时要填 `gone`） |
+| **5** | Worth a dedicated trip | World-class; visiting the region without going here would mean missing its essence. Others would ask, “How did you not go?” Examples: Statue of Liberty, Old Faithful, The Met, National Air and Space Museum |
+| **4** | Strongly recommended | A landmark on mainstream must-see lists; visit if time permits. Examples: Grand Central, Boston Public Library, Arlington National Cemetery |
+| **3** | Recommended if nearby | Worth visiting, but primarily for those with relevant interests. Usually a strongly themed venue or neighborhood requiring a specific interest |
+| **2** | Visit if time allows | Worth seeing when nearby, but not worth a dedicated trip. Often streetscapes, minor monuments, or pure photography locations |
+| **1** | Can be skipped | Relevant only to specific audiences, such as film locations or niche subjects |
+| **0.5–1** | Not recommended | An inaccessible or nonexistent entry (also set `gone`) |
 
-允许 .5。**不要把整份清单都打 4–5 分**——分数要能排序，否则等于没给。
-`must` 与 `score` 常常不一致，这很正常，也正是这两个字段并存的意义：
-博物馆室内可以 `must: 5, score: 2`，一个漂亮的路边高点可以 `must: 1.5, score: 4.5`。
+.5 increments are allowed. **Do not give the entire list ratings of 4–5**—the scores must support ranking or they serve no purpose. `must` and `score` often differ; this is normal and is exactly why both fields exist. A museum interior can be `must: 5, score: 2`, while a beautiful roadside overlook can be `must: 1.5, score: 4.5`.
 
-## 参观时长、门票、开放时间：必须实时联网核实
+## Visit Duration, Admission, and Opening Hours: Live Online Verification Required
 
-这三项是本轮的重点，**一律以官方渠道当天页面为准**，不得凭印象写：
+These three items are the focus of this review. **Always use the official channel’s current page on the day of research**; do not rely on memory:
 
-- **`access.visit`（建议参观时长）**：给区间，并说明怎么分配。
-  例：`2.5–4 小时；只看 Apollo 11 与 Wright Flyer 两个展厅约 60 分钟`。
-  依据优先级：官方 FAQ / 官方建议 > 官方导览时长 > 场馆规模与展厅数量的合理推算
-  （推算的要写「按展厅规模推算」）。
-- **`access.ticket`**：官方票价页，写清各档与免费条件，并**写上核实日期**。
-- **`access.hours`**：官方开放时间页，写明周几闭馆、季节性调整、节假日特例。
-  **要给官方原文口径**（例如「Open daily 10:00–17:30, closed December 25」）。
-- 官方页面自相矛盾时（两页说法不同），**两种口径都写出来并标明各自来源**，
-  不要替使用者选一个。这是本项目的既定做法。
-- 查不到的，写「<strong>未能从官方渠道确认</strong>」并给官方电话。
+- **`access.visit` (recommended visit duration):** provide a range and explain its allocation. Example: `2.5–4 hours; about 60 minutes for only the Apollo 11 and Wright Flyer galleries`. Evidence priority: official FAQ/recommendation > official tour duration > reasonable inference from venue size and gallery count (label an inference as “estimated from gallery size”).
+- **`access.ticket`:** use the official admission page, clearly state all tiers and free-admission conditions, and **include the verification date**.
+- **`access.hours`:** use the official opening-hours page and state weekly closures, seasonal adjustments, and holiday exceptions. **Include the official wording** (for example, “Open daily 10:00–17:30, closed December 25”).
+- When official pages contradict each other, **include both statements and identify each source**. Do not choose one for the reader. This is established project policy.
+- If the information cannot be found, write “<strong>Could not be confirmed through official channels</strong>” and provide the official phone number.
 
-## highlights / tour 的写法：每条必须以加粗结论开头（重要）
+## Writing `highlights` / `tour`: Each Item Must Begin With a Bold Conclusion (Important)
 
-**页面渲染直接依赖这一条规范，不是排版偏好。** 卡片展开后，`highlights` 与 `tour`
-的每一条默认只显示开头那个加粗段，整段详情收在里面点开——这样读者先拿到一份
-可扫的要点清单，想深入哪一条再点哪一条，不必一上来读两千字。
+**Page rendering directly depends on this rule; it is not a stylistic preference.** When a card is expanded, each `highlights` and `tour` item initially displays only its opening bold segment. The full details are nested inside and open on click. This gives readers a scannable list first, letting them expand only the items they want instead of immediately reading two thousand words.
 
-所以：
+Therefore:
 
-- **每条的第一个 `<strong>…</strong>` 必须是这一条的一句话结论，能独立成句、
-  自己就说得通。** 长度控制在 **20–45 字**：太短说不清，太长在一行里放不下。
-- 结论要有信息量，不能当小标题用。写「<strong>地下展厅在 2026 年夏天整体重做后
-  重开，这是这一站近年最大的变化</strong>」，不要写「<strong>地下展厅</strong>」。
-- 结论之后接详细说明，篇幅按下面的长度规则走。
-- 一条里**不要以加粗开头之后再无其他内容**——那样点开是空的。详情不足 24 字的条目
-  页面会自动改成平铺显示，但既然要写就把话说完。
+- **The first `<strong>…</strong>` in each item must be a one-sentence conclusion that stands on its own and makes sense independently.** Keep it to **20–45 characters**: shorter is insufficiently clear, while longer will not fit on one line.
+- The conclusion must be informative, not merely a subheading. Write “<strong>The underground galleries reopened after a complete renovation in summer 2026, the largest recent change at this stop</strong>,” not “<strong>Underground galleries</strong>.”
+- Follow the conclusion with detailed explanation, using the length rules below.
+- **Do not place a bold opening with no content after it**—expanding it would reveal nothing. The page automatically displays items with fewer than 24 characters of detail in a flat layout, but if an item is worth including, explain it fully.
 
-节名在页面上叫「看什么」（`highlights`）与「怎么逛」（`tour`），分工要守住：
-**前者写看的对象**（看哪几样东西、为什么值得看、反直觉的事实），
-**后者写走的方法**（什么顺序、跳过什么、人流与排队、厕所餐饮在哪）。
-同一件事不要在两节里各说一遍。
+The page labels these sections “What to See” (`highlights`) and “How to Visit” (`tour`); preserve their distinct roles. **The former describes what to look at** (which objects, why they matter, and counterintuitive facts), while **the latter describes how to move through the place** (order, what to skip, crowds and lines, and locations of restrooms and food). Do not repeat the same matter in both sections.
 
-## highlights 长度规则（重要）
+## `highlights` Length Rules (Important)
 
-按景点分量分配篇幅，不要一律写满：
+Allocate space according to the attraction’s significance; do not always fill every slot:
 
-- **次要景点 / 单一功能点位**：2–3 条，每条 1–2 句。
-- **重要自然景观或有人文背景的地点**：4–5 条。要交代历史沿革、建造背景、
-  为什么它值得拍，以及任何反直觉的事实。Bradbury Building 那种「32 岁未受训练的绘图员依据通灵留言接下委托」
-  的具体细节，比五句形容词有用得多。
-- 不要为了凑长度重复 `tldr` 或 `photo` 里已经说过的话。
+- **Minor attraction / single-purpose location:** 2–3 items, 1–2 sentences each.
+- **Major natural attraction or place with cultural context:** 4–5 items. Explain its history, construction background, why it is worth photographing, and any counterintuitive facts. Specific details such as “the Bradbury Building commission was accepted by an untrained 32-year-old draftsman based on a message received through spiritualism” are more useful than five sentences of adjectives.
+- Do not repeat material already covered in `tldr` or `photo` merely to add length.
 
-## 坐标要求
+## Coordinate Requirements
 
-- 一律 `[纬度, 经度]`，WGS84，小数 5–6 位。
-- **必须是真实可核对的坐标**，从 OpenStreetMap 实体节点或官方页面取。
-  几何推算的请在 `desc` 里注明「推算」。
-- 拿不到精确坐标的机位，**省略 `view` 字段**，并在 `desc` 里说明「无 OSM 实体，地图无针脚」。
-  不要编造坐标——后续会用 Nominatim 反查逐个校验，编的会被查出来。
+- Always use `[latitude, longitude]`, WGS84, with 5–6 decimal places.
+- **Coordinates must be genuine and verifiable**, sourced from an OpenStreetMap feature or official page. Label geometrically inferred coordinates as “estimated” in `desc`.
+- If precise coordinates for a photo spot are unavailable, **omit the `view` field** and state “No OSM feature; no map pin” in `desc`. Do not invent coordinates—each will later be reverse-checked with Nominatim, which will expose fabricated values.
 
-## 图片要求
+## Image Requirements
 
-- 只用 **Wikimedia Commons** 的 `upload.wikimedia.org` 直链（原图链接即可，
-  下载脚本会自动转缩略图）。
-- 每个景点 **2–3 张**，优先横幅、能体现推荐机位视角的。
-- `cap` 必须写「内容 · 作者 / 许可协议」，例如 `大堂中庭 · Daniel L. Lu / CC BY-SA 4.0`。
-- 找图可用 `python3 tools/find_images.py "关键词"`，它会返回高分辨率候选与许可信息。
-- 确实找不到合规图片的景点，`images: []` 留空并在交付说明里列出，不要放非 Commons 的链接。
+- Use only direct `upload.wikimedia.org` links from **Wikimedia Commons** (original-file links are acceptable; the download script automatically converts them to thumbnails).
+- Include **2–3 images** per attraction, prioritizing landscape orientation and views that demonstrate the recommended photo spots.
+- `cap` must use the format “Content · Author / License,” for example, `Lobby atrium · Daniel L. Lu / CC BY-SA 4.0`.
+- To search for images, use `python3 tools/find_images.py "keyword"`; it returns high-resolution candidates and license information.
+- If no compliant image can be found for an attraction, leave `images: []` empty and list it in the delivery notes. Do not use non-Commons links.
 
-## 写作口径
+## Writing Standards
 
-- **中文正文，专有名词与地名一律英文原名。** 标题字段 `en` 填英文、`name` 填中文。
-- 语气是「给一个要去玩的朋友交底」，不是旅游宣传。**该说去不了就说去不了，
-  该说不值得就说不值得。**
-- **`tour` 与 `access` 是重点，`photo` 与 `shots` 是辅助。** 篇幅分配要体现这一点：
-  一个博物馆条目里，「先看哪几件、怎么避开人流、要多久」的价值远高于「哪个角度好拍」。
-- 数字优先于形容词：写「11:00–14:00」而不是「正午前后」，写「$30」而不是「不便宜」。
-- 不确定的信息必须标注，用「<strong>未能从官方渠道确认</strong>」这样的明确措辞，不要含糊带过。
-- **不要写任何无人机相关内容**，使用者没有无人机。
-- 不要规划具体行程与日期安排，只写这个地点本身。
+- **Write body text in English and retain proper nouns and place names in their original English.** Set both title fields, `en` and `name`, in English.
+- Use the tone of candidly briefing a friend who plans to visit, not tourism marketing. **If a place is inaccessible, say so; if it is not worthwhile, say so.**
+- **`tour` and `access` are primary; `photo` and `shots` are secondary.** Space allocation must reflect this. In a museum entry, “what to see first, how to avoid crowds, and how long it takes” is far more valuable than “which angle photographs well.”
+- Prefer numbers to adjectives: write “11:00–14:00” instead of “around midday,” and “$30” instead of “expensive.”
+- Mark uncertain information explicitly with wording such as “<strong>Could not be confirmed through official channels</strong>”; do not obscure uncertainty.
+- **Do not include any drone-related content**; the user does not have a drone.
+- Do not plan a specific itinerary or date schedule; describe only the place itself.
 
-## 面向的读者：任何一位以后会用到这份手册的人
+## Intended Audience: Anyone Who May Use This Guide Later
 
-这份手册是**公开的长期参考资料**，不是某一次私人行程的记录。以下写法一律禁止，
-发现了就改：
+This guide is a **public, long-term reference**, not a record of one private trip. The following wording is prohibited and must be corrected whenever found:
 
-| 不要写 | 改成 |
+| Do not write | Replace with |
 | --- | --- |
-| 「已经游览过」「我们上次去」「这次不去了」 | 直接写这个地点本身的价值与约束，由读者自己决定去不去 |
-| 「本次行程不受影响」 | 「十月中下旬不受影响」，或写清具体的时间条件 |
-| 「按你的实际日期」「落到实际日期上」 | 「以十月中旬为例」，把日期降格为举例 |
-| 「方向对我们不利」 | 「这对秋色不利」——写事实，不带人称 |
-| 「这是本次行程唯一……」 | 「这是本区唯一……」 |
+| “Already visited,” “We went last time,” or “We are skipping it this time” | State the place’s value and constraints directly, letting readers decide whether to visit |
+| “This trip is unaffected” | “Mid-to-late October is unaffected,” or state the exact time condition |
+| “For your actual dates” or “Applied to the actual dates” | “Using mid-October as an example,” making the date explicitly illustrative |
+| “The direction is unfavorable for us” | “This is unfavorable for fall color”—state the fact without a personal perspective |
+| “This is the only … on this trip” | “This is the only … in this area” |
 
-**第二人称也要少用。** 「你 9/29 就走了」这类句子把手册钉死在一次行程上，
-换成「九月末离园的话」这种条件句。
+**Minimize second-person language as well.** A sentence such as “You leave on 9/29” ties the guide to one trip; replace it with a conditional phrase such as “when leaving the park in late September.”
 
-**日期怎么处理**：季节性事实（秋色峰期、道路关闭、旺季票价）是这份手册最有价值
-的部分，不能删。做法是把它从「我的日程」降格为「季节参考 + 示例日期」：
+**Handling dates:** seasonal facts (peak fall color, road closures, peak-season prices) are among the guide’s most valuable content and must not be removed. Reframe them from “my itinerary” as “seasonal reference + example date”:
 
-- 可以写：「十月中下旬」「九月下旬至十月初」「秋季周末」
-- 可以写：「以 10 月 16 日为例，日落 18:16、金光 17:35–18:15」
-- 不要写：「10/16 是我们在纽约的第一天，所以……」
-- 只在某一年成立的事实（活动档期、放票日、某年的预报），**写清年份与核实日期**，
-  让以后的读者知道该自己重查：「2026 年 10 月 1–31 日举办；票价以 2026-09-14
-  官网为准，请出行前复查」。
+- Acceptable: “mid-to-late October,” “late September to early October,” or “fall weekends.”
+- Acceptable: “Using October 16 as an example, sunset is 18:16 and golden light is 17:35–18:15.”
+- Do not write: “10/16 is our first day in New York, so…”
+- For facts valid only in a particular year (event dates, ticket-release dates, or that year’s forecast), **state the year and verification date clearly** so future readers know to recheck: “Held October 1–31, 2026; price based on the official site as of 2026-09-14. Recheck before travel.”
 
-## 交付前自检
+## Pre-Delivery Checklist
 
 ```bash
-node --check <你的文件路径>          # 语法
-node -e "const r=require('./<路径>'); console.log(r.spots.length)"   # 能否 require
+node --check <your-file-path>          # Syntax
+node -e "const r=require('./<path>'); console.log(r.spots.length)"   # Can Node require it?
 ```
 
-并在最终回复里报告：子地区 id、景点数、新增了哪几个景点、无坐标的机位数、
-images 为空的景点数、以及任何你**未能核实**的关键信息（开放时间、票价、
-参观时长、预约规则、是否可达）。
+In the final response, report the subregion id, number of attractions, attractions added, number of photo spots without coordinates, number of attractions with empty `images`, and any key information you **could not verify** (opening hours, admission, visit duration, reservation rules, or accessibility).
 
-另外自查这三条，漏一条整份就要返工：
+Also check these three requirements; missing any one requires reworking the entire file:
 
 ```bash
-# 每个景点都得有 must、tour、access.visit
-node -e "const r=require('./<路径>'); r.spots.forEach(s=>{ \
-  if (s.must==null) console.log('缺 must: '+s.id); \
-  if (!s.tour||!s.tour.length) console.log('缺 tour: '+s.id); \
-  if (!s.access||!s.access.visit) console.log('缺 access.visit: '+s.id); \
+# Every attraction must have must, tour, and access.visit
+node -e "const r=require('./<path>'); r.spots.forEach(s=>{ \
+  if (s.must==null) console.log('missing must: '+s.id); \
+  if (!s.tour||!s.tour.length) console.log('missing tour: '+s.id); \
+  if (!s.access||!s.access.visit) console.log('missing access.visit: '+s.id); \
 })"
 ```

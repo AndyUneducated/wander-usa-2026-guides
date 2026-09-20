@@ -1,10 +1,11 @@
-# 图片来源与署名 · nyc
+# Image Credits · nyc
 
-本目录图片下载自 Wikimedia Commons 等公开图库，版权归原作者，
-按其原始许可协议（多为 CC BY-SA / CC0 / Public Domain）使用，仅作取景参考。
-如需商用请自行核对每张图片的具体许可。
+The images in this directory were downloaded from Wikimedia Commons and other public
+repositories. Copyright remains with the original authors, and the images are used under
+their original licenses (mostly CC BY-SA / CC0 / Public Domain) for location-scouting
+reference only. For commercial use, check the specific license of each image yourself.
 
-| 本地文件 | 原始地址 |
+| Local file | Source URL |
 | --- | --- |
 | `2014-columbia-university-alma-mater-64748ecc.jpg` | <https://upload.wikimedia.org/wikipedia/commons/f/ff/2014_Columbia_University_Alma_Mater.jpg> |
 | `2014-striver-s-row-219-203-w-138-2360-acp-by-bruce-price-cla-a652b293.jpg` | <https://upload.wikimedia.org/wikipedia/commons/1/1e/2014_Striver%27s_Row_219-203_W_138_%26_2360_ACP_by_Bruce_Price_%26_Clarence_S._Luce.jpg> |

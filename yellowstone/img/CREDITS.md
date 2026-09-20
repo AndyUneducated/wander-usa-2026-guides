@@ -1,10 +1,11 @@
-# 图片来源与署名 · yellowstone
+# Image Credits · yellowstone
 
-本目录图片下载自 Wikimedia Commons 等公开图库，版权归原作者，
-按其原始许可协议（多为 CC BY-SA / CC0 / Public Domain）使用，仅作取景参考。
-如需商用请自行核对每张图片的具体许可。
+The images in this directory were downloaded from Wikimedia Commons and other public
+repositories. Copyright remains with the original authors, and the images are used under
+their original licenses (mostly CC BY-SA / CC0 / Public Domain) for location-scouting
+reference only. For commercial use, check the specific license of each image yourself.
 
-| 本地文件 | 原始地址 |
+| Local file | Source URL |
 | --- | --- |
 | `2013-berkeley-pit-butte-montana-1-9e4eefd6.jpg` | <https://upload.wikimedia.org/wikipedia/commons/a/a8/2013_Berkeley_Pit%2C_Butte%2C_Montana_%281%29.jpg> |
 | `20200612-osec-av-0002-49999441762-dc8cf00b.jpg` | <https://upload.wikimedia.org/wikipedia/commons/d/d1/20200612-OSEC-AV-0002_%2849999441762%29.jpg> |
