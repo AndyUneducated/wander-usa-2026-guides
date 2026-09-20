@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
-"""逐条核对数据里的每张图片是否真的存在。
+"""Check that every image referenced in the data actually exists.
 
-为什么单独做这件事：图片绝大多数放在收起的 <details> 里，浏览器不展开
-就不会去取，所以「浏览器里没有加载失败的图」是个假阳性很强的结论。
-研究员偶尔会把 Wikimedia 的文件名写错（少一个连字符、扩展名大小写不对），
-这类错误只有直接向 Commons 问一次才能发现。
+Why this is a separate check: most images sit inside collapsed <details>, so the
+browser never fetches them unless they are expanded. "No broken images in the
+browser" is therefore a strong false positive. Researchers sometimes mistype a
+Wikimedia filename (a missing hyphen, wrong extension case); those errors only
+show up when Commons is queried directly.
 
-本地图片：检查文件存在且确实是图片（读文件头的魔术字节）。
-远程图片：向 Commons API 查该文件是否存在，比 HEAD 直链更可靠且不易触发限流。
+Local images: file exists and really is an image (magic bytes in the header).
+Remote images: ask the Commons API whether the file exists — more reliable than
+HEAD on the direct URL, and less likely to trip rate limits.
 
-用法：
-  python3 tools/verify_images.py                # 全部地域
+Usage:
+  python3 tools/verify_images.py                # all regions
   python3 tools/verify_images.py --region dc
-  python3 tools/verify_images.py --local-only   # 跳过联网检查
+  python3 tools/verify_images.py --local-only   # skip network checks
 """
 from __future__ import annotations
 
@@ -63,7 +65,7 @@ def load(region: str):
          'process.stdout.write(JSON.stringify(out));',
                          str(data)], capture_output=True, text=True, encoding='utf-8')
     if res.returncode != 0:
-        print(f'⚠️ {region}/data.js 读取失败', file=sys.stderr)
+        print(f'⚠️ {region}/data.js failed to load', file=sys.stderr)
         return []
     return json.loads(res.stdout)
 
@@ -74,7 +76,7 @@ def commons_filename(url: str):
 
 
 def commons_exists(filename: str):
-    """返回 (是否存在, 说明)。存在时说明里带原图尺寸。"""
+    """Return (exists, note). On success the note includes original dimensions."""
     q = urllib.parse.urlencode({
         'action': 'query', 'format': 'json', 'prop': 'imageinfo',
         'iiprop': 'url|size|mime', 'titles': 'File:' + filename})
@@ -91,26 +93,26 @@ def commons_exists(filename: str):
             if e.code == 429 and attempt < 2:
                 time.sleep(45 * (attempt + 1))
                 continue
-            return None, f'API 出错 {e}'
+            return None, f'API error {e}'
         except Exception as e:
             if attempt < 2:
                 time.sleep(5)
                 continue
-            return None, f'API 出错 {e}'
+            return None, f'API error {e}'
     else:
-        return None, 'API 反复失败'
+        return None, 'API failed repeatedly'
 
     pages = list(d.get('query', {}).get('pages', {}).values())
     if not pages:
-        return False, '查询无结果'
+        return False, 'query returned no pages'
     if 'missing' in pages[0] or 'imageinfo' not in pages[0]:
-        return False, '该文件在 Commons 上不存在'
+        return False, 'file does not exist on Commons'
     i = pages[0]['imageinfo'][0]
     return True, f'{i.get("width")}x{i.get("height")} {i.get("mime")}'
 
 
 def suggest(filename: str):
-    """文件名写错时，搜一下最可能的正确名字。"""
+    """If the filename looks wrong, search for the most likely correct name."""
     stem = filename.rsplit('.', 1)[0]
     q = urllib.parse.urlencode({
         'action': 'query', 'format': 'json', 'list': 'search',
@@ -151,52 +153,52 @@ def main():
                         if not fn:
                             remote_bad += 1
                             problems.append(
-                                f'{where}\n    无法从链接解析出 Commons 文件名：{url}')
+                                f'{where}\n    could not parse a Commons filename from URL: {url}')
                             continue
                         ok, why = commons_exists(fn)
                         if ok:
                             remote_ok += 1
                         elif ok is False:
                             remote_bad += 1
-                            msg = (f'{where}\n    ❌ {why}：{fn}')
+                            msg = (f'{where}\n    ❌ {why}: {fn}')
                             for s in suggest(fn):
-                                msg += f'\n       也许应该是：{s}'
+                                msg += f'\n       maybe this instead: {s}'
                             problems.append(msg)
                         else:
-                            problems.append(f'{where}\n    ⚠️ 未能确认：{why}（{fn}）')
+                            problems.append(f'{where}\n    ⚠️ could not confirm: {why} ({fn})')
                     else:
                         p = ROOT / region / url
                         if not p.exists():
                             local_bad += 1
-                            problems.append(f'{where}\n    ❌ 本地文件不存在：{url}')
+                            problems.append(f'{where}\n    ❌ local file missing: {url}')
                             continue
                         head = p.open('rb').read(12)
                         if not any(head.startswith(m) for m in MAGIC):
                             local_bad += 1
                             problems.append(
-                                f'{where}\n    ❌ 不是有效图片（文件头 '
-                                f'{head[:6]!r}）：{url}')
+                                f'{where}\n    ❌ not a valid image (header '
+                                f'{head[:6]!r}): {url}')
                         else:
                             local_ok += 1
         stats[region] = (local_ok, local_bad, remote_ok, remote_bad)
 
-    print('=== 图片核对 ===')
+    print('=== image check ===')
     for r, (lo, lb, ro, rb) in stats.items():
-        parts = [f'本地 {lo} 张有效']
+        parts = [f'local {lo} valid']
         if lb:
-            parts.append(f'{lb} 张有问题')
+            parts.append(f'{lb} with problems')
         if ro or rb:
-            parts.append(f'远程 {ro} 张存在')
+            parts.append(f'remote {ro} exist')
         if rb:
-            parts.append(f'{rb} 张不存在')
-        print(f'  {r:14s}{"，".join(parts)}')
+            parts.append(f'{rb} missing')
+        print(f'  {r:14s}{", ".join(parts)}')
 
     if problems:
-        print(f'\n❌ 共 {len(problems)} 处问题：\n')
+        print(f'\n❌ {len(problems)} problem(s):\n')
         for p in problems:
             print('  ' + p)
         return 1
-    print('\n✅ 所有图片都已核对通过')
+    print('\n✅ all images verified')
     return 0
 
 

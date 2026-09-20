@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """
-把某个地域 data.js 里引用的远程图片下载到该地域的 img/ 目录，并改写 data.js 的 URL 为本地路径。
+Download remote images referenced in a region's data.js into that region's img/ directory,
+and rewrite the URLs in data.js to local paths.
 
-页面因此不再依赖外部图床（Wikimedia 对热链限流很重），发布到 GitHub Pages 后也能稳定显示。
-可重复执行：已经是本地路径的会跳过，已下载过的文件不会重复下载。
+Pages then no longer depend on an external image host (Wikimedia rate-limits hotlinking hard),
+and they still display reliably after publishing to GitHub Pages.
+Safe to re-run: already-local paths are skipped, and files already downloaded are not fetched again.
 
-用法：
+Usage:
     python3 tools/localize_images.py --region yellowstone
-    python3 tools/localize_images.py --region dc --check     # 只列出待下载链接
+    python3 tools/localize_images.py --region dc --check     # list pending URLs only
 
-进度监控：
-    每处理完一个链接就把状态写入 <region>/img/.progress.json，并且每 5 秒刷新一次心跳。
-    配合 tools/watch_progress.py 可以实时看到进度、判断是否卡住。
+Progress monitoring:
+    After each URL, status is written to <region>/img/.progress.json, with a heartbeat every 5 seconds.
+    Pair with tools/watch_progress.py to watch progress live and tell whether a run is stuck.
 """
 
 import argparse
@@ -31,7 +33,7 @@ from pathlib import Path
 
 
 def _ssl_context() -> ssl.SSLContext:
-    """macOS 的 python.org 安装常缺根证书，优先用 certifi。"""
+    """python.org installs on macOS often lack root certs; prefer certifi."""
     try:
         import certifi
 
@@ -43,7 +45,7 @@ def _ssl_context() -> ssl.SSLContext:
 SSL_CTX = _ssl_context()
 ROOT = Path(__file__).resolve().parent.parent
 
-# Wikimedia 要求带上能识别来源的 User-Agent，否则容易吃 429
+# Wikimedia wants a recognizable User-Agent; otherwise 429s are common
 UA = "wander-usa-2026-guides/1.0 (static travel report; contact via GitHub AndyUneducated)"
 
 EXT_BY_TYPE = {
@@ -53,25 +55,27 @@ EXT_BY_TYPE = {
     "image/gif": ".gif",
 }
 
-# Wikimedia 只接受固定几档缩略图宽度，直接热链其它宽度会被拒。
-# 当前生产环境的档位见 https://w.wiki/GHai：
+# Wikimedia only accepts a fixed set of thumbnail widths; other widths are rejected.
+# Production sizes: https://w.wiki/GHai :
 #   20, 40, 60, 120, 250, 330, 500, 960, 1280, 1920, 3840
-# 这里只取适合网页报告的几档。原先写的 1024/800/640 都不在档位里，
-# 会稳定收到 "400 Use thumbnail sizes listed on..."，三张图就是这么失败的。
+# Keep only the sizes that make sense for a web report. The old 1024/800/640
+# values are not on the list, so they reliably returned
+# "400 Use thumbnail sizes listed on..." — that is how three images failed.
 WM_THUMB_SIZES = (1280, 960, 500, 330)
 
-# Wikimedia 的限流是突发敏感的：短时间连打几个请求会整段吃 429，
-# 之后连本来正常的地址也会被拒。用全局节流器保证**任何两次** HTTP 请求都隔开足够时间，
-# 包括尺寸回退与重试在内。
+# Wikimedia rate limits are burst-sensitive: a few requests in a short window
+# earn a stretch of 429s, after which even otherwise-fine URLs are refused.
+# A global throttle keeps **any two** HTTP requests (including size fallbacks
+# and retries) at least MIN_GAP apart.
 MIN_GAP = 3.0
 _last_request_at = 0.0
 
 
-# ---------------------------------------------------------------- 进度上报
+# ---------------------------------------------------------------- progress reporting
 
 
 class Progress:
-    """把处理进度写成 JSON，供外部实时监控；另起线程刷心跳，便于判断是否卡死。"""
+    """Write progress as JSON for live monitoring; a side thread heartbeats so we can tell if a run is dead."""
 
     def __init__(self, path: Path, total: int, region: str):
         self.path = path
@@ -97,7 +101,7 @@ class Progress:
         self._hb.start()
 
     def _heartbeat(self):
-        """即使某个下载卡在 socket 上，心跳也会继续更新，让监控端能区分「慢」和「死」。"""
+        """Even if a download is stuck on a socket, the heartbeat keeps updating so monitors can tell slow from dead."""
         while not self._stop.wait(5):
             with self._lock:
                 self.state["updated_at"] = time.time()
@@ -109,9 +113,10 @@ class Progress:
             self._write()
 
     def _write(self):
-        # 进度文件只供监控用，写不进去不该让整场下载跟着中断。Windows 上
-        # os.replace 会偶发 PermissionError——杀毒或索引器瞬间持有目标文件即可触发，
-        # 曾因此在第 31／95 张时整个任务崩掉。重试几次，仍不行就跳过这次写入。
+        # Progress files are for monitoring only; a write failure must not abort the whole download.
+        # On Windows, os.replace can sporadically raise PermissionError if antivirus or the indexer
+        # briefly holds the target — that once killed the job at image 31/95. Retry a few times;
+        # if it still fails, skip this write.
         tmp = self.path.with_suffix(".tmp")
         try:
             tmp.write_text(json.dumps(self.state, ensure_ascii=False, indent=1),
@@ -153,11 +158,11 @@ def log(msg: str):
     print(msg, flush=True)
 
 
-# ---------------------------------------------------------------- URL 处理
+# ---------------------------------------------------------------- URL handling
 
 
 def slugify(url: str) -> str:
-    """由 URL 生成稳定、可读、不冲突的文件名。"""
+    """Build a stable, readable, collision-resistant filename from a URL."""
     name = urllib.parse.unquote(url.rsplit("/", 1)[-1])
     name = re.sub(r"\.(jpg|jpeg|png|webp|gif|svg)$", "", name, flags=re.I)
     name = re.sub(r"^\d+px-", "", name)
@@ -167,7 +172,7 @@ def slugify(url: str) -> str:
 
 
 def commons_filename(url: str) -> str | None:
-    """从 Commons 直链里取出文件名，例如 …/commons/0/02/Foo.jpg → Foo.jpg"""
+    """Pull the filename out of a Commons direct URL, e.g. …/commons/0/02/Foo.jpg → Foo.jpg"""
     m = re.match(
         r"https://upload\.wikimedia\.org/wikipedia/commons/(?:thumb/)?[0-9a-f]/[0-9a-f]{2}/([^/]+)",
         url,
@@ -176,11 +181,12 @@ def commons_filename(url: str) -> str | None:
 
 
 def api_thumb_url(filename: str, width: int = 1280) -> str | None:
-    """用 Commons API 换取缩略图地址。
+    """Ask the Commons API for a thumbnail URL.
 
-    直接向 upload.wikimedia.org 请求「尚未生成过」的缩略图会触发源站限流（429），
-    而 API 会在服务端完成缩略图生成，并返回 thumb.wikimedia.org 上已就绪的地址，
-    该主机不受同一套限流约束。这是绕开 429 的关键。
+    Requesting a thumbnail that has never been generated from upload.wikimedia.org
+    trips origin rate limits (429). The API generates the thumbnail server-side
+    and returns a ready URL on thumb.wikimedia.org, which is not under that
+    same limit. That is the key to avoiding 429s.
     """
     q = urllib.parse.urlencode(
         {
@@ -204,15 +210,17 @@ def api_thumb_url(filename: str, width: int = 1280) -> str | None:
     mime = (info.get("mime") or "").lower()
     original_width = info.get("width") or 0
 
-    # TIFF 等格式浏览器不渲染（HAER 建筑档案照片常是 image/tiff），
-    # 必须用服务端生成的缩略图换成 JPEG/PNG，哪怕原图更清晰也不能直接用。
+    # Browsers will not render TIFF etc. (HAER architectural photos are often
+    # image/tiff). Always swap in a server-generated JPEG/PNG thumbnail, even
+    # if the original is sharper.
     web_safe = mime in ("image/jpeg", "image/png", "image/gif", "image/webp")
     if not web_safe:
         thumb = info.get("thumburl")
         return thumb.split("?")[0] if thumb else None
 
-    # 原图比请求宽度还窄时，Wikimedia 拒绝放大并回 400
-    # （"Use thumbnail sizes listed on..."），此时直接取原图。
+    # If the original is already narrower than the requested width, Wikimedia
+    # refuses to upscale and returns 400 ("Use thumbnail sizes listed on...");
+    # take the original in that case.
     if original_width and original_width <= width:
         url = info.get("url")
         return url.split("?")[0] if url else None
@@ -222,7 +230,7 @@ def api_thumb_url(filename: str, width: int = 1280) -> str | None:
 
 
 def url_variants(url: str) -> list[str]:
-    """生成候选下载地址：优先缩略图，最后才退回原图。"""
+    """Candidate download URLs: prefer thumbnails, fall back to the original last."""
     m = re.match(r"(.*/thumb/)(.+?)/(\d+)px-(.+)$", url)
     if m:
         prefix, filepath, width, tail = m.groups()
@@ -239,7 +247,7 @@ def url_variants(url: str) -> list[str]:
     )
     if m:
         base, shard, fname = m.groups()
-        # SVG 的缩略图后缀是 .png，其余保持原扩展名
+        # SVG thumbnails use a .png suffix; everything else keeps its extension
         tail = fname + ".png" if fname.lower().endswith(".svg") else fname
         out = [f"{base}thumb/{shard}{fname}/{w}px-{tail}" for w in WM_THUMB_SIZES]
         out.append(url)
@@ -257,10 +265,10 @@ def _throttle() -> None:
 
 
 def download(url: str, retries: int = 5) -> tuple[bytes, str]:
-    """下载图片。遇到 429 长时间退避（限流按分钟计，秒级重试没有意义）。
+    """Download an image. Back off for a long time on 429 (limits are per-minute; second-scale retries are useless).
 
-    连续跑几百张之后 Wikimedia 的限流会明显收紧，退避需要按分钟递增，
-    否则收尾那几十张会一直失败。
+    After a few hundred files Wikimedia tightens the limit; backoff has to grow
+    by minutes, or the last few dozen will keep failing.
     """
     last = None
     for attempt in range(retries):
@@ -274,7 +282,7 @@ def download(url: str, retries: int = 5) -> tuple[bytes, str]:
             last = e
             if e.code == 429 and attempt < retries - 1:
                 cool = 60 * (2 ** attempt)  # 60s / 2min / 4min / 8min
-                log(f"    HTTP 429 限流，冷却 {cool}s…")
+                log(f"    HTTP 429 rate limited, cooling {cool}s…")
                 time.sleep(cool)
                 continue
             if e.code in (500, 502, 503, 504) and attempt < retries - 1:
@@ -290,13 +298,13 @@ def download(url: str, retries: int = 5) -> tuple[bytes, str]:
     raise last  # pragma: no cover
 
 
-# ---------------------------------------------------------------- 主流程
+# ---------------------------------------------------------------- main flow
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--region", required=True, help="地域目录名，如 yellowstone / nyc / dc")
-    ap.add_argument("--check", action="store_true", help="只列出待下载链接，不实际下载")
+    ap.add_argument("--region", required=True, help="Region directory name, e.g. yellowstone / nyc / dc")
+    ap.add_argument("--check", action="store_true", help="List pending download URLs only; do not download")
     args = ap.parse_args()
 
     region_dir = ROOT / args.region
@@ -305,31 +313,32 @@ def main() -> int:
     credits = img_dir / "CREDITS.md"
     progress_path = img_dir / ".progress.json"
 
-    # 改写目标：如果该地域有 parts/，data.js 是 tools/assemble.py 生成的，
-    # 直接改 data.js 会在下次拼装时被覆盖，所以必须改片段源文件。
+    # Rewrite target: if the region has parts/, data.js is generated by
+    # tools/assemble.py, so editing data.js would be overwritten on the next
+    # assemble — rewrite the fragment sources instead.
     parts_dir = region_dir / "parts"
     if parts_dir.is_dir():
         targets = sorted(parts_dir.glob("*.js"))
-        log(f"[{args.region}] 改写目标为 {len(targets)} 个片段文件"
-            f"（data.js 由 assemble.py 生成，改它会被覆盖）")
+        log(f"[{args.region}] rewrite targets are {len(targets)} fragment file(s)"
+            f" (data.js is generated by assemble.py; editing it would be overwritten)")
     elif data.exists():
         targets = [data]
     else:
-        log(f"找不到 {data}，也没有 {parts_dir}")
+        log(f"Cannot find {data}, and {parts_dir} is missing")
         return 1
 
-    # 片段用 JS 单引号，assemble 生成的 data.js 用 JSON 双引号，两种都要认
+    # Fragments use JS single quotes; assemble.py's data.js uses JSON double quotes — accept both
     URL_RE = re.compile(r"""["']?url["']?\s*:\s*(['"])(https?://[^'"]+)\1""")
     sources = {p: p.read_text() for p in targets}
     urls = sorted({m.group(2) for s in sources.values() for m in URL_RE.finditer(s)})
 
     if not urls:
-        log(f"[{args.region}] 没有远程图片链接，无需处理。")
+        log(f"[{args.region}] no remote image URLs; nothing to do.")
         img_dir.mkdir(parents=True, exist_ok=True)
         Progress(progress_path, 0, args.region).close("nothing-to-do")
         return 0
 
-    log(f"[{args.region}] 发现 {len(urls)} 个远程图片链接")
+    log(f"[{args.region}] found {len(urls)} remote image URL(s)")
     if args.check:
         for u in urls:
             log("  " + u)
@@ -349,20 +358,21 @@ def main() -> int:
         existing = [p for p in img_dir.glob(stem + ".*") if p.suffix != ".tmp"]
         if existing:
             mapping[url] = f"img/{existing[0].name}"
-            log(f"[{i}/{len(urls)}] 已存在，跳过  {existing[0].name}")
+            log(f"[{i}/{len(urls)}] already present, skip  {existing[0].name}")
             prog.tick("skipped")
             continue
 
-        log(f"[{i}/{len(urls)}] 下载  {url[:88]}")
+        log(f"[{i}/{len(urls)}] download  {url[:88]}")
         body = ctype = None
         last_err = None
 
-        # 优先走 API 换取的 thumb.wikimedia.org 地址，避开 upload 主机的源站限流
+        # Prefer API-resolved thumb.wikimedia.org URLs to avoid origin rate limits on upload
         candidates = []
         fname = commons_filename(url)
         if fname:
-            # API 查询本身也会吃 429。此时立刻改打 upload 主机只会让限流更重，
-            # 所以先冷却再重试 API，把直链当最后手段。
+            # The API query itself can 429. Hitting upload immediately only makes
+            # the limit worse, so cool down and retry the API; treat direct URLs
+            # as a last resort.
             for attempt in range(3):
                 try:
                     _throttle()
@@ -373,13 +383,13 @@ def main() -> int:
                 except urllib.error.HTTPError as e:
                     if e.code == 429 and attempt < 2:
                         cool = 60 * (attempt + 1)
-                        log(f"    API 限流，冷却 {cool}s 后重试…")
+                        log(f"    API rate limited, cooling {cool}s then retrying…")
                         time.sleep(cool)
                         continue
-                    log(f"    API 查询失败，改用直链：{e}")
+                    log(f"    API lookup failed, falling back to direct URL: {e}")
                     break
                 except Exception as e:
-                    log(f"    API 查询失败，改用直链：{e}")
+                    log(f"    API lookup failed, falling back to direct URL: {e}")
                     break
         candidates += [u for u in url_variants(url) if u not in candidates]
 
@@ -387,29 +397,29 @@ def main() -> int:
             try:
                 body, ctype = download(cand)
                 if cand != url:
-                    log(f"    改用可用尺寸  …/{cand.rsplit('/', 1)[-1][:50]}")
+                    log(f"    switched to a working size  …/{cand.rsplit('/', 1)[-1][:50]}")
                 break
             except Exception as e:
                 last_err = e
 
         if body is None:
-            log(f"    失败：{last_err}")
+            log(f"    failed: {last_err}")
             failures.append((url, str(last_err)))
             prog.tick("failed", url, str(last_err))
             continue
 
         if not ctype.startswith("image/"):
-            why = f"content-type={ctype or '未知'}"
-            log(f"    跳过：返回的不是图片（{why}）")
+            why = f"content-type={ctype or 'unknown'}"
+            log(f"    skip: response is not an image ({why})")
             failures.append((url, why))
             prog.tick("failed", url, why)
             continue
 
-        # 存下来的必须是浏览器能渲染的格式。TIFF 之类若按 .jpg 存盘，
-        # 页面上就是一张永远加载不出来的破图，而且很难查。
+        # What we save must be a format the browser can render. If TIFF is stored
+        # as .jpg, the page shows a permanently broken image that is hard to debug.
         if ctype not in EXT_BY_TYPE:
-            why = f"浏览器无法渲染的格式 {ctype}"
-            log(f"    跳过：{why}")
+            why = f"browser cannot render format {ctype}"
+            log(f"    skip: {why}")
             failures.append((url, why))
             prog.tick("failed", url, why)
             continue
@@ -420,7 +430,7 @@ def main() -> int:
         log(f"    → {path.name}  ({len(body) / 1024:.0f} KB)")
         prog.tick("ok")
 
-    # 改写源文件（片段或 data.js），两种引号格式都替换
+    # Rewrite sources (fragments or data.js); replace both quote styles
     prog.set(phase="rewriting", current=None)
     rewritten = 0
     for path, source in sources.items():
@@ -433,16 +443,16 @@ def main() -> int:
             path.write_text(out)
             rewritten += 1
     if rewritten:
-        log(f"\n[{args.region}] 已在 {rewritten} 个文件中改写 {len(mapping)} 个链接为本地路径")
+        log(f"\n[{args.region}] rewrote {len(mapping)} URL(s) to local paths in {rewritten} file(s)")
         if parts_dir.is_dir():
-            log(f"[{args.region}] 重新拼装 data.js")
+            log(f"[{args.region}] reassembling data.js")
             subprocess.run(
                 [sys.executable, str(ROOT / "tools" / "assemble.py"),
                  "--region", args.region],
                 check=False)
 
-    # 生成署名文件，满足 CC 协议的署名要求。
-    # 合并已有行，避免只处理剩余几张时把整份 CREDITS 覆盖掉。
+    # Generate an attribution file to satisfy CC attribution.
+    # Merge existing rows so a partial remaining-images run does not wipe CREDITS.
     existing_rows: dict[str, str] = {}
     if credits.exists():
         for line in credits.read_text(encoding="utf-8").splitlines():
@@ -464,11 +474,11 @@ def main() -> int:
     for name, url in sorted(existing_rows.items()):
         lines.append(f"| `{name}` | <{url}> |")
     credits.write_text("\n".join(lines) + "\n", encoding="utf-8")
-    log(f"署名清单已写入 {credits.relative_to(ROOT)}")
+    log(f"Attribution list written to {credits.relative_to(ROOT)}")
 
     if failures:
         prog.close("done-with-failures")
-        log(f"\n[{args.region}] {len(failures)} 个链接失败，需要人工处理：")
+        log(f"\n[{args.region}] {len(failures)} URL(s) failed and need a human:")
         for url, why in failures:
             log(f"  {why}  {url}")
         return 2

@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""给 <region>/parts/*.js 存快照，并检测景点数是否意外骤降。
+"""Snapshot <region>/parts/*.js and flag unexpected drops in spot counts.
 
-存在的原因：研究员被要求「先落骨架再增量补内容」，如果同一个片段文件被
-第二个研究员重新写一遍，它的增量过程会把已完成的版本覆盖成半成品。
-这种回退很容易在 git add -A 时被一起提交掉而没人注意。
+Why this exists: researchers are asked to land a skeleton first and then fill
+content incrementally. If a second researcher rewrites the same fragment file,
+that incremental process can overwrite a finished version with a half-done one.
+That kind of rollback is easy to commit unnoticed with git add -A.
 
-用法：
-  python3 tools/snapshot_parts.py --save          # 派发研究员之前存一份
-  python3 tools/snapshot_parts.py --check         # 对比当前与最近快照
-  python3 tools/snapshot_parts.py --restore FILE  # 从快照恢复某个片段
+Usage:
+  python3 tools/snapshot_parts.py --save          # snapshot before assigning researchers
+  python3 tools/snapshot_parts.py --check         # compare current files to the latest snapshot
+  python3 tools/snapshot_parts.py --restore FILE  # restore one fragment from the snapshot
 """
 from __future__ import annotations
 
@@ -26,7 +27,7 @@ REGIONS = ['socal', 'dc', 'nyc', 'yellowstone']
 
 
 def spot_count(path: Path):
-    """返回片段里的景点数；无法加载时返回 None。"""
+    """Return the number of spots in a fragment; None if it cannot be loaded."""
     res = subprocess.run(
         ['node', '-e',
          'try{const r=require(process.argv[1]);'
@@ -62,16 +63,16 @@ def save():
     (dest / 'inventory.json').write_text(
         json.dumps(inv, ensure_ascii=False, indent=2))
     (SNAP / 'latest').write_text(stamp)
-    print(f'已存快照 {stamp}，共 {len(inv)} 个片段')
+    print(f'saved snapshot {stamp}, {len(inv)} fragment(s)')
     for k, v in inv.items():
-        print(f'  {k:44s} {v["bytes"]:>7d} bytes  {v["spots"]} 个景点')
+        print(f'  {k:44s} {v["bytes"]:>7d} bytes  {v["spots"]} spots')
     return 0
 
 
 def check():
     latest = SNAP / 'latest'
     if not latest.exists():
-        print('还没有任何快照，先跑 --save')
+        print('no snapshots yet; run --save first')
         return 0
     stamp = latest.read_text().strip()
     prev = json.loads((SNAP / stamp / 'inventory.json').read_text())
@@ -84,54 +85,54 @@ def check():
             additions.append((key, cur))
             continue
         if cur['spots'] is None:
-            regressions.append(f'{key}: 现在无法加载（语法错误或写入中）')
+            regressions.append(f'{key}: cannot load now (syntax error or still being written)')
         elif old['spots'] is not None and cur['spots'] < old['spots']:
             regressions.append(
-                f'{key}: 景点数从 {old["spots"]} 降到 {cur["spots"]}'
-                f'（{old["bytes"]} -> {cur["bytes"]} bytes）'
-                f'　可从 .parts-snapshots/{stamp}/{key} 恢复')
+                f'{key}: spot count dropped from {old["spots"]} to {cur["spots"]}'
+                f' ({old["bytes"]} -> {cur["bytes"]} bytes)'
+                f'  restore from .parts-snapshots/{stamp}/{key}')
         elif cur['spots'] != old['spots'] or cur['bytes'] != old['bytes']:
-            growth.append(f'{key}: {old["spots"]} -> {cur["spots"]} 个景点')
+            growth.append(f'{key}: {old["spots"]} -> {cur["spots"]} spots')
     missing = [k for k in prev if k not in now]
 
-    print(f'对比基准快照 {stamp}')
+    print(f'comparing against snapshot {stamp}')
     if additions:
-        print(f'\n新增 {len(additions)} 个片段：')
+        print(f'\n{len(additions)} new fragment(s):')
         for k, v in additions:
-            print(f'  + {k}  {v["spots"]} 个景点')
+            print(f'  + {k}  {v["spots"]} spots')
     if growth:
-        print(f'\n有更新 {len(growth)} 个：')
+        print(f'\n{len(growth)} updated:')
         for g in growth:
             print(f'  ~ {g}')
     if missing:
-        print(f'\n⚠️ 消失了 {len(missing)} 个片段：')
+        print(f'\n⚠️ {len(missing)} fragment(s) disappeared:')
         for m in missing:
             print(f'  - {m}')
     if regressions:
-        print(f'\n❌ 检测到 {len(regressions)} 处回退（可能是第二个研究员覆盖了已完成的文件）：')
+        print(f'\n❌ {len(regressions)} regression(s) (a second researcher may have overwritten a finished file):')
         for r in regressions:
             print(f'  - {r}')
         return 1
     if not (additions or growth or missing):
-        print('\n无变化')
+        print('\nno changes')
     else:
-        print('\n✅ 没有检测到回退')
+        print('\n✅ no regressions detected')
     return 0
 
 
 def restore(target: str):
     latest = (SNAP / 'latest')
     if not latest.exists():
-        sys.exit('没有快照可恢复')
+        sys.exit('no snapshot to restore from')
     stamp = latest.read_text().strip()
     src = SNAP / stamp / target
     if not src.exists():
-        sys.exit(f'快照 {stamp} 里没有 {target}')
+        sys.exit(f'{target} is not in snapshot {stamp}')
     dest = ROOT / target
     shutil.copy2(dest, dest.with_suffix('.js.overwritten'))
     shutil.copy2(src, dest)
-    print(f'已从快照 {stamp} 恢复 {target}')
-    print(f'被覆盖的版本存为 {dest.name}.overwritten')
+    print(f'restored {target} from snapshot {stamp}')
+    print(f'overwritten version saved as {dest.name}.overwritten')
     return 0
 
 

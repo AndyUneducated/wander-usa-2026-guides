@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""反查 data.js 中每个 park/view 坐标，输出其实际落点，供人工核对。"""
+"""Reverse-geocode every park/view coordinate in data.js and print the actual location for review."""
 import json, re, ssl, time, urllib.parse, urllib.request, pathlib, functools
 
 print = functools.partial(print, flush=True)
@@ -29,7 +29,7 @@ def reverse(lat, lng):
 
 def summarize(d):
     if not d or "error" in d:
-        return "(无结果)"
+        return "(no result)"
     a = d.get("address", {})
     parts = [
         d.get("name") or "",
@@ -42,21 +42,21 @@ def summarize(d):
 
 
 def main():
-    # 坐标清单由 node 从 data.js 导出，确保不遗漏
+    # coordinate list is exported from data.js by node so nothing is missed
     coords = [
         (c["spot"], c["shot"], c["kind"], c["lat"], c["lng"])
         for c in json.loads(pathlib.Path("/tmp/coords.json").read_text())
     ]
 
-    print(f"待核对坐标 {len(coords)} 个\n")
+    print(f"{len(coords)} coordinate(s) to check\n")
     for i, (spot, shot, kind, lat, lng) in enumerate(coords, 1):
         try:
             got = summarize(reverse(lat, lng))
         except Exception as e:
-            got = f"(查询失败: {e})"
+            got = f"(lookup failed: {e})"
         print(f"[{i}/{len(coords)}] {spot}")
         print(f"    {kind:5s} {lat},{lng}  →  {got}")
-        time.sleep(1.1)  # Nominatim 限速 1 req/s
+        time.sleep(1.1)  # Nominatim rate limit 1 req/s
 
 
 if __name__ == "__main__":

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""把一条命令放到全新的会话里跑，使其不受启动它的 shell 生死影响。
+"""Run a command in a new session so it outlives the shell that started it.
 
-存在的原因：图片本地化要跑一两个小时，用 `nohup cmd &` 起在 agent 的
-shell 会话里，会话结束时进程会被一起回收；macOS 又没有 setsid 可用。
-这里用 fork + os.setsid 自己做一次脱离。
+Why this exists: image localization can take an hour or two. `nohup cmd &`
+started from an agent shell is reaped when that session ends, and macOS has no
+setsid. This script detaches with fork + os.setsid.
 
-用法：
+Usage:
   python3 tools/run_detached.py --log /tmp/x.log -- python3 tools/localize_images.py --region dc
 """
 from __future__ import annotations
@@ -19,27 +19,27 @@ import time
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--log', required=True, help='stdout/stderr 输出到该文件')
-    ap.add_argument('--pidfile', help='把子进程 pid 写到该文件')
+    ap.add_argument('--log', required=True, help='write stdout/stderr to this file')
+    ap.add_argument('--pidfile', help='write the child pid to this file')
     ap.add_argument('cmd', nargs=argparse.REMAINDER,
-                    help='-- 之后是要执行的命令')
+                    help='command to run after --')
     args = ap.parse_args()
 
     cmd = args.cmd[1:] if args.cmd and args.cmd[0] == '--' else args.cmd
     if not cmd:
-        sys.exit('没有给出要执行的命令；用 -- 分隔')
+        sys.exit('no command given; separate it with --')
 
-    # 第一次 fork：父进程立刻返回，让调用它的 shell 不必等待
+    # first fork: parent returns immediately so the calling shell does not wait
     if os.fork() > 0:
         time.sleep(1.0)
         if args.pidfile and os.path.exists(args.pidfile):
             with open(args.pidfile) as f:
-                print(f'已脱离启动，pid={f.read().strip()}，日志 {args.log}')
+                print(f'detached, pid={f.read().strip()}, log {args.log}')
         else:
-            print(f'已脱离启动，日志 {args.log}')
+            print(f'detached, log {args.log}')
         os._exit(0)
 
-    # 子进程自立门户，脱离原来的会话与控制终端
+    # child starts a new session, dropping the old session and controlling tty
     os.setsid()
 
     with open(args.log, 'ab', buffering=0) as log:

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""生成三个地域页的 index.html 骨架。三页结构完全一致，只有文案与配色不同。
+"""Generate the index.html skeleton for three region pages. Same structure on all three; only copy and colors differ.
 
-所有地域页共用 ../assets/style.css 与 ../assets/app.js；
-每个地域自带 data.js、intro.js 与 img/ 目录，图片路径相对该地域目录（img/xxx.jpg）。
+All region pages share ../assets/style.css and ../assets/app.js;
+each region has its own data.js, intro.js, and img/ directory, with image paths relative to that region (img/xxx.jpg).
 """
 import pathlib
 
@@ -80,9 +80,10 @@ TEMPLATE = '''<!DOCTYPE html>
 </html>
 '''
 
-# 地域名要把实际覆盖范围说全：叫「Yellowstone」会让人以为不含 Grand Teton，
-# 叫「New York」会漏掉 Boston 与新英格兰那一半。同时四本统一成
-# 「A + B」的格式，不带「区域」二字，顶栏里才看得整齐。
+# Region names must spell out the actual coverage: "Yellowstone" alone would
+# imply Grand Teton is missing; "New York" would drop Boston and the New England
+# half. All four books use an "A + B" form without the word "region" so the
+# top bar stays aligned.
 PAGES = {
     'yellowstone': {
         'title': 'Yellowstone + Grand Teton 旅行手册 · Wander USA 2026',
@@ -110,7 +111,7 @@ def main():
         out = ROOT / slug / 'index.html'
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(TEMPLATE.format(**cfg), encoding='utf-8')
-        print('已写入 ' + str(out.relative_to(ROOT)))
+        print('wrote ' + str(out.relative_to(ROOT)))
 
 
 if __name__ == '__main__':

@@ -1,15 +1,16 @@
-/* ===== 纯函数单元测试 =====
+/* ===== Pure-function unit tests =====
 
-   assets/rating.js（星级 SVG、分档文字）与 assets/facts.js（硬信息抽取、
-   要点拆分）都不碰 DOM，所以可以直接在 node 里测，不需要开浏览器。
-   页面级的行为（点筛选、排序、地图）由 tools/test_pages.py 用真浏览器测。
+   assets/rating.js (star SVG, tier copy) and assets/facts.js (hard-fact
+   extraction, key-point splitting) never touch the DOM, so they can run
+   in node with no browser. Page-level behavior (filters, sort, maps)
+   is covered by tools/test_pages.py in a real browser.
 
-   用法：node tools/test_units.js    （退出码非 0 表示有失败）*/
+   Usage: node tools/test_units.js    (non-zero exit means failures) */
 
 const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 
-/* rating.js 是写给浏览器的，挂在 window 上，这里给个壳让它能加载 */
+/* rating.js is written for the browser and hangs off window; give it a shell so it can load */
 global.window = {};
 require(path.join(ROOT, 'assets', 'rating.js'));
 const R = global.window.WURating;
@@ -20,16 +21,16 @@ const fails = [];
 
 function ok(name, cond, got) {
   if (cond) { pass++; return; }
-  fails.push(name + (got === undefined ? '' : `  实际：${JSON.stringify(got)}`));
+  fails.push(name + (got === undefined ? '' : `  actual: ${JSON.stringify(got)}`));
 }
 
 function eq(name, actual, expected) {
   ok(name, actual === expected, actual);
 }
 
-/* ---------- 星级 SVG ---------- */
-console.log('=== 星级 SVG ===');
-console.log('   分值   裁切/总宽    空星 实星   分档');
+/* ---------- star SVG ---------- */
+console.log('=== Star SVG ===');
+console.log('   score  clip/total     empty filled  tier');
 
 function parse(svg) {
   const box = parseFloat(svg.match(/viewBox="0 0 ([\d.]+)/)[1]);
@@ -47,63 +48,64 @@ for (const v of [5, 4.5, 4, 3, 2.5, 1, 0]) {
   console.log(`   ${String(v).padStart(4)}   ${p.clip.toFixed(1).padStart(6)}/${p.box.toFixed(1)}` +
     `  = ${String(Math.round(p.ratio * 100)).padStart(3)}%   ${p.off}   ${p.on}` +
     `   ${R.tier(v)}`);
-  ok(`${v} 分：画满 5 颗空星与 5 颗实星`, p.off === 5 && p.on === 5, p);
-  ok(`${v} 分：裁切宽度不超出画布`, p.clip >= 0 && p.clip <= p.box, p);
+  ok(`${v}: draws 5 empty stars and 5 filled stars`, p.off === 5 && p.on === 5, p);
+  ok(`${v}: clip width stays within the canvas`, p.clip >= 0 && p.clip <= p.box, p);
 }
 
-/* 关键回归点：以前半星用 ⯨（U+2BE8）这个字符，Windows 常见字体没有它的
-   字形，整条评分会渲染成一排黄色小方块。现在必须完全没有星形字符。 */
-ok('星级里不含任何星形字符（这是黄横线 bug 的根因）',
+/* Critical regression: half-stars used to use ⯨ (U+2BE8). Common Windows
+   fonts have no glyph for it, so the whole rating rendered as a row of
+   yellow squares. There must be no star characters at all now. */
+ok('star markup contains no star characters (root cause of the yellow-bar bug)',
   !/[\u2605\u2606\u2BE8]/.test(R.stars(4.5) + R.block(4.5, 2.5)));
 
-eq('5 分整条填满', parse(R.stars(5)).ratio, 1);
-eq('0 分完全不填', parse(R.stars(0)).clip, 0);
-ok('2.5 分约填一半', Math.abs(parse(R.stars(2.5)).ratio - 0.5) < 0.04,
+eq('5 fills the whole row', parse(R.stars(5)).ratio, 1);
+eq('0 fills nothing', parse(R.stars(0)).clip, 0);
+ok('2.5 fills about half', Math.abs(parse(R.stars(2.5)).ratio - 0.5) < 0.04,
   parse(R.stars(2.5)).ratio);
-ok('4.5 分介于 4 分与 5 分之间',
+ok('4.5 sits between 4 and 5',
   parse(R.stars(4)).clip < parse(R.stars(4.5)).clip &&
   parse(R.stars(4.5)).clip < parse(R.stars(5)).clip);
-ok('超范围的分值被夹住，不会画出界',
+ok('out-of-range scores are clamped and do not draw past the canvas',
   parse(R.stars(9)).ratio === 1 && parse(R.stars(-2)).clip === 0);
 
-/* 同一页上有几百条星级，clipPath 的 id 必须各不相同，
-   否则后面的会串用前面的裁切宽度，分数全显示成同一个值。 */
+/* A page has hundreds of star rows; clipPath ids must be unique, or later
+   rows reuse an earlier clip width and every score looks the same. */
 const ids = new Set();
 for (let i = 0; i < 300; i++) ids.add(R.stars(3).match(/id="(st\d+)"/)[1]);
-eq('300 条星级的 clipPath id 互不重复', ids.size, 300);
+eq('clipPath ids across 300 star rows are unique', ids.size, 300);
 
-/* ---------- 分档文字 ---------- */
-console.log('\n=== 分档文字（悬停显示）===');
+/* ---------- tier copy ---------- */
+console.log('\n=== Tier copy (shown on hover) ===');
 const tiers = [[5, '值得专程前往'], [4.5, '强烈推荐'], [4, '强烈推荐'],
                [3.5, '顺路推荐'], [3, '顺路推荐'], [2, '有余力再去'], [1, '可以跳过']];
 for (const [v, want] of tiers) {
-  eq(`${v} 分 → ${want}`, R.tier(v), want);
+  eq(`${v} → ${want}`, R.tier(v), want);
   console.log(`   ${String(v).padStart(4)} → ${R.tier(v)}`);
 }
-eq('没有评分时不给分档', R.tier(null), '');
+eq('no score means no tier copy', R.tier(null), '');
 
-/* ---------- 双评分块 ---------- */
-console.log('\n=== 双评分并列 ===');
+/* ---------- dual-score block ---------- */
+console.log('\n=== Dual scores side by side ===');
 const both = R.block(5, 2.5);
-eq('两个分都有时渲染两行', (both.match(/rt-row/g) || []).length, 2);
-ok('游览在前、摄影在后', both.indexOf('rt-must') < both.indexOf('rt-photo'));
-ok('游览那行带分档文字', /rt-must[\s\S]*rt-tier/.test(both));
-ok('摄影那行不带分档文字（避免卡头两行都在说话）',
+eq('renders two rows when both scores are present', (both.match(/rt-row/g) || []).length, 2);
+ok('visit row comes before photo row', both.indexOf('rt-must') < both.indexOf('rt-photo'));
+ok('visit row includes tier copy', /rt-must[\s\S]*rt-tier/.test(both));
+ok('photo row has no tier copy (avoids two talking headers)',
   (both.match(/rt-tier/g) || []).length === 1);
-/* socal 那批条目只有摄影评分，绝不能把摄影分冒充成游览分显示 */
+/* socal entries often have only a photo score; never show that as the visit score */
 const photoOnly = R.block(null, 4);
-ok('只有摄影分时不渲染游览行', !/rt-must/.test(photoOnly));
-ok('只有摄影分时仍渲染摄影行', /rt-photo/.test(photoOnly));
-eq('两个分都没有时返回空串', R.block(null, null), '');
-console.log('   5 / 2.5 → 两行；仅摄影 4 → 一行；皆无 → 空');
+ok('photo-only: no visit row', !/rt-must/.test(photoOnly));
+ok('photo-only: still renders the photo row', /rt-photo/.test(photoOnly));
+eq('both missing returns an empty string', R.block(null, null), '');
+console.log('   5 / 2.5 → two rows; photo-only 4 → one row; neither → empty');
 
-/* ---------- 硬信息抽取 ---------- */
-console.log('\n=== 硬信息抽取 ===');
+/* ---------- hard-fact extraction ---------- */
+console.log('\n=== Hard-fact extraction ===');
 const cases = [
   ['visitMins', '<strong>2.5–4 小时</strong>；只看重点 75 分钟', 150],
   ['visitMins', '45 分钟', 45],
-  /* 写了具体区间就按区间算，「半天」只是个同义的前缀，
-     明确的 3 小时比笼统的「半天 = 4 小时」更该采信 */
+  /* If a concrete range is given, use the range. "半天" is only a synonym
+     prefix; an explicit 3 hours beats the vague "半天 = 4 hours" mapping. */
   ['visitMins', '半天（3–4 小时）', 180],
   ['visitMins', '半天', 240],
   ['visitMins', '说不清', null],
@@ -123,30 +125,30 @@ for (const [fn, input, want] of cases) {
   const got = F[fn](F.plainText(input));
   eq(`${fn}("${input.slice(0, 26)}") → ${want}`, got, want);
 }
-/* 顺序陷阱：「不需预约」里含「需…预约」，必须先判否定式 */
-eq('「不需预约」不会被误判成需预约', F.bookState('不需预约，直接刷卡进场'), 'no');
-console.log('   时长/门票/开放/预约 共 ' + cases.length + ' 个样例');
+/* Order trap: "不需预约" contains "需…预约"; the negative form must win */
+eq('"不需预约" is not misclassified as booking required', F.bookState('不需预约，直接刷卡进场'), 'no');
+console.log('   duration/tickets/hours/booking: ' + cases.length + ' samples');
 
-/* ---------- 要点拆分 ---------- */
-console.log('\n=== 要点拆分（摘要 + 详情）===');
+/* ---------- key-point splitting ---------- */
+console.log('\n=== Key-point split (lead + detail) ===');
 const lead1 = F.splitLead('<strong>地下展厅 2026 年夏重开。</strong>入口在主台阶两侧的侧门，留 20–30 分钟。');
-eq('加粗首句被取为摘要', lead1.lead, '地下展厅 2026 年夏重开。');
-ok('加粗段之后的内容进详情', lead1.rest.indexOf('入口在主台阶') === 0, lead1.rest);
-eq('标记为合规写法', lead1.bold, true);
+eq('bold first sentence is taken as the lead', lead1.lead, '地下展厅 2026 年夏重开。');
+ok('text after the bold span goes into the detail', lead1.rest.indexOf('入口在主台阶') === 0, lead1.rest);
+eq('marked as the compliant form', lead1.bold, true);
 
 const lead2 = F.splitLead('庭园免费且开放到日落。房子必须买票，$20 起。');
-eq('没有加粗时按首个句末标点切', lead2.lead, '庭园免费且开放到日落。');
-eq('并标记为不合规写法', lead2.bold, false);
+eq('with no bold, split at the first sentence-ending punctuation', lead2.lead, '庭园免费且开放到日落。');
+eq('and marked as the non-compliant form', lead2.bold, false);
 
 const lead3 = F.splitLead('<strong>只有一句加粗、后面没内容</strong>');
-eq('详情为空时不报错', lead3.rest.trim(), '');
-ok('这种条目会被页面平铺显示',
+eq('empty detail does not throw', lead3.rest.trim(), '');
+ok('this kind of entry is flattened on the page',
   F.plainText(lead3.rest).length < F.FLAT_UNDER);
 
 console.log('\n' + '='.repeat(58));
 if (fails.length) {
-  console.log(`\n❌ 失败 ${fails.length} 项（通过 ${pass} 项）：`);
+  console.log(`\n❌ ${fails.length} failure(s) (${pass} passed):`);
   fails.forEach((f) => console.log('  - ' + f));
   process.exit(1);
 }
-console.log(`\n✅ 全部通过（${pass} 项断言）`);
+console.log(`\n✅ All passed (${pass} assertions)`);

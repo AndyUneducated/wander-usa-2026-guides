@@ -1,22 +1,22 @@
 #!/usr/bin/env python3
-"""抽出数据里「会过期、可被外部核对」的事实性声明，生成复核清单。
+"""Extract factual claims from the data that can go stale and can be checked externally, as a review checklist.
 
-check_all.py 查的是内部一致性（字段齐不齐、排序对不对），它无法判断
-「开放时间 10:00–17:00」是否真的正确。这个脚本把这类需要对外核对的声明
-集中导出，交给复核研究员逐条比对官网。
+check_all.py checks internal consistency (fields present, sort order). It cannot tell
+whether "hours 10:00–17:00" is actually correct. This script gathers those
+externally verifiable claims so a review researcher can check them against official sites.
 
-优先级判定：
-  P0  声明景点不可抵达/已消失（gone），或写了「关闭」「已拆除」——
-      判错的代价最大：会让人白跑，或者错误地劝退一个还开着的地方
-  P1  含具体日期、价格、时刻的声明——最容易过期
-  P2  预约与门票要求
-  P3  其余
+Priority rules:
+  P0  Claims the spot is unreachable / gone, or wording like "closed" / "demolished" —
+      wrong calls cost the most: a wasted trip, or wrongly talking people out of a place that is still open
+  P1  Claims with specific dates, prices, or times — the ones that go stale fastest
+  P2  Reservation and ticket requirements
+  P3  Everything else
 
-用法：
-  python3 tools/extract_claims.py                    # 全部地域，按优先级汇总
-  python3 tools/extract_claims.py --region dc        # 单个地域
-  python3 tools/extract_claims.py --p0               # 只看最高风险的
-  python3 tools/extract_claims.py --out sheet.md     # 写成文件给研究员
+Usage:
+  python3 tools/extract_claims.py                    # all regions, summarized by priority
+  python3 tools/extract_claims.py --region dc        # one region
+  python3 tools/extract_claims.py --p0               # highest-risk only
+  python3 tools/extract_claims.py --out sheet.md     # write a file for the researcher
 """
 from __future__ import annotations
 
@@ -30,19 +30,19 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 REGIONS = ['socal', 'dc', 'nyc', 'yellowstone']
 
-# 触发升级到 P1 的模式：具体时刻、日期、金额
+# Patterns that bump a claim to P1: specific times, dates, amounts
 RE_TIME = re.compile(r'\d{1,2}:\d{2}')
 RE_DATE = re.compile(r'\d{1,2}\s*[/月]\s*\d{1,2}|\d{4}\s*年|周[一二三四五六日]')
 RE_MONEY = re.compile(r'\$\s?\d|\d+\s*美元|免费')
-# 只有「长期/无限期」性质的关闭才算 P0。
-# 「周一闭馆」这类常规休息日是正常信息，不该混进最高优先级。
+# Only long-term / indefinite closures count as P0.
+# Routine days off like "closed Mondays" are normal info and should not land in the highest priority.
 RE_INDEFINITE = re.compile(
     r'已拆|拆除|永久关闭|长期封闭|无限期|另行通知|无解封|无时间表|不可进入|'
     r'已移除|已停运|不再开放|停止开放|已焚毁|烧毁')
 
 
 def load(region: str):
-    """用 node 把 data.js 转成 JSON 读进来，避免自己写 JS 解析器。"""
+    """Parse data.js to JSON via node so we don't have to write a JS parser."""
     data = ROOT / region / 'data.js'
     if not data.exists():
         return []
@@ -50,22 +50,22 @@ def load(region: str):
         ['node', '-e',
          'const fs=require("fs");'
          'const src=fs.readFileSync(process.argv[1],"utf8");'
-         # 包一层函数，避免脚本里的 const 与 data.js 的 var REGIONS 撞名
+         # Wrap in a function so const in this script does not clash with var REGIONS in data.js
          'const out=new Function(src+"; return REGIONS;")();'
          'process.stdout.write(JSON.stringify(out));',
          str(data)],
         capture_output=True, text=True)
     if res.returncode != 0:
-        print(f'⚠️ {region}/data.js 读取失败：{res.stderr[:200]}', file=sys.stderr)
+        print(f'⚠️ failed to read {region}/data.js: {res.stderr[:200]}', file=sys.stderr)
         return []
     return json.loads(res.stdout)
 
 
 def priority(spot: dict, field: str, value: str) -> str:
-    """gone 景点本身的判定单独在 collect() 里定为 P0，这里只管 access 各字段。
+    """gone spots are marked P0 in collect(); this only ranks access fields.
 
-    一个 gone 景点的门票、停车信息判错的代价很小（反正去不了），
-    所以不跟着升级，否则 P0 会被灌满而失去筛选意义。
+    A wrong ticket or parking claim on a gone spot costs little (you cannot go anyway),
+    so those are not escalated — otherwise P0 would fill up and lose its filtering value.
     """
     v = value or ''
     if not spot.get('gone') and RE_INDEFINITE.search(v):
@@ -79,8 +79,8 @@ def priority(spot: dict, field: str, value: str) -> str:
     return 'P3'
 
 
-LABEL = {'book': '预约', 'ticket': '门票', 'hours': '开放时间',
-         'parking': '停车', 'walk': '步行'}
+LABEL = {'book': 'reservation', 'ticket': 'tickets', 'hours': 'hours',
+         'parking': 'parking', 'walk': 'walking'}
 
 
 def collect(regions_filter=None):
@@ -101,8 +101,8 @@ def collect(regions_filter=None):
                 }
                 if sp.get('gone'):
                     rows.append({**base, 'field': 'gone',
-                                 'label': '★不可抵达判定（需二次确认真的去不了）',
-                                 'value': sp.get('goneWhy') or sp.get('tldr') or '（无说明）',
+                                 'label': '★ inaccessible verdict (confirm it really cannot be visited)',
+                                 'value': sp.get('goneWhy') or sp.get('tldr') or '(no explanation)',
                                  'p': 'P0'})
                 acc = sp.get('access') or {}
                 for field in ('hours', 'ticket', 'book', 'parking', 'walk'):
@@ -118,9 +118,9 @@ def collect(regions_filter=None):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--region', choices=REGIONS)
-    ap.add_argument('--p0', action='store_true', help='只输出 P0')
+    ap.add_argument('--p0', action='store_true', help='Output P0 only')
     ap.add_argument('--max-p', default='P3', choices=['P0', 'P1', 'P2', 'P3'])
-    ap.add_argument('--out', help='写入文件')
+    ap.add_argument('--out', help='Write to a file')
     args = ap.parse_args()
 
     rows = collect(args.region)
@@ -133,42 +133,42 @@ def main():
     for r in rows:
         counts[r['p']] += 1
 
-    lines.append('# 数据准确性复核清单\n')
-    lines.append('每条都需要对着官方来源核对。改动请回写到 '
-                 '`<region>/parts/*.js`（socal 直接改 `socal/data.js`），'
-                 '然后重新跑 `tools/assemble.py`。\n')
-    lines.append('| 优先级 | 条数 | 含义 |')
+    lines.append('# Data-accuracy review checklist\n')
+    lines.append('Check every item against an official source. Write changes back to '
+                 '`<region>/parts/*.js` (for socal, edit `socal/data.js` directly), '
+                 'then re-run `tools/assemble.py`.\n')
+    lines.append('| Priority | Count | Meaning |')
     lines.append('| --- | --- | --- |')
-    lines.append(f'| P0 | {counts["P0"]} | 声明不可抵达或已关闭，判错代价最大 |')
-    lines.append(f'| P1 | {counts["P1"]} | 含具体时刻/日期/价格，最易过期 |')
-    lines.append(f'| P2 | {counts["P2"]} | 预约与门票要求 |')
-    lines.append(f'| P3 | {counts["P3"]} | 停车与步行等 |')
+    lines.append(f'| P0 | {counts["P0"]} | Claims unreachable or closed; wrong calls cost the most |')
+    lines.append(f'| P1 | {counts["P1"]} | Specific times/dates/prices; go stale fastest |')
+    lines.append(f'| P2 | {counts["P2"]} | Reservation and ticket requirements |')
+    lines.append(f'| P3 | {counts["P3"]} | Parking, walking, and similar |')
     lines.append('')
 
     for p in keep:
         group = [r for r in rows if r['p'] == p]
         if not group:
             continue
-        lines.append(f'\n## {p}（{len(group)} 条）\n')
+        lines.append(f'\n## {p} ({len(group)} item(s))\n')
         cur = None
         for r in group:
             tag = f'{r["region"]} / {r["sub"]}'
             if tag != cur:
                 lines.append(f'\n### {tag}\n')
                 cur = tag
-            flag = ' **[标记为不可抵达]**' if r['gone'] and r['field'] != 'gone' else ''
+            flag = ' **[marked unreachable]**' if r['gone'] and r['field'] != 'gone' else ''
             lines.append(f'- `{r["id"]}` **{r["n"]}. {r["en"]}**{flag}  \n'
-                         f'  {r["label"]}：{r["value"]}')
+                         f'  {r["label"]}: {r["value"]}')
 
     text = '\n'.join(lines) + '\n'
     if args.out:
         Path(args.out).write_text(text)
-        print(f'已写入 {args.out}（{len(rows)} 条）')
+        print(f'Wrote {args.out} ({len(rows)} item(s))')
     else:
         print(text)
     for p in ('P0', 'P1', 'P2', 'P3'):
         if counts[p]:
-            print(f'  {p}: {counts[p]} 条', file=sys.stderr)
+            print(f'  {p}: {counts[p]} item(s)', file=sys.stderr)
     return 0
 
 

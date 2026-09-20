@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""按关键词在 Wikimedia Commons 搜图，输出高分辨率候选（含授权与尺寸）。"""
+"""Search Wikimedia Commons by keyword and print high-resolution candidates (license and size)."""
 import json, ssl, sys, urllib.parse, urllib.request, functools
 
 print = functools.partial(print, flush=True)
@@ -48,7 +48,7 @@ def search(term, limit=12):
 
 if __name__ == "__main__":
     for term in sys.argv[1:]:
-        print(f"\n{'='*70}\n搜索: {term}\n{'='*70}")
+        print(f"\n{'='*70}\nsearch: {term}\n{'='*70}")
         try:
             for r in search(term):
                 if (r["w"] or 0) < 1200:
@@ -56,4 +56,4 @@ if __name__ == "__main__":
                 print(f"  {r['w']}x{r['h']:<6} {r['lic']:<18} {r['title'][:60]}")
                 print(f"      {r['url']}")
         except Exception as e:
-            print(f"  查询失败: {e}")
+            print(f"  lookup failed: {e}")

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""按 NOAA 太阳位置算法计算日出/日落时刻与方位角。
+"""Compute sunrise/sunset times and azimuths with the NOAA solar-position algorithm.
 
-用来生成各地域附录里的日出日落总表。只依赖标准库。
-用法：python3 tools/sun.py --tz -4 2026-09-25 2026-10-22 -- "Washington DC" 38.8895 -77.0353
+Used to generate the sunrise/sunset tables in each region's appendix. Stdlib only.
+Usage: python3 tools/sun.py --tz -4 2026-09-25 2026-10-22 -- "Washington DC" 38.8895 -77.0353
 """
 from __future__ import annotations
 
@@ -25,7 +25,7 @@ def _julian_day(d: date) -> float:
 
 
 def _solar_geom(jc: float):
-    """返回 (太阳赤纬 deg, 时差 minutes)。jc 为儒略世纪数。"""
+    """Return (solar declination deg, equation of time minutes). jc is Julian centuries."""
     gmls = (280.46646 + jc * (36000.76983 + jc * 0.0003032)) % 360.0
     gmas = 357.52911 + jc * (35999.05029 - 0.0001537 * jc)
     eeo = 0.016708634 - jc * (0.000042037 + 0.0000001267 * jc)
@@ -53,7 +53,7 @@ def _solar_geom(jc: float):
 
 
 def _hour_angle(lat: float, decl: float, zenith: float = 90.833):
-    """日出时的时角（度）。返回 None 表示极昼/极夜。"""
+    """Hour angle at sunrise (degrees). None means polar day/night."""
     cos_h = (math.cos(zenith * RAD) / (math.cos(lat * RAD) * math.cos(decl * RAD))
              - math.tan(lat * RAD) * math.tan(decl * RAD))
     if cos_h > 1 or cos_h < -1:
@@ -62,7 +62,7 @@ def _hour_angle(lat: float, decl: float, zenith: float = 90.833):
 
 
 def _azimuth(lat: float, decl: float, hour_angle_deg: float) -> float:
-    """给定时角的太阳方位角（度，自北顺时针）。"""
+    """Solar azimuth for a given hour angle (degrees, clockwise from north)."""
     ha = hour_angle_deg * RAD
     lat_r, decl_r = lat * RAD, decl * RAD
     zenith = math.acos(math.sin(lat_r) * math.sin(decl_r)
@@ -73,17 +73,17 @@ def _azimuth(lat: float, decl: float, hour_angle_deg: float) -> float:
     val = (math.sin(lat_r) * math.cos(zenith) - math.sin(decl_r)) / denom
     val = max(-1.0, min(1.0, val))
     az = math.acos(val) / RAD
-    # 时角为负是上午（东侧），为正是下午（西侧）
+    # negative hour angle is morning (east); positive is afternoon (west)
     return (180.0 - az) % 360.0 if hour_angle_deg < 0 else (180.0 + az) % 360.0
 
 
 def sun_times(d: date, lat: float, lon: float, tz: float):
-    """返回 dict：日出/日落的本地时刻与方位角，以及正午与日长。"""
+    """Return a dict: local sunrise/sunset time and azimuth, plus solar noon and day length."""
     jd = _julian_day(d)
     jc = (jd - 2451545.0) / 36525.0
     decl, eq_time = _solar_geom(jc)
 
-    # 太阳正午（本地分钟）
+    # solar noon (local minutes)
     noon_min = 720 - 4 * lon - eq_time + tz * 60
     ha = _hour_angle(lat, decl, 90.833)
     if ha is None:
@@ -110,7 +110,7 @@ def sun_times(d: date, lat: float, lon: float, tz: float):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--tz', type=float, required=True, help='UTC 偏移小时，如 EDT 为 -4')
+    ap.add_argument('--tz', type=float, required=True, help='UTC offset in hours, e.g. -4 for EDT')
     ap.add_argument('dates', nargs='+', help='YYYY-MM-DD')
     ap.add_argument('--place', action='append', nargs=3,
                     metavar=('NAME', 'LAT', 'LON'), required=True)
@@ -123,11 +123,11 @@ def main():
         for d in days:
             r = sun_times(d, lat, lon, args.tz)
             if not r:
-                print(f'  {d}  极昼或极夜')
+                print(f'  {d}  polar day or night')
                 continue
-            print(f'  {d}  日出 {r["sunrise"]} (方位 {r["rise_az"]}°)   '
-                  f'日落 {r["sunset"]} (方位 {r["set_az"]}°)   '
-                  f'正午 {r["noon"]}   日长 {r["daylen"]}')
+            print(f'  {d}  sunrise {r["sunrise"]} (az {r["rise_az"]}°)   '
+                  f'sunset {r["sunset"]} (az {r["set_az"]}°)   '
+                  f'noon {r["noon"]}   day length {r["daylen"]}')
 
 
 if __name__ == '__main__':

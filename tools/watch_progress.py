@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
-"""实时汇总各地域图片下载进度，并判断是否卡死。
+"""Live summary of image-download progress per region, plus stall detection.
 
-localize_images.py 每处理完一个链接就更新 <region>/img/.progress.json，
-并且有一个 5 秒心跳线程——即使某个下载卡在 socket 上，心跳也会继续走。
-于是可以用两个不同的信号区分三种状态：
+localize_images.py updates <region>/img/.progress.json after each URL, and a
+5-second heartbeat thread keeps ticking even if a download is stuck on a socket.
+Those two signals distinguish three states:
 
-  运行中      心跳新鲜（<30s），done 在涨
-  疑似卡住    心跳新鲜，但 done 长时间不动（限流冷却期会这样，属正常）
-  进程已死    心跳过期（>60s）且 finished=false —— 需要人工介入
+  running       heartbeat is fresh (<30s) and done is increasing
+  likely stalled  heartbeat is fresh but done has not moved for a long time
+                  (rate-limit cooldown looks like this; often normal)
+  process dead  heartbeat expired (>60s) and finished=false — needs a human
 
-用法：
-    python3 tools/watch_progress.py                 # 打印一次快照
-    python3 tools/watch_progress.py --watch         # 持续刷新直到全部结束
+Usage:
+    python3 tools/watch_progress.py                 # print one snapshot
+    python3 tools/watch_progress.py --watch         # refresh until everything finishes
     python3 tools/watch_progress.py --watch --interval 20 --max-min 90
 """
 
@@ -25,8 +26,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 REGIONS = ("yellowstone", "nyc", "dc")
 
-HEARTBEAT_DEAD_AFTER = 60.0   # 心跳超过这么久没更新，判定进程已死
-STALL_WARN_AFTER = 240.0      # done 超过这么久没涨，提示可能卡在限流冷却
+HEARTBEAT_DEAD_AFTER = 60.0   # treat the process as dead if the heartbeat is this stale
+STALL_WARN_AFTER = 240.0      # warn if done has not increased for this long (likely rate-limit cooldown)
 
 
 def pid_alive(pid: int) -> bool:
@@ -61,7 +62,7 @@ def read_all():
 
 
 def snapshot(prev_done: dict, prev_change_at: dict):
-    """打印一次快照，返回 (是否全部结束, 是否存在需要人工介入的问题)。"""
+    """Print one snapshot; return (all finished, any issue that needs a human)."""
     now = time.time()
     all_done = True
     trouble = []
@@ -71,11 +72,11 @@ def snapshot(prev_done: dict, prev_change_at: dict):
         slug = st["region"]
 
         if st.get("missing"):
-            print(f"  {slug:12s} 尚未开始")
+            print(f"  {slug:12s} not started yet")
             all_done = False
             continue
         if st.get("unreadable"):
-            print(f"  {slug:12s} 进度文件损坏")
+            print(f"  {slug:12s} progress file is corrupt")
             all_done = False
             continue
 
@@ -87,7 +88,7 @@ def snapshot(prev_done: dict, prev_change_at: dict):
         finished = st.get("finished", False)
         pid = st.get("pid")
 
-        # done 是否在推进
+        # whether done is advancing
         if prev_done.get(slug) != done:
             prev_done[slug] = done
             prev_change_at[slug] = now
@@ -101,27 +102,27 @@ def snapshot(prev_done: dict, prev_change_at: dict):
         if finished:
             status = "✅ " + st.get("phase", "done")
         elif age > HEARTBEAT_DEAD_AFTER or (pid and not pid_alive(pid)):
-            status = f"❌ 进程已死（心跳停 {fmt_dur(age)}）"
-            trouble.append(f"{slug}: 进程已死，需重启 —— 已完成 {done}/{total}")
+            status = f"❌ process dead (heartbeat stopped {fmt_dur(age)} ago)"
+            trouble.append(f"{slug}: process dead, needs restart — {done}/{total} done")
             all_done = False
         elif stalled_for > STALL_WARN_AFTER:
-            status = f"⚠️  {fmt_dur(stalled_for)} 无进展（可能在限流冷却）"
+            status = f"⚠️  no progress for {fmt_dur(stalled_for)} (likely rate-limit cooldown)"
             all_done = False
         else:
             status = "⏳ " + st.get("phase", "running")
             all_done = False
 
         print(f"  {slug:12s} {bar} {done:3d}/{total:<3d} {pct:5.1f}%  "
-              f"成功 {ok} 跳过 {sk} 失败 {fa}  用时 {fmt_dur(elapsed)}  {status}")
+              f"ok {ok} skipped {sk} failed {fa}  elapsed {fmt_dur(elapsed)}  {status}")
 
         cur = st.get("current")
         if cur and not finished:
-            print(f"  {'':12s} 当前：{cur}")
+            print(f"  {'':12s} current: {cur}")
         for f in st.get("recent_failures", [])[-3:]:
             print(f"  {'':12s} ✗ {f.get('why', '')[:70]}")
 
     if trouble:
-        print("\n需要人工介入：")
+        print("\nneeds human intervention:")
         for t in trouble:
             print("  " + t)
 
@@ -130,9 +131,9 @@ def snapshot(prev_done: dict, prev_change_at: dict):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--watch", action="store_true", help="持续刷新")
-    ap.add_argument("--interval", type=int, default=15, help="刷新间隔秒")
-    ap.add_argument("--max-min", type=int, default=120, help="最长监控分钟数")
+    ap.add_argument("--watch", action="store_true", help="keep refreshing")
+    ap.add_argument("--interval", type=int, default=15, help="refresh interval in seconds")
+    ap.add_argument("--max-min", type=int, default=120, help="maximum minutes to watch")
     args = ap.parse_args()
 
     prev_done, prev_change_at = {}, {}
@@ -143,13 +144,13 @@ def main():
         if not args.watch:
             return 0
         if all_done:
-            print("\n全部地域已完成。")
+            print("\nall regions finished.")
             return 0
         if trouble:
-            print("\n检测到已死进程，退出以便人工处理。")
+            print("\ndead process detected; exiting so a human can handle it.")
             return 3
         if time.time() > deadline:
-            print(f"\n达到 {args.max_min} 分钟监控上限，退出。")
+            print(f"\nhit the {args.max_min}-minute watch limit; exiting.")
             return 4
         print()
         time.sleep(args.interval)

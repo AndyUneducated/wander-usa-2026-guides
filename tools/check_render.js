@@ -1,20 +1,24 @@
-/* ===== 核对数据是否符合渲染的假设 =====
+/* ===== Check that data matches what the renderer assumes =====
 
-   改版后页面有两个地方依赖数据的书写形式，而不只是字段有没有填：
+   After the rewrite, two places on the page depend on how the data is written,
+   not just whether fields are filled:
 
-     1. 速览条与筛选器要从 access 的富文本里抽出「时长／门票／开放／预约」。
-        抽不出来的格子会退回截断原文，能看但不好看；抽取率太低就说明
-        数据里的写法不统一，该回去改数据而不是放宽正则。
+     1. The facts bar and filters pull duration / tickets / hours / reservation
+        out of access rich text. Cells that fail extraction fall back to a truncated
+        original, which is readable but ugly; a low extraction rate means the
+        wording in the data is inconsistent — go fix the data, do not loosen the regex.
 
-     2. 「看什么／怎么逛」每条只显示加粗首句做摘要（见 tools/SCHEMA.md）。
-        没有加粗开头的条目会退回按句号切，切出来的句子往往不成话；
-        首句过长的会在一行里放不下。
+     2. "What to see / how to visit" shows only the bold first sentence as a summary
+        (see tools/SCHEMA.md). Items without a bold lead fall back to splitting on
+        periods, and those splits often read poorly; a first sentence that is too
+        long will not fit on one line.
 
-   所以这个脚本按地域统计抽取率与首句合规率，并把最差的几条点出来，
-   方便直接去对应文件里改。
+   So this script reports extraction rate and lead-sentence compliance by region,
+   and lists the worst items so you can edit the matching files.
 
-   用法：node tools/check_render.js
-   抽取规则直接 require assets/facts.js，与页面同源，不会各写一份正则。 */
+   Usage: node tools/check_render.js
+   Extraction rules are require()'d from assets/facts.js, same as the page,
+   so we do not keep a second copy of the regex. */
 
 const fs = require('fs');
 const path = require('path');
@@ -22,10 +26,10 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const F = require(path.join(ROOT, 'assets', 'facts.js'));
 
-/* 首句长度的合理区间，和 SCHEMA.md 里写给研究员的 20–45 字对应。
-   留一点余量：45 字是写作目标，超过 90 字才真的需要回去改——
-   收起状态下 CSS 会把首句钉成两行，90 字以内两行装得下，
-   再长就会被截掉一截（点开能看全，但摘要清单的可扫性下降）。 */
+/* Reasonable lead length, matching the 20–45 character target in SCHEMA.md for researchers.
+   Leave some slack: 45 is the writing goal; only over 90 really needs a rewrite —
+   collapsed CSS pins the lead to two lines, and two lines fit about 90 characters;
+   longer leads get clipped (expanding shows the rest, but the summary list is harder to scan). */
 const LEAD_MIN = 12;
 const LEAD_MAX = 90;
 
@@ -39,7 +43,7 @@ function loadRegion(slug) {
     }
     return out;
   }
-  /* socal 没有拆 parts，直接从 data.js 里取（它是 `var REGIONS = [...]`） */
+  /* socal is not split into parts; take it from data.js (`var REGIONS = [...]`) */
   const src = fs.readFileSync(path.join(ROOT, slug, 'data.js'), 'utf8');
   const regions = eval(src + '; REGIONS');       // eslint-disable-line no-eval
   regions.forEach((r) => (r.spots || []).forEach((s) =>
@@ -55,8 +59,8 @@ const REGIONS = ['nyc', 'dc', 'yellowstone', 'socal'];
 const problems = [];
 let grand = { spots: 0, leads: 0, bold: 0, long: 0, short: 0, empty: 0 };
 
-console.log('=== 速览条字段抽取率 ===');
-console.log('  地域            时长    门票    开放    预约');
+console.log('=== Facts-bar field extraction rate ===');
+console.log('  region         dur   tickets   hours    book');
 for (const slug of REGIONS) {
   const rows = loadRegion(slug);
   const c = { dur: 0, price: 0, open: 0, book: 0 };
@@ -70,17 +74,17 @@ for (const slug of REGIONS) {
   const n = rows.length;
   console.log(`  ${slug.padEnd(14)}${pct(c.dur, n).padStart(5)}` +
     `${pct(c.price, n).padStart(8)}${pct(c.open, n).padStart(8)}${pct(c.book, n).padStart(8)}` +
-    `   (${n} 个景点)`);
+    `   (${n} spots)`);
 }
 
-console.log('\n=== 要点首句（摘要行）合规率 ===');
-console.log('  地域            条数   加粗开头   过长(>60字)   过短(<12字)   点开是空的');
+console.log('\n=== Lead-sentence (summary line) compliance ===');
+console.log('  region        count   bold lead   too long(>60)  too short(<12)  empty when expanded');
 for (const slug of REGIONS) {
   const rows = loadRegion(slug);
   let leads = 0, bold = 0, long = 0, short = 0, empty = 0;
   for (const { file, s } of rows) {
-    /* 只查这两节：页面只对它们做「加粗首句当摘要」的渲染。
-       notes 是短句清单，仍然平铺显示，不受首句规范约束。 */
+    /* Only these two sections: the page only uses "bold first sentence as summary" on them.
+       notes is a list of short lines, still shown flat, and is not bound by the lead rule. */
     for (const key of ['highlights', 'tour']) {
       const list = s[key];
       if (!Array.isArray(list)) continue;
@@ -90,14 +94,14 @@ for (const slug of REGIONS) {
         const rest = F.plainText(p.rest);
         leads++;
         if (p.bold) bold++; else problems.push(
-          { kind: '无加粗开头', file, id: s.id, key, text: lead.slice(0, 50) });
+          { kind: 'no bold lead', file, id: s.id, key, text: lead.slice(0, 50) });
         if (lead.length > LEAD_MAX) {
           long++;
-          problems.push({ kind: `首句 ${lead.length} 字偏长`, file, id: s.id, key,
+          problems.push({ kind: `lead ${lead.length} chars (too long)`, file, id: s.id, key,
             text: lead.slice(0, 50) });
         }
         if (lead.length < LEAD_MIN) short++;
-        /* 加粗开头但正文不足阈值：页面会自动平铺，不算错，只是提示 */
+        /* Bold lead but body under the threshold: the page flattens automatically; not an error, just a note */
         if (p.bold && rest.length < F.FLAT_UNDER) empty++;
       }
     }
@@ -110,18 +114,19 @@ for (const slug of REGIONS) {
     `${String(short).padStart(13)}${String(empty).padStart(13)}`);
 }
 
-console.log(`\n  合计 ${grand.leads} 条要点，加粗开头 ${pct(grand.bold, grand.leads)}，` +
-  `偏长 ${grand.long} 条，过短 ${grand.short} 条，会平铺显示 ${grand.empty} 条`);
+console.log(`\n  Total ${grand.leads} key points, bold lead ${pct(grand.bold, grand.leads)}, ` +
+  `${grand.long} too long, ${grand.short} too short, ${grand.empty} shown flat`);
 
-/* 只列改版范围内三个地域的问题。socal 那批是摄影优先时代写的，
-   本来就没按加粗开头的规范写，页面对它们退回按句号切，属已知情况。 */
+/* Only list problems in the three rewritten regions. The socal set was written in the
+   photography-first era and never followed the bold-lead rule; the page falls back to
+   splitting on periods, which is known. */
 const inScope = problems.filter((p) => !p.file.startsWith('socal/'));
 if (inScope.length) {
-  console.log(`\n=== 改版范围内待改的条目（${inScope.length} 条，列前 20）===`);
+  console.log(`\n=== Items to fix in the rewrite scope (${inScope.length} items, first 20) ===`);
   inScope.slice(0, 20).forEach((p) => {
     console.log(`  [${p.kind}] ${p.file}  ${p.id}.${p.key}`);
     console.log(`      ${p.text}…`);
   });
 } else {
-  console.log('\n✅ 改版范围内的要点全部符合「加粗首句」规范');
+  console.log('\n✅ All key points in the rewrite scope follow the bold-lead rule');
 }

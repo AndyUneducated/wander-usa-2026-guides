@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""给页面截图，用于人工核对视觉改动。
+"""Take page screenshots for visual review.
 
-  python tools/screenshots.py                # 默认几张关键视图
-  python tools/screenshots.py --full         # 整页长图
-  python tools/screenshots.py --mobile       # 窄视口
+  python tools/screenshots.py                # default key views
+  python tools/screenshots.py --full         # full-page long screenshot
+  python tools/screenshots.py --mobile       # narrow viewport
 
-截图写到 tools/.shots/，该目录不入库。
+Screenshots are written to tools/.shots/; that directory is not committed.
 """
 import argparse
 import functools
@@ -17,7 +17,7 @@ import threading
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 OUT = ROOT / 'tools' / '.shots'
 
-# (文件名, 页面路径, 进页后要先做的事)
+# (filename, page path, action to run after load)
 VIEWS = [
     ('landing', '', None),
     ('all-spots', 'all.html', None),
@@ -27,7 +27,7 @@ VIEWS = [
     ('nyc-copy', 'nyc/#manhattan-midtown', 'copy-title'),
     ('nyc-search', 'nyc/', 'search'),
     ('socal-cards', 'socal/#big-sur', None),
-    # 改版后新增的部件
+    # views added after the redesign
     ('nyc-rating', 'nyc/#manhattan-midtown', 'hover-rating'),
     ('nyc-points', 'nyc/#the-met', 'open-points'),
     ('nyc-filter', 'nyc/', 'filter'),
@@ -35,20 +35,22 @@ VIEWS = [
     ('nyc-route', 'nyc/', 'route'),
 ]
 
-# 「离我最近」与「顺路」要真的有个坐标才能跑。这里用时代广场的位置模拟，
-# 不然只能验证按钮存在，验不到距离算得对不对、面板长什么样。
+# "Nearest to me" and "Along the way" need a real coordinate to run. Times Square
+# is used as a stand-in so we can check distance math and panel layout, not just
+# that the buttons exist.
 FAKE_POS = {'latitude': 40.7580, 'longitude': -73.9855}
 
 
 def serve(directory: pathlib.Path):
     class Handler(http.server.SimpleHTTPRequestHandler):
-        def log_message(self, *a):  # 每张图上百个请求，日志会把结论冲掉
+        def log_message(self, *a):  # hundreds of requests per shot; logs would drown the results
             pass
 
     handler = functools.partial(Handler, directory=str(directory))
 
-    # 必须多线程：Service Worker 装载时会并发抓一批文件，单线程的
-    # TCPServer 会被排在后面的请求堵死，页面就一直等不到 DOMContentLoaded。
+    # Must be multithreaded: Service Worker install fetches many files concurrently;
+    # a single-threaded TCPServer would stall later requests and the page would
+    # never reach DOMContentLoaded.
     class Quiet(socketserver.ThreadingTCPServer):
         allow_reuse_address = True
         daemon_threads = True
@@ -63,9 +65,9 @@ def serve(directory: pathlib.Path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--full', action='store_true', help='整页长图')
-    ap.add_argument('--mobile', action='store_true', help='390x844 窄视口')
-    ap.add_argument('--only', default='', help='只拍名字含该子串的视图')
+    ap.add_argument('--full', action='store_true', help='full-page screenshot')
+    ap.add_argument('--mobile', action='store_true', help='390x844 narrow viewport')
+    ap.add_argument('--only', default='', help='only capture views whose names contain this substring')
     args = ap.parse_args()
     views = [v for v in VIEWS if args.only in v[0]]
 
@@ -94,7 +96,7 @@ def main():
                     if (c) { c.open = true; c.scrollIntoView({block: 'start'}); }
                 }""")
             elif action == 'copy-title':
-                # 点一下标题里的专名：要能复制、要弹提示、且不能把卡片撑开
+                # click a proper name in the title: must copy, show a toast, and not expand the card
                 ctx.grant_permissions(['clipboard-read', 'clipboard-write'])
                 page.click('details.card .card-title .cp')
                 page.wait_for_timeout(400)
@@ -103,13 +105,13 @@ def main():
                     const t = document.getElementById('toast');
                     return { opened: c.open, toast: t ? t.textContent : null };
                 }""")
-                print('    点标题后：卡片展开=' + str(state['opened']) +
-                      '  提示=' + str(state['toast']))
+                print('    after title click: card opened=' + str(state['opened']) +
+                      '  toast=' + str(state['toast']))
             elif action == 'search':
                 page.fill('#q', '博物馆')
                 page.wait_for_timeout(600)
             elif action == 'hover-rating':
-                # 悬停在游览价值那一行上，分档文字（「值得专程前往」）应该滑出来
+                # hover the visit-value row; the tier label ("worth a dedicated trip") should slide in
                 page.hover('details.card .rt-must')
                 page.wait_for_timeout(600)
                 tier = page.evaluate("""() => {
@@ -117,10 +119,10 @@ def main():
                     return t ? { text: t.textContent,
                                  shown: getComputedStyle(t).opacity !== '0' } : null;
                 }""")
-                print('    悬停评分行：分档「' + str(tier and tier['text']) +
-                      '」可见=' + str(tier and tier['shown']))
+                print('    hover rating row: tier "' + str(tier and tier['text']) +
+                      '" visible=' + str(tier and tier['shown']))
             elif action == 'open-points':
-                # 展开一张卡片，再点开其中第二条要点，看「摘要 + 详情」的层次
+                # expand a card, then open its second bullet to check summary + detail layering
                 page.evaluate("""() => {
                     const c = document.querySelector('details.card');
                     if (c) { c.open = true; c.scrollIntoView({block: 'start'}); }
@@ -131,18 +133,18 @@ def main():
                     pts[1].query_selector('summary').click()
                 page.wait_for_timeout(500)
             elif action == 'filter':
-                # 点亮两个筛选条件，看工具条的状态与结果条数
+                # enable two filters and check toolbar state plus result count
                 page.click('#xbar [data-f="must4"]')
                 page.wait_for_timeout(300)
                 page.click('#xbar [data-f="nobook"]')
                 page.wait_for_timeout(600)
                 n = page.evaluate(
                     "() => document.querySelectorAll('details.card:not([hidden])').length")
-                print(f'    筛选「游览 4 分以上 + 免预约」后剩 {n} 个景点')
+                print(f'    after filters "rating 4+ + no reservation": {n} spots left')
                 page.evaluate("() => window.scrollTo(0, 0)")
             elif action in ('nearby', 'route'):
                 page.click(f'#xbar [data-s="{"near" if action == "nearby" else "route"}"]')
-                # 定位是异步的，等面板真的出现再截图
+                # geolocation is async; wait for the panel before capturing
                 page.wait_for_selector('#xp-panel .near-li', timeout=15000)
                 page.wait_for_timeout(700)
                 info = page.evaluate("""() => {
@@ -157,18 +159,18 @@ def main():
                       }))
                     };
                 }""")
-                print(f'    模拟位置：时代广场  面板「{info["head"]}」共 {info["n"]} 条')
+                print(f'    fake position: Times Square  panel "{info["head"]}"  {info["n"]} rows')
                 for t in info['top']:
                     print(f'      {t["d"]:>10}  {t["name"]}')
-                # 导航链接必须带上该景点的坐标，否则点了等于没用
-                assert info['top'][0]['go'] and 'query=' in info['top'][0]['go'], '导航链接缺坐标'
-                # 面板插在总览之后，回到页顶就拍不到它了
+                # nav links must include the spot's coordinates or the click is useless
+                assert info['top'][0]['go'] and 'query=' in info['top'][0]['go'], 'nav link missing coordinates'
+                # the panel is inserted after overview; scrolling to top would miss it
                 page.evaluate(
                     "() => document.getElementById('xp-panel')"
                     ".scrollIntoView({block: 'start'})")
                 page.wait_for_timeout(500)
-            # 让 hash 定位与懒加载图片落位。复制提示只显示两秒，
-            # 这一档再等就只能拍到它消失之后的画面了。
+            # Let hash targeting and lazy-loaded images settle. The copy toast only
+            # lasts two seconds; waiting this extra beat would capture after it vanishes.
             if action not in ('copy-title', 'nearby', 'route'):
                 page.wait_for_timeout(1800)
 
