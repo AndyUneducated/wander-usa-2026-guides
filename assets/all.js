@@ -9,10 +9,10 @@
   var SOURCES = [
     { slug: 'nyc', label: 'New York + New England', color: '#4da3ff' },
     { slug: 'dc', label: 'Washington DC + Philadelphia', color: '#4bd18a' },
-    { slug: 'yellowstone', label: 'Yellowstone + Grand Teton', color: '#ffd24d' },
-    { slug: 'socal', label: 'Southern California', color: '#ff8a3d' }
+    { slug: 'yellowstone', label: 'Yellowstone + Grand Teton', color: '#a78bfa' },
+    { slug: 'socal', label: 'Southern California', color: '#f06292' }
   ];
-  var V = '?v=20260920a';
+  var V = '?v=20260920b';
 
   var esc = function (s) {
     return String(s == null ? '' : s)

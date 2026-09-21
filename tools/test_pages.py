@@ -184,18 +184,14 @@ PROBE = r"""
       (s.querySelector('.apx-scope') || {}).textContent || ''
     ]),
 
-    /* Cards must not stretch to the full container width: long single-column
-       prose at 1180px is unreadable, so they are capped at a reading measure. */
-    /* On a narrow phone the card rightly fills the column, so the cap is
-       "no wider than the reading measure", not "narrower than the container". */
-    cardTooWide: (() => {
-      const c = document.querySelector('.card');
-      const w = document.querySelector('#regions .wrap');
-      if (!c || !w) return null;
-      const measure = parseFloat(getComputedStyle(document.documentElement)
-                        .getPropertyValue('--measure')) || 940;
-      return c.getBoundingClientRect().width >
-             Math.min(measure, w.getBoundingClientRect().width) + 2;
+    /* A card must be exactly as wide as the map above it, so the stack reads as
+       one column instead of stepping in and out at the map boundary. */
+    cardVsMap: (() => {
+      const c = document.querySelector('#regions .card');
+      const m = document.querySelector('#regions .map');
+      if (!c || !m) return null;
+      return Math.round(c.getBoundingClientRect().width -
+                        m.getBoundingClientRect().width);
     })(),
     /* Narrower than the container, but still starting on the same left edge as
        the section heading and the map above it — capping the width must not
@@ -283,6 +279,13 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
             # Wait for map tiles
             page.wait_for_timeout(2000)
 
+            # Whether a section ships open or collapsed can only be read before
+            # the expansion below, which force-opens every <details> on the page.
+            shipped_folded = page.evaluate("""() => {
+              const d = document.querySelector('#overview details.sec-fold');
+              return d ? !d.open : null;
+            }""")
+
             # Almost all images sit inside collapsed <details>; if we do not open
             # them the browser never fetches, and "0 failed loads" is a false pass.
             # Expand everything, scroll to the bottom to trigger lazy load, then
@@ -354,6 +357,9 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
                            r['pinTexts'] == r['cardNums']))
                 ok.append((f'overview filled ({r["overviewFilled"]} chars)',
                            r['overviewFilled'] > 200))
+                # The overview is a pre-trip read; on the road it would only push
+                # the spots off the first screen, so the section ships collapsed.
+                ok.append(('overview ships collapsed', shipped_folded is True))
                 ok.append((f'appendix filled ({r["appendixFilled"]} chars)',
                            r['appendixFilled'] > 100))
                 # The hero bar now keeps only seasonal notes and the verified date:
@@ -451,8 +457,8 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
                 for t, s in r['apxTitles']:
                     notes.append(f'{label} {name} appendix section「{t}」→ {s}')
                 # Card width
-                ok.append(('cards are capped at a reading width, not the full container',
-                           r['cardTooWide'] is False))
+                ok.append((f'cards are exactly as wide as the map (delta {r["cardVsMap"]}px)',
+                           r['cardVsMap'] is not None and abs(r['cardVsMap']) <= 2))
                 ok.append((f'cards still start on the section left edge (offset {r["cardOffset"]}px)',
                            r['cardOffset'] is not None and abs(r['cardOffset']) <= 2))
 

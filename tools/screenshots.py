@@ -30,6 +30,7 @@ VIEWS = [
     # views added after the redesign
     ('nyc-rating', 'nyc/#manhattan-midtown', 'hover-rating'),
     ('nyc-points', 'nyc/#the-met', 'open-points'),
+    ('nyc-overview', 'nyc/', 'overview'),
     ('nyc-filter', 'nyc/', 'filter'),
     ('nyc-appendix', 'nyc/#appendix', 'appendix'),
     ('nyc-nearby', 'nyc/', 'nearby'),
@@ -147,6 +148,16 @@ def main():
                       s.querySelector('.apx-scope').textContent])""")
                 for t, sc in titles:
                     print(f'    appendix「{t}」→ {sc}')
+            elif action == 'overview':
+                # the overview ships collapsed; frame the hero and the closed
+                # title bar so the shot shows what the page opens on
+                page.evaluate("""() => {
+                    const s = document.getElementById('overview');
+                    if (s) s.scrollIntoView({ block: 'center' });
+                }""")
+                page.wait_for_timeout(400)
+                print('    overview collapsed on load: ' + str(page.evaluate(
+                    "() => !document.querySelector('#overview details.sec-fold').open")))
             elif action == 'filter':
                 # enable two filters and check toolbar state plus result count
                 page.click('#xbar [data-f="must4"]')

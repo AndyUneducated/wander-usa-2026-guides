@@ -24,7 +24,7 @@
 
    缓存名里带版本号，换版本时 activate 会把旧的整批删掉。 */
 
-const VERSION = 'wu-2026-09-20a';
+const VERSION = 'wu-2026-09-20b';
 const SHELL = 'shell-' + VERSION;
 const DOCS = 'docs-' + VERSION;
 const MEDIA = 'media-' + VERSION;      /* 图片，跨版本保留意义不大但也不必清 */

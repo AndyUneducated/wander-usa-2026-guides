@@ -251,8 +251,8 @@
   /* 子地区配色。多数地域的 data.js 给所有子地区写了同一个 color（那是整本
      手册的主色），直接拿来用的话总地图上七个子地区全是一个颜色、图例也就白搭了。
      所以只在各子地区颜色本来就互不相同时沿用数据里的值，否则按调色板分配。 */
-  var PALETTE = ['#ff8a3d', '#4dd0e1', '#f06292', '#9ccc65', '#ba68c8',
-                 '#ffd54f', '#4fc3f7', '#ff8a65', '#aed581', '#7986cb'];
+  var PALETTE = ['#4d9bff', '#3fcbdd', '#f06292', '#9ccc65', '#ba68c8',
+                 '#7986cb', '#4bd18a', '#a78bfa', '#5ac8fa', '#e57373'];
   var COLORS = [];
 
   function initColors(regions) {
@@ -549,6 +549,10 @@
         d.open = true;
         d = d.parentNode && d.parentNode.closest ? d.parentNode.closest('details') : null;
       }
+      /* 目录里的「总览」指向的是整节，而正文折在这一节里面，
+         只往上找祖先的话会滚到一个收着的标题栏上。 */
+      var inner = el.querySelector && el.querySelector('details.sec-fold');
+      if (inner) inner.open = true;
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
     window.addEventListener('hashchange', openFromHash);
@@ -558,7 +562,7 @@
     var printRestore = [];
     window.addEventListener('beforeprint', function () {
       printRestore = [];
-      document.querySelectorAll('details.card, details.callout, details.apx-fold').forEach(function (d) {
+      document.querySelectorAll('details.card, details.callout, details.apx-fold, details.sec-fold').forEach(function (d) {
         printRestore.push([d, d.open]);
         d.open = true;
       });

@@ -8,17 +8,26 @@
   --text: #e6e8ec;
   --text-dim: #a0a6b3;
   --text-faint: #6f7684;
-  --accent: #ff8a3d;
-  --accent-soft: rgba(255, 138, 61, 0.14);
-  --blue: #4da3ff;
+  /* 主色是蓝的。下面的 -rgb 是同一个颜色的分量，边框、底色那些半透明
+     的派生色一律写成 rgba(var(--x-rgb), a)，换色时只改这一处就够了。 */
+  --accent: #4d9bff;
+  --accent-rgb: 77, 155, 255;
+  --accent-soft: rgba(var(--accent-rgb), 0.14);
+  /* 次级色，用在信息类提示、导航按钮、距离这些「不是主操作」的地方。
+     和主色同为冷色但色相拉开，并排时一眼能分清。 */
+  --blue: #3fcbdd;
+  --blue-rgb: 63, 203, 221;
+  --violet: #a78bfa;
+  --violet-rgb: 167, 139, 250;
   --green: #4bd18a;
   --red: #ff6b6b;
-  --yellow: #ffd24d;
+  /* 星级。主星用主色，辅星在下面用灰蓝，靠明度差分主次 */
+  --star: #5aa9ff;
   --radius: 14px;
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
-  /* 正文的阅读宽度。地图、总览这些要撑满 .wrap 的 1180px，
-     但长文本一行超过这个宽度就开始难读，卡片与附录都收在这里面。 */
-  --measure: 940px;
+  /* 正文宽度跟着 .wrap 走：卡片和它上面的地图左右对齐，
+     视线从地图扫到卡片时不会在中途拐一下。 */
+  --measure: 100%;
 }
 
 * { box-sizing: border-box; }
@@ -155,11 +164,11 @@ a:hover { text-decoration: underline; }
 .near-go {
   flex: 0 0 auto; display: flex; align-items: center; padding: 0 15px;
   border-radius: 10px; font-size: 12.5px; font-weight: 600;
-  background: rgba(77, 163, 255, .1); color: var(--blue);
-  border: 1px solid rgba(77, 163, 255, .3);
+  background: rgba(var(--blue-rgb), .1); color: var(--blue);
+  border: 1px solid rgba(var(--blue-rgb), .3);
   transition: background .15s;
 }
-.near-go:hover { background: rgba(77, 163, 255, .2); text-decoration: none; }
+.near-go:hover { background: rgba(var(--blue-rgb), .2); text-decoration: none; }
 
 /* ---------- 顶栏搜索 ---------- */
 .searchbox { margin-left: auto; display: flex; align-items: center; gap: 9px; }
@@ -182,8 +191,8 @@ a:hover { text-decoration: underline; }
   padding: 64px 0 40px; border-bottom: 1px solid var(--line);
   position: relative; overflow: hidden;
   background:
-    radial-gradient(1100px 420px at 12% -18%, rgba(255, 138, 61, .16), transparent 70%),
-    radial-gradient(900px 380px at 92% 0%, rgba(77, 163, 255, .13), transparent 70%);
+    radial-gradient(1100px 420px at 12% -18%, rgba(var(--accent-rgb), .16), transparent 70%),
+    radial-gradient(900px 380px at 92% 0%, rgba(var(--blue-rgb), .13), transparent 70%);
 }
 .hero h1 {
   font-size: 40px; line-height: 1.25; margin: 0 0 14px; letter-spacing: -.015em;
@@ -203,17 +212,18 @@ a:hover { text-decoration: underline; }
   display: inline-flex; align-items: center; gap: 8px;
   padding: 9px 20px; border-radius: 999px; font-size: 14px; font-weight: 600;
   color: var(--accent); background: var(--accent-soft);
-  border: 1px solid rgba(255, 138, 61, .42);
+  border: 1px solid rgba(var(--accent-rgb), .42);
   transition: background .15s, box-shadow .2s, transform .15s;
 }
 .hero-cta a:hover {
-  text-decoration: none; background: rgba(255, 138, 61, .22);
-  box-shadow: 0 8px 22px rgba(255, 138, 61, .15); transform: translateY(-1px);
+  text-decoration: none; background: rgba(var(--accent-rgb), .22);
+  box-shadow: 0 8px 22px rgba(var(--accent-rgb), .15); transform: translateY(-1px);
 }
 
 /* ---------- 通用区块 ---------- */
 section { padding: 52px 0; border-bottom: 1px solid var(--line); }
-section > .wrap > h2 {
+section > .wrap > h2,
+section > .wrap > .sec-fold > .sec-sum > h2 {
   font-size: 27px; margin: 0 0 8px; letter-spacing: -.01em;
   display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
 }
@@ -223,6 +233,30 @@ section > .wrap > h2 .count {
   border-radius: 999px; padding: 2px 10px;
 }
 .section-lead { color: var(--text-dim); margin: 0 0 26px; max-width: 860px; }
+
+/* 整节折叠。执行总览是出发前读一次的长文，路上再打开这一页时它只会
+   把景点挤到第二屏，所以默认收起，标题行自己就是开关。 */
+.sec-sum {
+  list-style: none; cursor: pointer;
+  display: flex; align-items: baseline; gap: 14px;
+}
+.sec-sum::-webkit-details-marker { display: none; }
+.sec-sum::marker { content: ''; }
+.sec-sum > h2 { margin-bottom: 0; }
+.sec-hint {
+  font-size: 13px; color: var(--text-faint);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+/* 开关标在标题行右端，和提示框、附录用同一套「展开／收起」措辞 */
+.sec-sum::after {
+  content: '展开 ▾'; margin-left: auto; flex: 0 0 auto;
+  font-size: 11.5px; font-weight: 600; letter-spacing: .02em; color: var(--accent);
+  border: 1px solid var(--line); border-radius: 999px; padding: 3px 12px;
+  transition: border-color .15s, background .15s;
+}
+.sec-sum:hover::after { border-color: var(--accent); background: var(--accent-soft); }
+.sec-fold[open] > .sec-sum::after { content: '收起 ▴'; }
+.sec-fold[open] > .sec-sum { margin-bottom: 18px; }
 
 /* ---------- 提示框 ---------- */
 .callout {
@@ -252,7 +286,7 @@ details.callout > summary.title:hover::after { opacity: 1; }
 details.callout[open] > summary.title { margin-bottom: 8px; }
 .callout.warn { border-left-color: var(--red); background: rgba(255, 107, 107, .07); }
 .callout.warn .title { color: var(--red); }
-.callout.info { border-left-color: var(--blue); background: rgba(77, 163, 255, .07); }
+.callout.info { border-left-color: var(--blue); background: rgba(var(--blue-rgb), .07); }
 .callout.info .title { color: var(--blue); }
 .callout.good { border-left-color: var(--green); background: rgba(75, 209, 138, .07); }
 .callout.good .title { color: var(--green); }
@@ -301,9 +335,8 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .pin-gone { text-decoration: line-through; text-decoration-thickness: 2px; }
 
 /* ---------- 景点卡片 ----------
-   卡片不跟着 .wrap 撑到 1180px。展开后正文是单栏长文，一行 70 多个汉字
-   读到行尾就找不着下一行的行首了；地图要宽，文字不要。所以卡片与它的工具条
-   统一收在一个阅读宽度里，和 .section-lead 一样左对齐，保持一条竖直的读线。 */
+   卡片、工具条和它们上面的地图一样宽（--measure 跟着 .wrap 走），
+   四条边对齐成一列，视线从地图往下扫到卡片时不会在中途拐一下。 */
 .card, .card-toolbar, .map-hint { max-width: var(--measure); }
 .card {
   background: var(--bg-card); border: 1px solid var(--line);
@@ -336,11 +369,11 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   flex: 0 0 auto; margin-left: auto; pointer-events: none;
   display: inline-flex; align-items: center; gap: 6px;
   padding: 6px 12px 6px 13px; border-radius: 999px;
-  border: 1px solid rgba(255, 138, 61, .38); background: var(--accent-soft);
+  border: 1px solid rgba(var(--accent-rgb), .38); background: var(--accent-soft);
   color: var(--accent); font-size: 12.5px; font-weight: 600; white-space: nowrap;
   transition: background .15s, border-color .15s;
 }
-.card-head:hover .expand { background: rgba(255, 138, 61, .2); border-color: var(--accent); }
+.card-head:hover .expand { background: rgba(var(--accent-rgb), .2); border-color: var(--accent); }
 .card .expand .chev { font-size: 11px; transition: transform .2s; }
 .card[open] .expand .chev { transform: rotate(180deg); }
 .card .expand .lbl-open { display: none; }
@@ -408,7 +441,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   flex: 0 0 auto; width: 24px; height: 24px; border-radius: 7px;
   display: flex; align-items: center; justify-content: center;
   background: var(--accent-soft); color: var(--accent);
-  border: 1px solid rgba(255, 138, 61, .3);
+  border: 1px solid rgba(var(--accent-rgb), .3);
   font-size: 12.5px; font-weight: 700;
 }
 .apx-t { font-size: 15px; font-weight: 650; color: var(--text); }
@@ -441,7 +474,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 }
 .apx-back, .apx-link {
   font-size: 12.5px; font-weight: 500; color: var(--accent);
-  text-decoration: none; border-bottom: 1px dashed rgba(255, 138, 61, .45);
+  text-decoration: none; border-bottom: 1px dashed rgba(var(--accent-rgb), .45);
 }
 .apx-back { margin-left: auto; }
 .apx-back:hover, .apx-link:hover { border-bottom-style: solid; }
@@ -458,7 +491,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   flex: 0 0 auto; width: 34px; height: 34px; border-radius: 9px;
   background: var(--accent-soft); color: var(--accent);
   display: flex; align-items: center; justify-content: center;
-  font-weight: 700; font-size: 15px; border: 1px solid rgba(255,138,61,.3);
+  font-weight: 700; font-size: 15px; border: 1px solid rgba(var(--accent-rgb),.3);
 }
 /* 卡头缩略图。全站有近 600 张本地图片，改版前它们全被关在折叠区里，
    页面因此通篇是文字块；把第一张提到卡头是这次视觉改动里收益最大的一处。 */
@@ -481,7 +514,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .meta-chip {
   font-size: 11.5px; padding: 2px 9px; border-radius: 999px; font-weight: 600;
   color: var(--accent); background: var(--accent-soft);
-  border: 1px solid rgba(255, 138, 61, .32); white-space: nowrap;
+  border: 1px solid rgba(var(--accent-rgb), .32); white-space: nowrap;
 }
 
 .card-title { flex: 1 1 320px; min-width: 0; }
@@ -554,16 +587,16 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .rt-photo { opacity: .72; }
 .rt-photo .st { opacity: .9; }
 
-/* 星形填充。--yellow 是游览价值，摄影那行用中性的蓝灰，
-   两项并列时颜色本身就把「主/辅」说清楚了。 */
+/* 星形填充。游览价值用主色的亮蓝，摄影那行用暗一档的灰蓝，
+   两项并列时明度差本身就把「主/辅」说清楚了。 */
 .st { display: block; flex: 0 0 auto; }
 .st .st-off { fill: rgba(255, 255, 255, .13); }
-.st .st-on { fill: var(--yellow); }
-.rt-photo .st .st-on { fill: #8ab4d8; }
+.st .st-on { fill: var(--star); }
+.rt-photo .st .st-on { fill: #6c7f96; }
 
 /* 分档文字：悬停出现，触屏点一下出现（JS 加 .rt-show） */
 .rt-tier {
-  font-size: 11px; color: var(--yellow); white-space: nowrap;
+  font-size: 11px; color: var(--star); white-space: nowrap;
   max-width: 0; overflow: hidden; opacity: 0;
   transition: max-width .25s ease, opacity .2s ease;
 }
@@ -611,7 +644,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   background: rgba(255, 255, 255, .04); border-left-color: var(--accent);
 }
 .pt > details[open] > summary {
-  background: rgba(255, 138, 61, .06); border-left-color: var(--accent);
+  background: rgba(var(--accent-rgb), .06); border-left-color: var(--accent);
 }
 .pt-lead { flex: 1 1 auto; min-width: 0; color: var(--text); font-weight: 600; font-size: 14px; }
 .pt-lead strong { font-weight: 700; }
@@ -702,11 +735,11 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .geo {
   display: inline-flex; align-items: center; gap: 5px;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 12px; background: rgba(77,163,255,.1); color: var(--blue);
-  border: 1px solid rgba(77,163,255,.25); border-radius: 6px;
+  font-size: 12px; background: rgba(var(--blue-rgb),.1); color: var(--blue);
+  border: 1px solid rgba(var(--blue-rgb),.25); border-radius: 6px;
   padding: 2px 8px; margin-top: 7px; margin-right: 6px;
 }
-.geo:hover { background: rgba(77,163,255,.2); text-decoration: none; }
+.geo:hover { background: rgba(var(--blue-rgb),.2); text-decoration: none; }
 
 /* 可达性表 */
 .access { width: 100%; border-collapse: collapse; font-size: 13.5px; }
@@ -740,8 +773,8 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   border: 1px solid var(--line); color: var(--text-faint); background: var(--bg-soft);
 }
 .tag.free { color: var(--green); border-color: rgba(75,209,138,.3); background: rgba(75,209,138,.08); }
-.tag.paid { color: var(--yellow); border-color: rgba(255,210,77,.3); background: rgba(255,210,77,.08); }
-.tag.book { color: var(--blue); border-color: rgba(77,163,255,.3); background: rgba(77,163,255,.08); }
+.tag.paid { color: var(--violet); border-color: rgba(var(--violet-rgb),.3); background: rgba(var(--violet-rgb),.08); }
+.tag.book { color: var(--blue); border-color: rgba(var(--blue-rgb),.3); background: rgba(var(--blue-rgb),.08); }
 .tag.risk { color: var(--red); border-color: rgba(255,107,107,.3); background: rgba(255,107,107,.08); }
 
 /* ---------- 行程表 ---------- */
@@ -774,7 +807,7 @@ code {
 .xr-sort:hover { background: var(--bg-soft); color: var(--text); }
 .xr-sort.on {
   background: var(--accent-soft); color: var(--accent);
-  border-color: rgba(255, 138, 61, .45); font-weight: 600;
+  border-color: rgba(var(--accent-rgb), .45); font-weight: 600;
 }
 
 .xr-list { display: flex; flex-direction: column; gap: 8px; }
@@ -815,7 +848,7 @@ code {
   font-size: 12px; color: var(--text-faint); white-space: nowrap;
   display: flex; align-items: center; gap: 5px;
 }
-.xr-must b { color: var(--yellow); font-size: 16px; font-weight: 700; }
+.xr-must b { color: var(--star); font-size: 16px; font-weight: 700; }
 .xr-stars { display: flex; align-items: center; opacity: .9; }
 .xr-nomust { opacity: .6; }
 .xr-visit { font-size: 11.5px; color: var(--accent); white-space: nowrap; }

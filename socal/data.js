@@ -634,7 +634,7 @@ var REGIONS = [
     id: 'sb-malibu',
     name: '② Santa Barbara + Malibu 海岸段',
     navName: 'SB + Malibu',
-    color: '#f2b134',
+    color: '#f06292',
     lead: '原清单在这一区只有 4 个点，我补了 4 处高价值机位（Old Mission、Stearns Wharf + Butterfly Beach、Point Mugu Rock、El Matador），' +
       '都标注为「补充建议」。9 月在这段海岸被当地人称为 second summer，是全年最通透的月份之一，June Gloom 已基本退场。',
     callouts: [
@@ -1127,7 +1127,7 @@ var REGIONS = [
     id: 'la',
     name: '③ Los Angeles',
     navName: '洛杉矶',
-    color: '#ff8a3d',
+    color: '#3fcbdd',
     lead: '这条示例行程景点最密集的一区，建筑人文与海岸日落都集中在这里。难点全在交通、停车与闭馆日，而不是景点本身。',
     callouts: [
       {
@@ -2781,7 +2781,7 @@ var REGIONS = [
     id: 'desert',
     name: '⑥ Salton Sea / Salvation Mountain 沙漠支线',
     navName: '沙漠支线',
-    color: '#e0743c',
+    color: '#7986cb',
     lead: '这两个点在地理上既不属于 LA 也不属于 San Diego，位于 San Diego 东北方内陆。' +
       '题材独特性很高，但与「经 I-5 北返」的路线完全反向，且 9 月的气候会把可拍窗口压缩到很窄。',
     callouts: [
