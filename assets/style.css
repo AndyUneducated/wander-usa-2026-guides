@@ -1,4 +1,4 @@
-/* ===== Wander USA 2026 · 旅行执行手册 · 样式 ===== */
+/* ===== Wander USA 2026 · travel field handbook · styles ===== */
 
 :root {
   --bg: #0f1115;
@@ -8,33 +8,37 @@
   --text: #e6e8ec;
   --text-dim: #a0a6b3;
   --text-faint: #6f7684;
-  /* 主色是蓝的。下面的 -rgb 是同一个颜色的分量，边框、底色那些半透明
-     的派生色一律写成 rgba(var(--x-rgb), a)，换色时只改这一处就够了。 */
+  /* The accent is blue. The -rgb vars below are the same color's components:
+     every translucent derivative (borders, backgrounds) is written as
+     rgba(var(--x-rgb), a), so recoloring means editing just this one place. */
   --accent: #4d9bff;
   --accent-rgb: 77, 155, 255;
   --accent-soft: rgba(var(--accent-rgb), 0.14);
-  /* 次级色，用在信息类提示、导航按钮、距离这些「不是主操作」的地方。
-     和主色同为冷色但色相拉开，并排时一眼能分清。 */
+  /* Secondary colors, for informational callouts, nav buttons, distances —
+     the things that are not the primary action. Cool like the accent but far
+     enough away in hue to tell apart at a glance when side by side. */
   --blue: #3fcbdd;
   --blue-rgb: 63, 203, 221;
   --violet: #a78bfa;
   --violet-rgb: 167, 139, 250;
   --green: #4bd18a;
   --red: #ff6b6b;
-  /* 星级。主星用主色，辅星在下面用灰蓝，靠明度差分主次 */
+  /* Star ratings. The primary row uses the accent, the secondary row below
+     uses a gray-blue; the brightness gap is what ranks them */
   --star: #5aa9ff;
   --radius: 14px;
   --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
-  /* 正文宽度跟着 .wrap 走：卡片和它上面的地图左右对齐，
-     视线从地图扫到卡片时不会在中途拐一下。 */
+  /* Body width follows .wrap: cards line up left and right with the map above
+     them, so the eye does not jog sideways moving from map to cards. */
   --measure: 100%;
 }
 
 * { box-sizing: border-box; }
 
-/* 顶栏加了搜索框后在常见视口下会换到第二行，下面又粘了一条探索工具条，
-   锚点跳转的留白要盖住这两层，否则卡头会被压在它们底下。
-   --stick-h 由 explore.js 实测两条的总高后写入。 */
+/* With the search box added, the topbar wraps to a second line at common
+   viewport widths, and an explore toolbar sticks below it. The anchor-jump
+   offset has to clear both layers or card headers land underneath them.
+   explore.js measures the two bars and writes the total into --stick-h. */
 html { scroll-behavior: smooth; scroll-padding-top: var(--stick-h, 104px); }
 
 body {
@@ -53,7 +57,7 @@ a:hover { text-decoration: underline; }
 
 .wrap { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
 
-/* ---------- 顶部导航 ---------- */
+/* ---------- Top navigation ---------- */
 .topbar {
   position: sticky; top: 0; z-index: 900;
   background: rgba(15, 17, 21, 0.88);
@@ -75,12 +79,14 @@ a:hover { text-decoration: underline; }
   border-color: var(--line); text-decoration: none;
 }
 
-/* ===== 探索工具条：筛选 / 排序 / 附近 / 顺路 =====
-   粘在顶栏下面，横贯全页——筛选与排序是对整本手册生效的，
-   不该藏在某个分区里。所有状态都写在药丸的亮/暗上，没有下拉也没有弹窗：
-   看一眼就知道现在筛掉了什么、按什么排的，点一下就还原。 */
-/* 顶栏高度随地域名长短与视口宽度变化（窄屏会折成两行），所以由
-   explore.js 实测后写进 --topbar-h，这里不写死像素。 */
+/* ===== Explore toolbar: filter / sort / nearby / on-my-way =====
+   Sticks under the topbar and spans the page — filtering and sorting apply to
+   the whole handbook, so they do not belong tucked inside one section. All
+   state shows as a lit or dim pill, no dropdowns and no modals: one look tells
+   you what is filtered out and what it is sorted by, one tap undoes it. */
+/* Topbar height varies with region-name length and viewport width (narrow
+   screens fold it onto two lines), so explore.js measures it and writes
+   --topbar-h; no hardcoded pixels here. */
 .xbar {
   position: sticky; top: var(--topbar-h, 53px); z-index: 880;
   background: rgba(15, 17, 21, .92);
@@ -109,15 +115,17 @@ a:hover { text-decoration: underline; }
   background: var(--accent-soft); border-color: var(--accent); color: var(--accent);
   font-weight: 600;
 }
-/* 分段控件：正反两面的筛选（免费/收费、免预约/需预约）拼成一颗连体药丸。
-   中间那道缝只留一条描边，两头才是圆角——形状本身就说明「这两个二选一」。 */
+/* Segmented control: opposite filters (free/paid, no-booking/booking-required)
+   are welded into one conjoined pill. The seam between them is a single
+   border and only the outer ends are rounded — the shape itself says "pick
+   one of these two". */
 .xseg { display: flex; flex: 0 0 auto; }
 .xseg .xp { border-radius: 0; margin-left: -1px; }
 .xseg .xp:first-child { border-radius: 999px 0 0 999px; margin-left: 0; }
 .xseg .xp:last-child { border-radius: 0 999px 999px 0; }
 .xseg .xp.on { position: relative; z-index: 1; }
 
-/* 定位是异步的，按下去要立刻有反应，否则会以为没点上 */
+/* Geolocation is async; the press needs instant feedback or people assume the tap missed */
 .xp.wait { opacity: .6; cursor: progress; }
 .xp.wait::after { content: ' …'; }
 .xbar-count {
@@ -128,9 +136,10 @@ a:hover { text-decoration: underline; }
 .xbar-count.zero { color: var(--red); }
 .xp-reset { flex: 0 0 auto; }
 
-/* ===== 附近 / 顺路面板 =====
-   排序只是把卡片重排，但「最近的十个分别多远」要跨分区才看得出来，
-   所以另开一块放在正文最前面直接给结论。 */
+/* ===== Nearby / on-my-way panel =====
+   Sorting only reorders the cards, but "how far away are the ten nearest"
+   only becomes visible across sections, so this is its own block at the top
+   of the page that states the answer directly. */
 .xp-panel { padding: 26px 0 4px; }
 .near-list { list-style: none; margin: 14px 0 0; padding: 0; }
 .near-li {
@@ -170,7 +179,7 @@ a:hover { text-decoration: underline; }
 }
 .near-go:hover { background: rgba(var(--blue-rgb), .2); text-decoration: none; }
 
-/* ---------- 顶栏搜索 ---------- */
+/* ---------- Topbar search ---------- */
 .searchbox { margin-left: auto; display: flex; align-items: center; gap: 9px; }
 .searchbox input {
   width: 236px; max-width: 46vw;
@@ -186,7 +195,7 @@ a:hover { text-decoration: underline; }
 .search-count { font-size: 12px; color: var(--text-faint); white-space: nowrap; }
 .search-count.zero { color: var(--red); }
 
-/* ---------- 头图 ---------- */
+/* ---------- Hero ---------- */
 .hero {
   padding: 64px 0 40px; border-bottom: 1px solid var(--line);
   position: relative; overflow: hidden;
@@ -220,7 +229,7 @@ a:hover { text-decoration: underline; }
   box-shadow: 0 8px 22px rgba(var(--accent-rgb), .15); transform: translateY(-1px);
 }
 
-/* ---------- 通用区块 ---------- */
+/* ---------- Generic sections ---------- */
 section { padding: 52px 0; border-bottom: 1px solid var(--line); }
 section > .wrap > h2,
 section > .wrap > .sec-fold > .sec-sum > h2 {
@@ -234,8 +243,10 @@ section > .wrap > h2 .count {
 }
 .section-lead { color: var(--text-dim); margin: 0 0 26px; max-width: 860px; }
 
-/* 整节折叠。执行总览是出发前读一次的长文，路上再打开这一页时它只会
-   把景点挤到第二屏，所以默认收起，标题行自己就是开关。 */
+/* Whole-section collapse. The overview is a long read you do once before
+   leaving; opening this page on the road it would only push the spots onto
+   the second screen, so it ships collapsed and the heading row is the
+   toggle. */
 .sec-sum {
   list-style: none; cursor: pointer;
   display: flex; align-items: baseline; gap: 14px;
@@ -247,7 +258,8 @@ section > .wrap > h2 .count {
   font-size: 13px; color: var(--text-faint);
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
-/* 开关标在标题行右端，和提示框、附录用同一套「展开／收起」措辞 */
+/* The toggle sits at the right end of the heading row and uses the same
+   expand/collapse wording as the callouts and the appendix */
 .sec-sum::after {
   content: '展开 ▾'; margin-left: auto; flex: 0 0 auto;
   font-size: 11.5px; font-weight: 600; letter-spacing: .02em; color: var(--accent);
@@ -258,7 +270,7 @@ section > .wrap > h2 .count {
 .sec-fold[open] > .sec-sum::after { content: '收起 ▴'; }
 .sec-fold[open] > .sec-sum { margin-bottom: 18px; }
 
-/* ---------- 提示框 ---------- */
+/* ---------- Callouts ---------- */
 .callout {
   border-radius: var(--radius); padding: 16px 20px; margin: 18px 0;
   border: 1px solid var(--line); background: var(--bg-soft);
@@ -268,7 +280,7 @@ section > .wrap > h2 .count {
 .callout p:last-child { margin-bottom: 0; }
 .callout .title { font-weight: 700; margin-bottom: 4px; display: block; }
 
-/* 可折叠 callout：<details class="callout warn"><summary class="title">…</summary> */
+/* Collapsible callout: <details class="callout warn"><summary class="title">…</summary> */
 details.callout > summary.title {
   cursor: pointer; list-style: none; margin-bottom: 0;
   display: flex; align-items: center; gap: 8px;
@@ -293,7 +305,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .callout.tip { border-left-color: var(--accent); background: var(--accent-soft); }
 .callout.tip .title { color: var(--accent); }
 
-/* ---------- 地图 ---------- */
+/* ---------- Maps ---------- */
 .map {
   height: 460px; width: 100%; border-radius: var(--radius);
   border: 1px solid var(--line); margin-bottom: 8px;
@@ -301,7 +313,8 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 }
 .map-hint { font-size: 12.5px; color: var(--text-faint); margin: 0 0 28px; }
 
-/* 全区总地图：比分区地图高一截，它要一次容下整个地域的跨度 */
+/* All-region overview map: taller than the sub-region maps because it has to
+   fit the whole region's span at once */
 .map-all { height: 560px; }
 .map-legend {
   display: flex; flex-wrap: wrap; gap: 7px; margin: 0 0 30px;
@@ -331,12 +344,13 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   border: 2px solid #fff; box-shadow: 0 2px 8px rgba(0,0,0,.5);
   font-size: 12px; font-weight: 700; color: #fff;
 }
-/* 不可抵达的点位仍显示编号（红底），加删除线区分 */
+/* Unreachable spots keep their number (on red) with a strikethrough to set them apart */
 .pin-gone { text-decoration: line-through; text-decoration-thickness: 2px; }
 
-/* ---------- 景点卡片 ----------
-   卡片、工具条和它们上面的地图一样宽（--measure 跟着 .wrap 走），
-   四条边对齐成一列，视线从地图往下扫到卡片时不会在中途拐一下。 */
+/* ---------- Spot cards ----------
+   Cards and the toolbar are exactly as wide as the map above them (--measure
+   follows .wrap), so all four edges line up into one column and the eye does
+   not jog sideways scanning down from the map into the cards. */
 .card, .card-toolbar, .map-hint { max-width: var(--measure); }
 .card {
   background: var(--bg-card); border: 1px solid var(--line);
@@ -364,7 +378,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .card-head:hover { background: rgba(255, 255, 255, .04); }
 .card[open] .card-head { border-bottom: 1px solid var(--line); align-items: flex-start; }
 
-/* 展开提示按钮：明确告诉读者卡片可以点开 */
+/* Expand affordance: spell out that the card can be opened */
 .card .expand {
   flex: 0 0 auto; margin-left: auto; pointer-events: none;
   display: inline-flex; align-items: center; gap: 6px;
@@ -383,7 +397,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .tldr { color: var(--text-dim); font-size: 13.5px; margin-top: 5px; }
 .card[open] .tldr { display: none; }
 
-/* 无法抵达 / 已不存在的景点 */
+/* Spots that cannot be reached or no longer exist */
 .card.gone {
   border-color: rgba(255, 107, 107, .35);
   border-left-color: var(--red);
@@ -394,7 +408,8 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .card.gone .card-num {
   background: rgba(255, 107, 107, .14); color: var(--red);
   border-color: rgba(255, 107, 107, .38);
-  /* 保留编号以便与地图针脚一一对应，用删除线表示不可抵达 */
+  /* Keep the number so it still maps one-to-one onto the map pin; the
+     strikethrough is what says "unreachable" */
   text-decoration: line-through;
   text-decoration-thickness: 2px;
 }
@@ -411,10 +426,11 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   font-size: 12.5px; font-weight: 700; border: 1px solid rgba(255, 107, 107, .35);
 }
 
-/* ---------- 附录 ----------
-   每一节收成一张默认关着的卡片（结构见 app.js 的 foldAppendix）：
-   一行标题就是一节，读者扫一眼标题栏就知道该点开哪一张，
-   而不是先滚过三屏日出方位表才找到复查清单。 */
+/* ---------- Appendix ----------
+   Each section folds into a card that ships closed (see foldAppendix in
+   app.js for the structure): one title row per section, so scanning the title
+   bars tells you which one to open instead of scrolling past three screens of
+   sunrise-bearing tables to find the re-check list. */
 #appendix { border-top: 1px solid var(--line); }
 .apx-h {
   margin: 34px 0 6px; font-size: 17px; color: var(--accent);
@@ -446,7 +462,8 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 }
 .apx-t { font-size: 15px; font-weight: 650; color: var(--text); }
 .apx-note { font-size: 12px; color: var(--text-faint); white-space: nowrap; }
-/* 这一节说的是哪些景点。太长就截断——标题栏只负责让人决定点不点开 */
+/* Which spots this section covers. Truncate if long — the title bar only has
+   to help you decide whether to open it */
 .apx-scope {
   margin-left: auto; flex: 0 1 auto; min-width: 0;
   font-size: 12px; color: var(--text-dim);
@@ -460,8 +477,9 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .apx-fold-body .apx-sub:first-child { margin-top: 0; }
 
 @media (max-width: 720px) {
-  /* 窄屏放不下「涉及哪些景点」那一行，把它挪到第二行整行铺开，
-     箭头靠 .apx-t 撑开留在第一行末尾——否则它会被挤成孤零零的第三行 */
+  /* Narrow screens cannot fit the "which spots" line, so move it onto its own
+     full-width second row; .apx-t stretches to keep the chevron at the end of
+     the first row — otherwise it gets squeezed onto a lonely third row */
   .apx-sum { flex-wrap: wrap; gap: 8px; padding: 12px 14px; }
   .apx-t { flex: 1 1 auto; min-width: 0; }
   .apx-scope { order: 5; flex: 1 1 100%; margin-left: 0; white-space: normal; }
@@ -493,8 +511,10 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   display: flex; align-items: center; justify-content: center;
   font-weight: 700; font-size: 15px; border: 1px solid rgba(var(--accent-rgb),.3);
 }
-/* 卡头缩略图。全站有近 600 张本地图片，改版前它们全被关在折叠区里，
-   页面因此通篇是文字块；把第一张提到卡头是这次视觉改动里收益最大的一处。 */
+/* Card-header thumbnail. The site has close to 600 local images, and before
+   the redesign every one of them was shut inside a collapsed region, leaving
+   the page as wall-to-wall text blocks; pulling the first image up into the
+   card header was the single biggest win of this visual pass. */
 .card-thumb {
   flex: 0 0 auto; width: 112px; height: 76px; border-radius: 10px;
   overflow: hidden; background: var(--bg-soft); border: 1px solid var(--line);
@@ -510,7 +530,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 }
 .card.gone .card-thumb img { filter: grayscale(1) brightness(.65); }
 
-/* 收起状态下的硬信息标签：参观时长 */
+/* Hard-fact chip shown while collapsed: how long the visit takes */
 .meta-chip {
   font-size: 11.5px; padding: 2px 9px; border-radius: 999px; font-weight: 600;
   color: var(--accent); background: var(--accent-soft);
@@ -519,14 +539,16 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 
 .card-title { flex: 1 1 320px; min-width: 0; }
 .card-title h3 { margin: 0 0 3px; font-size: 20px; line-height: 1.35; }
-/* 标题格式：English 中文 */
+/* Title format: English name followed by the Chinese name */
 .card-title h3 .zh { color: var(--text-faint); font-size: 14.5px; font-weight: 500; }
 .card-title .en { color: var(--text-faint); font-size: 13px; }
 
-/* ===== 标题点击即复制 =====
-   常见用法是把景点名粘到 Google Maps 里搜、加收藏夹，所以标题里每个专名
-   都是一个复制按钮。虚线下划线是给「这里能点」留的提示——不加的话没人
-   会想到去点标题；但也不能做成实心链接的样子，否则整页标题都在喊。 */
+/* ===== Click a title to copy it =====
+   The common move is pasting a spot name into Google Maps to search or
+   bookmark it, so every proper name in a title is a copy button. The dotted
+   underline is the hint that it is clickable — without it nobody would think
+   to click a heading; but it cannot look like a solid link either, or every
+   title on the page would be shouting. */
 .cp {
   cursor: pointer; border-radius: 4px;
   text-decoration: underline dotted rgba(255, 255, 255, .32);
@@ -563,11 +585,13 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 }
 #toast.show { opacity: 1; transform: translate(-50%, 0); }
 #toast.bad { border-left-color: var(--red); }
-/* ===== 双评分：游览价值 / 摄影价值 =====
-   星形是内联 SVG（assets/rating.js 画的），不依赖字体里有没有 ★ 的字形。
-   两行的标签宽度固定、星级左端对齐，所以一眼就能比出两项的高低差。
-   分档文字（「值得专程前往」）默认藏起来，悬停或点一下才出现——
-   卡头上已经有标题、结论、标签和时长了，再加一串字就太吵。 */
+/* ===== Two scores: visit value / photo value =====
+   The stars are inline SVG (drawn by assets/rating.js), so they do not depend
+   on the font having a ★ glyph. Both rows have a fixed label width and their
+   stars start at the same left edge, so the gap between the two is visible at
+   a glance. The tier text ("worth a special trip") is hidden by default and
+   only appears on hover or a tap — the card header already carries a title, a
+   verdict, chips and a duration, and one more string would just be noise. */
 .card-score { flex: 0 0 auto; }
 .rt { display: flex; flex-direction: column; gap: 3px; }
 .rt-row {
@@ -587,14 +611,15 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .rt-photo { opacity: .72; }
 .rt-photo .st { opacity: .9; }
 
-/* 星形填充。游览价值用主色的亮蓝，摄影那行用暗一档的灰蓝，
-   两项并列时明度差本身就把「主/辅」说清楚了。 */
+/* Star fills. Visit value gets the accent's bright blue, the photo row gets a
+   step-darker gray-blue; side by side the brightness gap alone makes clear
+   which is primary and which is secondary. */
 .st { display: block; flex: 0 0 auto; }
 .st .st-off { fill: rgba(255, 255, 255, .13); }
 .st .st-on { fill: var(--star); }
 .rt-photo .st .st-on { fill: #6c7f96; }
 
-/* 分档文字：悬停出现，触屏点一下出现（JS 加 .rt-show） */
+/* Tier text: appears on hover, or on a tap on touch screens (JS adds .rt-show) */
 .rt-tier {
   font-size: 11px; color: var(--star); white-space: nowrap;
   max-width: 0; overflow: hidden; opacity: 0;
@@ -604,10 +629,13 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .rt-show .rt-tier { max-width: 8em; opacity: .85; }
 
 .card-body { padding: 20px 24px 24px; }
-/* ===== 速览条 =====
-   展开卡片后的第一屏。开车路上查手册，第一眼要的就是「要待多久、多少钱、
-   几点开、要不要预约」这四件事，不该让人先读两千字正文再翻到底下的表格。
-   格子里是从富文本里抽出来的短值，完整原文在 title 里。 */
+/* ===== Quick-look bar =====
+   The first screen after a card opens. Checking the handbook from the car,
+   the four things you want first are how long it takes, what it costs, when
+   it opens and whether it needs a booking — you should not have to read two
+   thousand words of prose and then scroll to a table at the bottom. Each cell
+   holds a short value pulled out of the rich text; the full original sits in
+   the title attribute. */
 .quick {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr));
   gap: 1px; margin-bottom: 20px;
@@ -624,10 +652,11 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   font-variant-numeric: tabular-nums;
 }
 
-/* ===== 要点：摘要在外，详情在内 =====
-   数据的书写规范是每条要点以一句话加粗结论开头，所以默认只显示那句结论，
-   一行一条——展开卡片先得到一份能扫的要点清单，而不是一屏连续的长文。
-   想深入哪一条点哪一条，其余保持折叠。 */
+/* ===== Key points: summary outside, detail inside =====
+   The data convention is that every key point opens with a one-sentence bold
+   verdict, so by default only that sentence shows, one per line — opening a
+   card gives you a scannable list of points rather than a screenful of solid
+   prose. Click into whichever one you want; the rest stay folded. */
 .pts { list-style: none; margin: 0; padding: 0; }
 .pt { margin-bottom: 3px; }
 .pt > details { border-radius: 8px; }
@@ -648,15 +677,17 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 }
 .pt-lead { flex: 1 1 auto; min-width: 0; color: var(--text); font-weight: 600; font-size: 14px; }
 .pt-lead strong { font-weight: 700; }
-/* 一成左右的「看什么」首句写得很长（九十分位 131 字），收起时钉成两行，
-   摘要清单才能保持可扫；点开之后显示完整首句，不会丢内容。 */
+/* About one in ten "what to see" opening sentences runs long (131 characters
+   at the 90th percentile), so while collapsed we pin it to two lines to keep
+   the summary list scannable; opening it shows the full sentence, so nothing
+   is lost. */
 .pt > details:not([open]) .pt-lead {
   display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
   overflow: hidden;
 }
 
-/* 「还有详情」的提示符。用加号变减号，比小三角更明确地表示
-   「这里还有一段被收起来的内容」。 */
+/* The "there is more" marker. A plus that turns into a minus says "there is
+   a folded-away chunk of text here" more clearly than a small triangle. */
 .pt-more {
   flex: 0 0 auto; position: relative; width: 15px; height: 15px; margin-top: 3px;
   border: 1px solid var(--line); border-radius: 5px; opacity: .65;
@@ -678,7 +709,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
   border-left: 1px solid var(--line);
 }
 .pt-rest strong { color: var(--text); font-weight: 600; }
-/* 详情太短的条目不值得再加一层点击，直接平铺 */
+/* Entries whose detail is too short to be worth another click are laid out flat */
 .pt-flat {
   padding: 7px 10px 7px 10px; color: var(--text-dim); font-size: 13.5px;
   border-left: 2px solid var(--line); border-radius: 8px;
@@ -697,8 +728,9 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .row li { margin-bottom: 5px; color: var(--text-dim); }
 .row li::marker { color: var(--text-faint); }
 
-/* 摄影参考折叠区。这本手册以游玩为主，摄影是附加信息，
-   所以整块收起、用中性色，不与正文的橙色标题抢注意力。 */
+/* Photography reference, collapsed. This handbook is about visiting first and
+   photography is supplementary, so the whole block folds away in neutral
+   colors and does not compete with the orange headings in the body. */
 .photo-fold {
   margin-top: 18px; border: 1px dashed var(--line); border-radius: 10px;
   background: rgba(255, 255, 255, .015);
@@ -724,7 +756,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .photo-fold-body { padding: 4px 14px 14px; }
 .photo-fold-body .row > .k { color: var(--text-faint); }
 
-/* 机位块 */
+/* Camera-position block */
 .spot {
   background: var(--bg-soft); border: 1px solid var(--line);
   border-radius: 10px; padding: 13px 16px; margin-bottom: 10px;
@@ -741,7 +773,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 }
 .geo:hover { background: rgba(var(--blue-rgb),.2); text-decoration: none; }
 
-/* 可达性表 */
+/* Accessibility table */
 .access { width: 100%; border-collapse: collapse; font-size: 13.5px; }
 .access td { padding: 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
 .access tr:last-child td { border-bottom: none; }
@@ -750,8 +782,8 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 }
 .access td:last-child { color: var(--text-dim); }
 
-/* 图片 */
-/* 图片完整展示：不裁剪，按原始比例缩放 */
+/* Images */
+/* Show images whole: no cropping, scaled at their original aspect ratio */
 .shots {
   display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 12px; align-items: start;
@@ -766,7 +798,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 }
 .shot .cap { font-size: 11.5px; color: var(--text-faint); padding: 8px 10px; line-height: 1.5; }
 
-/* 标签 */
+/* Tags */
 .tags { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 9px; }
 .tag {
   font-size: 11.5px; padding: 2px 9px; border-radius: 999px;
@@ -777,7 +809,7 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .tag.book { color: var(--blue); border-color: rgba(var(--blue-rgb),.3); background: rgba(var(--blue-rgb),.08); }
 .tag.risk { color: var(--red); border-color: rgba(255,107,107,.3); background: rgba(255,107,107,.08); }
 
-/* ---------- 行程表 ---------- */
+/* ---------- Itinerary table ---------- */
 .plan { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 10px; }
 .plan th, .plan td {
   padding: 11px 13px; border: 1px solid var(--line); text-align: left; vertical-align: top;
@@ -788,8 +820,9 @@ details.callout[open] > summary.title { margin-bottom: 8px; }
 .plan tbody tr:nth-child(even) { background: rgba(255,255,255,.015); }
 .tbl-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
 
-/* 数据里常出现整段 URL 路径与英文长专名。窄视口下这些不可断词会把
-   整个文档撑宽、出现横向滚动条，所以允许它们在任意位置断行。 */
+/* The data is full of whole URL paths and long English proper names. On
+   narrow viewports these unbreakable words widen the whole document and
+   produce a horizontal scrollbar, so we let them break anywhere. */
 code {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: .92em; padding: 1px 5px; border-radius: 4px;
@@ -798,7 +831,7 @@ code {
 }
 .card-body, .callout, .plan td, .plan th { overflow-wrap: break-word; }
 
-/* ---------- 全部景点总表（all.html） ---------- */
+/* ---------- Master list of every spot (all.html) ---------- */
 .xr-sort {
   background: var(--bg-card); border: 1px solid var(--line); color: var(--text-dim);
   border-radius: 999px; padding: 6px 15px; font-size: 13px; cursor: pointer;
@@ -837,7 +870,8 @@ code {
 .xr-where { display: block; font-size: 12px; color: var(--text-faint); margin-top: 1px; }
 .xr-tldr {
   display: block; font-size: 12.5px; color: var(--text-dim); margin-top: 3px;
-  /* 总表一行只留一行结论，完整内容在地域手册里 */
+  /* A master-list row keeps one line of verdict; the full text lives in the
+     region handbook */
   overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .xr-side {
@@ -852,7 +886,7 @@ code {
 .xr-stars { display: flex; align-items: center; opacity: .9; }
 .xr-nomust { opacity: .6; }
 .xr-visit { font-size: 11.5px; color: var(--accent); white-space: nowrap; }
-/* 定位之后才出现的距离 */
+/* The distance, which only appears once geolocation has run */
 .xr-dist {
   font-size: 12.5px; font-weight: 700; color: var(--blue);
   white-space: nowrap; font-variant-numeric: tabular-nums;
@@ -886,17 +920,21 @@ footer p { margin: 5px 0; }
   .map { height: 340px; }
   .card-head, .card-body { padding-left: 16px; padding-right: 16px; }
   .access td:first-child { width: 96px; }
-  /* 窄屏把缩略图压小，卡头才不会挤成三行 */
+  /* Shrink the thumbnail on narrow screens so the card header does not
+     squeeze onto three lines */
   .card-thumb { width: 72px; height: 54px; }
   .card-head { gap: 11px; }
   .card-score { margin-left: auto; }
 
-  /* 顶栏在窄屏上必须压到两行：第一行标题加搜索，第二行导航横向滚动。
-     否则 7–8 个分区的导航会折成三四行，粘顶的顶栏吃掉小半屏，
-     跳转过去的分区标题正好被压在它底下。 */
+  /* On narrow screens the topbar must be held to two rows: brand plus search
+     on the first, horizontally scrolling nav on the second. Otherwise nav for
+     7–8 sub-regions wraps to three or four rows, the sticky topbar eats close
+     to half the screen, and the section heading you just jumped to ends up
+     hidden underneath it. */
   .topbar-inner { gap: 8px 10px; }
-  /* flex 换行是按 flex-basis 判定的，basis 留 auto 会按标题全长算，
-     搜索框就被挤到第三行去了。所以这里给一个很小的 basis。 */
+  /* Flex wrapping is decided from flex-basis, and leaving basis at auto makes
+     it count the brand's full length, which pushes the search box down to a
+     third row. Hence the deliberately small basis here. */
   .topbar .brand {
     flex: 1 1 130px; min-width: 0; font-size: 14px;
     overflow: hidden; text-overflow: ellipsis;
@@ -909,15 +947,18 @@ footer p { margin: 5px 0; }
   }
   .topbar nav::-webkit-scrollbar { display: none; }
 
-  /* 工具条在窄屏上横向滚动，药丸不换行——换行会让粘顶区再吃掉一截屏幕 */
+  /* On narrow screens the toolbar scrolls sideways and the pills do not wrap
+     — wrapping would make the sticky area eat another slice of the screen */
   .xbar-inner { padding: 7px 16px; gap: 10px; }
   .xbar-count { display: none; }
-  /* 评分块在窄屏上占不下两行标签，把「游览/摄影」的字省掉，靠颜色区分 */
+  /* The score block cannot fit two rows of labels on a narrow screen, so drop
+     the visit/photo words and let color tell them apart */
   .rt-lbl { display: none; }
   .rt-row { gap: 5px; }
   .rt-tier { display: none; }
 
-  /* 附近列表在窄屏上竖过来：名字一行，距离与导航一行 */
+  /* Stack the nearby list on narrow screens: name on one row, distance and
+     the directions button on the next */
   .near-li { gap: 7px; }
   .near-k { width: 22px; height: 22px; font-size: 11px; margin-top: 7px; }
   .near-item { padding: 8px 11px; gap: 6px; }
@@ -931,7 +972,7 @@ footer p { margin: 5px 0; }
   body { background: #fff; color: #111; }
   .topbar, .map-hint, .card-toolbar, .card .expand, .searchbox,
   .xbar, .xp-panel { display: none; }
-  /* 打印时强制展开所有卡片与每一条要点的详情 */
+  /* When printing, force every card and every key point's detail open */
   .card > .card-body { display: block !important; }
   .pt > details > *:not(summary) { display: block !important; }
   .pt-more { display: none; }

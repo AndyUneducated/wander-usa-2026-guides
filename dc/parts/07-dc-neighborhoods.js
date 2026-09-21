@@ -102,9 +102,10 @@ module.exports = {
       n: 1,
       name: 'C&O 运河与 Georgetown 滨水公园',
       en: 'C&O Canal Georgetown & Georgetown Waterfront Park',
-      /* 游览价值：Georgetown 滨水公园是免费开阔的河岸，Mile 0 的四座船闸是真实工业遗迹，
-         但运河干涸、游船停摆之后，它属于「已经在 Georgetown 逛街、顺路走下来」的层级，
-         不是为它单独安排半天的地方。 */
+      /* Visit value: Georgetown Waterfront Park is a free, open riverfront and the four
+         locks at Mile 0 are genuine industrial heritage, but with the canal drained and
+         the boat rides stopped this is a "you're already shopping in Georgetown, walk
+         down" stop, not somewhere to set aside half a day for. */
       must: 3,
       score: 3,
       tldr: '运河仍是干河床、游船停摆、纤道有绕行；真正值得来的是滨水公园的日落与 Key Bridge 剪影。',
@@ -285,10 +286,12 @@ module.exports = {
       n: 2,
       name: '驱魔人阶梯与 Georgetown 老街区',
       en: 'The Exorcist Steps, Cady\'s Alley & Georgetown Rowhouses',
-      /* 游览价值：阶梯本身只是影视取景地（单看约 1.5 分），但这一条目实际覆盖的是
-         Georgetown 历史街区那条步行线——M Street 与 Wisconsin Avenue 的商业十字、
-         N/O/P Street 的联邦风格排屋与原状电车轨道、Old Stone House、Georgetown University
-         的 Healy Hall。作为「来 Georgetown 就该走一遍」的那条线，给 3.5。 */
+      /* Visit value: the steps themselves are just a film location (about 1.5 on their
+         own), but this entry actually covers the walking line through the Georgetown
+         historic district — the M Street / Wisconsin Avenue commercial crossroads, the
+         Federal-style rowhouses and original streetcar tracks on N/O/P Street, Old Stone
+         House, and Georgetown University's Healy Hall. As the walk you should do once
+         you're in Georgetown, 3.5. */
       must: 3.5,
       score: 3.5,
       tldr: '75 级深沟阶梯全天几乎无直射光，阴郁本身就是主题；配 O/P 街的鹅卵石与有轨电车轨道能凑一条完整扫街线。',
@@ -487,9 +490,11 @@ module.exports = {
       n: 3,
       name: 'Dumbarton Oaks 花园',
       en: 'Dumbarton Oaks Gardens',
-      /* 游览价值：美国最重要的私家台地园之一，加 1944 年联合国蓝图会议的现场，
-         内容分量足；但收费、只开下午四小时、周一闭园、须提前网购，
-         而且要有一点园林或历史兴趣才觉得值。给 3.5，是本区第二高。 */
+      /* Visit value: one of the most important private terraced gardens in the US, plus
+         the site of the 1944 conference that drafted the UN blueprint — plenty of
+         substance. But it charges admission, opens only four afternoon hours, closes
+         Mondays, requires buying online ahead, and needs some interest in gardens or
+         history to feel worth it. 3.5, second highest in this sub-region. */
       must: 3.5,
       score: 4,
       tldr: 'Beatrix Farrand 的台地园；只开下午 14:00–18:00、周一闭园、10/8–10 停开、$15 须网购、禁三脚架。',
@@ -704,9 +709,12 @@ module.exports = {
       n: 4,
       name: '华盛顿国家座堂',
       en: 'Washington National Cathedral',
-      /* 游览价值：世界第六大、全美第二大主教座堂，83 年工期的真正中世纪石砌工法，
-         加嵌着月岩的 Space Window——这是本区唯一进得了主流必去清单的点位，给 4。
-         没给更高是因为它离地铁远、要门票、周日不开放参观，且北立面被脚手架包住。 */
+      /* Visit value: sixth largest cathedral in the world and second largest in the US,
+         built over 83 years with genuine medieval masonry, plus the Space Window with a
+         moon rock set into it — the only spot in this sub-region that makes mainstream
+         must-see lists, so 4. Not higher because it is far from the Metro, charges
+         admission, is closed to sightseeing on Sundays, and has its north facade
+         wrapped in scaffolding. */
       must: 4,
       score: 4.5,
       tldr: '世界第六大主教座堂，本区唯一的主流必去项；自助票约 $17 但周日不开放参观（礼拜免费可进），开放钟点逐日变动、17:00 准时清场。',
@@ -978,9 +986,11 @@ module.exports = {
       n: 5,
       name: 'Frederick Douglass 故居（Cedar Hill）',
       en: 'Frederick Douglass National Historic Site (Cedar Hill)',
-      /* 游览价值：本区唯一的历史室内，且屋内约 70% 是道格拉斯本人的原物——
-         这个比例在美国历史宅邸里极高。但它在 Anacostia 河东、离 Mall 一段距离、
-         室内只能跟游 30 分钟、周日周一进不了屋，属于「对 19 世纪美国史有兴趣再专程去」。 */
+      /* Visit value: the only historic interior in this sub-region, and about 70% of the
+         furnishings are Douglass's own — an unusually high proportion for a US historic
+         house. But it sits east of the Anacostia, some way from the Mall, the interior
+         is guided-only for 30 minutes, and the house is shut Sunday and Monday, so it is
+         a "make the trip only if you care about 19th-century US history" stop. */
       must: 3,
       score: 3.5,
       tldr: '免票但室内只能跟游、需 recreation.gov 预约 $1；周日周一闭馆，9:00 开门那一场的城市远眺光线最好。',
@@ -1188,9 +1198,10 @@ module.exports = {
       n: 6,
       name: 'Meridian Hill Park（Malcolm X Park）',
       en: 'Meridian Hill Park (Malcolm X Park)',
-      /* 游览价值：叠瀑复流后是一座很好的城市公园，但它终究是社区公园而不是国家地标——
-         属于「住在附近、或者已经在 U Street／Columbia Heights 一带、顺路走进去」的层级。
-         专程从 Mall 跨城过来不划算，给 2.5。 */
+      /* Visit value: a good city park now that the cascade is flowing again, but it is
+         ultimately a neighborhood park rather than a national landmark — a "you live
+         nearby, or you're already around U Street / Columbia Heights, so walk in" stop.
+         Crossing town from the Mall specially is not worth it, so 2.5. */
       must: 2.5,
       score: 4,
       tldr: '十三级叠瀑已于 2026 年 5 月 14 日复流，是本区最确定的好消息；免费、开到午夜、三脚架合法，蓝调长曝是正解。',
@@ -1387,9 +1398,12 @@ module.exports = {
       n: 7,
       name: 'U Street 与 Shaw（Black Broadway）',
       en: 'U Street Corridor & Shaw (Black Broadway)',
-      /* 游览价值：历史分量是实打实的——20 世纪上半叶美国最重要的非裔文化中心之一，
-         209,145 个名字的内战纪念碑就在街口。但它终究是一条街区而不是一处景点，
-         看点靠讲解与铭牌而不是视觉冲击，属于「对美国黑人史与城市史有兴趣就该来」的层级。 */
+      /* Visit value: the historical weight is real — one of the most important African
+         American cultural centers in the US in the first half of the 20th century, with
+         the Civil War memorial bearing 209,145 names right at the corner. But it is a
+         neighborhood rather than a single sight, and what it offers comes from
+         interpretation and plaques rather than visual impact, so it is a "come if you
+         care about Black American and urban history" stop. */
       must: 3,
       score: 2.5,
       tldr: '20 世纪的「Black Broadway」，看点是历史与吃而不是打卡；纪念碑户外免费常年可看，但museum 到 2026/9/30 才重开，最佳时段是下午到晚饭。',

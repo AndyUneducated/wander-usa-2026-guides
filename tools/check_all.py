@@ -83,7 +83,7 @@ def check_region(region: str, problems: list, stats: dict):
         problems.append(('data', err))
         return
     if not data:
-        stats[region] = {'子地区': 0, '景点': 0, '机位': 0, '图片': 0}
+        stats[region] = {'subregions': 0, 'spots': 0, 'shots': 0, 'images': 0}
         return
 
     n_spots = n_shots = n_imgs = 0
@@ -163,7 +163,7 @@ def check_region(region: str, problems: list, stats: dict):
                                         f' latitude {lats[i][1]:.4f} is north of the previous {lats[i-1][1]:.4f}, not north-to-south'))
                 break
 
-    stats[region] = {'子地区': len(data), '景点': n_spots, '机位': n_shots, '图片': n_imgs,
+    stats[region] = {'subregions': len(data), 'spots': n_spots, 'shots': n_shots, 'images': n_imgs,
                      'must': n_must, 'tour': n_tour, 'visit': n_visit}
 
 
@@ -199,18 +199,18 @@ def main():
         s = stats.get(r)
         if not s:
             continue
-        print(f'  {r:12s} {s["子地区"]:2d} sub-regions   {s["景点"]:3d} spots   '
-              f'{s["机位"]:3d} shots   {s["图片"]:3d} images')
+        print(f'  {r:12s} {s["subregions"]:2d} sub-regions   {s["spots"]:3d} spots   '
+              f'{s["shots"]:3d} shots   {s["images"]:3d} images')
 
     print('\n=== Traditional-tourism field coverage (socal is out of scope for the rewrite) ===')
     for r in regions:
         s = stats.get(r)
         if not s:
             continue
-        total = s['景点'] or 1
-        flag = '✅' if s['must'] == s['visit'] == s['tour'] == s['景点'] else '…'
-        print(f'  {flag} {r:12s} must {s["must"]:3d}/{s["景点"]:3d}   '
-              f'tour {s["tour"]:3d}/{s["景点"]:3d}   visit duration {s["visit"]:3d}/{s["景点"]:3d}'
+        total = s['spots'] or 1
+        flag = '✅' if s['must'] == s['visit'] == s['tour'] == s['spots'] else '…'
+        print(f'  {flag} {r:12s} must {s["must"]:3d}/{s["spots"]:3d}   '
+              f'tour {s["tour"]:3d}/{s["spots"]:3d}   visit duration {s["visit"]:3d}/{s["spots"]:3d}'
               f'   ({s["must"] * 100 // total}%)')
 
     remote = stats.get('_remote') or []

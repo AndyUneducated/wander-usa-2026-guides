@@ -1430,8 +1430,9 @@ module.exports = {
     },
     {
       id: 'dc-nmnh',
-      /* 游览价值明显高于摄影价值：馆内光线与构图乏善可陈，
-         但恐龙厅、Hope Diamond 与露脊鲸是一般游客到华盛顿的主要目标之一。 */
+      /* Visit value clearly above photo value: the lighting and compositions inside are
+         unremarkable, but the dinosaur hall, the Hope Diamond and the right whale are
+         among the main draws for an ordinary visitor to Washington. */
       must: 4.5,
       n: 7,
       name: '国立自然历史博物馆',
@@ -1582,7 +1583,8 @@ module.exports = {
       gone: '室内关闭中（2026 年 9 月 7 日后重新关闭，无重开日期）',
       name: '史密森尼「城堡」与 Enid A. Haupt 花园',
       en: 'Smithsonian Castle and the Enid A. Haupt Garden',
-      /* 室内关闭期间只剩花园与外立面，是「已经在 Mall 上才顺路进去」的那类点位。 */
+      /* While the interior is closed only the garden and the facade are left, making this
+         a "drop in because you're already on the Mall" stop. */
       must: 1.5,
       score: 2,
       tldr: '城堡室内自 2026 年 9 月 7 日起重新关闭，官方未公布重开日期；Haupt 花园与红砂岩外立面照常开放。',

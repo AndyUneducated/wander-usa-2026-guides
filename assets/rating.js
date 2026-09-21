@@ -1,23 +1,25 @@
-/* ===== 星级评分渲染 =====
+/* ===== Star rating rendering =====
 
-   原先星级是用 ★ / ☆ / ⯨ 三个字符拼的，半星那个 ⯨（U+2BE8）在 Windows 常见
-   字体里基本没有字形覆盖，落到兜底字体后渲染成一排黄色小方块／横线，整条评分
-   就废了。这里改成内联 SVG：星形自己画，填充比例用 clipPath 裁，
-   跟系统装了什么字体完全无关，任意小数分值都能精确表示。
+   Stars used to be spelled out with the three characters ★ / ☆ / ⯨. The half star
+   ⯨ (U+2BE8) has almost no glyph coverage in common Windows fonts, so it fell
+   through to a fallback font and rendered as a row of yellow squares/dashes, which
+   ruined the whole rating. This draws inline SVG instead: we draw the star shape
+   ourselves and clip the fill ratio with a clipPath, so it is completely
+   independent of the installed fonts and any fractional score is exact.
 
-   两个评分（游览价值 / 摄影价值）共用这一套，所以单独成文件，
-   app.js 与 all.js 都从这里取。 */
+   Both ratings (visit value / photo value) share this, hence its own file;
+   app.js and all.js both pull from here. */
 (function () {
   'use strict';
 
-  /* 五角星路径，画在 0 0 20 20 的格子里 */
+  /* Five-pointed star path, drawn on a 0 0 20 20 grid */
   var STAR = 'M10 1.6l2.47 5.28 5.78.74-4.24 3.98 1.08 5.72L10 14.6l-5.09 2.72 ' +
              '1.08-5.72L1.75 7.62l5.78-.74z';
 
   var uid = 0;
 
-  /* score 为 0–max 的任意小数。返回一段内联 SVG。
-     size 是单颗星的边长（px），整条宽度是 size*max。 */
+  /* score is any fractional value from 0 to max. Returns a chunk of inline SVG.
+     size is the edge length of one star (px); the whole row is size*max wide. */
   function stars(score, opt) {
     opt = opt || {};
     var max = opt.max || 5;
@@ -25,7 +27,7 @@
     var gap = opt.gap == null ? 2 : opt.gap;
     var v = Math.max(0, Math.min(max, Number(score) || 0));
 
-    var cell = 20 + gap;                 /* 每颗星在 viewBox 里占的横向格距 */
+    var cell = 20 + gap;                 /* Horizontal pitch of one star in the viewBox */
     var vbW = cell * max - gap;
     var id = 'st' + (++uid);
     var full = [], empty = [];
@@ -34,7 +36,7 @@
       empty.push('<path transform="translate(' + tx + ',0)" d="' + STAR + '" class="st-off"/>');
       full.push('<path transform="translate(' + tx + ',0)" d="' + STAR + '" class="st-on"/>');
     }
-    /* 裁切宽度按分值走：4.5 分就裁到第 4.5 颗星的中线，半星自然出现 */
+    /* Clip width tracks the score: 4.5 clips to the midline of the 5th star, so the half star falls out naturally */
     var clipW = v <= 0 ? 0 : (v >= max ? vbW : v * cell - gap / 2);
 
     return '<svg class="st" viewBox="0 0 ' + vbW + ' 20" ' +
@@ -46,8 +48,9 @@
       '</svg>';
   }
 
-  /* 把分数翻成人话。用户选择只在悬停/点击时显示，所以这串文字
-     进 title 与展开区，不占卡头版面。分档口径与 SCHEMA.md 的评分标准一致。 */
+  /* Put the score into plain words. We show it only on hover/click, so this text goes
+     into the title and the expanded area and takes no card-head room. The tier
+     boundaries match the rating standard in SCHEMA.md. */
   function tier(v) {
     if (v == null) return '';
     if (v >= 4.75) return '值得专程前往';
@@ -58,9 +61,10 @@
     return '不建议';
   }
 
-  /* 卡头上的双评分块。游览价值在上、摄影价值在下，两行的星级左端对齐，
-     扫一眼就能比出高低。socal 那批条目只有摄影评分，这时只渲染一行，
-     并且不会把摄影分冒充成游览分。 */
+  /* The dual-score block in the card head. Visit value on top, photo value below,
+     star rows left-aligned so you can compare them at a glance. The socal entries
+     only have a photo score, so those render a single row and we never pass the
+     photo score off as a visit score. */
   function block(must, photo, opt) {
     opt = opt || {};
     var size = opt.size || 13;

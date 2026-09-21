@@ -1,46 +1,54 @@
-/* ===== Service Worker：让手册在没信号的地方还能用 =====
+/* ===== Service Worker: keep the handbook usable where there is no signal =====
 
-   为什么需要它：这本手册最需要被查阅的地方恰好是最没信号的地方——
-   黄石园内大部分路段没有移动网络，Beartooth、Lamar Valley 更是全程无信号，
-   数据里好几条都专门提醒了这件事。所以「在家先翻一遍、路上照样能查」
-   是这本手册的刚性需求，不是锦上添花。
+   Why we need it: the places where you most need to look something up are
+   exactly the places with no signal — most roads inside Yellowstone have no
+   mobile network, and Beartooth and Lamar Valley have none the whole way.
+   Several entries in the data call this out. So "read it at home, still look
+   it up on the road" is a hard requirement here, not a nice-to-have.
 
-   缓存策略分三类，按内容的性质走：
+   Three caching strategies, one per kind of content:
 
-     壳层（CSS / JS / 图标 / manifest）
-       安装时就抓下来，之后缓存优先。体积小、变动少，先拿缓存能让
-       每次打开都是秒开。
+     Shell (CSS / JS / icons / manifest)
+       Fetched at install time, cache-first after that. Small and rarely
+       changes, so serving the cache first makes every open instant.
 
-     文档与数据（HTML / data.js / intro.js）
-       stale-while-revalidate：先用缓存立刻出页面，同时后台拉新版本存起来，
-       下次打开就是新的。好处是离线一定能开、在线也不会永远停在旧版；
-       代价是内容更新会晚一次访问生效，对一本以「核实日期」为单位更新的
-       手册来说完全可以接受。
+     Documents and data (HTML / data.js / intro.js)
+       stale-while-revalidate: show the page from cache right away, and pull
+       the new version in the background so the next open is current. Offline
+       always opens and online never sticks on an old copy; the price is that
+       content updates take one extra visit to land, which is fine for a
+       handbook that updates in "verified date" steps.
 
-     图片与地图瓦片
-       缓存优先 + 用到才存，并且限制条数。四个地域的照片合计约 268 MB，
-       预缓存等于开局给用户灌 268 MB 流量，绝对不能做。所以只留「看过的
-       会留下来」：在家翻过的景点，路上没网也还看得见图。
+     Images and map tiles
+       Cache-first, stored only once used, with a cap on the entry count. The
+       photos across the four regions add up to about 268 MB; precaching means
+       dumping 268 MB of traffic on the user up front, which we absolutely
+       cannot do. So only "what you looked at stays": spots you browsed at
+       home still show their photos on the road with no network.
 
-   缓存名里带版本号，换版本时 activate 会把旧的整批删掉。 */
+   Cache names carry a version number; on a version change activate deletes
+   the whole old set. */
 
 const VERSION = 'wu-2026-09-20b';
 const SHELL = 'shell-' + VERSION;
 const DOCS = 'docs-' + VERSION;
-const MEDIA = 'media-' + VERSION;      /* 图片，跨版本保留意义不大但也不必清 */
-const TILES = 'tiles-' + VERSION;      /* 地图瓦片 */
+const MEDIA = 'media-' + VERSION;      /* Images; little point keeping them across versions, but no need to purge either */
+const TILES = 'tiles-' + VERSION;      /* Map tiles */
 
-/* 上限：超了就按先进先出丢掉最早的。数字是凭体积估的——
-   图片单张平均 450 KB，500 张约 220 MB，够存一个地域翻过的量还不至于
-   把手机存储吃穿；瓦片单张十几 KB，1200 张也就十几 MB。 */
+/* Caps: once over, drop the oldest first-in-first-out. The numbers come from
+   size estimates — images average 450 KB each, so 500 is about 220 MB, enough
+   for one region's worth of browsing without eating the phone's storage;
+   tiles are a dozen-odd KB each, so 1200 is only a dozen-odd MB. */
 const CAP = { [MEDIA]: 500, [TILES]: 1200 };
 
-/* 安装时就抓的清单，相对 registration.scope 解析。
-   这里只放没有查询串的地址：页面引用 CSS/JS 时都带 ?v=2026xxxx 的缓存戳，
-   而 Cache API 的匹配是连查询串一起比的，把 './assets/app.js' 预存进来
-   根本不会被 './assets/app.js?v=...' 命中，纯属白下一遍。带版本的资源
-   交给运行时缓存——首次打开页面本来就要下载它们，顺手存下即可。
-   所以预缓存的意义在于把各页面的 HTML 外壳先备齐，离线时打得开。 */
+/* The list fetched at install time, resolved relative to registration.scope.
+   Only URLs without a query string belong here: pages reference CSS/JS with a
+   ?v=2026xxxx cache stamp, and Cache API matching compares the query string
+   too, so precaching './assets/app.js' would never be hit by
+   './assets/app.js?v=...' — a wasted download. Versioned assets are left to
+   the runtime cache; the first page open has to download them anyway, so we
+   just store them on the way past. What precaching buys us is having each
+   page's HTML shell ready so it opens offline. */
 const SHELL_FILES = [
   './',
   './index.html',
@@ -58,10 +66,11 @@ const SHELL_FILES = [
 self.addEventListener('install', (e) => {
   e.waitUntil((async () => {
     const c = await caches.open(SHELL);
-    /* 逐个抓：addAll 里任何一个 404 或 CDN 抽风会让整批失败，
-       那样整个 SW 就装不上了。单个失败无所谓，运行时还能补。 */
+    /* Fetch one at a time: with addAll, a single 404 or a CDN hiccup fails
+       the whole batch and the SW never installs. One miss is harmless — the
+       runtime cache can still pick it up later. */
     await Promise.all(SHELL_FILES.map(async (u) => {
-      try { await c.add(new Request(u, { cache: 'reload' })); } catch (err) { /* 跳过 */ }
+      try { await c.add(new Request(u, { cache: 'reload' })); } catch (err) { /* skip */ }
     }));
     self.skipWaiting();
   })());
@@ -77,8 +86,8 @@ self.addEventListener('activate', (e) => {
   })());
 });
 
-/* 超额后从最早的开始删。Cache API 的 keys() 是按写入顺序返回的，
-   所以直接砍前面几个就是 FIFO。 */
+/* Over the cap, delete from the oldest end. Cache API keys() returns entries
+   in insertion order, so chopping off the first few is FIFO. */
 async function trim(name) {
   const cap = CAP[name];
   if (!cap) return;
@@ -92,8 +101,8 @@ async function cacheFirst(req, name) {
   const hit = await c.match(req);
   if (hit) return hit;
   const res = await fetch(req);
-  /* opaque 响应（跨域无 CORS）status 是 0，照样可以存，只是读不到内容。
-     地图瓦片就属于这一类。 */
+  /* Opaque responses (cross-origin without CORS) have status 0. We can still
+     store them, we just cannot read the body. Map tiles are one of these. */
   if (res && (res.ok || res.type === 'opaque')) {
     await c.put(req, res.clone());
     trim(name);
@@ -108,10 +117,11 @@ async function staleWhileRevalidate(req, name) {
     if (res && res.ok) await c.put(req, res.clone());
     return res;
   }).catch(() => null);
-  if (hit) return hit;                      /* 有缓存就先给缓存，后台更新 */
+  if (hit) return hit;                      /* Serve the cache first, refresh in the background */
   const res = await net;
   if (res) return res;
-  /* 彻底没网又没缓存：导航请求退回首页，至少不是浏览器的错误页 */
+  /* No network and nothing cached: send navigations back to the home page,
+     which at least is not the browser's error page */
   if (req.mode === 'navigate') {
     const shell = await caches.open(SHELL);
     const home = await shell.match('./index.html');
@@ -129,12 +139,12 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(req.url);
   const sameOrigin = url.origin === self.location.origin;
 
-  /* 地图瓦片：跨域、量大、内容永不变，缓存优先最合适 */
+  /* Map tiles: cross-origin, lots of them, contents never change — cache-first fits best */
   if (/arcgisonline\.com|tile\.openstreetmap|basemaps\./.test(url.hostname)) {
     e.respondWith(cacheFirst(req, TILES));
     return;
   }
-  /* Leaflet 走 CDN，带固定版本号，同样缓存优先 */
+  /* Leaflet comes from a CDN at a pinned version, so cache-first as well */
   if (url.hostname === 'unpkg.com') {
     e.respondWith(cacheFirst(req, SHELL));
     return;
@@ -150,6 +160,6 @@ self.addEventListener('fetch', (e) => {
     e.respondWith(cacheFirst(req, SHELL));
     return;
   }
-  /* 剩下的是文档与各地域的 data.js / intro.js */
+  /* Everything left is documents and each region's data.js / intro.js */
   e.respondWith(staleWhileRevalidate(req, DOCS));
 });

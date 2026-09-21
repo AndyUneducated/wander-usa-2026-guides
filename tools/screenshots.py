@@ -147,7 +147,7 @@ def main():
                       s.querySelector('.apx-t').textContent,
                       s.querySelector('.apx-scope').textContent])""")
                 for t, sc in titles:
-                    print(f'    appendix「{t}」→ {sc}')
+                    print(f'    appendix "{t}" covers: {sc}')
             elif action == 'overview':
                 # the overview ships collapsed; frame the hero and the closed
                 # title bar so the shot shows what the page opens on

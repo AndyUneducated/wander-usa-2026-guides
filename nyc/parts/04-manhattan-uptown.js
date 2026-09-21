@@ -1,6 +1,7 @@
-/* Manhattan Uptown：Museum Mile 与 Central Park。
-   2026-09-13 新建的子地区——改版前手册以摄影为主，导致 The Met、AMNH、
-   Guggenheim、Central Park 这几个「来纽约必去」的地方没有任何归属分区。 */
+/* Manhattan Uptown: Museum Mile and Central Park.
+   Sub-region created 2026-09-13 — before the rework the handbook was photography-first,
+   which left The Met, AMNH, the Guggenheim and Central Park, all must-sees in New York,
+   without any sub-region to belong to. */
 module.exports = {
   id: 'manhattan-uptown',
   name: 'Manhattan · Uptown 与 Museum Mile',

@@ -1,12 +1,12 @@
 /* =========================================================================
-   REGIONS —— 分区景点数据
-   数据来源：2026-09 联网查证（Caltrans / CAL FIRE / NOAA / 各官方页面）。
-   开放时间、票价、封闭状态会变动，出发前需复查。
+   REGIONS — spot data grouped by sub-region
+   Source: verified online 2026-09 (Caltrans / CAL FIRE / NOAA / official pages).
+   Hours, prices and closure status change; recheck before departure.
    ========================================================================= */
 
 var REGIONS = [
 
-  /* ===================== ① 中央海岸 ===================== */
+  /* ===================== (1) Central Coast ===================== */
   {
     id: 'central-coast',
     name: '① San Jose → Santa Barbara 沿途',
@@ -2039,8 +2039,8 @@ var REGIONS = [
         ],
         photo: '<strong>本次无法拍摄。</strong>请勿驱车前往原址——该处封闭，且位于滑坡活跃区。替代机位见上一条 Point Vicente。',
         shots: [],
-        /* 无机位，但保留原址坐标以便地图上出现 17 号红色针脚，
-           与卡片编号对应。坐标为 OSM way/873354664 实体。 */
+        /* No shots, but the original site coordinates are kept so the map still shows
+           red pin 17 matching the card number. Coordinates are OSM way/873354664. */
         at: [33.743735, -118.377480],
         access: {
           book: '—',
@@ -2776,7 +2776,7 @@ var REGIONS = [
     ]
   },
 
-  /* ===================== ⑥ 沙漠支线 ===================== */
+  /* ===================== (6) Desert spur ===================== */
   {
     id: 'desert',
     name: '⑥ Salton Sea / Salvation Mountain 沙漠支线',

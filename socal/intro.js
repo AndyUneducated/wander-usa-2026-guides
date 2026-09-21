@@ -1,9 +1,10 @@
-/* ===== 顶部信息条 / 执行总览 / 行程骨架 ===== */
+/* ===== Top info bar / execution overview / itinerary skeleton ===== */
 (function () {
   'use strict';
 
-  /* 顶部信息条与其它三本对齐：只留季节参考与核实日期。里程与方式属于
-     某一条示例环线，写在下面的行程骨架里更合适。 */
+  /* The top info bar matches the other three guides: season reference and verification
+     date only. Mileage and mode belong to one example loop and fit better in the
+     itinerary skeleton below. */
   var META = [
     ['季节参考', '海岸雾季与火情窗口：示例基准 9 月初'],
     ['核实日期', '2026-09-09']
@@ -89,7 +90,7 @@
     ['San Diego', '06:25', '19:08', '19:03']
   ];
 
-  /* NOAA La Jolla 站 9410230，ft / MLLW / PDT。Newport Beach 站数值几乎相同 */
+  /* NOAA La Jolla station 9410230, ft / MLLW / PDT. Newport Beach station is nearly identical */
   var TIDES = [
     ['9/5（六）', '—', '10:05 / 3.23 ❌', '16:48 / 5.54'],
     ['9/6（日）', '00:44 / -0.11 🌙', '11:52 / 2.92 ❌', '18:03 / 5.88'],
@@ -139,7 +140,7 @@
     '<strong>把车留在 Santa Monica，改坐 Metro E Line 轻轨</strong>，约 50 分钟且完全不受路面影响，比自驾更快也更可预测。</p></div>'
   ].join('');
 
-  /* ---------- 附录：查表型参考数据 ---------- */
+  /* ---------- Appendix: lookup-table reference data ---------- */
   var APPENDIX = [
     '<h3 class="apx-h">A. 日出日落（2026 年 9 月）</h3>',
     '<p class="section-lead">黄金时刻约为日落前 40 分钟；蓝调最佳在日落后 15–25 分钟，海边通常 19:30–19:45 收工。' +

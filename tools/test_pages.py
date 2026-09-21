@@ -455,7 +455,7 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
                 ok.append((f'every appendix section has a title and a scope line ({len(r["apxTitles"])})',
                            r['apxTitles'] and not blank))
                 for t, s in r['apxTitles']:
-                    notes.append(f'{label} {name} appendix section「{t}」→ {s}')
+                    notes.append(f'{label} {name} appendix section "{t}" covers: {s}')
                 # Card width
                 ok.append((f'cards are exactly as wide as the map (delta {r["cardVsMap"]}px)',
                            r['cardVsMap'] is not None and abs(r['cardVsMap']) <= 2))
@@ -514,7 +514,7 @@ def run(base: str, viewport: dict, label: str, fails: list, notes: list):
                       paid: document.querySelector('#xbar [data-f="paid"]').classList.contains('on'),
                       n: document.querySelectorAll('details.card:not([hidden])').length
                     })""")
-                    ok.append((f'picking 收费 releases 免费 and still shows results ({seg})',
+                    ok.append((f'picking "paid" releases "free" and still shows results ({seg})',
                                seg['paid'] and not seg['free'] and seg['n'] > 0))
                     page.click('#xbar [data-f="paid"]')
                     page.wait_for_timeout(200)

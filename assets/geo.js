@@ -1,19 +1,20 @@
-/* ===== 定位与距离 =====
+/* ===== Location and distance =====
 
-   给「离我最近」和「顺路排序」用的公共件。地域手册页与全部景点总表页
-   都从这里取，保证两边算出来的距离和顺序是一回事。
+   Shared helper for "nearest to me" and the route sort. Both the region handbook
+   pages and the all-spots table pull from here, so the distances and the ordering
+   they compute are guaranteed to be the same thing.
 
-   注意：浏览器的定位接口只在 HTTPS 或 localhost 下可用。
-   本站发布在 GitHub Pages（HTTPS），线上没问题；本地用 file:// 直接打开
-   会拿不到定位，这时按下面的 locate() 会如实报错，不静默失败。 */
+   Note: the browser geolocation API only works over HTTPS or on localhost. The site
+   is published on GitHub Pages (HTTPS) so it is fine live; opened locally over
+   file:// there is no location, and locate() below says so instead of failing silently. */
 (function () {
   'use strict';
 
-  var R = 6371;   /* 地球平均半径，公里 */
+  var R = 6371;   /* Mean radius of the Earth, in km */
 
   function rad(d) { return d * Math.PI / 180; }
 
-  /* 两点球面距离，公里。逛景点的尺度上 haversine 足够准。 */
+  /* Great-circle distance between two points, in km. At sightseeing scale haversine is plenty accurate. */
   function dist(a, b) {
     if (!a || !b) return Infinity;
     var dLat = rad(b[0] - a[0]), dLon = rad(b[1] - a[1]);
@@ -23,7 +24,7 @@
     return 2 * R * Math.asin(Math.min(1, Math.sqrt(s)));
   }
 
-  /* 距离显示：近处给米，远处给公里，非常远的只给整数，避免出现「1234.6 公里」 */
+  /* Distance display: metres up close, km further out, whole km when very far, so we never print "1234.6 km" */
   function fmt(km) {
     if (!isFinite(km)) return '';
     if (km < 1) return Math.round(km * 1000) + ' 米';
@@ -31,7 +32,7 @@
     return Math.round(km) + ' 公里';
   }
 
-  /* 八个方位，配合距离一起显示，比只给距离有用得多 */
+  /* Eight compass points, shown together with the distance — far more useful than distance alone */
   var DIRS = ['正北', '东北', '正东', '东南', '正南', '西南', '正西', '西北'];
   function bearing(a, b) {
     if (!a || !b) return '';
@@ -42,11 +43,11 @@
     return DIRS[Math.round(deg / 45) % 8];
   }
 
-  var last = null;      /* 缓存上一次定位，同一次会话里反复按不重复要权限 */
+  var last = null;      /* Cache the last fix so repeated taps in one session do not re-ask for permission */
 
-  /* 返回 Promise。成功给 [lat, lon]，失败给一个能直接显示给人看的错误。
-     maxAge 默认五分钟：开车途中五分钟内的旧坐标还算能用，
-     省得每次按按钮都等一次冷启动定位。 */
+  /* Returns a Promise: [lat, lon] on success, or an error whose message can be shown
+     to the user as is. maxAge defaults to five minutes — while driving, a coordinate
+     that old is still usable, and it saves a cold-start fix on every button press. */
   function locate(opt) {
     opt = opt || {};
     if (last && !opt.fresh && Date.now() - last.t < 5 * 60 * 1000) {
@@ -76,10 +77,11 @@
 
   function cached() { return last ? last.c : null; }
 
-  /* 顺路排序：从 start 出发的最近邻链。
-     不是最优解（那是旅行商问题），但对「手上这十几个点大致按什么顺序串」
-     这个问题，最近邻给出的顺序基本就是人自己会排的顺序，且结果稳定可预期。
-     返回带 leg（上一站到本站的公里数）与 acc（累计公里数）的新数组。 */
+  /* Route sort: a nearest-neighbour chain starting from start.
+     Not optimal (that would be the travelling salesman problem), but for "roughly what
+     order should I string these dozen-odd spots in" nearest neighbour lands on about
+     the order a person would pick anyway, and it is stable and predictable.
+     Returns a new array with leg (km from the previous stop) and acc (cumulative km). */
   function chain(start, items) {
     var pool = items.filter(function (x) { return x.coord; });
     var out = [], cur = start, acc = 0;

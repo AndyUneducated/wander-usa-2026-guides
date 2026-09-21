@@ -481,8 +481,9 @@ module.exports = {
       n: 3,
       name: '埃尔弗雷斯巷',
       en: "Elfreth's Alley",
-      /* 游览价值低于摄影价值：124 米长的一条私宅街，走完只要两分钟，
-         没有展陈也没有故事现场，属于「已经在 Old City 就该拐进去」的那一类。 */
+      /* Visit value below photo value: a 124 m street of private houses you can walk in
+         two minutes, with no exhibits and no scene of any event — the kind of place you
+         turn into because you're already in Old City. */
       must: 2.5,
       score: 4.5,
       tldr: '全区最好的街道摄影目标，路面秋季全天柔光；但这是私人住宅街，博物馆只在周五至周日 12:00–16:00 开。',
@@ -662,8 +663,9 @@ module.exports = {
       n: 4,
       name: '基督堂与基督堂墓园',
       en: 'Christ Church & Christ Church Burial Ground',
-      /* 游览价值中等：Franklin 墓有真实的朝圣分量，但隔栅栏免票就能看到；
-         教堂内部与另外四位签署者的墓碑属「对建国史有兴趣再进去」。 */
+      /* Visit value moderate: Franklin's grave carries real pilgrimage weight, but you
+         can see it through the railings for free; the church interior and the graves of
+         the other four signers are "go in only if you care about founding history". */
       must: 3,
       score: 4,
       tldr: 'Franklin 墓在 5th & Arch 街角隔栅栏免票 24 小时可拍；教堂与墓园各 $5、合票 $8，每日 11:00 才开。',
@@ -848,8 +850,10 @@ module.exports = {
       n: 5,
       name: '美国革命博物馆',
       en: 'Museum of the American Revolution',
-      /* 典型的「必去但不好拍」：内容是全区最强的一份，摄影价值却最低
-         （招牌展项明确禁拍、其余是低照度玻璃柜）。这正是 must 与 score 分离的意义。 */
+      /* A textbook "must see but hard to shoot": the strongest content in this
+         sub-region paired with the lowest photo value (the headline exhibit bans
+         photography outright, the rest is low-light glass cases). This is exactly why
+         must and score are separate fields. */
       must: 4,
       score: 2.5,
       tldr: '$27 的现代馆，内容极强但摄影价值低：招牌的 Washington 帐篷剧场明确禁止个人拍摄。',
@@ -1026,8 +1030,9 @@ module.exports = {
       n: 6,
       name: '雷丁车站市场',
       en: 'Reading Terminal Market',
-      /* 免费、每天开、一顿饭就能完成，是本区性价比最高的一站；
-         不给 4 分以上只因为它是「吃饭与逛市场」，不是不可替代的历史现场。 */
+      /* Free, open every day, and done in the time of one meal — the best value stop in
+         this sub-region. Not rated above 4 only because it is eating and browsing a
+         market, not an irreplaceable historic site. */
       must: 3.5,
       score: 4,
       tldr: '1893 年火车棚下的公共市场，免费、每日 8:00–18:00；混合光是唯一难点，Amish 摊位只有周三至周六。',
@@ -1226,8 +1231,9 @@ module.exports = {
       n: 7,
       name: '费城市政厅',
       en: 'Philadelphia City Hall',
-      /* 外景免费且地位极高，但作为「参观」它的可进入内容有限：
-         塔顶仅工作日、每趟 4 人，内院与广场十分钟就能看完。 */
+      /* The exterior is free and extremely significant, but as a visit there is limited
+         interior to enter: the tower top runs weekdays only, 4 people per trip, and the
+         courtyard and plaza take ten minutes to see. */
       must: 3.5,
       score: 5,
       tldr: '全区最强的建筑目标，外景 24 小时免费；塔顶观景台仅工作日 10:00–14:45、每趟 4 人，拍不到黄金时段。',

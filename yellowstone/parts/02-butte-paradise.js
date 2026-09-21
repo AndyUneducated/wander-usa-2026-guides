@@ -1921,8 +1921,10 @@ module.exports = {
       n: 8,
       name: 'Paradise Valley 与 East River Road',
       en: 'Paradise Valley & East River Road (Secondary 540)',
-      /* 游览价值比摄影价值低半档：这是去北门路上必经的走廊，
-         顺路走完就算到过，不值得为它专程绕路。摄影上则确实是本区上限较高的一处。 */
+      /* Visit value half a step below photo value: this is the corridor you have to pass
+         through on the way to the north entrance, so driving it counts as having been
+         there and it is not worth a detour of its own. Photographically it really is one
+         of the higher ceilings in this sub-region. */
       must: 4,
       score: 4.5,
       tldr: '进园前 54 英里的走廊。East River Road（东岸 32 英里）明确比 US-89 好拍。谷地正南北向，Absaroka 在东是傍晚正面光，Gallatin 在西是清晨正面光。FWP 停车点需 $10 保育证。',

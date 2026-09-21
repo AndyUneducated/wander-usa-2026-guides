@@ -1,16 +1,20 @@
-/* ===== 从富文本里抽硬信息 =====
+/* ===== Pulling hard facts out of rich text =====
 
-   access 的四个字段都是研究员手写的富文本（带 <strong>、常常一整段），
-   直接塞进卡头、速览条或筛选器里没法用。这里负责把「要待多久、多少钱、
-   几点开、要不要预约」抽成能比较、能筛选的短值。抽不到就返回 null，
-   由调用方决定退回什么，不猜、不编。
+   All four access fields are rich text written by hand by the researchers (with
+   <strong>, often a whole paragraph), and dropping that straight into a card head,
+   a quick-look bar or a filter does not work. This file turns "how long do I need,
+   what does it cost, when is it open, do I need a booking" into short values you can
+   compare and filter on. If nothing can be extracted it returns null and the caller
+   decides what to fall back to; we never guess and never invent.
 
-   同时提供 splitLead：把一条要点拆成「加粗首句 = 摘要」与「其余 = 详情」。
+   It also provides splitLead: split a key point into a bold lead sentence (the
+   summary) and everything after it (the detail).
 
-   这个文件同时给浏览器和 node 用（tools/check_render.js 会 require 它来
-   核对全站数据是否符合渲染的假设），所以末尾做了两种导出。
-   抽取规则只写在这一处——三个调用方各写一份正则的话，
-   页面上显示的值和校验脚本算出来的值迟早会对不上。 */
+   This file is used from both the browser and node (tools/check_render.js requires it
+   to check that the site data matches what the rendering assumes), hence the two
+   export paths at the bottom. The extraction rules live in exactly one place — if the
+   three callers each wrote their own regex, the values shown on the page and the
+   values the checker computes would drift apart sooner or later. */
 (function (root, factory) {
   var api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
@@ -24,8 +28,8 @@
 
   var DUR_RE = /([\d.]+)\s*(?:[–\-~至]\s*([\d.]+)\s*)?(小时|分钟|天)/;
 
-  /* 参观时长 → 分钟数，取区间下限（「2–4 小时」算 120）。
-     筛选「我只有一小时」时关心的是最低投入，所以取下限。 */
+  /* Visit duration to minutes, taking the low end of a range ("2-4 hours" is 120).
+     Filtering for "I only have an hour" is about the minimum commitment, hence low end. */
   function visitMins(plain) {
     var m = DUR_RE.exec(plain);
     if (m) {
@@ -42,19 +46,24 @@
     return m ? m[0].replace(/\s+/g, ' ') : null;
   }
 
-  /* ===== 免费还是收费 =====
+  /* ===== Free or paid =====
 
-     票价字段是一整段考证过的散文，光看「这段里有没有出现『免费』」是判不出来的：
-     「16 岁以下免费」「会员免费」「周四晚间免费」说的都是收费馆的减免档，
-     反过来「公园免费，园内动物园成人 $10.95」里的金额也不是门票。
-     早先按全段匹配，纽约 79 条里 77 条被判成免费，这个筛选等于没有。
+     The ticket field is a whole paragraph of researched prose, so "does the word for
+     free appear anywhere in it" cannot decide the question: "free under 16", "free for
+     members" and "free on Thursday evenings" are all discount tiers at a paid venue,
+     and conversely the amount in "the park is free, the zoo inside is $10.95 for
+     adults" is not an admission fee. Matching over the whole paragraph is what we did
+     first, and it called 77 of New York's 79 entries free — a useless filter.
 
-     好在这批数据的写法是一致的：结论永远在第一句，例外情况跟在后面。
-       「广场免费。博物馆：成人 $36…」            → 免费
-       「成人 $30、7–17 岁 $14、0–6 岁免费」       → 收费
-     所以只看第一个「表了态」的句子（出现免费字样或 $ 金额的那句），
-     句内谁在前听谁的。开头的【…核实】考证戳先摘掉——它里面常写
-     「票价与免费条件均无变化」，会把收费馆误判成免费。 */
+     Luckily this data is written consistently: the verdict is always in the first
+     sentence and the exceptions follow it.
+       "The plaza is free. Museum: adults $36..."      -> free
+       "Adults $30, ages 7-17 $14, ages 0-6 free"      -> paid
+     So we only look at the first sentence that commits to something (the one with a
+     free-admission word or a $ amount in it), and within that sentence whichever comes
+     first wins. The leading verification stamp is stripped first — it often says
+     "ticket prices and free-admission terms unchanged", which would mark a paid venue
+     as free. */
   var FREE_RE = /免费|免票|不收费|不收门票|无门票|无入园费/;
   var PRICE_RE = /\$\s?[\d.]+(?:\s*[–\-~]\s*\$?\s?[\d.]+)?/;
 
@@ -84,8 +93,9 @@
     return m ? m[0].replace(/\s+/g, '') : null;
   }
 
-  /* 返回 'no'（不需预约）/ 'yes'（需预约）/ null（说不清）。
-     顺序要紧：「不需预约」必须先判，否则会被「需预约」抢先匹配掉。 */
+  /* Returns 'no' (no booking needed) / 'yes' (booking required) / null (cannot tell).
+     Order matters: "no booking needed" must be tested first, or the "booking required"
+     pattern matches it away. */
   function bookState(plain) {
     if (!plain) return null;
     if (/不需预约|无需预约|不必预约|不需要预约|不需预订|无需预订/.test(plain)) return 'no';
@@ -93,7 +103,7 @@
     return null;
   }
 
-  /* 一个景点的可筛选属性，同时喂给速览条、筛选器和「附近景点」。 */
+  /* The filterable attributes of one spot, feeding the quick-look bar, the filters and "nearby spots". */
   function facts(s) {
     var a = s.access || {};
     var visit = plainText(a.visit), ticket = plainText(a.ticket),
@@ -111,9 +121,11 @@
     };
   }
 
-  /* 把一条要点拆成摘要与详情。
-     数据的书写规范是每条以 <strong>一句话结论</strong> 开头（见 tools/SCHEMA.md），
-     所以首个加粗段天然就是摘要。没有加粗开头的旧条目退回按首个句末标点切。 */
+  /* Split a key point into summary and detail.
+     The data convention is that every point opens with <strong>a one-sentence
+     conclusion</strong> (see tools/SCHEMA.md), so the first bold run is naturally the
+     summary. Older entries with no bold opener fall back to splitting at the first
+     sentence-ending punctuation. */
   function splitLead(html) {
     var s = String(html);
     var m = /^\s*<strong>([\s\S]*?)<\/strong>\s*/.exec(s);
@@ -123,7 +135,7 @@
     return { lead: s, rest: '', bold: false };
   }
 
-  /* 详情短于这个字数就不值得再加一层点击，页面会把整条平铺显示 */
+  /* A detail shorter than this is not worth another click, so the page lays the whole point out flat */
   var FLAT_UNDER = 24;
 
   return {

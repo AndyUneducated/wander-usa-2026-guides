@@ -1,7 +1,8 @@
-/* ===== 全部景点总表 =====
-   把四个地域的 data.js 汇到一页，做成可搜索、可按游览价值排序的清单。
-   每个地域的 data.js 都声明 `var REGIONS = [...]`，后加载的会覆盖前一个，
-   所以这里逐个顺序加载、每次加载完立刻取走结果，不能并行。 */
+/* ===== The all-spots table =====
+   Pulls the data.js of all four regions into one page as a searchable list that can
+   be sorted by visit value. Every region's data.js declares `var REGIONS = [...]`, so
+   a later load overwrites the previous one — we load them one at a time and take the
+   result away immediately after each load. They cannot be loaded in parallel. */
 
 (function () {
   'use strict';
@@ -20,26 +21,26 @@
   };
   var plain = function (s) { return String(s == null ? '' : s).replace(/<[^>]+>/g, ''); };
 
-  /* 景点名做成可复制按钮（见 assets/copy.js）。整行是个跳转链接，
-     copy.js 的处理器会拦掉点击，点名字只复制、不跳转。 */
+  /* Spot names become copy buttons (see assets/copy.js). The whole row is a link, but
+     the copy.js handler swallows the click, so clicking a name copies without navigating. */
   function cpNames(str, cls) {
     return window.WUCopy ? window.WUCopy.names(str, cls) : esc(str);
   }
 
-  /* 星级走 assets/rating.js 的内联 SVG，不依赖字体里有没有 ★ 的字形 */
+  /* Stars go through the inline SVG in assets/rating.js, so we do not depend on a font having a ★ glyph */
   function stars(score, size) {
     return window.WURating ? window.WURating.stars(score, { size: size || 12 }) : '';
   }
 
-  /* 景点坐标：优先第一个机位的坐标，其次景点本身的坐标。
-     和 app.js 里的 spotCoord 同一套口径，两边算出来的距离才对得上。 */
+  /* Spot coordinate: prefer the first shooting position, otherwise the spot's own
+     coordinate. Same rule as spotCoord in app.js, so both sides compute equal distances. */
   function coordOf(s) {
     return (s.shots && s.shots[0] && (s.shots[0].view || s.shots[0].park || s.shots[0].at)) ||
       s.at || null;
   }
 
-  /* 参观时长 → 分钟数，给「用时短优先」排序用。
-     规则与地域手册页共用 assets/facts.js，两边排出来的顺序才一致。 */
+  /* Visit duration to minutes, for the "shortest first" sort. The rule is shared with
+     the region handbook pages via assets/facts.js so both produce the same ordering. */
   function mins(s) {
     return window.WUFacts.visitMins(plain((s.access || {}).visit));
   }
@@ -72,7 +73,7 @@
     })();
   }
 
-  /* 参观时长压成一个短标签，抽不出区间的直接截断——总表一行只有一行的位置 */
+  /* Squeeze the visit duration into a short label; if no range can be extracted just truncate — a table row only has one line of room */
   function visitLabel(s) {
     var v = plain((s.access || {}).visit);
     if (!v) return '';
@@ -105,7 +106,7 @@
           : '<span class="xr-must xr-nomust" title="该条目尚未评游览价值">' +
             (s.score != null ? '摄影 ' + s.score + '/5' : '—') + '</span>') +
         (visit ? '<span class="xr-visit">⏱ ' + esc(visit) + '</span>' : '') +
-        /* 定位之后才有距离，平时这一格不存在 */
+        /* There is no distance until we have a location fix; normally this cell does not exist */
         (row.d != null
           ? '<span class="xr-dist">📍 ' + window.WUGeo.fmt(row.d) + '</span>' : '') +
       '</span>' +
@@ -131,8 +132,9 @@
     var sortBtns = document.querySelectorAll('[data-sort]');
     var sort = 'must';
 
-    /* 缺值的条目一律排到最后，而不是当 0 分混在里面——
-       socal 那批没有 must，按游览价值排时不该顶在中间。 */
+    /* Entries with a missing value always sort to the end rather than being mixed in
+       as a 0 — the socal batch has no must, and should not land in the middle of a
+       visit-value sort. */
     function byNum(get, desc) {
       return function (a, b) {
         var av = get(a), bv = get(b);
@@ -174,8 +176,9 @@
 
     Array.prototype.forEach.call(sortBtns, function (b) {
       b.addEventListener('click', function () {
-        /* 「离我最近」要先拿定位。定位是异步的，按钮先进等待态，
-           失败就把原因说清楚并保持原排序，不要静默什么都不做。 */
+        /* "Nearest to me" needs a location fix first. That is async, so the button goes
+           into a waiting state; on failure say why and keep the current sort rather
+           than silently doing nothing. */
         if (b.dataset.sort === 'near') {
           b.classList.add('wait');
           window.WUGeo.locate().then(function (c) {

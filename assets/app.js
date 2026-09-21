@@ -1,4 +1,4 @@
-/* ===== 渲染引擎：把 data.js 里的 REGIONS 渲染成分区地图 + 景点卡片 ===== */
+/* ===== Rendering engine: turn REGIONS from data.js into per-region maps + spot cards ===== */
 
 (function () {
   'use strict';
@@ -8,15 +8,16 @@
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   };
 
-  /* 星级一律走 assets/rating.js 的内联 SVG。以前用 ★☆⯨ 拼字符，
-     半星那个字符在多数 Windows 字体里没有字形，会渲染成一排黄色小方块。
-     rating.js 没加载上时退回纯数字，不让整页跟着挂掉。 */
+  /* Star ratings always go through the inline SVG in assets/rating.js. They used to be
+     spelled out with ★☆⯨; the half-star character has no glyph in most Windows fonts
+     and rendered as a row of yellow squares. If rating.js did not load, fall back to a
+     bare number instead of taking the whole page down with it. */
   function stars(score) {
     if (window.WURating) return window.WURating.stars(score, { size: 13 });
     return score + '/5';
   }
 
-  /* 坐标 → Apple / Google 导航链接。Apple Maps 在 macOS + iPhone 上直接开原生地图 */
+  /* Coordinates to Apple / Google navigation links. Apple Maps opens the native map directly on macOS + iPhone */
   function geoLinks(coord, label) {
     if (!coord) return '';
     var lat = coord[0], lon = coord[1];
@@ -77,9 +78,10 @@
     }).join('') + '</div>';
   }
 
-  /* 标题里每个专名都做成可复制按钮，点哪个复制哪个（见 assets/copy.js）。
-     点标题不再展开卡片，展开交给卡头其余部分——否则每复制一次都会顺手
-     把卡片撑开。copy.js 没加载上时退回纯文本标题，不让整页渲染跟着挂掉。 */
+  /* Every proper noun in the title is its own copy button — click one, copy that one
+     (see assets/copy.js). Clicking the title no longer expands the card; expanding is
+     left to the rest of the card head, or every copy would also pop the card open.
+     If copy.js did not load, fall back to a plain title so the page still renders. */
   function renderTitle(s) {
     var cp = window.WUCopy;
     if (!cp) {
@@ -98,32 +100,35 @@
     return '<div class="tags">' + (extra || '') + items + '</div>';
   }
 
-  /* 卡头评分。游览价值与摄影价值两行并列、星级左端对齐，扫一眼就能比出高低。
-     分档文字（「值得专程前往」等）只在悬停/点击时出现，卡头保持极简。
-     socal 建站时只有摄影评分、没有 must 字段，这类条目只渲染摄影那一行，
-     不会把摄影分冒充成游览分。 */
+  /* Card-head scores. Visit value and photo value sit on two rows with their stars
+     left-aligned, so you can compare at a glance. The tier text ("worth a special trip"
+     and friends) only shows on hover/click; the card head stays minimal. socal was
+     built with photo scores only and no must field, so those entries render just the
+     photo row and never pass a photo score off as a visit score. */
   function renderScore(s) {
     if (!window.WURating) return '';
     var b = window.WURating.block(s.must, s.score);
     return b ? '<div class="card-score">' + b + '</div>' : '';
   }
 
-  /* 硬信息的抽取规则统一在 assets/facts.js 里，页面与校验脚本共用同一份，
-     否则显示出来的值和 tools/check_render.js 算出来的值迟早对不上。 */
+  /* The rules for extracting hard facts all live in assets/facts.js, shared by the page
+     and the checking scripts; otherwise the values displayed and the values
+     tools/check_render.js computes would drift apart sooner or later. */
   var F = window.WUFacts;
   var plainText = F.plainText;
   var facts = F.facts;
 
-  /* 收起状态下最该看到的一条硬信息：要待多久。
-     完整的票价与开放时间在展开后的速览条与可达性表里。 */
+  /* The one hard fact worth seeing while collapsed: how long you need there.
+     Full prices and opening hours are in the quick-look bar and access table once expanded. */
   function renderMeta(f) {
     if (!f.visit) return '';
     return '<span class="meta-chip" title="' + esc(f.visit) + '">⏱ ' +
       esc(f.dur || f.visit.slice(0, 14)) + '</span>';
   }
 
-  /* 展开后的第一屏：车上查手册时最常问的四件事，不用再往下翻可达性表。
-     每格显示抽出来的短值，完整原文在 title 里，点一下也能跳到可达性表。 */
+  /* The first screen after expanding: the four things most often asked when checking the
+     handbook in the car, so you need not scroll down to the access table. Each cell shows
+     the extracted short value, the full original is in the title, and a tap jumps to the table. */
   function renderQuick(f) {
     var items = [
       ['⏱', '时长', f.dur, f.visit],
@@ -140,19 +145,20 @@
     }).join('') + '</div>';
   }
 
-  /* ---------- 要点：摘要在外，详情在内 ----------
-     数据的书写规范是每条要点以 <strong>一句话结论</strong> 开头
-     （「怎么逛」100% 符合、「看什么」85% 符合，加粗首句平均 35–41 字）。
-     所以首个加粗段天然就是这一条的摘要：默认只显示它，一行一条，
-     整段详情收在里面点开。这样一张卡片展开后先是一份可扫的要点清单，
-     想深入哪一条再展开哪一条，不必一上来读两千字。
-     拆分规则见 assets/facts.js 的 splitLead。 */
+  /* ---------- Key points: summary outside, detail inside ----------
+     The data convention is that every point opens with <strong>a one-sentence
+     conclusion</strong> ("how to tour" complies 100%, "what to see" 85%, bold openers
+     average 35-41 characters), so the first bold run is naturally the summary of that
+     point: by default only it is shown, one line per point, with the whole detail
+     folded inside. An expanded card is then a scannable checklist of points, and you
+     expand whichever one you want rather than reading two thousand characters up front.
+     The splitting rule is splitLead in assets/facts.js. */
   function renderPoints(list) {
     if (!list) return '';
     if (!Array.isArray(list)) return '<div class="v">' + list + '</div>';
     return '<ul class="pts">' + list.map(function (item) {
       var p = F.splitLead(item);
-      /* 详情太短就不值得再加一层点击，整条平铺出来 */
+      /* A detail this short is not worth another click, so lay the whole point out flat */
       if (plainText(p.rest).length < F.FLAT_UNDER) {
         return '<li class="pt pt-flat">' + item + '</li>';
       }
@@ -163,8 +169,9 @@
     }).join('') + '</ul>';
   }
 
-  /* 供搜索框匹配的纯文本。标签与 tldr 里的信息量最大，正文太长反而会让
-     搜索结果失去区分度，所以只索引标题、结论与标签。 */
+  /* Plain text for the search box to match on. Tags and tldr carry the most information;
+     the body text is so long it would blur the results instead, so we only index the
+     title, the conclusion and the tags. */
   function searchBlob(s, regionName) {
     return [s.en, s.name, s.id, regionName, String(s.tldr || ''),
       (s.tags || []).map(function (t) { return t.t; }).join(' ')]
@@ -172,10 +179,10 @@
   }
 
   function renderCard(s, regionName) {
-    /* details/summary：默认收起，点标题展开。打印时 CSS 会强制全部展开 */
+    /* details/summary: collapsed by default, click the title to expand. When printing, CSS force-expands everything */
     var thumb = (s.images && s.images[0] && s.images[0].url) || '';
     var f = facts(s);
-    /* 抽出来的硬信息挂到 data-* 上，筛选与排序直接读它们，不用再解析一遍富文本 */
+    /* The extracted hard facts hang off data-*, so filtering and sorting read them directly instead of parsing the rich text again */
     var h = '<details class="card' + (s.gone ? ' gone' : '') + '" id="' + esc(s.id) +
       '" data-search="' + esc(searchBlob(s, regionName)) + '"' +
       ' data-must="' + (s.must == null ? '' : s.must) + '"' +
@@ -186,9 +193,10 @@
       ' data-paid="' + (f.paid ? '1' : '') + '"' +
       ' data-n="' + s.n + '">';
     h += '<summary class="card-head">' +
-      /* gone 的点位也保留编号：否则可见编号会出现空档，
-         且同一分区有多个 gone 时地图上会出现多个无法区分的标记。
-         「不可抵达」靠红色与删除线表达，见 style.css 的 .card.gone .card-num */
+      /* Gone spots keep their number too: otherwise the visible numbering has holes in
+         it, and with several gone spots in one region the map gets several markers you
+         cannot tell apart. "Unreachable" is carried by the red colour and the strikethrough,
+         see .card.gone .card-num in style.css */
       '<div class="card-num">' + s.n + '</div>' +
       (thumb
         ? '<div class="card-thumb"><img loading="lazy" src="' + thumb + '" alt=""></div>'
@@ -204,28 +212,35 @@
       '</summary>';
 
     h += '<div class="card-body">';
-    /* 展开后的信息架构，顺序即优先级：
-         速览条   —— 时长／门票／开放／预约，路上查手册第一眼要的就是这四个
-         看什么   —— 到了看哪几样东西（原「核心看点」）
-         怎么逛   —— 按什么顺序走、跳过什么、厕所餐饮在哪（原「游览要点」）
-       原来两块叫「核心看点」与「游览要点」，名字听着是一回事，读者自然觉得重复。
-       其实前者讲「看的对象」、后者讲「走的方法」，改成「看什么／怎么逛」之后
-       两块的分工一眼就清楚了，内容本身不用动。
-       实用信息与注意事项在后，摄影两块最后，作为辅助。 */
+    /* Information architecture after expanding; the order is the priority:
+         quick-look bar -- duration/ticket/hours/booking, the four things you look at
+                           first when checking the handbook on the road
+         what to see    -- the things you actually go and look at (was "core highlights")
+         how to tour    -- what order to walk it, what to skip, where the toilets and
+                           food are (was "touring tips")
+       The two blocks used to be called "core highlights" and "touring tips"; the names
+       sound like the same thing, so readers naturally felt they were duplicates. The
+       first is really about what you look at and the second about how you walk it, and
+       renaming them to "what to see" / "how to tour" makes the split obvious at a
+       glance without touching the content itself.
+       Practical info and warnings come after, and the two photography blocks last, as extras. */
     h += renderQuick(f);
     if (s.highlights) h += '<div class="row"><div class="k">看什么</div>' + renderPoints(s.highlights) + '</div>';
     if (s.tour) h += '<div class="row"><div class="k">怎么逛</div>' + renderPoints(s.tour) + '</div>';
     if (s.access) h += '<div class="row"><div class="k">实用信息</div>' + renderAccess(s.access) + '</div>';
-    /* 注意事项不做折叠：它本来就是短句（整条中位 85 字，比要点短一半多），
-       而且内容多半是安检、禁拍、季节封闭这类「不知道会吃亏」的约束。
-       把半句安全提示藏在点击后面，省下的版面不值得。 */
+    /* Warnings are never folded: they are short sentences to begin with (median 85
+       characters per item, less than half the length of a key point), and mostly they
+       are constraints like security screening, photo bans and seasonal closures — the
+       kind you pay for not knowing. Hiding half a sentence of safety advice behind a
+       click does not save enough space to be worth it. */
     if (s.notes) h += '<div class="row"><div class="k">注意事项</div>' + renderList(s.notes) + '</div>';
-    /* 摄影内容整体折叠：这本手册以游玩为主，机位是给有需要的人的附加信息，
-       默认展开会把「看什么、要多久」挤到屏幕外面去。
+    /* The photography block folds as a whole: this handbook is mainly about visiting, and
+       shooting positions are extra information for those who want them; expanded by
+       default they push "what to see" and "how long" off the screen.
 
-       但加州海岸那批条目偏重摄影机位、没有 tour 字段，摄影内容就是它们的主体；
-       一并折叠等于把整张卡片清空。所以只对带 tour 的条目折叠，
-       其余条目仍按原样平铺显示。 */
+       But the California coast entries lean on shooting positions and have no tour field,
+       so photography is their main body — folding it as well would empty the whole card.
+       So we only fold for entries that have a tour, and the rest stay laid out flat. */
     var fold = !!(s.tour && s.tour.length);
     if (s.photo || (s.shots && s.shots.length)) {
       h += '<details class="photo-fold"' + (fold ? '' : ' open') + '><summary>' +
@@ -246,11 +261,13 @@
     return h;
   }
 
-  /* ---------- 地图 ---------- */
+  /* ---------- Maps ---------- */
 
-  /* 子地区配色。多数地域的 data.js 给所有子地区写了同一个 color（那是整本
-     手册的主色），直接拿来用的话总地图上七个子地区全是一个颜色、图例也就白搭了。
-     所以只在各子地区颜色本来就互不相同时沿用数据里的值，否则按调色板分配。 */
+  /* Sub-region colours. In most regions data.js gives every sub-region the same color
+     (the main colour of the whole handbook); used as is, all seven sub-regions on the
+     overview map come out one colour and the legend is worthless. So we only keep the
+     values from the data when the sub-region colours already differ from each other,
+     and otherwise hand them out from the palette. */
   var PALETTE = ['#4d9bff', '#3fcbdd', '#f06292', '#9ccc65', '#ba68c8',
                  '#7986cb', '#4bd18a', '#a78bfa', '#5ac8fa', '#e57373'];
   var COLORS = [];
@@ -268,9 +285,10 @@
 
   function baseMap(el) {
     var map = L.map(el, { scrollWheelZoom: false });
-    /* 底图用 Esri Dark Gray Canvas：免密钥，且深色和本站配色一致。
-       原先用的 CARTO dark_all 已改为需要 API key，会返回「API KEY REQUIRED」水印图。
-       Dark Gray Base 不含地名，所以要再叠一层 Reference 做标注。 */
+    /* Base map is Esri Dark Gray Canvas: no key needed, and the dark tone matches the
+       site palette. The CARTO dark_all we used before now requires an API key and
+       returns tiles watermarked "API KEY REQUIRED". Dark Gray Base carries no place
+       names, so a Reference layer is stacked on top for the labels. */
     var ESRI = 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/';
     var ESRI_ATTR = 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ';
     L.tileLayer(ESRI + 'World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
@@ -279,7 +297,7 @@
     L.tileLayer(ESRI + 'World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
       maxZoom: 16, pane: 'shadowPane'
     }).addTo(map);
-    /* 点一下才启用滚轮缩放，避免页面滚动被地图吃掉 */
+    /* Wheel zoom only switches on after a click, so the map does not swallow page scrolling */
     map.on('click', function () { map.scrollWheelZoom.enable(); });
     map.on('mouseout', function () { map.scrollWheelZoom.disable(); });
     return map;
@@ -327,9 +345,11 @@
     return map;
   }
 
-  /* 全区总地图：一本手册里所有子地区的景点标在同一张图上，颜色区分子地区。
-     分区地图只能回答「这个子地区里怎么串」，看不出整趟路线的骨架——
-     哪几个子地区其实挨着、哪个是甩出去的支线，都要在这张图上才看得出来。 */
+  /* All-region overview map: every spot from every sub-region of one handbook on a
+     single map, colour-coded by sub-region. A sub-region map can only answer "how do I
+     string this sub-region together" and shows nothing of the skeleton of the trip —
+     which sub-regions actually sit next to each other, and which one is the detour
+     hanging off the side, is only visible on this map. */
   function buildAllMap(regions) {
     var el = document.getElementById('map-all');
     if (!el) return;
@@ -369,29 +389,35 @@
     host.parentNode.insertBefore(sec, host);
   }
 
-  /* ---------- 附录折叠 ----------
-     附录是五六节查表型数据，平铺开来比正文还长，滚到页尾得先划过一屏日出方位表。
-     这里把每一节收成一张默认关着的卡片：标题只留主干，括号里的限定语降成小字，
-     再自动标出「这一节说的是哪些景点」——读者扫标题就知道该点开哪一张。
+  /* ---------- Folding the appendix ----------
+     The appendix is five or six sections of lookup-table data; laid out flat it is longer
+     than the body text, and scrolling to the end of the page means wading through a
+     screenful of sunrise-bearing tables. Here each section is folded into a card that is
+     closed by default: the title keeps only its main clause, the qualifier in parentheses
+     drops to small print, and we automatically mark which spots the section covers — scan
+     the titles and you know which card to open.
 
-     切分规则：一个 h3.apx-h 起一节，到下一个 h3.apx-h 为止。 */
+     Splitting rule: an h3.apx-h starts a section, which runs until the next h3.apx-h. */
 
-  /* 这一节涉及哪些景点：拿正文文本去撞景点索引里的名字。
-     附录表格第一列写的就是景点名，撞得相当准；撞不到的（例如按城市列的
-     日出日落表）不硬凑，如实说「全区通用」。 */
+  /* Which spots a section involves: run its body text against the names in the spot
+     index. The first column of the appendix tables is the spot name, so the hits are
+     quite accurate; where nothing hits (a sunrise/sunset table listed by city, say) we
+     do not force it and honestly say it applies to the whole region. */
   function apxScope(nodes) {
     var txt = nodes.map(function (n) { return n.textContent || ''; }).join(' ');
     var hits = [];
     (window.WUIndex || []).forEach(function (i) {
-      /* 表里常写简称（The Met / Statue of Liberty），所以英文名再取一个
-         「第一个连接词之前」的短形式。太短的名字容易误撞，直接不参与匹配。 */
+      /* The tables often use short names (The Met / Statue of Liberty), so we derive a
+         second short form of the English name: everything before the first connector.
+         Names that are too short hit by accident, so they do not take part in matching. */
       var keys = [i.en, String(i.en || '').split(/\s*[&（(:：·]/)[0].trim()];
       var hit = keys.some(function (k) { return k.length >= 6 && txt.indexOf(k) > -1; }) ||
         (i.name && i.name.length >= 3 && txt.indexOf(i.name) > -1);
       if (hit) hits.push(i);
     });
-    /* 撞上一两个名字多半是正文里顺带提了一句，不代表这一节是讲它们的
-       （日出日落表按城市列，却会捎带提到某个景点）。够三个才算数。 */
+    /* Hitting one or two names usually just means the text mentions them in passing and
+       the section is not about them (a sunrise/sunset table is listed by city but will
+       still name a spot here and there). Three hits is the threshold for counting. */
     if (hits.length < 3) return '全区通用';
     var names = hits.slice(0, 3).map(function (i) { return i.name || i.en; });
     return hits.length + ' 个景点 · ' + names.join('、') + (hits.length > 3 ? ' 等' : '');
@@ -416,7 +442,7 @@
       var key = '';
       var m = /^([A-Z])[.．、]\s*/.exec(raw);
       if (m) { key = m[1]; raw = raw.slice(m[0].length); }
-      /* 「（示例日期，EDT）」这类限定语从标题里摘出来降成小字，标题只留主干 */
+      /* Qualifiers like "(example date, EDT)" are lifted out of the title and dropped to small print; the title keeps only its main clause */
       var note = '';
       var p = /（([^）]*)）\s*$/.exec(raw);
       if (p) { note = p[1]; raw = raw.slice(0, p.index).trim(); }
@@ -438,7 +464,7 @@
     });
   }
 
-  /* ---------- 装配 ---------- */
+  /* ---------- Assembly ---------- */
   function render() {
     var root = document.getElementById('regions');
     var nav = document.getElementById('region-nav');
@@ -456,7 +482,7 @@
     REGIONS.forEach(function (r) {
       var sec = document.createElement('section');
       sec.id = r.id;
-      /* 前置提醒统一移到附录，分区正文直接进入地图 + 卡片 */
+      /* Up-front reminders all move to the appendix; a region's body goes straight into map + cards */
       var hasNotes = (r.callouts && r.callouts.length) || r.lead;
       sec.innerHTML =
         '<div class="wrap">' +
@@ -483,7 +509,7 @@
       }
     });
 
-    /* 附录链接排在所有分区之后 */
+    /* The appendix link goes after all the regions */
     if (nav) {
       var ap = document.createElement('a');
       ap.href = '#appendix';
@@ -491,7 +517,7 @@
       nav.appendChild(ap);
     }
 
-    /* 把各分区的前置提醒汇总到附录（intro.js 已先填好 A–D 节） */
+    /* Gather every region's up-front reminders into the appendix (intro.js has already filled sections A-D) */
     var apxBody = document.getElementById('appendix-body');
     if (apxBody) {
       var blocks = REGIONS.filter(function (r) {
@@ -504,8 +530,9 @@
           renderCallouts(r.callouts) + '</div>';
       });
       if (blocks.length) {
-        /* 平铺进附录容器，不要再套一层 div：foldAppendix 按「h3 起、下一个 h3 止」
-           切分小节，多一层包裹这一节就会被漏掉。 */
+        /* Lay these out flat in the appendix container, do not wrap them in another div:
+           foldAppendix splits sections on "starts at an h3, ends at the next h3", and one
+           more layer of wrapping makes this section get skipped. */
         var wrap = document.createElement('div');
         wrap.innerHTML = '<h3 class="apx-h" data-scope="' + blocks.length +
           ' 个子地区的共性提醒">F. 分区提醒与关键约束</h3>' +
@@ -521,12 +548,13 @@
       if (el) buildMap(el, r, i);
     });
 
-    /* 把景点连坐标一起交给 explore.js：筛选、排序、附近、顺路都用这份索引。
-       附录折叠也要拿它来判断每一节说的是哪些景点，所以得赶在两者之前建好。 */
+    /* Hand the spots and their coordinates to explore.js: filtering, sorting, nearby and
+       route all use this index. Folding the appendix also needs it to work out which
+       spots each section talks about, so it has to be built before both of them. */
     window.WUIndex = buildIndex(REGIONS);
     foldAppendix();
 
-    /* 展开 / 收起全部 */
+    /* Expand all / collapse all */
     root.addEventListener('click', function (e) {
       var btn = e.target.closest && e.target.closest('.card-toolbar button');
       if (!btn) return;
@@ -536,9 +564,10 @@
       sec.querySelectorAll('details.card').forEach(function (d) { d.open = open; });
     });
 
-    /* 从地图图钉或目录跳过来时，自动展开目标卡片。
-       目标也可能埋在折叠的附录小节里（分区提醒就是），所以逐层往上把
-       祖先的 details 一并打开，否则浏览器会滚到一个收着的壳子上。 */
+    /* When arriving from a map pin or the table of contents, expand the target card
+       automatically. The target may also be buried in a folded appendix section (the
+       region reminders are), so we walk up and open every ancestor details as well, or
+       the browser scrolls to a closed shell. */
     function openFromHash() {
       var id = decodeURIComponent(location.hash.slice(1));
       if (!id) return;
@@ -549,8 +578,8 @@
         d.open = true;
         d = d.parentNode && d.parentNode.closest ? d.parentNode.closest('details') : null;
       }
-      /* 目录里的「总览」指向的是整节，而正文折在这一节里面，
-         只往上找祖先的话会滚到一个收着的标题栏上。 */
+      /* The "overview" entry in the contents points at the whole section while the body
+         is folded inside it; only walking up to ancestors lands on a closed heading bar. */
       var inner = el.querySelector && el.querySelector('details.sec-fold');
       if (inner) inner.open = true;
       el.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -558,7 +587,7 @@
     window.addEventListener('hashchange', openFromHash);
     openFromHash();
 
-    /* 打印/导出 PDF 前展开全部（浏览器默认会隐藏收起的 details，CSS 覆盖不了） */
+    /* Expand everything before printing / exporting to PDF (browsers hide collapsed details by default and CSS cannot override it) */
     var printRestore = [];
     window.addEventListener('beforeprint', function () {
       printRestore = [];
@@ -571,9 +600,10 @@
       printRestore.forEach(function (p) { p[0].open = p[1]; });
     });
 
-    /* 点评分那一行，把「值得专程前往」这类分档文字亮出来。
-       触屏没有悬停，所以需要这个；又因为评分块长在 <summary> 里，
-       必须拦掉冒泡，否则每看一次分档说明都会顺手把卡片撑开。 */
+    /* Clicking the score row reveals tier text such as "worth a special trip".
+       Touchscreens have no hover, so this is needed; and because the score block grows
+       inside the <summary>, the bubbling has to be stopped, or every look at the tier
+       text would also pop the card open. */
     root.addEventListener('click', function (e) {
       var row = e.target.closest && e.target.closest('.rt-row');
       if (!row) return;
@@ -589,8 +619,9 @@
     if (window.WUExplore) window.WUExplore.init();
   }
 
-  /* 一份扁平的景点索引，带坐标与抽好的硬信息。explore.js 只认这个结构，
-     all.html 那边也按同样的形状自己拼一份，两边共用同一套探索功能。 */
+  /* A flat index of spots with coordinates and pre-extracted hard facts. explore.js only
+     understands this structure, and all.html builds its own in the same shape, so both
+     sides share one set of explore features. */
   function buildIndex(regions) {
     var out = [];
     regions.forEach(function (r, i) {
@@ -608,9 +639,10 @@
     return out;
   }
 
-  /* ---------- 搜索 ----------
-     装在 sticky 顶栏里，全页所有分区的卡片一起过滤。匹配为空的分区整块隐藏，
-     否则页面上会留下一串只有标题和地图的空壳。 */
+  /* ---------- Search ----------
+     Lives in the sticky top bar and filters the cards of every region on the page at
+     once. A region with no matches is hidden whole, or the page is left with a string
+     of shells that are just a heading and a map. */
   function buildSearch() {
     var bar = document.querySelector('.topbar-inner');
     if (!bar || document.getElementById('q')) return;
@@ -627,8 +659,9 @@
     var input = box.querySelector('#q');
     var count = box.querySelector('#q-count');
 
-    /* 搜索与工具条的筛选是叠加的，所以可见性统一交给 explore.js 裁决，
-       这里只负责把输入事件转过去。explore.js 没加载上时退回只按搜索词过滤。 */
+    /* Search and the toolbar filters stack, so visibility is decided by explore.js alone
+       and this only forwards the input events over there. If explore.js did not load,
+       fall back to filtering by the search term only. */
     function apply() {
       if (window.WUExplore && window.WUExplore.apply) {
         window.WUExplore.apply();
@@ -643,7 +676,7 @@
         if (q && ok) c.open = true;
         if (!q) c.open = false;
       });
-      /* 分区与其地图一起隐藏 */
+      /* A region is hidden together with its map */
       document.querySelectorAll('#regions > section').forEach(function (sec) {
         var any = sec.querySelector('details.card:not([hidden])');
         sec.hidden = !!q && !any;
@@ -652,8 +685,9 @@
       count.classList.toggle('zero', !!q && hits === 0);
     }
 
-    /* 结果在总览与地图下面，不滚一下等于看不见。只在刚开始输入时滚一次，
-       之后每敲一个字都滚会把页面拽得停不下来。 */
+    /* The results sit below the overview and the map, so without a scroll you see
+       nothing. Scroll once, when typing starts; scrolling on every keystroke after that
+       drags the page around endlessly. */
     var wasEmpty = true;
     input.addEventListener('input', function () {
       apply();
@@ -669,9 +703,10 @@
     });
   }
 
-  /* 把还没套滚动容器的表格包进 .tbl-scroll。
-     子地区数据里的 callout 是研究员手写的 HTML，常常直接放裸 <table>，
-     在窄视口下会把整个文档撑宽、出现横向滚动条。这里统一兜底。 */
+  /* Wrap tables that are not already in a scroll container into .tbl-scroll.
+     The callouts in the sub-region data are HTML hand-written by the researchers and
+     often drop in a bare <table>, which in a narrow viewport widens the whole document
+     and produces a horizontal scrollbar. This is the blanket fallback. */
   function wrapWideTables() {
     document.querySelectorAll('table').forEach(function (t) {
       if (t.closest('.tbl-scroll')) return;

@@ -1,9 +1,10 @@
-/* ===== 标题点击即复制 =====
-   这份手册最常见的用法是：看到一个景点，把它的名字粘到 Google Maps 里搜一下、
-   加进收藏夹。所以标题里每个专名都做成独立的可复制按钮，点哪个复制哪个。
+/* ===== Click a title to copy it =====
+   The most common way this handbook gets used: you see a spot, paste its name into
+   Google Maps to search for it, and save it. So every proper noun in a title is its
+   own copy button — click one, copy that one.
 
-   地域页与总表页都要用，所以单独成文件。挂在 window.WUCopy 上，
-   全站用的是不带打包工具的裸 script，没有模块系统。 */
+   Both the region pages and the all-spots table need it, so it gets its own file.
+   It hangs off window.WUCopy; the site is plain scripts, no bundler, no modules. */
 
 (function () {
   'use strict';
@@ -13,18 +14,19 @@
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
 
-  /* 复合标题按专名切开。分隔符用捕获组留在结果里（奇数位），原样输出，
-     这样「Statue of Liberty & Ellis Island」会变成两个按钮而不是一个长串，
-     粘到 Google Maps 里才搜得到。连字符与撇号不算分隔符——
-     Taggart-Bradley、Rocky's 这类名字不能被切开。 */
+  /* Split compound titles at proper-noun boundaries. Separators are a capture group
+     so they stay in the result (the odd indexes) and are emitted verbatim; that way
+     "Statue of Liberty & Ellis Island" becomes two buttons instead of one long string
+     that Google Maps cannot find. Hyphens and apostrophes are not separators —
+     names like Taggart-Bradley and Rocky's must not be split. */
   var SEP = /(\s*(?:[·•｜|/、，,;；]|＆|&|\band\b|与|和)\s*|（|）|\(|\))/;
 
-  /* 把一段标题文本渲染成若干可复制按钮，分隔符原样保留。
-     cls 用来区分中英文两段的样式。 */
+  /* Render a title string into a set of copy buttons, keeping separators as they are.
+     cls is what distinguishes the styling of the English and Chinese halves. */
   function names(str, cls) {
     return String(str == null ? '' : str).split(SEP).map(function (p, i) {
       if (!p) return '';
-      if (i % 2) return esc(p);           /* 奇数位是分隔符，不做成按钮 */
+      if (i % 2) return esc(p);           /* Odd indexes are separators, not buttons */
       var t = p.trim();
       if (!t) return esc(p);
       return '<span class="cp ' + (cls || '') + '" role="button" tabindex="0" data-copy="' +
@@ -47,8 +49,8 @@
     timer = setTimeout(function () { el.className = ''; }, 2000);
   }
 
-  /* 用 file:// 直接打开本地文件时 navigator.clipboard 不可用，退回 execCommand。
-     线上是 https，走前一条路径。 */
+  /* navigator.clipboard is unavailable when a local file is opened over file://, so
+     fall back to execCommand. Live the site is https and takes the first path. */
   function legacy(text) {
     var ta = document.createElement('textarea');
     ta.value = text;
@@ -79,8 +81,9 @@
     }
   }
 
-  /* 标题在 <summary>（地域页）或 <a>（总表页）内部，点击的默认行为是展开卡片、
-     或者跳转到地域页。复制时这两件事都得拦住，否则每复制一次页面就跳一次。 */
+  /* Titles sit inside a <summary> (region pages) or an <a> (all-spots table), where a
+     click expands the card or jumps to the region page. Copying has to block both, or
+     every copy also navigates the page. */
   function bind() {
     if (document.documentElement.hasAttribute('data-cp-bound')) return;
     document.documentElement.setAttribute('data-cp-bound', '1');

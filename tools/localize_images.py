@@ -462,13 +462,14 @@ def main() -> int:
     for url, local in mapping.items():
         existing_rows[Path(local).name] = url
     lines = [
-        f"# 图片来源与署名 · {args.region}",
+        f"# Image Credits · {args.region}",
         "",
-        "本目录图片下载自 Wikimedia Commons 等公开图库，版权归原作者，",
-        "按其原始许可协议（多为 CC BY-SA / CC0 / Public Domain）使用，仅作取景参考。",
-        "如需商用请自行核对每张图片的具体许可。",
+        "The images in this directory were downloaded from Wikimedia Commons and other public",
+        "repositories. Copyright remains with the original authors, and the images are used under",
+        "their original licenses (mostly CC BY-SA / CC0 / Public Domain) for location-scouting",
+        "reference only. For commercial use, check the specific license of each image yourself.",
         "",
-        "| 本地文件 | 原始地址 |",
+        "| Local file | Source URL |",
         "| --- | --- |",
     ]
     for name, url in sorted(existing_rows.items()):
